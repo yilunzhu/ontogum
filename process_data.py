@@ -4,7 +4,12 @@ import numpy as np
 from argparse import ArgumentParser
 
 
-class Coref():
+class Coref(object):
+    """
+    the class of coref units (span mentions), each mention contains text id, tokens, entity types, current coref,
+    next coref, coref type (coref or bridging), head dep function, head pos tag, span's dep functions,
+    span's pos tags, span length
+    """
     def __init__(self):
         self.text_id = str()
         self.tok = str()
@@ -20,7 +25,12 @@ class Coref():
         self.span_len = 1
 
 
-def coref_(fields):
+def coref_(fields: list) -> dict:
+    """
+    find the coref relations between the current entity and next entity
+    example: 15-8[81_3]
+    :param fields: elements in a line
+    """
     coref = {}
     if fields[-1] != '_':
         for x in fields[-1].split('|'):
@@ -35,7 +45,14 @@ def coref_(fields):
     return coref
 
 
-def add_doc(entities, fields, coref, doc):
+def add_doc(entities: dict, fields: list, coref: dict, doc: dict):
+    """
+    add entities (unique id) in the current line to the doc
+    :param entities: entity id and type
+    :param fields: elements in a line
+    :param coref: coref relations
+    :param doc: coref in an article
+    """
     for id, e in entities.items():
         text_id = fields[0]
         k = id
@@ -56,83 +73,79 @@ def add_doc(entities, fields, coref, doc):
                     doc[k].next = coref[id][1]
 
 
-def readDir(depDir, corefDir):
-    articles = []
-    for f in os.listdir(corefDir):
-        filename = f.split('.')[0]
-        doc = {}
+def process_doc(dep_doc, coref_doc) -> dict:
+    """
+    align dep lines in conllu and coref lines in tsv, extract coref-related information for each entity id
+    """
+    doc = {}
 
-        coref_article = io.open(os.path.join(corefDir, f), encoding='utf-8').read().split('\n')
-        dep_article = io.open(os.path.join(depDir, filename + '.conllu'), encoding='utf-8').read().split('\n')
-        dep_article = [l.split('\t') for l in dep_article]
-
-        for coref_line in coref_article:
-            if coref_line.startswith('#'):
+    for coref_line in coref_doc:
+        if coref_line.startswith('#'):
+            continue
+        elif coref_line:
+            coref_fields = coref_line.strip().split('\t')
+            if coref_fields[3] == '_' and coref_fields[4] == '_':
                 continue
-            elif coref_line:
-                coref_fields = coref_line.strip().split('\t')
-                if coref_fields[3] == '_' and coref_fields[4] == '_':
-                    continue
 
-                # entity info
-                entities = {-1 if '[' not in x else x.strip(']').split('[')[1]: x.split('[')[0]
-                            for x in coref_fields[3].split('|')}
+            # entity info
+            entities = {-1 if '[' not in x else x.strip(']').split('[')[1]: x.split('[')[0]
+                        for x in coref_fields[3].split('|')}
 
-                # coref info
-                coref = coref_(coref_fields)
+            # coref info
+            coref = coref_(coref_fields)
 
-                # tsv
-                add_doc(entities, coref_fields, coref, doc)
+            # tsv
+            add_doc(entities, coref_fields, coref, doc)
 
-        # map text_id and entity
-        id_e = {v.text_id: (v.span_len, k) for k,v in doc.items()}
+    # map text_id and entity
+    id_e = {v.text_id: (v.span_len, k) for k,v in doc.items()}
 
-        # dep
-        dep_sent_id = 0
-        for i, dep_line in enumerate(dep_article):
-            if dep_line[0].startswith('# sent_id'):
-                dep_sent_id += 1
-            elif dep_line[0].startswith('#'):
-                continue
-            elif len(dep_line) > 1:
-                # match dep_text_id to the format in coref tsv
-                dep_text_id = f'{dep_sent_id}-{dep_line[0]}'
-                if dep_text_id in id_e:
-                    span_len, entity = id_e[dep_text_id][0], id_e[dep_text_id][1]
-                    if span_len == 1:
-                        doc[entity].head_func = dep_line[7]
-                        doc[entity].head_pos = dep_line[4]
-                        doc[entity].func = dep_line[7]
-                        doc[entity].pos = dep_line[4]
-                    else:
-                        heads = [dep_article[x] for x in range(int(i), int(i)+span_len)]
-                        head_range = [dep_article[x][0] for x in range(int(i), int(i)+span_len)]
-                        for row in heads:
-                            if row[6] == '0':
-                                doc[entity].head_func = row[7]
-                                doc[entity].head_pos = row[4]
-                            # if the head is outside the range, it's the head of the entity
-                            elif row[6] not in head_range:
-                                doc[entity].head_func = row[7]
-                                doc[entity].head_pos = row[4]
-                            doc[entity].func += f' {row[7]}'
-                            doc[entity].pos += f' {row[4]}'
-                        doc[entity].func = doc[entity].func.strip()
-                        doc[entity].pos = doc[entity].pos.strip()
+    # dep
+    dep_sent_id = 0
+    for i, dep_line in enumerate(dep_doc):
+        if dep_line[0].startswith('# sent_id'):
+            dep_sent_id += 1
+        elif dep_line[0].startswith('#'):
+            continue
+        elif len(dep_line) > 1:
+            # match dep_text_id to the format in coref tsv
+            dep_text_id = f'{dep_sent_id}-{dep_line[0]}'
+            if dep_text_id in id_e:
+                span_len, entity = id_e[dep_text_id][0], id_e[dep_text_id][1]
+                if span_len == 1:
+                    doc[entity].head_func = dep_line[7]
+                    doc[entity].head_pos = dep_line[4]
+                    doc[entity].func = dep_line[7]
+                    doc[entity].pos = dep_line[4]
+                else:
+                    heads = [dep_doc[x] for x in range(int(i), int(i)+span_len)]
+                    head_range = [dep_doc[x][0] for x in range(int(i), int(i)+span_len)]
+                    for row in heads:
+                        if row[6] == '0':
+                            doc[entity].head_func = row[7]
+                            doc[entity].head_pos = row[4]
+                        # if the head is outside the range, it's the head of the entity
+                        elif row[6] not in head_range:
+                            doc[entity].head_func = row[7]
+                            doc[entity].head_pos = row[4]
+                        doc[entity].func += f' {row[7]}'
+                        doc[entity].pos += f' {row[4]}'
+                    doc[entity].func = doc[entity].func.strip()
+                    doc[entity].pos = doc[entity].pos.strip()
 
-                        if doc[entity].head_func == '':
-                            raise ValueError('The head feature is empty.')
+                    if doc[entity].head_func == '':
+                        raise ValueError('The head feature is empty.')
 
-        articles.append(doc)
+    return doc
 
 
-if __name__ == '__main__':
-    parser = ArgumentParser()
-    parser.add_argument('--dep', default=os.path.join('gum', 'dep', 'ud'), help='Path to the gum/dep/ud directory')
-    parser.add_argument('--coref', default=os.path.join('gum', 'coref', 'tsv'), help='Path to the gum/coref/tsv directory')
-    args = parser.parse_args()
-
-    dep_dir = args.dep
-    coref_dir = args.coref
-
-    readDir(dep_dir, coref_dir)
+# if __name__ == '__main__':
+#     parser = ArgumentParser()
+#     parser.add_argument('--dep', default=os.path.join('gum', 'dep', 'ud'), help='Path to the gum/dep/ud directory')
+#     parser.add_argument('--coref', default=os.path.join('gum', 'coref', 'tsv'), help='Path to the gum/coref/tsv directory')
+#     args = parser.parse_args()
+#
+#     dep_dir = args.dep
+#     coref_dir = args.coref
+#
+#     readDir(dep_dir, coref_dir)
