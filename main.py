@@ -5,7 +5,7 @@ from func import Convert
 
 def main(depDir, corefDir) -> dict:
     """
-    read dep collnu file and coref tsv file in the gum directory
+    read dep conllu file and coref tsv file in the gum directory
     :return: a dictionary of one article containing all corefered entities
     """
     articles = []
@@ -21,6 +21,7 @@ def main(depDir, corefDir) -> dict:
         doc = process_doc(dep_article, coref_article)
 
         convert = Convert(doc)
+        a = 1
 
         # TODO: return what?
         return doc
