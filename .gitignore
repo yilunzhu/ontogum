@@ -1,5 +1,5 @@
 # ignore gum
 ./gum/
-./out
-./tsv
-./ori_html
+./out/
+./tsv/
+./ori_html/
