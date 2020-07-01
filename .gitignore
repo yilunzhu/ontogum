@@ -1,0 +1,5 @@
+# ignore gum
+./gum/
+./out
+./tsv
+./ori_html
