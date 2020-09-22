@@ -1,5 +1,6 @@
-import io, os, sys
+import io, os, sys, re
 from collections import defaultdict
+from copy import deepcopy
 import pandas as pd
 import numpy as np
 from argparse import ArgumentParser
@@ -25,7 +26,17 @@ class Coref(object):
         self.pos = str()
         self.span_len = 1
         self.child_cop = bool()
-
+        self.dep_appos = bool()
+        self.appos = list()
+        self.acl_children = list()
+        self.appos_father = str()
+        self.seen = str()
+        self.delete = bool()
+        self.definite = bool()
+        self.nmod_poss = bool()
+        self.new_e = bool()
+        self.replaced_by = str()
+        self.appos_point_to = str()
 
 def coref_(fields: list) -> dict:
     """
@@ -34,6 +45,7 @@ def coref_(fields: list) -> dict:
     :param fields: elements in a line
     """
     coref = {}
+    line_id = fields[0]
     # when the entity has not coref relations except that it is pointed to by other entities
     if fields[-1] != '_':
         coref_types = fields[-2].split('|')
@@ -55,7 +67,7 @@ def coref_(fields: list) -> dict:
             elif fields[-2] != '_':
                 coref_type = coref_types[i]
 
-            coref[cur_e] = (point_to, next_e, coref_type)
+            coref[(cur_e, line_id)] = (point_to, next_e, coref_type)
 
     return coref
 
@@ -77,10 +89,10 @@ def add_tsv(entities: dict, fields: list, coref_r: dict, doc: dict, entity_group
             doc[k].span_len += 1
 
         else:   # if the word is B-NE (e.g. B-PER) of the named entity, create a new Coref class
-            if k in coref_r.keys() or '' in coref_r.keys():
+            if (k, text_id) in coref_r.keys() or '' in coref_r.keys():
                 if_fake = True if '' in coref_r.keys() else False   # if the NE does not have id, create a fake id
-                new_id = f'0_{text_id}' if if_fake else k
-                if f'0_{text_id}' in doc.keys():
+                new_id = (f'0_{text_id}', text_id) if if_fake else (k, text_id)
+                if (f'0_{text_id}', text_id) in doc.keys():
                     del doc[new_id]
 
                 doc[new_id] = Coref()
@@ -88,27 +100,29 @@ def add_tsv(entities: dict, fields: list, coref_r: dict, doc: dict, entity_group
                 doc[new_id].tok = fields[2]
                 doc[new_id].e_type = e
                 doc[new_id].cur = new_id
-                doc[new_id].coref = coref_r[id][0]
+                doc[new_id].coref = coref_r[(id, text_id)][0]
+                doc[new_id].seen = fields[4].split('[')[0]
 
                 # if the coref does not a named entity
                 # 7-3	397-403	people	person	new	ana	8-7
                 # 8-7	472-476	they	person	giv	coref	9-9
-                if coref_r[id][1] == '' and coref_r[id][0]:
-                    doc[new_id].next = f'0_{coref_r[id][0]}'
+                if coref_r[(id, text_id)][1] == '' and coref_r[(id, text_id)][0]:
+                    doc[new_id].next = f'0_{coref_r[(id, text_id)][0]}'
                 else:
-                    doc[new_id].next = coref_r[id][1]
+                    doc[new_id].next = coref_r[(id, text_id)][1]
 
-                doc[new_id].coref_type = coref_r[id][2]
+                doc[new_id].coref_type = coref_r[(id, text_id)][2]
 
-                next_e = coref_r[id][1]
+                next_e = coref_r[(id, text_id)][1]
 
                 # if the coref.next is not a named entity, create a fake entity id
-                if (coref_r[id][1] == '0' or coref_r[id][1] == ''):
-                    next_e = f'0_{coref_r[id][0]}'
-                    if f'0_{coref_r[id][0]}' not in doc.keys():
+                if (coref_r[(id, text_id)][1].startswith('0') or coref_r[(id, text_id)][1] == ''):
+                    next_e = f'0_{coref_r[(id, text_id)][0]}'
+                    if f'0_{coref_r[(id, text_id)][0]}' not in doc.keys():
                         fake_id = next_e
                         doc[fake_id] = Coref()
-                        doc[fake_id].text_id = coref_r[id][0]
+                        doc[fake_id].text_id = coref_r[(id, text_id)][0]
+                        doc[fake_id].seen = fields[4]
 
                 # combine coref entities in group
                 if_new_group = True
@@ -127,21 +141,23 @@ def add_tsv(entities: dict, fields: list, coref_r: dict, doc: dict, entity_group
                 antecedent_dict[new_id] = next_e
 
             # if the current line does not have coref but it's the coref of the previous entity, add token info
-            elif f'0_{text_id}' in doc.keys():
-                fake_id = f'0_{text_id}'
-                doc[fake_id].etype = e
+            elif (f'0_{text_id}', text_id) in doc.keys():
+                fake_id = (f'0_{text_id}', text_id)
+                doc[fake_id].e_type = e
                 doc[fake_id].tok = fields[2]
+                doc[fake_id].seen = fields[4]
 
             # if no next coref, but has antecedent
             elif k in antecedent_dict.values():
-                doc[k] = Coref()
-                doc[k].text_id = text_id
-                doc[k].tok = fields[2]
-                doc[k].e_type = e
-                doc[k].cur = id
-                doc[k].coref = ''
-                doc[k].next = ''
-                doc[k].coref_type = ''
+                doc[(k, text_id)] = Coref()
+                doc[(k, text_id)].text_id = text_id
+                doc[(k, text_id)].tok = fields[2]
+                doc[(k, text_id)].e_type = e
+                doc[(k, text_id)].cur = id
+                doc[(k, text_id)].coref = ''
+                doc[(k, text_id)].next = ''
+                doc[(k, text_id)].coref_type = ''
+                doc[(k, text_id)].seen = [x.split('[')[0] for x in fields[4].split('|') if k in x][0]
 
     return entity_group, antecedent_dict
 
@@ -157,11 +173,60 @@ def break_dep_doc(doc):
     return sents
 
 
-def check_dep_cop_child(sent: list, head_range: list, head_id: str) -> bool:
-    # head_range = [int(x) for x in head_range]
+def find_acl_child(sent, head):
+    """
+    This function finds the dependency child whose dep func is acl (or acl:rel???) given the dep head as the function
+    input. One head can have more than one acl children
+    """
+    acl_children = []
     for row in sent:
-        if row[0] not in head_range and row[6] == head_id and row[7] == 'cop':
-            return True
+        if row[6] == head and 'acl' in row[7]:
+            acl_children += find_all_dep_children(sent, [row[0]])
+        elif row[6] == head and row[7] == 'acl:relcl':
+            acl_children += find_all_dep_children(sent, [row[0]])
+
+    return acl_children
+
+
+def find_all_dep_children(sent, head):
+    """
+    This function recursively finds all children given a head token id
+    :param sent: a list of tokens with dependency information
+    :param head: the token id (the first column in a conllu format)
+    :return: all token ids under the given head
+    """
+    for row in sent:
+        if row[6] in head and row[0] not in head:
+            head.append(row[0])
+            find_all_dep_children(sent, head)
+    return head
+
+
+def check_appos(sent: list, head_row: list, dep_sent_id) -> bool:
+    """
+    check GUM_fiction_veronique, sent 31, the word "history"
+    """
+    appos = []
+    head_id, head_head_id, head_func = head_row[0], head_row[6], head_row[7]
+    for row in sent:
+        if row[6] == head_id and row[7] == 'appos':
+            appos = sorted([f'{dep_sent_id}-{x}' for x in find_all_dep_children(sent, [row[0]])], reverse=True)
+            # return [(row[0], row[4], row[7]) for row in sent if row[0] in appos]
+            return appos
+    return appos
+
+
+def check_dep_cop_child(sent: list, head_range: list, head_row: list) -> bool:
+    """
+    check GUM_academic_art, sent 25 and GUM_academic_games, sent 6. correct √
+    """
+    head_id, head_head_id, head_func = head_row[0], head_row[6], head_row[7]
+    for row in sent:
+        if row[0] not in head_range and row[7] == 'cop':
+            if row[6] == head_id:
+                return True
+            elif head_func == 'conj' and row[6] == head_head_id:
+                return True
     return False
 
 
@@ -182,7 +247,9 @@ def process_doc(dep_doc, coref_doc):
             line_id, token = coref_fields[0], coref_fields[2]
 
             # test
-            if coref_fields[0] == '9-12':
+            if line_id == '6-4':
+                a = 1
+            if coref_fields[5] == 'appos':
                 a = 1
 
             if coref_fields[3] == '_' and coref_fields[4] == '_':
@@ -200,11 +267,21 @@ def process_doc(dep_doc, coref_doc):
             # tsv
             add_tsv(entities, coref_fields, coref, doc, entity_group, antecedent_dict)
 
+            a = 1
+
     # map text_id and entity
-    id_e = {v.text_id: (v.span_len, k) for k,v in doc.items()}
+    id_e = {}
+    for k, v in doc.items():
+        if v.text_id not in id_e.keys():
+            id_e[v.text_id] = []
+        id_e[v.text_id].append((v.span_len, k))
+    # id_e = {v.text_id: (v.span_len, k) for k,v in doc.items()}
 
     # break the dep conllu into sents
     dep_sents = break_dep_doc(dep_doc)
+
+    # new ids, e.g. appos
+    new_id2entity = {}
 
     # dep
     dep_sent_id = 0
@@ -217,40 +294,142 @@ def process_doc(dep_doc, coref_doc):
 
             # match dep_text_id to the format in coref tsv
             dep_text_id = f'{dep_sent_id}-{dep_line[0]}'
-            if dep_text_id == '15-21':
+            cur_dep_sent = dep_sents[dep_sent_id]
+            if dep_text_id == '7-11':
                 a = 1
+
+            # TODO: 将ide替换为doc.keys()，避免18-26 "these techniques"没有任何dep的信息
             if dep_text_id in id_e:
-                span_len, entity = id_e[dep_text_id][0], id_e[dep_text_id][1]
+                for e in id_e[dep_text_id]:
 
-                # find dep information and index for each word in heads
-                heads = [dep_doc[x] for x in range(int(i), int(i)+span_len) if len(dep_doc[x]) == 10]
-                head_range = [dep_doc[x][0] for x in range(int(i), int(i)+span_len) if len(dep_doc[x]) == 10]
+                    span_len, entity = e[0], e[1]
 
-                # loop each word in the head to find the head_func/head_pos/if_cop_in_dep for the entity
-                for row in heads:
-                    # if find the ROOT
-                    if row[6] == '0':
-                        doc[entity].head = row[1]
-                        doc[entity].lemma = row[2]
-                        doc[entity].head_func = row[7]
-                        doc[entity].head_pos = row[4]
-                        # check if the head has a copula child
-                        doc[entity].child_cop = check_dep_cop_child(dep_sents[dep_sent_id], head_range, row[0])
+                    # if the entity is deleted, check if it is replaced by another entity
+                    if doc[entity].replaced_by:
+                        span_len, entity = doc[doc[entity].replaced_by].span_len, doc[entity].replaced_by
 
-                    # if the head is outside the range, it's the head of the entity
-                    elif doc[entity].head_func == '' and row[6] not in head_range:
-                        doc[entity].head = row[1]
-                        doc[entity].lemma = row[2]
-                        doc[entity].head_func = row[7]
-                        doc[entity].head_pos = row[4]
-                        doc[entity].child_cop = check_dep_cop_child(dep_sents[dep_sent_id], head_range, row[0])
-                    doc[entity].func += f' {row[7]}'
-                    doc[entity].pos += f' {row[4]}'
-                doc[entity].func = doc[entity].func.strip()
-                doc[entity].pos = doc[entity].pos.strip()
+                    # find dep information and index for each word in heads
+                    heads = [dep_doc[x] for x in range(int(i), int(i)+span_len) if len(dep_doc[x]) == 10]
+                    head_range = [dep_doc[x][0] for x in range(int(i), int(i)+span_len) if len(dep_doc[x]) == 10]
+                    head_of_the_phrase = ''
 
-                if doc[entity].head_func == '':
-                    raise ValueError('The head feature is empty.')
+                    # loop each word in the head to find the head_func/head_pos/if_cop_in_dep for the entity
+                    for row in heads:
+
+                        # if find the ROOT
+                        if row[6] == '0':
+                            doc[entity].head = row[1]
+                            doc[entity].lemma = row[2]
+                            doc[entity].head_func = row[7]
+                            doc[entity].head_pos = row[4]
+                            doc[entity].head_id = f'{dep_sent_id}-{row[0]}'
+                            # check if the head has a copula child
+                            doc[entity].child_cop = check_dep_cop_child(cur_dep_sent, head_range, row)
+                            # check whether appos is a child of the current head
+                            doc[entity].appos = check_appos(cur_dep_sent, row, dep_sent_id)
+                            doc[entity].dep_appos = True if row[7] == 'appos' else False
+                            doc[entity].acl_children = find_acl_child(cur_dep_sent, row[0])
+                            head_of_the_phrase = row[0]
+
+                        # if the head is outside the range, it's the head of the entity
+                        elif doc[entity].head_func == '' and row[6] not in head_range:
+                            doc[entity].head = row[1]
+                            doc[entity].lemma = row[2]
+                            doc[entity].head_func = row[7]
+                            doc[entity].head_pos = row[4]
+                            doc[entity].head_id = f'{dep_sent_id}-{row[0]}'
+                            doc[entity].child_cop = check_dep_cop_child(cur_dep_sent, head_range, row)
+                            # check whether appos is a child of the current head
+                            doc[entity].appos = check_appos(cur_dep_sent, row, dep_sent_id)
+                            doc[entity].dep_appos = True if row[7] == 'appos' else False
+                            doc[entity].acl_children = find_acl_child(cur_dep_sent, row[0])
+                            head_of_the_phrase = row[0]
+
+                        doc[entity].func += f' {row[7]}'
+                        doc[entity].pos += f' {row[4]}'
+                    doc[entity].func = doc[entity].func.strip()
+                    doc[entity].pos = doc[entity].pos.strip()
+
+                    # check appositions, align the spans (if it isn't continuous, make it so)
+                    appos = doc[entity].appos
+                    if doc[entity].next and appos:
+                        next = doc[entity].next
+                        tok_id = int(doc[next].text_id.split('-')[-1])
+                        ids = [f'{doc[next].text_id.split("-")[0]}-{tok_id + i}' for i in range(doc[next].span_len)]
+
+                        count = 0
+                        for appos_id in appos:
+                            if appos_id not in ids:
+                                count += 1
+                        span_len = count + doc[next].span_len
+
+                        new_id = next
+                        if appos[0] != doc[next].text_id:
+                            if span_len == 1:
+                               new_id = f'0_{appos[0]}'
+                            else:
+                                last_e = sorted([int(x) for x in doc.keys() if not x.startswith('0_')], reverse=True)[0]
+                                new_id = str(last_e + 1)
+
+                            # create a new entity
+                            doc[new_id] = deepcopy(doc[next])
+                            doc[new_id].text_id = appos[0]
+                            doc[new_id].cur = new_id
+
+                            # make new id as the next coref
+                            doc[entity].next = new_id
+                            doc[entity].coref = appos[0]
+
+
+                            # let the previous next points to the current one, delete coref info
+                            doc[next].replaced_by = new_id
+                            doc[next].coref = ''
+                            doc[next].coref_type = ''
+                            doc[next].next = ''
+
+                        doc[new_id].span_len = span_len
+                        for appos_id in appos:
+                            new_id2entity[appos_id] = [new_id.split('_')[-1] if new_id.startswith('0_') else new_id]
+                            # if appos_id not in doc[new_id].text_id:
+                            #     new_id2entity[appos_id] = [new_id.split('_')[-1] if new_id.startswith('0_') else new_id]
+
+
+                    # check definiteness
+                    """
+                    If it's in the following cases, definite √:
+                        - NP/NPS
+                        - Pronouns (PP, PP$, DT as a head)
+                        - Anything which has deprel 'det' with a lemma 'the/this/that/those/these/all/every..' Maybe take
+                        a look at all lemmas with tok_func="det" in GUM to make a good list of the definite determiners
+                        - Anything possessed (either by 's/' or by a possessive determiner, my, your…, or a genitive 
+                        pronoun like like 'its')
+                    """
+                    HEAD_POS = ['PRP', 'PRP$', 'DT']
+                    LEMMA = ['the', 'this', 'that', 'those', 'these', 'all', 'every', 'any', 'no']
+                    MISC = ['Everyone', 'everyone', 'Anyone', 'anyone']
+                    if entity == '194':
+                        a = 1
+                    if 'NP' in doc[entity].head_pos:
+                        doc[entity].definite = True
+                    elif doc[entity].head_pos in HEAD_POS:
+                        doc[entity].definite = True
+                    elif 'det' in doc[entity].func:
+                        for row in heads:
+                            if row[7] == 'det' and row[2] in LEMMA and row[6] == head_of_the_phrase:
+                                doc[entity].definite = True
+                    elif 'POS' in doc[entity].pos:
+                        for row in heads:
+                            if row[4] == 'POS' and row[6] == doc[entity].head_id.split('-')[-1] and row[6] == head_of_the_phrase:
+                                doc[entity].definite = True
+                    elif doc[entity].lemma in MISC:
+                        doc[entity].definite = True
+
+                    # check if the span is nmod:poss, example: [Zurbarán ’s]
+                    if doc[entity].head_func == 'nmod:poss' and 'POS' in doc[entity].pos:
+                        doc[entity].nmod_poss = True
+
+                    if doc[entity].head_func == '':
+                        raise ValueError('The head feature is empty.')
 
     # group dict
     entity_group = [x for x in entity_group if x]
@@ -261,4 +440,4 @@ def process_doc(dep_doc, coref_doc):
         for x in lst:
             group_dict[x] = group_id
 
-    return doc, tokens, group_dict, antecedent_dict
+    return doc, tokens, group_dict, antecedent_dict, new_id2entity
