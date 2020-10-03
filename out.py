@@ -169,7 +169,7 @@ def to_tsv(doc, coref_article, out_dir, non_singleton, new_id2entity):
         coref_fields[-2], coref_fields[-1] = '', ''
 
         # test
-        if line_id == '61-36':
+        if line_id == '12-5':
             a = 1
 
         # entity info
@@ -185,6 +185,8 @@ def to_tsv(doc, coref_article, out_dir, non_singleton, new_id2entity):
                 id = e
             elif f'0_{line_id}' in doc.keys():
                 id = f'0_{line_id}'
+            elif f'0_{e}' in doc.keys():
+                id = f'0_{e}'
             else:
                 id = ''
 
@@ -265,6 +267,13 @@ def to_tsv(doc, coref_article, out_dir, non_singleton, new_id2entity):
                 else:
                     coref_fields[-3] += f'[{doc[id].cur}]'
                     coref_fields[3] += f'[{doc[id].cur}]'
+
+            # if the current token is added to the first part of an apposition, i.e. ","
+            elif f'0_{e}' in doc.keys():
+                cur_id = f'0_{e}'
+                coref_fields[3] += f'|{doc[cur_id].e_type}'
+                coref_fields[4] += f'|{doc[cur_id].seen}'
+                print(f'Warning: A token outside the coref span is added in Line {e}. This should not happen too often.')
 
         # add expanded acl to the lines that are originally not included in the mention
         cur_sent_id, cur_tok_id = line_id.split('-')[0], line_id.split('-')[1]

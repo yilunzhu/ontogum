@@ -13,6 +13,7 @@ class Coref(object):
     span's pos tags, span length
     """
     def __init__(self):
+        self.tsv_line = list()
         self.text_id = str()
         self.tok = str()
         self.e_type = str()
@@ -37,6 +38,7 @@ class Coref(object):
         self.new_e = bool()
         self.replaced_by = str()
         self.appos_point_to = str()
+
 
 def coref_(fields: list) -> dict:
     """
@@ -63,11 +65,19 @@ def coref_(fields: list) -> dict:
 
                 coref_type = coref_types[i]
 
-            # e.g. 7-3	397-403	people	person	new	ana	8-7
+            # e.g.  academic_art
+            #       7-3	397-403	people	person	new	ana	8-7
             elif fields[-2] != '_':
                 coref_type = coref_types[i]
 
-            coref[(cur_e, line_id)] = (point_to, next_e, coref_type)
+            coref[cur_e] = (point_to, next_e, coref_type)
+
+    # when the entity exists and it is mentioned before, but does not have next coref
+    # e.g.  fiction_veronique
+    #       23-2	939-941	He	person	giv	_	_
+    #       45-1	2047-2048	I	person	giv	_	_
+    elif fields[3] != '_' and fields[4] == 'giv':
+        coref[''] = ('', '', '')
 
     return coref
 
@@ -89,10 +99,10 @@ def add_tsv(entities: dict, fields: list, coref_r: dict, doc: dict, entity_group
             doc[k].span_len += 1
 
         else:   # if the word is B-NE (e.g. B-PER) of the named entity, create a new Coref class
-            if (k, text_id) in coref_r.keys() or '' in coref_r.keys():
+            if k in coref_r.keys() or '' in coref_r.keys():
                 if_fake = True if '' in coref_r.keys() else False   # if the NE does not have id, create a fake id
-                new_id = (f'0_{text_id}', text_id) if if_fake else (k, text_id)
-                if (f'0_{text_id}', text_id) in doc.keys():
+                new_id = f'0_{text_id}' if if_fake else k
+                if f'0_{text_id}' in doc.keys():
                     del doc[new_id]
 
                 doc[new_id] = Coref()
@@ -100,29 +110,31 @@ def add_tsv(entities: dict, fields: list, coref_r: dict, doc: dict, entity_group
                 doc[new_id].tok = fields[2]
                 doc[new_id].e_type = e
                 doc[new_id].cur = new_id
-                doc[new_id].coref = coref_r[(id, text_id)][0]
+                doc[new_id].coref = coref_r[id][0]
                 doc[new_id].seen = fields[4].split('[')[0]
+                doc[new_id].tsv_line = fields
 
                 # if the coref does not a named entity
                 # 7-3	397-403	people	person	new	ana	8-7
                 # 8-7	472-476	they	person	giv	coref	9-9
-                if coref_r[(id, text_id)][1] == '' and coref_r[(id, text_id)][0]:
-                    doc[new_id].next = f'0_{coref_r[(id, text_id)][0]}'
+                if coref_r[id][1] == '' and coref_r[id][0]:
+                    doc[new_id].next = f'0_{coref_r[id][0]}'
                 else:
-                    doc[new_id].next = coref_r[(id, text_id)][1]
+                    doc[new_id].next = coref_r[id][1]
 
-                doc[new_id].coref_type = coref_r[(id, text_id)][2]
+                doc[new_id].coref_type = coref_r[id][2]
 
-                next_e = coref_r[(id, text_id)][1]
+                next_e = coref_r[id][1]
 
                 # if the coref.next is not a named entity, create a fake entity id
-                if (coref_r[(id, text_id)][1].startswith('0') or coref_r[(id, text_id)][1] == ''):
-                    next_e = f'0_{coref_r[(id, text_id)][0]}'
-                    if f'0_{coref_r[(id, text_id)][0]}' not in doc.keys():
+                if (coref_r[id][1].startswith('0') or coref_r[id][1] == ''):
+                    next_e = f'0_{coref_r[id][0]}'
+                    if f'0_{coref_r[id][0]}' not in doc.keys():
                         fake_id = next_e
                         doc[fake_id] = Coref()
-                        doc[fake_id].text_id = coref_r[(id, text_id)][0]
+                        doc[fake_id].text_id = coref_r[id][0]
                         doc[fake_id].seen = fields[4]
+                        doc[fake_id].tsv_line = fields
 
                 # combine coref entities in group
                 if_new_group = True
@@ -141,23 +153,25 @@ def add_tsv(entities: dict, fields: list, coref_r: dict, doc: dict, entity_group
                 antecedent_dict[new_id] = next_e
 
             # if the current line does not have coref but it's the coref of the previous entity, add token info
-            elif (f'0_{text_id}', text_id) in doc.keys():
-                fake_id = (f'0_{text_id}', text_id)
+            elif f'0_{text_id}' in doc.keys():
+                fake_id = f'0_{text_id}'
                 doc[fake_id].e_type = e
                 doc[fake_id].tok = fields[2]
                 doc[fake_id].seen = fields[4]
+                doc[fake_id].tsv_line = fields
 
             # if no next coref, but has antecedent
             elif k in antecedent_dict.values():
-                doc[(k, text_id)] = Coref()
-                doc[(k, text_id)].text_id = text_id
-                doc[(k, text_id)].tok = fields[2]
-                doc[(k, text_id)].e_type = e
-                doc[(k, text_id)].cur = id
-                doc[(k, text_id)].coref = ''
-                doc[(k, text_id)].next = ''
-                doc[(k, text_id)].coref_type = ''
-                doc[(k, text_id)].seen = [x.split('[')[0] for x in fields[4].split('|') if k in x][0]
+                doc[k] = Coref()
+                doc[k].text_id = text_id
+                doc[k].tok = fields[2]
+                doc[k].e_type = e
+                doc[k].cur = id
+                doc[k].coref = ''
+                doc[k].next = ''
+                doc[k].coref_type = ''
+                doc[k].seen = [x.split('[')[0] for x in fields[4].split('|') if k in x][0]
+                doc[k].tsv_line = fields
 
     return entity_group, antecedent_dict
 
@@ -202,6 +216,20 @@ def find_all_dep_children(sent, head):
     return head
 
 
+def find_direct_dep_children(sent, head):
+    """
+    This function recursively finds all children given a head token id
+    :param sent: a list of tokens with dependency information
+    :param head: type: string, the token id (the first column in a conllu format)
+    :return: all token ids under the given head
+    """
+    children = []
+    for row in sent:
+        if row[6] == head:
+            children.append(row[0])
+    return children
+
+
 def check_appos(sent: list, head_row: list, dep_sent_id) -> bool:
     """
     check GUM_fiction_veronique, sent 31, the word "history"
@@ -219,11 +247,17 @@ def check_appos(sent: list, head_row: list, dep_sent_id) -> bool:
 def check_dep_cop_child(sent: list, head_range: list, head_row: list) -> bool:
     """
     check GUM_academic_art, sent 25 and GUM_academic_games, sent 6. correct √
+
+    check GUM_fiction_veronique, sent 41-6, "Earth" in "we are from [Earth]" is not copula
     """
     head_id, head_head_id, head_func = head_row[0], head_row[6], head_row[7]
     for row in sent:
         if row[0] not in head_range and row[7] == 'cop':
             if row[6] == head_id:
+                children = find_direct_dep_children(sent, head_id)
+                for r in sent:
+                    if r[0] in children and r[7] == 'case':
+                        return False
                 return True
             elif head_func == 'conj' and row[6] == head_head_id:
                 return True
@@ -247,7 +281,7 @@ def process_doc(dep_doc, coref_doc):
             line_id, token = coref_fields[0], coref_fields[2]
 
             # test
-            if line_id == '6-4':
+            if line_id == '31-10':
                 a = 1
             if coref_fields[5] == 'appos':
                 a = 1
@@ -295,7 +329,7 @@ def process_doc(dep_doc, coref_doc):
             # match dep_text_id to the format in coref tsv
             dep_text_id = f'{dep_sent_id}-{dep_line[0]}'
             cur_dep_sent = dep_sents[dep_sent_id]
-            if dep_text_id == '7-11':
+            if dep_text_id == '31-7':
                 a = 1
 
             # TODO: 将ide替换为doc.keys()，避免18-26 "these techniques"没有任何dep的信息
@@ -357,28 +391,38 @@ def process_doc(dep_doc, coref_doc):
                         tok_id = int(doc[next].text_id.split('-')[-1])
                         ids = [f'{doc[next].text_id.split("-")[0]}-{tok_id + i}' for i in range(doc[next].span_len)]
 
-                        count = 0
+                        min_id = sorted([int(x.split("-")[-1]) for x in ids])[0]
+                        cur_count, next_count = 0, 0
+                        appos_belong_to_cur = []
                         for appos_id in appos:
+                            appos_tok_id = appos_id.split('-')[-1]
                             if appos_id not in ids:
-                                count += 1
-                        span_len = count + doc[next].span_len
+                                cur_tok = cur_dep_sent[int(appos_tok_id)-1][1]
+                                if int(appos_tok_id) < min_id and cur_tok == ',':
+                                    cur_count += 1
+                                    appos_belong_to_cur.append(appos_id)
+                                    appos.remove(appos_id)
+                                else:
+                                    next_count += 1
+                        next_span_len = next_count + doc[next].span_len
+                        min_appos = sorted([int(x.split("-")[-1]) for x in appos])[0]
 
+                        last_e = sorted([int(x) for x in doc.keys() if not x.startswith('0_')], reverse=True)[0] + 30
                         new_id = next
-                        if appos[0] != doc[next].text_id:
-                            if span_len == 1:
+                        if f'{dep_sent_id}-{min_appos}' != doc[next].text_id:
+                            if next_span_len == 1:
                                new_id = f'0_{appos[0]}'
                             else:
-                                last_e = sorted([int(x) for x in doc.keys() if not x.startswith('0_')], reverse=True)[0]
                                 new_id = str(last_e + 1)
 
                             # create a new entity
                             doc[new_id] = deepcopy(doc[next])
-                            doc[new_id].text_id = appos[0]
+                            doc[new_id].text_id = f'{dep_sent_id}-{min_appos}'
                             doc[new_id].cur = new_id
 
                             # make new id as the next coref
                             doc[entity].next = new_id
-                            doc[entity].coref = appos[0]
+                            doc[entity].coref = f'{dep_sent_id}-{min_appos}'
 
 
                             # let the previous next points to the current one, delete coref info
@@ -387,12 +431,41 @@ def process_doc(dep_doc, coref_doc):
                             doc[next].coref_type = ''
                             doc[next].next = ''
 
-                        doc[new_id].span_len = span_len
+                        doc[new_id].span_len = next_span_len
+                        cur_span_len = doc[entity].span_len + cur_count
+
+                        # if the current entity's span is longer than 1, assign it a new entity id
+                        if doc[entity].span_len == 1 and cur_span_len > 1:
+                            new_cur_entity_id = str(last_e + 1)
+                            doc[new_cur_entity_id] = deepcopy(doc[entity])
+
+                            # revise the coref info in the new entity
+                            doc[new_cur_entity_id].span_len = cur_span_len
+                            doc[new_cur_entity_id].cur = new_cur_entity_id
+
+                            # delete coref info in the old entity
+                            doc[entity].next = ''
+                            doc[entity].coref = ''
+                            doc[entity].coref_type = ''
+                            # del doc[entity]
+
+                            # let the antecedent points to the new entity
+                            for ante_k, ante_v in doc.items():
+                                if ante_v.next == entity:
+                                    doc[ante_k].next = new_cur_entity_id
+
+                            # add the current head token (which should be the only one) into new_id2entity
+                            new_id2entity[doc[entity].text_id] = [new_cur_entity_id]
+
+                            # rename the "entity" variable
+                            entity = new_cur_entity_id
+
                         for appos_id in appos:
                             new_id2entity[appos_id] = [new_id.split('_')[-1] if new_id.startswith('0_') else new_id]
                             # if appos_id not in doc[new_id].text_id:
                             #     new_id2entity[appos_id] = [new_id.split('_')[-1] if new_id.startswith('0_') else new_id]
-
+                        for cur_appos_id in appos_belong_to_cur:
+                            new_id2entity[cur_appos_id] = [entity.split('_')[-1] if entity.startswith('0_') else entity]
 
                     # check definiteness
                     """
@@ -407,7 +480,7 @@ def process_doc(dep_doc, coref_doc):
                     HEAD_POS = ['PRP', 'PRP$', 'DT']
                     LEMMA = ['the', 'this', 'that', 'those', 'these', 'all', 'every', 'any', 'no']
                     MISC = ['Everyone', 'everyone', 'Anyone', 'anyone']
-                    if entity == '194':
+                    if entity == '0_69-18':
                         a = 1
                     if 'NP' in doc[entity].head_pos:
                         doc[entity].definite = True
@@ -421,6 +494,8 @@ def process_doc(dep_doc, coref_doc):
                         for row in heads:
                             if row[4] == 'POS' and row[6] == doc[entity].head_id.split('-')[-1] and row[6] == head_of_the_phrase:
                                 doc[entity].definite = True
+                    elif doc[entity].pos.startswith('PRP$'):
+                        doc[entity].definite = True
                     elif doc[entity].lemma in MISC:
                         doc[entity].definite = True
 
@@ -429,7 +504,8 @@ def process_doc(dep_doc, coref_doc):
                         doc[entity].nmod_poss = True
 
                     if doc[entity].head_func == '':
-                        raise ValueError('The head feature is empty.')
+                        # raise ValueError('The head feature is empty.')
+                        print('Warning: The head feature is empty.')
 
     # group dict
     entity_group = [x for x in entity_group if x]

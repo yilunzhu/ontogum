@@ -62,7 +62,7 @@ class Convert(object):
         TODO: Bridging and coref has the same next()
         """
         for k, _coref in self.doc.items():
-            if k == '0_61-34':
+            if k == '0_45-1':
                 a = 1
             if _coref.head_func != '' and _coref.next in self.doc.keys() and self.doc[_coref.next].child_cop == True:
                 # A -> B & B -> C ====> A -> C
@@ -96,7 +96,7 @@ class Convert(object):
         John 		> He 	  > the man > a man I know 	  > man
         """
         for k, _coref in self.doc.items():
-            if k == '0_61-34':
+            if k == '0_45-1':
                 a = 1
             if _coref.appos:
                 continue
@@ -106,6 +106,18 @@ class Convert(object):
                 # next_toks = word_tokenize(self.doc[_coref.next].tok)
                 # next_pos = self.doc[_coref.next].pos
                 # next_head_pos = self.doc[_coref.next].head_pos
+
+                """
+                If the chain's next is a definite entity and there are in the same sentence, do not break the chain
+                - Warning: This is not a valid operation but avoids some annotation errors
+                """
+                next_next = deepcopy(self.doc[_coref.next].next)
+                if next_next and self.doc[next_next].tok == 'she':
+                    next_sent_id = self.doc[_coref.next].text_id.split('-')[0]
+                    next_next_sent_id = self.doc[next_next].text_id.split('-')[0]
+                    if next_sent_id == next_next_sent_id:
+                        print(f'Warning: Skip breaking chains in Line {next_sent_id}. It should not happen too often.')
+                        continue
 
                 break_group = max(self.group_dict.values()) + 1
                 next_coref = self.doc[_coref.next]
@@ -158,12 +170,12 @@ class Convert(object):
                 27-41	3799-3803	13th	object[220]|object[999]	new[220]|new[999]	_	_
                 27-42	3804-3812	Benjamin	object||object[220]	giv|new[220]	_	_
         """
-        last_e = sorted([int(x) for x in self.doc.keys() if not x.startswith('0_')], reverse=True)[0]
+        last_e = sorted([int(x) for x in self.doc.keys() if not x.startswith('0_')], reverse=True)[0] + 30
         loop_doc = deepcopy(self.doc)
         for k1, v in loop_doc.items():
             k1_sent_id = v.text_id.split('-')[0]
             for k2, next_v in loop_doc.items():
-                if k1 == '100' and k2 == '203':
+                if k1 == '100' and k2 == '233':
                     a = 1
                 k2_sent_id = next_v.text_id.split('-')[0]
                 if k1_sent_id == k2_sent_id and v.coref == next_v.text_id and (v.coref_type == 'appos' or next_v.dep_appos):
@@ -221,11 +233,114 @@ class Convert(object):
         """
         return
 
-    def _remove_cata(self):
+    def _change_cata(self):
         """
-        remove cataphora
+        some cataphora affects the coref chain, move the coref chain to its cataphoric entity
+
+        Example:
+            45-1	2047-2048	I	person	giv	_	_
+            45-2	2049-2051	'm	_	_	_	_
+            45-3	2052-2053	a	person[145]	giv[145]	cata|coref	45-1[0_145]|49-8[0_145]
+            45-4	2054-2062	graduate	person[145]	giv[145]	_	_
+            45-5	2063-2070	student	person[145]	giv[145]	_	_
+            45-6	2071-2072	.	_	_	_	_
+            45-7	2073-2074	"	_	_	_	_
         """
-        return
+        for k1, v1 in self.doc.items():
+            if k1 == '145':
+                a = 1
+
+            # If the cataphora does not have an antecedent
+            if 'cata' in v1.tsv_line[5]:
+                for i, x in enumerate(v1.tsv_line[5].split('|')):
+                    if 'cata' in x:
+                        coref_rel = v1.tsv_line[6].split('|')[i]
+                        cata_to = coref_rel.split('[')[0]
+                        coref_id = f'0_{cata_to}'
+
+                        coref_entity = coref_rel.split('[')[-1].split('_')[0]
+                        if coref_entity != '0':
+                            """
+                            Example: academic_games (probably an annotation error)
+                                14-19	2696-2705	attention	abstract	giv	cata	17-18[176_0]	
+                            """
+                            cata_to = coref_entity
+                            coref_id = coref_entity
+
+                        if coref_id not in self.doc.keys():
+                            continue
+
+                        if v1.next:
+                            if v1.next != coref_id:
+                                self.doc[coref_id].next = self.doc[k1].next
+                                self.doc[coref_id].coref = self.doc[k1].coref
+                                self.doc[coref_id].coref_type = self.doc[k1].coref_type
+
+                            self.doc[k1].next = ''
+                            self.doc[k1].coref = ''
+                            self.doc[k1].coref_type = ''
+
+            # If it's the case that the cataphora has an antecedent
+            if v1.next and v1.next in self.doc.keys() and 'cata' in self.doc[v1.next].tsv_line[5]:
+                v_cata = deepcopy(v1.next)
+                fields = self.doc[v_cata].tsv_line
+                for i, x in enumerate(fields[5].split('|')):
+                    if 'cata' in x:
+                        coref_rel = fields[6].split('|')[i]
+                        cata_to = coref_rel.split('[')[0]
+                        coref_id = f'0_{cata_to}'
+
+                        coref_entity = coref_rel.split('[')[-1].split('_')[0]
+                        if coref_entity != '0':
+                            """
+                            Example: academic_games (probably an annotation error)
+                                14-19	2696-2705	attention	abstract	giv	cata	17-18[176_0]	
+                            """
+                            cata_to = coref_entity
+                            coref_id = coref_entity
+
+                        if coref_id not in self.doc.keys():
+                            continue
+
+                        if self.doc[v_cata].next == cata_to:
+                            self.doc[k1].coref = ''
+                            self.doc[k1].next = ''
+
+                        # revise the antecedent
+                        self.doc[k1].coref = cata_to
+                        self.doc[k1].next = coref_id
+
+                        # revise the cataphoric entity only if the current cataphoric entity has a next coref
+                        if self.doc[v_cata].next and self.doc[v_cata].next != cata_to:
+                            self.doc[coref_id].next = self.doc[v_cata].next
+                            self.doc[coref_id].coref = self.doc[v_cata].coref
+                            self.doc[coref_id].coref_type = self.doc[v_cata].coref_type
+
+                        # revise the current entity with the cataphoric coref type
+                        self.doc[v_cata].next = ''
+                        self.doc[v_cata].coref = ''
+                        self.doc[v_cata].coref_type = ''
+
+    def _remove_excluded_heads(self):
+        """
+        If the head is not eligible, delete it
+
+        Example:
+            You 'll probably have more basil than you could possibly eat fresh , so plan on storing [some] in the fridge .
+        """
+        NOT_INCLUDED = ['some']
+        for k_ante, v_ante in self.doc.items():
+            if v_ante.next:
+                k_next = deepcopy(v_ante.next)
+                if k_next in self.doc.keys() and self.doc[k_next].tok in NOT_INCLUDED:
+                    if self.doc[k_next].next:
+                        v_ante.next = self.doc[k_next].next
+                        v_ante.coref = self.doc[k_next].coref
+                        v_ante.coref_type = self.doc[k_next].coref_type
+
+                    self.doc[k_next].next = ''
+                    self.doc[k_next].coref = ''
+                    self.doc[k_next].coref_type = ''
 
     def _remove_singleton(self):
         """
@@ -236,7 +351,7 @@ class Convert(object):
         for k,v in self.doc.items():
 
             # test
-            if k == '246':
+            if k == '0_45-1':
                 a = 1
             # if v.appos_father and v.appos_father not in coref_next:
             #     continue
@@ -256,14 +371,16 @@ class Convert(object):
     def process(self):
         self._expand_acl()
         self._appos_merge()
+        self._change_cata()
         self._remove_compound()
         self._remove_bridge()
         self._remove_cop()
         self._break_chain()
         self._reduceVspan()
-        self._remove_coord()
-        self._remove_iwithini()
+        # self._remove_coord()
+        # self._remove_iwithini()
         self._remove_nmodposs()
+        self._remove_excluded_heads()
         valid_coref = self._remove_singleton()
 
         # gum output for acl_span

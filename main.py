@@ -59,7 +59,7 @@ if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument('--dep', default=os.path.join('gum', 'dep'), help='Path to the gum/dep/ud directory')
     parser.add_argument('--coref', default=os.path.join('gum', 'coref', 'tsv'), help='Path to the gum/coref/tsv directory')
-    parser.add_argument('--out_dir', default='./out', help='output dir')
+    parser.add_argument('--out_dir', default='out', help='output dir')
     parser.add_argument('--out_format', default='tsv', help='output format')
 
     args = parser.parse_args()
@@ -68,6 +68,8 @@ if __name__ == '__main__':
     coref_dir = args.coref
     out_dir = args.out_dir
     out_format = args.out_format
+    if not os.path.exists(out_dir):
+        os.mkdir(out_dir)
     if not os.path.exists(out_dir + os.sep + out_format):
         os.mkdir(out_dir + os.sep + out_format)
 

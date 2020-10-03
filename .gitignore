@@ -1,4 +1,3 @@
 # ignore gum
 ./gum/
-./out/
 ./.idea/
