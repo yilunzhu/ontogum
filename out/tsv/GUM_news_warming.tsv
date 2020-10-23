@@ -156,9 +156,9 @@
 
 #Text=As coauthor Colette Heald told The Huffington Post , " The climate projections are quite consistent [...]
 8-1	812-814	As	_	_	_	_
-8-2	815-823	coauthor	person[46]	new[46]	coref	8-3[194_46]
-8-3	824-831	Colette	person[46]|person[194]	new[46]|giv[194]	coref	21-1[0_194]
-8-4	832-837	Heald	person[46]|person[194]	new[46]|giv[194]	_	_
+8-2	815-823	coauthor	person[46]	new[46]	coref	12-1[0_46]
+8-3	824-831	Colette	person[46]	new[46]	_	_
+8-4	832-837	Heald	person[46]	new[46]	_	_
 8-5	838-842	told	_	_	_	_
 8-6	843-846	The	_	_	_	_
 8-7	847-857	Huffington	_	_	_	_
@@ -238,7 +238,7 @@
 11-13	1269-1270	.	_	_	_	_
 
 #Text=Heald said although temperature and ozone are separately known to impact crop yields , " nobody has looked at these together " .
-12-1	1271-1276	Heald	_	_	_	_
+12-1	1271-1276	Heald	person	giv	coref	21-1
 12-2	1277-1281	said	_	_	_	_
 12-3	1282-1290	although	_	_	_	_
 12-4	1291-1302	temperature	abstract[65]	giv[65]	ana	12-20[0_65]

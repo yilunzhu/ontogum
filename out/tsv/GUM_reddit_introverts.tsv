@@ -3,10 +3,10 @@
 #T_RL=webanno.custom.Coref|type|BT_webanno.custom.Referent
 
 
-#Text=_
+#Text=Introverts of Reddit , what are the most annoying things extroverts do ?
 1-1	0-10	Introverts	_	_	_	_
 1-2	11-13	of	_	_	_	_
-1-3	14-20	Reddit	_	_	_	_
+1-3	14-20	Reddit	place[2]	new[2]	coref	2-3[5_2]
 1-4	21-22	,	_	_	_	_
 1-5	23-27	what	_	_	_	_
 1-6	28-31	are	_	_	_	_
@@ -18,10 +18,10 @@
 1-12	68-70	do	_	_	_	_
 1-13	71-72	?	_	_	_	_
 
-#Text=_
+#Text=Introverts of Reddit , what are the most annoying things extroverts do ?
 2-1	73-83	Introverts	_	_	_	_
 2-2	84-86	of	_	_	_	_
-2-3	87-93	Reddit	_	_	_	_
+2-3	87-93	Reddit	place[5]	giv[5]	_	_
 2-4	94-95	,	_	_	_	_
 2-5	96-100	what	_	_	_	_
 2-6	101-104	are	_	_	_	_
@@ -33,16 +33,16 @@
 2-12	141-143	do	_	_	_	_
 2-13	144-145	?	_	_	_	_
 
-#Text=_
+#Text=Try to force you to be extroverted
 3-1	146-149	Try	_	_	_	_
 3-2	150-152	to	_	_	_	_
 3-3	153-158	force	_	_	_	_
-3-4	159-162	you	_	_	_	_
+3-4	159-162	you	person	acc	ana	8-1
 3-5	163-165	to	_	_	_	_
 3-6	166-168	be	_	_	_	_
 3-7	169-180	extroverted	_	_	_	_
 
-#Text=_
+#Text=Every self-help article about how to date when you are an introvert can be summarized as " be an extrovert " .
 4-1	181-186	Every	_	_	_	_
 4-2	187-196	self-help	_	_	_	_
 4-3	197-204	article	_	_	_	_
@@ -66,16 +66,16 @@
 4-21	288-289	"	_	_	_	_
 4-22	290-291	.	_	_	_	_
 
-#Text=_
+#Text=Am introvert , have successfully dated .
 5-1	292-294	Am	_	_	_	_
-5-2	295-304	introvert	_	_	_	_
+5-2	295-304	introvert	person	new	ana	6-17
 5-3	305-306	,	_	_	_	_
 5-4	307-311	have	_	_	_	_
 5-5	312-324	successfully	_	_	_	_
 5-6	325-330	dated	_	_	_	_
 5-7	331-332	.	_	_	_	_
 
-#Text=_
+#Text=It of course helps to be attractive , but the other thing that really works for me , is just to accept that dating takes effort , and will tire me out even if I have a good time .
 6-1	333-335	It	_	_	_	_
 6-2	336-338	of	_	_	_	_
 6-3	339-345	course	_	_	_	_
@@ -92,40 +92,40 @@
 6-14	396-402	really	_	_	_	_
 6-15	403-408	works	_	_	_	_
 6-16	409-412	for	_	_	_	_
-6-17	413-415	me	_	_	_	_
+6-17	413-415	me	person	giv	ana	6-31[16_0]
 6-18	416-417	,	_	_	_	_
 6-19	418-420	is	_	_	_	_
 6-20	421-425	just	_	_	_	_
 6-21	426-428	to	_	_	_	_
 6-22	429-435	accept	_	_	_	_
 6-23	436-440	that	_	_	_	_
-6-24	441-447	dating	_	_	_	_
-6-25	448-453	takes	_	_	_	_
-6-26	454-460	effort	_	_	_	_
-6-27	461-462	,	_	_	_	_
-6-28	463-466	and	_	_	_	_
-6-29	467-471	will	_	_	_	_
-6-30	472-476	tire	_	_	_	_
-6-31	477-479	me	_	_	_	_
-6-32	480-483	out	_	_	_	_
-6-33	484-488	even	_	_	_	_
-6-34	489-491	if	_	_	_	_
-6-35	492-493	I	_	_	_	_
-6-36	494-498	have	_	_	_	_
-6-37	499-500	a	_	_	_	_
-6-38	501-505	good	_	_	_	_
-6-39	506-510	time	_	_	_	_
+6-24	441-447	dating	abstract[14]	new[14]	ana	7-2[0_14]
+6-25	448-453	takes	abstract[14]	new[14]	_	_
+6-26	454-460	effort	abstract[14]	new[14]	_	_
+6-27	461-462	,	abstract[14]	new[14]	_	_
+6-28	463-466	and	abstract[14]	new[14]	_	_
+6-29	467-471	will	abstract[14]	new[14]	_	_
+6-30	472-476	tire	abstract[14]	new[14]	_	_
+6-31	477-479	me	abstract[14]|person[16]	new[14]|giv[16]	ana	6-35[17_16]
+6-32	480-483	out	abstract[14]	new[14]	_	_
+6-33	484-488	even	abstract[14]	new[14]	_	_
+6-34	489-491	if	abstract[14]	new[14]	_	_
+6-35	492-493	I	abstract[14]|person[17]	new[14]|giv[17]	_	_
+6-36	494-498	have	abstract[14]	new[14]	_	_
+6-37	499-500	a	abstract[14]	new[14]	_	_
+6-38	501-505	good	abstract[14]	new[14]	_	_
+6-39	506-510	time	abstract[14]	new[14]	_	_
 6-40	511-512	.	_	_	_	_
 
-#Text=_
+#Text=And that 's okay .
 7-1	513-516	And	_	_	_	_
-7-2	517-521	that	_	_	_	_
+7-2	517-521	that	abstract	giv	_	_
 7-3	522-524	's	_	_	_	_
 7-4	525-529	okay	_	_	_	_
 7-5	530-531	.	_	_	_	_
 
-#Text=_
-8-1	532-535	You	_	_	_	_
+#Text=You do n't go to the gym and expect not to be tired afterwards , but that does n't mean that you ca n't enjoy working out
+8-1	532-535	You	person	giv	ana	8-22
 8-2	536-538	do	_	_	_	_
 8-3	539-542	n't	_	_	_	_
 8-4	543-545	go	_	_	_	_
@@ -146,23 +146,23 @@
 8-19	611-614	n't	_	_	_	_
 8-20	615-619	mean	_	_	_	_
 8-21	620-624	that	_	_	_	_
-8-22	625-628	you	_	_	_	_
+8-22	625-628	you	person	giv	ana	16-5[64_0]
 8-23	629-631	ca	_	_	_	_
 8-24	632-635	n't	_	_	_	_
 8-25	636-641	enjoy	_	_	_	_
 8-26	642-649	working	_	_	_	_
 8-27	650-653	out	_	_	_	_
 
-#Text=_
+#Text=Agreed - am a serious introvert , but my life would be way less fullfilling and way less rich with great life experiences in the realm of friends , partying , girls , etc if I had n't made a conscious effort get good at behaving in a more extroverted manner enough of the time to have the experiences I want to be a part of my life .
 9-1	654-660	Agreed	_	_	_	_
 9-2	661-662	-	_	_	_	_
 9-3	663-665	am	_	_	_	_
-9-4	666-667	a	_	_	_	_
-9-5	668-675	serious	_	_	_	_
-9-6	676-685	introvert	_	_	_	_
+9-4	666-667	a	person[20]	new[20]	ana	9-9[22_20]
+9-5	668-675	serious	person[20]	new[20]	_	_
+9-6	676-685	introvert	person[20]	new[20]	_	_
 9-7	686-687	,	_	_	_	_
 9-8	688-691	but	_	_	_	_
-9-9	692-694	my	_	_	_	_
+9-9	692-694	my	person[22]	giv[22]	ana	9-36[0_22]
 9-10	695-699	life	_	_	_	_
 9-11	700-705	would	_	_	_	_
 9-12	706-708	be	_	_	_	_
@@ -189,42 +189,42 @@
 9-33	819-820	,	_	_	_	_
 9-34	821-824	etc	_	_	_	_
 9-35	825-827	if	_	_	_	_
-9-36	828-829	I	_	_	_	_
+9-36	828-829	I	person	giv	ana	9-60[33_0]
 9-37	830-833	had	_	_	_	_
 9-38	834-837	n't	_	_	_	_
-9-39	838-842	made	_	_	_	_
-9-40	843-844	a	_	_	_	_
-9-41	845-854	conscious	_	_	_	_
-9-42	855-861	effort	_	_	_	_
-9-43	862-865	get	_	_	_	_
-9-44	866-870	good	_	_	_	_
-9-45	871-873	at	_	_	_	_
-9-46	874-882	behaving	_	_	_	_
-9-47	883-885	in	_	_	_	_
-9-48	886-887	a	_	_	_	_
-9-49	888-892	more	_	_	_	_
-9-50	893-904	extroverted	_	_	_	_
-9-51	905-911	manner	_	_	_	_
-9-52	912-918	enough	_	_	_	_
-9-53	919-921	of	_	_	_	_
-9-54	922-925	the	_	_	_	_
-9-55	926-930	time	_	_	_	_
-9-56	931-933	to	_	_	_	_
-9-57	934-938	have	_	_	_	_
-9-58	939-942	the	_	_	_	_
-9-59	943-954	experiences	_	_	_	_
-9-60	955-956	I	_	_	_	_
-9-61	957-961	want	_	_	_	_
-9-62	962-964	to	_	_	_	_
-9-63	965-967	be	_	_	_	_
-9-64	968-969	a	_	_	_	_
-9-65	970-974	part	_	_	_	_
-9-66	975-977	of	_	_	_	_
-9-67	978-980	my	_	_	_	_
-9-68	981-985	life	_	_	_	_
+9-39	838-842	made	event[28]	new[28]	ana	10-9[0_28]
+9-40	843-844	a	event[28]	new[28]	_	_
+9-41	845-854	conscious	event[28]	new[28]	_	_
+9-42	855-861	effort	event[28]	new[28]	_	_
+9-43	862-865	get	event[28]	new[28]	_	_
+9-44	866-870	good	event[28]	new[28]	_	_
+9-45	871-873	at	event[28]	new[28]	_	_
+9-46	874-882	behaving	event[28]	new[28]	_	_
+9-47	883-885	in	event[28]	new[28]	_	_
+9-48	886-887	a	event[28]	new[28]	_	_
+9-49	888-892	more	event[28]	new[28]	_	_
+9-50	893-904	extroverted	event[28]	new[28]	_	_
+9-51	905-911	manner	event[28]	new[28]	_	_
+9-52	912-918	enough	event[28]	new[28]	_	_
+9-53	919-921	of	event[28]	new[28]	_	_
+9-54	922-925	the	event[28]	new[28]	_	_
+9-55	926-930	time	event[28]	new[28]	_	_
+9-56	931-933	to	event[28]	new[28]	_	_
+9-57	934-938	have	event[28]	new[28]	_	_
+9-58	939-942	the	event[28]	new[28]	_	_
+9-59	943-954	experiences	event[28]	new[28]	_	_
+9-60	955-956	I	event[28]|person[33]	new[28]|giv[33]	ana	9-67[35_33]
+9-61	957-961	want	event[28]	new[28]	_	_
+9-62	962-964	to	event[28]	new[28]	_	_
+9-63	965-967	be	event[28]	new[28]	_	_
+9-64	968-969	a	event[28]	new[28]	_	_
+9-65	970-974	part	event[28]	new[28]	_	_
+9-66	975-977	of	event[28]	new[28]	_	_
+9-67	978-980	my	event[28]|person[35]	new[28]|giv[35]	ana	11-2[0_35]
+9-68	981-985	life	event[28]	new[28]	_	_
 9-69	986-987	.	_	_	_	_
 
-#Text=_
+#Text=Obviously different people have different priorities , and it is n't something that will work or be possible for everyone .
 10-1	988-997	Obviously	_	_	_	_
 10-2	998-1007	different	_	_	_	_
 10-3	1008-1014	people	_	_	_	_
@@ -233,7 +233,7 @@
 10-6	1030-1040	priorities	_	_	_	_
 10-7	1041-1042	,	_	_	_	_
 10-8	1043-1046	and	_	_	_	_
-10-9	1047-1049	it	_	_	_	_
+10-9	1047-1049	it	event	giv	_	_
 10-10	1050-1052	is	_	_	_	_
 10-11	1053-1056	n't	_	_	_	_
 10-12	1057-1066	something	_	_	_	_
@@ -247,52 +247,52 @@
 10-20	1101-1109	everyone	_	_	_	_
 10-21	1110-1111	.	_	_	_	_
 
-#Text=_
+#Text=But I hate to think of someone just being like , " I 'm an introvert , and therefore I need to accept that I will never have the experience of being a charismatic fun person who is good with people and the opposite sex . " , and not even trying to make those things happen , if that is something they would like in their life .
 11-1	1112-1115	But	_	_	_	_
-11-2	1116-1117	I	_	_	_	_
+11-2	1116-1117	I	person	giv	_	_
 11-3	1118-1122	hate	_	_	_	_
 11-4	1123-1125	to	_	_	_	_
 11-5	1126-1131	think	_	_	_	_
 11-6	1132-1134	of	_	_	_	_
-11-7	1135-1142	someone	_	_	_	_
+11-7	1135-1142	someone	person	new	ana	11-13
 11-8	1143-1147	just	_	_	_	_
 11-9	1148-1153	being	_	_	_	_
 11-10	1154-1158	like	_	_	_	_
 11-11	1159-1160	,	_	_	_	_
 11-12	1161-1162	"	_	_	_	_
-11-13	1163-1164	I	_	_	_	_
+11-13	1163-1164	I	person	giv	ana	11-20
 11-14	1165-1167	'm	_	_	_	_
 11-15	1168-1170	an	_	_	_	_
 11-16	1171-1180	introvert	_	_	_	_
 11-17	1181-1182	,	_	_	_	_
 11-18	1183-1186	and	_	_	_	_
 11-19	1187-1196	therefore	_	_	_	_
-11-20	1197-1198	I	_	_	_	_
+11-20	1197-1198	I	person	giv	ana	11-25
 11-21	1199-1203	need	_	_	_	_
 11-22	1204-1206	to	_	_	_	_
 11-23	1207-1213	accept	_	_	_	_
 11-24	1214-1218	that	_	_	_	_
-11-25	1219-1220	I	_	_	_	_
+11-25	1219-1220	I	person	giv	ana	11-63
 11-26	1221-1225	will	_	_	_	_
 11-27	1226-1231	never	_	_	_	_
 11-28	1232-1236	have	_	_	_	_
-11-29	1237-1240	the	_	_	_	_
-11-30	1241-1251	experience	_	_	_	_
-11-31	1252-1254	of	_	_	_	_
-11-32	1255-1260	being	_	_	_	_
-11-33	1261-1262	a	_	_	_	_
-11-34	1263-1274	charismatic	_	_	_	_
-11-35	1275-1278	fun	_	_	_	_
-11-36	1279-1285	person	_	_	_	_
-11-37	1286-1289	who	_	_	_	_
-11-38	1290-1292	is	_	_	_	_
-11-39	1293-1297	good	_	_	_	_
-11-40	1298-1302	with	_	_	_	_
-11-41	1303-1309	people	_	_	_	_
-11-42	1310-1313	and	_	_	_	_
-11-43	1314-1317	the	_	_	_	_
-11-44	1318-1326	opposite	_	_	_	_
-11-45	1327-1330	sex	_	_	_	_
+11-29	1237-1240	the	abstract[39]	new[39]	coref	11-55[42_39]
+11-30	1241-1251	experience	abstract[39]	new[39]	_	_
+11-31	1252-1254	of	abstract[39]	new[39]	_	_
+11-32	1255-1260	being	abstract[39]	new[39]	_	_
+11-33	1261-1262	a	abstract[39]	new[39]	_	_
+11-34	1263-1274	charismatic	abstract[39]	new[39]	_	_
+11-35	1275-1278	fun	abstract[39]	new[39]	_	_
+11-36	1279-1285	person	abstract[39]	new[39]	_	_
+11-37	1286-1289	who	abstract[39]	new[39]	_	_
+11-38	1290-1292	is	abstract[39]	new[39]	_	_
+11-39	1293-1297	good	abstract[39]	new[39]	_	_
+11-40	1298-1302	with	abstract[39]	new[39]	_	_
+11-41	1303-1309	people	abstract[39]	new[39]	_	_
+11-42	1310-1313	and	abstract[39]	new[39]	_	_
+11-43	1314-1317	the	abstract[39]	new[39]	_	_
+11-44	1318-1326	opposite	abstract[39]	new[39]	_	_
+11-45	1327-1330	sex	abstract[39]	new[39]	_	_
 11-46	1331-1332	.	_	_	_	_
 11-47	1333-1334	"	_	_	_	_
 11-48	1335-1336	,	_	_	_	_
@@ -302,23 +302,23 @@
 11-52	1350-1356	trying	_	_	_	_
 11-53	1357-1359	to	_	_	_	_
 11-54	1360-1364	make	_	_	_	_
-11-55	1365-1370	those	_	_	_	_
-11-56	1371-1377	things	_	_	_	_
+11-55	1365-1370	those	abstract[42]	giv[42]	ana	11-60[0_42]
+11-56	1371-1377	things	abstract[42]	giv[42]	_	_
 11-57	1378-1384	happen	_	_	_	_
 11-58	1385-1386	,	_	_	_	_
 11-59	1387-1389	if	_	_	_	_
-11-60	1390-1394	that	_	_	_	_
+11-60	1390-1394	that	abstract	giv	_	_
 11-61	1395-1397	is	_	_	_	_
 11-62	1398-1407	something	_	_	_	_
-11-63	1408-1412	they	_	_	_	_
+11-63	1408-1412	they	person	giv	ana	11-67[44_0]
 11-64	1413-1418	would	_	_	_	_
 11-65	1419-1423	like	_	_	_	_
 11-66	1424-1426	in	_	_	_	_
-11-67	1427-1432	their	_	_	_	_
+11-67	1427-1432	their	person[44]	giv[44]	_	_
 11-68	1433-1437	life	_	_	_	_
 11-69	1438-1439	.	_	_	_	_
 
-#Text=_
+#Text=In terms of dating , it is nice to find someone , as I have been fortunate enough to , who is on the same page in terms of being an introvert , who also likes to sometimes be social , party , etc.
 12-1	1440-1442	In	_	_	_	_
 12-2	1443-1448	terms	_	_	_	_
 12-3	1449-1451	of	_	_	_	_
@@ -329,50 +329,50 @@
 12-8	1467-1471	nice	_	_	_	_
 12-9	1472-1474	to	_	_	_	_
 12-10	1475-1479	find	_	_	_	_
-12-11	1480-1487	someone	_	_	_	_
-12-12	1488-1489	,	_	_	_	_
+12-11	1480-1487	someone	person[46]	new[46]	coref	13-7[49_46]
+12-12	1488-1489	,	person[46]	new[46]	_	_
 12-13	1490-1492	as	_	_	_	_
-12-14	1493-1494	I	_	_	_	_
+12-14	1493-1494	I	person	acc	ana	13-2
 12-15	1495-1499	have	_	_	_	_
 12-16	1500-1504	been	_	_	_	_
 12-17	1505-1514	fortunate	_	_	_	_
 12-18	1515-1521	enough	_	_	_	_
 12-19	1522-1524	to	_	_	_	_
-12-20	1525-1526	,	_	_	_	_
-12-21	1527-1530	who	_	_	_	_
-12-22	1531-1533	is	_	_	_	_
-12-23	1534-1536	on	_	_	_	_
-12-24	1537-1540	the	_	_	_	_
-12-25	1541-1545	same	_	_	_	_
-12-26	1546-1550	page	_	_	_	_
-12-27	1551-1553	in	_	_	_	_
-12-28	1554-1559	terms	_	_	_	_
-12-29	1560-1562	of	_	_	_	_
-12-30	1563-1568	being	_	_	_	_
-12-31	1569-1571	an	_	_	_	_
-12-32	1572-1581	introvert	_	_	_	_
-12-33	1582-1583	,	_	_	_	_
-12-34	1584-1587	who	_	_	_	_
-12-35	1588-1592	also	_	_	_	_
-12-36	1593-1598	likes	_	_	_	_
-12-37	1599-1601	to	_	_	_	_
-12-38	1602-1611	sometimes	_	_	_	_
-12-39	1612-1614	be	_	_	_	_
-12-40	1615-1621	social	_	_	_	_
-12-41	1622-1623	,	_	_	_	_
-12-42	1624-1629	party	_	_	_	_
-12-43	1630-1631	,	_	_	_	_
-12-44	1632-1636	etc.	_	_	_	_
+12-20	1525-1526	,	person[46]	new[46]	_	_
+12-21	1527-1530	who	person[46]	new[46]	_	_
+12-22	1531-1533	is	person[46]	new[46]	_	_
+12-23	1534-1536	on	person[46]	new[46]	_	_
+12-24	1537-1540	the	person[46]	new[46]	_	_
+12-25	1541-1545	same	person[46]	new[46]	_	_
+12-26	1546-1550	page	person[46]	new[46]	_	_
+12-27	1551-1553	in	person[46]	new[46]	_	_
+12-28	1554-1559	terms	person[46]	new[46]	_	_
+12-29	1560-1562	of	person[46]	new[46]	_	_
+12-30	1563-1568	being	person[46]	new[46]	_	_
+12-31	1569-1571	an	person[46]	new[46]	_	_
+12-32	1572-1581	introvert	person[46]	new[46]	_	_
+12-33	1582-1583	,	person[46]	new[46]	_	_
+12-34	1584-1587	who	person[46]	new[46]	_	_
+12-35	1588-1592	also	person[46]	new[46]	_	_
+12-36	1593-1598	likes	person[46]	new[46]	_	_
+12-37	1599-1601	to	person[46]	new[46]	_	_
+12-38	1602-1611	sometimes	person[46]	new[46]	_	_
+12-39	1612-1614	be	person[46]	new[46]	_	_
+12-40	1615-1621	social	person[46]	new[46]	_	_
+12-41	1622-1623	,	person[46]	new[46]	_	_
+12-42	1624-1629	party	person[46]	new[46]	_	_
+12-43	1630-1631	,	person[46]	new[46]	_	_
+12-44	1632-1636	etc.	person[46]	new[46]	_	_
 
-#Text=_
+#Text=But I would n't have found that person if at the time that we met I had n't been making a real effort to be outgoing and fun and so on .
 13-1	1637-1640	But	_	_	_	_
-13-2	1641-1642	I	_	_	_	_
+13-2	1641-1642	I	person	giv	_	_
 13-3	1643-1648	would	_	_	_	_
 13-4	1649-1652	n't	_	_	_	_
 13-5	1653-1657	have	_	_	_	_
 13-6	1658-1663	found	_	_	_	_
-13-7	1664-1668	that	_	_	_	_
-13-8	1669-1675	person	_	_	_	_
+13-7	1664-1668	that	person[49]	giv[49]	_	_
+13-8	1669-1675	person	person[49]	giv[49]	_	_
 13-9	1676-1678	if	_	_	_	_
 13-10	1679-1681	at	_	_	_	_
 13-11	1682-1685	the	_	_	_	_
@@ -398,7 +398,7 @@
 13-31	1769-1771	on	_	_	_	_
 13-32	1772-1773	.	_	_	_	_
 
-#Text=_
+#Text=I think the big thing is people assume introvert = poor people skills .
 14-1	1774-1775	I	_	_	_	_
 14-2	1776-1781	think	_	_	_	_
 14-3	1782-1785	the	_	_	_	_
@@ -407,14 +407,14 @@
 14-6	1796-1798	is	_	_	_	_
 14-7	1799-1805	people	_	_	_	_
 14-8	1806-1812	assume	_	_	_	_
-14-9	1813-1822	introvert	_	_	_	_
-14-10	1823-1824	=	_	_	_	_
-14-11	1825-1829	poor	_	_	_	_
-14-12	1830-1836	people	_	_	_	_
-14-13	1837-1843	skills	_	_	_	_
+14-9	1813-1822	introvert	abstract[53]	new[53]	coref	17-13[68_53]
+14-10	1823-1824	=	abstract[53]	new[53]	_	_
+14-11	1825-1829	poor	abstract[53]	new[53]	_	_
+14-12	1830-1836	people	abstract[53]	new[53]	_	_
+14-13	1837-1843	skills	abstract[53]	new[53]	_	_
 14-14	1844-1845	.	_	_	_	_
 
-#Text=_
+#Text=There are a lot of introverts that are super fun and cool people that can talk and do whatever and plenty of extroverts that are awkard and get anxious in social situations .
 15-1	1846-1851	There	_	_	_	_
 15-2	1852-1855	are	_	_	_	_
 15-3	1856-1857	a	_	_	_	_
@@ -430,10 +430,10 @@
 15-13	1904-1910	people	_	_	_	_
 15-14	1911-1915	that	_	_	_	_
 15-15	1916-1919	can	_	_	_	_
-15-16	1920-1924	talk	_	_	_	_
-15-17	1925-1928	and	_	_	_	_
-15-18	1929-1931	do	_	_	_	_
-15-19	1932-1940	whatever	_	_	_	_
+15-16	1920-1924	talk	event[59]	new[59]	ana	16-12[65_59]
+15-17	1925-1928	and	event[59]	new[59]	_	_
+15-18	1929-1931	do	event[59]	new[59]	_	_
+15-19	1932-1940	whatever	event[59]	new[59]	_	_
 15-20	1941-1944	and	_	_	_	_
 15-21	1945-1951	plenty	_	_	_	_
 15-22	1952-1954	of	_	_	_	_
@@ -449,21 +449,21 @@
 15-32	2008-2018	situations	_	_	_	_
 15-33	2019-2020	.	_	_	_	_
 
-#Text=_
-16-1	2021-2024	The	_	_	_	_
-16-2	2025-2035	difference	_	_	_	_
-16-3	2036-2038	is	_	_	_	_
-16-4	2039-2045	wether	_	_	_	_
-16-5	2046-2049	you	_	_	_	_
-16-6	2050-2056	become	_	_	_	_
-16-7	2057-2064	drained	_	_	_	_
-16-8	2065-2067	or	_	_	_	_
-16-9	2068-2077	energized	_	_	_	_
-16-10	2078-2082	when	_	_	_	_
-16-11	2083-2088	doing	_	_	_	_
-16-12	2089-2091	it	_	_	_	_
+#Text=The difference is wether you become drained or energized when doing it
+16-1	2021-2024	The	abstract[62]	new[62]	ana	34-1[0_62]
+16-2	2025-2035	difference	abstract[62]	new[62]	_	_
+16-3	2036-2038	is	abstract[62]	new[62]	_	_
+16-4	2039-2045	wether	abstract[62]	new[62]	_	_
+16-5	2046-2049	you	abstract[62]|person[64]	new[62]|giv[64]	_	_
+16-6	2050-2056	become	abstract[62]	new[62]	_	_
+16-7	2057-2064	drained	abstract[62]	new[62]	_	_
+16-8	2065-2067	or	abstract[62]	new[62]	_	_
+16-9	2068-2077	energized	abstract[62]	new[62]	_	_
+16-10	2078-2082	when	abstract[62]	new[62]	_	_
+16-11	2083-2088	doing	abstract[62]	new[62]	_	_
+16-12	2089-2091	it	abstract[62]|event[65]	new[62]|giv[65]	_	_
 
-#Text=_
+#Text=To be fair , as far as my own experience goes , that assumption is not entirely without merits .
 17-1	2092-2094	To	_	_	_	_
 17-2	2095-2097	be	_	_	_	_
 17-3	2098-2102	fair	_	_	_	_
@@ -471,13 +471,13 @@
 17-5	2105-2107	as	_	_	_	_
 17-6	2108-2111	far	_	_	_	_
 17-7	2112-2114	as	_	_	_	_
-17-8	2115-2117	my	_	_	_	_
+17-8	2115-2117	my	person[67]	acc[67]	ana	19-8[0_67]
 17-9	2118-2121	own	_	_	_	_
 17-10	2122-2132	experience	_	_	_	_
 17-11	2133-2137	goes	_	_	_	_
 17-12	2138-2139	,	_	_	_	_
-17-13	2140-2144	that	_	_	_	_
-17-14	2145-2155	assumption	_	_	_	_
+17-13	2140-2144	that	abstract[68]	giv[68]	_	_
+17-14	2145-2155	assumption	abstract[68]	giv[68]	_	_
 17-15	2156-2158	is	_	_	_	_
 17-16	2159-2162	not	_	_	_	_
 17-17	2163-2171	entirely	_	_	_	_
@@ -485,59 +485,59 @@
 17-19	2180-2186	merits	_	_	_	_
 17-20	2187-2188	.	_	_	_	_
 
-#Text=_
-18-1	2189-2195	People	_	_	_	_
-18-2	2196-2202	skills	_	_	_	_
-18-3	2203-2206	are	_	_	_	_
-18-4	2207-2213	skills	_	_	_	_
-18-5	2214-2215	,	_	_	_	_
-18-6	2216-2223	learned	_	_	_	_
-18-7	2224-2227	and	_	_	_	_
-18-8	2228-2238	maintained	_	_	_	_
-18-9	2239-2246	through	_	_	_	_
-18-10	2247-2250	use	_	_	_	_
-18-11	2251-2252	-	_	_	_	_
-18-12	2253-2255	be	_	_	_	_
-18-13	2256-2267	introverted	_	_	_	_
-18-14	2268-2274	enough	_	_	_	_
-18-15	2275-2279	that	_	_	_	_
-18-16	2280-2283	you	_	_	_	_
-18-17	2284-2286	do	_	_	_	_
-18-18	2287-2290	n't	_	_	_	_
-18-19	2291-2293	do	_	_	_	_
-18-20	2294-2300	either	_	_	_	_
-18-21	2301-2303	of	_	_	_	_
-18-22	2304-2309	these	_	_	_	_
-18-23	2310-2313	and	_	_	_	_
-18-24	2314-2316	at	_	_	_	_
-18-25	2317-2321	some	_	_	_	_
-18-26	2322-2327	point	_	_	_	_
-18-27	2328-2332	your	_	_	_	_
-18-28	2333-2339	social	_	_	_	_
-18-29	2340-2346	skills	_	_	_	_
-18-30	2347-2350	are	_	_	_	_
-18-31	2351-2359	probably	_	_	_	_
-18-32	2360-2365	going	_	_	_	_
-18-33	2366-2368	to	_	_	_	_
-18-34	2369-2375	suffer	_	_	_	_
-18-35	2376-2377	.	_	_	_	_
+#Text=People skills are skills , learned and maintained through use - be introverted enough that you do n't do either of these and at some point your social skills are probably going to suffer .
+18-1	2189-2195	People	abstract[69]	new[69]	coref	37-2[150_69]
+18-2	2196-2202	skills	abstract[69]	new[69]	_	_
+18-3	2203-2206	are	abstract[69]	new[69]	_	_
+18-4	2207-2213	skills	abstract[69]	new[69]	_	_
+18-5	2214-2215	,	abstract[69]	new[69]	_	_
+18-6	2216-2223	learned	abstract[69]	new[69]	_	_
+18-7	2224-2227	and	abstract[69]	new[69]	_	_
+18-8	2228-2238	maintained	abstract[69]	new[69]	_	_
+18-9	2239-2246	through	abstract[69]	new[69]	_	_
+18-10	2247-2250	use	abstract[69]	new[69]	_	_
+18-11	2251-2252	-	abstract[69]	new[69]	_	_
+18-12	2253-2255	be	abstract[69]	new[69]	_	_
+18-13	2256-2267	introverted	abstract[69]	new[69]	_	_
+18-14	2268-2274	enough	abstract[69]	new[69]	_	_
+18-15	2275-2279	that	abstract[69]	new[69]	_	_
+18-16	2280-2283	you	abstract[69]|person[76]	new[69]|acc[76]	ana	18-27[81_76]
+18-17	2284-2286	do	abstract[69]	new[69]	_	_
+18-18	2287-2290	n't	abstract[69]	new[69]	_	_
+18-19	2291-2293	do	abstract[69]	new[69]	_	_
+18-20	2294-2300	either	abstract[69]	new[69]	_	_
+18-21	2301-2303	of	abstract[69]	new[69]	_	_
+18-22	2304-2309	these	abstract[69]	new[69]	_	_
+18-23	2310-2313	and	abstract[69]	new[69]	_	_
+18-24	2314-2316	at	abstract[69]	new[69]	_	_
+18-25	2317-2321	some	abstract[69]	new[69]	_	_
+18-26	2322-2327	point	abstract[69]	new[69]	_	_
+18-27	2328-2332	your	abstract[69]|person[81]	new[69]|giv[81]	_	_
+18-28	2333-2339	social	abstract[69]	new[69]	_	_
+18-29	2340-2346	skills	abstract[69]	new[69]	_	_
+18-30	2347-2350	are	abstract[69]	new[69]	_	_
+18-31	2351-2359	probably	abstract[69]	new[69]	_	_
+18-32	2360-2365	going	abstract[69]	new[69]	_	_
+18-33	2366-2368	to	abstract[69]	new[69]	_	_
+18-34	2369-2375	suffer	abstract[69]	new[69]	_	_
+18-35	2376-2377	.	abstract[69]	new[69]	_	_
 
-#Text=_
+#Text=Obviously not true for every introvert but I feel like the assumption that every introvert is secretly socially awesome , funny and overall the life of the party but just does n't want to right now can be damaging as well .
 19-1	2378-2387	Obviously	_	_	_	_
 19-2	2388-2391	not	_	_	_	_
 19-3	2392-2396	true	_	_	_	_
 19-4	2397-2400	for	_	_	_	_
-19-5	2401-2406	every	_	_	_	_
-19-6	2407-2416	introvert	_	_	_	_
+19-5	2401-2406	every	person[82]	new[82]	coref	19-14[84_82]
+19-6	2407-2416	introvert	person[82]	new[82]	_	_
 19-7	2417-2420	but	_	_	_	_
-19-8	2421-2422	I	_	_	_	_
+19-8	2421-2422	I	person	giv	_	_
 19-9	2423-2427	feel	_	_	_	_
 19-10	2428-2432	like	_	_	_	_
 19-11	2433-2436	the	_	_	_	_
 19-12	2437-2447	assumption	_	_	_	_
 19-13	2448-2452	that	_	_	_	_
-19-14	2453-2458	every	_	_	_	_
-19-15	2459-2468	introvert	_	_	_	_
+19-14	2453-2458	every	person[84]	giv[84]	_	_
+19-15	2459-2468	introvert	person[84]	giv[84]	_	_
 19-16	2469-2471	is	_	_	_	_
 19-17	2472-2480	secretly	_	_	_	_
 19-18	2481-2489	socially	_	_	_	_
@@ -566,7 +566,7 @@
 19-41	2595-2599	well	_	_	_	_
 19-42	2600-2601	.	_	_	_	_
 
-#Text=_
+#Text=Source : Am awkward introvert redditor .
 20-1	2602-2608	Source	_	_	_	_
 20-2	2609-2610	:	_	_	_	_
 20-3	2611-2613	Am	_	_	_	_
@@ -575,38 +575,38 @@
 20-6	2632-2640	redditor	_	_	_	_
 20-7	2641-2642	.	_	_	_	_
 
-#Text=_
-21-1	2643-2653	Introverts	_	_	_	_
+#Text=Introverts are different between themselves .
+21-1	2643-2653	Introverts	person	new	ana	21-5
 21-2	2654-2657	are	_	_	_	_
 21-3	2658-2667	different	_	_	_	_
 21-4	2668-2675	between	_	_	_	_
-21-5	2676-2686	themselves	_	_	_	_
+21-5	2676-2686	themselves	person	giv	_	_
 21-6	2687-2688	.	_	_	_	_
 
-#Text=_
+#Text=For example I consider myself an introvert with " short range extroversion capabilities " .
 22-1	2689-2692	For	_	_	_	_
 22-2	2693-2700	example	_	_	_	_
-22-3	2701-2702	I	_	_	_	_
+22-3	2701-2702	I	person	acc	ana	22-5
 22-4	2703-2711	consider	_	_	_	_
-22-5	2712-2718	myself	_	_	_	_
-22-6	2719-2721	an	_	_	_	_
-22-7	2722-2731	introvert	_	_	_	_
-22-8	2732-2736	with	_	_	_	_
-22-9	2737-2738	"	_	_	_	_
-22-10	2739-2744	short	_	_	_	_
-22-11	2745-2750	range	_	_	_	_
-22-12	2751-2763	extroversion	_	_	_	_
-22-13	2764-2776	capabilities	_	_	_	_
-22-14	2777-2778	"	_	_	_	_
+22-5	2712-2718	myself	person	giv	_	_
+22-6	2719-2721	an	person[88]	giv[88]	ana	23-1[0_88]
+22-7	2722-2731	introvert	person[88]	giv[88]	_	_
+22-8	2732-2736	with	person[88]	giv[88]	_	_
+22-9	2737-2738	"	person[88]	giv[88]	_	_
+22-10	2739-2744	short	person[88]	giv[88]	_	_
+22-11	2745-2750	range	person[88]	giv[88]	_	_
+22-12	2751-2763	extroversion	person[88]	giv[88]	_	_
+22-13	2764-2776	capabilities	person[88]	giv[88]	_	_
+22-14	2777-2778	"	person[88]	giv[88]	_	_
 22-15	2779-2780	.	_	_	_	_
 
-#Text=_
-23-1	2781-2782	I	_	_	_	_
+#Text=I can go to a party , have fun while there , can be talkative and likeable .
+23-1	2781-2782	I	person	giv	ana	24-7[95_0]
 23-2	2783-2786	can	_	_	_	_
 23-3	2787-2789	go	_	_	_	_
 23-4	2790-2792	to	_	_	_	_
-23-5	2793-2794	a	_	_	_	_
-23-6	2795-2800	party	_	_	_	_
+23-5	2793-2794	a	event[91]	new[91]	coref	24-12[96_91]
+23-6	2795-2800	party	event[91]	new[91]	_	_
 23-7	2801-2802	,	_	_	_	_
 23-8	2803-2807	have	_	_	_	_
 23-9	2808-2811	fun	_	_	_	_
@@ -620,33 +620,33 @@
 23-17	2847-2855	likeable	_	_	_	_
 23-18	2856-2857	.	_	_	_	_
 
-#Text=_
-24-1	2858-2861	New	_	_	_	_
-24-2	2862-2868	people	_	_	_	_
-24-3	2869-2874	often	_	_	_	_
-24-4	2875-2878	get	_	_	_	_
-24-5	2879-2882	the	_	_	_	_
-24-6	2883-2887	idea	_	_	_	_
-24-7	2888-2889	I	_	_	_	_
-24-8	2890-2892	'm	_	_	_	_
-24-9	2893-2898	kinda	_	_	_	_
-24-10	2899-2903	soul	_	_	_	_
-24-11	2904-2906	of	_	_	_	_
-24-12	2907-2910	the	_	_	_	_
-24-13	2911-2916	party	_	_	_	_
-24-14	2917-2924	because	_	_	_	_
-24-15	2925-2927	of	_	_	_	_
-24-16	2928-2930	my	_	_	_	_
-24-17	2931-2936	jokes	_	_	_	_
-24-18	2937-2938	,	_	_	_	_
-24-19	2939-2943	etc.	_	_	_	_
+#Text=New people often get the idea I 'm kinda soul of the party because of my jokes , etc.
+24-1	2858-2861	New	abstract[92]	new[92]	ana	25-1[0_92]
+24-2	2862-2868	people	abstract[92]	new[92]	_	_
+24-3	2869-2874	often	abstract[92]	new[92]	_	_
+24-4	2875-2878	get	abstract[92]	new[92]	_	_
+24-5	2879-2882	the	abstract[92]	new[92]	_	_
+24-6	2883-2887	idea	abstract[92]	new[92]	_	_
+24-7	2888-2889	I	abstract[92]|person[95]	new[92]|giv[95]	ana	24-16[98_95]
+24-8	2890-2892	'm	abstract[92]	new[92]	_	_
+24-9	2893-2898	kinda	abstract[92]	new[92]	_	_
+24-10	2899-2903	soul	abstract[92]	new[92]	_	_
+24-11	2904-2906	of	abstract[92]	new[92]	_	_
+24-12	2907-2910	the	abstract[92]|event[96]	new[92]|giv[96]	_	_
+24-13	2911-2916	party	abstract[92]|event[96]	new[92]|giv[96]	_	_
+24-14	2917-2924	because	abstract[92]	new[92]	_	_
+24-15	2925-2927	of	abstract[92]	new[92]	_	_
+24-16	2928-2930	my	abstract[92]|person[98]	new[92]|giv[98]	ana	25-5[0_98]
+24-17	2931-2936	jokes	abstract[92]	new[92]	_	_
+24-18	2937-2938	,	abstract[92]	new[92]	_	_
+24-19	2939-2943	etc.	abstract[92]	new[92]	_	_
 
-#Text=_
-25-1	2944-2948	That	_	_	_	_
+#Text=That being said , I 'm usually the first one to leave any party ( extremely rarely go anywhere for longer than 3 - 4 hours ) , I hate sleepovers , prefering to drive home alone at night for two hours if needed , and I do n't want another party for a month or two .
+25-1	2944-2948	That	abstract	giv	_	_
 25-2	2949-2954	being	_	_	_	_
 25-3	2955-2959	said	_	_	_	_
 25-4	2960-2961	,	_	_	_	_
-25-5	2962-2963	I	_	_	_	_
+25-5	2962-2963	I	person	giv	ana	25-29
 25-6	2964-2966	'm	_	_	_	_
 25-7	2967-2974	usually	_	_	_	_
 25-8	2975-2978	the	_	_	_	_
@@ -670,7 +670,7 @@
 25-26	3061-3066	hours	_	_	_	_
 25-27	3067-3068	)	_	_	_	_
 25-28	3069-3070	,	_	_	_	_
-25-29	3071-3072	I	_	_	_	_
+25-29	3071-3072	I	person	giv	ana	25-47
 25-30	3073-3077	hate	_	_	_	_
 25-31	3078-3088	sleepovers	_	_	_	_
 25-32	3089-3090	,	_	_	_	_
@@ -688,7 +688,7 @@
 25-44	3147-3153	needed	_	_	_	_
 25-45	3154-3155	,	_	_	_	_
 25-46	3156-3159	and	_	_	_	_
-25-47	3160-3161	I	_	_	_	_
+25-47	3160-3161	I	person	giv	ana	26-3
 25-48	3162-3164	do	_	_	_	_
 25-49	3165-3168	n't	_	_	_	_
 25-50	3169-3173	want	_	_	_	_
@@ -701,28 +701,28 @@
 25-57	3203-3206	two	_	_	_	_
 25-58	3207-3208	.	_	_	_	_
 
-#Text=_
+#Text=At work I have luck to sit alone in my office ( two colleagues of mine took maternity leave and they wo n't return in more than a year ; it 's not the US ) .
 26-1	3209-3211	At	_	_	_	_
 26-2	3212-3216	work	_	_	_	_
-26-3	3217-3218	I	_	_	_	_
+26-3	3217-3218	I	person	giv	ana	26-10[107_0]
 26-4	3219-3223	have	_	_	_	_
 26-5	3224-3228	luck	_	_	_	_
 26-6	3229-3231	to	_	_	_	_
 26-7	3232-3235	sit	_	_	_	_
 26-8	3236-3241	alone	_	_	_	_
 26-9	3242-3244	in	_	_	_	_
-26-10	3245-3247	my	_	_	_	_
+26-10	3245-3247	my	person[107]	giv[107]	ana	26-16[109_107]
 26-11	3248-3254	office	_	_	_	_
 26-12	3255-3256	(	_	_	_	_
-26-13	3257-3260	two	_	_	_	_
-26-14	3261-3271	colleagues	_	_	_	_
-26-15	3272-3274	of	_	_	_	_
-26-16	3275-3279	mine	_	_	_	_
+26-13	3257-3260	two	person[108]	new[108]	ana	26-21[0_108]
+26-14	3261-3271	colleagues	person[108]	new[108]	_	_
+26-15	3272-3274	of	person[108]	new[108]	_	_
+26-16	3275-3279	mine	person[108]|person[109]	new[108]|giv[109]	ana	27-6[0_109]
 26-17	3280-3284	took	_	_	_	_
 26-18	3285-3294	maternity	_	_	_	_
 26-19	3295-3300	leave	_	_	_	_
 26-20	3301-3304	and	_	_	_	_
-26-21	3305-3309	they	_	_	_	_
+26-21	3305-3309	they	person	giv	_	_
 26-22	3310-3312	wo	_	_	_	_
 26-23	3313-3316	n't	_	_	_	_
 26-24	3317-3323	return	_	_	_	_
@@ -740,13 +740,13 @@
 26-36	3363-3364	)	_	_	_	_
 26-37	3365-3366	.	_	_	_	_
 
-#Text=_
+#Text=Other colleagues often disturb visit me to ask if it 's not sad for me to sit alone .
 27-1	3367-3372	Other	_	_	_	_
 27-2	3373-3383	colleagues	_	_	_	_
 27-3	3384-3389	often	_	_	_	_
 27-4	3390-3397	disturb	_	_	_	_
 27-5	3398-3403	visit	_	_	_	_
-27-6	3404-3406	me	_	_	_	_
+27-6	3404-3406	me	person	giv	ana	27-15
 27-7	3407-3409	to	_	_	_	_
 27-8	3410-3413	ask	_	_	_	_
 27-9	3414-3416	if	_	_	_	_
@@ -755,36 +755,36 @@
 27-12	3423-3426	not	_	_	_	_
 27-13	3427-3430	sad	_	_	_	_
 27-14	3431-3434	for	_	_	_	_
-27-15	3435-3437	me	_	_	_	_
-27-16	3438-3440	to	_	_	_	_
-27-17	3441-3444	sit	_	_	_	_
-27-18	3445-3450	alone	_	_	_	_
+27-15	3435-3437	me	person	giv	_	_
+27-16	3438-3440	to	event[115]	new[115]	ana	28-5[0_115]
+27-17	3441-3444	sit	event[115]	new[115]	_	_
+27-18	3445-3450	alone	event[115]	new[115]	_	_
 27-19	3451-3452	.	_	_	_	_
 
-#Text=_
+#Text=No , God , it 's fantastic .
 28-1	3453-3455	No	_	_	_	_
 28-2	3456-3457	,	_	_	_	_
 28-3	3458-3461	God	_	_	_	_
 28-4	3462-3463	,	_	_	_	_
-28-5	3464-3466	it	_	_	_	_
+28-5	3464-3466	it	event	giv	_	_
 28-6	3467-3469	's	_	_	_	_
 28-7	3470-3479	fantastic	_	_	_	_
 28-8	3480-3481	.	_	_	_	_
 
-#Text=_
-29-1	3482-3484	My	_	_	_	_
-29-2	3485-3492	battery	_	_	_	_
-29-3	3493-3500	depends	_	_	_	_
-29-4	3501-3503	on	_	_	_	_
-29-5	3504-3507	how	_	_	_	_
-29-6	3508-3509	I	_	_	_	_
-29-7	3510-3514	feel	_	_	_	_
-29-8	3515-3522	overall	_	_	_	_
+#Text=My battery depends on how I feel overall but that usually means I can do 10 mins in the kitchen with my roommates before I 'm tapped , or I can spend a night with 5 people in a smallish room while crushing them in gaming for a few hours .
+29-1	3482-3484	My	abstract[116]|abstract[117]|person[118]	new[116]|new[117]|acc[118]	ana|coref|ana	29-10[0_116]|32-3[137_117]|29-6[119_118]
+29-2	3485-3492	battery	abstract[116]|abstract[117]	new[116]|new[117]	_	_
+29-3	3493-3500	depends	abstract[116]	new[116]	_	_
+29-4	3501-3503	on	abstract[116]	new[116]	_	_
+29-5	3504-3507	how	abstract[116]	new[116]	_	_
+29-6	3508-3509	I	abstract[116]|person[119]	new[116]|giv[119]	ana	29-13[0_119]
+29-7	3510-3514	feel	abstract[116]	new[116]	_	_
+29-8	3515-3522	overall	abstract[116]	new[116]	_	_
 29-9	3523-3526	but	_	_	_	_
-29-10	3527-3531	that	_	_	_	_
+29-10	3527-3531	that	abstract	giv	_	_
 29-11	3532-3539	usually	_	_	_	_
 29-12	3540-3545	means	_	_	_	_
-29-13	3546-3547	I	_	_	_	_
+29-13	3546-3547	I	person	giv	ana	29-22[124_0]
 29-14	3548-3551	can	_	_	_	_
 29-15	3552-3554	do	_	_	_	_
 29-16	3555-3557	10	_	_	_	_
@@ -793,29 +793,29 @@
 29-19	3566-3569	the	_	_	_	_
 29-20	3570-3577	kitchen	_	_	_	_
 29-21	3578-3582	with	_	_	_	_
-29-22	3583-3585	my	_	_	_	_
-29-23	3586-3595	roommates	_	_	_	_
+29-22	3583-3585	my	person[123]|person[124]	new[123]|giv[124]	coref|ana	31-16[135_123]|29-25[0_124]
+29-23	3586-3595	roommates	person[123]	new[123]	_	_
 29-24	3596-3602	before	_	_	_	_
-29-25	3603-3604	I	_	_	_	_
+29-25	3603-3604	I	person	giv	ana	29-30
 29-26	3605-3607	'm	_	_	_	_
 29-27	3608-3614	tapped	_	_	_	_
 29-28	3615-3616	,	_	_	_	_
 29-29	3617-3619	or	_	_	_	_
-29-30	3620-3621	I	_	_	_	_
+29-30	3620-3621	I	person	giv	ana	30-6
 29-31	3622-3625	can	_	_	_	_
 29-32	3626-3631	spend	_	_	_	_
 29-33	3632-3633	a	_	_	_	_
 29-34	3634-3639	night	_	_	_	_
 29-35	3640-3644	with	_	_	_	_
-29-36	3645-3646	5	_	_	_	_
-29-37	3647-3653	people	_	_	_	_
+29-36	3645-3646	5	person[127]	new[127]	ana	29-44[129_127]
+29-37	3647-3653	people	person[127]	new[127]	_	_
 29-38	3654-3656	in	_	_	_	_
 29-39	3657-3658	a	_	_	_	_
 29-40	3659-3667	smallish	_	_	_	_
 29-41	3668-3672	room	_	_	_	_
 29-42	3673-3678	while	_	_	_	_
 29-43	3679-3687	crushing	_	_	_	_
-29-44	3688-3692	them	_	_	_	_
+29-44	3688-3692	them	person[129]	giv[129]	_	_
 29-45	3693-3695	in	_	_	_	_
 29-46	3696-3702	gaming	_	_	_	_
 29-47	3703-3706	for	_	_	_	_
@@ -824,33 +824,33 @@
 29-50	3713-3718	hours	_	_	_	_
 29-51	3719-3720	.	_	_	_	_
 
-#Text=_
-30-1	3721-3725	Both	_	_	_	_
-30-2	3726-3728	of	_	_	_	_
-30-3	3729-3734	those	_	_	_	_
+#Text=Both of those will drain me , but the charging for both also highly depend on I feel again .
+30-1	3721-3725	Both	event[132]	giv[132]	ana	30-12[0_132]
+30-2	3726-3728	of	event[132]	giv[132]	_	_
+30-3	3729-3734	those	event[132]	giv[132]	_	_
 30-4	3735-3739	will	_	_	_	_
 30-5	3740-3745	drain	_	_	_	_
-30-6	3746-3748	me	_	_	_	_
+30-6	3746-3748	me	person	giv	ana	30-17
 30-7	3749-3750	,	_	_	_	_
 30-8	3751-3754	but	_	_	_	_
 30-9	3755-3758	the	_	_	_	_
 30-10	3759-3767	charging	_	_	_	_
 30-11	3768-3771	for	_	_	_	_
-30-12	3772-3776	both	_	_	_	_
+30-12	3772-3776	both	event	giv	_	_
 30-13	3777-3781	also	_	_	_	_
 30-14	3782-3788	highly	_	_	_	_
 30-15	3789-3795	depend	_	_	_	_
 30-16	3796-3798	on	_	_	_	_
-30-17	3799-3800	I	_	_	_	_
+30-17	3799-3800	I	person	giv	ana	31-4
 30-18	3801-3805	feel	_	_	_	_
 30-19	3806-3811	again	_	_	_	_
 30-20	3812-3813	.	_	_	_	_
 
-#Text=_
+#Text=The other night I was able to spend 2 hrs just chilling and talking with the roommates and some guests they had over ,
 31-1	3814-3817	The	_	_	_	_
 31-2	3818-3823	other	_	_	_	_
 31-3	3824-3829	night	_	_	_	_
-31-4	3830-3831	I	_	_	_	_
+31-4	3830-3831	I	person	giv	ana	32-1
 31-5	3832-3835	was	_	_	_	_
 31-6	3836-3840	able	_	_	_	_
 31-7	3841-3843	to	_	_	_	_
@@ -862,42 +862,42 @@
 31-13	3870-3873	and	_	_	_	_
 31-14	3874-3881	talking	_	_	_	_
 31-15	3882-3886	with	_	_	_	_
-31-16	3887-3890	the	_	_	_	_
-31-17	3891-3900	roommates	_	_	_	_
+31-16	3887-3890	the	person[135]	giv[135]	ana	31-21[0_135]
+31-17	3891-3900	roommates	person[135]	giv[135]	_	_
 31-18	3901-3904	and	_	_	_	_
-31-19	3905-3909	some	_	_	_	_
-31-20	3910-3916	guests	_	_	_	_
-31-21	3917-3921	they	_	_	_	_
-31-22	3922-3925	had	_	_	_	_
-31-23	3926-3930	over	_	_	_	_
+31-19	3905-3909	some	person[136]	new[136]	coref	32-20[145_136]
+31-20	3910-3916	guests	person[136]	new[136]	_	_
+31-21	3917-3921	they	person|person[136]	giv|new[136]	_	_
+31-22	3922-3925	had	person[136]	new[136]	_	_
+31-23	3926-3930	over	person[136]	new[136]	_	_
 31-24	3931-3932	,	_	_	_	_
 
-#Text=_
-32-1	3933-3934	I	_	_	_	_
+#Text=I knew my battery was close to being dead but I forced myself past my limit because one of the guests is attractive and I wanted a chance to flirt .
+32-1	3933-3934	I	person	giv	ana	32-3[138_0]
 32-2	3935-3939	knew	_	_	_	_
-32-3	3940-3942	my	_	_	_	_
-32-4	3943-3950	battery	_	_	_	_
+32-3	3940-3942	my	abstract[137]|person[138]	giv[137]|giv[138]	ana	32-11[140_138]
+32-4	3943-3950	battery	abstract[137]	giv[137]	_	_
 32-5	3951-3954	was	_	_	_	_
 32-6	3955-3960	close	_	_	_	_
 32-7	3961-3963	to	_	_	_	_
 32-8	3964-3969	being	_	_	_	_
 32-9	3970-3974	dead	_	_	_	_
 32-10	3975-3978	but	_	_	_	_
-32-11	3979-3980	I	_	_	_	_
-32-12	3981-3987	forced	_	_	_	_
-32-13	3988-3994	myself	_	_	_	_
-32-14	3995-3999	past	_	_	_	_
-32-15	4000-4002	my	_	_	_	_
-32-16	4003-4008	limit	_	_	_	_
+32-11	3979-3980	I	event[139]|person[140]	new[139]|giv[140]	ana|ana	33-2[0_139]|32-13[141_140]
+32-12	3981-3987	forced	event[139]	new[139]	_	_
+32-13	3988-3994	myself	event[139]|person[141]	new[139]|giv[141]	ana	32-15[143_141]
+32-14	3995-3999	past	event[139]	new[139]	_	_
+32-15	4000-4002	my	event[139]|person[143]	new[139]|giv[143]	ana	32-25[0_143]
+32-16	4003-4008	limit	event[139]	new[139]	_	_
 32-17	4009-4016	because	_	_	_	_
 32-18	4017-4020	one	_	_	_	_
 32-19	4021-4023	of	_	_	_	_
-32-20	4024-4027	the	_	_	_	_
-32-21	4028-4034	guests	_	_	_	_
+32-20	4024-4027	the	person[145]	giv[145]	_	_
+32-21	4028-4034	guests	person[145]	giv[145]	_	_
 32-22	4035-4037	is	_	_	_	_
 32-23	4038-4048	attractive	_	_	_	_
 32-24	4049-4052	and	_	_	_	_
-32-25	4053-4054	I	_	_	_	_
+32-25	4053-4054	I	person	giv	ana	33-14
 32-26	4055-4061	wanted	_	_	_	_
 32-27	4062-4063	a	_	_	_	_
 32-28	4064-4070	chance	_	_	_	_
@@ -905,9 +905,9 @@
 32-30	4074-4079	flirt	_	_	_	_
 32-31	4080-4081	.	_	_	_	_
 
-#Text=_
+#Text=Regretting it still , because even though it 's been like two days I do n't feel there is a healthy enough charge to engage with people again .
 33-1	4082-4092	Regretting	_	_	_	_
-33-2	4093-4095	it	_	_	_	_
+33-2	4093-4095	it	event	giv	_	_
 33-3	4096-4101	still	_	_	_	_
 33-4	4102-4103	,	_	_	_	_
 33-5	4104-4111	because	_	_	_	_
@@ -919,7 +919,7 @@
 33-11	4135-4139	like	_	_	_	_
 33-12	4140-4143	two	_	_	_	_
 33-13	4144-4148	days	_	_	_	_
-33-14	4149-4150	I	_	_	_	_
+33-14	4149-4150	I	person	giv	_	_
 33-15	4151-4153	do	_	_	_	_
 33-16	4154-4157	n't	_	_	_	_
 33-17	4158-4162	feel	_	_	_	_
@@ -936,12 +936,12 @@
 33-28	4218-4223	again	_	_	_	_
 33-29	4224-4225	.	_	_	_	_
 
-#Text=_
-34-1	4226-4230	That	_	_	_	_
+#Text=That 's true
+34-1	4226-4230	That	abstract	giv	_	_
 34-2	4231-4233	's	_	_	_	_
 34-3	4234-4238	true	_	_	_	_
 
-#Text=_
+#Text=there s definitely a trend .
 35-1	4239-4244	there	_	_	_	_
 35-2	4245-4246	s	_	_	_	_
 35-3	4247-4257	definitely	_	_	_	_
@@ -949,8 +949,8 @@
 35-5	4260-4265	trend	_	_	_	_
 35-6	4266-4267	.	_	_	_	_
 
-#Text=_
-36-1	4268-4275	Someone	_	_	_	_
+#Text=Someone is n't gon na want to do something that drains them and someone loves to do something that energizes them .
+36-1	4268-4275	Someone	person	new	ana	36-12
 36-2	4276-4278	is	_	_	_	_
 36-3	4279-4282	n't	_	_	_	_
 36-4	4283-4286	gon	_	_	_	_
@@ -961,24 +961,24 @@
 36-9	4301-4310	something	_	_	_	_
 36-10	4311-4315	that	_	_	_	_
 36-11	4316-4322	drains	_	_	_	_
-36-12	4323-4327	them	_	_	_	_
+36-12	4323-4327	them	person	giv	_	_
 36-13	4328-4331	and	_	_	_	_
-36-14	4332-4339	someone	_	_	_	_
+36-14	4332-4339	someone	person	new	ana	36-21
 36-15	4340-4345	loves	_	_	_	_
 36-16	4346-4348	to	_	_	_	_
 36-17	4349-4351	do	_	_	_	_
 36-18	4352-4361	something	_	_	_	_
 36-19	4362-4366	that	_	_	_	_
 36-20	4367-4376	energizes	_	_	_	_
-36-21	4377-4381	them	_	_	_	_
+36-21	4377-4381	them	person	giv	_	_
 36-22	4382-4383	.	_	_	_	_
 
-#Text=_
+#Text=Plus the people skill part is spot on
 37-1	4384-4388	Plus	_	_	_	_
-37-2	4389-4392	the	_	_	_	_
-37-3	4393-4399	people	_	_	_	_
-37-4	4400-4405	skill	_	_	_	_
-37-5	4406-4410	part	_	_	_	_
+37-2	4389-4392	the	abstract[150]	new[150]	_	_
+37-3	4393-4399	people	abstract[150]	new[150]	_	_
+37-4	4400-4405	skill	abstract[150]	new[150]	_	_
+37-5	4406-4410	part	abstract[150]	new[150]	_	_
 37-6	4411-4413	is	_	_	_	_
 37-7	4414-4418	spot	_	_	_	_
 37-8	4419-4421	on	_	_	_	_

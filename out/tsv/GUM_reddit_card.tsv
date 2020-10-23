@@ -3,43 +3,43 @@
 #T_RL=webanno.custom.Coref|type|BT_webanno.custom.Referent
 
 
-#Text=_
+#Text=Be careful what you say in public
 1-1	0-2	Be	_	_	_	_
 1-2	3-10	careful	_	_	_	_
 1-3	11-15	what	_	_	_	_
-1-4	16-19	you	_	_	_	_
+1-4	16-19	you	person	acc	ana	8-4[26_0]
 1-5	20-23	say	_	_	_	_
 1-6	24-26	in	_	_	_	_
 1-7	27-33	public	_	_	_	_
 
-#Text=_
-2-1	34-36	My	_	_	_	_
-2-2	37-41	wife	_	_	_	_
-2-3	42-45	and	_	_	_	_
-2-4	46-47	I	_	_	_	_
+#Text=My wife and I were at Panera eating breakfast and we noticed a lady be hind us talking on the phone very loudly .
+2-1	34-36	My	person[1]|person[3]	new[1]|acc[3]	ana|ana	2-11[0_1]|2-4[4_3]
+2-2	37-41	wife	person[1]	new[1]	_	_
+2-3	42-45	and	person[1]	new[1]	_	_
+2-4	46-47	I	person[1]|person[4]	new[1]|giv[4]	_	_
 2-5	48-52	were	_	_	_	_
 2-6	53-55	at	_	_	_	_
-2-7	56-62	Panera	_	_	_	_
+2-7	56-62	Panera	place	new	ana	4-12
 2-8	63-69	eating	_	_	_	_
 2-9	70-79	breakfast	_	_	_	_
 2-10	80-83	and	_	_	_	_
-2-11	84-86	we	_	_	_	_
+2-11	84-86	we	person	giv	ana	2-17[6_0]
 2-12	87-94	noticed	_	_	_	_
-2-13	95-96	a	_	_	_	_
-2-14	97-101	lady	_	_	_	_
-2-15	102-104	be	_	_	_	_
-2-16	105-109	hind	_	_	_	_
-2-17	110-112	us	_	_	_	_
-2-18	113-120	talking	_	_	_	_
-2-19	121-123	on	_	_	_	_
-2-20	124-127	the	_	_	_	_
-2-21	128-133	phone	_	_	_	_
-2-22	134-138	very	_	_	_	_
-2-23	139-145	loudly	_	_	_	_
+2-13	95-96	a	person[5]	new[5]	ana	3-7[0_5]
+2-14	97-101	lady	person[5]	new[5]	_	_
+2-15	102-104	be	person[5]	new[5]	_	_
+2-16	105-109	hind	person[5]	new[5]	_	_
+2-17	110-112	us	person[5]|person[6]	new[5]|giv[6]	ana	3-1[0_6]
+2-18	113-120	talking	person[5]	new[5]	_	_
+2-19	121-123	on	person[5]	new[5]	_	_
+2-20	124-127	the	person[5]	new[5]	_	_
+2-21	128-133	phone	person[5]	new[5]	_	_
+2-22	134-138	very	person[5]	new[5]	_	_
+2-23	139-145	loudly	person[5]	new[5]	_	_
 2-24	146-147	.	_	_	_	_
 
-#Text=_
-3-1	148-150	We	_	_	_	_
+#Text=We could n’t help over hearing her talk about a bill not being paid .
+3-1	148-150	We	person	giv	ana	4-1
 3-2	151-156	could	_	_	_	_
 3-3	157-160	n’t	_	_	_	_
 3-4	161-165	help	_	_	_	_
@@ -55,8 +55,8 @@
 3-14	211-215	paid	_	_	_	_
 3-15	216-217	.	_	_	_	_
 
-#Text=_
-4-1	218-220	We	_	_	_	_
+#Text=We were a little annoyed but not a big deal because it was a public restaurant .
+4-1	218-220	We	person	giv	ana	5-1
 4-2	221-225	were	_	_	_	_
 4-3	226-227	a	_	_	_	_
 4-4	228-234	little	_	_	_	_
@@ -67,15 +67,15 @@
 4-9	253-256	big	_	_	_	_
 4-10	257-261	deal	_	_	_	_
 4-11	262-269	because	_	_	_	_
-4-12	270-272	it	_	_	_	_
+4-12	270-272	it	place	giv	_	_
 4-13	273-276	was	_	_	_	_
 4-14	277-278	a	_	_	_	_
 4-15	279-285	public	_	_	_	_
 4-16	286-296	restaurant	_	_	_	_
 4-17	297-298	.	_	_	_	_
 
-#Text=_
-5-1	299-301	We	_	_	_	_
+#Text=We were not trying to listen but were shocked when she announced that she was about to read her card number .
+5-1	299-301	We	person	giv	ana	7-1
 5-2	302-306	were	_	_	_	_
 5-3	307-310	not	_	_	_	_
 5-4	311-317	trying	_	_	_	_
@@ -85,21 +85,21 @@
 5-8	332-336	were	_	_	_	_
 5-9	337-344	shocked	_	_	_	_
 5-10	345-349	when	_	_	_	_
-5-11	350-353	she	person[12]	giv[12]	_	_
-5-12	354-363	announced	_	_	_	_
-5-13	364-368	that	_	_	_	_
-5-14	369-372	she	_	_	_	_
-5-15	373-376	was	_	_	_	_
-5-16	377-382	about	_	_	_	_
-5-17	383-385	to	_	_	_	_
-5-18	386-390	read	_	_	_	_
-5-19	391-394	her	_	_	_	_
-5-20	395-399	card	_	_	_	_
-5-21	400-406	number	_	_	_	_
+5-11	350-353	she	event[11]|person[12]	new[11]|giv[12]	ana|ana	8-10[0_11]|5-14[13_12]
+5-12	354-363	announced	event[11]	new[11]	_	_
+5-13	364-368	that	event[11]	new[11]	_	_
+5-14	369-372	she	event[11]|person[13]	new[11]|giv[13]	ana	5-19[15_13]
+5-15	373-376	was	event[11]	new[11]	_	_
+5-16	377-382	about	event[11]	new[11]	_	_
+5-17	383-385	to	event[11]	new[11]	_	_
+5-18	386-390	read	event[11]	new[11]	_	_
+5-19	391-394	her	event[11]|abstract[14]|person[15]	new[11]|new[14]|giv[15]	ana|ana	7-11[0_14]|6-1[0_15]
+5-20	395-399	card	event[11]|abstract[14]	new[11]|new[14]	_	_
+5-21	400-406	number	event[11]|abstract[14]	new[11]|new[14]	_	_
 5-22	407-408	.	_	_	_	_
 
-#Text=_
-6-1	409-412	She	_	_	_	_
+#Text=She then gave the card ’s expiration date , security code , and her zip code .
+6-1	409-412	She	person	giv	ana	6-14[22_0]
 6-2	413-417	then	_	_	_	_
 6-3	418-422	gave	_	_	_	_
 6-4	423-426	the	_	_	_	_
@@ -112,26 +112,26 @@
 6-11	462-466	code	_	_	_	_
 6-12	467-468	,	_	_	_	_
 6-13	469-472	and	_	_	_	_
-6-14	473-476	her	_	_	_	_
+6-14	473-476	her	person[22]	giv[22]	ana	7-12[0_22]
 6-15	477-480	zip	_	_	_	_
 6-16	481-485	code	_	_	_	_
 6-17	486-487	.	_	_	_	_
 
-#Text=_
-7-1	488-490	We	_	_	_	_
+#Text=We clearly heard and if we were planning on stealing it she gave us plenty of notice to get a pen .
+7-1	488-490	We	person	giv	ana	7-6
 7-2	491-498	clearly	_	_	_	_
 7-3	499-504	heard	_	_	_	_
 7-4	505-508	and	_	_	_	_
 7-5	509-511	if	_	_	_	_
-7-6	512-514	we	_	_	_	_
+7-6	512-514	we	person	giv	ana	7-14
 7-7	515-519	were	_	_	_	_
 7-8	520-528	planning	_	_	_	_
 7-9	529-531	on	_	_	_	_
 7-10	532-540	stealing	_	_	_	_
-7-11	541-543	it	_	_	_	_
-7-12	544-547	she	_	_	_	_
+7-11	541-543	it	abstract	giv	_	_
+7-12	544-547	she	person	giv	_	_
 7-13	548-552	gave	_	_	_	_
-7-14	553-555	us	_	_	_	_
+7-14	553-555	us	person	giv	_	_
 7-15	556-562	plenty	_	_	_	_
 7-16	563-565	of	_	_	_	_
 7-17	566-572	notice	_	_	_	_
@@ -141,21 +141,21 @@
 7-21	582-585	pen	_	_	_	_
 7-22	586-587	.	_	_	_	_
 
-#Text=_
+#Text=Do n’t read your personal information in public like this .
 8-1	588-590	Do	_	_	_	_
 8-2	591-594	n’t	_	_	_	_
 8-3	595-599	read	_	_	_	_
-8-4	600-604	your	_	_	_	_
+8-4	600-604	your	person[26]	giv[26]	ana	9-1[0_26]
 8-5	605-613	personal	_	_	_	_
 8-6	614-625	information	_	_	_	_
 8-7	626-628	in	_	_	_	_
 8-8	629-635	public	_	_	_	_
 8-9	636-640	like	_	_	_	_
-8-10	641-645	this	_	_	_	_
+8-10	641-645	this	event	giv	_	_
 8-11	646-647	.	_	_	_	_
 
-#Text=_
-9-1	648-651	You	_	_	_	_
+#Text=You never know who is listening and who is writing stuff down .
+9-1	648-651	You	person	giv	_	_
 9-2	652-657	never	_	_	_	_
 9-3	658-662	know	_	_	_	_
 9-4	663-666	who	_	_	_	_
@@ -169,7 +169,7 @@
 9-12	705-709	down	_	_	_	_
 9-13	710-711	.	_	_	_	_
 
-#Text=_
+#Text=Wow I ca n't believe someone would blurt that out .
 10-1	712-715	Wow	_	_	_	_
 10-2	716-717	I	_	_	_	_
 10-3	718-720	ca	_	_	_	_
@@ -182,19 +182,19 @@
 10-10	758-761	out	_	_	_	_
 10-11	762-763	.	_	_	_	_
 
-#Text=_
+#Text=Post in a week :
 11-1	764-768	Post	_	_	_	_
 11-2	769-771	in	_	_	_	_
 11-3	772-773	a	_	_	_	_
 11-4	774-778	week	_	_	_	_
 11-5	779-780	:	_	_	_	_
 
-#Text=_
+#Text=" Help !
 12-1	781-782	"	_	_	_	_
 12-2	783-787	Help	_	_	_	_
 12-3	788-789	!	_	_	_	_
 
-#Text=_
+#Text=someone somehow stole my credit card info !
 13-1	790-797	someone	_	_	_	_
 13-2	798-805	somehow	_	_	_	_
 13-3	806-811	stole	_	_	_	_
@@ -204,7 +204,7 @@
 13-7	827-831	info	_	_	_	_
 13-8	832-833	!	_	_	_	_
 
-#Text=_
+#Text=advice ! ? ! ? ! "
 14-1	834-840	advice	_	_	_	_
 14-2	841-842	!	_	_	_	_
 14-3	843-844	?	_	_	_	_
@@ -213,37 +213,37 @@
 14-6	849-850	!	_	_	_	_
 14-7	851-852	"	_	_	_	_
 
-#Text=_
-15-1	853-854	I	_	_	_	_
+#Text=I worked at a call center and some people are really lax about their information and expect other to be lax about their info as well .
+15-1	853-854	I	person	acc	ana	16-1
 15-2	855-861	worked	_	_	_	_
 15-3	862-864	at	_	_	_	_
 15-4	865-866	a	_	_	_	_
 15-5	867-871	call	_	_	_	_
 15-6	872-878	center	_	_	_	_
 15-7	879-882	and	_	_	_	_
-15-8	883-887	some	_	_	_	_
-15-9	888-894	people	_	_	_	_
+15-8	883-887	some	person[33]	new[33]	ana	15-14[35_33]
+15-9	888-894	people	person[33]	new[33]	_	_
 15-10	895-898	are	_	_	_	_
 15-11	899-905	really	_	_	_	_
 15-12	906-909	lax	_	_	_	_
 15-13	910-915	about	_	_	_	_
-15-14	916-921	their	_	_	_	_
+15-14	916-921	their	person[35]	giv[35]	_	_
 15-15	922-933	information	_	_	_	_
 15-16	934-937	and	_	_	_	_
 15-17	938-944	expect	_	_	_	_
-15-18	945-950	other	_	_	_	_
+15-18	945-950	other	person	new	ana	15-23[37_0]
 15-19	951-953	to	_	_	_	_
 15-20	954-956	be	_	_	_	_
 15-21	957-960	lax	_	_	_	_
 15-22	961-966	about	_	_	_	_
-15-23	967-972	their	_	_	_	_
+15-23	967-972	their	person[37]	giv[37]	_	_
 15-24	973-977	info	_	_	_	_
 15-25	978-980	as	_	_	_	_
 15-26	981-985	well	_	_	_	_
 15-27	986-987	.	_	_	_	_
 
-#Text=_
-16-1	988-989	I	_	_	_	_
+#Text=I 'd have conversations that would go like this :
+16-1	988-989	I	person	giv	ana	17-1
 16-2	990-992	'd	_	_	_	_
 16-3	993-997	have	_	_	_	_
 16-4	998-1011	conversations	_	_	_	_
@@ -254,98 +254,98 @@
 16-9	1031-1035	this	_	_	_	_
 16-10	1036-1037	:	_	_	_	_
 
-#Text=_
-17-1	1038-1040	Me	_	_	_	_
+#Text=Me :
+17-1	1038-1040	Me	person	giv	ana	18-4
 17-2	1041-1042	:	_	_	_	_
 
-#Text=_
+#Text=" Ok , I 'm ready for your card number . "
 18-1	1043-1044	"	_	_	_	_
 18-2	1045-1047	Ok	_	_	_	_
 18-3	1048-1049	,	_	_	_	_
-18-4	1050-1051	I	_	_	_	_
+18-4	1050-1051	I	person	giv	ana	21-1
 18-5	1052-1054	'm	_	_	_	_
 18-6	1055-1060	ready	_	_	_	_
 18-7	1061-1064	for	_	_	_	_
-18-8	1065-1069	your	_	_	_	_
-18-9	1070-1074	card	_	_	_	_
-18-10	1075-1081	number	_	_	_	_
+18-8	1065-1069	your	abstract[38]	new[38]	coref	20-6[41_38]
+18-9	1070-1074	card	abstract[38]	new[38]	_	_
+18-10	1075-1081	number	abstract[38]	new[38]	_	_
 18-11	1082-1083	.	_	_	_	_
 18-12	1084-1085	"	_	_	_	_
 
-#Text=_
-19-1	1086-1094	Customer	_	_	_	_
+#Text=Customer :
+19-1	1086-1094	Customer	person	giv	ana	20-8
 19-2	1095-1096	:	_	_	_	_
 
-#Text=_
+#Text=" Well , just use the one I used last time . "
 20-1	1097-1098	"	_	_	_	_
 20-2	1099-1103	Well	_	_	_	_
 20-3	1104-1105	,	_	_	_	_
 20-4	1106-1110	just	_	_	_	_
 20-5	1111-1114	use	_	_	_	_
-20-6	1115-1118	the	_	_	_	_
-20-7	1119-1122	one	_	_	_	_
-20-8	1123-1124	I	_	_	_	_
-20-9	1125-1129	used	_	_	_	_
-20-10	1130-1134	last	_	_	_	_
-20-11	1135-1139	time	_	_	_	_
+20-6	1115-1118	the	abstract[41]	giv[41]	coref	22-12[43_41]
+20-7	1119-1122	one	abstract[41]	giv[41]	_	_
+20-8	1123-1124	I	person|abstract[41]	giv|giv[41]	ana	22-12[44_0]
+20-9	1125-1129	used	abstract[41]	giv[41]	_	_
+20-10	1130-1134	last	abstract[41]	giv[41]	_	_
+20-11	1135-1139	time	abstract[41]	giv[41]	_	_
 20-12	1140-1141	.	_	_	_	_
 20-13	1142-1143	"	_	_	_	_
 
-#Text=_
-21-1	1144-1146	Me	_	_	_	_
+#Text=Me :
+21-1	1144-1146	Me	person	giv	ana	22-2
 21-2	1147-1148	:	_	_	_	_
 
-#Text=_
+#Text=" I 'm sorry , I do n't have access to your card number . "
 22-1	1149-1150	"	_	_	_	_
-22-2	1151-1152	I	_	_	_	_
+22-2	1151-1152	I	person	giv	ana	22-6
 22-3	1153-1155	'm	_	_	_	_
 22-4	1156-1161	sorry	_	_	_	_
 22-5	1162-1163	,	_	_	_	_
-22-6	1164-1165	I	_	_	_	_
+22-6	1164-1165	I	person	giv	ana	25-3
 22-7	1166-1168	do	_	_	_	_
 22-8	1169-1172	n't	_	_	_	_
 22-9	1173-1177	have	_	_	_	_
 22-10	1178-1184	access	_	_	_	_
 22-11	1185-1187	to	_	_	_	_
-22-12	1188-1192	your	_	_	_	_
-22-13	1193-1197	card	_	_	_	_
-22-14	1198-1204	number	_	_	_	_
+22-12	1188-1192	your	abstract[43]|person[44]	giv[43]|giv[44]	ana	25-5[0_43]
+22-13	1193-1197	card	abstract[43]	giv[43]	_	_
+22-14	1198-1204	number	abstract[43]	giv[43]	_	_
 22-15	1205-1206	.	_	_	_	_
 22-16	1207-1208	"	_	_	_	_
 
-#Text=_
-23-1	1209-1217	Customer	_	_	_	_
+#Text=Customer :
+23-1	1209-1217	Customer	person	giv	ana	24-2
 23-2	1218-1219	:	_	_	_	_
 
-#Text=_
+#Text=" I do n't understand ...
 24-1	1220-1221	"	_	_	_	_
-24-2	1222-1223	I	_	_	_	_
+24-2	1222-1223	I	person	giv	ana	25-1
 24-3	1224-1226	do	_	_	_	_
 24-4	1227-1230	n't	_	_	_	_
 24-5	1231-1241	understand	_	_	_	_
 24-6	1242-1245	...	_	_	_	_
 
-#Text=_
-25-1	1246-1247	I	_	_	_	_
+#Text=I know you have it right in front of you . "
+25-1	1246-1247	I	person	giv	_	_
 25-2	1248-1252	know	_	_	_	_
-25-3	1253-1256	you	_	_	_	_
+25-3	1253-1256	you	person	giv	ana	25-10
 25-4	1257-1261	have	_	_	_	_
-25-5	1262-1264	it	_	_	_	_
+25-5	1262-1264	it	abstract	giv	_	_
 25-6	1265-1270	right	_	_	_	_
 25-7	1271-1273	in	_	_	_	_
 25-8	1274-1279	front	_	_	_	_
 25-9	1280-1282	of	_	_	_	_
-25-10	1283-1286	you	_	_	_	_
+25-10	1283-1286	you	person	giv	ana	26-1
 25-11	1287-1288	.	_	_	_	_
 25-12	1289-1290	"	_	_	_	_
 
-#Text=_
-26-1	1291-1293	Me	_	_	_	_
+#Text=Me :
+26-1	1291-1293	Me	person	giv	ana	27-2
 26-2	1294-1295	:	_	_	_	_
 
-#Text=_
+#Text=" I can only see the last four digits for security purposes . "
 27-1	1296-1297	"	_	_	_	_
-27-2	1298-1299	I	_	_	_	_
+27-2	1298-1299	I	person	giv	ana	30-7[53_0]
 27-3	1300-1303	can	_	_	_	_
 27-4	1304-1308	only	_	_	_	_
 27-5	1309-1312	see	_	_	_	_
@@ -359,48 +359,48 @@
 27-13	1356-1357	.	_	_	_	_
 27-14	1358-1359	"	_	_	_	_
 
-#Text=_
-28-1	1360-1368	Customer	_	_	_	_
+#Text=Customer :
+28-1	1360-1368	Customer	person	giv	ana	29-3
 28-2	1369-1370	:	_	_	_	_
 
-#Text=_
+#Text=" Well I do n't have my card on me right now ...
 29-1	1371-1372	"	_	_	_	_
 29-2	1373-1377	Well	_	_	_	_
-29-3	1378-1379	I	_	_	_	_
+29-3	1378-1379	I	person	giv	ana	29-7[50_0]
 29-4	1380-1382	do	_	_	_	_
 29-5	1383-1386	n't	_	_	_	_
 29-6	1387-1391	have	_	_	_	_
-29-7	1392-1394	my	_	_	_	_
-29-8	1395-1399	card	_	_	_	_
+29-7	1392-1394	my	object[49]|person[50]	giv[49]|giv[50]	coref|ana	30-11[54_49]|29-10[0_50]
+29-8	1395-1399	card	object[49]	giv[49]	_	_
 29-9	1400-1402	on	_	_	_	_
-29-10	1403-1405	me	_	_	_	_
+29-10	1403-1405	me	person	giv	ana	30-1[52_0]
 29-11	1406-1411	right	_	_	_	_
 29-12	1412-1415	now	_	_	_	_
 29-13	1416-1419	...	_	_	_	_
 
-#Text=_
-30-1	1420-1421	I	_	_	_	_
+#Text=I just do n't understand why you ca n't use the card I used before . "
+30-1	1420-1421	I	person[52]	giv[52]	ana	30-13[55_52]
 30-2	1422-1426	just	_	_	_	_
 30-3	1427-1429	do	_	_	_	_
 30-4	1430-1433	n't	_	_	_	_
 30-5	1434-1444	understand	_	_	_	_
 30-6	1445-1448	why	_	_	_	_
-30-7	1449-1452	you	_	_	_	_
+30-7	1449-1452	you	person[53]	giv[53]	ana	31-1[0_53]
 30-8	1453-1455	ca	_	_	_	_
 30-9	1456-1459	n't	_	_	_	_
 30-10	1460-1463	use	_	_	_	_
-30-11	1464-1467	the	_	_	_	_
-30-12	1468-1472	card	_	_	_	_
-30-13	1473-1474	I	_	_	_	_
-30-14	1475-1479	used	_	_	_	_
-30-15	1480-1486	before	_	_	_	_
+30-11	1464-1467	the	object[54]	giv[54]	_	_
+30-12	1468-1472	card	object[54]	giv[54]	_	_
+30-13	1473-1474	I	person[55]|object[54]	giv[55]|giv[54]	_	_
+30-14	1475-1479	used	object[54]	giv[54]	_	_
+30-15	1480-1486	before	object[54]	giv[54]	_	_
 30-16	1487-1488	.	_	_	_	_
 30-17	1489-1490	"	_	_	_	_
 
-#Text=_
-31-1	1491-1492	I	_	_	_	_
+#Text=I had people cancel orders over this sort of thing and a few times I had to get a supervisor get their car number to place an order .
+31-1	1491-1492	I	person	giv	ana	31-15
 31-2	1493-1496	had	_	_	_	_
-31-3	1497-1503	people	_	_	_	_
+31-3	1497-1503	people	person	new	ana	31-22[60_0]
 31-4	1504-1510	cancel	_	_	_	_
 31-5	1511-1517	orders	_	_	_	_
 31-6	1518-1522	over	_	_	_	_
@@ -412,14 +412,14 @@
 31-12	1546-1547	a	_	_	_	_
 31-13	1548-1551	few	_	_	_	_
 31-14	1552-1557	times	_	_	_	_
-31-15	1558-1559	I	_	_	_	_
+31-15	1558-1559	I	person	giv	_	_
 31-16	1560-1563	had	_	_	_	_
 31-17	1564-1566	to	_	_	_	_
 31-18	1567-1570	get	_	_	_	_
 31-19	1571-1572	a	_	_	_	_
 31-20	1573-1583	supervisor	_	_	_	_
 31-21	1584-1587	get	_	_	_	_
-31-22	1588-1593	their	_	_	_	_
+31-22	1588-1593	their	person[60]	giv[60]	_	_
 31-23	1594-1597	car	_	_	_	_
 31-24	1598-1604	number	_	_	_	_
 31-25	1605-1607	to	_	_	_	_
@@ -428,15 +428,15 @@
 31-28	1617-1622	order	_	_	_	_
 31-29	1623-1624	.	_	_	_	_
 
-#Text=_
-32-1	1625-1628	You	_	_	_	_
+#Text=You think people would be happy that your average call center advocate does n't have access to all their credit card information .
+32-1	1625-1628	You	person	acc	ana	32-8[64_0]
 32-2	1629-1634	think	_	_	_	_
-32-3	1635-1641	people	_	_	_	_
+32-3	1635-1641	people	person	new	ana	32-19[68_0]
 32-4	1642-1647	would	_	_	_	_
 32-5	1648-1650	be	_	_	_	_
 32-6	1651-1656	happy	_	_	_	_
 32-7	1657-1661	that	_	_	_	_
-32-8	1662-1666	your	_	_	_	_
+32-8	1662-1666	your	person[64]	giv[64]	_	_
 32-9	1667-1674	average	_	_	_	_
 32-10	1675-1679	call	_	_	_	_
 32-11	1680-1686	center	_	_	_	_
@@ -447,13 +447,13 @@
 32-16	1710-1716	access	_	_	_	_
 32-17	1717-1719	to	_	_	_	_
 32-18	1720-1723	all	_	_	_	_
-32-19	1724-1729	their	_	_	_	_
+32-19	1724-1729	their	abstract[68]	giv[68]	_	_
 32-20	1730-1736	credit	_	_	_	_
 32-21	1737-1741	card	_	_	_	_
 32-22	1742-1753	information	_	_	_	_
 32-23	1754-1755	.	_	_	_	_
 
-#Text=_
+#Text=In the tradeoff between convenience and security , a vasty majority prefer convenience .
 33-1	1756-1758	In	_	_	_	_
 33-2	1759-1762	the	_	_	_	_
 33-3	1763-1771	tradeoff	_	_	_	_
@@ -462,15 +462,15 @@
 33-6	1792-1795	and	_	_	_	_
 33-7	1796-1804	security	_	_	_	_
 33-8	1805-1806	,	_	_	_	_
-33-9	1807-1808	a	_	_	_	_
-33-10	1809-1814	vasty	_	_	_	_
-33-11	1815-1823	majority	_	_	_	_
+33-9	1807-1808	a	person[73]	new[73]	ana	34-1[0_73]
+33-10	1809-1814	vasty	person[73]	new[73]	_	_
+33-11	1815-1823	majority	person[73]	new[73]	_	_
 33-12	1824-1830	prefer	_	_	_	_
 33-13	1831-1842	convenience	_	_	_	_
 33-14	1843-1844	.	_	_	_	_
 
-#Text=_
-34-1	1845-1849	They	_	_	_	_
+#Text=They only chose security when something has already gone wrong .
+34-1	1845-1849	They	person	giv	_	_
 34-2	1850-1854	only	_	_	_	_
 34-3	1855-1860	chose	_	_	_	_
 34-4	1861-1869	security	_	_	_	_
@@ -482,13 +482,13 @@
 34-10	1902-1907	wrong	_	_	_	_
 34-11	1908-1909	.	_	_	_	_
 
-#Text=_
+#Text=Info gets stolen :
 35-1	1910-1914	Info	_	_	_	_
 35-2	1915-1919	gets	_	_	_	_
 35-3	1920-1926	stolen	_	_	_	_
 35-4	1927-1928	:	_	_	_	_
 
-#Text=_
+#Text=" Why do you have my stuff saved on file ? ! ? "
 36-1	1929-1930	"	_	_	_	_
 36-2	1931-1934	Why	_	_	_	_
 36-3	1935-1937	do	_	_	_	_
@@ -504,13 +504,13 @@
 36-13	1974-1975	?	_	_	_	_
 36-14	1976-1977	"	_	_	_	_
 
-#Text=_
+#Text=Ca n't order item because stuff is n't saved on file :
 37-1	1978-1980	Ca	_	_	_	_
 37-2	1981-1984	n't	_	_	_	_
 37-3	1985-1990	order	_	_	_	_
 37-4	1991-1995	item	_	_	_	_
 37-5	1996-2003	because	_	_	_	_
-37-6	2004-2009	stuff	_	_	_	_
+37-6	2004-2009	stuff	abstract	new	ana	38-7
 37-7	2010-2012	is	_	_	_	_
 37-8	2013-2016	n't	_	_	_	_
 37-9	2017-2022	saved	_	_	_	_
@@ -518,42 +518,42 @@
 37-11	2026-2030	file	_	_	_	_
 37-12	2031-2032	:	_	_	_	_
 
-#Text=_
+#Text=" Why do n't you save it you trash company ? ? "
 38-1	2033-2034	"	_	_	_	_
 38-2	2035-2038	Why	_	_	_	_
 38-3	2039-2041	do	_	_	_	_
 38-4	2042-2045	n't	_	_	_	_
-38-5	2046-2049	you	_	_	_	_
+38-5	2046-2049	you	organization	acc	ana	38-8[122_0]
 38-6	2050-2054	save	_	_	_	_
-38-7	2055-2057	it	_	_	_	_
-38-8	2058-2061	you	_	_	_	_
-38-9	2062-2067	trash	_	_	_	_
-38-10	2068-2075	company	_	_	_	_
+38-7	2055-2057	it	abstract	giv	_	_
+38-8	2058-2061	you	organization[122]	giv[122]	_	_
+38-9	2062-2067	trash	organization[122]	giv[122]	_	_
+38-10	2068-2075	company	organization[122]	giv[122]	_	_
 38-11	2076-2077	?	_	_	_	_
 38-12	2078-2079	?	_	_	_	_
 38-13	2080-2081	"	_	_	_	_
 
-#Text=_
-39-1	2082-2086	Info	_	_	_	_
+#Text=Info gets stolen :
+39-1	2082-2086	Info	abstract	new	coref	40-7[77_0]
 39-2	2087-2091	gets	_	_	_	_
 39-3	2092-2098	stolen	_	_	_	_
 39-4	2099-2100	:	_	_	_	_
 
-#Text=_
+#Text=“ why ca n’t you secure the information I gave you , because security and convenience should n’t be mutually exclusive , you trash company that makes billions / yr and can afford to take it seriously ! ”
 40-1	2101-2102	“	_	_	_	_
 40-2	2103-2106	why	_	_	_	_
 40-3	2107-2109	ca	_	_	_	_
 40-4	2110-2113	n’t	_	_	_	_
-40-5	2114-2117	you	_	_	_	_
+40-5	2114-2117	you	organization	acc	ana	40-11
 40-6	2118-2124	secure	_	_	_	_
-40-7	2125-2128	the	_	_	_	_
-40-8	2129-2140	information	_	_	_	_
-40-9	2141-2142	I	_	_	_	_
-40-10	2143-2147	gave	_	_	_	_
-40-11	2148-2151	you	_	_	_	_
+40-7	2125-2128	the	abstract[77]	giv[77]	_	_
+40-8	2129-2140	information	abstract[77]	giv[77]	_	_
+40-9	2141-2142	I	abstract[77]	giv[77]	_	_
+40-10	2143-2147	gave	abstract[77]	giv[77]	_	_
+40-11	2148-2151	you	organization|abstract[77]	giv|giv[77]	ana	40-23[123_0]
 40-12	2152-2153	,	_	_	_	_
 40-13	2154-2161	because	_	_	_	_
-40-14	2162-2170	security	_	_	_	_
+40-14	2162-2170	security	abstract	giv	ana	40-36
 40-15	2171-2174	and	_	_	_	_
 40-16	2175-2186	convenience	_	_	_	_
 40-17	2187-2193	should	_	_	_	_
@@ -562,25 +562,25 @@
 40-20	2201-2209	mutually	_	_	_	_
 40-21	2210-2219	exclusive	_	_	_	_
 40-22	2220-2221	,	_	_	_	_
-40-23	2222-2225	you	_	_	_	_
-40-24	2226-2231	trash	_	_	_	_
-40-25	2232-2239	company	_	_	_	_
-40-26	2240-2244	that	_	_	_	_
-40-27	2245-2250	makes	_	_	_	_
-40-28	2251-2259	billions	_	_	_	_
-40-29	2260-2261	/	_	_	_	_
-40-30	2262-2264	yr	_	_	_	_
-40-31	2265-2268	and	_	_	_	_
-40-32	2269-2272	can	_	_	_	_
-40-33	2273-2279	afford	_	_	_	_
-40-34	2280-2282	to	_	_	_	_
-40-35	2283-2287	take	_	_	_	_
-40-36	2288-2290	it	_	_	_	_
-40-37	2291-2300	seriously	_	_	_	_
+40-23	2222-2225	you	organization[123]	giv[123]	_	_
+40-24	2226-2231	trash	organization[123]	giv[123]	_	_
+40-25	2232-2239	company	organization[123]	giv[123]	_	_
+40-26	2240-2244	that	organization[123]	giv[123]	_	_
+40-27	2245-2250	makes	organization[123]	giv[123]	_	_
+40-28	2251-2259	billions	organization[123]	giv[123]	_	_
+40-29	2260-2261	/	organization[123]	giv[123]	_	_
+40-30	2262-2264	yr	organization[123]	giv[123]	_	_
+40-31	2265-2268	and	organization[123]	giv[123]	_	_
+40-32	2269-2272	can	organization[123]	giv[123]	_	_
+40-33	2273-2279	afford	organization[123]	giv[123]	_	_
+40-34	2280-2282	to	organization[123]	giv[123]	_	_
+40-35	2283-2287	take	organization[123]	giv[123]	_	_
+40-36	2288-2290	it	abstract|organization[123]	giv|giv[123]	_	_
+40-37	2291-2300	seriously	organization[123]	giv[123]	_	_
 40-38	2301-2302	!	_	_	_	_
 40-39	2303-2304	”	_	_	_	_
 
-#Text=_
+#Text=Well unfortunately , some companies do n't have very good security .
 41-1	2305-2309	Well	_	_	_	_
 41-2	2310-2323	unfortunately	_	_	_	_
 41-3	2324-2325	,	_	_	_	_
@@ -594,7 +594,7 @@
 41-11	2363-2371	security	_	_	_	_
 41-12	2372-2373	.	_	_	_	_
 
-#Text=_
+#Text=Wish it was the case that you could easily have security and convenience though .
 42-1	2374-2378	Wish	_	_	_	_
 42-2	2379-2381	it	_	_	_	_
 42-3	2382-2385	was	_	_	_	_
@@ -605,20 +605,20 @@
 42-8	2404-2409	could	_	_	_	_
 42-9	2410-2416	easily	_	_	_	_
 42-10	2417-2421	have	_	_	_	_
-42-11	2422-2430	security	_	_	_	_
+42-11	2422-2430	security	abstract[83]	giv[83]	ana	44-13[0_83]
 42-12	2431-2434	and	_	_	_	_
 42-13	2435-2446	convenience	_	_	_	_
 42-14	2447-2453	though	_	_	_	_
 42-15	2454-2455	.	_	_	_	_
 
-#Text=_
+#Text=Some companies do n’t , but I think we see that the companies that can still do n’t .
 43-1	2456-2460	Some	_	_	_	_
 43-2	2461-2470	companies	_	_	_	_
 43-3	2471-2473	do	_	_	_	_
 43-4	2474-2477	n’t	_	_	_	_
 43-5	2478-2479	,	_	_	_	_
 43-6	2480-2483	but	_	_	_	_
-43-7	2484-2485	I	_	_	_	_
+43-7	2484-2485	I	person	acc	ana	45-1
 43-8	2486-2491	think	_	_	_	_
 43-9	2492-2494	we	_	_	_	_
 43-10	2495-2498	see	_	_	_	_
@@ -632,7 +632,7 @@
 43-18	2536-2539	n’t	_	_	_	_
 43-19	2540-2541	.	_	_	_	_
 
-#Text=_
+#Text=So largely it appears less a “ generally companies ca n’t afford it ” and more a “ generally companies are n’t prioritizing it , budget aside . ”
 44-1	2542-2544	So	_	_	_	_
 44-2	2545-2552	largely	_	_	_	_
 44-3	2553-2555	it	_	_	_	_
@@ -645,7 +645,7 @@
 44-10	2593-2595	ca	_	_	_	_
 44-11	2596-2599	n’t	_	_	_	_
 44-12	2600-2606	afford	_	_	_	_
-44-13	2607-2609	it	_	_	_	_
+44-13	2607-2609	it	abstract	giv	ana	44-24
 44-14	2610-2611	”	_	_	_	_
 44-15	2612-2615	and	_	_	_	_
 44-16	2616-2620	more	_	_	_	_
@@ -656,15 +656,15 @@
 44-21	2645-2648	are	_	_	_	_
 44-22	2649-2652	n’t	_	_	_	_
 44-23	2653-2665	prioritizing	_	_	_	_
-44-24	2666-2668	it	_	_	_	_
+44-24	2666-2668	it	abstract	giv	ana	50-5
 44-25	2669-2670	,	_	_	_	_
 44-26	2671-2677	budget	_	_	_	_
 44-27	2678-2683	aside	_	_	_	_
 44-28	2684-2685	.	_	_	_	_
 44-29	2686-2687	”	_	_	_	_
 
-#Text=_
-45-1	2688-2689	I	_	_	_	_
+#Text=I ’m looking at you , capital one .
+45-1	2688-2689	I	person	giv	ana	49-5
 45-2	2690-2692	’m	_	_	_	_
 45-3	2693-2700	looking	_	_	_	_
 45-4	2701-2703	at	_	_	_	_
@@ -674,12 +674,12 @@
 45-8	2718-2721	one	_	_	_	_
 45-9	2722-2723	.	_	_	_	_
 
-#Text=_
+#Text=Or equifax .
 46-1	2724-2726	Or	_	_	_	_
 46-2	2727-2734	equifax	_	_	_	_
 46-3	2735-2736	.	_	_	_	_
 
-#Text=_
+#Text=Or any of the massive thefts that basically affected a third or more of the country .
 47-1	2737-2739	Or	_	_	_	_
 47-2	2740-2743	any	_	_	_	_
 47-3	2744-2746	of	_	_	_	_
@@ -698,7 +698,7 @@
 47-16	2813-2820	country	_	_	_	_
 47-17	2821-2822	.	_	_	_	_
 
-#Text=_
+#Text=Yeah sony could be thrown in there too with the big ps3 hack that happened back in the day , but I 'm not sure if that was poor security , good hackers , or both .
 48-1	2823-2827	Yeah	_	_	_	_
 48-2	2828-2832	sony	_	_	_	_
 48-3	2833-2838	could	_	_	_	_
@@ -708,24 +708,24 @@
 48-7	2852-2857	there	_	_	_	_
 48-8	2858-2861	too	_	_	_	_
 48-9	2862-2866	with	_	_	_	_
-48-10	2867-2870	the	_	_	_	_
-48-11	2871-2874	big	_	_	_	_
-48-12	2875-2878	ps3	_	_	_	_
-48-13	2879-2883	hack	_	_	_	_
-48-14	2884-2888	that	_	_	_	_
-48-15	2889-2897	happened	_	_	_	_
-48-16	2898-2902	back	_	_	_	_
-48-17	2903-2905	in	_	_	_	_
-48-18	2906-2909	the	_	_	_	_
-48-19	2910-2913	day	_	_	_	_
+48-10	2867-2870	the	event[91]	new[91]	ana	48-27[0_91]
+48-11	2871-2874	big	event[91]	new[91]	_	_
+48-12	2875-2878	ps3	event[91]	new[91]	_	_
+48-13	2879-2883	hack	event[91]	new[91]	_	_
+48-14	2884-2888	that	event[91]	new[91]	_	_
+48-15	2889-2897	happened	event[91]	new[91]	_	_
+48-16	2898-2902	back	event[91]	new[91]	_	_
+48-17	2903-2905	in	event[91]	new[91]	_	_
+48-18	2906-2909	the	event[91]	new[91]	_	_
+48-19	2910-2913	day	event[91]	new[91]	_	_
 48-20	2914-2915	,	_	_	_	_
 48-21	2916-2919	but	_	_	_	_
-48-22	2920-2921	I	_	_	_	_
+48-22	2920-2921	I	person	acc	ana	49-1
 48-23	2922-2924	'm	_	_	_	_
 48-24	2925-2928	not	_	_	_	_
 48-25	2929-2933	sure	_	_	_	_
 48-26	2934-2936	if	_	_	_	_
-48-27	2937-2941	that	_	_	_	_
+48-27	2937-2941	that	event	giv	_	_
 48-28	2942-2945	was	_	_	_	_
 48-29	2946-2950	poor	_	_	_	_
 48-30	2951-2959	security	_	_	_	_
@@ -737,25 +737,25 @@
 48-36	2980-2984	both	_	_	_	_
 48-37	2985-2986	.	_	_	_	_
 
-#Text=_
-49-1	2987-2988	I	_	_	_	_
+#Text=I 'm totally with you though .
+49-1	2987-2988	I	person	giv	_	_
 49-2	2989-2991	'm	_	_	_	_
 49-3	2992-2999	totally	_	_	_	_
 49-4	3000-3004	with	_	_	_	_
-49-5	3005-3008	you	_	_	_	_
+49-5	3005-3008	you	person	giv	_	_
 49-6	3009-3015	though	_	_	_	_
 49-7	3016-3017	.	_	_	_	_
 
-#Text=_
+#Text=If they can afford it , they should have it .
 50-1	3018-3020	If	_	_	_	_
-50-2	3021-3025	they	_	_	_	_
+50-2	3021-3025	they	organization	acc	ana	50-7
 50-3	3026-3029	can	_	_	_	_
 50-4	3030-3036	afford	_	_	_	_
-50-5	3037-3039	it	_	_	_	_
+50-5	3037-3039	it	abstract	giv	ana	50-10
 50-6	3040-3041	,	_	_	_	_
-50-7	3042-3046	they	_	_	_	_
+50-7	3042-3046	they	organization	giv	_	_
 50-8	3047-3053	should	_	_	_	_
 50-9	3054-3058	have	_	_	_	_
-50-10	3059-3061	it	_	_	_	_
+50-10	3059-3061	it	abstract	giv	_	_
 50-11	3062-3063	.	_	_	_	_
 

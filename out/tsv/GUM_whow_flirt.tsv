@@ -102,9 +102,9 @@
 #Text=As in the real world , the first step to flirting is to get over your cold feet and jump right in !
 7-1	441-443	As	_	_	_	_
 7-2	444-446	in	_	_	_	_
-7-3	447-450	the	_	_	_	_
-7-4	451-455	real	_	_	_	_
-7-5	456-461	world	_	_	_	_
+7-3	447-450	the	place[22]	new[22]	coref	16-27[88_22]
+7-4	451-455	real	place[22]	new[22]	_	_
+7-5	456-461	world	place[22]	new[22]	_	_
 7-6	462-463	,	_	_	_	_
 7-7	464-467	the	_	_	_	_
 7-8	468-473	first	_	_	_	_
@@ -404,9 +404,9 @@
 16-24	1836-1839	you	person	giv	ana	18-7
 16-25	1840-1845	might	_	_	_	_
 16-26	1846-1848	in	_	_	_	_
-16-27	1849-1852	the	_	_	_	_
-16-28	1853-1857	real	_	_	_	_
-16-29	1858-1863	world	_	_	_	_
+16-27	1849-1852	the	place[88]	giv[88]	_	_
+16-28	1853-1857	real	place[88]	giv[88]	_	_
+16-29	1858-1863	world	place[88]	giv[88]	_	_
 16-30	1864-1865	)	_	_	_	_
 16-31	1866-1867	.	_	_	_	_
 
@@ -605,13 +605,13 @@
 25-20	2720-2722	to	_	_	_	_
 25-21	2723-2728	check	_	_	_	_
 25-22	2729-2732	out	_	_	_	_
-25-23	2733-2737	this	organization[125]	new[125]	ana	25-29[0_125]
-25-24	2738-2742	band	organization[125]	new[125]	_	_
-25-25	2743-2749	called	organization[125]|organization[125]	new[125]|new[125]	_	_
-25-26	2750-2755	Manic	organization[125]|organization[125]	new[125]|new[125]	_	_
-25-27	2756-2765	Albatross	organization[125]|organization[125]	new[125]|new[125]	_	_
+25-23	2733-2737	this	_	_	_	_
+25-24	2738-2742	band	_	_	_	_
+25-25	2743-2749	called	_	_	_	_
+25-26	2750-2755	Manic	_	_	_	_
+25-27	2756-2765	Albatross	_	_	_	_
 25-28	2766-2767	-	_	_	_	_
-25-29	2768-2772	they	person	giv	_	_
+25-29	2768-2772	they	_	_	_	_
 25-30	2773-2776	're	_	_	_	_
 25-31	2777-2781	like	_	_	_	_
 25-32	2782-2785	the	_	_	_	_
@@ -885,10 +885,10 @@
 35-6	3977-3978	.	_	_	_	_
 
 #Text=Simply put , confidence is sexy .
-36-1	3979-3985	Simply	_	_	_	_
-36-2	3986-3989	put	_	_	_	_
-36-3	3990-3991	,	_	_	_	_
-36-4	3992-4002	confidence	event[186]	new[186]	ana	37-1[0_186]
+36-1	3979-3985	Simply	event[186]	new[186]	ana	37-1[0_186]
+36-2	3986-3989	put	event[186]	new[186]	_	_
+36-3	3990-3991	,	event[186]	new[186]	_	_
+36-4	3992-4002	confidence	event[186]	new[186]	_	_
 36-5	4003-4005	is	event[186]	new[186]	_	_
 36-6	4006-4010	sexy	event[186]	new[186]	_	_
 36-7	4011-4012	.	_	_	_	_

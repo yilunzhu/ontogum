@@ -383,12 +383,12 @@
 22-2	1702-1705	try	_	_	_	_
 22-3	1706-1708	to	_	_	_	_
 22-4	1709-1715	tackle	_	_	_	_
-22-5	1716-1719	the	person[88]|person[533]	new[88]|new[533]	appos|coref	22-7[316_88]|22-17[91_533]
-22-6	1720-1726	snitch	person[88]|person[533]	new[88]|new[533]	_	_
-22-7	1727-1728	(	person[316]|person[533]	giv[316]|new[533]	_	_
-22-8	1729-1730	a	person[316]|person[533]	giv[316]|new[533]	_	_
-22-9	1731-1737	person	person[316]|person[533]	giv[316]|new[533]	_	_
-22-10	1738-1739	)	person[316]|person[533]	giv[316]|new[533]	_	_
+22-5	1716-1719	the	person[88]|person[410]	new[88]|new[410]	appos|coref	22-7[316_88]|22-17[91_410]
+22-6	1720-1726	snitch	person[88]|person[410]	new[88]|new[410]	_	_
+22-7	1727-1728	(	person[316]|person[410]	giv[316]|new[410]	_	_
+22-8	1729-1730	a	person[316]|person[410]	giv[316]|new[410]	_	_
+22-9	1731-1737	person	person[316]|person[410]	giv[316]|new[410]	_	_
+22-10	1738-1739	)	person[316]|person[410]	giv[316]|new[410]	_	_
 22-11	1740-1742	or	_	_	_	_
 22-12	1743-1749	obtain	_	_	_	_
 22-13	1750-1752	an	_	_	_	_
@@ -553,7 +553,7 @@
 28-16	2459-2462	the	_	_	_	_
 28-17	2463-2468	value	_	_	_	_
 28-18	2469-2471	of	_	_	_	_
-28-19	2472-2475	the	abstract[131]	giv[131]	coref	29-1[534_131]
+28-19	2472-2475	the	abstract[131]	giv[131]	coref	29-1[411_131]
 28-20	2476-2482	snitch	abstract[131]	giv[131]	_	_
 28-21	2483-2486	for	_	_	_	_
 28-22	2487-2493	muggle	abstract[132]	giv[132]	coref	33-4[144_132]
@@ -561,13 +561,13 @@
 28-24	2504-2505	.	_	_	_	_
 
 #Text=The snitch , generally a track runner , runs around ( usually the boundaries ) trying to evade the seekers .
-29-1	2506-2509	The	person[134]|person[534]	giv[134]|giv[534]	appos|coref	29-4[347_134]|33-20[148_534]
-29-2	2510-2516	snitch	person[134]|person[534]	giv[134]|giv[534]	_	_
-29-3	2517-2518	,	person[134]|person[534]	giv[134]|giv[534]	_	_
-29-4	2519-2528	generally	person[347]|person[534]	giv[347]|giv[534]	_	_
-29-5	2529-2530	a	person[347]|person[534]	giv[347]|giv[534]	_	_
-29-6	2531-2536	track	person[347]|person[534]	giv[347]|giv[534]	_	_
-29-7	2537-2543	runner	person[347]	giv[347]	_	_
+29-1	2506-2509	The	person[134]|person[411]	giv[134]|giv[411]	appos|coref	29-4[347_134]|33-20[148_411]
+29-2	2510-2516	snitch	person[134]|person[411]	giv[134]|giv[411]	_	_
+29-3	2517-2518	,	person[134]|person[411]	giv[134]|giv[411]	_	_
+29-4	2519-2528	generally	person[347]|person[411]	giv[347]|giv[411]	_	_
+29-5	2529-2530	a	person[347]|person[411]	giv[347]|giv[411]	_	_
+29-6	2531-2536	track	person[347]|person[411]	giv[347]|giv[411]	_	_
+29-7	2537-2543	runner	person[347]|person[411]	giv[347]|giv[411]	_	_
 29-8	2544-2545	,	_	_	_	_
 29-9	2546-2550	runs	_	_	_	_
 29-10	2551-2557	around	_	_	_	_
@@ -749,7 +749,7 @@
 42-6	3331-3338	seekers	person[176]	giv[176]	_	_
 42-7	3339-3343	look	_	_	_	_
 42-8	3344-3347	for	_	_	_	_
-42-9	3348-3351	the	abstract[177]	giv[177]	_	_
+42-9	3348-3351	the	abstract[177]	giv[177]	coref	48-4[199_177]
 42-10	3352-3358	snitch	abstract[177]	giv[177]	_	_
 42-11	3359-3360	.	_	_	_	_
 
@@ -849,8 +849,8 @@
 47-17	3773-3779	actual	_	_	_	_
 47-18	3780-3786	player	_	_	_	_
 47-19	3787-3789	in	_	_	_	_
-47-20	3790-3793	the	abstract[197]	abstract[197]	coref	54-9[219_197]
-47-21	3794-3798	game	abstract[197]	abstract[197]	_	_
+47-20	3790-3793	the	abstract[197]	giv[197]	coref	54-9[219_197]
+47-21	3794-3798	game	abstract[197]	giv[197]	_	_
 47-22	3799-3800	,	_	_	_	_
 47-23	3801-3810	therefore	_	_	_	_
 47-24	3811-3812	,	_	_	_	_
@@ -867,8 +867,8 @@
 48-1	3845-3847	If	_	_	_	_
 48-2	3848-3855	desired	_	_	_	_
 48-3	3856-3857	,	_	_	_	_
-48-4	3858-3861	the	_	_	_	_
-48-5	3862-3868	snitch	_	_	_	_
+48-4	3858-3861	the	abstract[199]	giv[199]	_	_
+48-5	3862-3868	snitch	abstract[199]	giv[199]	_	_
 48-6	3869-3871	is	_	_	_	_
 48-7	3872-3876	able	_	_	_	_
 48-8	3877-3879	to	_	_	_	_
@@ -1037,7 +1037,7 @@
 59-4	4578-4585	seekers	person[238]	giv[238]	_	_
 59-5	4586-4590	look	_	_	_	_
 59-6	4591-4594	for	_	_	_	_
-59-7	4595-4598	the	object[239]	giv[239]	coref	60-8[536_239]
+59-7	4595-4598	the	object[239]	giv[239]	coref	60-8[242_239]
 59-8	4599-4605	snitch	object[239]	giv[239]	_	_
 59-9	4606-4607	.	_	_	_	_
 
@@ -1049,23 +1049,23 @@
 60-5	4635-4638	the	person[241]	giv[241]	_	_
 60-6	4639-4646	referee	person[241]	giv[241]	_	_
 60-7	4647-4653	places	_	_	_	_
-60-8	4654-4657	the	object[242]|object[536]	giv[242]|giv[536]	ana	60-14[540_242]
-60-9	4658-4664	snitch	object[242]|object[536]	giv[242]|giv[536]	_	_
-60-10	4665-4674	somewhere	object[536]	giv[536]	_	_
-60-11	4675-4677	in	object[536]	giv[536]	_	_
-60-12	4678-4681	the	object[536]	giv[536]	_	_
-60-13	4682-4687	field	object[536]	giv[536]	_	_
-60-14	4688-4689	(	object[536]|object[540]	giv[536]|giv[540]	coref	61-6[248_540]
-60-15	4690-4692	in	object[536]|object[540]	giv[536]|giv[540]	_	_
-60-16	4693-4697	this	abstract[244]|object[536]|object[540]	giv[244]|giv[536]|giv[540]	_	_
-60-17	4698-4702	case	abstract[244]|object[536]|object[540]	giv[244]|giv[536]|giv[540]	_	_
-60-18	4703-4705	it	object[536]|object[540]	giv[536]|giv[540]	_	_
-60-19	4706-4708	's	object[536]|object[540]	giv[536]|giv[540]	_	_
-60-20	4709-4710	a	object[540]	giv[540]	_	_
-60-21	4711-4716	small	object[540]	giv[540]	_	_
-60-22	4717-4721	ball	object[540]	giv[540]	_	_
-60-23	4722-4723	)	object[540]	giv[540]	_	_
-60-24	4724-4725	.	object[540]	giv[540]	_	_
+60-8	4654-4657	the	object[242]	giv[242]	ana	60-18[413_242]
+60-9	4658-4664	snitch	object[242]	giv[242]	_	_
+60-10	4665-4674	somewhere	_	_	_	_
+60-11	4675-4677	in	_	_	_	_
+60-12	4678-4681	the	_	_	_	_
+60-13	4682-4687	field	_	_	_	_
+60-14	4688-4689	(	_	_	_	_
+60-15	4690-4692	in	_	_	_	_
+60-16	4693-4697	this	abstract[244]	giv[244]	_	_
+60-17	4698-4702	case	abstract[244]	giv[244]	_	_
+60-18	4703-4705	it	object[413]	giv[413]	coref	61-6[248_413]
+60-19	4706-4708	's	object[413]	giv[413]	_	_
+60-20	4709-4710	a	object[413]	giv[413]	_	_
+60-21	4711-4716	small	object[413]	giv[413]	_	_
+60-22	4717-4721	ball	object[413]	giv[413]	_	_
+60-23	4722-4723	)	_	_	_	_
+60-24	4724-4725	.	_	_	_	_
 
 #Text=The seeker has to find the snitch blindfolded , relying only on the coach 's instructions , while the game is still on .
 61-1	4726-4729	The	person[247]	giv[247]	_	_
@@ -1211,11 +1211,11 @@
 74-13	5295-5296	)	_	_	_	_
 
 #Text=1 Snitch ( person )
-75-1	5297-5298	1	person[279]	giv[279]	appos	75-3[502_279]
+75-1	5297-5298	1	person[279]	giv[279]	appos	75-3[378_279]
 75-2	5299-5305	Snitch	person[279]	giv[279]	_	_
-75-3	5306-5307	(	person[502]	giv[502]	_	_
-75-4	5308-5314	person	person[502]	giv[502]	_	_
-75-5	5315-5316	)	person[502]	giv[502]	_	_
+75-3	5306-5307	(	person[378]	giv[378]	_	_
+75-4	5308-5314	person	person[378]	giv[378]	_	_
+75-5	5315-5316	)	person[378]	giv[378]	_	_
 
 #Text=Each team is composed of :
 76-1	5317-5321	Each	_	_	_	_

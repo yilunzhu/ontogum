@@ -101,16 +101,16 @@
 6-26	458-459	.	_	_	_	_
 
 #Text=This process of synoikismos – bringing together in one home – created the largest and wealthiest state on the Greek mainland , but it also created a larger class of people excluded from political life by the nobility .
-7-1	460-464	This	abstract[314]	new[314]	ana	7-24[0_314]
-7-2	465-472	process	abstract[314]	new[314]	_	_
-7-3	473-475	of	abstract[314]	new[314]	_	_
-7-4	476-487	synoikismos	abstract[314]	new[314]	_	_
-7-5	488-489	–	abstract[314]	new[314]	_	_
-7-6	490-498	bringing	abstract[314]	new[314]	_	_
-7-7	499-507	together	abstract[314]	new[314]	_	_
-7-8	508-510	in	abstract[314]	new[314]	_	_
-7-9	511-514	one	abstract[314]	new[314]	_	_
-7-10	515-519	home	_	_	_	_
+7-1	460-464	This	abstract[283]	new[283]	ana	7-24[0_283]
+7-2	465-472	process	abstract[283]	new[283]	_	_
+7-3	473-475	of	abstract[283]	new[283]	_	_
+7-4	476-487	synoikismos	abstract[283]	new[283]	_	_
+7-5	488-489	–	abstract[283]	new[283]	_	_
+7-6	490-498	bringing	abstract[283]	new[283]	_	_
+7-7	499-507	together	abstract[283]	new[283]	_	_
+7-8	508-510	in	abstract[283]	new[283]	_	_
+7-9	511-514	one	abstract[283]	new[283]	_	_
+7-10	515-519	home	abstract[283]	new[283]	_	_
 7-11	520-521	–	_	_	_	_
 7-12	522-529	created	_	_	_	_
 7-13	530-533	the	_	_	_	_
@@ -197,7 +197,7 @@
 9-20	926-927	.	_	_	_	_
 
 #Text=This was the great beginning of a new social revolution , which was the result of the democracy under Clisthenes ( 508 BC ) .
-10-1	928-932	This	event	giv	ana	10-14[47_0]
+10-1	928-932	This	event	giv	_	_
 10-2	933-936	was	_	_	_	_
 10-3	937-940	the	_	_	_	_
 10-4	941-946	great	_	_	_	_

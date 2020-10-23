@@ -124,9 +124,9 @@
 7-3	642-650	mutation	_	_	_	_
 7-4	651-660	operators	_	_	_	_
 7-5	661-662	;	_	_	_	_
-7-6	663-673	geographic	_	_	_	_
-7-7	674-685	information	_	_	_	_
-7-8	686-693	systems	_	_	_	_
+7-6	663-673	geographic	abstract[31]	giv[31]	coref	17-5[74_31]
+7-7	674-685	information	abstract[31]	giv[31]	_	_
+7-8	686-693	systems	abstract[31]	giv[31]	_	_
 7-9	694-695	;	_	_	_	_
 7-10	696-704	mutation	_	_	_	_
 7-11	705-712	testing	_	_	_	_
@@ -151,13 +151,13 @@
 9-13	805-816	introducing	_	_	_	_
 9-14	817-823	errors	_	_	_	_
 9-15	824-828	into	_	_	_	_
-9-16	829-830	a	abstract[36]|abstract[467]	new[36]|new[467]	appos|coref	9-20[312_36]|10-7[39_467]
-9-17	831-837	System	abstract[36]|abstract[467]	new[36]|new[467]	_	_
-9-18	838-843	Under	abstract[36]|abstract[467]	new[36]|new[467]	_	_
-9-19	844-848	Test	abstract[36]|abstract[467]	new[36]|new[467]	_	_
-9-20	849-850	(	abstract[312]|abstract[467]	giv[312]|new[467]	_	_
-9-21	851-854	SUT	abstract[312]|abstract[467]	giv[312]|new[467]	_	_
-9-22	855-856	)	abstract[312]|abstract[467]	giv[312]|new[467]	_	_
+9-16	829-830	a	abstract[36]|abstract[312]	new[36]|new[312]	appos|coref	9-20[250_36]|10-7[39_312]
+9-17	831-837	System	abstract[36]|abstract[312]	new[36]|new[312]	_	_
+9-18	838-843	Under	abstract[36]|abstract[312]	new[36]|new[312]	_	_
+9-19	844-848	Test	abstract[36]|abstract[312]	new[36]|new[312]	_	_
+9-20	849-850	(	abstract[250]|abstract[312]	giv[250]|new[312]	_	_
+9-21	851-854	SUT	abstract[250]|abstract[312]	giv[250]|new[312]	_	_
+9-22	855-856	)	abstract[250]|abstract[312]	giv[250]|new[312]	_	_
 9-23	857-858	.	_	_	_	_
 
 #Text=A mutant is a copy of the system in which a change has been done that , in most cases , will lead to a behaviour different than expected .
@@ -167,8 +167,8 @@
 10-4	871-872	a	_	_	_	_
 10-5	873-877	copy	_	_	_	_
 10-6	878-880	of	_	_	_	_
-10-7	881-884	the	abstract[39]	abstract[39]	_	_
-10-8	885-891	system	abstract[39]	abstract[39]	_	_
+10-7	881-884	the	abstract[39]	giv[39]	_	_
+10-8	885-891	system	abstract[39]	giv[39]	_	_
 10-9	892-894	in	abstract[39]	giv[39]	_	_
 10-10	895-900	which	abstract[39]	giv[39]	_	_
 10-11	901-902	a	abstract[39]	giv[39]	_	_
@@ -341,7 +341,7 @@
 17-2	1798-1806	Mutation	abstract[72]	giv[72]	coref	18-7[76_72]
 17-3	1807-1816	Operators	abstract[72]	giv[72]	_	_
 17-4	1817-1820	for	abstract[72]	giv[72]	_	_
-17-5	1821-1824	GIS	abstract[72]	giv[72]	_	_
+17-5	1821-1824	GIS	abstract[72]|abstract[74]	giv[72]|giv[74]	_	_
 
 #Text=As a previous step to designing the mutation operators , we analyzed the main technologies used specifically in the development of GIS , and we identified typical errors a programmer can introduce during the development .
 18-1	1825-1827	As	_	_	_	_
@@ -608,16 +608,16 @@
 28-20	3185-3186	.	_	_	_	_
 
 #Text=Listing 1 : A simplified definition of the ChangeCoordSys Operator .
-29-1	3187-3194	Listing	abstract[131]	giv[131]	appos	29-3[374_131]
+29-1	3187-3194	Listing	abstract[131]	giv[131]	appos	29-4[132_131]
 29-2	3195-3196	1	abstract[131]	giv[131]	_	_
-29-3	3197-3198	:	abstract[374]	giv[374]	_	_
-29-4	3199-3200	A	abstract[374]	giv[374]	_	_
-29-5	3201-3211	simplified	abstract[374]	giv[374]	_	_
-29-6	3212-3222	definition	abstract[374]	giv[374]	_	_
-29-7	3223-3225	of	abstract[374]	giv[374]	_	_
-29-8	3226-3229	the	abstract[133]|abstract[374]	giv[133]|giv[374]	coref	30-1[134_133]
-29-9	3230-3244	ChangeCoordSys	abstract[133]|abstract[374]	giv[133]|giv[374]	_	_
-29-10	3245-3253	Operator	abstract[133]|abstract[374]	giv[133]|giv[374]	_	_
+29-3	3197-3198	:	abstract[131]	giv[131]	_	_
+29-4	3199-3200	A	abstract[132]	giv[132]	_	_
+29-5	3201-3211	simplified	abstract[132]	giv[132]	_	_
+29-6	3212-3222	definition	abstract[132]	giv[132]	_	_
+29-7	3223-3225	of	abstract[132]	giv[132]	_	_
+29-8	3226-3229	the	abstract[132]|abstract[133]	giv[132]|giv[133]	coref	30-1[134_133]
+29-9	3230-3244	ChangeCoordSys	abstract[132]|abstract[133]	giv[132]|giv[133]	_	_
+29-10	3245-3253	Operator	abstract[132]|abstract[133]	giv[132]|giv[133]	_	_
 29-11	3254-3255	.	_	_	_	_
 
 #Text=This operator was applied to a mobile technology GIS application .
@@ -742,16 +742,16 @@
 36-8	3872-3873	.	_	_	_	_
 
 #Text=BooleanPolygonConstraint Operator ( Listing 2 ) :
-37-1	3874-3898	BooleanPolygonConstraint	abstract[165]	new[165]	ana	37-3[405_165]
+37-1	3874-3898	BooleanPolygonConstraint	abstract[165]	new[165]	ana	38-1[0_165]
 37-2	3899-3907	Operator	abstract[165]	new[165]	_	_
-37-3	3908-3909	(	abstract[405]	giv[405]	coref	39-8[179_405]
-37-4	3910-3917	Listing	abstract[405]	giv[405]	_	_
-37-5	3918-3919	2	abstract[405]	giv[405]	_	_
-37-6	3920-3921	)	abstract[405]	giv[405]	_	_
+37-3	3908-3909	(	_	_	_	_
+37-4	3910-3917	Listing	_	_	_	_
+37-5	3918-3919	2	_	_	_	_
+37-6	3920-3921	)	_	_	_	_
 37-7	3922-3923	:	_	_	_	_
 
 #Text=It introduces errors in the processing of geometries , manipulating the result of the operations that carry out the verification of different topological restrictions between geometries , such as intersects , covers or overlap .
-38-1	3924-3926	It	_	_	_	_
+38-1	3924-3926	It	abstract	giv	coref	39-8[179_0]
 38-2	3927-3937	introduces	_	_	_	_
 38-3	3938-3944	errors	_	_	_	_
 38-4	3945-3947	in	_	_	_	_
@@ -788,16 +788,16 @@
 38-35	4151-4152	.	_	_	_	_
 
 #Text=Listing 2 : A simplified definition of the BooleanPolygonConstraint Operator .
-39-1	4153-4160	Listing	abstract[177]	giv[177]	appos	39-3[436_177]
+39-1	4153-4160	Listing	abstract[177]	giv[177]	appos	39-4[178_177]
 39-2	4161-4162	2	abstract[177]	giv[177]	_	_
-39-3	4163-4164	:	abstract[436]	giv[436]	_	_
-39-4	4165-4166	A	abstract[436]	giv[436]	_	_
-39-5	4167-4177	simplified	abstract[436]	giv[436]	_	_
-39-6	4178-4188	definition	abstract[436]	giv[436]	_	_
-39-7	4189-4191	of	abstract[436]	giv[436]	_	_
-39-8	4192-4195	the	abstract[179]|abstract[436]	giv[179]|giv[436]	coref	40-3[180_179]
-39-9	4196-4220	BooleanPolygonConstraint	abstract[179]|abstract[436]	giv[179]|giv[436]	_	_
-39-10	4221-4229	Operator	abstract[179]|abstract[436]	giv[179]|giv[436]	_	_
+39-3	4163-4164	:	abstract[177]	giv[177]	_	_
+39-4	4165-4166	A	abstract[178]	giv[178]	_	_
+39-5	4167-4177	simplified	abstract[178]	giv[178]	_	_
+39-6	4178-4188	definition	abstract[178]	giv[178]	_	_
+39-7	4189-4191	of	abstract[178]	giv[178]	_	_
+39-8	4192-4195	the	abstract[178]|abstract[179]	giv[178]|giv[179]	coref	40-3[180_179]
+39-9	4196-4220	BooleanPolygonConstraint	abstract[178]|abstract[179]	giv[178]|giv[179]	_	_
+39-10	4221-4229	Operator	abstract[178]|abstract[179]	giv[178]|giv[179]	_	_
 39-11	4230-4231	.	_	_	_	_
 
 #Text=To test this operator it was applied to a land reparcelling system .

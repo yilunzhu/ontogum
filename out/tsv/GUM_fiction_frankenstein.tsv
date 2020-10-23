@@ -149,7 +149,7 @@
 13-10	457-458	“	_	_	_	_
 13-11	459-460	I	person	giv	ana	18-6
 13-12	461-463	’m	_	_	_	_
-13-13	464-467	her	person[11]	person[11]	ana	14-1[0_11]
+13-13	464-467	her	person[11]	giv[11]	ana	14-1[0_11]
 13-14	468-475	brother	_	_	_	_
 13-15	476-477	.	_	_	_	_
 
@@ -207,7 +207,7 @@
 
 #Text=“ I was just looking around and thought she was right with me , you know ?
 20-1	650-651	“	_	_	_	_
-20-2	652-653	I	person	giv	ana	20-13
+20-2	652-653	I	person	giv	_	_
 20-3	654-657	was	_	_	_	_
 20-4	658-662	just	_	_	_	_
 20-5	663-670	looking	_	_	_	_
@@ -218,7 +218,7 @@
 20-10	694-697	was	_	_	_	_
 20-11	698-703	right	_	_	_	_
 20-12	704-708	with	_	_	_	_
-20-13	709-711	me	person	giv	_	_
+20-13	709-711	me	_	_	_	_
 20-14	712-713	,	_	_	_	_
 20-15	714-717	you	person	giv	_	_
 20-16	718-722	know	_	_	_	_
@@ -363,21 +363,21 @@
 28-8	1271-1273	so	_	_	_	_
 28-9	1274-1276	of	_	_	_	_
 28-10	1277-1283	course	_	_	_	_
-28-11	1284-1287	she	person	giv	ana	29-1[234_0]
+28-11	1284-1287	she	person	giv	ana	29-1
 28-12	1288-1293	wants	_	_	_	_
 28-13	1294-1295	a	_	_	_	_
 28-14	1296-1302	cookie	_	_	_	_
 28-15	1303-1304	.	_	_	_	_
 
 #Text=She perks up the way Shelby , our Shetland Sheepdog does , when you say ‘ treat . ’
-29-1	1305-1308	She	person[234]	giv[234]	_	_
-29-2	1309-1314	perks	person[234]	giv[234]	_	_
-29-3	1315-1317	up	person[234]	giv[234]	_	_
-29-4	1318-1321	the	person[234]	giv[234]	_	_
+29-1	1305-1308	She	person	giv	_	_
+29-2	1309-1314	perks	_	_	_	_
+29-3	1315-1317	up	_	_	_	_
+29-4	1318-1321	the	_	_	_	_
 29-5	1322-1325	way	_	_	_	_
-29-6	1326-1332	Shelby	animal[172]|animal[237]	new[172]|new[237]	appos|ana	29-8[33_172]|60-1[0_237]
-29-7	1333-1334	,	animal[172]|animal[237]	new[172]|new[237]	_	_
-29-8	1335-1338	our	animal[33]|animal[237]	giv[33]|new[237]	_	_
+29-6	1326-1332	Shelby	animal[172]	new[172]	appos	29-8[33_172]
+29-7	1333-1334	,	animal[172]	new[172]	_	_
+29-8	1335-1338	our	animal[33]|person[34]	giv[33]|giv[34]	ana	60-1[0_34]
 29-9	1339-1347	Shetland	animal[33]	giv[33]	_	_
 29-10	1348-1356	Sheepdog	animal[33]	giv[33]	_	_
 29-11	1357-1361	does	_	_	_	_
@@ -1067,7 +1067,7 @@
 69-3	3855-3859	want	_	_	_	_
 69-4	3860-3862	to	_	_	_	_
 69-5	3863-3867	call	_	_	_	_
-69-6	3868-3872	your	person[116]|person[117]	new[116]|giv[117]	coref|ana	74-7[235_116]|74-1[0_117]
+69-6	3868-3872	your	person[116]|person[117]	new[116]|giv[117]	coref|ana	74-7[123_116]|74-1[0_117]
 69-7	3873-3876	dad	person[116]	new[116]	_	_
 69-8	3877-3878	?	_	_	_	_
 69-9	3879-3880	”	_	_	_	_
@@ -1125,19 +1125,19 @@
 74-4	4035-4039	want	_	_	_	_
 74-5	4040-4042	to	_	_	_	_
 74-6	4043-4047	call	_	_	_	_
-74-7	4048-4050	my	person[123]|person[124]|person[235]	giv[123]|giv[124]|giv[235]	ana|ana|coref	74-15[126_123]|75-12[130_124]|75-1[128_235]
-74-8	4051-4054	dad	person[123]|person[235]	giv[123]|giv[235]	_	_
-74-9	4055-4058	who	person[235]|person[235]	giv[235]|giv[235]	_	_
-74-10	4059-4061	is	person[235]|person[235]	giv[235]|giv[235]	_	_
-74-11	4062-4070	probably	person[235]|person[235]	giv[235]|giv[235]	_	_
-74-12	4071-4075	with	person[235]|person[235]	giv[235]|giv[235]	_	_
-74-13	4076-4081	Joyce	person[203]|person[235]|person[238]|person[235]	new[203]|giv[235]|new[238]|giv[235]	appos|coref	74-15[125_203]|75-1[128_238]
-74-14	4082-4083	,	person[203]|person[235]|person[238]|person[235]	new[203]|giv[235]|new[238]|giv[235]	_	_
-74-15	4084-4087	his	person[125]|person[126]|person[235]|person[238]|person[235]	giv[125]|giv[126]|giv[235]|new[238]|giv[235]	_	_
-74-16	4088-4098	girlfriend	person[125]|person[235]|person[238]|person[235]	giv[125]|giv[235]|new[238]|giv[235]	_	_
-74-17	4099-4100	,	person[235]|person[235]	giv[235]|giv[235]	_	_
-74-18	4101-4107	anyway	person[235]|person[235]	giv[235]|giv[235]	_	_
-74-19	4108-4109	.	person[235]	giv[235]	_	_
+74-7	4048-4050	my	person[123]|person[124]	giv[123]|giv[124]	ana	75-12[130_124]
+74-8	4051-4054	dad	person[123]	giv[123]	_	_
+74-9	4055-4058	who	person[123]	giv[123]	_	_
+74-10	4059-4061	is	person[123]	giv[123]	_	_
+74-11	4062-4070	probably	person[123]	giv[123]	_	_
+74-12	4071-4075	with	person[123]	giv[123]	_	_
+74-13	4076-4081	Joyce	person[203]|person[236]|person[123]	new[203]|new[236]|giv[123]	appos|coref	74-15[125_203]|75-1[128_236]
+74-14	4082-4083	,	person[203]|person[236]|person[123]	new[203]|new[236]|giv[123]	_	_
+74-15	4084-4087	his	person[125]|person[236]|person[123]	giv[125]|new[236]|giv[123]	_	_
+74-16	4088-4098	girlfriend	person[125]|person[236]|person[123]	giv[125]|new[236]|giv[123]	_	_
+74-17	4099-4100	,	person[123]	giv[123]	_	_
+74-18	4101-4107	anyway	person[123]	giv[123]	_	_
+74-19	4108-4109	.	_	_	_	_
 
 #Text=Joyce is always trying to be likable and it gets on my nerves after awhile — she tries way too hard .
 75-1	4110-4115	Joyce	event[127]|person[128]	new[127]|giv[128]	ana|ana	75-9[0_127]|75-17[0_128]

@@ -80,8 +80,8 @@
 5-8	355-363	Internet	object[18]|place[128]|place[159]	giv[18]|giv[128]|new[159]	coref	5-26[22_18]
 5-9	364-372	Explorer	object[18]|place[128]|place[159]	giv[18]|giv[128]|new[159]	_	_
 5-10	373-374	6	object[18]|place[128]|place[159]	giv[18]|giv[128]|new[159]	_	_
-5-11	375-384	Countdown	place[128]	giv[128]	_	_
-5-12	385-386	"	place[128]	giv[128]	_	_
+5-11	375-384	Countdown	place[128]|place[159]	giv[128]|new[159]	_	_
+5-12	385-386	"	place[128]|place[159]	giv[128]|new[159]	_	_
 5-13	387-388	,	_	_	_	_
 5-14	389-398	Microsoft	organization	giv	coref	9-24
 5-15	399-402	has	_	_	_	_
@@ -89,19 +89,19 @@
 5-17	412-414	an	abstract[20]	new[20]	ana	6-1[25_20]
 5-18	415-425	aggressive	abstract[20]	new[20]	_	_
 5-19	426-434	campaign	abstract[20]	new[20]	_	_
-5-20	435-437	to	abstract[20]|abstract[20]	new[20]|new[20]	_	_
-5-21	438-446	persuade	abstract[20]|abstract[20]	new[20]|new[20]	_	_
-5-22	447-452	users	abstract[20]|abstract[20]	new[20]|new[20]	_	_
-5-23	453-455	to	abstract[20]|abstract[20]	new[20]|new[20]	_	_
-5-24	456-460	stop	abstract[20]|abstract[20]	new[20]|new[20]	_	_
-5-25	461-466	using	abstract[20]|abstract[20]	new[20]|new[20]	_	_
-5-26	467-470	IE6	abstract[20]|object[22]|abstract[20]	new[20]|acc[22]|new[20]	coref	6-6[27_22]
-5-27	471-474	and	abstract[20]|abstract[20]	new[20]|new[20]	_	_
-5-28	475-481	update	abstract[20]|abstract[20]	new[20]|new[20]	_	_
-5-29	482-484	to	abstract[20]|abstract[20]	new[20]|new[20]	_	_
-5-30	485-486	a	abstract[20]|abstract[20]	new[20]|new[20]	_	_
-5-31	487-492	newer	abstract[20]|abstract[20]	new[20]|new[20]	_	_
-5-32	493-495	IE	abstract[20]|abstract[20]	new[20]|new[20]	_	_
+5-20	435-437	to	abstract[20]	new[20]	_	_
+5-21	438-446	persuade	abstract[20]	new[20]	_	_
+5-22	447-452	users	abstract[20]	new[20]	_	_
+5-23	453-455	to	abstract[20]	new[20]	_	_
+5-24	456-460	stop	abstract[20]	new[20]	_	_
+5-25	461-466	using	abstract[20]	new[20]	_	_
+5-26	467-470	IE6	abstract[20]|object[22]	new[20]|acc[22]	coref	6-6[27_22]
+5-27	471-474	and	abstract[20]	new[20]	_	_
+5-28	475-481	update	abstract[20]	new[20]	_	_
+5-29	482-484	to	abstract[20]	new[20]	_	_
+5-30	485-486	a	abstract[20]	new[20]	_	_
+5-31	487-492	newer	abstract[20]	new[20]	_	_
+5-32	493-495	IE	abstract[20]	new[20]	_	_
 5-33	496-497	.	_	_	_	_
 
 #Text=Its goal is to decrease IE6 users to less than one percent .

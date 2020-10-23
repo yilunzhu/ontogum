@@ -65,22 +65,22 @@
 4-5	277-283	causes	_	_	_	_
 4-6	284-288	this	_	_	_	_
 4-7	289-290	"	_	_	_	_
-4-8	291-299	hypnosis	abstract	new	coref	28-2[101_0]
-4-9	300-301	,	_	_	_	_
+4-8	291-299	hypnosis	abstract[271]	new[271]	coref	28-2[101_271]
+4-9	300-301	,	abstract[271]	new[271]	_	_
 4-10	302-303	"	_	_	_	_
-4-11	304-309	which	_	_	_	_
-4-12	310-313	may	_	_	_	_
-4-13	314-316	be	_	_	_	_
-4-14	317-319	an	_	_	_	_
-4-15	320-327	attempt	_	_	_	_
-4-16	328-330	to	_	_	_	_
-4-17	331-332	"	_	_	_	_
-4-18	333-337	play	_	_	_	_
-4-19	338-342	dead	_	_	_	_
-4-20	343-344	"	_	_	_	_
-4-21	345-347	to	_	_	_	_
-4-22	348-352	fool	_	_	_	_
-4-23	353-362	predators	_	_	_	_
+4-11	304-309	which	abstract[271]	new[271]	_	_
+4-12	310-313	may	abstract[271]	new[271]	_	_
+4-13	314-316	be	abstract[271]	new[271]	_	_
+4-14	317-319	an	abstract[271]	new[271]	_	_
+4-15	320-327	attempt	abstract[271]	new[271]	_	_
+4-16	328-330	to	abstract[271]	new[271]	_	_
+4-17	331-332	"	abstract[271]	new[271]	_	_
+4-18	333-337	play	abstract[271]	new[271]	_	_
+4-19	338-342	dead	abstract[271]	new[271]	_	_
+4-20	343-344	"	abstract[271]	new[271]	_	_
+4-21	345-347	to	abstract[271]	new[271]	_	_
+4-22	348-352	fool	abstract[271]	new[271]	_	_
+4-23	353-362	predators	abstract[271]	new[271]	_	_
 4-24	363-364	.	_	_	_	_
 
 #Text=Method One of Two : Hypnotizing a Chicken
@@ -227,17 +227,17 @@
 15-3	949-955	finger	object[55]	giv[55]	_	_
 15-4	956-964	backward	_	_	_	_
 15-5	965-967	to	_	_	_	_
-15-6	968-973	about	quantity[56]|quantity[332]	new[56]|new[332]	appos|coref	15-9[207_56]|23-15[84_332]
-15-7	974-975	4	quantity[56]|quantity[332]	new[56]|new[332]	_	_
-15-8	976-982	inches	quantity[56]|quantity[332]	new[56]|new[332]	_	_
-15-9	983-984	(	quantity[332]	new[332]	_	_
-15-10	985-987	10	quantity[332]	new[332]	_	_
-15-11	988-990	cm	quantity[332]	new[332]	_	_
-15-12	991-992	)	quantity[332]	new[332]	_	_
-15-13	993-997	away	quantity[332]	new[332]	_	_
-15-14	998-999	,	quantity[332]	new[332]	_	_
-15-15	1000-1004	then	quantity[332]	new[332]	_	_
-15-16	1005-1009	back	quantity[332]	new[332]	_	_
+15-6	968-973	about	quantity[56]	new[56]	appos	15-9[207_56]
+15-7	974-975	4	quantity[56]	new[56]	_	_
+15-8	976-982	inches	quantity[56]	new[56]	_	_
+15-9	983-984	(	quantity[207]	giv[207]	_	_
+15-10	985-987	10	quantity[207]	giv[207]	_	_
+15-11	988-990	cm	quantity[207]	giv[207]	_	_
+15-12	991-992	)	quantity[207]	giv[207]	_	_
+15-13	993-997	away	_	_	_	_
+15-14	998-999	,	_	_	_	_
+15-15	1000-1004	then	_	_	_	_
+15-16	1005-1009	back	_	_	_	_
 15-17	1010-1015	again	_	_	_	_
 15-18	1016-1017	.	_	_	_	_
 
@@ -331,12 +331,12 @@
 22-14	1376-1378	on	_	_	_	_
 22-15	1379-1382	the	place[78]	giv[78]	_	_
 22-16	1383-1389	ground	place[78]	giv[78]	_	_
-22-17	1390-1392	12	quantity[79]	new[79]	appos	22-19[269_79]
+22-17	1390-1392	12	quantity[79]	new[79]	appos	22-19[238_79]
 22-18	1393-1394	"	quantity[79]	new[79]	_	_
-22-19	1395-1396	(	quantity[269]	giv[269]	_	_
-22-20	1397-1399	30	quantity[269]	giv[269]	_	_
-22-21	1400-1402	cm	quantity[269]	giv[269]	_	_
-22-22	1403-1404	)	quantity[269]	giv[269]	_	_
+22-19	1395-1396	(	quantity[238]	giv[238]	_	_
+22-20	1397-1399	30	quantity[238]	giv[238]	_	_
+22-21	1400-1402	cm	quantity[238]	giv[238]	_	_
+22-22	1403-1404	)	quantity[238]	giv[238]	_	_
 22-23	1405-1409	long	_	_	_	_
 22-24	1410-1411	.	_	_	_	_
 
@@ -355,10 +355,10 @@
 23-12	1468-1475	outward	_	_	_	_
 23-13	1476-1477	,	_	_	_	_
 23-14	1478-1480	in	_	_	_	_
-23-15	1481-1486	front	place[84]	giv[84]	_	_
-23-16	1487-1489	of	place[84]	giv[84]	_	_
-23-17	1490-1493	its	place[84]|animal[86]	giv[84]|giv[86]	ana	24-2[0_86]
-23-18	1494-1498	head	place[84]	giv[84]	_	_
+23-15	1481-1486	front	_	_	_	_
+23-16	1487-1489	of	_	_	_	_
+23-17	1490-1493	its	animal[86]	giv[86]	ana	24-2[0_86]
+23-18	1494-1498	head	_	_	_	_
 23-19	1499-1500	.	_	_	_	_
 
 #Text=Wake it up by clapping .
@@ -419,7 +419,7 @@
 
 #Text=Understand the hypnotic effect .
 28-1	1725-1735	Understand	_	_	_	_
-28-2	1736-1739	the	abstract[101]	giv[101]	coref	29-3[335_101]
+28-2	1736-1739	the	abstract[101]	giv[101]	coref	29-3[276_101]
 28-3	1740-1748	hypnotic	abstract[101]	giv[101]	_	_
 28-4	1749-1755	effect	abstract[101]	giv[101]	_	_
 28-5	1756-1757	.	_	_	_	_
@@ -427,12 +427,12 @@
 #Text=Researchers call this effect " tonic immobility " .
 29-1	1758-1769	Researchers	_	_	_	_
 29-2	1770-1774	call	_	_	_	_
-29-3	1775-1779	this	abstract[103]|abstract[335]	giv[103]|giv[335]	coref|coref	29-5[300_103]|30-9[107_335]
-29-4	1780-1786	effect	abstract[103]|abstract[335]	giv[103]|giv[335]	_	_
-29-5	1787-1788	"	abstract[300]|abstract[335]	giv[300]|giv[335]	_	_
-29-6	1789-1794	tonic	abstract[300]|abstract[335]	giv[300]|giv[335]	_	_
-29-7	1795-1805	immobility	abstract[300]|abstract[335]	giv[300]|giv[335]	_	_
-29-8	1806-1807	"	abstract[300]|abstract[335]	giv[300]|giv[335]	_	_
+29-3	1775-1779	this	abstract[276]	giv[276]	coref	30-9[107_276]
+29-4	1780-1786	effect	abstract[276]	giv[276]	_	_
+29-5	1787-1788	"	abstract[276]	giv[276]	_	_
+29-6	1789-1794	tonic	abstract[276]	giv[276]	_	_
+29-7	1795-1805	immobility	abstract[276]	giv[276]	_	_
+29-8	1806-1807	"	_	_	_	_
 29-9	1808-1809	.	_	_	_	_
 
 #Text=" When a chicken or another animal with this tendency becomes frightened , its heart rate lowers and it stops moving .

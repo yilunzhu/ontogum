@@ -7,7 +7,7 @@
 1-1	0-7	Lantern	event[1]	new[1]	coref	3-5[10_1]
 1-2	8-16	Festival	event[1]	new[1]	_	_
 1-3	17-19	in	event[1]	new[1]	_	_
-1-4	20-26	Taipei	event[1]|place[3]	new[1]|new[3]	coref	3-1[217_3]
+1-4	20-26	Taipei	event[1]|place[3]	new[1]|new[3]	coref	3-1[0_3]
 1-5	27-33	lights	_	_	_	_
 1-6	34-36	up	_	_	_	_
 1-7	37-40	the	_	_	_	_
@@ -22,13 +22,13 @@
 2-6	66-70	2007	time[6]	acc[6]	_	_
 
 #Text=Taipei , Taiwan — The Taipei City Lantern Festival was off to a bright start on Saturday Night as hundreds of thousands of people crowded onto the Chiang Kai Shek Memorial near downtown Taipei to witness city mayor Hau Lung-bin and other dignitaries ceremoniously flip the switch to light hundreds of colorful lantern scenes in and around the 240,000 square meter memorial park .
-3-1	71-77	Taipei	place[217]	giv[217]	_	_
-3-2	78-79	,	place[217]	giv[217]	_	_
-3-3	80-86	Taiwan	place[248]|place[313]	giv[248]|giv[313]	coref|coref	3-3[217_248]|12-19[76_313]
-3-4	87-88	—	place[313]	giv[313]	_	_
-3-5	89-92	The	event[10]|place[313]	giv[10]|giv[313]	coref	4-4[27_10]
-3-6	93-99	Taipei	event[10]|place[313]	giv[10]|giv[313]	_	_
-3-7	100-104	City	event[10]	giv[10]	_	_
+3-1	71-77	Taipei	place	giv	coref	3-6[11_0]
+3-2	78-79	,	_	_	_	_
+3-3	80-86	Taiwan	place	acc	coref	12-19[76_0]
+3-4	87-88	—	_	_	_	_
+3-5	89-92	The	event[10]	giv[10]	coref	4-4[27_10]
+3-6	93-99	Taipei	event[10]|place[11]	giv[10]|giv[11]	_	_
+3-7	100-104	City	event[10]|place[11]	giv[10]|giv[11]	_	_
 3-8	105-112	Lantern	event[10]	giv[10]	_	_
 3-9	113-121	Festival	event[10]	giv[10]	_	_
 3-10	122-125	was	_	_	_	_
@@ -319,7 +319,7 @@
 15-7	1607-1609	in	event[84]	giv[84]	_	_
 15-8	1610-1616	Taiwan	event[84]|place[86]	giv[84]|giv[86]	_	_
 15-9	1617-1618	,	_	_	_	_
-15-10	1619-1622	the	event[87]	giv[87]	_	_
+15-10	1619-1622	the	event[87]	giv[87]	coref	16-29[96_87]
 15-11	1623-1630	lantern	event[87]	giv[87]	_	_
 15-12	1631-1639	festival	event[87]	giv[87]	_	_
 15-13	1640-1642	is	_	_	_	_
@@ -453,12 +453,12 @@
 20-3	2262-2266	rain	_	_	_	_
 20-4	2267-2272	storm	_	_	_	_
 20-5	2273-2275	on	_	_	_	_
-20-6	2276-2282	Sunday	time[119]	acc[119]	appos	20-8[279_119]
+20-6	2276-2282	Sunday	time[119]	acc[119]	appos	20-8[217_119]
 20-7	2283-2288	night	time[119]	acc[119]	_	_
-20-8	2289-2290	(	time[279]	giv[279]	_	_
-20-9	2291-2296	March	time[279]	giv[279]	_	_
-20-10	2297-2298	4	time[279]	giv[279]	_	_
-20-11	2299-2300	)	time[279]	giv[279]	_	_
+20-8	2289-2290	(	time[217]	giv[217]	_	_
+20-9	2291-2296	March	time[217]	giv[217]	_	_
+20-10	2297-2298	4	time[217]	giv[217]	_	_
+20-11	2299-2300	)	time[217]	giv[217]	_	_
 20-12	2301-2307	caused	_	_	_	_
 20-13	2308-2309	a	_	_	_	_
 20-14	2310-2314	mass	_	_	_	_

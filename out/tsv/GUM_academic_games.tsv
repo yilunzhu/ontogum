@@ -660,12 +660,12 @@
 19-36	3552-3556	were	_	_	_	_
 19-37	3557-3564	divided	_	_	_	_
 19-38	3565-3569	into	_	_	_	_
-19-39	3570-3573	two	person[194]|person[382]	new[194]|new[382]	appos|coref	19-41[320_194]|24-31[235_382]
-19-40	3574-3580	groups	person[194]|person[382]	new[194]|new[382]	_	_
-19-41	3581-3582	:	person[320]|person[382]	new[320]|new[382]	_	_
-19-42	3583-3594	participant	person[196]|person[320]|person[382]	new[196]|new[320]|new[382]	coref	20-1[198_196]
-19-43	3595-3598	and	person[320]|person[382]	new[320]|new[382]	_	_
-19-44	3599-3606	control	person[197]|person[320]|person[382]	new[197]|new[320]|new[382]	coref	20-13[202_197]
+19-39	3570-3573	two	person[194]|person[325]	new[194]|new[325]	appos|coref	19-42[195_194]|24-31[235_325]
+19-40	3574-3580	groups	person[194]|person[325]	new[194]|new[325]	_	_
+19-41	3581-3582	:	person[194]|person[325]	new[194]|new[325]	_	_
+19-42	3583-3594	participant	person[195]|person[196]|person[325]	new[195]|new[196]|new[325]	coref	20-1[198_196]
+19-43	3595-3598	and	person[195]|person[325]	new[195]|new[325]	_	_
+19-44	3599-3606	control	person[195]|person[197]|person[325]	new[195]|new[197]|new[325]	coref	20-13[202_197]
 19-45	3607-3608	.	_	_	_	_
 
 #Text=The first ( n = 31 ) participated in the intervention , the control group ( n = 40 ) was only evaluated using the test before and after the same time interval of interventions .
@@ -751,16 +751,16 @@
 23-4	4018-4024	scores	_	_	_	_
 23-5	4025-4033	measured	_	_	_	_
 23-6	4034-4036	by	_	_	_	_
-23-7	4037-4041	four	abstract[222]	new[222]	appos	23-9[351_222]
+23-7	4037-4041	four	abstract[222]	new[222]	appos	23-10[223_222]
 23-8	4042-4051	variables	abstract[222]	new[222]	_	_
-23-9	4052-4053	:	abstract[351]	giv[351]	_	_
-23-10	4054-4058	time	abstract[351]	giv[351]	_	_
-23-11	4059-4060	,	abstract[351]	giv[351]	_	_
-23-12	4061-4066	speed	abstract[351]	giv[351]	_	_
-23-13	4067-4068	,	abstract[351]	giv[351]	_	_
-23-14	4069-4078	stability	abstract[351]	giv[351]	_	_
-23-15	4079-4082	and	abstract[351]	giv[351]	_	_
-23-16	4083-4091	accuracy	abstract[351]	giv[351]	_	_
+23-9	4052-4053	:	abstract[222]	new[222]	_	_
+23-10	4054-4058	time	abstract[223]	giv[223]	_	_
+23-11	4059-4060	,	abstract[223]	giv[223]	_	_
+23-12	4061-4066	speed	abstract[223]	giv[223]	_	_
+23-13	4067-4068	,	abstract[223]	giv[223]	_	_
+23-14	4069-4078	stability	abstract[223]	giv[223]	_	_
+23-15	4079-4082	and	abstract[223]	giv[223]	_	_
+23-16	4083-4091	accuracy	abstract[223]	giv[223]	_	_
 23-17	4092-4093	.	_	_	_	_
 
 #Text=A statistical analysis was performed based on the application of the paired t-test on the difference of the overall score obtained in the test before and after the intervention in the two groups .
@@ -932,9 +932,9 @@
 28-41	5012-5014	in	_	_	_	_
 28-42	5015-5018	the	abstract[271]	new[271]	coref	29-26[281_271]
 28-43	5019-5026	ability	abstract[271]	new[271]	_	_
-28-44	5027-5029	to	abstract[271]|abstract[271]	new[271]|new[271]	_	_
-28-45	5030-5037	sustain	abstract[271]|abstract[271]	new[271]|new[271]	_	_
-28-46	5038-5047	attention	abstract[271]|abstract[271]	new[271]|new[271]	_	_
+28-44	5027-5029	to	abstract[271]	new[271]	_	_
+28-45	5030-5037	sustain	abstract[271]	new[271]	_	_
+28-46	5038-5047	attention	abstract[271]	new[271]	_	_
 28-47	5048-5049	.	_	_	_	_
 
 #Text=The teachers observed changes after the intervention , emphasizing the greater persistence and involvement in school activities , and in some students , improvement in the ability to sustain attention .
@@ -965,9 +965,9 @@
 29-25	5215-5217	in	_	_	_	_
 29-26	5218-5221	the	abstract[281]	giv[281]	_	_
 29-27	5222-5229	ability	abstract[281]	giv[281]	_	_
-29-28	5230-5232	to	abstract[281]|abstract[281]	giv[281]|giv[281]	_	_
-29-29	5233-5240	sustain	abstract[281]|abstract[281]	giv[281]|giv[281]	_	_
-29-30	5241-5250	attention	abstract[281]|abstract[281]	giv[281]|giv[281]	_	_
+29-28	5230-5232	to	abstract[281]	giv[281]	_	_
+29-29	5233-5240	sustain	abstract[281]	giv[281]	_	_
+29-30	5241-5250	attention	abstract[281]	giv[281]	_	_
 29-31	5251-5252	.	_	_	_	_
 
 #Text=From this , we conclude that an intervention based on cognitive digital games offers contributions to the learning process and improvement of sustained attention .

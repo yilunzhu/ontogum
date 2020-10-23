@@ -42,7 +42,7 @@
 3-18	165-175	glittering	_	_	_	_
 3-19	176-182	stream	_	_	_	_
 3-20	183-185	of	_	_	_	_
-3-21	186-191	mites	animal[13]	new[13]	ana	3-33[16_13]
+3-21	186-191	mites	animal[13]	new[13]	ana	4-7[0_13]
 3-22	192-196	that	animal[13]	new[13]	_	_
 3-23	197-200	arc	animal[13]	new[13]	_	_
 3-24	201-205	over	animal[13]	new[13]	_	_
@@ -54,7 +54,7 @@
 3-30	228-230	up	animal[13]	new[13]	_	_
 3-31	231-233	to	animal[13]	new[13]	_	_
 3-32	234-240	rewind	animal[13]	new[13]	_	_
-3-33	241-246	their	animal[16]|animal[13]	giv[16]|new[13]	ana	4-7[0_16]
+3-33	241-246	their	animal[13]	new[13]	_	_
 3-34	247-258	nanosprings	animal[13]	new[13]	_	_
 3-35	259-261	in	animal[13]	new[13]	_	_
 3-36	262-265	the	animal[13]	new[13]	_	_
@@ -133,9 +133,9 @@
 6-42	620-621	a	object[311]	giv[311]	_	_
 6-43	622-629	cluster	object[311]	giv[311]	_	_
 6-44	630-632	of	object[311]	giv[311]	_	_
-6-45	633-640	antique	_	_	_	_
-6-46	641-647	subway	_	_	_	_
-6-47	648-652	cars	_	_	_	_
+6-45	633-640	antique	object[311]	giv[311]	_	_
+6-46	641-647	subway	object[311]	giv[311]	_	_
+6-47	648-652	cars	object[311]	giv[311]	_	_
 6-48	653-654	.	_	_	_	_
 
 #Text=She ’s wearing a 1950s sundress and a broad-brimmed hat , and it ’s like an essay on the last century — the austere steel bridge , the bright blobs of subway graffiti , and her yellow dress , flapping against her legs as she climbs over the bridge ’s rail .

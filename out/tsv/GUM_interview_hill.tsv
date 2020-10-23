@@ -6,14 +6,14 @@
 #Text=Wikinews interviews Christopher Hill , U.S. Republican Party presidential candidate
 1-1	0-8	Wikinews	_	_	_	_
 1-2	9-19	interviews	_	_	_	_
-1-3	20-31	Christopher	person[2]|person[243]|person[244]|person[245]	new[2]|new[243]|new[244]|new[245]	appos|ana|coref|coref	1-6[3_2]|3-4[0_243]|21-8[83_244]|4-14[18_245]
-1-4	32-36	Hill	person[2]|person[243]|person[244]|person[245]	new[2]|new[243]|new[244]|new[245]	_	_
-1-5	37-38	,	person[2]|person[243]|person[244]|person[245]	new[2]|new[243]|new[244]|new[245]	_	_
-1-6	39-43	U.S.	person[3]|person[243]|person[244]	giv[3]|new[243]|new[244]	_	_
-1-7	44-54	Republican	person[3]|person[243]|person[244]	giv[3]|new[243]|new[244]	_	_
-1-8	55-60	Party	person[3]|person[243]	giv[3]|new[243]	_	_
-1-9	61-73	presidential	person[3]|person[243]	giv[3]|new[243]	_	_
-1-10	74-83	candidate	person[3]	giv[3]	_	_
+1-3	20-31	Christopher	person[2]|person[244]	new[2]|new[244]	appos|ana	1-6[3_2]|3-4[0_244]
+1-4	32-36	Hill	person[2]|person[244]	new[2]|new[244]	_	_
+1-5	37-38	,	person[2]|person[244]	new[2]|new[244]	_	_
+1-6	39-43	U.S.	person[3]|organization[4]|place[5]|person[244]	giv[3]|acc[4]|acc[5]|new[244]	coref|coref	21-8[83_4]|4-14[18_5]
+1-7	44-54	Republican	person[3]|organization[4]|person[244]	giv[3]|acc[4]|new[244]	_	_
+1-8	55-60	Party	person[3]|organization[4]|person[244]	giv[3]|acc[4]|new[244]	_	_
+1-9	61-73	presidential	person[3]|person[244]	giv[3]|new[244]	_	_
+1-10	74-83	candidate	person[3]|person[244]	giv[3]|new[244]	_	_
 
 #Text=Interview
 2-1	84-93	Interview	_	_	_	_
@@ -80,8 +80,8 @@
 6-7	371-373	to	_	_	_	_
 6-8	374-377	ALL	_	_	_	_
 6-9	378-380	of	_	_	_	_
-6-10	381-384	our	person[25]	person[25]	coref	8-9[36_25]
-6-11	385-391	people	person[25]	person[25]	_	_
+6-10	381-384	our	person[25]	new[25]	coref	8-9[36_25]
+6-11	385-391	people	person[25]	new[25]	_	_
 6-12	392-393	.	_	_	_	_
 
 #Text=Politicians profess an Oath to this nation but once in office pursue their party agenda and reward their voters .
@@ -170,18 +170,18 @@
 11-13	755-761	chosen	_	_	_	_
 11-14	762-764	to	_	_	_	_
 11-15	765-771	attend	_	_	_	_
-11-16	772-773	a	organization[48]	new[48]	coref	11-22[49_48]
+11-16	772-773	a	organization[48]	new[48]	coref	13-4[56_48]
 11-17	774-780	unique	organization[48]	new[48]	_	_
 11-18	781-786	Pilot	organization[48]	new[48]	_	_
 11-19	787-795	Training	organization[48]	new[48]	_	_
 11-20	796-803	Program	organization[48]	new[48]	_	_
 11-21	804-810	called	organization[48]	new[48]	_	_
-11-22	811-816	Euro-	organization[49]|organization[48]	giv[49]|new[48]	coref	13-4[56_49]
-11-23	817-821	NATO	organization[49]|organization[48]	giv[49]|new[48]	_	_
-11-24	822-827	Joint	organization[49]|organization[48]	giv[49]|new[48]	_	_
-11-25	828-831	Jet	organization[49]|organization[48]	giv[49]|new[48]	_	_
-11-26	832-837	Pilot	organization[49]|organization[48]	giv[49]|new[48]	_	_
-11-27	838-846	Training	organization[49]|organization[48]	giv[49]|new[48]	_	_
+11-22	811-816	Euro-	organization[48]	new[48]	_	_
+11-23	817-821	NATO	organization[48]	new[48]	_	_
+11-24	822-827	Joint	organization[48]	new[48]	_	_
+11-25	828-831	Jet	organization[48]	new[48]	_	_
+11-26	832-837	Pilot	organization[48]	new[48]	_	_
+11-27	838-846	Training	organization[48]	new[48]	_	_
 11-28	847-848	.	_	_	_	_
 
 #Text=The Air Force only selected 180 Officers a year from the Academy , Squadron Officer School and ROTC to attend .
@@ -905,11 +905,11 @@
 57-13	4090-4092	to	abstract[206]	new[206]	_	_
 57-14	4093-4099	future	abstract[206]	new[206]	_	_
 57-15	4100-4111	generations	abstract[206]	new[206]	_	_
-57-16	4112-4116	that	abstract[206]|abstract[206]	new[206]|new[206]	_	_
-57-17	4117-4121	were	abstract[206]|abstract[206]	new[206]|new[206]	_	_
-57-18	4122-4130	promised	abstract[206]|abstract[206]	new[206]|new[206]	_	_
-57-19	4131-4133	to	abstract[206]|abstract[206]	new[206]|new[206]	_	_
-57-20	4134-4136	us	abstract[206]|person[209]|abstract[206]	new[206]|giv[209]|new[206]	_	_
+57-16	4112-4116	that	abstract[206]	new[206]	_	_
+57-17	4117-4121	were	abstract[206]	new[206]	_	_
+57-18	4122-4130	promised	abstract[206]	new[206]	_	_
+57-19	4131-4133	to	abstract[206]	new[206]	_	_
+57-20	4134-4136	us	abstract[206]|person[209]	new[206]|giv[209]	_	_
 57-21	4137-4138	.	_	_	_	_
 
 #Text=As President , I intend to keep that promise !

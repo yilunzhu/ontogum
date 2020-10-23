@@ -499,17 +499,17 @@
 15-16	2772-2780	complete	abstract[112]	new[112]	_	_
 15-17	2781-2787	record	abstract[112]	new[112]	_	_
 15-18	2788-2790	of	abstract[112]	new[112]	_	_
-15-19	2791-2796	three	abstract[112]|abstract[113]	new[112]|new[113]	coref	15-22[291_113]
+15-19	2791-2796	three	abstract[112]|abstract[113]	new[112]|new[113]	coref	17-30[136_113]
 15-20	2797-2805	academic	abstract[112]|abstract[113]	new[112]|new[113]	_	_
 15-21	2806-2812	fields	abstract[112]|abstract[113]	new[112]|new[113]	_	_
-15-22	2813-2814	:	abstract[112]|abstract[113]|abstract[291]	new[112]|new[113]|new[291]	_	_
-15-23	2815-2823	computer	abstract[112]|abstract[113]|abstract[291]	new[112]|new[113]|new[291]	_	_
-15-24	2824-2831	science	abstract[112]|abstract[113]|abstract[291]	new[112]|new[113]|new[291]	_	_
+15-22	2813-2814	:	abstract[112]|abstract[113]	new[112]|new[113]	_	_
+15-23	2815-2823	computer	abstract[112]|abstract[113]	new[112]|new[113]	_	_
+15-24	2824-2831	science	abstract[112]|abstract[113]	new[112]|new[113]	_	_
 15-25	2832-2833	,	abstract[112]|abstract[113]	new[112]|new[113]	_	_
-15-26	2834-2841	history	abstract[112]|abstract[113]|abstract[291]	new[112]|new[113]|new[291]	_	_
+15-26	2834-2841	history	abstract[112]|abstract[113]	new[112]|new[113]	_	_
 15-27	2842-2843	,	abstract[112]|abstract[113]	new[112]|new[113]	_	_
-15-28	2844-2847	and	abstract[112]|abstract[113]|abstract[291]	new[112]|new[113]|new[291]	_	_
-15-29	2848-2856	business	abstract[112]|abstract[113]|abstract[291]	new[112]|new[113]|new[291]	_	_
+15-28	2844-2847	and	abstract[112]|abstract[113]	new[112]|new[113]	_	_
+15-29	2848-2856	business	abstract[112]|abstract[113]	new[112]|new[113]	_	_
 15-30	2857-2858	[	_	_	_	_
 15-31	2859-2861	19	_	_	_	_
 15-32	2862-2863	]	_	_	_	_
@@ -574,9 +574,9 @@
 17-27	3158-3167	diversity	_	_	_	_
 17-28	3168-3174	trends	_	_	_	_
 17-29	3175-3181	within	_	_	_	_
-17-30	3182-3187	these	_	_	_	_
-17-31	3188-3196	academic	_	_	_	_
-17-32	3197-3203	fields	_	_	_	_
+17-30	3182-3187	these	abstract[136]	new[136]	_	_
+17-31	3188-3196	academic	abstract[136]	new[136]	_	_
+17-32	3197-3203	fields	abstract[136]	new[136]	_	_
 17-33	3204-3205	.	_	_	_	_
 
 #Text=In some fields , yearly data on faculty numbers and composition are available in aggregate .
@@ -602,13 +602,13 @@
 19-2	3302-3310	computer	abstract[142]	giv[142]	coref	34-16[245_142]
 19-3	3311-3318	science	abstract[142]	giv[142]	_	_
 19-4	3319-3320	,	_	_	_	_
-19-5	3321-3324	the	organization[143]	new[143]	appos	19-9[322_143]
+19-5	3321-3324	the	organization[143]	new[143]	appos	19-9[291_143]
 19-6	3325-3334	Computing	organization[143]	new[143]	_	_
 19-7	3335-3343	Research	organization[143]	new[143]	_	_
 19-8	3344-3355	Association	organization[143]	new[143]	_	_
-19-9	3356-3357	(	organization[322]	giv[322]	_	_
-19-10	3358-3361	CRA	organization[322]	giv[322]	_	_
-19-11	3362-3363	)	organization[322]	giv[322]	_	_
+19-9	3356-3357	(	organization[291]	giv[291]	_	_
+19-10	3358-3361	CRA	organization[291]	giv[291]	_	_
+19-11	3362-3363	)	organization[291]	giv[291]	_	_
 19-12	3364-3373	documents	_	_	_	_
 19-13	3374-3380	trends	_	_	_	_
 19-14	3381-3383	in	_	_	_	_
@@ -618,7 +618,7 @@
 19-18	3402-3405	PhD	_	_	_	_
 19-19	3406-3416	recipients	_	_	_	_
 19-20	3417-3424	through	_	_	_	_
-19-21	3425-3428	the	abstract[148]	new[148]	appos	19-31[353_148]
+19-21	3425-3428	the	abstract[148]	new[148]	appos	19-31[322_148]
 19-22	3429-3435	annual	abstract[148]	new[148]	_	_
 19-23	3436-3443	Taulbee	abstract[148]	new[148]	_	_
 19-24	3444-3450	survey	abstract[148]	new[148]	_	_
@@ -628,9 +628,9 @@
 19-28	3476-3478	in	abstract[148]	new[148]	_	_
 19-29	3479-3484	North	abstract[148]	new[148]	_	_
 19-30	3485-3492	America	abstract[148]	new[148]	_	_
-19-31	3493-3494	(	abstract[353]	giv[353]	_	_
-19-32	3495-3527	cra.org/resources/taulbee-survey	abstract[353]	giv[353]	_	_
-19-33	3528-3529	)	abstract[353]	giv[353]	_	_
+19-31	3493-3494	(	abstract[322]	giv[322]	_	_
+19-32	3495-3527	cra.org/resources/taulbee-survey	abstract[322]	giv[322]	_	_
+19-33	3528-3529	)	abstract[322]	giv[322]	_	_
 19-34	3530-3531	.	_	_	_	_
 
 #Text=Such surveys can provide valuable insight into trends and summary statistics on the scientific workforce but suffer from two key weaknesses .

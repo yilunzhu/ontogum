@@ -487,12 +487,12 @@
 29-3	2082-2083	I	person	giv	ana	34-2
 29-4	2084-2095	distinguish	_	_	_	_
 29-5	2096-2103	between	_	_	_	_
-29-6	2104-2107	two	abstract[178]	acc[178]	coref	30-7[61_178]
-29-7	2108-2117	histories	abstract[178]	acc[178]	_	_
-29-8	2118-2119	,	abstract[178]	acc[178]	_	_
-29-9	2120-2123	the	abstract[178]	acc[178]	_	_
-29-10	2124-2133	spiritual	abstract[178]	acc[178]	_	_
-29-11	2134-2137	and	abstract[178]	acc[178]	_	_
+29-6	2104-2107	two	abstract[182]	acc[182]	coref	30-7[61_182]
+29-7	2108-2117	histories	abstract[182]	acc[182]	_	_
+29-8	2118-2119	,	abstract[182]	acc[182]	_	_
+29-9	2120-2123	the	abstract[182]	acc[182]	_	_
+29-10	2124-2133	spiritual	abstract[182]	acc[182]	_	_
+29-11	2134-2137	and	_	_	_	_
 29-12	2138-2141	the	abstract[58]	new[58]	coref	30-2[59_58]
 29-13	2142-2150	material	abstract[58]	new[58]	_	_
 29-14	2151-2152	.	_	_	_	_
@@ -1085,11 +1085,11 @@
 70-25	4557-4558	,	abstract[138]	new[138]	_	_
 70-26	4559-4560	a	abstract[140]	giv[140]	_	_
 70-27	4561-4573	continuation	abstract[140]	giv[140]	_	_
-70-28	4574-4578	that	abstract[140]|abstract[140]	giv[140]|giv[140]	_	_
-70-29	4579-4583	does	abstract[140]|abstract[140]	giv[140]|giv[140]	_	_
-70-30	4584-4587	n’t	abstract[140]|abstract[140]	giv[140]|giv[140]	_	_
-70-31	4588-4592	make	abstract[140]|abstract[140]	giv[140]|giv[140]	_	_
-70-32	4593-4598	sense	abstract[140]|abstract[140]	giv[140]|giv[140]	_	_
+70-28	4574-4578	that	abstract[140]	giv[140]	_	_
+70-29	4579-4583	does	abstract[140]	giv[140]	_	_
+70-30	4584-4587	n’t	abstract[140]	giv[140]	_	_
+70-31	4588-4592	make	abstract[140]	giv[140]	_	_
+70-32	4593-4598	sense	abstract[140]	giv[140]	_	_
 70-33	4599-4600	.	_	_	_	_
 
 #Text=I ’m answering your question .

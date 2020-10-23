@@ -20,7 +20,7 @@
 2-10	66-70	Cuba	place[5]	new[5]	coref	6-9[24_5]
 
 #Text=Visa and legal issues
-3-1	71-75	Visa	_	_	_	_
+3-1	71-75	Visa	object	new	coref	5-1[14_0]
 3-2	76-79	and	_	_	_	_
 3-3	80-85	legal	_	_	_	_
 3-4	86-92	issues	_	_	_	_
@@ -543,14 +543,14 @@
 24-11	2471-2472	.	_	_	_	_
 
 #Text=Regular tourists who renew their 30 day visa are eligible to depart the country ( to any destination ) and return immediately enjoying a further 60 days ( 30 days plus a 30 day extension ) .
-25-1	2473-2480	Regular	person[129]	giv[129]	ana	25-5[131_129]
-25-2	2481-2489	tourists	person[129]	giv[129]	_	_
-25-3	2490-2493	who	person[129]	giv[129]	_	_
-25-4	2494-2499	renew	person[129]	giv[129]	_	_
-25-5	2500-2505	their	object[130]|person[131]|person[129]	giv[130]|giv[131]|giv[129]	_	_
-25-6	2506-2508	30	object[130]|person[129]	giv[130]|giv[129]	_	_
-25-7	2509-2512	day	object[130]|person[129]	giv[130]|giv[129]	_	_
-25-8	2513-2517	visa	object[130]|person[129]	giv[130]|giv[129]	_	_
+25-1	2473-2480	Regular	_	_	_	_
+25-2	2481-2489	tourists	_	_	_	_
+25-3	2490-2493	who	_	_	_	_
+25-4	2494-2499	renew	_	_	_	_
+25-5	2500-2505	their	object[130]	giv[130]	_	_
+25-6	2506-2508	30	object[130]	giv[130]	_	_
+25-7	2509-2512	day	object[130]	giv[130]	_	_
+25-8	2513-2517	visa	object[130]	giv[130]	_	_
 25-9	2518-2521	are	_	_	_	_
 25-10	2522-2530	eligible	_	_	_	_
 25-11	2531-2533	to	_	_	_	_

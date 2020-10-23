@@ -16,9 +16,9 @@
 1-10	62-68	design	_	_	_	_
 
 #Text=Thursday , May 7 , 2015
-2-1	69-77	Thursday	time[147]|time[213]	acc[147]|acc[213]	appos|coref	2-3[6_147]|7-32[38_213]
-2-2	78-79	,	time[147]|time[213]	acc[147]|acc[213]	_	_
-2-3	80-83	May	time[6]|time[213]	giv[6]|acc[213]	_	_
+2-1	69-77	Thursday	time[147]	acc[147]	appos	2-3[6_147]
+2-2	78-79	,	time[147]	acc[147]	_	_
+2-3	80-83	May	time[6]|time[7]	giv[6]|acc[7]	coref	7-32[38_7]
 2-4	84-85	7	time[6]	giv[6]	_	_
 2-5	86-87	,	time[6]	giv[6]	_	_
 2-6	88-92	2015	time[6]	giv[6]	_	_
@@ -159,13 +159,13 @@
 8-18	766-768	's	person[42]|person[209]	giv[42]|new[209]	_	_
 8-19	769-774	panel	person[42]|person[209]	giv[42]|new[209]	_	_
 8-20	775-777	of	person[42]|person[209]	giv[42]|new[209]	_	_
-8-21	778-784	twelve	person[42]	giv[42]	_	_
+8-21	778-784	twelve	person[42]|person[209]	giv[42]|new[209]	_	_
 8-22	785-786	,	_	_	_	_
 8-23	787-791	said	_	_	_	_
-8-24	792-795	New	_	_	_	_
-8-25	796-803	Zealand	_	_	_	_
-8-26	804-806	's	_	_	_	_
-8-27	807-811	flag	_	_	_	_
+8-24	792-795	New	object[45]	giv[45]	coref	18-10[115_45]
+8-25	796-803	Zealand	object[45]	giv[45]	_	_
+8-26	804-806	's	object[45]	giv[45]	_	_
+8-27	807-811	flag	object[45]	giv[45]	_	_
 8-28	812-815	has	_	_	_	_
 8-29	816-821	never	_	_	_	_
 8-30	822-828	before	_	_	_	_
@@ -391,7 +391,7 @@
 15-37	1915-1923	citizens	quantity[102]	acc[102]	_	_
 15-38	1924-1932	favoured	_	_	_	_
 15-39	1933-1941	changing	_	_	_	_
-15-40	1942-1945	the	object[103]	giv[103]	_	_
+15-40	1942-1945	the	object[103]	giv[103]	coref	18-6[114_103]
 15-41	1946-1950	flag	object[103]	giv[103]	_	_
 15-42	1951-1952	.	_	_	_	_
 
@@ -446,13 +446,13 @@
 18-3	2170-2174	then	_	_	_	_
 18-4	2175-2181	choose	_	_	_	_
 18-5	2182-2189	between	_	_	_	_
-18-6	2190-2193	the	_	_	_	_
-18-7	2194-2197	new	_	_	_	_
-18-8	2198-2202	flag	_	_	_	_
+18-6	2190-2193	the	object[114]	giv[114]	_	_
+18-7	2194-2197	new	object[114]	giv[114]	_	_
+18-8	2198-2202	flag	object[114]	giv[114]	_	_
 18-9	2203-2206	and	_	_	_	_
-18-10	2207-2212	their	person[116]	giv[116]	_	_
-18-11	2213-2220	current	_	_	_	_
-18-12	2221-2225	flag	_	_	_	_
+18-10	2207-2212	their	object[115]|person[116]	giv[115]|giv[116]	_	_
+18-11	2213-2220	current	object[115]	giv[115]	_	_
+18-12	2221-2225	flag	object[115]	giv[115]	_	_
 18-13	2226-2231	early	_	_	_	_
 18-14	2232-2234	in	_	_	_	_
 18-15	2235-2239	2016	_	_	_	_

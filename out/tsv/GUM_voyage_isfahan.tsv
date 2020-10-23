@@ -4,20 +4,20 @@
 
 
 #Text=Isfahan
-1-1	0-7	Isfahan	place	new	coref	2-1
+1-1	0-7	Isfahan	place	new	coref	2-1[321_0]
 
 #Text=Isfahan ( Persian : اصفهان , also known as Esfahan ) is a city in central Iran , south of Tehran and is the capital of Isfahan Province .
-2-1	8-15	Isfahan	place	giv	_	_
+2-1	8-15	Isfahan	place[321]	giv[321]	_	_
 2-2	16-17	(	_	_	_	_
 2-3	18-25	Persian	abstract	new	coref	68-19
 2-4	26-27	:	_	_	_	_
 2-5	28-34	اصفهان	_	_	_	_
-2-6	35-36	,	_	_	_	_
-2-7	37-41	also	_	_	_	_
-2-8	42-47	known	_	_	_	_
-2-9	48-50	as	_	_	_	_
-2-10	51-58	Esfahan	_	_	_	_
-2-11	59-60	)	_	_	_	_
+2-6	35-36	,	place[321]	giv[321]	_	_
+2-7	37-41	also	place[321]	giv[321]	_	_
+2-8	42-47	known	place[321]	giv[321]	_	_
+2-9	48-50	as	place[321]	giv[321]	_	_
+2-10	51-58	Esfahan	place[321]	giv[321]	_	_
+2-11	59-60	)	place[321]	giv[321]	_	_
 2-12	61-63	is	_	_	_	_
 2-13	64-65	a	place[1]	giv[1]	ana	3-4[0_1]
 2-14	66-70	city	place[1]	giv[1]	_	_
@@ -43,14 +43,14 @@
 3-3	159-163	call	_	_	_	_
 3-4	164-166	it	place	giv	ana	4-3[9_0]
 3-5	167-168	"	_	_	_	_
-3-6	169-181	Nesf-e-Jahan	abstract	new	coref	3-11[7_0]
+3-6	169-181	Nesf-e-Jahan	_	_	_	_
 3-7	182-183	"	_	_	_	_
 3-8	184-185	,	_	_	_	_
 3-9	186-193	meaning	_	_	_	_
 3-10	194-195	"	_	_	_	_
-3-11	196-200	Half	abstract[7]	giv[7]	_	_
-3-12	201-204	The	abstract[7]	giv[7]	_	_
-3-13	205-210	World	abstract[7]	giv[7]	_	_
+3-11	196-200	Half	_	_	_	_
+3-12	201-204	The	_	_	_	_
+3-13	205-210	World	_	_	_	_
 3-14	211-212	"	_	_	_	_
 3-15	213-214	.	_	_	_	_
 
@@ -83,27 +83,27 @@
 4-26	357-358	.	_	_	_	_
 
 #Text=An ancient town and capital of Persia from 1598 to 1722 , it was long noted for its fine carpets and silver filigree .
-5-1	359-361	An	place[13]	giv[13]	coref	5-12[547_13]
-5-2	362-369	ancient	place[13]	giv[13]	_	_
-5-3	370-374	town	place[13]	giv[13]	_	_
+5-1	359-361	An	_	_	_	_
+5-2	362-369	ancient	_	_	_	_
+5-3	370-374	town	_	_	_	_
 5-4	375-378	and	_	_	_	_
-5-5	379-386	capital	_	_	_	_
-5-6	387-389	of	_	_	_	_
-5-7	390-396	Persia	place[15]	new[15]	coref	12-43[0_15]
-5-8	397-401	from	_	_	_	_
-5-9	402-406	1598	_	_	_	_
-5-10	407-409	to	_	_	_	_
-5-11	410-414	1722	_	_	_	_
-5-12	415-416	,	place[321]|place[547]	giv[321]|giv[547]	ana|ana	5-13[0_321]|5-18[19_547]
-5-13	417-419	it	place|place[321]|place[547]	giv|giv[321]|giv[547]	_	_
-5-14	420-423	was	place[547]	giv[547]	_	_
-5-15	424-428	long	place[547]	giv[547]	_	_
-5-16	429-434	noted	place[547]	giv[547]	_	_
-5-17	435-438	for	place[547]	giv[547]	_	_
-5-18	439-442	its	object[18]|place[19]|place[547]	new[18]|giv[19]|giv[547]	ana|ana	6-8[0_18]|7-1[25_19]
-5-19	443-447	fine	object[18]|place[547]	new[18]|giv[547]	_	_
-5-20	448-455	carpets	object[18]|place[547]	new[18]|giv[547]	_	_
-5-21	456-459	and	object[18]|place[547]	new[18]|giv[547]	_	_
+5-5	379-386	capital	place[14]|place[323]	giv[14]|giv[323]	ana|ana	5-13[0_14]|5-18[19_323]
+5-6	387-389	of	place[14]|place[323]	giv[14]|giv[323]	_	_
+5-7	390-396	Persia	place[14]|place[15]|place[323]	giv[14]|new[15]|giv[323]	coref	12-43[0_15]
+5-8	397-401	from	place[14]|place[323]	giv[14]|giv[323]	_	_
+5-9	402-406	1598	place[14]|place[323]	giv[14]|giv[323]	_	_
+5-10	407-409	to	place[14]|place[323]	giv[14]|giv[323]	_	_
+5-11	410-414	1722	place[14]|place[323]	giv[14]|giv[323]	_	_
+5-12	415-416	,	place[323]	giv[323]	_	_
+5-13	417-419	it	place|place[323]	giv|giv[323]	_	_
+5-14	420-423	was	_	_	_	_
+5-15	424-428	long	_	_	_	_
+5-16	429-434	noted	_	_	_	_
+5-17	435-438	for	_	_	_	_
+5-18	439-442	its	object[18]|place[19]	new[18]|giv[19]	ana|ana	6-8[0_18]|7-1[25_19]
+5-19	443-447	fine	object[18]	new[18]	_	_
+5-20	448-455	carpets	object[18]	new[18]	_	_
+5-21	456-459	and	object[18]	new[18]	_	_
 5-22	460-466	silver	object[18]	new[18]	_	_
 5-23	467-475	filigree	object[18]	new[18]	_	_
 5-24	476-477	.	_	_	_	_
@@ -298,22 +298,22 @@
 16-2	1403-1408	plane	_	_	_	_
 
 #Text=Isfahan International Airport or Isfahan Shahid Beheshti ( IATA : IFN ) was a military air base before the revolution .
-17-1	1409-1416	Isfahan	place[54]|place[55]	new[54]|giv[55]	coref|coref	17-8[548_54]|17-5[57_55]
+17-1	1409-1416	Isfahan	place[54]|place[55]	new[54]|giv[55]	coref|coref	17-5[324_54]|17-5[57_55]
 17-2	1417-1430	International	place[54]	new[54]	_	_
 17-3	1431-1438	Airport	place[54]	new[54]	_	_
 17-4	1439-1441	or	_	_	_	_
-17-5	1442-1449	Isfahan	place[57]	giv[57]	coref	38-5[116_57]
-17-6	1450-1456	Shahid	_	_	_	_
-17-7	1457-1465	Beheshti	_	_	_	_
-17-8	1466-1467	(	place[352]|place[548]	giv[352]|giv[548]	coref|coref	17-11[0_352]|20-2[69_548]
-17-9	1468-1472	IATA	place[352]|place[548]	giv[352]|giv[548]	_	_
-17-10	1473-1474	:	place[352]|place[548]	giv[352]|giv[548]	_	_
-17-11	1475-1478	IFN	place|place[352]|place[548]	giv|giv[352]|giv[548]	_	_
-17-12	1479-1480	)	place[352]|place[548]	giv[352]|giv[548]	_	_
-17-13	1481-1484	was	place[548]	giv[548]	_	_
-17-14	1485-1486	a	place[548]	giv[548]	_	_
-17-15	1487-1495	military	place[548]	giv[548]	_	_
-17-16	1496-1499	air	place[548]	giv[548]	_	_
+17-5	1442-1449	Isfahan	place[56]|place[57]|place[324]	giv[56]|giv[57]|giv[324]	coref|coref|coref	17-11[0_56]|38-5[116_57]|20-2[69_324]
+17-6	1450-1456	Shahid	place[56]|place[324]	giv[56]|giv[324]	_	_
+17-7	1457-1465	Beheshti	place[56]|place[324]	giv[56]|giv[324]	_	_
+17-8	1466-1467	(	place[324]	giv[324]	_	_
+17-9	1468-1472	IATA	place[324]	giv[324]	_	_
+17-10	1473-1474	:	place[324]	giv[324]	_	_
+17-11	1475-1478	IFN	place|place[324]	giv|giv[324]	_	_
+17-12	1479-1480	)	_	_	_	_
+17-13	1481-1484	was	_	_	_	_
+17-14	1485-1486	a	_	_	_	_
+17-15	1487-1495	military	_	_	_	_
+17-16	1496-1499	air	_	_	_	_
 17-17	1500-1504	base	_	_	_	_
 17-18	1505-1511	before	_	_	_	_
 17-19	1512-1515	the	_	_	_	_
@@ -409,17 +409,17 @@
 26-1	1881-1885	Also	_	_	_	_
 26-2	1886-1891	known	_	_	_	_
 26-3	1892-1894	as	_	_	_	_
-26-4	1895-1899	shah	place[75]	giv[75]	coref	26-7[538_75]
+26-4	1895-1899	shah	place[75]	giv[75]	coref	26-7[325_75]
 26-5	1900-1906	square	place[75]	giv[75]	_	_
 26-6	1907-1909	or	_	_	_	_
-26-7	1910-1914	imam	place[77]|person[78]|place[538]	giv[77]|new[78]|giv[538]	coref|coref|coref	26-11[383_77]|39-2[119_78]|27-1[80_538]
-26-8	1915-1921	square	place[77]|place[538]	giv[77]|giv[538]	_	_
-26-9	1922-1923	-	place[538]	giv[538]	_	_
-26-10	1924-1928	1602	place[538]	giv[538]	_	_
-26-11	1929-1930	(	place[383]|place[538]	giv[383]|giv[538]	_	_
-26-12	1931-1937	Meidan	place[383]|place[538]	giv[383]|giv[538]	_	_
-26-13	1938-1942	Emam	place[383]	giv[383]	_	_
-26-14	1943-1944	)	place[383]	giv[383]	_	_
+26-7	1910-1914	imam	place[77]|person[78]|place[325]	giv[77]|new[78]|giv[325]	coref|coref|coref	26-12[79_77]|39-2[119_78]|27-1[80_325]
+26-8	1915-1921	square	place[77]|place[325]	giv[77]|giv[325]	_	_
+26-9	1922-1923	-	place[325]	giv[325]	_	_
+26-10	1924-1928	1602	place[325]	giv[325]	_	_
+26-11	1929-1930	(	place[325]	giv[325]	_	_
+26-12	1931-1937	Meidan	place[79]|place[325]	giv[79]|giv[325]	_	_
+26-13	1938-1942	Emam	place[79]|place[325]	giv[79]|giv[325]	_	_
+26-14	1943-1944	)	_	_	_	_
 26-15	1945-1946	.	_	_	_	_
 
 #Text=The square contains two mosques , a palace , and the bazaar .
@@ -450,17 +450,17 @@
 28-10	2063-2066	the	_	_	_	_
 28-11	2067-2072	world	_	_	_	_
 28-12	2073-2078	after	_	_	_	_
-28-13	2079-2088	Tiananmen	place[87]	place[87]	coref	34-1[106_87]
-28-14	2089-2095	Square	place[87]	place[87]	_	_
-28-15	2096-2098	in	place[87]	place[87]	_	_
-28-16	2099-2106	Beijing	place[87]	place[87]	_	_
+28-13	2079-2088	Tiananmen	place[87]	new[87]	coref	34-1[106_87]
+28-14	2089-2095	Square	place[87]	new[87]	_	_
+28-15	2096-2098	in	place[87]	new[87]	_	_
+28-16	2099-2106	Beijing	place[87]	new[87]	_	_
 28-17	2107-2110	and	_	_	_	_
 28-18	2111-2113	it	place	giv	_	_
 28-19	2114-2116	is	_	_	_	_
 28-20	2117-2118	a	_	_	_	_
-28-21	2119-2125	UNESCO	organization[90]	organization[90]	coref	41-6[134_90]
-28-22	2126-2131	World	abstract[91]	abstract[91]	coref	41-6[132_91]
-28-23	2132-2140	Heritage	abstract[91]	abstract[91]	_	_
+28-21	2119-2125	UNESCO	organization[90]	new[90]	coref	41-6[134_90]
+28-22	2126-2131	World	abstract[91]	new[91]	coref	41-6[132_91]
+28-23	2132-2140	Heritage	abstract[91]	new[91]	_	_
 28-24	2141-2145	Site	_	_	_	_
 28-25	2146-2147	.	_	_	_	_
 
@@ -569,20 +569,20 @@
 
 #Text=3 Imam Mosque ( called Shah Mosque before the revolution ) , Naqsh-e Jahan Square , south side .
 39-1	2608-2609	3	_	_	_	_
-39-2	2610-2614	Imam	place[118]|person[119]	giv[118]|giv[119]	coref	39-12[414_118]
+39-2	2610-2614	Imam	place[118]|person[119]	giv[118]|giv[119]	_	_
 39-3	2615-2621	Mosque	place[118]	giv[118]	_	_
 39-4	2622-2623	(	place[118]	giv[118]	_	_
 39-5	2624-2630	called	place[118]	giv[118]	_	_
-39-6	2631-2635	Shah	person[121]|place[118]	giv[121]|giv[118]	_	_
-39-7	2636-2642	Mosque	place[118]	giv[118]	_	_
+39-6	2631-2635	Shah	place[120]|person[121]|place[118]	giv[120]|giv[121]|giv[118]	ana	40-7[0_120]
+39-7	2636-2642	Mosque	place[120]|place[118]	giv[120]|giv[118]	_	_
 39-8	2643-2649	before	place[118]	giv[118]	_	_
 39-9	2650-2653	the	place[118]	giv[118]	_	_
 39-10	2654-2664	revolution	place[118]	giv[118]	_	_
 39-11	2665-2666	)	place[118]	giv[118]	_	_
-39-12	2667-2668	,	place[414]	giv[414]	ana	40-7[0_414]
-39-13	2669-2676	Naqsh-e	person[123]|abstract[124]|place[414]	giv[123]|giv[124]|giv[414]	coref|coref	43-7[146_123]|43-7[147_124]
-39-14	2677-2682	Jahan	person[123]|place[414]	giv[123]|giv[414]	_	_
-39-15	2683-2689	Square	person[123]|place[414]	giv[123]|giv[414]	_	_
+39-12	2667-2668	,	_	_	_	_
+39-13	2669-2676	Naqsh-e	person[123]|abstract[124]	giv[123]|giv[124]	coref|coref	43-7[146_123]|43-7[147_124]
+39-14	2677-2682	Jahan	person[123]	giv[123]	_	_
+39-15	2683-2689	Square	person[123]	giv[123]	_	_
 39-16	2690-2691	,	_	_	_	_
 39-17	2692-2697	south	_	_	_	_
 39-18	2698-2702	side	_	_	_	_
@@ -604,7 +604,7 @@
 40-13	2769-2776	Islamic	_	_	_	_
 40-14	2777-2789	architecture	_	_	_	_
 40-15	2790-2792	of	_	_	_	_
-40-16	2793-2797	Iran	place[129]	place[129]	coref	44-21[0_129]
+40-16	2793-2797	Iran	place[129]	giv[129]	coref	44-21[0_129]
 40-17	2798-2799	,	_	_	_	_
 40-18	2800-2803	and	_	_	_	_
 40-19	2804-2812	regarded	_	_	_	_
@@ -651,14 +651,14 @@
 
 #Text=4 Sheikh Lotf Allah Mosque , Naqsh-e Jahan Square , east side .
 43-1	3024-3025	4	_	_	_	_
-43-2	3026-3032	Sheikh	place[144]|place[539]|place[540]	giv[144]|giv[539]|giv[540]	coref|coref|coref	43-7[445_144]|47-14[165_539]|48-9[170_540]
-43-3	3033-3037	Lotf	place[144]|place[539]|place[540]	giv[144]|giv[539]|giv[540]	_	_
-43-4	3038-3043	Allah	place[144]|place[539]|place[540]	giv[144]|giv[539]|giv[540]	_	_
-43-5	3044-3050	Mosque	place[144]|place[539]|place[540]	giv[144]|giv[539]|giv[540]	_	_
-43-6	3051-3052	,	place[144]|place[539]|place[540]	giv[144]|giv[539]|giv[540]	_	_
-43-7	3053-3060	Naqsh-e	person[146]|abstract[147]|place[445]|place[539]	giv[146]|giv[147]|giv[445]|giv[539]	coref	46-1[157_445]
-43-8	3061-3066	Jahan	person[146]|place[445]|place[539]	giv[146]|giv[445]|giv[539]	_	_
-43-9	3067-3073	Square	person[146]|place[445]	giv[146]|giv[445]	_	_
+43-2	3026-3032	Sheikh	place[144]	giv[144]	coref	44-11[151_144]
+43-3	3033-3037	Lotf	place[144]	giv[144]	_	_
+43-4	3038-3043	Allah	place[144]	giv[144]	_	_
+43-5	3044-3050	Mosque	place[144]	giv[144]	_	_
+43-6	3051-3052	,	_	_	_	_
+43-7	3053-3060	Naqsh-e	person[146]|abstract[147]	giv[146]|giv[147]	coref|coref	47-14[165_146]|48-9[170_147]
+43-8	3061-3066	Jahan	person[146]	giv[146]	_	_
+43-9	3067-3073	Square	person[146]	giv[146]	_	_
 43-10	3074-3075	,	_	_	_	_
 43-11	3076-3080	east	_	_	_	_
 43-12	3081-3085	side	_	_	_	_
@@ -675,8 +675,8 @@
 44-8	3137-3144	Iranian	_	_	_	_
 44-9	3145-3157	architecture	_	_	_	_
 44-10	3158-3159	,	_	_	_	_
-44-11	3160-3164	this	_	_	_	_
-44-12	3165-3171	mosque	_	_	_	_
+44-11	3160-3164	this	place[151]	giv[151]	coref	46-1[157_151]
+44-12	3165-3171	mosque	place[151]	giv[151]	_	_
 44-13	3172-3174	is	_	_	_	_
 44-14	3175-3185	considered	_	_	_	_
 44-15	3186-3188	to	_	_	_	_
@@ -737,7 +737,7 @@
 47-3	3429-3430	a	_	_	_	_
 47-4	3431-3437	tunnel	_	_	_	_
 47-5	3438-3442	from	_	_	_	_
-47-6	3443-3446	the	place[162]	giv[162]	coref	50-2[543_162]
+47-6	3443-3446	the	place[162]	giv[162]	coref	50-2[178_162]
 47-7	3447-3453	mosque	place[162]	giv[162]	_	_
 47-8	3454-3456	to	place[162]	giv[162]	_	_
 47-9	3457-3460	the	place[162]|organization[163]	giv[162]|giv[163]	coref	56-1[193_163]
@@ -791,11 +791,11 @@
 
 #Text=6 Hakim Mosque , Hakim ( north of Naqsh-e Jahan in the old quarter ) .
 50-1	3688-3689	6	_	_	_	_
-50-2	3690-3695	Hakim	place[178]|person[179]|place[543]	giv[178]|new[179]|giv[543]	coref|coref	50-5[476_178]|50-5[180_179]
-50-3	3696-3702	Mosque	place[178]|place[543]	giv[178]|giv[543]	_	_
-50-4	3703-3704	,	place[178]|place[543]	giv[178]|giv[543]	_	_
-50-5	3705-3710	Hakim	place[178]|person[180]|place[476]|place[543]	giv[178]|giv[180]|giv[476]|giv[543]	_	_
-50-6	3711-3712	(	place[543]	giv[543]	_	_
+50-2	3690-3695	Hakim	place[178]|person[179]	giv[178]|new[179]	coref	50-5[180_179]
+50-3	3696-3702	Mosque	place[178]	giv[178]	_	_
+50-4	3703-3704	,	place[178]	giv[178]	_	_
+50-5	3705-3710	Hakim	place[178]|person[180]	giv[178]|giv[180]	_	_
+50-6	3711-3712	(	_	_	_	_
 50-7	3713-3718	north	_	_	_	_
 50-8	3719-3721	of	_	_	_	_
 50-9	3722-3729	Naqsh-e	person[181]|abstract[182]	giv[181]|giv[182]	_	_
@@ -870,13 +870,13 @@
 
 #Text=7 Ālī Qāpū ( The Royal Palace ) .
 58-1	3994-3995	7	_	_	_	_
-58-2	3996-3999	Ālī	organization[198]|organization[545]	new[198]|new[545]	appos|ana	58-4[507_198]|60-1[0_545]
-58-3	4000-4004	Qāpū	organization[198]|organization[545]	new[198]|new[545]	_	_
-58-4	4005-4006	(	organization[507]|organization[545]	giv[507]|new[545]	_	_
-58-5	4007-4010	The	organization[507]|organization[545]	giv[507]|new[545]	_	_
-58-6	4011-4016	Royal	person[201]|organization[507]|organization[545]	giv[201]|giv[507]|new[545]	_	_
-58-7	4017-4023	Palace	organization[507]|organization[545]	giv[507]|new[545]	_	_
-58-8	4024-4025	)	organization[507]|organization[545]	giv[507]|new[545]	_	_
+58-2	3996-3999	Ālī	organization[198]|organization[328]	new[198]|new[328]	appos|ana	58-4[290_198]|60-1[0_328]
+58-3	4000-4004	Qāpū	organization[198]|organization[328]	new[198]|new[328]	_	_
+58-4	4005-4006	(	organization[290]|organization[328]	giv[290]|new[328]	_	_
+58-5	4007-4010	The	organization[290]|organization[328]	giv[290]|new[328]	_	_
+58-6	4011-4016	Royal	person[201]|organization[290]|organization[328]	giv[201]|giv[290]|new[328]	_	_
+58-7	4017-4023	Palace	organization[290]|organization[328]	giv[290]|new[328]	_	_
+58-8	4024-4025	)	organization[290]|organization[328]	giv[290]|new[328]	_	_
 58-9	4026-4027	.	_	_	_	_
 
 #Text=Early 17th Century .

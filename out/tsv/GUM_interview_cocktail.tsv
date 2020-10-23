@@ -158,10 +158,10 @@
 10-5	800-802	is	_	_	_	_
 10-6	803-810	located	_	_	_	_
 10-7	811-813	in	_	_	_	_
-10-8	814-822	Brooklyn	place[256]|place[352]	new[256]|new[352]	appos|coref	10-10[34_256]|12-15[44_352]
-10-9	823-824	,	place[256]|place[352]	new[256]|new[352]	_	_
-10-10	825-828	New	place[34]|place[352]	giv[34]|new[352]	_	_
-10-11	829-833	York	place[34]|place[352]	giv[34]|new[352]	_	_
+10-8	814-822	Brooklyn	place[256]|place[292]	new[256]|new[292]	appos|coref	10-10[34_256]|12-15[44_292]
+10-9	823-824	,	place[256]|place[292]	new[256]|new[292]	_	_
+10-10	825-828	New	place[34]|place[292]	giv[34]|new[292]	_	_
+10-11	829-833	York	place[34]|place[292]	giv[34]|new[292]	_	_
 10-12	834-835	,	_	_	_	_
 10-13	836-839	and	_	_	_	_
 10-14	840-842	is	_	_	_	_
@@ -468,7 +468,7 @@
 20-32	2358-2359	.	_	_	_	_
 
 #Text=The term became a prominent result in searches online , and gained dominance on Web search engines including Google , Bing , and Yahoo! .
-21-1	2360-2363	The	abstract[85]	giv[85]	_	_
+21-1	2360-2363	The	abstract[85]	giv[85]	ana	25-20[0_85]
 21-2	2364-2368	term	abstract[85]	giv[85]	_	_
 21-3	2369-2375	became	_	_	_	_
 21-4	2376-2377	a	_	_	_	_
@@ -552,9 +552,9 @@
 23-21	2804-2806	is	_	_	_	_
 23-22	2807-2816	something	_	_	_	_
 23-23	2817-2821	that	_	_	_	_
-23-24	2822-2826	they	organization[107]	organization[107]	ana	23-26[108_107]
+23-24	2822-2826	they	organization[107]	giv[107]	ana	23-26[108_107]
 23-25	2827-2830	say	_	_	_	_
-23-26	2831-2835	they	organization[108]	organization[108]	_	_
+23-26	2831-2835	they	organization[108]	giv[108]	_	_
 23-27	2836-2838	ca	_	_	_	_
 23-28	2839-2842	n't	_	_	_	_
 23-29	2843-2849	handle	_	_	_	_
@@ -680,9 +680,9 @@
 30-12	3406-3407	?	_	_	_	_
 
 #Text=Santorum the person has been in the news throughout the primary season , and we thought it would be interesting to try to create a delicious drink that mimicked the appearance of the Dan Savage meaning of " santorum . "
-31-1	3408-3416	Santorum	person[126]	giv[126]	coref	31-2[287_126]
-31-2	3417-3420	the	person[126]|person[287]	giv[126]|giv[287]	_	_
-31-3	3421-3427	person	person[126]|person[287]	giv[126]|giv[287]	_	_
+31-1	3408-3416	Santorum	person[126]	giv[126]	_	_
+31-2	3417-3420	the	person[126]	giv[126]	_	_
+31-3	3421-3427	person	person[126]	giv[126]	_	_
 31-4	3428-3431	has	_	_	_	_
 31-5	3432-3436	been	_	_	_	_
 31-6	3437-3439	in	_	_	_	_
@@ -1055,13 +1055,13 @@
 54-10	5132-5136	time	_	_	_	_
 54-11	5137-5138	,	_	_	_	_
 54-12	5139-5141	so	_	_	_	_
-54-13	5142-5151	something	substance[183]	new[183]	appos	54-15[318_183]
+54-13	5142-5151	something	substance[183]	new[183]	appos	54-16[184_183]
 54-14	5152-5157	sweet	substance[183]	new[183]	_	_
-54-15	5158-5159	;	substance[318]	giv[318]	_	_
-54-16	5160-5163	ice	substance[318]	giv[318]	_	_
-54-17	5164-5169	cream	substance[318]	giv[318]	_	_
-54-18	5170-5172	or	substance[318]	giv[318]	_	_
-54-19	5173-5176	pie	substance[318]	giv[318]	_	_
+54-15	5158-5159	;	substance[183]	new[183]	_	_
+54-16	5160-5163	ice	substance[184]	giv[184]	_	_
+54-17	5164-5169	cream	substance[184]	giv[184]	_	_
+54-18	5170-5172	or	substance[184]	giv[184]	_	_
+54-19	5173-5176	pie	substance[184]	giv[184]	_	_
 54-20	5177-5178	.	_	_	_	_
 
 #Text=Is the drink popular ?

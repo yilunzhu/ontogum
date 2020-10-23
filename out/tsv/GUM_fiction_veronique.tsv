@@ -402,16 +402,16 @@
 
 #Text=" History , do you know the word ' history ' ? " she asked .
 31-1	1417-1418	"	_	_	_	_
-31-2	1419-1426	History	abstract	new	coref	31-7[295_0]
+31-2	1419-1426	History	abstract	new	coref	31-7[264_0]
 31-3	1427-1428	,	_	_	_	_
 31-4	1429-1431	do	_	_	_	_
 31-5	1432-1435	you	person	giv	ana	32-3
 31-6	1436-1440	know	_	_	_	_
-31-7	1441-1444	the	abstract[100]|abstract[295]	giv[100]|giv[295]	appos|coref	31-9[233_100]|32-5[296_295]
-31-8	1445-1449	word	abstract[100]|abstract[295]	giv[100]|giv[295]	_	_
-31-9	1450-1451	'	abstract[233]|abstract[295]	giv[233]|giv[295]	_	_
-31-10	1452-1459	history	abstract[233]|abstract[295]	giv[233]|giv[295]	_	_
-31-11	1460-1461	'	abstract[233]|abstract[295]	giv[233]|giv[295]	_	_
+31-7	1441-1444	the	abstract[264]	giv[264]	coref	32-5[265_264]
+31-8	1445-1449	word	abstract[264]	giv[264]	_	_
+31-9	1450-1451	'	abstract[264]	giv[264]	_	_
+31-10	1452-1459	history	abstract[264]	giv[264]	_	_
+31-11	1460-1461	'	_	_	_	_
 31-12	1462-1463	?	_	_	_	_
 31-13	1464-1465	"	_	_	_	_
 31-14	1466-1469	she	person	giv	coref	43-13
@@ -423,12 +423,12 @@
 32-2	1481-1487	course	_	_	_	_
 32-3	1488-1489	I	person	giv	ana	33-2
 32-4	1490-1494	knew	_	_	_	_
-32-5	1495-1498	the	abstract[104]|abstract[296]	giv[104]|giv[296]	appos|coref	32-7[264_104]|33-4[0_296]
-32-6	1499-1503	word	abstract[104]|abstract[296]	giv[104]|giv[296]	_	_
-32-7	1504-1505	"	abstract[264]|abstract[296]	giv[264]|giv[296]	_	_
-32-8	1506-1513	history	abstract[264]|abstract[296]	giv[264]|giv[296]	_	_
-32-9	1514-1515	.	abstract[264]|abstract[296]	giv[264]|giv[296]	_	_
-32-10	1516-1517	"	abstract[264]|abstract[296]	giv[264]|giv[296]	_	_
+32-5	1495-1498	the	abstract[104]|abstract[265]	giv[104]|giv[265]	appos|coref	32-7[233_104]|33-4[0_265]
+32-6	1499-1503	word	abstract[104]|abstract[265]	giv[104]|giv[265]	_	_
+32-7	1504-1505	"	abstract[233]|abstract[265]	giv[233]|giv[265]	_	_
+32-8	1506-1513	history	abstract[233]|abstract[265]	giv[233]|giv[265]	_	_
+32-9	1514-1515	.	abstract[233]|abstract[265]	giv[233]|giv[265]	_	_
+32-10	1516-1517	"	abstract[233]|abstract[265]	giv[233]|giv[265]	_	_
 
 #Text=" I study history in school , " I said .
 33-1	1518-1519	"	_	_	_	_
@@ -551,11 +551,11 @@
 43-3	1913-1919	people	_	_	_	_
 43-4	1920-1924	have	_	_	_	_
 43-5	1925-1932	stories	abstract[137]	new[137]	coref	44-6[142_137]
-43-6	1933-1938	about	abstract[137]|abstract[137]	new[137]|new[137]	_	_
-43-7	1939-1945	coming	abstract[137]|abstract[137]	new[137]|new[137]	_	_
-43-8	1946-1950	from	abstract[137]|abstract[137]	new[137]|new[137]	_	_
-43-9	1951-1954	the	abstract[137]|place[138]|abstract[137]	new[137]|giv[138]|new[137]	coref	46-11[148_138]
-43-10	1955-1960	Earth	abstract[137]|place[138]|abstract[137]	new[137]|giv[138]|new[137]	_	_
+43-6	1933-1938	about	abstract[137]	new[137]	_	_
+43-7	1939-1945	coming	abstract[137]	new[137]	_	_
+43-8	1946-1950	from	abstract[137]	new[137]	_	_
+43-9	1951-1954	the	abstract[137]|place[138]	new[137]|giv[138]	coref	46-11[148_138]
+43-10	1955-1960	Earth	abstract[137]|place[138]	new[137]|giv[138]	_	_
 43-11	1961-1962	,	_	_	_	_
 43-12	1963-1964	"	_	_	_	_
 43-13	1965-1974	Veronique	person	giv	ana	44-2[141_0]
@@ -592,10 +592,10 @@
 46-5	2093-2097	have	_	_	_	_
 46-6	2098-2101	any	abstract[147]	giv[147]	_	_
 46-7	2102-2109	stories	abstract[147]	giv[147]	_	_
-46-8	2110-2115	about	abstract[147]|abstract[147]	giv[147]|giv[147]	_	_
-46-9	2116-2122	coming	abstract[147]|abstract[147]	giv[147]|giv[147]	_	_
-46-10	2123-2127	from	abstract[147]|abstract[147]	giv[147]|giv[147]	_	_
-46-11	2128-2133	Earth	abstract[147]|place[148]|abstract[147]	giv[147]|giv[148]|giv[147]	_	_
+46-8	2110-2115	about	abstract[147]	giv[147]	_	_
+46-9	2116-2122	coming	abstract[147]	giv[147]	_	_
+46-10	2123-2127	from	abstract[147]	giv[147]	_	_
+46-11	2128-2133	Earth	abstract[147]|place[148]	giv[147]|giv[148]	_	_
 46-12	2134-2135	.	_	_	_	_
 
 #Text=We said the first people came out of the sun .

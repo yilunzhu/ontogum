@@ -386,7 +386,7 @@
 23-1	1649-1652	You	person	giv	ana	26-1
 23-2	1653-1656	can	_	_	_	_
 23-3	1657-1660	use	_	_	_	_
-23-4	1661-1664	the	object[90]	acc[90]	ana	23-12[0_90]
+23-4	1661-1664	the	object[90]	acc[90]	ana	23-12[284_90]
 23-5	1665-1669	mint	object[90]	acc[90]	_	_
 23-6	1670-1672	in	_	_	_	_
 23-7	1673-1680	cooking	_	_	_	_
@@ -394,11 +394,11 @@
 23-9	1683-1685	as	_	_	_	_
 23-10	1686-1690	well	_	_	_	_
 23-11	1691-1693	as	_	_	_	_
-23-12	1694-1696	it	object	giv	_	_
-23-13	1697-1704	serving	_	_	_	_
-23-14	1705-1706	a	_	_	_	_
-23-15	1707-1716	deterrent	_	_	_	_
-23-16	1717-1724	purpose	_	_	_	_
+23-12	1694-1696	it	object[284]	giv[284]	_	_
+23-13	1697-1704	serving	object[284]	giv[284]	_	_
+23-14	1705-1706	a	object[284]	giv[284]	_	_
+23-15	1707-1716	deterrent	object[284]	giv[284]	_	_
+23-16	1717-1724	purpose	object[284]	giv[284]	_	_
 23-17	1725-1726	.	_	_	_	_
 
 #Text=Use dried snake feces .
@@ -707,11 +707,11 @@
 42-10	3075-3076	.	_	_	_	_
 
 #Text=Cats that spend time outdoors are more likely to hunt to find their own food and may track down that mouse .
-43-1	3077-3081	Cats	animal	giv	ana	43-13[158_0]
-43-2	3082-3086	that	_	_	_	_
-43-3	3087-3092	spend	_	_	_	_
-43-4	3093-3097	time	_	_	_	_
-43-5	3098-3106	outdoors	_	_	_	_
+43-1	3077-3081	Cats	animal[285]	giv[285]	ana	43-13[158_285]
+43-2	3082-3086	that	animal[285]	giv[285]	_	_
+43-3	3087-3092	spend	animal[285]	giv[285]	_	_
+43-4	3093-3097	time	animal[285]	giv[285]	_	_
+43-5	3098-3106	outdoors	animal[285]	giv[285]	_	_
 43-6	3107-3110	are	_	_	_	_
 43-7	3111-3115	more	_	_	_	_
 43-8	3116-3122	likely	_	_	_	_
@@ -806,10 +806,10 @@
 47-10	3524-3525	a	abstract[174]	new[174]	_	_
 47-11	3526-3529	cat	abstract[174]	new[174]	_	_
 47-12	3530-3532	is	abstract[174]	new[174]	_	_
-47-13	3533-3534	a	abstract[174]	abstract[174]	_	_
-47-14	3535-3539	good	abstract[174]	abstract[174]	_	_
-47-15	3540-3545	mouse	abstract[174]	abstract[174]	_	_
-47-16	3546-3552	hunter	abstract[174]	abstract[174]	_	_
+47-13	3533-3534	a	abstract[174]	new[174]	_	_
+47-14	3535-3539	good	abstract[174]	new[174]	_	_
+47-15	3540-3545	mouse	abstract[174]	new[174]	_	_
+47-16	3546-3552	hunter	abstract[174]	new[174]	_	_
 47-17	3553-3554	,	_	_	_	_
 47-18	3555-3558	and	_	_	_	_
 47-19	3559-3568	generally	_	_	_	_

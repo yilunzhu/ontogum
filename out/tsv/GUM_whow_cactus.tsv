@@ -7,27 +7,27 @@
 1-1	0-3	How	_	_	_	_
 1-2	4-6	to	_	_	_	_
 1-3	7-11	Grow	_	_	_	_
-1-4	12-22	Beavertail	plant[2]	new[2]	coref	2-1[370_2]
+1-4	12-22	Beavertail	plant[2]	new[2]	coref	2-1[309_2]
 1-5	23-29	Cactus	plant[2]	new[2]	_	_
 
 #Text=The Beavertail Cactus ( Opunitia basilares ) , found primarily in the Mojave Desert and northwest Mexico ; can grow to be about 24 inches ( 60 cm ) high ; has pads that look like beavertails ; and yields red or purple flowers from spring to early summer .
-2-1	30-33	The	plant[3]|plant[370]	giv[3]|giv[370]	appos|coref	2-4[184_3]|3-2[14_370]
-2-2	34-44	Beavertail	plant[3]|plant[370]	giv[3]|giv[370]	_	_
-2-3	45-51	Cactus	plant[3]|plant[370]	giv[3]|giv[370]	_	_
-2-4	52-53	(	plant[184]|plant[370]	giv[184]|giv[370]	_	_
-2-5	54-62	Opunitia	plant[184]|plant[370]	giv[184]|giv[370]	_	_
-2-6	63-72	basilares	plant[184]|plant[370]	giv[184]|giv[370]	_	_
-2-7	73-74	)	plant[184]|plant[370]	giv[184]|giv[370]	_	_
-2-8	75-76	,	plant[370]|plant[370]	giv[370]|giv[370]	_	_
-2-9	77-82	found	plant[370]|plant[370]	giv[370]|giv[370]	_	_
-2-10	83-92	primarily	plant[370]|plant[370]	giv[370]|giv[370]	_	_
-2-11	93-95	in	plant[370]|plant[370]	giv[370]|giv[370]	_	_
-2-12	96-99	the	plant[370]|plant[370]	giv[370]|giv[370]	_	_
-2-13	100-106	Mojave	plant[370]|plant[370]	giv[370]|giv[370]	_	_
-2-14	107-113	Desert	plant[370]|plant[370]	giv[370]|giv[370]	_	_
-2-15	114-117	and	plant[370]|plant[370]	giv[370]|giv[370]	_	_
-2-16	118-127	northwest	plant[370]|plant[370]	giv[370]|giv[370]	_	_
-2-17	128-134	Mexico	plant[370]|plant[370]	giv[370]|giv[370]	_	_
+2-1	30-33	The	plant[309]	giv[309]	coref	3-2[14_309]
+2-2	34-44	Beavertail	plant[309]	giv[309]	_	_
+2-3	45-51	Cactus	plant[309]	giv[309]	_	_
+2-4	52-53	(	plant[309]	giv[309]	_	_
+2-5	54-62	Opunitia	plant[309]	giv[309]	_	_
+2-6	63-72	basilares	plant[309]	giv[309]	_	_
+2-7	73-74	)	plant[309]	giv[309]	_	_
+2-8	75-76	,	plant[309]	giv[309]	_	_
+2-9	77-82	found	plant[309]	giv[309]	_	_
+2-10	83-92	primarily	plant[309]	giv[309]	_	_
+2-11	93-95	in	plant[309]	giv[309]	_	_
+2-12	96-99	the	plant[309]	giv[309]	_	_
+2-13	100-106	Mojave	plant[309]	giv[309]	_	_
+2-14	107-113	Desert	plant[309]	giv[309]	_	_
+2-15	114-117	and	plant[309]	giv[309]	_	_
+2-16	118-127	northwest	plant[309]	giv[309]	_	_
+2-17	128-134	Mexico	plant[309]	giv[309]	_	_
 2-18	135-136	;	_	_	_	_
 2-19	137-140	can	_	_	_	_
 2-20	141-145	grow	_	_	_	_
@@ -126,13 +126,13 @@
 4-13	572-573	.	_	_	_	_
 
 #Text=Method 1 of 2 : From Seeds
-5-1	574-580	Method	event[27]|event[372]	new[27]|new[372]	appos|coref	5-5[246_27]|14-4[51_372]
-5-2	581-582	1	event[27]|event[372]	new[27]|new[372]	_	_
-5-3	583-585	of	event[27]|event[372]	new[27]|new[372]	_	_
-5-4	586-587	2	event[27]|event[372]	new[27]|new[372]	_	_
-5-5	588-589	:	event[246]|event[372]	giv[246]|new[372]	_	_
-5-6	590-594	From	event[246]|event[372]	giv[246]|new[372]	_	_
-5-7	595-600	Seeds	event[246]|event[372]	giv[246]|new[372]	_	_
+5-1	574-580	Method	event[27]|event[311]	new[27]|new[311]	appos|coref	5-6[28_27]|14-4[51_311]
+5-2	581-582	1	event[27]|event[311]	new[27]|new[311]	_	_
+5-3	583-585	of	event[27]|event[311]	new[27]|new[311]	_	_
+5-4	586-587	2	event[27]|event[311]	new[27]|new[311]	_	_
+5-5	588-589	:	event[27]|event[311]	new[27]|new[311]	_	_
+5-6	590-594	From	event[28]|event[311]	giv[28]|new[311]	_	_
+5-7	595-600	Seeds	event[28]|event[311]	giv[28]|new[311]	_	_
 
 #Text=Purchase Beavertail cactus seeds .
 6-1	601-609	Purchase	_	_	_	_
@@ -278,13 +278,13 @@
 15-15	1219-1220	.	_	_	_	_
 
 #Text=Method 2 of 2 : From Cuttings
-16-1	1221-1227	Method	event[60]	new[60]	appos	16-5[277_60]
+16-1	1221-1227	Method	event[60]	new[60]	appos	16-6[61_60]
 16-2	1228-1229	2	event[60]	new[60]	_	_
 16-3	1230-1232	of	event[60]	new[60]	_	_
 16-4	1233-1234	2	event[60]	new[60]	_	_
-16-5	1235-1236	:	event[277]	giv[277]	_	_
-16-6	1237-1241	From	event[277]	giv[277]	_	_
-16-7	1242-1250	Cuttings	event[277]	giv[277]	_	_
+16-5	1235-1236	:	event[60]	new[60]	_	_
+16-6	1237-1241	From	event[61]	giv[61]	_	_
+16-7	1242-1250	Cuttings	event[61]	giv[61]	_	_
 
 #Text=Obtain Beavertail cuttings .
 17-1	1251-1257	Obtain	_	_	_	_
@@ -329,19 +329,19 @@
 20-3	1419-1423	this	event	giv	_	_
 20-4	1424-1425	,	_	_	_	_
 20-5	1426-1432	choose	_	_	_	_
-20-6	1433-1437	pads	plant	acc	appos	20-7[308_0]
-20-7	1438-1439	(	plant[308]	giv[308]	_	_
-20-8	1440-1443	the	plant[308]	giv[308]	_	_
-20-9	1444-1448	flat	plant[308]	giv[308]	_	_
-20-10	1449-1450	,	plant[308]	giv[308]	_	_
-20-11	1451-1462	oval-shaped	plant[308]	giv[308]	_	_
-20-12	1463-1471	sections	plant[308]	giv[308]	_	_
-20-13	1472-1476	that	plant[308]|plant[308]	giv[308]|giv[308]	_	_
-20-14	1477-1481	make	plant[308]|plant[308]	giv[308]|giv[308]	_	_
-20-15	1482-1484	up	plant[308]|plant[308]	giv[308]|giv[308]	_	_
-20-16	1485-1486	a	plant[78]|plant[308]|plant[308]	giv[78]|giv[308]|giv[308]	coref	28-6[110_78]
-20-17	1487-1493	cactus	plant[78]|plant[308]|plant[308]	giv[78]|giv[308]|giv[308]	_	_
-20-18	1494-1495	)	plant[308]	giv[308]	_	_
+20-6	1433-1437	pads	plant	acc	appos	20-7[246_0]
+20-7	1438-1439	(	plant[246]	giv[246]	_	_
+20-8	1440-1443	the	plant[246]	giv[246]	_	_
+20-9	1444-1448	flat	plant[246]	giv[246]	_	_
+20-10	1449-1450	,	plant[246]	giv[246]	_	_
+20-11	1451-1462	oval-shaped	plant[246]	giv[246]	_	_
+20-12	1463-1471	sections	plant[246]	giv[246]	_	_
+20-13	1472-1476	that	plant[246]	giv[246]	_	_
+20-14	1477-1481	make	plant[246]	giv[246]	_	_
+20-15	1482-1484	up	plant[246]	giv[246]	_	_
+20-16	1485-1486	a	plant[78]|plant[246]	giv[78]|giv[246]	coref	28-6[110_78]
+20-17	1487-1493	cactus	plant[78]|plant[246]	giv[78]|giv[246]	_	_
+20-18	1494-1495	)	plant[246]	giv[246]	_	_
 20-19	1496-1500	that	_	_	_	_
 20-20	1501-1504	are	_	_	_	_
 20-21	1505-1506	6	_	_	_	_
@@ -452,13 +452,13 @@
 25-6	1950-1953	the	substance[98]	giv[98]	_	_
 25-7	1954-1961	potting	substance[98]	giv[98]	_	_
 25-8	1962-1965	mix	substance[98]	giv[98]	_	_
-25-9	1966-1971	about	quantity[99]	new[99]	appos	25-12[339_99]
+25-9	1966-1971	about	quantity[99]	new[99]	appos	25-12[277_99]
 25-10	1972-1974	an	quantity[99]	new[99]	_	_
 25-11	1975-1979	inch	quantity[99]	new[99]	_	_
-25-12	1980-1981	(	quantity[339]	giv[339]	_	_
-25-13	1982-1985	2.5	quantity[339]	giv[339]	_	_
-25-14	1986-1989	cm.	quantity[339]	giv[339]	_	_
-25-15	1990-1991	)	quantity[339]	giv[339]	_	_
+25-12	1980-1981	(	quantity[277]	giv[277]	_	_
+25-13	1982-1985	2.5	quantity[277]	giv[277]	_	_
+25-14	1986-1989	cm.	quantity[277]	giv[277]	_	_
+25-15	1990-1991	)	quantity[277]	giv[277]	_	_
 25-16	1992-1996	deep	_	_	_	_
 25-17	1997-1998	.	_	_	_	_
 

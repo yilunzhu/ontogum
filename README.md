@@ -8,3 +8,7 @@ This repo contains the scripts that can convert GUM to the OntoNotes format.
 
 ## Visualization
 To straightforwardly view a coref document, copy & paste the tsv file to [Spannotator](https://corpling.uis.georgetown.edu/gitdox/spannotator.html).
+
+## Testing SpanBert
+1. Go to `utils` and run `python gum2conll.py` to build up the dataset. It will generate train, dev (including by-genre set), and test set under ./dataset
+2. Follow the instructions in [SpanBert](https://github.com/mandarjoshi90/coref). Note that change the data directory.

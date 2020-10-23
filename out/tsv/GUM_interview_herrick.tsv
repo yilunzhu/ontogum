@@ -4,11 +4,11 @@
 
 
 #Text=Jack Herrick , wikiHow founder interviewed by Wikinews
-1-1	0-4	Jack	event[1]|person[2]|person[443]|person[444]	new[1]|new[2]|new[443]|new[444]	coref|appos|coref|coref	6-2[22_1]|1-4[3_2]|3-1[0_443]|4-1[0_444]
-1-2	5-12	Herrick	event[1]|person[2]|person[443]|person[444]	new[1]|new[2]|new[443]|new[444]	_	_
-1-3	13-14	,	event[1]|person[2]|person[443]|person[444]	new[1]|new[2]|new[443]|new[444]	_	_
-1-4	15-22	wikiHow	event[1]|person[3]|person[443]	new[1]|new[3]|new[443]	_	_
-1-5	23-30	founder	event[1]|person[3]	new[1]|new[3]	_	_
+1-1	0-4	Jack	event[1]|person[2]|person[413]	new[1]|new[2]|new[413]	coref|appos|coref	6-2[22_1]|1-4[3_2]|3-1[0_413]
+1-2	5-12	Herrick	event[1]|person[2]|person[413]	new[1]|new[2]|new[413]	_	_
+1-3	13-14	,	event[1]|person[2]|person[413]	new[1]|new[2]|new[413]	_	_
+1-4	15-22	wikiHow	event[1]|person[3]|organization[4]|person[413]	new[1]|new[3]|new[4]|new[413]	coref	4-1[0_4]
+1-5	23-30	founder	event[1]|person[3]|person[413]	new[1]|new[3]|new[413]	_	_
 1-6	31-42	interviewed	event[1]	new[1]	_	_
 1-7	43-45	by	event[1]	new[1]	_	_
 1-8	46-54	Wikinews	event[1]|organization[5]	new[1]|new[5]	coref	5-20[0_5]
@@ -76,13 +76,13 @@
 5-19	355-356	,	_	_	_	_
 5-20	357-365	Wikinews	organization	giv	_	_
 5-21	366-377	interviewed	_	_	_	_
-5-22	378-381	the	person[19]|person[445]	giv[19]|giv[445]	appos|coref	5-27[21_19]|6-5[0_445]
-5-23	382-386	site	person[19]|person[445]	giv[19]|giv[445]	_	_
-5-24	387-389	's	person[19]|person[445]	giv[19]|giv[445]	_	_
-5-25	390-397	founder	person[19]|person[445]	giv[19]|giv[445]	_	_
-5-26	398-399	,	person[19]|person[445]	giv[19]|giv[445]	_	_
-5-27	400-404	Jack	person[21]|person[445]	giv[21]|giv[445]	_	_
-5-28	405-412	Herrick	person[21]	giv[21]	_	_
+5-22	378-381	the	person[19]|person[414]	giv[19]|giv[414]	appos|coref	5-27[21_19]|6-5[0_414]
+5-23	382-386	site	person[19]|person[414]	giv[19]|giv[414]	_	_
+5-24	387-389	's	person[19]|person[414]	giv[19]|giv[414]	_	_
+5-25	390-397	founder	person[19]|person[414]	giv[19]|giv[414]	_	_
+5-26	398-399	,	person[19]|person[414]	giv[19]|giv[414]	_	_
+5-27	400-404	Jack	person[21]|person[414]	giv[21]|giv[414]	_	_
+5-28	405-412	Herrick	person[21]|person[414]	giv[21]|giv[414]	_	_
 5-29	413-414	.	_	_	_	_
 
 #Text=In the interview , Herrick explains what wikiHow is , why he decided to create it , how he grew it in size , and why he chose to use a Creative Commons license ( HyperLink ) for his site .
@@ -117,12 +117,12 @@
 6-29	541-543	to	_	_	_	_
 6-30	544-547	use	_	_	_	_
 6-31	548-549	a	_	_	_	_
-6-32	550-558	Creative	abstract[30]	new[30]	coref	6-35[350_30]
-6-33	559-566	Commons	abstract[30]	new[30]	_	_
-6-34	567-574	license	abstract[30]	new[30]	_	_
-6-35	575-576	(	abstract[350]	giv[350]	_	_
-6-36	577-586	HyperLink	abstract[350]	giv[350]	_	_
-6-37	587-588	)	abstract[350]	giv[350]	_	_
+6-32	550-558	Creative	_	_	_	_
+6-33	559-566	Commons	_	_	_	_
+6-34	567-574	license	_	_	_	_
+6-35	575-576	(	_	_	_	_
+6-36	577-586	HyperLink	_	_	_	_
+6-37	587-588	)	_	_	_	_
 6-38	589-592	for	_	_	_	_
 6-39	593-596	his	organization[31]|person[32]	giv[31]|giv[32]	coref|ana	9-8[36_31]|9-8[37_32]
 6-40	597-601	site	organization[31]	giv[31]	_	_
@@ -307,11 +307,11 @@
 17-15	1436-1443	subject	_	_	_	_
 17-16	1444-1448	wiki	_	_	_	_
 17-17	1449-1454	after	_	_	_	_
-17-18	1455-1464	Wikipedia	organization[71]	organization[71]	coref	20-2[0_71]
+17-18	1455-1464	Wikipedia	organization[71]	new[71]	coref	20-2[0_71]
 17-19	1465-1466	.	_	_	_	_
 
 #Text=We get over 14 million unique visitors per month ( source : Google Analytics ) , which makes us the 135th most popular site according to Quantcast .
-18-1	1467-1469	We	organization	giv	ana	18-19[446_0]
+18-1	1467-1469	We	organization	giv	ana	18-19[415_0]
 18-2	1470-1473	get	_	_	_	_
 18-3	1474-1478	over	_	_	_	_
 18-4	1479-1481	14	_	_	_	_
@@ -329,12 +329,12 @@
 18-16	1546-1547	,	_	_	_	_
 18-17	1548-1553	which	_	_	_	_
 18-18	1554-1559	makes	_	_	_	_
-18-19	1560-1562	us	organization|organization[446]	giv|giv[446]	appos|ana	18-20[76_0]|21-1[85_446]
-18-20	1563-1566	the	organization[76]|organization[446]	giv[76]|giv[446]	_	_
-18-21	1567-1572	135th	organization[76]|organization[446]	giv[76]|giv[446]	_	_
-18-22	1573-1577	most	organization[76]|organization[446]	giv[76]|giv[446]	_	_
-18-23	1578-1585	popular	organization[76]|organization[446]	giv[76]|giv[446]	_	_
-18-24	1586-1590	site	organization[76]|organization[446]	giv[76]|giv[446]	_	_
+18-19	1560-1562	us	organization|organization[415]	giv|giv[415]	appos|ana	18-20[76_0]|21-1[85_415]
+18-20	1563-1566	the	organization[76]|organization[415]	giv[76]|giv[415]	_	_
+18-21	1567-1572	135th	organization[76]|organization[415]	giv[76]|giv[415]	_	_
+18-22	1573-1577	most	organization[76]|organization[415]	giv[76]|giv[415]	_	_
+18-23	1578-1585	popular	organization[76]|organization[415]	giv[76]|giv[415]	_	_
+18-24	1586-1590	site	organization[76]|organization[415]	giv[76]|giv[415]	_	_
 18-25	1591-1600	according	_	_	_	_
 18-26	1601-1603	to	_	_	_	_
 18-27	1604-1613	Quantcast	_	_	_	_
@@ -454,19 +454,19 @@
 26-2	2108-2111	are	abstract[99]	new[99]	_	_
 26-3	2112-2115	run	abstract[99]	new[99]	_	_
 26-4	2116-2118	as	abstract[99]	new[99]	_	_
-26-5	2119-2120	a	abstract[99]|organization[101]	new[99]|new[101]	appos	26-8[381_101]
+26-5	2119-2120	a	abstract[99]|organization[101]	new[99]|new[101]	appos	26-8[350_101]
 26-6	2121-2127	Hybrid	abstract[99]|organization[101]	new[99]|new[101]	_	_
 26-7	2128-2140	Organization	abstract[99]|organization[101]	new[99]|new[101]	_	_
-26-8	2141-2142	-	abstract[99]|organization[381]	new[99]|giv[381]	_	_
-26-9	2143-2144	a	abstract[99]|organization[381]	new[99]|giv[381]	_	_
-26-10	2145-2155	for-profit	abstract[99]|organization[381]	new[99]|giv[381]	_	_
-26-11	2156-2163	company	abstract[99]|organization[381]	new[99]|giv[381]	_	_
-26-12	2164-2171	focused	abstract[99]|organization[381]|organization[381]	new[99]|giv[381]|giv[381]	_	_
-26-13	2172-2174	on	abstract[99]|organization[381]|organization[381]	new[99]|giv[381]|giv[381]	_	_
-26-14	2175-2184	achieving	abstract[99]|organization[381]|organization[381]	new[99]|giv[381]|giv[381]	_	_
-26-15	2185-2186	a	abstract[99]|organization[381]|organization[381]	new[99]|giv[381]|giv[381]	_	_
-26-16	2187-2193	social	abstract[99]|organization[381]|organization[381]	new[99]|giv[381]|giv[381]	_	_
-26-17	2194-2198	good	abstract[99]|organization[381]|organization[381]	new[99]|giv[381]|giv[381]	_	_
+26-8	2141-2142	-	abstract[99]|organization[350]	new[99]|giv[350]	_	_
+26-9	2143-2144	a	abstract[99]|organization[350]	new[99]|giv[350]	_	_
+26-10	2145-2155	for-profit	abstract[99]|organization[350]	new[99]|giv[350]	_	_
+26-11	2156-2163	company	abstract[99]|organization[350]	new[99]|giv[350]	_	_
+26-12	2164-2171	focused	abstract[99]|organization[350]	new[99]|giv[350]	_	_
+26-13	2172-2174	on	abstract[99]|organization[350]	new[99]|giv[350]	_	_
+26-14	2175-2184	achieving	abstract[99]|organization[350]	new[99]|giv[350]	_	_
+26-15	2185-2186	a	abstract[99]|organization[350]	new[99]|giv[350]	_	_
+26-16	2187-2193	social	abstract[99]|organization[350]	new[99]|giv[350]	_	_
+26-17	2194-2198	good	abstract[99]|organization[350]	new[99]|giv[350]	_	_
 26-18	2199-2200	.	_	_	_	_
 
 #Text=This has several advantages and disadvantages when compared to the non-profit structure at the Wikimedia Foundation .
@@ -799,14 +799,14 @@
 46-7	3912-3919	content	_	_	_	_
 46-8	3920-3922	on	_	_	_	_
 46-9	3923-3929	topics	abstract[181]	new[181]	coref	48-12[191_181]
-46-10	3930-3934	that	abstract[181]|abstract[181]	new[181]|new[181]	_	_
-46-11	3935-3941	appeal	abstract[181]|abstract[181]	new[181]|new[181]	_	_
-46-12	3942-3944	to	abstract[181]|abstract[181]	new[181]|new[181]	_	_
-46-13	3945-3956	advertisers	abstract[181]|abstract[181]	new[181]|new[181]	_	_
-46-14	3957-3959	in	abstract[181]|abstract[181]	new[181]|new[181]	_	_
-46-15	3960-3969	languages	abstract[181]|abstract[181]	new[181]|new[181]	_	_
-46-16	3970-3974	like	abstract[181]|abstract[181]	new[181]|new[181]	_	_
-46-17	3975-3982	English	abstract[181]|abstract[181]	new[181]|new[181]	_	_
+46-10	3930-3934	that	abstract[181]	new[181]	_	_
+46-11	3935-3941	appeal	abstract[181]	new[181]	_	_
+46-12	3942-3944	to	abstract[181]	new[181]	_	_
+46-13	3945-3956	advertisers	abstract[181]	new[181]	_	_
+46-14	3957-3959	in	abstract[181]	new[181]	_	_
+46-15	3960-3969	languages	abstract[181]	new[181]	_	_
+46-16	3970-3974	like	abstract[181]	new[181]	_	_
+46-17	3975-3982	English	abstract[181]	new[181]	_	_
 46-18	3983-3987	that	abstract[181]	new[181]	_	_
 46-19	3988-3992	have	abstract[181]	new[181]	_	_
 46-20	3993-3998	large	abstract[181]	new[181]	_	_
@@ -944,10 +944,10 @@
 51-17	4643-4646	the	object[211]	giv[211]	_	_
 51-18	4647-4653	how-to	object[211]	giv[211]	_	_
 51-19	4654-4662	resource	object[211]	giv[211]	_	_
-51-20	4663-4666	the	object[211]|object[211]	giv[211]|giv[211]	_	_
-51-21	4667-4672	world	object[211]|object[211]	giv[211]|giv[211]	_	_
-51-22	4673-4679	really	object[211]|object[211]	giv[211]|giv[211]	_	_
-51-23	4680-4685	needs	object[211]|object[211]	giv[211]|giv[211]	_	_
+51-20	4663-4666	the	object[211]	giv[211]	_	_
+51-21	4667-4672	world	object[211]	giv[211]	_	_
+51-22	4673-4679	really	object[211]	giv[211]	_	_
+51-23	4680-4685	needs	object[211]	giv[211]	_	_
 51-24	4686-4687	.	_	_	_	_
 
 #Text=So I decided to sell eHow and use the proceeds to build wikiHow .
@@ -992,8 +992,8 @@
 54-10	4855-4864	community	_	_	_	_
 54-11	4865-4868	the	abstract[222]	new[222]	coref	58-1[246_222]
 54-12	4869-4874	right	abstract[222]	new[222]	_	_
-54-13	4875-4877	to	abstract[222]|abstract[222]	new[222]|new[222]	_	_
-54-14	4878-4882	fork	abstract[222]|abstract[222]	new[222]|new[222]	_	_
+54-13	4875-4877	to	abstract[222]	new[222]	_	_
+54-14	4878-4882	fork	abstract[222]	new[222]	_	_
 54-15	4883-4884	(	abstract[222]	new[222]	_	_
 54-16	4885-4929	http://www.wikihow.com/wikiHow:Right-to-Fork	abstract[222]	new[222]	_	_
 54-17	4930-4931	)	abstract[222]	new[222]	_	_
@@ -1086,12 +1086,12 @@
 #Text=This right to fork guarantees that wikiHow , the company , will always serve the goal of the mission and our volunteer community .
 58-1	5351-5355	This	abstract[246]	giv[246]	coref	59-5[254_246]
 58-2	5356-5361	right	abstract[246]	giv[246]	_	_
-58-3	5362-5364	to	abstract[246]|abstract[246]	giv[246]|giv[246]	_	_
-58-4	5365-5369	fork	abstract[246]|abstract[246]	giv[246]|giv[246]	_	_
+58-3	5362-5364	to	abstract[246]	giv[246]	_	_
+58-4	5365-5369	fork	abstract[246]	giv[246]	_	_
 58-5	5370-5380	guarantees	_	_	_	_
 58-6	5381-5385	that	_	_	_	_
-58-7	5386-5393	wikiHow	organization[412]	giv[412]	appos	58-9[248_412]
-58-8	5394-5395	,	organization[412]	giv[412]	_	_
+58-7	5386-5393	wikiHow	organization[381]	giv[381]	appos	58-9[248_381]
+58-8	5394-5395	,	organization[381]	giv[381]	_	_
 58-9	5396-5399	the	organization[248]	giv[248]	_	_
 58-10	5400-5407	company	organization[248]	giv[248]	_	_
 58-11	5408-5409	,	_	_	_	_
@@ -1116,8 +1116,8 @@
 59-4	5497-5505	offering	_	_	_	_
 59-5	5506-5510	this	abstract[254]	giv[254]	ana	60-12[0_254]
 59-6	5511-5516	right	abstract[254]	giv[254]	_	_
-59-7	5517-5519	to	abstract[254]|abstract[254]	giv[254]|giv[254]	_	_
-59-8	5520-5524	fork	abstract[254]|abstract[254]	giv[254]|giv[254]	_	_
+59-7	5517-5519	to	abstract[254]	giv[254]	_	_
+59-8	5520-5524	fork	abstract[254]	giv[254]	_	_
 59-9	5525-5528	has	_	_	_	_
 59-10	5529-5533	been	_	_	_	_
 59-11	5534-5535	a	_	_	_	_

@@ -76,9 +76,9 @@
 5-4	296-300	list	_	_	_	_
 5-5	301-303	of	_	_	_	_
 5-6	304-314	everything	object[12]	giv[12]	ana	5-14[0_12]
-5-7	315-318	you	object[12]|person[13]|object[12]	giv[12]|giv[13]|new[12]	ana	10-4[0_13]
-5-8	319-322	are	object[12]|object[12]	giv[12]|new[12]	_	_
-5-9	323-330	packing	object[12]|object[12]	giv[12]|new[12]	_	_
+5-7	315-318	you	object[12]|person[13]	giv[12]|giv[13]	ana	10-4[0_13]
+5-8	319-322	are	object[12]	giv[12]	_	_
+5-9	323-330	packing	object[12]	giv[12]	_	_
 5-10	331-332	,	_	_	_	_
 5-11	333-335	in	_	_	_	_
 5-12	336-346	particular	_	_	_	_
@@ -700,17 +700,17 @@
 46-2	2957-2961	away	_	_	_	_
 46-3	2962-2964	or	_	_	_	_
 46-4	2965-2971	donate	_	_	_	_
-46-5	2972-2976	junk	object	new	ana	47-4
-46-6	2977-2980	you	person	giv	ana	46-13[147_0]
-46-7	2981-2983	do	_	_	_	_
-46-8	2984-2987	n't	_	_	_	_
-46-9	2988-2992	want	_	_	_	_
-46-10	2993-2995	to	_	_	_	_
-46-11	2996-3000	take	_	_	_	_
-46-12	3001-3003	to	_	_	_	_
-46-13	3004-3008	your	place[146]|person[147]	giv[146]|giv[147]	coref|ana	48-6[150_146]|48-9[151_147]
-46-14	3009-3012	new	place[146]	giv[146]	_	_
-46-15	3013-3018	place	place[146]	giv[146]	_	_
+46-5	2972-2976	junk	object[199]	new[199]	ana	47-4[0_199]
+46-6	2977-2980	you	person|object[199]	giv|new[199]	ana	46-13[147_0]
+46-7	2981-2983	do	object[199]	new[199]	_	_
+46-8	2984-2987	n't	object[199]	new[199]	_	_
+46-9	2988-2992	want	object[199]	new[199]	_	_
+46-10	2993-2995	to	object[199]	new[199]	_	_
+46-11	2996-3000	take	object[199]	new[199]	_	_
+46-12	3001-3003	to	object[199]	new[199]	_	_
+46-13	3004-3008	your	place[146]|person[147]|object[199]	giv[146]|giv[147]|new[199]	coref|ana	48-6[150_146]|48-9[151_147]
+46-14	3009-3012	new	place[146]|object[199]	giv[146]|new[199]	_	_
+46-15	3013-3018	place	place[146]|object[199]	giv[146]|new[199]	_	_
 46-16	3019-3020	.	_	_	_	_
 
 #Text=Do n't pack it again ! ! !

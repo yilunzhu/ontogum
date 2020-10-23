@@ -104,14 +104,14 @@
 5-31	471-472	.	_	_	_	_
 
 #Text=Method 1 Using the Elevator to Annoy People
-6-1	473-479	Method	abstract[23]	new[23]	coref	6-3[24_23]
-6-2	480-481	1	abstract[23]	new[23]	_	_
-6-3	482-487	Using	abstract[24]	giv[24]	_	_
-6-4	488-491	the	abstract[24]|place[25]	giv[24]|giv[25]	_	_
-6-5	492-500	Elevator	abstract[24]|place[25]	giv[24]|giv[25]	_	_
-6-6	501-503	to	abstract[24]	giv[24]	_	_
-6-7	504-509	Annoy	abstract[24]	giv[24]	_	_
-6-8	510-516	People	abstract[24]	giv[24]	_	_
+6-1	473-479	Method	_	_	_	_
+6-2	480-481	1	_	_	_	_
+6-3	482-487	Using	_	_	_	_
+6-4	488-491	the	place[25]	giv[25]	_	_
+6-5	492-500	Elevator	place[25]	giv[25]	_	_
+6-6	501-503	to	_	_	_	_
+6-7	504-509	Annoy	_	_	_	_
+6-8	510-516	People	_	_	_	_
 
 #Text=Push all the buttons .
 7-1	517-521	Push	_	_	_	_
@@ -485,17 +485,17 @@
 26-1	2041-2045	Many	_	_	_	_
 26-2	2046-2055	elevators	_	_	_	_
 26-3	2056-2060	play	_	_	_	_
-26-4	2061-2066	music	abstract[209]	giv[209]	_	_
+26-4	2061-2066	music	_	_	_	_
 26-5	2067-2069	in	_	_	_	_
 26-6	2070-2073	the	_	_	_	_
 26-7	2074-2084	background	_	_	_	_
-26-8	2085-2086	,	abstract[209]	giv[209]	_	_
-26-9	2087-2094	usually	abstract[240]	giv[240]	coref	26-9[209_240]
-26-10	2095-2099	soft	abstract[240]	giv[240]	_	_
-26-11	2100-2104	rock	abstract[240]	giv[240]	_	_
-26-12	2105-2107	or	abstract[240]	giv[240]	_	_
-26-13	2108-2114	smooth	abstract[240]	giv[240]	_	_
-26-14	2115-2119	jazz	abstract[240]	giv[240]	_	_
+26-8	2085-2086	,	_	_	_	_
+26-9	2087-2094	usually	_	_	_	_
+26-10	2095-2099	soft	_	_	_	_
+26-11	2100-2104	rock	_	_	_	_
+26-12	2105-2107	or	_	_	_	_
+26-13	2108-2114	smooth	_	_	_	_
+26-14	2115-2119	jazz	_	_	_	_
 26-15	2120-2121	.	_	_	_	_
 
 #Text=If you ’re in an elevator that is playing music , start to dance .

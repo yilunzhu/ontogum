@@ -58,7 +58,7 @@
 4-4	228-230	it	event	giv	ana	11-2
 4-5	231-235	done	_	_	_	_
 4-6	236-240	when	_	_	_	_
-4-7	241-242	I	person	giv	coref	18-8
+4-7	241-242	I	person	giv	coref	18-8[368_0]
 4-8	243-246	was	_	_	_	_
 4-9	247-253	little	_	_	_	_
 4-10	254-257	and	_	_	_	_
@@ -122,18 +122,18 @@
 7-17	508-509	.	_	_	_	_
 
 #Text=The doctor , a woman I do n’t know , is sitting in the other chair .
-8-1	510-513	The	person[32]|person[368]	new[32]|new[368]	appos|coref	8-4[33_32]|20-1[70_368]
-8-2	514-520	doctor	person[32]|person[368]	new[32]|new[368]	_	_
-8-3	521-522	,	person[32]|person[368]	new[32]|new[368]	_	_
-8-4	523-524	a	person[33]|person[368]	giv[33]|new[368]	_	_
-8-5	525-530	woman	person[33]|person[368]	giv[33]|new[368]	_	_
-8-6	531-532	I	person|person[33]|person[368]|person[33]	giv|giv[33]|new[368]|giv[33]	ana	9-1[37_0]
-8-7	533-535	do	person[33]|person[368]|person[33]	giv[33]|new[368]|giv[33]	_	_
-8-8	536-539	n’t	person[33]|person[368]|person[33]	giv[33]|new[368]|giv[33]	_	_
-8-9	540-544	know	person[33]|person[368]|person[33]	giv[33]|new[368]|giv[33]	_	_
-8-10	545-546	,	person[368]	new[368]	_	_
-8-11	547-549	is	person[368]	new[368]	_	_
-8-12	550-557	sitting	person[368]	new[368]	_	_
+8-1	510-513	The	person[32]|person[371]	new[32]|new[371]	appos|coref	8-4[33_32]|20-1[70_371]
+8-2	514-520	doctor	person[32]|person[371]	new[32]|new[371]	_	_
+8-3	521-522	,	person[32]|person[371]	new[32]|new[371]	_	_
+8-4	523-524	a	person[33]|person[371]	giv[33]|new[371]	_	_
+8-5	525-530	woman	person[33]|person[371]	giv[33]|new[371]	_	_
+8-6	531-532	I	person|person[33]|person[371]	giv|giv[33]|new[371]	ana	9-1[37_0]
+8-7	533-535	do	person[33]|person[371]	giv[33]|new[371]	_	_
+8-8	536-539	n’t	person[33]|person[371]	giv[33]|new[371]	_	_
+8-9	540-544	know	person[33]|person[371]	giv[33]|new[371]	_	_
+8-10	545-546	,	_	_	_	_
+8-11	547-549	is	_	_	_	_
+8-12	550-557	sitting	_	_	_	_
 8-13	558-560	in	_	_	_	_
 8-14	561-564	the	_	_	_	_
 8-15	565-570	other	_	_	_	_
@@ -266,11 +266,11 @@
 18-5	1015-1018	and	_	_	_	_
 18-6	1019-1023	then	_	_	_	_
 18-7	1024-1026	at	_	_	_	_
-18-8	1027-1033	Renata	person	giv	_	_
-18-9	1034-1035	,	_	_	_	_
-18-10	1036-1039	who	_	_	_	_
-18-11	1040-1042	is	_	_	_	_
-18-12	1043-1050	smiling	_	_	_	_
+18-8	1027-1033	Renata	person[368]	giv[368]	_	_
+18-9	1034-1035	,	person[368]	giv[368]	_	_
+18-10	1036-1039	who	person[368]	giv[368]	_	_
+18-11	1040-1042	is	person[368]	giv[368]	_	_
+18-12	1043-1050	smiling	person[368]	giv[368]	_	_
 18-13	1051-1052	,	_	_	_	_
 18-14	1053-1056	and	_	_	_	_
 18-15	1057-1064	finally	_	_	_	_
@@ -471,9 +471,9 @@
 34-5	1781-1782	“	_	_	_	_
 34-6	1783-1785	Is	_	_	_	_
 34-7	1786-1788	it	time	new	_	_
-34-8	1789-1793	time	time	new	cata	34-7
-34-9	1794-1796	to	_	_	_	_
-34-10	1797-1799	go	_	_	_	_
+34-8	1789-1793	time	time[369]	new[369]	cata	34-7[0_369]
+34-9	1794-1796	to	time[369]	new[369]	_	_
+34-10	1797-1799	go	time[369]	new[369]	_	_
 34-11	1800-1801	?	_	_	_	_
 34-12	1802-1803	”	_	_	_	_
 
@@ -677,7 +677,7 @@
 47-25	2529-2533	were	_	_	_	_
 47-26	2534-2540	united	_	_	_	_
 47-27	2541-2542	,	_	_	_	_
-47-28	2543-2546	she	person[174]|person[175]	giv[174]|giv[175]	ana|ana	57-16[229_174]|50-8[0_175]
+47-28	2543-2546	she	person[174]|person[175]	giv[174]|giv[175]	ana|ana	57-16[229_174]|50-8[370_175]
 47-29	2547-2550	and	person[174]	giv[174]	_	_
 47-30	2551-2552	I	person[174]|person[176]	giv[174]|giv[176]	ana	49-1[0_176]
 47-31	2553-2554	.	_	_	_	_
@@ -709,15 +709,15 @@
 50-5	2628-2635	shining	_	_	_	_
 50-6	2636-2637	,	_	_	_	_
 50-7	2638-2640	is	_	_	_	_
-50-8	2641-2647	Renata	person	giv	ana	50-19[184_0]
-50-9	2648-2649	,	_	_	_	_
-50-10	2650-2653	who	_	_	_	_
-50-11	2654-2656	is	_	_	_	_
-50-12	2657-2662	young	_	_	_	_
-50-13	2663-2666	and	_	_	_	_
-50-14	2667-2674	healthy	_	_	_	_
-50-15	2675-2678	and	_	_	_	_
-50-16	2679-2683	good	_	_	_	_
+50-8	2641-2647	Renata	person[370]	giv[370]	ana	50-19[184_370]
+50-9	2648-2649	,	person[370]	giv[370]	_	_
+50-10	2650-2653	who	person[370]	giv[370]	_	_
+50-11	2654-2656	is	person[370]	giv[370]	_	_
+50-12	2657-2662	young	person[370]	giv[370]	_	_
+50-13	2663-2666	and	person[370]	giv[370]	_	_
+50-14	2667-2674	healthy	person[370]	giv[370]	_	_
+50-15	2675-2678	and	person[370]	giv[370]	_	_
+50-16	2679-2683	good	person[370]	giv[370]	_	_
 50-17	2684-2685	,	_	_	_	_
 50-18	2686-2693	raising	_	_	_	_
 50-19	2694-2697	her	person[184]	giv[184]	ana	50-23[186_184]
@@ -730,11 +730,11 @@
 50-26	2731-2734	the	object[187]	giv[187]	_	_
 50-27	2735-2739	chip	object[187]	giv[187]	_	_
 50-28	2740-2742	is	_	_	_	_
-50-29	2743-2750	nothing	object[306]	object[306]	appos	50-31[189_306]
-50-30	2751-2752	,	object[306]	object[306]	_	_
-50-31	2753-2760	nothing	object[189]	object[189]	_	_
-50-32	2761-2763	at	object[189]	object[189]	_	_
-50-33	2764-2767	all	object[189]	object[189]	_	_
+50-29	2743-2750	nothing	object[306]	giv[306]	appos	50-31[189_306]
+50-30	2751-2752	,	object[306]	giv[306]	_	_
+50-31	2753-2760	nothing	object[189]	giv[189]	_	_
+50-32	2761-2763	at	object[189]	giv[189]	_	_
+50-33	2764-2767	all	object[189]	giv[189]	_	_
 50-34	2768-2769	.	_	_	_	_
 
 #Text=The last two nights I have dreamed of dogs in trouble .
@@ -873,11 +873,11 @@
 57-11	3343-3349	desert	_	_	_	_
 57-12	3350-3356	island	_	_	_	_
 57-13	3357-3360	and	_	_	_	_
-57-14	3361-3366	Sonia	animal[337]|animal[371]	new[337]|new[371]	appos|coref	57-16[228_337]|58-8[0_371]
-57-15	3367-3368	,	animal[337]|animal[371]	new[337]|new[371]	_	_
-57-16	3369-3372	our	animal[228]|person[229]|animal[371]	giv[228]|giv[229]|new[371]	_	_
-57-17	3373-3379	golden	animal[228]|animal[371]	giv[228]|new[371]	_	_
-57-18	3380-3389	retriever	animal[228]|animal[371]	giv[228]|new[371]	_	_
+57-14	3361-3366	Sonia	animal[337]|animal[374]	new[337]|new[374]	appos|coref	57-16[228_337]|58-8[0_374]
+57-15	3367-3368	,	animal[337]|animal[374]	new[337]|new[374]	_	_
+57-16	3369-3372	our	animal[228]|person[229]|animal[374]	giv[228]|giv[229]|new[374]	_	_
+57-17	3373-3379	golden	animal[228]|animal[374]	giv[228]|new[374]	_	_
+57-18	3380-3389	retriever	animal[228]|animal[374]	giv[228]|new[374]	_	_
 57-19	3390-3391	,	_	_	_	_
 57-20	3392-3395	was	_	_	_	_
 57-21	3396-3400	with	_	_	_	_
@@ -923,7 +923,7 @@
 60-5	3560-3563	she	animal	giv	ana	60-15
 60-6	3564-3566	’s	_	_	_	_
 60-7	3567-3571	more	_	_	_	_
-60-8	3572-3574	my	person[245]	person[245]	ana	60-22[0_245]
+60-8	3572-3574	my	person[245]	giv[245]	ana	60-22[0_245]
 60-9	3575-3578	dog	_	_	_	_
 60-10	3579-3583	than	_	_	_	_
 60-11	3584-3590	anyone	_	_	_	_
@@ -1026,16 +1026,16 @@
 #Text=That was last night , the second night Renata did n’t come home .
 66-1	3926-3930	That	event	giv	_	_
 66-2	3931-3934	was	_	_	_	_
-66-3	3935-3939	last	time[274]	time[274]	appos	66-6[275_274]
-66-4	3940-3945	night	time[274]	time[274]	_	_
-66-5	3946-3947	,	time[274]	time[274]	_	_
-66-6	3948-3951	the	time[275]	time[275]	_	_
-66-7	3952-3958	second	time[275]	time[275]	_	_
-66-8	3959-3964	night	time[275]	time[275]	_	_
-66-9	3965-3971	Renata	person|time[275]|time[275]	person|time[275]|giv[275]	_	_
-66-10	3972-3975	did	time[275]|time[275]	time[275]|giv[275]	_	_
-66-11	3976-3979	n’t	time[275]|time[275]	time[275]|giv[275]	_	_
-66-12	3980-3984	come	time[275]|time[275]	time[275]|giv[275]	_	_
-66-13	3985-3989	home	time[275]|time[275]	time[275]|giv[275]	_	_
+66-3	3935-3939	last	time[274]	giv[274]	appos	66-6[275_274]
+66-4	3940-3945	night	time[274]	giv[274]	_	_
+66-5	3946-3947	,	time[274]	giv[274]	_	_
+66-6	3948-3951	the	time[275]	giv[275]	_	_
+66-7	3952-3958	second	time[275]	giv[275]	_	_
+66-8	3959-3964	night	time[275]	giv[275]	_	_
+66-9	3965-3971	Renata	person|time[275]	giv|giv[275]	_	_
+66-10	3972-3975	did	time[275]	giv[275]	_	_
+66-11	3976-3979	n’t	time[275]	giv[275]	_	_
+66-12	3980-3984	come	time[275]	giv[275]	_	_
+66-13	3985-3989	home	time[275]	giv[275]	_	_
 66-14	3990-3991	.	_	_	_	_
 

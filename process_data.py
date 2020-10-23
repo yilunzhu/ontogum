@@ -1,9 +1,6 @@
 import io, os, sys, re
 from collections import defaultdict
 from copy import deepcopy
-import pandas as pd
-import numpy as np
-from argparse import ArgumentParser
 
 
 class Coref(object):
@@ -38,6 +35,7 @@ class Coref(object):
         self.new_e = bool()
         self.replaced_by = str()
         self.appos_point_to = str()
+        self.expanded = False
 
 
 def coref_(fields: list) -> dict:
@@ -70,6 +68,8 @@ def coref_(fields: list) -> dict:
             elif fields[-2] != '_':
                 coref_type = coref_types[i]
 
+            if cur_e in coref.keys() and 'bridge' in coref_type:
+                continue
             coref[cur_e] = (point_to, next_e, coref_type)
 
     # when the entity exists and it is mentioned before, but does not have next coref
@@ -98,7 +98,7 @@ def add_tsv(entities: dict, fields: list, coref_r: dict, doc: dict, entity_group
             doc[k].tok += f" {fields[2]}"
             doc[k].span_len += 1
 
-        else:   # if the word is B-NE (e.g. B-PER) of the named entity, create a new Coref class
+        else:   # if the word is the first token of an named entity, create a new Coref class
             if k in coref_r.keys() or '' in coref_r.keys():
                 if_fake = True if '' in coref_r.keys() else False   # if the NE does not have id, create a fake id
                 new_id = f'0_{text_id}' if if_fake else k
@@ -223,6 +223,7 @@ def find_direct_dep_children(sent, head):
     :param head: type: string, the token id (the first column in a conllu format)
     :return: all token ids under the given head
     """
+    head = head[0]  # to have the same input as the function "find_all_dep_children"
     children = []
     for row in sent:
         if row[6] == head:
@@ -239,7 +240,13 @@ def check_appos(sent: list, head_row: list, dep_sent_id) -> bool:
     for row in sent:
         if row[6] == head_id and row[7] == 'appos':
             appos = sorted([f'{dep_sent_id}-{x}' for x in find_all_dep_children(sent, [row[0]])], reverse=True)
-            # return [(row[0], row[4], row[7]) for row in sent if row[0] in appos]
+
+            # if the last token is a period or comma, do not count it as part of an apposition
+            NOT_COUNT = [',', '.', ';', '-', '!', '?']
+            last_tok_id = str(sorted([int(x.split('-')[-1]) for x in appos])[-1])
+            last_tok = [y[1] for y in sent if y[0] == last_tok_id]
+            if last_tok in NOT_COUNT:
+                appos.remove(f'{dep_sent_id}-{last_tok_id}')
             return appos
     return appos
 
@@ -281,7 +288,7 @@ def process_doc(dep_doc, coref_doc):
             line_id, token = coref_fields[0], coref_fields[2]
 
             # test
-            if line_id == '31-10':
+            if line_id == '8-1':
                 a = 1
             if coref_fields[5] == 'appos':
                 a = 1
@@ -329,14 +336,20 @@ def process_doc(dep_doc, coref_doc):
             # match dep_text_id to the format in coref tsv
             dep_text_id = f'{dep_sent_id}-{dep_line[0]}'
             cur_dep_sent = dep_sents[dep_sent_id]
-            if dep_text_id == '31-7':
+            if dep_text_id == '46-1':
                 a = 1
 
             # TODO: 将ide替换为doc.keys()，避免18-26 "these techniques"没有任何dep的信息
             if dep_text_id in id_e:
                 for e in id_e[dep_text_id]:
-
                     span_len, entity = e[0], e[1]
+
+                    # check dep appos, if there is another e having appositions, don't count the current one in dep appos
+                    another_appos = False
+                    for ee in id_e[dep_text_id]:
+                        if ee[1] != entity and doc[ee[1]].coref_type == 'appos':
+                            another_appos = True
+                            break
 
                     # if the entity is deleted, check if it is replaced by another entity
                     if doc[entity].replaced_by:
@@ -360,8 +373,9 @@ def process_doc(dep_doc, coref_doc):
                             # check if the head has a copula child
                             doc[entity].child_cop = check_dep_cop_child(cur_dep_sent, head_range, row)
                             # check whether appos is a child of the current head
-                            doc[entity].appos = check_appos(cur_dep_sent, row, dep_sent_id)
-                            doc[entity].dep_appos = True if row[7] == 'appos' else False
+                            doc[entity].dep_appos = True if row[7] == 'appos' and not another_appos else False
+                            if doc[entity].coref_type == 'appos' or doc[entity].dep_appos:
+                                doc[entity].appos = check_appos(cur_dep_sent, row, dep_sent_id)
                             doc[entity].acl_children = find_acl_child(cur_dep_sent, row[0])
                             head_of_the_phrase = row[0]
 
@@ -374,8 +388,9 @@ def process_doc(dep_doc, coref_doc):
                             doc[entity].head_id = f'{dep_sent_id}-{row[0]}'
                             doc[entity].child_cop = check_dep_cop_child(cur_dep_sent, head_range, row)
                             # check whether appos is a child of the current head
-                            doc[entity].appos = check_appos(cur_dep_sent, row, dep_sent_id)
-                            doc[entity].dep_appos = True if row[7] == 'appos' else False
+                            doc[entity].dep_appos = True if row[7] == 'appos' and not another_appos else False
+                            if doc[entity].coref_type == 'appos' or doc[entity].dep_appos:
+                                doc[entity].appos = check_appos(cur_dep_sent, row, dep_sent_id)
                             doc[entity].acl_children = find_acl_child(cur_dep_sent, row[0])
                             head_of_the_phrase = row[0]
 
@@ -384,30 +399,93 @@ def process_doc(dep_doc, coref_doc):
                     doc[entity].func = doc[entity].func.strip()
                     doc[entity].pos = doc[entity].pos.strip()
 
+                    # check acl children
+                    '''
+                    If there is a gap within the current entity's acl children, fill it
+                    '''
+                    cur_span = [str(int(doc[entity].text_id.split('-')[-1])+x) for x in range(doc[entity].span_len)]
+                    for x in doc[entity].acl_children:
+                        if x in cur_span:
+                            doc[entity].acl_children.remove(x)
+                    # PUNCT = ['-', ',', '–', '[', '4']
+                    if doc[entity].acl_children:
+                        GAP_FLAG = True
+                        min_acl = min([int(x) for x in doc[entity].acl_children])
+                        max_acl = max([int(x) for x in doc[entity].acl_children])
+                        for acl_id in range(min_acl+1, max_acl):
+                            if str(acl_id) not in cur_span:
+                                GAP_FLAG = False
+                            if str(acl_id) not in doc[entity].acl_children:
+                                doc[entity].acl_children.append(str(acl_id))
+                                # print(cur_dep_sent[int(acl_id)-1])
+
+                        if GAP_FLAG:
+                            doc[entity].expanded = True
+
+                        '''
+                        Some punctuaction marks such as '-' are not included in acl children, expand it to make sure the
+                        span is continuous
+                        '''
+                        min_expand = min([int(x) for x in doc[entity].acl_children])
+                        max_tok = max([int(x) for x in head_range])
+                        if min_expand - max_tok > 1:
+                            for l in dep_sents[dep_sent_id]:
+                                if int(l[0]) > max_tok and int(l[0]) < min_expand:
+                                    # if l[1] in PUNCT:
+                                    # ignore the PUNCT to avoid some outliers
+                                    doc[entity].acl_children.append(l[0])
+                                    # else:
+                                    #     raise ValueError('The acl children gap is not correctly recognized.')
+
                     # check appositions, align the spans (if it isn't continuous, make it so)
+                    '''
+                    Sometimes ',' and other punctuation marks are not inlcuded in an apposition span, but this is invalid.
+                    Align the spans to have valid apposition coref
+                    '''
+                    ALIGN_PUNCT = [',', ':', ';', '—', '1', "'", '‘']
+                    last_e = sorted([int(x) for x in doc.keys() if not x.startswith('0_')], reverse=True)[0] + 30
                     appos = doc[entity].appos
                     if doc[entity].next and appos:
                         next = doc[entity].next
                         tok_id = int(doc[next].text_id.split('-')[-1])
                         ids = [f'{doc[next].text_id.split("-")[0]}-{tok_id + i}' for i in range(doc[next].span_len)]
 
-                        min_id = sorted([int(x.split("-")[-1]) for x in ids])[0]
+                        max_prev_id = int(doc[entity].text_id.split('-')[-1]) + doc[entity].span_len - 1
+                        min_next_id = sorted([int(x.split("-")[-1]) for x in ids])[0]
                         cur_count, next_count = 0, 0
                         appos_belong_to_cur = []
-                        for appos_id in appos:
+
+                        # check gap that does not count as dep children
+                        for gap_tok_id in range(max_prev_id+1, min_next_id):
+                            gap_id = f'{dep_sent_id}-{gap_tok_id}'
+                            cur_tok = cur_dep_sent[int(gap_tok_id) - 1][1]
+                            if str(gap_tok_id) in doc[entity].acl_children:
+                                continue
+                            if gap_id not in appos:
+                                # if cur_tok in ALIGN_PUNCT:
+                                cur_count += 1
+                                appos_belong_to_cur.append(gap_id)
+                                # else:
+                                #     raise ValueError(f'{gap_id}, {entity}->{next}, Apposition gaps are not punctuations, check the annotation.')
+
+                        loop_appos = deepcopy(appos)
+                        for appos_id in loop_appos:
+                            if appos_id == '3-20':
+                                a = 1
                             appos_tok_id = appos_id.split('-')[-1]
                             if appos_id not in ids:
                                 cur_tok = cur_dep_sent[int(appos_tok_id)-1][1]
-                                if int(appos_tok_id) < min_id and cur_tok == ',':
+                                if int(appos_tok_id) < min_next_id and cur_tok in ALIGN_PUNCT:
                                     cur_count += 1
                                     appos_belong_to_cur.append(appos_id)
                                     appos.remove(appos_id)
                                 else:
                                     next_count += 1
+
                         next_span_len = next_count + doc[next].span_len
+                        doc[next].expanded = True
                         min_appos = sorted([int(x.split("-")[-1]) for x in appos])[0]
 
-                        last_e = sorted([int(x) for x in doc.keys() if not x.startswith('0_')], reverse=True)[0] + 30
                         new_id = next
                         if f'{dep_sent_id}-{min_appos}' != doc[next].text_id:
                             if next_span_len == 1:
@@ -424,7 +502,6 @@ def process_doc(dep_doc, coref_doc):
                             doc[entity].next = new_id
                             doc[entity].coref = f'{dep_sent_id}-{min_appos}'
 
-
                             # let the previous next points to the current one, delete coref info
                             doc[next].replaced_by = new_id
                             doc[next].coref = ''
@@ -432,10 +509,17 @@ def process_doc(dep_doc, coref_doc):
                             doc[next].next = ''
 
                         doc[new_id].span_len = next_span_len
+                        new_id_span = [str(int(doc[new_id].text_id.split('-')[-1])+x) for x in range(doc[new_id].span_len)]
+                        for x in new_id_span:
+                            new_tok_id = f'{dep_sent_id}-{x}'
+                            if new_tok_id not in appos:
+                                appos.append(new_tok_id)
                         cur_span_len = doc[entity].span_len + cur_count
 
                         # if the current entity's span is longer than 1, assign it a new entity id
                         if doc[entity].span_len == 1 and cur_span_len > 1:
+                            if doc[entity].acl_children:
+                                raise ValueError('Change func.py L264 - L2xx.')
                             new_cur_entity_id = str(last_e + 1)
                             doc[new_cur_entity_id] = deepcopy(doc[entity])
 
@@ -460,12 +544,19 @@ def process_doc(dep_doc, coref_doc):
                             # rename the "entity" variable
                             entity = new_cur_entity_id
 
+                        else:
+                            doc[entity].span_len = cur_span_len
+
                         for appos_id in appos:
-                            new_id2entity[appos_id] = [new_id.split('_')[-1] if new_id.startswith('0_') else new_id]
+                            if appos_id not in new_id2entity.keys():
+                                new_id2entity[appos_id] = []
+                            new_id2entity[appos_id] += [new_id.split('_')[-1] if new_id.startswith('0_') else new_id]
                             # if appos_id not in doc[new_id].text_id:
                             #     new_id2entity[appos_id] = [new_id.split('_')[-1] if new_id.startswith('0_') else new_id]
                         for cur_appos_id in appos_belong_to_cur:
-                            new_id2entity[cur_appos_id] = [entity.split('_')[-1] if entity.startswith('0_') else entity]
+                            if cur_appos_id not in new_id2entity.keys():
+                                new_id2entity[cur_appos_id] = []
+                            new_id2entity[cur_appos_id] += [entity.split('_')[-1] if entity.startswith('0_') else entity]
 
                     # check definiteness
                     """
@@ -516,4 +607,4 @@ def process_doc(dep_doc, coref_doc):
         for x in lst:
             group_dict[x] = group_id
 
-    return doc, tokens, group_dict, antecedent_dict, new_id2entity
+    return doc, tokens, group_dict, antecedent_dict, new_id2entity, dep_sents

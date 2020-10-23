@@ -39,7 +39,7 @@
 3-10	164-173	glowstick	event[6]|object[9]	new[6]|giv[9]	_	_
 3-11	174-177	and	event[6]	new[6]	_	_
 3-12	178-185	shoving	event[6]	new[6]	_	_
-3-13	186-189	its	event[6]|object[11]	new[6]|giv[11]	_	_
+3-13	186-189	its	event[6]|object[11]	new[6]|giv[11]	coref	31-11[115_11]
 3-14	190-198	contents	event[6]	new[6]	_	_
 3-15	199-203	into	event[6]	new[6]	_	_
 3-16	204-205	a	event[6]	new[6]	_	_
@@ -543,19 +543,19 @@
 32-6	2353-2355	is	_	_	_	_
 32-7	2356-2361	other	event[119]	new[119]	cata	32-1[117_119]
 32-8	2362-2372	substances	event[119]	new[119]	_	_
-32-9	2373-2384	interacting	event[119]|event[119]	new[119]|new[119]	_	_
-32-10	2385-2389	with	event[119]|event[119]	new[119]|new[119]	_	_
+32-9	2373-2384	interacting	event[119]	new[119]	_	_
+32-10	2385-2389	with	event[119]	new[119]	_	_
 32-11	2390-2393	the	event[119]|event[121]	new[119]|new[121]	coref	47-1[152_121]
 32-12	2394-2403	reactions	event[119]|event[121]	new[119]|new[121]	_	_
-32-13	2404-2407	you	event[119]|person[122]|event[119]	new[119]|giv[122]|new[119]	ana	34-3[0_122]
-32-14	2408-2411	're	event[119]|event[119]	new[119]|new[119]	_	_
-32-15	2412-2421	depending	event[119]|event[119]	new[119]|new[119]	_	_
-32-16	2422-2424	on	event[119]|event[119]	new[119]|new[119]	_	_
-32-17	2425-2427	to	event[119]|event[119]	new[119]|new[119]	_	_
-32-18	2428-2432	make	event[119]|event[119]	new[119]|new[119]	_	_
-32-19	2433-2436	the	event[119]|substance[123]|event[119]	new[119]|giv[123]|new[119]	coref	41-3[140_123]
-32-20	2437-2447	substances	event[119]|substance[123]|event[119]	new[119]|giv[123]|new[119]	_	_
-32-21	2448-2452	glow	event[119]|event[119]	new[119]|new[119]	_	_
+32-13	2404-2407	you	event[119]|person[122]	new[119]|giv[122]	ana	34-3[0_122]
+32-14	2408-2411	're	event[119]	new[119]	_	_
+32-15	2412-2421	depending	event[119]	new[119]	_	_
+32-16	2422-2424	on	event[119]	new[119]	_	_
+32-17	2425-2427	to	event[119]	new[119]	_	_
+32-18	2428-2432	make	event[119]	new[119]	_	_
+32-19	2433-2436	the	event[119]|substance[123]	new[119]|giv[123]	coref	41-3[140_123]
+32-20	2437-2447	substances	event[119]|substance[123]	new[119]|giv[123]	_	_
+32-21	2448-2452	glow	event[119]	new[119]	_	_
 32-22	2453-2454	.	_	_	_	_
 
 #Text=Set the correct lid next to each container .
@@ -751,7 +751,7 @@
 48-6	3260-3261	,	_	_	_	_
 48-7	3262-3264	go	_	_	_	_
 48-8	3265-3267	to	_	_	_	_
-48-9	3268-3271	the	abstract[158]	giv[158]	ana	48-29[0_158]
+48-9	3268-3271	the	abstract[158]	giv[158]	_	_
 48-10	3272-3276	next	abstract[158]	giv[158]	_	_
 48-11	3277-3283	method	abstract[158]	giv[158]	_	_
 48-12	3284-3285	(	abstract[158]	giv[158]	_	_
@@ -771,7 +771,7 @@
 48-26	3346-3356	laboratory	abstract[158]	giv[158]	_	_
 48-27	3357-3358	,	abstract[158]	giv[158]	_	_
 48-28	3359-3362	but	abstract[158]	giv[158]	_	_
-48-29	3363-3365	it	substance|abstract[158]	giv|giv[158]	_	_
+48-29	3363-3365	it	abstract[158]	giv[158]	_	_
 48-30	3366-3368	's	abstract[158]	giv[158]	_	_
 48-31	3369-3374	still	abstract[158]	giv[158]	_	_
 48-32	3375-3380	worth	abstract[158]	giv[158]	_	_

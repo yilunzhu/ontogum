@@ -3,21 +3,21 @@
 #T_RL=webanno.custom.Coref|type|BT_webanno.custom.Referent
 
 
-#Text=_
+#Text=Absolutely .
 1-1	0-10	Absolutely	_	_	_	_
 1-2	11-12	.	_	_	_	_
 
-#Text=_
-2-1	13-16	The	_	_	_	_
-2-2	17-21	film	_	_	_	_
-2-3	22-28	Snyder	_	_	_	_
-2-4	29-35	showed	_	_	_	_
-2-5	36-39	the	_	_	_	_
-2-6	40-46	studio	_	_	_	_
-2-7	47-52	execs	_	_	_	_
-2-8	53-55	in	_	_	_	_
-2-9	56-59	mid	_	_	_	_
-2-10	60-64	2015	_	_	_	_
+#Text=The film Snyder showed the studio execs in mid 2015 was without a doubt the original cut .
+2-1	13-16	The	abstract[1]	new[1]	coref	3-1[7_1]
+2-2	17-21	film	abstract[1]	new[1]	_	_
+2-3	22-28	Snyder	person|abstract[1]	new|new[1]	coref	5-1
+2-4	29-35	showed	abstract[1]	new[1]	_	_
+2-5	36-39	the	abstract[1]	new[1]	_	_
+2-6	40-46	studio	abstract[1]	new[1]	_	_
+2-7	47-52	execs	abstract[1]	new[1]	_	_
+2-8	53-55	in	abstract[1]	new[1]	_	_
+2-9	56-59	mid	abstract[1]	new[1]	_	_
+2-10	60-64	2015	abstract[1]	new[1]	_	_
 2-11	65-68	was	_	_	_	_
 2-12	69-76	without	_	_	_	_
 2-13	77-78	a	_	_	_	_
@@ -27,14 +27,14 @@
 2-17	98-101	cut	_	_	_	_
 2-18	102-103	.	_	_	_	_
 
-#Text=_
-3-1	104-107	The	_	_	_	_
-3-2	108-109	3	_	_	_	_
-3-3	110-112	hr	_	_	_	_
-3-4	113-115	UE	_	_	_	_
+#Text=The 3 hr UE .
+3-1	104-107	The	abstract[7]	new[7]	coref	5-3[16_7]
+3-2	108-109	3	abstract[7]	new[7]	_	_
+3-3	110-112	hr	abstract[7]	new[7]	_	_
+3-4	113-115	UE	abstract[7]	new[7]	_	_
 3-5	116-117	.	_	_	_	_
 
-#Text=_
+#Text=I guess management needed to be a part of the production from its scripting stages .
 4-1	118-119	I	_	_	_	_
 4-2	120-125	guess	_	_	_	_
 4-3	126-136	management	_	_	_	_
@@ -44,40 +44,40 @@
 4-7	150-151	a	_	_	_	_
 4-8	152-156	part	_	_	_	_
 4-9	157-159	of	_	_	_	_
-4-10	160-163	the	_	_	_	_
-4-11	164-174	production	_	_	_	_
+4-10	160-163	the	abstract[12]	acc[12]	ana	4-13[14_12]
+4-11	164-174	production	abstract[12]	acc[12]	_	_
 4-12	175-179	from	_	_	_	_
-4-13	180-183	its	_	_	_	_
+4-13	180-183	its	abstract[14]	giv[14]	_	_
 4-14	184-193	scripting	_	_	_	_
 4-15	194-200	stages	_	_	_	_
 4-16	201-202	.	_	_	_	_
 
-#Text=_
-5-1	203-209	Snyder	_	_	_	_
+#Text=Snyder made the film he wanted to make .
+5-1	203-209	Snyder	person	giv	ana	5-5
 5-2	210-214	made	_	_	_	_
-5-3	215-218	the	_	_	_	_
-5-4	219-223	film	_	_	_	_
-5-5	224-226	he	_	_	_	_
-5-6	227-233	wanted	_	_	_	_
-5-7	234-236	to	_	_	_	_
-5-8	237-241	make	_	_	_	_
+5-3	215-218	the	abstract[16]	giv[16]	coref	7-7[28_16]
+5-4	219-223	film	abstract[16]	giv[16]	_	_
+5-5	224-226	he	person|abstract[16]	giv|giv[16]	ana	6-1
+5-6	227-233	wanted	abstract[16]	giv[16]	_	_
+5-7	234-236	to	abstract[16]	giv[16]	_	_
+5-8	237-241	make	abstract[16]	giv[16]	_	_
 5-9	242-243	.	_	_	_	_
 
-#Text=_
-6-1	244-246	He	_	_	_	_
+#Text=He did his job , but he had no oversight , but even he was aware that a 3 hr cut is nt necessarily what the studio wants .
+6-1	244-246	He	person	giv	ana	6-3[20_0]
 6-2	247-250	did	_	_	_	_
-6-3	251-254	his	_	_	_	_
+6-3	251-254	his	person[20]	giv[20]	ana	6-7[0_20]
 6-4	255-258	job	_	_	_	_
 6-5	259-260	,	_	_	_	_
 6-6	261-264	but	_	_	_	_
-6-7	265-267	he	_	_	_	_
+6-7	265-267	he	person	giv	ana	6-14
 6-8	268-271	had	_	_	_	_
 6-9	272-274	no	_	_	_	_
 6-10	275-284	oversight	_	_	_	_
 6-11	285-286	,	_	_	_	_
 6-12	287-290	but	_	_	_	_
 6-13	291-295	even	_	_	_	_
-6-14	296-298	he	_	_	_	_
+6-14	296-298	he	person	giv	_	_
 6-15	299-302	was	_	_	_	_
 6-16	303-308	aware	_	_	_	_
 6-17	309-313	that	_	_	_	_
@@ -89,24 +89,24 @@
 6-23	328-330	nt	_	_	_	_
 6-24	331-342	necessarily	_	_	_	_
 6-25	343-347	what	_	_	_	_
-6-26	348-351	the	_	_	_	_
-6-27	352-358	studio	_	_	_	_
+6-26	348-351	the	organization[26]	giv[26]	coref	7-1[27_26]
+6-27	352-358	studio	organization[26]	giv[26]	_	_
 6-28	359-364	wants	_	_	_	_
 6-29	365-366	.	_	_	_	_
 
-#Text=_
-7-1	367-370	The	_	_	_	_
-7-2	371-377	studio	_	_	_	_
+#Text=The studio should ve just released the UE .
+7-1	367-370	The	organization[27]	giv[27]	coref	13-1[0_27]
+7-2	371-377	studio	organization[27]	giv[27]	_	_
 7-3	378-384	should	_	_	_	_
 7-4	385-387	ve	_	_	_	_
 7-5	388-392	just	_	_	_	_
 7-6	393-401	released	_	_	_	_
-7-7	402-405	the	_	_	_	_
-7-8	406-408	UE	_	_	_	_
+7-7	402-405	the	abstract[28]	giv[28]	ana	8-1[0_28]
+7-8	406-408	UE	abstract[28]	giv[28]	_	_
 7-9	409-410	.	_	_	_	_
 
-#Text=_
-8-1	411-413	It	_	_	_	_
+#Text=It probably would 've made less with the decrease in number of showings , but it would 've been a more respected film , and that carries more wait in the end .
+8-1	411-413	It	abstract	giv	ana	8-16
 8-2	414-422	probably	_	_	_	_
 8-3	423-428	would	_	_	_	_
 8-4	429-432	've	_	_	_	_
@@ -121,7 +121,7 @@
 8-13	474-482	showings	_	_	_	_
 8-14	483-484	,	_	_	_	_
 8-15	485-488	but	_	_	_	_
-8-16	489-491	it	_	_	_	_
+8-16	489-491	it	abstract	giv	coref	9-2[36_0]
 8-17	492-497	would	_	_	_	_
 8-18	498-501	've	_	_	_	_
 8-19	502-506	been	_	_	_	_
@@ -140,22 +140,22 @@
 8-32	565-568	end	_	_	_	_
 8-33	569-570	.	_	_	_	_
 
-#Text=_
+#Text=But the movie was uneven in its delivery of action sequences .
 9-1	571-574	But	_	_	_	_
-9-2	575-578	the	_	_	_	_
-9-3	579-584	movie	_	_	_	_
+9-2	575-578	the	abstract[36]	giv[36]	ana	9-7[38_36]
+9-3	579-584	movie	abstract[36]	giv[36]	_	_
 9-4	585-588	was	_	_	_	_
 9-5	589-595	uneven	_	_	_	_
 9-6	596-598	in	_	_	_	_
-9-7	599-602	its	_	_	_	_
-9-8	603-611	delivery	_	_	_	_
-9-9	612-614	of	_	_	_	_
-9-10	615-621	action	_	_	_	_
-9-11	622-631	sequences	_	_	_	_
+9-7	599-602	its	abstract[37]|abstract[38]	new[37]|giv[38]	ana	10-1[0_37]
+9-8	603-611	delivery	abstract[37]	new[37]	_	_
+9-9	612-614	of	abstract[37]	new[37]	_	_
+9-10	615-621	action	abstract[37]	new[37]	_	_
+9-11	622-631	sequences	abstract[37]	new[37]	_	_
 9-12	632-633	.	_	_	_	_
 
-#Text=_
-10-1	634-636	It	_	_	_	_
+#Text=It was mostly contained to the last act .
+10-1	634-636	It	abstract	giv	_	_
 10-2	637-640	was	_	_	_	_
 10-3	641-647	mostly	_	_	_	_
 10-4	648-657	contained	_	_	_	_
@@ -165,62 +165,62 @@
 10-8	670-673	act	_	_	_	_
 10-9	674-675	.	_	_	_	_
 
-#Text=_
-11-1	676-682	Having	_	_	_	_
-11-2	683-684	a	_	_	_	_
-11-3	685-686	2	_	_	_	_
-11-4	687-691	hour	_	_	_	_
-11-5	692-695	set	_	_	_	_
-11-6	696-698	up	_	_	_	_
-11-7	699-701	of	_	_	_	_
-11-8	702-711	character	_	_	_	_
-11-9	712-720	building	_	_	_	_
-11-10	721-724	and	_	_	_	_
-11-11	725-733	dialogue	_	_	_	_
-11-12	734-736	is	_	_	_	_
-11-13	737-740	n't	_	_	_	_
-11-14	741-744	the	_	_	_	_
-11-15	745-749	best	_	_	_	_
-11-16	750-758	strategy	_	_	_	_
-11-17	759-763	when	_	_	_	_
-11-18	764-773	marketing	_	_	_	_
-11-19	774-776	to	_	_	_	_
-11-20	777-779	GA	_	_	_	_
-11-21	780-781	.	_	_	_	_
+#Text=Having a 2 hour set up of character building and dialogue is n't the best strategy when marketing to GA .
+11-1	676-682	Having	abstract[43]	new[43]	ana	13-4[0_43]
+11-2	683-684	a	abstract[43]	new[43]	_	_
+11-3	685-686	2	abstract[43]	new[43]	_	_
+11-4	687-691	hour	abstract[43]	new[43]	_	_
+11-5	692-695	set	abstract[43]	new[43]	_	_
+11-6	696-698	up	abstract[43]	new[43]	_	_
+11-7	699-701	of	abstract[43]	new[43]	_	_
+11-8	702-711	character	abstract[43]	new[43]	_	_
+11-9	712-720	building	abstract[43]	new[43]	_	_
+11-10	721-724	and	abstract[43]	new[43]	_	_
+11-11	725-733	dialogue	abstract[43]	new[43]	_	_
+11-12	734-736	is	abstract[43]	new[43]	_	_
+11-13	737-740	n't	abstract[43]	new[43]	_	_
+11-14	741-744	the	abstract[43]	new[43]	_	_
+11-15	745-749	best	abstract[43]	new[43]	_	_
+11-16	750-758	strategy	abstract[43]	new[43]	_	_
+11-17	759-763	when	abstract[43]	new[43]	_	_
+11-18	764-773	marketing	abstract[43]	new[43]	_	_
+11-19	774-776	to	abstract[43]	new[43]	_	_
+11-20	777-779	GA	abstract[43]|person[49]	new[43]|new[49]	ana	12-1[0_49]
+11-21	780-781	.	abstract[43]	new[43]	_	_
 
-#Text=_
-12-1	782-786	They	_	_	_	_
+#Text=They want to be entertained .
+12-1	782-786	They	person	giv	_	_
 12-2	787-791	want	_	_	_	_
 12-3	792-794	to	_	_	_	_
 12-4	795-797	be	_	_	_	_
 12-5	798-809	entertained	_	_	_	_
 12-6	810-811	.	_	_	_	_
 
-#Text=_
-13-1	812-814	WB	_	_	_	_
+#Text=WB probably saw this and wanted to get to the action much quicker , even though they would nt' have had to do that had there been multiple action sequences throughout the entire film .
+13-1	812-814	WB	organization	giv	ana	13-17
 13-2	815-823	probably	_	_	_	_
 13-3	824-827	saw	_	_	_	_
-13-4	828-832	this	_	_	_	_
+13-4	828-832	this	abstract	giv	_	_
 13-5	833-836	and	_	_	_	_
 13-6	837-843	wanted	_	_	_	_
 13-7	844-846	to	_	_	_	_
-13-8	847-850	get	_	_	_	_
-13-9	851-853	to	_	_	_	_
-13-10	854-857	the	_	_	_	_
-13-11	858-864	action	_	_	_	_
-13-12	865-869	much	_	_	_	_
-13-13	870-877	quicker	_	_	_	_
+13-8	847-850	get	event[53]	new[53]	ana	13-24[0_53]
+13-9	851-853	to	event[53]	new[53]	_	_
+13-10	854-857	the	event[53]	new[53]	_	_
+13-11	858-864	action	event[53]	new[53]	_	_
+13-12	865-869	much	event[53]	new[53]	_	_
+13-13	870-877	quicker	event[53]	new[53]	_	_
 13-14	878-879	,	_	_	_	_
 13-15	880-884	even	_	_	_	_
 13-16	885-891	though	_	_	_	_
-13-17	892-896	they	_	_	_	_
+13-17	892-896	they	organization	giv	_	_
 13-18	897-902	would	_	_	_	_
 13-19	903-906	nt'	_	_	_	_
 13-20	907-911	have	_	_	_	_
 13-21	912-915	had	_	_	_	_
 13-22	916-918	to	_	_	_	_
 13-23	919-921	do	_	_	_	_
-13-24	922-926	that	_	_	_	_
+13-24	922-926	that	event	giv	_	_
 13-25	927-930	had	_	_	_	_
 13-26	931-936	there	_	_	_	_
 13-27	937-941	been	_	_	_	_
@@ -233,7 +233,7 @@
 13-34	990-994	film	_	_	_	_
 13-35	995-996	.	_	_	_	_
 
-#Text=_
+#Text=But all we got in the first 2 hrs was the short scene of Superman in Africa , Knightmare Batman , Batmobile scene , and then the non-stop 3rd hour .
 14-1	997-1000	But	_	_	_	_
 14-2	1001-1004	all	_	_	_	_
 14-3	1005-1007	we	_	_	_	_
@@ -266,7 +266,7 @@
 14-30	1139-1143	hour	_	_	_	_
 14-31	1144-1145	.	_	_	_	_
 
-#Text=_
+#Text=This film needed clear work from the very beginning .
 15-1	1146-1150	This	_	_	_	_
 15-2	1151-1155	film	_	_	_	_
 15-3	1156-1162	needed	_	_	_	_
@@ -278,7 +278,7 @@
 15-9	1188-1197	beginning	_	_	_	_
 15-10	1198-1199	.	_	_	_	_
 
-#Text=_
+#Text=The " filmmaker-driven " approach can still work as long as the studios create a sort of minimal blueprint for the director that sort of matches up with what " entertains " a general audience .
 16-1	1200-1203	The	_	_	_	_
 16-2	1204-1205	"	_	_	_	_
 16-3	1206-1222	filmmaker-driven	_	_	_	_

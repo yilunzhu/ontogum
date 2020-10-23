@@ -14,11 +14,11 @@
 2-4	30-35	Hadid	person[2]	giv[2]	_	_
 2-5	36-39	DBE	person[2]	giv[2]	_	_
 2-6	40-42	RA	person[2]	giv[2]	_	_
-2-7	43-44	(	person[2]	person[2]	_	_
-2-8	45-51	Arabic	person[2]	person[2]	_	_
-2-9	52-53	:	person[2]	person[2]	_	_
-2-10	54-57	زها	person[2]	person[2]	_	_
-2-11	58-62	حديد	person[2]	person[2]	_	_
+2-7	43-44	(	person[2]	giv[2]	_	_
+2-8	45-51	Arabic	person[2]	giv[2]	_	_
+2-9	52-53	:	person[2]	giv[2]	_	_
+2-10	54-57	زها	person[2]	giv[2]	_	_
+2-11	58-62	حديد	person[2]	giv[2]	_	_
 2-12	63-67	Zahā	person[2]	giv[2]	_	_
 2-13	68-73	Ḥadīd	person[2]	giv[2]	_	_
 2-14	74-75	;	person[2]	giv[2]	_	_
@@ -101,20 +101,20 @@
 5-24	434-437	and	person[28]	giv[28]	_	_
 5-25	438-442	only	person[28]	giv[28]	_	_
 5-26	443-448	woman	person[28]	giv[28]	_	_
-5-27	449-451	to	person[28]|person[28]	giv[28]|giv[28]	_	_
-5-28	452-454	be	person[28]|person[28]	giv[28]|giv[28]	_	_
-5-29	455-462	awarded	person[28]|person[28]	giv[28]|giv[28]	_	_
-5-30	463-466	the	person[28]|person[28]	giv[28]|giv[28]	_	_
-5-31	467-472	Royal	person[28]|person[28]	giv[28]|giv[28]	_	_
-5-32	473-477	Gold	person[28]|person[28]	giv[28]|giv[28]	_	_
-5-33	478-483	Medal	person[28]|person[28]	giv[28]|giv[28]	_	_
-5-34	484-488	from	person[28]|person[28]	giv[28]|giv[28]	_	_
-5-35	489-492	the	person[28]|person[28]	giv[28]|giv[28]	_	_
-5-36	493-498	Royal	person[28]|person[28]	giv[28]|giv[28]	_	_
-5-37	499-508	Institute	person[28]|person[28]	giv[28]|giv[28]	_	_
-5-38	509-511	of	person[28]|person[28]	giv[28]|giv[28]	_	_
-5-39	512-519	British	person[28]|person[28]	giv[28]|giv[28]	_	_
-5-40	520-530	Architects	person[28]|person[28]	giv[28]|giv[28]	_	_
+5-27	449-451	to	person[28]	giv[28]	_	_
+5-28	452-454	be	person[28]	giv[28]	_	_
+5-29	455-462	awarded	person[28]	giv[28]	_	_
+5-30	463-466	the	person[28]	giv[28]	_	_
+5-31	467-472	Royal	person[28]	giv[28]	_	_
+5-32	473-477	Gold	person[28]	giv[28]	_	_
+5-33	478-483	Medal	person[28]	giv[28]	_	_
+5-34	484-488	from	person[28]	giv[28]	_	_
+5-35	489-492	the	person[28]	giv[28]	_	_
+5-36	493-498	Royal	person[28]	giv[28]	_	_
+5-37	499-508	Institute	person[28]	giv[28]	_	_
+5-38	509-511	of	person[28]	giv[28]	_	_
+5-39	512-519	British	person[28]	giv[28]	_	_
+5-40	520-530	Architects	person[28]	giv[28]	_	_
 5-41	531-532	.	_	_	_	_
 
 #Text=She was described by The Guardian of London as the ' Queen of the curve ' , who " liberated architectural geometry , giving it a whole new expressive identity . "
@@ -260,20 +260,20 @@
 10-18	1229-1230	.	_	_	_	_
 
 #Text=Her father Mohammed Hadid Muhammad al-Hajj Husayn Hadid was a wealthy industrialist from Mosul .
-11-1	1231-1234	Her	person[78]|person[79]|person[236]	new[78]|giv[79]|new[236]	appos|ana|ana	11-3[80_78]|15-1[103_79]|12-1[0_236]
-11-2	1235-1241	father	person[78]|person[236]	new[78]|new[236]	_	_
-11-3	1242-1250	Mohammed	person[80]|person[236]	giv[80]|new[236]	_	_
-11-4	1251-1256	Hadid	person[80]|person[236]	giv[80]|new[236]	_	_
-11-5	1257-1265	Muhammad	person[80]|person[236]	giv[80]|new[236]	_	_
-11-6	1266-1273	al-Hajj	person[80]|person[236]	giv[80]|new[236]	_	_
-11-7	1274-1280	Husayn	person[80]|person[236]	giv[80]|new[236]	_	_
-11-8	1281-1286	Hadid	person[80]|person[236]	giv[80]|new[236]	_	_
+11-1	1231-1234	Her	person[78]|person[79]|person[205]	new[78]|giv[79]|new[205]	appos|ana|ana	11-3[80_78]|15-1[103_79]|12-1[0_205]
+11-2	1235-1241	father	person[78]|person[205]	new[78]|new[205]	_	_
+11-3	1242-1250	Mohammed	person[80]|person[205]	giv[80]|new[205]	_	_
+11-4	1251-1256	Hadid	person[80]|person[205]	giv[80]|new[205]	_	_
+11-5	1257-1265	Muhammad	person[80]|person[205]	giv[80]|new[205]	_	_
+11-6	1266-1273	al-Hajj	person[80]|person[205]	giv[80]|new[205]	_	_
+11-7	1274-1280	Husayn	person[80]|person[205]	giv[80]|new[205]	_	_
+11-8	1281-1286	Hadid	person[80]|person[205]	giv[80]|new[205]	_	_
 11-9	1287-1290	was	_	_	_	_
 11-10	1291-1292	a	_	_	_	_
 11-11	1293-1300	wealthy	_	_	_	_
 11-12	1301-1314	industrialist	_	_	_	_
 11-13	1315-1319	from	_	_	_	_
-11-14	1320-1325	Mosul	place[82]	place[82]	coref	15-9[106_82]
+11-14	1320-1325	Mosul	place[82]	new[82]	coref	15-9[106_82]
 11-15	1326-1327	.	_	_	_	_
 
 #Text=He co-founded the left-liberal al-Ahali group in 1932 , a significant political organisation in the 1930s and 1940s .
@@ -283,8 +283,8 @@
 12-4	1346-1358	left-liberal	organization[84]	new[84]	_	_
 12-5	1359-1367	al-Ahali	organization[84]	new[84]	_	_
 12-6	1368-1373	group	organization[84]	new[84]	_	_
-12-7	1374-1376	in	_	_	_	_
-12-8	1377-1381	1932	_	_	_	_
+12-7	1374-1376	in	organization[84]	new[84]	_	_
+12-8	1377-1381	1932	organization[84]	new[84]	_	_
 12-9	1382-1383	,	organization[84]	new[84]	_	_
 12-10	1384-1385	a	organization[87]	giv[87]	_	_
 12-11	1386-1397	significant	organization[87]	giv[87]	_	_
@@ -308,7 +308,7 @@
 13-8	1484-1494	Democratic	_	_	_	_
 13-9	1495-1500	Party	_	_	_	_
 13-10	1501-1503	in	_	_	_	_
-13-11	1504-1508	Iraq	place[93]	place[93]	_	_
+13-11	1504-1508	Iraq	place[93]	giv[93]	_	_
 13-12	1509-1510	.	_	_	_	_
 
 #Text=He served as minister of finance after the overthrow of the monarch after the 1958 Iraqi coup d'état for the government of General Abd al-Karim Qasim .
@@ -349,7 +349,7 @@
 15-6	1696-1698	an	_	_	_	_
 15-7	1699-1705	artist	_	_	_	_
 15-8	1706-1710	from	_	_	_	_
-15-9	1711-1716	Mosul	place[106]	place[106]	_	_
+15-9	1711-1716	Mosul	place[106]	giv[106]	_	_
 15-10	1717-1718	.	_	_	_	_
 
 #Text=In the 1960s Hadid attended boarding schools in England and Switzerland .
@@ -400,7 +400,7 @@
 18-2	1965-1968	she	person	giv	ana	19-1[124_0]
 18-3	1969-1976	studied	_	_	_	_
 18-4	1977-1981	with	_	_	_	_
-18-5	1982-1985	Rem	person[120]	new[120]	coref	19-1[239_120]
+18-5	1982-1985	Rem	person[120]	new[120]	coref	19-1[208_120]
 18-6	1986-1994	Koolhaas	person[120]	new[120]	_	_
 18-7	1995-1996	,	_	_	_	_
 18-8	1997-2001	Elia	person[121]	new[121]	coref	20-1[0_121]
@@ -411,11 +411,11 @@
 18-13	2032-2033	.	_	_	_	_
 
 #Text=Her former professor , Koolhaas , described her at graduation as " a planet in her own orbit . "
-19-1	2034-2037	Her	person[123]|person[124]|person[239]	giv[123]|giv[124]|giv[239]	appos|ana	19-5[0_123]|19-8[0_124]
-19-2	2038-2044	former	person[123]|person[239]	giv[123]|giv[239]	_	_
-19-3	2045-2054	professor	person[123]|person[239]	giv[123]|giv[239]	_	_
-19-4	2055-2056	,	person[123]|person[239]	giv[123]|giv[239]	_	_
-19-5	2057-2065	Koolhaas	person	giv	_	_
+19-1	2034-2037	Her	person[123]|person[124]|person[208]	giv[123]|giv[124]|giv[208]	appos|ana	19-5[0_123]|19-8[0_124]
+19-2	2038-2044	former	person[123]|person[208]	giv[123]|giv[208]	_	_
+19-3	2045-2054	professor	person[123]|person[208]	giv[123]|giv[208]	_	_
+19-4	2055-2056	,	person[123]|person[208]	giv[123]|giv[208]	_	_
+19-5	2057-2065	Koolhaas	person|person[208]	giv|giv[208]	_	_
 19-6	2066-2067	,	_	_	_	_
 19-7	2068-2077	described	_	_	_	_
 19-8	2078-2081	her	person	giv	ana	19-16[130_0]

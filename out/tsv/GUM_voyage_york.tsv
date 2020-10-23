@@ -307,7 +307,7 @@
 16-3	1460-1469	festivals	_	_	_	_
 16-4	1470-1473	are	_	_	_	_
 16-5	1474-1477	the	_	_	_	_
-16-6	1478-1484	Viking	person[80]	person[80]	_	_
+16-6	1478-1484	Viking	person[80]	giv[80]	_	_
 16-7	1485-1493	Festival	_	_	_	_
 16-8	1494-1495	,	_	_	_	_
 16-9	1496-1499	the	_	_	_	_
@@ -321,8 +321,8 @@
 16-17	1535-1539	Late	_	_	_	_
 16-18	1540-1545	Music	_	_	_	_
 16-19	1546-1547	,	_	_	_	_
-16-20	1548-1553	Horse	event[84]	event[84]	appos	16-22[226_84]
-16-21	1554-1560	Racing	event[84]	event[84]	_	_
+16-20	1548-1553	Horse	event[84]	new[84]	appos	16-22[226_84]
+16-21	1554-1560	Racing	event[84]	new[84]	_	_
 16-22	1561-1562	(	event[226]	giv[226]	_	_
 16-23	1563-1566	the	event[226]	giv[226]	_	_
 16-24	1567-1568	"	event[226]	giv[226]	_	_
@@ -480,14 +480,14 @@
 23-36	2246-2249	A64	abstract[120]	new[120]	_	_
 23-37	2250-2259	eastbound	abstract[120]	new[120]	_	_
 23-38	2260-2262	to	abstract[120]	new[120]	_	_
-23-39	2263-2266	the	abstract[120]|place[121]|place[321]	new[120]|new[121]|new[321]	appos|coref	23-44[288_121]|29-41[172_321]
-23-40	2267-2271	York	abstract[120]|place[121]|place[122]|place[321]	new[120]|new[121]|giv[122]|new[321]	coref	25-27[0_122]
-23-41	2272-2277	Outer	abstract[120]|place[121]|place[321]	new[120]|new[121]|new[321]	_	_
-23-42	2278-2282	Ring	abstract[120]|place[121]|place[321]	new[120]|new[121]|new[321]	_	_
-23-43	2283-2287	Road	abstract[120]|place[121]|place[321]	new[120]|new[121]|new[321]	_	_
-23-44	2288-2289	(	place[288]|place[321]	giv[288]|new[321]	_	_
-23-45	2290-2295	A1237	place[288]|place[321]	giv[288]|new[321]	_	_
-23-46	2296-2297	)	place[288]|place[321]	giv[288]|new[321]	_	_
+23-39	2263-2266	the	abstract[120]|place[121]|place[290]	new[120]|new[121]|new[290]	appos|coref	23-44[257_121]|29-41[172_290]
+23-40	2267-2271	York	abstract[120]|place[121]|place[122]|place[290]	new[120]|new[121]|giv[122]|new[290]	coref	25-27[0_122]
+23-41	2272-2277	Outer	abstract[120]|place[121]|place[290]	new[120]|new[121]|new[290]	_	_
+23-42	2278-2282	Ring	abstract[120]|place[121]|place[290]	new[120]|new[121]|new[290]	_	_
+23-43	2283-2287	Road	abstract[120]|place[121]|place[290]	new[120]|new[121]|new[290]	_	_
+23-44	2288-2289	(	place[257]|place[290]	giv[257]|new[290]	_	_
+23-45	2290-2295	A1237	place[257]|place[290]	giv[257]|new[290]	_	_
+23-46	2296-2297	)	place[257]|place[290]	giv[257]|new[290]	_	_
 23-47	2298-2299	.	_	_	_	_
 
 #Text=Alternatively , you can take the M1 all the way to the A64 , but the upper reaches of the M1 around Sheffield and Leeds can get very congested , especially in the rush hours .
@@ -555,7 +555,7 @@
 25-24	2594-2597	the	_	_	_	_
 25-25	2598-2601	A19	_	_	_	_
 25-26	2602-2606	link	_	_	_	_
-25-27	2607-2611	York	place	giv	_	_
+25-27	2607-2611	York	place	giv	coref	27-9[148_0]
 25-28	2612-2616	with	_	_	_	_
 25-29	2617-2625	Tyneside	_	_	_	_
 25-30	2626-2627	,	_	_	_	_
@@ -587,8 +587,8 @@
 27-6	2763-2771	arterial	_	_	_	_
 27-7	2772-2777	roads	_	_	_	_
 27-8	2778-2785	serving	_	_	_	_
-27-9	2786-2789	the	_	_	_	_
-27-10	2790-2794	city	_	_	_	_
+27-9	2786-2789	the	place[148]	giv[148]	coref	29-6[0_148]
+27-10	2790-2794	city	place[148]	giv[148]	_	_
 27-11	2795-2796	(	_	_	_	_
 27-12	2797-2807	especially	_	_	_	_
 27-13	2808-2811	the	place[149]	giv[149]	_	_
@@ -658,7 +658,7 @@
 29-3	3132-3135	are	_	_	_	_
 29-4	3136-3140	just	_	_	_	_
 29-5	3141-3149	visiting	_	_	_	_
-29-6	3150-3154	York	_	_	_	_
+29-6	3150-3154	York	place	giv	coref	31-9
 29-7	3155-3158	for	_	_	_	_
 29-8	3159-3162	the	time[167]	new[167]	coref	32-7[190_167]
 29-9	3163-3166	day	time[167]	new[167]	_	_
@@ -743,7 +743,7 @@
 31-6	3503-3510	staying	_	_	_	_
 31-7	3511-3520	overnight	_	_	_	_
 31-8	3521-3523	in	_	_	_	_
-31-9	3524-3528	York	_	_	_	_
+31-9	3524-3528	York	place	giv	_	_
 31-10	3529-3532	and	_	_	_	_
 31-11	3533-3541	arriving	_	_	_	_
 31-12	3542-3544	by	_	_	_	_

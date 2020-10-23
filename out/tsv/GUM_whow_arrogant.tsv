@@ -19,24 +19,24 @@
 2-6	52-57	cross	_	_	_	_
 2-7	58-63	paths	_	_	_	_
 2-8	64-68	with	_	_	_	_
-2-9	69-75	people	person	giv	ana	2-14
-2-10	76-79	who	_	_	_	_
-2-11	80-83	are	_	_	_	_
-2-12	84-89	stuck	_	_	_	_
-2-13	90-92	on	_	_	_	_
-2-14	93-103	themselves	person	giv	ana	2-21[6_0]
-2-15	104-105	,	_	_	_	_
-2-16	106-116	intolerant	_	_	_	_
-2-17	117-119	of	_	_	_	_
-2-18	120-126	people	person[5]	acc[5]	ana	3-24[11_5]
-2-19	127-136	different	person[5]	acc[5]	_	_
-2-20	137-141	from	person[5]	acc[5]	_	_
-2-21	142-146	them	person[5]|person[6]	acc[5]|giv[6]	coref	3-1[7_6]
-2-22	147-148	,	_	_	_	_
-2-23	149-153	rude	_	_	_	_
-2-24	154-156	or	_	_	_	_
-2-25	157-166	downright	_	_	_	_
-2-26	167-175	arrogant	_	_	_	_
+2-9	69-75	people	person[345]	giv[345]	ana	2-21[6_345]
+2-10	76-79	who	person[345]	giv[345]	_	_
+2-11	80-83	are	person[345]	giv[345]	_	_
+2-12	84-89	stuck	person[345]	giv[345]	_	_
+2-13	90-92	on	person[345]	giv[345]	_	_
+2-14	93-103	themselves	person[345]	giv[345]	_	_
+2-15	104-105	,	person[345]	giv[345]	_	_
+2-16	106-116	intolerant	person[345]	giv[345]	_	_
+2-17	117-119	of	person[345]	giv[345]	_	_
+2-18	120-126	people	person[5]|person[345]	acc[5]|giv[345]	ana	3-24[11_5]
+2-19	127-136	different	person[5]|person[345]	acc[5]|giv[345]	_	_
+2-20	137-141	from	person[5]|person[345]	acc[5]|giv[345]	_	_
+2-21	142-146	them	person[5]|person[6]|person[345]	acc[5]|giv[6]|giv[345]	coref	3-1[7_6]
+2-22	147-148	,	person[345]	giv[345]	_	_
+2-23	149-153	rude	person[345]	giv[345]	_	_
+2-24	154-156	or	person[345]	giv[345]	_	_
+2-25	157-166	downright	person[345]	giv[345]	_	_
+2-26	167-175	arrogant	person[345]	giv[345]	_	_
 2-27	176-177	?	_	_	_	_
 
 #Text=These people can be a great source of potential pain , and this article is here to help you sort the arrogant from the not-so-arrogant .
@@ -181,12 +181,12 @@
 11-11	826-834	learning	abstract[32]	new[32]	_	_
 11-12	835-836	(	abstract[283]	giv[283]	_	_
 11-13	837-844	actions	abstract[283]	giv[283]	_	_
-11-14	845-851	viewed	abstract[283]|abstract[283]	giv[283]|giv[283]	_	_
-11-15	852-854	by	abstract[283]|abstract[283]	giv[283]|giv[283]	_	_
-11-16	855-859	them	person|abstract[283]|abstract[283]	giv|giv[283]|giv[283]	_	_
-11-17	860-862	as	abstract[283]|abstract[283]	giv[283]|giv[283]	_	_
-11-18	863-870	showing	abstract[283]|abstract[283]	giv[283]|giv[283]	_	_
-11-19	871-884	vulnerability	abstract[283]|abstract[283]	giv[283]|giv[283]	_	_
+11-14	845-851	viewed	abstract[283]	giv[283]	_	_
+11-15	852-854	by	abstract[283]	giv[283]	_	_
+11-16	855-859	them	person|abstract[283]	giv|giv[283]	_	_
+11-17	860-862	as	abstract[283]	giv[283]	_	_
+11-18	863-870	showing	abstract[283]	giv[283]	_	_
+11-19	871-884	vulnerability	abstract[283]	giv[283]	_	_
 11-20	885-886	)	abstract[283]	giv[283]	_	_
 11-21	887-888	,	_	_	_	_
 11-22	889-897	arrogant	person[35]	giv[35]	ana	11-28[37_35]
@@ -462,15 +462,15 @@
 24-14	2199-2208	certainty	abstract[91]	new[91]	_	_
 24-15	2209-2210	(	abstract[314]	giv[314]	_	_
 24-16	2211-2220	realities	abstract[314]	giv[314]	_	_
-24-17	2221-2223	we	person[93]|abstract[314]|abstract[314]	giv[93]|giv[314]|giv[314]	ana	24-24[0_93]
-24-18	2224-2227	all	person[93]|abstract[314]|abstract[314]	giv[93]|giv[314]|giv[314]	_	_
-24-19	2228-2232	must	abstract[314]|abstract[314]	giv[314]|giv[314]	_	_
-24-20	2233-2240	contend	abstract[314]|abstract[314]	giv[314]|giv[314]	_	_
-24-21	2241-2245	with	abstract[314]|abstract[314]	giv[314]|giv[314]	_	_
-24-22	2246-2248	as	abstract[314]|abstract[314]	giv[314]|giv[314]	_	_
-24-23	2249-2253	best	abstract[314]|abstract[314]	giv[314]|giv[314]	_	_
-24-24	2254-2256	we	person|abstract[314]|abstract[314]	giv|giv[314]|giv[314]	_	_
-24-25	2257-2260	can	abstract[314]|abstract[314]	giv[314]|giv[314]	_	_
+24-17	2221-2223	we	person[93]|abstract[314]	giv[93]|giv[314]	ana	24-24[0_93]
+24-18	2224-2227	all	person[93]|abstract[314]	giv[93]|giv[314]	_	_
+24-19	2228-2232	must	abstract[314]	giv[314]	_	_
+24-20	2233-2240	contend	abstract[314]	giv[314]	_	_
+24-21	2241-2245	with	abstract[314]	giv[314]	_	_
+24-22	2246-2248	as	abstract[314]	giv[314]	_	_
+24-23	2249-2253	best	abstract[314]	giv[314]	_	_
+24-24	2254-2256	we	person|abstract[314]	giv|giv[314]	_	_
+24-25	2257-2260	can	abstract[314]	giv[314]	_	_
 24-26	2261-2262	)	abstract[314]	giv[314]	_	_
 24-27	2263-2264	.	_	_	_	_
 
@@ -639,12 +639,12 @@
 30-17	3066-3070	good	_	_	_	_
 30-18	3071-3077	friend	_	_	_	_
 30-19	3078-3080	to	_	_	_	_
-30-20	3081-3088	someone	person	giv	coref	30-25
+30-20	3081-3088	someone	_	_	_	_
 30-21	3089-3092	who	_	_	_	_
 30-22	3093-3095	's	_	_	_	_
 30-23	3096-3101	stuck	_	_	_	_
 30-24	3102-3104	on	_	_	_	_
-30-25	3105-3115	themselves	person	giv	_	_
+30-25	3105-3115	themselves	_	_	_	_
 30-26	3116-3117	.	_	_	_	_
 
 #Text=Prideful people have a strong need to look good , and being self-sufficient is an effective way to do that .
@@ -1065,7 +1065,7 @@
 53-15	5019-5021	as	_	_	_	_
 53-16	5022-5029	threats	_	_	_	_
 53-17	5030-5032	to	_	_	_	_
-53-18	5033-5038	their	abstract[215]|person[216]	acc[215]|giv[216]	coref|ana	54-14[220_215]|54-3[0_216]
+53-18	5033-5038	their	abstract[215]|person[216]	acc[215]|giv[216]	ana	54-3[0_216]
 53-19	5039-5046	perfect	abstract[215]	acc[215]	_	_
 53-20	5047-5053	little	abstract[215]	acc[215]	_	_
 53-21	5054-5059	world	abstract[215]	acc[215]	_	_
@@ -1085,9 +1085,9 @@
 54-11	5115-5121	person	person[219]	giv[219]	_	_
 54-12	5122-5124	is	_	_	_	_
 54-13	5125-5127	to	_	_	_	_
-54-14	5128-5133	their	abstract[220]|person[221]	giv[220]|giv[221]	ana	56-6[0_221]
-54-15	5134-5141	fantasy	abstract[220]	giv[220]	_	_
-54-16	5142-5146	land	abstract[220]	giv[220]	_	_
+54-14	5128-5133	their	person[221]	giv[221]	ana	56-6[0_221]
+54-15	5134-5141	fantasy	_	_	_	_
+54-16	5142-5146	land	_	_	_	_
 54-17	5147-5148	.	_	_	_	_
 
 #Text=And in turn , the bigger the threat , the harsher the criticism .

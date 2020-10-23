@@ -1,4 +1,6 @@
 import io, os
+from collections import defaultdict
+from process_data import Coref
 
 
 def write_file(out_dir, output_string):
@@ -144,7 +146,7 @@ def to_html(doc, tokens, group_dict, antecedent_dict, out_dir):
     write_file(out_dir, output_string)
 
 
-def to_tsv(doc, coref_article, out_dir, non_singleton, new_id2entity):
+def gen_tsv(doc, coref_article, non_singleton, new_id2entity):
     converted_article = ''
     added_coref = []
     last_coref = ''
@@ -169,7 +171,7 @@ def to_tsv(doc, coref_article, out_dir, non_singleton, new_id2entity):
         coref_fields[-2], coref_fields[-1] = '', ''
 
         # test
-        if line_id == '12-5':
+        if line_id == '26-11':
             a = 1
 
         # entity info
@@ -194,7 +196,7 @@ def to_tsv(doc, coref_article, out_dir, non_singleton, new_id2entity):
             if id in doc.keys() and doc[id].delete == True:
                 if e:
                     coref_fields[3] = '|'.join([x for x in coref_fields[3].split('|') if e not in x])
-                    coref_fields[4] = '|'.join([x for x in coref_fields[3].split('|') if e not in x])
+                    coref_fields[4] = '|'.join([x for x in coref_fields[4].split('|') if e not in x])
                 else:
                     if '|' in coref_fields[3]:
                         raise ValueError('The line with fake id has deleted entities. Revise the code.')
@@ -246,7 +248,7 @@ def to_tsv(doc, coref_article, out_dir, non_singleton, new_id2entity):
 
                 # if next coref is removed
                 if doc[id].next == '' and doc[id].coref_type == '':
-                    if '0_' not in doc[id].cur and doc[id].cur not in coref_fields[3] and coref_fields[3] != '_':
+                    if doc[id].cur and '0_' not in doc[id].cur and doc[id].cur not in coref_fields[3] and coref_fields[3] != '_':
                         coref_fields[-3] += f'[{doc[id].cur}]'
                         coref_fields[3] += f'[{doc[id].cur}]'
                     pass
@@ -265,8 +267,9 @@ def to_tsv(doc, coref_article, out_dir, non_singleton, new_id2entity):
 
                 # if changed in func, such in function "remove_appos"
                 else:
-                    coref_fields[-3] += f'[{doc[id].cur}]'
-                    coref_fields[3] += f'[{doc[id].cur}]'
+                    if doc[id].cur:
+                        coref_fields[-3] += f'[{doc[id].cur}]'
+                        coref_fields[3] += f'[{doc[id].cur}]'
 
             # if the current token is added to the first part of an apposition, i.e. ","
             elif f'0_{e}' in doc.keys():
@@ -275,10 +278,10 @@ def to_tsv(doc, coref_article, out_dir, non_singleton, new_id2entity):
                 coref_fields[4] += f'|{doc[cur_id].seen}'
                 print(f'Warning: A token outside the coref span is added in Line {e}. This should not happen too often.')
 
-        # add expanded acl to the lines that are originally not included in the mention
+        # if the expanded acl is not added, add it to the lines that are originally not included in the mention
         cur_sent_id, cur_tok_id = line_id.split('-')[0], line_id.split('-')[1]
-        if last_coref in doc.keys() and cur_sent_id == doc[last_coref].text_id.split('-')[0] and cur_tok_id in \
-                doc[last_coref].acl_children:
+        if last_coref in doc.keys() and cur_sent_id == doc[last_coref].text_id.split('-')[0] and \
+                cur_tok_id in doc[last_coref].acl_children and doc[last_coref].cur not in coref_fields[3]:
             coref_fields[3] += '|' + doc[last_coref].e_type + f'[{doc[last_coref].cur}]'
             coref_fields[4] += '|' + doc[last_coref].seen + f'[{doc[last_coref].cur}]'
 
@@ -297,4 +300,97 @@ def to_tsv(doc, coref_article, out_dir, non_singleton, new_id2entity):
 
         converted_article += '\t'.join(coref_fields) + '\n'
 
+    return converted_article
+
+
+def to_tsv(doc, coref_article, out_dir, non_singleton, new_id2entity):
+    converted_article = gen_tsv(doc, coref_article, non_singleton, new_id2entity)
     write_file(out_dir, converted_article)
+
+
+def to_conll(docname, doc, coref_article, out_dir, non_singleton, new_id2entity, dep_sents):
+    converted_article = gen_tsv(doc, coref_article, non_singleton, new_id2entity)
+
+    count = 0
+    chain, group_chain, group = {}, {}, 0
+    end_coref = defaultdict(list)
+    seen = []
+    conll_article = f'# begin document {docname}\n'
+
+    for i, line in enumerate(converted_article.split('\n')):
+        if line.startswith('#') or line == '':
+            converted_article += line + '\n'
+            continue
+
+        fields = line.strip().split('\t')
+        line_id, token = fields[0], fields[2]
+        cur_sent_last_id = len(dep_sents[int(line_id.split('-')[0])])
+
+        cur_line = str(count) + '\t' + token + '\t'
+        count += 1
+        coref_part = ''
+
+        if line_id == '46-1':
+            a = 1
+
+        if fields[3] == '_':
+            cur_line += '_\n'
+            conll_article += cur_line
+            continue
+
+        for entity_info in fields[3].split('|'):
+            cur_e = entity_info.rstrip(']').split('[')
+            cur_e = f'0_{line_id}' if len(cur_e) == 1 else cur_e[-1]
+            next_e = doc[cur_e].next
+
+            if line_id != doc[cur_e].text_id and line_id not in end_coref.keys():
+                continue
+
+            cur_end_id = f'{doc[cur_e].text_id.split("-")[0]}-{int(doc[cur_e].text_id.split("-")[1]) + doc[cur_e].span_len - 1}'
+
+            if cur_e not in seen:
+                group += 1
+                seen.append(cur_e)
+                chain[group] = [cur_e]
+                group_chain[cur_e] = group
+                end_coref[cur_end_id].append(cur_e)
+
+                if next_e and next_e in doc.keys():
+                    seen.append(next_e)
+                    chain[group].append(next_e)
+                    group_chain[next_e] = group
+
+                    next_sent_id = doc[next_e].text_id.split('-')[0]
+                    next_tok_id = doc[next_e].text_id.split('-')[-1]
+
+                    end = int(next_tok_id) + doc[next_e].span_len - 1
+                    end_id = f'{next_sent_id}-{int(next_tok_id) + doc[next_e].span_len - 1}'
+                    end_coref[end_id].append(next_e)
+
+            elif cur_e in seen and next_e and next_e not in seen and next_e in doc.keys():
+                cur_group = group_chain[cur_e]
+                seen.append(next_e)
+                chain[cur_group].append(next_e)
+                group_chain[next_e] = cur_group
+
+                next_sent_id = doc[next_e].text_id.split('-')[0]
+                next_tok_id = doc[next_e].text_id.split('-')[-1]
+                end_id = f'{next_sent_id}-{int(next_tok_id) + doc[next_e].span_len - 1}'
+                end_coref[end_id].append(next_e)
+
+            if cur_end_id == doc[cur_e].text_id:
+                coref_part += f'({group_chain[cur_e]})'
+            elif line_id == doc[cur_e].text_id:
+                coref_part += f'({group_chain[cur_e]}'
+            elif line_id in end_coref.keys():
+                for e in set(end_coref[line_id]):
+                    if e == cur_e:
+                        coref_part = f'{group_chain[e]})' + coref_part
+
+        if coref_part == '':
+            coref_part += '_'
+        cur_line += coref_part + '\n'
+        conll_article += cur_line
+    conll_article += '# end document\n'
+
+    write_file(out_dir, conll_article)

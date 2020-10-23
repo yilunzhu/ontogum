@@ -56,18 +56,18 @@
 3-25	293-298	event	_	_	_	_
 3-26	299-312	commemorating	_	_	_	_
 3-27	313-316	the	_	_	_	_
-3-28	317-321	30th	event[473]	giv[473]	coref	5-10[0_473]
-3-29	322-332	anniversay	event[473]	giv[473]	_	_
-3-30	333-335	of	event[473]	giv[473]	_	_
-3-31	336-339	the	abstract[16]|event[473]	giv[16]|giv[473]	coref	5-3[19_16]
-3-32	340-345	first	abstract[16]|event[473]	giv[16]|giv[473]	_	_
-3-33	346-353	shuttle	abstract[16]|event[473]	giv[16]|giv[473]	_	_
-3-34	354-360	launch	abstract[16]|event[473]	giv[16]|giv[473]	_	_
-3-35	361-363	on	event[473]	giv[473]	_	_
-3-36	364-369	April	event[473]	giv[473]	_	_
-3-37	370-372	12	event[473]	giv[473]	_	_
-3-38	373-374	,	event[473]	giv[473]	_	_
-3-39	375-379	2011	_	_	_	_
+3-28	317-321	30th	event[384]	giv[384]	coref	5-10[0_384]
+3-29	322-332	anniversay	event[384]	giv[384]	_	_
+3-30	333-335	of	event[384]	giv[384]	_	_
+3-31	336-339	the	abstract[16]|event[384]	giv[16]|giv[384]	coref	5-3[19_16]
+3-32	340-345	first	abstract[16]|event[384]	giv[16]|giv[384]	_	_
+3-33	346-353	shuttle	abstract[16]|event[384]	giv[16]|giv[384]	_	_
+3-34	354-360	launch	abstract[16]|event[384]	giv[16]|giv[384]	_	_
+3-35	361-363	on	event[384]	giv[384]	_	_
+3-36	364-369	April	event[384]	giv[384]	_	_
+3-37	370-372	12	event[384]	giv[384]	_	_
+3-38	373-374	,	event[384]	giv[384]	_	_
+3-39	375-379	2011	event[384]	giv[384]	_	_
 3-40	380-381	.	_	_	_	_
 
 #Text=Image : NASA Bill Ingalls .
@@ -125,13 +125,13 @@
 6-15	622-627	Space	place[25]	giv[25]	_	_
 6-16	628-634	Center	place[25]	giv[25]	_	_
 6-17	635-637	on	_	_	_	_
-6-18	638-643	STS-1	event[256]|event[483]	new[256]|new[483]	appos|coref	6-20[26_256]|13-10[0_483]
-6-19	644-645	,	event[256]|event[483]	new[256]|new[483]	_	_
-6-20	646-649	the	event[26]|event[483]	giv[26]|new[483]	_	_
-6-21	650-655	first	event[26]|event[483]	giv[26]|new[483]	_	_
-6-22	656-661	space	event[26]|event[483]	giv[26]|new[483]	_	_
-6-23	662-669	shuttle	event[26]|event[483]	giv[26]|new[483]	_	_
-6-24	670-677	mission	event[26]|event[483]	giv[26]|new[483]	_	_
+6-18	638-643	STS-1	event[256]|event[392]	new[256]|new[392]	appos|coref	6-20[26_256]|13-10[0_392]
+6-19	644-645	,	event[256]|event[392]	new[256]|new[392]	_	_
+6-20	646-649	the	event[26]|event[392]	giv[26]|new[392]	_	_
+6-21	650-655	first	event[26]|event[392]	giv[26]|new[392]	_	_
+6-22	656-661	space	event[26]|event[392]	giv[26]|new[392]	_	_
+6-23	662-669	shuttle	event[26]|event[392]	giv[26]|new[392]	_	_
+6-24	670-677	mission	event[26]|event[392]	giv[26]|new[392]	_	_
 6-25	678-679	.	_	_	_	_
 
 #Text=NASA held a ceremony commemorating the date outside the hangar , known as Orbiter Processing Facility-1 , for Space Shuttle Atlantis , which is being prepped for its final mission which will be STS-135 , which will be the last Space Shuttle mission .
@@ -143,41 +143,41 @@
 7-6	715-718	the	time[28]|event[27]	giv[28]|giv[27]	_	_
 7-7	719-723	date	time[28]|event[27]	giv[28]|giv[27]	_	_
 7-8	724-731	outside	_	_	_	_
-7-9	732-735	the	place[29]	new[29]	coref	7-14[30_29]
-7-10	736-742	hangar	place[29]	new[29]	_	_
-7-11	743-744	,	place[29]	new[29]	_	_
-7-12	745-750	known	place[29]	new[29]	_	_
-7-13	751-753	as	place[29]	new[29]	_	_
-7-14	754-761	Orbiter	place[30]|place[29]	acc[30]|new[29]	_	_
-7-15	762-772	Processing	place[30]|place[29]	acc[30]|new[29]	_	_
-7-16	773-783	Facility-1	place[30]|place[29]	acc[30]|new[29]	_	_
+7-9	732-735	the	_	_	_	_
+7-10	736-742	hangar	_	_	_	_
+7-11	743-744	,	_	_	_	_
+7-12	745-750	known	_	_	_	_
+7-13	751-753	as	_	_	_	_
+7-14	754-761	Orbiter	_	_	_	_
+7-15	762-772	Processing	_	_	_	_
+7-16	773-783	Facility-1	_	_	_	_
 7-17	784-785	,	_	_	_	_
 7-18	786-789	for	_	_	_	_
-7-19	790-795	Space	object[31]	new[31]	ana	7-28[33_31]
-7-20	796-803	Shuttle	object[31]	new[31]	_	_
-7-21	804-812	Atlantis	object[31]	new[31]	_	_
-7-22	813-814	,	object[31]	new[31]	_	_
-7-23	815-820	which	object[31]	new[31]	_	_
-7-24	821-823	is	object[31]	new[31]	_	_
-7-25	824-829	being	object[31]	new[31]	_	_
-7-26	830-837	prepped	object[31]	new[31]	_	_
-7-27	838-841	for	object[31]	new[31]	_	_
-7-28	842-845	its	object[33]|object[31]	giv[33]|new[31]	_	_
-7-29	846-851	final	object[31]	new[31]	_	_
-7-30	852-859	mission	object[31]	new[31]	_	_
-7-31	860-865	which	object[31]	new[31]	_	_
-7-32	866-870	will	object[31]	new[31]	_	_
-7-33	871-873	be	object[31]	new[31]	_	_
-7-34	874-881	STS-135	object[31]	new[31]	_	_
-7-35	882-883	,	object[31]	new[31]	_	_
-7-36	884-889	which	object[31]	new[31]	_	_
-7-37	890-894	will	object[31]	new[31]	_	_
-7-38	895-897	be	object[31]	new[31]	_	_
-7-39	898-901	the	object[31]	new[31]	_	_
-7-40	902-906	last	object[31]	new[31]	_	_
-7-41	907-912	Space	object[31]	new[31]	_	_
-7-42	913-920	Shuttle	object[31]	new[31]	_	_
-7-43	921-928	mission	object[31]	new[31]	_	_
+7-19	790-795	Space	_	_	_	_
+7-20	796-803	Shuttle	_	_	_	_
+7-21	804-812	Atlantis	_	_	_	_
+7-22	813-814	,	_	_	_	_
+7-23	815-820	which	_	_	_	_
+7-24	821-823	is	_	_	_	_
+7-25	824-829	being	_	_	_	_
+7-26	830-837	prepped	_	_	_	_
+7-27	838-841	for	_	_	_	_
+7-28	842-845	its	_	_	_	_
+7-29	846-851	final	_	_	_	_
+7-30	852-859	mission	_	_	_	_
+7-31	860-865	which	_	_	_	_
+7-32	866-870	will	_	_	_	_
+7-33	871-873	be	_	_	_	_
+7-34	874-881	STS-135	_	_	_	_
+7-35	882-883	,	_	_	_	_
+7-36	884-889	which	_	_	_	_
+7-37	890-894	will	_	_	_	_
+7-38	895-897	be	_	_	_	_
+7-39	898-901	the	_	_	_	_
+7-40	902-906	last	_	_	_	_
+7-41	907-912	Space	_	_	_	_
+7-42	913-920	Shuttle	_	_	_	_
+7-43	921-928	mission	_	_	_	_
 7-44	929-930	.	_	_	_	_
 
 #Text=At the ceremony , NASA Administrator Charles Bolden announced the locations that would be given the three remaining Space Shuttle orbiters following the end of the Space Shuttle program .
@@ -214,12 +214,12 @@
 
 #Text=The prototype orbiter , Space Shuttle Enterprise would be relocated from the Smithsonian 's National Air and Space Museum Steven F. Udvar-Hazy Center at Washington Dulles International Airport to the Intrepid Sea-Air-Space Museum in New York City .
 9-1	1119-1122	The	_	_	_	_
-9-2	1123-1132	prototype	object[42]|object[475]	new[42]|new[475]	appos|coref	9-5[43_42]|10-9[0_475]
-9-3	1133-1140	orbiter	object[42]|object[475]	new[42]|new[475]	_	_
-9-4	1141-1142	,	object[42]|object[475]	new[42]|new[475]	_	_
-9-5	1143-1148	Space	object[43]|object[475]	new[43]|new[475]	_	_
-9-6	1149-1156	Shuttle	object[43]|object[475]	new[43]|new[475]	_	_
-9-7	1157-1167	Enterprise	object[43]	new[43]	_	_
+9-2	1123-1132	prototype	object[42]|object[386]	new[42]|new[386]	appos|coref	9-5[43_42]|10-9[0_386]
+9-3	1133-1140	orbiter	object[42]|object[386]	new[42]|new[386]	_	_
+9-4	1141-1142	,	object[42]|object[386]	new[42]|new[386]	_	_
+9-5	1143-1148	Space	object[43]|object[386]	new[43]|new[386]	_	_
+9-6	1149-1156	Shuttle	object[43]|object[386]	new[43]|new[386]	_	_
+9-7	1157-1167	Enterprise	object[43]|object[386]	new[43]|new[386]	_	_
 9-8	1168-1173	would	_	_	_	_
 9-9	1174-1176	be	_	_	_	_
 9-10	1177-1186	relocated	_	_	_	_
@@ -253,7 +253,7 @@
 9-38	1366-1367	.	_	_	_	_
 
 #Text=Space Shuttle Discovery will take the place of Enterprise at the Udvar-Hazy Center .
-10-1	1368-1373	Space	object[51]	new[51]	coref	11-1[476_51]
+10-1	1368-1373	Space	object[51]	new[51]	coref	11-1[0_51]
 10-2	1374-1381	Shuttle	object[51]	new[51]	_	_
 10-3	1382-1391	Discovery	object[51]	new[51]	_	_
 10-4	1392-1396	will	_	_	_	_
@@ -269,20 +269,20 @@
 10-14	1451-1452	.	_	_	_	_
 
 #Text=Discovery has already been retired following the completion of STS-133 last month , its 39th mission .
-11-1	1453-1462	Discovery	object|object[476]	giv|giv[476]	ana	11-14[56_0]
-11-2	1463-1466	has	object[476]	giv[476]	_	_
-11-3	1467-1474	already	object[476]	giv[476]	_	_
-11-4	1475-1479	been	object[476]	giv[476]	_	_
+11-1	1453-1462	Discovery	object	giv	ana	11-14[56_0]
+11-2	1463-1466	has	_	_	_	_
+11-3	1467-1474	already	_	_	_	_
+11-4	1475-1479	been	_	_	_	_
 11-5	1480-1487	retired	_	_	_	_
 11-6	1488-1497	following	_	_	_	_
 11-7	1498-1501	the	_	_	_	_
 11-8	1502-1512	completion	_	_	_	_
 11-9	1513-1515	of	_	_	_	_
-11-10	1516-1523	STS-133	event[287]|event[485]	new[287]|new[485]	appos|coref	11-14[55_287]|12-1[0_485]
-11-11	1524-1528	last	event[485]	new[485]	_	_
-11-12	1529-1534	month	event[485]	new[485]	_	_
+11-10	1516-1523	STS-133	event[287]	new[287]	appos	11-14[55_287]
+11-11	1524-1528	last	event[287]	new[287]	_	_
+11-12	1529-1534	month	event[287]	new[287]	_	_
 11-13	1535-1536	,	event[287]	new[287]	_	_
-11-14	1537-1540	its	event[55]|object[56]	giv[55]|giv[56]	_	_
+11-14	1537-1540	its	event[55]|object[56]	giv[55]|giv[56]	coref	12-1[0_56]
 11-15	1541-1545	39th	event[55]	giv[55]	_	_
 11-16	1546-1553	mission	event[55]	giv[55]	_	_
 11-17	1554-1555	.	_	_	_	_
@@ -476,7 +476,7 @@
 19-20	2522-2523	,	_	_	_	_
 19-21	2524-2525	"	_	_	_	_
 19-22	2526-2530	said	_	_	_	_
-19-23	2531-2537	Bolden	person	giv	coref	25-1[477_0]
+19-23	2531-2537	Bolden	person	giv	coref	25-1[387_0]
 19-24	2538-2540	to	_	_	_	_
 19-25	2541-2544	the	_	_	_	_
 19-26	2545-2553	gathered	_	_	_	_
@@ -624,17 +624,17 @@
 24-31	3305-3306	.	_	_	_	_
 
 #Text=Charles Bolden , NASA Administrator
-25-1	3307-3314	Charles	person[95]|person[477]|person[478]	giv[95]|giv[477]|giv[478]	appos|coref|coref	25-4[96_95]|32-27[122_477]|27-3[0_478]
-25-2	3315-3321	Bolden	person[95]|person[477]|person[478]	giv[95]|giv[477]|giv[478]	_	_
-25-3	3322-3323	,	person[95]|person[477]|person[478]	giv[95]|giv[477]|giv[478]	_	_
-25-4	3324-3328	NASA	person[96]|organization[97]|person[477]	giv[96]|giv[97]|giv[477]	_	_
-25-5	3329-3342	Administrator	person[96]	giv[96]	_	_
+25-1	3307-3314	Charles	person[95]|person[387]	giv[95]|giv[387]	appos|coref	25-4[96_95]|32-27[122_387]
+25-2	3315-3321	Bolden	person[95]|person[387]	giv[95]|giv[387]	_	_
+25-3	3322-3323	,	person[95]|person[387]	giv[95]|giv[387]	_	_
+25-4	3324-3328	NASA	person[96]|organization[97]|person[387]	giv[96]|giv[97]|giv[387]	coref	27-3[0_97]
+25-5	3329-3342	Administrator	person[96]|person[387]	giv[96]|giv[387]	_	_
 
 #Text=File image of Space Shuttle Atlantis lifting off , which approaches its last mission before retirement .
 26-1	3343-3347	File	_	_	_	_
 26-2	3348-3353	image	_	_	_	_
 26-3	3354-3356	of	_	_	_	_
-26-4	3357-3362	Space	object[98]	giv[98]	ana	26-12[100_98]
+26-4	3357-3362	Space	object[98]	giv[98]	coref	39-6[0_98]
 26-5	3363-3370	Shuttle	object[98]	giv[98]	_	_
 26-6	3371-3379	Atlantis	object[98]	giv[98]	_	_
 26-7	3380-3387	lifting	object[98]	giv[98]	_	_
@@ -642,7 +642,7 @@
 26-9	3392-3393	,	object[98]	giv[98]	_	_
 26-10	3394-3399	which	object[98]	giv[98]	_	_
 26-11	3400-3410	approaches	object[98]	giv[98]	_	_
-26-12	3411-3414	its	event[99]|object[100]|object[98]	giv[99]|giv[100]|giv[98]	coref	39-6[0_100]
+26-12	3411-3414	its	event[99]|object[98]	giv[99]|giv[98]	_	_
 26-13	3415-3419	last	event[99]|object[98]	giv[99]|giv[98]	_	_
 26-14	3420-3427	mission	event[99]|object[98]	giv[99]|giv[98]	_	_
 26-15	3428-3434	before	event[99]|object[98]	giv[99]|giv[98]	_	_
@@ -671,12 +671,12 @@
 #Text=U.S. Senator John Cornyn , Republican from Texas , issued a statement regarding the rejection of Johnson Space Center ( JSC ) in Houston , Texas as a location .
 29-1	3521-3525	U.S.	_	_	_	_
 29-2	3526-3533	Senator	_	_	_	_
-29-3	3534-3538	John	person[103]|person[479]	new[103]|new[479]	appos|ana	29-6[104_103]|30-6[0_479]
-29-4	3539-3545	Cornyn	person[103]|person[479]	new[103]|new[479]	_	_
-29-5	3546-3547	,	person[479]	new[479]	_	_
-29-6	3548-3558	Republican	person[104]|person[479]	acc[104]|new[479]	_	_
-29-7	3559-3563	from	person[104]|person[479]	acc[104]|new[479]	_	_
-29-8	3564-3569	Texas	person[104]	acc[104]	_	_
+29-3	3534-3538	John	person[103]|person[388]	new[103]|new[388]	appos|ana	29-6[104_103]|30-6[0_388]
+29-4	3539-3545	Cornyn	person[103]|person[388]	new[103]|new[388]	_	_
+29-5	3546-3547	,	person[388]	new[388]	_	_
+29-6	3548-3558	Republican	person[104]|person[388]	acc[104]|new[388]	_	_
+29-7	3559-3563	from	person[104]|person[388]	acc[104]|new[388]	_	_
+29-8	3564-3569	Texas	person[104]|person[388]	acc[104]|new[388]	_	_
 29-9	3570-3571	,	_	_	_	_
 29-10	3572-3578	issued	_	_	_	_
 29-11	3579-3580	a	_	_	_	_
@@ -692,9 +692,9 @@
 29-21	3641-3644	JSC	place[318]	giv[318]	_	_
 29-22	3645-3646	)	place[318]	giv[318]	_	_
 29-23	3647-3649	in	_	_	_	_
-29-24	3650-3657	Houston	place[107]	new[107]	coref	29-25[349_107]
-29-25	3658-3659	,	place[107]|place[349]	new[107]|giv[349]	coref	32-11[0_349]
-29-26	3660-3665	Texas	place[107]|place[108]|place[349]	new[107]|acc[108]|giv[349]	coref	33-25[128_108]
+29-24	3650-3657	Houston	place[107]	new[107]	coref	31-1[0_107]
+29-25	3658-3659	,	place[107]	new[107]	_	_
+29-26	3660-3665	Texas	place[107]|place[108]	new[107]|acc[108]	coref	33-25[128_108]
 29-27	3666-3668	as	_	_	_	_
 29-28	3669-3670	a	_	_	_	_
 29-29	3671-3679	location	_	_	_	_
@@ -713,12 +713,12 @@
 30-10	3726-3730	NASA	abstract[110]	acc[110]	coref	31-27[116_110]
 30-11	3731-3733	's	abstract[110]	acc[110]	_	_
 30-12	3734-3742	decision	abstract[110]	acc[110]	_	_
-30-13	3743-3745	to	abstract[110]|abstract[110]	acc[110]|acc[110]	_	_
-30-14	3746-3752	slight	abstract[110]|abstract[110]	acc[110]|acc[110]	_	_
-30-15	3753-3756	the	abstract[110]|abstract[110]	acc[110]|acc[110]	_	_
-30-16	3757-3764	Johnson	abstract[110]|place[112]|abstract[110]	acc[110]|giv[112]|acc[110]	coref	33-16[125_112]
-30-17	3765-3770	Space	abstract[110]|place[112]|abstract[110]	acc[110]|giv[112]|acc[110]	_	_
-30-18	3771-3777	Center	abstract[110]|place[112]|abstract[110]	acc[110]|giv[112]|acc[110]	_	_
+30-13	3743-3745	to	abstract[110]	acc[110]	_	_
+30-14	3746-3752	slight	abstract[110]	acc[110]	_	_
+30-15	3753-3756	the	abstract[110]	acc[110]	_	_
+30-16	3757-3764	Johnson	abstract[110]|place[112]	acc[110]|giv[112]	coref	33-16[125_112]
+30-17	3765-3770	Space	abstract[110]|place[112]	acc[110]|giv[112]	_	_
+30-18	3771-3777	Center	abstract[110]|place[112]	acc[110]|giv[112]	_	_
 30-19	3778-3780	as	abstract[110]	acc[110]	_	_
 30-20	3781-3782	a	place[113]|abstract[110]	giv[113]|acc[110]	coref	31-30[117_113]
 30-21	3783-3792	permanent	place[113]|abstract[110]	giv[113]|acc[110]	_	_
@@ -733,7 +733,7 @@
 30-30	3836-3837	.	_	_	_	_
 
 #Text=Houston has played a critical role throughout the life of the space shuttle , but it is clear political favors trumped common sense and fairness in the selection of the final locations for the orbiter fleet . "
-31-1	3838-3845	Houston	_	_	_	_
+31-1	3838-3845	Houston	place	giv	coref	32-11
 31-2	3846-3849	has	_	_	_	_
 31-3	3850-3856	played	_	_	_	_
 31-4	3857-3858	a	_	_	_	_
@@ -814,7 +814,7 @@
 33-5	4244-4246	an	_	_	_	_
 33-6	4247-4254	affront	_	_	_	_
 33-7	4255-4257	to	_	_	_	_
-33-8	4258-4261	the	person[124]	new[124]	coref	33-19[380_124]
+33-8	4258-4261	the	person[124]	new[124]	coref	45-8[166_124]
 33-9	4262-4271	thousands	person[124]	new[124]	_	_
 33-10	4272-4274	of	person[124]	new[124]	_	_
 33-11	4275-4284	dedicated	person[124]	new[124]	_	_
@@ -825,16 +825,16 @@
 33-16	4302-4309	Johnson	person[124]|place[125]	new[124]|giv[125]	coref	34-3[131_125]
 33-17	4310-4315	Space	person[124]|place[125]	new[124]|giv[125]	_	_
 33-18	4316-4322	Center	person[124]|place[125]	new[124]|giv[125]	_	_
-33-19	4323-4324	,	person[380]	giv[380]	_	_
-33-20	4325-4328	the	abstract[126]|person[380]	giv[126]|giv[380]	coref	45-20[168_126]
-33-21	4329-4336	greater	abstract[126]|person[380]	giv[126]|giv[380]	_	_
-33-22	4337-4344	Houston	abstract[126]|place[127]|person[380]	giv[126]|giv[127]|giv[380]	coref	45-22[169_127]
-33-23	4345-4354	community	abstract[126]|person[380]	giv[126]|giv[380]	_	_
-33-24	4355-4358	and	person[380]	giv[380]	_	_
-33-25	4359-4362	the	place[128]|person[380]	acc[128]|giv[380]	coref	45-25[170_128]
-33-26	4363-4368	State	place[128]|person[380]	acc[128]|giv[380]	_	_
-33-27	4369-4371	of	place[128]|person[380]	acc[128]|giv[380]	_	_
-33-28	4372-4377	Texas	place[128]|person[380]	acc[128]|giv[380]	_	_
+33-19	4323-4324	,	_	_	_	_
+33-20	4325-4328	the	abstract[126]	giv[126]	coref	45-20[168_126]
+33-21	4329-4336	greater	abstract[126]	giv[126]	_	_
+33-22	4337-4344	Houston	abstract[126]|place[127]	giv[126]|giv[127]	coref	45-22[169_127]
+33-23	4345-4354	community	abstract[126]	giv[126]	_	_
+33-24	4355-4358	and	_	_	_	_
+33-25	4359-4362	the	place[128]	acc[128]	coref	45-25[170_128]
+33-26	4363-4368	State	place[128]	acc[128]	_	_
+33-27	4369-4371	of	place[128]	acc[128]	_	_
+33-28	4372-4377	Texas	place[128]	acc[128]	_	_
 33-29	4378-4379	,	_	_	_	_
 33-30	4380-4383	and	_	_	_	_
 33-31	4384-4385	I	person	giv	ana	45-31
@@ -873,9 +873,9 @@
 35-3	4549-4551	of	place[133]	new[133]	_	_
 35-4	4552-4558	Flight	place[133]	new[133]	_	_
 35-5	4559-4561	in	_	_	_	_
-35-6	4562-4569	Seattle	place[134]	acc[134]	coref	35-8[411_134]
+35-6	4562-4569	Seattle	place[134]	acc[134]	coref	37-24[0_134]
 35-7	4570-4571	,	place[134]	acc[134]	_	_
-35-8	4572-4582	Washington	place[134]|place[411]	acc[134]|giv[411]	_	_
+35-8	4572-4582	Washington	place[134]	acc[134]	_	_
 35-9	4583-4586	was	_	_	_	_
 35-10	4587-4591	also	_	_	_	_
 35-11	4592-4600	proposed	_	_	_	_
@@ -959,7 +959,7 @@
 37-21	4982-4984	30	_	_	_	_
 37-22	4985-4990	years	_	_	_	_
 37-23	4991-4992	,	_	_	_	_
-37-24	4993-5000	Seattle	_	_	_	_
+37-24	4993-5000	Seattle	place	giv	_	_
 37-25	5001-5006	would	_	_	_	_
 37-26	5007-5011	have	_	_	_	_
 37-27	5012-5016	been	_	_	_	_
@@ -1139,17 +1139,17 @@
 45-5	5850-5852	an	_	_	_	_
 45-6	5853-5860	affront	_	_	_	_
 45-7	5861-5863	to	_	_	_	_
-45-8	5864-5867	the	_	_	_	_
-45-9	5868-5877	thousands	_	_	_	_
-45-10	5878-5880	of	_	_	_	_
-45-11	5881-5890	dedicated	_	_	_	_
-45-12	5891-5894	men	_	_	_	_
-45-13	5895-5898	and	_	_	_	_
-45-14	5899-5904	women	_	_	_	_
-45-15	5905-5907	at	_	_	_	_
-45-16	5908-5915	Johnson	place[167]	giv[167]	_	_
-45-17	5916-5921	Space	place[167]	giv[167]	_	_
-45-18	5922-5928	Center	place[167]	giv[167]	_	_
+45-8	5864-5867	the	person[166]	giv[166]	_	_
+45-9	5868-5877	thousands	person[166]	giv[166]	_	_
+45-10	5878-5880	of	person[166]	giv[166]	_	_
+45-11	5881-5890	dedicated	person[166]	giv[166]	_	_
+45-12	5891-5894	men	person[166]	giv[166]	_	_
+45-13	5895-5898	and	person[166]	giv[166]	_	_
+45-14	5899-5904	women	person[166]	giv[166]	_	_
+45-15	5905-5907	at	person[166]	giv[166]	_	_
+45-16	5908-5915	Johnson	person[166]|place[167]	giv[166]|giv[167]	_	_
+45-17	5916-5921	Space	person[166]|place[167]	giv[166]|giv[167]	_	_
+45-18	5922-5928	Center	person[166]|place[167]	giv[166]|giv[167]	_	_
 45-19	5929-5930	,	_	_	_	_
 45-20	5931-5934	the	abstract[168]	giv[168]	_	_
 45-21	5935-5942	greater	abstract[168]	giv[168]	_	_
@@ -1162,7 +1162,7 @@
 45-28	5978-5983	Texas	place[170]	giv[170]	_	_
 45-29	5984-5985	,	_	_	_	_
 45-30	5986-5989	and	_	_	_	_
-45-31	5990-5991	I	person	giv	coref	46-1[482_0]
+45-31	5990-5991	I	person	giv	coref	46-1[391_0]
 45-32	5992-5993	m	_	_	_	_
 45-33	5994-6000	deeply	_	_	_	_
 45-34	6001-6013	disappointed	_	_	_	_
@@ -1175,14 +1175,14 @@
 45-41	6060-6061	.	_	_	_	_
 
 #Text=John Cornyn , U.S. Senator ( R-Texas )
-46-1	6062-6066	John	person[172]|person[482]	giv[172]|giv[482]	appos	46-4[442_172]
-46-2	6067-6073	Cornyn	person[172]|person[482]	giv[172]|giv[482]	_	_
-46-3	6074-6075	,	person[172]|person[482]	giv[172]|giv[482]	_	_
-46-4	6076-6080	U.S.	person[442]|person[482]	giv[442]|giv[482]	_	_
-46-5	6081-6088	Senator	person[442]|person[482]	giv[442]|giv[482]	_	_
-46-6	6089-6090	(	person[482]	giv[482]	_	_
-46-7	6091-6098	R-Texas	person[482]	giv[482]	_	_
-46-8	6099-6100	)	_	_	_	_
+46-1	6062-6066	John	person[172]|person[391]	giv[172]|giv[391]	appos	46-4[349_172]
+46-2	6067-6073	Cornyn	person[172]|person[391]	giv[172]|giv[391]	_	_
+46-3	6074-6075	,	person[172]|person[391]	giv[172]|giv[391]	_	_
+46-4	6076-6080	U.S.	person[349]|person[391]	giv[349]|giv[391]	_	_
+46-5	6081-6088	Senator	person[349]|person[391]	giv[349]|giv[391]	_	_
+46-6	6089-6090	(	person[391]	giv[391]	_	_
+46-7	6091-6098	R-Texas	person[391]	giv[391]	_	_
+46-8	6099-6100	)	person[391]	giv[391]	_	_
 
 #Text=Other items include various shuttle simulators which will be given to the Adler Planetarium in Chicago , Illinois , the Evergreen Aviation & Space Museum of McMinnville , Oregon , and Texas A&M 's Aerospace Engineering Department .
 47-1	6101-6106	Other	_	_	_	_

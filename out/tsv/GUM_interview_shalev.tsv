@@ -6,12 +6,12 @@
 #Text=Wikinews interviews Israeli mathematician and writer Aner Shalev
 1-1	0-8	Wikinews	organization[2]	new[2]	coref	6-5[0_2]
 1-2	9-19	interviews	_	_	_	_
-1-3	20-27	Israeli	person[3]|person[396]	new[3]|new[396]	appos|coref	1-7[4_3]|3-1[8_396]
-1-4	28-41	mathematician	person[3]|person[396]	new[3]|new[396]	_	_
-1-5	42-45	and	person[3]|person[396]	new[3]|new[396]	_	_
-1-6	46-52	writer	person[3]|person[396]	new[3]|new[396]	_	_
-1-7	53-57	Aner	person[4]|person[396]	giv[4]|new[396]	_	_
-1-8	58-64	Shalev	person[4]|person[396]	giv[4]|new[396]	_	_
+1-3	20-27	Israeli	person[3]|person[402]	new[3]|new[402]	appos|coref	1-7[4_3]|3-1[8_402]
+1-4	28-41	mathematician	person[3]|person[402]	new[3]|new[402]	_	_
+1-5	42-45	and	person[3]|person[402]	new[3]|new[402]	_	_
+1-6	46-52	writer	person[3]|person[402]	new[3]|new[402]	_	_
+1-7	53-57	Aner	person[4]|person[402]	giv[4]|new[402]	_	_
+1-8	58-64	Shalev	person[4]|person[402]	giv[4]|new[402]	_	_
 
 #Text=Wednesday , September 19 , 2007
 2-1	65-74	Wednesday	time[365]	acc[365]	appos	2-3[6_365]
@@ -65,10 +65,10 @@
 5-4	313-319	Shalev	person	giv	ana	6-1
 5-5	320-322	is	_	_	_	_
 5-6	323-325	in	_	_	_	_
-5-7	326-332	Levico	place[21]	new[21]	coref	5-10[0_21]
+5-7	326-332	Levico	place[21]	new[21]	coref	9-10[31_21]
 5-8	333-338	Terme	place[21]	new[21]	_	_
 5-9	339-340	,	place[21]	new[21]	_	_
-5-10	341-347	Trento	place[21]|place[22]	new[21]|new[22]	_	_
+5-10	341-347	Trento	place[21]	new[21]	_	_
 5-11	348-349	,	place[21]	new[21]	_	_
 5-12	350-355	Italy	place[21]	new[21]	_	_
 5-13	356-359	for	_	_	_	_
@@ -101,7 +101,7 @@
 9-7	457-462	about	event[29]	new[29]	_	_
 9-8	463-467	here	event[29]	new[29]	_	_
 9-9	468-470	in	event[29]	new[29]	_	_
-9-10	471-477	Levico	event[29]	new[29]	_	_
+9-10	471-477	Levico	event[29]|place[31]	new[29]|giv[31]	_	_
 9-11	478-479	?	_	_	_	_
 
 #Text=I called it Character , walks and words .
@@ -392,12 +392,12 @@
 30-9	1734-1740	beauty	_	_	_	_
 30-10	1741-1742	,	_	_	_	_
 30-11	1743-1745	of	_	_	_	_
-30-12	1746-1749	the	abstract[106]	abstract[106]	coref	35-30[130_106]
-30-13	1750-1761	imagination	abstract[106]	abstract[106]	_	_
+30-12	1746-1749	the	abstract[106]	giv[106]	coref	35-30[130_106]
+30-13	1750-1761	imagination	abstract[106]	giv[106]	_	_
 30-14	1762-1763	,	_	_	_	_
 30-15	1764-1766	of	_	_	_	_
-30-16	1767-1770	the	abstract[107]	abstract[107]	coref	35-26[129_107]
-30-17	1771-1778	freedom	abstract[107]	abstract[107]	_	_
+30-16	1767-1770	the	abstract[107]	giv[107]	coref	35-26[129_107]
+30-17	1771-1778	freedom	abstract[107]	giv[107]	_	_
 30-18	1779-1780	.	_	_	_	_
 
 #Text=Many people , and many students , dislike math .
@@ -753,7 +753,7 @@
 46-7	3440-3445	short	_	_	_	_
 46-8	3446-3453	stories	_	_	_	_
 46-9	3454-3457	and	_	_	_	_
-46-10	3458-3459	a	object[198]	new[198]	coref	62-2[398_198]
+46-10	3458-3459	a	object[198]	new[198]	coref	62-2[404_198]
 46-11	3460-3465	novel	object[198]	new[198]	_	_
 46-12	3466-3467	.	_	_	_	_
 
@@ -895,9 +895,9 @@
 54-20	4083-4087	more	_	_	_	_
 54-21	4088-4098	interested	_	_	_	_
 54-22	4099-4101	in	_	_	_	_
-54-23	4102-4111	structure	abstract	new	coref	62-12[276_0]
-54-24	4112-4117	which	_	_	_	_
-54-25	4118-4122	also	_	_	_	_
+54-23	4102-4111	structure	abstract[398]	new[398]	coref	62-12[276_398]
+54-24	4112-4117	which	abstract[398]	new[398]	_	_
+54-25	4118-4122	also	abstract[398]	new[398]	_	_
 54-26	4123-4125	..	_	_	_	_
 54-27	4126-4127	a	_	_	_	_
 54-28	4128-4131	bit	_	_	_	_
@@ -1053,18 +1053,18 @@
 
 #Text=In the novel Dark Matters I think what interested me in the structure was two thing : simple narrative and email .
 62-1	4825-4827	In	_	_	_	_
-62-2	4828-4831	the	object[272]|object[398]	giv[272]|giv[398]	appos|ana	62-4[273_272]|63-1[0_398]
-62-3	4832-4837	novel	object[272]|object[398]	giv[272]|giv[398]	_	_
-62-4	4838-4842	Dark	object[273]|object[398]	giv[273]|giv[398]	_	_
-62-5	4843-4850	Matters	object[273]|object[398]	giv[273]|giv[398]	_	_
-62-6	4851-4852	I	person|object[398]|object[273]	giv|giv[398]|giv[273]	ana	62-10
-62-7	4853-4858	think	object[398]|object[273]	giv[398]|giv[273]	_	_
-62-8	4859-4863	what	object[398]|object[273]	giv[398]|giv[273]	_	_
-62-9	4864-4874	interested	object[398]|object[273]	giv[398]|giv[273]	_	_
-62-10	4875-4877	me	person|object[398]|object[273]	giv|giv[398]|giv[273]	ana	66-18
-62-11	4878-4880	in	object[398]|object[273]	giv[398]|giv[273]	_	_
-62-12	4881-4884	the	abstract[276]|object[398]|object[273]	giv[276]|giv[398]|giv[273]	coref	66-15[299_276]
-62-13	4885-4894	structure	abstract[276]|object[398]|object[273]	giv[276]|giv[398]|giv[273]	_	_
+62-2	4828-4831	the	object[272]|object[404]	giv[272]|giv[404]	appos|ana	62-4[273_272]|63-1[0_404]
+62-3	4832-4837	novel	object[272]|object[404]	giv[272]|giv[404]	_	_
+62-4	4838-4842	Dark	object[273]|object[404]	giv[273]|giv[404]	_	_
+62-5	4843-4850	Matters	object[273]|object[404]	giv[273]|giv[404]	_	_
+62-6	4851-4852	I	person|object[273]|object[404]	giv|giv[273]|giv[404]	ana	62-10
+62-7	4853-4858	think	object[273]|object[404]	giv[273]|giv[404]	_	_
+62-8	4859-4863	what	object[273]|object[404]	giv[273]|giv[404]	_	_
+62-9	4864-4874	interested	object[273]|object[404]	giv[273]|giv[404]	_	_
+62-10	4875-4877	me	person|object[273]|object[404]	giv|giv[273]|giv[404]	ana	66-18
+62-11	4878-4880	in	object[273]|object[404]	giv[273]|giv[404]	_	_
+62-12	4881-4884	the	abstract[276]|object[273]|object[404]	giv[276]|giv[273]|giv[404]	coref	66-15[299_276]
+62-13	4885-4894	structure	abstract[276]|object[273]|object[404]	giv[276]|giv[273]|giv[404]	_	_
 62-14	4895-4898	was	_	_	_	_
 62-15	4899-4902	two	_	_	_	_
 62-16	4903-4908	thing	_	_	_	_

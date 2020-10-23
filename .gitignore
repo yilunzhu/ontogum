@@ -1,3 +1,4 @@
-# ignore gum
-./gum/
-./.idea/
+/gum/
+/.idea/
+*.pdf
+/dataset/

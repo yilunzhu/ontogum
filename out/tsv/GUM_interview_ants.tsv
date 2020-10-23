@@ -118,11 +118,11 @@
 8-7	542-544	an	organization[26]	new[26]	_	_
 8-8	545-548	ant	organization[26]	new[26]	_	_
 8-9	549-556	species	organization[26]	new[26]	_	_
-8-10	557-561	that	organization[26]|organization[26]	new[26]|new[26]	_	_
-8-11	562-565	can	organization[26]|organization[26]	new[26]|new[26]	_	_
-8-12	566-570	form	organization[26]|organization[26]	new[26]|new[26]	_	_
-8-13	571-586	thousand-strong	organization[26]|organization[26]	new[26]|new[26]	_	_
-8-14	587-595	colonies	organization[26]|organization[26]	new[26]|new[26]	_	_
+8-10	557-561	that	organization[26]	new[26]	_	_
+8-11	562-565	can	organization[26]	new[26]	_	_
+8-12	566-570	form	organization[26]	new[26]	_	_
+8-13	571-586	thousand-strong	organization[26]	new[26]	_	_
+8-14	587-595	colonies	organization[26]	new[26]	_	_
 8-15	596-597	.	_	_	_	_
 
 #Text=This common black ant eats other insects , and also aphid honeydew .
@@ -167,23 +167,23 @@
 11-3	785-789	were	_	_	_	_
 11-4	790-798	infected	_	_	_	_
 11-5	799-803	with	_	_	_	_
-11-6	804-813	Beauveria	object[38]|object[481]	new[38]|new[481]	appos|coref	11-9[39_38]|22-1[87_481]
-11-7	814-822	bassiana	object[38]|object[481]	new[38]|new[481]	_	_
-11-8	823-824	,	object[38]|object[481]	new[38]|new[481]	_	_
-11-9	825-826	a	object[39]|object[481]	acc[39]|new[481]	_	_
-11-10	827-833	fungus	object[39]	acc[39]	_	_
+11-6	804-813	Beauveria	object[38]|object[486]	new[38]|new[486]	appos|coref	11-9[39_38]|22-1[87_486]
+11-7	814-822	bassiana	object[38]|object[486]	new[38]|new[486]	_	_
+11-8	823-824	,	object[38]|object[486]	new[38]|new[486]	_	_
+11-9	825-826	a	object[39]|object[486]	acc[39]|new[486]	_	_
+11-10	827-833	fungus	object[39]|object[486]	acc[39]|new[486]	_	_
 11-11	834-835	.	_	_	_	_
 
 #Text=Infected ants chose food laced with toxic hydrogen peroxide , whereas healthy ants avoided it .
-12-1	836-844	Infected	_	_	_	_
-12-2	845-849	ants	_	_	_	_
+12-1	836-844	Infected	animal[40]	giv[40]	coref	13-12[49_40]
+12-2	845-849	ants	animal[40]	giv[40]	_	_
 12-3	850-855	chose	_	_	_	_
-12-4	856-860	food	substance	new	ana	12-15
-12-5	861-866	laced	_	_	_	_
-12-6	867-871	with	_	_	_	_
-12-7	872-877	toxic	_	_	_	_
-12-8	878-886	hydrogen	_	_	_	_
-12-9	887-895	peroxide	_	_	_	_
+12-4	856-860	food	substance[481]	new[481]	ana	12-15[0_481]
+12-5	861-866	laced	substance[481]	new[481]	_	_
+12-6	867-871	with	substance[481]	new[481]	_	_
+12-7	872-877	toxic	substance[481]	new[481]	_	_
+12-8	878-886	hydrogen	substance[481]	new[481]	_	_
+12-9	887-895	peroxide	substance[481]	new[481]	_	_
 12-10	896-897	,	_	_	_	_
 12-11	898-905	whereas	_	_	_	_
 12-12	906-913	healthy	_	_	_	_
@@ -309,11 +309,11 @@
 20-4	1490-1491	a	_	_	_	_
 20-5	1492-1495	pun	_	_	_	_
 20-6	1496-1507	referencing	_	_	_	_
-20-7	1508-1512	ants	animal[356]|animal[487]	acc[356]|acc[487]	appos|coref	20-9[79_356]|24-7[0_487]
-20-8	1513-1514	,	animal[356]|animal[487]	acc[356]|acc[487]	_	_
-20-9	1515-1518	its	abstract[79]|animal[487]	giv[79]|acc[487]	_	_
-20-10	1519-1526	primary	abstract[79]|animal[487]	giv[79]|acc[487]	_	_
-20-11	1527-1532	topic	abstract[79]|animal[487]	giv[79]|acc[487]	_	_
+20-7	1508-1512	ants	animal[356]|animal[492]	acc[356]|acc[492]	appos|coref	20-9[79_356]|24-7[0_492]
+20-8	1513-1514	,	animal[356]|animal[492]	acc[356]|acc[492]	_	_
+20-9	1515-1518	its	abstract[79]|animal[492]	giv[79]|acc[492]	_	_
+20-10	1519-1526	primary	abstract[79]|animal[492]	giv[79]|acc[492]	_	_
+20-11	1527-1532	topic	abstract[79]|animal[492]	giv[79]|acc[492]	_	_
 20-12	1533-1534	,	_	_	_	_
 20-13	1535-1542	science	_	_	_	_
 20-14	1543-1544	,	_	_	_	_
@@ -336,7 +336,7 @@
 21-8	1636-1637	.	_	_	_	_
 
 #Text=Beauveria bassiana on a cicada in Bolivia .
-22-1	1638-1647	Beauveria	object[87]	giv[87]	coref	40-10[484_87]
+22-1	1638-1647	Beauveria	object[87]	giv[87]	coref	40-10[489_87]
 22-2	1648-1656	bassiana	object[87]	giv[87]	_	_
 22-3	1657-1659	on	_	_	_	_
 22-4	1660-1661	a	_	_	_	_
@@ -634,15 +634,15 @@
 36-4	2982-2985	the	animal[161]	giv[161]	coref	38-7[171_161]
 36-5	2986-2990	ants	animal[161]	giv[161]	_	_
 36-6	2991-2993	in	_	_	_	_
-36-7	2994-2999	nests	object	giv	coref	41-23[191_0]
-36-8	3000-3001	I	person	giv	_	_
-36-9	3002-3006	made	_	_	_	_
-36-10	3007-3012	using	_	_	_	_
-36-11	3013-3019	Y-tong	substance|substance[482]	new|new[482]	appos|ana	36-12[387_0]|37-1[0_482]
-36-12	3020-3021	[	substance[387]|substance[482]	giv[387]|new[482]	_	_
-36-13	3022-3029	aerated	substance[387]|substance[482]	giv[387]|new[482]	_	_
-36-14	3030-3038	concrete	substance[387]|substance[482]	giv[387]|new[482]	_	_
-36-15	3039-3040	]	substance[387]|substance[482]	giv[387]|new[482]	_	_
+36-7	2994-2999	nests	object[483]	giv[483]	coref	41-23[191_483]
+36-8	3000-3001	I	person|object[483]	giv|giv[483]	_	_
+36-9	3002-3006	made	object[483]	giv[483]	_	_
+36-10	3007-3012	using	object[483]	giv[483]	_	_
+36-11	3013-3019	Y-tong	substance|object[483]|substance[487]	new|giv[483]|new[487]	appos|ana	36-12[387_0]|37-1[0_487]
+36-12	3020-3021	[	substance[387]|substance[487]|object[483]	giv[387]|new[487]|giv[483]	_	_
+36-13	3022-3029	aerated	substance[387]|substance[487]|object[483]	giv[387]|new[487]|giv[483]	_	_
+36-14	3030-3038	concrete	substance[387]|substance[487]|object[483]	giv[387]|new[487]|giv[483]	_	_
+36-15	3039-3040	]	substance[387]|substance[487]|object[483]	giv[387]|new[487]|giv[483]	_	_
 36-16	3041-3042	.	_	_	_	_
 
 #Text=It 's very soft stone that you can easily carve .
@@ -691,29 +691,29 @@
 39-4	3222-3223	a	_	_	_	_
 39-5	3224-3230	tunnel	_	_	_	_
 39-6	3231-3233	to	_	_	_	_
-39-7	3234-3235	a	place[176]|place[483]	new[176]|new[483]	appos|coref	39-9[418_176]|42-13[196_483]
-39-8	3236-3239	pot	place[176]|place[483]	new[176]|new[483]	_	_
-39-9	3240-3241	(	place[418]|place[483]	giv[418]|new[483]	_	_
-39-10	3242-3245	the	place[418]|place[483]	giv[418]|new[483]	_	_
-39-11	3246-3254	foraging	place[418]|place[483]	giv[418]|new[483]	_	_
-39-12	3255-3260	arena	place[418]|place[483]	giv[418]|new[483]	_	_
-39-13	3261-3262	)	place[418]|place[483]	giv[418]|new[483]	_	_
-39-14	3263-3264	,	place[483]|place[483]	new[483]|new[483]	_	_
-39-15	3265-3270	where	place[483]|place[483]	new[483]|new[483]	_	_
-39-16	3271-3274	the	animal[178]|place[483]|place[483]	giv[178]|new[483]|new[483]	coref	40-3[183_178]
-39-17	3275-3279	ants	animal[178]|place[483]|place[483]	giv[178]|new[483]|new[483]	_	_
-39-18	3280-3283	got	place[483]|place[483]	new[483]|new[483]	_	_
-39-19	3284-3287	the	place[483]|place[483]	new[483]|new[483]	_	_
-39-20	3288-3294	choice	place[483]|place[483]	new[483]|new[483]	_	_
-39-21	3295-3302	between	place[483]|place[483]	new[483]|new[483]	_	_
-39-22	3303-3306	the	place[483]|place[483]	new[483]|new[483]	_	_
-39-23	3307-3311	food	place[483]|place[483]	new[483]|new[483]	_	_
-39-24	3312-3316	with	place[483]|place[483]	new[483]|new[483]	_	_
-39-25	3317-3325	medicine	place[483]|place[483]	new[483]|new[483]	_	_
-39-26	3326-3329	and	place[483]|place[483]	new[483]|new[483]	_	_
-39-27	3330-3333	the	place[483]|place[483]	new[483]|new[483]	_	_
-39-28	3334-3338	food	place[483]|place[483]	new[483]|new[483]	_	_
-39-29	3339-3346	without	place[483]|place[483]	new[483]|new[483]	_	_
+39-7	3234-3235	a	place[488]	new[488]	coref	42-13[196_488]
+39-8	3236-3239	pot	place[488]	new[488]	_	_
+39-9	3240-3241	(	place[488]	new[488]	_	_
+39-10	3242-3245	the	place[488]	new[488]	_	_
+39-11	3246-3254	foraging	place[488]	new[488]	_	_
+39-12	3255-3260	arena	place[488]	new[488]	_	_
+39-13	3261-3262	)	place[488]	new[488]	_	_
+39-14	3263-3264	,	place[488]	new[488]	_	_
+39-15	3265-3270	where	place[488]	new[488]	_	_
+39-16	3271-3274	the	animal[178]|place[488]	giv[178]|new[488]	coref	40-3[183_178]
+39-17	3275-3279	ants	animal[178]|place[488]	giv[178]|new[488]	_	_
+39-18	3280-3283	got	place[488]	new[488]	_	_
+39-19	3284-3287	the	place[488]	new[488]	_	_
+39-20	3288-3294	choice	place[488]	new[488]	_	_
+39-21	3295-3302	between	place[488]	new[488]	_	_
+39-22	3303-3306	the	place[488]	new[488]	_	_
+39-23	3307-3311	food	place[488]	new[488]	_	_
+39-24	3312-3316	with	place[488]	new[488]	_	_
+39-25	3317-3325	medicine	place[488]	new[488]	_	_
+39-26	3326-3329	and	place[488]	new[488]	_	_
+39-27	3330-3333	the	place[488]	new[488]	_	_
+39-28	3334-3338	food	place[488]	new[488]	_	_
+39-29	3339-3346	without	place[488]	new[488]	_	_
 39-30	3347-3348	.	_	_	_	_
 
 #Text=We infected the ants by preparing a solution of the fungus Beauveria bassiana .
@@ -726,10 +726,10 @@
 40-7	3383-3384	a	substance[184]	new[184]	coref	41-8[188_184]
 40-8	3385-3393	solution	substance[184]	new[184]	_	_
 40-9	3394-3396	of	substance[184]	new[184]	_	_
-40-10	3397-3400	the	substance[184]|object[185]|object[484]	new[184]|giv[185]|new[484]	appos|coref	40-12[186_185]|42-6[193_484]
-40-11	3401-3407	fungus	substance[184]|object[185]|object[484]	new[184]|giv[185]|new[484]	_	_
-40-12	3408-3417	Beauveria	object[186]|object[484]	giv[186]|new[484]	_	_
-40-13	3418-3426	bassiana	object[186]|object[484]	giv[186]|new[484]	_	_
+40-10	3397-3400	the	substance[184]|object[185]|object[489]	new[184]|giv[185]|new[489]	appos|coref	40-12[186_185]|42-6[193_489]
+40-11	3401-3407	fungus	substance[184]|object[185]|object[489]	new[184]|giv[185]|new[489]	_	_
+40-12	3408-3417	Beauveria	object[186]|object[489]	giv[186]|new[489]	_	_
+40-13	3418-3426	bassiana	object[186]|object[489]	giv[186]|new[489]	_	_
 40-14	3427-3428	.	_	_	_	_
 
 #Text=Afterwards , each ant was dipped in the solution for a couple of seconds , dried on a cloth and put in the nest .
@@ -842,16 +842,16 @@
 46-7	3922-3928	sooner	_	_	_	_
 46-8	3929-3933	when	_	_	_	_
 46-9	3934-3943	ingesting	_	_	_	_
-46-10	3944-3947	ROS	substance|substance[485]	new|new[485]	appos|appos	46-11[488_0]|46-16[218_485]
-46-11	3948-3949	[	substance[485]|substance[488]	new[485]|giv[488]	_	_
-46-12	3950-3958	Reactive	substance[485]|substance[488]	new[485]|giv[488]	_	_
-46-13	3959-3965	Oxygen	substance[485]|substance[488]	new[485]|giv[488]	_	_
-46-14	3966-3973	Species	substance[485]|substance[488]	new[485]|giv[488]	_	_
-46-15	3974-3975	,	substance[488]	giv[488]	_	_
-46-16	3976-3979	the	abstract[218]|substance[488]	acc[218]|giv[488]	_	_
-46-17	3980-3985	group	abstract[218]|substance[488]	acc[218]|giv[488]	_	_
-46-18	3986-3988	of	abstract[218]|substance[488]	acc[218]|giv[488]	_	_
-46-19	3989-3998	chemicals	abstract[218]	acc[218]	_	_
+46-10	3944-3947	ROS	substance|substance[490]	new|new[490]	appos|appos	46-11[493_0]|46-16[218_490]
+46-11	3948-3949	[	substance[490]|substance[493]	new[490]|giv[493]	_	_
+46-12	3950-3958	Reactive	substance[490]|substance[493]	new[490]|giv[493]	_	_
+46-13	3959-3965	Oxygen	substance[490]|substance[493]	new[490]|giv[493]	_	_
+46-14	3966-3973	Species	substance[490]|substance[493]	new[490]|giv[493]	_	_
+46-15	3974-3975	,	substance[493]	giv[493]	_	_
+46-16	3976-3979	the	abstract[218]|substance[493]	acc[218]|giv[493]	_	_
+46-17	3980-3985	group	abstract[218]|substance[493]	acc[218]|giv[493]	_	_
+46-18	3986-3988	of	abstract[218]|substance[493]	acc[218]|giv[493]	_	_
+46-19	3989-3998	chemicals	abstract[218]|substance[493]	acc[218]|giv[493]	_	_
 46-20	3999-4003	that	_	_	_	_
 46-21	4004-4012	includes	_	_	_	_
 46-22	4013-4021	hydrogen	_	_	_	_

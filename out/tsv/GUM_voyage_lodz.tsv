@@ -4,15 +4,15 @@
 
 
 #Text=Łódź
-1-1	0-4	Łódź	place	new	coref	2-1
+1-1	0-4	Łódź	place	new	coref	2-1[279_0]
 
 #Text=Łódź ( Pronounced : Wootch ) is Poland 's third biggest city , and the capital of the Łódzkie Voivodship .
-2-1	5-9	Łódź	place	giv	_	_
-2-2	10-11	(	_	_	_	_
-2-3	12-22	Pronounced	_	_	_	_
-2-4	23-24	:	_	_	_	_
-2-5	25-31	Wootch	_	_	_	_
-2-6	32-33	)	_	_	_	_
+2-1	5-9	Łódź	place[279]	giv[279]	_	_
+2-2	10-11	(	place[279]	giv[279]	_	_
+2-3	12-22	Pronounced	place[279]	giv[279]	_	_
+2-4	23-24	:	place[279]	giv[279]	_	_
+2-5	25-31	Wootch	place[279]	giv[279]	_	_
+2-6	32-33	)	place[279]	giv[279]	_	_
 2-7	34-36	is	_	_	_	_
 2-8	37-43	Poland	place[4]|place[5]	giv[4]|new[5]	coref|coref	3-13[0_4]|6-36[51_5]
 2-9	44-46	's	place[4]|place[5]	giv[4]|new[5]	_	_
@@ -450,7 +450,7 @@
 17-6	2295-2304	merchants	_	_	_	_
 17-7	2305-2309	came	_	_	_	_
 17-8	2310-2312	to	_	_	_	_
-17-9	2313-2317	Łódź	place	giv	_	_
+17-9	2313-2317	Łódź	place	giv	coref	21-13
 17-10	2318-2319	;	_	_	_	_
 17-11	2320-2327	markets	_	_	_	_
 17-12	2328-2331	and	_	_	_	_
@@ -580,23 +580,23 @@
 22-34	2971-2972	.	_	_	_	_
 
 #Text=Andrzej Wajda 's movie , Promised Land based on a novel by the Nobel laureate Władysław Reymont , depicts those times and is a worthwhile introduction to the city 's bustling history .
-23-1	2973-2980	Andrzej	abstract[154]	new[154]	appos	23-6[156_154]
-23-2	2981-2986	Wajda	abstract[154]	new[154]	_	_
-23-3	2987-2989	's	abstract[154]	new[154]	_	_
-23-4	2990-2995	movie	abstract[154]	new[154]	_	_
-23-5	2996-2997	,	abstract[154]	new[154]	_	_
-23-6	2998-3006	Promised	abstract[156]	giv[156]	_	_
-23-7	3007-3011	Land	abstract[156]	giv[156]	_	_
-23-8	3012-3017	based	abstract[154]	new[154]	_	_
-23-9	3018-3020	on	abstract[154]	new[154]	_	_
-23-10	3021-3022	a	abstract[154]	new[154]	_	_
-23-11	3023-3028	novel	abstract[154]	new[154]	_	_
-23-12	3029-3031	by	abstract[154]	new[154]	_	_
-23-13	3032-3035	the	person[158]|abstract[154]	new[158]|new[154]	appos	23-16[160_158]
-23-14	3036-3041	Nobel	person[158]|abstract[154]	new[158]|new[154]	_	_
-23-15	3042-3050	laureate	person[158]|abstract[154]	new[158]|new[154]	_	_
-23-16	3051-3060	Władysław	person[160]|abstract[154]	giv[160]|new[154]	_	_
-23-17	3061-3068	Reymont	person[160]|abstract[154]	giv[160]|new[154]	_	_
+23-1	2973-2980	Andrzej	_	_	_	_
+23-2	2981-2986	Wajda	_	_	_	_
+23-3	2987-2989	's	_	_	_	_
+23-4	2990-2995	movie	_	_	_	_
+23-5	2996-2997	,	_	_	_	_
+23-6	2998-3006	Promised	_	_	_	_
+23-7	3007-3011	Land	_	_	_	_
+23-8	3012-3017	based	_	_	_	_
+23-9	3018-3020	on	_	_	_	_
+23-10	3021-3022	a	_	_	_	_
+23-11	3023-3028	novel	_	_	_	_
+23-12	3029-3031	by	_	_	_	_
+23-13	3032-3035	the	person[158]	new[158]	appos	23-16[160_158]
+23-14	3036-3041	Nobel	person[158]	new[158]	_	_
+23-15	3042-3050	laureate	person[158]	new[158]	_	_
+23-16	3051-3060	Władysław	person[160]	giv[160]	_	_
+23-17	3061-3068	Reymont	person[160]	giv[160]	_	_
 23-18	3069-3070	,	_	_	_	_
 23-19	3071-3078	depicts	_	_	_	_
 23-20	3079-3084	those	time[161]	giv[161]	_	_
@@ -820,7 +820,7 @@
 34-3	4192-4198	glance	_	_	_	_
 34-4	4199-4200	,	_	_	_	_
 34-5	4201-4204	for	_	_	_	_
-34-6	4205-4206	a	place[218]	giv[218]	coref	35-10[0_218]
+34-6	4205-4206	a	place[218]	giv[218]	coref	35-10[280_218]
 34-7	4207-4211	city	place[218]	giv[218]	_	_
 34-8	4212-4214	of	place[218]	giv[218]	_	_
 34-9	4215-4222	760,000	place[218]	giv[218]	_	_
@@ -850,15 +850,15 @@
 35-7	4331-4339	changing	_	_	_	_
 35-8	4340-4343	now	_	_	_	_
 35-9	4344-4348	with	_	_	_	_
-35-10	4349-4353	Łódź	place	giv	ana	35-14[225_0]
-35-11	4354-4365	campaigning	_	_	_	_
-35-12	4366-4369	and	_	_	_	_
-35-13	4370-4381	redesigning	event[224]	new[224]	ana	36-3[0_224]
-35-14	4382-4388	itself	event[224]|place[225]	new[224]|giv[225]	coref	36-5[0_225]
-35-15	4389-4391	as	event[224]	new[224]	_	_
-35-16	4392-4394	an	event[224]	new[224]	_	_
-35-17	4395-4408	up-and-coming	event[224]	new[224]	_	_
-35-18	4409-4420	destination	event[224]	new[224]	_	_
+35-10	4349-4353	Łódź	place[280]	giv[280]	coref	36-5[0_280]
+35-11	4354-4365	campaigning	place[280]	giv[280]	_	_
+35-12	4366-4369	and	place[280]	giv[280]	_	_
+35-13	4370-4381	redesigning	event[224]|place[280]	new[224]|giv[280]	ana	36-3[0_224]
+35-14	4382-4388	itself	event[224]|place[280]	new[224]|giv[280]	_	_
+35-15	4389-4391	as	event[224]|place[280]	new[224]|giv[280]	_	_
+35-16	4392-4394	an	event[224]|place[280]	new[224]|giv[280]	_	_
+35-17	4395-4408	up-and-coming	event[224]|place[280]	new[224]|giv[280]	_	_
+35-18	4409-4420	destination	event[224]|place[280]	new[224]|giv[280]	_	_
 35-19	4421-4422	.	_	_	_	_
 
 #Text=To accomplish this , Łódź has been capitalizing on its film history - Łódź is jokingly referred to as the " HollyŁódź " of Poland and hosts several film festivals and many other cultural events .

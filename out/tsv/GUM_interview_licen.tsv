@@ -57,7 +57,7 @@
 4-19	257-258	,	_	_	_	_
 4-20	259-267	Wikinews	organization	giv	_	_
 4-21	268-279	interviewed	_	_	_	_
-4-22	280-289	Assistant	person[18]	giv[18]	coref	4-39[209_18]
+4-22	280-289	Assistant	person[18]	giv[18]	coref	5-1[0_18]
 4-23	290-299	Professor	person[18]	giv[18]	_	_
 4-24	300-302	in	person[18]	giv[18]	_	_
 4-25	303-314	Educational	person[18]	giv[18]	_	_
@@ -74,8 +74,8 @@
 4-36	385-395	Washington	person[18]|organization[19]	giv[18]|new[19]	coref	5-10[25_19]
 4-37	396-401	State	person[18]|organization[19]	giv[18]|new[19]	_	_
 4-38	402-412	University	person[18]|organization[19]	giv[18]|new[19]	_	_
-4-39	413-418	Simon	person[18]|person[209]	giv[18]|giv[209]	ana	6-5[0_209]
-4-40	419-424	Ličen	person[18]|person[209]	giv[18]|giv[209]	_	_
+4-39	413-418	Simon	person[18]	giv[18]	_	_
+4-40	419-424	Ličen	person[18]	giv[18]	_	_
 4-41	425-430	about	_	_	_	_
 4-42	431-440	attitudes	_	_	_	_
 4-43	441-443	in	_	_	_	_
@@ -87,7 +87,7 @@
 4-49	482-483	.	_	_	_	_
 
 #Text=Ličen has recently joined the Sport Management Program at Washington State University to develop its sport media and communication research and teaching contents .
-5-1	484-489	Ličen	_	_	_	_
+5-1	484-489	Ličen	person	giv	ana	6-5
 5-2	490-493	has	_	_	_	_
 5-3	494-502	recently	_	_	_	_
 5-4	503-509	joined	_	_	_	_
@@ -164,9 +164,9 @@
 8-2	900-902	do	_	_	_	_
 8-3	903-906	you	person	acc	ana	16-3
 8-4	907-912	think	_	_	_	_
-8-5	913-916	the	organization[36]	new[36]	coref	16-10[84_36]
-8-6	917-927	Paralympic	organization[36]	new[36]	_	_
-8-7	928-936	movement	organization[36]	new[36]	_	_
+8-5	913-916	the	_	_	_	_
+8-6	917-927	Paralympic	_	_	_	_
+8-7	928-936	movement	_	_	_	_
 8-8	937-940	has	_	_	_	_
 8-9	941-943	so	_	_	_	_
 8-10	944-950	little	_	_	_	_
@@ -208,8 +208,8 @@
 #Text=It emphasizes consumerism , the belief that success always goes to people who merit it due to their abilities , dedication and qualifications , and reinforces , rather than changes , existing ideas related to gender , ethnicity and nationality .
 10-1	1140-1142	It	abstract	giv	_	_
 10-2	1143-1153	emphasizes	_	_	_	_
-10-3	1154-1165	consumerism	abstract[240]	acc[240]	appos	10-5[48_240]
-10-4	1166-1167	,	abstract[240]	acc[240]	_	_
+10-3	1154-1165	consumerism	abstract[209]	acc[209]	appos	10-5[48_209]
+10-4	1166-1167	,	abstract[209]	acc[209]	_	_
 10-5	1168-1171	the	abstract[48]	giv[48]	_	_
 10-6	1172-1178	belief	abstract[48]	giv[48]	_	_
 10-7	1179-1183	that	abstract[48]	giv[48]	_	_
@@ -217,18 +217,18 @@
 10-9	1192-1198	always	abstract[48]	giv[48]	_	_
 10-10	1199-1203	goes	abstract[48]	giv[48]	_	_
 10-11	1204-1206	to	abstract[48]	giv[48]	_	_
-10-12	1207-1213	people	abstract[48]|person[50]	giv[48]|new[50]	ana	10-18[52_50]
-10-13	1214-1217	who	abstract[48]|person[50]	giv[48]|giv[50]	_	_
-10-14	1218-1223	merit	abstract[48]|person[50]	giv[48]|giv[50]	_	_
-10-15	1224-1226	it	abstract[48]|abstract[51]|person[50]	giv[48]|giv[51]|giv[50]	_	_
-10-16	1227-1230	due	abstract[48]|person[50]	giv[48]|giv[50]	_	_
-10-17	1231-1233	to	abstract[48]|person[50]	giv[48]|giv[50]	_	_
-10-18	1234-1239	their	abstract[48]|person[52]|person[50]	giv[48]|giv[52]|giv[50]	_	_
-10-19	1240-1249	abilities	abstract[48]|person[50]	giv[48]|giv[50]	_	_
-10-20	1250-1251	,	abstract[48]|person[50]	giv[48]|giv[50]	_	_
-10-21	1252-1262	dedication	abstract[48]|person[50]	giv[48]|giv[50]	_	_
-10-22	1263-1266	and	abstract[48]|person[50]	giv[48]|giv[50]	_	_
-10-23	1267-1281	qualifications	abstract[48]|person[50]	giv[48]|giv[50]	_	_
+10-12	1207-1213	people	abstract[48]	giv[48]	_	_
+10-13	1214-1217	who	abstract[48]	giv[48]	_	_
+10-14	1218-1223	merit	abstract[48]	giv[48]	_	_
+10-15	1224-1226	it	abstract[48]|abstract[51]	giv[48]|giv[51]	_	_
+10-16	1227-1230	due	abstract[48]	giv[48]	_	_
+10-17	1231-1233	to	abstract[48]	giv[48]	_	_
+10-18	1234-1239	their	abstract[48]	giv[48]	_	_
+10-19	1240-1249	abilities	abstract[48]	giv[48]	_	_
+10-20	1250-1251	,	abstract[48]	giv[48]	_	_
+10-21	1252-1262	dedication	abstract[48]	giv[48]	_	_
+10-22	1263-1266	and	abstract[48]	giv[48]	_	_
+10-23	1267-1281	qualifications	abstract[48]	giv[48]	_	_
 10-24	1282-1283	,	_	_	_	_
 10-25	1284-1287	and	_	_	_	_
 10-26	1288-1298	reinforces	_	_	_	_
@@ -322,16 +322,16 @@
 13-15	1811-1814	and	_	_	_	_
 13-16	1815-1827	perseverance	_	_	_	_
 13-17	1828-1830	in	_	_	_	_
-13-18	1831-1840	different	abstract[68]	new[68]	ana	13-21[0_68]
+13-18	1831-1840	different	abstract[68]	new[68]	ana	13-21[242_68]
 13-19	1841-1849	contexts	abstract[68]	new[68]	_	_
 13-20	1850-1854	than	_	_	_	_
-13-21	1855-1860	those	abstract	giv	_	_
-13-22	1861-1865	most	_	_	_	_
-13-23	1866-1872	sports	_	_	_	_
-13-24	1873-1877	fans	_	_	_	_
-13-25	1878-1881	are	_	_	_	_
-13-26	1882-1892	accustomed	_	_	_	_
-13-27	1893-1895	to	_	_	_	_
+13-21	1855-1860	those	abstract[242]	giv[242]	_	_
+13-22	1861-1865	most	abstract[242]	giv[242]	_	_
+13-23	1866-1872	sports	abstract[242]	giv[242]	_	_
+13-24	1873-1877	fans	abstract[242]	giv[242]	_	_
+13-25	1878-1881	are	abstract[242]	giv[242]	_	_
+13-26	1882-1892	accustomed	abstract[242]	giv[242]	_	_
+13-27	1893-1895	to	abstract[242]	giv[242]	_	_
 13-28	1896-1897	.	_	_	_	_
 
 #Text=Other countries , including the ones you mention , have stronger social orientations in all aspects of society .
@@ -401,9 +401,9 @@
 16-7	2246-2250	will	_	_	_	_
 16-8	2251-2253	be	_	_	_	_
 16-9	2254-2257	for	_	_	_	_
-16-10	2258-2261	the	organization[84]	giv[84]	_	_
-16-11	2262-2272	Paralympic	organization[84]	giv[84]	_	_
-16-12	2273-2281	movement	organization[84]	giv[84]	_	_
+16-10	2258-2261	the	_	_	_	_
+16-11	2262-2272	Paralympic	_	_	_	_
+16-12	2273-2281	movement	_	_	_	_
 16-13	2282-2286	will	_	_	_	_
 16-14	2287-2289	be	_	_	_	_
 16-15	2290-2294	with	_	_	_	_
@@ -610,14 +610,14 @@
 24-19	3244-3250	sports	person[123]	new[123]	_	_
 24-20	3251-3263	broadcasters	person[123]	new[123]	_	_
 24-21	3264-3273	following	person[123]	new[123]	_	_
-24-22	3274-3277	the	event[125]	giv[125]	coref	25-6[128_125]
-24-23	3278-3283	event	event[125]	giv[125]	_	_
-24-24	3284-3289	after	event[125]	giv[125]	_	_
-24-25	3290-3296	having	event[125]	giv[125]	_	_
-24-26	3297-3303	worked	event[125]	giv[125]	_	_
-24-27	3304-3307	the	event[125]	giv[125]	_	_
-24-28	3308-3314	Winter	event[125]	giv[125]	_	_
-24-29	3315-3323	Olympics	event[125]	giv[125]	_	_
+24-22	3274-3277	the	event[125]|person[123]	giv[125]|new[123]	coref	25-6[128_125]
+24-23	3278-3283	event	event[125]|person[123]	giv[125]|new[123]	_	_
+24-24	3284-3289	after	person[123]	new[123]	_	_
+24-25	3290-3296	having	person[123]	new[123]	_	_
+24-26	3297-3303	worked	person[123]	new[123]	_	_
+24-27	3304-3307	the	person[123]	new[123]	_	_
+24-28	3308-3314	Winter	person[123]	new[123]	_	_
+24-29	3315-3323	Olympics	person[123]	new[123]	_	_
 24-30	3324-3325	?	_	_	_	_
 
 #Text=Will they treat and announce the competitions as they do all others — for better and worse ?
@@ -678,18 +678,18 @@
 27-6	3605-3610	think	_	_	_	_
 27-7	3611-3615	this	event	giv	_	_
 27-8	3616-3618	is	_	_	_	_
-27-9	3619-3620	a	abstract[141]	abstract[141]	coref	27-41[147_141]
-27-10	3621-3629	terrific	abstract[141]	abstract[141]	_	_
-27-11	3630-3641	opportunity	abstract[141]	abstract[141]	_	_
-27-12	3642-3644	to	abstract[141]|abstract[141]	new[141]|new[141]	_	_
-27-13	3645-3652	improve	abstract[141]|abstract[141]	new[141]|new[141]	_	_
-27-14	3653-3659	sports	abstract[141]|abstract[141]	new[141]|new[141]	_	_
-27-15	3660-3668	coverage	abstract[141]|abstract[141]	new[141]|new[141]	_	_
-27-16	3669-3671	in	abstract[141]|abstract[141]	new[141]|new[141]	_	_
-27-17	3672-3673	a	abstract[141]|abstract[141]	new[141]|new[141]	_	_
-27-18	3674-3683	multitude	abstract[141]|abstract[141]	new[141]|new[141]	_	_
-27-19	3684-3686	of	abstract[141]|abstract[141]	new[141]|new[141]	_	_
-27-20	3687-3694	aspects	abstract[141]|abstract[141]	new[141]|new[141]	_	_
+27-9	3619-3620	a	abstract[141]	new[141]	coref	27-41[147_141]
+27-10	3621-3629	terrific	abstract[141]	new[141]	_	_
+27-11	3630-3641	opportunity	abstract[141]	new[141]	_	_
+27-12	3642-3644	to	abstract[141]	new[141]	_	_
+27-13	3645-3652	improve	abstract[141]	new[141]	_	_
+27-14	3653-3659	sports	abstract[141]	new[141]	_	_
+27-15	3660-3668	coverage	abstract[141]	new[141]	_	_
+27-16	3669-3671	in	abstract[141]	new[141]	_	_
+27-17	3672-3673	a	abstract[141]	new[141]	_	_
+27-18	3674-3683	multitude	abstract[141]	new[141]	_	_
+27-19	3684-3686	of	abstract[141]	new[141]	_	_
+27-20	3687-3694	aspects	abstract[141]	new[141]	_	_
 27-21	3695-3696	;	_	_	_	_
 27-22	3697-3700	but	_	_	_	_
 27-23	3701-3703	we	_	_	_	_

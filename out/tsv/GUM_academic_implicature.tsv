@@ -461,7 +461,7 @@
 18-7	2519-2523	Hein	abstract[112]|person[113]	giv[112]|giv[113]	_	_
 18-8	2524-2527	and	abstract[112]	giv[112]	_	_
 18-9	2528-2538	colleagues	abstract[112]	giv[112]	_	_
-18-10	2539-2541	it	event[]	new[]	_	_
+18-10	2539-2541	it	event	new	_	_
 18-11	2542-2545	was	_	_	_	_
 18-12	2546-2551	found	_	_	_	_
 18-13	2552-2556	that	_	_	_	_
@@ -674,7 +674,7 @@
 26-6	3611-3612	,	_	_	_	_
 26-7	3613-3620	however	_	_	_	_
 26-8	3621-3622	,	_	_	_	_
-26-9	3623-3625	it	abstract[]	new[]	_	_
+26-9	3623-3625	it	abstract	new	_	_
 26-10	3626-3632	became	_	_	_	_
 26-11	3633-3638	clear	_	_	_	_
 26-12	3639-3643	that	_	_	_	_
@@ -832,7 +832,7 @@
 32-4	4551-4553	of	abstract[200]	new[200]	_	_
 32-5	4554-4562	findings	abstract[200]	new[200]	_	_
 32-6	4563-4564	–	abstract[242]	new[242]	_	_
-32-7	4565-4573	expected	abstract[242]|abstract[242]	new[242]|new[242]	_	_
+32-7	4565-4573	expected	abstract[242]	new[242]	_	_
 32-8	4574-4583	hierarchy	abstract[242]	new[242]	_	_
 32-9	4584-4586	of	abstract[242]	new[242]	_	_
 32-10	4587-4597	difficulty	abstract[242]	new[242]	_	_

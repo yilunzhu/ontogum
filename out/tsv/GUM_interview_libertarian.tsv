@@ -66,7 +66,7 @@
 4-9	346-349	for	_	_	_	_
 4-10	350-353	the	_	_	_	_
 4-11	354-358	2013	_	_	_	_
-4-12	359-367	Virginia	place[24]	giv[24]	_	_
+4-12	359-367	Virginia	place[24]	giv[24]	coref	7-19[50_24]
 4-13	368-381	gubernatorial	_	_	_	_
 4-14	382-390	election	_	_	_	_
 4-15	391-392	,	_	_	_	_
@@ -99,13 +99,13 @@
 5-16	518-520	14	_	_	_	_
 5-17	521-527	points	_	_	_	_
 5-18	528-534	behind	_	_	_	_
-5-19	535-545	Republican	person[32]|person[290]	new[32]|new[290]	appos|coref	5-25[34_32]|8-29[75_290]
-5-20	546-551	Party	person[32]|person[290]	new[32]|new[290]	_	_
-5-21	552-559	nominee	person[32]|person[290]	new[32]|new[290]	_	_
-5-22	560-563	Ken	person[32]|person[290]	new[32]|new[290]	_	_
-5-23	564-574	Cuccinelli	person[32]|person[290]	new[32]|new[290]	_	_
-5-24	575-576	,	person[32]|person[290]	new[32]|new[290]	_	_
-5-25	577-585	Virginia	person[34]|person[290]	giv[34]|new[290]	_	_
+5-19	535-545	Republican	person[32]	new[32]	appos	5-25[34_32]
+5-20	546-551	Party	person[32]	new[32]	_	_
+5-21	552-559	nominee	person[32]	new[32]	_	_
+5-22	560-563	Ken	person[32]	new[32]	_	_
+5-23	564-574	Cuccinelli	person[32]	new[32]	_	_
+5-24	575-576	,	person[32]	new[32]	_	_
+5-25	577-585	Virginia	person[34]	giv[34]	_	_
 5-26	586-588	's	person[34]	giv[34]	_	_
 5-27	589-597	Attorney	person[34]	giv[34]	_	_
 5-28	598-605	General	person[34]	giv[34]	_	_
@@ -170,8 +170,8 @@
 7-16	942-943	,	_	_	_	_
 7-17	944-958	simplification	_	_	_	_
 7-18	959-961	of	_	_	_	_
-7-19	962-970	Virginia	_	_	_	_
-7-20	971-973	's	_	_	_	_
+7-19	962-970	Virginia	place[50]	acc[50]	coref	8-29[75_50]
+7-20	971-973	's	place[50]	acc[50]	_	_
 7-21	974-977	Tax	_	_	_	_
 7-22	978-982	Code	_	_	_	_
 7-23	983-984	,	_	_	_	_
@@ -255,14 +255,14 @@
 #Text=I am the only candidate born and raised in Virginia , but also the only candidate who embodies both physically and philosophically the growing diversity of the commonwealth .
 11-1	1366-1367	I	person	giv	ana	12-2
 11-2	1368-1370	am	_	_	_	_
-11-3	1371-1374	the	person[84]	giv[84]	coref	13-3[94_84]
-11-4	1375-1379	only	person[84]	giv[84]	_	_
-11-5	1380-1389	candidate	person[84]	person[84]	_	_
-11-6	1390-1394	born	person[84]	giv[84]	_	_
-11-7	1395-1398	and	person[84]	giv[84]	_	_
-11-8	1399-1405	raised	person[84]	giv[84]	_	_
-11-9	1406-1408	in	person[84]	giv[84]	_	_
-11-10	1409-1417	Virginia	place|person[84]	giv|giv[84]	coref	11-27[90_0]
+11-3	1371-1374	the	_	_	_	_
+11-4	1375-1379	only	_	_	_	_
+11-5	1380-1389	candidate	_	_	_	_
+11-6	1390-1394	born	_	_	_	_
+11-7	1395-1398	and	_	_	_	_
+11-8	1399-1405	raised	_	_	_	_
+11-9	1406-1408	in	_	_	_	_
+11-10	1409-1417	Virginia	place	giv	coref	11-27[90_0]
 11-11	1418-1419	,	_	_	_	_
 11-12	1420-1423	but	_	_	_	_
 11-13	1424-1428	also	_	_	_	_
@@ -345,9 +345,9 @@
 14-17	1858-1862	much	_	_	_	_
 14-18	1863-1869	better	_	_	_	_
 14-19	1870-1874	than	_	_	_	_
-14-20	1875-1878	the	person[108]	giv[108]	coref	15-16[119_108]
-14-21	1879-1884	other	person[108]	giv[108]	_	_
-14-22	1885-1895	candidates	person[108]	giv[108]	_	_
+14-20	1875-1878	the	_	_	_	_
+14-21	1879-1884	other	_	_	_	_
+14-22	1885-1895	candidates	_	_	_	_
 14-23	1896-1897	,	_	_	_	_
 14-24	1898-1901	and	_	_	_	_
 14-25	1902-1903	I	person	giv	ana	15-1
@@ -410,10 +410,10 @@
 16-5	2207-2209	on	_	_	_	_
 16-6	2210-2213	the	abstract[127]	acc[127]	coref	18-6[136_127]
 16-7	2214-2217	job	abstract[127]	acc[127]	_	_
-16-8	2218-2221	Bob	abstract[127]|person[128]|abstract[127]	acc[127]|giv[128]|giv[127]	coref	16-13[129_128]
-16-9	2222-2231	McDonnell	abstract[127]|person[128]|abstract[127]	acc[127]|giv[128]|giv[127]	_	_
-16-10	2232-2235	has	abstract[127]|abstract[127]	acc[127]|giv[127]	_	_
-16-11	2236-2240	done	abstract[127]|abstract[127]	acc[127]|giv[127]	_	_
+16-8	2218-2221	Bob	abstract[127]|person[128]	acc[127]|giv[128]	coref	16-13[129_128]
+16-9	2222-2231	McDonnell	abstract[127]|person[128]	acc[127]|giv[128]	_	_
+16-10	2232-2235	has	abstract[127]	acc[127]	_	_
+16-11	2236-2240	done	abstract[127]	acc[127]	_	_
 16-12	2241-2243	as	abstract[127]	giv[127]	_	_
 16-13	2244-2252	Governor	person[129]|person[130]|abstract[127]	giv[129]|giv[130]|giv[127]	coref	19-10[0_130]
 16-14	2253-2255	of	person[129]|abstract[127]	giv[129]|giv[127]	_	_
@@ -847,7 +847,7 @@
 #Text=Which previous Virginia Governor(s) do you most admire and why ?
 35-1	4542-4547	Which	_	_	_	_
 35-2	4548-4556	previous	_	_	_	_
-35-3	4557-4565	Virginia	place[241]	giv[241]	coref	41-1[0_241]
+35-3	4557-4565	Virginia	place[241]	giv[241]	coref	41-1[286_241]
 35-4	4566-4577	Governor(s)	_	_	_	_
 35-5	4578-4580	do	_	_	_	_
 35-6	4581-4584	you	person	giv	coref	39-1[251_0]
@@ -904,11 +904,11 @@
 40-6	4790-4791	.	_	_	_	_
 
 #Text=Virginia , highlighted in red .
-41-1	4792-4800	Virginia	place	giv	_	_
-41-2	4801-4802	,	_	_	_	_
-41-3	4803-4814	highlighted	_	_	_	_
-41-4	4815-4817	in	_	_	_	_
-41-5	4818-4821	red	_	_	_	_
+41-1	4792-4800	Virginia	place[286]	giv[286]	_	_
+41-2	4801-4802	,	place[286]	giv[286]	_	_
+41-3	4803-4814	highlighted	place[286]	giv[286]	_	_
+41-4	4815-4817	in	place[286]	giv[286]	_	_
+41-5	4818-4821	red	place[286]	giv[286]	_	_
 41-6	4822-4823	.	_	_	_	_
 
 #Text=Image : Huebi .

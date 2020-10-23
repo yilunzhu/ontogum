@@ -165,12 +165,12 @@
 13-12	722-724	on	_	_	_	_
 13-13	725-728	top	_	_	_	_
 13-14	729-731	of	_	_	_	_
-13-15	732-733	a	place[40]	new[40]	coref	13-20[0_40]
-13-16	734-747	centuries-old	place[40]	new[40]	_	_
-13-17	748-752	Maya	place[40]|organization[41]	new[40]|acc[41]	coref	15-7[50_41]
-13-18	753-757	city	place[40]	new[40]	_	_
-13-19	758-764	called	place[40]	new[40]	_	_
-13-20	765-769	T'ho	place|place[40]	giv|new[40]	_	_
+13-15	732-733	a	_	_	_	_
+13-16	734-747	centuries-old	_	_	_	_
+13-17	748-752	Maya	organization[41]	acc[41]	coref	15-7[50_41]
+13-18	753-757	city	_	_	_	_
+13-19	758-764	called	_	_	_	_
+13-20	765-769	T'ho	_	_	_	_
 13-21	770-771	.	_	_	_	_
 
 #Text=The palatial home of the family of conquistador leader Montejo can still be seen on the south side of the Zócalo or main square .
@@ -439,7 +439,7 @@
 24-21	2003-2006	the	person[108]	acc[108]	ana	24-24[110_108]
 24-22	2007-2016	residents	person[108]	acc[108]	_	_
 24-23	2017-2022	spend	_	_	_	_
-24-24	2023-2028	their	person[110]	giv[110]	ana	25-4[0_110]
+24-24	2023-2028	their	person[110]	giv[110]	ana	25-4[362_110]
 24-25	2029-2033	time	_	_	_	_
 24-26	2034-2042	outdoors	_	_	_	_
 24-27	2043-2044	.	_	_	_	_
@@ -448,10 +448,10 @@
 25-1	2045-2048	You	person	acc	ana	27-2
 25-2	2049-2052	can	_	_	_	_
 25-3	2053-2056	see	_	_	_	_
-25-4	2057-2061	them	person	giv	ana	25-9
-25-5	2062-2070	visiting	_	_	_	_
-25-6	2071-2074	and	_	_	_	_
-25-7	2075-2082	talking	_	_	_	_
+25-4	2057-2061	them	person[362]	giv[362]	ana	25-9[0_362]
+25-5	2062-2070	visiting	person[362]	giv[362]	_	_
+25-6	2071-2074	and	person[362]	giv[362]	_	_
+25-7	2075-2082	talking	person[362]	giv[362]	_	_
 25-8	2083-2085	as	_	_	_	_
 25-9	2086-2090	they	person	giv	_	_
 25-10	2091-2097	stroll	_	_	_	_
@@ -605,16 +605,16 @@
 30-13	2843-2849	weekly	object[154]	giv[154]	_	_
 30-14	2850-2865	Spanish-English	object[154]	giv[154]	_	_
 30-15	2866-2877	publication	object[154]	giv[154]	_	_
-30-16	2878-2885	listing	object[154]|object[154]	giv[154]|giv[154]	_	_
-30-17	2886-2889	all	object[154]|object[154]	giv[154]|giv[154]	_	_
-30-18	2890-2896	events	object[154]|object[154]	giv[154]|giv[154]	_	_
-30-19	2897-2899	in	object[154]|object[154]	giv[154]|giv[154]	_	_
-30-20	2900-2903	the	place[156]|object[154]|object[154]	giv[156]|giv[154]|giv[154]	_	_
-30-21	2904-2908	city	place[156]|object[154]|object[154]	giv[156]|giv[154]|giv[154]	_	_
-30-22	2909-2912	and	object[154]|object[154]	giv[154]|giv[154]	_	_
-30-23	2913-2916	the	object[154]|object[154]	giv[154]|giv[154]	_	_
-30-24	2917-2928	surrounding	object[154]|object[154]	giv[154]|giv[154]	_	_
-30-25	2929-2935	region	object[154]|object[154]	giv[154]|giv[154]	_	_
+30-16	2878-2885	listing	object[154]	giv[154]	_	_
+30-17	2886-2889	all	object[154]	giv[154]	_	_
+30-18	2890-2896	events	object[154]	giv[154]	_	_
+30-19	2897-2899	in	object[154]	giv[154]	_	_
+30-20	2900-2903	the	place[156]|object[154]	giv[156]|giv[154]	_	_
+30-21	2904-2908	city	place[156]|object[154]	giv[156]|giv[154]	_	_
+30-22	2909-2912	and	object[154]	giv[154]	_	_
+30-23	2913-2916	the	object[154]	giv[154]	_	_
+30-24	2917-2928	surrounding	object[154]	giv[154]	_	_
+30-25	2929-2935	region	object[154]	giv[154]	_	_
 30-26	2936-2937	.	_	_	_	_
 
 #Text=City Hall Information Center ( Módulo de Información Turística Palacio Municipal ) Calle 62 between 61 and 63 ( inside the Palacio del Gobierno left of the main entrance ) , ☎ + 529999420000 x 80119 .

@@ -44,21 +44,21 @@
 3-21	190-192	in	_	_	_	_
 3-22	193-200	support	_	_	_	_
 3-23	201-203	of	_	_	_	_
-3-24	204-207	the	person[16]	giv[16]	coref	4-1[359_16]
+3-24	204-207	the	person[16]	giv[16]	coref	4-1[298_16]
 3-25	208-213	youth	person[16]	giv[16]	_	_
 3-26	214-215	.	_	_	_	_
 
 #Text=Ahmed Mohamed , a 14-year-old boy from Irving , Texas , was arrested at his school by police after he brought a digital clock he had made to school .
-4-1	216-221	Ahmed	event[17]|person[18]|person[359]	new[17]|giv[18]|new[359]	coref|appos|ana	21-12[142_17]|4-4[19_18]|4-15[23_359]
-4-2	222-229	Mohamed	event[17]|person[18]|person[359]	new[17]|giv[18]|new[359]	_	_
-4-3	230-231	,	event[17]|person[18]|person[359]	new[17]|new[18]|new[359]	_	_
-4-4	232-233	a	event[17]|person[19]|person[359]	new[17]|giv[19]|new[359]	_	_
-4-5	234-245	14-year-old	event[17]|person[19]|person[359]	new[17]|giv[19]|new[359]	_	_
-4-6	246-249	boy	event[17]|person[19]|person[359]	new[17]|giv[19]|new[359]	_	_
-4-7	250-254	from	event[17]|person[19]|person[359]	new[17]|giv[19]|new[359]	_	_
-4-8	255-261	Irving	event[17]|person[19]|person[359]	new[17]|giv[19]|new[359]	_	_
-4-9	262-263	,	event[17]|person[19]|person[359]	new[17]|giv[19]|new[359]	_	_
-4-10	264-269	Texas	event[17]|person[19]|place[21]	new[17]|giv[19]|giv[21]	_	_
+4-1	216-221	Ahmed	event[17]|person[18]|person[298]	new[17]|giv[18]|new[298]	coref|appos|ana	21-12[142_17]|4-4[19_18]|4-15[23_298]
+4-2	222-229	Mohamed	event[17]|person[18]|person[298]	new[17]|giv[18]|new[298]	_	_
+4-3	230-231	,	event[17]|person[18]|person[298]	new[17]|new[18]|new[298]	_	_
+4-4	232-233	a	event[17]|person[19]|person[298]	new[17]|giv[19]|new[298]	_	_
+4-5	234-245	14-year-old	event[17]|person[19]|person[298]	new[17]|giv[19]|new[298]	_	_
+4-6	246-249	boy	event[17]|person[19]|person[298]	new[17]|giv[19]|new[298]	_	_
+4-7	250-254	from	event[17]|person[19]|person[298]	new[17]|giv[19]|new[298]	_	_
+4-8	255-261	Irving	event[17]|person[19]|person[298]	new[17]|giv[19]|new[298]	_	_
+4-9	262-263	,	event[17]|person[19]|person[298]	new[17]|giv[19]|new[298]	_	_
+4-10	264-269	Texas	event[17]|person[19]|place[21]|person[298]	new[17]|giv[19]|giv[21]|new[298]	_	_
 4-11	270-271	,	event[17]	new[17]	_	_
 4-12	272-275	was	event[17]	new[17]	_	_
 4-13	276-284	arrested	event[17]	new[17]	_	_
@@ -101,7 +101,7 @@
 5-18	473-479	Barack	person[33]	new[33]	_	_
 5-19	480-485	Obama	person[33]	new[33]	_	_
 5-20	486-488	to	_	_	_	_
-5-21	489-497	Facebook	_	_	_	_
+5-21	489-497	Facebook	organization[36]	new[36]	coref	33-18[196_36]
 5-22	498-505	creator	_	_	_	_
 5-23	506-510	Mark	_	_	_	_
 5-24	511-521	Zuckerberg	_	_	_	_
@@ -224,12 +224,12 @@
 12-3	1120-1124	News	_	_	_	_
 12-4	1125-1133	observed	_	_	_	_
 12-5	1134-1138	that	_	_	_	_
-12-6	1139-1142	the	event[73]|abstract[74]	new[73]|new[74]	coref|coref	16-1[89_73]|12-10[297_74]
+12-6	1139-1142	the	event[73]|abstract[74]	new[73]|new[74]	coref|coref	16-1[89_73]|15-5[84_74]
 12-7	1143-1150	hashtag	event[73]|abstract[74]	new[73]|new[74]	_	_
 12-8	1151-1153	on	event[73]|abstract[74]	new[73]|new[74]	_	_
 12-9	1154-1161	Twitter	event[73]|abstract[74]|organization[75]	new[73]|new[74]|giv[75]	coref	16-2[90_75]
-12-10	1162-1163	,	event[73]|abstract[74]|abstract[297]	new[73]|new[74]|giv[297]	coref	22-3[147_297]
-12-11	1164-1180	#IStandWithAhmed	event[73]|abstract[74]|abstract[297]	new[73]|new[74]|giv[297]	_	_
+12-10	1162-1163	,	event[73]|abstract[74]	new[73]|new[74]	_	_
+12-11	1164-1180	#IStandWithAhmed	event[73]|abstract[74]	new[73]|new[74]	_	_
 12-12	1181-1182	,	event[73]	new[73]	_	_
 12-13	1183-1186	had	event[73]	new[73]	_	_
 12-14	1187-1193	become	event[73]	new[73]	_	_
@@ -276,7 +276,7 @@
 15-2	1396-1402	Hoping	_	_	_	_
 15-3	1403-1407	that	_	_	_	_
 15-4	1408-1411	the	organization[83]	giv[83]	coref	36-6[222_83]
-15-5	1412-1428	#istandwithahmed	organization[83]	giv[83]	_	_
+15-5	1412-1428	#istandwithahmed	organization[83]|abstract[84]	giv[83]|giv[84]	coref	22-3[147_84]
 15-6	1429-1437	movement	organization[83]	giv[83]	_	_
 15-7	1438-1448	translates	_	_	_	_
 15-8	1449-1453	into	_	_	_	_
@@ -317,9 +317,9 @@
 #Text=Mohamed was a VIP guest at the Google Science Fair this weekend , and was able to meet finalists at the event held at Google 's headquarters located in Mountain View , California .
 17-1	1640-1647	Mohamed	event[97]|person[98]	new[97]|giv[98]	coref|coref	18-13[113_97]|18-11[0_98]
 17-2	1648-1651	was	event[97]	new[97]	_	_
-17-3	1652-1653	a	event[97]	event[97]	_	_
-17-4	1654-1657	VIP	event[97]	event[97]	_	_
-17-5	1658-1663	guest	event[97]	event[97]	_	_
+17-3	1652-1653	a	event[97]	new[97]	_	_
+17-4	1654-1657	VIP	event[97]	new[97]	_	_
+17-5	1658-1663	guest	event[97]	new[97]	_	_
 17-6	1664-1666	at	event[97]	new[97]	_	_
 17-7	1667-1670	the	event[97]|event[100]	new[97]|giv[100]	coref	17-21[104_100]
 17-8	1671-1677	Google	event[97]|event[100]|organization[101]	new[97]|giv[100]|giv[101]	coref	18-3[110_101]
@@ -339,15 +339,15 @@
 17-22	1744-1749	event	event[104]	giv[104]	_	_
 17-23	1750-1754	held	event[104]	giv[104]	_	_
 17-24	1755-1757	at	event[104]	giv[104]	_	_
-17-25	1758-1764	Google	place[105]	new[105]	coref	20-14[127_105]
-17-26	1765-1767	's	place[105]	new[105]	_	_
-17-27	1768-1780	headquarters	place[105]	new[105]	_	_
-17-28	1781-1788	located	place[105]	new[105]	_	_
-17-29	1789-1791	in	place[105]	new[105]	_	_
-17-30	1792-1800	Mountain	place[105]	new[105]	_	_
-17-31	1801-1805	View	place[105]	new[105]	_	_
-17-32	1806-1807	,	place[105]	new[105]	_	_
-17-33	1808-1818	California	place[108]|place[105]	giv[108]|new[105]	_	_
+17-25	1758-1764	Google	place[105]|event[104]	new[105]|giv[104]	coref	20-14[127_105]
+17-26	1765-1767	's	place[105]|event[104]	new[105]|giv[104]	_	_
+17-27	1768-1780	headquarters	place[105]|event[104]	new[105]|giv[104]	_	_
+17-28	1781-1788	located	event[104]	giv[104]	_	_
+17-29	1789-1791	in	event[104]	giv[104]	_	_
+17-30	1792-1800	Mountain	event[104]	giv[104]	_	_
+17-31	1801-1805	View	event[104]	giv[104]	_	_
+17-32	1806-1807	,	event[104]	giv[104]	_	_
+17-33	1808-1818	California	place[108]|event[104]	giv[108]|giv[104]	_	_
 17-34	1819-1820	.	_	_	_	_
 
 #Text=Co-founder of Google , Sergey Brin , personally met with Mohamed during his visit to Google .
@@ -375,7 +375,7 @@
 19-3	1928-1929	,	_	_	_	_
 19-4	1930-1937	Mohamed	person	giv	ana	19-6[119_0]
 19-5	1938-1941	and	_	_	_	_
-19-6	1942-1945	his	person[118]|person[119]	new[118]|giv[119]	coref|ana	20-1[361_118]|20-1[122_119]
+19-6	1942-1945	his	person[118]|person[119]	new[118]|giv[119]	coref|ana	20-1[300_118]|20-1[122_119]
 19-7	1946-1952	father	person[118]	new[118]	_	_
 19-8	1953-1956	are	_	_	_	_
 19-9	1957-1959	to	_	_	_	_
@@ -387,11 +387,11 @@
 19-15	1989-1990	.	_	_	_	_
 
 #Text=His father Mohamed El-Hassan Mohamed said he was taking his entire family to the U.N. headquarters in New York , because international dignitaries wanted to meet with his son and express their support .
-20-1	1991-1994	His	person[121]|person[122]|person[361]	giv[121]|giv[122]|giv[361]	appos|coref|ana	20-3[123_121]|20-28[131_122]|20-7[0_361]
-20-2	1995-2001	father	person[121]|person[361]	giv[121]|giv[361]	_	_
-20-3	2002-2009	Mohamed	person[123]|person[361]	giv[123]|giv[361]	_	_
-20-4	2010-2019	El-Hassan	person[123]|person[361]	giv[123]|giv[361]	_	_
-20-5	2020-2027	Mohamed	person[123]|person[361]	giv[123]|giv[361]	_	_
+20-1	1991-1994	His	person[121]|person[122]|person[300]	giv[121]|giv[122]|giv[300]	appos|coref|ana	20-3[123_121]|20-28[131_122]|20-7[0_300]
+20-2	1995-2001	father	person[121]|person[300]	giv[121]|giv[300]	_	_
+20-3	2002-2009	Mohamed	person[123]|person[300]	giv[123]|giv[300]	_	_
+20-4	2010-2019	El-Hassan	person[123]|person[300]	giv[123]|giv[300]	_	_
+20-5	2020-2027	Mohamed	person[123]|person[300]	giv[123]|giv[300]	_	_
 20-6	2028-2032	said	_	_	_	_
 20-7	2033-2035	he	person	giv	ana	20-10[126_0]
 20-8	2036-2039	was	_	_	_	_
@@ -449,9 +449,9 @@
 #Text=She chose the hastag #IStandWithAhmed and posted to Twitter .
 22-1	2324-2327	She	person	giv	coref	23-1
 22-2	2328-2333	chose	_	_	_	_
-22-3	2334-2337	the	abstract[147]	giv[147]	coref	22-5[328_147]
+22-3	2334-2337	the	abstract[147]	giv[147]	coref	23-12[153_147]
 22-4	2338-2344	hastag	abstract[147]	giv[147]	_	_
-22-5	2345-2361	#IStandWithAhmed	abstract[147]|abstract[328]	giv[147]|giv[328]	coref	24-1[157_328]
+22-5	2345-2361	#IStandWithAhmed	abstract[147]	giv[147]	_	_
 22-6	2362-2365	and	_	_	_	_
 22-7	2366-2372	posted	_	_	_	_
 22-8	2373-2375	to	_	_	_	_
@@ -470,8 +470,8 @@
 23-9	2432-2434	to	_	_	_	_
 23-10	2435-2447	Islamophobia	abstract	new	coref	23-18[156_0]
 23-11	2448-2451	and	_	_	_	_
-23-12	2452-2455	her	person[154]	giv[154]	_	_
-23-13	2456-2463	hashtag	_	_	_	_
+23-12	2452-2455	her	abstract[153]|person[154]	giv[153]|giv[154]	coref	24-1[157_153]
+23-13	2456-2463	hashtag	abstract[153]	giv[153]	_	_
 23-14	2464-2471	created	_	_	_	_
 23-15	2472-2479	greater	_	_	_	_
 23-16	2480-2489	awareness	_	_	_	_
@@ -617,8 +617,8 @@
 33-15	3111-3115	come	_	_	_	_
 33-16	3116-3119	and	_	_	_	_
 33-17	3120-3124	tour	_	_	_	_
-33-18	3125-3128	the	_	_	_	_
-33-19	3129-3136	company	_	_	_	_
+33-18	3125-3128	the	organization[196]	giv[196]	_	_
+33-19	3129-3136	company	organization[196]	giv[196]	_	_
 33-20	3137-3138	.	_	_	_	_
 
 #Text=Executive director of the Dallas chapter of the Council on American - Islamic Relations Alia Salem said Mohamed wishes to use his newfound fame and attention to spotlight social causes including the treatment of Muslims in the United States .

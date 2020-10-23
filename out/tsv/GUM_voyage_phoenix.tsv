@@ -7,7 +7,7 @@
 1-1	0-7	Phoenix	place	new	coref	2-1
 
 #Text=Phoenix is the capital of the state of Arizona as well as the most populous city in the American Southwest and sixth largest city in the United States .
-2-1	8-15	Phoenix	place	giv	ana	3-5
+2-1	8-15	Phoenix	place	giv	ana	3-5[335_0]
 2-2	16-18	is	_	_	_	_
 2-3	19-22	the	_	_	_	_
 2-4	23-30	capital	_	_	_	_
@@ -24,40 +24,40 @@
 2-15	75-83	populous	_	_	_	_
 2-16	84-88	city	_	_	_	_
 2-17	89-91	in	_	_	_	_
-2-18	92-95	the	place[5]	place[5]	coref	3-8[10_5]
-2-19	96-104	American	place[5]	place[5]	_	_
-2-20	105-114	Southwest	place[5]	place[5]	_	_
+2-18	92-95	the	place[5]	new[5]	coref	3-8[10_5]
+2-19	96-104	American	place[5]	new[5]	_	_
+2-20	105-114	Southwest	place[5]	new[5]	_	_
 2-21	115-118	and	_	_	_	_
 2-22	119-124	sixth	_	_	_	_
 2-23	125-132	largest	_	_	_	_
 2-24	133-137	city	_	_	_	_
 2-25	138-140	in	_	_	_	_
-2-26	141-144	the	place[6]	place[6]	coref	23-12[112_6]
-2-27	145-151	United	place[6]	place[6]	_	_
-2-28	152-158	States	place[6]	place[6]	_	_
+2-26	141-144	the	place[6]	acc[6]	coref	23-12[112_6]
+2-27	145-151	United	place[6]	acc[6]	_	_
+2-28	152-158	States	place[6]	acc[6]	_	_
 2-29	159-160	.	_	_	_	_
 
 #Text=Founded in 1871 , it has become the region 's primary political , cultural , economic , and transportation center .
-3-1	161-168	Founded	_	_	_	_
-3-2	169-171	in	_	_	_	_
-3-3	172-176	1871	_	_	_	_
-3-4	177-178	,	_	_	_	_
-3-5	179-181	it	place	giv	coref	3-8[9_0]
+3-1	161-168	Founded	place[335]	giv[335]	ana	4-12[0_335]
+3-2	169-171	in	place[335]	giv[335]	_	_
+3-3	172-176	1871	place[335]	giv[335]	_	_
+3-4	177-178	,	place[335]	giv[335]	_	_
+3-5	179-181	it	place[335]	giv[335]	_	_
 3-6	182-185	has	_	_	_	_
 3-7	186-192	become	_	_	_	_
-3-8	193-196	the	place[9]|place[10]	giv[9]|giv[10]	ana	4-12[0_9]
-3-9	197-203	region	place[9]|place[10]	giv[9]|giv[10]	_	_
-3-10	204-206	's	place[9]|place[10]	giv[9]|giv[10]	_	_
-3-11	207-214	primary	place[9]	giv[9]	_	_
-3-12	215-224	political	place[9]	giv[9]	_	_
-3-13	225-226	,	place[9]	giv[9]	_	_
-3-14	227-235	cultural	place[9]	giv[9]	_	_
-3-15	236-237	,	place[9]	giv[9]	_	_
-3-16	238-246	economic	place[9]	giv[9]	_	_
-3-17	247-248	,	place[9]	giv[9]	_	_
-3-18	249-252	and	place[9]	giv[9]	_	_
-3-19	253-267	transportation	place[9]	giv[9]	_	_
-3-20	268-274	center	place[9]	giv[9]	_	_
+3-8	193-196	the	place[10]	giv[10]	_	_
+3-9	197-203	region	place[10]	giv[10]	_	_
+3-10	204-206	's	place[10]	giv[10]	_	_
+3-11	207-214	primary	_	_	_	_
+3-12	215-224	political	_	_	_	_
+3-13	225-226	,	_	_	_	_
+3-14	227-235	cultural	_	_	_	_
+3-15	236-237	,	_	_	_	_
+3-16	238-246	economic	_	_	_	_
+3-17	247-248	,	_	_	_	_
+3-18	249-252	and	_	_	_	_
+3-19	253-267	transportation	_	_	_	_
+3-20	268-274	center	_	_	_	_
 3-21	275-276	.	_	_	_	_
 
 #Text=At an elevation of 1100 ft ( 335 m ) , it is situated in the biologically unique Sonoran Desert .
@@ -228,9 +228,9 @@
 12-8	1076-1077	a	_	_	_	_
 12-9	1078-1084	center	_	_	_	_
 12-10	1085-1087	of	_	_	_	_
-12-11	1088-1091	the	abstract[46]	abstract[46]	coref	13-7[54_46]
-12-12	1092-1099	Hohokam	abstract[46]	abstract[46]	_	_
-12-13	1100-1107	culture	abstract[46]	abstract[46]	_	_
+12-11	1088-1091	the	abstract[46]	acc[46]	coref	13-7[54_46]
+12-12	1092-1099	Hohokam	abstract[46]	acc[46]	_	_
+12-13	1100-1107	culture	abstract[46]	acc[46]	_	_
 12-14	1108-1109	,	abstract[46]	giv[46]	_	_
 12-15	1110-1115	which	abstract[46]	giv[46]	_	_
 12-16	1116-1121	built	abstract[46]	giv[46]	_	_
@@ -673,7 +673,7 @@
 32-4	3197-3205	dominant	_	_	_	_
 32-5	3206-3214	language	_	_	_	_
 32-6	3215-3217	in	_	_	_	_
-32-7	3218-3225	Phoenix	place[145]	place[145]	coref	33-20[0_145]
+32-7	3218-3225	Phoenix	place[145]	giv[145]	coref	33-20[0_145]
 32-8	3226-3227	.	_	_	_	_
 
 #Text=However , like much of the Southwest with a large Hispanic population , Spanish is very widely spoken in Phoenix .

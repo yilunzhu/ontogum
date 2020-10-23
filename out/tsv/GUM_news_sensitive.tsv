@@ -13,12 +13,12 @@
 1-7	43-50	streets	_	_	_	_
 
 #Text=Friday , August 15 , 2008
-2-1	51-57	Friday	time[204]|time[236]	acc[204]|acc[236]	coref|coref	2-3[5_204]|3-21[16_236]
-2-2	58-59	,	time[204]|time[236]	acc[204]|acc[236]	_	_
-2-3	60-66	August	time[5]|time[6]|time[236]	giv[5]|acc[6]|acc[236]	coref	23-14[138_6]
-2-4	67-69	15	time[5]|time[236]	giv[5]|acc[236]	_	_
-2-5	70-71	,	time[5]|time[236]	giv[5]|acc[236]	_	_
-2-6	72-76	2008	time[5]|time[236]	giv[5]|acc[236]	_	_
+2-1	51-57	Friday	_	_	_	_
+2-2	58-59	,	_	_	_	_
+2-3	60-66	August	time[6]	acc[6]	coref	23-14[138_6]
+2-4	67-69	15	_	_	_	_
+2-5	70-71	,	_	_	_	_
+2-6	72-76	2008	_	_	_	_
 
 #Text=A sensitive Environment Canada document was found wet on an Ottawa street by someone who gave it to the CBC today .
 3-1	77-78	A	object[9]	giv[9]	ana	3-17[14_9]
@@ -41,7 +41,7 @@
 3-18	174-176	to	_	_	_	_
 3-19	177-180	the	organization[15]	acc[15]	coref	13-7[79_15]
 3-20	181-184	CBC	organization[15]	acc[15]	_	_
-3-21	185-190	today	time[16]	giv[16]	_	_
+3-21	185-190	today	_	_	_	_
 3-22	191-192	.	_	_	_	_
 
 #Text=The 131-page document was found on Castlefrank Road in Kanata , Ontario in a rain-stained , tire-marked brown envelope by a passerby .
@@ -368,14 +368,14 @@
 14-29	1946-1947	.	_	_	_	_
 
 #Text=Paul Dewar , an Ottawa New Democrat MP , said the combined security lapses raise serious questions about the government 's ability to secure sensitive documents .
-15-1	1948-1952	Paul	person[89]|person[235]	new[89]|new[235]	appos|coref	15-4[90_89]|16-1[0_235]
-15-2	1953-1958	Dewar	person[89]|person[235]	new[89]|new[235]	_	_
-15-3	1959-1960	,	person[89]|person[235]	new[89]|new[235]	_	_
-15-4	1961-1963	an	person[90]|person[235]	giv[90]|new[235]	_	_
-15-5	1964-1970	Ottawa	person[90]|place[91]|person[235]	giv[90]|giv[91]|new[235]	_	_
-15-6	1971-1974	New	person[90]|person[235]	giv[90]|new[235]	_	_
-15-7	1975-1983	Democrat	person[90]|person[235]	giv[90]|new[235]	_	_
-15-8	1984-1986	MP	person[90]	giv[90]	_	_
+15-1	1948-1952	Paul	person[89]|person[205]	new[89]|new[205]	appos|coref	15-4[90_89]|16-1[0_205]
+15-2	1953-1958	Dewar	person[89]|person[205]	new[89]|new[205]	_	_
+15-3	1959-1960	,	person[89]|person[205]	new[89]|new[205]	_	_
+15-4	1961-1963	an	person[90]|person[205]	giv[90]|new[205]	_	_
+15-5	1964-1970	Ottawa	person[90]|place[91]|person[205]	giv[90]|giv[91]|new[205]	_	_
+15-6	1971-1974	New	person[90]|person[205]	giv[90]|new[205]	_	_
+15-7	1975-1983	Democrat	person[90]|person[205]	giv[90]|new[205]	_	_
+15-8	1984-1986	MP	person[90]|person[205]	giv[90]|new[205]	_	_
 15-9	1987-1988	,	_	_	_	_
 15-10	1989-1993	said	_	_	_	_
 15-11	1994-1997	the	_	_	_	_

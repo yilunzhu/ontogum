@@ -33,7 +33,7 @@
 3-6	132-137	woman	person[10]|person[200]	giv[10]|new[200]	_	_
 3-7	138-141	and	person[10]|person[200]	giv[10]|new[200]	_	_
 3-8	142-148	former	person[10]|person[200]	giv[10]|new[200]	_	_
-3-9	149-162	Scientologist	person[10]	giv[10]	_	_
+3-9	149-162	Scientologist	person[10]|person[200]	giv[10]|new[200]	_	_
 3-10	163-164	,	_	_	_	_
 3-11	165-168	has	_	_	_	_
 3-12	169-176	claimed	_	_	_	_
@@ -59,16 +59,16 @@
 3-32	295-296	.	_	_	_	_
 
 #Text=The Church of Scientology 's cruise ship Freewinds in Bonaire .
-4-1	297-300	The	object[17]|object[202]	giv[17]|giv[202]	appos|coref	4-8[0_17]|8-8[39_202]
+4-1	297-300	The	object[17]|object[202]	giv[17]|giv[202]	appos|coref	4-8[203_17]|8-8[39_202]
 4-2	301-307	Church	object[17]|object[202]	giv[17]|giv[202]	_	_
 4-3	308-310	of	object[17]|object[202]	giv[17]|giv[202]	_	_
 4-4	311-322	Scientology	object[17]|object[202]	giv[17]|giv[202]	_	_
 4-5	323-325	's	object[17]|object[202]	giv[17]|giv[202]	_	_
 4-6	326-332	cruise	object[17]|object[202]	giv[17]|giv[202]	_	_
 4-7	333-337	ship	object[17]|object[202]	giv[17]|giv[202]	_	_
-4-8	338-347	Freewinds	object|object[202]	giv|giv[202]	_	_
-4-9	348-350	in	object|object[202]	giv|giv[202]	_	_
-4-10	351-358	Bonaire	object|object[202]	giv|giv[202]	_	_
+4-8	338-347	Freewinds	object[203]|object[202]	giv[203]|giv[202]	_	_
+4-9	348-350	in	object[203]|object[202]	giv[203]|giv[202]	_	_
+4-10	351-358	Bonaire	object[203]|object[202]	giv[203]|giv[202]	_	_
 4-11	359-360	.	_	_	_	_
 
 #Text=Paris was born in Switzerland but her parents moved her to the United Kingdom when she was six so they could be closer to the church 's headquarters .
@@ -256,12 +256,12 @@
 12-12	1227-1230	her	person[70]	giv[70]	_	_
 12-13	1231-1241	ex-husband	_	_	_	_
 12-14	1242-1245	and	_	_	_	_
-12-15	1246-1251	Paris	person[71]|person[203]	new[71]|new[203]	appos|ana	12-19[73_71]|12-25[0_203]
-12-16	1252-1254	's	person[71]|person[203]	new[71]|new[203]	_	_
-12-17	1255-1261	father	person[71]|person[203]	new[71]|new[203]	_	_
-12-18	1262-1263	,	person[71]|person[203]	new[71]|new[203]	_	_
-12-19	1264-1270	Albert	person[73]|person[203]	giv[73]|new[203]	_	_
-12-20	1271-1278	Jaquier	person[73]	giv[73]	_	_
+12-15	1246-1251	Paris	person[71]|person[204]	new[71]|new[204]	appos|ana	12-19[73_71]|12-25[0_204]
+12-16	1252-1254	's	person[71]|person[204]	new[71]|new[204]	_	_
+12-17	1255-1261	father	person[71]|person[204]	new[71]|new[204]	_	_
+12-18	1262-1263	,	person[71]|person[204]	new[71]|new[204]	_	_
+12-19	1264-1270	Albert	person[73]|person[204]	giv[73]|new[204]	_	_
+12-20	1271-1278	Jaquier	person[73]|person[204]	giv[73]|new[204]	_	_
 12-21	1279-1280	,	_	_	_	_
 12-22	1281-1290	committed	_	_	_	_
 12-23	1291-1298	suicide	_	_	_	_

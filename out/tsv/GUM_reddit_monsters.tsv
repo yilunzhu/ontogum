@@ -3,25 +3,25 @@
 #T_RL=webanno.custom.Coref|type|BT_webanno.custom.Referent
 
 
-#Text=_
+#Text=[ Monsters Inc ]
 1-1	0-1	[	_	_	_	_
 1-2	2-10	Monsters	_	_	_	_
 1-3	11-14	Inc	_	_	_	_
 1-4	15-16	]	_	_	_	_
 
-#Text=_
-2-1	17-29	Monstropolis	_	_	_	_
-2-2	30-32	is	_	_	_	_
-2-3	33-36	the	_	_	_	_
-2-4	37-41	only	_	_	_	_
-2-5	42-46	city	_	_	_	_
-2-6	47-49	in	_	_	_	_
-2-7	50-51	a	_	_	_	_
-2-8	52-61	destroyed	_	_	_	_
-2-9	62-67	world	_	_	_	_
+#Text=Monstropolis is the only city in a destroyed world
+2-1	17-29	Monstropolis	abstract[2]	new[2]	ana	3-1[0_2]
+2-2	30-32	is	abstract[2]	new[2]	_	_
+2-3	33-36	the	abstract[2]	new[2]	_	_
+2-4	37-41	only	abstract[2]	new[2]	_	_
+2-5	42-46	city	abstract[2]	new[2]	_	_
+2-6	47-49	in	abstract[2]	new[2]	_	_
+2-7	50-51	a	abstract[2]	new[2]	_	_
+2-8	52-61	destroyed	abstract[2]	new[2]	_	_
+2-9	62-67	world	abstract[2]	new[2]	_	_
 
-#Text=_
-3-1	68-72	This	_	_	_	_
+#Text=This is pieced together from random bits from both movies
+3-1	68-72	This	abstract	giv	ana	7-1
 3-2	73-75	is	_	_	_	_
 3-3	76-82	pieced	_	_	_	_
 3-4	83-91	together	_	_	_	_
@@ -32,10 +32,10 @@
 3-9	114-118	both	_	_	_	_
 3-10	119-125	movies	_	_	_	_
 
-#Text=_
-4-1	126-134	Monsters	_	_	_	_
-4-2	135-136	,	_	_	_	_
-4-3	137-141	Inc.	_	_	_	_
+#Text=Monsters , Inc. is the only company ever mentioned in relation to the energy crisis .
+4-1	126-134	Monsters	organization[8]	new[8]	ana	6-6[0_8]
+4-2	135-136	,	organization[8]	new[8]	_	_
+4-3	137-141	Inc.	organization[8]	new[8]	_	_
 4-4	142-144	is	_	_	_	_
 4-5	145-148	the	_	_	_	_
 4-6	149-153	only	_	_	_	_
@@ -50,7 +50,7 @@
 4-15	203-209	crisis	_	_	_	_
 4-16	210-211	.	_	_	_	_
 
-#Text=_
+#Text=No one else is stepping up to help solve what should be a civilization-impacting problem .
 5-1	212-214	No	_	_	_	_
 5-2	215-218	one	_	_	_	_
 5-3	219-223	else	_	_	_	_
@@ -60,38 +60,38 @@
 5-7	239-241	to	_	_	_	_
 5-8	242-246	help	_	_	_	_
 5-9	247-252	solve	_	_	_	_
-5-10	253-257	what	_	_	_	_
-5-11	258-264	should	_	_	_	_
-5-12	265-267	be	_	_	_	_
-5-13	268-269	a	_	_	_	_
-5-14	270-292	civilization-impacting	_	_	_	_
-5-15	293-300	problem	_	_	_	_
+5-10	253-257	what	abstract[13]	giv[13]	coref	15-4[62_13]
+5-11	258-264	should	abstract[13]	giv[13]	_	_
+5-12	265-267	be	abstract[13]	giv[13]	_	_
+5-13	268-269	a	abstract[13]	giv[13]	_	_
+5-14	270-292	civilization-impacting	abstract[13]	giv[13]	_	_
+5-15	293-300	problem	abstract[13]	giv[13]	_	_
 5-16	301-302	.	_	_	_	_
 
-#Text=_
+#Text=Is it more likely that they are supplying power to only one city , or to an entire world ?
 6-1	303-305	Is	_	_	_	_
 6-2	306-308	it	_	_	_	_
 6-3	309-313	more	_	_	_	_
 6-4	314-320	likely	_	_	_	_
 6-5	321-325	that	_	_	_	_
-6-6	326-330	they	_	_	_	_
+6-6	326-330	they	organization	giv	coref	7-15[18_0]
 6-7	331-334	are	_	_	_	_
 6-8	335-344	supplying	_	_	_	_
 6-9	345-350	power	_	_	_	_
 6-10	351-353	to	_	_	_	_
 6-11	354-358	only	_	_	_	_
-6-12	359-362	one	_	_	_	_
-6-13	363-367	city	_	_	_	_
+6-12	359-362	one	place[14]	giv[14]	coref	14-1[0_14]
+6-13	363-367	city	place[14]	giv[14]	_	_
 6-14	368-369	,	_	_	_	_
 6-15	370-372	or	_	_	_	_
 6-16	373-375	to	_	_	_	_
-6-17	376-378	an	_	_	_	_
-6-18	379-385	entire	_	_	_	_
-6-19	386-391	world	_	_	_	_
+6-17	376-378	an	place[15]	giv[15]	coref	8-15[28_15]
+6-18	379-385	entire	place[15]	giv[15]	_	_
+6-19	386-391	world	place[15]	giv[15]	_	_
 6-20	392-393	?	_	_	_	_
 
-#Text=_
-7-1	394-398	This	_	_	_	_
+#Text=This is further underlined when dialogue from the second movie only ever refers to Monsters , Inc as the destination for those who want to be scarers ( which incidentally , only seem to come from two schools , both of which are also apparently in the city ) .
+7-1	394-398	This	abstract	giv	_	_
 7-2	399-401	is	_	_	_	_
 7-3	402-409	further	_	_	_	_
 7-4	410-420	underlined	_	_	_	_
@@ -105,19 +105,19 @@
 7-12	462-466	ever	_	_	_	_
 7-13	467-473	refers	_	_	_	_
 7-14	474-476	to	_	_	_	_
-7-15	477-485	Monsters	_	_	_	_
-7-16	486-487	,	_	_	_	_
-7-17	488-491	Inc	_	_	_	_
+7-15	477-485	Monsters	organization[18]	giv[18]	coref	7-19[19_18]
+7-16	486-487	,	organization[18]	giv[18]	_	_
+7-17	488-491	Inc	organization[18]	giv[18]	_	_
 7-18	492-494	as	_	_	_	_
-7-19	495-498	the	_	_	_	_
-7-20	499-510	destination	_	_	_	_
-7-21	511-514	for	_	_	_	_
-7-22	515-520	those	_	_	_	_
-7-23	521-524	who	_	_	_	_
-7-24	525-529	want	_	_	_	_
-7-25	530-532	to	_	_	_	_
-7-26	533-535	be	_	_	_	_
-7-27	536-543	scarers	_	_	_	_
+7-19	495-498	the	organization[19]	giv[19]	coref	9-7[38_19]
+7-20	499-510	destination	organization[19]	giv[19]	_	_
+7-21	511-514	for	organization[19]	giv[19]	_	_
+7-22	515-520	those	organization[19]	giv[19]	_	_
+7-23	521-524	who	organization[19]	giv[19]	_	_
+7-24	525-529	want	organization[19]	giv[19]	_	_
+7-25	530-532	to	organization[19]	giv[19]	_	_
+7-26	533-535	be	organization[19]	giv[19]	_	_
+7-27	536-543	scarers	organization[19]	giv[19]	_	_
 7-28	544-545	(	_	_	_	_
 7-29	546-551	which	_	_	_	_
 7-30	552-564	incidentally	_	_	_	_
@@ -142,7 +142,7 @@
 7-49	650-651	)	_	_	_	_
 7-50	652-653	.	_	_	_	_
 
-#Text=_
+#Text=Also , it is interesting to note that Boo going through the door into the Monster World was said to be " the first time in Monster History " , and if there were other companies using Door Tech , you would think this would have happened before and there would be protocols for it .
 8-1	654-658	Also	_	_	_	_
 8-2	659-660	,	_	_	_	_
 8-3	661-663	it	_	_	_	_
@@ -151,15 +151,15 @@
 8-6	679-681	to	_	_	_	_
 8-7	682-686	note	_	_	_	_
 8-8	687-691	that	_	_	_	_
-8-9	692-695	Boo	_	_	_	_
-8-10	696-701	going	_	_	_	_
-8-11	702-709	through	_	_	_	_
-8-12	710-713	the	_	_	_	_
-8-13	714-718	door	_	_	_	_
-8-14	719-723	into	_	_	_	_
-8-15	724-727	the	_	_	_	_
-8-16	728-735	Monster	_	_	_	_
-8-17	736-741	World	_	_	_	_
+8-9	692-695	Boo	event[25]|person[26]	new[25]|new[26]	ana|coref	8-44[0_25]|16-7[0_26]
+8-10	696-701	going	event[25]	new[25]	_	_
+8-11	702-709	through	event[25]	new[25]	_	_
+8-12	710-713	the	event[25]	new[25]	_	_
+8-13	714-718	door	event[25]	new[25]	_	_
+8-14	719-723	into	event[25]	new[25]	_	_
+8-15	724-727	the	event[25]|place[28]	new[25]|giv[28]	coref	10-26[49_28]
+8-16	728-735	Monster	event[25]|place[28]	new[25]|giv[28]	_	_
+8-17	736-741	World	event[25]|place[28]	new[25]|giv[28]	_	_
 8-18	742-745	was	_	_	_	_
 8-19	746-750	said	_	_	_	_
 8-20	751-753	to	_	_	_	_
@@ -177,16 +177,16 @@
 8-32	801-803	if	_	_	_	_
 8-33	804-809	there	_	_	_	_
 8-34	810-814	were	_	_	_	_
-8-35	815-820	other	_	_	_	_
-8-36	821-830	companies	_	_	_	_
-8-37	831-836	using	_	_	_	_
-8-38	837-841	Door	_	_	_	_
-8-39	842-846	Tech	_	_	_	_
+8-35	815-820	other	organization[32]	giv[32]	coref	9-20[40_32]
+8-36	821-830	companies	organization[32]	giv[32]	_	_
+8-37	831-836	using	organization[32]	giv[32]	_	_
+8-38	837-841	Door	object[33]|organization[32]	new[33]|giv[32]	coref	39-20[131_33]
+8-39	842-846	Tech	object[33]|organization[32]	new[33]|giv[32]	_	_
 8-40	847-848	,	_	_	_	_
-8-41	849-852	you	_	_	_	_
+8-41	849-852	you	person	acc	ana	26-6
 8-42	853-858	would	_	_	_	_
 8-43	859-864	think	_	_	_	_
-8-44	865-869	this	_	_	_	_
+8-44	865-869	this	event	giv	ana	8-55[35_0]
 8-45	870-875	would	_	_	_	_
 8-46	876-880	have	_	_	_	_
 8-47	881-889	happened	_	_	_	_
@@ -197,19 +197,19 @@
 8-52	913-915	be	_	_	_	_
 8-53	916-925	protocols	_	_	_	_
 8-54	926-929	for	_	_	_	_
-8-55	930-932	it	_	_	_	_
+8-55	930-932	it	event[35]	giv[35]	_	_
 8-56	933-934	.	_	_	_	_
 
-#Text=_
+#Text=The All-Time Scare Record covers only Monsters , Inc , with no indication that there is anyone else at any other companies to compete with .
 9-1	935-938	The	_	_	_	_
 9-2	939-947	All-Time	_	_	_	_
 9-3	948-953	Scare	_	_	_	_
 9-4	954-960	Record	_	_	_	_
 9-5	961-967	covers	_	_	_	_
 9-6	968-972	only	_	_	_	_
-9-7	973-981	Monsters	_	_	_	_
-9-8	982-983	,	_	_	_	_
-9-9	984-987	Inc	_	_	_	_
+9-7	973-981	Monsters	organization[38]	giv[38]	coref	10-4[42_38]
+9-8	982-983	,	organization[38]	giv[38]	_	_
+9-9	984-987	Inc	organization[38]	giv[38]	_	_
 9-10	988-989	,	_	_	_	_
 9-11	990-994	with	_	_	_	_
 9-12	995-997	no	_	_	_	_
@@ -220,46 +220,46 @@
 9-17	1023-1029	anyone	_	_	_	_
 9-18	1030-1034	else	_	_	_	_
 9-19	1035-1037	at	_	_	_	_
-9-20	1038-1041	any	_	_	_	_
-9-21	1042-1047	other	_	_	_	_
-9-22	1048-1057	companies	_	_	_	_
+9-20	1038-1041	any	organization[40]	giv[40]	_	_
+9-21	1042-1047	other	organization[40]	giv[40]	_	_
+9-22	1048-1057	companies	organization[40]	giv[40]	_	_
 9-23	1058-1060	to	_	_	_	_
 9-24	1061-1068	compete	_	_	_	_
 9-25	1069-1073	with	_	_	_	_
 9-26	1074-1075	.	_	_	_	_
 
-#Text=_
-10-1	1076-1086	Waternoose	_	_	_	_
+#Text=Waternoose mentions that the company has been in his family for " 3 generations " ( Alluding to a possible timeline for energy research in the Monster World , but that 's a whole other theory ) , and he seems unusually attached to it .
+10-1	1076-1086	Waternoose	person	new	ana	10-9[44_0]
 10-2	1087-1095	mentions	_	_	_	_
 10-3	1096-1100	that	_	_	_	_
-10-4	1101-1104	the	_	_	_	_
-10-5	1105-1112	company	_	_	_	_
-10-6	1113-1116	has	_	_	_	_
-10-7	1117-1121	been	_	_	_	_
-10-8	1122-1124	in	_	_	_	_
-10-9	1125-1128	his	_	_	_	_
-10-10	1129-1135	family	_	_	_	_
-10-11	1136-1139	for	_	_	_	_
-10-12	1140-1141	"	_	_	_	_
-10-13	1142-1143	3	_	_	_	_
-10-14	1144-1155	generations	_	_	_	_
-10-15	1156-1157	"	_	_	_	_
+10-4	1101-1104	the	abstract[41]|organization[42]	new[41]|giv[42]	ana|ana	12-8[0_41]|10-45[0_42]
+10-5	1105-1112	company	abstract[41]|organization[42]	new[41]|giv[42]	_	_
+10-6	1113-1116	has	abstract[41]	new[41]	_	_
+10-7	1117-1121	been	abstract[41]	new[41]	_	_
+10-8	1122-1124	in	abstract[41]	new[41]	_	_
+10-9	1125-1128	his	abstract[41]|person[44]	new[41]|giv[44]	ana	10-40[0_44]
+10-10	1129-1135	family	abstract[41]	new[41]	_	_
+10-11	1136-1139	for	abstract[41]	new[41]	_	_
+10-12	1140-1141	"	abstract[41]	new[41]	_	_
+10-13	1142-1143	3	abstract[41]	new[41]	_	_
+10-14	1144-1155	generations	abstract[41]	new[41]	_	_
+10-15	1156-1157	"	abstract[41]	new[41]	_	_
 10-16	1158-1159	(	_	_	_	_
 10-17	1160-1168	Alluding	_	_	_	_
 10-18	1169-1171	to	_	_	_	_
-10-19	1172-1173	a	_	_	_	_
-10-20	1174-1182	possible	_	_	_	_
-10-21	1183-1191	timeline	_	_	_	_
-10-22	1192-1195	for	_	_	_	_
-10-23	1196-1202	energy	_	_	_	_
-10-24	1203-1211	research	_	_	_	_
-10-25	1212-1214	in	_	_	_	_
-10-26	1215-1218	the	_	_	_	_
-10-27	1219-1226	Monster	_	_	_	_
-10-28	1227-1232	World	_	_	_	_
+10-19	1172-1173	a	abstract[46]	new[46]	ana	10-31[0_46]
+10-20	1174-1182	possible	abstract[46]	new[46]	_	_
+10-21	1183-1191	timeline	abstract[46]	new[46]	_	_
+10-22	1192-1195	for	abstract[46]	new[46]	_	_
+10-23	1196-1202	energy	abstract[46]	new[46]	_	_
+10-24	1203-1211	research	abstract[46]	new[46]	_	_
+10-25	1212-1214	in	abstract[46]	new[46]	_	_
+10-26	1215-1218	the	abstract[46]|place[49]	new[46]|giv[49]	_	_
+10-27	1219-1226	Monster	abstract[46]|place[49]	new[46]|giv[49]	_	_
+10-28	1227-1232	World	abstract[46]|place[49]	new[46]|giv[49]	_	_
 10-29	1233-1234	,	_	_	_	_
 10-30	1235-1238	but	_	_	_	_
-10-31	1239-1243	that	_	_	_	_
+10-31	1239-1243	that	abstract	giv	_	_
 10-32	1244-1246	's	_	_	_	_
 10-33	1247-1248	a	_	_	_	_
 10-34	1249-1254	whole	_	_	_	_
@@ -268,15 +268,15 @@
 10-37	1268-1269	)	_	_	_	_
 10-38	1270-1271	,	_	_	_	_
 10-39	1272-1275	and	_	_	_	_
-10-40	1276-1278	he	_	_	_	_
+10-40	1276-1278	he	person	giv	ana	12-6
 10-41	1279-1284	seems	_	_	_	_
 10-42	1285-1294	unusually	_	_	_	_
 10-43	1295-1303	attached	_	_	_	_
 10-44	1304-1306	to	_	_	_	_
-10-45	1307-1309	it	_	_	_	_
+10-45	1307-1309	it	organization	giv	_	_
 10-46	1310-1311	.	_	_	_	_
 
-#Text=_
+#Text=Most rich people would take advantage of other options and be unconcerned about 1 company .
 11-1	1312-1316	Most	_	_	_	_
 11-2	1317-1321	rich	_	_	_	_
 11-3	1322-1328	people	_	_	_	_
@@ -294,19 +294,19 @@
 11-15	1394-1401	company	_	_	_	_
 11-16	1402-1403	.	_	_	_	_
 
-#Text=_
+#Text=but something in the way he says it ( especially since he is not the sole owner , given his concern about the Board of Directors ) suggests that there simply are no other options for him .
 12-1	1404-1407	but	_	_	_	_
 12-2	1408-1417	something	_	_	_	_
 12-3	1418-1420	in	_	_	_	_
 12-4	1421-1424	the	_	_	_	_
 12-5	1425-1428	way	_	_	_	_
-12-6	1429-1431	he	_	_	_	_
+12-6	1429-1431	he	person	giv	ana	12-12
 12-7	1432-1436	says	_	_	_	_
-12-8	1437-1439	it	_	_	_	_
+12-8	1437-1439	it	abstract	giv	_	_
 12-9	1440-1441	(	_	_	_	_
 12-10	1442-1452	especially	_	_	_	_
 12-11	1453-1458	since	_	_	_	_
-12-12	1459-1461	he	_	_	_	_
+12-12	1459-1461	he	person	giv	ana	12-20[56_0]
 12-13	1462-1464	is	_	_	_	_
 12-14	1465-1468	not	_	_	_	_
 12-15	1469-1472	the	_	_	_	_
@@ -314,7 +314,7 @@
 12-17	1478-1483	owner	_	_	_	_
 12-18	1484-1485	,	_	_	_	_
 12-19	1486-1491	given	_	_	_	_
-12-20	1492-1495	his	_	_	_	_
+12-20	1492-1495	his	person[56]	giv[56]	ana	12-37[0_56]
 12-21	1496-1503	concern	_	_	_	_
 12-22	1504-1509	about	_	_	_	_
 12-23	1510-1513	the	_	_	_	_
@@ -331,10 +331,10 @@
 12-34	1569-1574	other	_	_	_	_
 12-35	1575-1582	options	_	_	_	_
 12-36	1583-1586	for	_	_	_	_
-12-37	1587-1590	him	_	_	_	_
+12-37	1587-1590	him	person	giv	ana	13-9
 12-38	1591-1592	.	_	_	_	_
 
-#Text=_
+#Text=Why would n't there be other options for him in a decent-sized world ?
 13-1	1593-1596	Why	_	_	_	_
 13-2	1597-1602	would	_	_	_	_
 13-3	1603-1606	n't	_	_	_	_
@@ -343,15 +343,15 @@
 13-6	1616-1621	other	_	_	_	_
 13-7	1622-1629	options	_	_	_	_
 13-8	1630-1633	for	_	_	_	_
-13-9	1634-1637	him	_	_	_	_
+13-9	1634-1637	him	person	giv	_	_
 13-10	1638-1640	in	_	_	_	_
-13-11	1641-1642	a	_	_	_	_
-13-12	1643-1655	decent-sized	_	_	_	_
-13-13	1656-1661	world	_	_	_	_
+13-11	1641-1642	a	place[60]	giv[60]	coref	39-35[135_60]
+13-12	1643-1655	decent-sized	place[60]	giv[60]	_	_
+13-13	1656-1661	world	place[60]	giv[60]	_	_
 13-14	1662-1663	?	_	_	_	_
 
-#Text=_
-14-1	1664-1676	Monstropolis	_	_	_	_
+#Text=Monstropolis is the only city ever mentioned .
+14-1	1664-1676	Monstropolis	place	giv	coref	17-9[67_0]
 14-2	1677-1679	is	_	_	_	_
 14-3	1680-1683	the	_	_	_	_
 14-4	1684-1688	only	_	_	_	_
@@ -360,14 +360,14 @@
 14-7	1699-1708	mentioned	_	_	_	_
 14-8	1709-1710	.	_	_	_	_
 
-#Text=_
+#Text=No indication that the supposedly-massive energy crisis is causing problems anywhere else , like in other , less-wealthy countries
 15-1	1711-1713	No	_	_	_	_
 15-2	1714-1724	indication	_	_	_	_
 15-3	1725-1729	that	_	_	_	_
-15-4	1730-1733	the	_	_	_	_
-15-5	1734-1752	supposedly-massive	_	_	_	_
-15-6	1753-1759	energy	_	_	_	_
-15-7	1760-1766	crisis	_	_	_	_
+15-4	1730-1733	the	abstract[62]	giv[62]	_	_
+15-5	1734-1752	supposedly-massive	abstract[62]	giv[62]	_	_
+15-6	1753-1759	energy	abstract[62]	giv[62]	_	_
+15-7	1760-1766	crisis	abstract[62]	giv[62]	_	_
 15-8	1767-1769	is	_	_	_	_
 15-9	1770-1777	causing	_	_	_	_
 15-10	1778-1786	problems	_	_	_	_
@@ -381,51 +381,51 @@
 15-18	1819-1831	less-wealthy	_	_	_	_
 15-19	1832-1841	countries	_	_	_	_
 
-#Text=_
+#Text=When trying to get rid of Boo , Mike makes several interesting statements :
 16-1	1842-1846	When	_	_	_	_
 16-2	1847-1853	trying	_	_	_	_
 16-3	1854-1856	to	_	_	_	_
 16-4	1857-1860	get	_	_	_	_
 16-5	1861-1864	rid	_	_	_	_
 16-6	1865-1867	of	_	_	_	_
-16-7	1868-1871	Boo	_	_	_	_
+16-7	1868-1871	Boo	person	giv	coref	18-6
 16-8	1872-1873	,	_	_	_	_
-16-9	1874-1878	Mike	_	_	_	_
+16-9	1874-1878	Mike	person	new	ana	17-2
 16-10	1879-1884	makes	_	_	_	_
-16-11	1885-1892	several	_	_	_	_
-16-12	1893-1904	interesting	_	_	_	_
-16-13	1905-1915	statements	_	_	_	_
+16-11	1885-1892	several	abstract[65]	new[65]	coref	21-3[71_65]
+16-12	1893-1904	interesting	abstract[65]	new[65]	_	_
+16-13	1905-1915	statements	abstract[65]	new[65]	_	_
 16-14	1916-1917	:	_	_	_	_
 
-#Text=_
+#Text=a. He refers to digging a tunnel under the city
 17-1	1918-1920	a.	_	_	_	_
-17-2	1921-1923	He	_	_	_	_
+17-2	1921-1923	He	person	giv	ana	19-3
 17-3	1924-1930	refers	_	_	_	_
 17-4	1931-1933	to	_	_	_	_
 17-5	1934-1941	digging	_	_	_	_
-17-6	1942-1943	a	_	_	_	_
-17-7	1944-1950	tunnel	_	_	_	_
+17-6	1942-1943	a	object[66]	new[66]	ana	18-3[0_66]
+17-7	1944-1950	tunnel	object[66]	new[66]	_	_
 17-8	1951-1956	under	_	_	_	_
-17-9	1957-1960	the	_	_	_	_
-17-10	1961-1965	city	_	_	_	_
+17-9	1957-1960	the	place[67]	giv[67]	_	_
+17-10	1961-1965	city	place[67]	giv[67]	_	_
 
-#Text=_
+#Text=b. Using these to release Boo into " The Wild "
 18-1	1966-1968	b.	_	_	_	_
 18-2	1969-1974	Using	_	_	_	_
-18-3	1975-1980	these	_	_	_	_
+18-3	1975-1980	these	object	giv	_	_
 18-4	1981-1983	to	_	_	_	_
 18-5	1984-1991	release	_	_	_	_
-18-6	1992-1995	Boo	_	_	_	_
+18-6	1992-1995	Boo	person	giv	coref	22-5
 18-7	1996-2000	into	_	_	_	_
 18-8	2001-2002	"	_	_	_	_
 18-9	2003-2006	The	_	_	_	_
 18-10	2007-2011	Wild	_	_	_	_
 18-11	2012-2013	"	_	_	_	_
 
-#Text=_
+#Text=c. And he has previously discarded ideas involving an enormous slingshot and a gigantic wooden horse
 19-1	2014-2016	c.	_	_	_	_
 19-2	2017-2020	And	_	_	_	_
-19-3	2021-2023	he	_	_	_	_
+19-3	2021-2023	he	person	giv	ana	22-10[74_0]
 19-4	2024-2027	has	_	_	_	_
 19-5	2028-2038	previously	_	_	_	_
 19-6	2039-2048	discarded	_	_	_	_
@@ -440,7 +440,7 @@
 19-15	2102-2108	wooden	_	_	_	_
 19-16	2109-2114	horse	_	_	_	_
 
-#Text=_
+#Text=Why would tunnels be necessary ?
 20-1	2115-2118	Why	_	_	_	_
 20-2	2119-2124	would	_	_	_	_
 20-3	2125-2132	tunnels	_	_	_	_
@@ -448,32 +448,32 @@
 20-5	2136-2145	necessary	_	_	_	_
 20-6	2146-2147	?	_	_	_	_
 
-#Text=_
+#Text=Why all the planning in the first place ?
 21-1	2148-2151	Why	_	_	_	_
 21-2	2152-2155	all	_	_	_	_
-21-3	2156-2159	the	_	_	_	_
-21-4	2160-2168	planning	_	_	_	_
+21-3	2156-2159	the	abstract[71]	giv[71]	_	_
+21-4	2160-2168	planning	abstract[71]	giv[71]	_	_
 21-5	2169-2171	in	_	_	_	_
 21-6	2172-2175	the	_	_	_	_
 21-7	2176-2181	first	_	_	_	_
 21-8	2182-2187	place	_	_	_	_
 21-9	2188-2189	?	_	_	_	_
 
-#Text=_
+#Text=Why not just stuff Boo in the trunk of his car , drive her out of city limits , and set her loose ?
 22-1	2190-2193	Why	_	_	_	_
 22-2	2194-2197	not	_	_	_	_
 22-3	2198-2202	just	_	_	_	_
 22-4	2203-2208	stuff	_	_	_	_
-22-5	2209-2212	Boo	_	_	_	_
+22-5	2209-2212	Boo	person	giv	ana	22-14
 22-6	2213-2215	in	_	_	_	_
 22-7	2216-2219	the	_	_	_	_
 22-8	2220-2225	trunk	_	_	_	_
 22-9	2226-2228	of	_	_	_	_
-22-10	2229-2232	his	_	_	_	_
+22-10	2229-2232	his	person[74]	giv[74]	ana	23-2[0_74]
 22-11	2233-2236	car	_	_	_	_
 22-12	2237-2238	,	_	_	_	_
 22-13	2239-2244	drive	_	_	_	_
-22-14	2245-2248	her	_	_	_	_
+22-14	2245-2248	her	person	giv	ana	22-22
 22-15	2249-2252	out	_	_	_	_
 22-16	2253-2255	of	_	_	_	_
 22-17	2256-2260	city	_	_	_	_
@@ -481,18 +481,18 @@
 22-19	2268-2269	,	_	_	_	_
 22-20	2270-2273	and	_	_	_	_
 22-21	2274-2277	set	_	_	_	_
-22-22	2278-2281	her	_	_	_	_
+22-22	2278-2281	her	person	giv	_	_
 22-23	2282-2287	loose	_	_	_	_
 22-24	2288-2289	?	_	_	_	_
 
-#Text=_
+#Text=Because he ca n't .
 23-1	2290-2297	Because	_	_	_	_
-23-2	2298-2300	he	_	_	_	_
+23-2	2298-2300	he	person	giv	coref	48-5[152_0]
 23-3	2301-2303	ca	_	_	_	_
 23-4	2304-2307	n't	_	_	_	_
 23-5	2308-2309	.	_	_	_	_
 
-#Text=_
+#Text=And what are all these things good at doing ?
 24-1	2310-2313	And	_	_	_	_
 24-2	2314-2318	what	_	_	_	_
 24-3	2319-2322	are	_	_	_	_
@@ -504,19 +504,19 @@
 24-9	2348-2353	doing	_	_	_	_
 24-10	2354-2355	?	_	_	_	_
 
-#Text=_
+#Text=Getting past walls .
 25-1	2356-2363	Getting	_	_	_	_
 25-2	2364-2368	past	_	_	_	_
 25-3	2369-2374	walls	_	_	_	_
 25-4	2375-2376	.	_	_	_	_
 
-#Text=_
+#Text=And walls , especially ones you ca n't get past , are usually there for a reason .
 26-1	2377-2380	And	_	_	_	_
 26-2	2381-2386	walls	_	_	_	_
 26-3	2387-2388	,	_	_	_	_
 26-4	2389-2399	especially	_	_	_	_
 26-5	2400-2404	ones	_	_	_	_
-26-6	2405-2408	you	_	_	_	_
+26-6	2405-2408	you	person	giv	_	_
 26-7	2409-2411	ca	_	_	_	_
 26-8	2412-2415	n't	_	_	_	_
 26-9	2416-2419	get	_	_	_	_
@@ -530,27 +530,27 @@
 26-17	2451-2457	reason	_	_	_	_
 26-18	2458-2459	.	_	_	_	_
 
-#Text=_
+#Text=But what reason ?
 27-1	2460-2463	But	_	_	_	_
 27-2	2464-2468	what	_	_	_	_
-27-3	2469-2475	reason	_	_	_	_
+27-3	2469-2475	reason	abstract	giv	coref	28-11[80_0]
 27-4	2476-2477	?	_	_	_	_
 
-#Text=_
-28-1	2478-2480	We	_	_	_	_
+#Text=We 've seen gigantic monsters in both movies , so the most likely reason seems to be that there are things out there that put even these kaiju to shame , or else they could simply march outside and kill whatever is threatening Monster civilization .
+28-1	2478-2480	We	person	acc	ana	45-6
 28-2	2481-2484	've	_	_	_	_
 28-3	2485-2489	seen	_	_	_	_
-28-4	2490-2498	gigantic	_	_	_	_
-28-5	2499-2507	monsters	_	_	_	_
+28-4	2490-2498	gigantic	person[78]	new[78]	coref	28-27[84_78]
+28-5	2499-2507	monsters	person[78]	new[78]	_	_
 28-6	2508-2510	in	_	_	_	_
 28-7	2511-2515	both	_	_	_	_
 28-8	2516-2522	movies	_	_	_	_
 28-9	2523-2524	,	_	_	_	_
 28-10	2525-2527	so	_	_	_	_
-28-11	2528-2531	the	_	_	_	_
-28-12	2532-2536	most	_	_	_	_
-28-13	2537-2543	likely	_	_	_	_
-28-14	2544-2550	reason	_	_	_	_
+28-11	2528-2531	the	abstract[80]	giv[80]	ana	29-3[0_80]
+28-12	2532-2536	most	abstract[80]	giv[80]	_	_
+28-13	2537-2543	likely	abstract[80]	giv[80]	_	_
+28-14	2544-2550	reason	abstract[80]	giv[80]	_	_
 28-15	2551-2556	seems	_	_	_	_
 28-16	2557-2559	to	_	_	_	_
 28-17	2560-2562	be	_	_	_	_
@@ -563,14 +563,14 @@
 28-24	2595-2599	that	_	_	_	_
 28-25	2600-2603	put	_	_	_	_
 28-26	2604-2608	even	_	_	_	_
-28-27	2609-2614	these	_	_	_	_
-28-28	2615-2620	kaiju	_	_	_	_
+28-27	2609-2614	these	person[84]	giv[84]	ana	28-34[0_84]
+28-28	2615-2620	kaiju	person[84]	giv[84]	_	_
 28-29	2621-2623	to	_	_	_	_
 28-30	2624-2629	shame	_	_	_	_
 28-31	2630-2631	,	_	_	_	_
 28-32	2632-2634	or	_	_	_	_
 28-33	2635-2639	else	_	_	_	_
-28-34	2640-2644	they	_	_	_	_
+28-34	2640-2644	they	person	giv	_	_
 28-35	2645-2650	could	_	_	_	_
 28-36	2651-2657	simply	_	_	_	_
 28-37	2658-2663	march	_	_	_	_
@@ -584,31 +584,31 @@
 28-45	2713-2725	civilization	_	_	_	_
 28-46	2726-2727	.	_	_	_	_
 
-#Text=_
+#Text=But even this presents a problem , because then the Monsters could still periodically leave the city like Attack on Titan .
 29-1	2728-2731	But	_	_	_	_
 29-2	2732-2736	even	_	_	_	_
-29-3	2737-2741	this	_	_	_	_
+29-3	2737-2741	this	abstract	giv	_	_
 29-4	2742-2750	presents	_	_	_	_
 29-5	2751-2752	a	_	_	_	_
 29-6	2753-2760	problem	_	_	_	_
 29-7	2761-2762	,	_	_	_	_
 29-8	2763-2770	because	_	_	_	_
 29-9	2771-2775	then	_	_	_	_
-29-10	2776-2779	the	_	_	_	_
-29-11	2780-2788	Monsters	_	_	_	_
+29-10	2776-2779	the	person[88]	acc[88]	coref	31-7[99_88]
+29-11	2780-2788	Monsters	person[88]	acc[88]	_	_
 29-12	2789-2794	could	_	_	_	_
 29-13	2795-2800	still	_	_	_	_
 29-14	2801-2813	periodically	_	_	_	_
 29-15	2814-2819	leave	_	_	_	_
-29-16	2820-2823	the	_	_	_	_
-29-17	2824-2828	city	_	_	_	_
+29-16	2820-2823	the	place[89]	giv[89]	coref	37-6[119_89]
+29-17	2824-2828	city	place[89]	giv[89]	_	_
 29-18	2829-2833	like	_	_	_	_
 29-19	2834-2840	Attack	_	_	_	_
 29-20	2841-2843	on	_	_	_	_
 29-21	2844-2849	Titan	_	_	_	_
 29-22	2850-2851	.	_	_	_	_
 
-#Text=_
+#Text=Yet Mike 's apparent refusal to consider going through any possible gates aside from an ridiculously overkill idea suggests that if any gates do exist , they are tightly sealed against all but the most extreme of circumstances .
 30-1	2852-2855	Yet	_	_	_	_
 30-2	2856-2860	Mike	_	_	_	_
 30-3	2861-2863	's	_	_	_	_
@@ -618,9 +618,9 @@
 30-7	2884-2892	consider	_	_	_	_
 30-8	2893-2898	going	_	_	_	_
 30-9	2899-2906	through	_	_	_	_
-30-10	2907-2910	any	_	_	_	_
-30-11	2911-2919	possible	_	_	_	_
-30-12	2920-2925	gates	_	_	_	_
+30-10	2907-2910	any	object[93]	acc[93]	coref	30-22[95_93]
+30-11	2911-2919	possible	object[93]	acc[93]	_	_
+30-12	2920-2925	gates	object[93]	acc[93]	_	_
 30-13	2926-2931	aside	_	_	_	_
 30-14	2932-2936	from	_	_	_	_
 30-15	2937-2939	an	_	_	_	_
@@ -630,44 +630,44 @@
 30-19	2967-2975	suggests	_	_	_	_
 30-20	2976-2980	that	_	_	_	_
 30-21	2981-2983	if	_	_	_	_
-30-22	2984-2987	any	_	_	_	_
-30-23	2988-2993	gates	_	_	_	_
+30-22	2984-2987	any	object[95]	giv[95]	ana	30-27[97_95]
+30-23	2988-2993	gates	object[95]	giv[95]	_	_
 30-24	2994-2996	do	_	_	_	_
 30-25	2997-3002	exist	_	_	_	_
 30-26	3003-3004	,	_	_	_	_
-30-27	3005-3009	they	_	_	_	_
-30-28	3010-3013	are	_	_	_	_
-30-29	3014-3021	tightly	_	_	_	_
-30-30	3022-3028	sealed	_	_	_	_
-30-31	3029-3036	against	_	_	_	_
-30-32	3037-3040	all	_	_	_	_
-30-33	3041-3044	but	_	_	_	_
-30-34	3045-3048	the	_	_	_	_
-30-35	3049-3053	most	_	_	_	_
-30-36	3054-3061	extreme	_	_	_	_
-30-37	3062-3064	of	_	_	_	_
-30-38	3065-3078	circumstances	_	_	_	_
+30-27	3005-3009	they	abstract[96]|object[97]	new[96]|giv[97]	ana|ana	32-5[101_96]|31-3[0_97]
+30-28	3010-3013	are	abstract[96]	new[96]	_	_
+30-29	3014-3021	tightly	abstract[96]	new[96]	_	_
+30-30	3022-3028	sealed	abstract[96]	new[96]	_	_
+30-31	3029-3036	against	abstract[96]	new[96]	_	_
+30-32	3037-3040	all	abstract[96]	new[96]	_	_
+30-33	3041-3044	but	abstract[96]	new[96]	_	_
+30-34	3045-3048	the	abstract[96]	new[96]	_	_
+30-35	3049-3053	most	abstract[96]	new[96]	_	_
+30-36	3054-3061	extreme	abstract[96]	new[96]	_	_
+30-37	3062-3064	of	abstract[96]	new[96]	_	_
+30-38	3065-3078	circumstances	abstract[96]	new[96]	_	_
 30-39	3079-3080	.	_	_	_	_
 
-#Text=_
+#Text=Why would they be sealed if the Monsters could leave ?
 31-1	3081-3084	Why	_	_	_	_
 31-2	3085-3090	would	_	_	_	_
-31-3	3091-3095	they	_	_	_	_
+31-3	3091-3095	they	object	giv	_	_
 31-4	3096-3098	be	_	_	_	_
 31-5	3099-3105	sealed	_	_	_	_
 31-6	3106-3108	if	_	_	_	_
-31-7	3109-3112	the	_	_	_	_
-31-8	3113-3121	Monsters	_	_	_	_
+31-7	3109-3112	the	person[99]	giv[99]	coref	32-14[103_99]
+31-8	3113-3121	Monsters	person[99]	giv[99]	_	_
 31-9	3122-3127	could	_	_	_	_
 31-10	3128-3133	leave	_	_	_	_
 31-11	3134-3135	?	_	_	_	_
 
-#Text=_
+#Text=The simplest explanation for this is that the very environment is hostile to the Monsters .
 32-1	3136-3139	The	_	_	_	_
 32-2	3140-3148	simplest	_	_	_	_
 32-3	3149-3160	explanation	_	_	_	_
 32-4	3161-3164	for	_	_	_	_
-32-5	3165-3169	this	_	_	_	_
+32-5	3165-3169	this	abstract[101]	giv[101]	_	_
 32-6	3170-3172	is	_	_	_	_
 32-7	3173-3177	that	_	_	_	_
 32-8	3178-3181	the	_	_	_	_
@@ -676,24 +676,24 @@
 32-11	3199-3201	is	_	_	_	_
 32-12	3202-3209	hostile	_	_	_	_
 32-13	3210-3212	to	_	_	_	_
-32-14	3213-3216	the	_	_	_	_
-32-15	3217-3225	Monsters	_	_	_	_
+32-14	3213-3216	the	person[103]	giv[103]	coref	38-4[122_103]
+32-15	3217-3225	Monsters	person[103]	giv[103]	_	_
 32-16	3226-3227	.	_	_	_	_
 
-#Text=_
+#Text=What kind of environment could " The Wild " be ?
 33-1	3228-3232	What	_	_	_	_
 33-2	3233-3237	kind	_	_	_	_
 33-3	3238-3240	of	_	_	_	_
 33-4	3241-3252	environment	_	_	_	_
 33-5	3253-3258	could	_	_	_	_
 33-6	3259-3260	"	_	_	_	_
-33-7	3261-3264	The	_	_	_	_
-33-8	3265-3269	Wild	_	_	_	_
+33-7	3261-3264	The	place[104]	giv[104]	coref	37-3[118_104]
+33-8	3265-3269	Wild	place[104]	giv[104]	_	_
 33-9	3270-3271	"	_	_	_	_
 33-10	3272-3274	be	_	_	_	_
 33-11	3275-3276	?	_	_	_	_
 
-#Text=_
+#Text=A never-ending wasteland like the Glowing Sea ?
 34-1	3277-3278	A	_	_	_	_
 34-2	3279-3291	never-ending	_	_	_	_
 34-3	3292-3301	wasteland	_	_	_	_
@@ -703,34 +703,34 @@
 34-7	3319-3322	Sea	_	_	_	_
 34-8	3323-3324	?	_	_	_	_
 
-#Text=_
-35-1	3325-3326	A	_	_	_	_
-35-2	3327-3331	land	_	_	_	_
-35-3	3332-3336	that	_	_	_	_
-35-4	3337-3340	has	_	_	_	_
-35-5	3341-3348	already	_	_	_	_
-35-6	3349-3356	mutated	_	_	_	_
-35-7	3357-3361	some	_	_	_	_
-35-8	3362-3371	lifeforms	_	_	_	_
-35-9	3372-3376	into	_	_	_	_
-35-10	3377-3389	Lovecraftian	_	_	_	_
-35-11	3390-3397	horrors	_	_	_	_
-35-12	3398-3402	that	_	_	_	_
-35-13	3403-3408	stalk	_	_	_	_
-35-14	3409-3412	the	_	_	_	_
-35-15	3413-3417	land	_	_	_	_
-35-16	3418-3425	looking	_	_	_	_
-35-17	3426-3429	for	_	_	_	_
-35-18	3430-3436	lesser	_	_	_	_
-35-19	3437-3441	life	_	_	_	_
-35-20	3442-3444	to	_	_	_	_
-35-21	3445-3452	consume	_	_	_	_
+#Text=A land that has already mutated some lifeforms into Lovecraftian horrors that stalk the land looking for lesser life to consume ?
+35-1	3325-3326	A	place[107]	new[107]	coref	36-2[112_107]
+35-2	3327-3331	land	place[107]	new[107]	_	_
+35-3	3332-3336	that	place[107]	new[107]	_	_
+35-4	3337-3340	has	place[107]	new[107]	_	_
+35-5	3341-3348	already	place[107]	new[107]	_	_
+35-6	3349-3356	mutated	place[107]	new[107]	_	_
+35-7	3357-3361	some	place[107]	new[107]	_	_
+35-8	3362-3371	lifeforms	place[107]	new[107]	_	_
+35-9	3372-3376	into	place[107]	new[107]	_	_
+35-10	3377-3389	Lovecraftian	place[107]	new[107]	_	_
+35-11	3390-3397	horrors	place[107]	new[107]	_	_
+35-12	3398-3402	that	place[107]	new[107]	_	_
+35-13	3403-3408	stalk	place[107]	new[107]	_	_
+35-14	3409-3412	the	place[107]	new[107]	_	_
+35-15	3413-3417	land	place[107]	new[107]	_	_
+35-16	3418-3425	looking	place[107]	new[107]	_	_
+35-17	3426-3429	for	place[107]	new[107]	_	_
+35-18	3430-3436	lesser	place[107]	new[107]	_	_
+35-19	3437-3441	life	place[107]	new[107]	_	_
+35-20	3442-3444	to	place[107]	new[107]	_	_
+35-21	3445-3452	consume	place[107]	new[107]	_	_
 35-22	3453-3454	?	_	_	_	_
 
-#Text=_
+#Text=Could this land be related to some event that caused Monster civilization to reject other forms of energy in favor of relatively safe , non-volatile scream energy ?
 36-1	3455-3460	Could	_	_	_	_
-36-2	3461-3465	this	_	_	_	_
-36-3	3466-3470	land	_	_	_	_
+36-2	3461-3465	this	place[112]	giv[112]	_	_
+36-3	3466-3470	land	place[112]	giv[112]	_	_
 36-4	3471-3473	be	_	_	_	_
 36-5	3474-3481	related	_	_	_	_
 36-6	3482-3484	to	_	_	_	_
@@ -757,37 +757,37 @@
 36-27	3611-3617	energy	_	_	_	_
 36-28	3618-3619	?	_	_	_	_
 
-#Text=_
+#Text=What if the world surrounding Monstropolis is the human world ?
 37-1	3620-3624	What	_	_	_	_
 37-2	3625-3627	if	_	_	_	_
-37-3	3628-3631	the	_	_	_	_
-37-4	3632-3637	world	_	_	_	_
-37-5	3638-3649	surrounding	_	_	_	_
-37-6	3650-3662	Monstropolis	_	_	_	_
+37-3	3628-3631	the	place[118]	giv[118]	_	_
+37-4	3632-3637	world	place[118]	giv[118]	_	_
+37-5	3638-3649	surrounding	place[118]	giv[118]	_	_
+37-6	3650-3662	Monstropolis	place[118]|place[119]	giv[118]|giv[119]	coref	39-8[126_119]
 37-7	3663-3665	is	_	_	_	_
 37-8	3666-3669	the	_	_	_	_
 37-9	3670-3675	human	_	_	_	_
 37-10	3676-3681	world	_	_	_	_
 37-11	3682-3683	?	_	_	_	_
 
-#Text=_
+#Text=The only thing the monsters seem to be scared of is a human child , believing them to be toxic and deadly .
 38-1	3684-3687	The	_	_	_	_
 38-2	3688-3692	only	_	_	_	_
 38-3	3693-3698	thing	_	_	_	_
-38-4	3699-3702	the	_	_	_	_
-38-5	3703-3711	monsters	_	_	_	_
+38-4	3699-3702	the	person[122]	giv[122]	ana	39-2[125_122]
+38-5	3703-3711	monsters	person[122]	giv[122]	_	_
 38-6	3712-3716	seem	_	_	_	_
 38-7	3717-3719	to	_	_	_	_
 38-8	3720-3722	be	_	_	_	_
 38-9	3723-3729	scared	_	_	_	_
 38-10	3730-3732	of	_	_	_	_
 38-11	3733-3735	is	_	_	_	_
-38-12	3736-3737	a	_	_	_	_
-38-13	3738-3743	human	_	_	_	_
-38-14	3744-3749	child	_	_	_	_
+38-12	3736-3737	a	person[123]	new[123]	ana	38-17[0_123]
+38-13	3738-3743	human	person[123]	new[123]	_	_
+38-14	3744-3749	child	person[123]	new[123]	_	_
 38-15	3750-3751	,	_	_	_	_
 38-16	3752-3761	believing	_	_	_	_
-38-17	3762-3766	them	_	_	_	_
+38-17	3762-3766	them	person	giv	_	_
 38-18	3767-3769	to	_	_	_	_
 38-19	3770-3772	be	_	_	_	_
 38-20	3773-3778	toxic	_	_	_	_
@@ -795,48 +795,48 @@
 38-22	3783-3789	deadly	_	_	_	_
 38-23	3790-3791	.	_	_	_	_
 
-#Text=_
-39-1	3792-3797	Maybe	_	_	_	_
-39-2	3798-3802	they	_	_	_	_
-39-3	3803-3808	found	_	_	_	_
-39-4	3809-3810	a	_	_	_	_
-39-5	3811-3814	way	_	_	_	_
-39-6	3815-3817	to	_	_	_	_
-39-7	3818-3822	keep	_	_	_	_
-39-8	3823-3828	their	_	_	_	_
-39-9	3829-3833	city	_	_	_	_
-39-10	3834-3840	hidden	_	_	_	_
-39-11	3841-3845	from	_	_	_	_
-39-12	3846-3852	humans	_	_	_	_
-39-13	3853-3858	since	_	_	_	_
-39-14	3859-3863	they	_	_	_	_
-39-15	3864-3867	are	_	_	_	_
-39-16	3868-3874	scared	_	_	_	_
-39-17	3875-3877	of	_	_	_	_
-39-18	3878-3880	us	_	_	_	_
-39-19	3881-3884	and	_	_	_	_
-39-20	3885-3888	the	_	_	_	_
-39-21	3889-3893	door	_	_	_	_
-39-22	3894-3900	system	_	_	_	_
-39-23	3901-3903	is	_	_	_	_
-39-24	3904-3907	n't	_	_	_	_
-39-25	3908-3916	actually	_	_	_	_
-39-26	3917-3923	taking	_	_	_	_
-39-27	3924-3928	them	_	_	_	_
-39-28	3929-3931	to	_	_	_	_
-39-29	3932-3939	another	_	_	_	_
-39-30	3940-3949	dimension	_	_	_	_
-39-31	3950-3953	but	_	_	_	_
-39-32	3954-3963	somewhere	_	_	_	_
-39-33	3964-3968	else	_	_	_	_
-39-34	3969-3971	on	_	_	_	_
-39-35	3972-3975	the	_	_	_	_
-39-36	3976-3980	same	_	_	_	_
-39-37	3981-3987	planet	_	_	_	_
-39-38	3988-3991	...	_	_	_	_
+#Text=Maybe they found a way to keep their city hidden from humans since they are scared of us and the door system is n't actually taking them to another dimension but somewhere else on the same planet ...
+39-1	3792-3797	Maybe	abstract[124]	new[124]	ana	40-1[0_124]
+39-2	3798-3802	they	abstract[124]|person[125]	new[124]|giv[125]	ana	39-8[127_125]
+39-3	3803-3808	found	abstract[124]	new[124]	_	_
+39-4	3809-3810	a	abstract[124]	new[124]	_	_
+39-5	3811-3814	way	abstract[124]	new[124]	_	_
+39-6	3815-3817	to	abstract[124]	new[124]	_	_
+39-7	3818-3822	keep	abstract[124]	new[124]	_	_
+39-8	3823-3828	their	abstract[124]|place[126]|person[127]	new[124]|giv[126]|giv[127]	ana	39-14[129_127]
+39-9	3829-3833	city	abstract[124]|place[126]	new[124]|giv[126]	_	_
+39-10	3834-3840	hidden	abstract[124]	new[124]	_	_
+39-11	3841-3845	from	abstract[124]	new[124]	_	_
+39-12	3846-3852	humans	abstract[124]|person[128]	new[124]|acc[128]	ana	39-18[130_128]
+39-13	3853-3858	since	abstract[124]	new[124]	_	_
+39-14	3859-3863	they	abstract[124]|person[129]	new[124]|giv[129]	ana	39-27[132_129]
+39-15	3864-3867	are	abstract[124]	new[124]	_	_
+39-16	3868-3874	scared	abstract[124]	new[124]	_	_
+39-17	3875-3877	of	abstract[124]	new[124]	_	_
+39-18	3878-3880	us	abstract[124]|person[130]	new[124]|giv[130]	_	_
+39-19	3881-3884	and	abstract[124]	new[124]	_	_
+39-20	3885-3888	the	abstract[124]|object[131]	new[124]|giv[131]	_	_
+39-21	3889-3893	door	abstract[124]|object[131]	new[124]|giv[131]	_	_
+39-22	3894-3900	system	abstract[124]|object[131]	new[124]|giv[131]	_	_
+39-23	3901-3903	is	abstract[124]	new[124]	_	_
+39-24	3904-3907	n't	abstract[124]	new[124]	_	_
+39-25	3908-3916	actually	abstract[124]	new[124]	_	_
+39-26	3917-3923	taking	abstract[124]	new[124]	_	_
+39-27	3924-3928	them	abstract[124]|person[132]	new[124]|giv[132]	_	_
+39-28	3929-3931	to	abstract[124]	new[124]	_	_
+39-29	3932-3939	another	abstract[124]	new[124]	_	_
+39-30	3940-3949	dimension	abstract[124]	new[124]	_	_
+39-31	3950-3953	but	abstract[124]	new[124]	_	_
+39-32	3954-3963	somewhere	abstract[124]	new[124]	_	_
+39-33	3964-3968	else	abstract[124]	new[124]	_	_
+39-34	3969-3971	on	abstract[124]	new[124]	_	_
+39-35	3972-3975	the	abstract[124]|place[135]	new[124]|giv[135]	_	_
+39-36	3976-3980	same	abstract[124]|place[135]	new[124]|giv[135]	_	_
+39-37	3981-3987	planet	abstract[124]|place[135]	new[124]|giv[135]	_	_
+39-38	3988-3991	...	abstract[124]	new[124]	_	_
 
-#Text=_
-40-1	3992-3996	That	_	_	_	_
+#Text=That makes more sense , why would monsters be afraid of monsters ?
+40-1	3992-3996	That	abstract	giv	_	_
 40-2	3997-4002	makes	_	_	_	_
 40-3	4003-4007	more	_	_	_	_
 40-4	4008-4013	sense	_	_	_	_
@@ -847,11 +847,11 @@
 40-9	4035-4037	be	_	_	_	_
 40-10	4038-4044	afraid	_	_	_	_
 40-11	4045-4047	of	_	_	_	_
-40-12	4048-4056	monsters	_	_	_	_
+40-12	4048-4056	monsters	person	giv	ana	41-1
 40-13	4057-4058	?	_	_	_	_
 
-#Text=_
-41-1	4059-4063	They	_	_	_	_
+#Text=They would n't ... IF whatever was outside was like them .
+41-1	4059-4063	They	person	giv	_	_
 41-2	4064-4069	would	_	_	_	_
 41-3	4070-4073	n't	_	_	_	_
 41-4	4074-4077	...	_	_	_	_
@@ -864,7 +864,7 @@
 41-11	4111-4115	them	_	_	_	_
 41-12	4116-4117	.	_	_	_	_
 
-#Text=_
+#Text=Which raises the question : what do monsters consider monsters ?
 42-1	4118-4123	Which	_	_	_	_
 42-2	4124-4130	raises	_	_	_	_
 42-3	4131-4134	the	_	_	_	_
@@ -872,27 +872,27 @@
 42-5	4144-4145	:	_	_	_	_
 42-6	4146-4150	what	_	_	_	_
 42-7	4151-4153	do	_	_	_	_
-42-8	4154-4162	monsters	_	_	_	_
+42-8	4154-4162	monsters	person[139]	giv[139]	ana	44-12[0_139]
 42-9	4163-4171	consider	_	_	_	_
 42-10	4172-4180	monsters	_	_	_	_
 42-11	4181-4182	?	_	_	_	_
 
-#Text=_
+#Text=Humans
 43-1	4183-4189	Humans	_	_	_	_
 
-#Text=_
-44-1	4190-4192	It	_	_	_	_
+#Text=It seems unlikely , since if that were the case , they could simply talk to the humans who could then work with them to provide any number of energy solutions that do n't involve screams .
+44-1	4190-4192	It	abstract	giv	ana	44-7
 44-2	4193-4198	seems	_	_	_	_
 44-3	4199-4207	unlikely	_	_	_	_
 44-4	4208-4209	,	_	_	_	_
 44-5	4210-4215	since	_	_	_	_
 44-6	4216-4218	if	_	_	_	_
-44-7	4219-4223	that	_	_	_	_
+44-7	4219-4223	that	abstract	giv	_	_
 44-8	4224-4228	were	_	_	_	_
 44-9	4229-4232	the	_	_	_	_
 44-10	4233-4237	case	_	_	_	_
 44-11	4238-4239	,	_	_	_	_
-44-12	4240-4244	they	_	_	_	_
+44-12	4240-4244	they	person	giv	ana	44-24
 44-13	4245-4250	could	_	_	_	_
 44-14	4251-4257	simply	_	_	_	_
 44-15	4258-4262	talk	_	_	_	_
@@ -904,7 +904,7 @@
 44-21	4287-4291	then	_	_	_	_
 44-22	4292-4296	work	_	_	_	_
 44-23	4297-4301	with	_	_	_	_
-44-24	4302-4306	them	_	_	_	_
+44-24	4302-4306	them	person	giv	_	_
 44-25	4307-4309	to	_	_	_	_
 44-26	4310-4317	provide	_	_	_	_
 44-27	4318-4321	any	_	_	_	_
@@ -919,39 +919,39 @@
 44-36	4369-4376	screams	_	_	_	_
 44-37	4377-4378	.	_	_	_	_
 
-#Text=_
+#Text=Plus , despite the tech we 've seen monsters use , we 've never seen them use any cloaking tech ( something that would no doubt come in useful for scarers ) for something even monster-sized , let alone something that could hide an entire city
 45-1	4379-4383	Plus	_	_	_	_
 45-2	4384-4385	,	_	_	_	_
 45-3	4386-4393	despite	_	_	_	_
 45-4	4394-4397	the	_	_	_	_
 45-5	4398-4402	tech	_	_	_	_
-45-6	4403-4405	we	_	_	_	_
+45-6	4403-4405	we	person	giv	ana	45-12
 45-7	4406-4409	've	_	_	_	_
 45-8	4410-4414	seen	_	_	_	_
-45-9	4415-4423	monsters	_	_	_	_
+45-9	4415-4423	monsters	person	giv	ana	45-16
 45-10	4424-4427	use	_	_	_	_
 45-11	4428-4429	,	_	_	_	_
-45-12	4430-4432	we	_	_	_	_
+45-12	4430-4432	we	person	giv	_	_
 45-13	4433-4436	've	_	_	_	_
 45-14	4437-4442	never	_	_	_	_
 45-15	4443-4447	seen	_	_	_	_
-45-16	4448-4452	them	_	_	_	_
+45-16	4448-4452	them	person	giv	ana	46-6
 45-17	4453-4456	use	_	_	_	_
 45-18	4457-4460	any	_	_	_	_
-45-19	4461-4469	cloaking	_	_	_	_
-45-20	4470-4474	tech	_	_	_	_
-45-21	4475-4476	(	_	_	_	_
-45-22	4477-4486	something	_	_	_	_
-45-23	4487-4491	that	_	_	_	_
-45-24	4492-4497	would	_	_	_	_
-45-25	4498-4500	no	_	_	_	_
-45-26	4501-4506	doubt	_	_	_	_
-45-27	4507-4511	come	_	_	_	_
-45-28	4512-4514	in	_	_	_	_
-45-29	4515-4521	useful	_	_	_	_
-45-30	4522-4525	for	_	_	_	_
-45-31	4526-4533	scarers	_	_	_	_
-45-32	4534-4535	)	_	_	_	_
+45-19	4461-4469	cloaking	object[145]	new[145]	appos	45-21[187_145]
+45-20	4470-4474	tech	object[145]	new[145]	_	_
+45-21	4475-4476	(	object[187]	new[187]	_	_
+45-22	4477-4486	something	object[187]	new[187]	_	_
+45-23	4487-4491	that	object[187]	new[187]	_	_
+45-24	4492-4497	would	object[187]	new[187]	_	_
+45-25	4498-4500	no	object[187]	new[187]	_	_
+45-26	4501-4506	doubt	object[187]	new[187]	_	_
+45-27	4507-4511	come	object[187]	new[187]	_	_
+45-28	4512-4514	in	object[187]	new[187]	_	_
+45-29	4515-4521	useful	object[187]	new[187]	_	_
+45-30	4522-4525	for	object[187]	new[187]	_	_
+45-31	4526-4533	scarers	object[187]	new[187]	_	_
+45-32	4534-4535	)	object[187]	new[187]	_	_
 45-33	4536-4539	for	_	_	_	_
 45-34	4540-4549	something	_	_	_	_
 45-35	4550-4554	even	_	_	_	_
@@ -967,21 +967,21 @@
 45-45	4610-4616	entire	_	_	_	_
 45-46	4617-4621	city	_	_	_	_
 
-#Text=_
+#Text=And do n't forget that they talk about the two worlds as if they actually ARE two different worlds .
 46-1	4622-4625	And	_	_	_	_
 46-2	4626-4628	do	_	_	_	_
 46-3	4629-4632	n't	_	_	_	_
 46-4	4633-4639	forget	_	_	_	_
 46-5	4640-4644	that	_	_	_	_
-46-6	4645-4649	they	_	_	_	_
+46-6	4645-4649	they	person	giv	_	_
 46-7	4650-4654	talk	_	_	_	_
 46-8	4655-4660	about	_	_	_	_
-46-9	4661-4664	the	_	_	_	_
-46-10	4665-4668	two	_	_	_	_
-46-11	4669-4675	worlds	_	_	_	_
+46-9	4661-4664	the	place[147]	giv[147]	ana	46-14[0_147]
+46-10	4665-4668	two	place[147]	giv[147]	_	_
+46-11	4669-4675	worlds	place[147]	giv[147]	_	_
 46-12	4676-4678	as	_	_	_	_
 46-13	4679-4681	if	_	_	_	_
-46-14	4682-4686	they	_	_	_	_
+46-14	4682-4686	they	place	giv	ana	47-2
 46-15	4687-4695	actually	_	_	_	_
 46-16	4696-4699	ARE	_	_	_	_
 46-17	4700-4703	two	_	_	_	_
@@ -989,9 +989,9 @@
 46-19	4714-4720	worlds	_	_	_	_
 46-20	4721-4722	.	_	_	_	_
 
-#Text=_
+#Text=If they were on the same planet , it would make much more sense to talk about borders and being outside the boundaries
 47-1	4723-4725	If	_	_	_	_
-47-2	4726-4730	they	_	_	_	_
+47-2	4726-4730	they	place	giv	_	_
 47-3	4731-4735	were	_	_	_	_
 47-4	4736-4738	on	_	_	_	_
 47-5	4739-4742	the	_	_	_	_
@@ -1007,21 +1007,21 @@
 47-15	4787-4789	to	_	_	_	_
 47-16	4790-4794	talk	_	_	_	_
 47-17	4795-4800	about	_	_	_	_
-47-18	4801-4808	borders	_	_	_	_
+47-18	4801-4808	borders	place	giv	coref	47-22[150_0]
 47-19	4809-4812	and	_	_	_	_
 47-20	4813-4818	being	_	_	_	_
 47-21	4819-4826	outside	_	_	_	_
-47-22	4827-4830	the	_	_	_	_
-47-23	4831-4841	boundaries	_	_	_	_
+47-22	4827-4830	the	place[150]	giv[150]	_	_
+47-23	4831-4841	boundaries	place[150]	giv[150]	_	_
 
-#Text=_
+#Text=( Remember , when Mike and Sully are tossed into the Himalayas , Mike 's rant about being in the human world implies that they are not merely outside whatever is surrounding Monstropolis )
 48-1	4842-4843	(	_	_	_	_
 48-2	4844-4852	Remember	_	_	_	_
 48-3	4853-4854	,	_	_	_	_
 48-4	4855-4859	when	_	_	_	_
-48-5	4860-4864	Mike	_	_	_	_
-48-6	4865-4868	and	_	_	_	_
-48-7	4869-4874	Sully	_	_	_	_
+48-5	4860-4864	Mike	person[151]|person[152]	new[151]|giv[152]	ana	48-25[0_151]
+48-6	4865-4868	and	person[151]	new[151]	_	_
+48-7	4869-4874	Sully	person[151]	new[151]	_	_
 48-8	4875-4878	are	_	_	_	_
 48-9	4879-4885	tossed	_	_	_	_
 48-10	4886-4890	into	_	_	_	_
@@ -1039,7 +1039,7 @@
 48-22	4945-4950	world	_	_	_	_
 48-23	4951-4958	implies	_	_	_	_
 48-24	4959-4963	that	_	_	_	_
-48-25	4964-4968	they	_	_	_	_
+48-25	4964-4968	they	person	giv	_	_
 48-26	4969-4972	are	_	_	_	_
 48-27	4973-4976	not	_	_	_	_
 48-28	4977-4983	merely	_	_	_	_

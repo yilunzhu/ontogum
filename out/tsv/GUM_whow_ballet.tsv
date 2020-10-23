@@ -67,10 +67,10 @@
 3-27	335-336	.	_	_	_	_
 
 #Text=People who study ballet also retain flexibility throughout their adult lives , making this technique the basis of training for all types of dance .
-4-1	337-343	People	person	new	ana	4-9[19_0]
-4-2	344-347	who	_	_	_	_
-4-3	348-353	study	_	_	_	_
-4-4	354-360	ballet	abstract	giv	coref	4-14[20_0]
+4-1	337-343	People	person[220]	new[220]	ana	4-9[19_220]
+4-2	344-347	who	person[220]	new[220]	_	_
+4-3	348-353	study	person[220]	new[220]	_	_
+4-4	354-360	ballet	abstract|person[220]	giv|new[220]	coref	4-14[20_0]
 4-5	361-365	also	_	_	_	_
 4-6	366-372	retain	_	_	_	_
 4-7	373-384	flexibility	_	_	_	_
@@ -320,24 +320,24 @@
 16-1	1555-1557	Do	_	_	_	_
 16-2	1558-1561	n't	_	_	_	_
 16-3	1562-1565	buy	_	_	_	_
-16-4	1566-1571	shoes	object	giv	ana	17-4
-16-5	1572-1574	to	_	_	_	_
-16-6	1575-1579	grow	_	_	_	_
-16-7	1580-1584	into	_	_	_	_
-16-8	1585-1586	,	_	_	_	_
-16-9	1587-1594	because	_	_	_	_
-16-10	1595-1599	your	object[84]|person[85]	giv[84]|giv[85]	ana	16-16[0_85]
-16-11	1600-1604	feet	object[84]	giv[84]	_	_
-16-12	1605-1609	will	_	_	_	_
-16-13	1610-1614	seem	_	_	_	_
-16-14	1615-1621	flexed	_	_	_	_
-16-15	1622-1626	when	_	_	_	_
-16-16	1627-1630	you	person	giv	ana	17-1
-16-17	1631-1637	pointe	_	_	_	_
-16-18	1638-1641	and	_	_	_	_
-16-19	1642-1646	will	_	_	_	_
-16-20	1647-1651	look	_	_	_	_
-16-21	1652-1656	flat	_	_	_	_
+16-4	1566-1571	shoes	object[221]	giv[221]	ana	17-4[0_221]
+16-5	1572-1574	to	object[221]	giv[221]	_	_
+16-6	1575-1579	grow	object[221]	giv[221]	_	_
+16-7	1580-1584	into	object[221]	giv[221]	_	_
+16-8	1585-1586	,	object[221]	giv[221]	_	_
+16-9	1587-1594	because	object[221]	giv[221]	_	_
+16-10	1595-1599	your	object[84]|person[85]|object[221]	giv[84]|giv[85]|giv[221]	ana	16-16[0_85]
+16-11	1600-1604	feet	object[84]|object[221]	giv[84]|giv[221]	_	_
+16-12	1605-1609	will	object[221]	giv[221]	_	_
+16-13	1610-1614	seem	object[221]	giv[221]	_	_
+16-14	1615-1621	flexed	object[221]	giv[221]	_	_
+16-15	1622-1626	when	object[221]	giv[221]	_	_
+16-16	1627-1630	you	person|object[221]	giv|giv[221]	ana	17-1
+16-17	1631-1637	pointe	object[221]	giv[221]	_	_
+16-18	1638-1641	and	object[221]	giv[221]	_	_
+16-19	1642-1646	will	object[221]	giv[221]	_	_
+16-20	1647-1651	look	object[221]	giv[221]	_	_
+16-21	1652-1656	flat	object[221]	giv[221]	_	_
 16-22	1657-1658	.	_	_	_	_
 
 #Text=You should fit them to where the drawstring is tied slightly loose .
@@ -449,13 +449,13 @@
 24-4	2125-2130	thing	_	_	_	_
 24-5	2131-2133	is	_	_	_	_
 24-6	2134-2138	that	_	_	_	_
-24-7	2139-2142	you	person[116]	person[116]	ana	24-13[117_116]
+24-7	2139-2142	you	person[116]	giv[116]	ana	24-13[117_116]
 24-8	2143-2146	are	_	_	_	_
 24-9	2147-2158	comfortable	_	_	_	_
 24-10	2159-2160	,	_	_	_	_
 24-11	2161-2164	and	_	_	_	_
 24-12	2165-2169	that	_	_	_	_
-24-13	2170-2173	you	person[117]	person[117]	ana	24-23[0_117]
+24-13	2170-2173	you	person[117]	giv[117]	ana	24-23[0_117]
 24-14	2174-2177	're	_	_	_	_
 24-15	2178-2181	not	_	_	_	_
 24-16	2182-2189	wearing	_	_	_	_

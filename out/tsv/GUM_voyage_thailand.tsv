@@ -18,15 +18,15 @@
 2-9	46-56	remarkably	_	_	_	_
 2-10	57-65	tolerant	_	_	_	_
 2-11	66-68	of	_	_	_	_
-2-12	69-79	foreigners	person	new	ana	2-22
-2-13	80-92	gallivanting	_	_	_	_
-2-14	93-95	on	_	_	_	_
-2-15	96-101	their	_	_	_	_
-2-16	102-109	beaches	_	_	_	_
-2-17	110-113	and	_	_	_	_
-2-18	114-118	with	_	_	_	_
-2-19	119-124	their	_	_	_	_
-2-20	125-130	women	_	_	_	_
+2-12	69-79	foreigners	person[242]	new[242]	ana	2-22[0_242]
+2-13	80-92	gallivanting	person[242]	new[242]	_	_
+2-14	93-95	on	person[242]	new[242]	_	_
+2-15	96-101	their	person[242]	new[242]	_	_
+2-16	102-109	beaches	person[242]	new[242]	_	_
+2-17	110-113	and	person[242]	new[242]	_	_
+2-18	114-118	with	person[242]	new[242]	_	_
+2-19	119-124	their	person[242]	new[242]	_	_
+2-20	125-130	women	person[242]	new[242]	_	_
 2-21	131-132	,	_	_	_	_
 2-22	133-136	you	person	giv	ana	2-26
 2-23	137-139	ll	_	_	_	_
@@ -64,13 +64,13 @@
 4-7	277-281	done	_	_	_	_
 
 #Text=The traditional greeting known as the wai , where you press your hands together as is in prayer and bow slightly , is derived from the Hindu cultural influence from India , and still widely practised .
-5-1	282-285	The	event[17]	giv[17]	ana	5-6[18_17]
+5-1	282-285	The	event[17]	giv[17]	coref	6-15[25_17]
 5-2	286-297	traditional	event[17]	giv[17]	_	_
 5-3	298-306	greeting	event[17]	giv[17]	_	_
 5-4	307-312	known	event[17]	giv[17]	_	_
 5-5	313-315	as	event[17]	giv[17]	_	_
-5-6	316-319	the	event[18]|event[17]	giv[18]|giv[17]	coref	6-15[25_18]
-5-7	320-323	wai	event[18]|event[17]	giv[18]|giv[17]	_	_
+5-6	316-319	the	event[17]	giv[17]	_	_
+5-7	320-323	wai	event[17]	giv[17]	_	_
 5-8	324-325	,	event[17]	giv[17]	_	_
 5-9	326-331	where	event[17]	giv[17]	_	_
 5-10	332-335	you	event[17]	giv[17]	_	_

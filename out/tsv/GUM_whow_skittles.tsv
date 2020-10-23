@@ -134,16 +134,16 @@
 9-1	575-586	Ingredients	_	_	_	_
 
 #Text=A handle ( 1.75 liters , about a half gallon ) of vodka per bag of Skittles
-10-1	587-588	A	quantity[34]|quantity[459]	new[34]|new[459]	appos|appos	10-3[469_34]|10-7[36_459]
-10-2	589-595	handle	quantity[34]|quantity[459]	new[34]|new[459]	_	_
-10-3	596-597	(	quantity[459]|quantity[469]	new[459]|giv[469]	_	_
-10-4	598-602	1.75	quantity[459]|quantity[469]	new[459]|giv[469]	_	_
-10-5	603-609	liters	quantity[459]|quantity[469]	new[459]|giv[469]	_	_
-10-6	610-611	,	quantity[469]	giv[469]	_	_
-10-7	612-617	about	quantity[36]|quantity[469]	giv[36]|giv[469]	_	_
-10-8	618-619	a	quantity[36]|quantity[469]	giv[36]|giv[469]	_	_
-10-9	620-624	half	quantity[36]|quantity[469]	giv[36]|giv[469]	_	_
-10-10	625-631	gallon	quantity[36]	giv[36]	_	_
+10-1	587-588	A	quantity[34]|quantity[430]	new[34]|new[430]	appos|appos	10-3[440_34]|10-7[36_430]
+10-2	589-595	handle	quantity[34]|quantity[430]	new[34]|new[430]	_	_
+10-3	596-597	(	quantity[430]|quantity[440]	new[430]|giv[440]	_	_
+10-4	598-602	1.75	quantity[430]|quantity[440]	new[430]|giv[440]	_	_
+10-5	603-609	liters	quantity[430]|quantity[440]	new[430]|giv[440]	_	_
+10-6	610-611	,	quantity[440]	giv[440]	_	_
+10-7	612-617	about	quantity[36]|quantity[440]	giv[36]|giv[440]	_	_
+10-8	618-619	a	quantity[36]|quantity[440]	giv[36]|giv[440]	_	_
+10-9	620-624	half	quantity[36]|quantity[440]	giv[36]|giv[440]	_	_
+10-10	625-631	gallon	quantity[36]|quantity[440]	giv[36]|giv[440]	_	_
 10-11	632-633	)	_	_	_	_
 10-12	634-636	of	_	_	_	_
 10-13	637-642	vodka	substance	giv	coref	13-11[50_0]
@@ -153,20 +153,20 @@
 10-17	654-662	Skittles	substance[39]	giv[39]	_	_
 
 #Text=A large bag of Skittles candy ( the " movie size " bag )
-11-1	663-664	A	object[40]|object[460]	giv[40]|giv[460]	appos|coref	11-7[334_40]|65-15[230_460]
-11-2	665-670	large	object[40]|object[460]	giv[40]|giv[460]	_	_
-11-3	671-674	bag	object[40]|object[460]	giv[40]|giv[460]	_	_
-11-4	675-677	of	object[40]|object[460]	giv[40]|giv[460]	_	_
-11-5	678-686	Skittles	object[40]|substance[41]|object[460]	giv[40]|giv[41]|giv[460]	coref	13-5[48_41]
-11-6	687-692	candy	object[40]|substance[41]|object[460]	giv[40]|giv[41]|giv[460]	_	_
-11-7	693-694	(	object[334]|object[460]	giv[334]|giv[460]	_	_
-11-8	695-698	the	object[334]|object[460]	giv[334]|giv[460]	_	_
-11-9	699-700	"	object[334]|object[460]	giv[334]|giv[460]	_	_
-11-10	701-706	movie	object[334]|object[460]	giv[334]|giv[460]	_	_
-11-11	707-711	size	object[334]|object[460]	giv[334]|giv[460]	_	_
-11-12	712-713	"	object[334]|object[460]	giv[334]|giv[460]	_	_
-11-13	714-717	bag	object[334]|object[460]	giv[334]|giv[460]	_	_
-11-14	718-719	)	object[334]|object[460]	giv[334]|giv[460]	_	_
+11-1	663-664	A	object[40]|object[431]	giv[40]|giv[431]	appos|coref	11-7[334_40]|65-15[230_431]
+11-2	665-670	large	object[40]|object[431]	giv[40]|giv[431]	_	_
+11-3	671-674	bag	object[40]|object[431]	giv[40]|giv[431]	_	_
+11-4	675-677	of	object[40]|object[431]	giv[40]|giv[431]	_	_
+11-5	678-686	Skittles	object[40]|substance[41]|object[431]	giv[40]|giv[41]|giv[431]	coref	13-5[48_41]
+11-6	687-692	candy	object[40]|substance[41]|object[431]	giv[40]|giv[41]|giv[431]	_	_
+11-7	693-694	(	object[334]|object[431]	giv[334]|giv[431]	_	_
+11-8	695-698	the	object[334]|object[431]	giv[334]|giv[431]	_	_
+11-9	699-700	"	object[334]|object[431]	giv[334]|giv[431]	_	_
+11-10	701-706	movie	object[334]|object[431]	giv[334]|giv[431]	_	_
+11-11	707-711	size	object[334]|object[431]	giv[334]|giv[431]	_	_
+11-12	712-713	"	object[334]|object[431]	giv[334]|giv[431]	_	_
+11-13	714-717	bag	object[334]|object[431]	giv[334]|giv[431]	_	_
+11-14	718-719	)	object[334]|object[431]	giv[334]|giv[431]	_	_
 
 #Text=Method 1 of 3 : Single Serving ( 25 mL Shot )
 12-1	720-726	Method	_	_	_	_
@@ -174,12 +174,12 @@
 12-3	729-731	of	_	_	_	_
 12-4	732-733	3	_	_	_	_
 12-5	734-735	:	_	_	_	_
-12-6	736-742	Single	quantity[461]	giv[461]	coref	14-46[62_461]
-12-7	743-750	Serving	quantity[461]	giv[461]	_	_
-12-8	751-752	(	quantity[461]	giv[461]	_	_
-12-9	753-755	25	quantity[461]	giv[461]	_	_
-12-10	756-758	mL	quantity[461]	giv[461]	_	_
-12-11	759-763	Shot	_	_	_	_
+12-6	736-742	Single	quantity[432]	giv[432]	coref	14-46[62_432]
+12-7	743-750	Serving	quantity[432]	giv[432]	_	_
+12-8	751-752	(	quantity[432]	giv[432]	_	_
+12-9	753-755	25	quantity[432]	giv[432]	_	_
+12-10	756-758	mL	quantity[432]	giv[432]	_	_
+12-11	759-763	Shot	quantity[432]	giv[432]	_	_
 12-12	764-765	)	_	_	_	_
 
 #Text=Separate the colors of Skittles that you want to flavor the vodka with .
@@ -311,7 +311,7 @@
 19-3	1332-1335	the	_	_	_	_
 19-4	1336-1341	ratio	_	_	_	_
 19-5	1342-1344	of	_	_	_	_
-19-6	1345-1353	Skittles	substance[76]	giv[76]	_	_
+19-6	1345-1353	Skittles	substance[76]	giv[76]	coref	24-12[0_76]
 19-7	1354-1356	to	_	_	_	_
 19-8	1357-1362	vodka	_	_	_	_
 19-9	1363-1369	varies	_	_	_	_
@@ -403,7 +403,7 @@
 
 #Text=Separate the Skittles by color .
 25-1	1755-1763	Separate	_	_	_	_
-25-2	1764-1767	the	substance[96]	giv[96]	coref	26-2[462_96]
+25-2	1764-1767	the	substance[96]	giv[96]	coref	26-2[433_96]
 25-3	1768-1776	Skittles	substance[96]	giv[96]	_	_
 25-4	1777-1779	by	_	_	_	_
 25-5	1780-1785	color	_	_	_	_
@@ -411,20 +411,20 @@
 
 #Text=Add the Skittles ( 20 - 25 per 350 ml / 11.8 fl oz ) .
 26-1	1788-1791	Add	_	_	_	_
-26-2	1792-1795	the	substance[98]|substance[462]	giv[98]|giv[462]	appos|coref	26-4[365_98]|29-3[106_462]
-26-3	1796-1804	Skittles	substance[98]|substance[462]	giv[98]|giv[462]	_	_
-26-4	1805-1806	(	substance[365]|substance[462]	giv[365]|giv[462]	_	_
-26-5	1807-1809	20	substance[365]|substance[462]	giv[365]|giv[462]	_	_
-26-6	1810-1811	-	substance[365]|substance[462]	giv[365]|giv[462]	_	_
-26-7	1812-1814	25	substance[365]|substance[462]	giv[365]|giv[462]	_	_
-26-8	1815-1818	per	substance[365]|substance[462]	giv[365]|giv[462]	_	_
-26-9	1819-1822	350	substance[365]|substance[462]|quantity[463]	giv[365]|giv[462]|new[463]	coref	27-2[102_463]
-26-10	1823-1825	ml	substance[365]|substance[462]|quantity[463]	giv[365]|giv[462]|new[463]	_	_
-26-11	1826-1827	/	substance[365]|substance[462]|quantity[463]	giv[365]|giv[462]|new[463]	_	_
-26-12	1828-1832	11.8	substance[365]|substance[462]|quantity[463]	giv[365]|giv[462]|new[463]	_	_
-26-13	1833-1835	fl	substance[365]|substance[462]|quantity[463]	giv[365]|giv[462]|new[463]	_	_
-26-14	1836-1838	oz	substance[365]|substance[462]	giv[365]|giv[462]	_	_
-26-15	1839-1840	)	substance[365]|substance[462]	giv[365]|giv[462]	_	_
+26-2	1792-1795	the	substance[98]|substance[433]	giv[98]|giv[433]	appos|coref	26-4[365_98]|29-3[106_433]
+26-3	1796-1804	Skittles	substance[98]|substance[433]	giv[98]|giv[433]	_	_
+26-4	1805-1806	(	substance[365]|substance[433]	giv[365]|giv[433]	_	_
+26-5	1807-1809	20	substance[365]|substance[433]	giv[365]|giv[433]	_	_
+26-6	1810-1811	-	substance[365]|substance[433]	giv[365]|giv[433]	_	_
+26-7	1812-1814	25	substance[365]|substance[433]	giv[365]|giv[433]	_	_
+26-8	1815-1818	per	substance[365]|substance[433]	giv[365]|giv[433]	_	_
+26-9	1819-1822	350	substance[365]|substance[433]|quantity[434]	giv[365]|giv[433]|new[434]	coref	27-2[102_434]
+26-10	1823-1825	ml	substance[365]|substance[433]|quantity[434]	giv[365]|giv[433]|new[434]	_	_
+26-11	1826-1827	/	substance[365]|substance[433]|quantity[434]	giv[365]|giv[433]|new[434]	_	_
+26-12	1828-1832	11.8	substance[365]|substance[433]|quantity[434]	giv[365]|giv[433]|new[434]	_	_
+26-13	1833-1835	fl	substance[365]|substance[433]|quantity[434]	giv[365]|giv[433]|new[434]	_	_
+26-14	1836-1838	oz	substance[365]|substance[433]|quantity[434]	giv[365]|giv[433]|new[434]	_	_
+26-15	1839-1840	)	substance[365]|substance[433]	giv[365]|giv[433]	_	_
 26-16	1841-1842	.	_	_	_	_
 
 #Text=Let the mixture sit for a day or two .
@@ -476,14 +476,14 @@
 30-3	2043-2044	.	_	_	_	_
 
 #Text=Method 3 of 3 : Dishwasher Bottle Method
-31-1	2045-2051	Method	abstract[110]	acc[110]	coref	31-5[396_110]
-31-2	2052-2053	3	abstract[110]	acc[110]	_	_
-31-3	2054-2056	of	abstract[110]	acc[110]	_	_
-31-4	2057-2058	3	abstract[110]	acc[110]	_	_
-31-5	2059-2060	:	abstract[396]	giv[396]	_	_
-31-6	2061-2071	Dishwasher	abstract[396]	giv[396]	_	_
-31-7	2072-2078	Bottle	abstract[396]	giv[396]	_	_
-31-8	2079-2085	Method	abstract[396]	giv[396]	_	_
+31-1	2045-2051	Method	_	_	_	_
+31-2	2052-2053	3	_	_	_	_
+31-3	2054-2056	of	_	_	_	_
+31-4	2057-2058	3	_	_	_	_
+31-5	2059-2060	:	_	_	_	_
+31-6	2061-2071	Dishwasher	_	_	_	_
+31-7	2072-2078	Bottle	_	_	_	_
+31-8	2079-2085	Method	_	_	_	_
 
 #Text=Separate the colors from five bags of 200 g Skittles .
 32-1	2086-2094	Separate	_	_	_	_
@@ -586,7 +586,7 @@
 37-5	2499-2507	finished	_	_	_	_
 37-6	2508-2509	,	_	_	_	_
 37-7	2510-2515	shake	_	_	_	_
-37-8	2516-2519	all	object[135]	giv[135]	_	_
+37-8	2516-2519	all	object[135]	giv[135]	coref	42-7[154_135]
 37-9	2520-2527	bottles	object[135]	giv[135]	_	_
 37-10	2528-2538	vigorously	_	_	_	_
 37-11	2539-2544	again	_	_	_	_
@@ -788,7 +788,7 @@
 51-3	3346-3351	could	_	_	_	_
 51-4	3352-3356	just	_	_	_	_
 51-5	3357-3362	scoop	_	_	_	_
-51-6	3363-3367	them	substance	giv	_	_
+51-6	3363-3367	them	substance	giv	coref	52-8[179_0]
 51-7	3368-3371	out	_	_	_	_
 51-8	3372-3376	when	_	_	_	_
 51-9	3377-3380	the	_	_	_	_
@@ -902,7 +902,7 @@
 #Text=Then separate the candy and use one flavor for each bottle .
 56-1	3873-3877	Then	_	_	_	_
 56-2	3878-3886	separate	_	_	_	_
-56-3	3887-3890	the	substance[206]	giv[206]	_	_
+56-3	3887-3890	the	substance[206]	giv[206]	ana	57-14[211_206]
 56-4	3891-3896	candy	substance[206]	giv[206]	_	_
 56-5	3897-3900	and	_	_	_	_
 56-6	3901-3904	use	_	_	_	_
@@ -1021,18 +1021,18 @@
 64-4	4370-4374	Need	_	_	_	_
 
 #Text=Each handle of vodka ( 1.75 liters , about a half gallon ) requires a large bag worth of Skittles , so if you plan on doing only one flavor for a flavorful vodka , you 'll have to buy 5 large bags of Skittles .
-65-1	4375-4379	Each	quantity[226]|quantity[468]	new[226]|new[468]	appos|appos	65-5[470_226]|65-9[229_468]
-65-2	4380-4386	handle	quantity[226]|quantity[468]	new[226]|new[468]	_	_
-65-3	4387-4389	of	quantity[226]|quantity[468]	new[226]|new[468]	_	_
-65-4	4390-4395	vodka	quantity[226]|quantity[468]	new[226]|new[468]	_	_
-65-5	4396-4397	(	quantity[468]|quantity[470]	new[468]|new[470]	_	_
-65-6	4398-4402	1.75	quantity[468]|quantity[470]	new[468]|new[470]	_	_
-65-7	4403-4409	liters	quantity[468]|quantity[470]	new[468]|new[470]	_	_
-65-8	4410-4411	,	quantity[470]	new[470]	_	_
-65-9	4412-4417	about	quantity[229]|quantity[470]	giv[229]|new[470]	_	_
-65-10	4418-4419	a	quantity[229]|quantity[470]	giv[229]|new[470]	_	_
-65-11	4420-4424	half	quantity[229]|quantity[470]	giv[229]|new[470]	_	_
-65-12	4425-4431	gallon	quantity[229]	giv[229]	_	_
+65-1	4375-4379	Each	quantity[226]|quantity[439]	new[226]|new[439]	appos|appos	65-5[441_226]|65-9[229_439]
+65-2	4380-4386	handle	quantity[226]|quantity[439]	new[226]|new[439]	_	_
+65-3	4387-4389	of	quantity[226]|quantity[439]	new[226]|new[439]	_	_
+65-4	4390-4395	vodka	quantity[226]|quantity[439]	new[226]|new[439]	_	_
+65-5	4396-4397	(	quantity[439]|quantity[441]	new[439]|new[441]	_	_
+65-6	4398-4402	1.75	quantity[439]|quantity[441]	new[439]|new[441]	_	_
+65-7	4403-4409	liters	quantity[439]|quantity[441]	new[439]|new[441]	_	_
+65-8	4410-4411	,	quantity[441]	new[441]	_	_
+65-9	4412-4417	about	quantity[229]|quantity[441]	giv[229]|new[441]	_	_
+65-10	4418-4419	a	quantity[229]|quantity[441]	giv[229]|new[441]	_	_
+65-11	4420-4424	half	quantity[229]|quantity[441]	giv[229]|new[441]	_	_
+65-12	4425-4431	gallon	quantity[229]|quantity[441]	giv[229]|new[441]	_	_
 65-13	4432-4433	)	_	_	_	_
 65-14	4434-4442	requires	_	_	_	_
 65-15	4443-4444	a	object[230]	giv[230]	_	_

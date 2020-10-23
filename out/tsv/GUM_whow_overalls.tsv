@@ -148,14 +148,14 @@
 8-3	638-642	best	_	_	_	_
 8-4	643-645	to	_	_	_	_
 8-5	646-650	wash	_	_	_	_
-8-6	651-657	adults	object[28]	giv[28]	ana	8-11[168_28]
+8-6	651-657	adults	object[28]	giv[28]	ana	9-13[32_28]
 8-7	658-659	’	object[28]	giv[28]	_	_
 8-8	660-668	overalls	object[28]	giv[28]	_	_
 8-9	669-674	alone	_	_	_	_
-8-10	675-676	,	object[28]	new[28]	_	_
-8-11	677-687	especially	object[168]	new[168]	ana	10-9[0_168]
-8-12	688-691	men	object[168]	new[168]	_	_
-8-13	692-694	’s	object[168]	new[168]	_	_
+8-10	675-676	,	_	_	_	_
+8-11	677-687	especially	_	_	_	_
+8-12	688-691	men	_	_	_	_
+8-13	692-694	’s	_	_	_	_
 8-14	695-696	.	_	_	_	_
 
 #Text=However , it is okay to wash just a few items with them , like blue jeans .
@@ -171,7 +171,7 @@
 9-10	733-736	few	_	_	_	_
 9-11	737-742	items	_	_	_	_
 9-12	743-747	with	_	_	_	_
-9-13	748-752	them	_	_	_	_
+9-13	748-752	them	object[32]	giv[32]	ana	10-9[0_32]
 9-14	753-754	,	_	_	_	_
 9-15	755-759	like	_	_	_	_
 9-16	760-764	blue	_	_	_	_

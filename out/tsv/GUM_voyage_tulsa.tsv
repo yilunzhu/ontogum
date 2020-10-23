@@ -344,14 +344,14 @@
 17-2	1545-1550	plane	_	_	_	_
 
 #Text=Tulsa International Airport ( IATA : TUL ) in the northern part of Tulsa .
-18-1	1551-1556	Tulsa	place[79]|place[80]|place[523]	new[79]|giv[80]|new[523]	appos|coref|ana	18-4[368_79]|18-14[83_80]|19-1[0_523]
-18-2	1557-1570	International	place[79]|place[523]	new[79]|new[523]	_	_
-18-3	1571-1578	Airport	place[79]|place[523]	new[79]|new[523]	_	_
-18-4	1579-1580	(	place[368]|place[523]	giv[368]|new[523]	_	_
-18-5	1581-1585	IATA	place[368]|place[523]	giv[368]|new[523]	_	_
-18-6	1586-1587	:	place[368]|place[523]	giv[368]|new[523]	_	_
-18-7	1588-1591	TUL	place[368]|place[523]	giv[368]|new[523]	_	_
-18-8	1592-1593	)	place[368]|place[523]	giv[368]|new[523]	_	_
+18-1	1551-1556	Tulsa	place[79]|place[80]|place[495]	new[79]|giv[80]|new[495]	appos|coref|ana	18-4[368_79]|18-14[83_80]|19-1[0_495]
+18-2	1557-1570	International	place[79]|place[495]	new[79]|new[495]	_	_
+18-3	1571-1578	Airport	place[79]|place[495]	new[79]|new[495]	_	_
+18-4	1579-1580	(	place[368]|place[495]	giv[368]|new[495]	_	_
+18-5	1581-1585	IATA	place[368]|place[495]	giv[368]|new[495]	_	_
+18-6	1586-1587	:	place[368]|place[495]	giv[368]|new[495]	_	_
+18-7	1588-1591	TUL	place[368]|place[495]	giv[368]|new[495]	_	_
+18-8	1592-1593	)	place[368]|place[495]	giv[368]|new[495]	_	_
 18-9	1594-1596	in	_	_	_	_
 18-10	1597-1600	the	_	_	_	_
 18-11	1601-1609	northern	_	_	_	_
@@ -424,17 +424,17 @@
 22-13	1909-1910	.	_	_	_	_
 
 #Text=Richard L. Jones , Jr. Airport ( IATA : RVS ) ( often called the " Riverside Airport " ) is south of downtown and is a general aviation airport .
-23-1	1911-1918	Richard	place[100]|place[524]	new[100]|new[524]	appos|coref	23-7[399_100]|23-15[103_524]
-23-2	1919-1921	L.	place[100]|place[524]	new[100]|new[524]	_	_
-23-3	1922-1927	Jones	place[100]|place[524]	new[100]|new[524]	_	_
-23-4	1928-1929	,	place[100]|place[524]	new[100]|new[524]	_	_
-23-5	1930-1933	Jr.	place[100]|place[524]	new[100]|new[524]	_	_
-23-6	1934-1941	Airport	place[100]|place[524]	new[100]|new[524]	_	_
-23-7	1942-1943	(	place[399]|place[524]	giv[399]|new[524]	_	_
-23-8	1944-1948	IATA	place[399]|place[524]	giv[399]|new[524]	_	_
-23-9	1949-1950	:	place[399]|place[524]	giv[399]|new[524]	_	_
-23-10	1951-1954	RVS	place[399]|place[524]	giv[399]|new[524]	_	_
-23-11	1955-1956	)	place[399]|place[524]	giv[399]|new[524]	_	_
+23-1	1911-1918	Richard	place[100]|place[496]	new[100]|new[496]	appos|coref	23-7[399_100]|23-15[103_496]
+23-2	1919-1921	L.	place[100]|place[496]	new[100]|new[496]	_	_
+23-3	1922-1927	Jones	place[100]|place[496]	new[100]|new[496]	_	_
+23-4	1928-1929	,	place[100]|place[496]	new[100]|new[496]	_	_
+23-5	1930-1933	Jr.	place[100]|place[496]	new[100]|new[496]	_	_
+23-6	1934-1941	Airport	place[100]|place[496]	new[100]|new[496]	_	_
+23-7	1942-1943	(	place[399]|place[496]	giv[399]|new[496]	_	_
+23-8	1944-1948	IATA	place[399]|place[496]	giv[399]|new[496]	_	_
+23-9	1949-1950	:	place[399]|place[496]	giv[399]|new[496]	_	_
+23-10	1951-1954	RVS	place[399]|place[496]	giv[399]|new[496]	_	_
+23-11	1955-1956	)	place[399]|place[496]	giv[399]|new[496]	_	_
 23-12	1957-1958	(	_	_	_	_
 23-13	1959-1964	often	_	_	_	_
 23-14	1965-1971	called	_	_	_	_
@@ -594,14 +594,14 @@
 33-4	2635-2636	-	_	_	_	_
 33-5	2637-2642	US-75	_	_	_	_
 33-6	2643-2647	from	_	_	_	_
-33-7	2648-2656	Okmulgee	place[145]	new[145]	coref	33-9[430_145]
+33-7	2648-2656	Okmulgee	place[145]	new[145]	coref	33-14[148_145]
 33-8	2657-2658	,	place[145]	new[145]	_	_
-33-9	2659-2661	OK	place[145]|place[146]|place[430]	new[145]|giv[146]|giv[430]	_	_
+33-9	2659-2661	OK	place[145]|place[146]	new[145]|giv[146]	_	_
 33-10	2662-2663	,	_	_	_	_
 33-11	2664-2667	aka	_	_	_	_
 33-12	2668-2671	the	_	_	_	_
 33-13	2672-2673	"	_	_	_	_
-33-14	2674-2682	Okmulgee	_	_	_	_
+33-14	2674-2682	Okmulgee	place[148]	giv[148]	_	_
 33-15	2683-2690	Beeline	_	_	_	_
 33-16	2691-2692	.	_	_	_	_
 33-17	2693-2694	"	_	_	_	_
@@ -789,31 +789,31 @@
 45-18	3474-3475	,	_	_	_	_
 45-19	3476-3480	I-44	_	_	_	_
 45-20	3481-3482	,	_	_	_	_
-45-21	3483-3485	US	object[187]	new[187]	appos	45-23[461_187]
+45-21	3483-3485	US	object[187]	new[187]	appos	45-23[430_187]
 45-22	3486-3489	169	object[187]	new[187]	_	_
-45-23	3490-3491	(	object[461]	giv[461]	_	_
-45-24	3492-3497	Mingo	object[461]	giv[461]	_	_
-45-25	3498-3504	Valley	object[461]	giv[461]	_	_
-45-26	3505-3515	Expressway	object[461]	giv[461]	_	_
-45-27	3516-3517	,	object[461]	giv[461]	_	_
-45-28	3518-3521	aka	object[461]	giv[461]	_	_
-45-29	3522-3523	"	object[461]	giv[461]	_	_
-45-30	3524-3529	Pearl	object[461]	giv[461]	_	_
-45-31	3530-3536	Harbor	object[461]	giv[461]	_	_
-45-32	3537-3545	Memorial	object[461]	giv[461]	_	_
-45-33	3546-3556	Expressway	object[461]	giv[461]	_	_
-45-34	3557-3558	"	object[461]	giv[461]	_	_
-45-35	3559-3560	)	object[461]	giv[461]	_	_
+45-23	3490-3491	(	object[430]	giv[430]	_	_
+45-24	3492-3497	Mingo	object[430]	giv[430]	_	_
+45-25	3498-3504	Valley	object[430]	giv[430]	_	_
+45-26	3505-3515	Expressway	object[430]	giv[430]	_	_
+45-27	3516-3517	,	object[430]	giv[430]	_	_
+45-28	3518-3521	aka	object[430]	giv[430]	_	_
+45-29	3522-3523	"	object[430]	giv[430]	_	_
+45-30	3524-3529	Pearl	object[430]	giv[430]	_	_
+45-31	3530-3536	Harbor	object[430]	giv[430]	_	_
+45-32	3537-3545	Memorial	object[430]	giv[430]	_	_
+45-33	3546-3556	Expressway	object[430]	giv[430]	_	_
+45-34	3557-3558	"	object[430]	giv[430]	_	_
+45-35	3559-3560	)	object[430]	giv[430]	_	_
 45-36	3561-3562	,	_	_	_	_
 45-37	3563-3565	US	_	_	_	_
 45-38	3566-3568	75	_	_	_	_
 45-39	3569-3570	,	_	_	_	_
-45-40	3571-3574	Hwy	object[192]	new[192]	appos	45-42[492_192]
+45-40	3571-3574	Hwy	object[192]	new[192]	appos	45-42[461_192]
 45-41	3575-3577	51	object[192]	new[192]	_	_
-45-42	3578-3579	(	object[492]	giv[492]	_	_
-45-43	3580-3586	Broken	place[194]|object[492]	giv[194]|giv[492]	coref	65-14[286_194]
-45-44	3587-3592	Arrow	place[194]|object[492]	giv[194]|giv[492]	_	_
-45-45	3593-3603	Expressway	object[492]	giv[492]	_	_
+45-42	3578-3579	(	object[461]	giv[461]	_	_
+45-43	3580-3586	Broken	place[194]|object[461]	giv[194]|giv[461]	coref	65-14[286_194]
+45-44	3587-3592	Arrow	place[194]|object[461]	giv[194]|giv[461]	_	_
+45-45	3593-3603	Expressway	object[461]	giv[461]	_	_
 45-46	3604-3605	,	_	_	_	_
 45-47	3606-3609	The	_	_	_	_
 45-48	3610-3611	"	_	_	_	_
@@ -1149,7 +1149,7 @@
 60-4	5197-5204	twisted	_	_	_	_
 60-5	5205-5206	"	_	_	_	_
 60-6	5207-5211	area	_	_	_	_
-60-7	5212-5221	down-town	_	_	_	_
+60-7	5212-5221	down-town	place[264]	giv[264]	coref	70-7[303_264]
 60-8	5222-5232	represents	_	_	_	_
 60-9	5233-5236	the	abstract[265]	giv[265]	_	_
 60-10	5237-5245	original	abstract[265]	giv[265]	_	_
@@ -1162,7 +1162,7 @@
 
 #Text=By bus
 61-1	5272-5274	By	_	_	_	_
-61-2	5275-5278	bus	_	_	_	_
+61-2	5275-5278	bus	object	new	ana	65-1
 
 #Text=Tulsa Transit provides bus service for the Tulsa Metro area .
 62-1	5279-5284	Tulsa	place[270]	giv[270]	coref	62-8[274_270]
@@ -1259,11 +1259,11 @@
 67-6	5679-5681	of	_	_	_	_
 67-7	5682-5688	travel	_	_	_	_
 67-8	5689-5692	for	_	_	_	_
-67-9	5693-5698	those	person	new	ana	67-13[296_0]
+67-9	5693-5698	those	_	_	_	_
 67-10	5699-5702	who	_	_	_	_
 67-11	5703-5706	are	_	_	_	_
 67-12	5707-5714	without	_	_	_	_
-67-13	5715-5720	their	person[296]	giv[296]	_	_
+67-13	5715-5720	their	_	_	_	_
 67-14	5721-5724	own	_	_	_	_
 67-15	5725-5730	motor	_	_	_	_
 67-16	5731-5738	vehicle	_	_	_	_
@@ -1292,8 +1292,8 @@
 70-4	5839-5847	Arkansas	object[302]	giv[302]	_	_
 70-5	5848-5853	River	object[302]	giv[302]	_	_
 70-6	5854-5858	from	_	_	_	_
-70-7	5859-5867	downtown	_	_	_	_
-70-8	5868-5873	Tulsa	_	_	_	_
+70-7	5859-5867	downtown	place[303]	giv[303]	_	_
+70-8	5868-5873	Tulsa	place[303]	giv[303]	_	_
 70-9	5874-5879	south	_	_	_	_
 70-10	5880-5882	to	_	_	_	_
 70-11	5883-5886	the	_	_	_	_

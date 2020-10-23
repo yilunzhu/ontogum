@@ -9,25 +9,25 @@
 1-3	13-22	Tabennese	person[1]|place[2]	new[1]|new[2]	coref	2-3[4_2]
 
 #Text=Theodorus of Tabennese ( c. 314 – 368 ) , also known as Abba Theodorus and Theodore the Sanctified was the spiritual successor to Pachomius and played a crucial role in preventing the first Christian cenobitic monastic federation from collapsing after the death of its founder .
-2-1	23-32	Theodorus	person[3]	giv[3]	coref	2-14[5_3]
+2-1	23-32	Theodorus	person[3]	giv[3]	coref	2-17[6_3]
 2-2	33-35	of	person[3]	giv[3]	_	_
 2-3	36-45	Tabennese	person[3]|place[4]	giv[3]|giv[4]	coref	3-6[16_4]
 2-4	46-47	(	_	_	_	_
 2-5	48-50	c.	_	_	_	_
 2-6	51-54	314	_	_	_	_
-2-7	55-56	–	_	_	_	_
+2-7	55-56	–	person[3]	giv[3]	_	_
 2-8	57-60	368	_	_	_	_
 2-9	61-62	)	_	_	_	_
 2-10	63-64	,	person[3]	giv[3]	_	_
 2-11	65-69	also	person[3]	giv[3]	_	_
 2-12	70-75	known	person[3]	giv[3]	_	_
 2-13	76-78	as	person[3]	giv[3]	_	_
-2-14	79-83	Abba	person[5]|person[3]	giv[5]|giv[3]	coref	2-17[6_5]
-2-15	84-93	Theodorus	person[5]|person[3]	giv[5]|giv[3]	_	_
+2-14	79-83	Abba	person[3]	giv[3]	_	_
+2-15	84-93	Theodorus	person[3]	giv[3]	_	_
 2-16	94-97	and	person[3]	giv[3]	_	_
 2-17	98-106	Theodore	person[6]|person[3]	giv[6]|giv[3]	coref	3-3[15_6]
-2-18	107-110	the	person[6]|person[3]	person[6]|giv[3]	_	_
-2-19	111-121	Sanctified	person[6]|person[3]	person[6]|giv[3]	_	_
+2-18	107-110	the	person[6]|person[3]	giv[6]|giv[3]	_	_
+2-19	111-121	Sanctified	person[6]|person[3]	giv[6]|giv[3]	_	_
 2-20	122-125	was	_	_	_	_
 2-21	126-129	the	_	_	_	_
 2-22	130-139	spiritual	_	_	_	_
@@ -609,25 +609,25 @@
 23-4	3243-3247	died	_	_	_	_
 23-5	3248-3249	,	_	_	_	_
 23-6	3250-3256	naming	_	_	_	_
-23-7	3257-3260	the	person[118]	new[118]	coref	23-9[225_118]
+23-7	3257-3260	the	person[118]	new[118]	coref	24-4[121_118]
 23-8	3261-3268	brother	person[118]	new[118]	_	_
-23-9	3269-3278	Petronios	person[118]|person[225]	new[118]|giv[225]	_	_
+23-9	3269-3278	Petronios	person[118]	new[118]	_	_
 23-10	3279-3281	as	_	_	_	_
 23-11	3282-3285	his	person	giv	_	_
 23-12	3286-3295	successor	_	_	_	_
-23-13	3296-3302	rather	person[225]	giv[225]	_	_
-23-14	3303-3307	than	person[225]	giv[225]	_	_
-23-15	3308-3311	the	person[119]|person[225]	giv[119]|giv[225]	coref	24-16[124_119]
-23-16	3312-3319	clearly	person[119]|person[225]	giv[119]|giv[225]	_	_
-23-17	3320-3329	qualified	person[119]|person[225]	giv[119]|giv[225]	_	_
-23-18	3330-3339	Theodorus	person[119]|person[225]	giv[119]|giv[225]	_	_
+23-13	3296-3302	rather	_	_	_	_
+23-14	3303-3307	than	_	_	_	_
+23-15	3308-3311	the	person[119]	giv[119]	coref	24-16[124_119]
+23-16	3312-3319	clearly	person[119]	giv[119]	_	_
+23-17	3320-3329	qualified	person[119]	giv[119]	_	_
+23-18	3330-3339	Theodorus	person[119]	giv[119]	_	_
 23-19	3340-3341	.	_	_	_	_
 
 #Text=The death of Petronios later that year would leave Apa Horsiesios in charge , and the popular Theodorus would retreat to the distant monastery of Phnoum .
 24-1	3342-3345	The	_	_	_	_
 24-2	3346-3351	death	_	_	_	_
 24-3	3352-3354	of	_	_	_	_
-24-4	3355-3364	Petronios	_	_	_	_
+24-4	3355-3364	Petronios	person[121]	giv[121]	_	_
 24-5	3365-3370	later	_	_	_	_
 24-6	3371-3375	that	time[122]	giv[122]	_	_
 24-7	3376-3380	year	time[122]	giv[122]	_	_

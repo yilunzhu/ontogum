@@ -319,8 +319,8 @@
 20-2	1303-1304	.	_	_	_	_
 
 #Text=Whatever it is that the common Manhattan water-pixie uses for blood .
-21-1	1305-1313	Whatever	substance	new	ana	21-2
-21-2	1314-1316	it	substance	giv	_	_
+21-1	1305-1313	Whatever	_	_	_	_
+21-2	1314-1316	it	_	_	_	_
 21-3	1317-1319	is	_	_	_	_
 21-4	1320-1324	that	_	_	_	_
 21-5	1325-1328	the	_	_	_	_
@@ -362,7 +362,7 @@
 23-17	1476-1479	did	_	_	_	_
 23-18	1480-1481	,	_	_	_	_
 23-19	1482-1489	because	_	_	_	_
-23-20	1490-1493	she	person	giv	coref	27-3[64_0]
+23-20	1490-1493	she	person	giv	_	_
 23-21	1494-1496	’s	_	_	_	_
 23-22	1497-1500	the	_	_	_	_
 23-23	1501-1504	one	_	_	_	_
@@ -836,7 +836,7 @@
 #Text=That was our previous Sunday morning adventure : most unpleasant , and marked by the death of a new French-press pot .
 57-1	3177-3181	That	_	_	_	_
 57-2	3182-3185	was	_	_	_	_
-57-3	3186-3189	our	person[106]	person[106]	ana	59-2[0_106]
+57-3	3186-3189	our	person[106]	giv[106]	ana	59-2[0_106]
 57-4	3190-3198	previous	_	_	_	_
 57-5	3199-3205	Sunday	_	_	_	_
 57-6	3206-3213	morning	_	_	_	_

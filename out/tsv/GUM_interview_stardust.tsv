@@ -31,7 +31,7 @@
 3-1	103-111	Stardust	object	new	coref	4-21[21_0]
 3-2	112-114	is	_	_	_	_
 3-3	115-116	a	_	_	_	_
-3-4	117-121	NASA	organization[10]	organization[10]	coref	13-3[0_10]
+3-4	117-121	NASA	organization[10]	new[10]	coref	13-3[0_10]
 3-5	122-127	space	_	_	_	_
 3-6	128-135	capsule	_	_	_	_
 3-7	136-140	that	_	_	_	_
@@ -126,9 +126,9 @@
 7-4	586-589	the	_	_	_	_
 7-5	590-598	director	_	_	_	_
 7-6	599-601	of	_	_	_	_
-7-7	602-610	Stardust	abstract[30]	abstract[30]	coref	10-9[44_30]
-7-8	611-612	@	abstract[30]	abstract[30]	_	_
-7-9	613-617	home	abstract[30]	abstract[30]	_	_
+7-7	602-610	Stardust	abstract[30]	giv[30]	coref	10-9[44_30]
+7-8	611-612	@	abstract[30]	giv[30]	_	_
+7-9	613-617	home	abstract[30]	giv[30]	_	_
 7-10	618-619	.	_	_	_	_
 
 #Text=Wikinews interviewed him for May 's Interview of the Month ( IOTM ) on May 18 , 2006 .
@@ -143,7 +143,7 @@
 8-9	669-672	the	event[33]|event[394]	new[33]|new[394]	_	_
 8-10	673-678	Month	event[33]|event[394]	new[33]|new[394]	_	_
 8-11	679-680	(	event[394]	new[394]	_	_
-8-12	681-685	IOTM	event	giv	_	_
+8-12	681-685	IOTM	event|event[394]	giv|new[394]	_	_
 8-13	686-687	)	_	_	_	_
 8-14	688-690	on	_	_	_	_
 8-15	691-694	May	_	_	_	_
@@ -213,7 +213,7 @@
 14-1	955-963	Stardust	event	giv	ana	15-1
 14-2	964-966	is	_	_	_	_
 14-3	967-968	a	_	_	_	_
-14-4	969-973	NASA	organization[56]	organization[56]	coref	40-3[0_56]
+14-4	969-973	NASA	organization[56]	giv[56]	coref	40-3[0_56]
 14-5	974-983	Discovery	_	_	_	_
 14-6	984-991	mission	_	_	_	_
 14-7	992-996	that	_	_	_	_
@@ -244,38 +244,38 @@
 16-8	1095-1098	was	_	_	_	_
 16-9	1099-1101	to	_	_	_	_
 16-10	1102-1109	collect	_	_	_	_
-16-11	1110-1111	a	object[63]	object[63]	coref	21-20[92_63]
-16-12	1112-1118	sample	object[63]	object[63]	_	_
+16-11	1110-1111	a	object[63]	giv[63]	coref	21-20[92_63]
+16-12	1112-1118	sample	object[63]	giv[63]	_	_
 16-13	1119-1123	from	_	_	_	_
-16-14	1124-1125	a	object[64]	object[64]	appos	16-20[65_64]
-16-15	1126-1131	known	object[64]	object[64]	_	_
-16-16	1132-1141	primitive	object[64]	object[64]	_	_
-16-17	1142-1154	solar-system	object[64]	object[64]	_	_
-16-18	1155-1159	body	object[64]	object[64]	_	_
+16-14	1124-1125	a	object[64]	giv[64]	appos	16-20[65_64]
+16-15	1126-1131	known	object[64]	giv[64]	_	_
+16-16	1132-1141	primitive	object[64]	giv[64]	_	_
+16-17	1142-1154	solar-system	object[64]	giv[64]	_	_
+16-18	1155-1159	body	object[64]	giv[64]	_	_
 16-19	1160-1161	,	object[64]	giv[64]	_	_
 16-20	1162-1163	a	object[65]	giv[65]	_	_
 16-21	1164-1169	comet	object[65]	giv[65]	_	_
-16-22	1170-1176	called	object[65]|object[65]	giv[65]|giv[65]	_	_
-16-23	1177-1181	Wild	abstract[66]|object[65]|object[65]	giv[66]|giv[65]|giv[65]	_	_
-16-24	1182-1183	2	abstract[66]|object[65]|object[65]	giv[66]|giv[65]|giv[65]	_	_
-16-25	1184-1185	(	object[65]|object[65]	giv[65]|giv[65]	_	_
-16-26	1186-1196	pronounced	object[65]|object[65]	giv[65]|giv[65]	_	_
-16-27	1197-1198	"	object[65]|object[65]	giv[65]|giv[65]	_	_
-16-28	1199-1207	Vilt-two	object[65]|object[65]	giv[65]|giv[65]	_	_
-16-29	1208-1209	"	object[65]|object[65]	giv[65]|giv[65]	_	_
-16-30	1210-1211	—	object[65]|object[65]	giv[65]|giv[65]	_	_
-16-31	1212-1215	the	object[65]|object[65]	giv[65]|giv[65]	_	_
-16-32	1216-1226	discoverer	object[65]|object[65]	giv[65]|giv[65]	_	_
-16-33	1227-1230	was	object[65]|object[65]	giv[65]|giv[65]	_	_
-16-34	1231-1237	German	object[65]|object[65]	giv[65]|giv[65]	_	_
-16-35	1238-1239	,	object[65]|object[65]	giv[65]|giv[65]	_	_
-16-36	1240-1241	I	person|object[65]|object[65]	giv|giv[65]|giv[65]	ana	19-8
-16-37	1242-1249	believe	object[65]|object[65]	giv[65]|giv[65]	_	_
-16-38	1250-1251	)	object[65]|object[65]	giv[65]|giv[65]	_	_
+16-22	1170-1176	called	object[65]	giv[65]	_	_
+16-23	1177-1181	Wild	abstract[66]|object[65]	giv[66]|giv[65]	_	_
+16-24	1182-1183	2	abstract[66]|object[65]	giv[66]|giv[65]	_	_
+16-25	1184-1185	(	object[65]	giv[65]	_	_
+16-26	1186-1196	pronounced	object[65]	giv[65]	_	_
+16-27	1197-1198	"	object[65]	giv[65]	_	_
+16-28	1199-1207	Vilt-two	object[65]	giv[65]	_	_
+16-29	1208-1209	"	object[65]	giv[65]	_	_
+16-30	1210-1211	—	object[65]	giv[65]	_	_
+16-31	1212-1215	the	object[65]	giv[65]	_	_
+16-32	1216-1226	discoverer	object[65]	giv[65]	_	_
+16-33	1227-1230	was	object[65]	giv[65]	_	_
+16-34	1231-1237	German	object[65]	giv[65]	_	_
+16-35	1238-1239	,	object[65]	giv[65]	_	_
+16-36	1240-1241	I	person|object[65]	giv|giv[65]	ana	19-8
+16-37	1242-1249	believe	object[65]	giv[65]	_	_
+16-38	1250-1251	)	object[65]	giv[65]	_	_
 16-39	1252-1253	.	_	_	_	_
 
 #Text=This is the first US " sample return " mission since Apollo , and the first ever from beyond the moon .
-17-1	1254-1258	This	event	giv	coref	17-15[75_0]
+17-1	1254-1258	This	event	giv	_	_
 17-2	1259-1261	is	_	_	_	_
 17-3	1262-1265	the	_	_	_	_
 17-4	1266-1271	first	_	_	_	_
@@ -505,7 +505,7 @@
 30-20	2307-2313	simply	_	_	_	_
 30-21	2314-2316	to	_	_	_	_
 30-22	2317-2321	find	_	_	_	_
-30-23	2322-2326	them	object[118]	object[118]	ana	31-7[0_118]
+30-23	2322-2326	them	object[118]	giv[118]	ana	31-7[0_118]
 30-24	2327-2328	.	_	_	_	_
 
 #Text=This is a big challenge because they are very small ( order of micron in size ) and are somewhere ( we do n't know where ) on a HUGE collector — at least on the scale of the particle size — about a tenth of a square meter .
@@ -964,14 +964,14 @@
 51-8	4545-4547	is	_	_	_	_
 51-9	4548-4552	that	_	_	_	_
 51-10	4553-4557	like	_	_	_	_
-51-11	4558-4561	all	abstract[227]	abstract[227]	ana	52-19[0_227]
-51-12	4562-4570	research	abstract[227]	abstract[227]	_	_
+51-11	4558-4561	all	abstract[227]	new[227]	ana	52-19[0_227]
+51-12	4562-4570	research	abstract[227]	new[227]	_	_
 51-13	4571-4572	,	_	_	_	_
 51-14	4573-4576	the	_	_	_	_
 51-15	4577-4584	outcome	_	_	_	_
 51-16	4585-4587	of	_	_	_	_
 51-17	4588-4592	what	_	_	_	_
-51-18	4593-4595	we	person[229]	person[229]	ana	54-1[0_229]
+51-18	4593-4595	we	person[229]	giv[229]	ana	54-1[0_229]
 51-19	4596-4599	are	_	_	_	_
 51-20	4600-4605	doing	_	_	_	_
 51-21	4606-4608	is	_	_	_	_

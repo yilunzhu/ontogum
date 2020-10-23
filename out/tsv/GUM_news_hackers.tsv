@@ -12,12 +12,12 @@
 1-6	37-44	website	_	_	_	_
 
 #Text=Sunday , January 20 , 2008
-2-1	45-51	Sunday	time[5]	acc[5]	coref	2-3[184_5]
-2-2	52-53	,	time[5]	acc[5]	_	_
-2-3	54-61	January	time[5]|time[184]	acc[5]|acc[184]	_	_
-2-4	62-64	20	time[5]|time[184]	acc[5]|acc[184]	_	_
-2-5	65-66	,	time[5]	acc[5]	_	_
-2-6	67-71	2008	time[5]|time[184]	acc[5]|acc[184]	_	_
+2-1	45-51	Sunday	_	_	_	_
+2-2	52-53	,	_	_	_	_
+2-3	54-61	January	_	_	_	_
+2-4	62-64	20	_	_	_	_
+2-5	65-66	,	_	_	_	_
+2-6	67-71	2008	_	_	_	_
 
 #Text=Wikinews has learned that according to an Internet posting made just over 24 hours ago , the Church of Scientology 's website is being attacked by hackers , causing the site to shut down .
 3-1	72-80	Wikinews	_	_	_	_
@@ -64,25 +64,25 @@
 4-5	285-287	on	_	_	_	_
 4-6	288-297	Wednesday	_	_	_	_
 4-7	298-300	by	_	_	_	_
-4-8	301-302	a	person[16]	new[16]	coref	4-12[0_16]
-4-9	303-307	user	person[16]	new[16]	_	_
-4-10	308-316	labelled	person[16]	new[16]	_	_
-4-11	317-318	"	person[16]	new[16]	_	_
-4-12	319-328	Anonymous	person|person[16]	giv|new[16]	_	_
-4-13	329-330	"	person[16]	new[16]	_	_
-4-14	331-332	,	person[16]	new[16]	_	_
-4-15	333-335	on	person[16]	new[16]	_	_
-4-16	336-339	the	object[18]|object[246]|person[16]	new[18]|new[246]|new[16]	appos|appos	4-18[248_18]|4-23[20_246]
-4-17	340-347	website	object[18]|object[246]|person[16]	new[18]|new[246]|new[16]	_	_
-4-18	348-349	"	object[246]|object[248]|person[16]	new[246]|giv[248]|new[16]	_	_
-4-19	350-360	Insurgency	object[246]|object[248]|person[16]	new[246]|giv[248]|new[16]	_	_
-4-20	361-365	Wiki	object[246]|object[248]|person[16]	new[246]|giv[248]|new[16]	_	_
-4-21	366-367	"	object[246]|object[248]|person[16]	new[246]|giv[248]|new[16]	_	_
-4-22	368-369	,	object[248]|person[16]	giv[248]|new[16]	_	_
-4-23	370-371	a	object[20]|object[248]|person[16]	giv[20]|giv[248]|new[16]	_	_
-4-24	372-379	spinoff	object[20]|object[248]|person[16]	giv[20]|giv[248]|new[16]	_	_
-4-25	380-382	of	object[20]|object[248]|person[16]	giv[20]|giv[248]|new[16]	_	_
-4-26	383-388	4chan	object[20]|person[16]	giv[20]|new[16]	_	_
+4-8	301-302	a	_	_	_	_
+4-9	303-307	user	_	_	_	_
+4-10	308-316	labelled	_	_	_	_
+4-11	317-318	"	_	_	_	_
+4-12	319-328	Anonymous	_	_	_	_
+4-13	329-330	"	_	_	_	_
+4-14	331-332	,	_	_	_	_
+4-15	333-335	on	_	_	_	_
+4-16	336-339	the	object[18]|object[216]	new[18]|new[216]	appos|appos	4-18[218_18]|4-23[20_216]
+4-17	340-347	website	object[18]|object[216]	new[18]|new[216]	_	_
+4-18	348-349	"	object[216]|object[218]	new[216]|giv[218]	_	_
+4-19	350-360	Insurgency	object[216]|object[218]	new[216]|giv[218]	_	_
+4-20	361-365	Wiki	object[216]|object[218]	new[216]|giv[218]	_	_
+4-21	366-367	"	object[216]|object[218]	new[216]|giv[218]	_	_
+4-22	368-369	,	object[218]	giv[218]	_	_
+4-23	370-371	a	object[20]|object[218]	giv[20]|giv[218]	_	_
+4-24	372-379	spinoff	object[20]|object[218]	giv[20]|giv[218]	_	_
+4-25	380-382	of	object[20]|object[218]	giv[20]|giv[218]	_	_
+4-26	383-388	4chan	object[20]|object[218]	giv[20]|giv[218]	_	_
 4-27	389-390	.	_	_	_	_
 
 #Text=The " History " section of the site explains , in a satirical fashion , that the incident was prompted by the Church of Scientology 's attempts to remove a promotional video featuring Scientologist Tom Cruise from YouTube .
@@ -167,12 +167,12 @@
 7-4	803-804	,	_	_	_	_
 7-5	805-807	it	_	_	_	_
 7-6	808-810	's	_	_	_	_
-7-7	811-814	the	organization[38]	organization[38]	coref	8-37[52_38]
-7-8	815-823	Internet	organization[38]	organization[38]	_	_
+7-7	811-814	the	organization[38]	acc[38]	coref	8-37[52_38]
+7-8	815-823	Internet	organization[38]	acc[38]	_	_
 7-9	824-825	:	_	_	_	_
 7-10	826-827	1	_	_	_	_
 7-11	828-829	,	_	_	_	_
-7-12	830-841	Scientology	organization[39]	organization[39]	coref	8-35[51_39]
+7-12	830-841	Scientology	organization[39]	giv[39]	coref	8-35[51_39]
 7-13	842-843	:	_	_	_	_
 7-14	844-845	0	_	_	_	_
 7-15	846-847	.	_	_	_	_
@@ -276,7 +276,7 @@
 9-40	1345-1355	newsgroups	_	_	_	_
 9-41	1356-1360	such	_	_	_	_
 9-42	1361-1363	as	_	_	_	_
-9-43	1364-1388	alt.religion.scientology	place	acc	coref	22-5[131_0]
+9-43	1364-1388	alt.religion.scientology	_	_	_	_
 9-44	1389-1390	,	_	_	_	_
 9-45	1391-1396	which	_	_	_	_
 9-46	1397-1403	posted	_	_	_	_
@@ -456,7 +456,7 @@
 15-1	2240-2242	An	_	_	_	_
 15-2	2243-2253	insurgency	_	_	_	_
 15-3	2254-2261	against	_	_	_	_
-15-4	2262-2265	The	organization[102]	giv[102]	_	_
+15-4	2262-2265	The	organization[102]	giv[102]	coref	22-3[130_102]
 15-5	2266-2272	Church	organization[102]	giv[102]	_	_
 15-6	2273-2275	of	organization[102]	giv[102]	_	_
 15-7	2276-2287	Scientology	organization[102]	giv[102]	_	_
@@ -518,9 +518,9 @@
 17-29	2559-2560	.	_	_	_	_
 
 #Text=The Church 's website is currently unreachable .
-18-1	2561-2564	The	place[113]|organization[114]	giv[113]|giv[114]	coref|coref	19-11[117_113]|22-3[130_114]
-18-2	2565-2571	Church	place[113]|organization[114]	giv[113]|giv[114]	_	_
-18-3	2572-2574	's	place[113]|organization[114]	giv[113]|giv[114]	_	_
+18-1	2561-2564	The	place[113]	giv[113]	coref	19-11[117_113]
+18-2	2565-2571	Church	place[113]	giv[113]	_	_
+18-3	2572-2574	's	place[113]	giv[113]	_	_
 18-4	2575-2582	website	place[113]	giv[113]	_	_
 18-5	2583-2585	is	_	_	_	_
 18-6	2586-2595	currently	_	_	_	_

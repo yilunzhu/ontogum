@@ -197,11 +197,11 @@
 11-17	890-894	from	event[40]	new[40]	_	_
 11-18	895-900	being	event[40]	new[40]	_	_
 11-19	901-905	over	event[40]	new[40]	_	_
-11-20	906-911	ocean	event[40]	new[40]	_	_
-11-21	912-914	to	event[40]	new[40]	_	_
-11-22	915-920	being	event[40]	new[40]	_	_
-11-23	921-925	over	event[40]	new[40]	_	_
-11-24	926-930	land	event[40]	new[40]	_	_
+11-20	906-911	ocean	event[40]|place[44]	new[40]|new[44]	coref	15-21[67_44]
+11-21	912-914	to	event[40]|place[44]	new[40]|new[44]	_	_
+11-22	915-920	being	event[40]|place[44]	new[40]|new[44]	_	_
+11-23	921-925	over	event[40]|place[44]	new[40]|new[44]	_	_
+11-24	926-930	land	event[40]|place[44]	new[40]|new[44]	_	_
 11-25	931-932	.	_	_	_	_
 
 #Text=This occurs for two reasons :
@@ -285,8 +285,8 @@
 15-18	1292-1300	moisture	abstract[65]	giv[65]	_	_
 15-19	1301-1311	evaporated	abstract[65]	giv[65]	_	_
 15-20	1312-1316	from	abstract[65]	giv[65]	_	_
-15-21	1317-1320	the	abstract[65]	giv[65]	_	_
-15-22	1321-1326	ocean	abstract[65]	giv[65]	_	_
+15-21	1317-1320	the	place[67]|abstract[65]	giv[67]|giv[65]	_	_
+15-22	1321-1326	ocean	place[67]|abstract[65]	giv[67]|giv[65]	_	_
 15-23	1327-1331	that	abstract[65]	giv[65]	_	_
 15-24	1332-1341	condenses	abstract[65]	giv[65]	_	_
 15-25	1342-1344	to	abstract[65]	giv[65]	_	_
@@ -873,12 +873,12 @@
 46-1	4216-4223	However	_	_	_	_
 46-2	4224-4225	,	_	_	_	_
 46-3	4226-4229	the	_	_	_	_
-46-4	4230-4234	news	abstract[191]	giv[191]	coref	46-6[240_191]
+46-4	4230-4234	news	abstract[191]	giv[191]	coref	48-2[201_191]
 46-5	4235-4242	reports	abstract[191]	giv[191]	_	_
-46-6	4243-4244	(	abstract[240]|abstract[240]	giv[240]|giv[240]	_	_
-46-7	4245-4248	BBC	abstract[240]|abstract[240]	giv[240]|giv[240]	_	_
-46-8	4249-4253	etc.	abstract[240]	giv[240]	_	_
-46-9	4254-4255	)	abstract[240]	giv[240]	_	_
+46-6	4243-4244	(	_	_	_	_
+46-7	4245-4248	BBC	_	_	_	_
+46-8	4249-4253	etc.	_	_	_	_
+46-9	4254-4255	)	_	_	_	_
 46-10	4256-4260	were	_	_	_	_
 46-11	4261-4265	very	_	_	_	_
 46-12	4266-4277	encouraging	_	_	_	_
@@ -915,18 +915,18 @@
 47-4	4442-4446	main	_	_	_	_
 47-5	4447-4453	killer	_	_	_	_
 47-6	4454-4456	in	_	_	_	_
-47-7	4457-4462	these	event[200]	event[200]	_	_
-47-8	4463-4469	storms	event[200]	event[200]	_	_
+47-7	4457-4462	these	event[200]	giv[200]	_	_
+47-8	4463-4469	storms	event[200]	giv[200]	_	_
 47-9	4470-4471	.	_	_	_	_
 
 #Text=From all reports that I have seen , the government was well prepared for this cyclone .
 48-1	4472-4476	From	_	_	_	_
-48-2	4477-4480	all	_	_	_	_
-48-3	4481-4488	reports	_	_	_	_
-48-4	4489-4493	that	_	_	_	_
-48-5	4494-4495	I	_	_	_	_
-48-6	4496-4500	have	_	_	_	_
-48-7	4501-4505	seen	_	_	_	_
+48-2	4477-4480	all	abstract[201]	giv[201]	_	_
+48-3	4481-4488	reports	abstract[201]	giv[201]	_	_
+48-4	4489-4493	that	abstract[201]	giv[201]	_	_
+48-5	4494-4495	I	abstract[201]	giv[201]	_	_
+48-6	4496-4500	have	abstract[201]	giv[201]	_	_
+48-7	4501-4505	seen	abstract[201]	giv[201]	_	_
 48-8	4506-4507	,	_	_	_	_
 48-9	4508-4511	the	organization[203]	giv[203]	coref	49-13[208_203]
 48-10	4512-4522	government	organization[203]	giv[203]	_	_

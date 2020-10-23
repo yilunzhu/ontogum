@@ -129,7 +129,7 @@
 9-11	606-612	signal	_	_	_	_
 9-12	613-624	immediately	_	_	_	_
 9-13	625-627	to	_	_	_	_
-9-14	628-629	a	person[26]	new[26]	ana	9-22[28_26]
+9-14	628-629	a	person[26]	new[26]	coref	12-5[38_26]
 9-15	630-636	fellow	person[26]	new[26]	_	_
 9-16	637-643	jumper	person[26]	new[26]	_	_
 9-17	644-647	who	person[26]	new[26]	_	_
@@ -137,7 +137,7 @@
 9-19	652-655	not	person[26]	new[26]	_	_
 9-20	656-659	yet	person[26]	new[26]	_	_
 9-21	660-668	deployed	person[26]	new[26]	_	_
-9-22	669-674	their	person[28]|person[26]	new[28]|new[26]	coref	12-5[38_28]
+9-22	669-674	their	person[26]	new[26]	_	_
 9-23	675-680	chute	person[26]	new[26]	_	_
 9-24	681-682	,	_	_	_	_
 9-25	683-689	waving	_	_	_	_
@@ -376,11 +376,11 @@
 23-19	1736-1737	.	_	_	_	_
 
 #Text=Alternative : Lack of companions
-24-1	1738-1749	Alternative	abstract	giv	appos	24-2[269_0]
+24-1	1738-1749	Alternative	abstract[269]	giv[269]	appos	24-3[92_269]
 24-2	1750-1751	:	abstract[269]	giv[269]	_	_
-24-3	1752-1756	Lack	abstract[269]	giv[269]	_	_
-24-4	1757-1759	of	abstract[269]	giv[269]	_	_
-24-5	1760-1770	companions	abstract[269]	giv[269]	_	_
+24-3	1752-1756	Lack	abstract[92]	giv[92]	_	_
+24-4	1757-1759	of	abstract[92]	giv[92]	_	_
+24-5	1760-1770	companions	abstract[92]	giv[92]	_	_
 
 #Text=If this is a solo jump , which constitutes the minority of skydivers , your only recourse is to ensure that at least one of your own chutes opens .
 25-1	1771-1773	If	_	_	_	_
@@ -406,11 +406,11 @@
 25-21	1874-1878	that	_	_	_	_
 25-22	1879-1881	at	_	_	_	_
 25-23	1882-1887	least	_	_	_	_
-25-24	1888-1891	one	_	_	_	_
-25-25	1892-1894	of	_	_	_	_
-25-26	1895-1899	your	person[102]	giv[102]	ana	26-10[106_102]
-25-27	1900-1903	own	_	_	_	_
-25-28	1904-1910	chutes	_	_	_	_
+25-24	1888-1891	one	object[101]	giv[101]	coref	27-9[112_101]
+25-25	1892-1894	of	object[101]	giv[101]	_	_
+25-26	1895-1899	your	object[101]|person[102]	giv[101]|giv[102]	ana	26-10[106_102]
+25-27	1900-1903	own	object[101]	giv[101]	_	_
+25-28	1904-1910	chutes	object[101]	giv[101]	_	_
 25-29	1911-1916	opens	_	_	_	_
 25-30	1917-1918	.	_	_	_	_
 
@@ -684,7 +684,7 @@
 
 #Text=Expect impact .
 37-1	3162-3168	Expect	_	_	_	_
-37-2	3169-3175	impact	_	_	_	_
+37-2	3169-3175	impact	event	giv	coref	39-7[176_0]
 37-3	3176-3177	.	_	_	_	_
 
 #Text=You are unlikely to have the time or ability to aim for a soft landing-spot , body of water , or other impact site that might improve your chances of survival .
@@ -728,8 +728,8 @@
 39-4	3350-3359	minuscule	_	_	_	_
 39-5	3360-3366	chance	_	_	_	_
 39-6	3367-3371	that	_	_	_	_
-39-7	3372-3376	your	event[175]|person[177]	new[175]|giv[177]	ana|ana	40-2[0_175]|40-8[0_177]
-39-8	3377-3383	impact	event[175]	new[175]	_	_
+39-7	3372-3376	your	event[175]|event[176]|person[177]	new[175]|giv[176]|giv[177]	ana|ana	40-2[0_175]|40-8[0_177]
+39-8	3377-3383	impact	event[175]|event[176]	new[175]|giv[176]	_	_
 39-9	3384-3388	will	event[175]	new[175]	_	_
 39-10	3389-3395	result	event[175]	new[175]	_	_
 39-11	3396-3398	in	event[175]	new[175]	_	_
@@ -811,21 +811,21 @@
 43-16	3800-3801	.	_	_	_	_
 
 #Text=Some humans who have , for various reasons , become aware of their impending death , develop psychological coping strategies to deal with this ;
-44-1	3802-3806	Some	person[196]	new[196]	ana	44-13[199_196]
-44-2	3807-3813	humans	person[196]	new[196]	_	_
-44-3	3814-3817	who	person[196]	new[196]	_	_
-44-4	3818-3822	have	person[196]	new[196]	_	_
-44-5	3823-3824	,	person[196]	new[196]	_	_
-44-6	3825-3828	for	person[196]	new[196]	_	_
-44-7	3829-3836	various	person[196]	new[196]	_	_
-44-8	3837-3844	reasons	person[196]	new[196]	_	_
-44-9	3845-3846	,	person[196]	new[196]	_	_
-44-10	3847-3853	become	person[196]	new[196]	_	_
-44-11	3854-3859	aware	person[196]	new[196]	_	_
-44-12	3860-3862	of	person[196]	new[196]	_	_
-44-13	3863-3868	their	event[198]|person[199]|person[196]	new[198]|giv[199]|new[196]	ana	44-24[0_198]
-44-14	3869-3878	impending	event[198]|person[196]	new[198]|new[196]	_	_
-44-15	3879-3884	death	event[198]|person[196]	new[198]|new[196]	_	_
+44-1	3802-3806	Some	_	_	_	_
+44-2	3807-3813	humans	_	_	_	_
+44-3	3814-3817	who	_	_	_	_
+44-4	3818-3822	have	_	_	_	_
+44-5	3823-3824	,	_	_	_	_
+44-6	3825-3828	for	_	_	_	_
+44-7	3829-3836	various	_	_	_	_
+44-8	3837-3844	reasons	_	_	_	_
+44-9	3845-3846	,	_	_	_	_
+44-10	3847-3853	become	_	_	_	_
+44-11	3854-3859	aware	_	_	_	_
+44-12	3860-3862	of	_	_	_	_
+44-13	3863-3868	their	event[198]	new[198]	ana	44-24[0_198]
+44-14	3869-3878	impending	event[198]	new[198]	_	_
+44-15	3879-3884	death	event[198]	new[198]	_	_
 44-16	3885-3886	,	_	_	_	_
 44-17	3887-3894	develop	_	_	_	_
 44-18	3895-3908	psychological	_	_	_	_

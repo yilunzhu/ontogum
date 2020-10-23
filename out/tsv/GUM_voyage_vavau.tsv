@@ -37,7 +37,7 @@
 2-10	145-146	.	_	_	_	_
 
 #Text=The beautiful harbour opposite the main town of Neiafu ( known as the Port of Refuge Harbour ) is a common destination for yachties sailing the South Pacific .
-3-1	147-150	The	place[6]	new[6]	coref	3-13[8_6]
+3-1	147-150	The	place[6]	new[6]	coref	24-1[85_6]
 3-2	151-160	beautiful	place[6]	new[6]	_	_
 3-3	161-168	harbour	place[6]	new[6]	_	_
 3-4	169-177	opposite	place[6]	new[6]	_	_
@@ -49,11 +49,11 @@
 3-10	202-203	(	place[6]	new[6]	_	_
 3-11	204-209	known	place[6]	new[6]	_	_
 3-12	210-212	as	place[6]	new[6]	_	_
-3-13	213-216	the	place[8]|place[6]	new[8]|new[6]	coref	24-1[85_8]
-3-14	217-221	Port	place[8]|place[6]	new[8]|new[6]	_	_
-3-15	222-224	of	place[8]|place[6]	new[8]|new[6]	_	_
-3-16	225-231	Refuge	place[8]|place[6]	new[8]|new[6]	_	_
-3-17	232-239	Harbour	place[8]|place[6]	new[8]|new[6]	_	_
+3-13	213-216	the	place[6]	new[6]	_	_
+3-14	217-221	Port	place[6]	new[6]	_	_
+3-15	222-224	of	place[6]	new[6]	_	_
+3-16	225-231	Refuge	place[6]	new[6]	_	_
+3-17	232-239	Harbour	place[6]	new[6]	_	_
 3-18	240-241	)	place[6]	new[6]	_	_
 3-19	242-244	is	_	_	_	_
 3-20	245-246	a	_	_	_	_

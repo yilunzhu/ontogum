@@ -8,12 +8,12 @@
 1-2	4-11	culture	_	_	_	_
 1-3	12-22	celebrated	_	_	_	_
 1-4	23-25	at	_	_	_	_
-1-5	26-29	Fan	person[3]	new[3]	coref	5-3[17_3]
-1-6	30-34	Expo	_	_	_	_
-1-7	35-41	Canada	place[4]	acc[4]	coref	5-5[18_4]
-1-8	42-46	2016	_	_	_	_
-1-9	47-49	in	_	_	_	_
-1-10	50-57	Toronto	place[6]	new[6]	coref	5-11[20_6]
+1-5	26-29	Fan	event[2]|person[3]	new[2]|new[3]	coref|coref	5-1[16_2]|5-3[17_3]
+1-6	30-34	Expo	event[2]	new[2]	_	_
+1-7	35-41	Canada	event[2]|place[4]	new[2]|acc[4]	coref	5-5[18_4]
+1-8	42-46	2016	event[2]	new[2]	_	_
+1-9	47-49	in	event[2]	new[2]	_	_
+1-10	50-57	Toronto	event[2]|place[6]	new[2]|new[6]	coref	5-11[20_6]
 
 #Text=Wednesday , September 7 , 2016
 2-1	58-67	Wednesday	time[281]	acc[281]	appos	2-3[8_281]
@@ -48,7 +48,7 @@
 4-5	186-187	.	_	_	_	_
 
 #Text=The 22nd Fan Expo Canada took place at the Metro Toronto Convention Centre this weekend , attracting thousands to the event , one of the most popular in North America .
-5-1	188-191	The	event[16]	giv[16]	coref	5-20[436_16]
+5-1	188-191	The	event[16]	giv[16]	coref	5-20[374_16]
 5-2	192-196	22nd	event[16]	giv[16]	_	_
 5-3	197-200	Fan	event[16]|person[17]	giv[16]|giv[17]	_	_
 5-4	201-205	Expo	event[16]	giv[16]	_	_
@@ -67,17 +67,17 @@
 5-17	278-288	attracting	_	_	_	_
 5-18	289-298	thousands	_	_	_	_
 5-19	299-301	to	_	_	_	_
-5-20	302-305	the	event[23]|event[436]	giv[23]|giv[436]	appos|coref	5-23[24_23]|6-17[33_436]
-5-21	306-311	event	event[23]|event[436]	giv[23]|giv[436]	_	_
-5-22	312-313	,	event[23]|event[436]	giv[23]|giv[436]	_	_
-5-23	314-317	one	event[24]|event[436]	giv[24]|giv[436]	_	_
-5-24	318-320	of	event[24]|event[436]	giv[24]|giv[436]	_	_
-5-25	321-324	the	event[24]|event[436]	giv[24]|giv[436]	_	_
-5-26	325-329	most	event[24]|event[436]	giv[24]|giv[436]	_	_
-5-27	330-337	popular	event[24]|event[436]	giv[24]|giv[436]	_	_
-5-28	338-340	in	event[24]|event[436]	giv[24]|giv[436]	_	_
-5-29	341-346	North	event[24]|event[436]	giv[24]|giv[436]	_	_
-5-30	347-354	America	event[24]	giv[24]	_	_
+5-20	302-305	the	event[23]|event[374]	giv[23]|giv[374]	appos|coref	5-23[24_23]|6-17[33_374]
+5-21	306-311	event	event[23]|event[374]	giv[23]|giv[374]	_	_
+5-22	312-313	,	event[23]|event[374]	giv[23]|giv[374]	_	_
+5-23	314-317	one	event[24]|event[374]	giv[24]|giv[374]	_	_
+5-24	318-320	of	event[24]|event[374]	giv[24]|giv[374]	_	_
+5-25	321-324	the	event[24]|event[374]	giv[24]|giv[374]	_	_
+5-26	325-329	most	event[24]|event[374]	giv[24]|giv[374]	_	_
+5-27	330-337	popular	event[24]|event[374]	giv[24]|giv[374]	_	_
+5-28	338-340	in	event[24]|event[374]	giv[24]|giv[374]	_	_
+5-29	341-346	North	event[24]|event[374]	giv[24]|giv[374]	_	_
+5-30	347-354	America	event[24]|event[374]	giv[24]|giv[374]	_	_
 5-31	355-356	.	_	_	_	_
 
 #Text=Crossing between the genres of science fiction , horror , anime , fantasy and comics , the event sprawled throughout all corners of the facility .
@@ -130,7 +130,7 @@
 7-19	603-609	Hamill	person[40]	new[40]	_	_
 7-20	610-611	,	_	_	_	_
 7-21	612-615	and	_	_	_	_
-7-22	616-624	Margaret	person[41]	new[41]	coref	9-1[442_41]
+7-22	616-624	Margaret	person[41]	new[41]	coref	9-1[380_41]
 7-23	625-631	Atwood	person[41]	new[41]	_	_
 7-24	632-633	.	_	_	_	_
 
@@ -162,11 +162,11 @@
 8-25	782-783	.	_	_	_	_
 
 #Text=Atwood , a Booker Prize-winner , was there to launch her graphic novel Angel Catbird , with illustrator Johnnie Christmas .
-9-1	784-790	Atwood	person[312]|person[442]	giv[312]|giv[442]	appos|ana	9-3[50_312]|9-11[52_442]
-9-2	791-792	,	person[312]|person[442]	giv[312]|giv[442]	_	_
-9-3	793-794	a	person[50]|person[442]	giv[50]|giv[442]	_	_
-9-4	795-801	Booker	person[50]|person[442]	giv[50]|giv[442]	_	_
-9-5	802-814	Prize-winner	person[50]|person[442]	giv[50]|giv[442]	_	_
+9-1	784-790	Atwood	person[312]|person[380]	giv[312]|giv[380]	appos|ana	9-3[50_312]|9-11[52_380]
+9-2	791-792	,	person[312]|person[380]	giv[312]|giv[380]	_	_
+9-3	793-794	a	person[50]|person[380]	giv[50]|giv[380]	_	_
+9-4	795-801	Booker	person[50]|person[380]	giv[50]|giv[380]	_	_
+9-5	802-814	Prize-winner	person[50]|person[380]	giv[50]|giv[380]	_	_
 9-6	815-816	,	_	_	_	_
 9-7	817-820	was	_	_	_	_
 9-8	821-826	there	_	_	_	_
@@ -218,11 +218,11 @@
 11-13	1065-1067	of	person[64]	giv[64]	_	_
 11-14	1068-1074	Batman	person[64]|person[65]	giv[64]|new[65]	coref	11-16[67_65]
 11-15	1075-1077	in	person[64]	giv[64]	_	_
-11-16	1078-1084	Batman	person[64]|person[67]	giv[64]|giv[67]	coref	11-17[343_67]
-11-17	1085-1086	:	person[64]|person[343]	giv[64]|new[343]	_	_
-11-18	1087-1090	The	person[64]|person[343]	giv[64]|new[343]	_	_
-11-19	1091-1099	Animated	person[64]|person[343]	giv[64]|new[343]	_	_
-11-20	1100-1106	Series	person[64]|person[343]	giv[64]|new[343]	_	_
+11-16	1078-1084	Batman	person[64]|person[67]	giv[64]|giv[67]	coref	13-8[85_67]
+11-17	1085-1086	:	person[64]	giv[64]	_	_
+11-18	1087-1090	The	person[64]	giv[64]	_	_
+11-19	1091-1099	Animated	person[64]	giv[64]	_	_
+11-20	1100-1106	Series	person[64]	giv[64]	_	_
 11-21	1107-1108	,	person[64]|person[67]	giv[64]|giv[67]	_	_
 11-22	1109-1111	in	person[64]|person[67]	giv[64]|giv[67]	_	_
 11-23	1112-1117	which	person[64]|person[67]	giv[64]|giv[67]	_	_
@@ -266,7 +266,7 @@
 13-5	1295-1297	VR	event[80]|object[82]	new[80]|giv[82]	_	_
 13-6	1298-1311	demonstration	event[80]	new[80]	_	_
 13-7	1312-1314	of	event[80]	new[80]	_	_
-13-8	1315-1321	Batman	event[80]	new[80]	_	_
+13-8	1315-1321	Batman	event[80]|person[85]	new[80]|giv[85]	_	_
 13-9	1322-1323	:	_	_	_	_
 13-10	1324-1330	Arkham	_	_	_	_
 13-11	1331-1333	VR	_	_	_	_
@@ -384,13 +384,13 @@
 17-20	1885-1886	.	_	_	_	_
 
 #Text=Both unbeaten teams going in , the Brazillian team won the championship and $ 50,000 .
-18-1	1887-1891	Both	organization	giv	_	_
-18-2	1892-1900	unbeaten	_	_	_	_
-18-3	1901-1906	teams	_	_	_	_
-18-4	1907-1912	going	_	_	_	_
-18-5	1913-1915	in	_	_	_	_
-18-6	1916-1917	,	_	_	_	_
-18-7	1918-1921	the	organization[119]	giv[119]	coref	19-20[127_119]
+18-1	1887-1891	Both	organization|organization[119]	giv|giv[119]	coref	19-20[127_119]
+18-2	1892-1900	unbeaten	organization[119]	giv[119]	_	_
+18-3	1901-1906	teams	organization[119]	giv[119]	_	_
+18-4	1907-1912	going	organization[119]	giv[119]	_	_
+18-5	1913-1915	in	organization[119]	giv[119]	_	_
+18-6	1916-1917	,	organization[119]	giv[119]	_	_
+18-7	1918-1921	the	organization[119]	giv[119]	_	_
 18-8	1922-1932	Brazillian	organization[119]	giv[119]	_	_
 18-9	1933-1937	team	organization[119]	giv[119]	_	_
 18-10	1938-1941	won	_	_	_	_
@@ -406,29 +406,29 @@
 19-2	1983-1986	was	_	_	_	_
 19-3	1987-1994	delayed	_	_	_	_
 19-4	1995-2001	during	_	_	_	_
-19-5	2002-2005	the	event[123]	new[123]	coref	19-10[374_123]
-19-6	2006-2007	"	event[123]	new[123]	_	_
-19-7	2008-2013	third	event[123]	new[123]	_	_
-19-8	2014-2017	map	event[123]	new[123]	_	_
-19-9	2018-2019	"	event[123]	new[123]	_	_
-19-10	2020-2021	(	event[374]	giv[374]	_	_
-19-11	2022-2027	third	event[374]	giv[374]	_	_
-19-12	2028-2033	round	event[374]	giv[374]	_	_
-19-13	2034-2035	)	event[374]	giv[374]	_	_
+19-5	2002-2005	the	_	_	_	_
+19-6	2006-2007	"	_	_	_	_
+19-7	2008-2013	third	_	_	_	_
+19-8	2014-2017	map	_	_	_	_
+19-9	2018-2019	"	_	_	_	_
+19-10	2020-2021	(	_	_	_	_
+19-11	2022-2027	third	_	_	_	_
+19-12	2028-2033	round	_	_	_	_
+19-13	2034-2035	)	_	_	_	_
 19-14	2036-2038	of	_	_	_	_
 19-15	2039-2042	the	event[125]	giv[125]	_	_
 19-16	2043-2049	finals	event[125]	giv[125]	_	_
-19-17	2050-2051	,	event[123]	new[123]	_	_
-19-18	2052-2056	when	event[123]	new[123]	_	_
-19-19	2057-2060	one	person[126]|event[123]	new[126]|new[123]	ana	19-25[129_126]
-19-20	2061-2070	Immortals	person[126]|organization[127]|event[123]	new[126]|giv[127]|new[123]	coref	20-7[131_127]
-19-21	2071-2077	player	person[126]|event[123]	new[126]|new[123]	_	_
-19-22	2078-2081	was	event[123]	new[123]	_	_
-19-23	2082-2088	caught	event[123]	new[123]	_	_
-19-24	2089-2093	with	event[123]	new[123]	_	_
-19-25	2094-2099	their	person[129]|event[123]	giv[129]|new[123]	_	_
-19-26	2100-2107	headset	event[123]	new[123]	_	_
-19-27	2108-2111	off	event[123]	new[123]	_	_
+19-17	2050-2051	,	_	_	_	_
+19-18	2052-2056	when	_	_	_	_
+19-19	2057-2060	one	person[126]	new[126]	ana	19-25[129_126]
+19-20	2061-2070	Immortals	person[126]|organization[127]	new[126]|giv[127]	coref	20-7[131_127]
+19-21	2071-2077	player	person[126]	new[126]	_	_
+19-22	2078-2081	was	_	_	_	_
+19-23	2082-2088	caught	_	_	_	_
+19-24	2089-2093	with	_	_	_	_
+19-25	2094-2099	their	person[129]	giv[129]	_	_
+19-26	2100-2107	headset	_	_	_	_
+19-27	2108-2111	off	_	_	_	_
 19-28	2112-2113	.	_	_	_	_
 
 #Text=After nearly half an hour , the team was deducted a point , leading to a sudden but temporary rush of success by the US team .
@@ -698,12 +698,12 @@
 39-9	3422-3431	cosplayer	person[206]	giv[206]	_	_
 39-10	3432-3437	going	person[206]	giv[206]	_	_
 39-11	3438-3440	by	person[206]	giv[206]	_	_
-39-12	3441-3444	the	abstract[207]|person[206]	new[207]|giv[206]	appos	39-14[405_207]
+39-12	3441-3444	the	abstract[207]|person[206]	new[207]|giv[206]	appos	39-14[343_207]
 39-13	3445-3449	name	abstract[207]|person[206]	new[207]|giv[206]	_	_
-39-14	3450-3451	"	abstract[405]|person[206]	giv[405]|giv[206]	_	_
-39-15	3452-3455	The	abstract[405]|person[206]	giv[405]|giv[206]	_	_
-39-16	3456-3468	Katherinator	abstract[405]|person[206]	giv[405]|giv[206]	_	_
-39-17	3469-3470	"	abstract[405]|person[206]	giv[405]|giv[206]	_	_
+39-14	3450-3451	"	abstract[343]|person[206]	giv[343]|giv[206]	_	_
+39-15	3452-3455	The	abstract[343]|person[206]	giv[343]|giv[206]	_	_
+39-16	3456-3468	Katherinator	abstract[343]|person[206]	giv[343]|giv[206]	_	_
+39-17	3469-3470	"	abstract[343]|person[206]	giv[343]|giv[206]	_	_
 39-18	3471-3472	.	_	_	_	_
 
 #Text=She was outside the building in the gardens , waiting for a photographer she had arranged to shoot her new Epic Mickey costumed character-style outfit .

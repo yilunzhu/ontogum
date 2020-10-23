@@ -81,7 +81,7 @@
 7-8	356-364	Chemical	abstract[25]|event[26]	acc[25]|giv[26]	_	_
 7-9	365-372	Wedding	abstract[25]|event[26]	acc[25]|giv[26]	_	_
 7-10	373-375	of	abstract[25]	acc[25]	_	_
-7-11	376-385	Christian	abstract[25]|person[27]	acc[25]|giv[27]	coref	7-31[31_27]
+7-11	376-385	Christian	abstract[25]|person[27]	acc[25]|giv[27]	coref	8-5[33_27]
 7-12	386-397	Rosencreutz	abstract[25]|person[27]	acc[25]|giv[27]	_	_
 7-13	398-399	,	_	_	_	_
 7-14	400-405	which	_	_	_	_
@@ -101,8 +101,8 @@
 7-28	468-471	the	event[30]	giv[30]	ana	8-1[0_30]
 7-29	472-479	wedding	event[30]	giv[30]	_	_
 7-30	480-482	is	_	_	_	_
-7-31	483-492	Christian	person[31]	giv[31]	coref	8-5[33_31]
-7-32	493-495	’s	person[31]	giv[31]	_	_
+7-31	483-492	Christian	_	_	_	_
+7-32	493-495	’s	_	_	_	_
 7-33	496-497	.	_	_	_	_
 
 #Text=It ’s not ; Christian Rosencreutz is the purported author of a book called The Chemical Wedding .
@@ -747,12 +747,12 @@
 33-29	3384-3390	wanted	_	_	_	_
 33-30	3391-3393	to	_	_	_	_
 33-31	3394-3398	wake	_	_	_	_
-33-32	3399-3401	an	person[174]	giv[174]	ana	33-37[176_174]
+33-32	3399-3401	an	person[174]	giv[174]	ana	34-3[0_174]
 33-33	3402-3405	old	person[174]	giv[174]	_	_
 33-34	3406-3409	man	person[174]	giv[174]	_	_
 33-35	3410-3413	who	person[174]	giv[174]	_	_
 33-36	3414-3420	needed	person[174]	giv[174]	_	_
-33-37	3421-3424	his	person[176]|person[174]	giv[176]|giv[174]	ana	34-3[0_176]
+33-37	3421-3424	his	person[174]	giv[174]	_	_
 33-38	3425-3429	rest	person[174]	giv[174]	_	_
 33-39	3430-3431	.	_	_	_	_
 

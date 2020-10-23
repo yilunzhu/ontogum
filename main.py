@@ -21,8 +21,8 @@ def main(depDir, corefDir, out_dir, out_format):
         filename = f.split('.')[0]
 
         # test
-        if filename != 'GUM_academic_huh':
-            continue
+        # if filename != 'GUM_news_nasa':
+        #     continue
         print(f'{filename}')
         articles.append(filename)
 
@@ -30,7 +30,7 @@ def main(depDir, corefDir, out_dir, out_format):
         dep_article = io.open(os.path.join(depDir, filename + '.conllu'), encoding='utf-8').read().split('\n')
         dep_article = [l.split('\t') for l in dep_article]
 
-        doc, tokens, group_dict, next_dict, new_id2entity = process_doc(dep_article, coref_article)
+        doc, tokens, group_dict, next_dict, new_id2entity, dep_sents = process_doc(dep_article, coref_article)
 
         # antecedent entities
         antecedent_dict = {v: k for k, v in next_dict.items()}
@@ -38,7 +38,7 @@ def main(depDir, corefDir, out_dir, out_format):
         # make GUM as same as OntoNotes
         ori_doc = deepcopy(doc)
         convert = Convert(doc, next_dict, group_dict)
-        converted_doc, non_singleton = convert.process()
+        converted_doc, non_singleton, new_id2entity = convert.process(new_id2entity)
 
         if out_format == 'html':    # visualization: write into a html file
             # visualization: original
@@ -47,6 +47,8 @@ def main(depDir, corefDir, out_dir, out_format):
         elif out_format == 'tsv':   # write into tsv format
             to_tsv(converted_doc, coref_article, out_dir+os.sep+'tsv'+os.sep+f'{filename}.tsv', non_singleton, new_id2entity)
             a = 1
+        elif out_format == 'conll': # write into conll format
+            to_conll(filename, converted_doc, coref_article, out_dir+os.sep+'conll'+os.sep+f'{filename}.conll', non_singleton, new_id2entity, dep_sents)
 
     end_time = time.time()
 
@@ -60,7 +62,7 @@ if __name__ == '__main__':
     parser.add_argument('--dep', default=os.path.join('gum', 'dep'), help='Path to the gum/dep/ud directory')
     parser.add_argument('--coref', default=os.path.join('gum', 'coref', 'tsv'), help='Path to the gum/coref/tsv directory')
     parser.add_argument('--out_dir', default='out', help='output dir')
-    parser.add_argument('--out_format', default='tsv', help='output format')
+    parser.add_argument('--out_format', default='conll', help='output format')
 
     args = parser.parse_args()
 

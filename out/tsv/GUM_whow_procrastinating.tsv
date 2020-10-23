@@ -329,8 +329,8 @@
 #Text=Every single to do or things you want to do at that specific moment .
 19-1	1453-1458	Every	abstract[81]	new[81]	ana	20-4[87_81]
 19-2	1459-1465	single	abstract[81]	new[81]	_	_
-19-3	1466-1468	to	abstract[81]|abstract[81]	new[81]|new[81]	_	_
-19-4	1469-1471	do	abstract[81]|abstract[81]	new[81]|new[81]	_	_
+19-3	1466-1468	to	abstract[81]	new[81]	_	_
+19-4	1469-1471	do	abstract[81]	new[81]	_	_
 19-5	1472-1474	or	abstract[81]	new[81]	_	_
 19-6	1475-1481	things	abstract[81]	new[81]	_	_
 19-7	1482-1485	you	person	giv	ana	21-3
@@ -574,14 +574,14 @@
 30-3	2516-2519	are	_	_	_	_
 30-4	2520-2529	presented	_	_	_	_
 30-5	2530-2534	with	_	_	_	_
-30-6	2535-2544	something	abstract	new	ana	30-25
-30-7	2545-2549	that	_	_	_	_
-30-8	2550-2553	you	person	giv	ana	30-21
-30-9	2554-2556	do	_	_	_	_
-30-10	2557-2560	n’t	_	_	_	_
-30-11	2561-2565	want	_	_	_	_
-30-12	2566-2568	to	_	_	_	_
-30-13	2569-2571	do	_	_	_	_
+30-6	2535-2544	something	abstract[269]	new[269]	ana	30-25[0_269]
+30-7	2545-2549	that	abstract[269]	new[269]	_	_
+30-8	2550-2553	you	person|abstract[269]	giv|new[269]	ana	30-21
+30-9	2554-2556	do	abstract[269]	new[269]	_	_
+30-10	2557-2560	n’t	abstract[269]	new[269]	_	_
+30-11	2561-2565	want	abstract[269]	new[269]	_	_
+30-12	2566-2568	to	abstract[269]	new[269]	_	_
+30-13	2569-2571	do	abstract[269]	new[269]	_	_
 30-14	2572-2574	or	_	_	_	_
 30-15	2575-2580	would	_	_	_	_
 30-16	2581-2589	consider	_	_	_	_
@@ -640,19 +640,19 @@
 31-32	2822-2823	.	_	_	_	_
 
 #Text=Anything that you want to put off but takes two minutes to do - do it .
-32-1	2824-2832	Anything	abstract	new	ana	32-16
-32-2	2833-2837	that	_	_	_	_
-32-3	2838-2841	you	person	giv	ana	33-3
-32-4	2842-2846	want	_	_	_	_
-32-5	2847-2849	to	_	_	_	_
-32-6	2850-2853	put	_	_	_	_
-32-7	2854-2857	off	_	_	_	_
-32-8	2858-2861	but	_	_	_	_
-32-9	2862-2867	takes	_	_	_	_
-32-10	2868-2871	two	_	_	_	_
-32-11	2872-2879	minutes	_	_	_	_
-32-12	2880-2882	to	_	_	_	_
-32-13	2883-2885	do	_	_	_	_
+32-1	2824-2832	Anything	abstract[270]	new[270]	ana	32-16[0_270]
+32-2	2833-2837	that	abstract[270]	new[270]	_	_
+32-3	2838-2841	you	person|abstract[270]	giv|new[270]	ana	33-3
+32-4	2842-2846	want	abstract[270]	new[270]	_	_
+32-5	2847-2849	to	abstract[270]	new[270]	_	_
+32-6	2850-2853	put	abstract[270]	new[270]	_	_
+32-7	2854-2857	off	abstract[270]	new[270]	_	_
+32-8	2858-2861	but	abstract[270]	new[270]	_	_
+32-9	2862-2867	takes	abstract[270]	new[270]	_	_
+32-10	2868-2871	two	abstract[270]	new[270]	_	_
+32-11	2872-2879	minutes	abstract[270]	new[270]	_	_
+32-12	2880-2882	to	abstract[270]	new[270]	_	_
+32-13	2883-2885	do	abstract[270]	new[270]	_	_
 32-14	2886-2887	-	_	_	_	_
 32-15	2888-2890	do	_	_	_	_
 32-16	2891-2893	it	abstract	giv	coref	33-15[159_0]
@@ -877,8 +877,8 @@
 42-7	3887-3891	task	abstract[206]	giv[206]	_	_
 42-8	3892-3894	in	_	_	_	_
 42-9	3895-3898	the	abstract[207]	giv[207]	_	_
-42-10	3899-3907	allotted	abstract[207]|abstract[207]	giv[207]|giv[207]	_	_
-42-11	3908-3912	time	abstract[207]|abstract[207]	giv[207]|giv[207]	_	_
+42-10	3899-3907	allotted	abstract[207]	giv[207]	_	_
+42-11	3908-3912	time	abstract[207]	giv[207]	_	_
 42-12	3913-3914	,	_	_	_	_
 42-13	3915-3919	then	_	_	_	_
 42-14	3920-3923	you	person	giv	ana	43-8

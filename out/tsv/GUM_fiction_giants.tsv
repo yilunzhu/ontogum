@@ -104,7 +104,7 @@
 #Text=I had one granddaughter who survived the war .
 5-1	427-428	I	person	giv	ana	6-1
 5-2	429-432	had	_	_	_	_
-5-3	433-436	one	person[34]	new[34]	ana	6-3[0_34]
+5-3	433-436	one	person[34]	new[34]	ana	6-3[260_34]
 5-4	437-450	granddaughter	person[34]	new[34]	_	_
 5-5	451-454	who	person[34]	new[34]	_	_
 5-6	455-463	survived	person[34]	new[34]	_	_
@@ -115,7 +115,7 @@
 #Text=I saw her sometimes : in a bright pink dress , a sparkling drink in her hand , on the arm of some foreign officer with brocade on his shoulders , at the edge of a marble patio .
 6-1	474-475	I	person	giv	ana	7-6
 6-2	476-479	saw	_	_	_	_
-6-3	480-483	her	person	giv	ana	6-16[41_0]
+6-3	480-483	her	person[260]	giv[260]	ana	6-16[41_260]
 6-4	484-493	sometimes	_	_	_	_
 6-5	494-495	:	_	_	_	_
 6-6	496-498	in	_	_	_	_
@@ -123,13 +123,13 @@
 6-8	501-507	bright	_	_	_	_
 6-9	508-512	pink	_	_	_	_
 6-10	513-518	dress	_	_	_	_
-6-11	519-520	,	_	_	_	_
-6-12	521-522	a	_	_	_	_
-6-13	523-532	sparkling	_	_	_	_
-6-14	533-538	drink	_	_	_	_
-6-15	539-541	in	_	_	_	_
-6-16	542-545	her	person[41]	giv[41]	ana	7-1[0_41]
-6-17	546-550	hand	_	_	_	_
+6-11	519-520	,	person[260]	giv[260]	_	_
+6-12	521-522	a	person[260]	giv[260]	_	_
+6-13	523-532	sparkling	person[260]	giv[260]	_	_
+6-14	533-538	drink	person[260]	giv[260]	_	_
+6-15	539-541	in	person[260]	giv[260]	_	_
+6-16	542-545	her	person[41]|person[260]	giv[41]|giv[260]	ana	7-1[0_41]
+6-17	546-550	hand	person[260]	giv[260]	_	_
 6-18	551-552	,	_	_	_	_
 6-19	553-555	on	_	_	_	_
 6-20	556-559	the	_	_	_	_
@@ -387,7 +387,7 @@
 18-2	1647-1651	were	_	_	_	_
 18-3	1652-1660	laughing	_	_	_	_
 18-4	1661-1663	at	_	_	_	_
-18-5	1664-1667	the	person[102]|person[103]	new[102]|giv[103]	coref	19-3[262_102]
+18-5	1664-1667	the	person[102]|person[103]	new[102]|giv[103]	coref	19-3[264_102]
 18-6	1668-1675	chemist	person[102]|person[103]	new[102]|giv[103]	_	_
 18-7	1676-1678	as	person[102]	new[102]	_	_
 18-8	1679-1683	well	person[102]	new[102]	_	_
@@ -400,17 +400,17 @@
 #Text=To find anyone still proud , anyone who believed in giants or shame , was hilarious .
 19-1	1705-1707	To	_	_	_	_
 19-2	1708-1712	find	_	_	_	_
-19-3	1713-1719	anyone	person[105]|person[262]	giv[105]|giv[262]	appos	19-7[0_105]
-19-4	1720-1725	still	person[105]|person[262]	giv[105]|giv[262]	_	_
-19-5	1726-1731	proud	person[105]|person[262]	giv[105]|giv[262]	_	_
-19-6	1732-1733	,	person[262]	giv[262]	_	_
-19-7	1734-1740	anyone	person|person[262]	giv|giv[262]	_	_
-19-8	1741-1744	who	person[262]	giv[262]	_	_
-19-9	1745-1753	believed	person[262]	giv[262]	_	_
-19-10	1754-1756	in	person[262]	giv[262]	_	_
-19-11	1757-1763	giants	person[262]	giv[262]	_	_
-19-12	1764-1766	or	person[262]	giv[262]	_	_
-19-13	1767-1772	shame	_	_	_	_
+19-3	1713-1719	anyone	person[105]|person[264]	giv[105]|giv[264]	appos	19-7[261_105]
+19-4	1720-1725	still	person[105]|person[264]	giv[105]|giv[264]	_	_
+19-5	1726-1731	proud	person[105]|person[264]	giv[105]|giv[264]	_	_
+19-6	1732-1733	,	person[264]	giv[264]	_	_
+19-7	1734-1740	anyone	person[261]|person[264]	giv[261]|giv[264]	_	_
+19-8	1741-1744	who	person[261]|person[264]	giv[261]|giv[264]	_	_
+19-9	1745-1753	believed	person[261]|person[264]	giv[261]|giv[264]	_	_
+19-10	1754-1756	in	person[261]|person[264]	giv[261]|giv[264]	_	_
+19-11	1757-1763	giants	person[261]|person[264]	giv[261]|giv[264]	_	_
+19-12	1764-1766	or	person[261]|person[264]	giv[261]|giv[264]	_	_
+19-13	1767-1772	shame	person[261]|person[264]	giv[261]|giv[264]	_	_
 19-14	1773-1774	,	_	_	_	_
 19-15	1775-1778	was	_	_	_	_
 19-16	1779-1788	hilarious	_	_	_	_
@@ -535,21 +535,21 @@
 28-1	2269-2272	She	person	giv	coref	30-15[149_0]
 28-2	2273-2280	smelled	_	_	_	_
 28-3	2281-2285	like	_	_	_	_
-28-4	2286-2291	honey	abstract[140]	new[140]	appos	28-15[229_140]
-28-5	2292-2296	that	abstract[140]|abstract[140]	new[140]|new[140]	_	_
-28-6	2297-2300	has	abstract[140]|abstract[140]	new[140]|new[140]	_	_
-28-7	2301-2305	been	abstract[140]|abstract[140]	new[140]|new[140]	_	_
-28-8	2306-2310	kept	abstract[140]|abstract[140]	new[140]|new[140]	_	_
-28-9	2311-2312	a	abstract[140]|abstract[140]	new[140]|new[140]	_	_
-28-10	2313-2318	while	abstract[140]|abstract[140]	new[140]|new[140]	_	_
-28-11	2319-2321	in	abstract[140]|abstract[140]	new[140]|new[140]	_	_
-28-12	2322-2323	a	abstract[140]|abstract[140]	new[140]|new[140]	_	_
-28-13	2324-2328	dark	abstract[140]|abstract[140]	new[140]|new[140]	_	_
-28-14	2329-2333	room	abstract[140]|abstract[140]	new[140]|new[140]	_	_
-28-15	2334-2335	,	abstract[140]|abstract[229]	new[140]|giv[229]	_	_
-28-16	2336-2337	a	abstract[140]|abstract[229]	new[140]|giv[229]	_	_
-28-17	2338-2344	little	abstract[140]|abstract[229]	new[140]|giv[229]	_	_
-28-18	2345-2354	fermented	abstract[140]|abstract[229]	new[140]|giv[229]	_	_
+28-4	2286-2291	honey	_	_	_	_
+28-5	2292-2296	that	_	_	_	_
+28-6	2297-2300	has	_	_	_	_
+28-7	2301-2305	been	_	_	_	_
+28-8	2306-2310	kept	_	_	_	_
+28-9	2311-2312	a	_	_	_	_
+28-10	2313-2318	while	_	_	_	_
+28-11	2319-2321	in	_	_	_	_
+28-12	2322-2323	a	_	_	_	_
+28-13	2324-2328	dark	_	_	_	_
+28-14	2329-2333	room	_	_	_	_
+28-15	2334-2335	,	_	_	_	_
+28-16	2336-2337	a	_	_	_	_
+28-17	2338-2344	little	_	_	_	_
+28-18	2345-2354	fermented	_	_	_	_
 28-19	2355-2356	.	_	_	_	_
 
 #Text=A heady smell .

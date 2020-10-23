@@ -58,16 +58,16 @@
 3-34	265-266	.	_	_	_	_
 
 #Text=Major general Fuad Basya , spokesman for the Indonesian military , said fisherman first noticed the people and a warship was deployed to retrieve them .
-4-1	267-272	Major	person[19]|person[231]	new[19]|new[231]	appos|coref	4-6[20_19]|7-6[0_231]
-4-2	273-280	general	person[19]|person[231]	new[19]|new[231]	_	_
-4-3	281-285	Fuad	person[19]|person[231]	new[19]|new[231]	_	_
-4-4	286-291	Basya	person[19]|person[231]	new[19]|new[231]	_	_
-4-5	292-293	,	person[19]|person[231]	new[19]|new[231]	_	_
-4-6	294-303	spokesman	person[20]|person[231]	giv[20]|new[231]	_	_
-4-7	304-307	for	person[20]|person[231]	giv[20]|new[231]	_	_
-4-8	308-311	the	person[20]|person[231]	giv[20]|new[231]	_	_
-4-9	312-322	Indonesian	person[20]|person[231]	giv[20]|new[231]	_	_
-4-10	323-331	military	person[20]	giv[20]	_	_
+4-1	267-272	Major	person[19]|person[232]	new[19]|new[232]	appos|coref	4-6[20_19]|7-6[0_232]
+4-2	273-280	general	person[19]|person[232]	new[19]|new[232]	_	_
+4-3	281-285	Fuad	person[19]|person[232]	new[19]|new[232]	_	_
+4-4	286-291	Basya	person[19]|person[232]	new[19]|new[232]	_	_
+4-5	292-293	,	person[19]|person[232]	new[19]|new[232]	_	_
+4-6	294-303	spokesman	person[20]|person[232]	giv[20]|new[232]	_	_
+4-7	304-307	for	person[20]|person[232]	giv[20]|new[232]	_	_
+4-8	308-311	the	person[20]|person[232]	giv[20]|new[232]	_	_
+4-9	312-322	Indonesian	person[20]|person[232]	giv[20]|new[232]	_	_
+4-10	323-331	military	person[20]|person[232]	giv[20]|new[232]	_	_
 4-11	332-333	,	_	_	_	_
 4-12	334-338	said	_	_	_	_
 4-13	339-348	fisherman	_	_	_	_
@@ -192,12 +192,12 @@
 8-29	983-984	.	_	_	_	_
 
 #Text=One Rohingya , Muhammad Amin , the first boat rescued on Friday was turned around twice , toward Malaysia by Indonesian navy and then toward Indonesia by Malaysian navy .
-9-1	985-988	One	person[53]|person[232]	giv[53]|giv[232]	appos|ana	9-2[200_53]|10-2[62_232]
-9-2	989-997	Rohingya	person[53]|person[200]|person[232]	giv[53]|giv[200]|giv[232]	_	_
-9-3	998-999	,	person[232]	giv[232]	_	_
-9-4	1000-1008	Muhammad	person[232]	giv[232]	_	_
-9-5	1009-1013	Amin	person[232]	giv[232]	_	_
-9-6	1014-1015	,	_	_	_	_
+9-1	985-988	One	person[233]	giv[233]	ana	10-2[62_233]
+9-2	989-997	Rohingya	person[233]	giv[233]	_	_
+9-3	998-999	,	person[233]	giv[233]	_	_
+9-4	1000-1008	Muhammad	person[233]	giv[233]	_	_
+9-5	1009-1013	Amin	person[233]	giv[233]	_	_
+9-6	1014-1015	,	person[233]	giv[233]	_	_
 9-7	1016-1019	the	_	_	_	_
 9-8	1020-1025	first	_	_	_	_
 9-9	1026-1030	boat	_	_	_	_
@@ -320,13 +320,13 @@
 12-28	1659-1660	.	_	_	_	_
 
 #Text=Jeff Rathke , the State Department Spokesperson , said , " We urge the governments of the region to work together quickly , first and foremost , to save the lives of migrants now at sea who are in need of an immediate rescue effort " .
-13-1	1661-1665	Jeff	person[90]|person[235]|person[236]	new[90]|new[235]|new[236]	appos|coref|ana	13-4[91_90]|14-1[0_235]|13-12[0_236]
-13-2	1666-1672	Rathke	person[90]|person[235]|person[236]	new[90]|new[235]|new[236]	_	_
-13-3	1673-1674	,	person[90]|person[235]|person[236]	new[90]|new[235]|new[236]	_	_
-13-4	1675-1678	the	person[91]|organization[92]|person[235]|person[236]	giv[91]|giv[92]|new[235]|new[236]	_	_
-13-5	1679-1684	State	person[91]|organization[92]|person[235]|person[236]	giv[91]|giv[92]|new[235]|new[236]	_	_
-13-6	1685-1695	Department	person[91]|organization[92]|person[235]	giv[91]|giv[92]|new[235]	_	_
-13-7	1696-1708	Spokesperson	person[91]	giv[91]	_	_
+13-1	1661-1665	Jeff	person[90]|person[236]	new[90]|new[236]	appos|coref	13-4[91_90]|14-1[0_236]
+13-2	1666-1672	Rathke	person[90]|person[236]	new[90]|new[236]	_	_
+13-3	1673-1674	,	person[90]|person[236]	new[90]|new[236]	_	_
+13-4	1675-1678	the	person[91]|organization[92]|person[236]	giv[91]|giv[92]|new[236]	ana	13-12[0_92]
+13-5	1679-1684	State	person[91]|organization[92]|person[236]	giv[91]|giv[92]|new[236]	_	_
+13-6	1685-1695	Department	person[91]|organization[92]|person[236]	giv[91]|giv[92]|new[236]	_	_
+13-7	1696-1708	Spokesperson	person[91]|person[236]	giv[91]|new[236]	_	_
 13-8	1709-1710	,	_	_	_	_
 13-9	1711-1715	said	_	_	_	_
 13-10	1716-1717	,	_	_	_	_
