@@ -26,17 +26,17 @@
 3-1	101-124	pabloruizfabo@gmail.com	_	_	_	_
 
 #Text=Lattice Lab , CNRS , France
-4-1	125-132	Lattice	organization[6]	new[6]	coref	10-1[12_6]
-4-2	133-136	Lab	organization[6]	new[6]	_	_
+4-1	125-132	Lattice	organization[10]	new[10]	coref	10-1[23_10]
+4-2	133-136	Lab	organization[10]	new[10]	_	_
 4-3	137-138	,	_	_	_	_
-4-4	139-143	CNRS	organization[7]	new[7]	coref	10-4[13_7]
-4-5	144-145	,	organization[7]	new[7]	_	_
-4-6	146-152	France	organization[7]|place[8]	new[7]|acc[8]	coref	10-6[14_8]
+4-4	139-143	CNRS	organization[11]	new[11]	coref	10-4[24_11]
+4-5	144-145	,	organization[11]	new[11]	_	_
+4-6	146-152	France	organization[11]|place[12]	new[11]|acc[12]	coref	10-6[25_12]
 
 #Text=Clara Martínez Cantón
-5-1	153-158	Clara	person[9]	new[9]	coref	13-32[39_9]
-5-2	159-167	Martínez	person[9]	new[9]	_	_
-5-3	168-174	Cantón	person[9]	new[9]	_	_
+5-1	153-158	Clara	person[14]	new[14]	coref	13-32[63_14]
+5-2	159-167	Martínez	person[14]	new[14]	_	_
+5-3	168-174	Cantón	person[14]	new[14]	_	_
 
 #Text=cimartinez@flog.uned.es
 6-1	175-198	cimartinez@flog.uned.es	_	_	_	_
@@ -59,12 +59,12 @@
 9-1	269-291	thierry.poibeau@ens.fr	_	_	_	_
 
 #Text=Lattice Lab , CNRS , France
-10-1	292-299	Lattice	organization[12]	giv[12]	_	_
-10-2	300-303	Lab	organization[12]	giv[12]	_	_
+10-1	292-299	Lattice	organization[23]	giv[23]	_	_
+10-2	300-303	Lab	organization[23]	giv[23]	_	_
 10-3	304-305	,	_	_	_	_
-10-4	306-310	CNRS	organization[13]	giv[13]	_	_
-10-5	311-312	,	organization[13]	giv[13]	_	_
-10-6	313-319	France	organization[13]|place[14]	giv[13]|giv[14]	_	_
+10-4	306-310	CNRS	organization[24]	giv[24]	_	_
+10-5	311-312	,	organization[24]	giv[24]	_	_
+10-6	313-319	France	organization[24]|place[25]	giv[24]|giv[25]	_	_
 
 #Text=Introduction
 11-1	320-332	Introduction	_	_	_	_
@@ -74,48 +74,48 @@
 12-2	344-349	takes	_	_	_	_
 12-3	350-355	place	_	_	_	_
 12-4	356-360	when	_	_	_	_
-12-5	361-362	a	abstract[15]	new[15]	coref	12-38[24_15]
-12-6	363-372	syntactic	abstract[15]	new[15]	_	_
-12-7	373-377	unit	abstract[15]	new[15]	_	_
+12-5	361-362	a	abstract[31]	new[31]	coref	12-38[43_31]
+12-6	363-372	syntactic	abstract[31]	new[31]	_	_
+12-7	373-377	unit	abstract[31]	new[31]	_	_
 12-8	378-380	is	_	_	_	_
 12-9	381-387	broken	_	_	_	_
 12-10	388-390	up	_	_	_	_
 12-11	391-397	across	_	_	_	_
-12-12	398-401	two	abstract[16]	new[16]	coref	12-54[28_16]
-12-13	402-407	lines	abstract[16]	new[16]	_	_
-12-14	408-410	of	abstract[16]	new[16]	_	_
-12-15	411-417	poetry	abstract[16]	new[16]	_	_
-12-16	418-419	(	abstract[18]	new[18]	coref	13-49[44_18]
-12-17	420-429	Domínguez	abstract[18]|person[19]	new[18]|new[19]	coref	13-49[45_19]
-12-18	430-438	Caparrós	abstract[18]|person[19]	new[18]|new[19]	_	_
-12-19	439-440	,	abstract[18]	new[18]	_	_
-12-20	441-445	2000	abstract[18]	new[18]	_	_
-12-21	446-447	:	abstract[18]	new[18]	_	_
-12-22	448-451	103	abstract[18]	new[18]	_	_
-12-23	452-453	)	abstract[18]	new[18]	_	_
+12-12	398-401	two	abstract[32]	new[32]	coref	12-54[47_32]
+12-13	402-407	lines	abstract[32]	new[32]	_	_
+12-14	408-410	of	abstract[32]	new[32]	_	_
+12-15	411-417	poetry	abstract[32]	new[32]	_	_
+12-16	418-419	(	_	_	_	_
+12-17	420-429	Domínguez	abstract[36]|person[37]	new[36]|new[37]	coref|coref	13-49[73_36]|13-49[74_37]
+12-18	430-438	Caparrós	abstract[36]|person[37]	new[36]|new[37]	_	_
+12-19	439-440	,	abstract[36]	new[36]	_	_
+12-20	441-445	2000	abstract[36]	new[36]	_	_
+12-21	446-447	:	_	_	_	_
+12-22	448-451	103	_	_	_	_
+12-23	452-453	)	_	_	_	_
 12-24	454-455	,	_	_	_	_
 12-25	456-462	giving	_	_	_	_
 12-26	463-467	rise	_	_	_	_
 12-27	468-470	to	_	_	_	_
-12-28	471-480	different	abstract[21]	new[21]	coref	18-3[92_21]
-12-29	481-490	stylistic	abstract[21]	new[21]	_	_
-12-30	491-498	effects	abstract[21]	new[21]	_	_
+12-28	471-480	different	abstract[40]	new[40]	coref	18-3[151_40]
+12-29	481-490	stylistic	abstract[40]	new[40]	_	_
+12-30	491-498	effects	abstract[40]	new[40]	_	_
 12-31	499-500	(	_	_	_	_
 12-32	501-505	e.g.	_	_	_	_
 12-33	506-515	increased	_	_	_	_
 12-34	516-524	emphasis	_	_	_	_
 12-35	525-527	on	_	_	_	_
-12-36	528-536	elements	abstract[23]	new[23]	coref	12-45[26_23]
-12-37	537-539	of	abstract[23]	new[23]	_	_
-12-38	540-543	the	abstract[23]|abstract[24]	new[23]|giv[24]	_	_
-12-39	544-553	broken-up	abstract[23]|abstract[24]	new[23]|giv[24]	_	_
-12-40	554-560	phrase	abstract[23]|abstract[24]	new[23]|giv[24]	_	_
+12-36	528-536	elements	abstract[42]	new[42]	coref	12-45[45_42]
+12-37	537-539	of	abstract[42]	new[42]	_	_
+12-38	540-543	the	abstract[42]|abstract[43]	new[42]|giv[43]	_	_
+12-39	544-553	broken-up	abstract[42]|abstract[43]	new[42]|giv[43]	_	_
+12-40	554-560	phrase	abstract[42]|abstract[43]	new[42]|giv[43]	_	_
 12-41	561-562	,	_	_	_	_
 12-42	563-565	or	_	_	_	_
 12-43	566-574	contrast	_	_	_	_
 12-44	575-582	between	_	_	_	_
-12-45	583-588	those	abstract[26]	giv[26]	_	_
-12-46	589-597	elements	abstract[26]	giv[26]	_	_
+12-45	583-588	those	abstract[45]	giv[45]	_	_
+12-46	589-597	elements	abstract[45]	giv[45]	_	_
 12-47	598-599	)	_	_	_	_
 12-48	600-601	,	_	_	_	_
 12-49	602-604	or	_	_	_	_
@@ -123,9 +123,9 @@
 12-51	614-620	double	_	_	_	_
 12-52	621-636	interpretations	_	_	_	_
 12-53	637-640	for	_	_	_	_
-12-54	641-644	the	abstract[28]	giv[28]	_	_
-12-55	645-653	enjambed	abstract[28]	giv[28]	_	_
-12-56	654-659	lines	abstract[28]	giv[28]	_	_
+12-54	641-644	the	abstract[47]	giv[47]	_	_
+12-55	645-653	enjambed	abstract[47]	giv[47]	_	_
+12-56	654-659	lines	abstract[47]	giv[47]	_	_
 12-57	660-661	(	_	_	_	_
 12-58	662-673	García-Paje	_	_	_	_
 12-59	674-675	,	_	_	_	_
@@ -165,10 +165,10 @@
 13-29	871-876	exist	_	_	_	_
 13-30	877-878	(	_	_	_	_
 13-31	879-882	see	_	_	_	_
-13-32	883-891	Martínez	person[39]	giv[39]	coref	41-24[220_39]
-13-33	892-898	Cantón	person[39]	giv[39]	_	_
-13-34	899-900	,	_	_	_	_
-13-35	901-905	2011	_	_	_	_
+13-32	883-891	Martínez	abstract[62]|person[63]	new[62]|giv[63]	coref|coref	41-24[361_62]|41-24[362_63]
+13-33	892-898	Cantón	abstract[62]|person[63]	new[62]|giv[63]	_	_
+13-34	899-900	,	abstract[62]	new[62]	_	_
+13-35	901-905	2011	abstract[62]	new[62]	_	_
 13-36	906-909	for	_	_	_	_
 13-37	910-912	an	_	_	_	_
 13-38	913-921	overview	_	_	_	_
@@ -182,12 +182,12 @@
 13-46	958-962	1964	_	_	_	_
 13-47	963-964	)	_	_	_	_
 13-48	965-966	,	_	_	_	_
-13-49	967-976	Domínguez	abstract[44]|person[45]	giv[44]|giv[45]	_	_
-13-50	977-985	Caparrós	abstract[44]|person[45]	giv[44]|giv[45]	_	_
-13-51	986-987	,	abstract[44]	giv[44]	_	_
-13-52	988-989	(	abstract[44]	giv[44]	_	_
-13-53	990-994	2000	abstract[44]	giv[44]	_	_
-13-54	995-996	)	abstract[44]	giv[44]	_	_
+13-49	967-976	Domínguez	abstract[73]|person[74]	acc[73]|giv[74]	_	_
+13-50	977-985	Caparrós	abstract[73]|person[74]	acc[73]|giv[74]	_	_
+13-51	986-987	,	abstract[73]	acc[73]	_	_
+13-52	988-989	(	abstract[73]	acc[73]	_	_
+13-53	990-994	2000	abstract[73]	acc[73]	_	_
+13-54	995-996	)	abstract[73]	acc[73]	_	_
 13-55	997-998	,	_	_	_	_
 13-56	999-1006	Paraíso	_	_	_	_
 13-57	1007-1008	,	_	_	_	_
@@ -195,10 +195,10 @@
 13-59	1011-1015	2000	_	_	_	_
 13-60	1016-1017	)	_	_	_	_
 13-61	1018-1019	,	_	_	_	_
-13-62	1020-1025	Spang	person[51]	new[51]	coref	38-7[194_51]
-13-63	1026-1027	(	_	_	_	_
-13-64	1028-1032	1983	_	_	_	_
-13-65	1033-1034	)	_	_	_	_
+13-62	1020-1025	Spang	abstract[82]|person[83]	acc[82]|new[83]	coref|coref	38-7[316_82]|38-7[317_83]
+13-63	1026-1027	(	abstract[82]	acc[82]	_	_
+13-64	1028-1032	1983	abstract[82]	acc[82]	_	_
+13-65	1033-1034	)	abstract[82]	acc[82]	_	_
 13-66	1035-1038	for	_	_	_	_
 13-67	1039-1040	a	_	_	_	_
 13-68	1041-1052	description	_	_	_	_
@@ -237,72 +237,72 @@
 #Text=However , a larger-scale study to identify enjambment across hundreds of authors spanning several centuries , enabling distant reading ( Moretti , 2013 ) , was not previously available .
 14-1	1194-1201	However	_	_	_	_
 14-2	1202-1203	,	_	_	_	_
-14-3	1204-1205	a	abstract[69]	new[69]	coref	15-2[78_69]
-14-4	1206-1218	larger-scale	abstract[69]	new[69]	_	_
-14-5	1219-1224	study	abstract[69]	new[69]	_	_
-14-6	1225-1227	to	abstract[69]	new[69]	_	_
-14-7	1228-1236	identify	abstract[69]	new[69]	_	_
-14-8	1237-1247	enjambment	abstract[69]	new[69]	_	_
-14-9	1248-1254	across	abstract[69]	new[69]	_	_
-14-10	1255-1263	hundreds	abstract[69]	new[69]	_	_
-14-11	1264-1266	of	abstract[69]	new[69]	_	_
-14-12	1267-1274	authors	abstract[69]	new[69]	_	_
-14-13	1275-1283	spanning	abstract[69]	new[69]	_	_
-14-14	1284-1291	several	abstract[69]	new[69]	_	_
-14-15	1292-1301	centuries	abstract[69]	new[69]	_	_
-14-16	1302-1303	,	abstract[69]	new[69]	_	_
-14-17	1304-1312	enabling	abstract[69]	new[69]	_	_
-14-18	1313-1320	distant	abstract[69]	new[69]	_	_
-14-19	1321-1328	reading	abstract[69]	new[69]	_	_
-14-20	1329-1330	(	abstract[69]	new[69]	_	_
-14-21	1331-1338	Moretti	abstract[69]	new[69]	_	_
-14-22	1339-1340	,	abstract[69]	new[69]	_	_
-14-23	1341-1345	2013	abstract[69]	new[69]	_	_
-14-24	1346-1347	)	abstract[69]	new[69]	_	_
-14-25	1348-1349	,	abstract[69]	new[69]	_	_
-14-26	1350-1353	was	abstract[69]	new[69]	_	_
-14-27	1354-1357	not	abstract[69]	new[69]	_	_
-14-28	1358-1368	previously	abstract[69]	new[69]	_	_
-14-29	1369-1378	available	abstract[69]	new[69]	_	_
+14-3	1204-1205	a	abstract[111]	new[111]	coref	15-2[122_111]
+14-4	1206-1218	larger-scale	abstract[111]	new[111]	_	_
+14-5	1219-1224	study	abstract[111]	new[111]	_	_
+14-6	1225-1227	to	abstract[111]	new[111]	_	_
+14-7	1228-1236	identify	abstract[111]	new[111]	_	_
+14-8	1237-1247	enjambment	abstract[111]	new[111]	_	_
+14-9	1248-1254	across	abstract[111]	new[111]	_	_
+14-10	1255-1263	hundreds	abstract[111]	new[111]	_	_
+14-11	1264-1266	of	abstract[111]	new[111]	_	_
+14-12	1267-1274	authors	abstract[111]	new[111]	_	_
+14-13	1275-1283	spanning	abstract[111]	new[111]	_	_
+14-14	1284-1291	several	abstract[111]	new[111]	_	_
+14-15	1292-1301	centuries	abstract[111]	new[111]	_	_
+14-16	1302-1303	,	abstract[111]	new[111]	_	_
+14-17	1304-1312	enabling	abstract[111]	new[111]	_	_
+14-18	1313-1320	distant	abstract[111]	new[111]	_	_
+14-19	1321-1328	reading	abstract[111]	new[111]	_	_
+14-20	1329-1330	(	abstract[111]	new[111]	_	_
+14-21	1331-1338	Moretti	abstract[111]	new[111]	_	_
+14-22	1339-1340	,	abstract[111]	new[111]	_	_
+14-23	1341-1345	2013	abstract[111]	new[111]	_	_
+14-24	1346-1347	)	abstract[111]	new[111]	_	_
+14-25	1348-1349	,	_	_	_	_
+14-26	1350-1353	was	_	_	_	_
+14-27	1354-1357	not	_	_	_	_
+14-28	1358-1368	previously	_	_	_	_
+14-29	1369-1378	available	_	_	_	_
 14-30	1379-1380	.	_	_	_	_
 
 #Text=Given that need , we have developed software , based on Natural Language Processing , that automatically identifies enjambment in Spanish , and applied it to a corpus of approx. 3750 sonnets by ca. 1000 authors , from the 15th to the 19th century .
 15-1	1381-1386	Given	_	_	_	_
-15-2	1387-1391	that	abstract[78]	giv[78]	_	_
-15-3	1392-1396	need	abstract[78]	giv[78]	_	_
+15-2	1387-1391	that	abstract[122]	giv[122]	_	_
+15-3	1392-1396	need	abstract[122]	giv[122]	_	_
 15-4	1397-1398	,	_	_	_	_
-15-5	1399-1401	we	person	acc	ana	20-3[106_0]
+15-5	1399-1401	we	person[123]	acc[123]	ana	20-3[169_123]
 15-6	1402-1406	have	_	_	_	_
 15-7	1407-1416	developed	_	_	_	_
-15-8	1417-1425	software	abstract[320]	new[320]	ana	15-25[0_320]
-15-9	1426-1427	,	abstract[320]	new[320]	_	_
-15-10	1428-1433	based	abstract[320]	new[320]	_	_
-15-11	1434-1436	on	abstract[320]	new[320]	_	_
-15-12	1437-1444	Natural	abstract[320]	new[320]	_	_
-15-13	1445-1453	Language	abstract[320]	new[320]	_	_
-15-14	1454-1464	Processing	abstract[320]	new[320]	_	_
-15-15	1465-1466	,	abstract[320]	new[320]	_	_
-15-16	1467-1471	that	abstract[320]	new[320]	_	_
-15-17	1472-1485	automatically	abstract[320]	new[320]	_	_
-15-18	1486-1496	identifies	abstract[320]	new[320]	_	_
-15-19	1497-1507	enjambment	abstract[320]	new[320]	_	_
-15-20	1508-1510	in	abstract[320]	new[320]	_	_
-15-21	1511-1518	Spanish	abstract|abstract[320]	new|new[320]	coref	26-3
+15-8	1417-1425	software	abstract[125]	new[125]	ana	15-25[129_125]
+15-9	1426-1427	,	abstract[125]	new[125]	_	_
+15-10	1428-1433	based	abstract[125]	new[125]	_	_
+15-11	1434-1436	on	abstract[125]	new[125]	_	_
+15-12	1437-1444	Natural	abstract[125]	new[125]	_	_
+15-13	1445-1453	Language	abstract[125]	new[125]	_	_
+15-14	1454-1464	Processing	abstract[125]	new[125]	_	_
+15-15	1465-1466	,	abstract[125]	new[125]	_	_
+15-16	1467-1471	that	abstract[125]	new[125]	_	_
+15-17	1472-1485	automatically	abstract[125]	new[125]	_	_
+15-18	1486-1496	identifies	abstract[125]	new[125]	_	_
+15-19	1497-1507	enjambment	abstract[125]	new[125]	_	_
+15-20	1508-1510	in	abstract[125]	new[125]	_	_
+15-21	1511-1518	Spanish	abstract[125]|abstract[128]	new[125]|new[128]	coref	26-3[210_128]
 15-22	1519-1520	,	_	_	_	_
 15-23	1521-1524	and	_	_	_	_
 15-24	1525-1532	applied	_	_	_	_
-15-25	1533-1535	it	abstract	acc	_	_
+15-25	1533-1535	it	abstract[129]	giv[129]	_	_
 15-26	1536-1538	to	_	_	_	_
-15-27	1539-1540	a	abstract[80]	new[80]	coref	23-3[116_80]
-15-28	1541-1547	corpus	abstract[80]	new[80]	_	_
-15-29	1548-1550	of	abstract[80]	new[80]	_	_
-15-30	1551-1558	approx.	abstract[80]	new[80]	_	_
-15-31	1559-1563	3750	abstract[80]	new[80]	_	_
-15-32	1564-1571	sonnets	abstract[80]	new[80]	_	_
-15-33	1572-1574	by	abstract[80]	new[80]	_	_
-15-34	1575-1578	ca.	abstract[80]	new[80]	_	_
-15-35	1579-1583	1000	abstract[80]	new[80]	_	_
-15-36	1584-1591	authors	abstract[80]	new[80]	_	_
+15-27	1539-1540	a	abstract[133]	new[133]	coref	23-3[187_133]
+15-28	1541-1547	corpus	abstract[133]	new[133]	_	_
+15-29	1548-1550	of	abstract[133]	new[133]	_	_
+15-30	1551-1558	approx.	abstract[133]	new[133]	_	_
+15-31	1559-1563	3750	abstract[133]	new[133]	_	_
+15-32	1564-1571	sonnets	abstract[133]	new[133]	_	_
+15-33	1572-1574	by	abstract[133]	new[133]	_	_
+15-34	1575-1578	ca.	abstract[133]	new[133]	_	_
+15-35	1579-1583	1000	abstract[133]	new[133]	_	_
+15-36	1584-1591	authors	abstract[133]	new[133]	_	_
 15-37	1592-1593	,	_	_	_	_
 15-38	1594-1598	from	_	_	_	_
 15-39	1599-1602	the	_	_	_	_
@@ -369,12 +369,12 @@
 #Text=Second , the stylistic effects that enjambment permits are also an object of current research ( Martínez Fernández , 2010 ) .
 18-1	1934-1940	Second	_	_	_	_
 18-2	1941-1942	,	_	_	_	_
-18-3	1943-1946	the	abstract[92]	giv[92]	_	_
-18-4	1947-1956	stylistic	abstract[92]	giv[92]	_	_
-18-5	1957-1964	effects	abstract[92]	giv[92]	_	_
-18-6	1965-1969	that	abstract[92]	giv[92]	_	_
-18-7	1970-1980	enjambment	abstract[92]	giv[92]	_	_
-18-8	1981-1988	permits	abstract[92]	giv[92]	_	_
+18-3	1943-1946	the	abstract[151]	giv[151]	_	_
+18-4	1947-1956	stylistic	abstract[151]	giv[151]	_	_
+18-5	1957-1964	effects	abstract[151]	giv[151]	_	_
+18-6	1965-1969	that	abstract[151]	giv[151]	_	_
+18-7	1970-1980	enjambment	abstract[151]	giv[151]	_	_
+18-8	1981-1988	permits	abstract[151]	giv[151]	_	_
 18-9	1989-1992	are	_	_	_	_
 18-10	1993-1997	also	_	_	_	_
 18-11	1998-2000	an	_	_	_	_
@@ -418,7 +418,7 @@
 #Text=Finally , our study complements Navarro ’s ( 2016 ) automatic metrical analyses of Spanish Golden Age sonnets , by covering a wider period and focusing on enjambment .
 20-1	2222-2229	Finally	_	_	_	_
 20-2	2230-2231	,	_	_	_	_
-20-3	2232-2235	our	person[106]	giv[106]	ana	22-2[0_106]
+20-3	2232-2235	our	person[169]	giv[169]	ana	22-2[182_169]
 20-4	2236-2241	study	_	_	_	_
 20-5	2242-2253	complements	_	_	_	_
 20-6	2254-2261	Navarro	_	_	_	_
@@ -456,7 +456,7 @@
 
 #Text=First we provide the definition of enjambment adopted .
 22-1	2424-2429	First	_	_	_	_
-22-2	2430-2432	we	person	giv	ana	23-3[117_0]
+22-2	2430-2432	we	person[182]	giv[182]	ana	23-3[188_182]
 22-3	2433-2440	provide	_	_	_	_
 22-4	2441-2444	the	_	_	_	_
 22-5	2445-2455	definition	_	_	_	_
@@ -468,10 +468,10 @@
 #Text=Then , our corpus and system are described , followed by an evaluation of the system .
 23-1	2480-2484	Then	_	_	_	_
 23-2	2485-2486	,	_	_	_	_
-23-3	2487-2490	our	abstract[116]|person[117]	giv[116]|giv[117]	coref|ana	24-7[122_116]|24-7[123_117]
-23-4	2491-2497	corpus	abstract[116]	giv[116]	_	_
+23-3	2487-2490	our	abstract[187]|person[188]	giv[187]|giv[188]	coref|ana	24-7[197_187]|24-7[198_188]
+23-4	2491-2497	corpus	abstract[187]	giv[187]	_	_
 23-5	2498-2501	and	_	_	_	_
-23-6	2502-2508	system	abstract	giv	coref	23-15[119_0]
+23-6	2502-2508	system	abstract[189]	giv[189]	coref	23-15[193_189]
 23-7	2509-2512	are	_	_	_	_
 23-8	2513-2522	described	_	_	_	_
 23-9	2523-2524	,	_	_	_	_
@@ -480,8 +480,8 @@
 23-12	2537-2539	an	_	_	_	_
 23-13	2540-2550	evaluation	_	_	_	_
 23-14	2551-2553	of	_	_	_	_
-23-15	2554-2557	the	abstract[119]	giv[119]	coref	37-24[189_119]
-23-16	2558-2564	system	abstract[119]	giv[119]	_	_
+23-15	2554-2557	the	abstract[193]	giv[193]	coref	37-24[310_193]
+23-16	2558-2564	system	abstract[193]	giv[193]	_	_
 23-17	2565-2566	.	_	_	_	_
 
 #Text=Finally , findings on enjambment in our diachronic sonnet corpus are discussed .
@@ -491,19 +491,19 @@
 24-4	2586-2588	on	_	_	_	_
 24-5	2589-2599	enjambment	_	_	_	_
 24-6	2600-2602	in	_	_	_	_
-24-7	2603-2606	our	abstract[122]|person[123]	giv[122]|giv[123]	coref|ana	25-16[128_122]|32-1[0_123]
-24-8	2607-2617	diachronic	abstract[122]	giv[122]	_	_
-24-9	2618-2624	sonnet	abstract[122]	giv[122]	_	_
-24-10	2625-2631	corpus	abstract[122]	giv[122]	_	_
+24-7	2603-2606	our	abstract[197]|person[198]	giv[197]|giv[198]	coref|ana	25-16[205_197]|32-1[265_198]
+24-8	2607-2617	diachronic	abstract[197]	giv[197]	_	_
+24-9	2618-2624	sonnet	abstract[197]	giv[197]	_	_
+24-10	2625-2631	corpus	abstract[197]	giv[197]	_	_
 24-11	2632-2635	are	_	_	_	_
 24-12	2636-2645	discussed	_	_	_	_
 24-13	2646-2647	.	_	_	_	_
 
 #Text=The project ’s website provides details omitted here for space reasons , including samples for the corpus , results , and other details .
-25-1	2648-2651	The	place[124]	new[124]	coref	37-1[183_124]
-25-2	2652-2659	project	place[124]	new[124]	_	_
-25-3	2660-2662	’s	place[124]	new[124]	_	_
-25-4	2663-2670	website	place[124]	new[124]	_	_
+25-1	2648-2651	The	place[200]	new[200]	coref	37-1[301_200]
+25-2	2652-2659	project	place[200]	new[200]	_	_
+25-3	2660-2662	’s	place[200]	new[200]	_	_
+25-4	2663-2670	website	place[200]	new[200]	_	_
 25-5	2671-2679	provides	_	_	_	_
 25-6	2680-2687	details	_	_	_	_
 25-7	2688-2695	omitted	_	_	_	_
@@ -515,8 +515,8 @@
 25-13	2721-2730	including	_	_	_	_
 25-14	2731-2738	samples	_	_	_	_
 25-15	2739-2742	for	_	_	_	_
-25-16	2743-2746	the	abstract[128]	giv[128]	_	_
-25-17	2747-2753	corpus	abstract[128]	giv[128]	_	_
+25-16	2743-2746	the	abstract[205]	giv[205]	_	_
+25-17	2747-2753	corpus	abstract[205]	giv[205]	_	_
 25-18	2754-2755	,	_	_	_	_
 25-19	2756-2763	results	_	_	_	_
 25-20	2764-2765	,	_	_	_	_
@@ -528,24 +528,24 @@
 #Text=Enjambment in Spanish
 26-1	2786-2796	Enjambment	_	_	_	_
 26-2	2797-2799	in	_	_	_	_
-26-3	2800-2807	Spanish	abstract	giv	coref	29-8
+26-3	2800-2807	Spanish	abstract[210]	giv[210]	coref	29-8[234_210]
 
 #Text=Syntactic and metrical units often match in poetry .
-27-1	2808-2817	Syntactic	abstract[130]	new[130]	coref	28-3[133_130]
-27-2	2818-2821	and	abstract[130]	new[130]	_	_
-27-3	2822-2830	metrical	abstract[130]	new[130]	_	_
-27-4	2831-2836	units	abstract[130]	new[130]	_	_
-27-5	2837-2842	often	abstract[130]	new[130]	_	_
-27-6	2843-2848	match	abstract[130]	new[130]	_	_
-27-7	2849-2851	in	abstract[130]	new[130]	_	_
-27-8	2852-2858	poetry	abstract[130]	new[130]	_	_
+27-1	2808-2817	Syntactic	abstract[212]	new[212]	coref	28-3[216_212]
+27-2	2818-2821	and	abstract[212]	new[212]	_	_
+27-3	2822-2830	metrical	abstract[212]	new[212]	_	_
+27-4	2831-2836	units	abstract[212]	new[212]	_	_
+27-5	2837-2842	often	abstract[212]	new[212]	_	_
+27-6	2843-2848	match	abstract[212]	new[212]	_	_
+27-7	2849-2851	in	abstract[212]	new[212]	_	_
+27-8	2852-2858	poetry	abstract[212]	new[212]	_	_
 27-9	2859-2860	.	_	_	_	_
 
 #Text=However , this trend has been broken since antiquity for various reasons ( Parry ( 1929 ) on Homer , or Flores Gómez ( 1988 ) on early classical poetry ) .
 28-1	2861-2868	However	_	_	_	_
 28-2	2869-2870	,	_	_	_	_
-28-3	2871-2875	this	abstract[133]	giv[133]	_	_
-28-4	2876-2881	trend	abstract[133]	giv[133]	_	_
+28-3	2871-2875	this	abstract[216]	giv[216]	_	_
+28-4	2876-2881	trend	abstract[216]	giv[216]	_	_
 28-5	2882-2885	has	_	_	_	_
 28-6	2886-2890	been	_	_	_	_
 28-7	2891-2897	broken	_	_	_	_
@@ -583,7 +583,7 @@
 29-5	3040-3050	enjambment	_	_	_	_
 29-6	3051-3052	(	_	_	_	_
 29-7	3053-3055	in	_	_	_	_
-29-8	3056-3063	Spanish	abstract	giv	_	_
+29-8	3056-3063	Spanish	abstract[234]	giv[234]	_	_
 29-9	3064-3065	,	_	_	_	_
 29-10	3066-3067	"	_	_	_	_
 29-11	3068-3083	encabalgamiento	_	_	_	_
@@ -615,27 +615,27 @@
 29-37	3203-3204	)	_	_	_	_
 29-38	3205-3211	occurs	_	_	_	_
 29-39	3212-3219	between	_	_	_	_
-29-40	3220-3228	strongly	abstract[147]	giv[147]	coref	29-52[149_147]
-29-41	3229-3238	connected	abstract[147]	giv[147]	_	_
-29-42	3239-3246	lexical	abstract[147]	giv[147]	_	_
-29-43	3247-3249	or	abstract[147]	giv[147]	_	_
-29-44	3250-3259	syntactic	abstract[147]	giv[147]	_	_
-29-45	3260-3265	units	abstract[147]	giv[147]	_	_
+29-40	3220-3228	strongly	abstract[245]	new[245]	coref	29-52[247_245]
+29-41	3229-3238	connected	abstract[245]	new[245]	_	_
+29-42	3239-3246	lexical	abstract[245]	new[245]	_	_
+29-43	3247-3249	or	abstract[245]	new[245]	_	_
+29-44	3250-3259	syntactic	abstract[245]	new[245]	_	_
+29-45	3260-3265	units	abstract[245]	new[245]	_	_
 29-46	3266-3267	,	_	_	_	_
 29-47	3268-3278	triggering	_	_	_	_
 29-48	3279-3281	an	_	_	_	_
 29-49	3282-3291	unnatural	_	_	_	_
 29-50	3292-3295	cut	_	_	_	_
 29-51	3296-3303	between	_	_	_	_
-29-52	3304-3309	those	abstract[149]	giv[149]	_	_
-29-53	3310-3315	units	abstract[149]	giv[149]	_	_
+29-52	3304-3309	those	abstract[247]	giv[247]	_	_
+29-53	3310-3315	units	abstract[247]	giv[247]	_	_
 29-54	3316-3317	.	_	_	_	_
 
 #Text=Quilis ( 1964 ) performed poetry reading experiments , proposing that the following strongly connected elements give rise to enjambment , should a poetic-form pause break them up :
-30-1	3318-3324	Quilis	abstract[150]|person[151]	new[150]|new[151]	coref|coref	40-1[209_150]|36-8[181_151]
-30-2	3325-3326	(	abstract[150]	new[150]	_	_
-30-3	3327-3331	1964	abstract[150]	new[150]	_	_
-30-4	3332-3333	)	abstract[150]	new[150]	_	_
+30-1	3318-3324	Quilis	abstract[248]|person[249]	new[248]|new[249]	coref|coref	40-1[345_248]|36-8[300_249]
+30-2	3325-3326	(	abstract[248]	new[248]	_	_
+30-3	3327-3331	1964	abstract[248]	new[248]	_	_
+30-4	3332-3333	)	abstract[248]	new[248]	_	_
 30-5	3334-3343	performed	_	_	_	_
 30-6	3344-3350	poetry	_	_	_	_
 30-7	3351-3358	reading	_	_	_	_
@@ -643,11 +643,11 @@
 30-9	3371-3372	,	_	_	_	_
 30-10	3373-3382	proposing	_	_	_	_
 30-11	3383-3387	that	_	_	_	_
-30-12	3388-3391	the	abstract[156]	acc[156]	ana	30-27[0_156]
-30-13	3392-3401	following	abstract[156]	acc[156]	_	_
-30-14	3402-3410	strongly	abstract[156]	acc[156]	_	_
-30-15	3411-3420	connected	abstract[156]	acc[156]	_	_
-30-16	3421-3429	elements	abstract[156]	acc[156]	_	_
+30-12	3388-3391	the	abstract[257]	acc[257]	ana	30-27[261_257]
+30-13	3392-3401	following	abstract[257]	acc[257]	_	_
+30-14	3402-3410	strongly	abstract[257]	acc[257]	_	_
+30-15	3411-3420	connected	abstract[257]	acc[257]	_	_
+30-16	3421-3429	elements	abstract[257]	acc[257]	_	_
 30-17	3430-3434	give	_	_	_	_
 30-18	3435-3439	rise	_	_	_	_
 30-19	3440-3442	to	_	_	_	_
@@ -658,7 +658,7 @@
 30-24	3465-3476	poetic-form	_	_	_	_
 30-25	3477-3482	pause	_	_	_	_
 30-26	3483-3488	break	_	_	_	_
-30-27	3489-3493	them	abstract	acc	_	_
+30-27	3489-3493	them	abstract[261]	acc[261]	_	_
 30-28	3494-3496	up	_	_	_	_
 30-29	3497-3498	:	_	_	_	_
 
@@ -673,24 +673,24 @@
 31-8	3539-3540	.	_	_	_	_
 
 #Text=We translated " lexical enjambment " from Quilis ’s terms " encabalgamiento léxico " or " tmesis " .
-32-1	3541-3543	We	person	giv	ana	34-1
+32-1	3541-3543	We	person[265]	giv[265]	ana	34-1[287_265]
 32-2	3544-3554	translated	_	_	_	_
 32-3	3555-3556	"	_	_	_	_
 32-4	3557-3564	lexical	_	_	_	_
 32-5	3565-3575	enjambment	_	_	_	_
 32-6	3576-3577	"	_	_	_	_
 32-7	3578-3582	from	_	_	_	_
-32-8	3583-3589	Quilis	_	_	_	_
-32-9	3590-3592	’s	_	_	_	_
-32-10	3593-3598	terms	_	_	_	_
-32-11	3599-3600	"	_	_	_	_
-32-12	3601-3616	encabalgamiento	_	_	_	_
-32-13	3617-3623	léxico	_	_	_	_
-32-14	3624-3625	"	_	_	_	_
-32-15	3626-3628	or	_	_	_	_
-32-16	3629-3630	"	_	_	_	_
-32-17	3631-3637	tmesis	_	_	_	_
-32-18	3638-3639	"	_	_	_	_
+32-8	3583-3589	Quilis	abstract[268]	new[268]	appos	32-11[270_268]
+32-9	3590-3592	’s	abstract[268]	new[268]	_	_
+32-10	3593-3598	terms	abstract[268]	new[268]	_	_
+32-11	3599-3600	"	abstract[270]	giv[270]	_	_
+32-12	3601-3616	encabalgamiento	abstract[270]	giv[270]	_	_
+32-13	3617-3623	léxico	abstract[270]	giv[270]	_	_
+32-14	3624-3625	"	abstract[270]	giv[270]	_	_
+32-15	3626-3628	or	abstract[270]	giv[270]	_	_
+32-16	3629-3630	"	abstract[270]	giv[270]	_	_
+32-17	3631-3637	tmesis	abstract[270]	giv[270]	_	_
+32-18	3638-3639	"	abstract[270]	giv[270]	_	_
 32-19	3640-3641	.	_	_	_	_
 
 #Text=Phrase-bounded enjambment : Within a phrase , breaking up sequences like " noun + adjective " , " verb + adverb " , " auxiliary verb + main verb " , among others .
@@ -730,7 +730,7 @@
 33-34	3804-3805	.	_	_	_	_
 
 #Text=We translated " phrase-bounded enjambment " from " encabalgamiento sirremático " .
-34-1	3806-3808	We	person	giv	ana	36-1
+34-1	3806-3808	We	person[287]	giv[287]	ana	36-1[296_287]
 34-2	3809-3819	translated	_	_	_	_
 34-3	3820-3821	"	_	_	_	_
 34-4	3822-3836	phrase-bounded	_	_	_	_
@@ -748,9 +748,9 @@
 35-2	3902-3912	enjambment	_	_	_	_
 35-3	3913-3914	:	_	_	_	_
 35-4	3915-3922	Between	_	_	_	_
-35-5	3923-3924	a	abstract[176]	new[176]	coref	35-17[179_176]
-35-6	3925-3929	noun	abstract[176]	new[176]	_	_
-35-7	3930-3940	antecedent	abstract[176]	new[176]	_	_
+35-5	3923-3924	a	abstract[292]	new[292]	coref	35-17[295_292]
+35-6	3925-3929	noun	abstract[292]	new[292]	_	_
+35-7	3930-3940	antecedent	abstract[292]	new[292]	_	_
 35-8	3941-3944	and	_	_	_	_
 35-9	3945-3948	the	_	_	_	_
 35-10	3949-3956	pronoun	_	_	_	_
@@ -760,20 +760,20 @@
 35-14	3978-3984	clause	_	_	_	_
 35-15	3985-3989	that	_	_	_	_
 35-16	3990-4001	complements	_	_	_	_
-35-17	4002-4005	the	abstract[179]	giv[179]	_	_
-35-18	4006-4016	antecedent	abstract[179]	giv[179]	_	_
+35-17	4002-4005	the	abstract[295]	giv[295]	_	_
+35-18	4006-4016	antecedent	abstract[295]	giv[295]	_	_
 35-19	4017-4018	.	_	_	_	_
 
 #Text=We translated " cross-clause enjambment " from Quilis ’s " encabalgamiento oracional " .
-36-1	4019-4021	We	person	giv	ana	37-24[190_0]
+36-1	4019-4021	We	person[296]	giv[296]	ana	37-24[311_296]
 36-2	4022-4032	translated	_	_	_	_
 36-3	4033-4034	"	_	_	_	_
 36-4	4035-4047	cross-clause	_	_	_	_
 36-5	4048-4058	enjambment	_	_	_	_
 36-6	4059-4060	"	_	_	_	_
 36-7	4061-4065	from	_	_	_	_
-36-8	4066-4072	Quilis	person[181]	giv[181]	coref	38-53[0_181]
-36-9	4073-4075	’s	person[181]	giv[181]	_	_
+36-8	4066-4072	Quilis	person[300]	giv[300]	coref	38-53[334_300]
+36-9	4073-4075	’s	person[300]	giv[300]	_	_
 36-10	4076-4077	"	_	_	_	_
 36-11	4078-4093	encabalgamiento	_	_	_	_
 36-12	4094-4103	oracional	_	_	_	_
@@ -781,65 +781,65 @@
 36-14	4106-4107	.	_	_	_	_
 
 #Text=The project site includes Quilis ’s complete list of syntactic environments that can trigger enjambment , as well as the types identified by our system .
-37-1	4108-4111	The	place[183]	giv[183]	_	_
-37-2	4112-4119	project	place[183]	giv[183]	_	_
-37-3	4120-4124	site	place[183]	giv[183]	_	_
+37-1	4108-4111	The	place[301]	giv[301]	_	_
+37-2	4112-4119	project	place[301]	giv[301]	_	_
+37-3	4120-4124	site	place[301]	giv[301]	_	_
 37-4	4125-4133	includes	_	_	_	_
 37-5	4134-4140	Quilis	_	_	_	_
 37-6	4141-4143	’s	_	_	_	_
 37-7	4144-4152	complete	_	_	_	_
 37-8	4153-4157	list	_	_	_	_
 37-9	4158-4160	of	_	_	_	_
-37-10	4161-4170	syntactic	abstract[187]	new[187]	coref	38-49[205_187]
-37-11	4171-4183	environments	abstract[187]	new[187]	_	_
-37-12	4184-4188	that	abstract[187]	new[187]	_	_
-37-13	4189-4192	can	abstract[187]	new[187]	_	_
-37-14	4193-4200	trigger	abstract[187]	new[187]	_	_
-37-15	4201-4211	enjambment	abstract[187]	new[187]	_	_
+37-10	4161-4170	syntactic	abstract[306]	new[306]	coref	38-49[333_306]
+37-11	4171-4183	environments	abstract[306]	new[306]	_	_
+37-12	4184-4188	that	abstract[306]	new[306]	_	_
+37-13	4189-4192	can	abstract[306]	new[306]	_	_
+37-14	4193-4200	trigger	abstract[306]	new[306]	_	_
+37-15	4201-4211	enjambment	abstract[306]	new[306]	_	_
 37-16	4212-4213	,	_	_	_	_
 37-17	4214-4216	as	_	_	_	_
 37-18	4217-4221	well	_	_	_	_
 37-19	4222-4224	as	_	_	_	_
-37-20	4225-4228	the	abstract[188]	new[188]	coref	38-2[191_188]
-37-21	4229-4234	types	abstract[188]	new[188]	_	_
-37-22	4235-4245	identified	abstract[188]	new[188]	_	_
-37-23	4246-4248	by	abstract[188]	new[188]	_	_
-37-24	4249-4252	our	abstract[189]|person[190]|abstract[188]	giv[189]|giv[190]|new[188]	coref|ana	42-1[222_189]|42-1[223_190]
-37-25	4253-4259	system	abstract[189]|abstract[188]	giv[189]|new[188]	_	_
+37-20	4225-4228	the	abstract[309]	new[309]	coref	38-2[313_309]
+37-21	4229-4234	types	abstract[309]	new[309]	_	_
+37-22	4235-4245	identified	abstract[309]	new[309]	_	_
+37-23	4246-4248	by	abstract[309]	new[309]	_	_
+37-24	4249-4252	our	abstract[309]|abstract[310]|person[311]	new[309]|giv[310]|giv[311]	coref|ana	42-1[365_310]|42-1[366_311]
+37-25	4253-4259	system	abstract[309]|abstract[310]	new[309]|giv[310]	_	_
 37-26	4260-4261	.	_	_	_	_
 
 #Text=Besides the enjambment types above , Spang ( 1983 ) noted that if a subject or direct object and their related verbs occur in two different lines of poetry , this can also feel unusual for a reader , even if the effect is less pronounced than in the environments identified by Quilis .
 38-1	4262-4269	Besides	_	_	_	_
-38-2	4270-4273	the	abstract[191]	giv[191]	_	_
-38-3	4274-4284	enjambment	abstract[191]	giv[191]	_	_
-38-4	4285-4290	types	abstract[191]	giv[191]	_	_
-38-5	4291-4296	above	_	_	_	_
+38-2	4270-4273	the	abstract[313]	giv[313]	_	_
+38-3	4274-4284	enjambment	abstract[313]	giv[313]	_	_
+38-4	4285-4290	types	abstract[313]	giv[313]	_	_
+38-5	4291-4296	above	abstract[313]	giv[313]	_	_
 38-6	4297-4298	,	_	_	_	_
-38-7	4299-4304	Spang	abstract[193]|person[194]	giv[193]|giv[194]	coref|coref	13-62[50_193]|39-9[0_194]
-38-8	4305-4306	(	abstract[193]	giv[193]	_	_
-38-9	4307-4311	1983	abstract[193]	giv[193]	_	_
-38-10	4312-4313	)	abstract[193]	giv[193]	_	_
+38-7	4299-4304	Spang	abstract[316]|person[317]	giv[316]|giv[317]	coref	39-9[338_317]
+38-8	4305-4306	(	abstract[316]	giv[316]	_	_
+38-9	4307-4311	1983	abstract[316]	giv[316]	_	_
+38-10	4312-4313	)	abstract[316]	giv[316]	_	_
 38-11	4314-4319	noted	_	_	_	_
 38-12	4320-4324	that	_	_	_	_
-38-13	4325-4327	if	abstract[196]	new[196]	coref	38-31[0_196]
-38-14	4328-4329	a	abstract[196]	new[196]	_	_
-38-15	4330-4337	subject	abstract[196]	new[196]	_	_
-38-16	4338-4340	or	abstract[196]	new[196]	_	_
-38-17	4341-4347	direct	abstract[196]	new[196]	_	_
-38-18	4348-4354	object	abstract[196]	new[196]	_	_
-38-19	4355-4358	and	abstract[196]	new[196]	_	_
-38-20	4359-4364	their	abstract[196]	new[196]	_	_
-38-21	4365-4372	related	abstract[196]	new[196]	_	_
-38-22	4373-4378	verbs	abstract[196]	new[196]	_	_
-38-23	4379-4384	occur	abstract[196]	new[196]	_	_
-38-24	4385-4387	in	abstract[196]	new[196]	_	_
-38-25	4388-4391	two	abstract[196]	new[196]	_	_
-38-26	4392-4401	different	abstract[196]	new[196]	_	_
-38-27	4402-4407	lines	abstract[196]	new[196]	_	_
-38-28	4408-4410	of	abstract[196]	new[196]	_	_
-38-29	4411-4417	poetry	abstract[196]	new[196]	_	_
+38-13	4325-4327	if	abstract[321]	new[321]	ana	38-31[328_321]
+38-14	4328-4329	a	abstract[321]|abstract[322]	new[321]|new[322]	ana	38-20[324_322]
+38-15	4330-4337	subject	abstract[321]|abstract[322]	new[321]|new[322]	_	_
+38-16	4338-4340	or	abstract[321]|abstract[322]	new[321]|new[322]	_	_
+38-17	4341-4347	direct	abstract[321]|abstract[322]	new[321]|new[322]	_	_
+38-18	4348-4354	object	abstract[321]|abstract[322]	new[321]|new[322]	_	_
+38-19	4355-4358	and	abstract[321]	new[321]	_	_
+38-20	4359-4364	their	abstract[321]|abstract[324]	new[321]|giv[324]	_	_
+38-21	4365-4372	related	abstract[321]	new[321]	_	_
+38-22	4373-4378	verbs	abstract[321]	new[321]	_	_
+38-23	4379-4384	occur	abstract[321]	new[321]	_	_
+38-24	4385-4387	in	abstract[321]	new[321]	_	_
+38-25	4388-4391	two	abstract[321]	new[321]	_	_
+38-26	4392-4401	different	abstract[321]	new[321]	_	_
+38-27	4402-4407	lines	abstract[321]	new[321]	_	_
+38-28	4408-4410	of	abstract[321]	new[321]	_	_
+38-29	4411-4417	poetry	abstract[321]	new[321]	_	_
 38-30	4418-4419	,	_	_	_	_
-38-31	4420-4424	this	abstract	giv	coref	39-3[206_0]
+38-31	4420-4424	this	abstract[328]	giv[328]	coref	39-3[336_328]
 38-32	4425-4428	can	_	_	_	_
 38-33	4429-4433	also	_	_	_	_
 38-34	4434-4438	feel	_	_	_	_
@@ -857,26 +857,26 @@
 38-46	4489-4499	pronounced	_	_	_	_
 38-47	4500-4504	than	_	_	_	_
 38-48	4505-4507	in	_	_	_	_
-38-49	4508-4511	the	abstract[205]	giv[205]	_	_
-38-50	4512-4524	environments	abstract[205]	giv[205]	_	_
-38-51	4525-4535	identified	abstract[205]	giv[205]	_	_
-38-52	4536-4538	by	abstract[205]	giv[205]	_	_
-38-53	4539-4545	Quilis	person|abstract[205]	giv|giv[205]	coref	40-1[210_0]
+38-49	4508-4511	the	abstract[333]	giv[333]	_	_
+38-50	4512-4524	environments	abstract[333]	giv[333]	_	_
+38-51	4525-4535	identified	abstract[333]	giv[333]	_	_
+38-52	4536-4538	by	abstract[333]	giv[333]	_	_
+38-53	4539-4545	Quilis	abstract[333]|person[334]	giv[333]|giv[334]	coref	40-1[346_334]
 38-54	4546-4547	.	_	_	_	_
 
 #Text=To differentiate these cases from enjambment proper , Spang calls these cases " enlace " , translated here as " expansion " .
 39-1	4548-4550	To	_	_	_	_
 39-2	4551-4564	differentiate	_	_	_	_
-39-3	4565-4570	these	abstract[206]	giv[206]	coref	39-11[208_206]
-39-4	4571-4576	cases	abstract[206]	giv[206]	_	_
+39-3	4565-4570	these	abstract[336]	giv[336]	coref	39-11[340_336]
+39-4	4571-4576	cases	abstract[336]	giv[336]	_	_
 39-5	4577-4581	from	_	_	_	_
 39-6	4582-4592	enjambment	_	_	_	_
 39-7	4593-4599	proper	_	_	_	_
 39-8	4600-4601	,	_	_	_	_
-39-9	4602-4607	Spang	person	giv	_	_
+39-9	4602-4607	Spang	person[338]	giv[338]	_	_
 39-10	4608-4613	calls	_	_	_	_
-39-11	4614-4619	these	abstract[208]	giv[208]	_	_
-39-12	4620-4625	cases	abstract[208]	giv[208]	_	_
+39-11	4614-4619	these	abstract[340]	giv[340]	_	_
+39-12	4620-4625	cases	abstract[340]	giv[340]	_	_
 39-13	4626-4627	"	_	_	_	_
 39-14	4628-4634	enlace	_	_	_	_
 39-15	4635-4636	"	_	_	_	_
@@ -890,10 +890,10 @@
 39-23	4672-4673	.	_	_	_	_
 
 #Text=Quilis ( 1964 ) was the only author so far to gather recitation-based experimental evidence on enjambment .
-40-1	4674-4680	Quilis	abstract[209]|person[210]	giv[209]|giv[210]	ana	41-1[215_210]
-40-2	4681-4682	(	abstract[209]	giv[209]	_	_
-40-3	4683-4687	1964	abstract[209]	giv[209]	_	_
-40-4	4688-4689	)	abstract[209]	giv[209]	_	_
+40-1	4674-4680	Quilis	abstract[345]|person[346]	giv[345]|giv[346]	ana	41-1[355_346]
+40-2	4681-4682	(	abstract[345]	giv[345]	_	_
+40-3	4683-4687	1964	abstract[345]	giv[345]	_	_
+40-4	4688-4689	)	abstract[345]	giv[345]	_	_
 40-5	4690-4693	was	_	_	_	_
 40-6	4694-4697	the	_	_	_	_
 40-7	4698-4702	only	_	_	_	_
@@ -910,7 +910,7 @@
 40-18	4780-4781	.	_	_	_	_
 
 #Text=His typology is still considered current , and was adopted by later authors , although complementary enjambment typologies have been proposed , as Martínez Cantón ( 2011 ) reviews .
-41-1	4782-4785	His	person[215]	giv[215]	_	_
+41-1	4782-4785	His	person[355]	giv[355]	_	_
 41-2	4786-4794	typology	_	_	_	_
 41-3	4795-4797	is	_	_	_	_
 41-4	4798-4803	still	_	_	_	_
@@ -933,17 +933,17 @@
 41-21	4915-4923	proposed	_	_	_	_
 41-22	4924-4925	,	_	_	_	_
 41-23	4926-4928	as	_	_	_	_
-41-24	4929-4937	Martínez	abstract[219]|person[220]	giv[219]|giv[220]	coref	13-32[38_219]
-41-25	4938-4944	Cantón	abstract[219]|person[220]	giv[219]|giv[220]	_	_
-41-26	4945-4946	(	abstract[219]	giv[219]	_	_
-41-27	4947-4951	2011	abstract[219]	giv[219]	_	_
-41-28	4952-4953	)	abstract[219]	giv[219]	_	_
+41-24	4929-4937	Martínez	abstract[361]|person[362]	giv[361]|giv[362]	_	_
+41-25	4938-4944	Cantón	abstract[361]|person[362]	giv[361]|giv[362]	_	_
+41-26	4945-4946	(	abstract[361]	giv[361]	_	_
+41-27	4947-4951	2011	abstract[361]	giv[361]	_	_
+41-28	4952-4953	)	abstract[361]	giv[361]	_	_
 41-29	4954-4961	reviews	_	_	_	_
 41-30	4962-4963	.	_	_	_	_
 
 #Text=Our system identifies Quilis ’ types , besides Spang ’s expansion cases .
-42-1	4964-4967	Our	abstract[222]|person[223]	giv[222]|giv[223]	_	_
-42-2	4968-4974	system	abstract[222]	giv[222]	_	_
+42-1	4964-4967	Our	abstract[365]|person[366]	giv[365]|giv[366]	_	_
+42-2	4968-4974	system	abstract[365]	giv[365]	_	_
 42-3	4975-4985	identifies	_	_	_	_
 42-4	4986-4992	Quilis	_	_	_	_
 42-5	4993-4994	’	_	_	_	_

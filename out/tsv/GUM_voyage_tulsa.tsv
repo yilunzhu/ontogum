@@ -1,10 +1,10 @@
-#FORMAT=WebAnno TSV 3.1
+#FORMAT=WebAnno TSV 3.2
 #T_SP=webanno.custom.Referent|entity|infstat
 #T_RL=webanno.custom.Coref|type|BT_webanno.custom.Referent
 
 
 #Text=Tulsa
-1-1	0-5	Tulsa	place	new	ana	3-1
+1-1	0-5	Tulsa	place[1]	new[1]	ana	3-1[7_1]
 
 #Text=Tulsa is in the Green Country region of Oklahoma .
 2-1	6-11	Tulsa	_	_	_	_
@@ -15,16 +15,16 @@
 2-6	28-35	Country	_	_	_	_
 2-7	36-42	region	_	_	_	_
 2-8	43-45	of	_	_	_	_
-2-9	46-54	Oklahoma	_	_	_	_
+2-9	46-54	Oklahoma	place[6]	new[6]	coref	8-8[52_6]
 2-10	55-56	.	_	_	_	_
 
 #Text=It is also called “ T-town ” by the locals and has been called the " Oil Capital of the World " .
-3-1	57-59	It	place	giv	coref	4-1[9_0]
+3-1	57-59	It	place[7]	giv[7]	coref	3-6[8_7]
 3-2	60-62	is	_	_	_	_
 3-3	63-67	also	_	_	_	_
 3-4	68-74	called	_	_	_	_
 3-5	75-76	“	_	_	_	_
-3-6	77-83	T-town	_	_	_	_
+3-6	77-83	T-town	place[8]	giv[8]	coref	3-15[13_8]
 3-7	84-85	”	_	_	_	_
 3-8	86-88	by	_	_	_	_
 3-9	89-92	the	_	_	_	_
@@ -33,27 +33,27 @@
 3-12	104-107	has	_	_	_	_
 3-13	108-112	been	_	_	_	_
 3-14	113-119	called	_	_	_	_
-3-15	120-123	the	_	_	_	_
-3-16	124-125	"	_	_	_	_
-3-17	126-129	Oil	_	_	_	_
-3-18	130-137	Capital	_	_	_	_
-3-19	138-140	of	_	_	_	_
-3-20	141-144	the	_	_	_	_
-3-21	145-150	World	_	_	_	_
-3-22	151-152	"	_	_	_	_
+3-15	120-123	the	place[13]	giv[13]	coref	4-1[17_13]
+3-16	124-125	"	place[13]	giv[13]	_	_
+3-17	126-129	Oil	place[13]	giv[13]	_	_
+3-18	130-137	Capital	place[13]	giv[13]	_	_
+3-19	138-140	of	place[13]	giv[13]	_	_
+3-20	141-144	the	place[13]	giv[13]	_	_
+3-21	145-150	World	place[13]	giv[13]	_	_
+3-22	151-152	"	place[13]	giv[13]	_	_
 3-23	153-154	.	_	_	_	_
 
 #Text=The city had about 391,000 people and the metro area had about 937,000 people as of 2010 from the US Census Bureau .
-4-1	155-158	The	place[9]	giv[9]	_	_
-4-2	159-163	city	place[9]	giv[9]	_	_
+4-1	155-158	The	place[17]	giv[17]	coref	5-2[27_17]
+4-2	159-163	city	place[17]	giv[17]	_	_
 4-3	164-167	had	_	_	_	_
 4-4	168-173	about	_	_	_	_
 4-5	174-181	391,000	_	_	_	_
 4-6	182-188	people	_	_	_	_
 4-7	189-192	and	_	_	_	_
-4-8	193-196	the	place[11]	acc[11]	coref	45-12[183_11]
-4-9	197-202	metro	place[11]	acc[11]	_	_
-4-10	203-207	area	place[11]	acc[11]	_	_
+4-8	193-196	the	place[19]	acc[19]	coref	45-12[263_19]
+4-9	197-202	metro	place[19]	acc[19]	_	_
+4-10	203-207	area	place[19]	acc[19]	_	_
 4-11	208-211	had	_	_	_	_
 4-12	212-217	about	_	_	_	_
 4-13	218-225	937,000	_	_	_	_
@@ -63,14 +63,14 @@
 4-17	239-243	2010	_	_	_	_
 4-18	244-248	from	_	_	_	_
 4-19	249-252	the	_	_	_	_
-4-20	253-255	US	_	_	_	_
+4-20	253-255	US	place[24]	acc[24]	coref	15-12[103_24]
 4-21	256-262	Census	_	_	_	_
 4-22	263-269	Bureau	_	_	_	_
 4-23	270-271	.	_	_	_	_
 
 #Text=The Tulsa Bartlesville Combined area had 988,000 in the 2010 census .
 5-1	272-275	The	_	_	_	_
-5-2	276-281	Tulsa	place[17]	giv[17]	coref	7-1[0_17]
+5-2	276-281	Tulsa	place[27]	giv[27]	coref	7-1[35_27]
 5-3	282-294	Bartlesville	_	_	_	_
 5-4	295-303	Combined	_	_	_	_
 5-5	304-308	area	_	_	_	_
@@ -86,7 +86,7 @@
 6-1	342-352	Understand	_	_	_	_
 
 #Text=Tulsa lies in northeastern Oklahoma , at the convergence of the Great Plains and the Ozark Plateau , and receives an average of 40 inches of precipitation each year , both of which account for its abundant beautiful rolling green terrain .
-7-1	353-358	Tulsa	place	giv	coref	7-36[30_0]
+7-1	353-358	Tulsa	place[35]	giv[35]	ana	7-36[47_35]
 7-2	359-363	lies	_	_	_	_
 7-3	364-366	in	_	_	_	_
 7-4	367-379	northeastern	_	_	_	_
@@ -96,9 +96,9 @@
 7-8	394-397	the	_	_	_	_
 7-9	398-409	convergence	_	_	_	_
 7-10	410-412	of	_	_	_	_
-7-11	413-416	the	place[24]	new[24]	coref	9-12[37_24]
-7-12	417-422	Great	place[24]	new[24]	_	_
-7-13	423-429	Plains	place[24]	new[24]	_	_
+7-11	413-416	the	place[40]	new[40]	coref	9-12[58_40]
+7-12	417-422	Great	place[40]	new[40]	_	_
+7-13	423-429	Plains	place[40]	new[40]	_	_
 7-14	430-433	and	_	_	_	_
 7-15	434-437	the	_	_	_	_
 7-16	438-443	Ozark	_	_	_	_
@@ -121,7 +121,7 @@
 7-33	528-533	which	_	_	_	_
 7-34	534-541	account	_	_	_	_
 7-35	542-545	for	_	_	_	_
-7-36	546-549	its	place[30]	giv[30]	coref	8-5[0_30]
+7-36	546-549	its	place[47]	giv[47]	coref	8-5[48_47]
 7-37	550-558	abundant	_	_	_	_
 7-38	559-568	beautiful	_	_	_	_
 7-39	569-576	rolling	_	_	_	_
@@ -134,10 +134,10 @@
 8-2	596-597	a	_	_	_	_
 8-3	598-604	result	_	_	_	_
 8-4	605-606	,	_	_	_	_
-8-5	607-612	Tulsa	place	giv	coref	12-1
+8-5	607-612	Tulsa	place[48]	giv[48]	coref	12-1[72_48]
 8-6	613-619	breaks	_	_	_	_
 8-7	620-623	the	_	_	_	_
-8-8	624-632	Oklahoma	place[33]	giv[33]	coref	28-12[121_33]
+8-8	624-632	Oklahoma	place[52]	giv[52]	coref	28-12[175_52]
 8-9	633-643	stereotype	_	_	_	_
 8-10	644-646	of	_	_	_	_
 8-11	647-652	being	_	_	_	_
@@ -163,19 +163,19 @@
 9-9	729-733	cold	_	_	_	_
 9-10	734-738	wind	_	_	_	_
 9-11	739-745	across	_	_	_	_
-9-12	746-749	the	place[37]	giv[37]	_	_
-9-13	750-756	plains	place[37]	giv[37]	_	_
-9-14	757-759	it	event[38]	new[38]	ana	9-24[0_38]
-9-15	760-763	can	event[38]	new[38]	_	_
-9-16	764-767	get	event[38]	new[38]	_	_
-9-17	768-772	very	event[38]	new[38]	_	_
-9-18	773-777	cold	event[38]	new[38]	_	_
-9-19	778-780	in	event[38]	new[38]	_	_
-9-20	781-784	the	event[38]|time[39]	new[38]|acc[39]	coref	10-1[41_39]
-9-21	785-791	winter	event[38]|time[39]	new[38]|acc[39]	_	_
+9-12	746-749	the	place[58]	giv[58]	_	_
+9-13	750-756	plains	place[58]	giv[58]	_	_
+9-14	757-759	it	event[59]	new[59]	ana	9-24[61_59]
+9-15	760-763	can	event[59]	new[59]	_	_
+9-16	764-767	get	event[59]	new[59]	_	_
+9-17	768-772	very	event[59]	new[59]	_	_
+9-18	773-777	cold	event[59]	new[59]	_	_
+9-19	778-780	in	event[59]	new[59]	_	_
+9-20	781-784	the	event[59]|time[60]	new[59]|acc[60]	coref	10-1[63_60]
+9-21	785-791	winter	event[59]|time[60]	new[59]|acc[60]	_	_
 9-22	792-793	,	_	_	_	_
 9-23	794-797	but	_	_	_	_
-9-24	798-800	it	event	giv	_	_
+9-24	798-800	it	event[61]	giv[61]	_	_
 9-25	801-805	does	_	_	_	_
 9-26	806-809	not	_	_	_	_
 9-27	810-814	last	_	_	_	_
@@ -183,8 +183,8 @@
 9-29	820-821	.	_	_	_	_
 
 #Text=The winters are considered to be very mild .
-10-1	822-825	The	time[41]	giv[41]	_	_
-10-2	826-833	winters	time[41]	giv[41]	_	_
+10-1	822-825	The	time[63]	giv[63]	_	_
+10-2	826-833	winters	time[63]	giv[63]	_	_
 10-3	834-837	are	_	_	_	_
 10-4	838-848	considered	_	_	_	_
 10-5	849-851	to	_	_	_	_
@@ -227,7 +227,7 @@
 11-31	1008-1009	.	_	_	_	_
 
 #Text=Tulsa has over 225 days of sunshine annually .
-12-1	1010-1015	Tulsa	place	giv	coref	13-2
+12-1	1010-1015	Tulsa	place[72]	giv[72]	coref	13-2[75_72]
 12-2	1016-1019	has	_	_	_	_
 12-3	1020-1024	over	_	_	_	_
 12-4	1025-1028	225	_	_	_	_
@@ -239,8 +239,8 @@
 
 #Text=In Tulsa you will find old west charm as well as a cosmopolitan atmosphere .
 13-1	1057-1059	In	_	_	_	_
-13-2	1060-1065	Tulsa	place	giv	coref	14-7[56_0]
-13-3	1066-1069	you	person	acc	ana	14-1
+13-2	1060-1065	Tulsa	place[75]	giv[75]	coref	14-7[84_75]
+13-3	1066-1069	you	person[76]	acc[76]	ana	14-1[81_76]
 13-4	1070-1074	will	_	_	_	_
 13-5	1075-1079	find	_	_	_	_
 13-6	1080-1083	old	_	_	_	_
@@ -255,32 +255,32 @@
 13-15	1132-1133	.	_	_	_	_
 
 #Text=You will find the people of Tulsa love their city and they have that southern charm , so they are willing to help you find your way around .
-14-1	1134-1137	You	person	giv	ana	14-24
+14-1	1134-1137	You	person[81]	giv[81]	ana	14-24[93_81]
 14-2	1138-1142	will	_	_	_	_
 14-3	1143-1147	find	_	_	_	_
-14-4	1148-1151	the	person[55]	new[55]	ana	14-9[58_55]
-14-5	1152-1158	people	person[55]	new[55]	_	_
-14-6	1159-1161	of	person[55]	new[55]	_	_
-14-7	1162-1167	Tulsa	person[55]|place[56]	new[55]|giv[56]	coref	14-9[57_56]
+14-4	1148-1151	the	person[83]	new[83]	ana	14-9[87_83]
+14-5	1152-1158	people	person[83]	new[83]	_	_
+14-6	1159-1161	of	person[83]	new[83]	_	_
+14-7	1162-1167	Tulsa	person[83]|place[84]	new[83]|giv[84]	coref	14-9[86_84]
 14-8	1168-1172	love	_	_	_	_
-14-9	1173-1178	their	place[57]|person[58]	giv[57]|giv[58]	ana	14-12[0_58]
-14-10	1179-1183	city	place[57]	giv[57]	_	_
+14-9	1173-1178	their	place[86]|person[87]	giv[86]|giv[87]	ana	14-12[88_87]
+14-10	1179-1183	city	place[86]	giv[86]	_	_
 14-11	1184-1187	and	_	_	_	_
-14-12	1188-1192	they	person	giv	ana	14-19
+14-12	1188-1192	they	person[88]	giv[88]	ana	14-19[92_88]
 14-13	1193-1197	have	_	_	_	_
 14-14	1198-1202	that	_	_	_	_
 14-15	1203-1211	southern	_	_	_	_
 14-16	1212-1217	charm	_	_	_	_
 14-17	1218-1219	,	_	_	_	_
 14-18	1220-1222	so	_	_	_	_
-14-19	1223-1227	they	person	giv	_	_
+14-19	1223-1227	they	person[92]	giv[92]	_	_
 14-20	1228-1231	are	_	_	_	_
 14-21	1232-1239	willing	_	_	_	_
 14-22	1240-1242	to	_	_	_	_
 14-23	1243-1247	help	_	_	_	_
-14-24	1248-1251	you	person	acc	ana	14-26[64_0]
+14-24	1248-1251	you	person[93]	giv[93]	ana	14-26[97_93]
 14-25	1252-1256	find	_	_	_	_
-14-26	1257-1261	your	person[64]	giv[64]	_	_
+14-26	1257-1261	your	person[97]	giv[97]	ana	75-2[465_97]
 14-27	1262-1265	way	_	_	_	_
 14-28	1266-1272	around	_	_	_	_
 14-29	1273-1274	.	_	_	_	_
@@ -297,42 +297,42 @@
 15-9	1322-1325	Art	_	_	_	_
 15-10	1326-1330	Deco	_	_	_	_
 15-11	1331-1333	in	_	_	_	_
-15-12	1334-1337	the	place[68]	acc[68]	coref	19-12[88_68]
-15-13	1338-1344	nation	place[68]	acc[68]	_	_
+15-12	1334-1337	the	place[103]	giv[103]	coref	19-12[129_103]
+15-13	1338-1344	nation	place[103]	giv[103]	_	_
 15-14	1345-1346	,	_	_	_	_
 15-15	1347-1353	having	_	_	_	_
 15-16	1354-1358	been	_	_	_	_
-15-17	1359-1360	a	place[69]	giv[69]	coref	18-1[80_69]
-15-18	1361-1368	booming	place[69]	giv[69]	_	_
-15-19	1369-1373	city	place[69]	giv[69]	_	_
-15-20	1374-1380	during	_	_	_	_
-15-21	1381-1384	the	_	_	_	_
-15-22	1385-1390	1920s	_	_	_	_
-15-23	1391-1395	when	place[69]	giv[69]	_	_
-15-24	1396-1399	the	place[69]	giv[69]	_	_
-15-25	1400-1412	architecture	place[69]	giv[69]	_	_
-15-26	1413-1416	was	place[69]	giv[69]	_	_
-15-27	1417-1422	first	place[69]	giv[69]	_	_
-15-28	1423-1428	built	place[69]	giv[69]	_	_
-15-29	1429-1431	by	place[69]	giv[69]	_	_
-15-30	1432-1436	rich	place[69]	giv[69]	_	_
-15-31	1437-1440	oil	place[69]	giv[69]	_	_
-15-32	1441-1447	barons	place[69]	giv[69]	_	_
-15-33	1448-1451	who	place[69]	giv[69]	_	_
-15-34	1452-1457	built	place[69]	giv[69]	_	_
-15-35	1458-1465	stately	place[69]	giv[69]	_	_
-15-36	1466-1474	mansions	place[69]	giv[69]	_	_
-15-37	1475-1478	and	place[69]	giv[69]	_	_
-15-38	1479-1485	turned	place[69]	giv[69]	_	_
-15-39	1486-1489	the	place[69]	giv[69]	_	_
-15-40	1490-1498	Downtown	place[69]	giv[69]	_	_
-15-41	1499-1503	area	place[69]	giv[69]	_	_
-15-42	1504-1508	into	place[69]	giv[69]	_	_
-15-43	1509-1510	a	place[69]	giv[69]	_	_
-15-44	1511-1519	treasure	place[69]	giv[69]	_	_
-15-45	1520-1525	trove	place[69]	giv[69]	_	_
-15-46	1526-1528	of	place[69]	giv[69]	_	_
-15-47	1529-1532	art	place[69]	giv[69]	_	_
+15-17	1359-1360	a	place[104]	giv[104]	coref	18-1[118_104]
+15-18	1361-1368	booming	place[104]	giv[104]	_	_
+15-19	1369-1373	city	place[104]	giv[104]	_	_
+15-20	1374-1380	during	place[104]	giv[104]	_	_
+15-21	1381-1384	the	place[104]	giv[104]	_	_
+15-22	1385-1390	1920s	place[104]	giv[104]	_	_
+15-23	1391-1395	when	place[104]	giv[104]	_	_
+15-24	1396-1399	the	place[104]	giv[104]	_	_
+15-25	1400-1412	architecture	place[104]	giv[104]	_	_
+15-26	1413-1416	was	place[104]	giv[104]	_	_
+15-27	1417-1422	first	place[104]	giv[104]	_	_
+15-28	1423-1428	built	place[104]	giv[104]	_	_
+15-29	1429-1431	by	place[104]	giv[104]	_	_
+15-30	1432-1436	rich	place[104]	giv[104]	_	_
+15-31	1437-1440	oil	place[104]	giv[104]	_	_
+15-32	1441-1447	barons	place[104]	giv[104]	_	_
+15-33	1448-1451	who	place[104]	giv[104]	_	_
+15-34	1452-1457	built	place[104]	giv[104]	_	_
+15-35	1458-1465	stately	place[104]	giv[104]	_	_
+15-36	1466-1474	mansions	place[104]	giv[104]	_	_
+15-37	1475-1478	and	place[104]	giv[104]	_	_
+15-38	1479-1485	turned	place[104]	giv[104]	_	_
+15-39	1486-1489	the	place[104]	giv[104]	_	_
+15-40	1490-1498	Downtown	place[104]	giv[104]	_	_
+15-41	1499-1503	area	place[104]	giv[104]	_	_
+15-42	1504-1508	into	place[104]	giv[104]	_	_
+15-43	1509-1510	a	place[104]	giv[104]	_	_
+15-44	1511-1519	treasure	place[104]	giv[104]	_	_
+15-45	1520-1525	trove	place[104]	giv[104]	_	_
+15-46	1526-1528	of	place[104]	giv[104]	_	_
+15-47	1529-1532	art	place[104]	giv[104]	_	_
 15-48	1533-1534	.	_	_	_	_
 
 #Text=Get in
@@ -344,24 +344,24 @@
 17-2	1545-1550	plane	_	_	_	_
 
 #Text=Tulsa International Airport ( IATA : TUL ) in the northern part of Tulsa .
-18-1	1551-1556	Tulsa	place[79]|place[80]|place[495]	new[79]|giv[80]|new[495]	appos|coref|ana	18-4[368_79]|18-14[83_80]|19-1[0_495]
-18-2	1557-1570	International	place[79]|place[495]	new[79]|new[495]	_	_
-18-3	1571-1578	Airport	place[79]|place[495]	new[79]|new[495]	_	_
-18-4	1579-1580	(	place[368]|place[495]	giv[368]|new[495]	_	_
-18-5	1581-1585	IATA	place[368]|place[495]	giv[368]|new[495]	_	_
-18-6	1586-1587	:	place[368]|place[495]	giv[368]|new[495]	_	_
-18-7	1588-1591	TUL	place[368]|place[495]	giv[368]|new[495]	_	_
-18-8	1592-1593	)	place[368]|place[495]	giv[368]|new[495]	_	_
+18-1	1551-1556	Tulsa	place[117]|place[118]|place[641]	new[117]|giv[118]|new[641]	appos|coref|ana	18-4[517_117]|18-14[122_118]|19-1[123_641]
+18-2	1557-1570	International	place[117]|place[641]	new[117]|new[641]	_	_
+18-3	1571-1578	Airport	place[117]|place[641]	new[117]|new[641]	_	_
+18-4	1579-1580	(	place[517]|place[641]	giv[517]|new[641]	_	_
+18-5	1581-1585	IATA	place[517]|place[641]	giv[517]|new[641]	_	_
+18-6	1586-1587	:	place[517]|place[641]	giv[517]|new[641]	_	_
+18-7	1588-1591	TUL	place[517]|place[641]	giv[517]|new[641]	_	_
+18-8	1592-1593	)	place[517]|place[641]	giv[517]|new[641]	_	_
 18-9	1594-1596	in	_	_	_	_
 18-10	1597-1600	the	_	_	_	_
 18-11	1601-1609	northern	_	_	_	_
 18-12	1610-1614	part	_	_	_	_
 18-13	1615-1617	of	_	_	_	_
-18-14	1618-1623	Tulsa	place[83]	giv[83]	coref	25-8[0_83]
+18-14	1618-1623	Tulsa	place[122]	giv[122]	coref	25-8[158_122]
 18-15	1624-1625	.	_	_	_	_
 
 #Text=It has major airlines with direct flights to major cities in the U.S.
-19-1	1626-1628	It	place	giv	ana	20-1
+19-1	1626-1628	It	place[123]	giv[123]	ana	20-1[130_123]
 19-2	1629-1632	has	_	_	_	_
 19-3	1633-1638	major	_	_	_	_
 19-4	1639-1647	airlines	_	_	_	_
@@ -372,11 +372,11 @@
 19-9	1671-1676	major	_	_	_	_
 19-10	1677-1683	cities	_	_	_	_
 19-11	1684-1686	in	_	_	_	_
-19-12	1687-1690	the	place[88]	giv[88]	coref	47-18[207_88]
-19-13	1691-1695	U.S.	place[88]	giv[88]	_	_
+19-12	1687-1690	the	place[129]	giv[129]	coref	47-18[295_129]
+19-13	1691-1695	U.S.	place[129]	giv[129]	_	_
 
 #Text=It is a small but nice airport with sofas and chairs all around and a very laid-back feel .
-20-1	1696-1698	It	place	giv	coref	22-1[97_0]
+20-1	1696-1698	It	place[130]	giv[130]	coref	22-1[143_130]
 20-2	1699-1701	is	_	_	_	_
 20-3	1702-1703	a	_	_	_	_
 20-4	1704-1709	small	_	_	_	_
@@ -409,8 +409,8 @@
 21-10	1839-1840	.	_	_	_	_
 
 #Text=The airport offers free short term parking ( first half-hour free ) .
-22-1	1841-1844	The	place[97]	giv[97]	_	_
-22-2	1845-1852	airport	place[97]	giv[97]	_	_
+22-1	1841-1844	The	place[143]	giv[143]	_	_
+22-2	1845-1852	airport	place[143]	giv[143]	_	_
 22-3	1853-1859	offers	_	_	_	_
 22-4	1860-1864	free	_	_	_	_
 22-5	1865-1870	short	_	_	_	_
@@ -424,25 +424,25 @@
 22-13	1909-1910	.	_	_	_	_
 
 #Text=Richard L. Jones , Jr. Airport ( IATA : RVS ) ( often called the " Riverside Airport " ) is south of downtown and is a general aviation airport .
-23-1	1911-1918	Richard	place[100]|place[496]	new[100]|new[496]	appos|coref	23-7[399_100]|23-15[103_496]
-23-2	1919-1921	L.	place[100]|place[496]	new[100]|new[496]	_	_
-23-3	1922-1927	Jones	place[100]|place[496]	new[100]|new[496]	_	_
-23-4	1928-1929	,	place[100]|place[496]	new[100]|new[496]	_	_
-23-5	1930-1933	Jr.	place[100]|place[496]	new[100]|new[496]	_	_
-23-6	1934-1941	Airport	place[100]|place[496]	new[100]|new[496]	_	_
-23-7	1942-1943	(	place[399]|place[496]	giv[399]|new[496]	_	_
-23-8	1944-1948	IATA	place[399]|place[496]	giv[399]|new[496]	_	_
-23-9	1949-1950	:	place[399]|place[496]	giv[399]|new[496]	_	_
-23-10	1951-1954	RVS	place[399]|place[496]	giv[399]|new[496]	_	_
-23-11	1955-1956	)	place[399]|place[496]	giv[399]|new[496]	_	_
+23-1	1911-1918	Richard	place[146]|place[642]	new[146]|new[642]	appos|coref	23-7[548_146]|23-15[149_642]
+23-2	1919-1921	L.	place[146]|place[642]	new[146]|new[642]	_	_
+23-3	1922-1927	Jones	place[146]|place[642]	new[146]|new[642]	_	_
+23-4	1928-1929	,	place[146]|place[642]	new[146]|new[642]	_	_
+23-5	1930-1933	Jr.	place[146]|place[642]	new[146]|new[642]	_	_
+23-6	1934-1941	Airport	place[146]|place[642]	new[146]|new[642]	_	_
+23-7	1942-1943	(	place[548]|place[642]	giv[548]|new[642]	_	_
+23-8	1944-1948	IATA	place[548]|place[642]	giv[548]|new[642]	_	_
+23-9	1949-1950	:	place[548]|place[642]	giv[548]|new[642]	_	_
+23-10	1951-1954	RVS	place[548]|place[642]	giv[548]|new[642]	_	_
+23-11	1955-1956	)	place[548]|place[642]	giv[548]|new[642]	_	_
 23-12	1957-1958	(	_	_	_	_
 23-13	1959-1964	often	_	_	_	_
 23-14	1965-1971	called	_	_	_	_
-23-15	1972-1975	the	place[103]	giv[103]	_	_
-23-16	1976-1977	"	place[103]	giv[103]	_	_
-23-17	1978-1987	Riverside	place[103]	giv[103]	_	_
-23-18	1988-1995	Airport	place[103]	giv[103]	_	_
-23-19	1996-1997	"	place[103]	giv[103]	_	_
+23-15	1972-1975	the	place[149]	giv[149]	_	_
+23-16	1976-1977	"	place[149]	giv[149]	_	_
+23-17	1978-1987	Riverside	place[149]	giv[149]	_	_
+23-18	1988-1995	Airport	place[149]	giv[149]	_	_
+23-19	1996-1997	"	place[149]	giv[149]	_	_
 23-20	1998-1999	)	_	_	_	_
 23-21	2000-2002	is	_	_	_	_
 23-22	2003-2008	south	_	_	_	_
@@ -468,7 +468,7 @@
 25-5	2088-2093	train	_	_	_	_
 25-6	2094-2101	service	_	_	_	_
 25-7	2102-2104	to	_	_	_	_
-25-8	2105-2110	Tulsa	place	giv	coref	45-13[184_0]
+25-8	2105-2110	Tulsa	place[158]	giv[158]	coref	45-13[264_158]
 25-9	2111-2112	.	_	_	_	_
 
 #Text=By car
@@ -502,14 +502,14 @@
 28-2	2235-2238	the	_	_	_	_
 28-3	2239-2244	North	_	_	_	_
 28-4	2245-2246	/	_	_	_	_
-28-5	2247-2253	Kansas	place	new	coref	28-20[124_0]
+28-5	2247-2253	Kansas	place[171]	new[171]	coref	28-20[179_171]
 28-6	2254-2255	-	_	_	_	_
 28-7	2256-2261	US-75	_	_	_	_
 28-8	2262-2267	South	_	_	_	_
 28-9	2268-2272	from	_	_	_	_
 28-10	2273-2285	Bartlesville	_	_	_	_
 28-11	2286-2287	,	_	_	_	_
-28-12	2288-2290	OK	place[121]	giv[121]	coref	30-13[134_121]
+28-12	2288-2290	OK	place[175]	giv[175]	coref	30-13[191_175]
 28-13	2291-2292	,	_	_	_	_
 28-14	2293-2295	or	_	_	_	_
 28-15	2296-2302	US-169	_	_	_	_
@@ -517,13 +517,13 @@
 28-17	2309-2313	from	_	_	_	_
 28-18	2314-2325	Coffeyville	_	_	_	_
 28-19	2326-2327	,	_	_	_	_
-28-20	2328-2330	KS	place[124]	giv[124]	_	_
+28-20	2328-2330	KS	place[179]	giv[179]	_	_
 28-21	2331-2332	.	_	_	_	_
 
 #Text=From the Northeast / Missouri - I-44 West , aka the " Will Rogers Turnpike . "
 29-1	2333-2337	From	_	_	_	_
-29-2	2338-2341	the	place[125]	new[125]	coref	36-7[158_125]
-29-3	2342-2351	Northeast	place[125]	new[125]	_	_
+29-2	2338-2341	the	place[181]	new[181]	coref	36-7[224_181]
+29-3	2342-2351	Northeast	place[181]	new[181]	_	_
 29-4	2352-2353	/	_	_	_	_
 29-5	2354-2362	Missouri	_	_	_	_
 29-6	2363-2364	-	_	_	_	_
@@ -552,7 +552,7 @@
 30-10	2468-2472	near	_	_	_	_
 30-11	2473-2479	Vinita	_	_	_	_
 30-12	2480-2481	,	_	_	_	_
-30-13	2482-2484	OK	place[134]	giv[134]	coref	33-9[146_134]
+30-13	2482-2484	OK	place[191]	giv[191]	coref	33-9[207_191]
 30-14	2485-2486	.	_	_	_	_
 
 #Text=From the East / Arkansas - US-412 West , aka the " Cherokee Turnpike . "
@@ -560,7 +560,7 @@
 31-2	2492-2495	the	_	_	_	_
 31-3	2496-2500	East	_	_	_	_
 31-4	2501-2502	/	_	_	_	_
-31-5	2503-2511	Arkansas	place	new	coref	32-5
+31-5	2503-2511	Arkansas	place[194]	new[194]	coref	32-5[199_194]
 31-6	2512-2513	-	_	_	_	_
 31-7	2514-2520	US-412	_	_	_	_
 31-8	2521-2525	West	_	_	_	_
@@ -578,7 +578,7 @@
 32-2	2565-2568	the	_	_	_	_
 32-3	2569-2578	Southeast	_	_	_	_
 32-4	2579-2580	/	_	_	_	_
-32-5	2581-2589	Arkansas	place	giv	_	_
+32-5	2581-2589	Arkansas	place[199]	giv[199]	_	_
 32-6	2590-2591	-	_	_	_	_
 32-7	2592-2595	The	_	_	_	_
 32-8	2596-2597	"	_	_	_	_
@@ -594,22 +594,22 @@
 33-4	2635-2636	-	_	_	_	_
 33-5	2637-2642	US-75	_	_	_	_
 33-6	2643-2647	from	_	_	_	_
-33-7	2648-2656	Okmulgee	place[145]	new[145]	coref	33-14[148_145]
-33-8	2657-2658	,	place[145]	new[145]	_	_
-33-9	2659-2661	OK	place[145]|place[146]	new[145]|giv[146]	_	_
+33-7	2648-2656	Okmulgee	place[206]	new[206]	coref	33-14[210_206]
+33-8	2657-2658	,	place[206]	new[206]	_	_
+33-9	2659-2661	OK	place[206]|place[207]	new[206]|giv[207]	_	_
 33-10	2662-2663	,	_	_	_	_
 33-11	2664-2667	aka	_	_	_	_
 33-12	2668-2671	the	_	_	_	_
 33-13	2672-2673	"	_	_	_	_
-33-14	2674-2682	Okmulgee	place[148]	giv[148]	_	_
+33-14	2674-2682	Okmulgee	place[210]	giv[210]	_	_
 33-15	2683-2690	Beeline	_	_	_	_
 33-16	2691-2692	.	_	_	_	_
 33-17	2693-2694	"	_	_	_	_
 
 #Text=From the Southwest / Oklahoma City - I-44 East , aka the " Turner Turnpike . "
 34-1	2695-2699	From	_	_	_	_
-34-2	2700-2703	the	place[149]	new[149]	coref	36-9[159_149]
-34-3	2704-2713	Southwest	place[149]	new[149]	_	_
+34-2	2700-2703	the	place[212]	new[212]	coref	36-9[225_212]
+34-3	2704-2713	Southwest	place[212]	new[212]	_	_
 34-4	2714-2715	/	_	_	_	_
 34-5	2716-2724	Oklahoma	_	_	_	_
 34-6	2725-2729	City	_	_	_	_
@@ -648,9 +648,9 @@
 36-4	2849-2855	scenic	_	_	_	_
 36-5	2856-2861	route	_	_	_	_
 36-6	2862-2866	from	_	_	_	_
-36-7	2867-2876	Northeast	place[158]	giv[158]	_	_
+36-7	2867-2876	Northeast	place[224]	giv[224]	_	_
 36-8	2877-2879	or	_	_	_	_
-36-9	2880-2889	Southwest	place[159]	giv[159]	_	_
+36-9	2880-2889	Southwest	place[225]	giv[225]	_	_
 36-10	2890-2894	come	_	_	_	_
 36-11	2895-2897	in	_	_	_	_
 36-12	2898-2900	on	_	_	_	_
@@ -688,16 +688,16 @@
 40-3	3014-3019	urban	_	_	_	_
 40-4	3020-3028	planning	_	_	_	_
 40-5	3029-3030	,	_	_	_	_
-40-6	3031-3034	the	object[166]	new[166]	coref	46-1[197_166]
-40-7	3035-3040	major	object[166]	new[166]	_	_
-40-8	3041-3045	city	object[166]	new[166]	_	_
-40-9	3046-3053	streets	object[166]	new[166]	_	_
+40-6	3031-3034	the	object[238]	new[238]	coref	46-1[281_238]
+40-7	3035-3040	major	object[238]	new[238]	_	_
+40-8	3041-3045	city	object[238]	new[238]	_	_
+40-9	3046-3053	streets	object[238]	new[238]	_	_
 40-10	3054-3057	are	_	_	_	_
 40-11	3058-3064	placed	_	_	_	_
 40-12	3065-3067	in	_	_	_	_
-40-13	3068-3069	a	abstract[167]	new[167]	coref	43-20[179_167]
-40-14	3070-3074	grid	abstract[167]	new[167]	_	_
-40-15	3075-3081	layout	abstract[167]	new[167]	_	_
+40-13	3068-3069	a	abstract[239]	new[239]	coref	43-20[256_239]
+40-14	3070-3074	grid	abstract[239]	new[239]	_	_
+40-15	3075-3081	layout	abstract[239]	new[239]	_	_
 40-16	3082-3083	.	_	_	_	_
 
 #Text=Almost all major intersections are one mile from each other , and exactly in a straight line .
@@ -726,9 +726,9 @@
 42-3	3190-3192	it	_	_	_	_
 42-4	3193-3197	much	_	_	_	_
 42-5	3198-3204	easier	_	_	_	_
-42-6	3205-3207	to	_	_	_	_
-42-7	3208-3212	find	_	_	_	_
-42-8	3213-3219	places	_	_	_	_
+42-6	3205-3207	to	event[246]	new[246]	cata	42-3[244_246]
+42-7	3208-3212	find	event[246]	new[246]	_	_
+42-8	3213-3219	places	event[246]	new[246]	_	_
 42-9	3220-3224	than	_	_	_	_
 42-10	3225-3227	in	_	_	_	_
 42-11	3228-3234	cities	_	_	_	_
@@ -760,8 +760,8 @@
 43-17	3352-3355	the	_	_	_	_
 43-18	3356-3360	rest	_	_	_	_
 43-19	3361-3363	of	_	_	_	_
-43-20	3364-3367	the	abstract[179]	giv[179]	_	_
-43-21	3368-3372	grid	abstract[179]	giv[179]	_	_
+43-20	3364-3367	the	abstract[256]	giv[256]	_	_
+43-21	3368-3372	grid	abstract[256]	giv[256]	_	_
 43-22	3373-3374	.	_	_	_	_
 
 #Text=By car
@@ -780,45 +780,45 @@
 45-9	3427-3433	easily	_	_	_	_
 45-10	3434-3437	get	_	_	_	_
 45-11	3438-3444	around	_	_	_	_
-45-12	3445-3448	the	place[183]	giv[183]	coref	62-7[273_183]
-45-13	3449-3454	Tulsa	place[183]|place[184]	giv[183]|giv[184]	coref	47-5[204_184]
-45-14	3455-3460	Metro	place[183]	giv[183]	_	_
-45-15	3461-3465	area	place[183]	giv[183]	_	_
+45-12	3445-3448	the	place[263]	giv[263]	coref	62-7[397_263]
+45-13	3449-3454	Tulsa	place[263]|place[264]	giv[263]|giv[264]	coref	47-5[288_264]
+45-14	3455-3460	Metro	place[263]	giv[263]	_	_
+45-15	3461-3465	area	place[263]	giv[263]	_	_
 45-16	3466-3467	:	_	_	_	_
 45-17	3468-3473	I-244	_	_	_	_
 45-18	3474-3475	,	_	_	_	_
 45-19	3476-3480	I-44	_	_	_	_
 45-20	3481-3482	,	_	_	_	_
-45-21	3483-3485	US	object[187]	new[187]	appos	45-23[430_187]
-45-22	3486-3489	169	object[187]	new[187]	_	_
-45-23	3490-3491	(	object[430]	giv[430]	_	_
-45-24	3492-3497	Mingo	object[430]	giv[430]	_	_
-45-25	3498-3504	Valley	object[430]	giv[430]	_	_
-45-26	3505-3515	Expressway	object[430]	giv[430]	_	_
-45-27	3516-3517	,	object[430]	giv[430]	_	_
-45-28	3518-3521	aka	object[430]	giv[430]	_	_
-45-29	3522-3523	"	object[430]	giv[430]	_	_
-45-30	3524-3529	Pearl	object[430]	giv[430]	_	_
-45-31	3530-3536	Harbor	object[430]	giv[430]	_	_
-45-32	3537-3545	Memorial	object[430]	giv[430]	_	_
-45-33	3546-3556	Expressway	object[430]	giv[430]	_	_
-45-34	3557-3558	"	object[430]	giv[430]	_	_
-45-35	3559-3560	)	object[430]	giv[430]	_	_
+45-21	3483-3485	US	place[270]	new[270]	appos	45-23[579_270]
+45-22	3486-3489	169	place[270]	new[270]	_	_
+45-23	3490-3491	(	place[579]	giv[579]	_	_
+45-24	3492-3497	Mingo	place[579]	giv[579]	_	_
+45-25	3498-3504	Valley	place[579]	giv[579]	_	_
+45-26	3505-3515	Expressway	place[579]	giv[579]	_	_
+45-27	3516-3517	,	place[579]	giv[579]	_	_
+45-28	3518-3521	aka	place[579]	giv[579]	_	_
+45-29	3522-3523	"	place[579]	giv[579]	_	_
+45-30	3524-3529	Pearl	place[579]	giv[579]	_	_
+45-31	3530-3536	Harbor	place[579]	giv[579]	_	_
+45-32	3537-3545	Memorial	place[579]	giv[579]	_	_
+45-33	3546-3556	Expressway	place[579]	giv[579]	_	_
+45-34	3557-3558	"	place[579]	giv[579]	_	_
+45-35	3559-3560	)	place[579]	giv[579]	_	_
 45-36	3561-3562	,	_	_	_	_
 45-37	3563-3565	US	_	_	_	_
 45-38	3566-3568	75	_	_	_	_
 45-39	3569-3570	,	_	_	_	_
-45-40	3571-3574	Hwy	object[192]	new[192]	appos	45-42[461_192]
-45-41	3575-3577	51	object[192]	new[192]	_	_
-45-42	3578-3579	(	object[461]	giv[461]	_	_
-45-43	3580-3586	Broken	place[194]|object[461]	giv[194]|giv[461]	coref	65-14[286_194]
-45-44	3587-3592	Arrow	place[194]|object[461]	giv[194]|giv[461]	_	_
-45-45	3593-3603	Expressway	object[461]	giv[461]	_	_
-45-46	3604-3605	,	_	_	_	_
-45-47	3606-3609	The	_	_	_	_
-45-48	3610-3611	"	_	_	_	_
-45-49	3612-3616	B.A.	_	_	_	_
-45-50	3617-3618	"	_	_	_	_
+45-40	3571-3574	Hwy	place[276]|place[645]	new[276]|new[645]	appos|coref	45-42[646_276]|45-47[279_645]
+45-41	3575-3577	51	place[276]|place[645]	new[276]|new[645]	_	_
+45-42	3578-3579	(	place[645]|place[646]	new[645]|giv[646]	_	_
+45-43	3580-3586	Broken	place[278]|place[645]|place[646]	new[278]|new[645]|giv[646]	coref	65-14[417_278]
+45-44	3587-3592	Arrow	place[278]|place[645]|place[646]	new[278]|new[645]|giv[646]	_	_
+45-45	3593-3603	Expressway	place[645]|place[646]	new[645]|giv[646]	_	_
+45-46	3604-3605	,	place[646]	giv[646]	_	_
+45-47	3606-3609	The	place[279]|place[646]	giv[279]|giv[646]	_	_
+45-48	3610-3611	"	place[279]|place[646]	giv[279]|giv[646]	_	_
+45-49	3612-3616	B.A.	place[279]|place[646]	giv[279]|giv[646]	_	_
+45-50	3617-3618	"	place[279]|place[646]	giv[279]|giv[646]	_	_
 45-51	3619-3620	)	_	_	_	_
 45-52	3621-3622	,	_	_	_	_
 45-53	3623-3628	Creek	_	_	_	_
@@ -826,10 +826,10 @@
 45-55	3638-3639	.	_	_	_	_
 
 #Text=The streets and avenues are planned on a 1 mile by 1 mile grid system , with the main arterials running on each mile .
-46-1	3640-3643	The	object[197]	giv[197]	_	_
-46-2	3644-3651	streets	object[197]	giv[197]	_	_
-46-3	3652-3655	and	object[197]	giv[197]	_	_
-46-4	3656-3663	avenues	object[197]	giv[197]	_	_
+46-1	3640-3643	The	object[281]	giv[281]	_	_
+46-2	3644-3651	streets	object[281]	giv[281]	_	_
+46-3	3652-3655	and	object[281]	giv[281]	_	_
+46-4	3656-3663	avenues	object[281]	giv[281]	_	_
 46-5	3664-3667	are	_	_	_	_
 46-6	3668-3675	planned	_	_	_	_
 46-7	3676-3678	on	_	_	_	_
@@ -857,8 +857,8 @@
 47-2	3762-3765	the	_	_	_	_
 47-3	3766-3770	core	_	_	_	_
 47-4	3771-3773	of	_	_	_	_
-47-5	3774-3777	the	place[204]	giv[204]	coref	51-5[227_204]
-47-6	3778-3782	city	place[204]	giv[204]	_	_
+47-5	3774-3777	the	place[288]	giv[288]	coref	51-5[330_288]
+47-6	3778-3782	city	place[288]	giv[288]	_	_
 47-7	3783-3784	,	_	_	_	_
 47-8	3785-3790	named	_	_	_	_
 47-9	3791-3798	avenues	_	_	_	_
@@ -870,7 +870,7 @@
 47-15	3821-3824	are	_	_	_	_
 47-16	3825-3830	named	_	_	_	_
 47-17	3831-3836	after	_	_	_	_
-47-18	3837-3839	US	place[207]	giv[207]	_	_
+47-18	3837-3839	US	place[295]	giv[295]	_	_
 47-19	3840-3846	cities	_	_	_	_
 47-20	3847-3848	,	_	_	_	_
 47-21	3849-3858	generally	_	_	_	_
@@ -924,7 +924,7 @@
 50-2	4070-4077	streets	_	_	_	_
 50-3	4078-4082	East	_	_	_	_
 50-4	4083-4085	of	_	_	_	_
-50-5	4086-4090	Main	object[220]	new[220]	coref	50-21[225_220]
+50-5	4086-4090	Main	place[321]	new[321]	coref	50-21[327_321]
 50-6	4091-4094	are	_	_	_	_
 50-7	4095-4101	cities	_	_	_	_
 50-8	4102-4106	east	_	_	_	_
@@ -940,7 +940,7 @@
 50-18	4154-4161	streets	_	_	_	_
 50-19	4162-4166	west	_	_	_	_
 50-20	4167-4169	of	_	_	_	_
-50-21	4170-4174	Main	object[225]	giv[225]	coref	53-8[234_225]
+50-21	4170-4174	Main	place[327]	giv[327]	coref	53-8[345_327]
 50-22	4175-4176	.	_	_	_	_
 
 #Text=In the parts of the city farther from downtown , north-south streets are numbered .
@@ -948,8 +948,8 @@
 51-2	4180-4183	the	_	_	_	_
 51-3	4184-4189	parts	_	_	_	_
 51-4	4190-4192	of	_	_	_	_
-51-5	4193-4196	the	place[227]	giv[227]	coref	56-5[246_227]
-51-6	4197-4201	city	place[227]	giv[227]	_	_
+51-5	4193-4196	the	place[330]	giv[330]	coref	56-5[360_330]
+51-6	4197-4201	city	place[330]	giv[330]	_	_
 51-7	4202-4209	farther	_	_	_	_
 51-8	4210-4214	from	_	_	_	_
 51-9	4215-4223	downtown	_	_	_	_
@@ -966,25 +966,25 @@
 52-3	4267-4276	important	_	_	_	_
 52-4	4277-4279	to	_	_	_	_
 52-5	4280-4289	recognize	_	_	_	_
-52-6	4290-4294	that	_	_	_	_
-52-7	4295-4298	the	abstract[230]	new[230]	coref	52-17[232_230]
-52-8	4299-4307	specific	abstract[230]	new[230]	_	_
-52-9	4308-4314	format	abstract[230]	new[230]	_	_
-52-10	4315-4317	of	abstract[230]	new[230]	_	_
-52-11	4318-4321	the	abstract[230]	new[230]	_	_
-52-12	4322-4333	north-south	abstract[230]	new[230]	_	_
-52-13	4334-4342	numbered	abstract[230]	new[230]	_	_
-52-14	4343-4349	street	abstract[230]	new[230]	_	_
-52-15	4350-4355	names	abstract[230]	new[230]	_	_
-52-16	4356-4358	is	_	_	_	_
-52-17	4359-4364	North	abstract[232]	new[232]	_	_
-52-18	4365-4366	/	abstract[232]	new[232]	_	_
-52-19	4367-4372	South	abstract[232]	new[232]	_	_
-52-20	4373-4378	145th	abstract[232]	new[232]	_	_
-52-21	4379-4383	East	abstract[232]	new[232]	_	_
-52-22	4384-4385	/	abstract[232]	new[232]	_	_
-52-23	4386-4390	West	abstract[232]	new[232]	_	_
-52-24	4391-4397	Avenue	abstract[232]	new[232]	_	_
+52-6	4290-4294	that	abstract[336]	new[336]	cata	52-1[334_336]
+52-7	4295-4298	the	abstract[336]|abstract[337]	new[336]|new[337]	coref	52-17[339_337]
+52-8	4299-4307	specific	abstract[336]|abstract[337]	new[336]|new[337]	_	_
+52-9	4308-4314	format	abstract[336]|abstract[337]	new[336]|new[337]	_	_
+52-10	4315-4317	of	abstract[336]|abstract[337]	new[336]|new[337]	_	_
+52-11	4318-4321	the	abstract[336]|abstract[337]	new[336]|new[337]	_	_
+52-12	4322-4333	north-south	abstract[336]|abstract[337]	new[336]|new[337]	_	_
+52-13	4334-4342	numbered	abstract[336]|abstract[337]	new[336]|new[337]	_	_
+52-14	4343-4349	street	abstract[336]|abstract[337]	new[336]|new[337]	_	_
+52-15	4350-4355	names	abstract[336]|abstract[337]	new[336]|new[337]	_	_
+52-16	4356-4358	is	abstract[336]	new[336]	_	_
+52-17	4359-4364	North	abstract[336]|abstract[339]	new[336]|giv[339]	_	_
+52-18	4365-4366	/	abstract[336]|abstract[339]	new[336]|giv[339]	_	_
+52-19	4367-4372	South	abstract[336]|abstract[339]	new[336]|giv[339]	_	_
+52-20	4373-4378	145th	abstract[336]|abstract[339]	new[336]|giv[339]	_	_
+52-21	4379-4383	East	abstract[336]|abstract[339]	new[336]|giv[339]	_	_
+52-22	4384-4385	/	abstract[336]|abstract[339]	new[336]|giv[339]	_	_
+52-23	4386-4390	West	abstract[336]|abstract[339]	new[336]|giv[339]	_	_
+52-24	4391-4397	Avenue	abstract[336]|abstract[339]	new[336]|giv[339]	_	_
 52-25	4398-4399	.	_	_	_	_
 
 #Text=Numbered streets run East / West with Main Street and the Arkansas River as the dividing line .
@@ -995,12 +995,12 @@
 53-5	4426-4427	/	_	_	_	_
 53-6	4428-4432	West	_	_	_	_
 53-7	4433-4437	with	_	_	_	_
-53-8	4438-4442	Main	object[234]	giv[234]	_	_
-53-9	4443-4449	Street	object[234]	giv[234]	_	_
+53-8	4438-4442	Main	object[345]	giv[345]	_	_
+53-9	4443-4449	Street	object[345]	giv[345]	_	_
 53-10	4450-4453	and	_	_	_	_
-53-11	4454-4457	the	_	_	_	_
-53-12	4458-4466	Arkansas	object[235]	new[235]	coref	70-3[302_235]
-53-13	4467-4472	River	object[235]	new[235]	_	_
+53-11	4454-4457	the	place[346]	new[346]	coref	70-3[440_346]
+53-12	4458-4466	Arkansas	place[346]	new[346]	_	_
+53-13	4467-4472	River	place[346]	new[346]	_	_
 53-14	4473-4475	as	_	_	_	_
 53-15	4476-4479	the	_	_	_	_
 53-16	4480-4488	dividing	_	_	_	_
@@ -1037,27 +1037,27 @@
 55-1	4618-4620	It	_	_	_	_
 55-2	4621-4623	is	_	_	_	_
 55-3	4624-4633	important	_	_	_	_
-55-4	4634-4636	to	_	_	_	_
-55-5	4637-4646	recognize	_	_	_	_
-55-6	4647-4651	that	_	_	_	_
-55-7	4652-4655	the	_	_	_	_
-55-8	4656-4664	specific	_	_	_	_
-55-9	4665-4671	format	_	_	_	_
-55-10	4672-4674	of	_	_	_	_
-55-11	4675-4678	the	_	_	_	_
-55-12	4679-4688	east-west	_	_	_	_
-55-13	4689-4697	numbered	_	_	_	_
-55-14	4698-4704	street	_	_	_	_
-55-15	4705-4710	names	_	_	_	_
-55-16	4711-4713	is	_	_	_	_
-55-17	4714-4718	West	_	_	_	_
-55-18	4719-4720	/	_	_	_	_
-55-19	4721-4725	East	_	_	_	_
-55-20	4726-4730	71st	_	_	_	_
-55-21	4731-4737	Street	_	_	_	_
-55-22	4738-4743	North	_	_	_	_
-55-23	4744-4745	/	_	_	_	_
-55-24	4746-4751	South	_	_	_	_
+55-4	4634-4636	to	abstract[355]	new[355]	cata	55-1[353_355]
+55-5	4637-4646	recognize	abstract[355]	new[355]	_	_
+55-6	4647-4651	that	abstract[355]	new[355]	_	_
+55-7	4652-4655	the	abstract[355]	new[355]	_	_
+55-8	4656-4664	specific	abstract[355]	new[355]	_	_
+55-9	4665-4671	format	abstract[355]	new[355]	_	_
+55-10	4672-4674	of	abstract[355]	new[355]	_	_
+55-11	4675-4678	the	abstract[355]	new[355]	_	_
+55-12	4679-4688	east-west	abstract[355]	new[355]	_	_
+55-13	4689-4697	numbered	abstract[355]	new[355]	_	_
+55-14	4698-4704	street	abstract[355]	new[355]	_	_
+55-15	4705-4710	names	abstract[355]	new[355]	_	_
+55-16	4711-4713	is	abstract[355]	new[355]	_	_
+55-17	4714-4718	West	abstract[355]	new[355]	_	_
+55-18	4719-4720	/	abstract[355]	new[355]	_	_
+55-19	4721-4725	East	abstract[355]	new[355]	_	_
+55-20	4726-4730	71st	abstract[355]	new[355]	_	_
+55-21	4731-4737	Street	abstract[355]	new[355]	_	_
+55-22	4738-4743	North	abstract[355]	new[355]	_	_
+55-23	4744-4745	/	abstract[355]	new[355]	_	_
+55-24	4746-4751	South	abstract[355]	new[355]	_	_
 55-25	4752-4753	.	_	_	_	_
 
 #Text=In some parts of the city , numbered streets intersect , so the distinction is important .
@@ -1065,8 +1065,8 @@
 56-2	4757-4761	some	_	_	_	_
 56-3	4762-4767	parts	_	_	_	_
 56-4	4768-4770	of	_	_	_	_
-56-5	4771-4774	the	place[246]	giv[246]	_	_
-56-6	4775-4779	city	place[246]	giv[246]	_	_
+56-5	4771-4774	the	place[360]	giv[360]	coref	59-2[371_360]
+56-6	4775-4779	city	place[360]	giv[360]	_	_
 56-7	4780-4781	,	_	_	_	_
 56-8	4782-4790	numbered	_	_	_	_
 56-9	4791-4798	streets	_	_	_	_
@@ -1117,15 +1117,15 @@
 
 #Text=When Tulsa expanded beyond the bounds of its original plat , the expanded areas were platted in alignment with the points of the compass .
 59-1	5047-5051	When	_	_	_	_
-59-2	5052-5057	Tulsa	place	giv	ana	59-8[259_0]
+59-2	5052-5057	Tulsa	place[371]	giv[371]	ana	59-8[376_371]
 59-3	5058-5066	expanded	_	_	_	_
 59-4	5067-5073	beyond	_	_	_	_
 59-5	5074-5077	the	_	_	_	_
 59-6	5078-5084	bounds	_	_	_	_
 59-7	5085-5087	of	_	_	_	_
-59-8	5088-5091	its	abstract[258]|place[259]	new[258]|giv[259]	coref|coref	60-9[265_258]|60-13[266_259]
-59-9	5092-5100	original	abstract[258]	new[258]	_	_
-59-10	5101-5105	plat	abstract[258]	new[258]	_	_
+59-8	5088-5091	its	place[375]|place[376]	new[375]|giv[376]	coref|coref	60-9[384_375]|60-13[385_376]
+59-9	5092-5100	original	place[375]	new[375]	_	_
+59-10	5101-5105	plat	place[375]	new[375]	_	_
 59-11	5106-5107	,	_	_	_	_
 59-12	5108-5111	the	_	_	_	_
 59-13	5112-5120	expanded	_	_	_	_
@@ -1149,32 +1149,32 @@
 60-4	5197-5204	twisted	_	_	_	_
 60-5	5205-5206	"	_	_	_	_
 60-6	5207-5211	area	_	_	_	_
-60-7	5212-5221	down-town	place[264]	giv[264]	coref	70-7[303_264]
+60-7	5212-5221	down-town	_	_	_	_
 60-8	5222-5232	represents	_	_	_	_
-60-9	5233-5236	the	abstract[265]	giv[265]	_	_
-60-10	5237-5245	original	abstract[265]	giv[265]	_	_
-60-11	5246-5252	extent	abstract[265]	giv[265]	_	_
-60-12	5253-5255	of	abstract[265]	giv[265]	_	_
-60-13	5256-5261	Tulsa	abstract[265]|place[266]	giv[265]|giv[266]	coref	62-1[270_266]
-60-14	5262-5264	ca	abstract[265]	giv[265]	_	_
-60-15	5265-5269	1907	abstract[265]	giv[265]	_	_
+60-9	5233-5236	the	place[384]	giv[384]	_	_
+60-10	5237-5245	original	place[384]	giv[384]	_	_
+60-11	5246-5252	extent	place[384]	giv[384]	_	_
+60-12	5253-5255	of	place[384]	giv[384]	_	_
+60-13	5256-5261	Tulsa	place[384]|place[385]	giv[384]|giv[385]	coref	62-1[392_385]
+60-14	5262-5264	ca	place[384]	giv[384]	_	_
+60-15	5265-5269	1907	place[384]	giv[384]	_	_
 60-16	5270-5271	.	_	_	_	_
 
 #Text=By bus
 61-1	5272-5274	By	_	_	_	_
-61-2	5275-5278	bus	object	new	ana	65-1
+61-2	5275-5278	bus	_	_	_	_
 
 #Text=Tulsa Transit provides bus service for the Tulsa Metro area .
-62-1	5279-5284	Tulsa	place[270]	giv[270]	coref	62-8[274_270]
+62-1	5279-5284	Tulsa	place[392]	giv[392]	coref	62-8[398_392]
 62-2	5285-5292	Transit	_	_	_	_
 62-3	5293-5301	provides	_	_	_	_
 62-4	5302-5305	bus	_	_	_	_
 62-5	5306-5313	service	_	_	_	_
 62-6	5314-5317	for	_	_	_	_
-62-7	5318-5321	the	place[273]	giv[273]	_	_
-62-8	5322-5327	Tulsa	place[273]|place[274]	giv[273]|giv[274]	coref	66-19[291_274]
-62-9	5328-5333	Metro	place[273]	giv[273]	_	_
-62-10	5334-5338	area	place[273]	giv[273]	_	_
+62-7	5318-5321	the	place[397]	giv[397]	_	_
+62-8	5322-5327	Tulsa	place[397]|place[398]	giv[397]|giv[398]	coref	66-19[422_398]
+62-9	5328-5333	Metro	place[397]	giv[397]	_	_
+62-10	5334-5338	area	place[397]	giv[397]	_	_
 62-11	5339-5340	.	_	_	_	_
 
 #Text=Cities served are Tulsa , Sand Springs , Sapulpa , Jenks , and Broken Arrow .
@@ -1183,8 +1183,8 @@
 63-3	5355-5358	are	_	_	_	_
 63-4	5359-5364	Tulsa	_	_	_	_
 63-5	5365-5366	,	_	_	_	_
-63-6	5367-5371	Sand	place[277]	new[277]	coref	71-7[306_277]
-63-7	5372-5379	Springs	place[277]	new[277]	_	_
+63-6	5367-5371	Sand	place[404]	new[404]	coref	71-7[444_404]
+63-7	5372-5379	Springs	place[404]	new[404]	_	_
 63-8	5380-5381	,	_	_	_	_
 63-9	5382-5389	Sapulpa	_	_	_	_
 63-10	5390-5391	,	_	_	_	_
@@ -1210,7 +1210,7 @@
 64-12	5472-5473	.	_	_	_	_
 
 #Text=They do not run that often , especially to the outer towns like Broken Arrow .
-65-1	5474-5478	They	object	giv	coref	66-8[289_0]
+65-1	5474-5478	They	object[413]	giv[413]	coref	66-8[420_413]
 65-2	5479-5481	do	_	_	_	_
 65-3	5482-5485	not	_	_	_	_
 65-4	5486-5489	run	_	_	_	_
@@ -1223,8 +1223,8 @@
 65-11	5521-5526	outer	_	_	_	_
 65-12	5527-5532	towns	_	_	_	_
 65-13	5533-5537	like	_	_	_	_
-65-14	5538-5544	Broken	place[286]	giv[286]	coref	73-10[315_286]
-65-15	5545-5550	Arrow	place[286]	giv[286]	_	_
+65-14	5538-5544	Broken	place[417]	giv[417]	coref	73-10[456_417]
+65-15	5545-5550	Arrow	place[417]	giv[417]	_	_
 65-16	5551-5552	.	_	_	_	_
 
 #Text=Unlike major cities in the Northeast , the city bus is not a major form of transportation in the city .
@@ -1235,9 +1235,9 @@
 66-5	5576-5579	the	_	_	_	_
 66-6	5580-5589	Northeast	_	_	_	_
 66-7	5590-5591	,	_	_	_	_
-66-8	5592-5595	the	object[289]	giv[289]	ana	67-1[0_289]
-66-9	5596-5600	city	object[289]	giv[289]	_	_
-66-10	5601-5604	bus	object[289]	giv[289]	_	_
+66-8	5592-5595	the	object[420]	giv[420]	ana	67-1[423_420]
+66-9	5596-5600	city	object[420]	giv[420]	_	_
+66-10	5601-5604	bus	object[420]	giv[420]	_	_
 66-11	5605-5607	is	_	_	_	_
 66-12	5608-5611	not	_	_	_	_
 66-13	5612-5613	a	_	_	_	_
@@ -1246,12 +1246,12 @@
 66-16	5625-5627	of	_	_	_	_
 66-17	5628-5642	transportation	_	_	_	_
 66-18	5643-5645	in	_	_	_	_
-66-19	5646-5649	the	place[291]	giv[291]	_	_
-66-20	5650-5654	city	place[291]	giv[291]	_	_
+66-19	5646-5649	the	place[422]	giv[422]	coref	69-1[430_422]
+66-20	5650-5654	city	place[422]	giv[422]	_	_
 66-21	5655-5656	.	_	_	_	_
 
 #Text=It is usually a means of travel for those who are without their own motor vehicle .
-67-1	5657-5659	It	object	giv	_	_
+67-1	5657-5659	It	object[423]	giv[423]	_	_
 67-2	5660-5662	is	_	_	_	_
 67-3	5663-5670	usually	_	_	_	_
 67-4	5671-5672	a	_	_	_	_
@@ -1274,7 +1274,7 @@
 68-2	5744-5751	bicycle	_	_	_	_
 
 #Text=Tulsa has an extensive interconnected paved bike trail system .
-69-1	5752-5757	Tulsa	place	giv	coref	78-1
+69-1	5752-5757	Tulsa	place[430]	giv[430]	coref	78-1[486_430]
 69-2	5758-5761	has	_	_	_	_
 69-3	5762-5764	an	_	_	_	_
 69-4	5765-5774	extensive	_	_	_	_
@@ -1286,14 +1286,14 @@
 69-10	5814-5815	.	_	_	_	_
 
 #Text=Rivertrail follows the Arkansas River from downtown Tulsa south to the suburbs .
-70-1	5816-5826	Rivertrail	object	new	coref	73-5
+70-1	5816-5826	Rivertrail	place[437]	new[437]	coref	73-5[454_437]
 70-2	5827-5834	follows	_	_	_	_
-70-3	5835-5838	the	object[302]	giv[302]	_	_
-70-4	5839-5847	Arkansas	object[302]	giv[302]	_	_
-70-5	5848-5853	River	object[302]	giv[302]	_	_
+70-3	5835-5838	the	place[440]	giv[440]	_	_
+70-4	5839-5847	Arkansas	place[440]	giv[440]	_	_
+70-5	5848-5853	River	place[440]	giv[440]	_	_
 70-6	5854-5858	from	_	_	_	_
-70-7	5859-5867	downtown	place[303]	giv[303]	_	_
-70-8	5868-5873	Tulsa	place[303]	giv[303]	_	_
+70-7	5859-5867	downtown	_	_	_	_
+70-8	5868-5873	Tulsa	_	_	_	_
 70-9	5874-5879	south	_	_	_	_
 70-10	5880-5882	to	_	_	_	_
 70-11	5883-5886	the	_	_	_	_
@@ -1307,8 +1307,8 @@
 71-4	5912-5916	runs	_	_	_	_
 71-5	5917-5921	west	_	_	_	_
 71-6	5922-5924	to	_	_	_	_
-71-7	5925-5929	Sand	place[306]	giv[306]	_	_
-71-8	5930-5937	Springs	place[306]	giv[306]	_	_
+71-7	5925-5929	Sand	place[444]	giv[444]	_	_
+71-8	5930-5937	Springs	place[444]	giv[444]	_	_
 71-9	5938-5939	.	_	_	_	_
 
 #Text=The Osage Trail is a rails-to-trails route that begins at the OSU-Tulsa campus and travels north 15 miles to Skiatook .
@@ -1335,17 +1335,17 @@
 72-21	6058-6059	.	_	_	_	_
 
 #Text=The Creek Trail connects Rivertrail and continues east through Broken Arrow to the NSU-Broken Arrow campus .
-73-1	6060-6063	The	object[313]	new[313]	coref	75-10[326_313]
-73-2	6064-6069	Creek	object[313]	new[313]	_	_
-73-3	6070-6075	Trail	object[313]	new[313]	_	_
+73-1	6060-6063	The	object[453]	new[453]	coref	75-10[469_453]
+73-2	6064-6069	Creek	object[453]	new[453]	_	_
+73-3	6070-6075	Trail	object[453]	new[453]	_	_
 73-4	6076-6084	connects	_	_	_	_
-73-5	6085-6095	Rivertrail	object	giv	coref	76-1
+73-5	6085-6095	Rivertrail	place[454]	giv[454]	coref	76-1[472_454]
 73-6	6096-6099	and	_	_	_	_
 73-7	6100-6109	continues	_	_	_	_
 73-8	6110-6114	east	_	_	_	_
 73-9	6115-6122	through	_	_	_	_
-73-10	6123-6129	Broken	place[315]	giv[315]	_	_
-73-11	6130-6135	Arrow	place[315]	giv[315]	_	_
+73-10	6123-6129	Broken	place[456]	giv[456]	_	_
+73-11	6130-6135	Arrow	place[456]	giv[456]	_	_
 73-12	6136-6138	to	_	_	_	_
 73-13	6139-6142	the	_	_	_	_
 73-14	6143-6153	NSU-Broken	_	_	_	_
@@ -1354,11 +1354,11 @@
 73-17	6167-6168	.	_	_	_	_
 
 #Text=Riders accustomed to flat terrain may find Tulsa 's rolling land to be a bit more challenging , particularly during the heat of summer .
-74-1	6169-6175	Riders	person[318]	new[318]	coref	76-8[331_318]
-74-2	6176-6186	accustomed	person[318]	new[318]	_	_
-74-3	6187-6189	to	person[318]	new[318]	_	_
-74-4	6190-6194	flat	person[318]	new[318]	_	_
-74-5	6195-6202	terrain	person[318]	new[318]	_	_
+74-1	6169-6175	Riders	person[459]	new[459]	coref	76-8[475_459]
+74-2	6176-6186	accustomed	person[459]	new[459]	_	_
+74-3	6187-6189	to	person[459]	new[459]	_	_
+74-4	6190-6194	flat	person[459]	new[459]	_	_
+74-5	6195-6202	terrain	person[459]	new[459]	_	_
 74-6	6203-6206	may	_	_	_	_
 74-7	6207-6211	find	_	_	_	_
 74-8	6212-6217	Tulsa	_	_	_	_
@@ -1382,7 +1382,7 @@
 
 #Text=If you are looking for a good workout , the Creek Turnpike Trail follows the land 's original contours .
 75-1	6306-6308	If	_	_	_	_
-75-2	6309-6312	you	_	_	_	_
+75-2	6309-6312	you	person[465]	giv[465]	_	_
 75-3	6313-6316	are	_	_	_	_
 75-4	6317-6324	looking	_	_	_	_
 75-5	6325-6328	for	_	_	_	_
@@ -1390,10 +1390,10 @@
 75-7	6331-6335	good	_	_	_	_
 75-8	6336-6343	workout	_	_	_	_
 75-9	6344-6345	,	_	_	_	_
-75-10	6346-6349	the	object[326]	giv[326]	_	_
-75-11	6350-6355	Creek	object[326]	giv[326]	_	_
-75-12	6356-6364	Turnpike	object[326]	giv[326]	_	_
-75-13	6365-6370	Trail	object[326]	giv[326]	_	_
+75-10	6346-6349	the	object[469]	giv[469]	_	_
+75-11	6350-6355	Creek	object[469]	giv[469]	_	_
+75-12	6356-6364	Turnpike	object[469]	giv[469]	_	_
+75-13	6365-6370	Trail	object[469]	giv[469]	_	_
 75-14	6371-6378	follows	_	_	_	_
 75-15	6379-6382	the	_	_	_	_
 75-16	6383-6387	land	_	_	_	_
@@ -1403,19 +1403,19 @@
 75-20	6409-6410	.	_	_	_	_
 
 #Text=Rivertrail is probably be best choice for the rider seeking an easy route .
-76-1	6411-6421	Rivertrail	object	giv	coref	77-8
+76-1	6411-6421	Rivertrail	place[472]	giv[472]	coref	77-8[479_472]
 76-2	6422-6424	is	_	_	_	_
 76-3	6425-6433	probably	_	_	_	_
 76-4	6434-6436	be	_	_	_	_
 76-5	6437-6441	best	_	_	_	_
 76-6	6442-6448	choice	_	_	_	_
 76-7	6449-6452	for	_	_	_	_
-76-8	6453-6456	the	person[331]	giv[331]	_	_
-76-9	6457-6462	rider	person[331]	giv[331]	_	_
-76-10	6463-6470	seeking	person[331]	giv[331]	_	_
-76-11	6471-6473	an	person[331]	giv[331]	_	_
-76-12	6474-6478	easy	person[331]	giv[331]	_	_
-76-13	6479-6484	route	person[331]	giv[331]	_	_
+76-8	6453-6456	the	person[475]	giv[475]	_	_
+76-9	6457-6462	rider	person[475]	giv[475]	_	_
+76-10	6463-6470	seeking	person[475]	giv[475]	_	_
+76-11	6471-6473	an	person[475]	giv[475]	_	_
+76-12	6474-6478	easy	person[475]	giv[475]	_	_
+76-13	6479-6484	route	person[475]	giv[475]	_	_
 76-14	6485-6486	.	_	_	_	_
 
 #Text=Four bike loan depots , located along Rivertrail , allow riders to borrow a bike for free for up to twenty-four hours .
@@ -1426,7 +1426,7 @@
 77-5	6509-6510	,	_	_	_	_
 77-6	6511-6518	located	_	_	_	_
 77-7	6519-6524	along	_	_	_	_
-77-8	6525-6535	Rivertrail	object	giv	_	_
+77-8	6525-6535	Rivertrail	place[479]	giv[479]	_	_
 77-9	6536-6537	,	_	_	_	_
 77-10	6538-6543	allow	_	_	_	_
 77-11	6544-6550	riders	_	_	_	_
@@ -1444,7 +1444,7 @@
 77-23	6605-6606	.	_	_	_	_
 
 #Text=Tulsa has an active bicycling community .
-78-1	6607-6612	Tulsa	place	giv	_	_
+78-1	6607-6612	Tulsa	place[486]	giv[486]	_	_
 78-2	6613-6616	has	_	_	_	_
 78-3	6617-6619	an	_	_	_	_
 78-4	6620-6626	active	_	_	_	_

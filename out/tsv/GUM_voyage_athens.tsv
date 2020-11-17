@@ -1,10 +1,10 @@
-#FORMAT=WebAnno TSV 3
+#FORMAT=WebAnno TSV 3.2
 #T_SP=webanno.custom.Referent|entity|infstat
 #T_RL=webanno.custom.Coref|type|BT_webanno.custom.Referent
 
 
 #Text=Athens ( Greek : Αθήνα , Athína ) , is the capital city of Greece with a metropolitan population of 3.7 million inhabitants .
-1-1	0-6	Athens	place	new	ana	2-1
+1-1	0-6	Athens	place[1]	new[1]	ana	2-1[13_1]
 1-2	7-8	(	_	_	_	_
 1-3	9-14	Greek	_	_	_	_
 1-4	15-16	:	_	_	_	_
@@ -18,7 +18,7 @@
 1-12	43-50	capital	_	_	_	_
 1-13	51-55	city	_	_	_	_
 1-14	56-58	of	_	_	_	_
-1-15	59-65	Greece	place[3]	new[3]	coref	13-10[0_3]
+1-15	59-65	Greece	place[10]	new[10]	coref	13-10[77_10]
 1-16	66-70	with	_	_	_	_
 1-17	71-72	a	_	_	_	_
 1-18	73-85	metropolitan	_	_	_	_
@@ -30,7 +30,7 @@
 1-24	124-125	.	_	_	_	_
 
 #Text=It is in many ways the birthplace of Classical Greece , and therefore of Western civilization .
-2-1	126-128	It	place	giv	coref	6-8[17_0]
+2-1	126-128	It	place[13]	giv[13]	coref	6-8[23_13]
 2-2	129-131	is	_	_	_	_
 2-3	132-134	in	_	_	_	_
 2-4	135-139	many	_	_	_	_
@@ -52,14 +52,14 @@
 3-1	222-232	Understand	_	_	_	_
 
 #Text=Old Athens
-4-1	233-236	Old	place[9]	giv[9]	coref	5-1[10_9]
-4-2	237-243	Athens	place[9]	giv[9]	_	_
+4-1	233-236	Old	_	_	_	_
+4-2	237-243	Athens	_	_	_	_
 
 #Text=The first pre-historic settlements was constructed in 3000 BC around the hill of Acropolis .
-5-1	244-247	The	place[10]	acc[10]	_	_
-5-2	248-253	first	place[10]	acc[10]	_	_
-5-3	254-266	pre-historic	place[10]	acc[10]	_	_
-5-4	267-278	settlements	place[10]	acc[10]	_	_
+5-1	244-247	The	_	_	_	_
+5-2	248-253	first	_	_	_	_
+5-3	254-266	pre-historic	_	_	_	_
+5-4	267-278	settlements	_	_	_	_
 5-5	279-282	was	_	_	_	_
 5-6	283-294	constructed	_	_	_	_
 5-7	295-297	in	_	_	_	_
@@ -77,19 +77,19 @@
 6-2	341-347	legend	_	_	_	_
 6-3	348-352	says	_	_	_	_
 6-4	353-357	that	_	_	_	_
-6-5	358-361	the	person[16]	acc[16]	appos	6-10[0_16]
-6-6	362-366	King	person[16]	acc[16]	_	_
-6-7	367-369	of	person[16]	acc[16]	_	_
-6-8	370-376	Athens	person[16]|place[17]	acc[16]|giv[17]	coref	6-16[20_17]
-6-9	377-378	,	person[16]	acc[16]	_	_
-6-10	379-386	Theseus	person	new	_	_
+6-5	358-361	the	person[22]	acc[22]	appos	6-10[24_22]
+6-6	362-366	King	person[22]	acc[22]	_	_
+6-7	367-369	of	person[22]	acc[22]	_	_
+6-8	370-376	Athens	person[22]|place[23]	acc[22]|giv[23]	coref	11-6[67_23]
+6-9	377-378	,	person[22]	acc[22]	_	_
+6-10	379-386	Theseus	person[24]	giv[24]	_	_
 6-11	387-394	unified	_	_	_	_
 6-12	395-398	the	_	_	_	_
 6-13	399-402	ten	_	_	_	_
 6-14	403-409	tribes	_	_	_	_
 6-15	410-412	of	_	_	_	_
-6-16	413-418	early	place[20]	giv[20]	coref	11-6[0_20]
-6-17	419-425	Athens	place[20]	giv[20]	_	_
+6-16	413-418	early	_	_	_	_
+6-17	419-425	Athens	_	_	_	_
 6-18	426-430	into	_	_	_	_
 6-19	431-434	one	_	_	_	_
 6-20	435-442	kingdom	_	_	_	_
@@ -101,16 +101,16 @@
 6-26	458-459	.	_	_	_	_
 
 #Text=This process of synoikismos – bringing together in one home – created the largest and wealthiest state on the Greek mainland , but it also created a larger class of people excluded from political life by the nobility .
-7-1	460-464	This	abstract[283]	new[283]	ana	7-24[0_283]
-7-2	465-472	process	abstract[283]	new[283]	_	_
-7-3	473-475	of	abstract[283]	new[283]	_	_
-7-4	476-487	synoikismos	abstract[283]	new[283]	_	_
-7-5	488-489	–	abstract[283]	new[283]	_	_
-7-6	490-498	bringing	abstract[283]	new[283]	_	_
-7-7	499-507	together	abstract[283]	new[283]	_	_
-7-8	508-510	in	abstract[283]	new[283]	_	_
-7-9	511-514	one	abstract[283]	new[283]	_	_
-7-10	515-519	home	abstract[283]	new[283]	_	_
+7-1	460-464	This	abstract[350]	new[350]	ana	7-24[35_350]
+7-2	465-472	process	abstract[350]	new[350]	_	_
+7-3	473-475	of	abstract[350]	new[350]	_	_
+7-4	476-487	synoikismos	abstract[350]	new[350]	_	_
+7-5	488-489	–	abstract[350]	new[350]	_	_
+7-6	490-498	bringing	abstract[350]	new[350]	_	_
+7-7	499-507	together	abstract[350]	new[350]	_	_
+7-8	508-510	in	abstract[350]	new[350]	_	_
+7-9	511-514	one	abstract[350]	new[350]	_	_
+7-10	515-519	home	abstract[350]	new[350]	_	_
 7-11	520-521	–	_	_	_	_
 7-12	522-529	created	_	_	_	_
 7-13	530-533	the	_	_	_	_
@@ -124,7 +124,7 @@
 7-21	576-584	mainland	_	_	_	_
 7-22	585-586	,	_	_	_	_
 7-23	587-590	but	_	_	_	_
-7-24	591-593	it	abstract	giv	_	_
+7-24	591-593	it	abstract[35]	giv[35]	_	_
 7-25	594-598	also	_	_	_	_
 7-26	599-606	created	_	_	_	_
 7-27	607-608	a	_	_	_	_
@@ -155,17 +155,17 @@
 8-11	728-738	widespread	_	_	_	_
 8-12	739-740	,	_	_	_	_
 8-13	741-744	and	_	_	_	_
-8-14	745-748	the	organization[33]	new[33]	ana	9-5[38_33]
-8-15	749-758	Areopagus	organization[33]	new[33]	_	_
+8-14	745-748	the	organization[42]	new[42]	ana	9-5[49_42]
+8-15	749-758	Areopagus	organization[42]	new[42]	_	_
 8-16	759-768	appointed	_	_	_	_
 8-17	769-774	Draco	_	_	_	_
 8-18	775-777	to	_	_	_	_
 8-19	778-783	draft	_	_	_	_
-8-20	784-785	a	abstract[35]	new[35]	ana	9-2[0_35]
-8-21	786-792	strict	abstract[35]	new[35]	_	_
-8-22	793-796	new	abstract[35]	new[35]	_	_
-8-23	797-800	law	abstract[35]	new[35]	_	_
-8-24	801-805	code	abstract[35]	new[35]	_	_
+8-20	784-785	a	abstract[45]	new[45]	ana	9-2[46_45]
+8-21	786-792	strict	abstract[45]	new[45]	_	_
+8-22	793-796	new	abstract[45]	new[45]	_	_
+8-23	797-800	law	abstract[45]	new[45]	_	_
+8-24	801-805	code	abstract[45]	new[45]	_	_
 8-25	806-807	(	_	_	_	_
 8-26	808-813	hence	_	_	_	_
 8-27	814-815	"	_	_	_	_
@@ -176,28 +176,28 @@
 
 #Text=When this failed , they appointed Solon , with a mandate to create a new constitution ( 594 ) .
 9-1	832-836	When	_	_	_	_
-9-2	837-841	this	abstract	giv	_	_
+9-2	837-841	this	abstract[46]	giv[46]	_	_
 9-3	842-848	failed	_	_	_	_
 9-4	849-850	,	_	_	_	_
-9-5	851-855	they	event[37]|person[38]	new[37]|giv[38]	ana	10-1[0_37]
-9-6	856-865	appointed	event[37]	new[37]	_	_
-9-7	866-871	Solon	event[37]	new[37]	_	_
-9-8	872-873	,	event[37]	new[37]	_	_
-9-9	874-878	with	event[37]	new[37]	_	_
-9-10	879-880	a	event[37]	new[37]	_	_
-9-11	881-888	mandate	event[37]	new[37]	_	_
-9-12	889-891	to	event[37]	new[37]	_	_
-9-13	892-898	create	event[37]	new[37]	_	_
-9-14	899-900	a	event[37]	new[37]	_	_
-9-15	901-904	new	event[37]	new[37]	_	_
-9-16	905-917	constitution	event[37]	new[37]	_	_
-9-17	918-919	(	event[37]	new[37]	_	_
-9-18	920-923	594	event[37]	new[37]	_	_
-9-19	924-925	)	event[37]	new[37]	_	_
+9-5	851-855	they	event[48]|organization[49]	new[48]|giv[49]	ana	10-1[56_48]
+9-6	856-865	appointed	event[48]	new[48]	_	_
+9-7	866-871	Solon	event[48]	new[48]	_	_
+9-8	872-873	,	event[48]	new[48]	_	_
+9-9	874-878	with	event[48]	new[48]	_	_
+9-10	879-880	a	event[48]	new[48]	_	_
+9-11	881-888	mandate	event[48]	new[48]	_	_
+9-12	889-891	to	event[48]	new[48]	_	_
+9-13	892-898	create	event[48]	new[48]	_	_
+9-14	899-900	a	event[48]	new[48]	_	_
+9-15	901-904	new	event[48]	new[48]	_	_
+9-16	905-917	constitution	event[48]	new[48]	_	_
+9-17	918-919	(	event[48]	new[48]	_	_
+9-18	920-923	594	event[48]	new[48]	_	_
+9-19	924-925	)	event[48]	new[48]	_	_
 9-20	926-927	.	_	_	_	_
 
 #Text=This was the great beginning of a new social revolution , which was the result of the democracy under Clisthenes ( 508 BC ) .
-10-1	928-932	This	event	giv	_	_
+10-1	928-932	This	event[56]	giv[56]	_	_
 10-2	933-936	was	_	_	_	_
 10-3	937-940	the	_	_	_	_
 10-4	941-946	great	_	_	_	_
@@ -229,7 +229,7 @@
 11-3	1065-1071	Middle	_	_	_	_
 11-4	1072-1076	Ages	_	_	_	_
 11-5	1077-1078	,	_	_	_	_
-11-6	1079-1085	Athens	place	giv	coref	12-1
+11-6	1079-1085	Athens	place[67]	giv[67]	coref	12-1[71_67]
 11-7	1086-1097	experienced	_	_	_	_
 11-8	1098-1099	a	_	_	_	_
 11-9	1100-1107	decline	_	_	_	_
@@ -242,14 +242,14 @@
 11-16	1146-1147	.	_	_	_	_
 
 #Text=Athens was thriving and prosperous during the Crusades , actually benefiting from the Italian trade during this period .
-12-1	1148-1154	Athens	place	giv	coref	13-26[62_0]
+12-1	1148-1154	Athens	place[71]	giv[71]	coref	13-26[81_71]
 12-2	1155-1158	was	_	_	_	_
 12-3	1159-1167	thriving	_	_	_	_
 12-4	1168-1171	and	_	_	_	_
 12-5	1172-1182	prosperous	_	_	_	_
 12-6	1183-1189	during	_	_	_	_
-12-7	1190-1193	the	event[55]	new[55]	coref	12-17[57_55]
-12-8	1194-1202	Crusades	event[55]	new[55]	_	_
+12-7	1190-1193	the	time[73]	new[73]	coref	12-17[75_73]
+12-8	1194-1202	Crusades	time[73]	new[73]	_	_
 12-9	1203-1204	,	_	_	_	_
 12-10	1205-1213	actually	_	_	_	_
 12-11	1214-1224	benefiting	_	_	_	_
@@ -258,21 +258,21 @@
 12-14	1234-1241	Italian	_	_	_	_
 12-15	1242-1247	trade	_	_	_	_
 12-16	1248-1254	during	_	_	_	_
-12-17	1255-1259	this	time[57]	new[57]	coref	13-3[58_57]
-12-18	1260-1266	period	time[57]	new[57]	_	_
+12-17	1255-1259	this	time[75]	giv[75]	coref	13-3[76_75]
+12-18	1260-1266	period	time[75]	giv[75]	_	_
 12-19	1267-1268	.	_	_	_	_
 
 #Text=However , this fruitful period was short-lived , as Greece suffered badly under the Ottoman Empire , only to recover in the 19th century as the capital of independent Greece .
 13-1	1269-1276	However	_	_	_	_
 13-2	1277-1278	,	_	_	_	_
-13-3	1279-1283	this	time[58]	giv[58]	_	_
-13-4	1284-1292	fruitful	time[58]	giv[58]	_	_
-13-5	1293-1299	period	time[58]	giv[58]	_	_
+13-3	1279-1283	this	time[76]	giv[76]	_	_
+13-4	1284-1292	fruitful	time[76]	giv[76]	_	_
+13-5	1293-1299	period	time[76]	giv[76]	_	_
 13-6	1300-1303	was	_	_	_	_
 13-7	1304-1315	short-lived	_	_	_	_
 13-8	1316-1317	,	_	_	_	_
 13-9	1318-1320	as	_	_	_	_
-13-10	1321-1327	Greece	place	giv	coref	13-29[63_0]
+13-10	1321-1327	Greece	place[77]	giv[77]	coref	22-22[143_77]
 13-11	1328-1336	suffered	_	_	_	_
 13-12	1337-1342	badly	_	_	_	_
 13-13	1343-1348	under	_	_	_	_
@@ -284,30 +284,30 @@
 13-19	1375-1377	to	_	_	_	_
 13-20	1378-1385	recover	_	_	_	_
 13-21	1386-1388	in	_	_	_	_
-13-22	1389-1392	the	time[61]	giv[61]	coref	23-21[116_61]
-13-23	1393-1397	19th	time[61]	giv[61]	_	_
-13-24	1398-1405	century	time[61]	giv[61]	_	_
+13-22	1389-1392	the	_	_	_	_
+13-23	1393-1397	19th	_	_	_	_
+13-24	1398-1405	century	_	_	_	_
 13-25	1406-1408	as	_	_	_	_
-13-26	1409-1412	the	place[62]	giv[62]	coref	15-1[0_62]
-13-27	1413-1420	capital	place[62]	giv[62]	_	_
-13-28	1421-1423	of	place[62]	giv[62]	_	_
-13-29	1424-1435	independent	place[62]|place[63]	giv[62]|giv[63]	coref	22-22[111_63]
-13-30	1436-1442	Greece	place[62]|place[63]	giv[62]|giv[63]	_	_
+13-26	1409-1412	the	place[81]	giv[81]	coref	15-1[85_81]
+13-27	1413-1420	capital	place[81]	giv[81]	_	_
+13-28	1421-1423	of	place[81]	giv[81]	_	_
+13-29	1424-1435	independent	place[81]	giv[81]	_	_
+13-30	1436-1442	Greece	place[81]	giv[81]	_	_
 13-31	1443-1444	.	_	_	_	_
 
 #Text=Modern Olympic Games
 14-1	1445-1451	Modern	_	_	_	_
-14-2	1452-1459	Olympic	event[65]	acc[65]	coref	15-6[68_65]
-14-3	1460-1465	Games	event[65]	acc[65]	_	_
+14-2	1452-1459	Olympic	_	_	_	_
+14-3	1460-1465	Games	_	_	_	_
 
 #Text=Athens hosted the 2004 Summer Olympic Games .
-15-1	1466-1472	Athens	place	giv	coref	16-10[70_0]
+15-1	1466-1472	Athens	place[85]	giv[85]	coref	16-10[90_85]
 15-2	1473-1479	hosted	_	_	_	_
-15-3	1480-1483	the	event[67]	giv[67]	coref	17-13[78_67]
-15-4	1484-1488	2004	event[67]	giv[67]	_	_
-15-5	1489-1495	Summer	event[67]	giv[67]	_	_
-15-6	1496-1503	Olympic	event[67]|event[68]	giv[67]|giv[68]	coref	19-3[97_68]
-15-7	1504-1509	Games	event[67]|event[68]	giv[67]|giv[68]	_	_
+15-3	1480-1483	the	event[87]	giv[87]	coref	17-13[104_87]
+15-4	1484-1488	2004	event[87]	giv[87]	_	_
+15-5	1489-1495	Summer	event[87]	giv[87]	_	_
+15-6	1496-1503	Olympic	event[87]	giv[87]	_	_
+15-7	1504-1509	Games	event[87]	giv[87]	_	_
 15-8	1510-1511	.	_	_	_	_
 
 #Text=While most of the sporting venues were located outside the city proper - in various locations throughout Attica - the entire urban area of Athens underwent major lasting changes that have improved the quality of life for visitors and residents alike .
@@ -320,9 +320,9 @@
 16-7	1546-1550	were	_	_	_	_
 16-8	1551-1558	located	_	_	_	_
 16-9	1559-1566	outside	_	_	_	_
-16-10	1567-1570	the	place[70]	giv[70]	coref	16-25[74_70]
-16-11	1571-1575	city	place[70]	giv[70]	_	_
-16-12	1576-1582	proper	place[70]	giv[70]	_	_
+16-10	1567-1570	the	place[90]	giv[90]	coref	16-25[95_90]
+16-11	1571-1575	city	place[90]	giv[90]	_	_
+16-12	1576-1582	proper	place[90]	giv[90]	_	_
 16-13	1583-1584	-	_	_	_	_
 16-14	1585-1587	in	_	_	_	_
 16-15	1588-1595	various	_	_	_	_
@@ -335,7 +335,7 @@
 16-22	1637-1642	urban	_	_	_	_
 16-23	1643-1647	area	_	_	_	_
 16-24	1648-1650	of	_	_	_	_
-16-25	1651-1657	Athens	place[74]	giv[74]	coref	18-4[84_74]
+16-25	1651-1657	Athens	place[95]	giv[95]	coref	18-4[110_95]
 16-26	1658-1667	underwent	_	_	_	_
 16-27	1668-1673	major	_	_	_	_
 16-28	1674-1681	lasting	_	_	_	_
@@ -367,9 +367,9 @@
 17-10	1838-1840	in	_	_	_	_
 17-11	1841-1845	time	_	_	_	_
 17-12	1846-1849	for	_	_	_	_
-17-13	1850-1853	the	event[78]	giv[78]	_	_
-17-14	1854-1858	2004	event[78]	giv[78]	_	_
-17-15	1859-1867	Olympics	event[78]	giv[78]	_	_
+17-13	1850-1853	the	event[104]	giv[104]	_	_
+17-14	1854-1858	2004	event[104]	giv[104]	_	_
+17-15	1859-1867	Olympics	event[104]	giv[104]	_	_
 17-16	1868-1869	(	_	_	_	_
 17-17	1870-1874	from	_	_	_	_
 17-18	1875-1878	new	_	_	_	_
@@ -394,9 +394,9 @@
 18-1	1973-1977	Most	_	_	_	_
 18-2	1978-1985	notable	_	_	_	_
 18-3	1986-1991	among	_	_	_	_
-18-4	1992-1995	the	place[84]	giv[84]	coref	20-8[103_84]
-18-5	1996-2000	city	place[84]	giv[84]	_	_
-18-6	2001-2003	's	place[84]	giv[84]	_	_
+18-4	1992-1995	the	place[110]	giv[110]	coref	20-8[130_110]
+18-5	1996-2000	city	place[110]	giv[110]	_	_
+18-6	2001-2003	's	place[110]	giv[110]	_	_
 18-7	2004-2012	facelift	_	_	_	_
 18-8	2013-2021	projects	_	_	_	_
 18-9	2022-2025	are	_	_	_	_
@@ -408,15 +408,15 @@
 18-15	2066-2067	-	_	_	_	_
 18-16	2068-2073	which	_	_	_	_
 18-17	2074-2082	connects	_	_	_	_
-18-18	2083-2086	the	_	_	_	_
-18-19	2087-2091	city	_	_	_	_
-18-20	2092-2094	's	_	_	_	_
-18-21	2095-2104	classical	_	_	_	_
-18-22	2105-2106	-	_	_	_	_
-18-23	2107-2110	era	_	_	_	_
-18-24	2111-2116	ruins	object[89]	giv[89]	coref	23-27[117_89]
-18-25	2117-2120	and	object[89]	giv[89]	_	_
-18-26	2121-2130	monuments	object[89]	giv[89]	_	_
+18-18	2083-2086	the	object[113]	giv[113]	coref	23-27[150_113]
+18-19	2087-2091	city	object[113]	giv[113]	_	_
+18-20	2092-2094	's	object[113]	giv[113]	_	_
+18-21	2095-2104	classical	object[113]	giv[113]	_	_
+18-22	2105-2106	-	object[113]	giv[113]	_	_
+18-23	2107-2110	era	object[113]	giv[113]	_	_
+18-24	2111-2116	ruins	object[113]	giv[113]	_	_
+18-25	2117-2120	and	object[113]	giv[113]	_	_
+18-26	2121-2130	monuments	object[113]	giv[113]	_	_
 18-27	2131-2133	to	_	_	_	_
 18-28	2134-2138	each	_	_	_	_
 18-29	2139-2144	other	_	_	_	_
@@ -444,12 +444,12 @@
 #Text=The ancient Olympic Games took place in Olympia from 776 BCE to 394 AD .
 19-1	2282-2285	The	_	_	_	_
 19-2	2286-2293	ancient	_	_	_	_
-19-3	2294-2301	Olympic	event[97]	giv[97]	_	_
-19-4	2302-2307	Games	event[97]	giv[97]	_	_
+19-3	2294-2301	Olympic	_	_	_	_
+19-4	2302-2307	Games	_	_	_	_
 19-5	2308-2312	took	_	_	_	_
 19-6	2313-2318	place	_	_	_	_
 19-7	2319-2321	in	_	_	_	_
-19-8	2322-2329	Olympia	place	new	coref	20-11
+19-8	2322-2329	Olympia	place[125]	new[125]	coref	20-11[131_125]
 19-9	2330-2334	from	_	_	_	_
 19-10	2335-2338	776	_	_	_	_
 19-11	2339-2342	BCE	_	_	_	_
@@ -466,10 +466,10 @@
 20-5	2371-2374	day	_	_	_	_
 20-6	2375-2379	trip	_	_	_	_
 20-7	2380-2384	from	_	_	_	_
-20-8	2385-2391	Athens	place[103]	giv[103]	coref	22-1[0_103]
+20-8	2385-2391	Athens	place[130]	giv[130]	coref	22-1[133_130]
 20-9	2392-2394	to	_	_	_	_
 20-10	2395-2400	visit	_	_	_	_
-20-11	2401-2408	Olympia	place	giv	_	_
+20-11	2401-2408	Olympia	place[131]	giv[131]	_	_
 20-12	2409-2410	,	_	_	_	_
 20-13	2411-2414	but	_	_	_	_
 20-14	2415-2420	quite	_	_	_	_
@@ -480,7 +480,7 @@
 21-1	2435-2447	Architecture	_	_	_	_
 
 #Text=Athens was just a small provincial village when it was chosen in the 1830s to serve as the national capital of the modern Greek State .
-22-1	2448-2454	Athens	place	giv	ana	22-9
+22-1	2448-2454	Athens	place[133]	giv[133]	ana	22-9[139_133]
 22-2	2455-2458	was	_	_	_	_
 22-3	2459-2463	just	_	_	_	_
 22-4	2464-2465	a	_	_	_	_
@@ -488,7 +488,7 @@
 22-6	2472-2482	provincial	_	_	_	_
 22-7	2483-2490	village	_	_	_	_
 22-8	2491-2495	when	_	_	_	_
-22-9	2496-2498	it	place	giv	coref	22-18[110_0]
+22-9	2496-2498	it	place[139]	giv[139]	coref	22-18[142_139]
 22-10	2499-2502	was	_	_	_	_
 22-11	2503-2509	chosen	_	_	_	_
 22-12	2510-2512	in	_	_	_	_
@@ -497,19 +497,19 @@
 22-15	2523-2525	to	_	_	_	_
 22-16	2526-2531	serve	_	_	_	_
 22-17	2532-2534	as	_	_	_	_
-22-18	2535-2538	the	place[110]	giv[110]	ana	23-2[0_110]
-22-19	2539-2547	national	place[110]	giv[110]	_	_
-22-20	2548-2555	capital	place[110]	giv[110]	_	_
-22-21	2556-2558	of	place[110]	giv[110]	_	_
-22-22	2559-2562	the	place[110]|place[111]	giv[110]|giv[111]	coref	27-21[150_111]
-22-23	2563-2569	modern	place[110]|place[111]	giv[110]|giv[111]	_	_
-22-24	2570-2575	Greek	place[110]|place[111]	giv[110]|giv[111]	_	_
-22-25	2576-2581	State	place[110]|place[111]	giv[110]|giv[111]	_	_
+22-18	2535-2538	the	place[142]	giv[142]	ana	23-2[144_142]
+22-19	2539-2547	national	place[142]	giv[142]	_	_
+22-20	2548-2555	capital	place[142]	giv[142]	_	_
+22-21	2556-2558	of	place[142]	giv[142]	_	_
+22-22	2559-2562	the	place[142]|place[143]	giv[142]|giv[143]	coref	25-28[180_143]
+22-23	2563-2569	modern	place[142]|place[143]	giv[142]|giv[143]	_	_
+22-24	2570-2575	Greek	place[142]|place[143]	giv[142]|giv[143]	_	_
+22-25	2576-2581	State	place[142]|place[143]	giv[142]|giv[143]	_	_
 22-26	2582-2583	.	_	_	_	_
 
 #Text=Although it had a prestigious past , the city 's political , economic , and cultural importance had declined over the centuries , leaving behind only its classical ruins as a reminder of better times .
 23-1	2584-2592	Although	_	_	_	_
-23-2	2593-2595	it	place	giv	ana	23-27[118_0]
+23-2	2593-2595	it	place[144]	giv[144]	ana	23-27[151_144]
 23-3	2596-2599	had	_	_	_	_
 23-4	2600-2601	a	_	_	_	_
 23-5	2602-2613	prestigious	_	_	_	_
@@ -528,15 +528,15 @@
 23-18	2680-2683	had	_	_	_	_
 23-19	2684-2692	declined	_	_	_	_
 23-20	2693-2697	over	_	_	_	_
-23-21	2698-2701	the	time[116]	giv[116]	_	_
-23-22	2702-2711	centuries	time[116]	giv[116]	_	_
+23-21	2698-2701	the	_	_	_	_
+23-22	2702-2711	centuries	_	_	_	_
 23-23	2712-2713	,	_	_	_	_
 23-24	2714-2721	leaving	_	_	_	_
 23-25	2722-2728	behind	_	_	_	_
 23-26	2729-2733	only	_	_	_	_
-23-27	2734-2737	its	object[117]|place[118]	giv[117]|giv[118]	coref|coref	24-27[128_117]|24-6[122_118]
-23-28	2738-2747	classical	object[117]	giv[117]	_	_
-23-29	2748-2753	ruins	object[117]	giv[117]	_	_
+23-27	2734-2737	its	object[150]|place[151]	giv[150]|giv[151]	coref|coref	24-27[165_150]|24-6[156_151]
+23-28	2738-2747	classical	object[150]	giv[150]	_	_
+23-29	2748-2753	ruins	object[150]	giv[150]	_	_
 23-30	2754-2756	as	_	_	_	_
 23-31	2757-2758	a	_	_	_	_
 23-32	2759-2767	reminder	_	_	_	_
@@ -551,13 +551,13 @@
 24-3	2795-2803	decision	_	_	_	_
 24-4	2804-2806	to	_	_	_	_
 24-5	2807-2811	move	_	_	_	_
-24-6	2812-2815	the	place[122]	giv[122]	coref	24-12[0_122]
-24-7	2816-2824	national	place[122]	giv[122]	_	_
-24-8	2825-2832	capital	place[122]	giv[122]	_	_
+24-6	2812-2815	the	place[156]	giv[156]	coref	24-12[158_156]
+24-7	2816-2824	national	place[156]	giv[156]	_	_
+24-8	2825-2832	capital	place[156]	giv[156]	_	_
 24-9	2833-2837	from	_	_	_	_
 24-10	2838-2845	Nafplio	_	_	_	_
 24-11	2846-2848	to	_	_	_	_
-24-12	2849-2855	Athens	place	giv	_	_
+24-12	2849-2855	Athens	place[158]	giv[158]	coref	25-1[170_158]
 24-13	2856-2857	,	_	_	_	_
 24-14	2858-2868	architects	_	_	_	_
 24-15	2869-2872	and	_	_	_	_
@@ -572,9 +572,9 @@
 24-24	2913-2917	city	_	_	_	_
 24-25	2918-2922	next	_	_	_	_
 24-26	2923-2925	to	_	_	_	_
-24-27	2926-2929	the	object[128]	giv[128]	_	_
-24-28	2930-2939	classical	object[128]	giv[128]	_	_
-24-29	2940-2945	ruins	object[128]	giv[128]	_	_
+24-27	2926-2929	the	object[165]	acc[165]	_	_
+24-28	2930-2939	classical	object[165]	acc[165]	_	_
+24-29	2940-2945	ruins	object[165]	acc[165]	_	_
 24-30	2946-2947	,	_	_	_	_
 24-31	2948-2952	with	_	_	_	_
 24-32	2953-2958	grand	_	_	_	_
@@ -602,18 +602,18 @@
 24-54	3077-3085	decisive	_	_	_	_
 24-55	3086-3090	turn	_	_	_	_
 24-56	3091-3095	from	_	_	_	_
-24-57	3096-3099	the	place[131]	giv[131]	coref	25-1[133_131]
-24-58	3100-3104	city	place[131]	giv[131]	_	_
-24-59	3105-3107	's	place[131]	giv[131]	_	_
+24-57	3096-3099	the	_	_	_	_
+24-58	3100-3104	city	_	_	_	_
+24-59	3105-3107	's	_	_	_	_
 24-60	3108-3115	Ottoman	_	_	_	_
 24-61	3116-3120	past	_	_	_	_
 24-62	3121-3122	.	_	_	_	_
 
 #Text=The city regained its importance in Greek civilization , and by 1900 had evolved into a very attractive cosmopolitan city , with abundant neoclassical architecture harking to the nation 's past .
-25-1	3123-3126	The	place[133]	giv[133]	ana	25-4[135_133]
-25-2	3127-3131	city	place[133]	giv[133]	_	_
+25-1	3123-3126	The	place[170]	giv[170]	ana	25-4[172_170]
+25-2	3127-3131	city	place[170]	giv[170]	_	_
 25-3	3132-3140	regained	_	_	_	_
-25-4	3141-3144	its	place[135]	giv[135]	_	_
+25-4	3141-3144	its	place[172]	giv[172]	_	_
 25-5	3145-3155	importance	_	_	_	_
 25-6	3156-3158	in	_	_	_	_
 25-7	3159-3164	Greek	_	_	_	_
@@ -625,11 +625,11 @@
 25-13	3192-3195	had	_	_	_	_
 25-14	3196-3203	evolved	_	_	_	_
 25-15	3204-3208	into	_	_	_	_
-25-16	3209-3210	a	place[138]	giv[138]	coref	26-11[144_138]
-25-17	3211-3215	very	place[138]	giv[138]	_	_
-25-18	3216-3226	attractive	place[138]	giv[138]	_	_
-25-19	3227-3239	cosmopolitan	place[138]	giv[138]	_	_
-25-20	3240-3244	city	place[138]	giv[138]	_	_
+25-16	3209-3210	a	place[177]	giv[177]	coref	26-11[183_177]
+25-17	3211-3215	very	place[177]	giv[177]	_	_
+25-18	3216-3226	attractive	place[177]	giv[177]	_	_
+25-19	3227-3239	cosmopolitan	place[177]	giv[177]	_	_
+25-20	3240-3244	city	place[177]	giv[177]	_	_
 25-21	3245-3246	,	_	_	_	_
 25-22	3247-3251	with	_	_	_	_
 25-23	3252-3260	abundant	_	_	_	_
@@ -637,9 +637,9 @@
 25-25	3274-3286	architecture	_	_	_	_
 25-26	3287-3294	harking	_	_	_	_
 25-27	3295-3297	to	_	_	_	_
-25-28	3298-3301	the	_	_	_	_
-25-29	3302-3308	nation	_	_	_	_
-25-30	3309-3311	's	_	_	_	_
+25-28	3298-3301	the	place[180]	giv[180]	coref	27-21[191_180]
+25-29	3302-3308	nation	place[180]	giv[180]	_	_
+25-30	3309-3311	's	place[180]	giv[180]	_	_
 25-31	3312-3316	past	_	_	_	_
 25-32	3317-3318	.	_	_	_	_
 
@@ -654,12 +654,12 @@
 26-8	3357-3362	rapid	_	_	_	_
 26-9	3363-3374	development	_	_	_	_
 26-10	3375-3377	of	_	_	_	_
-26-11	3378-3384	Athens	place[144]	giv[144]	coref	27-1[145_144]
+26-11	3378-3384	Athens	place[183]	giv[183]	coref	27-1[185_183]
 26-12	3385-3386	.	_	_	_	_
 
 #Text=The city suffered minor damage during WWII , and suffered extensive urban planning in the decades that followed , as the nation rapidly industrialized and urbanized .
-27-1	3387-3390	The	place[145]	giv[145]	coref	29-1[158_145]
-27-2	3391-3395	city	place[145]	giv[145]	_	_
+27-1	3387-3390	The	place[185]	giv[185]	coref	29-1[199_185]
+27-2	3391-3395	city	place[185]	giv[185]	_	_
 27-3	3396-3404	suffered	_	_	_	_
 27-4	3405-3410	minor	_	_	_	_
 27-5	3411-3417	damage	_	_	_	_
@@ -668,9 +668,9 @@
 27-8	3430-3431	,	_	_	_	_
 27-9	3432-3435	and	_	_	_	_
 27-10	3436-3444	suffered	_	_	_	_
-27-11	3445-3454	extensive	abstract[148]	new[148]	coref	31-46[187_148]
-27-12	3455-3460	urban	abstract[148]	new[148]	_	_
-27-13	3461-3469	planning	abstract[148]	new[148]	_	_
+27-11	3445-3454	extensive	_	_	_	_
+27-12	3455-3460	urban	_	_	_	_
+27-13	3461-3469	planning	_	_	_	_
 27-14	3470-3472	in	_	_	_	_
 27-15	3473-3476	the	_	_	_	_
 27-16	3477-3484	decades	_	_	_	_
@@ -678,8 +678,8 @@
 27-18	3490-3498	followed	_	_	_	_
 27-19	3499-3500	,	_	_	_	_
 27-20	3501-3503	as	_	_	_	_
-27-21	3504-3507	the	place[150]	giv[150]	_	_
-27-22	3508-3514	nation	place[150]	giv[150]	_	_
+27-21	3504-3507	the	place[191]	giv[191]	_	_
+27-22	3508-3514	nation	place[191]	giv[191]	_	_
 27-23	3515-3522	rapidly	_	_	_	_
 27-24	3523-3537	industrialized	_	_	_	_
 27-25	3538-3541	and	_	_	_	_
@@ -722,8 +722,8 @@
 28-33	3740-3741	.	_	_	_	_
 
 #Text=The city also expanded outward through rash development , particularly towards the west , as its population grew by absorbing job-seekers from the provinces .
-29-1	3742-3745	The	place[158]	giv[158]	ana	29-16[162_158]
-29-2	3746-3750	city	place[158]	giv[158]	_	_
+29-1	3742-3745	The	place[199]	giv[199]	ana	29-16[204_199]
+29-2	3746-3750	city	place[199]	giv[199]	_	_
 29-3	3751-3755	also	_	_	_	_
 29-4	3756-3764	expanded	_	_	_	_
 29-5	3765-3772	outward	_	_	_	_
@@ -737,7 +737,7 @@
 29-13	3825-3829	west	_	_	_	_
 29-14	3830-3831	,	_	_	_	_
 29-15	3832-3834	as	_	_	_	_
-29-16	3835-3838	its	place[162]	giv[162]	coref	30-27[175_162]
+29-16	3835-3838	its	place[204]	giv[204]	coref	30-27[220_204]
 29-17	3839-3849	population	_	_	_	_
 29-18	3850-3854	grew	_	_	_	_
 29-19	3855-3857	by	_	_	_	_
@@ -771,12 +771,12 @@
 30-20	4027-4034	traffic	_	_	_	_
 30-21	4035-4043	gridlock	_	_	_	_
 30-22	4044-4047	and	_	_	_	_
-30-23	4048-4052	smog	_	_	_	_
+30-23	4048-4052	smog	substance[217]	new[217]	coref	40-25[305_217]
 30-24	4053-4057	that	_	_	_	_
 30-25	4058-4063	would	_	_	_	_
 30-26	4064-4070	menace	_	_	_	_
-30-27	4071-4074	the	place[175]	giv[175]	coref	31-42[186_175]
-30-28	4075-4079	city	place[175]	giv[175]	_	_
+30-27	4071-4074	the	place[220]	giv[220]	coref	31-42[231_220]
+30-28	4075-4079	city	place[220]	giv[220]	_	_
 30-29	4080-4082	by	_	_	_	_
 30-30	4083-4086	the	_	_	_	_
 30-31	4087-4092	1980s	_	_	_	_
@@ -824,17 +824,17 @@
 31-39	4305-4307	to	_	_	_	_
 31-40	4308-4314	slowly	_	_	_	_
 31-41	4315-4325	regenerate	_	_	_	_
-31-42	4326-4329	the	place[186]	giv[186]	coref	32-43[201_186]
-31-43	4330-4334	city	place[186]	giv[186]	_	_
+31-42	4326-4329	the	place[231]	giv[231]	coref	32-43[248_231]
+31-43	4330-4334	city	place[231]	giv[231]	_	_
 31-44	4335-4338	and	_	_	_	_
 31-45	4339-4343	undo	_	_	_	_
-31-46	4344-4348	some	abstract[187]	giv[187]	_	_
-31-47	4349-4351	of	abstract[187]	giv[187]	_	_
-31-48	4352-4355	the	abstract[187]	giv[187]	_	_
-31-49	4356-4363	damages	abstract[187]	giv[187]	_	_
-31-50	4364-4366	of	abstract[187]	giv[187]	_	_
-31-51	4367-4373	recent	abstract[187]	giv[187]	_	_
-31-52	4374-4381	decades	abstract[187]	giv[187]	_	_
+31-46	4344-4348	some	_	_	_	_
+31-47	4349-4351	of	_	_	_	_
+31-48	4352-4355	the	_	_	_	_
+31-49	4356-4363	damages	_	_	_	_
+31-50	4364-4366	of	_	_	_	_
+31-51	4367-4373	recent	_	_	_	_
+31-52	4374-4381	decades	_	_	_	_
 31-53	4382-4383	.	_	_	_	_
 
 #Text=Over the course of the next 15 years , money was poured into new transportation infrastructure projects , the restoration of surviving neoclassical buildings , the gentrification of the city 's historical center and the renovation of many former industrial areas and the city 's coastline .
@@ -856,12 +856,12 @@
 32-16	4464-4478	infrastructure	_	_	_	_
 32-17	4479-4487	projects	_	_	_	_
 32-18	4488-4489	,	_	_	_	_
-32-19	4490-4493	the	abstract[193]	acc[193]	coref	33-1[202_193]
-32-20	4494-4505	restoration	abstract[193]	acc[193]	_	_
-32-21	4506-4508	of	abstract[193]	acc[193]	_	_
-32-22	4509-4518	surviving	abstract[193]	acc[193]	_	_
-32-23	4519-4531	neoclassical	abstract[193]	acc[193]	_	_
-32-24	4532-4541	buildings	abstract[193]	acc[193]	_	_
+32-19	4490-4493	the	_	_	_	_
+32-20	4494-4505	restoration	_	_	_	_
+32-21	4506-4508	of	_	_	_	_
+32-22	4509-4518	surviving	_	_	_	_
+32-23	4519-4531	neoclassical	_	_	_	_
+32-24	4532-4541	buildings	_	_	_	_
 32-25	4542-4543	,	_	_	_	_
 32-26	4544-4547	the	_	_	_	_
 32-27	4548-4562	gentrification	_	_	_	_
@@ -880,42 +880,42 @@
 32-40	4630-4640	industrial	_	_	_	_
 32-41	4641-4646	areas	_	_	_	_
 32-42	4647-4650	and	_	_	_	_
-32-43	4651-4654	the	place[201]	giv[201]	coref	33-38[211_201]
-32-44	4655-4659	city	place[201]	giv[201]	_	_
-32-45	4660-4662	's	place[201]	giv[201]	_	_
+32-43	4651-4654	the	place[248]	giv[248]	coref	33-38[258_248]
+32-44	4655-4659	city	place[248]	giv[248]	_	_
+32-45	4660-4662	's	place[248]	giv[248]	_	_
 32-46	4663-4672	coastline	_	_	_	_
 32-47	4673-4674	.	_	_	_	_
 
 #Text=The restoration of charming neoclassical buildings in the city 's historical center has been accompanied by the construction of attractive post-modern buildings in newer districts ; both of which have begun to improve the aesthetic essence of the city .
-33-1	4675-4678	The	abstract[202]	giv[202]	_	_
-33-2	4679-4690	restoration	abstract[202]	giv[202]	_	_
-33-3	4691-4693	of	abstract[202]	giv[202]	_	_
-33-4	4694-4702	charming	abstract[202]	giv[202]	_	_
-33-5	4703-4715	neoclassical	abstract[202]	giv[202]	_	_
-33-6	4716-4725	buildings	abstract[202]	giv[202]	_	_
-33-7	4726-4728	in	abstract[202]	giv[202]	_	_
-33-8	4729-4732	the	abstract[202]	giv[202]	_	_
-33-9	4733-4737	city	abstract[202]	giv[202]	_	_
-33-10	4738-4740	's	abstract[202]	giv[202]	_	_
-33-11	4741-4751	historical	abstract[202]	giv[202]	_	_
-33-12	4752-4758	center	abstract[202]	giv[202]	_	_
+33-1	4675-4678	The	event[249]	new[249]	coref	33-17[253_249]
+33-2	4679-4690	restoration	event[249]	new[249]	_	_
+33-3	4691-4693	of	event[249]	new[249]	_	_
+33-4	4694-4702	charming	event[249]	new[249]	_	_
+33-5	4703-4715	neoclassical	event[249]	new[249]	_	_
+33-6	4716-4725	buildings	event[249]	new[249]	_	_
+33-7	4726-4728	in	event[249]	new[249]	_	_
+33-8	4729-4732	the	event[249]	new[249]	_	_
+33-9	4733-4737	city	event[249]	new[249]	_	_
+33-10	4738-4740	's	event[249]	new[249]	_	_
+33-11	4741-4751	historical	event[249]	new[249]	_	_
+33-12	4752-4758	center	event[249]	new[249]	_	_
 33-13	4759-4762	has	_	_	_	_
 33-14	4763-4767	been	_	_	_	_
 33-15	4768-4779	accompanied	_	_	_	_
 33-16	4780-4782	by	_	_	_	_
-33-17	4783-4786	the	_	_	_	_
-33-18	4787-4799	construction	_	_	_	_
-33-19	4800-4802	of	_	_	_	_
-33-20	4803-4813	attractive	object[207]	giv[207]	ana	33-27[209_207]
-33-21	4814-4825	post-modern	object[207]	giv[207]	_	_
-33-22	4826-4835	buildings	object[207]	giv[207]	_	_
-33-23	4836-4838	in	_	_	_	_
-33-24	4839-4844	newer	_	_	_	_
-33-25	4845-4854	districts	_	_	_	_
+33-17	4783-4786	the	event[253]	giv[253]	ana	33-27[256_253]
+33-18	4787-4799	construction	event[253]	giv[253]	_	_
+33-19	4800-4802	of	event[253]	giv[253]	_	_
+33-20	4803-4813	attractive	event[253]	giv[253]	_	_
+33-21	4814-4825	post-modern	event[253]	giv[253]	_	_
+33-22	4826-4835	buildings	event[253]	giv[253]	_	_
+33-23	4836-4838	in	event[253]	giv[253]	_	_
+33-24	4839-4844	newer	event[253]	giv[253]	_	_
+33-25	4845-4854	districts	event[253]	giv[253]	_	_
 33-26	4855-4856	;	_	_	_	_
-33-27	4857-4861	both	abstract[209]	giv[209]	_	_
-33-28	4862-4864	of	abstract[209]	giv[209]	_	_
-33-29	4865-4870	which	abstract[209]	giv[209]	_	_
+33-27	4857-4861	both	event[256]	giv[256]	_	_
+33-28	4862-4864	of	event[256]	giv[256]	_	_
+33-29	4865-4870	which	event[256]	giv[256]	_	_
 33-30	4871-4875	have	_	_	_	_
 33-31	4876-4881	begun	_	_	_	_
 33-32	4882-4884	to	_	_	_	_
@@ -924,12 +924,12 @@
 33-35	4897-4906	aesthetic	_	_	_	_
 33-36	4907-4914	essence	_	_	_	_
 33-37	4915-4917	of	_	_	_	_
-33-38	4918-4921	the	place[211]	giv[211]	coref	34-1[0_211]
-33-39	4922-4926	city	place[211]	giv[211]	_	_
+33-38	4918-4921	the	place[258]	giv[258]	coref	34-1[259_258]
+33-39	4922-4926	city	place[258]	giv[258]	_	_
 33-40	4927-4928	.	_	_	_	_
 
 #Text=Athens today is ever evolving , forging a brand new identity for the 21st century .
-34-1	4929-4935	Athens	place	giv	coref	36-11
+34-1	4929-4935	Athens	place[259]	giv[259]	coref	36-11[272_259]
 34-2	4936-4941	today	_	_	_	_
 34-3	4942-4944	is	_	_	_	_
 34-4	4945-4949	ever	_	_	_	_
@@ -960,22 +960,22 @@
 36-8	5057-5062	times	_	_	_	_
 36-9	5063-5065	to	_	_	_	_
 36-10	5066-5071	visit	_	_	_	_
-36-11	5072-5078	Athens	place	giv	coref	38-25[228_0]
+36-11	5072-5078	Athens	place[272]	giv[272]	coref	38-25[288_272]
 36-12	5079-5080	.	_	_	_	_
 
 #Text=Summer can be extremely hot and dry during heatwaves , but this rarely happens .
-37-1	5081-5087	Summer	event[220]	new[220]	ana	37-12[0_220]
-37-2	5088-5091	can	event[220]	new[220]	_	_
-37-3	5092-5094	be	event[220]	new[220]	_	_
-37-4	5095-5104	extremely	event[220]	new[220]	_	_
-37-5	5105-5108	hot	event[220]	new[220]	_	_
-37-6	5109-5112	and	event[220]	new[220]	_	_
-37-7	5113-5116	dry	event[220]	new[220]	_	_
-37-8	5117-5123	during	event[220]	new[220]	_	_
-37-9	5124-5133	heatwaves	event[220]	new[220]	_	_
+37-1	5081-5087	Summer	event[274]	new[274]	ana	37-12[277_274]
+37-2	5088-5091	can	event[274]	new[274]	_	_
+37-3	5092-5094	be	event[274]	new[274]	_	_
+37-4	5095-5104	extremely	event[274]	new[274]	_	_
+37-5	5105-5108	hot	event[274]	new[274]	_	_
+37-6	5109-5112	and	event[274]	new[274]	_	_
+37-7	5113-5116	dry	event[274]	new[274]	_	_
+37-8	5117-5123	during	event[274]	new[274]	_	_
+37-9	5124-5133	heatwaves	event[274]	new[274]	_	_
 37-10	5134-5135	,	_	_	_	_
 37-11	5136-5139	but	_	_	_	_
-37-12	5140-5144	this	place	giv	_	_
+37-12	5140-5144	this	event[277]	giv[277]	_	_
 37-13	5145-5151	rarely	_	_	_	_
 37-14	5152-5159	happens	_	_	_	_
 37-15	5160-5161	.	_	_	_	_
@@ -1005,8 +1005,8 @@
 38-22	5268-5273	money	_	_	_	_
 38-23	5274-5279	while	_	_	_	_
 38-24	5280-5288	enjoying	_	_	_	_
-38-25	5289-5292	the	place[228]	giv[228]	coref	40-9[237_228]
-38-26	5293-5297	city	place[228]	giv[228]	_	_
+38-25	5289-5292	the	place[288]	giv[288]	coref	40-9[299_288]
+38-26	5293-5297	city	place[288]	giv[288]	_	_
 38-27	5298-5305	without	_	_	_	_
 38-28	5306-5315	countless	_	_	_	_
 38-29	5316-5321	other	_	_	_	_
@@ -1050,25 +1050,25 @@
 40-6	5489-5492	the	_	_	_	_
 40-7	5493-5502	pollution	_	_	_	_
 40-8	5503-5505	of	_	_	_	_
-40-9	5506-5512	Athens	place[237]	giv[237]	coref	40-12[238_237]
+40-9	5506-5512	Athens	place[299]	giv[299]	coref	40-12[301_299]
 40-10	5513-5515	is	_	_	_	_
 40-11	5516-5523	because	_	_	_	_
-40-12	5524-5527	the	place[238]	giv[238]	coref	41-9[0_238]
-40-13	5528-5532	city	place[238]	giv[238]	_	_
+40-12	5524-5527	the	place[301]	giv[301]	coref	41-9[309_301]
+40-13	5528-5532	city	place[301]	giv[301]	_	_
 40-14	5533-5535	is	_	_	_	_
 40-15	5536-5544	enclosed	_	_	_	_
 40-16	5545-5547	by	_	_	_	_
 40-17	5548-5557	mountains	_	_	_	_
 40-18	5558-5560	in	_	_	_	_
-40-19	5561-5562	a	place[240]	new[240]	coref	41-27[251_240]
-40-20	5563-5568	basin	place[240]	new[240]	_	_
-40-21	5569-5574	which	place[240]	new[240]	_	_
-40-22	5575-5579	does	place[240]	new[240]	_	_
-40-23	5580-5583	not	place[240]	new[240]	_	_
-40-24	5584-5587	let	place[240]	new[240]	_	_
-40-25	5588-5591	the	place[240]	new[240]	_	_
-40-26	5592-5596	smog	place[240]	new[240]	_	_
-40-27	5597-5602	leave	place[240]	new[240]	_	_
+40-19	5561-5562	a	place[304]	new[304]	coref	41-27[317_304]
+40-20	5563-5568	basin	place[304]	new[304]	_	_
+40-21	5569-5574	which	place[304]	new[304]	_	_
+40-22	5575-5579	does	place[304]	new[304]	_	_
+40-23	5580-5583	not	place[304]	new[304]	_	_
+40-24	5584-5587	let	place[304]	new[304]	_	_
+40-25	5588-5591	the	place[304]|substance[305]	new[304]|giv[305]	_	_
+40-26	5592-5596	smog	place[304]|substance[305]	new[304]|giv[305]	_	_
+40-27	5597-5602	leave	place[304]	new[304]	_	_
 40-28	5603-5604	.	_	_	_	_
 
 #Text=The government 's ban on diesel vehicles within Athens and the early 1990s initiatives to improve car emissions have greatly contributed to better atmospheric conditions in the basin .
@@ -1080,7 +1080,7 @@
 41-6	5630-5636	diesel	_	_	_	_
 41-7	5637-5645	vehicles	_	_	_	_
 41-8	5646-5652	within	_	_	_	_
-41-9	5653-5659	Athens	place	giv	_	_
+41-9	5653-5659	Athens	place[309]	giv[309]	_	_
 41-10	5660-5663	and	_	_	_	_
 41-11	5664-5667	the	_	_	_	_
 41-12	5668-5673	early	_	_	_	_
@@ -1098,7 +1098,7 @@
 41-24	5752-5763	atmospheric	_	_	_	_
 41-25	5764-5774	conditions	_	_	_	_
 41-26	5775-5777	in	_	_	_	_
-41-27	5778-5781	the	place[251]	giv[251]	_	_
-41-28	5782-5787	basin	place[251]	giv[251]	_	_
+41-27	5778-5781	the	place[317]	giv[317]	_	_
+41-28	5782-5787	basin	place[317]	giv[317]	_	_
 41-29	5788-5789	.	_	_	_	_
 

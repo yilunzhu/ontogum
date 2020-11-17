@@ -1,46 +1,46 @@
-#FORMAT=WebAnno TSV 3
+#FORMAT=WebAnno TSV 3.2
 #T_SP=webanno.custom.Referent|entity|infstat
 #T_RL=webanno.custom.Coref|type|BT_webanno.custom.Referent
 
 
 #Text=Guadeloupe
-1-1	0-10	Guadeloupe	place	new	coref	2-1[299_0]
+1-1	0-10	Guadeloupe	place[1]	new[1]	coref	2-1[2_1]
 
 #Text=Guadeloupe , known as Gwadloup in the local creole , and sometimes known as the Butterfly Island ( French : I'ile Papillon ) on account of the shape of two of its major islands , is a group of islands in the eastern Caribbean , and is a French overseas department .
-2-1	11-21	Guadeloupe	place[299]	giv[299]	ana	3-1[0_299]
-2-2	22-23	,	place[299]	giv[299]	_	_
-2-3	24-29	known	place[299]	giv[299]	_	_
-2-4	30-32	as	place[299]	giv[299]	_	_
-2-5	33-41	Gwadloup	place[299]	giv[299]	_	_
-2-6	42-44	in	place[299]	giv[299]	_	_
-2-7	45-48	the	place[299]	giv[299]	_	_
-2-8	49-54	local	place[299]	giv[299]	_	_
-2-9	55-61	creole	place[299]	giv[299]	_	_
-2-10	62-63	,	place[299]	giv[299]	_	_
-2-11	64-67	and	place[299]	giv[299]	_	_
-2-12	68-77	sometimes	place[299]	giv[299]	_	_
-2-13	78-83	known	place[299]	giv[299]	_	_
-2-14	84-86	as	place[299]	giv[299]	_	_
-2-15	87-90	the	place[299]	giv[299]	_	_
-2-16	91-100	Butterfly	place[299]	giv[299]	_	_
-2-17	101-107	Island	place[299]	giv[299]	_	_
-2-18	108-109	(	place[299]	giv[299]	_	_
-2-19	110-116	French	place[299]	giv[299]	_	_
-2-20	117-118	:	place[299]	giv[299]	_	_
-2-21	119-124	I'ile	place[299]	giv[299]	_	_
-2-22	125-133	Papillon	place[299]	giv[299]	_	_
-2-23	134-135	)	place[299]	giv[299]	_	_
-2-24	136-138	on	place[299]	giv[299]	_	_
-2-25	139-146	account	place[299]	giv[299]	_	_
-2-26	147-149	of	place[299]	giv[299]	_	_
-2-27	150-153	the	place[299]	giv[299]	_	_
-2-28	154-159	shape	place[299]	giv[299]	_	_
-2-29	160-162	of	place[299]	giv[299]	_	_
-2-30	163-166	two	place[299]	giv[299]	_	_
-2-31	167-169	of	place[299]	giv[299]	_	_
-2-32	170-173	its	place[299]	giv[299]	_	_
-2-33	174-179	major	place[299]	giv[299]	_	_
-2-34	180-187	islands	place[299]	giv[299]	_	_
+2-1	11-21	Guadeloupe	place[2]	giv[2]	_	_
+2-2	22-23	,	place[2]	giv[2]	_	_
+2-3	24-29	known	place[2]	giv[2]	_	_
+2-4	30-32	as	place[2]	giv[2]	_	_
+2-5	33-41	Gwadloup	place[3]|place[2]	giv[3]|giv[2]	coref	2-15[440_3]
+2-6	42-44	in	place[2]	giv[2]	_	_
+2-7	45-48	the	place[2]	giv[2]	_	_
+2-8	49-54	local	place[2]	giv[2]	_	_
+2-9	55-61	creole	place[2]	giv[2]	_	_
+2-10	62-63	,	place[2]	giv[2]	_	_
+2-11	64-67	and	place[2]	giv[2]	_	_
+2-12	68-77	sometimes	place[2]	giv[2]	_	_
+2-13	78-83	known	place[2]	giv[2]	_	_
+2-14	84-86	as	place[2]	giv[2]	_	_
+2-15	87-90	the	place[440]|place[2]	giv[440]|giv[2]	ana	2-32[14_440]
+2-16	91-100	Butterfly	place[440]|place[2]	giv[440]|giv[2]	_	_
+2-17	101-107	Island	place[440]|place[2]	giv[440]|giv[2]	_	_
+2-18	108-109	(	place[440]|place[2]	giv[440]|giv[2]	_	_
+2-19	110-116	French	place[440]|place[2]	giv[440]|giv[2]	_	_
+2-20	117-118	:	place[440]|place[2]	giv[440]|giv[2]	_	_
+2-21	119-124	I'ile	place[440]|place[2]	giv[440]|giv[2]	_	_
+2-22	125-133	Papillon	place[440]|place[2]	giv[440]|giv[2]	_	_
+2-23	134-135	)	place[440]|place[2]	giv[440]|giv[2]	_	_
+2-24	136-138	on	place[2]	giv[2]	_	_
+2-25	139-146	account	place[2]	giv[2]	_	_
+2-26	147-149	of	place[2]	giv[2]	_	_
+2-27	150-153	the	place[2]	giv[2]	_	_
+2-28	154-159	shape	place[2]	giv[2]	_	_
+2-29	160-162	of	place[2]	giv[2]	_	_
+2-30	163-166	two	place[2]	giv[2]	_	_
+2-31	167-169	of	place[2]	giv[2]	_	_
+2-32	170-173	its	place[14]|place[2]	giv[14]|giv[2]	_	_
+2-33	174-179	major	place[2]	giv[2]	_	_
+2-34	180-187	islands	place[2]	giv[2]	_	_
 2-35	188-189	,	_	_	_	_
 2-36	190-192	is	_	_	_	_
 2-37	193-194	a	_	_	_	_
@@ -61,7 +61,7 @@
 2-52	275-276	.	_	_	_	_
 
 #Text=It is located southeast of Puerto Rico .
-3-1	277-279	It	place	giv	_	_
+3-1	277-279	It	place[19]	giv[19]	coref	13-3[45_19]
 3-2	280-282	is	_	_	_	_
 3-3	283-290	located	_	_	_	_
 3-4	291-300	southeast	_	_	_	_
@@ -74,8 +74,8 @@
 4-1	318-325	Islands	_	_	_	_
 
 #Text=Basse Terre : green and lush vegetation , mountainous with a sulphuric volcano .
-5-1	326-331	Basse	place[16]	new[16]	coref	18-39[73_16]
-5-2	332-337	Terre	place[16]	new[16]	_	_
+5-1	326-331	Basse	place[24]	new[24]	coref	18-39[104_24]
+5-2	332-337	Terre	place[24]	new[24]	_	_
 5-3	338-339	:	_	_	_	_
 5-4	340-345	green	_	_	_	_
 5-5	346-349	and	_	_	_	_
@@ -90,41 +90,41 @@
 5-14	405-406	.	_	_	_	_
 
 #Text=Grande Terre : flat and dry with a lot of beaches , some of them very touristic .
-6-1	407-413	Grande	place[19]	new[19]	coref	12-1[32_19]
-6-2	414-419	Terre	place[19]	new[19]	_	_
+6-1	407-413	Grande	place[27]	new[27]	coref	12-1[43_27]
+6-2	414-419	Terre	place[27]	new[27]	_	_
 6-3	420-421	:	_	_	_	_
 6-4	422-426	flat	_	_	_	_
 6-5	427-430	and	_	_	_	_
 6-6	431-434	dry	_	_	_	_
 6-7	435-439	with	_	_	_	_
-6-8	440-441	a	place[20]	new[20]	ana	6-13[21_20]
-6-9	442-445	lot	place[20]	new[20]	_	_
-6-10	446-448	of	place[20]	new[20]	_	_
-6-11	449-456	beaches	place[20]	new[20]	_	_
+6-8	440-441	a	place[28]	new[28]	ana	6-15[30_28]
+6-9	442-445	lot	place[28]	new[28]	_	_
+6-10	446-448	of	place[28]	new[28]	_	_
+6-11	449-456	beaches	place[28]	new[28]	_	_
 6-12	457-458	,	_	_	_	_
-6-13	459-463	some	place[21]	giv[21]	_	_
-6-14	464-466	of	place[21]	giv[21]	_	_
-6-15	467-471	them	place[21]	giv[21]	_	_
+6-13	459-463	some	_	_	_	_
+6-14	464-466	of	_	_	_	_
+6-15	467-471	them	place[30]	giv[30]	_	_
 6-16	472-476	very	_	_	_	_
 6-17	477-486	touristic	_	_	_	_
 6-18	487-488	.	_	_	_	_
 
 #Text=Marie Galante : the biggest island out of mainland Guadeloupe .
-7-1	489-494	Marie	place[22]|place[300]	new[22]|new[300]	appos|coref	7-4[23_22]|18-17[66_300]
-7-2	495-502	Galante	place[22]|place[300]	new[22]|new[300]	_	_
-7-3	503-504	:	place[300]	new[300]	_	_
-7-4	505-508	the	place[23]|place[300]	giv[23]|new[300]	_	_
-7-5	509-516	biggest	place[23]|place[300]	giv[23]|new[300]	_	_
-7-6	517-523	island	place[23]|place[300]	giv[23]|new[300]	_	_
-7-7	524-527	out	place[23]|place[300]	giv[23]|new[300]	_	_
-7-8	528-530	of	place[23]|place[300]	giv[23]|new[300]	_	_
-7-9	531-539	mainland	place[23]|place[24]|place[300]	giv[23]|acc[24]|new[300]	coref	24-22[122_24]
-7-10	540-550	Guadeloupe	place[23]|place[24]|place[300]	giv[23]|acc[24]|new[300]	_	_
+7-1	489-494	Marie	place[32]	new[32]	coref	7-4[33_32]
+7-2	495-502	Galante	place[32]	new[32]	_	_
+7-3	503-504	:	_	_	_	_
+7-4	505-508	the	place[33]	giv[33]	coref	18-17[97_33]
+7-5	509-516	biggest	place[33]	giv[33]	_	_
+7-6	517-523	island	place[33]	giv[33]	_	_
+7-7	524-527	out	place[33]	giv[33]	_	_
+7-8	528-530	of	place[33]	giv[33]	_	_
+7-9	531-539	mainland	place[33]|place[34]	giv[33]|acc[34]	coref	24-22[186_34]
+7-10	540-550	Guadeloupe	place[33]|place[34]	giv[33]|acc[34]	_	_
 7-11	551-552	.	_	_	_	_
 
 #Text=Les Saintes : composed of Terre de Haut and Terre de Bas , one of the most beautiful bays .
-8-1	553-556	Les	_	_	_	_
-8-2	557-564	Saintes	_	_	_	_
+8-1	553-556	Les	place[35]	new[35]	coref	18-20[98_35]
+8-2	557-564	Saintes	place[35]	new[35]	_	_
 8-3	565-566	:	_	_	_	_
 8-4	567-575	composed	_	_	_	_
 8-5	576-578	of	_	_	_	_
@@ -145,8 +145,8 @@
 8-20	643-644	.	_	_	_	_
 
 #Text=La Désirade : dry and cliffy .
-9-1	645-647	La	place[29]	new[29]	coref	18-11[64_29]
-9-2	648-656	Désirade	place[29]	new[29]	_	_
+9-1	645-647	La	place[39]	new[39]	coref	18-11[95_39]
+9-2	648-656	Désirade	place[39]	new[39]	_	_
 9-3	657-658	:	_	_	_	_
 9-4	659-662	dry	_	_	_	_
 9-5	663-666	and	_	_	_	_
@@ -154,8 +154,8 @@
 9-7	674-675	.	_	_	_	_
 
 #Text=Petite Terre : uninhabited and untamed .
-10-1	676-682	Petite	place[30]	new[30]	coref	18-14[65_30]
-10-2	683-688	Terre	place[30]	new[30]	_	_
+10-1	676-682	Petite	place[40]	new[40]	coref	18-14[96_40]
+10-2	683-688	Terre	place[40]	new[40]	_	_
 10-3	689-690	:	_	_	_	_
 10-4	691-702	uninhabited	_	_	_	_
 10-5	703-706	and	_	_	_	_
@@ -166,28 +166,28 @@
 11-1	717-723	Cities	_	_	_	_
 
 #Text=Grande Terre
-12-1	724-730	Grande	place[32]	giv[32]	coref	18-34[72_32]
-12-2	731-736	Terre	place[32]	giv[32]	_	_
+12-1	724-730	Grande	place[43]	giv[43]	coref	18-34[103_43]
+12-2	731-736	Terre	place[43]	giv[43]	_	_
 
 #Text=Map of Guadeloupe
 13-1	737-740	Map	_	_	_	_
 13-2	741-743	of	_	_	_	_
-13-3	744-754	Guadeloupe	place[34]	giv[34]	coref	14-13[40_34]
+13-3	744-754	Guadeloupe	place[45]	giv[45]	coref	14-13[55_45]
 
 #Text=Pointe-à-Pitre : with its suburbs , it is the economic capital of Guadeloupe
-14-1	755-769	Pointe-à-Pitre	place	new	ana	14-4[37_0]
+14-1	755-769	Pointe-à-Pitre	place[46]	acc[46]	ana	14-4[50_46]
 14-2	770-771	:	_	_	_	_
 14-3	772-776	with	_	_	_	_
-14-4	777-780	its	place[37]	giv[37]	ana	14-7[0_37]
+14-4	777-780	its	place[50]	giv[50]	ana	14-7[51_50]
 14-5	781-788	suburbs	_	_	_	_
 14-6	789-790	,	_	_	_	_
-14-7	791-793	it	place	giv	_	_
+14-7	791-793	it	place[51]	giv[51]	_	_
 14-8	794-796	is	_	_	_	_
 14-9	797-800	the	_	_	_	_
 14-10	801-809	economic	_	_	_	_
 14-11	810-817	capital	_	_	_	_
 14-12	818-820	of	_	_	_	_
-14-13	821-831	Guadeloupe	place[40]	giv[40]	coref	15-11[43_40]
+14-13	821-831	Guadeloupe	place[55]	giv[55]	coref	15-11[61_55]
 
 #Text=Gosier : maybe one of the most interesting places of Guadeloupe to enjoy nightlife .
 15-1	832-838	Gosier	_	_	_	_
@@ -200,7 +200,7 @@
 15-8	863-874	interesting	_	_	_	_
 15-9	875-881	places	_	_	_	_
 15-10	882-884	of	_	_	_	_
-15-11	885-895	Guadeloupe	place[43]	giv[43]	coref	17-11[53_43]
+15-11	885-895	Guadeloupe	place[61]	giv[61]	coref	17-11[77_61]
 15-12	896-898	to	_	_	_	_
 15-13	899-904	enjoy	_	_	_	_
 15-14	905-914	nightlife	_	_	_	_
@@ -208,7 +208,7 @@
 
 #Text=( You can enter most nightclubs with proper clothes , that is , no sneakers , no shorts )
 16-1	917-918	(	_	_	_	_
-16-2	919-922	You	person	acc	ana	17-4
+16-2	919-922	You	person[63]	acc[63]	ana	17-4[74_63]
 16-3	923-926	can	_	_	_	_
 16-4	927-932	enter	_	_	_	_
 16-5	933-937	most	_	_	_	_
@@ -231,65 +231,65 @@
 17-1	1007-1009	St	_	_	_	_
 17-2	1010-1018	François	_	_	_	_
 17-3	1019-1021	if	_	_	_	_
-17-4	1022-1025	you	person	giv	ana	17-13
+17-4	1022-1025	you	person[74]	giv[74]	ana	17-13[78_74]
 17-5	1026-1028	go	_	_	_	_
 17-6	1029-1031	at	_	_	_	_
 17-7	1032-1035	the	_	_	_	_
 17-8	1036-1043	eastern	_	_	_	_
 17-9	1044-1049	point	_	_	_	_
 17-10	1050-1052	of	_	_	_	_
-17-11	1053-1063	Guadeloupe	place[53]	giv[53]	coref	19-20[0_53]
+17-11	1053-1063	Guadeloupe	place[77]	giv[77]	coref	29-9[222_77]
 17-12	1064-1065	,	_	_	_	_
-17-13	1066-1069	you	person	giv	ana	18-4
+17-13	1066-1069	you	person[78]	giv[78]	ana	18-4[90_78]
 17-14	1070-1074	will	_	_	_	_
 17-15	1075-1080	reach	_	_	_	_
-17-16	1081-1083	La	place[55]	new[55]	appos	17-21[56_55]
-17-17	1084-1090	Pointe	place[55]	new[55]	_	_
-17-18	1091-1094	des	place[55]	new[55]	_	_
-17-19	1095-1103	Chateaux	place[55]	new[55]	_	_
-17-20	1104-1105	,	place[55]	new[55]	_	_
-17-21	1106-1107	a	abstract[56]	giv[56]	_	_
-17-22	1108-1115	scenery	abstract[56]	giv[56]	_	_
-17-23	1116-1120	made	abstract[56]	giv[56]	_	_
-17-24	1121-1123	of	abstract[56]	giv[56]	_	_
-17-25	1124-1128	sand	abstract[56]	giv[56]	_	_
-17-26	1129-1132	and	abstract[56]	giv[56]	_	_
-17-27	1133-1138	rocks	abstract[56]	giv[56]	_	_
-17-28	1139-1144	which	abstract[56]	giv[56]	_	_
-17-29	1145-1149	have	abstract[56]	giv[56]	_	_
-17-30	1150-1157	vaguely	abstract[56]	giv[56]	_	_
-17-31	1158-1161	the	abstract[56]	giv[56]	_	_
-17-32	1162-1167	shape	abstract[56]	giv[56]	_	_
-17-33	1168-1170	of	abstract[56]	giv[56]	_	_
-17-34	1171-1172	a	abstract[56]	giv[56]	_	_
-17-35	1173-1179	castle	abstract[56]	giv[56]	_	_
+17-16	1081-1083	La	place[81]|place[441]	new[81]|new[441]	appos|coref	17-21[82_81]|18-2[89_441]
+17-17	1084-1090	Pointe	place[81]|place[441]	new[81]|new[441]	_	_
+17-18	1091-1094	des	place[81]|place[441]	new[81]|new[441]	_	_
+17-19	1095-1103	Chateaux	place[81]|place[441]	new[81]|new[441]	_	_
+17-20	1104-1105	,	place[81]|place[441]	new[81]|new[441]	_	_
+17-21	1106-1107	a	place[82]|place[441]	giv[82]|new[441]	_	_
+17-22	1108-1115	scenery	place[82]|place[441]	giv[82]|new[441]	_	_
+17-23	1116-1120	made	place[82]|place[441]	giv[82]|new[441]	_	_
+17-24	1121-1123	of	place[82]|place[441]	giv[82]|new[441]	_	_
+17-25	1124-1128	sand	place[82]|place[441]	giv[82]|new[441]	_	_
+17-26	1129-1132	and	place[82]|place[441]	giv[82]|new[441]	_	_
+17-27	1133-1138	rocks	place[82]|place[441]	giv[82]|new[441]	_	_
+17-28	1139-1144	which	place[82]|place[441]	giv[82]|new[441]	_	_
+17-29	1145-1149	have	place[82]|place[441]	giv[82]|new[441]	_	_
+17-30	1150-1157	vaguely	place[82]|place[441]	giv[82]|new[441]	_	_
+17-31	1158-1161	the	place[82]|place[441]	giv[82]|new[441]	_	_
+17-32	1162-1167	shape	place[82]|place[441]	giv[82]|new[441]	_	_
+17-33	1168-1170	of	place[82]|place[441]	giv[82]|new[441]	_	_
+17-34	1171-1172	a	place[82]|place[441]	giv[82]|new[441]	_	_
+17-35	1173-1179	castle	place[82]|place[441]	giv[82]|new[441]	_	_
 17-36	1180-1181	.	_	_	_	_
 
 #Text=From there , you can look up at the islands La Désirade , Petite Terre , Marie Galante , Les Saintes , La Dominique but also have a perfect view of the islands Grande Terre and far away Basse Terre .
 18-1	1182-1186	From	_	_	_	_
-18-2	1187-1192	there	_	_	_	_
+18-2	1187-1192	there	place[89]	giv[89]	_	_
 18-3	1193-1194	,	_	_	_	_
-18-4	1195-1198	you	person	giv	ana	21-1
+18-4	1195-1198	you	person[90]	giv[90]	ana	21-1[130_90]
 18-5	1199-1202	can	_	_	_	_
 18-6	1203-1207	look	_	_	_	_
 18-7	1208-1210	up	_	_	_	_
 18-8	1211-1213	at	_	_	_	_
-18-9	1214-1217	the	place[62]	acc[62]	appos	18-11[63_62]
-18-10	1218-1225	islands	place[62]	acc[62]	_	_
-18-11	1226-1228	La	place[63]|place[64]	giv[63]|giv[64]	_	_
-18-12	1229-1237	Désirade	place[63]|place[64]	giv[63]|giv[64]	_	_
-18-13	1238-1239	,	place[63]	giv[63]	_	_
-18-14	1240-1246	Petite	place[63]|place[65]	giv[63]|giv[65]	_	_
-18-15	1247-1252	Terre	place[63]|place[65]	giv[63]|giv[65]	_	_
-18-16	1253-1254	,	place[63]	giv[63]	_	_
-18-17	1255-1260	Marie	place[63]|place[66]	giv[63]|giv[66]	_	_
-18-18	1261-1268	Galante	place[63]|place[66]	giv[63]|giv[66]	_	_
-18-19	1269-1270	,	place[63]	giv[63]	_	_
-18-20	1271-1274	Les	place[63]	giv[63]	_	_
-18-21	1275-1282	Saintes	place[63]	giv[63]	_	_
-18-22	1283-1284	,	place[63]	giv[63]	_	_
-18-23	1285-1287	La	place[63]	giv[63]	_	_
-18-24	1288-1297	Dominique	place[63]	giv[63]	_	_
+18-9	1214-1217	the	place[93]	acc[93]	appos	18-11[94_93]
+18-10	1218-1225	islands	place[93]	acc[93]	_	_
+18-11	1226-1228	La	place[94]|place[95]	giv[94]|giv[95]	_	_
+18-12	1229-1237	Désirade	place[94]|place[95]	giv[94]|giv[95]	_	_
+18-13	1238-1239	,	place[94]	giv[94]	_	_
+18-14	1240-1246	Petite	place[94]|place[96]	giv[94]|giv[96]	_	_
+18-15	1247-1252	Terre	place[94]|place[96]	giv[94]|giv[96]	_	_
+18-16	1253-1254	,	place[94]	giv[94]	_	_
+18-17	1255-1260	Marie	place[94]|place[97]	giv[94]|giv[97]	_	_
+18-18	1261-1268	Galante	place[94]|place[97]	giv[94]|giv[97]	_	_
+18-19	1269-1270	,	place[94]	giv[94]	_	_
+18-20	1271-1274	Les	place[94]|place[98]	giv[94]|giv[98]	_	_
+18-21	1275-1282	Saintes	place[94]|place[98]	giv[94]|giv[98]	_	_
+18-22	1283-1284	,	place[94]	giv[94]	_	_
+18-23	1285-1287	La	place[94]	giv[94]	_	_
+18-24	1288-1297	Dominique	place[94]	giv[94]	_	_
 18-25	1298-1301	but	_	_	_	_
 18-26	1302-1306	also	_	_	_	_
 18-27	1307-1311	have	_	_	_	_
@@ -297,39 +297,39 @@
 18-29	1314-1321	perfect	_	_	_	_
 18-30	1322-1326	view	_	_	_	_
 18-31	1327-1329	of	_	_	_	_
-18-32	1330-1333	the	place[70]	acc[70]	appos	18-34[71_70]
-18-33	1334-1341	islands	place[70]	acc[70]	_	_
-18-34	1342-1348	Grande	place[71]|place[72]	giv[71]|giv[72]	_	_
-18-35	1349-1354	Terre	place[71]|place[72]	giv[71]|giv[72]	_	_
-18-36	1355-1358	and	place[71]	giv[71]	_	_
-18-37	1359-1362	far	place[71]	giv[71]	_	_
-18-38	1363-1367	away	place[71]	giv[71]	_	_
-18-39	1368-1373	Basse	place[71]|place[73]	giv[71]|giv[73]	coref	35-11[168_73]
-18-40	1374-1379	Terre	place[71]|place[73]	giv[71]|giv[73]	_	_
+18-32	1330-1333	the	place[101]	acc[101]	coref	18-34[102_101]
+18-33	1334-1341	islands	place[101]	acc[101]	_	_
+18-34	1342-1348	Grande	place[102]|place[103]	giv[102]|giv[103]	_	_
+18-35	1349-1354	Terre	place[102]|place[103]	giv[102]|giv[103]	_	_
+18-36	1355-1358	and	place[102]	giv[102]	_	_
+18-37	1359-1362	far	place[102]	giv[102]	_	_
+18-38	1363-1367	away	place[102]	giv[102]	_	_
+18-39	1368-1373	Basse	place[102]|place[104]	giv[102]|giv[104]	coref	35-11[259_104]
+18-40	1374-1379	Terre	place[102]|place[104]	giv[102]|giv[104]	_	_
 18-41	1380-1381	.	_	_	_	_
 
 #Text=St Anne a very nice but also very touristy city and beach ( maybe the tourists primary area of Guadeloupe ) .
-19-1	1382-1384	St	place[74]	new[74]	appos	19-3[75_74]
-19-2	1385-1389	Anne	place[74]	new[74]	_	_
-19-3	1390-1391	a	place[75]	giv[75]	_	_
-19-4	1392-1396	very	place[75]	giv[75]	_	_
-19-5	1397-1401	nice	place[75]	giv[75]	_	_
-19-6	1402-1405	but	place[75]	giv[75]	_	_
-19-7	1406-1410	also	place[75]	giv[75]	_	_
-19-8	1411-1415	very	place[75]	giv[75]	_	_
-19-9	1416-1424	touristy	place[75]	giv[75]	_	_
-19-10	1425-1429	city	place[75]	giv[75]	_	_
-19-11	1430-1433	and	place[75]	giv[75]	_	_
-19-12	1434-1439	beach	place[75]	giv[75]	_	_
-19-13	1440-1441	(	place[75]	giv[75]	_	_
-19-14	1442-1447	maybe	place[75]	giv[75]	_	_
-19-15	1448-1451	the	place[75]	giv[75]	_	_
-19-16	1452-1460	tourists	place[75]	giv[75]	_	_
-19-17	1461-1468	primary	place[75]	giv[75]	_	_
-19-18	1469-1473	area	place[75]	giv[75]	_	_
-19-19	1474-1476	of	place[75]	giv[75]	_	_
-19-20	1477-1487	Guadeloupe	place|place[75]	giv|giv[75]	coref	29-9[147_0]
-19-21	1488-1489	)	place[75]	giv[75]	_	_
+19-1	1382-1384	St	place[105]	new[105]	appos	19-3[106_105]
+19-2	1385-1389	Anne	place[105]	new[105]	_	_
+19-3	1390-1391	a	place[106]	giv[106]	_	_
+19-4	1392-1396	very	place[106]	giv[106]	_	_
+19-5	1397-1401	nice	place[106]	giv[106]	_	_
+19-6	1402-1405	but	place[106]	giv[106]	_	_
+19-7	1406-1410	also	place[106]	giv[106]	_	_
+19-8	1411-1415	very	place[106]	giv[106]	_	_
+19-9	1416-1424	touristy	place[106]	giv[106]	_	_
+19-10	1425-1429	city	place[106]	giv[106]	_	_
+19-11	1430-1433	and	place[106]	giv[106]	_	_
+19-12	1434-1439	beach	place[106]	giv[106]	_	_
+19-13	1440-1441	(	place[106]	giv[106]	_	_
+19-14	1442-1447	maybe	place[106]	giv[106]	_	_
+19-15	1448-1451	the	place[106]	giv[106]	_	_
+19-16	1452-1460	tourists	place[106]	giv[106]	_	_
+19-17	1461-1468	primary	place[106]	giv[106]	_	_
+19-18	1469-1473	area	place[106]	giv[106]	_	_
+19-19	1474-1476	of	place[106]	giv[106]	_	_
+19-20	1477-1487	Guadeloupe	place[106]	giv[106]	_	_
+19-21	1488-1489	)	place[106]	giv[106]	_	_
 19-22	1490-1491	.	_	_	_	_
 
 #Text=L'Americano , bd Georges Mandel , 0590883899 : bar / restaurant offers free salsa courses on Saturdays and live performances some days .
@@ -358,7 +358,7 @@
 20-23	1627-1628	.	_	_	_	_
 
 #Text=You will find all kind of bars .
-21-1	1629-1632	You	person	giv	ana	22-1
+21-1	1629-1632	You	person[130]	giv[130]	ana	22-1[133_130]
 21-2	1633-1637	will	_	_	_	_
 21-3	1638-1642	find	_	_	_	_
 21-4	1643-1646	all	_	_	_	_
@@ -368,7 +368,7 @@
 21-8	1660-1661	.	_	_	_	_
 
 #Text=You can try Club Med , 0590854950 fax : 0590854959 ( for instance , others resort may propose this formula too ) for a one day all inclusive ( breakfast , buffet , bars , drinks , beach volley , windsurf , boat , gym , dance courses ... ) for about € 46 , so it may be a good deal ( as it costs € 7 one hour of windsurf ) .
-22-1	1662-1665	You	person	giv	ana	24-9
+22-1	1662-1665	You	person[133]	giv[133]	ana	24-9[181_133]
 22-2	1666-1669	can	_	_	_	_
 22-3	1670-1673	try	_	_	_	_
 22-4	1674-1678	Club	_	_	_	_
@@ -391,40 +391,40 @@
 22-21	1769-1772	too	_	_	_	_
 22-22	1773-1774	)	_	_	_	_
 22-23	1775-1778	for	_	_	_	_
-22-24	1779-1780	a	abstract[96]	new[96]	ana	22-57[0_96]
-22-25	1781-1784	one	abstract[96]	new[96]	_	_
-22-26	1785-1788	day	abstract[96]	new[96]	_	_
-22-27	1789-1792	all	abstract[96]	new[96]	_	_
-22-28	1793-1802	inclusive	abstract[96]	new[96]	_	_
-22-29	1803-1804	(	abstract[96]	new[96]	_	_
-22-30	1805-1814	breakfast	abstract[96]	new[96]	_	_
-22-31	1815-1816	,	abstract[96]	new[96]	_	_
-22-32	1817-1823	buffet	abstract[96]	new[96]	_	_
-22-33	1824-1825	,	abstract[96]	new[96]	_	_
-22-34	1826-1830	bars	abstract[96]	new[96]	_	_
-22-35	1831-1832	,	abstract[96]	new[96]	_	_
-22-36	1833-1839	drinks	abstract[96]	new[96]	_	_
-22-37	1840-1841	,	abstract[96]	new[96]	_	_
-22-38	1842-1847	beach	abstract[96]	new[96]	_	_
-22-39	1848-1854	volley	abstract[96]	new[96]	_	_
-22-40	1855-1856	,	abstract[96]	new[96]	_	_
-22-41	1857-1865	windsurf	abstract[96]	new[96]	_	_
-22-42	1866-1867	,	abstract[96]	new[96]	_	_
-22-43	1868-1872	boat	abstract[96]	new[96]	_	_
-22-44	1873-1874	,	abstract[96]	new[96]	_	_
-22-45	1875-1878	gym	abstract[96]	new[96]	_	_
-22-46	1879-1880	,	abstract[96]	new[96]	_	_
-22-47	1881-1886	dance	abstract[96]	new[96]	_	_
-22-48	1887-1894	courses	abstract[96]	new[96]	_	_
-22-49	1895-1898	...	abstract[96]	new[96]	_	_
-22-50	1899-1900	)	abstract[96]	new[96]	_	_
-22-51	1901-1904	for	abstract[96]	new[96]	_	_
-22-52	1905-1910	about	abstract[96]	new[96]	_	_
-22-53	1911-1912	€	abstract[96]	new[96]	_	_
-22-54	1913-1915	46	abstract[96]	new[96]	_	_
+22-24	1779-1780	a	abstract[142]	new[142]	ana	22-57[164_142]
+22-25	1781-1784	one	abstract[142]	new[142]	_	_
+22-26	1785-1788	day	abstract[142]	new[142]	_	_
+22-27	1789-1792	all	abstract[142]	new[142]	_	_
+22-28	1793-1802	inclusive	abstract[142]	new[142]	_	_
+22-29	1803-1804	(	abstract[142]	new[142]	_	_
+22-30	1805-1814	breakfast	abstract[142]	new[142]	_	_
+22-31	1815-1816	,	abstract[142]	new[142]	_	_
+22-32	1817-1823	buffet	abstract[142]	new[142]	_	_
+22-33	1824-1825	,	abstract[142]	new[142]	_	_
+22-34	1826-1830	bars	abstract[142]	new[142]	_	_
+22-35	1831-1832	,	abstract[142]	new[142]	_	_
+22-36	1833-1839	drinks	abstract[142]	new[142]	_	_
+22-37	1840-1841	,	abstract[142]	new[142]	_	_
+22-38	1842-1847	beach	abstract[142]	new[142]	_	_
+22-39	1848-1854	volley	abstract[142]	new[142]	_	_
+22-40	1855-1856	,	abstract[142]	new[142]	_	_
+22-41	1857-1865	windsurf	abstract[142]	new[142]	_	_
+22-42	1866-1867	,	abstract[142]	new[142]	_	_
+22-43	1868-1872	boat	abstract[142]	new[142]	_	_
+22-44	1873-1874	,	abstract[142]	new[142]	_	_
+22-45	1875-1878	gym	abstract[142]	new[142]	_	_
+22-46	1879-1880	,	abstract[142]	new[142]	_	_
+22-47	1881-1886	dance	abstract[142]	new[142]	_	_
+22-48	1887-1894	courses	abstract[142]	new[142]	_	_
+22-49	1895-1898	...	abstract[142]	new[142]	_	_
+22-50	1899-1900	)	abstract[142]	new[142]	_	_
+22-51	1901-1904	for	abstract[142]	new[142]	_	_
+22-52	1905-1910	about	abstract[142]	new[142]	_	_
+22-53	1911-1912	€	abstract[142]	new[142]	_	_
+22-54	1913-1915	46	abstract[142]	new[142]	_	_
 22-55	1916-1917	,	_	_	_	_
 22-56	1918-1920	so	_	_	_	_
-22-57	1921-1923	it	abstract	giv	_	_
+22-57	1921-1923	it	abstract[164]	giv[164]	_	_
 22-58	1924-1927	may	_	_	_	_
 22-59	1928-1930	be	_	_	_	_
 22-60	1931-1932	a	_	_	_	_
@@ -436,33 +436,33 @@
 22-66	1951-1956	costs	_	_	_	_
 22-67	1957-1958	€	_	_	_	_
 22-68	1959-1960	7	_	_	_	_
-22-69	1961-1964	one	_	_	_	_
-22-70	1965-1969	hour	_	_	_	_
-22-71	1970-1972	of	_	_	_	_
-22-72	1973-1981	windsurf	_	_	_	_
+22-69	1961-1964	one	time[170]	new[170]	cata	22-65[167_170]
+22-70	1965-1969	hour	time[170]	new[170]	_	_
+22-71	1970-1972	of	time[170]	new[170]	_	_
+22-72	1973-1981	windsurf	time[170]	new[170]	_	_
 22-73	1982-1983	)	_	_	_	_
 22-74	1984-1985	.	_	_	_	_
 
 #Text=Morne à l'eau , renowned for its amazing cemetery composed of burial places made of black and white tiles .
-23-1	1986-1991	Morne	_	_	_	_
-23-2	1992-1993	à	_	_	_	_
-23-3	1994-1999	l'eau	_	_	_	_
-23-4	2000-2001	,	_	_	_	_
-23-5	2002-2010	renowned	_	_	_	_
-23-6	2011-2014	for	_	_	_	_
-23-7	2015-2018	its	_	_	_	_
-23-8	2019-2026	amazing	_	_	_	_
-23-9	2027-2035	cemetery	_	_	_	_
-23-10	2036-2044	composed	_	_	_	_
-23-11	2045-2047	of	_	_	_	_
-23-12	2048-2054	burial	_	_	_	_
-23-13	2055-2061	places	_	_	_	_
-23-14	2062-2066	made	_	_	_	_
-23-15	2067-2069	of	_	_	_	_
-23-16	2070-2075	black	_	_	_	_
-23-17	2076-2079	and	_	_	_	_
-23-18	2080-2085	white	_	_	_	_
-23-19	2086-2091	tiles	_	_	_	_
+23-1	1986-1991	Morne	place[173]	new[173]	ana	23-7[175_173]
+23-2	1992-1993	à	place[173]	new[173]	_	_
+23-3	1994-1999	l'eau	place[173]	new[173]	_	_
+23-4	2000-2001	,	place[173]	new[173]	_	_
+23-5	2002-2010	renowned	place[173]	new[173]	_	_
+23-6	2011-2014	for	place[173]	new[173]	_	_
+23-7	2015-2018	its	place[175]|place[173]	giv[175]|new[173]	_	_
+23-8	2019-2026	amazing	place[173]	new[173]	_	_
+23-9	2027-2035	cemetery	place[173]	new[173]	_	_
+23-10	2036-2044	composed	place[173]	new[173]	_	_
+23-11	2045-2047	of	place[173]	new[173]	_	_
+23-12	2048-2054	burial	place[173]	new[173]	_	_
+23-13	2055-2061	places	place[173]	new[173]	_	_
+23-14	2062-2066	made	place[173]	new[173]	_	_
+23-15	2067-2069	of	place[173]	new[173]	_	_
+23-16	2070-2075	black	place[173]	new[173]	_	_
+23-17	2076-2079	and	place[173]	new[173]	_	_
+23-18	2080-2085	white	place[173]	new[173]	_	_
+23-19	2086-2091	tiles	place[173]	new[173]	_	_
 23-20	2092-2093	.	_	_	_	_
 
 #Text=Anse Bertrand , not far from there , you can visit La pointe de la Grande Vigie , northern point of mainland Guadeloupe .
@@ -474,7 +474,7 @@
 24-6	2118-2122	from	_	_	_	_
 24-7	2123-2128	there	_	_	_	_
 24-8	2129-2130	,	_	_	_	_
-24-9	2131-2134	you	person	giv	ana	25-1
+24-9	2131-2134	you	person[181]	giv[181]	ana	25-1[187_181]
 24-10	2135-2138	can	_	_	_	_
 24-11	2139-2144	visit	_	_	_	_
 24-12	2145-2147	La	_	_	_	_
@@ -487,30 +487,30 @@
 24-19	2176-2184	northern	_	_	_	_
 24-20	2185-2190	point	_	_	_	_
 24-21	2191-2193	of	_	_	_	_
-24-22	2194-2202	mainland	place[122]	giv[122]	coref	30-8[149_122]
-24-23	2203-2213	Guadeloupe	place[122]	giv[122]	_	_
+24-22	2194-2202	mainland	place[186]	giv[186]	coref	30-8[225_186]
+24-23	2203-2213	Guadeloupe	place[186]	giv[186]	_	_
 24-24	2214-2215	.	_	_	_	_
 
 #Text=You can also go to Porte d'Enfer , a beautiful still stripe of sea between a scenery of reefs .
-25-1	2216-2219	You	person	giv	ana	26-12
+25-1	2216-2219	You	person[187]	giv[187]	ana	26-12[200_187]
 25-2	2220-2223	can	_	_	_	_
 25-3	2224-2228	also	_	_	_	_
 25-4	2229-2231	go	_	_	_	_
 25-5	2232-2234	to	_	_	_	_
-25-6	2235-2240	Porte	place[124]	new[124]	appos	25-9[125_124]
-25-7	2241-2248	d'Enfer	place[124]	new[124]	_	_
-25-8	2249-2250	,	place[124]	new[124]	_	_
-25-9	2251-2252	a	place[125]	giv[125]	_	_
-25-10	2253-2262	beautiful	place[125]	giv[125]	_	_
-25-11	2263-2268	still	place[125]	giv[125]	_	_
-25-12	2269-2275	stripe	place[125]	giv[125]	_	_
-25-13	2276-2278	of	place[125]	giv[125]	_	_
-25-14	2279-2282	sea	place[125]|place[126]	giv[125]|new[126]	coref	26-26[135_126]
-25-15	2283-2290	between	place[125]	giv[125]	_	_
-25-16	2291-2292	a	place[125]	giv[125]	_	_
-25-17	2293-2300	scenery	place[125]	giv[125]	_	_
-25-18	2301-2303	of	place[125]	giv[125]	_	_
-25-19	2304-2309	reefs	place[125]	giv[125]	_	_
+25-6	2235-2240	Porte	_	_	_	_
+25-7	2241-2248	d'Enfer	_	_	_	_
+25-8	2249-2250	,	_	_	_	_
+25-9	2251-2252	a	_	_	_	_
+25-10	2253-2262	beautiful	_	_	_	_
+25-11	2263-2268	still	_	_	_	_
+25-12	2269-2275	stripe	_	_	_	_
+25-13	2276-2278	of	_	_	_	_
+25-14	2279-2282	sea	place[191]	new[191]	coref	26-26[205_191]
+25-15	2283-2290	between	_	_	_	_
+25-16	2291-2292	a	_	_	_	_
+25-17	2293-2300	scenery	_	_	_	_
+25-18	2301-2303	of	_	_	_	_
+25-19	2304-2309	reefs	_	_	_	_
 25-20	2310-2311	.	_	_	_	_
 
 #Text=From there , walk one hour along the cliff , and you will discover a Souffleur , kind of geyser due to the pressure of the sea .
@@ -525,22 +525,22 @@
 26-9	2349-2354	cliff	_	_	_	_
 26-10	2355-2356	,	_	_	_	_
 26-11	2357-2360	and	_	_	_	_
-26-12	2361-2364	you	person	giv	ana	31-7
+26-12	2361-2364	you	person[200]	giv[200]	ana	31-7[227_200]
 26-13	2365-2369	will	_	_	_	_
 26-14	2370-2378	discover	_	_	_	_
-26-15	2379-2380	a	object[132]	new[132]	appos	26-18[133_132]
-26-16	2381-2390	Souffleur	object[132]	new[132]	_	_
-26-17	2391-2392	,	object[132]	new[132]	_	_
-26-18	2393-2397	kind	object[133]	giv[133]	_	_
-26-19	2398-2400	of	object[133]	giv[133]	_	_
-26-20	2401-2407	geyser	object[133]	giv[133]	_	_
-26-21	2408-2411	due	object[133]	giv[133]	_	_
-26-22	2412-2414	to	object[133]	giv[133]	_	_
-26-23	2415-2418	the	object[133]	giv[133]	_	_
-26-24	2419-2427	pressure	object[133]	giv[133]	_	_
-26-25	2428-2430	of	object[133]	giv[133]	_	_
-26-26	2431-2434	the	object[133]|place[135]	giv[133]|giv[135]	_	_
-26-27	2435-2438	sea	object[133]|place[135]	giv[133]|giv[135]	_	_
+26-15	2379-2380	a	object[202]	new[202]	appos	26-18[203_202]
+26-16	2381-2390	Souffleur	object[202]	new[202]	_	_
+26-17	2391-2392	,	object[202]	new[202]	_	_
+26-18	2393-2397	kind	object[203]	giv[203]	_	_
+26-19	2398-2400	of	object[203]	giv[203]	_	_
+26-20	2401-2407	geyser	object[203]	giv[203]	_	_
+26-21	2408-2411	due	object[203]	giv[203]	_	_
+26-22	2412-2414	to	object[203]	giv[203]	_	_
+26-23	2415-2418	the	object[203]	giv[203]	_	_
+26-24	2419-2427	pressure	object[203]	giv[203]	_	_
+26-25	2428-2430	of	object[203]	giv[203]	_	_
+26-26	2431-2434	the	object[203]|place[205]	giv[203]|giv[205]	_	_
+26-27	2435-2438	sea	object[203]|place[205]	giv[203]|giv[205]	_	_
 26-28	2439-2440	.	_	_	_	_
 
 #Text=Abymes nothing special to see , but the weekend , there are 3 local nightclubs : L'instant , Caraibes and Latin Club .
@@ -556,20 +556,20 @@
 27-10	2489-2490	,	_	_	_	_
 27-11	2491-2496	there	_	_	_	_
 27-12	2497-2500	are	_	_	_	_
-27-13	2501-2502	3	place[138]|place[310]	new[138]|new[310]	appos|ana	27-17[139_138]|28-1[0_310]
-27-14	2503-2508	local	place[138]|place[310]	new[138]|new[310]	_	_
-27-15	2509-2519	nightclubs	place[138]|place[310]	new[138]|new[310]	_	_
-27-16	2520-2521	:	place[138]|place[310]	new[138]|new[310]	_	_
-27-17	2522-2531	L'instant	place[139]|place[310]	giv[139]|new[310]	_	_
-27-18	2532-2533	,	place[139]|place[310]	giv[139]|new[310]	_	_
-27-19	2534-2542	Caraibes	place[139]|place[310]	giv[139]|new[310]	_	_
-27-20	2543-2546	and	place[139]|place[310]	giv[139]|new[310]	_	_
-27-21	2547-2552	Latin	place[139]|place[310]	giv[139]|new[310]	_	_
-27-22	2553-2557	Club	place[139]|place[310]	giv[139]|new[310]	_	_
+27-13	2501-2502	3	place[209]|place[448]	new[209]|new[448]	appos|ana	27-17[210_209]|28-1[216_448]
+27-14	2503-2508	local	place[209]|place[448]	new[209]|new[448]	_	_
+27-15	2509-2519	nightclubs	place[209]|place[448]	new[209]|new[448]	_	_
+27-16	2520-2521	:	place[209]|place[448]	new[209]|new[448]	_	_
+27-17	2522-2531	L'instant	place[210]|place[448]	giv[210]|new[448]	_	_
+27-18	2532-2533	,	place[210]|place[448]	giv[210]|new[448]	_	_
+27-19	2534-2542	Caraibes	place[210]|place[448]	giv[210]|new[448]	_	_
+27-20	2543-2546	and	place[210]|place[448]	giv[210]|new[448]	_	_
+27-21	2547-2552	Latin	place[210]|place[448]	giv[210]|new[448]	_	_
+27-22	2553-2557	Club	place[210]|place[448]	giv[210]|new[448]	_	_
 27-23	2558-2559	.	_	_	_	_
 
 #Text=They are located at the same place .
-28-1	2560-2564	They	place	giv	_	_
+28-1	2560-2564	They	place[216]	giv[216]	_	_
 28-2	2565-2568	are	_	_	_	_
 28-3	2569-2576	located	_	_	_	_
 28-4	2577-2579	at	_	_	_	_
@@ -579,15 +579,15 @@
 28-8	2595-2596	.	_	_	_	_
 
 #Text=Baie-Mahault : the industrial and commercial zone of Guadeloupe , nothing special to do or see .
-29-1	2597-2609	Baie-Mahault	place	new	appos	29-3[146_0]
+29-1	2597-2609	Baie-Mahault	place[219]	new[219]	coref	29-3[221_219]
 29-2	2610-2611	:	_	_	_	_
-29-3	2612-2615	the	place[146]	giv[146]	_	_
-29-4	2616-2626	industrial	place[146]	giv[146]	_	_
-29-5	2627-2630	and	place[146]	giv[146]	_	_
-29-6	2631-2641	commercial	place[146]	giv[146]	_	_
-29-7	2642-2646	zone	place[146]	giv[146]	_	_
-29-8	2647-2649	of	place[146]	giv[146]	_	_
-29-9	2650-2660	Guadeloupe	place[146]|place[147]	giv[146]|giv[147]	_	_
+29-3	2612-2615	the	place[221]	giv[221]	_	_
+29-4	2616-2626	industrial	place[221]	giv[221]	_	_
+29-5	2627-2630	and	place[221]	giv[221]	_	_
+29-6	2631-2641	commercial	place[221]	giv[221]	_	_
+29-7	2642-2646	zone	place[221]	giv[221]	_	_
+29-8	2647-2649	of	place[221]	giv[221]	_	_
+29-9	2650-2660	Guadeloupe	place[221]|place[222]	giv[221]|giv[222]	_	_
 29-10	2661-2662	,	_	_	_	_
 29-11	2663-2670	nothing	_	_	_	_
 29-12	2671-2678	special	_	_	_	_
@@ -605,8 +605,8 @@
 30-5	2718-2726	shopping	_	_	_	_
 30-6	2727-2731	mall	_	_	_	_
 30-7	2732-2734	of	_	_	_	_
-30-8	2735-2738	the	place[149]	giv[149]	coref	39-13[195_149]
-30-9	2739-2745	island	place[149]	giv[149]	_	_
+30-8	2735-2738	the	place[225]	giv[225]	coref	39-13[302_225]
+30-9	2739-2745	island	place[225]	giv[225]	_	_
 30-10	2746-2747	.	_	_	_	_
 
 #Text=Not too far from there , you can find a local bar / nightclub named Bik Kreyol , Beau Soleil , 0590258046 or 0590920648 ( Entrance € 5 , Drinks € 3 ) .
@@ -616,7 +616,7 @@
 31-4	2760-2764	from	_	_	_	_
 31-5	2765-2770	there	_	_	_	_
 31-6	2771-2772	,	_	_	_	_
-31-7	2773-2776	you	person	giv	ana	36-38
+31-7	2773-2776	you	person[227]	giv[227]	ana	36-38[273_227]
 31-8	2777-2780	can	_	_	_	_
 31-9	2781-2785	find	_	_	_	_
 31-10	2786-2787	a	_	_	_	_
@@ -646,27 +646,27 @@
 31-34	2898-2899	.	_	_	_	_
 
 #Text=Local music ( ragga , zouk , rnb ) and local customers .
-32-1	2900-2905	Local	abstract[156]	new[156]	appos	32-3[237_156]
-32-2	2906-2911	music	abstract[156]	new[156]	_	_
-32-3	2912-2913	(	abstract[237]	giv[237]	_	_
-32-4	2914-2919	ragga	abstract[237]	giv[237]	_	_
-32-5	2920-2921	,	abstract[237]	giv[237]	_	_
-32-6	2922-2926	zouk	abstract[237]	giv[237]	_	_
-32-7	2927-2928	,	abstract[237]	giv[237]	_	_
-32-8	2929-2932	rnb	abstract[237]	giv[237]	_	_
-32-9	2933-2934	)	abstract[237]	giv[237]	_	_
+32-1	2900-2905	Local	abstract[243]	new[243]	appos	32-3[378_243]
+32-2	2906-2911	music	abstract[243]	new[243]	_	_
+32-3	2912-2913	(	abstract[378]	giv[378]	_	_
+32-4	2914-2919	ragga	abstract[378]	giv[378]	_	_
+32-5	2920-2921	,	abstract[378]	giv[378]	_	_
+32-6	2922-2926	zouk	abstract[378]	giv[378]	_	_
+32-7	2927-2928	,	abstract[378]	giv[378]	_	_
+32-8	2929-2932	rnb	abstract[378]	giv[378]	_	_
+32-9	2933-2934	)	abstract[378]	giv[378]	_	_
 32-10	2935-2938	and	_	_	_	_
 32-11	2939-2944	local	_	_	_	_
 32-12	2945-2954	customers	_	_	_	_
 32-13	2955-2956	.	_	_	_	_
 
 #Text=The building is typical , it 's a former warehouse .
-33-1	2957-2960	The	place[162]	new[162]	ana	33-6[0_162]
-33-2	2961-2969	building	place[162]	new[162]	_	_
+33-1	2957-2960	The	place[252]	new[252]	ana	33-6[253_252]
+33-2	2961-2969	building	place[252]	new[252]	_	_
 33-3	2970-2972	is	_	_	_	_
 33-4	2973-2980	typical	_	_	_	_
 33-5	2981-2982	,	_	_	_	_
-33-6	2983-2985	it	place	giv	_	_
+33-6	2983-2985	it	place[253]	giv[253]	_	_
 33-7	2986-2988	's	_	_	_	_
 33-8	2989-2990	a	_	_	_	_
 33-9	2991-2997	former	_	_	_	_
@@ -681,18 +681,18 @@
 35-1	3029-3031	Do	_	_	_	_
 35-2	3032-3035	n't	_	_	_	_
 35-3	3036-3040	miss	_	_	_	_
-35-4	3041-3044	the	object[166]	new[166]	appos	35-12[268_166]
-35-5	3045-3056	spectacular	object[166]	new[166]	_	_
-35-6	3057-3067	waterfalls	object[166]	new[166]	_	_
-35-7	3068-3070	in	object[166]	new[166]	_	_
-35-8	3071-3074	the	object[166]	new[166]	_	_
-35-9	3075-3081	jungle	object[166]	new[166]	_	_
-35-10	3082-3084	of	object[166]	new[166]	_	_
-35-11	3085-3096	Basse-Terre	object[166]|place[168]	new[166]|giv[168]	_	_
-35-12	3097-3098	(	object[268]	giv[268]	_	_
-35-13	3099-3105	Carbet	object[268]	giv[268]	_	_
-35-14	3106-3111	Falls	object[268]	giv[268]	_	_
-35-15	3112-3113	)	object[268]	giv[268]	_	_
+35-4	3041-3044	the	object[257]	new[257]	appos	35-12[409_257]
+35-5	3045-3056	spectacular	object[257]	new[257]	_	_
+35-6	3057-3067	waterfalls	object[257]	new[257]	_	_
+35-7	3068-3070	in	object[257]	new[257]	_	_
+35-8	3071-3074	the	object[257]	new[257]	_	_
+35-9	3075-3081	jungle	object[257]	new[257]	_	_
+35-10	3082-3084	of	object[257]	new[257]	_	_
+35-11	3085-3096	Basse-Terre	object[257]|place[259]	new[257]|giv[259]	_	_
+35-12	3097-3098	(	object[409]	giv[409]	_	_
+35-13	3099-3105	Carbet	object[409]	giv[409]	_	_
+35-14	3106-3111	Falls	object[409]	giv[409]	_	_
+35-15	3112-3113	)	object[409]	giv[409]	_	_
 35-16	3114-3115	.	_	_	_	_
 
 #Text=Some are within 5 – 10 minutes walking distance from the nearest parking lot , some require at least 3 – 4 hours of hiking ( those are , of course less frequented by other tourists and you might find yourself alone at a spectacular waterfall in the middle of nowhere - an amazing experience ! ) .
@@ -711,7 +711,7 @@
 36-13	3181-3188	parking	_	_	_	_
 36-14	3189-3192	lot	_	_	_	_
 36-15	3193-3194	,	_	_	_	_
-36-16	3195-3199	some	_	_	_	_
+36-16	3195-3199	some	object[267]	acc[267]	ana	36-27[270_267]
 36-17	3200-3207	require	_	_	_	_
 36-18	3208-3210	at	_	_	_	_
 36-19	3211-3216	least	_	_	_	_
@@ -722,7 +722,7 @@
 36-24	3229-3231	of	_	_	_	_
 36-25	3232-3238	hiking	_	_	_	_
 36-26	3239-3240	(	_	_	_	_
-36-27	3241-3246	those	_	_	_	_
+36-27	3241-3246	those	object[270]	giv[270]	_	_
 36-28	3247-3250	are	_	_	_	_
 36-29	3251-3252	,	_	_	_	_
 36-30	3253-3255	of	_	_	_	_
@@ -733,10 +733,10 @@
 36-35	3282-3287	other	_	_	_	_
 36-36	3288-3296	tourists	_	_	_	_
 36-37	3297-3300	and	_	_	_	_
-36-38	3301-3304	you	person	giv	ana	36-41
+36-38	3301-3304	you	person[273]	giv[273]	ana	36-41[274_273]
 36-39	3305-3310	might	_	_	_	_
 36-40	3311-3315	find	_	_	_	_
-36-41	3316-3324	yourself	person	giv	ana	39-25
+36-41	3316-3324	yourself	person[274]	giv[274]	ana	39-25[306_274]
 36-42	3325-3330	alone	_	_	_	_
 36-43	3331-3333	at	_	_	_	_
 36-44	3334-3335	a	_	_	_	_
@@ -765,10 +765,10 @@
 37-7	3452-3453	(	_	_	_	_
 37-8	3454-3459	check	_	_	_	_
 37-9	3460-3463	for	_	_	_	_
-37-10	3464-3471	opening	time[185]	new[185]	coref	37-13[0_185]
-37-11	3472-3477	times	time[185]	new[185]	_	_
+37-10	3464-3471	opening	time[285]	new[285]	ana	37-13[286_285]
+37-11	3472-3477	times	time[285]	new[285]	_	_
 37-12	3478-3480	as	_	_	_	_
-37-13	3481-3485	they	time	giv	_	_
+37-13	3481-3485	they	time[286]	giv[286]	_	_
 37-14	3486-3489	may	_	_	_	_
 37-15	3490-3494	very	_	_	_	_
 37-16	3495-3499	from	_	_	_	_
@@ -822,19 +822,19 @@
 39-10	3730-3732	to	_	_	_	_
 39-11	3733-3736	get	_	_	_	_
 39-12	3737-3743	around	_	_	_	_
-39-13	3744-3747	the	place[195]	giv[195]	_	_
-39-14	3748-3754	island	place[195]	giv[195]	_	_
+39-13	3744-3747	the	place[302]	giv[302]	_	_
+39-14	3748-3754	island	place[302]	giv[302]	_	_
 39-15	3755-3756	,	_	_	_	_
-39-16	3757-3758	a	_	_	_	_
-39-17	3759-3763	ride	_	_	_	_
-39-18	3764-3766	on	_	_	_	_
-39-19	3767-3770	the	_	_	_	_
-39-20	3771-3774	bus	_	_	_	_
+39-16	3757-3758	a	event[303]	new[303]	cata	39-3[299_303]
+39-17	3759-3763	ride	event[303]	new[303]	_	_
+39-18	3764-3766	on	event[303]	new[303]	_	_
+39-19	3767-3770	the	event[303]	new[303]	_	_
+39-20	3771-3774	bus	event[303]	new[303]	_	_
 39-21	3775-3777	is	_	_	_	_
 39-22	3778-3783	still	_	_	_	_
 39-23	3784-3786	an	_	_	_	_
 39-24	3787-3797	experience	_	_	_	_
-39-25	3798-3801	you	person	giv	ana	40-12
+39-25	3798-3801	you	person[306]	giv[306]	ana	40-12[311_306]
 39-26	3802-3808	should	_	_	_	_
 39-27	3809-3812	not	_	_	_	_
 39-28	3813-3817	miss	_	_	_	_
@@ -852,7 +852,7 @@
 40-9	3858-3866	fearless	_	_	_	_
 40-10	3867-3874	drivers	_	_	_	_
 40-11	3875-3876	,	_	_	_	_
-40-12	3877-3880	you	person	giv	_	_
+40-12	3877-3880	you	person[311]	giv[311]	_	_
 40-13	3881-3884	can	_	_	_	_
 40-14	3885-3890	enjoy	_	_	_	_
 40-15	3891-3894	the	_	_	_	_

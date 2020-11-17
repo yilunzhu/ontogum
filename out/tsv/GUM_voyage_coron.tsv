@@ -1,35 +1,35 @@
-#FORMAT=WebAnno TSV 3.1
+#FORMAT=WebAnno TSV 3.2
 #T_SP=webanno.custom.Referent|entity|infstat
 #T_RL=webanno.custom.Coref|type|BT_webanno.custom.Referent
 
 
 #Text=Coron
-1-1	0-5	Coron	place	new	coref	2-1
+1-1	0-5	Coron	place[1]	new[1]	coref	2-1[2_1]
 
 #Text=Coron is in the province of Palawan , Philippines on Busuanga Island .
-2-1	6-11	Coron	place	giv	ana	3-1
+2-1	6-11	Coron	place[2]	giv[2]	ana	3-1[9_2]
 2-2	12-14	is	_	_	_	_
 2-3	15-17	in	_	_	_	_
-2-4	18-21	the	place[3]	new[3]	coref	27-11[0_3]
-2-5	22-30	province	place[3]	new[3]	_	_
-2-6	31-33	of	place[3]	new[3]	_	_
-2-7	34-41	Palawan	place[3]	new[3]	_	_
-2-8	42-43	,	place[3]	new[3]	_	_
-2-9	44-55	Philippines	place[3]	new[3]	_	_
-2-10	56-58	on	place[3]	new[3]	_	_
-2-11	59-67	Busuanga	place[3]|place[5]	new[3]|new[5]	coref	3-7[8_5]
-2-12	68-74	Island	place[3]|place[5]	new[3]|new[5]	_	_
+2-4	18-21	the	place[5]	new[5]	coref	27-11[202_5]
+2-5	22-30	province	place[5]	new[5]	_	_
+2-6	31-33	of	place[5]	new[5]	_	_
+2-7	34-41	Palawan	place[5]	new[5]	_	_
+2-8	42-43	,	place[5]	new[5]	_	_
+2-9	44-55	Philippines	place[5]	new[5]	_	_
+2-10	56-58	on	_	_	_	_
+2-11	59-67	Busuanga	place[8]	new[8]	coref	3-7[12_8]
+2-12	68-74	Island	place[8]	new[8]	_	_
 2-13	75-76	.	_	_	_	_
 
 #Text=It is the largest town on the island and has the largest share of accommodations .
-3-1	77-79	It	place	giv	coref	5-1
+3-1	77-79	It	place[9]	giv[9]	coref	5-7[21_9]
 3-2	80-82	is	_	_	_	_
 3-3	83-86	the	_	_	_	_
 3-4	87-94	largest	_	_	_	_
 3-5	95-99	town	_	_	_	_
 3-6	100-102	on	_	_	_	_
-3-7	103-106	the	place[8]	giv[8]	_	_
-3-8	107-113	island	place[8]	giv[8]	_	_
+3-7	103-106	the	place[12]	giv[12]	_	_
+3-8	107-113	island	place[12]	giv[12]	_	_
 3-9	114-117	and	_	_	_	_
 3-10	118-121	has	_	_	_	_
 3-11	122-125	the	_	_	_	_
@@ -43,50 +43,50 @@
 4-1	160-170	Background	_	_	_	_
 
 #Text=Coron is both the name of the largest town on the island of Busuanga , and the name of a different , smaller island just offshore .
-5-1	171-176	Coron	place	giv	_	_
+5-1	171-176	Coron	_	_	_	_
 5-2	177-179	is	_	_	_	_
 5-3	180-184	both	_	_	_	_
 5-4	185-188	the	_	_	_	_
 5-5	189-193	name	_	_	_	_
 5-6	194-196	of	_	_	_	_
-5-7	197-200	the	_	_	_	_
-5-8	201-208	largest	_	_	_	_
-5-9	209-213	town	_	_	_	_
-5-10	214-216	on	_	_	_	_
-5-11	217-220	the	_	_	_	_
-5-12	221-227	island	_	_	_	_
-5-13	228-230	of	_	_	_	_
-5-14	231-239	Busuanga	_	_	_	_
+5-7	197-200	the	place[21]	giv[21]	coref	16-13[106_21]
+5-8	201-208	largest	place[21]	giv[21]	_	_
+5-9	209-213	town	place[21]	giv[21]	_	_
+5-10	214-216	on	place[21]	giv[21]	_	_
+5-11	217-220	the	place[21]|place[22]	giv[21]|new[22]	coref	25-7[179_22]
+5-12	221-227	island	place[21]|place[22]	giv[21]|new[22]	_	_
+5-13	228-230	of	place[21]|place[22]	giv[21]|new[22]	_	_
+5-14	231-239	Busuanga	place[21]|place[22]	giv[21]|new[22]	_	_
 5-15	240-241	,	_	_	_	_
 5-16	242-245	and	_	_	_	_
 5-17	246-249	the	_	_	_	_
 5-18	250-254	name	_	_	_	_
 5-19	255-257	of	_	_	_	_
-5-20	258-259	a	place[15]	new[15]	coref	9-6[39_15]
-5-21	260-269	different	place[15]	new[15]	_	_
-5-22	270-271	,	place[15]	new[15]	_	_
-5-23	272-279	smaller	place[15]	new[15]	_	_
-5-24	280-286	island	place[15]	new[15]	_	_
-5-25	287-291	just	place[15]	new[15]	_	_
-5-26	292-300	offshore	place[15]	new[15]	_	_
+5-20	258-259	a	place[24]	new[24]	coref	9-6[48_24]
+5-21	260-269	different	place[24]	new[24]	_	_
+5-22	270-271	,	place[24]	new[24]	_	_
+5-23	272-279	smaller	place[24]	new[24]	_	_
+5-24	280-286	island	place[24]	new[24]	_	_
+5-25	287-291	just	place[24]	new[24]	_	_
+5-26	292-300	offshore	place[24]	new[24]	_	_
 5-27	301-302	.	_	_	_	_
 
 #Text=The area is famous for its World War II wreck diving , and the site has been named in many lists of top dive spots in the world .
-6-1	303-306	The	place[16]	giv[16]	ana	6-6[18_16]
-6-2	307-311	area	place[16]	giv[16]	_	_
+6-1	303-306	The	place[25]	giv[25]	ana	6-6[27_25]
+6-2	307-311	area	place[25]	giv[25]	_	_
 6-3	312-314	is	_	_	_	_
 6-4	315-321	famous	_	_	_	_
 6-5	322-325	for	_	_	_	_
-6-6	326-329	its	place[18]	giv[18]	_	_
-6-7	330-335	World	_	_	_	_
-6-8	336-339	War	_	_	_	_
-6-9	340-342	II	_	_	_	_
+6-6	326-329	its	place[27]	giv[27]	_	_
+6-7	330-335	World	event[29]	new[29]	coref	18-7[120_29]
+6-8	336-339	War	event[29]	new[29]	_	_
+6-9	340-342	II	event[29]	new[29]	_	_
 6-10	343-348	wreck	_	_	_	_
 6-11	349-355	diving	_	_	_	_
 6-12	356-357	,	_	_	_	_
 6-13	358-361	and	_	_	_	_
-6-14	362-365	the	place[20]	giv[20]	coref	7-12[30_20]
-6-15	366-370	site	place[20]	giv[20]	_	_
+6-14	362-365	the	place[30]	giv[30]	coref	7-12[39_30]
+6-15	366-370	site	place[30]	giv[30]	_	_
 6-16	371-374	has	_	_	_	_
 6-17	375-379	been	_	_	_	_
 6-18	380-385	named	_	_	_	_
@@ -98,8 +98,8 @@
 6-24	407-411	dive	_	_	_	_
 6-25	412-417	spots	_	_	_	_
 6-26	418-420	in	_	_	_	_
-6-27	421-424	the	_	_	_	_
-6-28	425-430	world	_	_	_	_
+6-27	421-424	the	place[33]	acc[33]	coref	22-27[156_33]
+6-28	425-430	world	place[33]	acc[33]	_	_
 6-29	431-432	.	_	_	_	_
 
 #Text=In September 1944 , a fleet of Japanese ships hiding in the harbor were sunk in a daring raid by the US navy .
@@ -114,8 +114,8 @@
 7-9	473-478	ships	_	_	_	_
 7-10	479-485	hiding	_	_	_	_
 7-11	486-488	in	_	_	_	_
-7-12	489-492	the	place[30]	giv[30]	_	_
-7-13	493-499	harbor	place[30]	giv[30]	_	_
+7-12	489-492	the	place[39]	giv[39]	_	_
+7-13	493-499	harbor	place[39]	giv[39]	_	_
 7-14	500-504	were	_	_	_	_
 7-15	505-509	sunk	_	_	_	_
 7-16	510-512	in	_	_	_	_
@@ -150,9 +150,9 @@
 9-3	645-649	also	_	_	_	_
 9-4	650-661	attractions	_	_	_	_
 9-5	662-664	on	_	_	_	_
-9-6	665-670	Coron	place[39]	giv[39]	coref	11-16[46_39]
-9-7	671-677	Island	place[39]	giv[39]	_	_
-9-8	678-684	itself	_	_	_	_
+9-6	665-670	Coron	place[48]	giv[48]	coref	11-16[65_48]
+9-7	671-677	Island	place[48]	giv[48]	_	_
+9-8	678-684	itself	place[48]	giv[48]	_	_
 9-9	685-686	.	_	_	_	_
 
 #Text=There are many beautiful white sand beaches , mostly tiny and surrounded by large limestone cliffs and wildlife .
@@ -192,46 +192,46 @@
 11-13	873-883	snorkeling	_	_	_	_
 11-14	884-885	,	_	_	_	_
 11-15	886-889	and	_	_	_	_
-11-16	890-893	the	place[46]	giv[46]	_	_
-11-17	894-900	island	place[46]	giv[46]	_	_
+11-16	890-893	the	place[65]	giv[65]	coref	11-29[68_65]
+11-17	894-900	island	place[65]	giv[65]	_	_
 11-18	901-903	is	_	_	_	_
 11-19	904-907	the	_	_	_	_
 11-20	908-917	ancestral	_	_	_	_
 11-21	918-924	domain	_	_	_	_
 11-22	925-927	of	_	_	_	_
-11-23	928-930	an	person[48]	new[48]	coref	13-1[56_48]
-11-24	931-941	indigenous	person[48]	new[48]	_	_
-11-25	942-947	tribe	person[48]	new[48]	_	_
-11-26	948-951	who	person[48]	giv[48]	_	_
-11-27	952-955	are	person[48]	giv[48]	_	_
-11-28	956-964	managing	person[48]	giv[48]	_	_
-11-29	965-968	the	place[49]|person[48]	giv[49]|giv[48]	coref	13-5[57_49]
-11-30	969-975	island	place[49]|person[48]	giv[49]|giv[48]	_	_
-11-31	976-978	in	person[48]	giv[48]	_	_
-11-32	979-980	a	person[48]	giv[48]	_	_
-11-33	981-992	sustainable	person[48]	giv[48]	_	_
-11-34	993-996	way	person[48]	giv[48]	_	_
-11-35	997-1000	and	person[48]	giv[48]	_	_
-11-36	1001-1008	keeping	person[48]	giv[48]	_	_
-11-37	1009-1018	outsiders	person[48]	giv[48]	_	_
-11-38	1019-1021	at	person[48]	giv[48]	_	_
-11-39	1022-1023	a	person[48]	giv[48]	_	_
-11-40	1024-1032	distance	person[48]	giv[48]	_	_
-11-41	1033-1036	and	person[48]	giv[48]	_	_
-11-42	1037-1045	offshore	person[48]	giv[48]	_	_
-11-43	1046-1048	at	person[48]	giv[48]	_	_
-11-44	1049-1054	night	person[48]	giv[48]	_	_
+11-23	928-930	an	person[67]	new[67]	coref	13-1[79_67]
+11-24	931-941	indigenous	person[67]	new[67]	_	_
+11-25	942-947	tribe	person[67]	new[67]	_	_
+11-26	948-951	who	person[67]	new[67]	_	_
+11-27	952-955	are	person[67]	new[67]	_	_
+11-28	956-964	managing	person[67]	new[67]	_	_
+11-29	965-968	the	person[67]|place[68]	new[67]|giv[68]	coref	13-5[80_68]
+11-30	969-975	island	person[67]|place[68]	new[67]|giv[68]	_	_
+11-31	976-978	in	person[67]	new[67]	_	_
+11-32	979-980	a	person[67]	new[67]	_	_
+11-33	981-992	sustainable	person[67]	new[67]	_	_
+11-34	993-996	way	person[67]	new[67]	_	_
+11-35	997-1000	and	person[67]	new[67]	_	_
+11-36	1001-1008	keeping	person[67]	new[67]	_	_
+11-37	1009-1018	outsiders	person[67]	new[67]	_	_
+11-38	1019-1021	at	person[67]	new[67]	_	_
+11-39	1022-1023	a	person[67]	new[67]	_	_
+11-40	1024-1032	distance	person[67]	new[67]	_	_
+11-41	1033-1036	and	person[67]	new[67]	_	_
+11-42	1037-1045	offshore	person[67]	new[67]	_	_
+11-43	1046-1048	at	person[67]	new[67]	_	_
+11-44	1049-1054	night	person[67]	new[67]	_	_
 11-45	1055-1056	.	_	_	_	_
 
 #Text=History
 12-1	1057-1064	History	_	_	_	_
 
 #Text=The first inhabitants of Coron were the Tagbanuas who belong to the second wave of Indonesians who migrated to this area some 5,000 years ago .
-13-1	1065-1068	The	person[56]	giv[56]	_	_
-13-2	1069-1074	first	person[56]	giv[56]	_	_
-13-3	1075-1086	inhabitants	person[56]	giv[56]	_	_
-13-4	1087-1089	of	person[56]	giv[56]	_	_
-13-5	1090-1095	Coron	person[56]|place[57]	giv[56]|giv[57]	coref	13-20[61_57]
+13-1	1065-1068	The	person[79]	giv[79]	_	_
+13-2	1069-1074	first	person[79]	giv[79]	_	_
+13-3	1075-1086	inhabitants	person[79]	giv[79]	_	_
+13-4	1087-1089	of	person[79]	giv[79]	_	_
+13-5	1090-1095	Coron	person[79]|place[80]	giv[79]|giv[80]	coref	21-18[144_80]
 13-6	1096-1100	were	_	_	_	_
 13-7	1101-1104	the	_	_	_	_
 13-8	1105-1114	Tagbanuas	_	_	_	_
@@ -242,20 +242,20 @@
 13-13	1133-1139	second	_	_	_	_
 13-14	1140-1144	wave	_	_	_	_
 13-15	1145-1147	of	_	_	_	_
-13-16	1148-1159	Indonesians	person[60]	new[60]	ana	14-1[0_60]
-13-17	1160-1163	who	person[60]	new[60]	_	_
-13-18	1164-1172	migrated	person[60]	new[60]	_	_
-13-19	1173-1175	to	person[60]	new[60]	_	_
-13-20	1176-1180	this	place[61]|person[60]	giv[61]|new[60]	coref	16-13[78_61]
-13-21	1181-1185	area	place[61]|person[60]	giv[61]|new[60]	_	_
-13-22	1186-1190	some	person[60]	new[60]	_	_
-13-23	1191-1196	5,000	person[60]	new[60]	_	_
-13-24	1197-1202	years	person[60]	new[60]	_	_
-13-25	1203-1206	ago	person[60]	new[60]	_	_
+13-16	1148-1159	Indonesians	person[84]	new[84]	ana	14-1[87_84]
+13-17	1160-1163	who	person[84]	new[84]	_	_
+13-18	1164-1172	migrated	person[84]	new[84]	_	_
+13-19	1173-1175	to	person[84]	new[84]	_	_
+13-20	1176-1180	this	person[84]	new[84]	_	_
+13-21	1181-1185	area	person[84]	new[84]	_	_
+13-22	1186-1190	some	person[84]	new[84]	_	_
+13-23	1191-1196	5,000	person[84]	new[84]	_	_
+13-24	1197-1202	years	person[84]	new[84]	_	_
+13-25	1203-1206	ago	person[84]	new[84]	_	_
 13-26	1207-1208	.	_	_	_	_
 
 #Text=They were a nomadic , seafaring people , living mainly by fishing and subsistence agriculture .
-14-1	1209-1213	They	person	giv	ana	15-2
+14-1	1209-1213	They	person[87]	giv[87]	ana	15-2[93_87]
 14-2	1214-1218	were	_	_	_	_
 14-3	1219-1220	a	_	_	_	_
 14-4	1221-1228	nomadic	_	_	_	_
@@ -274,7 +274,7 @@
 
 #Text=Although they are now sedentary ( with the young using cell phones , etc. ) , they maintain many of their old customs , traditions and beliefs .
 15-1	1305-1313	Although	_	_	_	_
-15-2	1314-1318	they	person	giv	ana	15-17
+15-2	1314-1318	they	person[93]	giv[93]	ana	15-17[97_93]
 15-3	1319-1322	are	_	_	_	_
 15-4	1323-1326	now	_	_	_	_
 15-5	1327-1336	sedentary	_	_	_	_
@@ -289,11 +289,11 @@
 15-14	1374-1378	etc.	_	_	_	_
 15-15	1379-1380	)	_	_	_	_
 15-16	1381-1382	,	_	_	_	_
-15-17	1383-1387	they	person	giv	ana	15-21[72_0]
+15-17	1383-1387	they	person[97]	giv[97]	ana	15-21[100_97]
 15-18	1388-1396	maintain	_	_	_	_
 15-19	1397-1401	many	_	_	_	_
 15-20	1402-1404	of	_	_	_	_
-15-21	1405-1410	their	person[72]	giv[72]	coref	16-3[76_72]
+15-21	1405-1410	their	person[100]	giv[100]	coref	16-3[104_100]
 15-22	1411-1414	old	_	_	_	_
 15-23	1415-1422	customs	_	_	_	_
 15-24	1423-1424	,	_	_	_	_
@@ -303,10 +303,10 @@
 15-28	1448-1449	.	_	_	_	_
 
 #Text=Today , the Tagbanuas remain the dominant if not entire population of Coron .
-16-1	1450-1455	Today	_	_	_	_
+16-1	1450-1455	Today	time[101]	acc[101]	coref	22-2[150_101]
 16-2	1456-1457	,	_	_	_	_
-16-3	1458-1461	the	person[76]	giv[76]	_	_
-16-4	1462-1471	Tagbanuas	person[76]	giv[76]	_	_
+16-3	1458-1461	the	person[104]	giv[104]	_	_
+16-4	1462-1471	Tagbanuas	person[104]	giv[104]	_	_
 16-5	1472-1478	remain	_	_	_	_
 16-6	1479-1482	the	_	_	_	_
 16-7	1483-1491	dominant	_	_	_	_
@@ -315,25 +315,25 @@
 16-10	1499-1505	entire	_	_	_	_
 16-11	1506-1516	population	_	_	_	_
 16-12	1517-1519	of	_	_	_	_
-16-13	1520-1525	Coron	place[78]	giv[78]	coref	17-3[80_78]
+16-13	1520-1525	Coron	place[106]	giv[106]	coref	17-3[110_106]
 16-14	1526-1527	.	_	_	_	_
 
 #Text=In 1902 that Coron was registered as a town and the name of the town was officially changed from Penon de Coron to Coron .
 17-1	1528-1530	In	_	_	_	_
 17-2	1531-1535	1902	_	_	_	_
-17-3	1536-1540	that	place[80]	giv[80]	coref	17-14[82_80]
-17-4	1541-1546	Coron	place[80]	giv[80]	_	_
+17-3	1536-1540	that	place[110]	giv[110]	_	_
+17-4	1541-1546	Coron	place[110]	giv[110]	_	_
 17-5	1547-1550	was	_	_	_	_
 17-6	1551-1561	registered	_	_	_	_
 17-7	1562-1564	as	_	_	_	_
-17-8	1565-1566	a	_	_	_	_
-17-9	1567-1571	town	_	_	_	_
+17-8	1565-1566	a	place[111]	giv[111]	coref	17-14[113_111]
+17-9	1567-1571	town	place[111]	giv[111]	_	_
 17-10	1572-1575	and	_	_	_	_
-17-11	1576-1579	the	abstract[81]	new[81]	coref	17-24[0_81]
-17-12	1580-1584	name	abstract[81]	new[81]	_	_
-17-13	1585-1587	of	abstract[81]	new[81]	_	_
-17-14	1588-1591	the	abstract[81]|place[82]	new[81]|giv[82]	coref	18-11[88_82]
-17-15	1592-1596	town	abstract[81]|place[82]	new[81]|giv[82]	_	_
+17-11	1576-1579	the	abstract[112]	giv[112]	coref	17-24[115_112]
+17-12	1580-1584	name	abstract[112]	giv[112]	_	_
+17-13	1585-1587	of	abstract[112]	giv[112]	_	_
+17-14	1588-1591	the	abstract[112]|place[113]	giv[112]|giv[113]	coref	18-11[121_113]
+17-15	1592-1596	town	abstract[112]|place[113]	giv[112]|giv[113]	_	_
 17-16	1597-1600	was	_	_	_	_
 17-17	1601-1611	officially	_	_	_	_
 17-18	1612-1619	changed	_	_	_	_
@@ -342,7 +342,7 @@
 17-21	1631-1633	de	_	_	_	_
 17-22	1634-1639	Coron	_	_	_	_
 17-23	1640-1642	to	_	_	_	_
-17-24	1643-1648	Coron	abstract	giv	_	_
+17-24	1643-1648	Coron	abstract[115]	giv[115]	_	_
 17-25	1649-1650	.	_	_	_	_
 
 #Text=From 1939 to the outbreak of World War II , the municipality experienced the mining boom .
@@ -352,12 +352,12 @@
 18-4	1664-1667	the	_	_	_	_
 18-5	1668-1676	outbreak	_	_	_	_
 18-6	1677-1679	of	_	_	_	_
-18-7	1680-1685	World	_	_	_	_
-18-8	1686-1689	War	_	_	_	_
-18-9	1690-1692	II	_	_	_	_
+18-7	1680-1685	World	event[120]	giv[120]	coref	22-11[153_120]
+18-8	1686-1689	War	event[120]	giv[120]	_	_
+18-9	1690-1692	II	event[120]	giv[120]	_	_
 18-10	1693-1694	,	_	_	_	_
-18-11	1695-1698	the	place[88]	giv[88]	_	_
-18-12	1699-1711	municipality	place[88]	giv[88]	_	_
+18-11	1695-1698	the	place[121]	giv[121]	coref	23-12[161_121]
+18-12	1699-1711	municipality	place[121]	giv[121]	_	_
 18-13	1712-1723	experienced	_	_	_	_
 18-14	1724-1727	the	_	_	_	_
 18-15	1728-1734	mining	_	_	_	_
@@ -370,7 +370,7 @@
 19-3	1756-1760	from	_	_	_	_
 19-4	1761-1768	farming	_	_	_	_
 19-5	1769-1771	to	_	_	_	_
-19-6	1772-1778	mining	object	giv	coref	20-7[96_0]
+19-6	1772-1778	mining	_	_	_	_
 19-7	1779-1780	.	_	_	_	_
 
 #Text=In July 1942 the Japanese occupied the mining camps and resumed operation of the manganese mines .
@@ -380,16 +380,16 @@
 20-4	1794-1797	the	_	_	_	_
 20-5	1798-1806	Japanese	_	_	_	_
 20-6	1807-1815	occupied	_	_	_	_
-20-7	1816-1819	the	place[96]	new[96]	coref	20-14[98_96]
-20-8	1820-1826	mining	place[96]	new[96]	_	_
-20-9	1827-1832	camps	place[96]	new[96]	_	_
+20-7	1816-1819	the	_	_	_	_
+20-8	1820-1826	mining	_	_	_	_
+20-9	1827-1832	camps	_	_	_	_
 20-10	1833-1836	and	_	_	_	_
 20-11	1837-1844	resumed	_	_	_	_
 20-12	1845-1854	operation	_	_	_	_
 20-13	1855-1857	of	_	_	_	_
-20-14	1858-1861	the	object[98]	giv[98]	_	_
-20-15	1862-1871	manganese	object[98]	giv[98]	_	_
-20-16	1872-1877	mines	object[98]	giv[98]	_	_
+20-14	1858-1861	the	_	_	_	_
+20-15	1862-1871	manganese	_	_	_	_
+20-16	1872-1877	mines	_	_	_	_
 20-17	1878-1879	.	_	_	_	_
 
 #Text=On September 24 , 1944 , a group of Japanese ships were sunk by American warplanes in Coron waters as the ships retreated from Manila Bay .
@@ -399,22 +399,22 @@
 21-4	1896-1897	,	_	_	_	_
 21-5	1898-1902	1944	_	_	_	_
 21-6	1903-1904	,	_	_	_	_
-21-7	1905-1906	a	object[102]	giv[102]	coref	21-21[106_102]
-21-8	1907-1912	group	object[102]	giv[102]	_	_
-21-9	1913-1915	of	object[102]	giv[102]	_	_
-21-10	1916-1924	Japanese	object[102]	giv[102]	_	_
-21-11	1925-1930	ships	object[102]	giv[102]	_	_
+21-7	1905-1906	a	object[141]	giv[141]	coref	21-21[146_141]
+21-8	1907-1912	group	object[141]	giv[141]	_	_
+21-9	1913-1915	of	object[141]	giv[141]	_	_
+21-10	1916-1924	Japanese	object[141]	giv[141]	_	_
+21-11	1925-1930	ships	object[141]	giv[141]	_	_
 21-12	1931-1935	were	_	_	_	_
 21-13	1936-1940	sunk	_	_	_	_
 21-14	1941-1943	by	_	_	_	_
 21-15	1944-1952	American	_	_	_	_
 21-16	1953-1962	warplanes	_	_	_	_
 21-17	1963-1965	in	_	_	_	_
-21-18	1966-1971	Coron	place[105]	giv[105]	coref	23-12[0_105]
+21-18	1966-1971	Coron	place[144]	giv[144]	_	_
 21-19	1972-1978	waters	_	_	_	_
 21-20	1979-1981	as	_	_	_	_
-21-21	1982-1985	the	object[106]	giv[106]	coref	22-10[110_106]
-21-22	1986-1991	ships	object[106]	giv[106]	_	_
+21-21	1982-1985	the	object[146]	giv[146]	coref	22-10[152_146]
+21-22	1986-1991	ships	object[146]	giv[146]	_	_
 21-23	1992-2001	retreated	_	_	_	_
 21-24	2002-2006	from	_	_	_	_
 21-25	2007-2013	Manila	_	_	_	_
@@ -423,20 +423,20 @@
 
 #Text=To this day , about 10 or 12 of these World War II Japanese shipwrecks comprise what is considered one of the best dive sites in the world .
 22-1	2020-2022	To	_	_	_	_
-22-2	2023-2027	this	_	_	_	_
-22-3	2028-2031	day	_	_	_	_
+22-2	2023-2027	this	time[150]	acc[150]	_	_
+22-3	2028-2031	day	time[150]	acc[150]	_	_
 22-4	2032-2033	,	_	_	_	_
 22-5	2034-2039	about	_	_	_	_
 22-6	2040-2042	10	_	_	_	_
 22-7	2043-2045	or	_	_	_	_
 22-8	2046-2048	12	_	_	_	_
 22-9	2049-2051	of	_	_	_	_
-22-10	2052-2057	these	object[110]	giv[110]	_	_
-22-11	2058-2063	World	object[110]	giv[110]	_	_
-22-12	2064-2067	War	object[110]	giv[110]	_	_
-22-13	2068-2070	II	object[110]	giv[110]	_	_
-22-14	2071-2079	Japanese	object[110]	giv[110]	_	_
-22-15	2080-2090	shipwrecks	object[110]	giv[110]	_	_
+22-10	2052-2057	these	object[152]	giv[152]	_	_
+22-11	2058-2063	World	object[152]|event[153]	giv[152]|giv[153]	_	_
+22-12	2064-2067	War	object[152]|event[153]	giv[152]|giv[153]	_	_
+22-13	2068-2070	II	object[152]|event[153]	giv[152]|giv[153]	_	_
+22-14	2071-2079	Japanese	object[152]	giv[152]	_	_
+22-15	2080-2090	shipwrecks	object[152]	giv[152]	_	_
 22-16	2091-2099	comprise	_	_	_	_
 22-17	2100-2104	what	_	_	_	_
 22-18	2105-2107	is	_	_	_	_
@@ -448,8 +448,8 @@
 22-24	2135-2139	dive	_	_	_	_
 22-25	2140-2145	sites	_	_	_	_
 22-26	2146-2148	in	_	_	_	_
-22-27	2149-2152	the	_	_	_	_
-22-28	2153-2158	world	_	_	_	_
+22-27	2149-2152	the	place[156]	acc[156]	_	_
+22-28	2153-2158	world	place[156]	acc[156]	_	_
 22-29	2159-2160	.	_	_	_	_
 
 #Text=In 1947 , large scale deep sea fishing was introduced to Coron , and the town experienced another boom , a fishing boom .
@@ -464,18 +464,18 @@
 23-9	2200-2203	was	_	_	_	_
 23-10	2204-2214	introduced	_	_	_	_
 23-11	2215-2217	to	_	_	_	_
-23-12	2218-2223	Coron	place	giv	coref	23-15[119_0]
+23-12	2218-2223	Coron	place[161]	giv[161]	coref	23-15[163_161]
 23-13	2224-2225	,	_	_	_	_
 23-14	2226-2229	and	_	_	_	_
-23-15	2230-2233	the	place[119]	giv[119]	coref	25-16[133_119]
-23-16	2234-2238	town	place[119]	giv[119]	_	_
+23-15	2230-2233	the	place[163]	giv[163]	coref	25-16[183_163]
+23-16	2234-2238	town	place[163]	giv[163]	_	_
 23-17	2239-2250	experienced	_	_	_	_
-23-18	2251-2258	another	person[120]	giv[120]	appos	23-21[121_120]
-23-19	2259-2263	boom	person[120]	giv[120]	_	_
-23-20	2264-2265	,	person[120]	giv[120]	_	_
-23-21	2266-2267	a	person[121]	giv[121]	_	_
-23-22	2268-2275	fishing	person[121]	giv[121]	_	_
-23-23	2276-2280	boom	person[121]	giv[121]	_	_
+23-18	2251-2258	another	person[164]	new[164]	appos	23-21[165_164]
+23-19	2259-2263	boom	person[164]	new[164]	_	_
+23-20	2264-2265	,	person[164]	new[164]	_	_
+23-21	2266-2267	a	person[165]	giv[165]	_	_
+23-22	2268-2275	fishing	person[165]	giv[165]	_	_
+23-23	2276-2280	boom	person[165]	giv[165]	_	_
 23-24	2281-2282	.	_	_	_	_
 
 #Text=The population increased , as many people from Luzon and the Visayas came to work either as fishermen or miners .
@@ -508,7 +508,7 @@
 25-4	2408-2409	,	_	_	_	_
 25-5	2410-2414	1950	_	_	_	_
 25-6	2415-2416	,	_	_	_	_
-25-7	2417-2425	Busuanga	_	_	_	_
+25-7	2417-2425	Busuanga	place[179]	giv[179]	_	_
 25-8	2426-2429	was	_	_	_	_
 25-9	2430-2440	officially	_	_	_	_
 25-10	2441-2448	created	_	_	_	_
@@ -517,12 +517,12 @@
 25-13	2454-2462	separate	_	_	_	_
 25-14	2463-2475	municipality	_	_	_	_
 25-15	2476-2480	from	_	_	_	_
-25-16	2481-2486	Coron	place[133]	giv[133]	coref	25-21[0_133]
+25-16	2481-2486	Coron	place[183]	giv[183]	coref	25-21[185_183]
 25-17	2487-2490	and	_	_	_	_
 25-18	2491-2493	in	_	_	_	_
 25-19	2494-2498	1954	_	_	_	_
 25-20	2499-2500	,	_	_	_	_
-25-21	2501-2506	Coron	place	giv	coref	26-7
+25-21	2501-2506	Coron	place[185]	giv[185]	coref	26-7[193_185]
 25-22	2507-2510	was	_	_	_	_
 25-23	2511-2518	further	_	_	_	_
 25-24	2519-2526	reduced	_	_	_	_
@@ -544,7 +544,7 @@
 26-4	2603-2604	,	_	_	_	_
 26-5	2605-2609	1992	_	_	_	_
 26-6	2610-2611	,	_	_	_	_
-26-7	2612-2617	Coron	place	giv	coref	27-5
+26-7	2612-2617	Coron	place[193]	giv[193]	coref	27-5[199_193]
 26-8	2618-2621	was	_	_	_	_
 26-9	2622-2629	finally	_	_	_	_
 26-10	2630-2637	reduced	_	_	_	_
@@ -564,24 +564,24 @@
 27-2	2698-2701	the	_	_	_	_
 27-3	2702-2706	past	_	_	_	_
 27-4	2707-2708	,	_	_	_	_
-27-5	2709-2714	Coron	place	giv	ana	28-1
+27-5	2709-2714	Coron	place[199]	giv[199]	ana	28-1[203_199]
 27-6	2715-2718	was	_	_	_	_
 27-7	2719-2728	virtually	_	_	_	_
 27-8	2729-2736	unknown	_	_	_	_
 27-9	2737-2744	outside	_	_	_	_
 27-10	2745-2747	of	_	_	_	_
-27-11	2748-2755	Palawan	place	giv	_	_
+27-11	2748-2755	Palawan	place[202]	giv[202]	_	_
 27-12	2756-2757	.	_	_	_	_
 
 #Text=It remains a small , quaint fishing town with laid back charm but with increasing media exposure it is growing , slowly but steadily ,
-28-1	2758-2760	It	place	giv	ana	28-18
+28-1	2758-2760	It	place[203]	giv[203]	_	_
 28-2	2761-2768	remains	_	_	_	_
-28-3	2769-2770	a	_	_	_	_
-28-4	2771-2776	small	_	_	_	_
-28-5	2777-2778	,	_	_	_	_
-28-6	2779-2785	quaint	_	_	_	_
-28-7	2786-2793	fishing	_	_	_	_
-28-8	2794-2798	town	_	_	_	_
+28-3	2769-2770	a	place[206]	giv[206]	ana	28-18[210_206]
+28-4	2771-2776	small	place[206]	giv[206]	_	_
+28-5	2777-2778	,	place[206]	giv[206]	_	_
+28-6	2779-2785	quaint	place[206]	giv[206]	_	_
+28-7	2786-2793	fishing	place[206]	giv[206]	_	_
+28-8	2794-2798	town	place[206]	giv[206]	_	_
 28-9	2799-2803	with	_	_	_	_
 28-10	2804-2808	laid	_	_	_	_
 28-11	2809-2813	back	_	_	_	_
@@ -591,7 +591,7 @@
 28-15	2829-2839	increasing	_	_	_	_
 28-16	2840-2845	media	_	_	_	_
 28-17	2846-2854	exposure	_	_	_	_
-28-18	2855-2857	it	place	giv	coref	29-1
+28-18	2855-2857	it	place[210]	giv[210]	coref	29-1[211_210]
 28-19	2858-2860	is	_	_	_	_
 28-20	2861-2868	growing	_	_	_	_
 28-21	2869-2870	,	_	_	_	_
@@ -601,7 +601,7 @@
 28-25	2891-2892	,	_	_	_	_
 
 #Text=Coron has taken an important position in the tourism industry .
-29-1	2893-2898	Coron	place	giv	coref	30-28[163_0]
+29-1	2893-2898	Coron	place[211]	giv[211]	coref	30-28[223_211]
 29-2	2899-2902	has	_	_	_	_
 29-3	2903-2908	taken	_	_	_	_
 29-4	2909-2911	an	_	_	_	_
@@ -635,13 +635,13 @@
 30-19	3050-3052	in	_	_	_	_
 30-20	3053-3054	,	_	_	_	_
 30-21	3055-3061	making	_	_	_	_
-30-22	3062-3069	tourism	abstract	giv	coref	30-23[162_0]
-30-23	3070-3073	the	abstract[162]	new[162]	_	_
-30-24	3074-3079	major	abstract[162]	new[162]	_	_
-30-25	3080-3088	industry	abstract[162]	new[162]	_	_
-30-26	3089-3095	player	abstract[162]	new[162]	_	_
-30-27	3096-3098	in	abstract[162]	new[162]	_	_
-30-28	3099-3104	Coron	abstract[162]|place[163]	new[162]|giv[163]	_	_
-30-29	3105-3110	today	_	_	_	_
+30-22	3062-3069	tourism	abstract[220]	giv[220]	coref	30-23[222_220]
+30-23	3070-3073	the	abstract[222]	giv[222]	_	_
+30-24	3074-3079	major	abstract[222]	giv[222]	_	_
+30-25	3080-3088	industry	abstract[222]	giv[222]	_	_
+30-26	3089-3095	player	abstract[222]	giv[222]	_	_
+30-27	3096-3098	in	abstract[222]	giv[222]	_	_
+30-28	3099-3104	Coron	abstract[222]|place[223]	giv[222]|giv[223]	_	_
+30-29	3105-3110	today	abstract[222]	giv[222]	_	_
 30-30	3111-3112	.	_	_	_	_
 

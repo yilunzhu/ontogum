@@ -1,4 +1,4 @@
-#FORMAT=WebAnno TSV 3.1
+#FORMAT=WebAnno TSV 3.2
 #T_SP=webanno.custom.Referent|entity|infstat
 #T_RL=webanno.custom.Coref|type|BT_webanno.custom.Referent
 
@@ -17,47 +17,47 @@
 1-11	68-73	crops	_	_	_	_
 
 #Text=Monday , July 28 , 2014
-2-1	74-80	Monday	_	_	_	_
-2-2	81-82	,	_	_	_	_
-2-3	83-87	July	_	_	_	_
-2-4	88-90	28	_	_	_	_
-2-5	91-92	,	_	_	_	_
-2-6	93-97	2014	_	_	_	_
+2-1	74-80	Monday	time[318]	acc[318]	appos	2-3[11_318]
+2-2	81-82	,	time[318]	acc[318]	_	_
+2-3	83-87	July	time[11]	giv[11]	_	_
+2-4	88-90	28	time[11]	giv[11]	_	_
+2-5	91-92	,	time[11]	giv[11]	_	_
+2-6	93-97	2014	time[11]	giv[11]	_	_
 
 #Text=A research team from the Massachusetts Institute of Technology and Colorado State University of the US and the University of Sheffield of the UK has analysed effects of global warming and ozone pollution over 2000 - 2050 on the worldwide production of wheat , rice , maize and soybean .
-3-1	98-99	A	event[8]|person[9]	giv[8]|giv[9]	coref|coref	4-1[21_8]|5-1[24_9]
-3-2	100-108	research	event[8]|person[9]	giv[8]|giv[9]	_	_
-3-3	109-113	team	event[8]|person[9]	giv[8]|giv[9]	_	_
-3-4	114-118	from	event[8]	giv[8]	_	_
-3-5	119-122	the	event[8]	giv[8]	_	_
-3-6	123-136	Massachusetts	event[8]	giv[8]	_	_
-3-7	137-146	Institute	event[8]	giv[8]	_	_
-3-8	147-149	of	event[8]	giv[8]	_	_
-3-9	150-160	Technology	event[8]	giv[8]	_	_
-3-10	161-164	and	event[8]	giv[8]	_	_
-3-11	165-173	Colorado	event[8]	giv[8]	_	_
-3-12	174-179	State	event[8]	giv[8]	_	_
-3-13	180-190	University	event[8]	giv[8]	_	_
-3-14	191-193	of	event[8]	giv[8]	_	_
-3-15	194-197	the	event[8]	giv[8]	_	_
-3-16	198-200	US	event[8]	giv[8]	_	_
-3-17	201-204	and	event[8]	giv[8]	_	_
-3-18	205-208	the	event[8]	giv[8]	_	_
-3-19	209-219	University	event[8]	giv[8]	_	_
-3-20	220-222	of	event[8]	giv[8]	_	_
-3-21	223-232	Sheffield	event[8]	giv[8]	_	_
-3-22	233-235	of	event[8]	giv[8]	_	_
-3-23	236-239	the	event[8]	giv[8]	_	_
-3-24	240-242	UK	event[8]	giv[8]	_	_
-3-25	243-246	has	event[8]	giv[8]	_	_
-3-26	247-255	analysed	event[8]	giv[8]	_	_
-3-27	256-263	effects	event[8]	giv[8]	_	_
-3-28	264-266	of	event[8]	giv[8]	_	_
-3-29	267-273	global	event[8]	giv[8]	_	_
-3-30	274-281	warming	event[8]	giv[8]	_	_
-3-31	282-285	and	event[8]	giv[8]	_	_
-3-32	286-291	ozone	event[8]	giv[8]	_	_
-3-33	292-301	pollution	event[8]	giv[8]	_	_
+3-1	98-99	A	person[15]	giv[15]	coref	5-1[46_15]
+3-2	100-108	research	person[15]	giv[15]	_	_
+3-3	109-113	team	person[15]	giv[15]	_	_
+3-4	114-118	from	_	_	_	_
+3-5	119-122	the	_	_	_	_
+3-6	123-136	Massachusetts	_	_	_	_
+3-7	137-146	Institute	_	_	_	_
+3-8	147-149	of	_	_	_	_
+3-9	150-160	Technology	_	_	_	_
+3-10	161-164	and	_	_	_	_
+3-11	165-173	Colorado	_	_	_	_
+3-12	174-179	State	_	_	_	_
+3-13	180-190	University	_	_	_	_
+3-14	191-193	of	_	_	_	_
+3-15	194-197	the	place[23]	acc[23]	coref	18-1[195_23]
+3-16	198-200	US	place[23]	acc[23]	_	_
+3-17	201-204	and	_	_	_	_
+3-18	205-208	the	_	_	_	_
+3-19	209-219	University	_	_	_	_
+3-20	220-222	of	_	_	_	_
+3-21	223-232	Sheffield	_	_	_	_
+3-22	233-235	of	_	_	_	_
+3-23	236-239	the	_	_	_	_
+3-24	240-242	UK	_	_	_	_
+3-25	243-246	has	_	_	_	_
+3-26	247-255	analysed	_	_	_	_
+3-27	256-263	effects	_	_	_	_
+3-28	264-266	of	_	_	_	_
+3-29	267-273	global	_	_	_	_
+3-30	274-281	warming	_	_	_	_
+3-31	282-285	and	_	_	_	_
+3-32	286-291	ozone	_	_	_	_
+3-33	292-301	pollution	_	_	_	_
 3-34	302-306	over	_	_	_	_
 3-35	307-311	2000	_	_	_	_
 3-36	312-313	-	_	_	_	_
@@ -77,21 +77,21 @@
 3-50	383-384	.	_	_	_	_
 
 #Text=The study was published in journal Nature Climate Change yesterday .
-4-1	385-388	The	object[21]	giv[21]	coref	11-1[59_21]
-4-2	389-394	study	object[21]	giv[21]	_	_
+4-1	385-388	The	abstract[39]	new[39]	coref	11-1[99_39]
+4-2	389-394	study	abstract[39]	new[39]	_	_
 4-3	395-398	was	_	_	_	_
 4-4	399-408	published	_	_	_	_
 4-5	409-411	in	_	_	_	_
-4-6	412-419	journal	object	new	appos	4-7[23_0]
-4-7	420-426	Nature	organization[23]	new[23]	_	_
-4-8	427-434	Climate	organization[23]	new[23]	_	_
-4-9	435-441	Change	organization[23]	new[23]	_	_
+4-6	412-419	journal	_	_	_	_
+4-7	420-426	Nature	_	_	_	_
+4-8	427-434	Climate	_	_	_	_
+4-9	435-441	Change	_	_	_	_
 4-10	442-451	yesterday	_	_	_	_
 4-11	452-453	.	_	_	_	_
 
 #Text=The scientists found reduction of crop yields by 2050 exceeded 10 % of 2000 levels , substantially decreasing food security , in all cases examined .
-5-1	454-457	The	person[24]	giv[24]	ana	7-1[0_24]
-5-2	458-468	scientists	person[24]	giv[24]	_	_
+5-1	454-457	The	person[46]	giv[46]	ana	7-1[66_46]
+5-2	458-468	scientists	person[46]	giv[46]	_	_
 5-3	469-474	found	_	_	_	_
 5-4	475-484	reduction	_	_	_	_
 5-5	485-487	of	_	_	_	_
@@ -126,15 +126,15 @@
 6-6	646-648	of	_	_	_	_
 6-7	649-660	uncertainty	_	_	_	_
 6-8	661-663	of	_	_	_	_
-6-9	664-670	future	abstract[37]	new[37]	coref	9-1[49_37]
-6-10	671-677	levels	abstract[37]	new[37]	_	_
-6-11	678-680	of	abstract[37]	new[37]	_	_
-6-12	681-686	ozone	abstract[37]	new[37]	_	_
-6-13	687-696	pollution	abstract[37]	new[37]	_	_
+6-9	664-670	future	abstract[63]	new[63]	coref	9-1[82_63]
+6-10	671-677	levels	abstract[63]	new[63]	_	_
+6-11	678-680	of	abstract[63]	new[63]	_	_
+6-12	681-686	ozone	abstract[63]	new[63]	_	_
+6-13	687-696	pollution	abstract[63]	new[63]	_	_
 6-14	697-698	.	_	_	_	_
 
 #Text=They estimated by 2050 , increasing population and changing diet would increase world food needs by 50 percent .
-7-1	699-703	They	person	giv	_	_
+7-1	699-703	They	person[66]	giv[66]	_	_
 7-2	704-713	estimated	_	_	_	_
 7-3	714-716	by	_	_	_	_
 7-4	717-721	2050	_	_	_	_
@@ -156,13 +156,13 @@
 
 #Text=As coauthor Colette Heald told The Huffington Post , " The climate projections are quite consistent [...]
 8-1	812-814	As	_	_	_	_
-8-2	815-823	coauthor	person[46]	new[46]	coref	12-1[0_46]
-8-3	824-831	Colette	person[46]	new[46]	_	_
-8-4	832-837	Heald	person[46]	new[46]	_	_
+8-2	815-823	coauthor	person[77]	acc[77]	coref	12-1[104_77]
+8-3	824-831	Colette	person[77]	acc[77]	_	_
+8-4	832-837	Heald	person[77]	acc[77]	_	_
 8-5	838-842	told	_	_	_	_
-8-6	843-846	The	_	_	_	_
-8-7	847-857	Huffington	_	_	_	_
-8-8	858-862	Post	_	_	_	_
+8-6	843-846	The	organization[78]	acc[78]	coref	24-4[244_78]
+8-7	847-857	Huffington	organization[78]	acc[78]	_	_
+8-8	858-862	Post	organization[78]	acc[78]	_	_
 8-9	863-864	,	_	_	_	_
 8-10	865-866	"	_	_	_	_
 8-11	867-870	The	_	_	_	_
@@ -174,11 +174,11 @@
 8-17	912-917	[...]	_	_	_	_
 
 #Text=the future of ozone pollution is very different [...] leading to either offsetting or reinforcing effects [ of climate change ] on crops " .
-9-1	918-921	the	abstract[49]	giv[49]	_	_
-9-2	922-928	future	abstract[49]	giv[49]	_	_
-9-3	929-931	of	abstract[49]	giv[49]	_	_
-9-4	932-937	ozone	abstract[49]	giv[49]	_	_
-9-5	938-947	pollution	abstract[49]	giv[49]	_	_
+9-1	918-921	the	abstract[82]	giv[82]	_	_
+9-2	922-928	future	abstract[82]	giv[82]	_	_
+9-3	929-931	of	abstract[82]	giv[82]	_	_
+9-4	932-937	ozone	abstract[82]	giv[82]	_	_
+9-5	938-947	pollution	abstract[82]	giv[82]	_	_
 9-6	948-950	is	_	_	_	_
 9-7	951-955	very	_	_	_	_
 9-8	956-965	different	_	_	_	_
@@ -223,41 +223,41 @@
 10-20	1167-1168	.	_	_	_	_
 
 #Text=The study focuses on ozone-temperature covariation : ground-level ozone increases with temperatures .
-11-1	1169-1172	The	event[59]	giv[59]	_	_
-11-2	1173-1178	study	event[59]	giv[59]	_	_
+11-1	1169-1172	The	abstract[99]	giv[99]	coref	27-1[277_99]
+11-2	1173-1178	study	abstract[99]	giv[99]	_	_
 11-3	1179-1186	focuses	_	_	_	_
 11-4	1187-1189	on	_	_	_	_
 11-5	1190-1207	ozone-temperature	_	_	_	_
 11-6	1208-1219	covariation	_	_	_	_
 11-7	1220-1221	:	_	_	_	_
-11-8	1222-1234	ground-level	event[61]	giv[61]	appos	11-5[60_61]
-11-9	1235-1240	ozone	event[61]	giv[61]	_	_
-11-10	1241-1250	increases	event[61]	giv[61]	_	_
-11-11	1251-1255	with	event[61]	giv[61]	_	_
-11-12	1256-1268	temperatures	event[61]	giv[61]	_	_
+11-8	1222-1234	ground-level	_	_	_	_
+11-9	1235-1240	ozone	_	_	_	_
+11-10	1241-1250	increases	_	_	_	_
+11-11	1251-1255	with	_	_	_	_
+11-12	1256-1268	temperatures	_	_	_	_
 11-13	1269-1270	.	_	_	_	_
 
 #Text=Heald said although temperature and ozone are separately known to impact crop yields , " nobody has looked at these together " .
-12-1	1271-1276	Heald	person	giv	coref	21-1
+12-1	1271-1276	Heald	person[104]	giv[104]	coref	21-1[219_104]
 12-2	1277-1281	said	_	_	_	_
 12-3	1282-1290	although	_	_	_	_
-12-4	1291-1302	temperature	abstract[65]	giv[65]	ana	12-20[0_65]
-12-5	1303-1306	and	abstract[65]	giv[65]	_	_
-12-6	1307-1312	ozone	abstract[65]	giv[65]	_	_
+12-4	1291-1302	temperature	abstract[108]	new[108]	ana	12-20[116_108]
+12-5	1303-1306	and	abstract[108]	new[108]	_	_
+12-6	1307-1312	ozone	abstract[108]	new[108]	_	_
 12-7	1313-1316	are	_	_	_	_
 12-8	1317-1327	separately	_	_	_	_
 12-9	1328-1333	known	_	_	_	_
 12-10	1334-1336	to	_	_	_	_
 12-11	1337-1343	impact	_	_	_	_
-12-12	1344-1348	crop	object[68]	giv[68]	coref	13-7[74_68]
-12-13	1349-1355	yields	object[68]	giv[68]	_	_
+12-12	1344-1348	crop	object[113]	giv[113]	coref	13-7[124_113]
+12-13	1349-1355	yields	object[113]	giv[113]	_	_
 12-14	1356-1357	,	_	_	_	_
 12-15	1358-1359	"	_	_	_	_
 12-16	1360-1366	nobody	_	_	_	_
 12-17	1367-1370	has	_	_	_	_
 12-18	1371-1377	looked	_	_	_	_
 12-19	1378-1380	at	_	_	_	_
-12-20	1381-1386	these	abstract	giv	_	_
+12-20	1381-1386	these	abstract[116]	giv[116]	_	_
 12-21	1387-1395	together	_	_	_	_
 12-22	1396-1397	"	_	_	_	_
 12-23	1398-1399	.	_	_	_	_
@@ -269,8 +269,8 @@
 13-4	1420-1423	and	_	_	_	_
 13-5	1424-1429	crops	_	_	_	_
 13-6	1430-1431	,	_	_	_	_
-13-7	1432-1435	the	object[74]	giv[74]	_	_
-13-8	1436-1442	yields	object[74]	giv[74]	_	_
+13-7	1432-1435	the	object[124]	giv[124]	_	_
+13-8	1436-1442	yields	object[124]	giv[124]	_	_
 13-9	1443-1446	may	_	_	_	_
 13-10	1447-1449	be	_	_	_	_
 13-11	1450-1459	primarily	_	_	_	_
@@ -442,8 +442,8 @@
 17-25	2351-2352	.	_	_	_	_
 
 #Text=The U.S. Environmental Protection Agency says some crops may have higher yields with increased levels of carbon dioxide .
-18-1	2353-2356	The	_	_	_	_
-18-2	2357-2361	U.S.	_	_	_	_
+18-1	2353-2356	The	place[195]	giv[195]	coref	24-8[246_195]
+18-2	2357-2361	U.S.	place[195]	giv[195]	_	_
 18-3	2362-2375	Environmental	_	_	_	_
 18-4	2376-2386	Protection	_	_	_	_
 18-5	2387-2393	Agency	_	_	_	_
@@ -501,7 +501,7 @@
 20-12	2691-2692	.	_	_	_	_
 
 #Text=Heald noted the findings show pollution reduction is also important .
-21-1	2693-2698	Heald	person	giv	coref	24-2
+21-1	2693-2698	Heald	person[219]	giv[219]	coref	24-2[241_219]
 21-2	2699-2704	noted	_	_	_	_
 21-3	2705-2708	the	_	_	_	_
 21-4	2709-2717	findings	_	_	_	_
@@ -552,13 +552,13 @@
 
 #Text=As Heald told The Huffington Post , US surface ozone has dropped partly due to the Clean Air Act .
 24-1	2937-2939	As	_	_	_	_
-24-2	2940-2945	Heald	person	giv	_	_
+24-2	2940-2945	Heald	person[241]	giv[241]	_	_
 24-3	2946-2950	told	_	_	_	_
-24-4	2951-2954	The	_	_	_	_
-24-5	2955-2965	Huffington	_	_	_	_
-24-6	2966-2970	Post	_	_	_	_
+24-4	2951-2954	The	organization[244]	giv[244]	_	_
+24-5	2955-2965	Huffington	organization[244]	giv[244]	_	_
+24-6	2966-2970	Post	organization[244]	giv[244]	_	_
 24-7	2971-2972	,	_	_	_	_
-24-8	2973-2975	US	_	_	_	_
+24-8	2973-2975	US	place[246]	giv[246]	coref	25-23[255_246]
 24-9	2976-2983	surface	_	_	_	_
 24-10	2984-2989	ozone	_	_	_	_
 24-11	2990-2993	has	_	_	_	_
@@ -595,8 +595,8 @@
 25-20	3148-3150	on	_	_	_	_
 25-21	3151-3158	average	_	_	_	_
 25-22	3159-3165	across	_	_	_	_
-25-23	3166-3169	the	place[153]	acc[153]	coref	26-10[157_153]
-25-24	3170-3174	U.S.	place[153]	acc[153]	_	_
+25-23	3166-3169	the	place[255]	giv[255]	coref	26-10[264_255]
+25-24	3170-3174	U.S.	place[255]	giv[255]	_	_
 25-25	3175-3179	from	_	_	_	_
 25-26	3180-3184	1980	_	_	_	_
 25-27	3185-3187	to	_	_	_	_
@@ -613,8 +613,8 @@
 26-7	3229-3232	air	_	_	_	_
 26-8	3233-3240	quality	_	_	_	_
 26-9	3241-3243	in	_	_	_	_
-26-10	3244-3247	the	place[157]	giv[157]	_	_
-26-11	3248-3252	U.S.	place[157]	giv[157]	_	_
+26-10	3244-3247	the	place[264]	giv[264]	coref	27-10[282_264]
+26-11	3248-3252	U.S.	place[264]	giv[264]	_	_
 26-12	3253-3256	and	_	_	_	_
 26-13	3257-3263	around	_	_	_	_
 26-14	3264-3267	the	_	_	_	_
@@ -642,8 +642,8 @@
 26-36	3388-3389	"	_	_	_	_
 
 #Text=The study was supported by the Croucher Foundation , US National Science Foundation , and US National Park Service .
-27-1	3390-3393	The	_	_	_	_
-27-2	3394-3399	study	_	_	_	_
+27-1	3390-3393	The	abstract[277]	giv[277]	_	_
+27-2	3394-3399	study	abstract[277]	giv[277]	_	_
 27-3	3400-3403	was	_	_	_	_
 27-4	3404-3413	supported	_	_	_	_
 27-5	3414-3416	by	_	_	_	_
@@ -651,13 +651,13 @@
 27-7	3421-3429	Croucher	_	_	_	_
 27-8	3430-3440	Foundation	_	_	_	_
 27-9	3441-3442	,	_	_	_	_
-27-10	3443-3445	US	_	_	_	_
+27-10	3443-3445	US	place[282]	giv[282]	coref	27-16[287_282]
 27-11	3446-3454	National	_	_	_	_
 27-12	3455-3462	Science	_	_	_	_
 27-13	3463-3473	Foundation	_	_	_	_
 27-14	3474-3475	,	_	_	_	_
 27-15	3476-3479	and	_	_	_	_
-27-16	3480-3482	US	_	_	_	_
+27-16	3480-3482	US	place[287]	giv[287]	_	_
 27-17	3483-3491	National	_	_	_	_
 27-18	3492-3496	Park	_	_	_	_
 27-19	3497-3504	Service	_	_	_	_

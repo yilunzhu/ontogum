@@ -36,7 +36,7 @@ class Coref(object):
         self.replaced_by = str()
         self.appos_point_to = str()
         self.expanded = False
-
+        self.verb_head = str()
 
 def coref_(fields: list) -> dict:
     """
@@ -242,11 +242,11 @@ def check_appos(sent: list, head_row: list, dep_sent_id) -> bool:
             appos = sorted([f'{dep_sent_id}-{x}' for x in find_all_dep_children(sent, [row[0]])], reverse=True)
 
             # if the last token is a period or comma, do not count it as part of an apposition
-            NOT_COUNT = [',', '.', ';', '-', '!', '?']
+            # NOT_COUNT = [',', '.', ';', '-', '!', '?']
             last_tok_id = str(sorted([int(x.split('-')[-1]) for x in appos])[-1])
             last_tok = [y[1] for y in sent if y[0] == last_tok_id]
-            if last_tok in NOT_COUNT:
-                appos.remove(f'{dep_sent_id}-{last_tok_id}')
+            # if last_tok in NOT_COUNT:
+            #     appos.remove(f'{dep_sent_id}-{last_tok_id}')
             return appos
     return appos
 
@@ -288,7 +288,7 @@ def process_doc(dep_doc, coref_doc):
             line_id, token = coref_fields[0], coref_fields[2]
 
             # test
-            if line_id == '8-1':
+            if line_id == '52-3':
                 a = 1
             if coref_fields[5] == 'appos':
                 a = 1
@@ -336,7 +336,7 @@ def process_doc(dep_doc, coref_doc):
             # match dep_text_id to the format in coref tsv
             dep_text_id = f'{dep_sent_id}-{dep_line[0]}'
             cur_dep_sent = dep_sents[dep_sent_id]
-            if dep_text_id == '46-1':
+            if dep_text_id == '31-7':
                 a = 1
 
             # TODO: 将ide替换为doc.keys()，避免18-26 "these techniques"没有任何dep的信息
@@ -379,6 +379,15 @@ def process_doc(dep_doc, coref_doc):
                             doc[entity].acl_children = find_acl_child(cur_dep_sent, row[0])
                             head_of_the_phrase = row[0]
 
+                            # verbal span contraction
+                            if row[4].startswith('V'):
+                                for line in cur_dep_sent:
+                                    if line[1] == row[0] and line[7] == 'xcomp':
+                                        doc[entity].verb_head = f'{dep_sent_id}-{line[0]}'
+                                if not doc[entity].verb_head:
+                                    doc[entity].verb_head = f'{dep_sent_id}-{row[0]}'
+
+
                         # if the head is outside the range, it's the head of the entity
                         elif doc[entity].head_func == '' and row[6] not in head_range:
                             doc[entity].head = row[1]
@@ -393,6 +402,14 @@ def process_doc(dep_doc, coref_doc):
                                 doc[entity].appos = check_appos(cur_dep_sent, row, dep_sent_id)
                             doc[entity].acl_children = find_acl_child(cur_dep_sent, row[0])
                             head_of_the_phrase = row[0]
+
+                            # verbal span contraction
+                            if row[4].startswith('V'):
+                                for line in cur_dep_sent:
+                                    if line[1] == row[0] and line[7] == 'xcomp':
+                                        doc[entity].verb_head = f'{dep_sent_id}-{line[0]}'
+                                if not doc[entity].verb_head:
+                                    doc[entity].verb_head = f'{dep_sent_id}-{row[0]}'
 
                         doc[entity].func += f' {row[7]}'
                         doc[entity].pos += f' {row[4]}'
@@ -518,8 +535,8 @@ def process_doc(dep_doc, coref_doc):
 
                         # if the current entity's span is longer than 1, assign it a new entity id
                         if doc[entity].span_len == 1 and cur_span_len > 1:
-                            if doc[entity].acl_children:
-                                raise ValueError('Change func.py L264 - L2xx.')
+                            # if doc[entity].acl_children:
+                            #     raise ValueError('Change func.py L264 - L2xx.')
                             new_cur_entity_id = str(last_e + 1)
                             doc[new_cur_entity_id] = deepcopy(doc[entity])
 

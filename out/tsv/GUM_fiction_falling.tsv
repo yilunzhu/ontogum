@@ -1,4 +1,4 @@
-#FORMAT=WebAnno TSV 3.1
+#FORMAT=WebAnno TSV 3.2
 #T_SP=webanno.custom.Referent|entity|infstat
 #T_RL=webanno.custom.Coref|type|BT_webanno.custom.Referent
 
@@ -7,32 +7,32 @@
 1-1	0-7	Falling	_	_	_	_
 
 #Text=You ’re on the 236th-level Kaiserstrasse moving sidewalk when you see her .
-2-1	8-11	You	person	acc	ana	2-10
+2-1	8-11	You	person[2]	acc[2]	ana	2-10[8_2]
 2-2	12-15	’re	_	_	_	_
 2-3	16-18	on	_	_	_	_
-2-4	19-22	the	_	_	_	_
-2-5	23-34	236th-level	_	_	_	_
-2-6	35-48	Kaiserstrasse	_	_	_	_
-2-7	49-55	moving	_	_	_	_
-2-8	56-64	sidewalk	_	_	_	_
+2-4	19-22	the	place[5]	new[5]	coref	29-4[208_5]
+2-5	23-34	236th-level	place[5]	new[5]	_	_
+2-6	35-48	Kaiserstrasse	place[5]	new[5]	_	_
+2-7	49-55	moving	place[5]	new[5]	_	_
+2-8	56-64	sidewalk	place[5]	new[5]	_	_
 2-9	65-69	when	_	_	_	_
-2-10	70-73	you	person	giv	ana	3-1
+2-10	70-73	you	person[8]	giv[8]	ana	3-1[10_8]
 2-11	74-77	see	_	_	_	_
-2-12	78-81	her	person	acc	ana	5-1
+2-12	78-81	her	person[9]	acc[9]	ana	5-1[30_9]
 2-13	82-83	.	_	_	_	_
 
 #Text=You ’re leaning on the railing , waiting to ask Derya about a job , watching the glittering stream of mites that arc over half the sky — flying up to rewind their nanosprings in the stratospheric sunlight , flying down to make Frankfurt run .
-3-1	84-87	You	person	giv	ana	4-1
+3-1	84-87	You	person[10]	giv[10]	ana	4-1[28_10]
 3-2	88-91	’re	_	_	_	_
 3-3	92-99	leaning	_	_	_	_
 3-4	100-102	on	_	_	_	_
-3-5	103-106	the	object[9]	acc[9]	coref	23-3[128_9]
-3-6	107-114	railing	object[9]	acc[9]	_	_
+3-5	103-106	the	object[15]	acc[15]	coref	23-3[186_15]
+3-6	107-114	railing	object[15]	acc[15]	_	_
 3-7	115-116	,	_	_	_	_
 3-8	117-124	waiting	_	_	_	_
 3-9	125-127	to	_	_	_	_
 3-10	128-131	ask	_	_	_	_
-3-11	132-137	Derya	person	new	coref	28-7
+3-11	132-137	Derya	person[16]	new[16]	coref	28-7[204_16]
 3-12	138-143	about	_	_	_	_
 3-13	144-145	a	_	_	_	_
 3-14	146-149	job	_	_	_	_
@@ -42,116 +42,116 @@
 3-18	165-175	glittering	_	_	_	_
 3-19	176-182	stream	_	_	_	_
 3-20	183-185	of	_	_	_	_
-3-21	186-191	mites	animal[13]	new[13]	ana	4-7[0_13]
-3-22	192-196	that	animal[13]	new[13]	_	_
-3-23	197-200	arc	animal[13]	new[13]	_	_
-3-24	201-205	over	animal[13]	new[13]	_	_
-3-25	206-210	half	animal[13]	new[13]	_	_
-3-26	211-214	the	animal[13]	new[13]	_	_
-3-27	215-218	sky	animal[13]	new[13]	_	_
-3-28	219-220	—	animal[13]	new[13]	_	_
-3-29	221-227	flying	animal[13]	new[13]	_	_
-3-30	228-230	up	animal[13]	new[13]	_	_
-3-31	231-233	to	animal[13]	new[13]	_	_
-3-32	234-240	rewind	animal[13]	new[13]	_	_
-3-33	241-246	their	animal[13]	new[13]	_	_
-3-34	247-258	nanosprings	animal[13]	new[13]	_	_
-3-35	259-261	in	animal[13]	new[13]	_	_
-3-36	262-265	the	animal[13]	new[13]	_	_
-3-37	266-279	stratospheric	animal[13]	new[13]	_	_
-3-38	280-288	sunlight	animal[13]	new[13]	_	_
-3-39	289-290	,	animal[13]	new[13]	_	_
-3-40	291-297	flying	animal[13]	new[13]	_	_
-3-41	298-302	down	animal[13]	new[13]	_	_
-3-42	303-305	to	animal[13]	new[13]	_	_
-3-43	306-310	make	animal[13]	new[13]	_	_
-3-44	311-320	Frankfurt	place|animal[13]	new|new[13]	coref	11-16[72_0]
-3-45	321-324	run	animal[13]	new[13]	_	_
+3-21	186-191	mites	animal[20]	new[20]	ana	3-33[24_20]
+3-22	192-196	that	animal[20]	new[20]	_	_
+3-23	197-200	arc	animal[20]	new[20]	_	_
+3-24	201-205	over	animal[20]	new[20]	_	_
+3-25	206-210	half	animal[20]	new[20]	_	_
+3-26	211-214	the	animal[20]	new[20]	_	_
+3-27	215-218	sky	animal[20]	new[20]	_	_
+3-28	219-220	—	animal[20]	new[20]	_	_
+3-29	221-227	flying	animal[20]	new[20]	_	_
+3-30	228-230	up	animal[20]	new[20]	_	_
+3-31	231-233	to	animal[20]	new[20]	_	_
+3-32	234-240	rewind	animal[20]	new[20]	_	_
+3-33	241-246	their	animal[24]|animal[20]	giv[24]|new[20]	ana	4-7[29_24]
+3-34	247-258	nanosprings	animal[20]	new[20]	_	_
+3-35	259-261	in	animal[20]	new[20]	_	_
+3-36	262-265	the	animal[20]	new[20]	_	_
+3-37	266-279	stratospheric	animal[20]	new[20]	_	_
+3-38	280-288	sunlight	animal[20]	new[20]	_	_
+3-39	289-290	,	animal[20]	new[20]	_	_
+3-40	291-297	flying	animal[20]	new[20]	_	_
+3-41	298-302	down	animal[20]	new[20]	_	_
+3-42	303-305	to	animal[20]	new[20]	_	_
+3-43	306-310	make	animal[20]	new[20]	_	_
+3-44	311-320	Frankfurt	place[27]|animal[20]	new[27]|new[20]	coref	11-16[107_27]
+3-45	321-324	run	animal[20]	new[20]	_	_
 3-46	325-326	.	_	_	_	_
 
 #Text=You never get tired of watching them .
-4-1	327-330	You	person	giv	ana	12-6
+4-1	327-330	You	person[28]	giv[28]	ana	12-6[113_28]
 4-2	331-336	never	_	_	_	_
 4-3	337-340	get	_	_	_	_
 4-4	341-346	tired	_	_	_	_
 4-5	347-349	of	_	_	_	_
 4-6	350-358	watching	_	_	_	_
-4-7	359-363	them	animal	giv	coref	21-16[119_0]
+4-7	359-363	them	animal[29]	giv[29]	coref	35-2[255_29]
 4-8	364-365	.	_	_	_	_
 
 #Text=She ’s on the Holbeinsteg bridge .
-5-1	366-369	She	person	giv	ana	7-1
+5-1	366-369	She	person[30]	giv[30]	ana	7-1[54_30]
 5-2	370-372	’s	_	_	_	_
 5-3	373-375	on	_	_	_	_
-5-4	376-379	the	object[22]	new[22]	ana	6-4[311_22]
-5-5	380-391	Holbeinsteg	object[22]	new[22]	_	_
-5-6	392-398	bridge	object[22]	new[22]	_	_
+5-4	376-379	the	object[35]	new[35]	ana	6-4[38_35]
+5-5	380-391	Holbeinsteg	object[35]	new[35]	_	_
+5-6	392-398	bridge	object[35]	new[35]	_	_
 5-7	399-400	.	_	_	_	_
 
 #Text=Someone ’s hung it up here — a hundred meters of clean gray and green twentieth-century modernism , plucked up from the river Main and suspended in the chilly air 2,360 meters up , between a lump of wooded parkland and a cluster of antique subway cars .
 6-1	401-408	Someone	_	_	_	_
 6-2	409-411	’s	_	_	_	_
 6-3	412-416	hung	_	_	_	_
-6-4	417-419	it	object[311]	giv[311]	coref	7-23[41_311]
-6-5	420-422	up	object[311]	giv[311]	_	_
-6-6	423-427	here	object[311]	giv[311]	_	_
-6-7	428-429	—	object[311]	giv[311]	_	_
-6-8	430-431	a	object[311]	giv[311]	_	_
-6-9	432-439	hundred	object[311]	giv[311]	_	_
-6-10	440-446	meters	object[311]	giv[311]	_	_
-6-11	447-449	of	object[311]	giv[311]	_	_
-6-12	450-455	clean	object[311]	giv[311]	_	_
-6-13	456-460	gray	object[311]	giv[311]	_	_
-6-14	461-464	and	object[311]	giv[311]	_	_
-6-15	465-470	green	object[311]	giv[311]	_	_
-6-16	471-488	twentieth-century	object[311]	giv[311]	_	_
-6-17	489-498	modernism	object[311]	giv[311]	_	_
-6-18	499-500	,	object[311]	giv[311]	_	_
-6-19	501-508	plucked	object[311]	giv[311]	_	_
-6-20	509-511	up	object[311]	giv[311]	_	_
-6-21	512-516	from	object[311]	giv[311]	_	_
-6-22	517-520	the	object[311]	giv[311]	_	_
-6-23	521-526	river	object[311]	giv[311]	_	_
-6-24	527-531	Main	object[311]	giv[311]	_	_
-6-25	532-535	and	object[311]	giv[311]	_	_
-6-26	536-545	suspended	object[311]	giv[311]	_	_
-6-27	546-548	in	object[311]	giv[311]	_	_
-6-28	549-552	the	object[311]	giv[311]	_	_
-6-29	553-559	chilly	object[311]	giv[311]	_	_
-6-30	560-563	air	object[311]	giv[311]	_	_
-6-31	564-569	2,360	object[311]	giv[311]	_	_
-6-32	570-576	meters	object[311]	giv[311]	_	_
-6-33	577-579	up	object[311]	giv[311]	_	_
-6-34	580-581	,	object[311]	giv[311]	_	_
-6-35	582-589	between	object[311]	giv[311]	_	_
-6-36	590-591	a	object[311]	giv[311]	_	_
-6-37	592-596	lump	object[311]	giv[311]	_	_
-6-38	597-599	of	object[311]	giv[311]	_	_
-6-39	600-606	wooded	object[311]	giv[311]	_	_
-6-40	607-615	parkland	object[311]	giv[311]	_	_
-6-41	616-619	and	object[311]	giv[311]	_	_
-6-42	620-621	a	object[311]	giv[311]	_	_
-6-43	622-629	cluster	object[311]	giv[311]	_	_
-6-44	630-632	of	object[311]	giv[311]	_	_
-6-45	633-640	antique	object[311]	giv[311]	_	_
-6-46	641-647	subway	object[311]	giv[311]	_	_
-6-47	648-652	cars	object[311]	giv[311]	_	_
+6-4	417-419	it	object[38]	giv[38]	_	_
+6-5	420-422	up	_	_	_	_
+6-6	423-427	here	_	_	_	_
+6-7	428-429	—	_	_	_	_
+6-8	430-431	a	object[44]	giv[44]	coref	7-23[62_44]
+6-9	432-439	hundred	object[44]	giv[44]	_	_
+6-10	440-446	meters	object[44]	giv[44]	_	_
+6-11	447-449	of	object[44]	giv[44]	_	_
+6-12	450-455	clean	object[44]	giv[44]	_	_
+6-13	456-460	gray	object[44]	giv[44]	_	_
+6-14	461-464	and	object[44]	giv[44]	_	_
+6-15	465-470	green	object[44]	giv[44]	_	_
+6-16	471-488	twentieth-century	object[44]	giv[44]	_	_
+6-17	489-498	modernism	object[44]	giv[44]	_	_
+6-18	499-500	,	object[44]	giv[44]	_	_
+6-19	501-508	plucked	object[44]	giv[44]	_	_
+6-20	509-511	up	object[44]	giv[44]	_	_
+6-21	512-516	from	object[44]	giv[44]	_	_
+6-22	517-520	the	object[44]	giv[44]	_	_
+6-23	521-526	river	object[44]	giv[44]	_	_
+6-24	527-531	Main	object[44]	giv[44]	_	_
+6-25	532-535	and	object[44]	giv[44]	_	_
+6-26	536-545	suspended	object[44]	giv[44]	_	_
+6-27	546-548	in	object[44]	giv[44]	_	_
+6-28	549-552	the	object[44]	giv[44]	_	_
+6-29	553-559	chilly	object[44]	giv[44]	_	_
+6-30	560-563	air	object[44]	giv[44]	_	_
+6-31	564-569	2,360	object[44]	giv[44]	_	_
+6-32	570-576	meters	object[44]	giv[44]	_	_
+6-33	577-579	up	object[44]	giv[44]	_	_
+6-34	580-581	,	object[44]	giv[44]	_	_
+6-35	582-589	between	object[44]	giv[44]	_	_
+6-36	590-591	a	object[44]	giv[44]	_	_
+6-37	592-596	lump	object[44]	giv[44]	_	_
+6-38	597-599	of	object[44]	giv[44]	_	_
+6-39	600-606	wooded	object[44]	giv[44]	_	_
+6-40	607-615	parkland	object[44]	giv[44]	_	_
+6-41	616-619	and	object[44]	giv[44]	_	_
+6-42	620-621	a	object[44]	giv[44]	_	_
+6-43	622-629	cluster	object[44]	giv[44]	_	_
+6-44	630-632	of	object[44]	giv[44]	_	_
+6-45	633-640	antique	object[44]	giv[44]	_	_
+6-46	641-647	subway	object[44]	giv[44]	_	_
+6-47	648-652	cars	object[44]	giv[44]	_	_
 6-48	653-654	.	_	_	_	_
 
 #Text=She ’s wearing a 1950s sundress and a broad-brimmed hat , and it ’s like an essay on the last century — the austere steel bridge , the bright blobs of subway graffiti , and her yellow dress , flapping against her legs as she climbs over the bridge ’s rail .
-7-1	655-658	She	person	giv	ana	7-36[46_0]
-7-2	659-661	’s	_	_	_	_
-7-3	662-669	wearing	_	_	_	_
-7-4	670-671	a	object[37]	new[37]	coref	7-36[45_37]
-7-5	672-677	1950s	object[37]	new[37]	_	_
-7-6	678-686	sundress	object[37]	new[37]	_	_
-7-7	687-690	and	_	_	_	_
-7-8	691-692	a	object[38]	new[38]	coref	57-1[238_38]
-7-9	693-706	broad-brimmed	object[38]	new[38]	_	_
-7-10	707-710	hat	object[38]	new[38]	_	_
+7-1	655-658	She	event[53]|person[54]	new[53]|giv[54]	ana|ana	7-13[58_53]|7-36[68_54]
+7-2	659-661	’s	event[53]	new[53]	_	_
+7-3	662-669	wearing	event[53]	new[53]	_	_
+7-4	670-671	a	event[53]	new[53]	_	_
+7-5	672-677	1950s	event[53]	new[53]	_	_
+7-6	678-686	sundress	event[53]	new[53]	_	_
+7-7	687-690	and	event[53]	new[53]	_	_
+7-8	691-692	a	event[53]|object[57]	new[53]|new[57]	coref	57-1[364_57]
+7-9	693-706	broad-brimmed	event[53]|object[57]	new[53]|new[57]	_	_
+7-10	707-710	hat	event[53]|object[57]	new[53]|new[57]	_	_
 7-11	711-712	,	_	_	_	_
 7-12	713-716	and	_	_	_	_
-7-13	717-719	it	_	_	_	_
+7-13	717-719	it	event[58]	giv[58]	_	_
 7-14	720-722	’s	_	_	_	_
 7-15	723-727	like	_	_	_	_
 7-16	728-730	an	_	_	_	_
@@ -161,10 +161,10 @@
 7-20	744-748	last	_	_	_	_
 7-21	749-756	century	_	_	_	_
 7-22	757-758	—	_	_	_	_
-7-23	759-762	the	object[41]	giv[41]	_	_
-7-24	763-770	austere	object[41]	giv[41]	_	_
-7-25	771-776	steel	object[41]	giv[41]	_	_
-7-26	777-783	bridge	object[41]	giv[41]	_	_
+7-23	759-762	the	object[62]	giv[62]	_	_
+7-24	763-770	austere	object[62]	giv[62]	_	_
+7-25	771-776	steel	object[62]	giv[62]	_	_
+7-26	777-783	bridge	object[62]	giv[62]	_	_
 7-27	784-785	,	_	_	_	_
 7-28	786-789	the	_	_	_	_
 7-29	790-796	bright	_	_	_	_
@@ -174,22 +174,22 @@
 7-33	813-821	graffiti	_	_	_	_
 7-34	822-823	,	_	_	_	_
 7-35	824-827	and	_	_	_	_
-7-36	828-831	her	object[45]|person[46]	giv[45]|giv[46]	coref|ana	70-5[271_45]|7-42[48_46]
-7-37	832-838	yellow	object[45]	giv[45]	_	_
-7-38	839-844	dress	object[45]	giv[45]	_	_
-7-39	845-846	,	object[45]	giv[45]	_	_
-7-40	847-855	flapping	object[45]	giv[45]	_	_
-7-41	856-863	against	object[45]	giv[45]	_	_
-7-42	864-867	her	person[48]|object[45]	giv[48]|giv[45]	ana	7-45[0_48]
-7-43	868-872	legs	object[45]	giv[45]	_	_
-7-44	873-875	as	object[45]	giv[45]	_	_
-7-45	876-879	she	person|object[45]	giv|giv[45]	ana	9-1
-7-46	880-886	climbs	object[45]	giv[45]	_	_
-7-47	887-891	over	object[45]	giv[45]	_	_
-7-48	892-895	the	object[50]|object[45]	acc[50]|giv[45]	coref	10-4[65_50]
-7-49	896-902	bridge	object[50]|object[45]	acc[50]|giv[45]	_	_
-7-50	903-905	’s	object[50]|object[45]	acc[50]|giv[45]	_	_
-7-51	906-910	rail	object[50]|object[45]	acc[50]|giv[45]	_	_
+7-36	828-831	her	object[67]|person[68]	giv[67]|giv[68]	coref|ana	70-5[416_67]|7-42[71_68]
+7-37	832-838	yellow	object[67]	giv[67]	_	_
+7-38	839-844	dress	object[67]	giv[67]	_	_
+7-39	845-846	,	object[67]	giv[67]	_	_
+7-40	847-855	flapping	object[67]	giv[67]	_	_
+7-41	856-863	against	object[67]	giv[67]	_	_
+7-42	864-867	her	object[67]|person[71]	giv[67]|giv[71]	ana	7-45[72_71]
+7-43	868-872	legs	object[67]	giv[67]	_	_
+7-44	873-875	as	object[67]	giv[67]	_	_
+7-45	876-879	she	object[67]|person[72]	giv[67]|giv[72]	ana	9-1[86_72]
+7-46	880-886	climbs	object[67]	giv[67]	_	_
+7-47	887-891	over	object[67]	giv[67]	_	_
+7-48	892-895	the	object[67]|object[75]	giv[67]|new[75]	coref	10-4[98_75]
+7-49	896-902	bridge	object[67]|object[75]	giv[67]|new[75]	_	_
+7-50	903-905	’s	object[67]|object[75]	giv[67]|new[75]	_	_
+7-51	906-910	rail	object[67]|object[75]	giv[67]|new[75]	_	_
 7-52	911-912	.	_	_	_	_
 
 #Text=A picture of elegance and style from the age of money , violence , and simplicity .
@@ -212,7 +212,7 @@
 8-17	995-996	.	_	_	_	_
 
 #Text=She ’s a strawberry blonde , slim , her skin blank and virginal as new butter .
-9-1	997-1000	She	person	giv	ana	9-9[62_0]
+9-1	997-1000	She	person[86]	giv[86]	ana	9-9[93_86]
 9-2	1001-1003	’s	_	_	_	_
 9-3	1004-1005	a	_	_	_	_
 9-4	1006-1016	strawberry	_	_	_	_
@@ -220,7 +220,7 @@
 9-6	1024-1025	,	_	_	_	_
 9-7	1026-1030	slim	_	_	_	_
 9-8	1031-1032	,	_	_	_	_
-9-9	1033-1036	her	person[62]	giv[62]	ana	10-1[0_62]
+9-9	1033-1036	her	person[93]	giv[93]	ana	10-1[96_93]
 9-10	1037-1041	skin	_	_	_	_
 9-11	1042-1047	blank	_	_	_	_
 9-12	1048-1051	and	_	_	_	_
@@ -231,11 +231,11 @@
 9-17	1075-1076	.	_	_	_	_
 
 #Text=She ’s beyond the rail now , hanging out over the mountain - high drop .
-10-1	1077-1080	She	person	giv	ana	11-6
+10-1	1077-1080	She	person[96]	giv[96]	ana	11-6[101_96]
 10-2	1081-1083	’s	_	_	_	_
 10-3	1084-1090	beyond	_	_	_	_
-10-4	1091-1094	the	object[65]	giv[65]	_	_
-10-5	1095-1099	rail	object[65]	giv[65]	_	_
+10-4	1091-1094	the	object[98]	giv[98]	_	_
+10-5	1095-1099	rail	object[98]	giv[98]	_	_
 10-6	1100-1103	now	_	_	_	_
 10-7	1104-1105	,	_	_	_	_
 10-8	1106-1113	hanging	_	_	_	_
@@ -249,48 +249,48 @@
 10-16	1148-1149	.	_	_	_	_
 
 #Text=Thin translucent shadows move across her — the shadows of the neosilk-and-nanotube filaments that hang the city from the hundreds of five-kilometer-high towers that encircle it .
-11-1	1150-1154	Thin	abstract[67]	new[67]	appos	11-8[69_67]
-11-2	1155-1166	translucent	abstract[67]	new[67]	_	_
-11-3	1167-1174	shadows	abstract[67]	new[67]	_	_
+11-1	1150-1154	Thin	abstract[100]	new[100]	coref	11-8[103_100]
+11-2	1155-1166	translucent	abstract[100]	new[100]	_	_
+11-3	1167-1174	shadows	abstract[100]	new[100]	_	_
 11-4	1175-1179	move	_	_	_	_
 11-5	1180-1186	across	_	_	_	_
-11-6	1187-1190	her	person	giv	ana	18-4
+11-6	1187-1190	her	person[101]	giv[101]	ana	18-4[146_101]
 11-7	1191-1192	—	_	_	_	_
-11-8	1193-1196	the	abstract[69]	giv[69]	_	_
-11-9	1197-1204	shadows	abstract[69]	giv[69]	_	_
-11-10	1205-1207	of	abstract[69]	giv[69]	_	_
-11-11	1208-1211	the	abstract[69]	giv[69]	_	_
-11-12	1212-1232	neosilk-and-nanotube	abstract[69]	giv[69]	_	_
-11-13	1233-1242	filaments	abstract[69]	giv[69]	_	_
-11-14	1243-1247	that	_	_	_	_
-11-15	1248-1252	hang	_	_	_	_
-11-16	1253-1256	the	place[72]	giv[72]	ana	11-26[0_72]
-11-17	1257-1261	city	place[72]	giv[72]	_	_
-11-18	1262-1266	from	_	_	_	_
-11-19	1267-1270	the	_	_	_	_
-11-20	1271-1279	hundreds	_	_	_	_
-11-21	1280-1282	of	_	_	_	_
-11-22	1283-1302	five-kilometer-high	object[74]	new[74]	coref	13-19[87_74]
-11-23	1303-1309	towers	object[74]	new[74]	_	_
-11-24	1310-1314	that	_	_	_	_
-11-25	1315-1323	encircle	_	_	_	_
-11-26	1324-1326	it	place	giv	_	_
+11-8	1193-1196	the	abstract[103]	giv[103]	_	_
+11-9	1197-1204	shadows	abstract[103]	giv[103]	_	_
+11-10	1205-1207	of	abstract[103]	giv[103]	_	_
+11-11	1208-1211	the	abstract[103]	giv[103]	_	_
+11-12	1212-1232	neosilk-and-nanotube	abstract[103]	giv[103]	_	_
+11-13	1233-1242	filaments	abstract[103]	giv[103]	_	_
+11-14	1243-1247	that	abstract[103]	giv[103]	_	_
+11-15	1248-1252	hang	abstract[103]	giv[103]	_	_
+11-16	1253-1256	the	abstract[103]|place[107]	giv[103]|giv[107]	ana	11-26[110_107]
+11-17	1257-1261	city	abstract[103]|place[107]	giv[103]|giv[107]	_	_
+11-18	1262-1266	from	abstract[103]	giv[103]	_	_
+11-19	1267-1270	the	abstract[103]	giv[103]	_	_
+11-20	1271-1279	hundreds	abstract[103]	giv[103]	_	_
+11-21	1280-1282	of	abstract[103]	giv[103]	_	_
+11-22	1283-1302	five-kilometer-high	abstract[103]|object[109]	giv[103]|new[109]	coref	13-19[127_109]
+11-23	1303-1309	towers	abstract[103]|object[109]	giv[103]|new[109]	_	_
+11-24	1310-1314	that	abstract[103]	giv[103]	_	_
+11-25	1315-1323	encircle	abstract[103]	giv[103]	_	_
+11-26	1324-1326	it	abstract[103]|place[110]	giv[103]|giv[110]	coref	34-5[254_110]
 11-27	1327-1328	.	_	_	_	_
 
 #Text=( A civic agent notices you noticing , and attaches itself to your infospace , whispering statistics —
 12-1	1329-1330	(	_	_	_	_
-12-2	1331-1332	A	object[76]	new[76]	ana	12-11[0_76]
-12-3	1333-1338	civic	object[76]	new[76]	_	_
-12-4	1339-1344	agent	object[76]	new[76]	_	_
+12-2	1331-1332	A	object[112]	new[112]	ana	12-11[114_112]
+12-3	1333-1338	civic	object[112]	new[112]	_	_
+12-4	1339-1344	agent	object[112]	new[112]	_	_
 12-5	1345-1352	notices	_	_	_	_
-12-6	1353-1356	you	person	giv	ana	12-13[80_0]
+12-6	1353-1356	you	person[113]	giv[113]	ana	12-13[118_113]
 12-7	1357-1365	noticing	_	_	_	_
 12-8	1366-1367	,	_	_	_	_
 12-9	1368-1371	and	_	_	_	_
 12-10	1372-1380	attaches	_	_	_	_
-12-11	1381-1387	itself	object	giv	ana	17-4
+12-11	1381-1387	itself	object[114]	giv[114]	ana	17-4[144_114]
 12-12	1388-1390	to	_	_	_	_
-12-13	1391-1395	your	person[80]	giv[80]	ana	17-2[0_80]
+12-13	1391-1395	your	person[118]	giv[118]	ana	17-2[143_118]
 12-14	1396-1405	infospace	_	_	_	_
 12-15	1406-1407	,	_	_	_	_
 12-16	1408-1418	whispering	_	_	_	_
@@ -316,8 +316,8 @@
 13-16	1516-1518	80	_	_	_	_
 13-17	1519-1520	%	_	_	_	_
 13-18	1521-1523	of	_	_	_	_
-13-19	1524-1527	the	object[87]	giv[87]	_	_
-13-20	1528-1534	towers	object[87]	giv[87]	_	_
+13-19	1524-1527	the	object[127]	giv[127]	_	_
+13-20	1528-1534	towers	object[127]	giv[127]	_	_
 13-21	1535-1536	”	_	_	_	_
 13-22	1537-1538	—	_	_	_	_
 
@@ -372,39 +372,39 @@
 
 #Text=until you brush it away . )
 17-1	1749-1754	until	_	_	_	_
-17-2	1755-1758	you	person	giv	ana	18-1
+17-2	1755-1758	you	person[143]	giv[143]	ana	18-1[145_143]
 17-3	1759-1764	brush	_	_	_	_
-17-4	1765-1767	it	object	giv	_	_
+17-4	1765-1767	it	object[144]	giv[144]	_	_
 17-5	1768-1772	away	_	_	_	_
 17-6	1773-1774	.	_	_	_	_
 17-7	1775-1776	)	_	_	_	_
 
 #Text=You ’re watching her lean out .
-18-1	1777-1780	You	person	giv	ana	21-1
+18-1	1777-1780	You	person[145]	giv[145]	ana	21-1[163_145]
 18-2	1781-1784	’re	_	_	_	_
 18-3	1785-1793	watching	_	_	_	_
-18-4	1794-1797	her	person	giv	ana	19-4[107_0]
+18-4	1794-1797	her	person[146]	giv[146]	ana	19-4[154_146]
 18-5	1798-1802	lean	_	_	_	_
 18-6	1803-1806	out	_	_	_	_
 18-7	1807-1808	.	_	_	_	_
 
 #Text=The wind whips her hair , ruffles the skirt around her knees .
-19-1	1809-1812	The	abstract[105]	new[105]	coref	57-8[240_105]
-19-2	1813-1817	wind	abstract[105]	new[105]	_	_
+19-1	1809-1812	The	abstract[152]	new[152]	coref	57-8[367_152]
+19-2	1813-1817	wind	abstract[152]	new[152]	_	_
 19-3	1818-1823	whips	_	_	_	_
-19-4	1824-1827	her	person[107]	giv[107]	ana	19-11[110_107]
+19-4	1824-1827	her	person[154]	giv[154]	ana	19-11[158_154]
 19-5	1828-1832	hair	_	_	_	_
 19-6	1833-1834	,	_	_	_	_
 19-7	1835-1842	ruffles	_	_	_	_
 19-8	1843-1846	the	_	_	_	_
 19-9	1847-1852	skirt	_	_	_	_
 19-10	1853-1859	around	_	_	_	_
-19-11	1860-1863	her	person[110]	giv[110]	ana	20-1[0_110]
+19-11	1860-1863	her	person[158]	giv[158]	ana	20-1[159_158]
 19-12	1864-1869	knees	_	_	_	_
 19-13	1870-1871	.	_	_	_	_
 
 #Text=She must be a tourist .
-20-1	1872-1875	She	person	giv	ana	22-14
+20-1	1872-1875	She	person[159]	giv[159]	ana	22-14[182_159]
 20-2	1876-1880	must	_	_	_	_
 20-3	1881-1883	be	_	_	_	_
 20-4	1884-1885	a	_	_	_	_
@@ -412,9 +412,9 @@
 20-6	1894-1895	.	_	_	_	_
 
 #Text=You remember your first trip to the upper levels : leaning over the edge into the angry swarm of mites , whirring and buzzing warnings and shoving you back like a million mosquito chaperones .
-21-1	1896-1899	You	person	giv	ana	21-3[115_0]
+21-1	1896-1899	You	person[163]	giv[163]	ana	21-3[166_163]
 21-2	1900-1908	remember	_	_	_	_
-21-3	1909-1913	your	person[115]	giv[115]	ana	21-28[121_115]
+21-3	1909-1913	your	person[166]	giv[166]	ana	21-28[173_166]
 21-4	1914-1919	first	_	_	_	_
 21-5	1920-1924	trip	_	_	_	_
 21-6	1925-1927	to	_	_	_	_
@@ -422,36 +422,36 @@
 21-8	1932-1937	upper	_	_	_	_
 21-9	1938-1944	levels	_	_	_	_
 21-10	1945-1946	:	_	_	_	_
-21-11	1947-1954	leaning	event[117]	new[117]	ana	22-3[0_117]
-21-12	1955-1959	over	event[117]	new[117]	_	_
-21-13	1960-1963	the	event[117]	new[117]	_	_
-21-14	1964-1968	edge	event[117]	new[117]	_	_
-21-15	1969-1973	into	event[117]	new[117]	_	_
-21-16	1974-1977	the	event[117]|animal[119]	new[117]|giv[119]	_	_
-21-17	1978-1983	angry	event[117]|animal[119]	new[117]|giv[119]	_	_
-21-18	1984-1989	swarm	event[117]|animal[119]	new[117]|giv[119]	_	_
-21-19	1990-1992	of	event[117]|animal[119]	new[117]|giv[119]	_	_
-21-20	1993-1998	mites	event[117]|animal[119]	new[117]|giv[119]	_	_
-21-21	1999-2000	,	event[117]	new[117]	_	_
-21-22	2001-2009	whirring	event[117]	new[117]	_	_
-21-23	2010-2013	and	event[117]	new[117]	_	_
-21-24	2014-2021	buzzing	event[117]	new[117]	_	_
-21-25	2022-2030	warnings	event[117]	new[117]	_	_
-21-26	2031-2034	and	event[117]	new[117]	_	_
-21-27	2035-2042	shoving	event[117]	new[117]	_	_
-21-28	2043-2046	you	event[117]|person[121]	new[117]|giv[121]	ana	23-1[0_121]
-21-29	2047-2051	back	event[117]	new[117]	_	_
-21-30	2052-2056	like	event[117]	new[117]	_	_
-21-31	2057-2058	a	event[117]|animal[122]	new[117]|giv[122]	coref	22-11[125_122]
-21-32	2059-2066	million	event[117]|animal[122]	new[117]|giv[122]	_	_
-21-33	2067-2075	mosquito	event[117]|animal[122]	new[117]|giv[122]	_	_
-21-34	2076-2086	chaperones	event[117]|animal[122]	new[117]|giv[122]	_	_
+21-11	1947-1954	leaning	event[169]	new[169]	ana	22-3[178_169]
+21-12	1955-1959	over	event[169]	new[169]	_	_
+21-13	1960-1963	the	event[169]	new[169]	_	_
+21-14	1964-1968	edge	event[169]	new[169]	_	_
+21-15	1969-1973	into	event[169]	new[169]	_	_
+21-16	1974-1977	the	event[169]	new[169]	_	_
+21-17	1978-1983	angry	event[169]	new[169]	_	_
+21-18	1984-1989	swarm	event[169]	new[169]	_	_
+21-19	1990-1992	of	event[169]	new[169]	_	_
+21-20	1993-1998	mites	event[169]	new[169]	_	_
+21-21	1999-2000	,	event[169]	new[169]	_	_
+21-22	2001-2009	whirring	event[169]	new[169]	_	_
+21-23	2010-2013	and	event[169]	new[169]	_	_
+21-24	2014-2021	buzzing	event[169]	new[169]	_	_
+21-25	2022-2030	warnings	event[169]	new[169]	_	_
+21-26	2031-2034	and	event[169]	new[169]	_	_
+21-27	2035-2042	shoving	event[169]	new[169]	_	_
+21-28	2043-2046	you	event[169]|person[173]	new[169]|giv[173]	ana	23-1[183_173]
+21-29	2047-2051	back	event[169]	new[169]	_	_
+21-30	2052-2056	like	event[169]	new[169]	_	_
+21-31	2057-2058	a	event[169]	new[169]	_	_
+21-32	2059-2066	million	event[169]	new[169]	_	_
+21-33	2067-2075	mosquito	event[169]	new[169]	_	_
+21-34	2076-2086	chaperones	event[169]	new[169]	_	_
 21-35	2087-2088	.	_	_	_	_
 
 #Text=Everyone tries it once — Except that there are n’t any mites around her .
 22-1	2089-2097	Everyone	_	_	_	_
 22-2	2098-2103	tries	_	_	_	_
-22-3	2104-2106	it	event	giv	_	_
+22-3	2104-2106	it	event[178]	giv[178]	_	_
 22-4	2107-2111	once	_	_	_	_
 22-5	2112-2113	—	_	_	_	_
 22-6	2114-2120	Except	_	_	_	_
@@ -459,17 +459,17 @@
 22-8	2126-2131	there	_	_	_	_
 22-9	2132-2135	are	_	_	_	_
 22-10	2136-2139	n’t	_	_	_	_
-22-11	2140-2143	any	animal[125]	giv[125]	coref	35-2[172_125]
-22-12	2144-2149	mites	animal[125]	giv[125]	_	_
+22-11	2140-2143	any	_	_	_	_
+22-12	2144-2149	mites	_	_	_	_
 22-13	2150-2156	around	_	_	_	_
-22-14	2157-2160	her	person	giv	ana	25-1
+22-14	2157-2160	her	person[182]	giv[182]	ana	25-1[190_182]
 22-15	2161-2162	.	_	_	_	_
 
 #Text=You clutch the railing .
-23-1	2163-2166	You	person	giv	ana	24-7[131_0]
+23-1	2163-2166	You	person[183]	giv[183]	ana	24-7[189_183]
 23-2	2167-2173	clutch	_	_	_	_
-23-3	2174-2177	the	object[128]	giv[128]	_	_
-23-4	2178-2185	railing	object[128]	giv[128]	_	_
+23-3	2174-2177	the	object[186]	giv[186]	_	_
+23-4	2178-2185	railing	object[186]	giv[186]	_	_
 23-5	2186-2187	.	_	_	_	_
 
 #Text=Hot , animal fear surges in your chest .
@@ -479,16 +479,16 @@
 24-4	2201-2205	fear	_	_	_	_
 24-5	2206-2212	surges	_	_	_	_
 24-6	2213-2215	in	_	_	_	_
-24-7	2216-2220	your	person[131]	giv[131]	ana	25-5[0_131]
+24-7	2216-2220	your	person[189]	giv[189]	ana	25-5[191_189]
 24-8	2221-2226	chest	_	_	_	_
 24-9	2227-2228	.	_	_	_	_
 
 #Text=She looks up at you and , across the gap of forty meters , smiles a brilliant , heartbreaking smile .
-25-1	2229-2232	She	person	giv	ana	26-2
+25-1	2229-2232	She	person[190]	giv[190]	ana	26-2[199_190]
 25-2	2233-2238	looks	_	_	_	_
 25-3	2239-2241	up	_	_	_	_
 25-4	2242-2244	at	_	_	_	_
-25-5	2245-2248	you	person	giv	ana	27-1
+25-5	2245-2248	you	person[191]	giv[191]	ana	27-1[200_191]
 25-6	2249-2252	and	_	_	_	_
 25-7	2253-2254	,	_	_	_	_
 25-8	2255-2261	across	_	_	_	_
@@ -499,46 +499,46 @@
 25-13	2279-2285	meters	_	_	_	_
 25-14	2286-2287	,	_	_	_	_
 25-15	2288-2294	smiles	_	_	_	_
-25-16	2295-2296	a	abstract[136]	new[136]	coref	70-1[269_136]
-25-17	2297-2306	brilliant	abstract[136]	new[136]	_	_
-25-18	2307-2308	,	abstract[136]	new[136]	_	_
-25-19	2309-2322	heartbreaking	abstract[136]	new[136]	_	_
-25-20	2323-2328	smile	abstract[136]	new[136]	_	_
+25-16	2295-2296	a	_	_	_	_
+25-17	2297-2306	brilliant	_	_	_	_
+25-18	2307-2308	,	_	_	_	_
+25-19	2309-2322	heartbreaking	_	_	_	_
+25-20	2323-2328	smile	_	_	_	_
 25-21	2329-2330	.	_	_	_	_
 
 #Text=Then she lets go and falls .
 26-1	2331-2335	Then	_	_	_	_
-26-2	2336-2339	she	person	giv	ana	37-1
-26-3	2340-2344	lets	_	_	_	_
-26-4	2345-2347	go	_	_	_	_
-26-5	2348-2351	and	_	_	_	_
-26-6	2352-2357	falls	_	_	_	_
+26-2	2336-2339	she	event[198]|person[199]	new[198]|giv[199]	ana|ana	43-2[298_198]|37-1[258_199]
+26-3	2340-2344	lets	event[198]	new[198]	_	_
+26-4	2345-2347	go	event[198]	new[198]	_	_
+26-5	2348-2351	and	event[198]	new[198]	_	_
+26-6	2352-2357	falls	event[198]	new[198]	_	_
 26-7	2358-2359	.	_	_	_	_
 
 #Text=You scream .
-27-1	2360-2363	You	person	giv	ana	29-8[143_0]
+27-1	2360-2363	You	person[200]	giv[200]	ana	29-8[209_200]
 27-2	2364-2370	scream	_	_	_	_
 27-3	2371-2372	.	_	_	_	_
 
 #Text=“ Fucking airsurfers , ” says Derya .
 28-1	2373-2374	“	_	_	_	_
-28-2	2375-2382	Fucking	person[139]	new[139]	ana	33-2[0_139]
-28-3	2383-2393	airsurfers	person[139]	new[139]	_	_
+28-2	2375-2382	Fucking	person[203]	new[203]	ana	33-2[244_203]
+28-3	2383-2393	airsurfers	person[203]	new[203]	_	_
 28-4	2394-2395	,	_	_	_	_
 28-5	2396-2397	”	_	_	_	_
 28-6	2398-2402	says	_	_	_	_
-28-7	2403-2408	Derya	person	giv	ana	29-1
+28-7	2403-2408	Derya	person[204]	giv[204]	ana	29-1[205_204]
 28-8	2409-2410	.	_	_	_	_
 
 #Text=He steps off the moving sidewalk near you : tall , hook-nosed , the fashionable whorls of pox and acne making constellations of his cheeks and chest ; the glowing , formal tattoos of his committees and lifebrands adorning his massive triceps .
-29-1	2411-2413	He	person	giv	ana	29-24[149_0]
+29-1	2411-2413	He	person[205]	giv[205]	ana	29-24[218_205]
 29-2	2414-2419	steps	_	_	_	_
 29-3	2420-2423	off	_	_	_	_
-29-4	2424-2427	the	_	_	_	_
-29-5	2428-2434	moving	_	_	_	_
-29-6	2435-2443	sidewalk	_	_	_	_
-29-7	2444-2448	near	_	_	_	_
-29-8	2449-2452	you	person[143]	giv[143]	ana	30-1[0_143]
+29-4	2424-2427	the	place[208]	giv[208]	_	_
+29-5	2428-2434	moving	place[208]	giv[208]	_	_
+29-6	2435-2443	sidewalk	place[208]	giv[208]	_	_
+29-7	2444-2448	near	place[208]	giv[208]	_	_
+29-8	2449-2452	you	place[208]|person[209]	giv[208]|giv[209]	ana	30-1[230_209]
 29-9	2453-2454	:	_	_	_	_
 29-10	2455-2459	tall	_	_	_	_
 29-11	2460-2461	,	_	_	_	_
@@ -554,7 +554,7 @@
 29-21	2514-2520	making	_	_	_	_
 29-22	2521-2535	constellations	_	_	_	_
 29-23	2536-2538	of	_	_	_	_
-29-24	2539-2542	his	person[149]	giv[149]	ana	29-35[153_149]
+29-24	2539-2542	his	person[218]	giv[218]	ana	29-35[224_218]
 29-25	2543-2549	cheeks	_	_	_	_
 29-26	2550-2553	and	_	_	_	_
 29-27	2554-2559	chest	_	_	_	_
@@ -565,18 +565,18 @@
 29-32	2576-2582	formal	_	_	_	_
 29-33	2583-2590	tattoos	_	_	_	_
 29-34	2591-2593	of	_	_	_	_
-29-35	2594-2597	his	person[153]	giv[153]	ana	29-40[156_153]
+29-35	2594-2597	his	person[224]	giv[224]	ana	29-40[229_224]
 29-36	2598-2608	committees	_	_	_	_
 29-37	2609-2612	and	_	_	_	_
 29-38	2613-2623	lifebrands	_	_	_	_
 29-39	2624-2632	adorning	_	_	_	_
-29-40	2633-2636	his	person[156]	giv[156]	ana	31-1[0_156]
+29-40	2633-2636	his	person[229]	giv[229]	coref	31-1[234_229]
 29-41	2637-2644	massive	_	_	_	_
 29-42	2645-2652	triceps	_	_	_	_
 29-43	2653-2654	.	_	_	_	_
 
 #Text=You swallow on a dry throat .
-30-1	2655-2658	You	person	giv	ana	31-8
+30-1	2655-2658	You	person[230]	giv[230]	ana	31-8[237_230]
 30-2	2659-2666	swallow	_	_	_	_
 30-3	2667-2669	on	_	_	_	_
 30-4	2670-2671	a	_	_	_	_
@@ -585,21 +585,21 @@
 30-7	2683-2684	.	_	_	_	_
 
 #Text=Derya , of all people , hearing you scream !
-31-1	2685-2690	Derya	person	giv	ana	32-1
+31-1	2685-2690	Derya	person[234]	giv[234]	ana	32-1[238_234]
 31-2	2691-2692	,	_	_	_	_
 31-3	2693-2695	of	_	_	_	_
 31-4	2696-2699	all	_	_	_	_
 31-5	2700-2706	people	_	_	_	_
 31-6	2707-2708	,	_	_	_	_
 31-7	2709-2716	hearing	_	_	_	_
-31-8	2717-2720	you	person	giv	ana	32-3
+31-8	2717-2720	you	person[237]	giv[237]	ana	32-3[239_237]
 31-9	2721-2727	scream	_	_	_	_
 31-10	2728-2729	!	_	_	_	_
 
 #Text=He gives you a hooded look .
-32-1	2730-2732	He	person	giv	coref	43-8
+32-1	2730-2732	He	person[238]	giv[238]	coref	43-8[299_238]
 32-2	2733-2738	gives	_	_	_	_
-32-3	2739-2742	you	person	giv	ana	46-8
+32-3	2739-2742	you	person[239]	giv[239]	ana	46-8[313_239]
 32-4	2743-2744	a	_	_	_	_
 32-5	2745-2751	hooded	_	_	_	_
 32-6	2752-2756	look	_	_	_	_
@@ -607,37 +607,37 @@
 
 #Text=“ They infect themselves with some designer virus -
 33-1	2759-2760	“	_	_	_	_
-33-2	2761-2765	They	person	giv	ana	33-4
+33-2	2761-2765	They	person[244]	giv[244]	ana	33-4[245_244]
 33-3	2766-2772	infect	_	_	_	_
-33-4	2773-2783	themselves	person	giv	ana	34-3
+33-4	2773-2783	themselves	person[245]	giv[245]	ana	34-3[250_245]
 33-5	2784-2788	with	_	_	_	_
-33-6	2789-2793	some	animal[167]	new[167]	ana	34-1[0_167]
-33-7	2794-2802	designer	animal[167]	new[167]	_	_
-33-8	2803-2808	virus	animal[167]	new[167]	_	_
+33-6	2789-2793	some	abstract[248]	new[248]	ana	34-1[249_248]
+33-7	2794-2802	designer	abstract[248]	new[248]	_	_
+33-8	2803-2808	virus	abstract[248]	new[248]	_	_
 33-9	2809-2810	-	_	_	_	_
 
 #Text=it lets them hack the city ’s person-recognition systems .
-34-1	2811-2813	it	animal	giv	_	_
+34-1	2811-2813	it	abstract[249]	giv[249]	_	_
 34-2	2814-2818	lets	_	_	_	_
-34-3	2819-2823	them	person	giv	ana	35-7
+34-3	2819-2823	them	person[250]	giv[250]	ana	35-7[256_250]
 34-4	2824-2828	hack	_	_	_	_
-34-5	2829-2832	the	place[171]	giv[171]	coref	66-1[258_171]
-34-6	2833-2837	city	place[171]	giv[171]	_	_
-34-7	2838-2840	’s	place[171]	giv[171]	_	_
+34-5	2829-2832	the	place[254]	giv[254]	coref	66-1[396_254]
+34-6	2833-2837	city	place[254]	giv[254]	_	_
+34-7	2838-2840	’s	place[254]	giv[254]	_	_
 34-8	2841-2859	person-recognition	_	_	_	_
 34-9	2860-2867	systems	_	_	_	_
 34-10	2868-2869	.	_	_	_	_
 
 #Text=So the mites do n’t see them when they jump .
 35-1	2870-2872	So	_	_	_	_
-35-2	2873-2876	the	animal[172]	giv[172]	coref	39-2[184_172]
-35-3	2877-2882	mites	animal[172]	giv[172]	_	_
+35-2	2873-2876	the	animal[255]	giv[255]	coref	39-2[277_255]
+35-3	2877-2882	mites	animal[255]	giv[255]	_	_
 35-4	2883-2885	do	_	_	_	_
 35-5	2886-2889	n’t	_	_	_	_
 35-6	2890-2893	see	_	_	_	_
-35-7	2894-2898	them	person	giv	ana	35-9
+35-7	2894-2898	them	person[256]	giv[256]	ana	35-9[257_256]
 35-8	2899-2903	when	_	_	_	_
-35-9	2904-2908	they	person	giv	ana	44-2
+35-9	2904-2908	they	person[257]	giv[257]	ana	44-2[300_257]
 35-10	2909-2913	jump	_	_	_	_
 35-11	2914-2915	.	_	_	_	_
 
@@ -647,7 +647,7 @@
 36-3	2924-2925	”	_	_	_	_
 
 #Text=She ’s swept past the whalelike oval of the public pool on the 202nd , past the sloping mandala of the Google of offices on the 164th .
-37-1	2926-2929	She	person	giv	ana	38-6
+37-1	2926-2929	She	person[258]	giv[258]	ana	38-6[271_258]
 37-2	2930-2932	’s	_	_	_	_
 37-3	2933-2938	swept	_	_	_	_
 37-4	2939-2943	past	_	_	_	_
@@ -682,7 +682,7 @@
 38-3	3069-3074	131st	_	_	_	_
 38-4	3075-3076	,	_	_	_	_
 38-5	3077-3082	below	_	_	_	_
-38-6	3083-3086	her	person	giv	ana	40-10
+38-6	3083-3086	her	person[271]	giv[271]	ana	40-10[280_271]
 38-7	3087-3088	,	_	_	_	_
 38-8	3089-3091	is	_	_	_	_
 38-9	3092-3095	the	_	_	_	_
@@ -701,8 +701,8 @@
 
 #Text=Now the mites are finally closing in .
 39-1	3157-3160	Now	_	_	_	_
-39-2	3161-3164	the	animal[184]	giv[184]	_	_
-39-3	3165-3170	mites	animal[184]	giv[184]	_	_
+39-2	3161-3164	the	animal[277]	giv[277]	_	_
+39-3	3165-3170	mites	animal[277]	giv[277]	_	_
 39-4	3171-3174	are	_	_	_	_
 39-5	3175-3182	finally	_	_	_	_
 39-6	3183-3190	closing	_	_	_	_
@@ -710,19 +710,19 @@
 39-8	3194-3195	.	_	_	_	_
 
 #Text=A silver swarm coalesces around the 164th , and she vanishes into it , like a snip of scallion into cloudy miso soup .
-40-1	3196-3197	A	animal[185]	giv[185]	ana	40-13[0_185]
-40-2	3198-3204	silver	animal[185]	giv[185]	_	_
-40-3	3205-3210	swarm	animal[185]	giv[185]	_	_
+40-1	3196-3197	A	animal[278]	giv[278]	ana	40-13[281_278]
+40-2	3198-3204	silver	animal[278]	giv[278]	_	_
+40-3	3205-3210	swarm	animal[278]	giv[278]	_	_
 40-4	3211-3220	coalesces	_	_	_	_
 40-5	3221-3227	around	_	_	_	_
 40-6	3228-3231	the	_	_	_	_
 40-7	3232-3237	164th	_	_	_	_
 40-8	3238-3239	,	_	_	_	_
 40-9	3240-3243	and	_	_	_	_
-40-10	3244-3247	she	person	giv	ana	41-6
+40-10	3244-3247	she	person[280]	giv[280]	ana	41-6[291_280]
 40-11	3248-3256	vanishes	_	_	_	_
 40-12	3257-3261	into	_	_	_	_
-40-13	3262-3264	it	animal	giv	coref	41-2[193_0]
+40-13	3262-3264	it	animal[281]	giv[281]	coref	41-2[290_281]
 40-14	3265-3266	,	_	_	_	_
 40-15	3267-3271	like	_	_	_	_
 40-16	3272-3273	a	_	_	_	_
@@ -737,11 +737,11 @@
 
 #Text=When the cloud disperses , she ’s standing on one of the Stock Exchange ’s upside-down overhangs .
 41-1	3315-3319	When	_	_	_	_
-41-2	3320-3323	the	animal[193]	giv[193]	coref	58-1[241_193]
-41-3	3324-3329	cloud	animal[193]	giv[193]	_	_
+41-2	3320-3323	the	animal[290]	giv[290]	coref	58-1[368_290]
+41-3	3324-3329	cloud	animal[290]	giv[290]	_	_
 41-4	3330-3339	disperses	_	_	_	_
 41-5	3340-3341	,	_	_	_	_
-41-6	3342-3345	she	person	giv	ana	42-1
+41-6	3342-3345	she	person[291]	giv[291]	ana	42-1[295_291]
 41-7	3346-3348	’s	_	_	_	_
 41-8	3349-3357	standing	_	_	_	_
 41-9	3358-3360	on	_	_	_	_
@@ -756,7 +756,7 @@
 41-18	3412-3413	.	_	_	_	_
 
 #Text=She waves , antlike , then crawls through a dormer window .
-42-1	3414-3417	She	person	giv	ana	57-1[239_0]
+42-1	3414-3417	She	person[295]	giv[295]	ana	57-1[365_295]
 42-2	3418-3423	waves	_	_	_	_
 42-3	3424-3425	,	_	_	_	_
 42-4	3426-3433	antlike	_	_	_	_
@@ -771,19 +771,19 @@
 
 #Text=“ It ’s not funny , ” Derya says .
 43-1	3474-3475	“	_	_	_	_
-43-2	3476-3478	It	_	_	_	_
+43-2	3476-3478	It	event[298]	giv[298]	_	_
 43-3	3479-3481	’s	_	_	_	_
 43-4	3482-3485	not	_	_	_	_
 43-5	3486-3491	funny	_	_	_	_
 43-6	3492-3493	,	_	_	_	_
 43-7	3494-3495	”	_	_	_	_
-43-8	3496-3501	Derya	person	giv	ana	47-9
+43-8	3496-3501	Derya	person[299]	giv[299]	ana	47-9[320_299]
 43-9	3502-3506	says	_	_	_	_
 43-10	3507-3508	.	_	_	_	_
 
 #Text=“ They ’re a huge drain on emergency preparedness .
 44-1	3509-3510	“	_	_	_	_
-44-2	3511-3515	They	person	giv	coref	52-6[224_0]
+44-2	3511-3515	They	person[300]	giv[300]	coref	52-6[341_300]
 44-3	3516-3519	’re	_	_	_	_
 44-4	3520-3521	a	_	_	_	_
 44-5	3522-3526	huge	_	_	_	_
@@ -811,9 +811,9 @@
 46-5	3641-3650	evolution	_	_	_	_
 46-6	3651-3652	,	_	_	_	_
 46-7	3653-3654	”	_	_	_	_
-46-8	3655-3658	you	person	giv	ana	46-10
+46-8	3655-3658	you	person[313]	giv[313]	ana	46-10[314_313]
 46-9	3659-3663	find	_	_	_	_
-46-10	3664-3672	yourself	person	giv	ana	47-4
+46-10	3664-3672	yourself	person[314]	giv[314]	ana	47-4[315_314]
 46-11	3673-3679	saying	_	_	_	_
 46-12	3680-3681	.	_	_	_	_
 
@@ -821,15 +821,15 @@
 47-1	3682-3683	“	_	_	_	_
 47-2	3684-3686	Do	_	_	_	_
 47-3	3687-3690	n’t	_	_	_	_
-47-4	3691-3694	you	person	giv	ana	51-4
+47-4	3691-3694	you	person[315]	giv[315]	ana	51-4[332_315]
 47-5	3695-3700	quote	_	_	_	_
 47-6	3701-3704	the	_	_	_	_
 47-7	3705-3713	founders	_	_	_	_
 47-8	3714-3716	at	_	_	_	_
-47-9	3717-3719	me	person	giv	coref	47-12
+47-9	3717-3719	me	person[320]	giv[320]	coref	47-12[321_320]
 47-10	3720-3721	,	_	_	_	_
 47-11	3722-3723	”	_	_	_	_
-47-12	3724-3729	Derya	person	giv	ana	51-1
+47-12	3724-3729	Derya	person[321]	giv[321]	ana	51-1[331_321]
 47-13	3730-3735	snaps	_	_	_	_
 47-14	3736-3737	.	_	_	_	_
 
@@ -872,41 +872,41 @@
 50-11	3909-3910	”	_	_	_	_
 
 #Text=He stares until you meet his eye .
-51-1	3911-3913	He	person	giv	ana	51-6[222_0]
+51-1	3911-3913	He	person[331]	giv[331]	ana	51-6[337_331]
 51-2	3914-3920	stares	_	_	_	_
 51-3	3921-3926	until	_	_	_	_
-51-4	3927-3930	you	person	giv	ana	52-2
+51-4	3927-3930	you	person[332]	giv[332]	ana	52-2[338_332]
 51-5	3931-3935	meet	_	_	_	_
-51-6	3936-3939	his	person[222]	giv[222]	_	_
+51-6	3936-3939	his	person[337]	giv[337]	_	_
 51-7	3940-3943	eye	_	_	_	_
 51-8	3944-3945	.	_	_	_	_
 
 #Text=“ You even talk to those people -
 52-1	3946-3947	“	_	_	_	_
-52-2	3948-3951	You	person	giv	ana	53-2
+52-2	3948-3951	You	person[338]	giv[338]	ana	53-2[342_338]
 52-3	3952-3956	even	_	_	_	_
 52-4	3957-3961	talk	_	_	_	_
 52-5	3962-3964	to	_	_	_	_
-52-6	3965-3970	those	person[224]	giv[224]	ana	54-5[0_224]
-52-7	3971-3977	people	person[224]	giv[224]	_	_
+52-6	3965-3970	those	person[341]	giv[341]	ana	54-5[345_341]
+52-7	3971-3977	people	person[341]	giv[341]	_	_
 52-8	3978-3979	-	_	_	_	_
 
 #Text=are you paying attention ? —
 53-1	3980-3983	are	_	_	_	_
-53-2	3984-3987	you	person	giv	ana	54-1
+53-2	3984-3987	you	person[342]	giv[342]	ana	54-1[344_342]
 53-3	3988-3994	paying	_	_	_	_
 53-4	3995-4004	attention	_	_	_	_
 53-5	4005-4006	?	_	_	_	_
 53-6	4007-4008	—	_	_	_	_
 
 #Text=you even talk to them , your rep will be trashed on all the major servers .
-54-1	4009-4012	you	person	giv	ana	54-7[230_0]
+54-1	4009-4012	you	person[344]	giv[344]	ana	54-7[351_344]
 54-2	4013-4017	even	_	_	_	_
 54-3	4018-4022	talk	_	_	_	_
 54-4	4023-4025	to	_	_	_	_
-54-5	4026-4030	them	person	giv	_	_
+54-5	4026-4030	them	person[345]	giv[345]	_	_
 54-6	4031-4032	,	_	_	_	_
-54-7	4033-4037	your	person[230]	giv[230]	ana	55-1[0_230]
+54-7	4033-4037	your	person[351]	giv[351]	ana	55-1[354_351]
 54-8	4038-4041	rep	_	_	_	_
 54-9	4042-4046	will	_	_	_	_
 54-10	4047-4049	be	_	_	_	_
@@ -919,17 +919,17 @@
 54-17	4083-4084	.	_	_	_	_
 
 #Text=You wo n’t work , you wo n’t party , you ’ll be defriended by every one of your tribes .
-55-1	4085-4088	You	person	giv	ana	55-6
+55-1	4085-4088	You	person[354]	giv[354]	ana	55-6[355_354]
 55-2	4089-4091	wo	_	_	_	_
 55-3	4092-4095	n’t	_	_	_	_
 55-4	4096-4100	work	_	_	_	_
 55-5	4101-4102	,	_	_	_	_
-55-6	4103-4106	you	person	giv	ana	55-11
+55-6	4103-4106	you	person[355]	giv[355]	ana	55-11[356_355]
 55-7	4107-4109	wo	_	_	_	_
 55-8	4110-4113	n’t	_	_	_	_
 55-9	4114-4119	party	_	_	_	_
 55-10	4120-4121	,	_	_	_	_
-55-11	4122-4125	you	person	giv	ana	55-19[236_0]
+55-11	4122-4125	you	person[356]	giv[356]	ana	55-19[362_356]
 55-12	4126-4129	’ll	_	_	_	_
 55-13	4130-4132	be	_	_	_	_
 55-14	4133-4143	defriended	_	_	_	_
@@ -937,7 +937,7 @@
 55-16	4147-4152	every	_	_	_	_
 55-17	4153-4156	one	_	_	_	_
 55-18	4157-4159	of	_	_	_	_
-55-19	4160-4164	your	person[236]	giv[236]	ana	65-1[0_236]
+55-19	4160-4164	your	person[362]	giv[362]	ana	65-1[392_362]
 55-20	4165-4171	tribes	_	_	_	_
 55-21	4172-4173	.	_	_	_	_
 
@@ -948,26 +948,26 @@
 56-4	4183-4184	”	_	_	_	_
 
 #Text=Her broad-brimmed hat is still sailing on the wind .
-57-1	4185-4188	Her	object[238]|person[239]	giv[238]|giv[239]	ana|ana	58-4[0_238]|68-2[0_239]
-57-2	4189-4202	broad-brimmed	object[238]	giv[238]	_	_
-57-3	4203-4206	hat	object[238]	giv[238]	_	_
+57-1	4185-4188	Her	object[364]|person[365]	giv[364]|giv[365]	ana|ana	58-4[369_364]|68-2[406_365]
+57-2	4189-4202	broad-brimmed	object[364]	giv[364]	_	_
+57-3	4203-4206	hat	object[364]	giv[364]	_	_
 57-4	4207-4209	is	_	_	_	_
 57-5	4210-4215	still	_	_	_	_
 57-6	4216-4223	sailing	_	_	_	_
 57-7	4224-4226	on	_	_	_	_
-57-8	4227-4230	the	abstract[240]	giv[240]	_	_
-57-9	4231-4235	wind	abstract[240]	giv[240]	_	_
+57-8	4227-4230	the	abstract[367]	giv[367]	_	_
+57-9	4231-4235	wind	abstract[367]	giv[367]	_	_
 57-10	4236-4237	.	_	_	_	_
 
 #Text=The mites missed it .
-58-1	4238-4241	The	animal[241]	giv[241]	_	_
-58-2	4242-4247	mites	animal[241]	giv[241]	_	_
+58-1	4238-4241	The	animal[368]	giv[368]	_	_
+58-2	4242-4247	mites	animal[368]	giv[368]	_	_
 58-3	4248-4254	missed	_	_	_	_
-58-4	4255-4257	it	object	giv	ana	59-1
+58-4	4255-4257	it	object[369]	giv[369]	ana	59-1[370_369]
 58-5	4258-4259	.	_	_	_	_
 
 #Text=It cuts between the towers of the 50th .
-59-1	4260-4262	It	object	giv	_	_
+59-1	4260-4262	It	object[370]	giv[370]	_	_
 59-2	4263-4267	cuts	_	_	_	_
 59-3	4268-4275	between	_	_	_	_
 59-4	4276-4279	the	_	_	_	_
@@ -1023,7 +1023,7 @@
 64-7	4491-4492	.	_	_	_	_
 
 #Text=You realize : no mites .
-65-1	4493-4496	You	person	giv	ana	67-1
+65-1	4493-4496	You	person[392]	giv[392]	ana	67-1[399_392]
 65-2	4497-4504	realize	_	_	_	_
 65-3	4505-4506	:	_	_	_	_
 65-4	4507-4509	no	_	_	_	_
@@ -1031,8 +1031,8 @@
 65-6	4516-4517	.	_	_	_	_
 
 #Text=The city has no eyes or ears here .
-66-1	4518-4521	The	place[258]	giv[258]	_	_
-66-2	4522-4526	city	place[258]	giv[258]	_	_
+66-1	4518-4521	The	place[396]	giv[396]	_	_
+66-2	4522-4526	city	place[396]	giv[396]	_	_
 66-3	4527-4530	has	_	_	_	_
 66-4	4531-4533	no	_	_	_	_
 66-5	4534-4538	eyes	_	_	_	_
@@ -1042,7 +1042,7 @@
 66-9	4552-4553	.	_	_	_	_
 
 #Text=You walk through empty , miteless rooms , stepping around light fixtures .
-67-1	4554-4557	You	person	giv	ana	71-4
+67-1	4554-4557	You	person[399]	giv[399]	ana	71-4[418_399]
 67-2	4558-4562	walk	_	_	_	_
 67-3	4563-4570	through	_	_	_	_
 67-4	4571-4576	empty	_	_	_	_
@@ -1058,7 +1058,7 @@
 
 #Text=Then she ’s there , in a doorway .
 68-1	4629-4633	Then	_	_	_	_
-68-2	4634-4637	she	person	giv	ana	69-1[268_0]
+68-2	4634-4637	she	person[406]	giv[406]	ana	69-1[411_406]
 68-3	4638-4640	’s	_	_	_	_
 68-4	4641-4646	there	_	_	_	_
 68-5	4647-4648	,	_	_	_	_
@@ -1068,7 +1068,7 @@
 68-9	4662-4663	.	_	_	_	_
 
 #Text=Her eyes , bright blue , radiant .
-69-1	4664-4667	Her	person[268]	giv[268]	ana	70-1[270_268]
+69-1	4664-4667	Her	person[411]	giv[411]	ana	70-1[414_411]
 69-2	4668-4672	eyes	_	_	_	_
 69-3	4673-4674	,	_	_	_	_
 69-4	4675-4681	bright	_	_	_	_
@@ -1078,40 +1078,40 @@
 69-8	4697-4698	.	_	_	_	_
 
 #Text=Her smile , with that chaste yellow dress , so bashful .
-70-1	4699-4702	Her	abstract[269]|person[270]	giv[269]|giv[270]	ana	71-1[0_270]
-70-2	4703-4708	smile	abstract[269]	giv[269]	_	_
+70-1	4699-4702	Her	person[414]	giv[414]	ana	71-1[417_414]
+70-2	4703-4708	smile	_	_	_	_
 70-3	4709-4710	,	_	_	_	_
 70-4	4711-4715	with	_	_	_	_
-70-5	4716-4720	that	object[271]	giv[271]	_	_
-70-6	4721-4727	chaste	object[271]	giv[271]	_	_
-70-7	4728-4734	yellow	object[271]	giv[271]	_	_
-70-8	4735-4740	dress	object[271]	giv[271]	_	_
+70-5	4716-4720	that	object[416]	giv[416]	_	_
+70-6	4721-4727	chaste	object[416]	giv[416]	_	_
+70-7	4728-4734	yellow	object[416]	giv[416]	_	_
+70-8	4735-4740	dress	object[416]	giv[416]	_	_
 70-9	4741-4742	,	_	_	_	_
 70-10	4743-4745	so	_	_	_	_
 70-11	4746-4753	bashful	_	_	_	_
 70-12	4754-4755	.	_	_	_	_
 
 #Text=She comes to you .
-71-1	4756-4759	She	person	giv	ana	72-7
+71-1	4756-4759	She	person[417]	giv[417]	ana	72-7[421_417]
 71-2	4760-4765	comes	_	_	_	_
 71-3	4766-4768	to	_	_	_	_
-71-4	4769-4772	you	person	giv	ana	72-2
+71-4	4769-4772	you	person[418]	giv[418]	ana	72-2[419_418]
 71-5	4773-4774	.	_	_	_	_
 
 #Text=“ You want it ? ” she says .
 72-1	4775-4776	“	_	_	_	_
-72-2	4777-4780	You	person	giv	ana	73-2
+72-2	4777-4780	You	person[419]	giv[419]	ana	73-2[422_419]
 72-3	4781-4785	want	_	_	_	_
 72-4	4786-4788	it	_	_	_	_
 72-5	4789-4790	?	_	_	_	_
 72-6	4791-4792	”	_	_	_	_
-72-7	4793-4796	she	person	giv	ana	76-4
+72-7	4793-4796	she	person[421]	giv[421]	ana	76-4[433_421]
 72-8	4797-4801	says	_	_	_	_
 72-9	4802-4803	.	_	_	_	_
 
 #Text=“ You want to be infected ?
 73-1	4804-4805	“	_	_	_	_
-73-2	4806-4809	You	person	giv	ana	74-1
+73-2	4806-4809	You	person[422]	giv[422]	ana	74-1[430_422]
 73-3	4810-4814	want	_	_	_	_
 73-4	4815-4817	to	_	_	_	_
 73-5	4818-4820	be	_	_	_	_
@@ -1119,7 +1119,7 @@
 73-7	4830-4831	?	_	_	_	_
 
 #Text=You want to fly ? ”
-74-1	4832-4835	You	person	giv	ana	75-1
+74-1	4832-4835	You	person[430]	giv[430]	ana	75-1[431_430]
 74-2	4836-4840	want	_	_	_	_
 74-3	4841-4843	to	_	_	_	_
 74-4	4844-4847	fly	_	_	_	_
@@ -1127,7 +1127,7 @@
 74-6	4850-4851	”	_	_	_	_
 
 #Text=You nod .
-75-1	4852-4855	You	person	giv	_	_
+75-1	4852-4855	You	person[431]	giv[431]	_	_
 75-2	4856-4859	nod	_	_	_	_
 75-3	4860-4861	.	_	_	_	_
 
@@ -1135,7 +1135,7 @@
 76-1	4862-4866	Eyes	_	_	_	_
 76-2	4867-4874	closing	_	_	_	_
 76-3	4875-4876	,	_	_	_	_
-76-4	4877-4880	she	person	giv	_	_
+76-4	4877-4880	she	person[433]	giv[433]	_	_
 76-5	4881-4886	leans	_	_	_	_
 76-6	4887-4889	in	_	_	_	_
 76-7	4890-4893	for	_	_	_	_

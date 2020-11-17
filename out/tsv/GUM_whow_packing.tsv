@@ -1,4 +1,4 @@
-#FORMAT=WebAnno TSV 3
+#FORMAT=WebAnno TSV 3.2
 #T_SP=webanno.custom.Referent|entity|infstat
 #T_RL=webanno.custom.Coref|type|BT_webanno.custom.Referent
 
@@ -7,7 +7,7 @@
 1-1	0-3	How	_	_	_	_
 1-2	4-6	to	_	_	_	_
 1-3	7-11	Pack	_	_	_	_
-1-4	12-16	Your	_	_	_	_
+1-4	12-16	Your	person[2]	acc[2]	ana	2-3[3_2]
 1-5	17-28	Possessions	_	_	_	_
 1-6	29-33	When	_	_	_	_
 1-7	34-40	Moving	_	_	_	_
@@ -15,19 +15,19 @@
 #Text=Even if you ca n't wait to live in your new house , curb your enthusiasm and resist the urge to cram all your possessions any which way into boxes .
 2-1	41-45	Even	_	_	_	_
 2-2	46-48	if	_	_	_	_
-2-3	49-52	you	person	acc	ana	2-15
+2-3	49-52	you	person[3]	giv[3]	ana	2-10[7_3]
 2-4	53-55	ca	_	_	_	_
 2-5	56-59	n't	_	_	_	_
 2-6	60-64	wait	_	_	_	_
 2-7	65-67	to	_	_	_	_
 2-8	68-72	live	_	_	_	_
 2-9	73-75	in	_	_	_	_
-2-10	76-80	your	object[3]	acc[3]	coref	23-15[59_3]
-2-11	81-84	new	object[3]	acc[3]	_	_
-2-12	85-90	house	object[3]	acc[3]	_	_
+2-10	76-80	your	object[6]|person[7]	acc[6]|giv[7]	coref|ana	23-15[94_6]|2-15[10_7]
+2-11	81-84	new	object[6]	acc[6]	_	_
+2-12	85-90	house	object[6]	acc[6]	_	_
 2-13	91-92	,	_	_	_	_
 2-14	93-97	curb	_	_	_	_
-2-15	98-102	your	person	giv	ana	2-24[7_0]
+2-15	98-102	your	person[10]	giv[10]	ana	2-24[14_10]
 2-16	103-113	enthusiasm	_	_	_	_
 2-17	114-117	and	_	_	_	_
 2-18	118-124	resist	_	_	_	_
@@ -36,7 +36,7 @@
 2-21	134-136	to	_	_	_	_
 2-22	137-141	cram	_	_	_	_
 2-23	142-145	all	_	_	_	_
-2-24	146-150	your	person[7]	giv[7]	ana	5-7[13_7]
+2-24	146-150	your	person[14]	giv[14]	ana	5-7[24_14]
 2-25	151-162	possessions	_	_	_	_
 2-26	163-166	any	_	_	_	_
 2-27	167-172	which	_	_	_	_
@@ -75,15 +75,15 @@
 5-3	294-295	a	_	_	_	_
 5-4	296-300	list	_	_	_	_
 5-5	301-303	of	_	_	_	_
-5-6	304-314	everything	object[12]	giv[12]	ana	5-14[0_12]
-5-7	315-318	you	object[12]|person[13]	giv[12]|giv[13]	ana	10-4[0_13]
-5-8	319-322	are	object[12]	giv[12]	_	_
-5-9	323-330	packing	object[12]	giv[12]	_	_
+5-6	304-314	everything	object[23]	new[23]	ana	5-14[25_23]
+5-7	315-318	you	object[23]|person[24]	new[23]|giv[24]	ana	10-4[40_24]
+5-8	319-322	are	object[23]	new[23]	_	_
+5-9	323-330	packing	object[23]	new[23]	_	_
 5-10	331-332	,	_	_	_	_
 5-11	333-335	in	_	_	_	_
 5-12	336-346	particular	_	_	_	_
 5-13	347-349	if	_	_	_	_
-5-14	350-352	it	object	giv	_	_
+5-14	350-352	it	object[25]	giv[25]	_	_
 5-15	353-355	's	_	_	_	_
 5-16	356-364	valuable	_	_	_	_
 5-17	365-366	.	_	_	_	_
@@ -113,28 +113,28 @@
 
 #Text=Use sturdy boxes .
 8-1	450-453	Use	_	_	_	_
-8-2	454-460	sturdy	object[18]	giv[18]	coref	9-2[20_18]
-8-3	461-466	boxes	object[18]	giv[18]	_	_
+8-2	454-460	sturdy	_	_	_	_
+8-3	461-466	boxes	_	_	_	_
 8-4	467-468	.	_	_	_	_
 
 #Text=Fill the box to the brim and seal the lid .
-9-1	469-473	Fill	abstract[19]	new[19]	coref	10-1[22_19]
-9-2	474-477	the	abstract[19]|object[20]	new[19]|giv[20]	_	_
-9-3	478-481	box	abstract[19]|object[20]	new[19]|giv[20]	_	_
-9-4	482-484	to	abstract[19]	new[19]	_	_
-9-5	485-488	the	abstract[19]	new[19]	_	_
-9-6	489-493	brim	abstract[19]	new[19]	_	_
-9-7	494-497	and	abstract[19]	new[19]	_	_
-9-8	498-502	seal	abstract[19]	new[19]	_	_
-9-9	503-506	the	abstract[19]	new[19]	_	_
-9-10	507-510	lid	abstract[19]	new[19]	_	_
-9-11	511-512	.	_	_	_	_
+9-1	469-473	Fill	abstract[36]	new[36]	coref	10-1[39_36]
+9-2	474-477	the	abstract[36]|object[37]	new[36]|new[37]	coref	11-5[46_37]
+9-3	478-481	box	abstract[36]|object[37]	new[36]|new[37]	_	_
+9-4	482-484	to	abstract[36]	new[36]	_	_
+9-5	485-488	the	abstract[36]	new[36]	_	_
+9-6	489-493	brim	abstract[36]	new[36]	_	_
+9-7	494-497	and	abstract[36]	new[36]	_	_
+9-8	498-502	seal	abstract[36]	new[36]	_	_
+9-9	503-506	the	abstract[36]	new[36]	_	_
+9-10	507-510	lid	abstract[36]	new[36]	_	_
+9-11	511-512	.	abstract[36]	new[36]	_	_
 
 #Text=That way , you can easily stack boxes on top of one another .
-10-1	513-517	That	abstract[22]	giv[22]	_	_
-10-2	518-521	way	abstract[22]	giv[22]	_	_
+10-1	513-517	That	abstract[39]	giv[39]	_	_
+10-2	518-521	way	abstract[39]	giv[39]	_	_
 10-3	522-523	,	_	_	_	_
-10-4	524-527	you	person	giv	ana	12-11
+10-4	524-527	you	person[40]	giv[40]	ana	12-11[51_40]
 10-5	528-531	can	_	_	_	_
 10-6	532-538	easily	_	_	_	_
 10-7	539-544	stack	_	_	_	_
@@ -142,21 +142,21 @@
 10-9	551-553	on	_	_	_	_
 10-10	554-557	top	_	_	_	_
 10-11	558-560	of	_	_	_	_
-10-12	561-564	one	object[25]	giv[25]	coref	11-5[27_25]
-10-13	565-572	another	object[25]	giv[25]	_	_
+10-12	561-564	one	_	_	_	_
+10-13	565-572	another	_	_	_	_
 10-14	573-574	.	_	_	_	_
 
 #Text=Tape the bottom of the box securely so that it does n't give way .
 11-1	575-579	Tape	_	_	_	_
-11-2	580-583	the	object[26]	new[26]	ana	11-10[0_26]
-11-3	584-590	bottom	object[26]	new[26]	_	_
-11-4	591-593	of	object[26]	new[26]	_	_
-11-5	594-597	the	object[26]|object[27]	new[26]|giv[27]	_	_
-11-6	598-601	box	object[26]|object[27]	new[26]|giv[27]	_	_
+11-2	580-583	the	object[45]	new[45]	ana	11-10[47_45]
+11-3	584-590	bottom	object[45]	new[45]	_	_
+11-4	591-593	of	object[45]	new[45]	_	_
+11-5	594-597	the	object[45]|object[46]	new[45]|giv[46]	_	_
+11-6	598-601	box	object[45]|object[46]	new[45]|giv[46]	_	_
 11-7	602-610	securely	_	_	_	_
 11-8	611-613	so	_	_	_	_
 11-9	614-618	that	_	_	_	_
-11-10	619-621	it	object	giv	_	_
+11-10	619-621	it	object[47]	giv[47]	_	_
 11-11	622-626	does	_	_	_	_
 11-12	627-630	n't	_	_	_	_
 11-13	631-635	give	_	_	_	_
@@ -166,19 +166,19 @@
 #Text=Never fill a box until it is so heavy that you ca n't lift it safely .
 12-1	642-647	Never	_	_	_	_
 12-2	648-652	fill	_	_	_	_
-12-3	653-654	a	object[29]	giv[29]	ana	12-6[0_29]
-12-4	655-658	box	object[29]	giv[29]	_	_
+12-3	653-654	a	object[49]	new[49]	ana	12-6[50_49]
+12-4	655-658	box	object[49]	new[49]	_	_
 12-5	659-664	until	_	_	_	_
-12-6	665-667	it	object	giv	ana	12-15
+12-6	665-667	it	object[50]	giv[50]	ana	12-15[52_50]
 12-7	668-670	is	_	_	_	_
 12-8	671-673	so	_	_	_	_
 12-9	674-679	heavy	_	_	_	_
 12-10	680-684	that	_	_	_	_
-12-11	685-688	you	person	giv	ana	23-7
+12-11	685-688	you	person[51]	giv[51]	ana	23-7[91_51]
 12-12	689-691	ca	_	_	_	_
 12-13	692-695	n't	_	_	_	_
 12-14	696-700	lift	_	_	_	_
-12-15	701-703	it	object	giv	_	_
+12-15	701-703	it	object[52]	giv[52]	_	_
 12-16	704-710	safely	_	_	_	_
 12-17	711-712	.	_	_	_	_
 
@@ -197,20 +197,20 @@
 14-1	755-762	Balance	_	_	_	_
 14-2	763-768	boxes	_	_	_	_
 14-3	769-773	with	_	_	_	_
-14-4	774-781	lighter	_	_	_	_
-14-5	782-787	items	_	_	_	_
-14-6	788-792	like	_	_	_	_
-14-7	793-799	towels	_	_	_	_
-14-8	800-802	or	_	_	_	_
-14-9	803-807	soft	_	_	_	_
-14-10	808-812	toys	_	_	_	_
+14-4	774-781	lighter	object[60]	new[60]	coref	15-2[64_60]
+14-5	782-787	items	object[60]	new[60]	_	_
+14-6	788-792	like	object[60]	new[60]	_	_
+14-7	793-799	towels	object[60]	new[60]	_	_
+14-8	800-802	or	object[60]	new[60]	_	_
+14-9	803-807	soft	object[60]	new[60]	_	_
+14-10	808-812	toys	object[60]	new[60]	_	_
 14-11	813-814	.	_	_	_	_
 
 #Text=Pack the lighter items on top .
 15-1	815-819	Pack	_	_	_	_
-15-2	820-823	the	_	_	_	_
-15-3	824-831	lighter	_	_	_	_
-15-4	832-837	items	_	_	_	_
+15-2	820-823	the	object[64]	giv[64]	_	_
+15-3	824-831	lighter	object[64]	giv[64]	_	_
+15-4	832-837	items	object[64]	giv[64]	_	_
 15-5	838-840	on	_	_	_	_
 15-6	841-844	top	_	_	_	_
 15-7	845-846	.	_	_	_	_
@@ -278,13 +278,13 @@
 
 #Text=Label each box clearly and which room it belongs to .
 21-1	1127-1132	Label	_	_	_	_
-21-2	1133-1137	each	object[49]	giv[49]	ana	21-8[0_49]
-21-3	1138-1141	box	object[49]	giv[49]	_	_
+21-2	1133-1137	each	object[83]	giv[83]	ana	21-8[85_83]
+21-3	1138-1141	box	object[83]	giv[83]	_	_
 21-4	1142-1149	clearly	_	_	_	_
 21-5	1150-1153	and	_	_	_	_
 21-6	1154-1159	which	_	_	_	_
 21-7	1160-1164	room	_	_	_	_
-21-8	1165-1167	it	object	giv	_	_
+21-8	1165-1167	it	object[85]	giv[85]	coref	22-6[88_85]
 21-9	1168-1175	belongs	_	_	_	_
 21-10	1176-1178	to	_	_	_	_
 21-11	1179-1180	.	_	_	_	_
@@ -295,8 +295,8 @@
 22-3	1190-1193	the	_	_	_	_
 22-4	1194-1199	sides	_	_	_	_
 22-5	1200-1202	of	_	_	_	_
-22-6	1203-1206	the	_	_	_	_
-22-7	1207-1210	box	_	_	_	_
+22-6	1203-1206	the	object[88]	giv[88]	_	_
+22-7	1207-1210	box	object[88]	giv[88]	_	_
 22-8	1211-1213	as	_	_	_	_
 22-9	1214-1218	well	_	_	_	_
 22-10	1219-1220	.	_	_	_	_
@@ -308,7 +308,7 @@
 23-4	1237-1240	box	_	_	_	_
 23-5	1241-1243	of	_	_	_	_
 23-6	1244-1254	essentials	_	_	_	_
-23-7	1255-1258	you	person	giv	ana	23-15[60_0]
+23-7	1255-1258	you	person[91]	giv[91]	ana	23-15[95_91]
 23-8	1259-1262	may	_	_	_	_
 23-9	1263-1267	need	_	_	_	_
 23-10	1268-1271	for	_	_	_	_
@@ -316,9 +316,9 @@
 23-12	1276-1281	first	_	_	_	_
 23-13	1282-1287	night	_	_	_	_
 23-14	1288-1290	at	_	_	_	_
-23-15	1291-1295	your	place[59]|person[60]	giv[59]|giv[60]	ana	24-20[0_60]
-23-16	1296-1299	new	place[59]	giv[59]	_	_
-23-17	1300-1305	house	place[59]	giv[59]	_	_
+23-15	1291-1295	your	object[94]|person[95]	giv[94]|giv[95]	ana	24-20[105_95]
+23-16	1296-1299	new	object[94]	giv[94]	_	_
+23-17	1300-1305	house	object[94]	giv[94]	_	_
 23-18	1306-1307	.	_	_	_	_
 
 #Text=Include items like toiletries , toilet paper , bottled water , snacks and a change of clothes in case you can not unpack everything in time .
@@ -341,7 +341,7 @@
 24-17	1394-1401	clothes	_	_	_	_
 24-18	1402-1404	in	_	_	_	_
 24-19	1405-1409	case	_	_	_	_
-24-20	1410-1413	you	person	giv	ana	27-10
+24-20	1410-1413	you	person[105]	giv[105]	ana	27-10[118_105]
 24-21	1414-1417	can	_	_	_	_
 24-22	1418-1421	not	_	_	_	_
 24-23	1422-1428	unpack	_	_	_	_
@@ -357,12 +357,12 @@
 26-1	1455-1457	Do	_	_	_	_
 26-2	1458-1461	n't	_	_	_	_
 26-3	1462-1467	label	_	_	_	_
-26-4	1468-1473	boxes	object[65]	new[65]	ana	27-16[0_65]
-26-5	1474-1478	with	object[65]	new[65]	_	_
-26-6	1479-1487	contents	object[65]|object[67]	new[65]|new[67]	coref	26-8[68_67]
+26-4	1468-1473	boxes	_	_	_	_
+26-5	1474-1478	with	_	_	_	_
+26-6	1479-1487	contents	object[109]	new[109]	coref	26-8[115_109]
 26-7	1488-1490	if	_	_	_	_
-26-8	1491-1494	the	object[68]	giv[68]	coref	27-27[74_68]
-26-9	1495-1503	contents	object[68]	giv[68]	_	_
+26-8	1491-1494	the	object[115]	giv[115]	ana	27-16[122_115]
+26-9	1495-1503	contents	object[115]	giv[115]	_	_
 26-10	1504-1507	are	_	_	_	_
 26-11	1508-1516	valuable	_	_	_	_
 26-12	1517-1518	.	_	_	_	_
@@ -377,13 +377,13 @@
 27-7	1555-1556	-	_	_	_	_
 27-8	1557-1564	Fragile	_	_	_	_
 27-9	1565-1566	"	_	_	_	_
-27-10	1567-1570	you	person	giv	ana	33-1
+27-10	1567-1570	you	person[118]	giv[118]	ana	33-1[147_118]
 27-11	1571-1577	should	_	_	_	_
 27-12	1578-1583	write	_	_	_	_
 27-13	1584-1593	something	_	_	_	_
 27-14	1594-1598	that	_	_	_	_
 27-15	1599-1604	makes	_	_	_	_
-27-16	1605-1607	it	object	giv	_	_
+27-16	1605-1607	it	object[122]	giv[122]	coref	27-27[127_122]
 27-17	1608-1613	sound	_	_	_	_
 27-18	1614-1618	less	_	_	_	_
 27-19	1619-1624	theft	_	_	_	_
@@ -394,8 +394,8 @@
 27-24	1652-1659	fragile	_	_	_	_
 27-25	1660-1666	nature	_	_	_	_
 27-26	1667-1669	of	_	_	_	_
-27-27	1670-1673	the	object[74]	giv[74]	coref	52-9[166_74]
-27-28	1674-1682	contents	object[74]	giv[74]	_	_
+27-27	1670-1673	the	object[127]	giv[127]	_	_
+27-28	1674-1682	contents	object[127]	giv[127]	_	_
 27-29	1683-1684	.	_	_	_	_
 
 #Text=Example : " Mom 's old dishes " instead of " Fine China "
@@ -415,7 +415,7 @@
 28-14	1741-1742	"	_	_	_	_
 
 #Text=Tape is cheap .
-29-1	1743-1747	Tape	object	new	ana	30-4
+29-1	1743-1747	Tape	object[133]	new[133]	ana	30-4[134_133]
 29-2	1748-1750	is	_	_	_	_
 29-3	1751-1756	cheap	_	_	_	_
 29-4	1757-1758	.	_	_	_	_
@@ -424,7 +424,7 @@
 30-1	1759-1762	Use	_	_	_	_
 30-2	1763-1767	lots	_	_	_	_
 30-3	1768-1770	of	_	_	_	_
-30-4	1771-1773	it	object	giv	_	_
+30-4	1771-1773	it	object[134]	giv[134]	_	_
 30-5	1774-1775	.	_	_	_	_
 
 #Text=Close box bottoms well .
@@ -443,7 +443,7 @@
 32-6	1829-1833	tape	_	_	_	_
 32-7	1834-1837	and	_	_	_	_
 32-8	1838-1842	tape	_	_	_	_
-32-9	1843-1849	screws	object	new	coref	33-6[88_0]
+32-9	1843-1849	screws	_	_	_	_
 32-10	1850-1853	and	_	_	_	_
 32-11	1854-1859	other	_	_	_	_
 32-12	1860-1866	little	_	_	_	_
@@ -452,72 +452,72 @@
 32-15	1879-1883	came	_	_	_	_
 32-16	1884-1887	out	_	_	_	_
 32-17	1888-1890	of	_	_	_	_
-32-18	1891-1900	something	object	new	ana	32-21
+32-18	1891-1900	something	object[145]	new[145]	ana	32-21[146_145]
 32-19	1901-1905	back	_	_	_	_
 32-20	1906-1913	against	_	_	_	_
-32-21	1914-1916	it	object	giv	_	_
+32-21	1914-1916	it	object[146]	giv[146]	_	_
 32-22	1917-1918	.	_	_	_	_
 
 #Text=You 'll want to find the right screw reassemble something without having to pick it out of 100 others when you get there .
-33-1	1919-1922	You	person	giv	ana	33-21
+33-1	1919-1922	You	person[147]	giv[147]	ana	33-21[157_147]
 33-2	1923-1926	'll	_	_	_	_
 33-3	1927-1931	want	_	_	_	_
 33-4	1932-1934	to	_	_	_	_
 33-5	1935-1939	find	_	_	_	_
-33-6	1940-1943	the	object[88]	giv[88]	ana	33-15[0_88]
-33-7	1944-1949	right	object[88]	giv[88]	_	_
-33-8	1950-1955	screw	object[88]	giv[88]	_	_
+33-6	1940-1943	the	object[151]	acc[151]	ana	33-15[153_151]
+33-7	1944-1949	right	object[151]	acc[151]	_	_
+33-8	1950-1955	screw	object[151]	acc[151]	_	_
 33-9	1956-1966	reassemble	_	_	_	_
 33-10	1967-1976	something	_	_	_	_
 33-11	1977-1984	without	_	_	_	_
 33-12	1985-1991	having	_	_	_	_
 33-13	1992-1994	to	_	_	_	_
 33-14	1995-1999	pick	_	_	_	_
-33-15	2000-2002	it	object	giv	_	_
+33-15	2000-2002	it	object[153]	giv[153]	_	_
 33-16	2003-2006	out	_	_	_	_
 33-17	2007-2009	of	_	_	_	_
 33-18	2010-2013	100	_	_	_	_
 33-19	2014-2020	others	_	_	_	_
 33-20	2021-2025	when	_	_	_	_
-33-21	2026-2029	you	person	giv	ana	34-12
+33-21	2026-2029	you	person[157]	giv[157]	ana	34-12[164_157]
 33-22	2030-2033	get	_	_	_	_
-33-23	2034-2039	there	place	giv	coref	46-13[146_0]
+33-23	2034-2039	there	place[158]	giv[158]	coref	46-13[249_158]
 33-24	2040-2041	.	_	_	_	_
 
 #Text=Do n't pack one box full of books or paperwork - you might not be able to carry it at all .
 34-1	2042-2044	Do	_	_	_	_
 34-2	2045-2048	n't	_	_	_	_
 34-3	2049-2053	pack	_	_	_	_
-34-4	2054-2057	one	object[94]	giv[94]	ana	34-19[0_94]
-34-5	2058-2061	box	object[94]	giv[94]	_	_
+34-4	2054-2057	one	object[161]	new[161]	ana	34-19[165_161]
+34-5	2058-2061	box	object[161]	new[161]	_	_
 34-6	2062-2066	full	_	_	_	_
 34-7	2067-2069	of	_	_	_	_
 34-8	2070-2075	books	_	_	_	_
 34-9	2076-2078	or	_	_	_	_
 34-10	2079-2088	paperwork	_	_	_	_
 34-11	2089-2090	-	_	_	_	_
-34-12	2091-2094	you	person	giv	coref	36-8
+34-12	2091-2094	you	person[164]	giv[164]	ana	36-8[179_164]
 34-13	2095-2100	might	_	_	_	_
 34-14	2101-2104	not	_	_	_	_
 34-15	2105-2107	be	_	_	_	_
 34-16	2108-2112	able	_	_	_	_
 34-17	2113-2115	to	_	_	_	_
 34-18	2116-2121	carry	_	_	_	_
-34-19	2122-2124	it	object	giv	ana	35-2
+34-19	2122-2124	it	object[165]	giv[165]	ana	35-2[166_165]
 34-20	2125-2127	at	_	_	_	_
 34-21	2128-2131	all	_	_	_	_
 34-22	2132-2133	.	_	_	_	_
 
 #Text=Fill it halfway with books , and fill it up with lighter stuff .
 35-1	2134-2138	Fill	_	_	_	_
-35-2	2139-2141	it	object	giv	ana	35-9
+35-2	2139-2141	it	object[166]	giv[166]	ana	35-9[168_166]
 35-3	2142-2149	halfway	_	_	_	_
 35-4	2150-2154	with	_	_	_	_
 35-5	2155-2160	books	_	_	_	_
 35-6	2161-2162	,	_	_	_	_
 35-7	2163-2166	and	_	_	_	_
 35-8	2167-2171	fill	_	_	_	_
-35-9	2172-2174	it	object	giv	_	_
+35-9	2172-2174	it	object[168]	giv[168]	_	_
 35-10	2175-2177	up	_	_	_	_
 35-11	2178-2182	with	_	_	_	_
 35-12	2183-2190	lighter	_	_	_	_
@@ -532,18 +532,18 @@
 36-5	2230-2231	)	_	_	_	_
 36-6	2232-2236	will	_	_	_	_
 36-7	2237-2240	let	_	_	_	_
-36-8	2241-2244	you	person	giv	ana	37-1
+36-8	2241-2244	you	person[179]	giv[179]	ana	37-1[190_179]
 36-9	2245-2249	walk	_	_	_	_
-36-10	2250-2253	the	place[106]	giv[106]	coref	36-18[109_106]
-36-11	2254-2259	store	place[106]	giv[106]	_	_
+36-10	2250-2253	the	organization[182]	acc[182]	coref	36-18[187_182]
+36-11	2254-2259	store	organization[182]	acc[182]	_	_
 36-12	2260-2263	for	_	_	_	_
 36-13	2264-2269	boxes	_	_	_	_
 36-14	2270-2274	when	_	_	_	_
-36-15	2275-2279	they	person	acc	ana	40-1
+36-15	2275-2279	they	person[184]	acc[184]	ana	40-1[204_184]
 36-16	2280-2283	are	_	_	_	_
 36-17	2284-2292	stocking	_	_	_	_
-36-18	2293-2296	the	place[109]	giv[109]	coref	39-7[118_109]
-36-19	2297-2303	stores	place[109]	giv[109]	_	_
+36-18	2293-2296	the	organization[187]	giv[187]	coref	39-7[203_187]
+36-19	2297-2303	stores	organization[187]	giv[187]	_	_
 36-20	2304-2311	between	_	_	_	_
 36-21	2312-2314	11	_	_	_	_
 36-22	2315-2317	pm	_	_	_	_
@@ -553,7 +553,7 @@
 36-26	2327-2328	.	_	_	_	_
 
 #Text=You can find boxes of all sizes .
-37-1	2329-2332	You	person	giv	ana	40-7
+37-1	2329-2332	You	person[190]	giv[190]	ana	40-7[207_190]
 37-2	2333-2336	can	_	_	_	_
 37-3	2337-2341	find	_	_	_	_
 37-4	2342-2347	boxes	_	_	_	_
@@ -580,22 +580,22 @@
 #Text=Just take a cart and roam the store .
 39-1	2429-2433	Just	_	_	_	_
 39-2	2434-2438	take	_	_	_	_
-39-3	2439-2440	a	object[117]	new[117]	coref	40-4[120_117]
-39-4	2441-2445	cart	object[117]	new[117]	_	_
+39-3	2439-2440	a	object[202]	new[202]	coref	40-4[206_202]
+39-4	2441-2445	cart	object[202]	new[202]	_	_
 39-5	2446-2449	and	_	_	_	_
 39-6	2450-2454	roam	_	_	_	_
-39-7	2455-2458	the	place[118]	giv[118]	_	_
-39-8	2459-2464	store	place[118]	giv[118]	_	_
+39-7	2455-2458	the	organization[203]	giv[203]	_	_
+39-8	2459-2464	store	organization[203]	giv[203]	_	_
 39-9	2465-2466	.	_	_	_	_
 
 #Text=They do check the cart as you leave so do n't try to sneak anything past them .
-40-1	2467-2471	They	person	giv	_	_
+40-1	2467-2471	They	person[204]	giv[204]	ana	40-17[209_204]
 40-2	2472-2474	do	_	_	_	_
 40-3	2475-2480	check	_	_	_	_
-40-4	2481-2484	the	object[120]	giv[120]	_	_
-40-5	2485-2489	cart	object[120]	giv[120]	_	_
+40-4	2481-2484	the	object[206]	giv[206]	_	_
+40-5	2485-2489	cart	object[206]	giv[206]	_	_
 40-6	2490-2492	as	_	_	_	_
-40-7	2493-2496	you	person	giv	ana	42-2
+40-7	2493-2496	you	person[207]	giv[207]	ana	42-2[219_207]
 40-8	2497-2502	leave	_	_	_	_
 40-9	2503-2505	so	_	_	_	_
 40-10	2506-2508	do	_	_	_	_
@@ -605,7 +605,7 @@
 40-14	2520-2525	sneak	_	_	_	_
 40-15	2526-2534	anything	_	_	_	_
 40-16	2535-2539	past	_	_	_	_
-40-17	2540-2544	them	_	_	_	_
+40-17	2540-2544	them	person[209]	giv[209]	_	_
 40-18	2545-2546	.	_	_	_	_
 
 #Text=U-haul and other nation companies offer box buy back services .
@@ -623,16 +623,16 @@
 
 #Text=If you buy too many boxes you can return the unused for a full refund .
 42-1	2611-2613	If	_	_	_	_
-42-2	2614-2617	you	person	giv	ana	42-7
+42-2	2614-2617	you	person[219]	giv[219]	ana	42-7[223_219]
 42-3	2618-2621	buy	_	_	_	_
-42-4	2622-2625	too	object[126]	giv[126]	coref	42-10[128_126]
-42-5	2626-2630	many	object[126]	giv[126]	_	_
-42-6	2631-2636	boxes	object[126]	giv[126]	_	_
-42-7	2637-2640	you	person	giv	ana	43-8
+42-4	2622-2625	too	object[222]	new[222]	coref	43-1[227_222]
+42-5	2626-2630	many	object[222]	new[222]	_	_
+42-6	2631-2636	boxes	object[222]	new[222]	_	_
+42-7	2637-2640	you	person[223]	giv[223]	ana	43-8[228_223]
 42-8	2641-2644	can	_	_	_	_
 42-9	2645-2651	return	_	_	_	_
-42-10	2652-2655	the	object[128]	giv[128]	coref	43-1[130_128]
-42-11	2656-2662	unused	object[128]	giv[128]	_	_
+42-10	2652-2655	the	_	_	_	_
+42-11	2656-2662	unused	_	_	_	_
 42-12	2663-2666	for	_	_	_	_
 42-13	2667-2668	a	_	_	_	_
 42-14	2669-2673	full	_	_	_	_
@@ -640,24 +640,24 @@
 42-16	2681-2682	.	_	_	_	_
 
 #Text=These boxes are also quite sturdy so you can re-use them or stash in your attic until you move again .
-43-1	2683-2688	These	object[130]	giv[130]	ana	43-11[0_130]
-43-2	2689-2694	boxes	object[130]	giv[130]	_	_
+43-1	2683-2688	These	object[227]	giv[227]	ana	43-11[229_227]
+43-2	2689-2694	boxes	object[227]	giv[227]	_	_
 43-3	2695-2698	are	_	_	_	_
 43-4	2699-2703	also	_	_	_	_
 43-5	2704-2709	quite	_	_	_	_
 43-6	2710-2716	sturdy	_	_	_	_
 43-7	2717-2719	so	_	_	_	_
-43-8	2720-2723	you	person	giv	ana	43-15[134_0]
+43-8	2720-2723	you	person[228]	giv[228]	ana	43-15[233_228]
 43-9	2724-2727	can	_	_	_	_
 43-10	2728-2734	re-use	_	_	_	_
-43-11	2735-2739	them	object	giv	_	_
+43-11	2735-2739	them	object[229]	giv[229]	_	_
 43-12	2740-2742	or	_	_	_	_
 43-13	2743-2748	stash	_	_	_	_
 43-14	2749-2751	in	_	_	_	_
-43-15	2752-2756	your	person[134]	giv[134]	ana	43-18[0_134]
+43-15	2752-2756	your	person[233]	giv[233]	ana	43-18[234_233]
 43-16	2757-2762	attic	_	_	_	_
 43-17	2763-2768	until	_	_	_	_
-43-18	2769-2772	you	person	giv	ana	44-11
+43-18	2769-2772	you	person[234]	giv[234]	ana	44-11[239_234]
 43-19	2773-2777	move	_	_	_	_
 43-20	2778-2783	again	_	_	_	_
 43-21	2784-2785	.	_	_	_	_
@@ -673,7 +673,7 @@
 44-8	2835-2838	and	_	_	_	_
 44-9	2839-2847	handling	_	_	_	_
 44-10	2848-2850	so	_	_	_	_
-44-11	2851-2854	you	person	giv	ana	46-6
+44-11	2851-2854	you	person[239]	giv[239]	ana	46-6[247_239]
 44-12	2855-2858	can	_	_	_	_
 44-13	2859-2863	have	_	_	_	_
 44-14	2864-2868	some	_	_	_	_
@@ -700,24 +700,24 @@
 46-2	2957-2961	away	_	_	_	_
 46-3	2962-2964	or	_	_	_	_
 46-4	2965-2971	donate	_	_	_	_
-46-5	2972-2976	junk	object[199]	new[199]	ana	47-4[0_199]
-46-6	2977-2980	you	person|object[199]	giv|new[199]	ana	46-13[147_0]
-46-7	2981-2983	do	object[199]	new[199]	_	_
-46-8	2984-2987	n't	object[199]	new[199]	_	_
-46-9	2988-2992	want	object[199]	new[199]	_	_
-46-10	2993-2995	to	object[199]	new[199]	_	_
-46-11	2996-3000	take	object[199]	new[199]	_	_
-46-12	3001-3003	to	object[199]	new[199]	_	_
-46-13	3004-3008	your	place[146]|person[147]|object[199]	giv[146]|giv[147]|new[199]	coref|ana	48-6[150_146]|48-9[151_147]
-46-14	3009-3012	new	place[146]|object[199]	giv[146]|new[199]	_	_
-46-15	3013-3018	place	place[146]|object[199]	giv[146]|new[199]	_	_
+46-5	2972-2976	junk	object[246]	new[246]	ana	47-4[251_246]
+46-6	2977-2980	you	object[246]|person[247]	new[246]|giv[247]	ana	46-13[250_247]
+46-7	2981-2983	do	object[246]	new[246]	_	_
+46-8	2984-2987	n't	object[246]	new[246]	_	_
+46-9	2988-2992	want	object[246]	new[246]	_	_
+46-10	2993-2995	to	object[246]	new[246]	_	_
+46-11	2996-3000	take	object[246]	new[246]	_	_
+46-12	3001-3003	to	object[246]	new[246]	_	_
+46-13	3004-3008	your	object[246]|place[249]|person[250]	new[246]|giv[249]|giv[250]	coref|ana	48-6[255_249]|48-9[256_250]
+46-14	3009-3012	new	object[246]|place[249]	new[246]|giv[249]	_	_
+46-15	3013-3018	place	object[246]|place[249]	new[246]|giv[249]	_	_
 46-16	3019-3020	.	_	_	_	_
 
 #Text=Do n't pack it again ! ! !
 47-1	3021-3023	Do	_	_	_	_
 47-2	3024-3027	n't	_	_	_	_
 47-3	3028-3032	pack	_	_	_	_
-47-4	3033-3035	it	object	giv	_	_
+47-4	3033-3035	it	object[251]	giv[251]	_	_
 47-5	3036-3041	again	_	_	_	_
 47-6	3042-3043	!	_	_	_	_
 47-7	3044-3045	!	_	_	_	_
@@ -729,16 +729,16 @@
 48-3	3058-3060	an	_	_	_	_
 48-4	3061-3065	area	_	_	_	_
 48-5	3066-3068	of	_	_	_	_
-48-6	3069-3072	the	place[150]	giv[150]	_	_
-48-7	3073-3078	house	place[150]	giv[150]	_	_
-48-8	3079-3084	where	place[150]	new[150]	_	_
-48-9	3085-3088	you	person[151]|place[150]	giv[151]|new[150]	ana	50-1[0_151]
-48-10	3089-3092	can	place[150]	new[150]	_	_
-48-11	3093-3096	put	place[150]	new[150]	_	_
-48-12	3097-3100	all	place[150]	new[150]	_	_
-48-13	3101-3104	the	place[150]	new[150]	_	_
-48-14	3105-3111	packed	place[150]	new[150]	_	_
-48-15	3112-3117	boxes	place[150]	new[150]	_	_
+48-6	3069-3072	the	place[255]	giv[255]	_	_
+48-7	3073-3078	house	place[255]	giv[255]	_	_
+48-8	3079-3084	where	place[255]	new[255]	_	_
+48-9	3085-3088	you	person[256]|place[255]	giv[256]|new[255]	ana	50-1[261_256]
+48-10	3089-3092	can	place[255]	new[255]	_	_
+48-11	3093-3096	put	place[255]	new[255]	_	_
+48-12	3097-3100	all	place[255]	new[255]	_	_
+48-13	3101-3104	the	place[255]	new[255]	_	_
+48-14	3105-3111	packed	place[255]	new[255]	_	_
+48-15	3112-3117	boxes	place[255]	new[255]	_	_
 48-16	3118-3119	.	_	_	_	_
 
 #Text=Use a room that is n't used every day such as the formal dining or living room .
@@ -762,7 +762,7 @@
 49-18	3199-3200	.	_	_	_	_
 
 #Text=You wo n't be tripping over boxes and you can have a better idea of what you have and where things are .
-50-1	3201-3204	You	person	giv	ana	50-9
+50-1	3201-3204	You	person[261]	giv[261]	ana	50-9[263_261]
 50-2	3205-3207	wo	_	_	_	_
 50-3	3208-3211	n't	_	_	_	_
 50-4	3212-3214	be	_	_	_	_
@@ -770,7 +770,7 @@
 50-6	3224-3228	over	_	_	_	_
 50-7	3229-3234	boxes	_	_	_	_
 50-8	3235-3238	and	_	_	_	_
-50-9	3239-3242	you	person	giv	ana	52-5[165_0]
+50-9	3239-3242	you	person[263]	giv[263]	ana	50-17[268_263]
 50-10	3243-3246	can	_	_	_	_
 50-11	3247-3251	have	_	_	_	_
 50-12	3252-3253	a	_	_	_	_
@@ -778,7 +778,7 @@
 50-14	3261-3265	idea	_	_	_	_
 50-15	3266-3268	of	_	_	_	_
 50-16	3269-3273	what	_	_	_	_
-50-17	3274-3277	you	_	_	_	_
+50-17	3274-3277	you	person[268]	giv[268]	ana	52-5[278_268]
 50-18	3278-3282	have	_	_	_	_
 50-19	3283-3286	and	_	_	_	_
 50-20	3287-3292	where	_	_	_	_
@@ -802,13 +802,13 @@
 52-2	3362-3368	Photos	_	_	_	_
 52-3	3369-3370	-	_	_	_	_
 52-4	3371-3374	use	_	_	_	_
-52-5	3375-3379	your	person[165]	giv[165]	_	_
+52-5	3375-3379	your	person[278]	giv[278]	_	_
 52-6	3380-3386	camera	_	_	_	_
 52-7	3387-3389	to	_	_	_	_
 52-8	3390-3398	document	_	_	_	_
-52-9	3399-3402	the	object[166]	acc[166]	_	_
-52-10	3403-3411	contents	object[166]	acc[166]	_	_
-52-11	3412-3414	of	object[166]	acc[166]	_	_
-52-12	3415-3420	boxes	object[166]	acc[166]	_	_
+52-9	3399-3402	the	_	_	_	_
+52-10	3403-3411	contents	_	_	_	_
+52-11	3412-3414	of	_	_	_	_
+52-12	3415-3420	boxes	_	_	_	_
 52-13	3421-3422	.	_	_	_	_
 

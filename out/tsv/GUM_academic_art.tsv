@@ -1,4 +1,4 @@
-#FORMAT=WebAnno TSV 3.1
+#FORMAT=WebAnno TSV 3.2
 #T_SP=webanno.custom.Referent|entity|infstat
 #T_RL=webanno.custom.Coref|type|BT_webanno.custom.Referent
 
@@ -12,7 +12,7 @@
 1-6	39-40	:	_	_	_	_
 
 #Text=Insights from Eye-Tracking
-2-1	41-49	Insights	abstract[3]	new[3]	coref	15-8[81_3]
+2-1	41-49	Insights	abstract[3]	new[3]	coref	15-8[114_3]
 2-2	50-54	from	abstract[3]	new[3]	_	_
 2-3	55-67	Eye-Tracking	abstract[3]	new[3]	_	_
 
@@ -24,43 +24,43 @@
 3-5	128-130	of	_	_	_	_
 3-6	131-141	Portsmouth	_	_	_	_
 3-7	142-143	,	_	_	_	_
-3-8	144-150	United	place[9]	acc[9]	coref	4-7[14_9]
-3-9	151-158	Kingdom	place[9]	acc[9]	_	_
+3-8	144-150	United	place[11]	acc[11]	coref	4-7[18_11]
+3-9	151-158	Kingdom	place[11]	acc[11]	_	_
 
 #Text=Andrew Beresford a.m.beresford@durham.ac.uk Durham University , United Kingdom
 4-1	159-165	Andrew	_	_	_	_
 4-2	166-175	Beresford	_	_	_	_
 4-3	176-202	a.m.beresford@durham.ac.uk	_	_	_	_
-4-4	203-209	Durham	organization[12]|place[13]	new[12]|new[13]	coref|coref	5-4[17_12]|5-4[18_13]
-4-5	210-220	University	organization[12]	new[12]	_	_
-4-6	221-222	,	organization[12]	new[12]	_	_
-4-7	223-229	United	organization[12]|place[14]	new[12]|giv[14]	coref	5-7[19_14]
-4-8	230-237	Kingdom	organization[12]|place[14]	new[12]|giv[14]	_	_
+4-4	203-209	Durham	organization[15]|place[16]	new[15]|new[16]	coref|coref	5-4[22_15]|5-4[23_16]
+4-5	210-220	University	organization[15]	new[15]	_	_
+4-6	221-222	,	organization[15]	new[15]	_	_
+4-7	223-229	United	organization[15]|place[18]	new[15]|giv[18]	coref	5-7[25_18]
+4-8	230-237	Kingdom	organization[15]|place[18]	new[15]|giv[18]	_	_
 
 #Text=Daniel Smith daniel.smith2@durham.ac.uk Durham University , United Kingdom
 5-1	238-244	Daniel	_	_	_	_
 5-2	245-250	Smith	_	_	_	_
 5-3	251-277	daniel.smith2@durham.ac.uk	_	_	_	_
-5-4	278-284	Durham	organization[17]|place[18]	giv[17]|giv[18]	coref|coref	6-4[22_17]|6-4[23_18]
-5-5	285-295	University	organization[17]	giv[17]	_	_
-5-6	296-297	,	organization[17]	giv[17]	_	_
-5-7	298-304	United	organization[17]|place[19]	giv[17]|giv[19]	coref	6-7[24_19]
-5-8	305-312	Kingdom	organization[17]|place[19]	giv[17]|giv[19]	_	_
+5-4	278-284	Durham	organization[22]|place[23]	giv[22]|giv[23]	coref|coref	6-4[29_22]|6-4[30_23]
+5-5	285-295	University	organization[22]	giv[22]	_	_
+5-6	296-297	,	organization[22]	giv[22]	_	_
+5-7	298-304	United	organization[22]|place[25]	giv[22]|giv[25]	coref	6-7[32_25]
+5-8	305-312	Kingdom	organization[22]|place[25]	giv[22]|giv[25]	_	_
 
 #Text=Claire Warwick c.l.h.warwick@durham.ac.uk Durham University , United Kingdom
 6-1	313-319	Claire	_	_	_	_
 6-2	320-327	Warwick	_	_	_	_
 6-3	328-354	c.l.h.warwick@durham.ac.uk	_	_	_	_
-6-4	355-361	Durham	organization[22]|place[23]	giv[22]|giv[23]	_	_
-6-5	362-372	University	organization[22]	giv[22]	_	_
-6-6	373-374	,	organization[22]	giv[22]	_	_
-6-7	375-381	United	organization[22]|place[24]	giv[22]|giv[24]	coref	13-10[66_24]
-6-8	382-389	Kingdom	organization[22]|place[24]	giv[22]|giv[24]	_	_
+6-4	355-361	Durham	organization[29]|place[30]	giv[29]|giv[30]	_	_
+6-5	362-372	University	organization[29]	giv[29]	_	_
+6-6	373-374	,	organization[29]	giv[29]	_	_
+6-7	375-381	United	organization[29]|place[32]	giv[29]|giv[32]	coref	13-10[95_32]
+6-8	382-389	Kingdom	organization[29]|place[32]	giv[29]|giv[32]	_	_
 
 #Text=How do people look at and experience art ?
 7-1	390-393	How	_	_	_	_
 7-2	394-396	do	_	_	_	_
-7-3	397-403	people	person	new	ana	8-7
+7-3	397-403	people	person[33]	new[33]	ana	8-7[39_33]
 7-4	404-408	look	_	_	_	_
 7-5	409-411	at	_	_	_	_
 7-6	412-415	and	_	_	_	_
@@ -75,7 +75,7 @@
 8-4	451-459	specific	_	_	_	_
 8-5	460-468	artworks	_	_	_	_
 8-6	469-471	do	_	_	_	_
-8-7	472-476	they	person	giv	_	_
+8-7	472-476	they	person[39]	giv[39]	_	_
 8-8	477-482	focus	_	_	_	_
 8-9	483-485	on	_	_	_	_
 8-10	486-487	?	_	_	_	_
@@ -96,11 +96,11 @@
 9-13	551-552	?	_	_	_	_
 
 #Text=The viewing experience of art is a complex one , involving issues of perception , attention , memory , decision-making , affect , and emotion .
-10-1	553-556	The	_	_	_	_
-10-2	557-564	viewing	_	_	_	_
-10-3	565-575	experience	_	_	_	_
-10-4	576-578	of	_	_	_	_
-10-5	579-582	art	_	_	_	_
+10-1	553-556	The	abstract[49]	new[49]	ana	11-5[69_49]
+10-2	557-564	viewing	abstract[49]	new[49]	_	_
+10-3	565-575	experience	abstract[49]	new[49]	_	_
+10-4	576-578	of	abstract[49]	new[49]	_	_
+10-5	579-582	art	abstract[49]	new[49]	_	_
 10-6	583-585	is	_	_	_	_
 10-7	586-587	a	_	_	_	_
 10-8	588-595	complex	_	_	_	_
@@ -126,64 +126,64 @@
 #Text=Thus , the time it takes and the ways of visually exploring an artwork can inform about its relevance , interestingness , and even its aesthetic appeal .
 11-1	697-701	Thus	_	_	_	_
 11-2	702-703	,	_	_	_	_
-11-3	704-707	the	time[46]	new[46]	coref	23-35[167_46]
-11-4	708-712	time	time[46]	new[46]	_	_
-11-5	713-715	it	time[46]	new[46]	_	_
-11-6	716-721	takes	time[46]	new[46]	_	_
+11-3	704-707	the	_	_	_	_
+11-4	708-712	time	_	_	_	_
+11-5	713-715	it	abstract[69]	giv[69]	_	_
+11-6	716-721	takes	_	_	_	_
 11-7	722-725	and	_	_	_	_
 11-8	726-729	the	_	_	_	_
 11-9	730-734	ways	_	_	_	_
 11-10	735-737	of	_	_	_	_
 11-11	738-746	visually	_	_	_	_
 11-12	747-756	exploring	_	_	_	_
-11-13	757-759	an	object[49]	giv[49]	ana	11-18[51_49]
-11-14	760-767	artwork	object[49]	giv[49]	_	_
+11-13	757-759	an	object[72]	new[72]	ana	11-18[74_72]
+11-14	760-767	artwork	object[72]	new[72]	_	_
 11-15	768-771	can	_	_	_	_
 11-16	772-778	inform	_	_	_	_
 11-17	779-784	about	_	_	_	_
-11-18	785-788	its	object[51]	giv[51]	ana	11-25[54_51]
+11-18	785-788	its	object[74]	giv[74]	ana	11-25[79_74]
 11-19	789-798	relevance	_	_	_	_
 11-20	799-800	,	_	_	_	_
 11-21	801-816	interestingness	_	_	_	_
 11-22	817-818	,	_	_	_	_
 11-23	819-822	and	_	_	_	_
 11-24	823-827	even	_	_	_	_
-11-25	828-831	its	object[54]	giv[54]	_	_
+11-25	828-831	its	object[79]	giv[79]	_	_
 11-26	832-841	aesthetic	_	_	_	_
 11-27	842-848	appeal	_	_	_	_
 11-28	849-850	.	_	_	_	_
 
 #Text=This paper describes a collaborative pilot project focusing on a unique collection of 17th Century Zurbarán paintings .
-12-1	851-855	This	abstract[55]	new[55]	coref	15-2[79_55]
-12-2	856-861	paper	abstract[55]	new[55]	_	_
+12-1	851-855	This	abstract[81]	new[81]	coref	15-2[111_81]
+12-2	856-861	paper	abstract[81]	new[81]	_	_
 12-3	862-871	describes	_	_	_	_
-12-4	872-873	a	abstract[56]	new[56]	coref	16-4[89_56]
-12-5	874-887	collaborative	abstract[56]	new[56]	_	_
-12-6	888-893	pilot	abstract[56]	new[56]	_	_
-12-7	894-901	project	abstract[56]	new[56]	_	_
-12-8	902-910	focusing	abstract[56]	new[56]	_	_
-12-9	911-913	on	abstract[56]	new[56]	_	_
-12-10	914-915	a	object[57]|abstract[56]	new[57]|new[56]	coref	13-1[61_57]
-12-11	916-922	unique	object[57]|abstract[56]	new[57]|new[56]	_	_
-12-12	923-933	collection	object[57]|abstract[56]	new[57]|new[56]	_	_
-12-13	934-936	of	object[57]|abstract[56]	new[57]|new[56]	_	_
-12-14	937-941	17th	object[57]|abstract[56]	new[57]|new[56]	_	_
-12-15	942-949	Century	object[57]|abstract[56]	new[57]|new[56]	_	_
-12-16	950-958	Zurbarán	object[57]|person[60]|abstract[56]	new[57]|new[60]|new[56]	coref	15-25[87_60]
-12-17	959-968	paintings	object[57]|abstract[56]	new[57]|new[56]	_	_
+12-4	872-873	a	abstract[82]	new[82]	coref	16-4[124_82]
+12-5	874-887	collaborative	abstract[82]	new[82]	_	_
+12-6	888-893	pilot	abstract[82]	new[82]	_	_
+12-7	894-901	project	abstract[82]	new[82]	_	_
+12-8	902-910	focusing	abstract[82]	new[82]	_	_
+12-9	911-913	on	abstract[82]	new[82]	_	_
+12-10	914-915	a	object[83]|abstract[82]	new[83]|new[82]	coref	13-1[88_83]
+12-11	916-922	unique	object[83]|abstract[82]	new[83]|new[82]	_	_
+12-12	923-933	collection	object[83]|abstract[82]	new[83]|new[82]	_	_
+12-13	934-936	of	object[83]|abstract[82]	new[83]|new[82]	_	_
+12-14	937-941	17th	object[83]|abstract[82]	new[83]|new[82]	_	_
+12-15	942-949	Century	object[83]|abstract[82]	new[83]|new[82]	_	_
+12-16	950-958	Zurbarán	object[83]|person[86]|abstract[82]	new[83]|new[86]|new[82]	coref	15-25[121_86]
+12-17	959-968	paintings	object[83]|abstract[82]	new[83]|new[82]	_	_
 12-18	969-970	.	_	_	_	_
 
 #Text=The Jacob cycle at Auckland Castle is the only UK example of a continental collection preserved in situ in purpose-built surroundings .
-13-1	971-974	The	object[61]	new[61]	coref	15-21[85_61]
-13-2	975-980	Jacob	object[61]|person[62]	new[61]|new[62]	coref	24-5[182_62]
-13-3	981-986	cycle	object[61]	new[61]	_	_
-13-4	987-989	at	object[61]	new[61]	_	_
-13-5	990-998	Auckland	object[61]|place[63]	new[61]|new[63]	coref	24-18[186_63]
-13-6	999-1005	Castle	object[61]|place[63]	new[61]|new[63]	_	_
+13-1	971-974	The	object[88]	giv[88]	coref	15-21[119_88]
+13-2	975-980	Jacob	object[88]|person[89]	giv[88]|new[89]	coref	24-5[252_89]
+13-3	981-986	cycle	object[88]	giv[88]	_	_
+13-4	987-989	at	object[88]	giv[88]	_	_
+13-5	990-998	Auckland	object[88]|place[91]|place[92]	giv[88]|new[91]|new[92]	coref|coref	24-18[258_91]|24-18[259_92]
+13-6	999-1005	Castle	object[88]|place[91]	giv[88]|new[91]	_	_
 13-7	1006-1008	is	_	_	_	_
 13-8	1009-1012	the	_	_	_	_
 13-9	1013-1017	only	_	_	_	_
-13-10	1018-1020	UK	place[66]	giv[66]	coref	25-13[191_66]
+13-10	1018-1020	UK	place[95]	giv[95]	coref	25-13[266_95]
 13-11	1021-1028	example	_	_	_	_
 13-12	1029-1031	of	_	_	_	_
 13-13	1032-1033	a	_	_	_	_
@@ -237,40 +237,40 @@
 
 #Text=In this paper , we report upon the novel insights eye-tracking techniques have provided into the unconscious processes of viewing the unique collection of Zurbarán artworks .
 15-1	1347-1349	In	_	_	_	_
-15-2	1350-1354	this	abstract[79]	giv[79]	_	_
-15-3	1355-1360	paper	abstract[79]	giv[79]	_	_
+15-2	1350-1354	this	abstract[111]	giv[111]	_	_
+15-3	1355-1360	paper	abstract[111]	giv[111]	_	_
 15-4	1361-1362	,	_	_	_	_
-15-5	1363-1365	we	person	giv	ana	17-1
+15-5	1363-1365	we	person[112]	split[112]	ana	17-1[130_112]
 15-6	1366-1372	report	_	_	_	_
 15-7	1373-1377	upon	_	_	_	_
-15-8	1378-1381	the	abstract[81]	giv[81]	_	_
-15-9	1382-1387	novel	abstract[81]	giv[81]	_	_
-15-10	1388-1396	insights	abstract[81]	giv[81]	_	_
-15-11	1397-1409	eye-tracking	abstract[82]|abstract[81]	new[82]|giv[81]	coref	17-8[96_82]
-15-12	1410-1420	techniques	abstract[82]|abstract[81]	new[82]|giv[81]	_	_
-15-13	1421-1425	have	abstract[81]	giv[81]	_	_
-15-14	1426-1434	provided	abstract[81]	giv[81]	_	_
-15-15	1435-1439	into	abstract[81]	giv[81]	_	_
-15-16	1440-1443	the	abstract[81]	giv[81]	_	_
-15-17	1444-1455	unconscious	abstract[81]	giv[81]	_	_
-15-18	1456-1465	processes	abstract[81]	giv[81]	_	_
-15-19	1466-1468	of	abstract[81]	giv[81]	_	_
-15-20	1469-1476	viewing	abstract[81]	giv[81]	_	_
-15-21	1477-1480	the	object[85]|abstract[81]	new[85]|giv[81]	coref	18-45[117_85]
-15-22	1481-1487	unique	object[85]|abstract[81]	new[85]|giv[81]	_	_
-15-23	1488-1498	collection	object[85]|abstract[81]	new[85]|giv[81]	_	_
-15-24	1499-1501	of	object[85]|abstract[81]	new[85]|giv[81]	_	_
-15-25	1502-1510	Zurbarán	object[85]|object[86]|person[87]|abstract[81]	new[85]|giv[86]|giv[87]|giv[81]	coref|coref	18-35[114_86]|18-37[115_87]
-15-26	1511-1519	artworks	object[85]|object[86]|abstract[81]	new[85]|giv[86]|giv[81]	_	_
+15-8	1378-1381	the	abstract[114]	giv[114]	_	_
+15-9	1382-1387	novel	abstract[114]	giv[114]	_	_
+15-10	1388-1396	insights	abstract[114]	giv[114]	_	_
+15-11	1397-1409	eye-tracking	abstract[114]|abstract[115]	giv[114]|new[115]	coref	17-8[134_115]
+15-12	1410-1420	techniques	abstract[114]|abstract[115]	giv[114]|new[115]	_	_
+15-13	1421-1425	have	abstract[114]	giv[114]	_	_
+15-14	1426-1434	provided	abstract[114]	giv[114]	_	_
+15-15	1435-1439	into	abstract[114]	giv[114]	_	_
+15-16	1440-1443	the	abstract[114]	giv[114]	_	_
+15-17	1444-1455	unconscious	abstract[114]	giv[114]	_	_
+15-18	1456-1465	processes	abstract[114]	giv[114]	_	_
+15-19	1466-1468	of	abstract[114]	giv[114]	_	_
+15-20	1469-1476	viewing	abstract[114]	giv[114]	_	_
+15-21	1477-1480	the	abstract[114]|object[119]	giv[114]|giv[119]	coref	18-45[163_119]
+15-22	1481-1487	unique	abstract[114]|object[119]	giv[114]|giv[119]	_	_
+15-23	1488-1498	collection	abstract[114]|object[119]	giv[114]|giv[119]	_	_
+15-24	1499-1501	of	abstract[114]|object[119]	giv[114]|giv[119]	_	_
+15-25	1502-1510	Zurbarán	abstract[114]|object[119]|object[120]|person[121]	giv[114]|giv[119]|giv[120]|giv[121]	coref|coref	18-35[159_120]|18-37[160_121]
+15-26	1511-1519	artworks	abstract[114]|object[119]|object[120]	giv[114]|giv[119]|giv[120]	_	_
 15-27	1520-1521	.	_	_	_	_
 
 #Text=The purpose of this pilot study was to assess the effects of different written interpretation on the visual exploration of artworks .
 16-1	1522-1525	The	_	_	_	_
 16-2	1526-1533	purpose	_	_	_	_
 16-3	1534-1536	of	_	_	_	_
-16-4	1537-1541	this	abstract[89]	giv[89]	coref	18-1[103_89]
-16-5	1542-1547	pilot	abstract[89]	giv[89]	_	_
-16-6	1548-1553	study	abstract[89]	giv[89]	_	_
+16-4	1537-1541	this	abstract[124]	giv[124]	coref	18-1[144_124]
+16-5	1542-1547	pilot	abstract[124]	giv[124]	_	_
+16-6	1548-1553	study	abstract[124]	giv[124]	_	_
 16-7	1554-1557	was	_	_	_	_
 16-8	1558-1560	to	_	_	_	_
 16-9	1561-1567	assess	_	_	_	_
@@ -289,17 +289,17 @@
 16-22	1654-1655	.	_	_	_	_
 
 #Text=We will discuss the potential implications of these techniques and our understanding of visual behaviours on museum and gallery practice .
-17-1	1656-1658	We	person	giv	ana	17-11[98_0]
+17-1	1656-1658	We	person[130]	giv[130]	ana	17-11[136_130]
 17-2	1659-1663	will	_	_	_	_
 17-3	1664-1671	discuss	_	_	_	_
 17-4	1672-1675	the	_	_	_	_
 17-5	1676-1685	potential	_	_	_	_
 17-6	1686-1698	implications	_	_	_	_
 17-7	1699-1701	of	_	_	_	_
-17-8	1702-1707	these	abstract[96]	giv[96]	_	_
-17-9	1708-1718	techniques	abstract[96]	giv[96]	_	_
+17-8	1702-1707	these	abstract[134]	giv[134]	_	_
+17-9	1708-1718	techniques	abstract[134]	giv[134]	_	_
 17-10	1719-1722	and	_	_	_	_
-17-11	1723-1726	our	person[98]	giv[98]	ana	19-1[119_98]
+17-11	1723-1726	our	person[136]	giv[136]	ana	19-1[165_136]
 17-12	1727-1740	understanding	_	_	_	_
 17-13	1741-1743	of	_	_	_	_
 17-14	1744-1750	visual	_	_	_	_
@@ -312,8 +312,8 @@
 17-21	1793-1794	.	_	_	_	_
 
 #Text=The project brings together established research strengths in Spanish art history , experimental psychology , digital humanities , and museum studies to explore , using eye-tracking techniques , aesthetic reactions to digital representations of the individual Zurbarán artworks as well as the significance of the collection as a whole .
-18-1	1795-1798	The	abstract[103]	giv[103]	coref	27-2[207_103]
-18-2	1799-1806	project	abstract[103]	giv[103]	_	_
+18-1	1795-1798	The	abstract[144]	giv[144]	coref	27-2[290_144]
+18-2	1799-1806	project	abstract[144]	giv[144]	_	_
 18-3	1807-1813	brings	_	_	_	_
 18-4	1814-1822	together	_	_	_	_
 18-5	1823-1834	established	_	_	_	_
@@ -346,25 +346,25 @@
 18-32	2013-2020	digital	_	_	_	_
 18-33	2021-2036	representations	_	_	_	_
 18-34	2037-2039	of	_	_	_	_
-18-35	2040-2043	the	object[114]	giv[114]	coref	27-27[216_114]
-18-36	2044-2054	individual	object[114]	giv[114]	_	_
-18-37	2055-2063	Zurbarán	object[114]|person[115]	giv[114]|giv[115]	coref	27-29[217_115]
-18-38	2064-2072	artworks	object[114]	giv[114]	_	_
+18-35	2040-2043	the	object[159]	giv[159]	coref	27-27[302_159]
+18-36	2044-2054	individual	object[159]	giv[159]	_	_
+18-37	2055-2063	Zurbarán	object[159]|person[160]	giv[159]|giv[160]	coref	27-29[303_160]
+18-38	2064-2072	artworks	object[159]	giv[159]	_	_
 18-39	2073-2075	as	_	_	_	_
 18-40	2076-2080	well	_	_	_	_
 18-41	2081-2083	as	_	_	_	_
 18-42	2084-2087	the	_	_	_	_
 18-43	2088-2100	significance	_	_	_	_
 18-44	2101-2103	of	_	_	_	_
-18-45	2104-2107	the	object[117]	giv[117]	_	_
-18-46	2108-2118	collection	object[117]	giv[117]	_	_
+18-45	2104-2107	the	object[163]	giv[163]	_	_
+18-46	2108-2118	collection	object[163]	giv[163]	_	_
 18-47	2119-2121	as	_	_	_	_
 18-48	2122-2123	a	_	_	_	_
 18-49	2124-2129	whole	_	_	_	_
 18-50	2130-2131	.	_	_	_	_
 
 #Text=Our experience of art develops from the interaction of several cognitive and affective processes ; the beginning of which is a visual scan of the artwork .
-19-1	2132-2135	Our	person[119]	giv[119]	ana	23-13[0_119]
+19-1	2132-2135	Our	person[165]	giv[165]	ana	23-13[216_165]
 19-2	2136-2146	experience	_	_	_	_
 19-3	2147-2149	of	_	_	_	_
 19-4	2150-2153	art	_	_	_	_
@@ -395,11 +395,11 @@
 #Text=When regarding an artwork , a viewer gathers information through a series fixations , interspersed by rapid movements of the eye called saccades .
 20-1	2288-2292	When	_	_	_	_
 20-2	2293-2302	regarding	_	_	_	_
-20-3	2303-2305	an	object[126]	giv[126]	coref	22-24[153_126]
-20-4	2306-2313	artwork	object[126]	giv[126]	_	_
+20-3	2303-2305	an	object[174]	giv[174]	coref	22-24[209_174]
+20-4	2306-2313	artwork	object[174]	giv[174]	_	_
 20-5	2314-2315	,	_	_	_	_
-20-6	2316-2317	a	_	_	_	_
-20-7	2318-2324	viewer	_	_	_	_
+20-6	2316-2317	a	person[175]	new[175]	coref	21-14[190_175]
+20-7	2318-2324	viewer	person[175]	new[175]	_	_
 20-8	2325-2332	gathers	_	_	_	_
 20-9	2333-2344	information	_	_	_	_
 20-10	2345-2352	through	_	_	_	_
@@ -432,8 +432,8 @@
 21-11	2501-2504	the	_	_	_	_
 21-12	2505-2510	goals	_	_	_	_
 21-13	2511-2513	of	_	_	_	_
-21-14	2514-2517	the	_	_	_	_
-21-15	2518-2526	observer	_	_	_	_
+21-14	2514-2517	the	person[190]	giv[190]	_	_
+21-15	2518-2526	observer	person[190]	giv[190]	_	_
 21-16	2527-2530	and	_	_	_	_
 21-17	2531-2534	the	_	_	_	_
 21-18	2535-2543	physical	_	_	_	_
@@ -480,8 +480,8 @@
 22-21	2759-2769	subjective	_	_	_	_
 22-22	2770-2781	impressions	_	_	_	_
 22-23	2782-2784	of	_	_	_	_
-22-24	2785-2788	the	object[153]	giv[153]	_	_
-22-25	2789-2796	artwork	object[153]	giv[153]	_	_
+22-24	2785-2788	the	object[209]	giv[209]	_	_
+22-25	2789-2796	artwork	object[209]	giv[209]	_	_
 22-26	2797-2798	.	_	_	_	_
 
 #Text=Previous eye tracking research has highlighted the potential to transform the ways we understand visual processing in the arts ( see for example Brieber 2014 ; Binderman et al. , 2005 ) and at the same time offers a direct way of studying several important factors of a museum visit ( Filippini Fantoni et al. , 2013 ; Heidenreich & Turano 2011 ; Milekic 2010 ) .
@@ -497,7 +497,7 @@
 23-10	2863-2872	transform	_	_	_	_
 23-11	2873-2876	the	_	_	_	_
 23-12	2877-2881	ways	_	_	_	_
-23-13	2882-2884	we	person	giv	ana	27-4
+23-13	2882-2884	we	person[216]	giv[216]	ana	27-4[291_216]
 23-14	2885-2895	understand	_	_	_	_
 23-15	2896-2902	visual	_	_	_	_
 23-16	2903-2913	processing	_	_	_	_
@@ -519,9 +519,9 @@
 23-32	2983-2984	)	_	_	_	_
 23-33	2985-2988	and	_	_	_	_
 23-34	2989-2991	at	_	_	_	_
-23-35	2992-2995	the	time[167]	giv[167]	_	_
-23-36	2996-3000	same	time[167]	giv[167]	_	_
-23-37	3001-3005	time	time[167]	giv[167]	_	_
+23-35	2992-2995	the	_	_	_	_
+23-36	2996-3000	same	_	_	_	_
+23-37	3001-3005	time	_	_	_	_
 23-38	3006-3012	offers	_	_	_	_
 23-39	3013-3014	a	_	_	_	_
 23-40	3015-3021	direct	_	_	_	_
@@ -554,14 +554,14 @@
 23-67	3161-3162	.	_	_	_	_
 
 #Text=Zurbarán ’s cycle of Jacob and his Sons has been on display in the Long Room at Auckland Castle for over 250 years .
-24-1	3163-3171	Zurbarán	object[180]	giv[180]	ana	25-1[0_180]
-24-2	3172-3174	’s	object[180]	giv[180]	_	_
-24-3	3175-3180	cycle	object[180]	giv[180]	_	_
-24-4	3181-3183	of	object[180]	giv[180]	_	_
-24-5	3184-3189	Jacob	object[180]|person[182]	giv[180]|giv[182]	ana	24-7[184_182]
-24-6	3190-3193	and	object[180]	giv[180]	_	_
-24-7	3194-3197	his	object[180]|person[184]	giv[180]|giv[184]	_	_
-24-8	3198-3202	Sons	object[180]	giv[180]	_	_
+24-1	3163-3171	Zurbarán	object[250]	giv[250]	ana	25-1[262_250]
+24-2	3172-3174	’s	object[250]	giv[250]	_	_
+24-3	3175-3180	cycle	object[250]	giv[250]	_	_
+24-4	3181-3183	of	object[250]	giv[250]	_	_
+24-5	3184-3189	Jacob	object[250]|person[252]	giv[250]|giv[252]	ana	24-7[255_252]
+24-6	3190-3193	and	object[250]	giv[250]	_	_
+24-7	3194-3197	his	object[250]|person[255]	giv[250]|giv[255]	_	_
+24-8	3198-3202	Sons	object[250]	giv[250]	_	_
 24-9	3203-3206	has	_	_	_	_
 24-10	3207-3211	been	_	_	_	_
 24-11	3212-3214	on	_	_	_	_
@@ -571,8 +571,8 @@
 24-15	3230-3234	Long	_	_	_	_
 24-16	3235-3239	Room	_	_	_	_
 24-17	3240-3242	at	_	_	_	_
-24-18	3243-3251	Auckland	place[186]	giv[186]	_	_
-24-19	3252-3258	Castle	place[186]	giv[186]	_	_
+24-18	3243-3251	Auckland	place[258]|place[259]	giv[258]|giv[259]	_	_
+24-19	3252-3258	Castle	place[258]	giv[258]	_	_
 24-20	3259-3262	for	_	_	_	_
 24-21	3263-3267	over	_	_	_	_
 24-22	3268-3271	250	_	_	_	_
@@ -580,7 +580,7 @@
 24-24	3278-3279	.	_	_	_	_
 
 #Text=It is the only cycle to be preserved in purpose-built surroundings in the UK , and one of very few of its kind in the world .
-25-1	3280-3282	It	object	giv	ana	25-22[195_0]
+25-1	3280-3282	It	object[262]	giv[262]	_	_
 25-2	3283-3285	is	_	_	_	_
 25-3	3286-3289	the	_	_	_	_
 25-4	3290-3294	only	_	_	_	_
@@ -592,8 +592,8 @@
 25-10	3320-3333	purpose-built	_	_	_	_
 25-11	3334-3346	surroundings	_	_	_	_
 25-12	3347-3349	in	_	_	_	_
-25-13	3350-3353	the	place[191]	giv[191]	_	_
-25-14	3354-3356	UK	place[191]	giv[191]	_	_
+25-13	3350-3353	the	place[266]	giv[266]	_	_
+25-14	3354-3356	UK	place[266]	giv[266]	_	_
 25-15	3357-3358	,	_	_	_	_
 25-16	3359-3362	and	_	_	_	_
 25-17	3363-3366	one	_	_	_	_
@@ -601,7 +601,7 @@
 25-19	3370-3374	very	_	_	_	_
 25-20	3375-3378	few	_	_	_	_
 25-21	3379-3381	of	_	_	_	_
-25-22	3382-3385	its	object[195]	giv[195]	ana	26-1[0_195]
+25-22	3382-3385	its	object[270]	giv[270]	ana	26-1[273_270]
 25-23	3386-3390	kind	_	_	_	_
 25-24	3391-3393	in	_	_	_	_
 25-25	3394-3397	the	_	_	_	_
@@ -609,7 +609,7 @@
 25-27	3404-3405	.	_	_	_	_
 
 #Text=It has a long history in scholarship ( Baron & Beresford 2014 ) , but many key aspects of its production and significance have not yet been fully understood .
-26-1	3406-3408	It	object	giv	ana	26-20[205_0]
+26-1	3406-3408	It	object[273]	giv[273]	ana	26-20[286_273]
 26-2	3409-3412	has	_	_	_	_
 26-3	3413-3414	a	_	_	_	_
 26-4	3415-3419	long	_	_	_	_
@@ -628,7 +628,7 @@
 26-17	3481-3484	key	_	_	_	_
 26-18	3485-3492	aspects	_	_	_	_
 26-19	3493-3495	of	_	_	_	_
-26-20	3496-3499	its	object[205]	giv[205]	_	_
+26-20	3496-3499	its	object[286]	giv[286]	_	_
 26-21	3500-3510	production	_	_	_	_
 26-22	3511-3514	and	_	_	_	_
 26-23	3515-3527	significance	_	_	_	_
@@ -642,9 +642,9 @@
 
 #Text=In this study we used eye-tracking in the first stage of exploring audience experience of the extensive Spanish art collections of County Durham , of which the 13 Zurbarán artworks ( there are actually only 12 Zurbarán artworks , the 13th Benjamin , is a copy by Arthur Pond ) are a key part of , to investigate the ways in which audiences look at Spanish art , how aesthetic experience is evaluated and whether audiences can be encouraged to approach art in different ways .
 27-1	3565-3567	In	_	_	_	_
-27-2	3568-3572	this	abstract[207]	giv[207]	coref	28-1[231_207]
-27-3	3573-3578	study	abstract[207]	giv[207]	_	_
-27-4	3579-3581	we	person	giv	_	_
+27-2	3568-3572	this	abstract[290]	giv[290]	coref	28-1[324_290]
+27-3	3573-3578	study	abstract[290]	giv[290]	_	_
+27-4	3579-3581	we	person[291]	giv[291]	_	_
 27-5	3582-3586	used	_	_	_	_
 27-6	3587-3599	eye-tracking	_	_	_	_
 27-7	3600-3602	in	_	_	_	_
@@ -667,22 +667,22 @@
 27-24	3710-3711	,	_	_	_	_
 27-25	3712-3714	of	_	_	_	_
 27-26	3715-3720	which	_	_	_	_
-27-27	3721-3724	the	object[216]	giv[216]	_	_
-27-28	3725-3727	13	object[216]	giv[216]	_	_
-27-29	3728-3736	Zurbarán	object[216]|person[217]	giv[216]|giv[217]	coref	27-37[219_217]
-27-30	3737-3745	artworks	object[216]	giv[216]	_	_
+27-27	3721-3724	the	object[302]	giv[302]	_	_
+27-28	3725-3727	13	object[302]	giv[302]	_	_
+27-29	3728-3736	Zurbarán	object[302]|person[303]	giv[302]|giv[303]	coref	27-37[306_303]
+27-30	3737-3745	artworks	object[302]	giv[302]	_	_
 27-31	3746-3747	(	_	_	_	_
 27-32	3748-3753	there	_	_	_	_
 27-33	3754-3757	are	_	_	_	_
 27-34	3758-3766	actually	_	_	_	_
 27-35	3767-3771	only	_	_	_	_
 27-36	3772-3774	12	_	_	_	_
-27-37	3775-3783	Zurbarán	person[219]	giv[219]	_	_
+27-37	3775-3783	Zurbarán	person[306]	giv[306]	_	_
 27-38	3784-3792	artworks	_	_	_	_
 27-39	3793-3794	,	_	_	_	_
-27-40	3795-3798	the	object[220]	new[220]	appos	27-42[0_220]
-27-41	3799-3803	13th	object[220]	new[220]	_	_
-27-42	3804-3812	Benjamin	object	giv	_	_
+27-40	3795-3798	the	object[308]	acc[308]	appos	27-42[309_308]
+27-41	3799-3803	13th	object[308]	acc[308]	_	_
+27-42	3804-3812	Benjamin	object[309]	giv[309]	_	_
 27-43	3813-3814	,	_	_	_	_
 27-44	3815-3817	is	_	_	_	_
 27-45	3818-3819	a	_	_	_	_
@@ -724,14 +724,14 @@
 27-81	4008-4016	approach	_	_	_	_
 27-82	4017-4020	art	_	_	_	_
 27-83	4021-4023	in	_	_	_	_
-27-84	4024-4033	different	abstract[230]	giv[230]	coref	28-22[237_230]
-27-85	4034-4038	ways	abstract[230]	giv[230]	_	_
+27-84	4024-4033	different	_	_	_	_
+27-85	4034-4038	ways	_	_	_	_
 27-86	4039-4040	.	_	_	_	_
 
 #Text=This pilot project primarily investigated how participants visually explore artworks and provides new insights into the potential eye-tracking has to transform the ways we understand visual processing in arts and culture and at the same time offer a direct way of studying several important factors of a museum visit , namely to assess the effects of label characteristics on visitor visual behaviour .
-28-1	4041-4045	This	abstract[231]	giv[231]	_	_
-28-2	4046-4051	pilot	abstract[231]	giv[231]	_	_
-28-3	4052-4059	project	abstract[231]	giv[231]	_	_
+28-1	4041-4045	This	abstract[324]	giv[324]	_	_
+28-2	4046-4051	pilot	abstract[324]	giv[324]	_	_
+28-3	4052-4059	project	abstract[324]	giv[324]	_	_
 28-4	4060-4069	primarily	_	_	_	_
 28-5	4070-4082	investigated	_	_	_	_
 28-6	4083-4086	how	_	_	_	_
@@ -750,16 +750,16 @@
 28-19	4184-4187	has	_	_	_	_
 28-20	4188-4190	to	_	_	_	_
 28-21	4191-4200	transform	_	_	_	_
-28-22	4201-4204	the	abstract[237]	giv[237]	_	_
-28-23	4205-4209	ways	abstract[237]	giv[237]	_	_
-28-24	4210-4212	we	abstract[237]	giv[237]	_	_
-28-25	4213-4223	understand	abstract[237]	giv[237]	_	_
-28-26	4224-4230	visual	abstract[237]	giv[237]	_	_
-28-27	4231-4241	processing	abstract[237]	giv[237]	_	_
-28-28	4242-4244	in	abstract[237]	giv[237]	_	_
-28-29	4245-4249	arts	abstract[237]	giv[237]	_	_
-28-30	4250-4253	and	abstract[237]	giv[237]	_	_
-28-31	4254-4261	culture	abstract[237]	giv[237]	_	_
+28-22	4201-4204	the	_	_	_	_
+28-23	4205-4209	ways	_	_	_	_
+28-24	4210-4212	we	_	_	_	_
+28-25	4213-4223	understand	_	_	_	_
+28-26	4224-4230	visual	_	_	_	_
+28-27	4231-4241	processing	_	_	_	_
+28-28	4242-4244	in	_	_	_	_
+28-29	4245-4249	arts	_	_	_	_
+28-30	4250-4253	and	_	_	_	_
+28-31	4254-4261	culture	_	_	_	_
 28-32	4262-4265	and	_	_	_	_
 28-33	4266-4268	at	_	_	_	_
 28-34	4269-4272	the	_	_	_	_

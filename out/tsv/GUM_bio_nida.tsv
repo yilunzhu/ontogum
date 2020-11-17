@@ -1,4 +1,4 @@
-#FORMAT=WebAnno TSV 3.1
+#FORMAT=WebAnno TSV 3.2
 #T_SP=webanno.custom.Referent|entity|infstat
 #T_RL=webanno.custom.Coref|type|BT_webanno.custom.Referent
 
@@ -12,12 +12,12 @@
 2-2	19-21	A.	person[2]	giv[2]	_	_
 2-3	22-26	Nida	person[2]	giv[2]	_	_
 2-4	27-28	(	_	_	_	_
-2-5	29-37	November	time[5]	new[5]	coref	4-10[21_5]
+2-5	29-37	November	_	_	_	_
 2-6	38-40	11	_	_	_	_
 2-7	41-42	,	_	_	_	_
 2-8	43-47	1914	_	_	_	_
 2-9	48-49	–	_	_	_	_
-2-10	50-56	August	time[8]	new[8]	coref	18-6[112_8]
+2-10	50-56	August	_	_	_	_
 2-11	57-59	25	_	_	_	_
 2-12	60-61	,	_	_	_	_
 2-13	62-66	2011	_	_	_	_
@@ -27,29 +27,29 @@
 2-17	75-83	linguist	_	_	_	_
 2-18	84-87	who	_	_	_	_
 2-19	88-97	developed	_	_	_	_
-2-20	98-101	the	abstract[11]	new[11]	coref	24-1[144_11]
-2-21	102-121	dynamic-equivalence	abstract[11]	new[11]	_	_
-2-22	122-139	Bible-translation	abstract[11]	new[11]	_	_
-2-23	140-146	theory	abstract[11]	new[11]	_	_
+2-20	98-101	the	abstract[10]	new[10]	coref	24-1[216_10]
+2-21	102-121	dynamic-equivalence	abstract[10]	new[10]	_	_
+2-22	122-139	Bible-translation	abstract[10]	new[10]	_	_
+2-23	140-146	theory	abstract[10]	new[10]	_	_
 2-24	147-150	and	_	_	_	_
-2-25	151-154	one	person[12]	giv[12]	coref	4-1[0_12]
-2-26	155-157	of	person[12]	giv[12]	_	_
-2-27	158-161	the	person[12]	giv[12]	_	_
-2-28	162-170	founders	person[12]	giv[12]	_	_
-2-29	171-173	of	person[12]	giv[12]	_	_
-2-30	174-177	the	person[12]	giv[12]	_	_
-2-31	178-184	modern	person[12]	giv[12]	_	_
-2-32	185-195	discipline	person[12]	giv[12]	_	_
-2-33	196-198	of	person[12]	giv[12]	_	_
-2-34	199-210	Translation	person[12]	giv[12]	_	_
-2-35	211-218	Studies	person[12]	giv[12]	_	_
+2-25	151-154	one	person[13]	giv[13]	coref	4-1[19_13]
+2-26	155-157	of	person[13]	giv[13]	_	_
+2-27	158-161	the	person[13]	giv[13]	_	_
+2-28	162-170	founders	person[13]	giv[13]	_	_
+2-29	171-173	of	person[13]	giv[13]	_	_
+2-30	174-177	the	person[13]	giv[13]	_	_
+2-31	178-184	modern	person[13]	giv[13]	_	_
+2-32	185-195	discipline	person[13]	giv[13]	_	_
+2-33	196-198	of	person[13]	giv[13]	_	_
+2-34	199-210	Translation	person[13]	giv[13]	_	_
+2-35	211-218	Studies	person[13]	giv[13]	_	_
 2-36	219-220	.	_	_	_	_
 
 #Text=Life
 3-1	221-225	Life	_	_	_	_
 
 #Text=Nida was born in Oklahoma City , Oklahoma on November 11 , 1914 .
-4-1	226-230	Nida	person	giv	ana	5-1
+4-1	226-230	Nida	person[19]	giv[19]	ana	5-1[28_19]
 4-2	231-234	was	_	_	_	_
 4-3	235-239	born	_	_	_	_
 4-4	240-242	in	_	_	_	_
@@ -58,44 +58,44 @@
 4-7	257-258	,	_	_	_	_
 4-8	259-267	Oklahoma	_	_	_	_
 4-9	268-270	on	_	_	_	_
-4-10	271-279	November	time[21]	giv[21]	_	_
+4-10	271-279	November	_	_	_	_
 4-11	280-282	11	_	_	_	_
 4-12	283-284	,	_	_	_	_
 4-13	285-289	1914	_	_	_	_
 4-14	290-291	.	_	_	_	_
 
 #Text=He became a Christian at a young age , when he responded to the altar call at his church " to accept Christ as my Saviour . "
-5-1	292-294	He	person	giv	coref	5-3[24_0]
+5-1	292-294	He	person[28]	giv[28]	coref	5-3[31_28]
 5-2	295-301	became	_	_	_	_
-5-3	302-303	a	person[24]	giv[24]	ana	5-11[0_24]
-5-4	304-313	Christian	person[24]	giv[24]	_	_
+5-3	302-303	a	person[31]	giv[31]	ana	5-11[33_31]
+5-4	304-313	Christian	person[31]	giv[31]	_	_
 5-5	314-316	at	_	_	_	_
 5-6	317-318	a	_	_	_	_
 5-7	319-324	young	_	_	_	_
 5-8	325-328	age	_	_	_	_
 5-9	329-330	,	_	_	_	_
 5-10	331-335	when	_	_	_	_
-5-11	336-338	he	person	giv	ana	5-18[28_0]
+5-11	336-338	he	person[33]	giv[33]	ana	5-18[36_33]
 5-12	339-348	responded	_	_	_	_
 5-13	349-351	to	_	_	_	_
 5-14	352-355	the	_	_	_	_
 5-15	356-361	altar	_	_	_	_
 5-16	362-366	call	_	_	_	_
 5-17	367-369	at	_	_	_	_
-5-18	370-373	his	person[28]	giv[28]	ana	5-25[31_28]
+5-18	370-373	his	person[36]	giv[36]	ana	5-25[41_36]
 5-19	374-380	church	_	_	_	_
 5-20	381-382	"	_	_	_	_
 5-21	383-385	to	_	_	_	_
 5-22	386-392	accept	_	_	_	_
-5-23	393-399	Christ	person	new	appos	5-25[30_0]
+5-23	393-399	Christ	person[37]	new[37]	coref	5-25[40_37]
 5-24	400-402	as	_	_	_	_
-5-25	403-405	my	person[30]|person[31]	giv[30]|giv[31]	ana	6-1[0_31]
-5-26	406-413	Saviour	person[30]	giv[30]	_	_
+5-25	403-405	my	person[40]|person[41]	giv[40]|giv[41]	ana	6-1[42_41]
+5-26	406-413	Saviour	person[40]	giv[40]	_	_
 5-27	414-415	.	_	_	_	_
 5-28	416-417	"	_	_	_	_
 
 #Text=He graduated summa cum laude from the University of California in 1936 .
-6-1	418-420	He	person	giv	ana	7-3
+6-1	418-420	He	person[42]	giv[42]	ana	7-3[48_42]
 6-2	421-430	graduated	_	_	_	_
 6-3	431-436	summa	_	_	_	_
 6-4	437-440	cum	_	_	_	_
@@ -104,7 +104,7 @@
 6-7	452-455	the	_	_	_	_
 6-8	456-466	University	_	_	_	_
 6-9	467-469	of	_	_	_	_
-6-10	470-480	California	place[34]	new[34]	coref	11-16[70_34]
+6-10	470-480	California	place[46]	new[46]	coref	11-16[101_46]
 6-11	481-483	in	_	_	_	_
 6-12	484-488	1936	_	_	_	_
 6-13	489-490	.	_	_	_	_
@@ -112,13 +112,13 @@
 #Text=After graduating he attended Camp Wycliffe , where Bible translation theory was taught .
 7-1	491-496	After	_	_	_	_
 7-2	497-507	graduating	_	_	_	_
-7-3	508-510	he	person	giv	ana	8-1
+7-3	508-510	he	person[48]	giv[48]	ana	8-1[56_48]
 7-4	511-519	attended	_	_	_	_
 7-5	520-524	Camp	_	_	_	_
 7-6	525-533	Wycliffe	_	_	_	_
 7-7	534-535	,	_	_	_	_
 7-8	536-541	where	_	_	_	_
-7-9	542-547	Bible	_	_	_	_
+7-9	542-547	Bible	abstract[55]	new[55]	coref	9-14[74_55]
 7-10	548-559	translation	_	_	_	_
 7-11	560-566	theory	_	_	_	_
 7-12	567-570	was	_	_	_	_
@@ -126,12 +126,12 @@
 7-14	578-579	.	_	_	_	_
 
 #Text=He ministered for a short time among the Tarahumara Indians in Chihuahua , Mexico , until health problems due to an inadequate diet and the high altitude forced him to leave .
-8-1	580-582	He	person	giv	ana	8-29
+8-1	580-582	He	person[56]	giv[56]	ana	8-29[67_56]
 8-2	583-593	ministered	_	_	_	_
 8-3	594-597	for	_	_	_	_
-8-4	598-599	a	time[40]	new[40]	coref	9-3[49_40]
-8-5	600-605	short	time[40]	new[40]	_	_
-8-6	606-610	time	time[40]	new[40]	_	_
+8-4	598-599	a	time[59]	new[59]	coref	9-3[69_59]
+8-5	600-605	short	time[59]	new[59]	_	_
+8-6	606-610	time	time[59]	new[59]	_	_
 8-7	611-616	among	_	_	_	_
 8-8	617-620	the	_	_	_	_
 8-9	621-631	Tarahumara	_	_	_	_
@@ -154,7 +154,7 @@
 8-26	720-724	high	_	_	_	_
 8-27	725-733	altitude	_	_	_	_
 8-28	734-740	forced	_	_	_	_
-8-29	741-744	him	person	giv	coref	9-6
+8-29	741-744	him	person[67]	giv[67]	coref	9-6[70_67]
 8-30	745-747	to	_	_	_	_
 8-31	748-753	leave	_	_	_	_
 8-32	754-755	.	_	_	_	_
@@ -162,36 +162,36 @@
 #Text=Sometime in this period , Nida became a founding charter member of Wycliffe Bible Translators , a related organization to the Summer Institute of Linguistics .
 9-1	756-764	Sometime	_	_	_	_
 9-2	765-767	in	_	_	_	_
-9-3	768-772	this	time[49]	giv[49]	_	_
-9-4	773-779	period	time[49]	giv[49]	_	_
+9-3	768-772	this	time[69]	giv[69]	_	_
+9-4	773-779	period	time[69]	giv[69]	_	_
 9-5	780-781	,	_	_	_	_
-9-6	782-786	Nida	person	giv	_	_
+9-6	782-786	Nida	person[70]	giv[70]	_	_
 9-7	787-793	became	_	_	_	_
-9-8	794-795	a	person[51]	giv[51]	coref	10-4[0_51]
-9-9	796-804	founding	person[51]	giv[51]	_	_
-9-10	805-812	charter	person[51]	giv[51]	_	_
-9-11	813-819	member	person[51]	giv[51]	_	_
-9-12	820-822	of	person[51]	giv[51]	_	_
-9-13	823-831	Wycliffe	person[51]|organization[52]	giv[51]|acc[52]	appos	9-17[53_52]
-9-14	832-837	Bible	person[51]|organization[52]	giv[51]|acc[52]	_	_
-9-15	838-849	Translators	person[51]|organization[52]	giv[51]|acc[52]	_	_
-9-16	850-851	,	organization[52]	giv[52]	_	_
-9-17	852-853	a	organization[53]	giv[53]	_	_
-9-18	854-861	related	organization[53]	giv[53]	_	_
-9-19	862-874	organization	organization[53]	giv[53]	_	_
-9-20	875-877	to	organization[53]	giv[53]	_	_
-9-21	878-881	the	organization[53]	giv[53]	_	_
-9-22	882-888	Summer	organization[53]	giv[53]	_	_
-9-23	889-898	Institute	organization[53]	giv[53]	_	_
-9-24	899-901	of	organization[53]	giv[53]	_	_
-9-25	902-913	Linguistics	organization[53]|abstract[55]	giv[53]|new[55]	coref	13-9[84_55]
+9-8	794-795	a	person[72]	giv[72]	coref	10-4[80_72]
+9-9	796-804	founding	person[72]	giv[72]	_	_
+9-10	805-812	charter	person[72]	giv[72]	_	_
+9-11	813-819	member	person[72]	giv[72]	_	_
+9-12	820-822	of	person[72]	giv[72]	_	_
+9-13	823-831	Wycliffe	person[72]|organization[73]	giv[72]|acc[73]	appos	9-17[76_73]
+9-14	832-837	Bible	person[72]|organization[73]|abstract[74]	giv[72]|acc[73]|giv[74]	_	_
+9-15	838-849	Translators	person[72]|organization[73]	giv[72]|acc[73]	_	_
+9-16	850-851	,	organization[73]	giv[73]	_	_
+9-17	852-853	a	organization[76]	giv[76]	_	_
+9-18	854-861	related	organization[76]	giv[76]	_	_
+9-19	862-874	organization	organization[76]	giv[76]	_	_
+9-20	875-877	to	organization[76]	giv[76]	_	_
+9-21	878-881	the	organization[76]	giv[76]	_	_
+9-22	882-888	Summer	organization[76]	giv[76]	_	_
+9-23	889-898	Institute	organization[76]	giv[76]	_	_
+9-24	899-901	of	organization[76]	giv[76]	_	_
+9-25	902-913	Linguistics	organization[76]|abstract[78]	giv[76]|new[78]	coref	13-9[124_78]
 9-26	914-915	.	_	_	_	_
 
 #Text=In 1937 , Nida undertook studies at the University of Southern California , where he obtained a master 's degree in New Testament Greek in 1939 .
 10-1	916-918	In	_	_	_	_
 10-2	919-923	1937	_	_	_	_
 10-3	924-925	,	_	_	_	_
-10-4	926-930	Nida	person	giv	ana	10-15
+10-4	926-930	Nida	person[80]	giv[80]	ana	10-15[88_80]
 10-5	931-940	undertook	_	_	_	_
 10-6	941-948	studies	_	_	_	_
 10-7	949-951	at	_	_	_	_
@@ -202,7 +202,7 @@
 10-12	979-989	California	_	_	_	_
 10-13	990-991	,	_	_	_	_
 10-14	992-997	where	_	_	_	_
-10-15	998-1000	he	person	giv	ana	11-5
+10-15	998-1000	he	person[88]	giv[88]	ana	11-5[96_88]
 10-16	1001-1009	obtained	_	_	_	_
 10-17	1010-1011	a	_	_	_	_
 10-18	1012-1018	master	_	_	_	_
@@ -213,45 +213,45 @@
 10-23	1036-1045	Testament	_	_	_	_
 10-24	1046-1051	Greek	_	_	_	_
 10-25	1052-1054	in	_	_	_	_
-10-26	1055-1059	1939	time	acc	coref	11-2[65_0]
+10-26	1055-1059	1939	time[93]	acc[93]	coref	11-2[95_93]
 10-27	1060-1061	.	_	_	_	_
 
 #Text=In that same year he became interim pastor of Calvary Church of Santa Ana , California following the resignation of its founding pastor .
 11-1	1062-1064	In	_	_	_	_
-11-2	1065-1069	that	time[65]	giv[65]	_	_
-11-3	1070-1074	same	time[65]	giv[65]	_	_
-11-4	1075-1079	year	time[65]	giv[65]	_	_
-11-5	1080-1082	he	person	giv	_	_
+11-2	1065-1069	that	time[95]	giv[95]	_	_
+11-3	1070-1074	same	time[95]	giv[95]	_	_
+11-4	1075-1079	year	time[95]	giv[95]	_	_
+11-5	1080-1082	he	person[96]	giv[96]	_	_
 11-6	1083-1089	became	_	_	_	_
-11-7	1090-1097	interim	person[67]	giv[67]	ana	12-2[74_67]
-11-8	1098-1104	pastor	person[67]	giv[67]	_	_
-11-9	1105-1107	of	person[67]	giv[67]	_	_
-11-10	1108-1115	Calvary	person[67]	giv[67]	_	_
-11-11	1116-1122	Church	person[67]	giv[67]	_	_
-11-12	1123-1125	of	person[67]	giv[67]	_	_
-11-13	1126-1131	Santa	person[67]	giv[67]	_	_
-11-14	1132-1135	Ana	person[67]	giv[67]	_	_
-11-15	1136-1137	,	person[67]	giv[67]	_	_
-11-16	1138-1148	California	person[67]|place[70]	giv[67]|giv[70]	_	_
+11-7	1090-1097	interim	person[98]	giv[98]	ana	12-2[108_98]
+11-8	1098-1104	pastor	person[98]	giv[98]	_	_
+11-9	1105-1107	of	person[98]	giv[98]	_	_
+11-10	1108-1115	Calvary	person[98]|organization[99]	giv[98]|new[99]	ana	11-21[105_99]
+11-11	1116-1122	Church	person[98]|organization[99]	giv[98]|new[99]	_	_
+11-12	1123-1125	of	person[98]|organization[99]	giv[98]|new[99]	_	_
+11-13	1126-1131	Santa	person[98]|organization[99]	giv[98]|new[99]	_	_
+11-14	1132-1135	Ana	person[98]|organization[99]	giv[98]|new[99]	_	_
+11-15	1136-1137	,	person[98]|organization[99]	giv[98]|new[99]	_	_
+11-16	1138-1148	California	person[98]|organization[99]|place[101]	giv[98]|new[99]|giv[101]	_	_
 11-17	1149-1158	following	_	_	_	_
 11-18	1159-1162	the	_	_	_	_
 11-19	1163-1174	resignation	_	_	_	_
 11-20	1175-1177	of	_	_	_	_
-11-21	1178-1181	its	_	_	_	_
+11-21	1178-1181	its	organization[105]	giv[105]	_	_
 11-22	1182-1190	founding	_	_	_	_
 11-23	1191-1197	pastor	_	_	_	_
 11-24	1198-1199	.	_	_	_	_
 
 #Text=Despite his conservative background , in later years Nida became increasingly ecumenical and New Evangelical ( clarification needed ) in his approach .
 12-1	1200-1207	Despite	_	_	_	_
-12-2	1208-1211	his	person[74]	giv[74]	coref	12-9[0_74]
+12-2	1208-1211	his	person[108]	giv[108]	coref	12-9[111_108]
 12-3	1212-1224	conservative	_	_	_	_
 12-4	1225-1235	background	_	_	_	_
 12-5	1236-1237	,	_	_	_	_
 12-6	1238-1240	in	_	_	_	_
 12-7	1241-1246	later	_	_	_	_
 12-8	1247-1252	years	_	_	_	_
-12-9	1253-1257	Nida	person	giv	ana	12-21[79_0]
+12-9	1253-1257	Nida	person[111]	giv[111]	ana	12-21[116_111]
 12-10	1258-1264	became	_	_	_	_
 12-11	1265-1277	increasingly	_	_	_	_
 12-12	1278-1288	ecumenical	_	_	_	_
@@ -263,7 +263,7 @@
 12-18	1325-1331	needed	_	_	_	_
 12-19	1332-1333	)	_	_	_	_
 12-20	1334-1336	in	_	_	_	_
-12-21	1337-1340	his	person[79]	giv[79]	coref	13-4[0_79]
+12-21	1337-1340	his	person[116]	giv[116]	coref	13-4[118_116]
 12-22	1341-1349	approach	_	_	_	_
 12-23	1350-1351	.	_	_	_	_
 
@@ -271,12 +271,12 @@
 13-1	1352-1354	In	_	_	_	_
 13-2	1355-1359	1943	_	_	_	_
 13-3	1360-1361	,	_	_	_	_
-13-4	1362-1366	Nida	person	giv	ana	13-6[83_0]
+13-4	1362-1366	Nida	person[118]	giv[118]	ana	13-6[123_118]
 13-5	1367-1375	received	_	_	_	_
-13-6	1376-1379	his	abstract[82]|person[83]	new[82]|giv[83]	coref|ana	21-2[123_82]|14-1[0_83]
-13-7	1380-1385	Ph.D.	abstract[82]	new[82]	_	_
-13-8	1386-1388	in	abstract[82]	new[82]	_	_
-13-9	1389-1400	Linguistics	abstract[82]|abstract[84]	new[82]|giv[84]	_	_
+13-6	1376-1379	his	abstract[122]|person[123]	new[122]|giv[123]	coref|ana	21-2[186_122]|14-1[129_123]
+13-7	1380-1385	Ph.D.	abstract[122]	new[122]	_	_
+13-8	1386-1388	in	abstract[122]	new[122]	_	_
+13-9	1389-1400	Linguistics	abstract[122]|abstract[124]	new[122]|giv[124]	_	_
 13-10	1401-1405	from	_	_	_	_
 13-11	1406-1409	the	_	_	_	_
 13-12	1410-1420	University	_	_	_	_
@@ -285,17 +285,17 @@
 13-15	1433-1434	.	_	_	_	_
 
 #Text=He was ordained as a Baptist minister .
-14-1	1435-1437	He	person	giv	_	_
+14-1	1435-1437	He	person[129]	giv[129]	_	_
 14-2	1438-1441	was	_	_	_	_
 14-3	1442-1450	ordained	_	_	_	_
 14-4	1451-1453	as	_	_	_	_
-14-5	1454-1455	a	person[88]	giv[88]	ana	15-1[0_88]
-14-6	1456-1463	Baptist	person[88]	giv[88]	_	_
-14-7	1464-1472	minister	person[88]	giv[88]	_	_
+14-5	1454-1455	a	person[132]	giv[132]	ana	15-1[133_132]
+14-6	1456-1463	Baptist	person[132]	giv[132]	_	_
+14-7	1464-1472	minister	person[132]	giv[132]	_	_
 14-8	1473-1474	.	_	_	_	_
 
 #Text=He married Althea Lucille Sprague , who died in 1993 .
-15-1	1475-1477	He	person	giv	ana	16-4
+15-1	1475-1477	He	person[133]	giv[133]	ana	16-4[138_133]
 15-2	1478-1485	married	_	_	_	_
 15-3	1486-1492	Althea	_	_	_	_
 15-4	1493-1500	Lucille	_	_	_	_
@@ -311,21 +311,21 @@
 16-1	1530-1532	In	_	_	_	_
 16-2	1533-1537	1997	_	_	_	_
 16-3	1538-1539	,	_	_	_	_
-16-4	1540-1542	he	person	giv	coref	17-1
+16-4	1540-1542	he	person[138]	giv[138]	coref	17-1[144_138]
 16-5	1543-1550	married	_	_	_	_
-16-6	1551-1556	María	person[94]	new[94]	appos	16-10[95_94]
-16-7	1557-1562	Elena	person[94]	new[94]	_	_
-16-8	1563-1580	Fernandez-Miranda	person[94]	new[94]	_	_
-16-9	1581-1582	,	person[94]	new[94]	_	_
-16-10	1583-1584	a	person[95]	giv[95]	_	_
-16-11	1585-1591	lawyer	person[95]	giv[95]	_	_
-16-12	1592-1595	and	person[95]	giv[95]	_	_
-16-13	1596-1606	diplomatic	person[95]	giv[95]	_	_
-16-14	1607-1614	attache	person[95]	giv[95]	_	_
+16-6	1551-1556	María	person[142]	new[142]	appos	16-10[143_142]
+16-7	1557-1562	Elena	person[142]	new[142]	_	_
+16-8	1563-1580	Fernandez-Miranda	person[142]	new[142]	_	_
+16-9	1581-1582	,	person[142]	new[142]	_	_
+16-10	1583-1584	a	person[143]	giv[143]	_	_
+16-11	1585-1591	lawyer	person[143]	giv[143]	_	_
+16-12	1592-1595	and	person[143]	giv[143]	_	_
+16-13	1596-1606	diplomatic	person[143]	giv[143]	_	_
+16-14	1607-1614	attache	person[143]	giv[143]	_	_
 16-15	1615-1616	.	_	_	_	_
 
 #Text=Nida retired in the early 1980s , although he continued to give lectures in universities all around the world , and lived in Alpine , Arizona , USA ; Madrid , Spain and Brussels , Belgium .
-17-1	1617-1621	Nida	person	giv	ana	17-9
+17-1	1617-1621	Nida	person[144]	giv[144]	ana	17-9[147_144]
 17-2	1622-1629	retired	_	_	_	_
 17-3	1630-1632	in	_	_	_	_
 17-4	1633-1636	the	_	_	_	_
@@ -333,7 +333,7 @@
 17-6	1643-1648	1980s	_	_	_	_
 17-7	1649-1650	,	_	_	_	_
 17-8	1651-1659	although	_	_	_	_
-17-9	1660-1662	he	person	giv	ana	18-1
+17-9	1660-1662	he	person[147]	giv[147]	ana	18-1[163_147]
 17-10	1663-1672	continued	_	_	_	_
 17-11	1673-1675	to	_	_	_	_
 17-12	1676-1680	give	_	_	_	_
@@ -354,9 +354,9 @@
 17-27	1759-1760	,	_	_	_	_
 17-28	1761-1764	USA	_	_	_	_
 17-29	1765-1766	;	_	_	_	_
-17-30	1767-1773	Madrid	place[105]	new[105]	coref	18-4[0_105]
-17-31	1774-1775	,	place[105]	new[105]	_	_
-17-32	1776-1781	Spain	place[105]	new[105]	_	_
+17-30	1767-1773	Madrid	place[158]	new[158]	coref	18-4[164_158]
+17-31	1774-1775	,	place[158]	new[158]	_	_
+17-32	1776-1781	Spain	place[158]	new[158]	_	_
 17-33	1782-1785	and	_	_	_	_
 17-34	1786-1794	Brussels	_	_	_	_
 17-35	1795-1796	,	_	_	_	_
@@ -364,12 +364,12 @@
 17-37	1805-1806	.	_	_	_	_
 
 #Text=He died in Madrid on August 25 , 2011 aged 96 .
-18-1	1807-1809	He	person	giv	coref	20-1
+18-1	1807-1809	He	person[163]	giv[163]	coref	20-1[172_163]
 18-2	1810-1814	died	_	_	_	_
 18-3	1815-1817	in	_	_	_	_
-18-4	1818-1824	Madrid	place	giv	_	_
+18-4	1818-1824	Madrid	place[164]	giv[164]	_	_
 18-5	1825-1827	on	_	_	_	_
-18-6	1828-1834	August	time[112]	giv[112]	_	_
+18-6	1828-1834	August	_	_	_	_
 18-7	1835-1837	25	_	_	_	_
 18-8	1838-1839	,	_	_	_	_
 18-9	1840-1844	2011	_	_	_	_
@@ -381,7 +381,7 @@
 19-1	1855-1863	Theories	_	_	_	_
 
 #Text=Nida has been a pioneer in the fields of translation theory and linguistics .
-20-1	1864-1868	Nida	person	giv	ana	21-1[122_0]
+20-1	1864-1868	Nida	person[172]	giv[172]	ana	21-1[185_172]
 20-2	1869-1872	has	_	_	_	_
 20-3	1873-1877	been	_	_	_	_
 20-4	1878-1879	a	_	_	_	_
@@ -397,15 +397,15 @@
 20-14	1940-1941	.	_	_	_	_
 
 #Text=His Ph.D. dissertation , A Synopsis of English Syntax , was the first full-scale analysis of a major language according to the " immediate-constituent " theory .
-21-1	1942-1945	His	object[121]|person[122]	new[121]|giv[122]	appos|ana	21-5[124_121]|22-1[131_122]
-21-2	1946-1951	Ph.D.	object[121]|abstract[123]	new[121]|giv[123]	_	_
-21-3	1952-1964	dissertation	object[121]	new[121]	_	_
-21-4	1965-1966	,	object[121]	new[121]	_	_
-21-5	1967-1968	A	object[124]	giv[124]	_	_
-21-6	1969-1977	Synopsis	object[124]	giv[124]	_	_
-21-7	1978-1980	of	object[124]	giv[124]	_	_
-21-8	1981-1988	English	object[124]	giv[124]	_	_
-21-9	1989-1995	Syntax	object[124]	giv[124]	_	_
+21-1	1942-1945	His	abstract[184]|person[185]	new[184]|giv[185]	appos|ana	21-5[189_184]|22-1[197_185]
+21-2	1946-1951	Ph.D.	abstract[184]|abstract[186]	new[184]|giv[186]	_	_
+21-3	1952-1964	dissertation	abstract[184]	new[184]	_	_
+21-4	1965-1966	,	abstract[184]	new[184]	_	_
+21-5	1967-1968	A	abstract[189]	giv[189]	_	_
+21-6	1969-1977	Synopsis	abstract[189]	giv[189]	_	_
+21-7	1978-1980	of	abstract[189]	giv[189]	_	_
+21-8	1981-1988	English	abstract[189]	giv[189]	_	_
+21-9	1989-1995	Syntax	abstract[189]	giv[189]	_	_
 21-10	1996-1997	,	_	_	_	_
 21-11	1998-2001	was	_	_	_	_
 21-12	2002-2005	the	_	_	_	_
@@ -426,15 +426,15 @@
 21-27	2102-2103	.	_	_	_	_
 
 #Text=His textbook Morphology : The Descriptive Analysis of Words was one of the major works of American Structuralism .
-22-1	2104-2107	His	object[130]|person[131]|object[408]	new[130]|giv[131]|new[408]	appos|ana|ana	22-3[132_130]|24-1[145_131]|23-1[0_408]
-22-2	2108-2116	textbook	object[130]|object[408]	new[130]|new[408]	_	_
-22-3	2117-2127	Morphology	object[132]|abstract[133]|object[408]|abstract[409]	giv[132]|new[133]|new[408]|giv[409]	appos|coref	22-5[134_133]|23-8[140_409]
-22-4	2128-2129	:	object[132]|object[408]|abstract[409]	giv[132]|new[408]|giv[409]	_	_
-22-5	2130-2133	The	object[132]|abstract[134]|object[408]|abstract[409]	giv[132]|giv[134]|new[408]|giv[409]	_	_
-22-6	2134-2145	Descriptive	object[132]|abstract[134]|object[408]|abstract[409]	giv[132]|giv[134]|new[408]|giv[409]	_	_
-22-7	2146-2154	Analysis	object[132]|abstract[134]|object[408]|abstract[409]	giv[132]|giv[134]|new[408]|giv[409]	_	_
-22-8	2155-2157	of	object[132]|abstract[134]|object[408]|abstract[409]	giv[132]|giv[134]|new[408]|giv[409]	_	_
-22-9	2158-2163	Words	object[132]|abstract[134]|object[408]|abstract[409]	giv[132]|giv[134]|new[408]|giv[409]	_	_
+22-1	2104-2107	His	abstract[196]|person[197]|abstract[539]	new[196]|giv[197]|new[539]	appos|ana|ana	22-3[199_196]|24-1[217_197]|23-1[207_539]
+22-2	2108-2116	textbook	abstract[196]|abstract[539]	new[196]|new[539]	_	_
+22-3	2117-2127	Morphology	abstract[199]|abstract[200]|abstract[539]	giv[199]|new[200]|new[539]	coref	22-5[202_200]
+22-4	2128-2129	:	abstract[199]|abstract[539]	giv[199]|new[539]	_	_
+22-5	2130-2133	The	abstract[199]|abstract[202]|abstract[539]	giv[199]|giv[202]|new[539]	coref	23-8[210_202]
+22-6	2134-2145	Descriptive	abstract[199]|abstract[202]|abstract[539]	giv[199]|giv[202]|new[539]	_	_
+22-7	2146-2154	Analysis	abstract[199]|abstract[202]|abstract[539]	giv[199]|giv[202]|new[539]	_	_
+22-8	2155-2157	of	abstract[199]|abstract[202]|abstract[539]	giv[199]|giv[202]|new[539]	_	_
+22-9	2158-2163	Words	abstract[199]|abstract[202]|abstract[539]	giv[199]|giv[202]|new[539]	_	_
 22-10	2164-2167	was	_	_	_	_
 22-11	2168-2171	one	_	_	_	_
 22-12	2172-2174	of	_	_	_	_
@@ -447,15 +447,15 @@
 22-19	2217-2218	.	_	_	_	_
 
 #Text=It remained the only thorough introduction to the field for decades and is still valuable for its many examples and exercises .
-23-1	2219-2221	It	object	giv	coref	23-3[139_0]
+23-1	2219-2221	It	abstract[207]	giv[207]	coref	23-3[209_207]
 23-2	2222-2230	remained	_	_	_	_
-23-3	2231-2234	the	object[139]	giv[139]	ana	23-17[143_139]
-23-4	2235-2239	only	object[139]	giv[139]	_	_
-23-5	2240-2248	thorough	object[139]	giv[139]	_	_
-23-6	2249-2261	introduction	object[139]	giv[139]	_	_
-23-7	2262-2264	to	object[139]	giv[139]	_	_
-23-8	2265-2268	the	object[139]|abstract[140]	giv[139]|giv[140]	_	_
-23-9	2269-2274	field	object[139]|abstract[140]	giv[139]|giv[140]	_	_
+23-3	2231-2234	the	abstract[209]	giv[209]	ana	23-17[214_209]
+23-4	2235-2239	only	abstract[209]	giv[209]	_	_
+23-5	2240-2248	thorough	abstract[209]	giv[209]	_	_
+23-6	2249-2261	introduction	abstract[209]	giv[209]	_	_
+23-7	2262-2264	to	abstract[209]	giv[209]	_	_
+23-8	2265-2268	the	abstract[209]|abstract[210]	giv[209]|giv[210]	_	_
+23-9	2269-2274	field	abstract[209]|abstract[210]	giv[209]|giv[210]	_	_
 23-10	2275-2278	for	_	_	_	_
 23-11	2279-2286	decades	_	_	_	_
 23-12	2287-2290	and	_	_	_	_
@@ -463,7 +463,7 @@
 23-14	2294-2299	still	_	_	_	_
 23-15	2300-2308	valuable	_	_	_	_
 23-16	2309-2312	for	_	_	_	_
-23-17	2313-2316	its	object[143]	giv[143]	_	_
+23-17	2313-2316	its	abstract[214]	giv[214]	_	_
 23-18	2317-2321	many	_	_	_	_
 23-19	2322-2330	examples	_	_	_	_
 23-20	2331-2334	and	_	_	_	_
@@ -471,13 +471,13 @@
 23-22	2345-2346	.	_	_	_	_
 
 #Text=His most notable contribution to translation theory is Dynamic Equivalence , also known as Functional Equivalence .
-24-1	2347-2350	His	abstract[144]|person[145]	giv[144]|giv[145]	coref|coref	24-15[148_144]|26-1[0_145]
-24-2	2351-2355	most	abstract[144]	giv[144]	_	_
-24-3	2356-2363	notable	abstract[144]	giv[144]	_	_
-24-4	2364-2376	contribution	abstract[144]	giv[144]	_	_
-24-5	2377-2379	to	abstract[144]	giv[144]	_	_
-24-6	2380-2391	translation	abstract[144]	giv[144]	_	_
-24-7	2392-2398	theory	abstract[144]	giv[144]	_	_
+24-1	2347-2350	His	abstract[216]|person[217]	giv[216]|giv[217]	coref|coref	24-15[223_216]|26-1[226_217]
+24-2	2351-2355	most	abstract[216]	giv[216]	_	_
+24-3	2356-2363	notable	abstract[216]	giv[216]	_	_
+24-4	2364-2376	contribution	abstract[216]	giv[216]	_	_
+24-5	2377-2379	to	abstract[216]	giv[216]	_	_
+24-6	2380-2391	translation	abstract[216]	giv[216]	_	_
+24-7	2392-2398	theory	abstract[216]	giv[216]	_	_
 24-8	2399-2401	is	_	_	_	_
 24-9	2402-2409	Dynamic	_	_	_	_
 24-10	2410-2421	Equivalence	_	_	_	_
@@ -485,8 +485,8 @@
 24-12	2424-2428	also	_	_	_	_
 24-13	2429-2434	known	_	_	_	_
 24-14	2435-2437	as	_	_	_	_
-24-15	2438-2448	Functional	abstract[148]	giv[148]	_	_
-24-16	2449-2460	Equivalence	abstract[148]	giv[148]	_	_
+24-15	2438-2448	Functional	abstract[223]	giv[223]	coref	28-3[248_223]
+24-16	2449-2460	Equivalence	abstract[223]	giv[223]	_	_
 24-17	2461-2462	.	_	_	_	_
 
 #Text=For more information , see " Dynamic and formal equivalence . "
@@ -504,40 +504,40 @@
 25-12	2525-2526	"	_	_	_	_
 
 #Text=Nida also developed the componential analysis technique , which split words into their components to help determine equivalence in translation ( e.g. " bachelor " = male + unmarried ) .
-26-1	2527-2531	Nida	person	giv	ana	29-16[180_0]
+26-1	2527-2531	Nida	person[226]	giv[226]	ana	29-16[268_226]
 26-2	2532-2536	also	_	_	_	_
 26-3	2537-2546	developed	_	_	_	_
-26-4	2547-2550	the	abstract[152]	new[152]	coref	27-11[161_152]
-26-5	2551-2563	componential	abstract[152]	new[152]	_	_
-26-6	2564-2572	analysis	abstract[152]	new[152]	_	_
-26-7	2573-2582	technique	abstract[152]	new[152]	_	_
-26-8	2583-2584	,	abstract[152]	new[152]	_	_
-26-9	2585-2590	which	abstract[152]	new[152]	_	_
-26-10	2591-2596	split	abstract[152]	new[152]	_	_
-26-11	2597-2602	words	object|abstract[152]	giv|new[152]	ana	26-13[155_0]
-26-12	2603-2607	into	abstract[152]	new[152]	_	_
-26-13	2608-2613	their	object[155]|abstract[152]	giv[155]|new[152]	_	_
-26-14	2614-2624	components	abstract[152]	new[152]	_	_
-26-15	2625-2627	to	abstract[152]	new[152]	_	_
-26-16	2628-2632	help	abstract[152]	new[152]	_	_
-26-17	2633-2642	determine	abstract[152]	new[152]	_	_
-26-18	2643-2654	equivalence	abstract[152]	new[152]	_	_
-26-19	2655-2657	in	abstract[152]	new[152]	_	_
-26-20	2658-2669	translation	abstract[152]	new[152]	_	_
-26-21	2670-2671	(	abstract[152]	new[152]	_	_
-26-22	2672-2676	e.g.	abstract[152]	new[152]	_	_
-26-23	2677-2678	"	abstract[152]	new[152]	_	_
-26-24	2679-2687	bachelor	abstract[152]|person[410]	new[152]|new[410]	coref	27-1[0_410]
-26-25	2688-2689	"	abstract[152]|person[410]	new[152]|new[410]	_	_
-26-26	2690-2691	=	abstract[152]|person[410]	new[152]|new[410]	_	_
-26-27	2692-2696	male	abstract[152]|person[410]	new[152]|new[410]	_	_
-26-28	2697-2698	+	abstract[152]|person[410]	new[152]|new[410]	_	_
-26-29	2699-2708	unmarried	abstract[152]|person[410]	new[152]|new[410]	_	_
-26-30	2709-2710	)	abstract[152]	new[152]	_	_
+26-4	2547-2550	the	abstract[228]	new[228]	coref	27-11[243_228]
+26-5	2551-2563	componential	abstract[228]	new[228]	_	_
+26-6	2564-2572	analysis	abstract[228]	new[228]	_	_
+26-7	2573-2582	technique	abstract[228]	new[228]	_	_
+26-8	2583-2584	,	abstract[228]	new[228]	_	_
+26-9	2585-2590	which	abstract[228]	new[228]	_	_
+26-10	2591-2596	split	abstract[228]	new[228]	_	_
+26-11	2597-2602	words	abstract[228]|abstract[229]	new[228]|giv[229]	ana	26-13[232_229]
+26-12	2603-2607	into	abstract[228]	new[228]	_	_
+26-13	2608-2613	their	abstract[228]|abstract[232]	new[228]|giv[232]	_	_
+26-14	2614-2624	components	abstract[228]	new[228]	_	_
+26-15	2625-2627	to	abstract[228]	new[228]	_	_
+26-16	2628-2632	help	abstract[228]	new[228]	_	_
+26-17	2633-2642	determine	abstract[228]	new[228]	_	_
+26-18	2643-2654	equivalence	abstract[228]	new[228]	_	_
+26-19	2655-2657	in	abstract[228]	new[228]	_	_
+26-20	2658-2669	translation	abstract[228]	new[228]	_	_
+26-21	2670-2671	(	abstract[228]	new[228]	_	_
+26-22	2672-2676	e.g.	abstract[228]	new[228]	_	_
+26-23	2677-2678	"	abstract[228]|abstract[237]	new[228]|new[237]	ana	27-1[239_237]
+26-24	2679-2687	bachelor	abstract[228]|abstract[237]	new[228]|new[237]	_	_
+26-25	2688-2689	"	abstract[228]|abstract[237]	new[228]|new[237]	_	_
+26-26	2690-2691	=	abstract[228]|abstract[237]	new[228]|new[237]	_	_
+26-27	2692-2696	male	abstract[228]|abstract[237]	new[228]|new[237]	_	_
+26-28	2697-2698	+	abstract[228]|abstract[237]	new[228]|new[237]	_	_
+26-29	2699-2708	unmarried	abstract[228]|abstract[237]	new[228]|new[237]	_	_
+26-30	2709-2710	)	abstract[228]	new[228]	_	_
 26-31	2711-2712	.	_	_	_	_
 
 #Text=This is , perhaps , not the best example of the technique , though it is the most well-known .
-27-1	2713-2717	This	abstract	giv	ana	27-15
+27-1	2713-2717	This	abstract[239]	giv[239]	ana	27-15[244_239]
 27-2	2718-2720	is	_	_	_	_
 27-3	2721-2722	,	_	_	_	_
 27-4	2723-2730	perhaps	_	_	_	_
@@ -547,11 +547,11 @@
 27-8	2741-2745	best	_	_	_	_
 27-9	2746-2753	example	_	_	_	_
 27-10	2754-2756	of	_	_	_	_
-27-11	2757-2760	the	abstract[161]	giv[161]	_	_
-27-12	2761-2770	technique	abstract[161]	giv[161]	_	_
+27-11	2757-2760	the	abstract[243]	giv[243]	_	_
+27-12	2761-2770	technique	abstract[243]	giv[243]	_	_
 27-13	2771-2772	,	_	_	_	_
 27-14	2773-2779	though	_	_	_	_
-27-15	2780-2782	it	abstract	giv	_	_
+27-15	2780-2782	it	abstract[244]	giv[244]	_	_
 27-16	2783-2785	is	_	_	_	_
 27-17	2786-2789	the	_	_	_	_
 27-18	2790-2794	most	_	_	_	_
@@ -559,10 +559,10 @@
 27-20	2806-2807	.	_	_	_	_
 
 #Text=Nida 's dynamic-equivalence theory is often held in opposition to the views of philologists who maintain that an understanding of the source text ( ST ) can be achieved by assessing the inter-animation of words on the page , and that meaning is self-contained within the text ( i.e. much more focused on achieving semantic equivalence ) .
-28-1	2808-2812	Nida	abstract[163]	giv[163]	coref	29-1[176_163]
-28-2	2813-2815	's	abstract[163]	giv[163]	_	_
-28-3	2816-2835	dynamic-equivalence	abstract[163]	giv[163]	_	_
-28-4	2836-2842	theory	abstract[163]	giv[163]	_	_
+28-1	2808-2812	Nida	abstract[246]	new[246]	coref	29-1[263_246]
+28-2	2813-2815	's	abstract[246]	new[246]	_	_
+28-3	2816-2835	dynamic-equivalence	abstract[246]|abstract[248]	new[246]|giv[248]	coref	43-7[543_248]
+28-4	2836-2842	theory	abstract[246]	new[246]	_	_
 28-5	2843-2845	is	_	_	_	_
 28-6	2846-2851	often	_	_	_	_
 28-7	2852-2856	held	_	_	_	_
@@ -579,12 +579,12 @@
 28-18	2918-2920	an	_	_	_	_
 28-19	2921-2934	understanding	_	_	_	_
 28-20	2935-2937	of	_	_	_	_
-28-21	2938-2941	the	abstract[168]|abstract[411]	new[168]|new[411]	appos|coref	28-24[311_168]|28-46[174_411]
-28-22	2942-2948	source	abstract[168]|abstract[411]	new[168]|new[411]	_	_
-28-23	2949-2953	text	abstract[168]|abstract[411]	new[168]|new[411]	_	_
-28-24	2954-2955	(	abstract[311]|abstract[411]	giv[311]|new[411]	_	_
-28-25	2956-2958	ST	abstract[311]|abstract[411]	giv[311]|new[411]	_	_
-28-26	2959-2960	)	abstract[311]|abstract[411]	giv[311]|new[411]	_	_
+28-21	2938-2941	the	abstract[253]|abstract[540]	new[253]|new[540]	appos|coref	28-24[443_253]|28-46[261_540]
+28-22	2942-2948	source	abstract[253]|abstract[540]	new[253]|new[540]	_	_
+28-23	2949-2953	text	abstract[253]|abstract[540]	new[253]|new[540]	_	_
+28-24	2954-2955	(	abstract[443]|abstract[540]	new[443]|new[540]	_	_
+28-25	2956-2958	ST	abstract[443]|abstract[540]	new[443]|new[540]	_	_
+28-26	2959-2960	)	abstract[443]|abstract[540]	new[443]|new[540]	_	_
 28-27	2961-2964	can	_	_	_	_
 28-28	2965-2967	be	_	_	_	_
 28-29	2968-2976	achieved	_	_	_	_
@@ -604,8 +604,8 @@
 28-43	3050-3052	is	_	_	_	_
 28-44	3053-3067	self-contained	_	_	_	_
 28-45	3068-3074	within	_	_	_	_
-28-46	3075-3078	the	abstract[174]	giv[174]	coref	47-26[280_174]
-28-47	3079-3083	text	abstract[174]	giv[174]	_	_
+28-46	3075-3078	the	abstract[261]	giv[261]	coref	47-26[412_261]
+28-47	3079-3083	text	abstract[261]	giv[261]	_	_
 28-48	3084-3085	(	_	_	_	_
 28-49	3086-3090	i.e.	_	_	_	_
 28-50	3091-3095	much	_	_	_	_
@@ -619,29 +619,29 @@
 28-58	3145-3146	.	_	_	_	_
 
 #Text=This theory , along with other theories of correspondence in translating , are elaborated in his essay Principles of Correspondence , where Nida begins by asserting that given that " no two languages are identical , either in the meanings given to corresponding symbols or in the ways in which symbols are arranged in phrases and sentences , it stands to reason that there can be no absolute correspondence between languages .
-29-1	3147-3151	This	abstract[176]	giv[176]	_	_
-29-2	3152-3158	theory	abstract[176]	giv[176]	_	_
+29-1	3147-3151	This	abstract[263]	giv[263]	_	_
+29-2	3152-3158	theory	abstract[263]	giv[263]	_	_
 29-3	3159-3160	,	_	_	_	_
 29-4	3161-3166	along	_	_	_	_
 29-5	3167-3171	with	_	_	_	_
 29-6	3172-3177	other	_	_	_	_
 29-7	3178-3186	theories	_	_	_	_
 29-8	3187-3189	of	_	_	_	_
-29-9	3190-3204	correspondence	abstract[178]	new[178]	coref	29-20[182_178]
+29-9	3190-3204	correspondence	abstract[265]	new[265]	coref	29-20[271_265]
 29-10	3205-3207	in	_	_	_	_
 29-11	3208-3219	translating	_	_	_	_
 29-12	3220-3221	,	_	_	_	_
 29-13	3222-3225	are	_	_	_	_
 29-14	3226-3236	elaborated	_	_	_	_
 29-15	3237-3239	in	_	_	_	_
-29-16	3240-3243	his	person[180]	giv[180]	coref	29-23[0_180]
+29-16	3240-3243	his	person[268]	giv[268]	coref	29-23[272_268]
 29-17	3244-3249	essay	_	_	_	_
 29-18	3250-3260	Principles	_	_	_	_
 29-19	3261-3263	of	_	_	_	_
-29-20	3264-3278	Correspondence	abstract[182]	giv[182]	_	_
+29-20	3264-3278	Correspondence	abstract[271]	giv[271]	_	_
 29-21	3279-3280	,	_	_	_	_
 29-22	3281-3286	where	_	_	_	_
-29-23	3287-3291	Nida	person	giv	coref	32-1
+29-23	3287-3291	Nida	person[272]	giv[272]	coref	32-1[297_272]
 29-24	3292-3298	begins	_	_	_	_
 29-25	3299-3301	by	_	_	_	_
 29-26	3302-3311	asserting	_	_	_	_
@@ -682,14 +682,14 @@
 29-61	3499-3501	to	_	_	_	_
 29-62	3502-3508	reason	_	_	_	_
 29-63	3509-3513	that	_	_	_	_
-29-64	3514-3519	there	_	_	_	_
-29-65	3520-3523	can	_	_	_	_
-29-66	3524-3526	be	_	_	_	_
-29-67	3527-3529	no	_	_	_	_
-29-68	3530-3538	absolute	_	_	_	_
-29-69	3539-3553	correspondence	_	_	_	_
-29-70	3554-3561	between	_	_	_	_
-29-71	3562-3571	languages	_	_	_	_
+29-64	3514-3519	there	abstract[287]	new[287]	cata	29-59[282_287]
+29-65	3520-3523	can	abstract[287]	new[287]	_	_
+29-66	3524-3526	be	abstract[287]	new[287]	_	_
+29-67	3527-3529	no	abstract[287]	new[287]	_	_
+29-68	3530-3538	absolute	abstract[287]	new[287]	_	_
+29-69	3539-3553	correspondence	abstract[287]	new[287]	_	_
+29-70	3554-3561	between	abstract[287]	new[287]	_	_
+29-71	3562-3571	languages	abstract[287]	new[287]	_	_
 29-72	3572-3573	.	_	_	_	_
 
 #Text=Hence , there can be no fully exact translations . "
@@ -716,8 +716,8 @@
 31-8	3665-3667	be	_	_	_	_
 31-9	3668-3673	close	_	_	_	_
 31-10	3674-3676	to	_	_	_	_
-31-11	3677-3680	the	abstract[197]	new[197]	coref	46-37[271_197]
-31-12	3681-3689	original	abstract[197]	new[197]	_	_
+31-11	3677-3680	the	abstract[294]	new[294]	coref	46-37[399_294]
+31-12	3681-3689	original	abstract[294]	new[294]	_	_
 31-13	3690-3691	,	_	_	_	_
 31-14	3692-3697	there	_	_	_	_
 31-15	3698-3701	can	_	_	_	_
@@ -729,21 +729,21 @@
 31-21	3727-3728	.	_	_	_	_
 
 #Text=Nida then sets forth the differences in translation , as he would account for it , within three basic factors :
-32-1	3729-3733	Nida	person	giv	ana	32-11
+32-1	3729-3733	Nida	person[297]	giv[297]	ana	32-11[302_297]
 32-2	3734-3738	then	_	_	_	_
 32-3	3739-3743	sets	_	_	_	_
 32-4	3744-3749	forth	_	_	_	_
-32-5	3750-3753	the	abstract[200]	new[200]	ana	32-15[0_200]
-32-6	3754-3765	differences	abstract[200]	new[200]	_	_
-32-7	3766-3768	in	abstract[200]	new[200]	_	_
-32-8	3769-3780	translation	abstract[200]|abstract[201]	new[200]|giv[201]	coref	38-10[227_201]
+32-5	3750-3753	the	abstract[300]	new[300]	ana	32-15[303_300]
+32-6	3754-3765	differences	abstract[300]	new[300]	_	_
+32-7	3766-3768	in	abstract[300]	new[300]	_	_
+32-8	3769-3780	translation	abstract[300]	new[300]	_	_
 32-9	3781-3782	,	_	_	_	_
 32-10	3783-3785	as	_	_	_	_
-32-11	3786-3788	he	person	giv	coref	41-1
+32-11	3786-3788	he	person[302]	giv[302]	coref	41-1[345_302]
 32-12	3789-3794	would	_	_	_	_
 32-13	3795-3802	account	_	_	_	_
 32-14	3803-3806	for	_	_	_	_
-32-15	3807-3809	it	abstract	giv	_	_
+32-15	3807-3809	it	abstract[303]	giv[303]	_	_
 32-16	3810-3811	,	_	_	_	_
 32-17	3812-3818	within	_	_	_	_
 32-18	3819-3824	three	_	_	_	_
@@ -755,8 +755,8 @@
 33-1	3841-3844	The	_	_	_	_
 33-2	3845-3851	nature	_	_	_	_
 33-3	3852-3854	of	_	_	_	_
-33-4	3855-3858	the	abstract[206]	new[206]	coref	37-19[225_206]
-33-5	3859-3866	message	abstract[206]	new[206]	_	_
+33-4	3855-3858	the	abstract[309]	new[309]	coref	37-19[334_309]
+33-5	3859-3866	message	abstract[309]	new[309]	_	_
 33-6	3867-3868	:	_	_	_	_
 
 #Text=in some messages the content is of primary consideration , and in others the form must be given a higher priority .
@@ -791,8 +791,8 @@
 35-5	4004-4010	author	_	_	_	_
 35-6	4011-4014	and	_	_	_	_
 35-7	4015-4017	of	_	_	_	_
-35-8	4018-4021	the	person[215]	new[215]	ana	41-22[0_215]
-35-9	4022-4032	translator	person[215]	new[215]	_	_
+35-8	4018-4021	the	person[319]	new[319]	ana	41-22[350_319]
+35-9	4022-4032	translator	person[319]	new[319]	_	_
 35-10	4033-4034	:	_	_	_	_
 
 #Text=to give information on both form and content ;
@@ -813,20 +813,20 @@
 37-4	4092-4096	full	_	_	_	_
 37-5	4097-4112	intelligibility	_	_	_	_
 37-6	4113-4115	of	_	_	_	_
-37-7	4116-4119	the	person[221]	new[221]	ana	37-10[0_221]
-37-8	4120-4126	reader	person[221]	new[221]	_	_
+37-7	4116-4119	the	person[328]	new[328]	ana	37-10[329_328]
+37-8	4120-4126	reader	person[328]	new[328]	_	_
 37-9	4127-4129	so	_	_	_	_
-37-10	4130-4132	he	person	giv	ana	37-12
+37-10	4130-4132	he	person[329]	giv[329]	ana	37-12[330_329]
 37-11	4133-4134	/	_	_	_	_
-37-12	4135-4138	she	person	giv	_	_
+37-12	4135-4138	she	person[330]	giv[330]	_	_
 37-13	4139-4142	may	_	_	_	_
 37-14	4143-4153	understand	_	_	_	_
 37-15	4154-4157	the	_	_	_	_
 37-16	4158-4162	full	_	_	_	_
 37-17	4163-4175	implications	_	_	_	_
 37-18	4176-4178	of	_	_	_	_
-37-19	4179-4182	the	abstract[225]	giv[225]	coref	44-5[250_225]
-37-20	4183-4190	message	abstract[225]	giv[225]	_	_
+37-19	4179-4182	the	abstract[334]	giv[334]	coref	44-5[370_334]
+37-20	4183-4190	message	abstract[334]	giv[334]	_	_
 37-21	4191-4192	;	_	_	_	_
 
 #Text=for imperative purposes that aim at not just understanding the translation but also at ensuring no misunderstanding of the translation .
@@ -839,8 +839,8 @@
 38-7	4229-4232	not	_	_	_	_
 38-8	4233-4237	just	_	_	_	_
 38-9	4238-4251	understanding	_	_	_	_
-38-10	4252-4255	the	abstract[227]	giv[227]	coref	38-19[229_227]
-38-11	4256-4267	translation	abstract[227]	giv[227]	_	_
+38-10	4252-4255	the	abstract[336]	new[336]	coref	38-19[338_336]
+38-11	4256-4267	translation	abstract[336]	new[336]	_	_
 38-12	4268-4271	but	_	_	_	_
 38-13	4272-4276	also	_	_	_	_
 38-14	4277-4279	at	_	_	_	_
@@ -848,8 +848,8 @@
 38-16	4289-4291	no	_	_	_	_
 38-17	4292-4308	misunderstanding	_	_	_	_
 38-18	4309-4311	of	_	_	_	_
-38-19	4312-4315	the	abstract[229]	giv[229]	_	_
-38-20	4316-4327	translation	abstract[229]	giv[229]	_	_
+38-19	4312-4315	the	abstract[338]	giv[338]	_	_
+38-20	4316-4327	translation	abstract[338]	giv[338]	_	_
 38-21	4328-4329	.	_	_	_	_
 
 #Text=The type of audience :
@@ -874,7 +874,7 @@
 40-12	4433-4434	.	_	_	_	_
 
 #Text=Nida brings in the reminder that while there are no such things as " identical equivalents " in translating , what one must in translating seek to do is find the " closest natural equivalent " .
-41-1	4435-4439	Nida	person	giv	ana	42-2
+41-1	4435-4439	Nida	person[345]	giv[345]	ana	42-2[353_345]
 41-2	4440-4446	brings	_	_	_	_
 41-3	4447-4449	in	_	_	_	_
 41-4	4450-4453	the	_	_	_	_
@@ -895,7 +895,7 @@
 41-19	4531-4542	translating	_	_	_	_
 41-20	4543-4544	,	_	_	_	_
 41-21	4545-4549	what	_	_	_	_
-41-22	4550-4553	one	person	giv	coref	46-21[267_0]
+41-22	4550-4553	one	person[350]	giv[350]	coref	46-21[395_350]
 41-23	4554-4558	must	_	_	_	_
 41-24	4559-4561	in	_	_	_	_
 41-25	4562-4573	translating	_	_	_	_
@@ -914,7 +914,7 @@
 
 #Text=Here he identifies two basic orientations in translating based on two different types of equivalence :
 42-1	4630-4634	Here	_	_	_	_
-42-2	4635-4637	he	person	giv	_	_
+42-2	4635-4637	he	person[353]	giv[353]	_	_
 42-3	4638-4648	identifies	_	_	_	_
 42-4	4649-4652	two	_	_	_	_
 42-5	4653-4658	basic	_	_	_	_
@@ -923,41 +923,41 @@
 42-8	4675-4686	translating	_	_	_	_
 42-9	4687-4692	based	_	_	_	_
 42-10	4693-4695	on	_	_	_	_
-42-11	4696-4699	two	abstract[241]	new[241]	appos	43-1[243_241]
-42-12	4700-4709	different	abstract[241]	new[241]	_	_
-42-13	4710-4715	types	abstract[241]	new[241]	_	_
-42-14	4716-4718	of	abstract[241]	new[241]	_	_
-42-15	4719-4730	equivalence	abstract[241]	new[241]	_	_
+42-11	4696-4699	two	abstract[356]	new[356]	coref	43-1[359_356]
+42-12	4700-4709	different	abstract[356]	new[356]	_	_
+42-13	4710-4715	types	abstract[356]	new[356]	_	_
+42-14	4716-4718	of	abstract[356]	new[356]	_	_
+42-15	4719-4730	equivalence	abstract[356]	new[356]	_	_
 42-16	4731-4732	:	_	_	_	_
 
 #Text=Formal Equivalence ( F-E ) and Dynamic Equivalence ( D-E ) .
-43-1	4733-4739	Formal	abstract[243]|abstract[244]|abstract[413]	giv[243]|giv[244]|giv[413]	appos|coref	43-3[342_244]|44-1[0_413]
-43-2	4740-4751	Equivalence	abstract[243]|abstract[244]|abstract[413]	giv[243]|giv[244]|giv[413]	_	_
-43-3	4752-4753	(	abstract[243]|abstract[342]|abstract[413]	giv[243]|giv[342]|giv[413]	_	_
-43-4	4754-4757	F-E	abstract[243]|abstract[342]|abstract[413]	giv[243]|giv[342]|giv[413]	_	_
-43-5	4758-4759	)	abstract[243]|abstract[342]|abstract[413]	giv[243]|giv[342]|giv[413]	_	_
-43-6	4760-4763	and	abstract[243]	giv[243]	_	_
-43-7	4764-4771	Dynamic	abstract[243]|abstract[246]	giv[243]|giv[246]	appos	43-9[373_246]
-43-8	4772-4783	Equivalence	abstract[243]|abstract[246]	giv[243]|giv[246]	_	_
-43-9	4784-4785	(	abstract[243]|abstract[373]	giv[243]|giv[373]	_	_
-43-10	4786-4789	D-E	abstract[243]|abstract[373]	giv[243]|giv[373]	_	_
-43-11	4790-4791	)	abstract[243]|abstract[373]	giv[243]|giv[373]	_	_
+43-1	4733-4739	Formal	abstract[359]|abstract[360]|abstract[542]	giv[359]|new[360]|giv[542]	appos|coref	43-3[474_360]|44-1[365_542]
+43-2	4740-4751	Equivalence	abstract[359]|abstract[360]|abstract[542]	giv[359]|new[360]|giv[542]	_	_
+43-3	4752-4753	(	abstract[359]|abstract[474]|abstract[542]	giv[359]|giv[474]|giv[542]	_	_
+43-4	4754-4757	F-E	abstract[359]|abstract[474]|abstract[542]	giv[359]|giv[474]|giv[542]	_	_
+43-5	4758-4759	)	abstract[359]|abstract[474]|abstract[542]	giv[359]|giv[474]|giv[542]	_	_
+43-6	4760-4763	and	abstract[359]	giv[359]	_	_
+43-7	4764-4771	Dynamic	abstract[359]|abstract[363]|abstract[543]	giv[359]|giv[363]|giv[543]	appos	43-9[505_363]
+43-8	4772-4783	Equivalence	abstract[359]|abstract[363]|abstract[543]	giv[359]|giv[363]|giv[543]	_	_
+43-9	4784-4785	(	abstract[359]|abstract[505]|abstract[543]	giv[359]|giv[505]|giv[543]	_	_
+43-10	4786-4789	D-E	abstract[359]|abstract[505]|abstract[543]	giv[359]|giv[505]|giv[543]	_	_
+43-11	4790-4791	)	abstract[359]|abstract[505]|abstract[543]	giv[359]|giv[505]|giv[543]	_	_
 43-12	4792-4793	.	_	_	_	_
 
 #Text=F-E focuses attention on the message itself , in both form and content .
-44-1	4794-4797	F-E	abstract	giv	_	_
+44-1	4794-4797	F-E	abstract[365]	giv[365]	coref	47-5[402_365]
 44-2	4798-4805	focuses	_	_	_	_
 44-3	4806-4815	attention	_	_	_	_
 44-4	4816-4818	on	_	_	_	_
-44-5	4819-4822	the	abstract[250]	giv[250]	ana	44-7[0_250]
-44-6	4823-4830	message	abstract[250]	giv[250]	_	_
-44-7	4831-4837	itself	abstract	giv	_	_
+44-5	4819-4822	the	abstract[370]	giv[370]	_	_
+44-6	4823-4830	message	abstract[370]	giv[370]	_	_
+44-7	4831-4837	itself	abstract[370]	giv[370]	_	_
 44-8	4838-4839	,	_	_	_	_
 44-9	4840-4842	in	_	_	_	_
-44-10	4843-4847	both	abstract[252]	giv[252]	coref	46-32[268_252]
-44-11	4848-4852	form	abstract[252]|abstract[253]	giv[252]|giv[253]	coref	46-32[269_253]
-44-12	4853-4856	and	abstract[252]	giv[252]	_	_
-44-13	4857-4864	content	abstract[252]	giv[252]	_	_
+44-10	4843-4847	both	abstract[371]	giv[371]	coref	46-32[396_371]
+44-11	4848-4852	form	abstract[371]|abstract[372]	giv[371]|giv[372]	coref	46-32[397_372]
+44-12	4853-4856	and	abstract[371]	giv[371]	_	_
+44-13	4857-4864	content	abstract[371]	giv[371]	_	_
 44-14	4865-4866	.	_	_	_	_
 
 #Text=Such translations then would be concerned with such correspondences as poetry to poetry , sentence to sentence , and concept to concept .
@@ -968,21 +968,21 @@
 45-5	4896-4898	be	_	_	_	_
 45-6	4899-4908	concerned	_	_	_	_
 45-7	4909-4913	with	_	_	_	_
-45-8	4914-4918	such	abstract[256]	new[256]	coref	46-7[265_256]
-45-9	4919-4934	correspondences	abstract[256]	new[256]	_	_
-45-10	4935-4937	as	abstract[256]	new[256]	_	_
-45-11	4938-4944	poetry	abstract[256]	new[256]	_	_
-45-12	4945-4947	to	abstract[256]	new[256]	_	_
-45-13	4948-4954	poetry	abstract[256]	new[256]	_	_
-45-14	4955-4956	,	abstract[256]	new[256]	_	_
-45-15	4957-4965	sentence	abstract[256]	new[256]	_	_
-45-16	4966-4968	to	abstract[256]	new[256]	_	_
-45-17	4969-4977	sentence	abstract[256]	new[256]	_	_
-45-18	4978-4979	,	abstract[256]	new[256]	_	_
-45-19	4980-4983	and	abstract[256]	new[256]	_	_
-45-20	4984-4991	concept	abstract[256]	new[256]	_	_
-45-21	4992-4994	to	abstract[256]	new[256]	_	_
-45-22	4995-5002	concept	abstract[256]	new[256]	_	_
+45-8	4914-4918	such	abstract[377]	new[377]	coref	46-7[391_377]
+45-9	4919-4934	correspondences	abstract[377]	new[377]	_	_
+45-10	4935-4937	as	abstract[377]	new[377]	_	_
+45-11	4938-4944	poetry	abstract[377]	new[377]	_	_
+45-12	4945-4947	to	abstract[377]	new[377]	_	_
+45-13	4948-4954	poetry	abstract[377]	new[377]	_	_
+45-14	4955-4956	,	abstract[377]	new[377]	_	_
+45-15	4957-4965	sentence	abstract[377]	new[377]	_	_
+45-16	4966-4968	to	abstract[377]	new[377]	_	_
+45-17	4969-4977	sentence	abstract[377]	new[377]	_	_
+45-18	4978-4979	,	abstract[377]	new[377]	_	_
+45-19	4980-4983	and	abstract[377]	new[377]	_	_
+45-20	4984-4991	concept	abstract[377]	new[377]	_	_
+45-21	4992-4994	to	abstract[377]	new[377]	_	_
+45-22	4995-5002	concept	abstract[377]	new[377]	_	_
 45-23	5003-5004	.	_	_	_	_
 
 #Text=Such a formal orientation that typifies this type of structural equivalence is called a " gloss translation " in which the translator aims at reproducing as literally and meaningfully as possible the form and content of the original .
@@ -992,11 +992,11 @@
 46-4	5019-5030	orientation	_	_	_	_
 46-5	5031-5035	that	_	_	_	_
 46-6	5036-5044	typifies	_	_	_	_
-46-7	5045-5049	this	abstract[265]	giv[265]	_	_
-46-8	5050-5054	type	abstract[265]	giv[265]	_	_
-46-9	5055-5057	of	abstract[265]	giv[265]	_	_
-46-10	5058-5068	structural	abstract[265]	giv[265]	_	_
-46-11	5069-5080	equivalence	abstract[265]	giv[265]	_	_
+46-7	5045-5049	this	abstract[391]	giv[391]	_	_
+46-8	5050-5054	type	abstract[391]	giv[391]	_	_
+46-9	5055-5057	of	abstract[391]	giv[391]	_	_
+46-10	5058-5068	structural	abstract[391]	giv[391]	_	_
+46-11	5069-5080	equivalence	abstract[391]	giv[391]	_	_
 46-12	5081-5083	is	_	_	_	_
 46-13	5084-5090	called	_	_	_	_
 46-14	5091-5092	a	_	_	_	_
@@ -1006,8 +1006,8 @@
 46-18	5113-5114	"	_	_	_	_
 46-19	5115-5117	in	_	_	_	_
 46-20	5118-5123	which	_	_	_	_
-46-21	5124-5127	the	person[267]	giv[267]	_	_
-46-22	5128-5138	translator	person[267]	giv[267]	_	_
+46-21	5124-5127	the	person[395]	giv[395]	_	_
+46-22	5128-5138	translator	person[395]	giv[395]	_	_
 46-23	5139-5143	aims	_	_	_	_
 46-24	5144-5146	at	_	_	_	_
 46-25	5147-5158	reproducing	_	_	_	_
@@ -1017,13 +1017,13 @@
 46-29	5176-5188	meaningfully	_	_	_	_
 46-30	5189-5191	as	_	_	_	_
 46-31	5192-5200	possible	_	_	_	_
-46-32	5201-5204	the	abstract[268]|abstract[269]	giv[268]|giv[269]	_	_
-46-33	5205-5209	form	abstract[268]|abstract[269]	giv[268]|giv[269]	_	_
-46-34	5210-5213	and	abstract[268]	giv[268]	_	_
-46-35	5214-5221	content	abstract[268]	giv[268]	_	_
-46-36	5222-5224	of	abstract[268]	giv[268]	_	_
-46-37	5225-5228	the	abstract[268]|abstract[271]	giv[268]|giv[271]	_	_
-46-38	5229-5237	original	abstract[268]|abstract[271]	giv[268]|giv[271]	_	_
+46-32	5201-5204	the	abstract[396]|abstract[397]	giv[396]|giv[397]	_	_
+46-33	5205-5209	form	abstract[396]|abstract[397]	giv[396]|giv[397]	_	_
+46-34	5210-5213	and	abstract[396]	giv[396]	_	_
+46-35	5214-5221	content	abstract[396]	giv[396]	_	_
+46-36	5222-5224	of	abstract[396]	giv[396]	_	_
+46-37	5225-5228	the	abstract[396]|abstract[399]	giv[396]|giv[399]	_	_
+46-38	5229-5237	original	abstract[396]|abstract[399]	giv[396]|giv[399]	_	_
 46-39	5238-5239	.	_	_	_	_
 
 #Text=The principles governing an F-E translation would then be : reproduction of grammatical units ; consistency in word usage ; and meanings in terms of the source context .
@@ -1031,7 +1031,7 @@
 47-2	5244-5254	principles	_	_	_	_
 47-3	5255-5264	governing	_	_	_	_
 47-4	5265-5267	an	_	_	_	_
-47-5	5268-5271	F-E	_	_	_	_
+47-5	5268-5271	F-E	abstract[402]	giv[402]	_	_
 47-6	5272-5283	translation	_	_	_	_
 47-7	5284-5289	would	_	_	_	_
 47-8	5290-5294	then	_	_	_	_
@@ -1052,8 +1052,8 @@
 47-23	5377-5379	in	_	_	_	_
 47-24	5380-5385	terms	_	_	_	_
 47-25	5386-5388	of	_	_	_	_
-47-26	5389-5392	the	abstract[280]	giv[280]	_	_
-47-27	5393-5399	source	abstract[280]	giv[280]	_	_
-47-28	5400-5407	context	abstract[280]	giv[280]	_	_
+47-26	5389-5392	the	abstract[412]	giv[412]	_	_
+47-27	5393-5399	source	abstract[412]	giv[412]	_	_
+47-28	5400-5407	context	abstract[412]	giv[412]	_	_
 47-29	5408-5409	.	_	_	_	_
 

@@ -2,7 +2,7 @@
 0	Absolutely	_
 1	.	_
 2	The	(1
-3	film	_
+3	film	1)
 4	Snyder	(2)
 5	showed	_
 6	the	_
@@ -10,7 +10,7 @@
 8	execs	_
 9	in	_
 10	mid	_
-11	2015	1)
+11	2015	_
 12	was	_
 13	without	_
 14	a	_
@@ -43,11 +43,11 @@
 41	Snyder	(2)
 42	made	_
 43	the	(1
-44	film	_
+44	film	1)
 45	he	(2)
 46	wanted	_
 47	to	_
-48	make	1)
+48	make	_
 49	.	_
 50	He	(2)
 51	did	_
@@ -199,9 +199,9 @@
 197	action	_
 198	sequences	_
 199	throughout	_
-200	the	(9
+200	the	(1
 201	entire	_
-202	film	9)
+202	film	1)
 203	.	_
 204	But	_
 205	all	_
@@ -234,8 +234,8 @@
 232	3rd	_
 233	hour	_
 234	.	_
-235	This	(9
-236	film	9)
+235	This	(1
+236	film	1)
 237	needed	_
 238	clear	_
 239	work	_

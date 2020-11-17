@@ -1,4 +1,4 @@
-#FORMAT=WebAnno TSV 3.1
+#FORMAT=WebAnno TSV 3.2
 #T_SP=webanno.custom.Referent|entity|infstat
 #T_RL=webanno.custom.Coref|type|BT_webanno.custom.Referent
 
@@ -13,14 +13,14 @@
 2-3	25-30	Harry	person[2]	giv[2]	_	_
 2-4	31-40	Jespersen	person[2]	giv[2]	_	_
 2-5	41-43	or	_	_	_	_
-2-6	44-48	Otto	person[3]	giv[3]	coref	2-12[5_3]
+2-6	44-48	Otto	person[3]	giv[3]	coref	2-12[6_3]
 2-7	49-58	Jespersen	person[3]	giv[3]	_	_
 2-8	59-60	(	_	_	_	_
 2-9	61-67	Danish	_	_	_	_
 2-10	68-69	:	_	_	_	_
 2-11	70-71	[	_	_	_	_
-2-12	72-76	ʌtˢo	person[5]	giv[5]	coref	4-1[16_5]
-2-13	77-87	ˈjɛsb̥ɐsn̩	person[5]	giv[5]	_	_
+2-12	72-76	ʌtˢo	person[6]	giv[6]	coref	4-1[18_6]
+2-13	77-87	ˈjɛsb̥ɐsn̩	person[6]	giv[6]	_	_
 2-14	88-89	]	_	_	_	_
 2-15	90-91	;	_	_	_	_
 2-16	92-94	16	_	_	_	_
@@ -41,9 +41,9 @@
 2-31	164-167	the	_	_	_	_
 2-32	168-175	grammar	_	_	_	_
 2-33	176-178	of	_	_	_	_
-2-34	179-182	the	abstract[14]	new[14]	coref	7-23[49_14]
-2-35	183-190	English	abstract[14]	new[14]	_	_
-2-36	191-199	language	abstract[14]	new[14]	_	_
+2-34	179-182	the	abstract[16]	new[16]	coref	7-23[71_16]
+2-35	183-190	English	abstract[16]	new[16]	_	_
+2-36	191-199	language	abstract[16]	new[16]	_	_
 2-37	200-201	.	_	_	_	_
 
 #Text=Early life
@@ -51,8 +51,8 @@
 3-2	208-212	life	_	_	_	_
 
 #Text=Otto Jespersen was born in Randers in Jutland .
-4-1	213-217	Otto	person[16]	giv[16]	ana	5-1[0_16]
-4-2	218-227	Jespersen	person[16]	giv[16]	_	_
+4-1	213-217	Otto	person[18]	giv[18]	ana	5-1[21_18]
+4-2	218-227	Jespersen	person[18]	giv[18]	_	_
 4-3	228-231	was	_	_	_	_
 4-4	232-236	born	_	_	_	_
 4-5	237-239	in	_	_	_	_
@@ -62,7 +62,7 @@
 4-9	259-260	.	_	_	_	_
 
 #Text=He was inspired by the work of Danish philologist Rasmus Rask as a boy , and with the help of Rask 's grammars taught himself some Icelandic , Italian , and Spanish .
-5-1	261-263	He	person	giv	ana	5-25
+5-1	261-263	He	person[21]	giv[21]	ana	5-25[29_21]
 5-2	264-267	was	_	_	_	_
 5-3	268-276	inspired	_	_	_	_
 5-4	277-279	by	_	_	_	_
@@ -86,7 +86,7 @@
 5-22	360-362	's	_	_	_	_
 5-23	363-371	grammars	_	_	_	_
 5-24	372-378	taught	_	_	_	_
-5-25	379-386	himself	person	giv	ana	6-1
+5-25	379-386	himself	person[29]	giv[29]	ana	6-1[34_29]
 5-26	387-391	some	_	_	_	_
 5-27	392-401	Icelandic	_	_	_	_
 5-28	402-403	,	_	_	_	_
@@ -97,16 +97,16 @@
 5-33	426-427	.	_	_	_	_
 
 #Text=He entered the University of Copenhagen in 1877 when he was 17 , initially studying law but not forgetting his language studies .
-6-1	428-430	He	person	giv	ana	6-10
+6-1	428-430	He	person[34]	giv[34]	ana	6-10[41_34]
 6-2	431-438	entered	_	_	_	_
-6-3	439-442	the	organization[30]	new[30]	coref	13-8[96_30]
-6-4	443-453	University	organization[30]	new[30]	_	_
-6-5	454-456	of	organization[30]	new[30]	_	_
-6-6	457-467	Copenhagen	organization[30]|place[31]	new[30]|new[31]	coref	10-13[0_31]
+6-3	439-442	the	organization[38]	new[38]	coref	13-8[146_38]
+6-4	443-453	University	organization[38]	new[38]	_	_
+6-5	454-456	of	organization[38]	new[38]	_	_
+6-6	457-467	Copenhagen	organization[38]|place[39]	new[38]|new[39]	coref	10-13[118_39]
 6-7	468-470	in	_	_	_	_
 6-8	471-475	1877	_	_	_	_
 6-9	476-480	when	_	_	_	_
-6-10	481-483	he	person	giv	ana	6-20[37_0]
+6-10	481-483	he	person[41]	giv[41]	ana	6-20[50_41]
 6-11	484-487	was	_	_	_	_
 6-12	488-490	17	_	_	_	_
 6-13	491-492	,	_	_	_	_
@@ -116,17 +116,17 @@
 6-17	516-519	but	_	_	_	_
 6-18	520-523	not	_	_	_	_
 6-19	524-534	forgetting	_	_	_	_
-6-20	535-538	his	abstract[36]|person[37]	new[36]|giv[37]	coref|ana	8-5[55_36]|7-3[0_37]
-6-21	539-547	language	abstract[36]	new[36]	_	_
-6-22	548-555	studies	abstract[36]	new[36]	_	_
+6-20	535-538	his	person[50]	giv[50]	ana	7-3[53_50]
+6-21	539-547	language	_	_	_	_
+6-22	548-555	studies	_	_	_	_
 6-23	556-557	.	_	_	_	_
 
 #Text=In 1881 he shifted his focus completely to languages , and in 1887 earned his master 's degree in French , with English and Latin as his secondary languages .
 7-1	558-560	In	_	_	_	_
 7-2	561-565	1881	_	_	_	_
-7-3	566-568	he	person	giv	ana	7-5[42_0]
+7-3	566-568	he	person[53]	giv[53]	ana	7-5[59_53]
 7-4	569-576	shifted	_	_	_	_
-7-5	577-580	his	person[42]	giv[42]	ana	7-15[46_42]
+7-5	577-580	his	person[59]	giv[59]	ana	7-15[66_59]
 7-6	581-586	focus	_	_	_	_
 7-7	587-597	completely	_	_	_	_
 7-8	598-600	to	_	_	_	_
@@ -136,7 +136,7 @@
 7-12	617-619	in	_	_	_	_
 7-13	620-624	1887	_	_	_	_
 7-14	625-631	earned	_	_	_	_
-7-15	632-635	his	person[46]	giv[46]	ana	7-27[52_46]
+7-15	632-635	his	person[66]	giv[66]	ana	7-27[76_66]
 7-16	636-642	master	_	_	_	_
 7-17	643-645	's	_	_	_	_
 7-18	646-652	degree	_	_	_	_
@@ -144,22 +144,22 @@
 7-20	656-662	French	_	_	_	_
 7-21	663-664	,	_	_	_	_
 7-22	665-669	with	_	_	_	_
-7-23	670-677	English	abstract[48]|abstract[49]	new[48]|giv[49]	coref|coref	7-27[51_48]|13-6[95_49]
-7-24	678-681	and	abstract[48]	new[48]	_	_
-7-25	682-687	Latin	abstract[48]	new[48]	_	_
+7-23	670-677	English	abstract[70]|abstract[71]	new[70]|giv[71]	coref|coref	7-27[75_70]|13-6[144_71]
+7-24	678-681	and	abstract[70]	new[70]	_	_
+7-25	682-687	Latin	abstract[70]	new[70]	_	_
 7-26	688-690	as	_	_	_	_
-7-27	691-694	his	abstract[51]|person[52]	giv[51]|giv[52]	ana	8-1[0_52]
-7-28	695-704	secondary	abstract[51]	giv[51]	_	_
-7-29	705-714	languages	abstract[51]	giv[51]	_	_
+7-27	691-694	his	abstract[75]|person[76]	giv[75]|giv[76]	ana	8-1[77_76]
+7-28	695-704	secondary	abstract[75]	giv[75]	_	_
+7-29	705-714	languages	abstract[75]	giv[75]	_	_
 7-30	715-716	.	_	_	_	_
 
 #Text=He supported himself during his studies through part-time work as a schoolteacher and as a shorthand reporter in the Danish parliament .
-8-1	717-719	He	person	giv	ana	8-3
+8-1	717-719	He	person[77]	giv[77]	ana	8-3[78_77]
 8-2	720-729	supported	_	_	_	_
-8-3	730-737	himself	person	giv	ana	8-5[56_0]
+8-3	730-737	himself	person[78]	giv[78]	ana	8-5[83_78]
 8-4	738-744	during	_	_	_	_
-8-5	745-748	his	abstract[55]|person[56]	giv[55]|giv[56]	_	_
-8-6	749-756	studies	abstract[55]	giv[55]	_	_
+8-5	745-748	his	person[83]	giv[83]	_	_
+8-6	749-756	studies	_	_	_	_
 8-7	757-764	through	_	_	_	_
 8-8	765-774	part-time	_	_	_	_
 8-9	775-779	work	_	_	_	_
@@ -168,9 +168,9 @@
 8-12	785-798	schoolteacher	_	_	_	_
 8-13	799-802	and	_	_	_	_
 8-14	803-805	as	_	_	_	_
-8-15	806-807	a	person[59]	giv[59]	ana	9-6[0_59]
-8-16	808-817	shorthand	person[59]	giv[59]	_	_
-8-17	818-826	reporter	person[59]	giv[59]	_	_
+8-15	806-807	a	person[87]	giv[87]	ana	9-6[93_87]
+8-16	808-817	shorthand	person[87]	giv[87]	_	_
+8-17	818-826	reporter	person[87]	giv[87]	_	_
 8-18	827-829	in	_	_	_	_
 8-19	830-833	the	_	_	_	_
 8-20	834-840	Danish	_	_	_	_
@@ -183,7 +183,7 @@
 9-3	862-863	–	_	_	_	_
 9-4	864-868	1888	_	_	_	_
 9-5	869-870	,	_	_	_	_
-9-6	871-873	he	person	giv	ana	10-5[76_0]
+9-6	871-873	he	person[93]	giv[93]	ana	10-5[114_93]
 9-7	874-882	traveled	_	_	_	_
 9-8	883-885	to	_	_	_	_
 9-9	886-893	England	_	_	_	_
@@ -215,15 +215,15 @@
 10-2	1041-1044	the	_	_	_	_
 10-3	1045-1051	advice	_	_	_	_
 10-4	1052-1054	of	_	_	_	_
-10-5	1055-1058	his	person[75]|person[76]	new[75]|giv[76]	appos|ana	10-7[77_75]|10-10[0_76]
-10-6	1059-1065	mentor	person[75]	new[75]	_	_
-10-7	1066-1073	Vilhelm	person[77]	giv[77]	_	_
-10-8	1074-1081	Thomsen	person[77]	giv[77]	_	_
+10-5	1055-1058	his	person[113]|person[114]	new[113]|giv[114]	appos|ana	10-7[116_113]|10-10[117_114]
+10-6	1059-1065	mentor	person[113]	new[113]	_	_
+10-7	1066-1073	Vilhelm	person[116]	giv[116]	_	_
+10-8	1074-1081	Thomsen	person[116]	giv[116]	_	_
 10-9	1082-1083	,	_	_	_	_
-10-10	1084-1086	he	person	giv	ana	10-21[84_0]
+10-10	1084-1086	he	person[117]	giv[117]	ana	10-21[126_117]
 10-11	1087-1095	returned	_	_	_	_
 10-12	1096-1098	to	_	_	_	_
-10-13	1099-1109	Copenhagen	place	giv	coref	13-11[97_0]
+10-13	1099-1109	Copenhagen	place[118]	giv[118]	coref	13-11[147_118]
 10-14	1110-1112	in	_	_	_	_
 10-15	1113-1119	August	_	_	_	_
 10-16	1120-1124	1888	_	_	_	_
@@ -231,22 +231,22 @@
 10-18	1129-1134	began	_	_	_	_
 10-19	1135-1139	work	_	_	_	_
 10-20	1140-1142	on	_	_	_	_
-10-21	1143-1146	his	abstract[83]|person[84]	new[83]|giv[84]	coref|ana	11-4[88_83]|11-1[0_84]
-10-22	1147-1155	doctoral	abstract[83]	new[83]	_	_
-10-23	1156-1168	dissertation	abstract[83]	new[83]	_	_
-10-24	1169-1171	on	abstract[83]	new[83]	_	_
-10-25	1172-1175	the	abstract[83]	new[83]	_	_
-10-26	1176-1183	English	abstract[83]	new[83]	_	_
-10-27	1184-1188	case	abstract[83]	new[83]	_	_
-10-28	1189-1195	system	abstract[83]	new[83]	_	_
+10-21	1143-1146	his	abstract[125]|person[126]	new[125]|giv[126]	coref|ana	11-4[133_125]|11-1[130_126]
+10-22	1147-1155	doctoral	abstract[125]	new[125]	_	_
+10-23	1156-1168	dissertation	abstract[125]	new[125]	_	_
+10-24	1169-1171	on	abstract[125]	new[125]	_	_
+10-25	1172-1175	the	abstract[125]	new[125]	_	_
+10-26	1176-1183	English	abstract[125]	new[125]	_	_
+10-27	1184-1188	case	abstract[125]	new[125]	_	_
+10-28	1189-1195	system	abstract[125]	new[125]	_	_
 10-29	1196-1197	.	_	_	_	_
 
 #Text=He successfully defended his dissertation in 1891 .
-11-1	1198-1200	He	person	giv	ana	11-4[89_0]
+11-1	1198-1200	He	person[130]	giv[130]	ana	11-4[134_130]
 11-2	1201-1213	successfully	_	_	_	_
 11-3	1214-1222	defended	_	_	_	_
-11-4	1223-1226	his	abstract[88]|person[89]	giv[88]|giv[89]	coref	13-1[0_89]
-11-5	1227-1239	dissertation	abstract[88]	giv[88]	_	_
+11-4	1223-1226	his	abstract[133]|person[134]	giv[133]|giv[134]	coref	13-1[140_134]
+11-5	1227-1239	dissertation	abstract[133]	giv[133]	_	_
 11-6	1240-1242	in	_	_	_	_
 11-7	1243-1247	1891	_	_	_	_
 11-8	1248-1249	.	_	_	_	_
@@ -258,17 +258,17 @@
 12-4	1268-1272	work	_	_	_	_
 
 #Text=Jespersen was a professor of English at the University of Copenhagen from 1893 to 1925 , and served as Rector of the university in 1920 – 21 .
-13-1	1273-1282	Jespersen	person	giv	_	_
+13-1	1273-1282	Jespersen	person[140]	giv[140]	_	_
 13-2	1283-1286	was	_	_	_	_
 13-3	1287-1288	a	_	_	_	_
 13-4	1289-1298	professor	_	_	_	_
 13-5	1299-1301	of	_	_	_	_
-13-6	1302-1309	English	abstract[95]	giv[95]	coref	22-1[182_95]
+13-6	1302-1309	English	abstract[144]	giv[144]	coref	22-1[277_144]
 13-7	1310-1312	at	_	_	_	_
-13-8	1313-1316	the	organization[96]	giv[96]	coref	13-22[101_96]
-13-9	1317-1327	University	organization[96]	giv[96]	_	_
-13-10	1328-1330	of	organization[96]	giv[96]	_	_
-13-11	1331-1341	Copenhagen	organization[96]|place[97]	giv[96]|giv[97]	coref	35-36[296_97]
+13-8	1313-1316	the	organization[146]	giv[146]	coref	13-22[154_146]
+13-9	1317-1327	University	organization[146]	giv[146]	_	_
+13-10	1328-1330	of	organization[146]	giv[146]	_	_
+13-11	1331-1341	Copenhagen	organization[146]|place[147]	giv[146]|giv[147]	coref	35-36[449_147]
 13-12	1342-1346	from	_	_	_	_
 13-13	1347-1351	1893	_	_	_	_
 13-14	1352-1354	to	_	_	_	_
@@ -277,10 +277,10 @@
 13-17	1362-1365	and	_	_	_	_
 13-18	1366-1372	served	_	_	_	_
 13-19	1373-1375	as	_	_	_	_
-13-20	1376-1382	Rector	person[100]	giv[100]	ana	14-1[105_100]
-13-21	1383-1385	of	person[100]	giv[100]	_	_
-13-22	1386-1389	the	person[100]|organization[101]	giv[100]|giv[101]	_	_
-13-23	1390-1400	university	person[100]|organization[101]	giv[100]|giv[101]	_	_
+13-20	1376-1382	Rector	person[153]	giv[153]	ana	14-1[160_153]
+13-21	1383-1385	of	person[153]	giv[153]	_	_
+13-22	1386-1389	the	person[153]|organization[154]	giv[153]|giv[154]	_	_
+13-23	1390-1400	university	person[153]|organization[154]	giv[153]|giv[154]	_	_
 13-24	1401-1403	in	_	_	_	_
 13-25	1404-1408	1920	_	_	_	_
 13-26	1409-1410	–	_	_	_	_
@@ -288,7 +288,7 @@
 13-28	1414-1415	.	_	_	_	_
 
 #Text=His early work focused primarily on language teaching reform and on phonetics , but he is best known for his later work on syntax and on language development .
-14-1	1416-1419	His	person[105]	giv[105]	ana	14-15[0_105]
+14-1	1416-1419	His	person[160]	giv[160]	ana	14-15[166_160]
 14-2	1420-1425	early	_	_	_	_
 14-3	1426-1430	work	_	_	_	_
 14-4	1431-1438	focused	_	_	_	_
@@ -302,16 +302,16 @@
 14-12	1484-1493	phonetics	_	_	_	_
 14-13	1494-1495	,	_	_	_	_
 14-14	1496-1499	but	_	_	_	_
-14-15	1500-1502	he	person	giv	ana	14-20[112_0]
+14-15	1500-1502	he	person[166]	giv[166]	ana	14-20[171_166]
 14-16	1503-1505	is	_	_	_	_
 14-17	1506-1510	best	_	_	_	_
 14-18	1511-1516	known	_	_	_	_
 14-19	1517-1520	for	_	_	_	_
-14-20	1521-1524	his	person[112]	giv[112]	ana	15-1[0_112]
+14-20	1521-1524	his	person[171]	giv[171]	ana	15-1[177_171]
 14-21	1525-1530	later	_	_	_	_
 14-22	1531-1535	work	_	_	_	_
 14-23	1536-1538	on	_	_	_	_
-14-24	1539-1545	syntax	abstract[113]	new[113]	coref	16-13[132_113]
+14-24	1539-1545	syntax	abstract[172]	new[172]	coref	16-13[201_172]
 14-25	1546-1549	and	_	_	_	_
 14-26	1550-1552	on	_	_	_	_
 14-27	1553-1561	language	_	_	_	_
@@ -319,39 +319,39 @@
 14-29	1574-1575	.	_	_	_	_
 
 #Text=He advanced the theories of Rank and Nexus in Danish in two papers : Sprogets logik ( 1913 ) and De to hovedarter af grammatiske forbindelser ( 1921 ) .
-15-1	1576-1578	He	person	giv	coref	16-1
+15-1	1576-1578	He	person[177]	giv[177]	coref	16-1[194_177]
 15-2	1579-1587	advanced	_	_	_	_
 15-3	1588-1591	the	_	_	_	_
 15-4	1592-1600	theories	_	_	_	_
 15-5	1601-1603	of	_	_	_	_
 15-6	1604-1608	Rank	_	_	_	_
 15-7	1609-1612	and	_	_	_	_
-15-8	1613-1618	Nexus	abstract[120]	new[120]	coref	17-1[146_120]
+15-8	1613-1618	Nexus	abstract[182]	new[182]	coref	17-1[225_182]
 15-9	1619-1621	in	_	_	_	_
 15-10	1622-1628	Danish	_	_	_	_
 15-11	1629-1631	in	_	_	_	_
-15-12	1632-1635	two	abstract[122]	new[122]	appos	15-15[123_122]
-15-13	1636-1642	papers	abstract[122]	new[122]	_	_
-15-14	1643-1644	:	abstract[122]	new[122]	_	_
-15-15	1645-1653	Sprogets	abstract[123]	giv[123]	_	_
-15-16	1654-1659	logik	abstract[123]	giv[123]	_	_
-15-17	1660-1661	(	abstract[123]	giv[123]	_	_
-15-18	1662-1666	1913	abstract[123]	giv[123]	_	_
-15-19	1667-1668	)	abstract[123]	giv[123]	_	_
-15-20	1669-1672	and	abstract[123]	giv[123]	_	_
-15-21	1673-1675	De	abstract[123]	giv[123]	_	_
-15-22	1676-1678	to	abstract[123]	giv[123]	_	_
-15-23	1679-1689	hovedarter	abstract[123]	giv[123]	_	_
-15-24	1690-1692	af	abstract[123]	giv[123]	_	_
-15-25	1693-1704	grammatiske	abstract[123]	giv[123]	_	_
-15-26	1705-1717	forbindelser	abstract[123]	giv[123]	_	_
-15-27	1718-1719	(	abstract[123]	giv[123]	_	_
-15-28	1720-1724	1921	abstract[123]	giv[123]	_	_
-15-29	1725-1726	)	abstract[123]	giv[123]	_	_
+15-12	1632-1635	two	abstract[187]	new[187]	appos	15-15[188_187]
+15-13	1636-1642	papers	abstract[187]	new[187]	_	_
+15-14	1643-1644	:	abstract[187]	new[187]	_	_
+15-15	1645-1653	Sprogets	abstract[188]	giv[188]	_	_
+15-16	1654-1659	logik	abstract[188]	giv[188]	_	_
+15-17	1660-1661	(	abstract[188]	giv[188]	_	_
+15-18	1662-1666	1913	abstract[188]	giv[188]	_	_
+15-19	1667-1668	)	abstract[188]	giv[188]	_	_
+15-20	1669-1672	and	abstract[188]	giv[188]	_	_
+15-21	1673-1675	De	abstract[188]	giv[188]	_	_
+15-22	1676-1678	to	abstract[188]	giv[188]	_	_
+15-23	1679-1689	hovedarter	abstract[188]	giv[188]	_	_
+15-24	1690-1692	af	abstract[188]	giv[188]	_	_
+15-25	1693-1704	grammatiske	abstract[188]	giv[188]	_	_
+15-26	1705-1717	forbindelser	abstract[188]	giv[188]	_	_
+15-27	1718-1719	(	abstract[188]	giv[188]	_	_
+15-28	1720-1724	1921	abstract[188]	giv[188]	_	_
+15-29	1725-1726	)	abstract[188]	giv[188]	_	_
 15-30	1727-1728	.	_	_	_	_
 
 #Text=Jespersen in this theory of ranks removes the parts of speech from the syntax , and differentiates between primaries , secondaries , and tertiaries ; e.g. in " well honed phrase , " " phrase " is a primary , this being defined by a secondary , " honed " , which again is defined by a tertiary " well " .
-16-1	1729-1738	Jespersen	person	giv	ana	20-1
+16-1	1729-1738	Jespersen	person[194]	giv[194]	ana	20-1[256_194]
 16-2	1739-1741	in	_	_	_	_
 16-3	1742-1746	this	_	_	_	_
 16-4	1747-1753	theory	_	_	_	_
@@ -363,8 +363,8 @@
 16-10	1781-1783	of	_	_	_	_
 16-11	1784-1790	speech	_	_	_	_
 16-12	1791-1795	from	_	_	_	_
-16-13	1796-1799	the	abstract[132]	giv[132]	_	_
-16-14	1800-1806	syntax	abstract[132]	giv[132]	_	_
+16-13	1796-1799	the	abstract[201]	giv[201]	_	_
+16-14	1800-1806	syntax	abstract[201]	giv[201]	_	_
 16-15	1807-1808	,	_	_	_	_
 16-16	1809-1812	and	_	_	_	_
 16-17	1813-1827	differentiates	_	_	_	_
@@ -385,13 +385,13 @@
 16-32	1907-1908	,	_	_	_	_
 16-33	1909-1910	"	_	_	_	_
 16-34	1911-1912	"	_	_	_	_
-16-35	1913-1919	phrase	abstract	giv	ana	16-41
+16-35	1913-1919	phrase	abstract[208]	giv[208]	ana	16-41[217_208]
 16-36	1920-1921	"	_	_	_	_
 16-37	1922-1924	is	_	_	_	_
 16-38	1925-1926	a	_	_	_	_
 16-39	1927-1934	primary	_	_	_	_
 16-40	1935-1936	,	_	_	_	_
-16-41	1937-1941	this	abstract	giv	_	_
+16-41	1937-1941	this	abstract[217]	giv[217]	_	_
 16-42	1942-1947	being	_	_	_	_
 16-43	1948-1955	defined	_	_	_	_
 16-44	1956-1958	by	_	_	_	_
@@ -407,17 +407,17 @@
 16-54	1997-1999	is	_	_	_	_
 16-55	2000-2007	defined	_	_	_	_
 16-56	2008-2010	by	_	_	_	_
-16-57	2011-2012	a	_	_	_	_
-16-58	2013-2021	tertiary	_	_	_	_
-16-59	2022-2023	"	_	_	_	_
-16-60	2024-2028	well	_	_	_	_
-16-61	2029-2030	"	_	_	_	_
+16-57	2011-2012	a	abstract[222]	giv[222]	appos	16-59[561_222]
+16-58	2013-2021	tertiary	abstract[222]	giv[222]	_	_
+16-59	2022-2023	"	abstract[561]	giv[561]	_	_
+16-60	2024-2028	well	abstract[561]	giv[561]	_	_
+16-61	2029-2030	"	abstract[561]	giv[561]	_	_
 16-62	2031-2032	.	_	_	_	_
 
 #Text=The term Nexus is applied to sentences , structures similar to sentences and sentences in formation , in which two concepts are expressed in one unit ; e.g. , it rained , he ran indoors .
-17-1	2033-2036	The	abstract[146]	giv[146]	coref	18-1[155_146]
-17-2	2037-2041	term	abstract[146]	giv[146]	_	_
-17-3	2042-2047	Nexus	abstract[146]	giv[146]	_	_
+17-1	2033-2036	The	abstract[225]	giv[225]	coref	18-1[238_225]
+17-2	2037-2041	term	abstract[225]	giv[225]	_	_
+17-3	2042-2047	Nexus	abstract[225]	giv[225]	_	_
 17-4	2048-2050	is	_	_	_	_
 17-5	2051-2058	applied	_	_	_	_
 17-6	2059-2061	to	_	_	_	_
@@ -453,8 +453,8 @@
 17-36	2219-2220	.	_	_	_	_
 
 #Text=This term is qualified by a further concept called a junction which represents one idea , expressed by means of two or more elements , whereas a nexus combines two ideas .
-18-1	2221-2225	This	abstract[155]	giv[155]	_	_
-18-2	2226-2230	term	abstract[155]	giv[155]	_	_
+18-1	2221-2225	This	abstract[238]	giv[238]	_	_
+18-2	2226-2230	term	abstract[238]	giv[238]	_	_
 18-3	2231-2233	is	_	_	_	_
 18-4	2234-2243	qualified	_	_	_	_
 18-5	2244-2246	by	_	_	_	_
@@ -512,7 +512,7 @@
 19-23	2525-2526	.	_	_	_	_
 
 #Text=He was most widely recognized for some of his books .
-20-1	2527-2529	He	person	giv	ana	20-9[172_0]
+20-1	2527-2529	He	person[256]	giv[256]	ana	20-9[261_256]
 20-2	2530-2533	was	_	_	_	_
 20-3	2534-2538	most	_	_	_	_
 20-4	2539-2545	widely	_	_	_	_
@@ -520,14 +520,14 @@
 20-6	2557-2560	for	_	_	_	_
 20-7	2561-2565	some	_	_	_	_
 20-8	2566-2568	of	_	_	_	_
-20-9	2569-2572	his	person[172]	giv[172]	ana	21-18[180_172]
+20-9	2569-2572	his	person[261]	giv[261]	ana	21-18[274_261]
 20-10	2573-2578	books	_	_	_	_
 20-11	2579-2580	.	_	_	_	_
 
 #Text=Language : Its Nature , Development and Origin ( 1922 ) is considered by many to be his masterpiece .
-21-1	2581-2589	Language	abstract[174]	new[174]	ana	21-3[176_174]
+21-1	2581-2589	Language	abstract[264]	new[264]	ana	21-3[267_264]
 21-2	2590-2591	:	_	_	_	_
-21-3	2592-2595	Its	abstract[176]	giv[176]	_	_
+21-3	2592-2595	Its	abstract[267]	giv[267]	_	_
 21-4	2596-2602	Nature	_	_	_	_
 21-5	2603-2604	,	_	_	_	_
 21-6	2605-2616	Development	_	_	_	_
@@ -542,13 +542,13 @@
 21-15	2654-2658	many	_	_	_	_
 21-16	2659-2661	to	_	_	_	_
 21-17	2662-2664	be	_	_	_	_
-21-18	2665-2668	his	person[180]	giv[180]	_	_
+21-18	2665-2668	his	person[274]	giv[274]	_	_
 21-19	2669-2680	masterpiece	_	_	_	_
 21-20	2681-2682	.	_	_	_	_
 
 #Text=Modern English Grammar on Historical Principles ( 1909 – 1949 ) , concentrated on morphology and syntax , and Growth and Structure of the English Language ( 1905 ) is a comprehensive view of English by someone with another native language , and still in print , over 70 years after his death and more than 100 years after publication .
-22-1	2683-2689	Modern	abstract[182]	giv[182]	coref	22-24[188_182]
-22-2	2690-2697	English	abstract[182]	giv[182]	_	_
+22-1	2683-2689	Modern	abstract[277]	giv[277]	coref	22-24[288_277]
+22-2	2690-2697	English	abstract[277]	giv[277]	_	_
 22-3	2698-2705	Grammar	_	_	_	_
 22-4	2706-2708	on	_	_	_	_
 22-5	2709-2719	Historical	_	_	_	_
@@ -570,9 +570,9 @@
 22-21	2800-2803	and	_	_	_	_
 22-22	2804-2813	Structure	_	_	_	_
 22-23	2814-2816	of	_	_	_	_
-22-24	2817-2820	the	abstract[188]	giv[188]	coref	22-35[191_188]
-22-25	2821-2828	English	abstract[188]	giv[188]	_	_
-22-26	2829-2837	Language	abstract[188]	giv[188]	_	_
+22-24	2817-2820	the	abstract[288]	giv[288]	coref	22-35[292_288]
+22-25	2821-2828	English	abstract[288]	giv[288]	_	_
+22-26	2829-2837	Language	abstract[288]	giv[288]	_	_
 22-27	2838-2839	(	_	_	_	_
 22-28	2840-2844	1905	_	_	_	_
 22-29	2845-2846	)	_	_	_	_
@@ -581,13 +581,13 @@
 22-32	2852-2865	comprehensive	_	_	_	_
 22-33	2866-2870	view	_	_	_	_
 22-34	2871-2873	of	_	_	_	_
-22-35	2874-2881	English	abstract[191]	giv[191]	_	_
+22-35	2874-2881	English	abstract[292]	giv[292]	_	_
 22-36	2882-2884	by	_	_	_	_
-22-37	2885-2892	someone	person[192]	giv[192]	ana	22-52[196_192]
-22-38	2893-2897	with	person[192]	giv[192]	_	_
-22-39	2898-2905	another	person[192]	giv[192]	_	_
-22-40	2906-2912	native	person[192]	giv[192]	_	_
-22-41	2913-2921	language	person[192]	giv[192]	_	_
+22-37	2885-2892	someone	person[294]	giv[294]	ana	22-52[298_294]
+22-38	2893-2897	with	person[294]	giv[294]	_	_
+22-39	2898-2905	another	person[294]	giv[294]	_	_
+22-40	2906-2912	native	person[294]	giv[294]	_	_
+22-41	2913-2921	language	person[294]	giv[294]	_	_
 22-42	2922-2923	,	_	_	_	_
 22-43	2924-2927	and	_	_	_	_
 22-44	2928-2933	still	_	_	_	_
@@ -598,7 +598,7 @@
 22-49	2950-2952	70	_	_	_	_
 22-50	2953-2958	years	_	_	_	_
 22-51	2959-2964	after	_	_	_	_
-22-52	2965-2968	his	person[196]	giv[196]	ana	23-3[200_196]
+22-52	2965-2968	his	person[298]	giv[298]	ana	23-3[304_298]
 22-53	2969-2974	death	_	_	_	_
 22-54	2975-2978	and	_	_	_	_
 22-55	2979-2983	more	_	_	_	_
@@ -612,9 +612,9 @@
 #Text=Late in his life he published Analytic Syntax ( 1937 ) , in which he presents his views on syntactic structure using an idiosyncratic shorthand notation .
 23-1	3019-3023	Late	_	_	_	_
 23-2	3024-3026	in	_	_	_	_
-23-3	3027-3030	his	person[200]	giv[200]	ana	23-5[0_200]
+23-3	3027-3030	his	person[304]	giv[304]	ana	23-5[305_304]
 23-4	3031-3035	life	_	_	_	_
-23-5	3036-3038	he	person	giv	ana	23-15
+23-5	3036-3038	he	person[305]	giv[305]	ana	23-15[310_305]
 23-6	3039-3048	published	_	_	_	_
 23-7	3049-3057	Analytic	_	_	_	_
 23-8	3058-3064	Syntax	_	_	_	_
@@ -624,9 +624,9 @@
 23-12	3074-3075	,	_	_	_	_
 23-13	3076-3078	in	_	_	_	_
 23-14	3079-3084	which	_	_	_	_
-23-15	3085-3087	he	person	giv	ana	23-17[206_0]
+23-15	3085-3087	he	person[310]	giv[310]	ana	23-17[314_310]
 23-16	3088-3096	presents	_	_	_	_
-23-17	3097-3100	his	person[206]	giv[206]	ana	24-9[0_206]
+23-17	3097-3100	his	person[314]	giv[314]	ana	24-9[323_314]
 23-18	3101-3106	views	_	_	_	_
 23-19	3107-3109	on	_	_	_	_
 23-20	3110-3119	syntactic	_	_	_	_
@@ -640,14 +640,14 @@
 
 #Text=In The Philosophy of Grammar ( 1924 ) he challenged the accepted views of common concepts in Grammar and proposed corrections to the basic definitions of grammatical case , pronoun , object , voice etc. , and developed further his notions of Rank and Nexus .
 24-1	3174-3176	In	_	_	_	_
-24-2	3177-3180	The	abstract[210]	new[210]	coref	25-5[229_210]
-24-3	3181-3191	Philosophy	abstract[210]	new[210]	_	_
-24-4	3192-3194	of	abstract[210]	new[210]	_	_
-24-5	3195-3202	Grammar	abstract[210]|abstract[211]	new[210]|new[211]	coref	24-18[216_211]
+24-2	3177-3180	The	abstract[320]	acc[320]	coref	25-5[348_320]
+24-3	3181-3191	Philosophy	abstract[320]	acc[320]	_	_
+24-4	3192-3194	of	abstract[320]	acc[320]	_	_
+24-5	3195-3202	Grammar	abstract[320]|abstract[321]	acc[320]|new[321]	coref	24-18[329_321]
 24-6	3203-3204	(	_	_	_	_
 24-7	3205-3209	1924	_	_	_	_
 24-8	3210-3211	)	_	_	_	_
-24-9	3212-3214	he	person	giv	ana	24-40[224_0]
+24-9	3212-3214	he	person[323]	giv[323]	ana	24-40[341_323]
 24-10	3215-3225	challenged	_	_	_	_
 24-11	3226-3229	the	_	_	_	_
 24-12	3230-3238	accepted	_	_	_	_
@@ -656,7 +656,7 @@
 24-15	3248-3254	common	_	_	_	_
 24-16	3255-3263	concepts	_	_	_	_
 24-17	3264-3266	in	_	_	_	_
-24-18	3267-3274	Grammar	abstract[216]	giv[216]	_	_
+24-18	3267-3274	Grammar	abstract[329]	giv[329]	_	_
 24-19	3275-3278	and	_	_	_	_
 24-20	3279-3287	proposed	_	_	_	_
 24-21	3288-3299	corrections	_	_	_	_
@@ -678,7 +678,7 @@
 24-37	3379-3382	and	_	_	_	_
 24-38	3383-3392	developed	_	_	_	_
 24-39	3393-3400	further	_	_	_	_
-24-40	3401-3404	his	person[224]	giv[224]	coref	27-1[0_224]
+24-40	3401-3404	his	person[341]	giv[341]	coref	27-1[365_341]
 24-41	3405-3412	notions	_	_	_	_
 24-42	3413-3415	of	_	_	_	_
 24-43	3416-3420	Rank	_	_	_	_
@@ -691,8 +691,8 @@
 25-2	3436-3439	the	_	_	_	_
 25-3	3440-3444	21st	_	_	_	_
 25-4	3445-3452	century	_	_	_	_
-25-5	3453-3457	this	abstract[229]	new[229]	_	_
-25-6	3458-3462	book	abstract[229]	new[229]	_	_
+25-5	3453-3457	this	abstract[348]	giv[348]	_	_
+25-6	3458-3462	book	abstract[348]	giv[348]	_	_
 25-7	3463-3465	is	_	_	_	_
 25-8	3466-3471	still	_	_	_	_
 25-9	3472-3476	used	_	_	_	_
@@ -735,16 +735,16 @@
 26-24	3664-3665	.	_	_	_	_
 
 #Text=Jespersen visited the United States twice :
-27-1	3666-3675	Jespersen	person	giv	ana	28-1
+27-1	3666-3675	Jespersen	person[365]	giv[365]	ana	28-1[369_365]
 27-2	3676-3683	visited	_	_	_	_
-27-3	3684-3687	the	place[241]	acc[241]	coref	29-3[254_241]
-27-4	3688-3694	United	place[241]	acc[241]	_	_
-27-5	3695-3701	States	place[241]	acc[241]	_	_
+27-3	3684-3687	the	place[368]	acc[368]	coref	29-3[389_368]
+27-4	3688-3694	United	place[368]	acc[368]	_	_
+27-5	3695-3701	States	place[368]	acc[368]	_	_
 27-6	3702-3707	twice	_	_	_	_
 27-7	3708-3709	:	_	_	_	_
 
 #Text=he lectured at the Congress of Arts and Sciences in St. Louis in 1904 , and in 1909 – 1910 he visited both the University of California and Columbia University .
-28-1	3710-3712	he	person	giv	ana	28-21
+28-1	3710-3712	he	person[369]	giv[369]	ana	28-21[380_369]
 28-2	3713-3721	lectured	_	_	_	_
 28-3	3722-3724	at	_	_	_	_
 28-4	3725-3728	the	_	_	_	_
@@ -764,7 +764,7 @@
 28-18	3789-3793	1909	_	_	_	_
 28-19	3794-3795	–	_	_	_	_
 28-20	3796-3800	1910	_	_	_	_
-28-21	3801-3803	he	person	giv	ana	29-6
+28-21	3801-3803	he	person[380]	giv[380]	ana	29-6[390_380]
 28-22	3804-3811	visited	_	_	_	_
 28-23	3812-3816	both	_	_	_	_
 28-24	3817-3820	the	_	_	_	_
@@ -772,17 +772,17 @@
 28-26	3832-3834	of	_	_	_	_
 28-27	3835-3845	California	_	_	_	_
 28-28	3846-3849	and	_	_	_	_
-28-29	3850-3858	Columbia	organization[253]	new[253]	coref	39-6[315_253]
-28-30	3859-3869	University	organization[253]	new[253]	_	_
+28-29	3850-3858	Columbia	organization[388]	new[388]	coref	39-6[479_388]
+28-30	3859-3869	University	organization[388]	new[388]	_	_
 28-31	3870-3871	.	_	_	_	_
 
 #Text=While in the U.S. , he took occasion to study the country 's educational system .
 29-1	3872-3877	While	_	_	_	_
 29-2	3878-3880	in	_	_	_	_
-29-3	3881-3884	the	place[254]	giv[254]	_	_
-29-4	3885-3889	U.S.	place[254]	giv[254]	_	_
+29-3	3881-3884	the	place[389]	giv[389]	coref	40-21[499_389]
+29-4	3885-3889	U.S.	place[389]	giv[389]	_	_
 29-5	3890-3891	,	_	_	_	_
-29-6	3892-3894	he	person	giv	ana	30-1[259_0]
+29-6	3892-3894	he	person[390]	giv[390]	ana	30-1[395_390]
 29-7	3895-3899	took	_	_	_	_
 29-8	3900-3908	occasion	_	_	_	_
 29-9	3909-3911	to	_	_	_	_
@@ -795,7 +795,7 @@
 29-16	3952-3953	.	_	_	_	_
 
 #Text=His autobiography ( see below ) was published in English translation as recently as 1995 .
-30-1	3954-3957	His	person[259]	giv[259]	coref	31-1[0_259]
+30-1	3954-3957	His	person[395]	giv[395]	coref	31-1[399_395]
 30-2	3958-3971	autobiography	_	_	_	_
 30-3	3972-3973	(	_	_	_	_
 30-4	3974-3977	see	_	_	_	_
@@ -813,7 +813,7 @@
 30-16	4043-4044	.	_	_	_	_
 
 #Text=Jespersen was a proponent of phonosemanticism and wrote :
-31-1	4045-4054	Jespersen	person	giv	ana	34-2[284_0]
+31-1	4045-4054	Jespersen	person[399]	giv[399]	ana	34-2[431_399]
 31-2	4055-4058	was	_	_	_	_
 31-3	4059-4060	a	_	_	_	_
 31-4	4061-4070	proponent	_	_	_	_
@@ -859,7 +859,7 @@
 32-33	4274-4277	and	_	_	_	_
 32-34	4278-4282	sees	_	_	_	_
 32-35	4283-4285	in	_	_	_	_
-32-36	4286-4289	our	person[273]	acc[273]	ana	33-10[0_273]
+32-36	4286-4289	our	person[415]	acc[415]	ana	33-10[425_415]
 32-37	4290-4295	words	_	_	_	_
 32-38	4296-4300	only	_	_	_	_
 32-39	4301-4302	a	_	_	_	_
@@ -886,7 +886,7 @@
 33-7	4414-4417	are	_	_	_	_
 33-8	4418-4423	words	_	_	_	_
 33-9	4424-4429	which	_	_	_	_
-33-10	4430-4432	we	person	giv	_	_
+33-10	4430-4432	we	person[425]	giv[425]	_	_
 33-11	4433-4437	feel	_	_	_	_
 33-12	4438-4451	instinctively	_	_	_	_
 33-13	4452-4454	to	_	_	_	_
@@ -904,12 +904,12 @@
 
 #Text=After his retirement in 1925 , Jespersen remained active in the international linguistic community .
 34-1	4507-4512	After	_	_	_	_
-34-2	4513-4516	his	person[284]	giv[284]	coref	34-7[0_284]
+34-2	4513-4516	his	person[431]	giv[431]	coref	34-7[433_431]
 34-3	4517-4527	retirement	_	_	_	_
 34-4	4528-4530	in	_	_	_	_
 34-5	4531-4535	1925	_	_	_	_
 34-6	4536-4537	,	_	_	_	_
-34-7	4538-4547	Jespersen	person	giv	ana	35-8
+34-7	4538-4547	Jespersen	person[433]	giv[433]	ana	35-8[438_433]
 34-8	4548-4556	remained	_	_	_	_
 34-9	4557-4563	active	_	_	_	_
 34-10	4564-4566	in	_	_	_	_
@@ -927,7 +927,7 @@
 35-5	4634-4636	to	_	_	_	_
 35-6	4637-4642	write	_	_	_	_
 35-7	4643-4644	,	_	_	_	_
-35-8	4645-4647	he	person	giv	_	_
+35-8	4645-4647	he	person[438]	giv[438]	_	_
 35-9	4648-4656	convened	_	_	_	_
 35-10	4657-4660	and	_	_	_	_
 35-11	4661-4668	chaired	_	_	_	_
@@ -946,22 +946,22 @@
 35-24	4744-4747	and	_	_	_	_
 35-25	4748-4753	acted	_	_	_	_
 35-26	4754-4756	as	_	_	_	_
-35-27	4757-4766	president	person[293]	giv[293]	ana	36-1[0_293]
-35-28	4767-4769	of	person[293]	giv[293]	_	_
-35-29	4770-4773	the	person[293]	giv[293]	_	_
-35-30	4774-4780	Fourth	person[293]	giv[293]	_	_
-35-31	4781-4794	International	person[293]	giv[293]	_	_
-35-32	4795-4803	Congress	person[293]	giv[293]	_	_
-35-33	4804-4806	of	person[293]	giv[293]	_	_
-35-34	4807-4816	Linguists	person[293]	giv[293]	_	_
-35-35	4817-4819	in	person[293]	giv[293]	_	_
-35-36	4820-4830	Copenhagen	person[293]|place[296]	giv[293]|giv[296]	_	_
+35-27	4757-4766	president	person[446]	giv[446]	coref	36-1[451_446]
+35-28	4767-4769	of	person[446]	giv[446]	_	_
+35-29	4770-4773	the	person[446]	giv[446]	_	_
+35-30	4774-4780	Fourth	person[446]	giv[446]	_	_
+35-31	4781-4794	International	person[446]	giv[446]	_	_
+35-32	4795-4803	Congress	person[446]	giv[446]	_	_
+35-33	4804-4806	of	person[446]	giv[446]	_	_
+35-34	4807-4816	Linguists	person[446]	giv[446]	_	_
+35-35	4817-4819	in	person[446]	giv[446]	_	_
+35-36	4820-4830	Copenhagen	person[446]|place[449]	giv[446]|giv[449]	_	_
 35-37	4831-4833	in	_	_	_	_
 35-38	4834-4838	1936	_	_	_	_
 35-39	4839-4840	.	_	_	_	_
 
 #Text=Jespersen was an important figure in the international language movement .
-36-1	4841-4850	Jespersen	person	giv	ana	37-1
+36-1	4841-4850	Jespersen	person[451]	giv[451]	ana	37-1[459_451]
 36-2	4851-4854	was	_	_	_	_
 36-3	4855-4857	an	_	_	_	_
 36-4	4858-4867	important	_	_	_	_
@@ -974,28 +974,28 @@
 36-11	4914-4915	.	_	_	_	_
 
 #Text=He was an early supporter of the Esperanto offshoot Ido and in 1927 published his own project Novial .
-37-1	4916-4918	He	person	giv	ana	38-1
+37-1	4916-4918	He	person[459]	giv[459]	ana	38-1[471_459]
 37-2	4919-4922	was	_	_	_	_
 37-3	4923-4925	an	_	_	_	_
 37-4	4926-4931	early	_	_	_	_
 37-5	4932-4941	supporter	_	_	_	_
 37-6	4942-4944	of	_	_	_	_
-37-7	4945-4948	the	abstract[304]	new[304]	appos	37-10[306_304]
-37-8	4949-4958	Esperanto	abstract[304]	new[304]	_	_
-37-9	4959-4967	offshoot	abstract[304]	new[304]	_	_
-37-10	4968-4971	Ido	abstract[306]	giv[306]	_	_
+37-7	4945-4948	the	abstract[462]	new[462]	appos	37-10[464_462]
+37-8	4949-4958	Esperanto	abstract[462]	new[462]	_	_
+37-9	4959-4967	offshoot	abstract[462]	new[462]	_	_
+37-10	4968-4971	Ido	abstract[464]	giv[464]	_	_
 37-11	4972-4975	and	_	_	_	_
 37-12	4976-4978	in	_	_	_	_
 37-13	4979-4983	1927	_	_	_	_
 37-14	4984-4993	published	_	_	_	_
-37-15	4994-4997	his	abstract[308]	new[308]	appos	37-18[0_308]
-37-16	4998-5001	own	abstract[308]	new[308]	_	_
-37-17	5002-5009	project	abstract[308]	new[308]	_	_
-37-18	5010-5016	Novial	abstract	giv	_	_
+37-15	4994-4997	his	abstract[469]	new[469]	appos	37-18[470_469]
+37-16	4998-5001	own	abstract[469]	new[469]	_	_
+37-17	5002-5009	project	abstract[469]	new[469]	_	_
+37-18	5010-5016	Novial	abstract[470]	giv[470]	_	_
 37-19	5017-5018	.	_	_	_	_
 
 #Text=He also worked with the International Auxiliary Language Association .
-38-1	5019-5021	He	person	giv	coref	39-1
+38-1	5019-5021	He	person[471]	giv[471]	coref	39-1[476_471]
 38-2	5022-5026	also	_	_	_	_
 38-3	5027-5033	worked	_	_	_	_
 38-4	5034-5038	with	_	_	_	_
@@ -1007,25 +1007,25 @@
 38-10	5088-5089	.	_	_	_	_
 
 #Text=Jespersen received honorary degrees from Columbia University in New York ( 1910 ) , St. Andrews University in Scotland ( 1925 ) , and the Sorbonne in Paris ( 1927 ) .
-39-1	5090-5099	Jespersen	person	giv	ana	40-1
+39-1	5090-5099	Jespersen	person[476]	giv[476]	ana	40-1[491_476]
 39-2	5100-5108	received	_	_	_	_
 39-3	5109-5117	honorary	_	_	_	_
 39-4	5118-5125	degrees	_	_	_	_
 39-5	5126-5130	from	_	_	_	_
-39-6	5131-5139	Columbia	organization[315]	giv[315]	coref	39-15[318_315]
-39-7	5140-5150	University	organization[315]	giv[315]	_	_
-39-8	5151-5153	in	organization[315]	giv[315]	_	_
-39-9	5154-5157	New	organization[315]	giv[315]	_	_
-39-10	5158-5162	York	organization[315]	giv[315]	_	_
+39-6	5131-5139	Columbia	organization[479]	giv[479]	coref	39-15[483_479]
+39-7	5140-5150	University	organization[479]	giv[479]	_	_
+39-8	5151-5153	in	organization[479]	giv[479]	_	_
+39-9	5154-5157	New	organization[479]	giv[479]	_	_
+39-10	5158-5162	York	organization[479]	giv[479]	_	_
 39-11	5163-5164	(	_	_	_	_
 39-12	5165-5169	1910	_	_	_	_
 39-13	5170-5171	)	_	_	_	_
 39-14	5172-5173	,	_	_	_	_
-39-15	5174-5177	St.	organization[318]	giv[318]	_	_
-39-16	5178-5185	Andrews	organization[318]	giv[318]	_	_
-39-17	5186-5196	University	organization[318]	giv[318]	_	_
-39-18	5197-5199	in	organization[318]	giv[318]	_	_
-39-19	5200-5208	Scotland	organization[318]	giv[318]	_	_
+39-15	5174-5177	St.	organization[483]	giv[483]	_	_
+39-16	5178-5185	Andrews	organization[483]	giv[483]	_	_
+39-17	5186-5196	University	organization[483]	giv[483]	_	_
+39-18	5197-5199	in	organization[483]	giv[483]	_	_
+39-19	5200-5208	Scotland	organization[483]	giv[483]	_	_
 39-20	5209-5210	(	_	_	_	_
 39-21	5211-5215	1925	_	_	_	_
 39-22	5216-5217	)	_	_	_	_
@@ -1041,7 +1041,7 @@
 39-32	5255-5256	.	_	_	_	_
 
 #Text=He was one of the first six international scholars to be elected as honorary members of the Linguistic Society of America .
-40-1	5257-5259	He	person	giv	_	_
+40-1	5257-5259	He	person[491]	giv[491]	_	_
 40-2	5260-5263	was	_	_	_	_
 40-3	5264-5267	one	_	_	_	_
 40-4	5268-5270	of	_	_	_	_
@@ -1061,6 +1061,6 @@
 40-18	5349-5359	Linguistic	_	_	_	_
 40-19	5360-5367	Society	_	_	_	_
 40-20	5368-5370	of	_	_	_	_
-40-21	5371-5378	America	_	_	_	_
+40-21	5371-5378	America	place[499]	giv[499]	_	_
 40-22	5379-5380	.	_	_	_	_
 

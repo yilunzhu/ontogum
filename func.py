@@ -90,10 +90,43 @@ class Convert(object):
                 # max_span_id = max
                 # min_acl_id = min([int(x.split('-')[-1]) for x in self.doc[new_k].acl_children])
 
+    def _verb_contract(self):
+        """
+        Contract the verbal markables to the verbs
+
+        example:
+            [I want to go to Rome.] [This] angered Kim.  -> ON: [want]
+            I want [to go to Rome]. Kim wants to do [that] too. -> ON: [go]
+        """
+        loop_doc = deepcopy(self.doc)
+        for k, _coref in loop_doc.items():
+            if k in self.doc.keys() and _coref.verb_head and _coref.next in self.doc.keys() and _coref.next != '':
+                if self.doc[_coref.next].head_pos in ['PRP', 'PRP$', 'DT', 'WDT']:
+                    print(1)
+
+                    # redirect the current markable
+                    # create a new id to shorten the markable span
+                    new_id = str(self.last_e + 1)
+                    self.doc[new_id] = deepcopy(_coref)
+                    self.doc[new_id].span_len = 1
+                    self.doc[new_id].text_id = _coref.head_id
+                    self.doc[new_id].tok = ''
+                    if _coref.verb_head not in self.new_id2entity.keys():
+                        self.new_id2entity[_coref.verb_head] = []
+                    self.new_id2entity[_coref.verb_head].append(new_id)
+
+                    # modify the antecedent
+                    for prev_k, prev_v in loop_doc.items():
+                        if prev_k in self.doc.keys() and prev_v.next == k:
+                            self.doc[prev_k].next = new_id
+
+                    # delete the original markable
+                    self.doc[k].delete = True
+
     def _remove_compound(self):
         """
         if the func is 'compound' and (1) not NNP/NNPS, (2) has coref, remove the current coref relation
-            if the current coref relation has previous and next coref, connect the two
+            # if the current coref relation has previous and next coref, connect the two
 
         example: Allergan Inc. said it received approval to sell the PhacoFlex
                 intraocular lens, the first foldable silicone lens available
@@ -116,9 +149,9 @@ class Convert(object):
                         prev_k = prev
                         break
                 if prev_k and _coref.next:
-                    self.doc[prev_k].next = _coref.next
-                    self.doc[prev_k].coref = _coref.coref
-                    self.doc[prev_k].coref_type = _coref.coref_type
+                    self.doc[prev_k].next = ''
+                    self.doc[prev_k].coref = ''
+                    self.doc[prev_k].coref_type = ''
 
                 self.doc[k] = Coref()
                 self.doc[k].delete = True
@@ -252,7 +285,7 @@ class Convert(object):
         for k1, v in loop_doc.items():
             k1_sent_id = v.text_id.split('-')[0]
             for k2, next_v in loop_doc.items():
-                if k1 == '172' and k2 == '349':
+                if k1 == '100' and k2 == '0_31-10':
                     a = 1
                 k2_sent_id = next_v.text_id.split('-')[0]
                 if k1_sent_id == k2_sent_id and v.next == k2 and (v.coref_type == 'appos' or next_v.dep_appos):
@@ -415,7 +448,7 @@ class Convert(object):
             45-7	2073-2074	"	_	_	_	_
         """
         for k1, v1 in self.doc.items():
-            if k1 == '145':
+            if k1 == '339':
                 a = 1
 
             # If the cataphora does not have an antecedent
@@ -542,7 +575,8 @@ class Convert(object):
         self._remove_junk()
         self.new_id2entity = new_id2entity
         self.last_e = sorted([int(x) for x in self.doc.keys() if not x.startswith('0_')], reverse=True)[0] + 30
-        self._expand_acl()
+        # self._expand_acl()
+        # self._verb_contract()
         self._appos_merge()
         self._change_cata()
         self._remove_compound()

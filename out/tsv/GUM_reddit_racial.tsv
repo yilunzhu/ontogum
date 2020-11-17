@@ -12,42 +12,42 @@
 1-6	26-29	the	_	_	_	_
 1-7	30-40	importance	_	_	_	_
 1-8	41-43	of	_	_	_	_
-1-9	44-50	racial	abstract[3]	new[3]	coref	5-5[19_3]
+1-9	44-50	racial	abstract[3]	new[3]	coref	5-5[36_3]
 1-10	51-57	issues	abstract[3]	new[3]	_	_
 1-11	58-62	seen	abstract[3]	new[3]	_	_
 1-12	63-65	in	abstract[3]	new[3]	_	_
-1-13	66-73	America	place|abstract[3]	acc|new[3]	coref	11-34[61_0]
+1-13	66-73	America	place[4]|abstract[3]	acc[4]|new[3]	coref	11-34[111_4]
 1-14	74-75	?	_	_	_	_
 
 #Text=Hey , guys !
 2-1	76-79	Hey	_	_	_	_
 2-2	80-81	,	_	_	_	_
-2-3	82-86	guys	person	giv	coref	3-19[7_0]
+2-3	82-86	guys	person[5]	giv[5]	ana	3-19[15_5]
 2-4	87-88	!	_	_	_	_
 
 #Text=As an American , we obviously learn about US history to a much greater extent than I imagine any of you guys would in school .
 3-1	89-91	As	_	_	_	_
-3-2	92-94	an	_	_	_	_
-3-3	95-103	American	_	_	_	_
+3-2	92-94	an	person[8]	acc[8]	ana	3-17[13_8]
+3-3	95-103	American	person[8]	acc[8]	_	_
 3-4	104-105	,	_	_	_	_
-3-5	106-108	we	person	acc	ana	4-4[9_0]
+3-5	106-108	we	person[9]	acc[9]	ana	4-4[19_9]
 3-6	109-118	obviously	_	_	_	_
 3-7	119-124	learn	_	_	_	_
 3-8	125-130	about	_	_	_	_
-3-9	131-133	US	abstract[5]	new[5]	coref	4-4[8_5]
-3-10	134-141	history	abstract[5]	new[5]	_	_
+3-9	131-133	US	abstract[11]	new[11]	coref	4-4[18_11]
+3-10	134-141	history	abstract[11]	new[11]	_	_
 3-11	142-144	to	_	_	_	_
 3-12	145-146	a	_	_	_	_
 3-13	147-151	much	_	_	_	_
 3-14	152-159	greater	_	_	_	_
 3-15	160-166	extent	_	_	_	_
 3-16	167-171	than	_	_	_	_
-3-17	172-173	I	person	giv	ana	6-3[26_0]
+3-17	172-173	I	person[13]	giv[13]	ana	6-3[47_13]
 3-18	174-181	imagine	_	_	_	_
-3-19	182-185	any	person[7]	giv[7]	ana	10-10[0_7]
-3-20	186-188	of	person[7]	giv[7]	_	_
-3-21	189-192	you	person[7]	giv[7]	_	_
-3-22	193-197	guys	person[7]	giv[7]	_	_
+3-19	182-185	any	person[15]	giv[15]	ana	10-10[88_15]
+3-20	186-188	of	person[15]	giv[15]	_	_
+3-21	189-192	you	person[15]	giv[15]	_	_
+3-22	193-197	guys	person[15]	giv[15]	_	_
 3-23	198-203	would	_	_	_	_
 3-24	204-206	in	_	_	_	_
 3-25	207-213	school	_	_	_	_
@@ -57,10 +57,10 @@
 4-1	216-221	Along	_	_	_	_
 4-2	222-226	with	_	_	_	_
 4-3	227-234	knowing	_	_	_	_
-4-4	235-238	our	abstract[8]|person[9]	giv[8]|giv[9]	ana	4-7[0_9]
-4-5	239-246	history	abstract[8]	giv[8]	_	_
+4-4	235-238	our	abstract[18]|person[19]	giv[18]|giv[19]	ana	4-7[20_19]
+4-5	239-246	history	abstract[18]	giv[18]	_	_
 4-6	247-248	,	_	_	_	_
-4-7	249-251	we	person	giv	ana	4-23[14_0]
+4-7	249-251	we	person[20]	giv[20]	ana	4-23[27_20]
 4-8	252-256	also	_	_	_	_
 4-9	257-261	have	_	_	_	_
 4-10	262-267	grown	_	_	_	_
@@ -76,7 +76,7 @@
 4-20	315-318	250	_	_	_	_
 4-21	319-324	years	_	_	_	_
 4-22	325-327	of	_	_	_	_
-4-23	328-331	our	person[14]	giv[14]	ana	4-34[17_14]
+4-23	328-331	our	person[27]	giv[27]	ana	4-34[31_27]
 4-24	332-339	country	_	_	_	_
 4-25	340-342	’s	_	_	_	_
 4-26	343-352	existence	_	_	_	_
@@ -87,47 +87,47 @@
 4-31	371-375	many	_	_	_	_
 4-32	376-381	years	_	_	_	_
 4-33	382-388	before	_	_	_	_
-4-34	389-392	our	person[17]	giv[17]	ana	5-3[0_17]
+4-34	389-392	our	person[31]	giv[31]	ana	5-3[32_31]
 4-35	393-403	revolution	_	_	_	_
 4-36	404-405	.	_	_	_	_
 
 #Text=Naturally , we see the racial issues and tensions occurring today as a very logical conclusion , personal to each individual , and as intense in the realm of politics .
 5-1	406-415	Naturally	_	_	_	_
 5-2	416-417	,	_	_	_	_
-5-3	418-420	we	person	giv	ana	7-10[29_0]
+5-3	418-420	we	person[32]	giv[32]	ana	7-10[51_32]
 5-4	421-424	see	_	_	_	_
-5-5	425-428	the	abstract[19]	giv[19]	coref	14-21[80_19]
-5-6	429-435	racial	abstract[19]	giv[19]	_	_
-5-7	436-442	issues	abstract[19]	giv[19]	_	_
-5-8	443-446	and	_	_	_	_
-5-9	447-455	tensions	_	_	_	_
-5-10	456-465	occurring	abstract[19]	new[19]	_	_
-5-11	466-471	today	abstract[19]	new[19]	_	_
-5-12	472-474	as	abstract[19]	new[19]	_	_
-5-13	475-476	a	abstract[19]	new[19]	_	_
-5-14	477-481	very	abstract[19]	new[19]	_	_
-5-15	482-489	logical	abstract[19]	new[19]	_	_
-5-16	490-500	conclusion	abstract[19]	new[19]	_	_
-5-17	501-502	,	abstract[19]	new[19]	_	_
-5-18	503-511	personal	abstract[19]	new[19]	_	_
-5-19	512-514	to	abstract[19]	new[19]	_	_
-5-20	515-519	each	abstract[19]	new[19]	_	_
-5-21	520-530	individual	abstract[19]	new[19]	_	_
-5-22	531-532	,	abstract[19]	new[19]	_	_
-5-23	533-536	and	abstract[19]	new[19]	_	_
-5-24	537-539	as	abstract[19]	new[19]	_	_
-5-25	540-547	intense	abstract[19]	new[19]	_	_
-5-26	548-550	in	abstract[19]	new[19]	_	_
-5-27	551-554	the	abstract[19]	new[19]	_	_
-5-28	555-560	realm	abstract[19]	new[19]	_	_
-5-29	561-563	of	abstract[19]	new[19]	_	_
-5-30	564-572	politics	abstract[19]	new[19]	_	_
+5-5	425-428	the	abstract[36]	giv[36]	coref	14-21[143_36]
+5-6	429-435	racial	abstract[36]	giv[36]	_	_
+5-7	436-442	issues	abstract[36]	giv[36]	_	_
+5-8	443-446	and	abstract[36]	new[36]	_	_
+5-9	447-455	tensions	abstract[36]	new[36]	_	_
+5-10	456-465	occurring	abstract[36]	new[36]	_	_
+5-11	466-471	today	abstract[36]	new[36]	_	_
+5-12	472-474	as	abstract[36]	new[36]	_	_
+5-13	475-476	a	abstract[36]	new[36]	_	_
+5-14	477-481	very	abstract[36]	new[36]	_	_
+5-15	482-489	logical	abstract[36]	new[36]	_	_
+5-16	490-500	conclusion	abstract[36]	new[36]	_	_
+5-17	501-502	,	abstract[36]	new[36]	_	_
+5-18	503-511	personal	abstract[36]	new[36]	_	_
+5-19	512-514	to	abstract[36]	new[36]	_	_
+5-20	515-519	each	abstract[36]	new[36]	_	_
+5-21	520-530	individual	abstract[36]	new[36]	_	_
+5-22	531-532	,	abstract[36]	new[36]	_	_
+5-23	533-536	and	abstract[36]	new[36]	_	_
+5-24	537-539	as	abstract[36]	new[36]	_	_
+5-25	540-547	intense	abstract[36]	new[36]	_	_
+5-26	548-550	in	abstract[36]	new[36]	_	_
+5-27	551-554	the	abstract[36]	new[36]	_	_
+5-28	555-560	realm	abstract[36]	new[36]	_	_
+5-29	561-563	of	abstract[36]	new[36]	_	_
+5-30	564-572	politics	abstract[36]	new[36]	_	_
 5-31	573-574	.	_	_	_	_
 
 #Text=So , my questions are :
 6-1	575-577	So	_	_	_	_
 6-2	578-579	,	_	_	_	_
-6-3	580-582	my	person[26]	giv[26]	ana	20-20[108_26]
+6-3	580-582	my	person[47]	giv[47]	ana	20-20[201_47]
 6-4	583-592	questions	_	_	_	_
 6-5	593-596	are	_	_	_	_
 6-6	597-598	:	_	_	_	_
@@ -142,20 +142,20 @@
 7-7	639-643	feel	_	_	_	_
 7-8	644-645	/	_	_	_	_
 7-9	646-655	interpret	_	_	_	_
-7-10	656-659	our	abstract[28]|person[29]	new[28]|giv[29]	ana|ana	22-2[0_28]|9-12[38_29]
-7-11	660-669	seemingly	abstract[28]	new[28]	_	_
-7-12	670-671	,	abstract[28]	new[28]	_	_
-7-13	672-676	from	abstract[28]	new[28]	_	_
-7-14	677-679	an	abstract[28]	new[28]	_	_
-7-15	680-688	outsider	abstract[28]	new[28]	_	_
-7-16	689-691	’s	abstract[28]	new[28]	_	_
-7-17	692-697	point	abstract[28]	new[28]	_	_
-7-18	698-700	of	abstract[28]	new[28]	_	_
-7-19	701-705	view	abstract[28]	new[28]	_	_
-7-20	706-707	,	abstract[28]	new[28]	_	_
-7-21	708-717	obsession	abstract[28]	new[28]	_	_
-7-22	718-722	with	abstract[28]	new[28]	_	_
-7-23	723-727	race	abstract[28]	new[28]	_	_
+7-10	656-659	our	abstract[50]|person[51]	new[50]|giv[51]	ana|ana	22-2[204_50]|9-12[65_51]
+7-11	660-669	seemingly	abstract[50]	new[50]	_	_
+7-12	670-671	,	abstract[50]	new[50]	_	_
+7-13	672-676	from	abstract[50]	new[50]	_	_
+7-14	677-679	an	abstract[50]	new[50]	_	_
+7-15	680-688	outsider	abstract[50]	new[50]	_	_
+7-16	689-691	’s	abstract[50]	new[50]	_	_
+7-17	692-697	point	abstract[50]	new[50]	_	_
+7-18	698-700	of	abstract[50]	new[50]	_	_
+7-19	701-705	view	abstract[50]	new[50]	_	_
+7-20	706-707	,	abstract[50]	new[50]	_	_
+7-21	708-717	obsession	abstract[50]	new[50]	_	_
+7-22	718-722	with	abstract[50]	new[50]	_	_
+7-23	723-727	race	abstract[50]	new[50]	_	_
 7-24	728-729	?	_	_	_	_
 
 #Text=Do many people not understand why ?
@@ -179,7 +179,7 @@
 9-9	807-811	know	_	_	_	_
 9-10	812-820	anything	_	_	_	_
 9-11	821-826	about	_	_	_	_
-9-12	827-830	our	person[38]	giv[38]	ana	9-22[40_38]
+9-12	827-830	our	person[65]	giv[65]	ana	9-22[68_65]
 9-13	831-835	very	_	_	_	_
 9-14	836-845	important	_	_	_	_
 9-15	846-854	domestic	_	_	_	_
@@ -189,7 +189,7 @@
 9-19	875-884	movements	_	_	_	_
 9-20	885-886	(	_	_	_	_
 9-21	887-891	e.g.	_	_	_	_
-9-22	892-895	our	person[40]	giv[40]	ana	10-13[55_40]
+9-22	892-895	our	person[68]	giv[68]	ana	10-13[91_68]
 9-23	896-900	kind	_	_	_	_
 9-24	901-903	of	_	_	_	_
 9-25	904-911	slavery	_	_	_	_
@@ -214,18 +214,18 @@
 9-44	995-998	the	_	_	_	_
 9-45	999-1002	KKK	_	_	_	_
 9-46	1003-1004	,	_	_	_	_
-9-47	1005-1008	Jim	person[47]	acc[47]	coref	13-26[73_47]
-9-48	1009-1013	Crow	person[47]	acc[47]	_	_
+9-47	1005-1008	Jim	person[77]	acc[77]	coref	13-26[132_77]
+9-48	1009-1013	Crow	person[77]	acc[77]	_	_
 9-49	1014-1015	+	_	_	_	_
 9-50	1016-1025	redlining	_	_	_	_
 9-51	1026-1027	,	_	_	_	_
-9-52	1028-1031	the	organization[48]	acc[48]	coref	18-1[98_48]
-9-53	1032-1037	Civil	organization[48]	acc[48]	_	_
-9-54	1038-1044	Rights	organization[48]	acc[48]	_	_
-9-55	1045-1053	Movement	organization[48]	acc[48]	_	_
-9-56	1054-1056	in	organization[48]	acc[48]	_	_
-9-57	1057-1060	the	organization[48]|time[49]	acc[48]|new[49]	coref	13-37[75_49]
-9-58	1061-1066	1960s	organization[48]|time[49]	acc[48]|new[49]	_	_
+9-52	1028-1031	the	organization[80]	acc[80]	coref	18-1[183_80]
+9-53	1032-1037	Civil	organization[80]	acc[80]	_	_
+9-54	1038-1044	Rights	organization[80]	acc[80]	_	_
+9-55	1045-1053	Movement	organization[80]	acc[80]	_	_
+9-56	1054-1056	in	organization[80]	acc[80]	_	_
+9-57	1057-1060	the	organization[80]|time[81]	acc[80]|new[81]	coref	13-37[134_81]
+9-58	1061-1066	1960s	organization[80]|time[81]	acc[80]|new[81]	_	_
 9-59	1067-1068	,	_	_	_	_
 9-60	1069-1072	and	_	_	_	_
 9-61	1073-1078	Black	_	_	_	_
@@ -251,15 +251,15 @@
 10-7	1160-1167	general	_	_	_	_
 10-8	1168-1176	thoughts	_	_	_	_
 10-9	1177-1181	when	_	_	_	_
-10-10	1182-1185	you	person	giv	_	_
+10-10	1182-1185	you	person[88]	giv[88]	_	_
 10-11	1186-1190	hear	_	_	_	_
 10-12	1191-1196	about	_	_	_	_
-10-13	1197-1200	our	abstract[54]|person[55]	new[54]|giv[55]	ana|ana	26-2[0_54]|29-1[0_55]
-10-14	1201-1208	outrage	abstract[54]	new[54]	_	_
-10-15	1209-1213	over	abstract[54]	new[54]	_	_
-10-16	1214-1215	a	abstract[54]	new[54]	_	_
-10-17	1216-1222	racial	abstract[54]	new[54]	_	_
-10-18	1223-1228	issue	abstract[54]	new[54]	_	_
+10-13	1197-1200	our	abstract[90]|person[91]	new[90]|giv[91]	ana|ana	26-2[225_90]|29-1[246_91]
+10-14	1201-1208	outrage	abstract[90]	new[90]	_	_
+10-15	1209-1213	over	abstract[90]	new[90]	_	_
+10-16	1214-1215	a	abstract[90]	new[90]	_	_
+10-17	1216-1222	racial	abstract[90]	new[90]	_	_
+10-18	1223-1228	issue	abstract[90]	new[90]	_	_
 10-19	1229-1234	today	_	_	_	_
 10-20	1235-1236	?	_	_	_	_
 
@@ -271,7 +271,7 @@
 11-5	1258-1263	quite	_	_	_	_
 11-6	1264-1272	obsessed	_	_	_	_
 11-7	1273-1277	with	_	_	_	_
-11-8	1278-1282	race	abstract	giv	ana	11-28
+11-8	1278-1282	race	abstract[97]	giv[97]	ana	11-28[104_97]
 11-9	1283-1284	,	_	_	_	_
 11-10	1285-1288	and	_	_	_	_
 11-11	1289-1294	while	_	_	_	_
@@ -286,29 +286,29 @@
 11-20	1342-1344	is	_	_	_	_
 11-21	1345-1354	repulsive	_	_	_	_
 11-22	1355-1357	to	_	_	_	_
-11-23	1358-1360	me	person	acc	ana	11-25
+11-23	1358-1360	me	person[102]	acc[102]	ana	11-25[103_102]
 11-24	1361-1362	,	_	_	_	_
-11-25	1363-1364	I	person	giv	ana	11-38
+11-25	1363-1364	I	person[103]	giv[103]	ana	11-38[112_103]
 11-26	1365-1375	understand	_	_	_	_
 11-27	1376-1379	why	_	_	_	_
-11-28	1380-1384	this	abstract	giv	coref	11-44[63_0]
+11-28	1380-1384	this	abstract[104]	giv[104]	coref	11-44[115_104]
 11-29	1385-1387	is	_	_	_	_
 11-30	1388-1389	a	_	_	_	_
 11-31	1390-1393	big	_	_	_	_
 11-32	1394-1398	deal	_	_	_	_
 11-33	1399-1401	in	_	_	_	_
-11-34	1402-1405	the	place[61]	giv[61]	coref	14-51[83_61]
-11-35	1406-1408	US	place[61]	giv[61]	_	_
+11-34	1402-1405	the	place[111]	giv[111]	coref	14-51[150_111]
+11-35	1406-1408	US	place[111]	giv[111]	_	_
 11-36	1409-1410	-	_	_	_	_
 11-37	1411-1414	and	_	_	_	_
-11-38	1415-1416	I	person	giv	ana	12-1
+11-38	1415-1416	I	person[112]	giv[112]	ana	12-1[116_112]
 11-39	1417-1427	understand	_	_	_	_
 11-40	1428-1431	why	_	_	_	_
 11-41	1432-1440	European	_	_	_	_
 11-42	1441-1446	views	_	_	_	_
 11-43	1447-1449	on	_	_	_	_
-11-44	1450-1453	the	abstract[63]	giv[63]	_	_
-11-45	1454-1459	issue	abstract[63]	giv[63]	_	_
+11-44	1450-1453	the	abstract[115]	giv[115]	_	_
+11-45	1454-1459	issue	abstract[115]	giv[115]	_	_
 11-46	1460-1463	are	_	_	_	_
 11-47	1464-1471	usually	_	_	_	_
 11-48	1472-1475	too	_	_	_	_
@@ -316,7 +316,7 @@
 11-50	1487-1488	.	_	_	_	_
 
 #Text=I 'm pretty sure that most people here only have a very vague idea of US history in this regard .
-12-1	1489-1490	I	person	giv	ana	13-16
+12-1	1489-1490	I	person[116]	giv[116]	ana	13-16[127_116]
 12-2	1491-1493	'm	_	_	_	_
 12-3	1494-1500	pretty	_	_	_	_
 12-4	1501-1505	sure	_	_	_	_
@@ -354,7 +354,7 @@
 13-13	1650-1651	)	_	_	_	_
 13-14	1652-1653	,	_	_	_	_
 13-15	1654-1657	but	_	_	_	_
-13-16	1658-1659	I	person	giv	ana	14-5
+13-16	1658-1659	I	person[127]	giv[127]	ana	14-5[137_127]
 13-17	1660-1662	'm	_	_	_	_
 13-18	1663-1668	quite	_	_	_	_
 13-19	1669-1673	sure	_	_	_	_
@@ -364,8 +364,8 @@
 13-23	1691-1693	no	_	_	_	_
 13-24	1694-1698	idea	_	_	_	_
 13-25	1699-1703	what	_	_	_	_
-13-26	1704-1707	Jim	person[73]	giv[73]	_	_
-13-27	1708-1712	Crow	person[73]	giv[73]	_	_
+13-26	1704-1707	Jim	person[132]	giv[132]	_	_
+13-27	1708-1712	Crow	person[132]	giv[132]	_	_
 13-28	1713-1717	laws	_	_	_	_
 13-29	1718-1721	are	_	_	_	_
 13-30	1722-1723	,	_	_	_	_
@@ -375,8 +375,8 @@
 13-34	1741-1752	segregation	_	_	_	_
 13-35	1753-1762	continued	_	_	_	_
 13-36	1763-1767	into	_	_	_	_
-13-37	1768-1771	the	time[75]	giv[75]	_	_
-13-38	1772-1777	1960s	time[75]	giv[75]	_	_
+13-37	1768-1771	the	time[134]	giv[134]	_	_
+13-38	1772-1777	1960s	time[134]	giv[134]	_	_
 13-39	1778-1779	,	_	_	_	_
 13-40	1780-1783	and	_	_	_	_
 13-41	1784-1788	most	_	_	_	_
@@ -390,7 +390,7 @@
 14-2	1821-1831	definitely	_	_	_	_
 14-3	1832-1837	looks	_	_	_	_
 14-4	1838-1840	to	_	_	_	_
-14-5	1841-1843	me	person	giv	ana	14-37
+14-5	1841-1843	me	person[137]	giv[137]	ana	14-37[146_137]
 14-6	1844-1848	like	_	_	_	_
 14-7	1849-1857	American	_	_	_	_
 14-8	1858-1865	society	_	_	_	_
@@ -406,8 +406,8 @@
 14-18	1901-1903	of	_	_	_	_
 14-19	1904-1910	moving	_	_	_	_
 14-20	1911-1915	past	_	_	_	_
-14-21	1916-1921	these	abstract[80]	giv[80]	_	_
-14-22	1922-1928	issues	abstract[80]	giv[80]	_	_
+14-21	1916-1921	these	abstract[143]	giv[143]	_	_
+14-22	1922-1928	issues	abstract[143]	giv[143]	_	_
 14-23	1929-1930	,	_	_	_	_
 14-24	1931-1934	and	_	_	_	_
 14-25	1935-1939	that	_	_	_	_
@@ -422,7 +422,7 @@
 14-34	1987-1992	level	_	_	_	_
 14-35	1993-1994	,	_	_	_	_
 14-36	1995-1998	but	_	_	_	_
-14-37	1999-2000	I	person	giv	ana	15-1
+14-37	1999-2000	I	person[146]	giv[146]	ana	15-1[152_146]
 14-38	2001-2003	am	_	_	_	_
 14-39	2004-2007	not	_	_	_	_
 14-40	2008-2010	as	_	_	_	_
@@ -436,8 +436,8 @@
 14-48	2055-2060	never	_	_	_	_
 14-49	2061-2066	lived	_	_	_	_
 14-50	2067-2069	in	_	_	_	_
-14-51	2070-2073	the	place[83]	giv[83]	coref	20-6[104_83]
-14-52	2074-2076	US	place[83]	giv[83]	_	_
+14-51	2070-2073	the	place[150]	giv[150]	coref	20-6[193_150]
+14-52	2074-2076	US	place[150]	giv[150]	_	_
 14-53	2077-2078	,	_	_	_	_
 14-54	2079-2082	let	_	_	_	_
 14-55	2083-2088	alone	_	_	_	_
@@ -448,20 +448,20 @@
 14-60	2110-2111	.	_	_	_	_
 
 #Text=I find it annoying when Americans try to apply US racial concepts to Europe , and thus make absurd statements , so it 's only fair for me to admit my limited understanding of the subject , even if I consider myself to know US history better than 90 % of Europeans .
-15-1	2112-2113	I	person	giv	ana	15-28
+15-1	2112-2113	I	person[152]	giv[152]	ana	15-28[164_152]
 15-2	2114-2118	find	_	_	_	_
 15-3	2119-2121	it	_	_	_	_
 15-4	2122-2130	annoying	_	_	_	_
 15-5	2131-2135	when	_	_	_	_
-15-6	2136-2145	Americans	_	_	_	_
-15-7	2146-2149	try	_	_	_	_
-15-8	2150-2152	to	_	_	_	_
-15-9	2153-2158	apply	_	_	_	_
-15-10	2159-2161	US	abstract[87]	new[87]	coref	15-35[93_87]
-15-11	2162-2168	racial	abstract[87]	new[87]	_	_
-15-12	2169-2177	concepts	abstract[87]	new[87]	_	_
-15-13	2178-2180	to	_	_	_	_
-15-14	2181-2187	Europe	_	_	_	_
+15-6	2136-2145	Americans	event[156]	new[156]	cata	15-3[153_156]
+15-7	2146-2149	try	event[156]	new[156]	_	_
+15-8	2150-2152	to	event[156]	new[156]	_	_
+15-9	2153-2158	apply	event[156]	new[156]	_	_
+15-10	2159-2161	US	event[156]|abstract[159]	new[156]|new[159]	coref	15-35[171_159]
+15-11	2162-2168	racial	event[156]|abstract[159]	new[156]|new[159]	_	_
+15-12	2169-2177	concepts	event[156]|abstract[159]	new[156]|new[159]	_	_
+15-13	2178-2180	to	event[156]	new[156]	_	_
+15-14	2181-2187	Europe	event[156]	new[156]	_	_
 15-15	2188-2189	,	_	_	_	_
 15-16	2190-2193	and	_	_	_	_
 15-17	2194-2198	thus	_	_	_	_
@@ -475,21 +475,21 @@
 15-25	2233-2237	only	_	_	_	_
 15-26	2238-2242	fair	_	_	_	_
 15-27	2243-2246	for	_	_	_	_
-15-28	2247-2249	me	person	giv	ana	15-31[92_0]
+15-28	2247-2249	me	person[164]	giv[164]	ana	15-31[169_164]
 15-29	2250-2252	to	_	_	_	_
 15-30	2253-2258	admit	_	_	_	_
-15-31	2259-2261	my	person[92]	giv[92]	ana	15-40[0_92]
+15-31	2259-2261	my	person[169]	giv[169]	ana	15-40[172_169]
 15-32	2262-2269	limited	_	_	_	_
 15-33	2270-2283	understanding	_	_	_	_
 15-34	2284-2286	of	_	_	_	_
-15-35	2287-2290	the	abstract[93]	giv[93]	_	_
-15-36	2291-2298	subject	abstract[93]	giv[93]	_	_
+15-35	2287-2290	the	abstract[171]	giv[171]	_	_
+15-36	2291-2298	subject	abstract[171]	giv[171]	_	_
 15-37	2299-2300	,	_	_	_	_
 15-38	2301-2305	even	_	_	_	_
 15-39	2306-2308	if	_	_	_	_
-15-40	2309-2310	I	person	giv	ana	15-42
+15-40	2309-2310	I	person[172]	giv[172]	ana	15-42[173_172]
 15-41	2311-2319	consider	_	_	_	_
-15-42	2320-2326	myself	person	giv	_	_
+15-42	2320-2326	myself	person[173]	giv[173]	_	_
 15-43	2327-2329	to	_	_	_	_
 15-44	2330-2334	know	_	_	_	_
 15-45	2335-2337	US	_	_	_	_
@@ -503,23 +503,23 @@
 15-53	2376-2377	.	_	_	_	_
 
 #Text=" s n't doing a good job of moving past these issues "
-16-1	2378-2379	"	abstract[97]	giv[97]	ana	17-2[0_97]
-16-2	2380-2381	s	abstract[97]	giv[97]	_	_
-16-3	2382-2385	n't	abstract[97]	giv[97]	_	_
-16-4	2386-2391	doing	abstract[97]	giv[97]	_	_
-16-5	2392-2393	a	abstract[97]	giv[97]	_	_
-16-6	2394-2398	good	abstract[97]	giv[97]	_	_
-16-7	2399-2402	job	abstract[97]	giv[97]	_	_
-16-8	2403-2405	of	abstract[97]	giv[97]	_	_
-16-9	2406-2412	moving	abstract[97]	giv[97]	_	_
-16-10	2413-2417	past	abstract[97]	giv[97]	_	_
-16-11	2418-2423	these	abstract[97]	giv[97]	_	_
-16-12	2424-2430	issues	abstract[97]	giv[97]	_	_
-16-13	2431-2432	"	abstract[97]	giv[97]	_	_
+16-1	2378-2379	"	abstract[180]	giv[180]	ana	17-2[181_180]
+16-2	2380-2381	s	abstract[180]	giv[180]	_	_
+16-3	2382-2385	n't	abstract[180]	giv[180]	_	_
+16-4	2386-2391	doing	abstract[180]	giv[180]	_	_
+16-5	2392-2393	a	abstract[180]	giv[180]	_	_
+16-6	2394-2398	good	abstract[180]	giv[180]	_	_
+16-7	2399-2402	job	abstract[180]	giv[180]	_	_
+16-8	2403-2405	of	abstract[180]	giv[180]	_	_
+16-9	2406-2412	moving	abstract[180]	giv[180]	_	_
+16-10	2413-2417	past	abstract[180]	giv[180]	_	_
+16-11	2418-2423	these	abstract[180]	giv[180]	_	_
+16-12	2424-2430	issues	abstract[180]	giv[180]	_	_
+16-13	2431-2432	"	abstract[180]	giv[180]	_	_
 
 #Text=Is that entirely true , though ?
 17-1	2433-2435	Is	_	_	_	_
-17-2	2436-2440	that	abstract	giv	_	_
+17-2	2436-2440	that	abstract[181]	giv[181]	_	_
 17-3	2441-2449	entirely	_	_	_	_
 17-4	2450-2454	true	_	_	_	_
 17-5	2455-2456	,	_	_	_	_
@@ -527,10 +527,10 @@
 17-7	2464-2465	?	_	_	_	_
 
 #Text=The Civil Rights movement ended 50 years ago , and there 's been a black president since then .
-18-1	2466-2469	The	organization[98]	giv[98]	_	_
-18-2	2470-2475	Civil	organization[98]	giv[98]	_	_
-18-3	2476-2482	Rights	organization[98]	giv[98]	_	_
-18-4	2483-2491	movement	organization[98]	giv[98]	_	_
+18-1	2466-2469	The	organization[183]	giv[183]	_	_
+18-2	2470-2475	Civil	organization[183]	giv[183]	_	_
+18-3	2476-2482	Rights	organization[183]	giv[183]	_	_
+18-4	2483-2491	movement	organization[183]	giv[183]	_	_
 18-5	2492-2497	ended	_	_	_	_
 18-6	2498-2500	50	_	_	_	_
 18-7	2501-2506	years	_	_	_	_
@@ -563,13 +563,13 @@
 19-13	2625-2626	.	_	_	_	_
 
 #Text=To be a minority in the USA today is a night and day difference to what it was during my grandparents ' time .
-20-1	2627-2629	To	abstract[102]	new[102]	ana	20-17[0_102]
-20-2	2630-2632	be	abstract[102]	new[102]	_	_
-20-3	2633-2634	a	abstract[102]	new[102]	_	_
-20-4	2635-2643	minority	abstract[102]	new[102]	_	_
-20-5	2644-2646	in	abstract[102]	new[102]	_	_
-20-6	2647-2650	the	abstract[102]|place[104]	new[102]|giv[104]	ana	28-13[123_104]
-20-7	2651-2654	USA	abstract[102]|place[104]	new[102]|giv[104]	_	_
+20-1	2627-2629	To	abstract[191]	new[191]	ana	20-17[197_191]
+20-2	2630-2632	be	abstract[191]	new[191]	_	_
+20-3	2633-2634	a	abstract[191]	new[191]	_	_
+20-4	2635-2643	minority	abstract[191]	new[191]	_	_
+20-5	2644-2646	in	abstract[191]	new[191]	_	_
+20-6	2647-2650	the	abstract[191]|place[193]	new[191]|giv[193]	ana	28-13[240_193]
+20-7	2651-2654	USA	abstract[191]|place[193]	new[191]|giv[193]	_	_
 20-8	2655-2660	today	_	_	_	_
 20-9	2661-2663	is	_	_	_	_
 20-10	2664-2665	a	_	_	_	_
@@ -579,17 +579,17 @@
 20-14	2680-2690	difference	_	_	_	_
 20-15	2691-2693	to	_	_	_	_
 20-16	2694-2698	what	_	_	_	_
-20-17	2699-2701	it	abstract	giv	ana	21-1
+20-17	2699-2701	it	abstract[197]	giv[197]	ana	21-1[202_197]
 20-18	2702-2705	was	_	_	_	_
 20-19	2706-2712	during	_	_	_	_
-20-20	2713-2715	my	person[108]	giv[108]	_	_
+20-20	2713-2715	my	person[201]	giv[201]	_	_
 20-21	2716-2728	grandparents	_	_	_	_
 20-22	2729-2730	'	_	_	_	_
 20-23	2731-2735	time	_	_	_	_
 20-24	2736-2737	.	_	_	_	_
 
 #Text=It 's not even close to what segregation was .
-21-1	2738-2740	It	abstract	giv	_	_
+21-1	2738-2740	It	abstract[202]	giv[202]	_	_
 21-2	2741-2743	's	_	_	_	_
 21-3	2744-2747	not	_	_	_	_
 21-4	2748-2752	even	_	_	_	_
@@ -602,13 +602,13 @@
 
 #Text=(1) It s unreal .
 22-1	2785-2788	(1)	_	_	_	_
-22-2	2789-2791	It	abstract	giv	_	_
+22-2	2789-2791	It	abstract[204]	giv[204]	_	_
 22-3	2792-2793	s	_	_	_	_
 22-4	2794-2800	unreal	_	_	_	_
 22-5	2801-2802	.	_	_	_	_
 
 #Text=I ca n’t really imagine being asked which race I am to fill out a college application form or something like that .
-23-1	2803-2804	I	person	acc	ana	23-10
+23-1	2803-2804	I	person[205]	acc[205]	ana	23-10[212_205]
 23-2	2805-2807	ca	_	_	_	_
 23-3	2808-2811	n’t	_	_	_	_
 23-4	2812-2818	really	_	_	_	_
@@ -617,19 +617,19 @@
 23-7	2833-2838	asked	_	_	_	_
 23-8	2839-2844	which	_	_	_	_
 23-9	2845-2849	race	_	_	_	_
-23-10	2850-2851	I	person	giv	ana	27-1[119_0]
+23-10	2850-2851	I	person[212]	giv[212]	ana	27-1[235_212]
 23-11	2852-2854	am	_	_	_	_
 23-12	2855-2857	to	_	_	_	_
 23-13	2858-2862	fill	_	_	_	_
 23-14	2863-2866	out	_	_	_	_
-23-15	2867-2868	a	object[110]	new[110]	ana	23-22[0_110]
-23-16	2869-2876	college	object[110]	new[110]	_	_
-23-17	2877-2888	application	object[110]	new[110]	_	_
-23-18	2889-2893	form	object[110]	new[110]	_	_
+23-15	2867-2868	a	object[214]	new[214]	ana	23-22[220_214]
+23-16	2869-2876	college	object[214]	new[214]	_	_
+23-17	2877-2888	application	object[214]	new[214]	_	_
+23-18	2889-2893	form	object[214]	new[214]	_	_
 23-19	2894-2896	or	_	_	_	_
 23-20	2897-2906	something	_	_	_	_
 23-21	2907-2911	like	_	_	_	_
-23-22	2912-2916	that	object	giv	_	_
+23-22	2912-2916	that	object[220]	giv[220]	_	_
 23-23	2917-2918	.	_	_	_	_
 
 #Text=Affirmative action here is very rare , and very often illegal .
@@ -659,7 +659,7 @@
 
 #Text=(3) It s understandable , since no one ever admitted that a lot of American freedom and prosperity comes from crimes against humanity
 26-1	3024-3027	(3)	_	_	_	_
-26-2	3028-3030	It	abstract	giv	_	_
+26-2	3028-3030	It	abstract[225]	giv[225]	_	_
 26-3	3031-3032	s	_	_	_	_
 26-4	3033-3047	understandable	_	_	_	_
 26-5	3048-3049	,	_	_	_	_
@@ -683,7 +683,7 @@
 26-23	3149-3157	humanity	_	_	_	_
 
 #Text=Your last point is a little complicated .
-27-1	3158-3162	Your	person[119]	giv[119]	_	_
+27-1	3158-3162	Your	person[235]	giv[235]	_	_
 27-2	3163-3167	last	_	_	_	_
 27-3	3168-3173	point	_	_	_	_
 27-4	3174-3176	is	_	_	_	_
@@ -705,11 +705,11 @@
 28-10	3243-3245	no	_	_	_	_
 28-11	3246-3253	actions	_	_	_	_
 28-12	3254-3256	of	_	_	_	_
-28-13	3257-3261	it's	place[123]	giv[123]	ana	28-17[125_123]
+28-13	3257-3261	it's	place[240]	giv[240]	ana	28-17[243_240]
 28-14	3262-3265	own	_	_	_	_
 28-15	3266-3267	,	_	_	_	_
 28-16	3268-3271	but	_	_	_	_
-28-17	3272-3276	it's	place[125]	giv[125]	_	_
+28-17	3272-3276	it's	place[243]	giv[243]	_	_
 28-18	3277-3289	geographical	_	_	_	_
 28-19	3290-3298	location	_	_	_	_
 28-20	3299-3301	in	_	_	_	_
@@ -718,7 +718,7 @@
 28-23	3312-3313	.	_	_	_	_
 
 #Text=We are a considerably lucky country , with only two neighbors that are completely non hostile , and two massive oceans on either side of us .
-29-1	3314-3316	We	person	giv	ana	29-26[131_0]
+29-1	3314-3316	We	person[246]	giv[246]	ana	29-26[252_246]
 29-2	3317-3320	are	_	_	_	_
 29-3	3321-3322	a	_	_	_	_
 29-4	3323-3335	considerably	_	_	_	_
@@ -743,11 +743,11 @@
 29-23	3436-3442	either	_	_	_	_
 29-24	3443-3447	side	_	_	_	_
 29-25	3448-3450	of	_	_	_	_
-29-26	3451-3453	us	person[131]	giv[131]	ana	30-1[0_131]
+29-26	3451-3453	us	person[252]	giv[252]	ana	30-1[253_252]
 29-27	3454-3455	.	_	_	_	_
 
 #Text=We were always going to have advantages as a newly independent country the moment colonialist rule lost it's control here .
-30-1	3456-3458	We	person	giv	_	_
+30-1	3456-3458	We	person[253]	giv[253]	_	_
 30-2	3459-3463	were	_	_	_	_
 30-3	3464-3470	always	_	_	_	_
 30-4	3471-3476	going	_	_	_	_
@@ -761,10 +761,10 @@
 30-12	3519-3526	country	_	_	_	_
 30-13	3527-3530	the	_	_	_	_
 30-14	3531-3537	moment	_	_	_	_
-30-15	3538-3549	colonialist	abstract[134]	new[134]	ana	30-18[136_134]
-30-16	3550-3554	rule	abstract[134]	new[134]	_	_
+30-15	3538-3549	colonialist	abstract[260]	new[260]	ana	30-18[262_260]
+30-16	3550-3554	rule	abstract[260]	new[260]	_	_
 30-17	3555-3559	lost	_	_	_	_
-30-18	3560-3564	it's	abstract[136]	giv[136]	_	_
+30-18	3560-3564	it's	abstract[262]	giv[262]	_	_
 30-19	3565-3572	control	_	_	_	_
 30-20	3573-3577	here	_	_	_	_
 30-21	3578-3579	.	_	_	_	_

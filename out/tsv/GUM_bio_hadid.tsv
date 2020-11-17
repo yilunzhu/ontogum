@@ -1,35 +1,35 @@
-#FORMAT=WebAnno TSV 3.1
+#FORMAT=WebAnno TSV 3.2
 #T_SP=webanno.custom.Referent|entity|infstat
 #T_RL=webanno.custom.Coref|type|BT_webanno.custom.Referent
 
 
 #Text=Zaha Hadid
-1-1	0-4	Zaha	person[1]	new[1]	coref	2-1[2_1]
+1-1	0-4	Zaha	person[1]	new[1]	coref	2-1[326_1]
 1-2	5-10	Hadid	person[1]	new[1]	_	_
 
 #Text=Dame Zaha Mohammad Hadid DBE RA ( Arabic : زها حديد Zahā Ḥadīd ; 31 October 1950 – 31 March 2016 ) was an Iraqi-British architect .
-2-1	11-15	Dame	person[2]	giv[2]	ana	3-1[0_2]
-2-2	16-20	Zaha	person[2]	giv[2]	_	_
-2-3	21-29	Mohammad	person[2]	giv[2]	_	_
-2-4	30-35	Hadid	person[2]	giv[2]	_	_
-2-5	36-39	DBE	person[2]	giv[2]	_	_
-2-6	40-42	RA	person[2]	giv[2]	_	_
-2-7	43-44	(	person[2]	giv[2]	_	_
-2-8	45-51	Arabic	person[2]	giv[2]	_	_
-2-9	52-53	:	person[2]	giv[2]	_	_
-2-10	54-57	زها	person[2]	giv[2]	_	_
-2-11	58-62	حديد	person[2]	giv[2]	_	_
-2-12	63-67	Zahā	person[2]	giv[2]	_	_
-2-13	68-73	Ḥadīd	person[2]	giv[2]	_	_
-2-14	74-75	;	person[2]	giv[2]	_	_
-2-15	76-78	31	person[2]	giv[2]	_	_
-2-16	79-86	October	person[2]	giv[2]	_	_
-2-17	87-91	1950	person[2]	giv[2]	_	_
-2-18	92-93	–	person[2]	giv[2]	_	_
-2-19	94-96	31	person[2]	giv[2]	_	_
-2-20	97-102	March	person[2]	giv[2]	_	_
-2-21	103-107	2016	person[2]	giv[2]	_	_
-2-22	108-109	)	person[2]	giv[2]	_	_
+2-1	11-15	Dame	person[2]|person[326]	giv[2]|giv[326]	ana|coref	3-1[16_2]|2-12[6_326]
+2-2	16-20	Zaha	person[2]|person[326]	giv[2]|giv[326]	_	_
+2-3	21-29	Mohammad	person[2]|person[326]	giv[2]|giv[326]	_	_
+2-4	30-35	Hadid	person[2]|person[326]	giv[2]|giv[326]	_	_
+2-5	36-39	DBE	person[2]|person[326]	giv[2]|giv[326]	_	_
+2-6	40-42	RA	person[2]|person[326]	giv[2]|giv[326]	_	_
+2-7	43-44	(	person[326]	giv[326]	_	_
+2-8	45-51	Arabic	person[326]	giv[326]	_	_
+2-9	52-53	:	person[2]|person[326]	giv[2]|giv[326]	_	_
+2-10	54-57	زها	person[326]	giv[326]	_	_
+2-11	58-62	حديد	person[326]	giv[326]	_	_
+2-12	63-67	Zahā	person[6]	giv[6]	_	_
+2-13	68-73	Ḥadīd	person[6]	giv[6]	_	_
+2-14	74-75	;	_	_	_	_
+2-15	76-78	31	_	_	_	_
+2-16	79-86	October	time[8]	acc[8]	coref	10-6[110_8]
+2-17	87-91	1950	time[8]	acc[8]	_	_
+2-18	92-93	–	_	_	_	_
+2-19	94-96	31	_	_	_	_
+2-20	97-102	March	_	_	_	_
+2-21	103-107	2016	_	_	_	_
+2-22	108-109	)	_	_	_	_
 2-23	110-113	was	_	_	_	_
 2-24	114-116	an	_	_	_	_
 2-25	117-130	Iraqi-British	_	_	_	_
@@ -37,7 +37,7 @@
 2-27	141-142	.	_	_	_	_
 
 #Text=She was the first woman to receive the Pritzker Architecture Prize , in 2004 .
-3-1	143-146	She	person	giv	ana	4-1
+3-1	143-146	She	person[16]	giv[16]	ana	4-1[23_16]
 3-2	147-150	was	_	_	_	_
 3-3	151-154	the	_	_	_	_
 3-4	155-160	first	_	_	_	_
@@ -54,19 +54,19 @@
 3-15	220-221	.	_	_	_	_
 
 #Text=She received the UK 's most prestigious architectural award , the Stirling Prize , in 2010 and 2011 .
-4-1	222-225	She	person	giv	ana	5-4
+4-1	222-225	She	person[23]	giv[23]	ana	5-4[35_23]
 4-2	226-234	received	_	_	_	_
-4-3	235-238	the	abstract[15]	new[15]	appos	4-11[17_15]
-4-4	239-241	UK	abstract[15]	new[15]	_	_
-4-5	242-244	's	abstract[15]	new[15]	_	_
-4-6	245-249	most	abstract[15]	new[15]	_	_
-4-7	250-261	prestigious	abstract[15]	new[15]	_	_
-4-8	262-275	architectural	abstract[15]	new[15]	_	_
-4-9	276-281	award	abstract[15]	new[15]	_	_
-4-10	282-283	,	abstract[15]	new[15]	_	_
-4-11	284-287	the	abstract[17]	giv[17]	_	_
-4-12	288-296	Stirling	abstract[17]	giv[17]	_	_
-4-13	297-302	Prize	abstract[17]	giv[17]	_	_
+4-3	235-238	the	abstract[28]	new[28]	appos	4-11[30_28]
+4-4	239-241	UK	abstract[28]	new[28]	_	_
+4-5	242-244	's	abstract[28]	new[28]	_	_
+4-6	245-249	most	abstract[28]	new[28]	_	_
+4-7	250-261	prestigious	abstract[28]	new[28]	_	_
+4-8	262-275	architectural	abstract[28]	new[28]	_	_
+4-9	276-281	award	abstract[28]	new[28]	_	_
+4-10	282-283	,	abstract[28]	new[28]	_	_
+4-11	284-287	the	abstract[30]	giv[30]	_	_
+4-12	288-296	Stirling	abstract[30]	giv[30]	_	_
+4-13	297-302	Prize	abstract[30]	giv[30]	_	_
 4-14	303-304	,	_	_	_	_
 4-15	305-307	in	_	_	_	_
 4-16	308-312	2010	_	_	_	_
@@ -78,81 +78,81 @@
 5-1	324-326	In	_	_	_	_
 5-2	327-331	2012	_	_	_	_
 5-3	332-333	,	_	_	_	_
-5-4	334-337	she	person	giv	ana	5-7[22_0]
+5-4	334-337	she	person[35]	giv[35]	coref	5-7[41_35]
 5-5	338-341	was	_	_	_	_
 5-6	342-346	made	_	_	_	_
-5-7	347-348	a	abstract[22]	new[22]	ana	5-20[0_22]
-5-8	349-353	Dame	abstract[22]	new[22]	_	_
+5-7	347-348	a	person[41]	giv[41]	ana	5-20[46_41]
+5-8	349-353	Dame	person[41]	giv[41]	_	_
 5-9	354-356	by	_	_	_	_
 5-10	357-366	Elizabeth	_	_	_	_
 5-11	367-369	II	_	_	_	_
 5-12	370-373	for	_	_	_	_
 5-13	374-382	services	_	_	_	_
 5-14	383-385	to	_	_	_	_
-5-15	386-398	architecture	_	_	_	_
+5-15	386-398	architecture	abstract[44]	giv[44]	coref	17-26[176_44]
 5-16	399-400	,	_	_	_	_
 5-17	401-404	and	_	_	_	_
 5-18	405-407	in	_	_	_	_
 5-19	408-412	2015	_	_	_	_
-5-20	413-416	she	person	giv	ana	5-22[28_0]
+5-20	413-416	she	person[46]	giv[46]	coref	5-22[50_46]
 5-21	417-423	became	_	_	_	_
-5-22	424-427	the	person[28]	giv[28]	ana	6-1[0_28]
-5-23	428-433	first	person[28]	giv[28]	_	_
-5-24	434-437	and	person[28]	giv[28]	_	_
-5-25	438-442	only	person[28]	giv[28]	_	_
-5-26	443-448	woman	person[28]	giv[28]	_	_
-5-27	449-451	to	person[28]	giv[28]	_	_
-5-28	452-454	be	person[28]	giv[28]	_	_
-5-29	455-462	awarded	person[28]	giv[28]	_	_
-5-30	463-466	the	person[28]	giv[28]	_	_
-5-31	467-472	Royal	person[28]	giv[28]	_	_
-5-32	473-477	Gold	person[28]	giv[28]	_	_
-5-33	478-483	Medal	person[28]	giv[28]	_	_
-5-34	484-488	from	person[28]	giv[28]	_	_
-5-35	489-492	the	person[28]	giv[28]	_	_
-5-36	493-498	Royal	person[28]	giv[28]	_	_
-5-37	499-508	Institute	person[28]	giv[28]	_	_
-5-38	509-511	of	person[28]	giv[28]	_	_
-5-39	512-519	British	person[28]	giv[28]	_	_
-5-40	520-530	Architects	person[28]	giv[28]	_	_
+5-22	424-427	the	person[50]	giv[50]	ana	6-1[54_50]
+5-23	428-433	first	person[50]	giv[50]	_	_
+5-24	434-437	and	person[50]	giv[50]	_	_
+5-25	438-442	only	person[50]	giv[50]	_	_
+5-26	443-448	woman	person[50]	giv[50]	_	_
+5-27	449-451	to	person[50]	giv[50]	_	_
+5-28	452-454	be	person[50]	giv[50]	_	_
+5-29	455-462	awarded	person[50]	giv[50]	_	_
+5-30	463-466	the	person[50]	giv[50]	_	_
+5-31	467-472	Royal	person[50]	giv[50]	_	_
+5-32	473-477	Gold	person[50]	giv[50]	_	_
+5-33	478-483	Medal	person[50]	giv[50]	_	_
+5-34	484-488	from	person[50]	giv[50]	_	_
+5-35	489-492	the	person[50]	giv[50]	_	_
+5-36	493-498	Royal	person[50]	giv[50]	_	_
+5-37	499-508	Institute	person[50]	giv[50]	_	_
+5-38	509-511	of	person[50]	giv[50]	_	_
+5-39	512-519	British	person[50]	giv[50]	_	_
+5-40	520-530	Architects	person[50]	giv[50]	_	_
 5-41	531-532	.	_	_	_	_
 
 #Text=She was described by The Guardian of London as the ' Queen of the curve ' , who " liberated architectural geometry , giving it a whole new expressive identity . "
-6-1	533-536	She	person	giv	coref	6-10[35_0]
+6-1	533-536	She	person[54]	giv[54]	coref	6-10[59_54]
 6-2	537-540	was	_	_	_	_
 6-3	541-550	described	_	_	_	_
 6-4	551-553	by	_	_	_	_
 6-5	554-557	The	_	_	_	_
 6-6	558-566	Guardian	_	_	_	_
 6-7	567-569	of	_	_	_	_
-6-8	570-576	London	place[34]	new[34]	coref	7-10[44_34]
+6-8	570-576	London	place[57]	new[57]	coref	7-10[69_57]
 6-9	577-579	as	_	_	_	_
-6-10	580-583	the	person[35]	giv[35]	ana	7-1[40_35]
-6-11	584-585	'	person[35]	giv[35]	_	_
-6-12	586-591	Queen	person[35]	giv[35]	_	_
-6-13	592-594	of	person[35]	giv[35]	_	_
-6-14	595-598	the	person[35]	giv[35]	_	_
-6-15	599-604	curve	person[35]	giv[35]	_	_
-6-16	605-606	'	person[35]	giv[35]	_	_
-6-17	607-608	,	person[35]	giv[35]	_	_
-6-18	609-612	who	person[35]	giv[35]	_	_
-6-19	613-614	"	person[35]	giv[35]	_	_
-6-20	615-624	liberated	person[35]	giv[35]	_	_
-6-21	625-638	architectural	abstract[36]|person[35]	new[36]|giv[35]	ana	6-25[0_36]
-6-22	639-647	geometry	abstract[36]|person[35]	new[36]|giv[35]	_	_
-6-23	648-649	,	person[35]	giv[35]	_	_
-6-24	650-656	giving	person[35]	giv[35]	_	_
-6-25	657-659	it	abstract|person[35]	giv|giv[35]	_	_
-6-26	660-661	a	person[35]	giv[35]	_	_
-6-27	662-667	whole	person[35]	giv[35]	_	_
-6-28	668-671	new	person[35]	giv[35]	_	_
-6-29	672-682	expressive	person[35]	giv[35]	_	_
-6-30	683-691	identity	person[35]	giv[35]	_	_
-6-31	692-693	.	person[35]	giv[35]	_	_
-6-32	694-695	"	person[35]	giv[35]	_	_
+6-10	580-583	the	person[59]	giv[59]	ana	7-1[65_59]
+6-11	584-585	'	person[59]	giv[59]	_	_
+6-12	586-591	Queen	person[59]	giv[59]	_	_
+6-13	592-594	of	person[59]	giv[59]	_	_
+6-14	595-598	the	person[59]	giv[59]	_	_
+6-15	599-604	curve	person[59]	giv[59]	_	_
+6-16	605-606	'	person[59]	giv[59]	_	_
+6-17	607-608	,	person[59]	giv[59]	_	_
+6-18	609-612	who	person[59]	giv[59]	_	_
+6-19	613-614	"	person[59]	giv[59]	_	_
+6-20	615-624	liberated	person[59]	giv[59]	_	_
+6-21	625-638	architectural	person[59]|abstract[60]	giv[59]|new[60]	ana	6-25[61_60]
+6-22	639-647	geometry	person[59]|abstract[60]	giv[59]|new[60]	_	_
+6-23	648-649	,	person[59]	giv[59]	_	_
+6-24	650-656	giving	person[59]	giv[59]	_	_
+6-25	657-659	it	person[59]|abstract[61]	giv[59]|giv[61]	_	_
+6-26	660-661	a	person[59]	giv[59]	_	_
+6-27	662-667	whole	person[59]	giv[59]	_	_
+6-28	668-671	new	person[59]	giv[59]	_	_
+6-29	672-682	expressive	person[59]	giv[59]	_	_
+6-30	683-691	identity	person[59]	giv[59]	_	_
+6-31	692-693	.	person[59]	giv[59]	_	_
+6-32	694-695	"	person[59]	giv[59]	_	_
 
 #Text=Her major works include the aquatic centre for the London 2012 Olympics , Michigan State University 's Broad Art Museum in the US , and the Guangzhou Opera House in China .
-7-1	696-699	Her	person[40]	giv[40]	ana	8-3[56_40]
+7-1	696-699	Her	person[65]	giv[65]	ana	8-3[86_65]
 7-2	700-705	major	_	_	_	_
 7-3	706-711	works	_	_	_	_
 7-4	712-719	include	_	_	_	_
@@ -161,7 +161,7 @@
 7-7	732-738	centre	_	_	_	_
 7-8	739-742	for	_	_	_	_
 7-9	743-746	the	_	_	_	_
-7-10	747-753	London	place[44]	giv[44]	coref	17-17[0_44]
+7-10	747-753	London	place[69]	giv[69]	coref	17-17[171_69]
 7-11	754-758	2012	_	_	_	_
 7-12	759-767	Olympics	_	_	_	_
 7-13	768-769	,	_	_	_	_
@@ -188,7 +188,7 @@
 #Text=Some of her designs have been presented posthumously , including the statuette for the 2017 Brit Awards , and many of her buildings are still under construction , including the Al Wakrah Stadium in Qatar , a venue for the 2022 FIFA World Cup .
 8-1	869-873	Some	_	_	_	_
 8-2	874-876	of	_	_	_	_
-8-3	877-880	her	person[56]	giv[56]	ana	8-22[61_56]
+8-3	877-880	her	person[86]	giv[86]	ana	8-22[93_86]
 8-4	881-888	designs	_	_	_	_
 8-5	889-893	have	_	_	_	_
 8-6	894-898	been	_	_	_	_
@@ -207,7 +207,7 @@
 8-19	975-978	and	_	_	_	_
 8-20	979-983	many	_	_	_	_
 8-21	984-986	of	_	_	_	_
-8-22	987-990	her	person[61]	giv[61]	coref	10-1[0_61]
+8-22	987-990	her	person[93]	giv[93]	coref	10-1[107_93]
 8-23	991-1000	buildings	_	_	_	_
 8-24	1001-1004	are	_	_	_	_
 8-25	1005-1010	still	_	_	_	_
@@ -215,21 +215,21 @@
 8-27	1017-1029	construction	_	_	_	_
 8-28	1030-1031	,	_	_	_	_
 8-29	1032-1041	including	_	_	_	_
-8-30	1042-1045	the	object[62]	new[62]	appos	8-37[65_62]
-8-31	1046-1048	Al	object[62]	new[62]	_	_
-8-32	1049-1055	Wakrah	object[62]	new[62]	_	_
-8-33	1056-1063	Stadium	object[62]	new[62]	_	_
-8-34	1064-1066	in	object[62]	new[62]	_	_
-8-35	1067-1072	Qatar	object[62]	new[62]	_	_
-8-36	1073-1074	,	object[62]	new[62]	_	_
-8-37	1075-1076	a	place[65]	giv[65]	_	_
-8-38	1077-1082	venue	place[65]	giv[65]	_	_
-8-39	1083-1086	for	place[65]	giv[65]	_	_
-8-40	1087-1090	the	place[65]	giv[65]	_	_
-8-41	1091-1095	2022	place[65]	giv[65]	_	_
-8-42	1096-1100	FIFA	place[65]	giv[65]	_	_
-8-43	1101-1106	World	place[65]	giv[65]	_	_
-8-44	1107-1110	Cup	place[65]	giv[65]	_	_
+8-30	1042-1045	the	place[95]	acc[95]	appos	8-37[99_95]
+8-31	1046-1048	Al	place[95]	acc[95]	_	_
+8-32	1049-1055	Wakrah	place[95]	acc[95]	_	_
+8-33	1056-1063	Stadium	place[95]	acc[95]	_	_
+8-34	1064-1066	in	place[95]	acc[95]	_	_
+8-35	1067-1072	Qatar	place[95]	acc[95]	_	_
+8-36	1073-1074	,	place[95]	acc[95]	_	_
+8-37	1075-1076	a	place[99]	giv[99]	_	_
+8-38	1077-1082	venue	place[99]	giv[99]	_	_
+8-39	1083-1086	for	place[99]	giv[99]	_	_
+8-40	1087-1090	the	place[99]	giv[99]	_	_
+8-41	1091-1095	2022	place[99]	giv[99]	_	_
+8-42	1096-1100	FIFA	place[99]	giv[99]	_	_
+8-43	1101-1106	World	place[99]	giv[99]	_	_
+8-44	1107-1110	Cup	place[99]	giv[99]	_	_
 8-45	1111-1112	.	_	_	_	_
 
 #Text=Early life and academic career
@@ -240,17 +240,17 @@
 9-5	1137-1143	career	_	_	_	_
 
 #Text=Hadid was born on 31 October 1950 in Baghdad , Iraq , to an upper-class Iraqi family .
-10-1	1144-1149	Hadid	person	giv	ana	11-1[79_0]
+10-1	1144-1149	Hadid	person[107]	giv[107]	ana	11-1[118_107]
 10-2	1150-1153	was	_	_	_	_
 10-3	1154-1158	born	_	_	_	_
 10-4	1159-1161	on	_	_	_	_
 10-5	1162-1164	31	_	_	_	_
-10-6	1165-1172	October	_	_	_	_
-10-7	1173-1177	1950	_	_	_	_
+10-6	1165-1172	October	time[110]	giv[110]	_	_
+10-7	1173-1177	1950	time[110]	giv[110]	_	_
 10-8	1178-1180	in	_	_	_	_
 10-9	1181-1188	Baghdad	_	_	_	_
 10-10	1189-1190	,	_	_	_	_
-10-11	1191-1195	Iraq	place[76]	acc[76]	coref	13-11[93_76]
+10-11	1191-1195	Iraq	place[114]	acc[114]	coref	13-11[137_114]
 10-12	1196-1197	,	_	_	_	_
 10-13	1198-1200	to	_	_	_	_
 10-14	1201-1203	an	_	_	_	_
@@ -260,36 +260,36 @@
 10-18	1229-1230	.	_	_	_	_
 
 #Text=Her father Mohammed Hadid Muhammad al-Hajj Husayn Hadid was a wealthy industrialist from Mosul .
-11-1	1231-1234	Her	person[78]|person[79]|person[205]	new[78]|giv[79]|new[205]	appos|ana|ana	11-3[80_78]|15-1[103_79]|12-1[0_205]
-11-2	1235-1241	father	person[78]|person[205]	new[78]|new[205]	_	_
-11-3	1242-1250	Mohammed	person[80]|person[205]	giv[80]|new[205]	_	_
-11-4	1251-1256	Hadid	person[80]|person[205]	giv[80]|new[205]	_	_
-11-5	1257-1265	Muhammad	person[80]|person[205]	giv[80]|new[205]	_	_
-11-6	1266-1273	al-Hajj	person[80]|person[205]	giv[80]|new[205]	_	_
-11-7	1274-1280	Husayn	person[80]|person[205]	giv[80]|new[205]	_	_
-11-8	1281-1286	Hadid	person[80]|person[205]	giv[80]|new[205]	_	_
+11-1	1231-1234	Her	person[117]|person[118]|person[329]	acc[117]|giv[118]|acc[329]	appos|ana|ana	11-3[120_117]|15-1[150_118]|12-1[123_329]
+11-2	1235-1241	father	person[117]|person[329]	acc[117]|acc[329]	_	_
+11-3	1242-1250	Mohammed	person[120]|person[329]	giv[120]|acc[329]	_	_
+11-4	1251-1256	Hadid	person[120]|person[329]	giv[120]|acc[329]	_	_
+11-5	1257-1265	Muhammad	person[120]|person[329]	giv[120]|acc[329]	_	_
+11-6	1266-1273	al-Hajj	person[120]|person[329]	giv[120]|acc[329]	_	_
+11-7	1274-1280	Husayn	person[120]|person[329]	giv[120]|acc[329]	_	_
+11-8	1281-1286	Hadid	person[120]|person[329]	giv[120]|acc[329]	_	_
 11-9	1287-1290	was	_	_	_	_
 11-10	1291-1292	a	_	_	_	_
 11-11	1293-1300	wealthy	_	_	_	_
 11-12	1301-1314	industrialist	_	_	_	_
 11-13	1315-1319	from	_	_	_	_
-11-14	1320-1325	Mosul	place[82]	new[82]	coref	15-9[106_82]
+11-14	1320-1325	Mosul	place[122]	new[122]	coref	15-9[154_122]
 11-15	1326-1327	.	_	_	_	_
 
 #Text=He co-founded the left-liberal al-Ahali group in 1932 , a significant political organisation in the 1930s and 1940s .
-12-1	1328-1330	He	person	giv	ana	13-1
+12-1	1328-1330	He	person[123]	giv[123]	ana	13-1[132_123]
 12-2	1331-1341	co-founded	_	_	_	_
-12-3	1342-1345	the	organization[84]	new[84]	appos	12-10[87_84]
-12-4	1346-1358	left-liberal	organization[84]	new[84]	_	_
-12-5	1359-1367	al-Ahali	organization[84]	new[84]	_	_
-12-6	1368-1373	group	organization[84]	new[84]	_	_
-12-7	1374-1376	in	organization[84]	new[84]	_	_
-12-8	1377-1381	1932	organization[84]	new[84]	_	_
-12-9	1382-1383	,	organization[84]	new[84]	_	_
-12-10	1384-1385	a	organization[87]	giv[87]	_	_
-12-11	1386-1397	significant	organization[87]	giv[87]	_	_
-12-12	1398-1407	political	organization[87]	giv[87]	_	_
-12-13	1408-1420	organisation	organization[87]	giv[87]	_	_
+12-3	1342-1345	the	_	_	_	_
+12-4	1346-1358	left-liberal	_	_	_	_
+12-5	1359-1367	al-Ahali	_	_	_	_
+12-6	1368-1373	group	_	_	_	_
+12-7	1374-1376	in	_	_	_	_
+12-8	1377-1381	1932	_	_	_	_
+12-9	1382-1383	,	_	_	_	_
+12-10	1384-1385	a	_	_	_	_
+12-11	1386-1397	significant	_	_	_	_
+12-12	1398-1407	political	_	_	_	_
+12-13	1408-1420	organisation	_	_	_	_
 12-14	1421-1423	in	_	_	_	_
 12-15	1424-1427	the	_	_	_	_
 12-16	1428-1433	1930s	_	_	_	_
@@ -298,7 +298,7 @@
 12-19	1444-1445	.	_	_	_	_
 
 #Text=He was the co-founder of the National Democratic Party in Iraq .
-13-1	1446-1448	He	person	giv	ana	14-1
+13-1	1446-1448	He	person[132]	giv[132]	ana	14-1[138_132]
 13-2	1449-1452	was	_	_	_	_
 13-3	1453-1456	the	_	_	_	_
 13-4	1457-1467	co-founder	_	_	_	_
@@ -308,11 +308,11 @@
 13-8	1484-1494	Democratic	_	_	_	_
 13-9	1495-1500	Party	_	_	_	_
 13-10	1501-1503	in	_	_	_	_
-13-11	1504-1508	Iraq	place[93]	giv[93]	_	_
+13-11	1504-1508	Iraq	place[137]	giv[137]	_	_
 13-12	1509-1510	.	_	_	_	_
 
 #Text=He served as minister of finance after the overthrow of the monarch after the 1958 Iraqi coup d'état for the government of General Abd al-Karim Qasim .
-14-1	1511-1513	He	person	giv	_	_
+14-1	1511-1513	He	person[138]	giv[138]	_	_
 14-2	1514-1520	served	_	_	_	_
 14-3	1521-1523	as	_	_	_	_
 14-4	1524-1532	minister	_	_	_	_
@@ -341,22 +341,22 @@
 14-27	1661-1662	.	_	_	_	_
 
 #Text=Her mother Wajiha al-Sabunji was an artist from Mosul .
-15-1	1663-1666	Her	person[102]|person[103]	new[102]|giv[103]	appos|coref	15-3[104_102]|16-4[0_103]
-15-2	1667-1673	mother	person[102]	new[102]	_	_
-15-3	1674-1680	Wajiha	person[104]	giv[104]	_	_
-15-4	1681-1691	al-Sabunji	person[104]	giv[104]	_	_
+15-1	1663-1666	Her	person[149]|person[150]	acc[149]|giv[150]	appos|coref	15-3[152_149]|16-4[157_150]
+15-2	1667-1673	mother	person[149]	acc[149]	_	_
+15-3	1674-1680	Wajiha	person[152]	giv[152]	_	_
+15-4	1681-1691	al-Sabunji	person[152]	giv[152]	_	_
 15-5	1692-1695	was	_	_	_	_
 15-6	1696-1698	an	_	_	_	_
 15-7	1699-1705	artist	_	_	_	_
 15-8	1706-1710	from	_	_	_	_
-15-9	1711-1716	Mosul	place[106]	giv[106]	_	_
+15-9	1711-1716	Mosul	place[154]	giv[154]	_	_
 15-10	1717-1718	.	_	_	_	_
 
 #Text=In the 1960s Hadid attended boarding schools in England and Switzerland .
 16-1	1719-1721	In	_	_	_	_
 16-2	1722-1725	the	_	_	_	_
 16-3	1726-1731	1960s	_	_	_	_
-16-4	1732-1737	Hadid	person	giv	coref	17-1
+16-4	1732-1737	Hadid	person[157]	giv[157]	coref	17-1[162_157]
 16-5	1738-1746	attended	_	_	_	_
 16-6	1747-1755	boarding	_	_	_	_
 16-7	1756-1763	schools	_	_	_	_
@@ -367,7 +367,7 @@
 16-12	1791-1792	.	_	_	_	_
 
 #Text=Hadid studied mathematics at the American University of Beirut before moving , in 1972 , to London to study at the Architectural Association School of Architecture .
-17-1	1793-1798	Hadid	person	giv	ana	18-2
+17-1	1793-1798	Hadid	person[162]	giv[162]	ana	18-2[177_162]
 17-2	1799-1806	studied	_	_	_	_
 17-3	1807-1818	mathematics	_	_	_	_
 17-4	1819-1821	at	_	_	_	_
@@ -383,7 +383,7 @@
 17-14	1875-1879	1972	_	_	_	_
 17-15	1880-1881	,	_	_	_	_
 17-16	1882-1884	to	_	_	_	_
-17-17	1885-1891	London	place	giv	_	_
+17-17	1885-1891	London	place[171]	giv[171]	_	_
 17-18	1892-1894	to	_	_	_	_
 17-19	1895-1900	study	_	_	_	_
 17-20	1901-1903	at	_	_	_	_
@@ -392,71 +392,71 @@
 17-23	1922-1933	Association	_	_	_	_
 17-24	1934-1940	School	_	_	_	_
 17-25	1941-1943	of	_	_	_	_
-17-26	1944-1956	Architecture	_	_	_	_
+17-26	1944-1956	Architecture	abstract[176]	giv[176]	_	_
 17-27	1957-1958	.	_	_	_	_
 
 #Text=There she studied with Rem Koolhaas , Elia Zenghelis and Bernard Tschumi .
 18-1	1959-1964	There	_	_	_	_
-18-2	1965-1968	she	person	giv	ana	19-1[124_0]
+18-2	1965-1968	she	person[177]	giv[177]	ana	19-1[184_177]
 18-3	1969-1976	studied	_	_	_	_
 18-4	1977-1981	with	_	_	_	_
-18-5	1982-1985	Rem	person[120]	new[120]	coref	19-1[208_120]
-18-6	1986-1994	Koolhaas	person[120]	new[120]	_	_
+18-5	1982-1985	Rem	person[180]	new[180]	coref	19-1[332_180]
+18-6	1986-1994	Koolhaas	person[180]	new[180]	_	_
 18-7	1995-1996	,	_	_	_	_
-18-8	1997-2001	Elia	person[121]	new[121]	coref	20-1[0_121]
-18-9	2002-2011	Zenghelis	person[121]	new[121]	_	_
+18-8	1997-2001	Elia	person[181]	new[181]	coref	20-1[195_181]
+18-9	2002-2011	Zenghelis	person[181]	new[181]	_	_
 18-10	2012-2015	and	_	_	_	_
 18-11	2016-2023	Bernard	_	_	_	_
 18-12	2024-2031	Tschumi	_	_	_	_
 18-13	2032-2033	.	_	_	_	_
 
 #Text=Her former professor , Koolhaas , described her at graduation as " a planet in her own orbit . "
-19-1	2034-2037	Her	person[123]|person[124]|person[208]	giv[123]|giv[124]|giv[208]	appos|ana	19-5[0_123]|19-8[0_124]
-19-2	2038-2044	former	person[123]|person[208]	giv[123]|giv[208]	_	_
-19-3	2045-2054	professor	person[123]|person[208]	giv[123]|giv[208]	_	_
-19-4	2055-2056	,	person[123]|person[208]	giv[123]|giv[208]	_	_
-19-5	2057-2065	Koolhaas	person|person[208]	giv|giv[208]	_	_
+19-1	2034-2037	Her	person[183]|person[184]|person[332]	giv[183]|giv[184]|giv[332]	appos|ana	19-5[185_183]|19-8[186_184]
+19-2	2038-2044	former	person[183]|person[332]	giv[183]|giv[332]	_	_
+19-3	2045-2054	professor	person[183]|person[332]	giv[183]|giv[332]	_	_
+19-4	2055-2056	,	person[183]|person[332]	giv[183]|giv[332]	_	_
+19-5	2057-2065	Koolhaas	person[185]|person[332]	giv[185]|giv[332]	_	_
 19-6	2066-2067	,	_	_	_	_
 19-7	2068-2077	described	_	_	_	_
-19-8	2078-2081	her	person	giv	ana	19-16[130_0]
+19-8	2078-2081	her	person[186]	giv[186]	_	_
 19-9	2082-2084	at	_	_	_	_
 19-10	2085-2095	graduation	_	_	_	_
 19-11	2096-2098	as	_	_	_	_
 19-12	2099-2100	"	_	_	_	_
-19-13	2101-2102	a	_	_	_	_
-19-14	2103-2109	planet	_	_	_	_
-19-15	2110-2112	in	_	_	_	_
-19-16	2113-2116	her	person[130]	giv[130]	ana	20-3[0_130]
-19-17	2117-2120	own	_	_	_	_
-19-18	2121-2126	orbit	_	_	_	_
+19-13	2101-2102	a	person[192]	giv[192]	ana	20-3[196_192]
+19-14	2103-2109	planet	person[192]	giv[192]	_	_
+19-15	2110-2112	in	person[192]	giv[192]	_	_
+19-16	2113-2116	her	person[192]	giv[192]	_	_
+19-17	2117-2120	own	person[192]	giv[192]	_	_
+19-18	2121-2126	orbit	person[192]	giv[192]	_	_
 19-19	2127-2128	.	_	_	_	_
 19-20	2129-2130	"	_	_	_	_
 
 #Text=Zenghelis described her as the most outstanding pupil he ever taught .
-20-1	2131-2140	Zenghelis	object	giv	ana	20-9[134_0]
+20-1	2131-2140	Zenghelis	person[195]	giv[195]	ana	20-9[201_195]
 20-2	2141-2150	described	_	_	_	_
-20-3	2151-2154	her	person	giv	_	_
+20-3	2151-2154	her	person[196]	giv[196]	_	_
 20-4	2155-2157	as	_	_	_	_
-20-5	2158-2161	the	_	_	_	_
-20-6	2162-2166	most	_	_	_	_
-20-7	2167-2178	outstanding	_	_	_	_
-20-8	2179-2184	pupil	_	_	_	_
-20-9	2185-2187	he	person[134]	giv[134]	ana	25-1[0_134]
-20-10	2188-2192	ever	_	_	_	_
-20-11	2193-2199	taught	_	_	_	_
+20-5	2158-2161	the	person[200]	giv[200]	ana	21-4[203_200]
+20-6	2162-2166	most	person[200]	giv[200]	_	_
+20-7	2167-2178	outstanding	person[200]	giv[200]	_	_
+20-8	2179-2184	pupil	person[200]	giv[200]	_	_
+20-9	2185-2187	he	person[200]|person[201]	giv[200]|giv[201]	ana	25-1[217_201]
+20-10	2188-2192	ever	person[200]	giv[200]	_	_
+20-11	2193-2199	taught	person[200]	giv[200]	_	_
 20-12	2200-2201	.	_	_	_	_
 
 #Text=" We called her the inventor of the 89 degrees .
 21-1	2202-2203	"	_	_	_	_
-21-2	2204-2206	We	person	acc	ana	29-9
+21-2	2204-2206	We	person[202]	acc[202]	ana	29-9[248_202]
 21-3	2207-2213	called	_	_	_	_
-21-4	2214-2217	her	_	_	_	_
-21-5	2218-2221	the	_	_	_	_
-21-6	2222-2230	inventor	_	_	_	_
-21-7	2231-2233	of	_	_	_	_
-21-8	2234-2237	the	_	_	_	_
-21-9	2238-2240	89	_	_	_	_
-21-10	2241-2248	degrees	_	_	_	_
+21-4	2214-2217	her	person[203]	giv[203]	_	_
+21-5	2218-2221	the	person[207]	acc[207]	ana	23-1[212_207]
+21-6	2222-2230	inventor	person[207]	acc[207]	_	_
+21-7	2231-2233	of	person[207]	acc[207]	_	_
+21-8	2234-2237	the	person[207]	acc[207]	_	_
+21-9	2238-2240	89	person[207]	acc[207]	_	_
+21-10	2241-2248	degrees	person[207]	acc[207]	_	_
 21-11	2249-2250	.	_	_	_	_
 
 #Text=Nothing was ever at 90 degrees .
@@ -469,7 +469,7 @@
 22-7	2282-2283	.	_	_	_	_
 
 #Text=She had spectacular vision .
-23-1	2284-2287	She	person	giv	ana	25-4
+23-1	2284-2287	She	person[212]	giv[212]	ana	25-4[218_212]
 23-2	2288-2291	had	_	_	_	_
 23-3	2292-2303	spectacular	_	_	_	_
 23-4	2304-2310	vision	_	_	_	_
@@ -489,10 +489,10 @@
 24-11	2372-2373	"	_	_	_	_
 
 #Text=He recalled that she was less interested in details , such as staircases .
-25-1	2374-2376	He	person	giv	_	_
+25-1	2374-2376	He	person[217]	giv[217]	_	_
 25-2	2377-2385	recalled	_	_	_	_
 25-3	2386-2390	that	_	_	_	_
-25-4	2391-2394	she	person	giv	ana	26-4[150_0]
+25-4	2391-2394	she	person[218]	giv[218]	ana	26-4[225_218]
 25-5	2395-2398	was	_	_	_	_
 25-6	2399-2403	less	_	_	_	_
 25-7	2404-2414	interested	_	_	_	_
@@ -508,18 +508,18 @@
 26-1	2449-2450	"	_	_	_	_
 26-2	2451-2454	The	_	_	_	_
 26-3	2455-2458	way	_	_	_	_
-26-4	2459-2462	she	person[150]	giv[150]	ana	27-1[0_150]
+26-4	2459-2462	she	person[225]	giv[225]	ana	27-1[239_225]
 26-5	2463-2467	drew	_	_	_	_
 26-6	2468-2469	a	_	_	_	_
 26-7	2470-2479	staircase	_	_	_	_
-26-8	2480-2483	you	person	acc	ana	26-11[154_0]
+26-8	2480-2483	you	person[228]	acc[228]	ana	26-11[231_228]
 26-9	2484-2489	would	_	_	_	_
 26-10	2490-2495	smash	_	_	_	_
-26-11	2496-2500	your	person[154]	giv[154]	ana	26-26[0_154]
+26-11	2496-2500	your	person[231]	giv[231]	ana	26-26[235_231]
 26-12	2501-2505	head	_	_	_	_
 26-13	2506-2513	against	_	_	_	_
-26-14	2514-2517	the	object[155]	acc[155]	coref	26-35[159_155]
-26-15	2518-2525	ceiling	object[155]	acc[155]	_	_
+26-14	2514-2517	the	object[233]	acc[233]	coref	26-35[238_233]
+26-15	2518-2525	ceiling	object[233]	acc[233]	_	_
 26-16	2526-2527	,	_	_	_	_
 26-17	2528-2531	and	_	_	_	_
 26-18	2532-2535	the	_	_	_	_
@@ -530,7 +530,7 @@
 26-23	2559-2567	reducing	_	_	_	_
 26-24	2568-2569	,	_	_	_	_
 26-25	2570-2573	and	_	_	_	_
-26-26	2574-2577	you	person	giv	_	_
+26-26	2574-2577	you	person[235]	giv[235]	_	_
 26-27	2578-2583	would	_	_	_	_
 26-28	2584-2587	end	_	_	_	_
 26-29	2588-2590	up	_	_	_	_
@@ -539,12 +539,12 @@
 26-32	2598-2603	upper	_	_	_	_
 26-33	2604-2610	corner	_	_	_	_
 26-34	2611-2613	of	_	_	_	_
-26-35	2614-2617	the	object[159]	giv[159]	_	_
-26-36	2618-2625	ceiling	object[159]	giv[159]	_	_
+26-35	2614-2617	the	object[238]	giv[238]	_	_
+26-36	2618-2625	ceiling	object[238]	giv[238]	_	_
 26-37	2626-2627	.	_	_	_	_
 
 #Text=She could n’t care about tiny details .
-27-1	2628-2631	She	person	giv	ana	28-1[163_0]
+27-1	2628-2631	She	person[239]	giv[239]	ana	28-1[243_239]
 27-2	2632-2637	could	_	_	_	_
 27-3	2638-2641	n’t	_	_	_	_
 27-4	2642-2646	care	_	_	_	_
@@ -554,7 +554,7 @@
 27-8	2666-2667	.	_	_	_	_
 
 #Text=Her mind was on the broader pictures —
-28-1	2668-2671	Her	person[163]	giv[163]	ana	29-7[0_163]
+28-1	2668-2671	Her	person[243]	giv[243]	ana	29-7[247_243]
 28-2	2672-2676	mind	_	_	_	_
 28-3	2677-2680	was	_	_	_	_
 28-4	2681-2683	on	_	_	_	_
@@ -568,26 +568,26 @@
 29-2	2712-2714	it	_	_	_	_
 29-3	2715-2719	came	_	_	_	_
 29-4	2720-2722	to	_	_	_	_
-29-5	2723-2726	the	abstract[165]	new[165]	ana	29-12[0_165]
-29-6	2727-2734	joinery	abstract[165]	new[165]	_	_
-29-7	2735-2738	she	person	giv	ana	30-1
+29-5	2723-2726	the	abstract[246]	new[246]	ana	29-12[249_246]
+29-6	2727-2734	joinery	abstract[246]	new[246]	_	_
+29-7	2735-2738	she	person[247]	giv[247]	ana	30-1[250_247]
 29-8	2739-2743	knew	_	_	_	_
-29-9	2744-2746	we	person	giv	_	_
+29-9	2744-2746	we	person[248]	giv[248]	_	_
 29-10	2747-2752	could	_	_	_	_
 29-11	2753-2756	fix	_	_	_	_
-29-12	2757-2761	that	abstract	giv	_	_
+29-12	2757-2761	that	abstract[249]	giv[249]	_	_
 29-13	2762-2767	later	_	_	_	_
 29-14	2768-2769	.	_	_	_	_
 
 #Text=She was right . ’
-30-1	2770-2773	She	person	giv	ana	31-1[171_0]
+30-1	2770-2773	She	person[250]	giv[250]	ana	31-1[256_250]
 30-2	2774-2777	was	_	_	_	_
 30-3	2778-2783	right	_	_	_	_
 30-4	2784-2785	.	_	_	_	_
 30-5	2786-2787	’	_	_	_	_
 
 #Text=Her fourth-year student project was a painting of a hotel in the form of a bridge , inspired by the works of the Russian suprematist artist Kazimir Malevich
-31-1	2788-2791	Her	person[171]	giv[171]	_	_
+31-1	2788-2791	Her	person[256]	giv[256]	_	_
 31-2	2792-2803	fourth-year	_	_	_	_
 31-3	2804-2811	student	_	_	_	_
 31-4	2812-2819	project	_	_	_	_
@@ -609,10 +609,10 @@
 31-20	2884-2887	the	_	_	_	_
 31-21	2888-2893	works	_	_	_	_
 31-22	2894-2896	of	_	_	_	_
-31-23	2897-2900	the	_	_	_	_
-31-24	2901-2908	Russian	_	_	_	_
-31-25	2909-2920	suprematist	_	_	_	_
-31-26	2921-2927	artist	_	_	_	_
-31-27	2928-2935	Kazimir	_	_	_	_
-31-28	2936-2944	Malevich	_	_	_	_
+31-23	2897-2900	the	person[263]	new[263]	coref	31-27[264_263]
+31-24	2901-2908	Russian	person[263]	new[263]	_	_
+31-25	2909-2920	suprematist	person[263]	new[263]	_	_
+31-26	2921-2927	artist	person[263]	new[263]	_	_
+31-27	2928-2935	Kazimir	person[264]	giv[264]	_	_
+31-28	2936-2944	Malevich	person[264]	giv[264]	_	_
 

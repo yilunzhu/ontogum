@@ -171,7 +171,7 @@ def gen_tsv(doc, coref_article, non_singleton, new_id2entity):
         coref_fields[-2], coref_fields[-1] = '', ''
 
         # test
-        if line_id == '26-11':
+        if line_id == '3-21':
             a = 1
 
         # entity info
@@ -216,7 +216,7 @@ def gen_tsv(doc, coref_article, non_singleton, new_id2entity):
 
                 # check appositions, handle coref_fields[3, 4]
                 if e not in coref_fields[3] and e not in coref_fields[4]:
-                    if doc[e].span_len == 1:
+                    if doc[e].span_len == 1 and e.startswith('0_'):
                         coref_fields[3] += f'|{doc[e].e_type}'
                         coref_fields[4] += f'|{doc[e].seen}'
                     else:

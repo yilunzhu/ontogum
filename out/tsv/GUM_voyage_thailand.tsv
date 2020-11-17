@@ -1,4 +1,4 @@
-#FORMAT=WebAnno TSV 3.1
+#FORMAT=WebAnno TSV 3.2
 #T_SP=webanno.custom.Referent|entity|infstat
 #T_RL=webanno.custom.Coref|type|BT_webanno.custom.Referent
 
@@ -7,7 +7,7 @@
 1-1	0-7	Respect	_	_	_	_
 
 #Text=Thais are a polite people and , while remarkably tolerant of foreigners gallivanting on their beaches and with their women , you ll find that you will get more respect if you in turn treat them and their customs with respect .
-2-1	8-13	Thais	person	new	ana	2-36
+2-1	8-13	Thais	person[2]	new[2]	ana	2-15[9_2]
 2-2	14-17	are	_	_	_	_
 2-3	18-19	a	_	_	_	_
 2-4	20-26	polite	_	_	_	_
@@ -18,73 +18,73 @@
 2-9	46-56	remarkably	_	_	_	_
 2-10	57-65	tolerant	_	_	_	_
 2-11	66-68	of	_	_	_	_
-2-12	69-79	foreigners	person[242]	new[242]	ana	2-22[0_242]
-2-13	80-92	gallivanting	person[242]	new[242]	_	_
-2-14	93-95	on	person[242]	new[242]	_	_
-2-15	96-101	their	person[242]	new[242]	_	_
-2-16	102-109	beaches	person[242]	new[242]	_	_
-2-17	110-113	and	person[242]	new[242]	_	_
-2-18	114-118	with	person[242]	new[242]	_	_
-2-19	119-124	their	person[242]	new[242]	_	_
-2-20	125-130	women	person[242]	new[242]	_	_
+2-12	69-79	foreigners	_	_	_	_
+2-13	80-92	gallivanting	_	_	_	_
+2-14	93-95	on	_	_	_	_
+2-15	96-101	their	person[9]	giv[9]	ana	2-19[12_9]
+2-16	102-109	beaches	_	_	_	_
+2-17	110-113	and	_	_	_	_
+2-18	114-118	with	_	_	_	_
+2-19	119-124	their	person[12]	giv[12]	ana	2-36[20_12]
+2-20	125-130	women	_	_	_	_
 2-21	131-132	,	_	_	_	_
-2-22	133-136	you	person	giv	ana	2-26
+2-22	133-136	you	person[13]	acc[13]	ana	2-26[14_13]
 2-23	137-139	ll	_	_	_	_
 2-24	140-144	find	_	_	_	_
 2-25	145-149	that	_	_	_	_
-2-26	150-153	you	person	giv	ana	2-32
+2-26	150-153	you	person[14]	giv[14]	ana	2-32[19_14]
 2-27	154-158	will	_	_	_	_
 2-28	159-162	get	_	_	_	_
 2-29	163-167	more	_	_	_	_
 2-30	168-175	respect	_	_	_	_
 2-31	176-178	if	_	_	_	_
-2-32	179-182	you	person	giv	ana	5-12[20_0]
+2-32	179-182	you	person[19]	giv[19]	ana	5-12[35_19]
 2-33	183-185	in	_	_	_	_
 2-34	186-190	turn	_	_	_	_
 2-35	191-196	treat	_	_	_	_
-2-36	197-201	them	person	giv	_	_
+2-36	197-201	them	person[20]	giv[20]	ana	2-38[24_20]
 2-37	202-205	and	_	_	_	_
-2-38	206-211	their	_	_	_	_
+2-38	206-211	their	person[24]	giv[24]	coref	6-2[41_24]
 2-39	212-219	customs	_	_	_	_
 2-40	220-224	with	_	_	_	_
 2-41	225-232	respect	_	_	_	_
 2-42	233-234	.	_	_	_	_
 
 #Text=The wai
-3-1	235-238	The	event[14]	new[14]	ana	4-5[0_14]
-3-2	239-242	wai	event[14]	new[14]	_	_
+3-1	235-238	The	event[28]	new[28]	ana	4-5[30_28]
+3-2	239-242	wai	event[28]	new[28]	_	_
 
 #Text=Ronald McDonald showing how it 's done
 4-1	243-249	Ronald	_	_	_	_
 4-2	250-258	McDonald	_	_	_	_
 4-3	259-266	showing	_	_	_	_
 4-4	267-270	how	_	_	_	_
-4-5	271-273	it	event	giv	coref	5-1[17_0]
+4-5	271-273	it	event[30]	giv[30]	coref	5-1[32_30]
 4-6	274-276	's	_	_	_	_
 4-7	277-281	done	_	_	_	_
 
 #Text=The traditional greeting known as the wai , where you press your hands together as is in prayer and bow slightly , is derived from the Hindu cultural influence from India , and still widely practised .
-5-1	282-285	The	event[17]	giv[17]	coref	6-15[25_17]
-5-2	286-297	traditional	event[17]	giv[17]	_	_
-5-3	298-306	greeting	event[17]	giv[17]	_	_
-5-4	307-312	known	event[17]	giv[17]	_	_
-5-5	313-315	as	event[17]	giv[17]	_	_
-5-6	316-319	the	event[17]	giv[17]	_	_
-5-7	320-323	wai	event[17]	giv[17]	_	_
-5-8	324-325	,	event[17]	giv[17]	_	_
-5-9	326-331	where	event[17]	giv[17]	_	_
-5-10	332-335	you	event[17]	giv[17]	_	_
-5-11	336-341	press	event[17]	giv[17]	_	_
-5-12	342-346	your	object[19]|person[20]|event[17]	acc[19]|giv[20]|giv[17]	coref|ana	9-3[31_19]|8-1[0_20]
-5-13	347-352	hands	object[19]|event[17]	acc[19]|giv[17]	_	_
-5-14	353-361	together	event[17]	giv[17]	_	_
-5-15	362-364	as	event[17]	giv[17]	_	_
-5-16	365-367	is	event[17]	giv[17]	_	_
-5-17	368-370	in	event[17]	giv[17]	_	_
-5-18	371-377	prayer	event[17]	giv[17]	_	_
-5-19	378-381	and	event[17]	giv[17]	_	_
-5-20	382-385	bow	event[17]	giv[17]	_	_
-5-21	386-394	slightly	event[17]	giv[17]	_	_
+5-1	282-285	The	event[32]	giv[32]	coref	6-15[45_32]
+5-2	286-297	traditional	event[32]	giv[32]	_	_
+5-3	298-306	greeting	event[32]	giv[32]	_	_
+5-4	307-312	known	event[32]	giv[32]	_	_
+5-5	313-315	as	event[32]	giv[32]	_	_
+5-6	316-319	the	event[32]	giv[32]	_	_
+5-7	320-323	wai	event[32]	giv[32]	_	_
+5-8	324-325	,	event[32]	giv[32]	_	_
+5-9	326-331	where	event[32]	giv[32]	_	_
+5-10	332-335	you	event[32]	giv[32]	_	_
+5-11	336-341	press	event[32]	giv[32]	_	_
+5-12	342-346	your	object[34]|person[35]|event[32]	new[34]|giv[35]|giv[32]	coref|ana	9-3[54_34]|8-1[48_35]
+5-13	347-352	hands	object[34]|event[32]	new[34]|giv[32]	_	_
+5-14	353-361	together	event[32]	giv[32]	_	_
+5-15	362-364	as	event[32]	giv[32]	_	_
+5-16	365-367	is	event[32]	giv[32]	_	_
+5-17	368-370	in	event[32]	giv[32]	_	_
+5-18	371-377	prayer	event[32]	giv[32]	_	_
+5-19	378-381	and	event[32]	giv[32]	_	_
+5-20	382-385	bow	event[32]	giv[32]	_	_
+5-21	386-394	slightly	event[32]	giv[32]	_	_
 5-22	395-396	,	_	_	_	_
 5-23	397-399	is	_	_	_	_
 5-24	400-407	derived	_	_	_	_
@@ -104,7 +104,7 @@
 
 #Text=Among Thais , there are strict rules of hierarchy that dictate how and when the wai should be given .
 6-1	484-489	Among	_	_	_	_
-6-2	490-495	Thais	person	giv	coref	10-6
+6-2	490-495	Thais	person[41]	giv[41]	coref	10-6[58_41]
 6-3	496-497	,	_	_	_	_
 6-4	498-503	there	_	_	_	_
 6-5	504-507	are	_	_	_	_
@@ -117,8 +117,8 @@
 6-12	547-550	how	_	_	_	_
 6-13	551-554	and	_	_	_	_
 6-14	555-559	when	_	_	_	_
-6-15	560-563	the	event[25]	giv[25]	_	_
-6-16	564-567	wai	event[25]	giv[25]	_	_
+6-15	560-563	the	event[45]	giv[45]	_	_
+6-16	564-567	wai	event[45]	giv[45]	_	_
 6-17	568-574	should	_	_	_	_
 6-18	575-577	be	_	_	_	_
 6-19	578-583	given	_	_	_	_
@@ -135,7 +135,7 @@
 7-8	630-631	.	_	_	_	_
 
 #Text=You should not wai service people or street vendors .
-8-1	632-635	You	person	giv	ana	9-3[32_0]
+8-1	632-635	You	person[48]	giv[48]	ana	9-3[55_48]
 8-2	636-642	should	_	_	_	_
 8-3	643-646	not	_	_	_	_
 8-4	647-650	wai	_	_	_	_
@@ -149,29 +149,29 @@
 #Text=The higher your hands go , the more respectful you are .
 9-1	686-689	The	_	_	_	_
 9-2	690-696	higher	_	_	_	_
-9-3	697-701	your	object[31]|person[32]	giv[31]|giv[32]	ana	9-10[0_32]
-9-4	702-707	hands	object[31]	giv[31]	_	_
+9-3	697-701	your	object[54]|person[55]	giv[54]|giv[55]	ana	9-10[56_55]
+9-4	702-707	hands	object[54]	giv[54]	_	_
 9-5	708-710	go	_	_	_	_
 9-6	711-712	,	_	_	_	_
 9-7	713-716	the	_	_	_	_
 9-8	717-721	more	_	_	_	_
 9-9	722-732	respectful	_	_	_	_
-9-10	733-736	you	person	giv	ana	10-1
+9-10	733-736	you	person[56]	giv[56]	ana	10-1[57_56]
 9-11	737-740	are	_	_	_	_
 9-12	741-742	.	_	_	_	_
 
 #Text=You will also often see Thais doing a wai as they walk past temples and spirit houses .
-10-1	743-746	You	person	giv	_	_
+10-1	743-746	You	person[57]	giv[57]	_	_
 10-2	747-751	will	_	_	_	_
 10-3	752-756	also	_	_	_	_
 10-4	757-762	often	_	_	_	_
 10-5	763-766	see	_	_	_	_
-10-6	767-772	Thais	person	giv	ana	10-11
+10-6	767-772	Thais	person[58]	giv[58]	ana	10-11[64_58]
 10-7	773-778	doing	_	_	_	_
 10-8	779-780	a	_	_	_	_
 10-9	781-784	wai	_	_	_	_
 10-10	785-787	as	_	_	_	_
-10-11	788-792	they	person	giv	coref	13-25[51_0]
+10-11	788-792	they	person[64]	giv[64]	coref	18-13[110_64]
 10-12	793-797	walk	_	_	_	_
 10-13	798-802	past	_	_	_	_
 10-14	803-810	temples	_	_	_	_
@@ -182,11 +182,11 @@
 
 #Text=As a foreign visitor , you are not expected to know how to wai , nor to reciprocate when wai'd to ;
 11-1	831-833	As	_	_	_	_
-11-2	834-835	a	person[40]	giv[40]	ana	11-6[0_40]
-11-3	836-843	foreign	person[40]	giv[40]	_	_
-11-4	844-851	visitor	person[40]	giv[40]	_	_
+11-2	834-835	a	person[69]	giv[69]	ana	11-6[70_69]
+11-3	836-843	foreign	person[69]	giv[69]	_	_
+11-4	844-851	visitor	person[69]	giv[69]	_	_
 11-5	852-853	,	_	_	_	_
-11-6	854-857	you	person	giv	ana	12-2
+11-6	854-857	you	person[70]	giv[70]	ana	12-2[71_70]
 11-7	858-861	are	_	_	_	_
 11-8	862-865	not	_	_	_	_
 11-9	866-874	expected	_	_	_	_
@@ -206,17 +206,17 @@
 
 #Text=while you 're unlikely to cause offense if you do , you may well look slightly strange .
 12-1	931-936	while	_	_	_	_
-12-2	937-940	you	person	giv	ana	12-9
+12-2	937-940	you	person[71]	giv[71]	ana	12-9[73_71]
 12-3	941-944	're	_	_	_	_
 12-4	945-953	unlikely	_	_	_	_
 12-5	954-956	to	_	_	_	_
 12-6	957-962	cause	_	_	_	_
 12-7	963-970	offense	_	_	_	_
 12-8	971-973	if	_	_	_	_
-12-9	974-977	you	person	giv	ana	12-12
+12-9	974-977	you	person[73]	giv[73]	ana	12-12[74_73]
 12-10	978-980	do	_	_	_	_
 12-11	981-982	,	_	_	_	_
-12-12	983-986	you	person	giv	ana	13-7
+12-12	983-986	you	person[74]	giv[74]	ana	13-7[81_74]
 12-13	987-990	may	_	_	_	_
 12-14	991-995	well	_	_	_	_
 12-15	996-1000	look	_	_	_	_
@@ -231,7 +231,7 @@
 13-4	1038-1039	a	_	_	_	_
 13-5	1040-1043	wai	_	_	_	_
 13-6	1044-1046	to	_	_	_	_
-13-7	1047-1050	you	person	giv	ana	16-1
+13-7	1047-1050	you	person[81]	giv[81]	ana	16-1[97_81]
 13-8	1051-1052	,	_	_	_	_
 13-9	1053-1054	a	_	_	_	_
 13-10	1055-1061	slight	_	_	_	_
@@ -249,8 +249,8 @@
 13-22	1125-1128	for	_	_	_	_
 13-23	1129-1137	business	_	_	_	_
 13-24	1138-1139	,	_	_	_	_
-13-25	1140-1144	most	person[51]	giv[51]	coref	18-13[0_51]
-13-26	1145-1150	Thais	person[51]	giv[51]	_	_
+13-25	1140-1144	most	_	_	_	_
+13-26	1145-1150	Thais	_	_	_	_
 13-27	1151-1155	will	_	_	_	_
 13-28	1156-1161	shake	_	_	_	_
 13-29	1162-1167	hands	_	_	_	_
@@ -272,7 +272,7 @@
 15-4	1240-1244	very	_	_	_	_
 15-5	1245-1254	important	_	_	_	_
 15-6	1255-1257	in	_	_	_	_
-15-7	1258-1266	Thailand	place	acc	coref	28-18
+15-7	1258-1266	Thailand	place[93]	acc[93]	coref	28-18[175_93]
 15-8	1267-1269	as	_	_	_	_
 15-9	1270-1271	a	_	_	_	_
 15-10	1272-1279	measure	_	_	_	_
@@ -284,7 +284,7 @@
 15-16	1307-1308	.	_	_	_	_
 
 #Text=You will find that dressing appropriately means that you are shown more respect in return .
-16-1	1309-1312	You	person	giv	ana	16-9
+16-1	1309-1312	You	person[97]	giv[97]	ana	16-9[98_97]
 16-2	1313-1317	will	_	_	_	_
 16-3	1318-1322	find	_	_	_	_
 16-4	1323-1327	that	_	_	_	_
@@ -292,17 +292,17 @@
 16-6	1337-1350	appropriately	_	_	_	_
 16-7	1351-1356	means	_	_	_	_
 16-8	1357-1361	that	_	_	_	_
-16-9	1362-1365	you	person	acc	ana	20-4[72_0]
+16-9	1362-1365	you	person[98]	giv[98]	ana	20-4[118_98]
 16-10	1366-1369	are	_	_	_	_
 16-11	1370-1375	shown	_	_	_	_
-16-12	1376-1380	more	abstract[61]	giv[61]	coref	17-1[0_61]
-16-13	1381-1388	respect	abstract[61]	giv[61]	_	_
+16-12	1376-1380	more	abstract[101]	new[101]	ana	17-1[102_101]
+16-13	1381-1388	respect	abstract[101]	new[101]	_	_
 16-14	1389-1391	in	_	_	_	_
 16-15	1392-1398	return	_	_	_	_
 16-16	1399-1400	.	_	_	_	_
 
 #Text=This translates in many ways , even sometimes lowering initial offering prices at markets .
-17-1	1401-1405	This	abstract	giv	_	_
+17-1	1401-1405	This	abstract[102]	giv[102]	_	_
 17-2	1406-1416	translates	_	_	_	_
 17-3	1417-1419	in	_	_	_	_
 17-4	1420-1424	many	_	_	_	_
@@ -331,7 +331,7 @@
 18-10	1548-1550	of	_	_	_	_
 18-11	1551-1561	foreigners	_	_	_	_
 18-12	1562-1563	,	_	_	_	_
-18-13	1564-1569	Thais	person	giv	coref	19-3
+18-13	1564-1569	Thais	person[110]	giv[110]	coref	19-3[114_110]
 18-14	1570-1577	respond	_	_	_	_
 18-15	1578-1582	more	_	_	_	_
 18-16	1583-1593	positively	_	_	_	_
@@ -343,7 +343,7 @@
 #Text=Traditionally , Thais are modest and conservative dressers .
 19-1	1623-1636	Traditionally	_	_	_	_
 19-2	1637-1638	,	_	_	_	_
-19-3	1639-1644	Thais	person	giv	_	_
+19-3	1639-1644	Thais	person[114]	giv[114]	_	_
 19-4	1645-1648	are	_	_	_	_
 19-5	1649-1655	modest	_	_	_	_
 19-6	1656-1659	and	_	_	_	_
@@ -355,7 +355,7 @@
 20-1	1684-1686	At	_	_	_	_
 20-2	1687-1688	a	_	_	_	_
 20-3	1689-1696	minimum	_	_	_	_
-20-4	1697-1701	your	person[72]	giv[72]	ana	21-22[0_72]
+20-4	1697-1701	your	person[118]	giv[118]	ana	21-22[128_118]
 20-5	1702-1709	clothes	_	_	_	_
 20-6	1710-1716	should	_	_	_	_
 20-7	1717-1719	be	_	_	_	_
@@ -393,7 +393,7 @@
 21-19	1863-1864	,	_	_	_	_
 21-20	1865-1871	except	_	_	_	_
 21-21	1872-1876	that	_	_	_	_
-21-22	1877-1880	you	person	giv	ana	31-1[116_0]
+21-22	1877-1880	you	person[128]	giv[128]	ana	31-1[189_128]
 21-23	1881-1887	should	_	_	_	_
 21-24	1888-1893	avoid	_	_	_	_
 21-25	1894-1902	clothing	_	_	_	_
@@ -488,22 +488,22 @@
 25-15	2309-2310	.	_	_	_	_
 
 #Text=Taking off one 's shoes at temples and private homes is mandatory etiquette , and this may even be requested at some shops .
-26-1	2311-2317	Taking	event[95]	new[95]	ana	26-16[0_95]
-26-2	2318-2321	off	event[95]	new[95]	_	_
-26-3	2322-2325	one	event[95]	new[95]	_	_
-26-4	2326-2328	's	event[95]	new[95]	_	_
-26-5	2329-2334	shoes	event[95]	new[95]	_	_
-26-6	2335-2337	at	_	_	_	_
-26-7	2338-2345	temples	_	_	_	_
-26-8	2346-2349	and	_	_	_	_
-26-9	2350-2357	private	_	_	_	_
-26-10	2358-2363	homes	_	_	_	_
+26-1	2311-2317	Taking	event[158]	new[158]	ana	26-16[165_158]
+26-2	2318-2321	off	event[158]	new[158]	_	_
+26-3	2322-2325	one	event[158]	new[158]	_	_
+26-4	2326-2328	's	event[158]	new[158]	_	_
+26-5	2329-2334	shoes	event[158]	new[158]	_	_
+26-6	2335-2337	at	event[158]	new[158]	_	_
+26-7	2338-2345	temples	event[158]	new[158]	_	_
+26-8	2346-2349	and	event[158]	new[158]	_	_
+26-9	2350-2357	private	event[158]	new[158]	_	_
+26-10	2358-2363	homes	event[158]	new[158]	_	_
 26-11	2364-2366	is	_	_	_	_
 26-12	2367-2376	mandatory	_	_	_	_
 26-13	2377-2386	etiquette	_	_	_	_
 26-14	2387-2388	,	_	_	_	_
 26-15	2389-2392	and	_	_	_	_
-26-16	2393-2397	this	event	giv	_	_
+26-16	2393-2397	this	event[165]	giv[165]	_	_
 26-17	2398-2401	may	_	_	_	_
 26-18	2402-2406	even	_	_	_	_
 26-19	2407-2409	be	_	_	_	_
@@ -542,7 +542,7 @@
 28-15	2563-2566	for	_	_	_	_
 28-16	2567-2576	traveling	_	_	_	_
 28-17	2577-2579	in	_	_	_	_
-28-18	2580-2588	Thailand	place	giv	coref	30-15[114_0]
+28-18	2580-2588	Thailand	place[175]	giv[175]	coref	30-15[186_175]
 28-19	2589-2590	;	_	_	_	_
 
 #Text=only in the most top-end establishments are shoes required .
@@ -561,36 +561,36 @@
 30-1	2652-2654	It	_	_	_	_
 30-2	2655-2657	is	_	_	_	_
 30-3	2658-2662	best	_	_	_	_
-30-4	2663-2665	to	_	_	_	_
-30-5	2666-2670	play	_	_	_	_
-30-6	2671-2673	it	_	_	_	_
-30-7	2674-2678	safe	_	_	_	_
-30-8	2679-2683	with	_	_	_	_
-30-9	2684-2688	wats	_	_	_	_
-30-10	2689-2692	and	_	_	_	_
-30-11	2693-2698	other	_	_	_	_
-30-12	2699-2705	sacred	_	_	_	_
-30-13	2706-2711	sites	_	_	_	_
-30-14	2712-2714	in	_	_	_	_
-30-15	2715-2723	Thailand	place[114]	giv[114]	coref	42-9[161_114]
+30-4	2663-2665	to	event[182]	new[182]	cata	30-1[179_182]
+30-5	2666-2670	play	event[182]	new[182]	_	_
+30-6	2671-2673	it	event[182]	new[182]	_	_
+30-7	2674-2678	safe	event[182]	new[182]	_	_
+30-8	2679-2683	with	event[182]	new[182]	_	_
+30-9	2684-2688	wats	event[182]	new[182]	_	_
+30-10	2689-2692	and	event[182]	new[182]	_	_
+30-11	2693-2698	other	event[182]	new[182]	_	_
+30-12	2699-2705	sacred	event[182]	new[182]	_	_
+30-13	2706-2711	sites	event[182]	new[182]	_	_
+30-14	2712-2714	in	event[182]	new[182]	_	_
+30-15	2715-2723	Thailand	event[182]|place[186]	new[182]|giv[186]	coref	42-9[255_186]
 30-16	2724-2725	;	_	_	_	_
 
 #Text=your dress should be unambiguously modest and cover your entire torso and most of your limbs .
-31-1	2726-2730	your	person[116]	giv[116]	ana	31-9[118_116]
-31-2	2731-2736	dress	_	_	_	_
+31-1	2726-2730	your	object[188]|person[189]	new[188]|giv[189]	coref|ana	35-6[210_188]|31-9[192_189]
+31-2	2731-2736	dress	object[188]	new[188]	_	_
 31-3	2737-2743	should	_	_	_	_
 31-4	2744-2746	be	_	_	_	_
 31-5	2747-2760	unambiguously	_	_	_	_
 31-6	2761-2767	modest	_	_	_	_
 31-7	2768-2771	and	_	_	_	_
 31-8	2772-2777	cover	_	_	_	_
-31-9	2778-2782	your	person[118]	giv[118]	ana	31-15[120_118]
+31-9	2778-2782	your	person[192]	giv[192]	ana	31-15[195_192]
 31-10	2783-2789	entire	_	_	_	_
 31-11	2790-2795	torso	_	_	_	_
 31-12	2796-2799	and	_	_	_	_
 31-13	2800-2804	most	_	_	_	_
 31-14	2805-2807	of	_	_	_	_
-31-15	2808-2812	your	person[120]	giv[120]	ana	35-1[0_120]
+31-15	2808-2812	your	person[195]	giv[195]	ana	35-1[207_195]
 31-16	2813-2818	limbs	_	_	_	_
 31-17	2819-2820	.	_	_	_	_
 
@@ -638,20 +638,20 @@
 34-12	3020-3021	;	_	_	_	_
 
 #Text=you should make sure that your clothing covers at least your shoulders and your knees and some places may require that you wear ankle-length pants or skirts and long sleeved tops .
-35-1	3022-3025	you	person	giv	ana	35-6[130_0]
+35-1	3022-3025	you	person[207]	giv[207]	ana	35-6[211_207]
 35-2	3026-3032	should	_	_	_	_
 35-3	3033-3037	make	_	_	_	_
 35-4	3038-3042	sure	_	_	_	_
 35-5	3043-3047	that	_	_	_	_
-35-6	3048-3052	your	person[130]	giv[130]	ana	35-11[132_130]
-35-7	3053-3061	clothing	_	_	_	_
+35-6	3048-3052	your	object[210]|person[211]	giv[210]|giv[211]	ana	35-11[214_211]
+35-7	3053-3061	clothing	object[210]	giv[210]	_	_
 35-8	3062-3068	covers	_	_	_	_
 35-9	3069-3071	at	_	_	_	_
 35-10	3072-3077	least	_	_	_	_
-35-11	3078-3082	your	person[132]	giv[132]	ana	35-14[134_132]
+35-11	3078-3082	your	person[214]	giv[214]	ana	35-14[217_214]
 35-12	3083-3092	shoulders	_	_	_	_
 35-13	3093-3096	and	_	_	_	_
-35-14	3097-3101	your	person[134]	giv[134]	_	_
+35-14	3097-3101	your	person[217]	giv[217]	_	_
 35-15	3102-3107	knees	_	_	_	_
 35-16	3108-3111	and	_	_	_	_
 35-17	3112-3116	some	_	_	_	_
@@ -659,7 +659,7 @@
 35-19	3124-3127	may	_	_	_	_
 35-20	3128-3135	require	_	_	_	_
 35-21	3136-3140	that	_	_	_	_
-35-22	3141-3144	you	person	acc	ana	37-14
+35-22	3141-3144	you	person[220]	new[220]	ana	37-14[232_220]
 35-23	3145-3149	wear	_	_	_	_
 35-24	3150-3162	ankle-length	_	_	_	_
 35-25	3163-3168	pants	_	_	_	_
@@ -700,13 +700,13 @@
 37-11	3335-3337	so	_	_	_	_
 37-12	3338-3342	even	_	_	_	_
 37-13	3343-3345	if	_	_	_	_
-37-14	3346-3349	you	person	acc	_	_
+37-14	3346-3349	you	person[232]	giv[232]	_	_
 37-15	3350-3353	see	_	_	_	_
 37-16	3354-3355	a	_	_	_	_
 37-17	3356-3361	local	_	_	_	_
 37-18	3362-3364	in	_	_	_	_
-37-19	3365-3371	shorts	object[147]	giv[147]	ana	37-20[0_147]
-37-20	3372-3374	it	object	giv	_	_
+37-19	3365-3371	shorts	object[235]	giv[235]	ana	37-20[236_235]
+37-20	3372-3374	it	object[236]	giv[236]	_	_
 37-21	3375-3377	's	_	_	_	_
 37-22	3378-3381	not	_	_	_	_
 37-23	3382-3384	OK	_	_	_	_
@@ -715,8 +715,8 @@
 37-26	3398-3399	.	_	_	_	_
 
 #Text=Topless sunbathing is common by Western women at many tourist beaches .
-38-1	3400-3407	Topless	event[149]	new[149]	ana	39-10[0_149]
-38-2	3408-3418	sunbathing	event[149]	new[149]	_	_
+38-1	3400-3407	Topless	event[239]	new[239]	ana	39-10[244_239]
+38-2	3408-3418	sunbathing	event[239]	new[239]	_	_
 38-3	3419-3421	is	_	_	_	_
 38-4	3422-3428	common	_	_	_	_
 38-5	3429-3431	by	_	_	_	_
@@ -738,7 +738,7 @@
 39-7	3508-3516	visitors	_	_	_	_
 39-8	3517-3524	however	_	_	_	_
 39-9	3525-3526	,	_	_	_	_
-39-10	3527-3531	this	event	giv	_	_
+39-10	3527-3531	this	event[244]	giv[244]	_	_
 39-11	3532-3534	is	_	_	_	_
 39-12	3535-3538	not	_	_	_	_
 39-13	3539-3546	advised	_	_	_	_
@@ -766,11 +766,11 @@
 42-6	3628-3630	of	_	_	_	_
 42-7	3631-3639	Buddhism	_	_	_	_
 42-8	3640-3642	in	_	_	_	_
-42-9	3643-3651	Thailand	place[161]	giv[161]	_	_
+42-9	3643-3651	Thailand	place[255]	giv[255]	_	_
 42-10	3652-3653	,	_	_	_	_
 42-11	3654-3657	and	_	_	_	_
-42-12	3658-3662	Thai	person[162]	giv[162]	ana	42-32[166_162]
-42-13	3663-3666	men	person[162]	giv[162]	_	_
+42-12	3658-3662	Thai	person[257]	giv[257]	ana	42-32[261_257]
+42-13	3663-3666	men	person[257]	giv[257]	_	_
 42-14	3667-3670	are	_	_	_	_
 42-15	3671-3680	generally	_	_	_	_
 42-16	3681-3689	expected	_	_	_	_
@@ -789,13 +789,13 @@
 42-29	3744-3749	least	_	_	_	_
 42-30	3750-3754	once	_	_	_	_
 42-31	3755-3757	in	_	_	_	_
-42-32	3758-3763	their	person[166]	new[166]	_	_
+42-32	3758-3763	their	person[261]	giv[261]	_	_
 42-33	3764-3772	lifetime	_	_	_	_
 42-34	3773-3774	.	_	_	_	_
 
 #Text=Buddhist monks are meant to avoid sexual temptations , and in particular they do not touch women or take things from women 's hands .
-43-1	3775-3783	Buddhist	person[167]	giv[167]	ana	43-13[0_167]
-43-2	3784-3789	monks	person[167]	giv[167]	_	_
+43-1	3775-3783	Buddhist	person[263]	giv[263]	ana	43-13[265_263]
+43-2	3784-3789	monks	person[263]	giv[263]	_	_
 43-3	3790-3793	are	_	_	_	_
 43-4	3794-3799	meant	_	_	_	_
 43-5	3800-3802	to	_	_	_	_
@@ -806,7 +806,7 @@
 43-10	3830-3833	and	_	_	_	_
 43-11	3834-3836	in	_	_	_	_
 43-12	3837-3847	particular	_	_	_	_
-43-13	3848-3852	they	person	giv	_	_
+43-13	3848-3852	they	person[265]	giv[265]	_	_
 43-14	3853-3855	do	_	_	_	_
 43-15	3856-3859	not	_	_	_	_
 43-16	3860-3865	touch	_	_	_	_
@@ -821,7 +821,7 @@
 43-25	3907-3908	.	_	_	_	_
 
 #Text=Women should make every effort to make way for monks on the street and give them room so they do not have to make contact with you .
-44-1	3909-3914	Women	person	giv	ana	44-27
+44-1	3909-3914	Women	person[271]	giv[271]	ana	44-27[279_271]
 44-2	3915-3921	should	_	_	_	_
 44-3	3922-3926	make	_	_	_	_
 44-4	3927-3932	every	_	_	_	_
@@ -830,16 +830,16 @@
 44-7	3943-3947	make	_	_	_	_
 44-8	3948-3951	way	_	_	_	_
 44-9	3952-3955	for	_	_	_	_
-44-10	3956-3961	monks	person	giv	ana	44-16
+44-10	3956-3961	monks	person[274]	giv[274]	ana	44-16[277_274]
 44-11	3962-3964	on	_	_	_	_
 44-12	3965-3968	the	_	_	_	_
 44-13	3969-3975	street	_	_	_	_
 44-14	3976-3979	and	_	_	_	_
 44-15	3980-3984	give	_	_	_	_
-44-16	3985-3989	them	person	giv	ana	44-19
+44-16	3985-3989	them	person[277]	giv[277]	ana	44-19[278_277]
 44-17	3990-3994	room	_	_	_	_
 44-18	3995-3997	so	_	_	_	_
-44-19	3998-4002	they	person	giv	_	_
+44-19	3998-4002	they	person[278]	giv[278]	_	_
 44-20	4003-4005	do	_	_	_	_
 44-21	4006-4009	not	_	_	_	_
 44-22	4010-4014	have	_	_	_	_
@@ -847,11 +847,11 @@
 44-24	4018-4022	make	_	_	_	_
 44-25	4023-4030	contact	_	_	_	_
 44-26	4031-4035	with	_	_	_	_
-44-27	4036-4039	you	person	giv	ana	49-4
+44-27	4036-4039	you	person[279]	giv[279]	ana	49-4[321_279]
 44-28	4040-4041	.	_	_	_	_
 
 #Text=Women should avoid offering anything to a monk with their hands .
-45-1	4042-4047	Women	person	giv	ana	45-10[183_0]
+45-1	4042-4047	Women	person[280]	giv[280]	ana	45-10[289_280]
 45-2	4048-4054	should	_	_	_	_
 45-3	4055-4060	avoid	_	_	_	_
 45-4	4061-4069	offering	_	_	_	_
@@ -860,44 +860,44 @@
 45-7	4082-4083	a	_	_	_	_
 45-8	4084-4088	monk	_	_	_	_
 45-9	4089-4093	with	_	_	_	_
-45-10	4094-4099	their	person[183]	giv[183]	_	_
+45-10	4094-4099	their	person[289]	giv[289]	_	_
 45-11	4100-4105	hands	_	_	_	_
 45-12	4106-4107	.	_	_	_	_
 
 #Text=Objects or donations should be placed in front of a monk so he can pick it up , or place it on a special cloth he carries with him .
-46-1	4108-4115	Objects	object[184]	giv[184]	ana	46-16[0_184]
-46-2	4116-4118	or	object[184]	giv[184]	_	_
-46-3	4119-4128	donations	object[184]	giv[184]	_	_
+46-1	4108-4115	Objects	object[291]	giv[291]	ana	46-16[294_291]
+46-2	4116-4118	or	object[291]	giv[291]	_	_
+46-3	4119-4128	donations	object[291]	giv[291]	_	_
 46-4	4129-4135	should	_	_	_	_
 46-5	4136-4138	be	_	_	_	_
 46-6	4139-4145	placed	_	_	_	_
 46-7	4146-4148	in	_	_	_	_
 46-8	4149-4154	front	_	_	_	_
 46-9	4155-4157	of	_	_	_	_
-46-10	4158-4159	a	person[185]	giv[185]	ana	46-13[0_185]
-46-11	4160-4164	monk	person[185]	giv[185]	_	_
+46-10	4158-4159	a	person[292]	new[292]	ana	46-13[293_292]
+46-11	4160-4164	monk	person[292]	new[292]	_	_
 46-12	4165-4167	so	_	_	_	_
-46-13	4168-4170	he	person	giv	ana	46-26
+46-13	4168-4170	he	person[293]	giv[293]	ana	46-26[300_293]
 46-14	4171-4174	can	_	_	_	_
 46-15	4175-4179	pick	_	_	_	_
-46-16	4180-4182	it	object	giv	ana	46-21
+46-16	4180-4182	it	object[294]	giv[294]	ana	46-21[295_294]
 46-17	4183-4185	up	_	_	_	_
 46-18	4186-4187	,	_	_	_	_
 46-19	4188-4190	or	_	_	_	_
 46-20	4191-4196	place	_	_	_	_
-46-21	4197-4199	it	object	giv	_	_
+46-21	4197-4199	it	object[295]	giv[295]	_	_
 46-22	4200-4202	on	_	_	_	_
 46-23	4203-4204	a	_	_	_	_
 46-24	4205-4212	special	_	_	_	_
 46-25	4213-4218	cloth	_	_	_	_
-46-26	4219-4221	he	person	giv	ana	46-29
+46-26	4219-4221	he	person[300]	giv[300]	ana	46-29[301_300]
 46-27	4222-4229	carries	_	_	_	_
 46-28	4230-4234	with	_	_	_	_
-46-29	4235-4238	him	person	giv	_	_
+46-29	4235-4238	him	person[301]	giv[301]	_	_
 46-30	4239-4240	.	_	_	_	_
 
 #Text=Monks will sometimes be aided by a layman who will accept things from women merit-makers on their behalf .
-47-1	4241-4246	Monks	person	giv	ana	47-17[196_0]
+47-1	4241-4246	Monks	person[302]	new[302]	ana	47-17[310_302]
 47-2	4247-4251	will	_	_	_	_
 47-3	4252-4261	sometimes	_	_	_	_
 47-4	4262-4264	be	_	_	_	_
@@ -913,7 +913,7 @@
 47-14	4311-4316	women	_	_	_	_
 47-15	4317-4329	merit-makers	_	_	_	_
 47-16	4330-4332	on	_	_	_	_
-47-17	4333-4338	their	person[196]	giv[196]	_	_
+47-17	4333-4338	their	person[310]	giv[310]	_	_
 47-18	4339-4345	behalf	_	_	_	_
 47-19	4346-4347	.	_	_	_	_
 
@@ -941,7 +941,7 @@
 48-21	4466-4467	,	_	_	_	_
 48-22	4468-4470	so	_	_	_	_
 48-23	4471-4479	offering	_	_	_	_
-48-24	4480-4485	money	object	giv	coref	49-20[207_0]
+48-24	4480-4485	money	_	_	_	_
 48-25	4486-4488	to	_	_	_	_
 48-26	4489-4490	a	_	_	_	_
 48-27	4491-4495	monk	_	_	_	_
@@ -964,7 +964,7 @@
 49-1	4575-4584	Therefore	_	_	_	_
 49-2	4585-4586	,	_	_	_	_
 49-3	4587-4593	should	_	_	_	_
-49-4	4594-4597	you	person	giv	ana	49-12
+49-4	4594-4597	you	person[321]	giv[321]	ana	49-12[324_321]
 49-5	4598-4602	wish	_	_	_	_
 49-6	4603-4605	to	_	_	_	_
 49-7	4606-4612	donate	_	_	_	_
@@ -972,7 +972,7 @@
 49-9	4616-4617	a	_	_	_	_
 49-10	4618-4622	monk	_	_	_	_
 49-11	4623-4624	,	_	_	_	_
-49-12	4625-4628	you	person	giv	ana	49-20[208_0]
+49-12	4625-4628	you	person[324]	giv[324]	ana	49-20[329_324]
 49-13	4629-4635	should	_	_	_	_
 49-14	4636-4640	only	_	_	_	_
 49-15	4641-4646	offer	_	_	_	_
@@ -980,9 +980,9 @@
 49-17	4652-4653	,	_	_	_	_
 49-18	4654-4657	and	_	_	_	_
 49-19	4658-4661	put	_	_	_	_
-49-20	4662-4666	your	object[207]|person[208]	giv[207]|giv[208]	_	_
-49-21	4667-4675	monetary	object[207]	giv[207]	_	_
-49-22	4676-4684	donation	object[207]	giv[207]	_	_
+49-20	4662-4666	your	person[329]	giv[329]	_	_
+49-21	4667-4675	monetary	_	_	_	_
+49-22	4676-4684	donation	_	_	_	_
 49-23	4685-4687	in	_	_	_	_
 49-24	4688-4691	the	_	_	_	_
 49-25	4692-4703	appropriate	_	_	_	_

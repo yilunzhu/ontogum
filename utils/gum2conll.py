@@ -131,13 +131,13 @@ def main(coref_path, gum_file_lists=None):
         write_file("../dataset" + os.sep + f"dev_{genre}.gum.english.v4_gold_conll", text)
 
         write_file("../dataset" + os.sep + "train.gum.english.v4_gold_conll", train)
-        write_file("../dataset" + os.sep + "dev.gum.english.v4_gold_conll", dev)
+        write_file("../dataset" + os.sep + "gold.dev.gum.english.v4_gold_conll", dev)
         write_file("../dataset" + os.sep + "test.gum.english.v4_gold_conll", test)
 
     print("Done!")
 
 
 if __name__ == "__main__":
-    gum_train_coref_path = ".."+os.sep+"out"
+    gum_coref_path = ".."+os.sep+"out"
     gum_file_lists = "splits"
-    main(gum_train_coref_path, gum_file_lists=gum_file_lists)
+    main(gum_coref_path, gum_file_lists=gum_file_lists)

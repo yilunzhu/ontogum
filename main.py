@@ -21,7 +21,7 @@ def main(depDir, corefDir, out_dir, out_format):
         filename = f.split('.')[0]
 
         # test
-        # if filename != 'GUM_news_nasa':
+        # if filename != 'GUM_fiction_pag':
         #     continue
         print(f'{filename}')
         articles.append(filename)
@@ -62,7 +62,7 @@ if __name__ == '__main__':
     parser.add_argument('--dep', default=os.path.join('gum', 'dep'), help='Path to the gum/dep/ud directory')
     parser.add_argument('--coref', default=os.path.join('gum', 'coref', 'tsv'), help='Path to the gum/coref/tsv directory')
     parser.add_argument('--out_dir', default='out', help='output dir')
-    parser.add_argument('--out_format', default='conll', help='output format')
+    parser.add_argument('--out_format', default='tsv', help='output format')
 
     args = parser.parse_args()
 

@@ -1,4 +1,4 @@
-#FORMAT=WebAnno TSV 3
+#FORMAT=WebAnno TSV 3.2
 #T_SP=webanno.custom.Referent|entity|infstat
 #T_RL=webanno.custom.Coref|type|BT_webanno.custom.Referent
 
@@ -7,15 +7,15 @@
 1-1	0-3	How	_	_	_	_
 1-2	4-6	to	_	_	_	_
 1-3	7-11	Wash	_	_	_	_
-1-4	12-20	Overalls	object	new	coref	2-17[4_0]
+1-4	12-20	Overalls	object[1]	new[1]	coref	2-17[8_1]
 1-5	21-23	in	_	_	_	_
-1-6	24-25	a	object[2]	new[2]	coref	21-2[61_2]
-1-7	26-33	Washing	object[2]	new[2]	_	_
-1-8	34-41	Machine	object[2]	new[2]	_	_
+1-6	24-25	a	_	_	_	_
+1-7	26-33	Washing	_	_	_	_
+1-8	34-41	Machine	_	_	_	_
 
 #Text=Whether you are a working man or just a little cutie trying to stay cute , those overalls are going to need washing sooner or later .
 2-1	42-49	Whether	_	_	_	_
-2-2	50-53	you	person	acc	ana	4-1[12_0]
+2-2	50-53	you	person[4]	acc[4]	ana	4-1[21_4]
 2-3	54-57	are	_	_	_	_
 2-4	58-59	a	_	_	_	_
 2-5	60-67	working	_	_	_	_
@@ -30,36 +30,36 @@
 2-14	105-109	stay	_	_	_	_
 2-15	110-114	cute	_	_	_	_
 2-16	115-116	,	_	_	_	_
-2-17	117-122	those	object[4]	giv[4]	_	_
-2-18	123-131	overalls	object[4]	giv[4]	_	_
+2-17	117-122	those	object[8]	giv[8]	coref	4-21[25_8]
+2-18	123-131	overalls	object[8]	giv[8]	_	_
 2-19	132-135	are	_	_	_	_
 2-20	136-141	going	_	_	_	_
 2-21	142-144	to	_	_	_	_
 2-22	145-149	need	_	_	_	_
-2-23	150-157	washing	_	_	_	_
+2-23	150-157	washing	event[9]	new[9]	coref	3-12[14_9]
 2-24	158-164	sooner	_	_	_	_
 2-25	165-167	or	_	_	_	_
 2-26	168-173	later	_	_	_	_
 2-27	174-175	.	_	_	_	_
 
 #Text=The straps on adults ’ overalls often get so twisted during the wash that one wishes she had just used an old fashioned washboard instead .
-3-1	176-179	The	object[5]	acc[5]	coref	4-7[13_5]
-3-2	180-186	straps	object[5]	acc[5]	_	_
-3-3	187-189	on	object[5]	acc[5]	_	_
-3-4	190-196	adults	object[5]|object[6]	acc[5]|acc[6]	coref	4-21[14_6]
-3-5	197-198	’	object[5]|object[6]	acc[5]|acc[6]	_	_
-3-6	199-207	overalls	object[5]|object[6]	acc[5]|acc[6]	_	_
+3-1	176-179	The	object[11]	acc[11]	coref	4-7[23_11]
+3-2	180-186	straps	object[11]	acc[11]	_	_
+3-3	187-189	on	object[11]	acc[11]	_	_
+3-4	190-196	adults	object[11]	acc[11]	_	_
+3-5	197-198	’	object[11]	acc[11]	_	_
+3-6	199-207	overalls	object[11]	acc[11]	_	_
 3-7	208-213	often	_	_	_	_
 3-8	214-217	get	_	_	_	_
 3-9	218-220	so	_	_	_	_
 3-10	221-228	twisted	_	_	_	_
 3-11	229-235	during	_	_	_	_
-3-12	236-239	the	_	_	_	_
-3-13	240-244	wash	_	_	_	_
+3-12	236-239	the	event[14]	giv[14]	coref	16-10[91_14]
+3-13	240-244	wash	event[14]	giv[14]	_	_
 3-14	245-249	that	_	_	_	_
-3-15	250-253	one	person	acc	ana	3-17
+3-15	250-253	one	person[15]	acc[15]	ana	3-17[16_15]
 3-16	254-260	wishes	_	_	_	_
-3-17	261-264	she	person	giv	_	_
+3-17	261-264	she	person[16]	giv[16]	_	_
 3-18	265-268	had	_	_	_	_
 3-19	269-273	just	_	_	_	_
 3-20	274-278	used	_	_	_	_
@@ -71,28 +71,28 @@
 3-26	314-315	.	_	_	_	_
 
 #Text=Your appliances are also murder on the straps , which are almost always the first things to wear out on your overalls .
-4-1	316-320	Your	person[12]	giv[12]	ana	4-21[15_12]
+4-1	316-320	Your	person[21]	giv[21]	ana	4-21[26_21]
 4-2	321-331	appliances	_	_	_	_
 4-3	332-335	are	_	_	_	_
 4-4	336-340	also	_	_	_	_
 4-5	341-347	murder	_	_	_	_
 4-6	348-350	on	_	_	_	_
-4-7	351-354	the	object[13]	giv[13]	coref	10-18[37_13]
-4-8	355-361	straps	object[13]	giv[13]	_	_
-4-9	362-363	,	object[13]	giv[13]	_	_
-4-10	364-369	which	object[13]	giv[13]	_	_
-4-11	370-373	are	object[13]	giv[13]	_	_
-4-12	374-380	almost	object[13]	giv[13]	_	_
-4-13	381-387	always	object[13]	giv[13]	_	_
-4-14	388-391	the	object[13]	giv[13]	_	_
-4-15	392-397	first	object[13]	giv[13]	_	_
-4-16	398-404	things	object[13]	giv[13]	_	_
-4-17	405-407	to	object[13]	giv[13]	_	_
-4-18	408-412	wear	object[13]	giv[13]	_	_
-4-19	413-416	out	object[13]	giv[13]	_	_
-4-20	417-419	on	object[13]	giv[13]	_	_
-4-21	420-424	your	object[14]|person[15]|object[13]	giv[14]|giv[15]|giv[13]	ana|ana	5-18[21_14]|5-5[0_15]
-4-22	425-433	overalls	object[14]|object[13]	giv[14]|giv[13]	_	_
+4-7	351-354	the	object[23]	giv[23]	coref	10-18[66_23]
+4-8	355-361	straps	object[23]	giv[23]	_	_
+4-9	362-363	,	object[23]	giv[23]	_	_
+4-10	364-369	which	object[23]	giv[23]	_	_
+4-11	370-373	are	object[23]	giv[23]	_	_
+4-12	374-380	almost	object[23]	giv[23]	_	_
+4-13	381-387	always	object[23]	giv[23]	_	_
+4-14	388-391	the	object[23]	giv[23]	_	_
+4-15	392-397	first	object[23]	giv[23]	_	_
+4-16	398-404	things	object[23]	giv[23]	_	_
+4-17	405-407	to	object[23]	giv[23]	_	_
+4-18	408-412	wear	object[23]	giv[23]	_	_
+4-19	413-416	out	object[23]	giv[23]	_	_
+4-20	417-419	on	object[23]	giv[23]	_	_
+4-21	420-424	your	object[23]|object[25]|person[26]	giv[23]|giv[25]|giv[26]	coref|ana	5-18[36_25]|5-5[29_26]
+4-22	425-433	overalls	object[23]|object[25]	giv[23]|giv[25]	_	_
 4-23	434-435	.	_	_	_	_
 
 #Text=This article will show you how to save time and prevent wear , extending the life of your overalls until they are so soft you could wear them to bed .
@@ -100,7 +100,7 @@
 5-2	441-448	article	_	_	_	_
 5-3	449-453	will	_	_	_	_
 5-4	454-458	show	_	_	_	_
-5-5	459-462	you	person	giv	ana	5-25
+5-5	459-462	you	person[29]	giv[29]	ana	5-25[38_29]
 5-6	463-466	how	_	_	_	_
 5-7	467-469	to	_	_	_	_
 5-8	470-474	save	_	_	_	_
@@ -113,17 +113,17 @@
 5-15	509-512	the	_	_	_	_
 5-16	513-517	life	_	_	_	_
 5-17	518-520	of	_	_	_	_
-5-18	521-525	your	object[21]	giv[21]	ana	5-21[0_21]
-5-19	526-534	overalls	object[21]	giv[21]	_	_
+5-18	521-525	your	object[36]	giv[36]	ana	5-21[37_36]
+5-19	526-534	overalls	object[36]	giv[36]	_	_
 5-20	535-540	until	_	_	_	_
-5-21	541-545	they	object	giv	ana	5-28
+5-21	541-545	they	object[37]	giv[37]	ana	5-28[39_37]
 5-22	546-549	are	_	_	_	_
 5-23	550-552	so	_	_	_	_
 5-24	553-557	soft	_	_	_	_
-5-25	558-561	you	person	giv	ana	10-2
+5-25	558-561	you	person[38]	giv[38]	ana	10-2[61_38]
 5-26	562-567	could	_	_	_	_
 5-27	568-572	wear	_	_	_	_
-5-28	573-577	them	object	giv	_	_
+5-28	573-577	them	object[39]	giv[39]	_	_
 5-29	578-580	to	_	_	_	_
 5-30	581-584	bed	_	_	_	_
 5-31	585-586	.	_	_	_	_
@@ -146,12 +146,12 @@
 8-1	632-634	It	_	_	_	_
 8-2	635-637	’s	_	_	_	_
 8-3	638-642	best	_	_	_	_
-8-4	643-645	to	_	_	_	_
-8-5	646-650	wash	_	_	_	_
-8-6	651-657	adults	object[28]	giv[28]	ana	9-13[32_28]
-8-7	658-659	’	object[28]	giv[28]	_	_
-8-8	660-668	overalls	object[28]	giv[28]	_	_
-8-9	669-674	alone	_	_	_	_
+8-4	643-645	to	abstract[50]	new[50]	cata	8-1[48_50]
+8-5	646-650	wash	abstract[50]	new[50]	_	_
+8-6	651-657	adults	abstract[50]|object[51]	new[50]|giv[51]	ana	9-13[58_51]
+8-7	658-659	’	abstract[50]|object[51]	new[50]|giv[51]	_	_
+8-8	660-668	overalls	abstract[50]|object[51]	new[50]|giv[51]	_	_
+8-9	669-674	alone	abstract[50]	new[50]	_	_
 8-10	675-676	,	_	_	_	_
 8-11	677-687	especially	_	_	_	_
 8-12	688-691	men	_	_	_	_
@@ -164,30 +164,30 @@
 9-3	707-709	it	_	_	_	_
 9-4	710-712	is	_	_	_	_
 9-5	713-717	okay	_	_	_	_
-9-6	718-720	to	_	_	_	_
-9-7	721-725	wash	_	_	_	_
-9-8	726-730	just	_	_	_	_
-9-9	731-732	a	_	_	_	_
-9-10	733-736	few	_	_	_	_
-9-11	737-742	items	_	_	_	_
-9-12	743-747	with	_	_	_	_
-9-13	748-752	them	object[32]	giv[32]	ana	10-9[0_32]
-9-14	753-754	,	_	_	_	_
-9-15	755-759	like	_	_	_	_
-9-16	760-764	blue	_	_	_	_
-9-17	765-770	jeans	_	_	_	_
+9-6	718-720	to	event[56]	new[56]	cata	9-3[54_56]
+9-7	721-725	wash	event[56]	new[56]	_	_
+9-8	726-730	just	event[56]	new[56]	_	_
+9-9	731-732	a	event[56]	new[56]	_	_
+9-10	733-736	few	event[56]	new[56]	_	_
+9-11	737-742	items	event[56]	new[56]	_	_
+9-12	743-747	with	event[56]	new[56]	_	_
+9-13	748-752	them	event[56]|object[58]	new[56]|giv[58]	ana	10-9[62_58]
+9-14	753-754	,	event[56]	new[56]	_	_
+9-15	755-759	like	event[56]	new[56]	_	_
+9-16	760-764	blue	event[56]	new[56]	_	_
+9-17	765-770	jeans	event[56]	new[56]	_	_
 9-18	771-772	.	_	_	_	_
 
 #Text=What you do n’t want to wash with them is anything that can get twisted up with the straps , like women ’s long sleeve shirts or kids ’ blankets .
 10-1	773-777	What	_	_	_	_
-10-2	778-781	you	person	giv	ana	14-2
+10-2	778-781	you	person[61]	giv[61]	ana	14-2[81_61]
 10-3	782-784	do	_	_	_	_
 10-4	785-788	n’t	_	_	_	_
 10-5	789-793	want	_	_	_	_
 10-6	794-796	to	_	_	_	_
 10-7	797-801	wash	_	_	_	_
 10-8	802-806	with	_	_	_	_
-10-9	807-811	them	object	giv	_	_
+10-9	807-811	them	object[62]	giv[62]	_	_
 10-10	812-814	is	_	_	_	_
 10-11	815-823	anything	_	_	_	_
 10-12	824-828	that	_	_	_	_
@@ -196,8 +196,8 @@
 10-15	837-844	twisted	_	_	_	_
 10-16	845-847	up	_	_	_	_
 10-17	848-852	with	_	_	_	_
-10-18	853-856	the	object[37]	giv[37]	coref	13-2[43_37]
-10-19	857-863	straps	object[37]	giv[37]	_	_
+10-18	853-856	the	object[66]	giv[66]	coref	13-2[79_66]
+10-19	857-863	straps	object[66]	giv[66]	_	_
 10-20	864-865	,	_	_	_	_
 10-21	866-870	like	_	_	_	_
 10-22	871-876	women	_	_	_	_
@@ -234,23 +234,23 @@
 
 #Text=Fasten the straps to the bib .
 13-1	1015-1021	Fasten	_	_	_	_
-13-2	1022-1025	the	object[43]	giv[43]	_	_
-13-3	1026-1032	straps	object[43]	giv[43]	_	_
+13-2	1022-1025	the	object[79]	giv[79]	_	_
+13-3	1026-1032	straps	object[79]	giv[79]	_	_
 13-4	1033-1035	to	_	_	_	_
-13-5	1036-1039	the	object[44]	new[44]	coref	14-8[46_44]
-13-6	1040-1043	bib	object[44]	new[44]	_	_
+13-5	1036-1039	the	object[80]	acc[80]	coref	14-8[83_80]
+13-6	1040-1043	bib	object[80]	acc[80]	_	_
 13-7	1044-1045	.	_	_	_	_
 
 #Text=If you did n’t know already , the bib is the top front part with the breast pockets .
 14-1	1046-1048	If	_	_	_	_
-14-2	1049-1052	you	person	giv	ana	15-8
+14-2	1049-1052	you	person[81]	giv[81]	ana	15-8[87_81]
 14-3	1053-1056	did	_	_	_	_
 14-4	1057-1060	n’t	_	_	_	_
 14-5	1061-1065	know	_	_	_	_
 14-6	1066-1073	already	_	_	_	_
 14-7	1074-1075	,	_	_	_	_
-14-8	1076-1079	the	object[46]	giv[46]	coref	25-1[74_46]
-14-9	1080-1083	bib	object[46]	giv[46]	_	_
+14-8	1076-1079	the	object[83]	giv[83]	coref	25-1[134_83]
+14-9	1080-1083	bib	object[83]	giv[83]	_	_
 14-10	1084-1086	is	_	_	_	_
 14-11	1087-1090	the	_	_	_	_
 14-12	1091-1094	top	_	_	_	_
@@ -267,10 +267,10 @@
 15-2	1135-1140	ahead	_	_	_	_
 15-3	1141-1144	and	_	_	_	_
 15-4	1145-1151	fasten	_	_	_	_
-15-5	1152-1156	both	object[47]	giv[47]	ana	16-5[0_47]
-15-6	1157-1163	straps	object[47]	giv[47]	_	_
+15-5	1152-1156	both	object[86]	giv[86]	ana	16-5[88_86]
+15-6	1157-1163	straps	object[86]	giv[86]	_	_
 15-7	1164-1170	before	_	_	_	_
-15-8	1171-1174	you	person	giv	ana	18-7
+15-8	1171-1174	you	person[87]	giv[87]	ana	18-7[98_87]
 15-9	1175-1179	wash	_	_	_	_
 15-10	1180-1181	.	_	_	_	_
 
@@ -279,34 +279,34 @@
 16-2	1187-1191	will	_	_	_	_
 16-3	1192-1196	help	_	_	_	_
 16-4	1197-1201	keep	_	_	_	_
-16-5	1202-1206	them	object	giv	coref	17-6[53_0]
+16-5	1202-1206	them	object[88]	giv[88]	coref	17-6[94_88]
 16-6	1207-1211	from	_	_	_	_
 16-7	1212-1220	twisting	_	_	_	_
 16-8	1221-1223	up	_	_	_	_
 16-9	1224-1230	during	_	_	_	_
-16-10	1231-1234	the	event[50]	acc[50]	coref	43-8[135_50]
-16-11	1235-1239	wash	event[50]	acc[50]	_	_
+16-10	1231-1234	the	event[91]	giv[91]	coref	43-8[240_91]
+16-11	1235-1239	wash	event[91]	giv[91]	_	_
 16-12	1240-1241	.	_	_	_	_
 
 #Text=Use twist ties to keep the straps fastened .
-17-1	1242-1245	Use	event[51]	new[51]	coref	18-1[54_51]
-17-2	1246-1251	twist	event[51]	new[51]	_	_
-17-3	1252-1256	ties	event[51]	new[51]	_	_
-17-4	1257-1259	to	event[51]	new[51]	_	_
-17-5	1260-1264	keep	event[51]	new[51]	_	_
-17-6	1265-1268	the	event[51]|object[53]	new[51]|giv[53]	coref	21-13[64_53]
-17-7	1269-1275	straps	event[51]|object[53]	new[51]|giv[53]	_	_
-17-8	1276-1284	fastened	event[51]|object[53]	new[51]|new[53]	_	_
-17-9	1285-1286	.	event[51]	new[51]	_	_
+17-1	1242-1245	Use	event[92]	new[92]	coref	18-1[95_92]
+17-2	1246-1251	twist	event[92]	new[92]	_	_
+17-3	1252-1256	ties	event[92]	new[92]	_	_
+17-4	1257-1259	to	event[92]	new[92]	_	_
+17-5	1260-1264	keep	event[92]	new[92]	_	_
+17-6	1265-1268	the	event[92]|object[94]	new[92]|giv[94]	coref	21-13[115_94]
+17-7	1269-1275	straps	event[92]|object[94]	new[92]|giv[94]	_	_
+17-8	1276-1284	fastened	event[92]|object[94]	new[92]|new[94]	_	_
+17-9	1285-1286	.	event[92]	new[92]	_	_
 
 #Text=This step will reapportion years of your life in the long run .
-18-1	1287-1291	This	event[54]	giv[54]	ana	19-4[0_54]
-18-2	1292-1296	step	event[54]	giv[54]	_	_
+18-1	1287-1291	This	event[95]	giv[95]	ana	19-4[99_95]
+18-2	1292-1296	step	event[95]	giv[95]	_	_
 18-3	1297-1301	will	_	_	_	_
 18-4	1302-1313	reapportion	_	_	_	_
 18-5	1314-1319	years	_	_	_	_
 18-6	1320-1322	of	_	_	_	_
-18-7	1323-1327	your	person	giv	ana	21-26
+18-7	1323-1327	your	person[98]	giv[98]	ana	21-2[108_98]
 18-8	1328-1332	life	_	_	_	_
 18-9	1333-1335	in	_	_	_	_
 18-10	1336-1339	the	_	_	_	_
@@ -318,7 +318,7 @@
 19-1	1351-1353	Do	_	_	_	_
 19-2	1354-1357	n’t	_	_	_	_
 19-3	1358-1362	skip	_	_	_	_
-19-4	1363-1365	it	event	giv	_	_
+19-4	1363-1365	it	event[99]	giv[99]	_	_
 19-5	1366-1367	.	_	_	_	_
 
 #Text=Take the 20 seconds to use a couple twist ties on the fasteners to make sure they do n’t come loose .
@@ -333,12 +333,12 @@
 20-9	1404-1409	twist	_	_	_	_
 20-10	1410-1414	ties	_	_	_	_
 20-11	1415-1417	on	_	_	_	_
-20-12	1418-1421	the	object[59]	new[59]	ana	20-17[0_59]
-20-13	1422-1431	fasteners	object[59]	new[59]	_	_
+20-12	1418-1421	the	object[104]	acc[104]	ana	20-17[105_104]
+20-13	1422-1431	fasteners	object[104]	acc[104]	_	_
 20-14	1432-1434	to	_	_	_	_
 20-15	1435-1439	make	_	_	_	_
 20-16	1440-1444	sure	_	_	_	_
-20-17	1445-1449	they	object	giv	_	_
+20-17	1445-1449	they	object[105]	giv[105]	_	_
 20-18	1450-1452	do	_	_	_	_
 20-19	1453-1456	n’t	_	_	_	_
 20-20	1457-1461	come	_	_	_	_
@@ -347,33 +347,33 @@
 
 #Text=If your washing machine is worth its salt , it will undo those straps in a heartbeat and tie them in a sheet bend unless you prevent it .
 21-1	1470-1472	If	_	_	_	_
-21-2	1473-1477	your	object[61]	giv[61]	ana	21-10[63_61]
-21-3	1478-1485	washing	object[61]	giv[61]	_	_
-21-4	1486-1493	machine	object[61]	giv[61]	_	_
+21-2	1473-1477	your	object[107]|person[108]	new[107]|giv[108]	ana|ana	21-7[109_107]|21-26[120_108]
+21-3	1478-1485	washing	object[107]	new[107]	_	_
+21-4	1486-1493	machine	object[107]	new[107]	_	_
 21-5	1494-1496	is	_	_	_	_
 21-6	1497-1502	worth	_	_	_	_
-21-7	1503-1506	its	_	_	_	_
+21-7	1503-1506	its	object[109]	giv[109]	ana	21-10[113_109]
 21-8	1507-1511	salt	_	_	_	_
 21-9	1512-1513	,	_	_	_	_
-21-10	1514-1516	it	event[62]|object[63]	new[62]|giv[63]	ana	21-28[0_62]
-21-11	1517-1521	will	event[62]	new[62]	_	_
-21-12	1522-1526	undo	event[62]	new[62]	_	_
-21-13	1527-1532	those	event[62]|object[64]	new[62]|giv[64]	ana	21-20[65_64]
-21-14	1533-1539	straps	event[62]|object[64]	new[62]|giv[64]	_	_
-21-15	1540-1542	in	event[62]	new[62]	_	_
-21-16	1543-1544	a	event[62]	new[62]	_	_
-21-17	1545-1554	heartbeat	event[62]	new[62]	_	_
-21-18	1555-1558	and	event[62]	new[62]	_	_
-21-19	1559-1562	tie	event[62]	new[62]	_	_
-21-20	1563-1567	them	event[62]|object[65]	new[62]|giv[65]	_	_
-21-21	1568-1570	in	event[62]	new[62]	_	_
-21-22	1571-1572	a	event[62]	new[62]	_	_
-21-23	1573-1578	sheet	event[62]	new[62]	_	_
-21-24	1579-1583	bend	event[62]	new[62]	_	_
+21-10	1514-1516	it	event[112]|object[113]	new[112]|giv[113]	ana	21-28[121_112]
+21-11	1517-1521	will	event[112]	new[112]	_	_
+21-12	1522-1526	undo	event[112]	new[112]	_	_
+21-13	1527-1532	those	event[112]|object[115]	new[112]|giv[115]	ana	21-20[117_115]
+21-14	1533-1539	straps	event[112]|object[115]	new[112]|giv[115]	_	_
+21-15	1540-1542	in	event[112]	new[112]	_	_
+21-16	1543-1544	a	event[112]	new[112]	_	_
+21-17	1545-1554	heartbeat	event[112]	new[112]	_	_
+21-18	1555-1558	and	event[112]	new[112]	_	_
+21-19	1559-1562	tie	event[112]	new[112]	_	_
+21-20	1563-1567	them	event[112]|object[117]	new[112]|giv[117]	_	_
+21-21	1568-1570	in	event[112]	new[112]	_	_
+21-22	1571-1572	a	event[112]	new[112]	_	_
+21-23	1573-1578	sheet	event[112]	new[112]	_	_
+21-24	1579-1583	bend	event[112]	new[112]	_	_
 21-25	1584-1590	unless	_	_	_	_
-21-26	1591-1594	you	person	giv	ana	31-1
+21-26	1591-1594	you	person[120]	giv[120]	ana	31-1[163_120]
 21-27	1595-1602	prevent	_	_	_	_
-21-28	1603-1605	it	event	giv	_	_
+21-28	1603-1605	it	event[121]	giv[121]	_	_
 21-29	1606-1607	.	_	_	_	_
 
 #Text=All it takes is two twist ties and a few seconds of patience .
@@ -399,25 +399,25 @@
 23-4	1689-1690	.	_	_	_	_
 
 #Text=Overalls have more pockets than pants .
-24-1	1691-1699	Overalls	object	giv	ana	33-28
+24-1	1691-1699	Overalls	object[129]	giv[129]	ana	33-28[186_129]
 24-2	1700-1704	have	_	_	_	_
-24-3	1705-1709	more	_	_	_	_
-24-4	1710-1717	pockets	_	_	_	_
-24-5	1718-1722	than	_	_	_	_
-24-6	1723-1728	pants	_	_	_	_
+24-3	1705-1709	more	object[131]	giv[131]	coref	29-3[160_131]
+24-4	1710-1717	pockets	object[131]	giv[131]	_	_
+24-5	1718-1722	than	object[131]	giv[131]	_	_
+24-6	1723-1728	pants	object[131]	giv[131]	_	_
 24-7	1729-1730	.	_	_	_	_
 
 #Text=The bib has a wallet pocket and a watch pocket .
-25-1	1731-1734	The	object[74]	giv[74]	coref	39-8[122_74]
-25-2	1735-1738	bib	object[74]	giv[74]	_	_
+25-1	1731-1734	The	object[134]	giv[134]	coref	39-8[219_134]
+25-2	1735-1738	bib	object[134]	giv[134]	_	_
 25-3	1739-1742	has	_	_	_	_
-25-4	1743-1744	a	_	_	_	_
-25-5	1745-1751	wallet	_	_	_	_
-25-6	1752-1758	pocket	_	_	_	_
-25-7	1759-1762	and	_	_	_	_
-25-8	1763-1764	a	_	_	_	_
-25-9	1765-1770	watch	_	_	_	_
-25-10	1771-1777	pocket	_	_	_	_
+25-4	1743-1744	a	object[135]	new[135]	ana	26-10[142_135]
+25-5	1745-1751	wallet	object[135]	new[135]	_	_
+25-6	1752-1758	pocket	object[135]	new[135]	_	_
+25-7	1759-1762	and	object[135]	new[135]	_	_
+25-8	1763-1764	a	object[135]	new[135]	_	_
+25-9	1765-1770	watch	object[135]	new[135]	_	_
+25-10	1771-1777	pocket	object[135]	new[135]	_	_
 25-11	1778-1779	.	_	_	_	_
 
 #Text=Kids put rocks , candy , and bugs in these .
@@ -430,7 +430,7 @@
 26-7	1805-1808	and	_	_	_	_
 26-8	1809-1813	bugs	_	_	_	_
 26-9	1814-1816	in	_	_	_	_
-26-10	1817-1822	these	object	acc	ana	27-9
+26-10	1817-1822	these	object[142]	giv[142]	ana	27-9[152_142]
 26-11	1823-1824	.	_	_	_	_
 
 #Text=Men put cell phones and small tools in them .
@@ -442,7 +442,7 @@
 27-6	1849-1854	small	_	_	_	_
 27-7	1855-1860	tools	_	_	_	_
 27-8	1861-1863	in	_	_	_	_
-27-9	1864-1868	them	object	giv	_	_
+27-9	1864-1868	them	object[152]	giv[152]	_	_
 27-10	1869-1870	.	_	_	_	_
 
 #Text=Women defy the laws of purse-space , so when it comes to bib pockets , the sky is the limit .
@@ -471,50 +471,50 @@
 #Text=Make sure all the pockets are empty .
 29-1	1965-1969	Make	_	_	_	_
 29-2	1970-1974	sure	_	_	_	_
-29-3	1975-1978	all	_	_	_	_
-29-4	1979-1982	the	_	_	_	_
-29-5	1983-1990	pockets	_	_	_	_
+29-3	1975-1978	all	object[160]	giv[160]	_	_
+29-4	1979-1982	the	object[160]	giv[160]	_	_
+29-5	1983-1990	pockets	object[160]	giv[160]	_	_
 29-6	1991-1994	are	_	_	_	_
 29-7	1995-2000	empty	_	_	_	_
 29-8	2001-2002	.	_	_	_	_
 
 #Text=Move the strap adjusters around .
 30-1	2003-2007	Move	_	_	_	_
-30-2	2008-2011	the	object[89]	acc[89]	ana	31-5[0_89]
-30-3	2012-2017	strap	object[89]	acc[89]	_	_
-30-4	2018-2027	adjusters	object[89]	acc[89]	_	_
+30-2	2008-2011	the	object[161]	acc[161]	ana	31-5[164_161]
+30-3	2012-2017	strap	object[161]	acc[161]	_	_
+30-4	2018-2027	adjusters	object[161]	acc[161]	_	_
 30-5	2028-2034	around	_	_	_	_
 30-6	2035-2036	.	_	_	_	_
 
 #Text=You ’ve probably got them just the way you like them , but if you move the adjusters up or down on the straps occasionally , the straps will last longer .
-31-1	2037-2040	You	person	giv	ana	31-9
+31-1	2037-2040	You	person[163]	giv[163]	ana	31-9[165_163]
 31-2	2041-2044	’ve	_	_	_	_
 31-3	2045-2053	probably	_	_	_	_
 31-4	2054-2057	got	_	_	_	_
-31-5	2058-2062	them	object	giv	ana	31-11
+31-5	2058-2062	them	object[164]	giv[164]	ana	31-11[166_164]
 31-6	2063-2067	just	_	_	_	_
 31-7	2068-2071	the	_	_	_	_
 31-8	2072-2075	way	_	_	_	_
-31-9	2076-2079	you	person	giv	ana	31-15
+31-9	2076-2079	you	person[165]	giv[165]	ana	31-15[167_165]
 31-10	2080-2084	like	_	_	_	_
-31-11	2085-2089	them	object	giv	coref	31-17[95_0]
+31-11	2085-2089	them	object[166]	giv[166]	coref	31-17[174_166]
 31-12	2090-2091	,	_	_	_	_
 31-13	2092-2095	but	_	_	_	_
 31-14	2096-2098	if	_	_	_	_
-31-15	2099-2102	you	person	giv	ana	32-6
+31-15	2099-2102	you	person[167]	giv[167]	ana	32-6[178_167]
 31-16	2103-2107	move	_	_	_	_
-31-17	2108-2111	the	object[95]	giv[95]	coref	32-3[98_95]
-31-18	2112-2121	adjusters	object[95]	giv[95]	_	_
+31-17	2108-2111	the	object[174]	giv[174]	coref	32-3[177_174]
+31-18	2112-2121	adjusters	object[174]	giv[174]	_	_
 31-19	2122-2124	up	_	_	_	_
 31-20	2125-2127	or	_	_	_	_
 31-21	2128-2132	down	_	_	_	_
 31-22	2133-2135	on	_	_	_	_
-31-23	2136-2139	the	object[96]	giv[96]	coref	31-27[97_96]
-31-24	2140-2146	straps	object[96]	giv[96]	_	_
+31-23	2136-2139	the	object[175]	giv[175]	coref	31-27[176_175]
+31-24	2140-2146	straps	object[175]	giv[175]	_	_
 31-25	2147-2159	occasionally	_	_	_	_
 31-26	2160-2161	,	_	_	_	_
-31-27	2162-2165	the	object[97]	giv[97]	coref	33-1[101_97]
-31-28	2166-2172	straps	object[97]	giv[97]	_	_
+31-27	2162-2165	the	object[176]	giv[176]	coref	33-1[182_176]
+31-28	2166-2172	straps	object[176]	giv[176]	_	_
 31-29	2173-2177	will	_	_	_	_
 31-30	2178-2182	last	_	_	_	_
 31-31	2183-2189	longer	_	_	_	_
@@ -523,16 +523,16 @@
 #Text=Depending on the adjusters , you may be able to leave them a little loose too .
 32-1	2192-2201	Depending	_	_	_	_
 32-2	2202-2204	on	_	_	_	_
-32-3	2205-2208	the	object[98]	giv[98]	ana	32-12[0_98]
-32-4	2209-2218	adjusters	object[98]	giv[98]	_	_
+32-3	2205-2208	the	object[177]	giv[177]	ana	32-12[179_177]
+32-4	2209-2218	adjusters	object[177]	giv[177]	_	_
 32-5	2219-2220	,	_	_	_	_
-32-6	2221-2224	you	person	giv	ana	36-1
+32-6	2221-2224	you	person[178]	giv[178]	ana	36-1[199_178]
 32-7	2225-2228	may	_	_	_	_
 32-8	2229-2231	be	_	_	_	_
 32-9	2232-2236	able	_	_	_	_
 32-10	2237-2239	to	_	_	_	_
 32-11	2240-2245	leave	_	_	_	_
-32-12	2246-2250	them	object	giv	coref	33-7[102_0]
+32-12	2246-2250	them	object[179]	giv[179]	coref	33-7[183_179]
 32-13	2251-2252	a	_	_	_	_
 32-14	2253-2259	little	_	_	_	_
 32-15	2260-2265	loose	_	_	_	_
@@ -540,14 +540,14 @@
 32-17	2270-2271	.	_	_	_	_
 
 #Text=The straps wear out fastest around the adjusters over the course of numerous wash and dry cycles ( not to mention being out in the elements if they are work clothes ) .
-33-1	2272-2275	The	object[101]	giv[101]	coref	39-2[121_101]
-33-2	2276-2282	straps	object[101]	giv[101]	_	_
+33-1	2272-2275	The	object[182]	giv[182]	coref	39-2[218_182]
+33-2	2276-2282	straps	object[182]	giv[182]	_	_
 33-3	2283-2287	wear	_	_	_	_
 33-4	2288-2291	out	_	_	_	_
 33-5	2292-2299	fastest	_	_	_	_
 33-6	2300-2306	around	_	_	_	_
-33-7	2307-2310	the	object[102]	giv[102]	ana	34-2[106_102]
-33-8	2311-2320	adjusters	object[102]	giv[102]	_	_
+33-7	2307-2310	the	object[183]	giv[183]	ana	34-2[192_183]
+33-8	2311-2320	adjusters	object[183]	giv[183]	_	_
 33-9	2321-2325	over	_	_	_	_
 33-10	2326-2329	the	_	_	_	_
 33-11	2330-2336	course	_	_	_	_
@@ -567,7 +567,7 @@
 33-25	2399-2402	the	_	_	_	_
 33-26	2403-2411	elements	_	_	_	_
 33-27	2412-2414	if	_	_	_	_
-33-28	2415-2419	they	object	giv	coref	38-4[116_0]
+33-28	2415-2419	they	object[186]	giv[186]	coref	38-4[211_186]
 33-29	2420-2423	are	_	_	_	_
 33-30	2424-2428	work	_	_	_	_
 33-31	2429-2436	clothes	_	_	_	_
@@ -575,39 +575,39 @@
 33-33	2439-2440	.	_	_	_	_
 
 #Text=Moving them distributes the wear and tear of washing .
-34-1	2441-2447	Moving	event[105]	new[105]	ana	35-1[0_105]
-34-2	2448-2452	them	event[105]|object[106]	new[105]|giv[106]	_	_
-34-3	2453-2464	distributes	event[105]	new[105]	_	_
-34-4	2465-2468	the	event[105]	new[105]	_	_
-34-5	2469-2473	wear	event[105]	new[105]	_	_
-34-6	2474-2477	and	event[105]	new[105]	_	_
-34-7	2478-2482	tear	event[105]	new[105]	_	_
-34-8	2483-2485	of	event[105]	new[105]	_	_
-34-9	2486-2493	washing	event[105]	new[105]	_	_
-34-10	2494-2495	.	event[105]	new[105]	_	_
+34-1	2441-2447	Moving	event[191]	new[191]	ana	35-1[195_191]
+34-2	2448-2452	them	event[191]|object[192]	new[191]|giv[192]	_	_
+34-3	2453-2464	distributes	event[191]	new[191]	_	_
+34-4	2465-2468	the	event[191]	new[191]	_	_
+34-5	2469-2473	wear	event[191]	new[191]	_	_
+34-6	2474-2477	and	event[191]	new[191]	_	_
+34-7	2478-2482	tear	event[191]	new[191]	_	_
+34-8	2483-2485	of	event[191]	new[191]	_	_
+34-9	2486-2493	washing	event[191]	new[191]	_	_
+34-10	2494-2495	.	event[191]	new[191]	_	_
 
 #Text=This is the same idea as rotating tires .
-35-1	2496-2500	This	event	giv	_	_
+35-1	2496-2500	This	event[195]	giv[195]	_	_
 35-2	2501-2503	is	_	_	_	_
 35-3	2504-2507	the	_	_	_	_
 35-4	2508-2512	same	_	_	_	_
 35-5	2513-2517	idea	_	_	_	_
 35-6	2518-2520	as	_	_	_	_
 35-7	2521-2529	rotating	_	_	_	_
-35-8	2530-2535	tires	object	new	coref	36-5[111_0]
+35-8	2530-2535	tires	object[198]	new[198]	coref	36-5[202_198]
 35-9	2536-2537	.	_	_	_	_
 
 #Text=You know about rotating your tires , do n't you ?
-36-1	2538-2541	You	person	giv	ana	36-5[112_0]
+36-1	2538-2541	You	person[199]	giv[199]	ana	36-5[203_199]
 36-2	2542-2546	know	_	_	_	_
 36-3	2547-2552	about	_	_	_	_
 36-4	2553-2561	rotating	_	_	_	_
-36-5	2562-2566	your	object[111]|person[112]	giv[111]|giv[112]	ana	36-10[0_112]
-36-6	2567-2572	tires	object[111]	giv[111]	_	_
+36-5	2562-2566	your	object[202]|person[203]	giv[202]|giv[203]	ana	36-10[204_203]
+36-6	2567-2572	tires	object[202]	giv[202]	_	_
 36-7	2573-2574	,	_	_	_	_
 36-8	2575-2577	do	_	_	_	_
 36-9	2578-2581	n't	_	_	_	_
-36-10	2582-2585	you	person	giv	ana	38-2
+36-10	2582-2585	you	person[204]	giv[204]	ana	38-2[206_204]
 36-11	2586-2587	?	_	_	_	_
 
 #Text=Tips
@@ -615,10 +615,10 @@
 
 #Text=If you wash your overalls alone or in a light load , use about half the detergent called for and less water .
 38-1	2593-2595	If	_	_	_	_
-38-2	2596-2599	you	person	giv	ana	38-4[117_0]
+38-2	2596-2599	you	person[206]	giv[206]	ana	38-4[212_206]
 38-3	2600-2604	wash	_	_	_	_
-38-4	2605-2609	your	object[116]|person[117]	giv[116]|giv[117]	ana|ana	39-13[124_116]|39-11[123_117]
-38-5	2610-2618	overalls	object[116]	giv[116]	_	_
+38-4	2605-2609	your	object[211]|person[212]	giv[211]|giv[212]	ana|ana	39-13[221_211]|39-11[220_212]
+38-5	2610-2618	overalls	object[211]	giv[211]	_	_
 38-6	2619-2624	alone	_	_	_	_
 38-7	2625-2627	or	_	_	_	_
 38-8	2628-2630	in	_	_	_	_
@@ -639,26 +639,26 @@
 38-23	2701-2702	.	_	_	_	_
 
 #Text=Leave the straps fastened and twist-tied to the bib when you throw them in the dryer .
-39-1	2703-2708	Leave	event[120]	new[120]	ana	40-1[0_120]
-39-2	2709-2712	the	event[120]|object[121]	new[120]|giv[121]	_	_
-39-3	2713-2719	straps	event[120]|object[121]	new[120]|giv[121]	_	_
-39-4	2720-2728	fastened	event[120]	new[120]	_	_
-39-5	2729-2732	and	event[120]	new[120]	_	_
-39-6	2733-2743	twist-tied	event[120]	new[120]	_	_
-39-7	2744-2746	to	event[120]	new[120]	_	_
-39-8	2747-2750	the	event[120]|object[122]	new[120]|giv[122]	_	_
-39-9	2751-2754	bib	event[120]|object[122]	new[120]|giv[122]	_	_
-39-10	2755-2759	when	event[120]	new[120]	_	_
-39-11	2760-2763	you	event[120]|person[123]	new[120]|giv[123]	ana	40-12[0_123]
-39-12	2764-2769	throw	event[120]	new[120]	_	_
-39-13	2770-2774	them	event[120]|object[124]	new[120]|giv[124]	ana	40-18[0_124]
-39-14	2775-2777	in	event[120]	new[120]	_	_
-39-15	2778-2781	the	event[120]	new[120]	_	_
-39-16	2782-2787	dryer	event[120]	new[120]	_	_
-39-17	2788-2789	.	event[120]	new[120]	_	_
+39-1	2703-2708	Leave	event[217]	new[217]	ana	40-1[225_217]
+39-2	2709-2712	the	event[217]|object[218]	new[217]|giv[218]	_	_
+39-3	2713-2719	straps	event[217]|object[218]	new[217]|giv[218]	_	_
+39-4	2720-2728	fastened	event[217]	new[217]	_	_
+39-5	2729-2732	and	event[217]	new[217]	_	_
+39-6	2733-2743	twist-tied	event[217]	new[217]	_	_
+39-7	2744-2746	to	event[217]	new[217]	_	_
+39-8	2747-2750	the	event[217]|object[219]	new[217]|giv[219]	_	_
+39-9	2751-2754	bib	event[217]|object[219]	new[217]|giv[219]	_	_
+39-10	2755-2759	when	event[217]	new[217]	_	_
+39-11	2760-2763	you	event[217]|person[220]	new[217]|giv[220]	ana	40-12[228_220]
+39-12	2764-2769	throw	event[217]	new[217]	_	_
+39-13	2770-2774	them	event[217]|object[221]	new[217]|giv[221]	ana	40-18[229_221]
+39-14	2775-2777	in	event[217]	new[217]	_	_
+39-15	2778-2781	the	event[217]	new[217]	_	_
+39-16	2782-2787	dryer	event[217]	new[217]	_	_
+39-17	2788-2789	.	event[217]	new[217]	_	_
 
 #Text=This will cut down on some of the racket , but you 're still going to hear them .
-40-1	2790-2794	This	event	giv	_	_
+40-1	2790-2794	This	event[225]	giv[225]	_	_
 40-2	2795-2799	will	_	_	_	_
 40-3	2800-2803	cut	_	_	_	_
 40-4	2804-2808	down	_	_	_	_
@@ -669,13 +669,13 @@
 40-9	2824-2830	racket	_	_	_	_
 40-10	2831-2832	,	_	_	_	_
 40-11	2833-2836	but	_	_	_	_
-40-12	2837-2840	you	person	giv	ana	43-18[137_0]
+40-12	2837-2840	you	person[228]	giv[228]	ana	43-18[242_228]
 40-13	2841-2844	're	_	_	_	_
 40-14	2845-2850	still	_	_	_	_
 40-15	2851-2856	going	_	_	_	_
 40-16	2857-2859	to	_	_	_	_
 40-17	2860-2864	hear	_	_	_	_
-40-18	2865-2869	them	object	giv	_	_
+40-18	2865-2869	them	object[229]	giv[229]	_	_
 40-19	2870-2871	.	_	_	_	_
 
 #Text=Warnings
@@ -710,8 +710,8 @@
 43-5	3017-3021	hold	_	_	_	_
 43-6	3022-3024	up	_	_	_	_
 43-7	3025-3027	in	_	_	_	_
-43-8	3028-3031	the	event[135]	giv[135]	_	_
-43-9	3032-3036	wash	event[135]	giv[135]	_	_
+43-8	3028-3031	the	event[240]	giv[240]	_	_
+43-9	3032-3036	wash	event[240]	giv[240]	_	_
 43-10	3037-3038	,	_	_	_	_
 43-11	3039-3042	but	_	_	_	_
 43-12	3043-3046	may	_	_	_	_
@@ -720,7 +720,7 @@
 43-15	3054-3057	not	_	_	_	_
 43-16	3058-3062	melt	_	_	_	_
 43-17	3063-3065	in	_	_	_	_
-43-18	3066-3070	your	person[137]	giv[137]	_	_
+43-18	3066-3070	your	person[242]	giv[242]	_	_
 43-19	3071-3076	dryer	_	_	_	_
 43-20	3077-3078	.	_	_	_	_
 

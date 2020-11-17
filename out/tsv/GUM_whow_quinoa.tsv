@@ -1,4 +1,4 @@
-#FORMAT=WebAnno TSV 3
+#FORMAT=WebAnno TSV 3.2
 #T_SP=webanno.custom.Referent|entity|infstat
 #T_RL=webanno.custom.Coref|type|BT_webanno.custom.Referent
 
@@ -10,23 +10,23 @@
 1-4	15-21	Quinoa	_	_	_	_
 
 #Text=Quinoa is known as the little rice of Peru .
-2-1	22-28	Quinoa	substance	giv	coref	2-5[3_0]
+2-1	22-28	Quinoa	plant[2]	giv[2]	coref	2-5[5_2]
 2-2	29-31	is	_	_	_	_
 2-3	32-37	known	_	_	_	_
 2-4	38-40	as	_	_	_	_
-2-5	41-44	the	substance[3]	giv[3]	_	_
-2-6	45-51	little	substance[3]	giv[3]	_	_
-2-7	52-56	rice	substance[3]	giv[3]	_	_
-2-8	57-59	of	_	_	_	_
-2-9	60-64	Peru	_	_	_	_
+2-5	41-44	the	plant[5]	giv[5]	coref	3-4[9_5]
+2-6	45-51	little	plant[5]	giv[5]	_	_
+2-7	52-56	rice	plant[5]	giv[5]	_	_
+2-8	57-59	of	plant[5]	giv[5]	_	_
+2-9	60-64	Peru	plant[5]	giv[5]	_	_
 2-10	65-66	.	_	_	_	_
 
 #Text=The Incas treated the crop as sacred and referred to quinoa as " chisaya mama " or " mother of all grains . " [ 1 ]
 3-1	67-70	The	_	_	_	_
 3-2	71-76	Incas	_	_	_	_
 3-3	77-84	treated	_	_	_	_
-3-4	85-88	the	_	_	_	_
-3-5	89-93	crop	_	_	_	_
+3-4	85-88	the	plant[9]	giv[9]	_	_
+3-5	89-93	crop	plant[9]	giv[9]	_	_
 3-6	94-96	as	_	_	_	_
 3-7	97-103	sacred	_	_	_	_
 3-8	104-107	and	_	_	_	_
@@ -73,7 +73,7 @@
 4-20	283-284	"	_	_	_	_
 
 #Text=Quinoa is rich in protein and much lighter than other grains .
-5-1	285-291	Quinoa	substance	giv	ana	6-1
+5-1	285-291	Quinoa	substance[23]	acc[23]	ana	6-1[28_23]
 5-2	292-294	is	_	_	_	_
 5-3	295-299	rich	_	_	_	_
 5-4	300-302	in	_	_	_	_
@@ -87,7 +87,7 @@
 5-12	346-347	.	_	_	_	_
 
 #Text=It is much easier to prepare than rice and is rapidly gaining in popularity , especially among vegetarians who value its high protein levels .
-6-1	348-350	It	substance	giv	ana	6-21[22_0]
+6-1	348-350	It	substance[28]	giv[28]	ana	6-21[36_28]
 6-2	351-353	is	_	_	_	_
 6-3	354-358	much	_	_	_	_
 6-4	359-365	easier	_	_	_	_
@@ -107,7 +107,7 @@
 6-18	443-454	vegetarians	_	_	_	_
 6-19	455-458	who	_	_	_	_
 6-20	459-464	value	_	_	_	_
-6-21	465-468	its	substance[22]	giv[22]	_	_
+6-21	465-468	its	substance[36]	giv[36]	_	_
 6-22	469-473	high	_	_	_	_
 6-23	474-481	protein	_	_	_	_
 6-24	482-488	levels	_	_	_	_
@@ -117,9 +117,9 @@
 7-1	491-502	Ingredients	_	_	_	_
 
 #Text=1 cup quinoa
-8-1	503-504	1	substance[25]	acc[25]	coref	13-2[33_25]
-8-2	505-508	cup	substance[25]	acc[25]	_	_
-8-3	509-515	quinoa	substance[25]	acc[25]	_	_
+8-1	503-504	1	substance[42]	acc[42]	coref	13-2[51_42]
+8-2	505-508	cup	substance[42]	acc[42]	_	_
+8-3	509-515	quinoa	substance[42]	acc[42]	_	_
 
 #Text=2 cups water ( or broth )
 9-1	516-517	2	_	_	_	_
@@ -157,23 +157,23 @@
 12-7	633-636	Top	_	_	_	_
 
 #Text=Rinse the grains of quinoa in water .
-13-1	637-642	Rinse	abstract[32]	new[32]	coref	14-4[36_32]
-13-2	643-646	the	abstract[32]|substance[33]	new[32]|giv[33]	coref	15-5[41_33]
-13-3	647-653	grains	abstract[32]|substance[33]	new[32]|giv[33]	_	_
-13-4	654-656	of	abstract[32]|substance[33]	new[32]|giv[33]	_	_
-13-5	657-663	quinoa	abstract[32]|substance[33]	new[32]|giv[33]	_	_
-13-6	664-666	in	abstract[32]	new[32]	_	_
-13-7	667-672	water	abstract[32]	new[32]	_	_
+13-1	637-642	Rinse	event[50]	new[50]	coref	14-4[56_50]
+13-2	643-646	the	event[50]|substance[51]	new[50]|giv[51]	coref	15-5[62_51]
+13-3	647-653	grains	event[50]|substance[51]	new[50]|giv[51]	_	_
+13-4	654-656	of	event[50]|substance[51]	new[50]|giv[51]	_	_
+13-5	657-663	quinoa	event[50]|substance[51]	new[50]|giv[51]	_	_
+13-6	664-666	in	event[50]	new[50]	_	_
+13-7	667-672	water	event[50]	new[50]	_	_
 13-8	673-674	.	_	_	_	_
 
 #Text=You can skip this step if you have purchased pre-rinsed quinoa in a box .
-14-1	675-678	You	person	new	ana	14-7
+14-1	675-678	You	person[53]	acc[53]	ana	14-7[57_53]
 14-2	679-682	can	_	_	_	_
 14-3	683-687	skip	_	_	_	_
-14-4	688-692	this	abstract[36]	giv[36]	_	_
-14-5	693-697	step	abstract[36]	giv[36]	_	_
+14-4	688-692	this	event[56]	giv[56]	_	_
+14-5	693-697	step	event[56]	giv[56]	_	_
 14-6	698-700	if	_	_	_	_
-14-7	701-704	you	person	giv	ana	26-10
+14-7	701-704	you	person[57]	giv[57]	ana	26-10[113_57]
 14-8	705-709	have	_	_	_	_
 14-9	710-719	purchased	_	_	_	_
 14-10	720-730	pre-rinsed	_	_	_	_
@@ -187,24 +187,24 @@
 15-1	749-751	To	_	_	_	_
 15-2	752-757	rinse	_	_	_	_
 15-3	758-759	,	_	_	_	_
-15-4	760-765	place	abstract[40]	new[40]	coref	16-1[0_40]
-15-5	766-769	the	abstract[40]|substance[41]	new[40]|giv[41]	coref	16-13[48_41]
-15-6	770-778	measured	abstract[40]|substance[41]	new[40]|giv[41]	_	_
-15-7	779-784	grain	abstract[40]|substance[41]	new[40]|giv[41]	_	_
-15-8	785-787	in	abstract[40]	new[40]	_	_
-15-9	788-789	a	abstract[40]	new[40]	_	_
-15-10	790-798	strainer	abstract[40]	new[40]	_	_
-15-11	799-804	under	abstract[40]	new[40]	_	_
-15-12	805-812	running	abstract[40]	new[40]	_	_
-15-13	813-818	water	abstract[40]	new[40]	_	_
-15-14	819-822	for	abstract[40]	new[40]	_	_
-15-15	823-824	a	abstract[40]	new[40]	_	_
-15-16	825-828	few	abstract[40]	new[40]	_	_
-15-17	829-836	minutes	abstract[40]	new[40]	_	_
+15-4	760-765	place	event[61]	new[61]	ana	16-1[66_61]
+15-5	766-769	the	event[61]|substance[62]	new[61]|giv[62]	coref	16-13[70_62]
+15-6	770-778	measured	event[61]|substance[62]	new[61]|giv[62]	_	_
+15-7	779-784	grain	event[61]|substance[62]	new[61]|giv[62]	_	_
+15-8	785-787	in	event[61]	new[61]	_	_
+15-9	788-789	a	event[61]	new[61]	_	_
+15-10	790-798	strainer	event[61]	new[61]	_	_
+15-11	799-804	under	event[61]	new[61]	_	_
+15-12	805-812	running	event[61]	new[61]	_	_
+15-13	813-818	water	event[61]	new[61]	_	_
+15-14	819-822	for	event[61]	new[61]	_	_
+15-15	823-824	a	event[61]	new[61]	_	_
+15-16	825-828	few	event[61]	new[61]	_	_
+15-17	829-836	minutes	event[61]	new[61]	_	_
 15-18	837-838	.	_	_	_	_
 
 #Text=This is necessary to remove the excess saponins on the outside of the grains which impart a bitter flavor to quinoa if not removed .
-16-1	839-843	This	abstract	acc	_	_
+16-1	839-843	This	event[66]	acc[66]	_	_
 16-2	844-846	is	_	_	_	_
 16-3	847-856	necessary	_	_	_	_
 16-4	857-859	to	_	_	_	_
@@ -216,8 +216,8 @@
 16-10	890-893	the	_	_	_	_
 16-11	894-901	outside	_	_	_	_
 16-12	902-904	of	_	_	_	_
-16-13	905-908	the	substance[48]	giv[48]	_	_
-16-14	909-915	grains	substance[48]	giv[48]	_	_
+16-13	905-908	the	substance[70]	giv[70]	_	_
+16-14	909-915	grains	substance[70]	giv[70]	_	_
 16-15	916-921	which	_	_	_	_
 16-16	922-928	impart	_	_	_	_
 16-17	929-930	a	_	_	_	_
@@ -232,7 +232,7 @@
 
 #Text=Toast quinoa in a saucepan ( optional ) .
 17-1	972-977	Toast	_	_	_	_
-17-2	978-984	quinoa	substance[52]	giv[52]	coref	19-2[57_52]
+17-2	978-984	quinoa	substance[75]	giv[75]	coref	19-2[81_75]
 17-3	985-987	in	_	_	_	_
 17-4	988-989	a	_	_	_	_
 17-5	990-998	saucepan	_	_	_	_
@@ -258,18 +258,18 @@
 
 #Text=Add the quinoa and cook for about 1 minute .
 19-1	1074-1077	Add	_	_	_	_
-19-2	1078-1081	the	substance[57]	giv[57]	coref	21-2[63_57]
-19-3	1082-1088	quinoa	substance[57]	giv[57]	_	_
+19-2	1078-1081	the	substance[81]	giv[81]	coref	21-2[88_81]
+19-3	1082-1088	quinoa	substance[81]	giv[81]	_	_
 19-4	1089-1092	and	_	_	_	_
-19-5	1093-1097	cook	event[58]	new[58]	coref	20-1[0_58]
-19-6	1098-1101	for	event[58]	new[58]	_	_
-19-7	1102-1107	about	event[58]	new[58]	_	_
-19-8	1108-1109	1	event[58]	new[58]	_	_
-19-9	1110-1116	minute	event[58]	new[58]	_	_
+19-5	1093-1097	cook	event[82]	new[82]	ana	20-1[84_82]
+19-6	1098-1101	for	event[82]	new[82]	_	_
+19-7	1102-1107	about	event[82]	new[82]	_	_
+19-8	1108-1109	1	event[82]	new[82]	_	_
+19-9	1110-1116	minute	event[82]	new[82]	_	_
 19-10	1117-1118	.	_	_	_	_
 
 #Text=This brings out quinoa 's nutty flavor .
-20-1	1119-1123	This	event	giv	_	_
+20-1	1119-1123	This	event[84]	giv[84]	_	_
 20-2	1124-1130	brings	_	_	_	_
 20-3	1131-1134	out	_	_	_	_
 20-4	1135-1141	quinoa	_	_	_	_
@@ -280,8 +280,8 @@
 
 #Text=Cook the quinoa .
 21-1	1160-1164	Cook	_	_	_	_
-21-2	1165-1168	the	substance[63]	giv[63]	_	_
-21-3	1169-1175	quinoa	substance[63]	giv[63]	_	_
+21-2	1165-1168	the	substance[88]	giv[88]	_	_
+21-3	1169-1175	quinoa	substance[88]	giv[88]	_	_
 21-4	1176-1177	.	_	_	_	_
 
 #Text=Place two parts water or stock to one part of quinoa in a saucepan over medium-high heat and bring to a boil .
@@ -292,13 +292,13 @@
 22-5	1200-1202	or	_	_	_	_
 22-6	1203-1208	stock	_	_	_	_
 22-7	1209-1211	to	_	_	_	_
-22-8	1212-1215	one	substance[66]	giv[66]	coref	24-2[71_66]
-22-9	1216-1220	part	substance[66]	giv[66]	_	_
-22-10	1221-1223	of	substance[66]	giv[66]	_	_
-22-11	1224-1230	quinoa	substance[66]	giv[66]	_	_
+22-8	1212-1215	one	substance[92]	giv[92]	coref	24-2[98_92]
+22-9	1216-1220	part	substance[92]	giv[92]	_	_
+22-10	1221-1223	of	substance[92]	giv[92]	_	_
+22-11	1224-1230	quinoa	substance[92]	giv[92]	_	_
 22-12	1231-1233	in	_	_	_	_
-22-13	1234-1235	a	object[67]	new[67]	coref	28-15[94_67]
-22-14	1236-1244	saucepan	object[67]	new[67]	_	_
+22-13	1234-1235	a	object[93]	new[93]	coref	28-15[129_93]
+22-14	1236-1244	saucepan	object[93]	new[93]	_	_
 22-15	1245-1249	over	_	_	_	_
 22-16	1250-1261	medium-high	_	_	_	_
 22-17	1262-1266	heat	_	_	_	_
@@ -313,29 +313,29 @@
 23-1	1289-1294	Cover	_	_	_	_
 23-2	1295-1298	and	_	_	_	_
 23-3	1299-1305	reduce	_	_	_	_
-23-4	1306-1310	heat	abstract	giv	coref	26-14[85_0]
+23-4	1306-1310	heat	abstract[96]	giv[96]	coref	26-14[117_96]
 23-5	1311-1313	to	_	_	_	_
 23-6	1314-1317	low	_	_	_	_
 23-7	1318-1319	.	_	_	_	_
 
 #Text=Simmer the quinoa for about 15 minutes or until the grain becomes translucent and the white germ forms a visible spiral on the exterior of the quinoa grain .
 24-1	1320-1326	Simmer	_	_	_	_
-24-2	1327-1330	the	substance[71]	giv[71]	coref	24-10[73_71]
-24-3	1331-1337	quinoa	substance[71]	giv[71]	_	_
+24-2	1327-1330	the	substance[98]	giv[98]	coref	24-10[100_98]
+24-3	1331-1337	quinoa	substance[98]	giv[98]	_	_
 24-4	1338-1341	for	_	_	_	_
 24-5	1342-1347	about	_	_	_	_
 24-6	1348-1350	15	_	_	_	_
 24-7	1351-1358	minutes	_	_	_	_
 24-8	1359-1361	or	_	_	_	_
 24-9	1362-1367	until	_	_	_	_
-24-10	1368-1371	the	substance[73]	giv[73]	_	_
-24-11	1372-1377	grain	substance[73]	giv[73]	_	_
+24-10	1368-1371	the	substance[100]	giv[100]	coref	24-26[104_100]
+24-11	1372-1377	grain	substance[100]	giv[100]	_	_
 24-12	1378-1385	becomes	_	_	_	_
 24-13	1386-1397	translucent	_	_	_	_
 24-14	1398-1401	and	_	_	_	_
-24-15	1402-1405	the	object[74]	acc[74]	coref	25-11[79_74]
-24-16	1406-1411	white	object[74]	acc[74]	_	_
-24-17	1412-1416	germ	object[74]	acc[74]	_	_
+24-15	1402-1405	the	object[101]	acc[101]	coref	25-11[106_101]
+24-16	1406-1411	white	object[101]	acc[101]	_	_
+24-17	1412-1416	germ	object[101]	acc[101]	_	_
 24-18	1417-1422	forms	_	_	_	_
 24-19	1423-1424	a	_	_	_	_
 24-20	1425-1432	visible	_	_	_	_
@@ -344,9 +344,9 @@
 24-23	1443-1446	the	_	_	_	_
 24-24	1447-1455	exterior	_	_	_	_
 24-25	1456-1458	of	_	_	_	_
-24-26	1459-1462	the	_	_	_	_
-24-27	1463-1469	quinoa	_	_	_	_
-24-28	1470-1475	grain	_	_	_	_
+24-26	1459-1462	the	substance[104]	giv[104]	_	_
+24-27	1463-1469	quinoa	substance[104]	giv[104]	_	_
+24-28	1470-1475	grain	substance[104]	giv[104]	_	_
 24-29	1476-1477	.	_	_	_	_
 
 #Text=Try to ensure there is an al dente bite to the germ , in the same way as pasta .
@@ -360,8 +360,8 @@
 25-8	1507-1512	dente	_	_	_	_
 25-9	1513-1517	bite	_	_	_	_
 25-10	1518-1520	to	_	_	_	_
-25-11	1521-1524	the	substance[79]	giv[79]	coref	30-16[98_79]
-25-12	1525-1529	germ	substance[79]	giv[79]	_	_
+25-11	1521-1524	the	object[106]	giv[106]	coref	30-16[134_106]
+25-12	1525-1529	germ	object[106]	giv[106]	_	_
 25-13	1530-1531	,	_	_	_	_
 25-14	1532-1534	in	_	_	_	_
 25-15	1535-1538	the	_	_	_	_
@@ -372,7 +372,7 @@
 25-20	1557-1558	.	_	_	_	_
 
 #Text=Quinoa will continue cooking for a bit even after you take it off the heat .
-26-1	1559-1565	Quinoa	substance	giv	ana	26-12
+26-1	1559-1565	Quinoa	substance[109]	giv[109]	ana	26-12[114_109]
 26-2	1566-1570	will	_	_	_	_
 26-3	1571-1579	continue	_	_	_	_
 26-4	1580-1587	cooking	_	_	_	_
@@ -381,37 +381,37 @@
 26-7	1594-1597	bit	_	_	_	_
 26-8	1598-1602	even	_	_	_	_
 26-9	1603-1608	after	_	_	_	_
-26-10	1609-1612	you	person	giv	ana	30-10
+26-10	1609-1612	you	person[113]	giv[113]	ana	30-10[132_113]
 26-11	1613-1617	take	_	_	_	_
-26-12	1618-1620	it	substance	giv	coref	27-2[86_0]
+26-12	1618-1620	it	substance[114]	giv[114]	coref	27-2[118_114]
 26-13	1621-1624	off	_	_	_	_
-26-14	1625-1628	the	abstract[85]	giv[85]	coref	27-5[87_85]
-26-15	1629-1633	heat	abstract[85]	giv[85]	_	_
+26-14	1625-1628	the	abstract[117]	giv[117]	coref	27-5[119_117]
+26-15	1629-1633	heat	abstract[117]	giv[117]	_	_
 26-16	1634-1635	.	_	_	_	_
 
 #Text=Take the quinoa off the heat and let stand , covered , for 5 minutes .
 27-1	1636-1640	Take	_	_	_	_
-27-2	1641-1644	the	substance[86]	giv[86]	ana	28-4[0_86]
-27-3	1645-1651	quinoa	substance[86]	giv[86]	_	_
+27-2	1641-1644	the	substance[118]	giv[118]	ana	28-4[123_118]
+27-3	1645-1651	quinoa	substance[118]	giv[118]	_	_
 27-4	1652-1655	off	_	_	_	_
-27-5	1656-1659	the	abstract[87]	giv[87]	_	_
-27-6	1660-1664	heat	abstract[87]	giv[87]	_	_
+27-5	1656-1659	the	abstract[119]	giv[119]	_	_
+27-6	1660-1664	heat	abstract[119]	giv[119]	_	_
 27-7	1665-1668	and	_	_	_	_
-27-8	1669-1672	let	event[88]	new[88]	ana	28-1[0_88]
-27-9	1673-1678	stand	event[88]	new[88]	_	_
-27-10	1679-1680	,	event[88]	new[88]	_	_
-27-11	1681-1688	covered	event[88]	new[88]	_	_
-27-12	1689-1690	,	event[88]	new[88]	_	_
-27-13	1691-1694	for	event[88]	new[88]	_	_
-27-14	1695-1696	5	event[88]	new[88]	_	_
-27-15	1697-1704	minutes	event[88]	new[88]	_	_
+27-8	1669-1672	let	event[120]	new[120]	ana	28-1[122_120]
+27-9	1673-1678	stand	event[120]	new[120]	_	_
+27-10	1679-1680	,	event[120]	new[120]	_	_
+27-11	1681-1688	covered	event[120]	new[120]	_	_
+27-12	1689-1690	,	event[120]	new[120]	_	_
+27-13	1691-1694	for	event[120]	new[120]	_	_
+27-14	1695-1696	5	event[120]	new[120]	_	_
+27-15	1697-1704	minutes	event[120]	new[120]	_	_
 27-16	1705-1706	.	_	_	_	_
 
 #Text=This will give it time to absorb any moisture that might still be in the pan .
-28-1	1707-1711	This	event	giv	_	_
+28-1	1707-1711	This	event[122]	giv[122]	_	_
 28-2	1712-1716	will	_	_	_	_
 28-3	1717-1721	give	_	_	_	_
-28-4	1722-1724	it	substance	giv	coref	30-1[96_0]
+28-4	1722-1724	it	substance[123]	giv[123]	coref	30-1[131_123]
 28-5	1725-1729	time	_	_	_	_
 28-6	1730-1732	to	_	_	_	_
 28-7	1733-1739	absorb	_	_	_	_
@@ -422,8 +422,8 @@
 28-12	1764-1769	still	_	_	_	_
 28-13	1770-1772	be	_	_	_	_
 28-14	1773-1775	in	_	_	_	_
-28-15	1776-1779	the	object[94]	giv[94]	_	_
-28-16	1780-1783	pan	object[94]	giv[94]	_	_
+28-15	1776-1779	the	object[129]	giv[129]	_	_
+28-16	1780-1783	pan	object[129]	giv[129]	_	_
 28-17	1784-1785	.	_	_	_	_
 
 #Text=Uncover and fluff with a fork .
@@ -436,8 +436,8 @@
 29-7	1816-1817	.	_	_	_	_
 
 #Text=The quinoa should look light and fluffy , and you should be able to see the germ separating from the seed .
-30-1	1818-1821	The	substance[96]	giv[96]	_	_
-30-2	1822-1828	quinoa	substance[96]	giv[96]	_	_
+30-1	1818-1821	The	substance[131]	giv[131]	coref	34-4[141_131]
+30-2	1822-1828	quinoa	substance[131]	giv[131]	_	_
 30-3	1829-1835	should	_	_	_	_
 30-4	1836-1840	look	_	_	_	_
 30-5	1841-1846	light	_	_	_	_
@@ -445,18 +445,18 @@
 30-7	1851-1857	fluffy	_	_	_	_
 30-8	1858-1859	,	_	_	_	_
 30-9	1860-1863	and	_	_	_	_
-30-10	1864-1867	you	person	giv	ana	38-5
+30-10	1864-1867	you	person[132]	giv[132]	ana	38-5[150_132]
 30-11	1868-1874	should	_	_	_	_
 30-12	1875-1877	be	_	_	_	_
 30-13	1878-1882	able	_	_	_	_
 30-14	1883-1885	to	_	_	_	_
 30-15	1886-1889	see	_	_	_	_
-30-16	1890-1893	the	object[98]	giv[98]	_	_
-30-17	1894-1898	germ	object[98]	giv[98]	_	_
-30-18	1899-1909	separating	object[98]	giv[98]	_	_
-30-19	1910-1914	from	object[98]	giv[98]	_	_
-30-20	1915-1918	the	object[98]	giv[98]	_	_
-30-21	1919-1923	seed	object[98]	giv[98]	_	_
+30-16	1890-1893	the	object[134]	giv[134]	_	_
+30-17	1894-1898	germ	object[134]	giv[134]	_	_
+30-18	1899-1909	separating	object[134]	giv[134]	_	_
+30-19	1910-1914	from	object[134]	giv[134]	_	_
+30-20	1915-1918	the	object[134]	giv[134]	_	_
+30-21	1919-1923	seed	object[134]	giv[134]	_	_
 30-22	1924-1925	.	_	_	_	_
 
 #Text=Serve .
@@ -490,8 +490,8 @@
 34-1	2046-2054	Stir-fry	_	_	_	_
 34-2	2055-2056	,	_	_	_	_
 34-3	2057-2062	using	_	_	_	_
-34-4	2063-2066	the	_	_	_	_
-34-5	2067-2073	quinoa	_	_	_	_
+34-4	2063-2066	the	substance[141]	giv[141]	_	_
+34-5	2067-2073	quinoa	substance[141]	giv[141]	_	_
 34-6	2074-2076	as	_	_	_	_
 34-7	2077-2078	a	_	_	_	_
 34-8	2079-2089	substitute	_	_	_	_
@@ -519,7 +519,7 @@
 38-2	2147-2150	any	_	_	_	_
 38-3	2151-2156	other	_	_	_	_
 38-4	2157-2168	combination	_	_	_	_
-38-5	2169-2172	you	person	giv	ana	41-2
+38-5	2169-2172	you	person[150]	giv[150]	ana	41-2[160_150]
 38-6	2173-2176	can	_	_	_	_
 38-7	2177-2182	think	_	_	_	_
 38-8	2183-2185	of	_	_	_	_
@@ -535,30 +535,30 @@
 39-7	2215-2221	Cooker	_	_	_	_
 
 #Text=Rinse 1 cup of quinoa in a fine mesh sieve under cold water .
-40-1	2222-2227	Rinse	abstract[114]	new[114]	coref	41-7[120_114]
-40-2	2228-2229	1	abstract[114]	new[114]	_	_
-40-3	2230-2233	cup	abstract[114]	new[114]	_	_
-40-4	2234-2236	of	abstract[114]	new[114]	_	_
-40-5	2237-2243	quinoa	abstract[114]	new[114]	_	_
-40-6	2244-2246	in	abstract[114]	new[114]	_	_
-40-7	2247-2248	a	abstract[114]	new[114]	_	_
-40-8	2249-2253	fine	abstract[114]	new[114]	_	_
-40-9	2254-2258	mesh	abstract[114]	new[114]	_	_
-40-10	2259-2264	sieve	abstract[114]	new[114]	_	_
-40-11	2265-2270	under	abstract[114]	new[114]	_	_
-40-12	2271-2275	cold	abstract[114]	new[114]	_	_
-40-13	2276-2281	water	abstract[114]	new[114]	_	_
+40-1	2222-2227	Rinse	event[156]	new[156]	coref	41-7[163_156]
+40-2	2228-2229	1	event[156]	new[156]	_	_
+40-3	2230-2233	cup	event[156]	new[156]	_	_
+40-4	2234-2236	of	event[156]	new[156]	_	_
+40-5	2237-2243	quinoa	event[156]	new[156]	_	_
+40-6	2244-2246	in	event[156]	new[156]	_	_
+40-7	2247-2248	a	event[156]	new[156]	_	_
+40-8	2249-2253	fine	event[156]	new[156]	_	_
+40-9	2254-2258	mesh	event[156]	new[156]	_	_
+40-10	2259-2264	sieve	event[156]	new[156]	_	_
+40-11	2265-2270	under	event[156]	new[156]	_	_
+40-12	2271-2275	cold	event[156]	new[156]	_	_
+40-13	2276-2281	water	event[156]	new[156]	_	_
 40-14	2282-2283	.	_	_	_	_
 
 #Text=If you bought packaged quinoa , this step is n't always necessary , but it 's better to be safe than sorry .
 41-1	2284-2286	If	_	_	_	_
-41-2	2287-2290	you	person	giv	ana	49-9[146_0]
+41-2	2287-2290	you	person[160]	giv[160]	ana	49-9[202_160]
 41-3	2291-2297	bought	_	_	_	_
 41-4	2298-2306	packaged	_	_	_	_
 41-5	2307-2313	quinoa	_	_	_	_
 41-6	2314-2315	,	_	_	_	_
-41-7	2316-2320	this	abstract[120]	giv[120]	_	_
-41-8	2321-2325	step	abstract[120]	giv[120]	_	_
+41-7	2316-2320	this	event[163]	giv[163]	_	_
+41-8	2321-2325	step	event[163]	giv[163]	_	_
 41-9	2326-2328	is	_	_	_	_
 41-10	2329-2332	n't	_	_	_	_
 41-11	2333-2339	always	_	_	_	_
@@ -568,19 +568,19 @@
 41-15	2356-2358	it	_	_	_	_
 41-16	2359-2361	's	_	_	_	_
 41-17	2362-2368	better	_	_	_	_
-41-18	2369-2371	to	_	_	_	_
-41-19	2372-2374	be	_	_	_	_
-41-20	2375-2379	safe	_	_	_	_
+41-18	2369-2371	to	event[166]	new[166]	cata	41-15[164_166]
+41-19	2372-2374	be	event[166]	new[166]	_	_
+41-20	2375-2379	safe	event[166]	new[166]	_	_
 41-21	2380-2384	than	_	_	_	_
 41-22	2385-2390	sorry	_	_	_	_
 41-23	2391-2392	.	_	_	_	_
 
 #Text=Pour quinoa into rice cooker .
 42-1	2393-2397	Pour	_	_	_	_
-42-2	2398-2404	quinoa	substance	giv	coref	43-6[127_0]
+42-2	2398-2404	quinoa	substance[167]	giv[167]	coref	43-6[174_167]
 42-3	2405-2409	into	_	_	_	_
-42-4	2410-2414	rice	object[124]	giv[124]	coref	43-11[128_124]
-42-5	2415-2421	cooker	object[124]	giv[124]	_	_
+42-4	2410-2414	rice	object[169]	giv[169]	coref	43-11[175_169]
+42-5	2415-2421	cooker	object[169]	giv[169]	_	_
 42-6	2422-2423	.	_	_	_	_
 
 #Text=One option is to toast the quinoa before placing in the rice cooker .
@@ -589,14 +589,14 @@
 43-3	2435-2437	is	_	_	_	_
 43-4	2438-2440	to	_	_	_	_
 43-5	2441-2446	toast	_	_	_	_
-43-6	2447-2450	the	substance[127]	giv[127]	_	_
-43-7	2451-2457	quinoa	substance[127]	giv[127]	_	_
+43-6	2447-2450	the	substance[174]	giv[174]	_	_
+43-7	2451-2457	quinoa	substance[174]	giv[174]	_	_
 43-8	2458-2464	before	_	_	_	_
 43-9	2465-2472	placing	_	_	_	_
 43-10	2473-2475	in	_	_	_	_
-43-11	2476-2479	the	object[128]	giv[128]	coref	45-12[134_128]
-43-12	2480-2484	rice	object[128]	giv[128]	_	_
-43-13	2485-2491	cooker	object[128]	giv[128]	_	_
+43-11	2476-2479	the	object[175]	giv[175]	coref	45-12[184_175]
+43-12	2480-2484	rice	object[175]	giv[175]	_	_
+43-13	2485-2491	cooker	object[175]	giv[175]	_	_
 43-14	2492-2493	.	_	_	_	_
 
 #Text=See Step # 2 in Method One above for directions .
@@ -614,19 +614,19 @@
 
 #Text=Add 2 cups of liquid and 1/2 teaspoon of salt into the rice cooker .
 45-1	2544-2547	Add	_	_	_	_
-45-2	2548-2549	2	_	_	_	_
-45-3	2550-2554	cups	_	_	_	_
-45-4	2555-2557	of	_	_	_	_
-45-5	2558-2564	liquid	_	_	_	_
+45-2	2548-2549	2	substance[182]	new[182]	coref	65-16[271_182]
+45-3	2550-2554	cups	substance[182]	new[182]	_	_
+45-4	2555-2557	of	substance[182]	new[182]	_	_
+45-5	2558-2564	liquid	substance[182]	new[182]	_	_
 45-6	2565-2568	and	_	_	_	_
 45-7	2569-2572	1/2	_	_	_	_
 45-8	2573-2581	teaspoon	_	_	_	_
 45-9	2582-2584	of	_	_	_	_
 45-10	2585-2589	salt	_	_	_	_
 45-11	2590-2594	into	_	_	_	_
-45-12	2595-2598	the	object[134]	giv[134]	_	_
-45-13	2599-2603	rice	object[134]	giv[134]	_	_
-45-14	2604-2610	cooker	object[134]	giv[134]	_	_
+45-12	2595-2598	the	object[184]	giv[184]	_	_
+45-13	2599-2603	rice	object[184]	giv[184]	_	_
+45-14	2604-2610	cooker	object[184]	giv[184]	_	_
 45-15	2611-2612	.	_	_	_	_
 
 #Text=Water , chicken stock or broth , or vegetable stock all work .
@@ -679,11 +679,11 @@
 49-6	2817-2818	"	_	_	_	_
 49-7	2819-2825	option	_	_	_	_
 49-8	2826-2828	if	_	_	_	_
-49-9	2829-2833	your	person[146]	giv[146]	ana	49-13[0_146]
+49-9	2829-2833	your	person[202]	giv[202]	ana	49-13[204_202]
 49-10	2834-2838	rice	_	_	_	_
 49-11	2839-2845	cooker	_	_	_	_
 49-12	2846-2851	gives	_	_	_	_
-49-13	2852-2855	you	person	giv	_	_
+49-13	2852-2855	you	person[204]	giv[204]	_	_
 49-14	2856-2863	several	_	_	_	_
 49-15	2864-2871	options	_	_	_	_
 49-16	2872-2873	.	_	_	_	_
@@ -716,16 +716,16 @@
 
 #Text=Preheat oven to 350 ° F ( 177 ° C ) .
 53-1	2965-2972	Preheat	_	_	_	_
-53-2	2973-2977	oven	object	giv	coref	54-7[158_0]
+53-2	2973-2977	oven	object[213]	giv[213]	coref	54-7[220_213]
 53-3	2978-2980	to	_	_	_	_
-53-4	2981-2984	350	abstract[154]	new[154]	appos	53-7[234_154]
-53-5	2985-2986	°	abstract[154]	new[154]	_	_
-53-6	2987-2988	F	abstract[154]	new[154]	_	_
-53-7	2989-2990	(	abstract[234]	giv[234]	_	_
-53-8	2991-2994	177	abstract[234]	giv[234]	_	_
-53-9	2995-2996	°	abstract[234]	giv[234]	_	_
-53-10	2997-2998	C	abstract[234]	giv[234]	_	_
-53-11	2999-3000	)	abstract[234]	giv[234]	_	_
+53-4	2981-2984	350	abstract[215]	new[215]	appos	53-7[310_215]
+53-5	2985-2986	°	abstract[215]	new[215]	_	_
+53-6	2987-2988	F	abstract[215]	new[215]	_	_
+53-7	2989-2990	(	abstract[310]	giv[310]	_	_
+53-8	2991-2994	177	abstract[310]	giv[310]	_	_
+53-9	2995-2996	°	abstract[310]	giv[310]	_	_
+53-10	2997-2998	C	abstract[310]	giv[310]	_	_
+53-11	2999-3000	)	abstract[310]	giv[310]	_	_
 53-12	3001-3002	.	_	_	_	_
 
 #Text=Arrange rack in the middle of the oven .
@@ -735,13 +735,13 @@
 54-4	3019-3022	the	_	_	_	_
 54-5	3023-3029	middle	_	_	_	_
 54-6	3030-3032	of	_	_	_	_
-54-7	3033-3036	the	object[158]	giv[158]	coref	65-5[194_158]
-54-8	3037-3041	oven	object[158]	giv[158]	_	_
+54-7	3033-3036	the	object[220]	giv[220]	coref	65-5[269_220]
+54-8	3037-3041	oven	object[220]	giv[220]	_	_
 54-9	3042-3043	.	_	_	_	_
 
 #Text=Rinse quinoa thoroughly in a fine mesh seive under cold water .
 55-1	3044-3049	Rinse	_	_	_	_
-55-2	3050-3056	quinoa	substance	giv	coref	60-2[177_0]
+55-2	3050-3056	quinoa	substance[221]	giv[221]	coref	60-2[246_221]
 55-3	3057-3067	thoroughly	_	_	_	_
 55-4	3068-3070	in	_	_	_	_
 55-5	3071-3072	a	_	_	_	_
@@ -755,9 +755,9 @@
 
 #Text=In a medium saucepan , heat up 2 tablespoons vegetable oil over medium-low heat .
 56-1	3108-3110	In	_	_	_	_
-56-2	3111-3112	a	object[162]	new[162]	coref	57-18[170_162]
-56-3	3113-3119	medium	object[162]	new[162]	_	_
-56-4	3120-3128	saucepan	object[162]	new[162]	_	_
+56-2	3111-3112	a	object[225]	new[225]	coref	57-18[236_225]
+56-3	3113-3119	medium	object[225]	new[225]	_	_
+56-4	3120-3128	saucepan	object[225]	new[225]	_	_
 56-5	3129-3130	,	_	_	_	_
 56-6	3131-3135	heat	_	_	_	_
 56-7	3136-3138	up	_	_	_	_
@@ -774,7 +774,7 @@
 57-1	3190-3193	Add	_	_	_	_
 57-2	3194-3200	onions	_	_	_	_
 57-3	3201-3202	,	_	_	_	_
-57-4	3203-3210	peppers	plant	new	coref	59-2[173_0]
+57-4	3203-3210	peppers	plant[229]	new[229]	coref	59-2[241_229]
 57-5	3211-3212	,	_	_	_	_
 57-6	3213-3222	mushrooms	_	_	_	_
 57-7	3223-3224	,	_	_	_	_
@@ -788,8 +788,8 @@
 57-15	3264-3266	or	_	_	_	_
 57-16	3267-3271	herb	_	_	_	_
 57-17	3272-3276	into	_	_	_	_
-57-18	3277-3280	the	object[170]	giv[170]	coref	60-7[179_170]
-57-19	3281-3289	saucepan	object[170]	giv[170]	_	_
+57-18	3277-3280	the	object[236]	giv[236]	coref	60-7[249_236]
+57-19	3281-3289	saucepan	object[236]	giv[236]	_	_
 57-20	3290-3291	(	_	_	_	_
 57-21	3292-3300	optional	_	_	_	_
 57-22	3301-3302	)	_	_	_	_
@@ -797,9 +797,9 @@
 
 #Text=Cook onions until they are translucent , but not burned .
 58-1	3305-3309	Cook	_	_	_	_
-58-2	3310-3316	onions	plant	giv	ana	58-4
+58-2	3310-3316	onions	plant[237]	giv[237]	ana	58-4[238_237]
 58-3	3317-3322	until	_	_	_	_
-58-4	3323-3327	they	plant	giv	coref	59-8[175_0]
+58-4	3323-3327	they	plant[238]	giv[238]	coref	59-8[244_238]
 58-5	3328-3331	are	_	_	_	_
 58-6	3332-3343	translucent	_	_	_	_
 58-7	3344-3345	,	_	_	_	_
@@ -810,34 +810,34 @@
 
 #Text=Sweat the peppers or vegetables along with the onions .
 59-1	3363-3368	Sweat	_	_	_	_
-59-2	3369-3372	the	plant[173]	giv[173]	_	_
-59-3	3373-3380	peppers	plant[173]	giv[173]	_	_
+59-2	3369-3372	the	plant[241]	giv[241]	_	_
+59-3	3373-3380	peppers	plant[241]	giv[241]	_	_
 59-4	3381-3383	or	_	_	_	_
 59-5	3384-3394	vegetables	_	_	_	_
 59-6	3395-3400	along	_	_	_	_
 59-7	3401-3405	with	_	_	_	_
-59-8	3406-3409	the	plant[175]	giv[175]	_	_
-59-9	3410-3416	onions	plant[175]	giv[175]	_	_
+59-8	3406-3409	the	plant[244]	giv[244]	_	_
+59-9	3410-3416	onions	plant[244]	giv[244]	_	_
 59-10	3417-3418	.	_	_	_	_
 
 #Text=Add the quinoa and salt to the saucepan , stirring until completely incorporated .
-60-1	3419-3422	Add	abstract[176]	new[176]	ana	61-1[0_176]
-60-2	3423-3426	the	abstract[176]|substance[177]	new[176]|giv[177]	_	_
-60-3	3427-3433	quinoa	abstract[176]|substance[177]	new[176]|giv[177]	_	_
-60-4	3434-3437	and	abstract[176]	new[176]	_	_
-60-5	3438-3442	salt	abstract[176]	new[176]	_	_
-60-6	3443-3445	to	abstract[176]	new[176]	_	_
-60-7	3446-3449	the	abstract[176]|object[179]	new[176]|giv[179]	coref	62-12[184_179]
-60-8	3450-3458	saucepan	abstract[176]|object[179]	new[176]|giv[179]	_	_
-60-9	3459-3460	,	abstract[176]	new[176]	_	_
-60-10	3461-3469	stirring	abstract[176]	new[176]	_	_
-60-11	3470-3475	until	abstract[176]	new[176]	_	_
-60-12	3476-3486	completely	abstract[176]	new[176]	_	_
-60-13	3487-3499	incorporated	abstract[176]	new[176]	_	_
+60-1	3419-3422	Add	event[245]	new[245]	ana	61-1[250_245]
+60-2	3423-3426	the	event[245]|substance[246]	new[245]|giv[246]	_	_
+60-3	3427-3433	quinoa	event[245]|substance[246]	new[245]|giv[246]	_	_
+60-4	3434-3437	and	event[245]	new[245]	_	_
+60-5	3438-3442	salt	event[245]	new[245]	_	_
+60-6	3443-3445	to	event[245]	new[245]	_	_
+60-7	3446-3449	the	event[245]|object[249]	new[245]|giv[249]	coref	62-12[255_249]
+60-8	3450-3458	saucepan	event[245]|object[249]	new[245]|giv[249]	_	_
+60-9	3459-3460	,	event[245]	new[245]	_	_
+60-10	3461-3469	stirring	event[245]	new[245]	_	_
+60-11	3470-3475	until	event[245]	new[245]	_	_
+60-12	3476-3486	completely	event[245]	new[245]	_	_
+60-13	3487-3499	incorporated	event[245]	new[245]	_	_
 60-14	3500-3501	.	_	_	_	_
 
 #Text=This should take no longer than 30 seconds .
-61-1	3502-3506	This	abstract	giv	_	_
+61-1	3502-3506	This	event[250]	giv[250]	_	_
 61-2	3507-3513	should	_	_	_	_
 61-3	3514-3518	take	_	_	_	_
 61-4	3519-3521	no	_	_	_	_
@@ -859,8 +859,8 @@
 62-9	3580-3582	of	_	_	_	_
 62-10	3583-3588	water	_	_	_	_
 62-11	3589-3591	to	_	_	_	_
-62-12	3592-3595	the	object[184]	giv[184]	_	_
-62-13	3596-3604	saucepan	object[184]	giv[184]	_	_
+62-12	3592-3595	the	object[255]	giv[255]	_	_
+62-13	3596-3604	saucepan	object[255]	giv[255]	_	_
 62-14	3605-3608	and	_	_	_	_
 62-15	3609-3614	bring	_	_	_	_
 62-16	3615-3617	to	_	_	_	_
@@ -894,25 +894,25 @@
 #Text=Spread out quinoa evenly and cover baking dish completely with aluminum foil .
 64-1	3727-3733	Spread	_	_	_	_
 64-2	3734-3737	out	_	_	_	_
-64-3	3738-3744	quinoa	substance	giv	coref	65-2[193_0]
+64-3	3738-3744	quinoa	substance[263]	giv[263]	coref	65-2[268_263]
 64-4	3745-3751	evenly	_	_	_	_
 64-5	3752-3755	and	_	_	_	_
 64-6	3756-3761	cover	_	_	_	_
-64-7	3762-3768	baking	object[191]	giv[191]	coref	66-6[198_191]
-64-8	3769-3773	dish	object[191]	giv[191]	_	_
+64-7	3762-3768	baking	object[266]	giv[266]	coref	66-6[273_266]
+64-8	3769-3773	dish	object[266]	giv[266]	_	_
 64-9	3774-3784	completely	_	_	_	_
 64-10	3785-3789	with	_	_	_	_
-64-11	3790-3798	aluminum	object[192]	new[192]	coref	66-2[197_192]
-64-12	3799-3803	foil	object[192]	new[192]	_	_
+64-11	3790-3798	aluminum	object[267]	new[267]	coref	66-2[272_267]
+64-12	3799-3803	foil	object[267]	new[267]	_	_
 64-13	3804-3805	.	_	_	_	_
 
 #Text=Cook the quinoa in the oven for roughly 20 minutes , or until most of the liquid is gone .
 65-1	3806-3810	Cook	_	_	_	_
-65-2	3811-3814	the	substance[193]	giv[193]	coref	67-5[203_193]
-65-3	3815-3821	quinoa	substance[193]	giv[193]	_	_
+65-2	3811-3814	the	substance[268]	giv[268]	coref	67-5[279_268]
+65-3	3815-3821	quinoa	substance[268]	giv[268]	_	_
 65-4	3822-3824	in	_	_	_	_
-65-5	3825-3828	the	object[194]	giv[194]	_	_
-65-6	3829-3833	oven	object[194]	giv[194]	_	_
+65-5	3825-3828	the	object[269]	giv[269]	_	_
+65-6	3829-3833	oven	object[269]	giv[269]	_	_
 65-7	3834-3837	for	_	_	_	_
 65-8	3838-3845	roughly	_	_	_	_
 65-9	3846-3848	20	_	_	_	_
@@ -922,21 +922,21 @@
 65-13	3862-3867	until	_	_	_	_
 65-14	3868-3872	most	_	_	_	_
 65-15	3873-3875	of	_	_	_	_
-65-16	3876-3879	the	_	_	_	_
-65-17	3880-3886	liquid	_	_	_	_
+65-16	3876-3879	the	substance[271]	giv[271]	_	_
+65-17	3880-3886	liquid	substance[271]	giv[271]	_	_
 65-18	3887-3889	is	_	_	_	_
 65-19	3890-3894	gone	_	_	_	_
 65-20	3895-3896	.	_	_	_	_
 
 #Text=Remove the aluminum foil from the baking dish , add cheese or other seasonings , and bake for an additional 5 minutes .
 66-1	3897-3903	Remove	_	_	_	_
-66-2	3904-3907	the	object[197]	giv[197]	_	_
-66-3	3908-3916	aluminum	object[197]	giv[197]	_	_
-66-4	3917-3921	foil	object[197]	giv[197]	_	_
+66-2	3904-3907	the	object[272]	giv[272]	_	_
+66-3	3908-3916	aluminum	object[272]	giv[272]	_	_
+66-4	3917-3921	foil	object[272]	giv[272]	_	_
 66-5	3922-3926	from	_	_	_	_
-66-6	3927-3930	the	object[198]	giv[198]	_	_
-66-7	3931-3937	baking	object[198]	giv[198]	_	_
-66-8	3938-3942	dish	object[198]	giv[198]	_	_
+66-6	3927-3930	the	object[273]	giv[273]	_	_
+66-7	3931-3937	baking	object[273]	giv[273]	_	_
+66-8	3938-3942	dish	object[273]	giv[273]	_	_
 66-9	3943-3944	,	_	_	_	_
 66-10	3945-3948	add	_	_	_	_
 66-11	3949-3955	cheese	_	_	_	_
@@ -958,8 +958,8 @@
 67-2	4023-4024	5	_	_	_	_
 67-3	4025-4032	minutes	_	_	_	_
 67-4	4033-4034	,	_	_	_	_
-67-5	4035-4038	the	substance[203]	giv[203]	_	_
-67-6	4039-4045	quinoa	substance[203]	giv[203]	_	_
+67-5	4035-4038	the	substance[279]	giv[279]	_	_
+67-6	4039-4045	quinoa	substance[279]	giv[279]	_	_
 67-7	4046-4052	should	_	_	_	_
 67-8	4053-4055	be	_	_	_	_
 67-9	4056-4061	fully	_	_	_	_

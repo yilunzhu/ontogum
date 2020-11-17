@@ -160,7 +160,7 @@
 158	red	(11
 159	eyes	11)
 160	.	_
-161	Jom	(12
+161	Jom	(12)
 162	,	_
 163	grown	_
 164	taller	_
@@ -168,7 +168,7 @@
 166	broad	_
 167	in	_
 168	the	_
-169	shoulders	12)
+169	shoulders	_
 170	,	_
 171	moaned	_
 172	gently	_
@@ -254,7 +254,7 @@
 252	children	14)
 253	meant	_
 254	my	(1(2)
-255	father	_
+255	father	1)
 256	,	_
 257	whose	_
 258	golden	_
@@ -273,7 +273,7 @@
 271	rarity	_
 272	in	_
 273	the	_
-274	islands	1)
+274	islands	_
 275	;	_
 276	but	_
 277	certainly	_
@@ -311,8 +311,8 @@
 309	I	(2)
 310	had	_
 311	ever	_
-312	seen	17)
-313	,	_
+312	seen	_
+313	,	17)
 314	an	(17
 315	Olondrian	_
 316	wizard	_
@@ -534,14 +534,14 @@
 532	who	_
 533	rode	_
 534	beside	_
-535	him	22)
+535	him	(1)
 536	,	_
 537	looking	_
 538	uncomfortable	_
 539	with	_
-540	his	(22)
+540	his	_
 541	long	_
-542	legs	_
+542	legs	22)
 543	,	_
 544	kept	_
 545	his	(22)

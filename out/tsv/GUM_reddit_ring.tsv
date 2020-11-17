@@ -1,12 +1,12 @@
-#FORMAT=WebAnno TSV 3.1
+#FORMAT=WebAnno TSV 3.2
 #T_SP=webanno.custom.Referent|entity|infstat
 #T_RL=webanno.custom.Coref|type|BT_webanno.custom.Referent
 
 
 #Text=Is this ring ?
 1-1	0-2	Is	_	_	_	_
-1-2	3-7	this	abstract	new	ana	3-2
-1-3	8-12	ring	_	_	_	_
+1-2	3-7	this	_	_	_	_
+1-3	8-12	ring	abstract[2]	new[2]	cata	1-2[1_2]
 1-4	13-14	?	_	_	_	_
 
 #Text=http://vocaroo.com/i/s1tDCvWpykHC
@@ -14,17 +14,17 @@
 
 #Text=Is that ring I 'm hearing ?
 3-1	49-51	Is	_	_	_	_
-3-2	52-56	that	abstract	giv	_	_
+3-2	52-56	that	_	_	_	_
 3-3	57-61	ring	_	_	_	_
-3-4	62-63	I	person	acc	ana	4-1
+3-4	62-63	I	person[6]	acc[6]	ana	4-1[7_6]
 3-5	64-66	'm	_	_	_	_
 3-6	67-74	hearing	_	_	_	_
 3-7	75-76	?	_	_	_	_
 
 #Text=I feel I sang quite well here , but then it 's often hard to find back to this voice .
-4-1	77-78	I	person	giv	ana	4-3
+4-1	77-78	I	person[7]	giv[7]	ana	4-3[8_7]
 4-2	79-83	feel	_	_	_	_
-4-3	84-85	I	person	giv	ana	5-2
+4-3	84-85	I	person[8]	giv[8]	ana	5-2[23_8]
 4-4	86-90	sang	_	_	_	_
 4-5	91-96	quite	_	_	_	_
 4-6	97-101	well	_	_	_	_
@@ -36,17 +36,17 @@
 4-12	121-123	's	_	_	_	_
 4-13	124-129	often	_	_	_	_
 4-14	130-134	hard	_	_	_	_
-4-15	135-137	to	_	_	_	_
-4-16	138-142	find	_	_	_	_
-4-17	143-147	back	_	_	_	_
-4-18	148-150	to	_	_	_	_
-4-19	151-155	this	abstract[12]	acc[12]	ana	45-7[0_12]
-4-20	156-161	voice	abstract[12]	acc[12]	_	_
+4-15	135-137	to	event[21]	new[21]	cata	4-11[10_21]
+4-16	138-142	find	event[21]	new[21]	_	_
+4-17	143-147	back	event[21]	new[21]	_	_
+4-18	148-150	to	event[21]	new[21]	_	_
+4-19	151-155	this	event[21]|abstract[22]	new[21]|acc[22]	ana	45-7[226_22]
+4-20	156-161	voice	event[21]|abstract[22]	new[21]|acc[22]	_	_
 4-21	162-163	.	_	_	_	_
 
 #Text=Are you an opera singer ?
 5-1	164-167	Are	_	_	_	_
-5-2	168-171	you	person	giv	ana	6-3
+5-2	168-171	you	person[23]	giv[23]	ana	6-3[26_23]
 5-3	172-174	an	_	_	_	_
 5-4	175-180	opera	_	_	_	_
 5-5	181-187	singer	_	_	_	_
@@ -55,27 +55,27 @@
 #Text=Why are you concerned about " ring " ?
 6-1	190-193	Why	_	_	_	_
 6-2	194-197	are	_	_	_	_
-6-3	198-201	you	person	giv	ana	7-1
+6-3	198-201	you	person[26]	giv[26]	ana	7-1[28_26]
 6-4	202-211	concerned	_	_	_	_
 6-5	212-217	about	_	_	_	_
 6-6	218-219	"	_	_	_	_
-6-7	220-224	ring	abstract	new	ana	7-8
+6-7	220-224	ring	abstract[27]	new[27]	ana	7-8[29_27]
 6-8	225-226	"	_	_	_	_
 6-9	227-228	?	_	_	_	_
 
 #Text=I 've been instructed to try developing it .
-7-1	229-230	I	person	giv	ana	8-1
+7-1	229-230	I	person[28]	giv[28]	ana	8-1[30_28]
 7-2	231-234	've	_	_	_	_
 7-3	235-239	been	_	_	_	_
 7-4	240-250	instructed	_	_	_	_
 7-5	251-253	to	_	_	_	_
 7-6	254-257	try	_	_	_	_
 7-7	258-268	developing	_	_	_	_
-7-8	269-271	it	abstract	giv	_	_
+7-8	269-271	it	abstract[29]	giv[29]	_	_
 7-9	272-273	.	_	_	_	_
 
 #Text=I am trying to develop a generally pleasant voice , I have no clear idea about style .
-8-1	274-275	I	person	giv	ana	8-11
+8-1	274-275	I	person[30]	giv[30]	ana	8-11[37_30]
 8-2	276-278	am	_	_	_	_
 8-3	279-285	trying	_	_	_	_
 8-4	286-288	to	_	_	_	_
@@ -85,7 +85,7 @@
 8-8	309-317	pleasant	_	_	_	_
 8-9	318-323	voice	_	_	_	_
 8-10	324-325	,	_	_	_	_
-8-11	326-327	I	person	giv	ana	16-4
+8-11	326-327	I	person[37]	giv[37]	ana	16-4[68_37]
 8-12	328-332	have	_	_	_	_
 8-13	333-335	no	_	_	_	_
 8-14	336-341	clear	_	_	_	_
@@ -105,10 +105,10 @@
 9-8	391-394	IMO	_	_	_	_
 9-9	395-396	,	_	_	_	_
 9-10	397-401	that	_	_	_	_
-9-11	402-406	some	person[26]	new[26]	ana	10-1[0_26]
-9-12	407-412	dweeb	person[26]	new[26]	_	_
-9-13	413-418	voice	person[26]	new[26]	_	_
-9-14	419-426	teacher	person[26]	new[26]	_	_
+9-11	402-406	some	person[45]	new[45]	ana	10-1[51_45]
+9-12	407-412	dweeb	person[45]	new[45]	_	_
+9-13	413-418	voice	person[45]	new[45]	_	_
+9-14	419-426	teacher	person[45]	new[45]	_	_
 9-15	427-432	heard	_	_	_	_
 9-16	433-440	sitting	_	_	_	_
 9-17	441-443	in	_	_	_	_
@@ -122,17 +122,17 @@
 9-25	481-482	.	_	_	_	_
 
 #Text=He heard a " ring " and decided to make it into a technique .
-10-1	483-485	He	person	giv	_	_
+10-1	483-485	He	person[51]	giv[51]	_	_
 10-2	486-491	heard	_	_	_	_
-10-3	492-493	a	abstract[32]	giv[32]	ana	10-11[0_32]
-10-4	494-495	"	abstract[32]	giv[32]	_	_
-10-5	496-500	ring	abstract[32]	giv[32]	_	_
-10-6	501-502	"	abstract[32]	giv[32]	_	_
+10-3	492-493	a	abstract[54]	giv[54]	ana	10-11[55_54]
+10-4	494-495	"	abstract[54]	giv[54]	_	_
+10-5	496-500	ring	abstract[54]	giv[54]	_	_
+10-6	501-502	"	abstract[54]	giv[54]	_	_
 10-7	503-506	and	_	_	_	_
 10-8	507-514	decided	_	_	_	_
 10-9	515-517	to	_	_	_	_
 10-10	518-522	make	_	_	_	_
-10-11	523-525	it	abstract	giv	_	_
+10-11	523-525	it	abstract[55]	giv[55]	_	_
 10-12	526-530	into	_	_	_	_
 10-13	531-532	a	_	_	_	_
 10-14	533-542	technique	_	_	_	_
@@ -142,8 +142,8 @@
 11-1	545-550	First	_	_	_	_
 11-2	551-553	of	_	_	_	_
 11-3	554-557	all	_	_	_	_
-11-4	558-561	the	abstract[35]	acc[35]	ana	12-2[0_35]
-11-5	562-566	term	abstract[35]	acc[35]	_	_
+11-4	558-561	the	abstract[58]	acc[58]	ana	12-2[59_58]
+11-5	562-566	term	abstract[58]	acc[58]	_	_
 11-6	567-569	is	_	_	_	_
 11-7	570-576	poorly	_	_	_	_
 11-8	577-584	defined	_	_	_	_
@@ -151,7 +151,7 @@
 
 #Text=Does it mean twang ?
 12-1	587-591	Does	_	_	_	_
-12-2	592-594	it	abstract	giv	_	_
+12-2	592-594	it	abstract[59]	giv[59]	_	_
 12-3	595-599	mean	_	_	_	_
 12-4	600-605	twang	_	_	_	_
 12-5	606-607	?	_	_	_	_
@@ -174,7 +174,7 @@
 16-1	656-662	Second	_	_	_	_
 16-2	663-665	of	_	_	_	_
 16-3	666-669	all	_	_	_	_
-16-4	670-673	you	person	giv	ana	18-2
+16-4	670-673	you	person[68]	giv[68]	ana	18-2[77_68]
 16-5	674-677	're	_	_	_	_
 16-6	678-681	not	_	_	_	_
 16-7	682-684	an	_	_	_	_
@@ -193,22 +193,22 @@
 
 #Text=Have you ever heard a contemporary pop or rock singer with a " ring " in their voice ?
 18-1	744-748	Have	_	_	_	_
-18-2	749-752	you	person	giv	ana	20-18
+18-2	749-752	you	person[77]	giv[77]	ana	20-18[91_77]
 18-3	753-757	ever	_	_	_	_
 18-4	758-763	heard	_	_	_	_
-18-5	764-765	a	person[48]	new[48]	ana	18-17[52_48]
-18-6	766-778	contemporary	person[48]	new[48]	_	_
-18-7	779-782	pop	person[48]	new[48]	_	_
-18-8	783-785	or	person[48]	new[48]	_	_
-18-9	786-790	rock	person[48]	new[48]	_	_
-18-10	791-797	singer	person[48]	new[48]	_	_
+18-5	764-765	a	person[79]	new[79]	ana	18-17[85_79]
+18-6	766-778	contemporary	person[79]	new[79]	_	_
+18-7	779-782	pop	person[79]	new[79]	_	_
+18-8	783-785	or	person[79]	new[79]	_	_
+18-9	786-790	rock	person[79]	new[79]	_	_
+18-10	791-797	singer	person[79]	new[79]	_	_
 18-11	798-802	with	_	_	_	_
 18-12	803-804	a	_	_	_	_
 18-13	805-806	"	_	_	_	_
 18-14	807-811	ring	_	_	_	_
 18-15	812-813	"	_	_	_	_
 18-16	814-816	in	_	_	_	_
-18-17	817-822	their	person[52]	giv[52]	_	_
+18-17	817-822	their	person[85]	giv[85]	_	_
 18-18	823-828	voice	_	_	_	_
 18-19	829-830	?	_	_	_	_
 
@@ -232,13 +232,13 @@
 20-13	896-899	not	_	_	_	_
 20-14	900-908	relevant	_	_	_	_
 20-15	909-911	to	_	_	_	_
-20-16	912-915	the	abstract[55]	new[55]	ana	21-5[0_55]
-20-17	916-921	style	abstract[55]	new[55]	_	_
-20-18	922-925	you	person|abstract[55]	giv|new[55]	ana	21-7
-20-19	926-929	're	abstract[55]	new[55]	_	_
-20-20	930-936	trying	abstract[55]	new[55]	_	_
-20-21	937-939	to	abstract[55]	new[55]	_	_
-20-22	940-945	learn	abstract[55]	new[55]	_	_
+20-16	912-915	the	_	_	_	_
+20-17	916-921	style	_	_	_	_
+20-18	922-925	you	person[91]	giv[91]	ana	21-7[95_91]
+20-19	926-929	're	_	_	_	_
+20-20	930-936	trying	_	_	_	_
+20-21	937-939	to	_	_	_	_
+20-22	940-945	learn	_	_	_	_
 20-23	946-947	.	_	_	_	_
 
 #Text=Focus on singing whatever it is you want to sing ... not on singing opera !
@@ -246,9 +246,9 @@
 21-2	954-956	on	_	_	_	_
 21-3	957-964	singing	_	_	_	_
 21-4	965-973	whatever	_	_	_	_
-21-5	974-976	it	abstract	giv	_	_
+21-5	974-976	it	_	_	_	_
 21-6	977-979	is	_	_	_	_
-21-7	980-983	you	person	giv	ana	23-5[62_0]
+21-7	980-983	you	person[95]	giv[95]	ana	23-5[102_95]
 21-8	984-988	want	_	_	_	_
 21-9	989-991	to	_	_	_	_
 21-10	992-996	sing	_	_	_	_
@@ -266,31 +266,31 @@
 #Text=Do you notice anything I should work on in particular ?
 23-1	1034-1036	Do	_	_	_	_
 23-2	1037-1040	you	_	_	_	_
-23-3	1041-1047	notice	event[60]	new[60]	ana	24-2[0_60]
-23-4	1048-1056	anything	event[60]	new[60]	_	_
-23-5	1057-1058	I	event[60]|person[62]	new[60]|giv[62]	ana	25-4[0_62]
-23-6	1059-1065	should	event[60]	new[60]	_	_
-23-7	1066-1070	work	event[60]	new[60]	_	_
-23-8	1071-1073	on	event[60]	new[60]	_	_
-23-9	1074-1076	in	event[60]	new[60]	_	_
-23-10	1077-1087	particular	event[60]	new[60]	_	_
+23-3	1041-1047	notice	event[100]	new[100]	ana	24-2[103_100]
+23-4	1048-1056	anything	event[100]	new[100]	_	_
+23-5	1057-1058	I	event[100]|person[102]	new[100]|giv[102]	ana	25-4[107_102]
+23-6	1059-1065	should	event[100]	new[100]	_	_
+23-7	1066-1070	work	event[100]	new[100]	_	_
+23-8	1071-1073	on	event[100]	new[100]	_	_
+23-9	1074-1076	in	event[100]	new[100]	_	_
+23-10	1077-1087	particular	event[100]	new[100]	_	_
 23-11	1088-1089	?	_	_	_	_
 
 #Text=Is it possible from just a recording ?
 24-1	1090-1092	Is	_	_	_	_
-24-2	1093-1095	it	event	giv	_	_
+24-2	1093-1095	it	event[103]	giv[103]	_	_
 24-3	1096-1104	possible	_	_	_	_
 24-4	1105-1109	from	_	_	_	_
 24-5	1110-1114	just	_	_	_	_
-24-6	1115-1116	a	abstract[64]	new[64]	coref	52-33[181_64]
-24-7	1117-1126	recording	abstract[64]	new[64]	_	_
+24-6	1115-1116	a	abstract[106]	new[106]	coref	52-33[284_106]
+24-7	1117-1126	recording	abstract[106]	new[106]	_	_
 24-8	1127-1128	?	_	_	_	_
 
 #Text=How much do you practice ? =p .
 25-1	1129-1132	How	_	_	_	_
 25-2	1133-1137	much	_	_	_	_
 25-3	1138-1140	do	_	_	_	_
-25-4	1141-1144	you	person	giv	ana	27-2
+25-4	1141-1144	you	person[107]	giv[107]	ana	27-2[112_107]
 25-5	1145-1153	practice	_	_	_	_
 25-6	1154-1155	?	_	_	_	_
 25-7	1156-1158	=p	_	_	_	_
@@ -310,12 +310,12 @@
 
 #Text=Whenever I have the apartment to myself .
 27-1	1204-1212	Whenever	_	_	_	_
-27-2	1213-1214	I	person	giv	_	_
+27-2	1213-1214	I	person[112]	giv[112]	ana	27-7[115_112]
 27-3	1215-1219	have	_	_	_	_
 27-4	1220-1223	the	_	_	_	_
 27-5	1224-1233	apartment	_	_	_	_
 27-6	1234-1236	to	_	_	_	_
-27-7	1237-1243	myself	person	giv	ana	29-5
+27-7	1237-1243	myself	person[115]	giv[115]	ana	29-5[120_115]
 27-8	1244-1245	.	_	_	_	_
 
 #Text=Usually twenty - thirty minutes .
@@ -331,7 +331,7 @@
 29-2	1287-1292	times	_	_	_	_
 29-3	1293-1294	a	_	_	_	_
 29-4	1295-1299	week	_	_	_	_
-29-5	1300-1301	I	person	giv	ana	34-2
+29-5	1300-1301	I	person[120]	giv[120]	ana	34-2[132_120]
 29-6	1302-1305	get	_	_	_	_
 29-7	1306-1313	several	_	_	_	_
 29-8	1314-1322	sessions	_	_	_	_
@@ -343,7 +343,7 @@
 #Text=Do more practicing .
 30-1	1341-1343	Do	_	_	_	_
 30-2	1344-1348	more	_	_	_	_
-30-3	1349-1359	practicing	event	new	ana	32-1
+30-3	1349-1359	practicing	event[123]	new[123]	ana	32-1[125_123]
 30-4	1360-1361	.	_	_	_	_
 
 #Text=Got ta get over not wanting to practice when people are around =p .
@@ -363,7 +363,7 @@
 31-14	1428-1429	.	_	_	_	_
 
 #Text=That 's really the only proven way to get results .
-32-1	1430-1434	That	event	giv	_	_
+32-1	1430-1434	That	event[125]	giv[125]	_	_
 32-2	1435-1437	's	_	_	_	_
 32-3	1438-1444	really	_	_	_	_
 32-4	1445-1448	the	_	_	_	_
@@ -381,14 +381,14 @@
 
 #Text=If you want a ring ... I believe you have to use a strong chest dominant sound .
 34-1	1493-1495	If	_	_	_	_
-34-2	1496-1499	you	person	giv	ana	34-9
+34-2	1496-1499	you	person[132]	giv[132]	ana	34-9[138_132]
 34-3	1500-1504	want	_	_	_	_
-34-4	1505-1506	a	abstract[85]	new[85]	ana	40-11[0_85]
-34-5	1507-1511	ring	abstract[85]	new[85]	_	_
+34-4	1505-1506	a	abstract[136]	new[136]	ana	40-11[181_136]
+34-5	1507-1511	ring	abstract[136]	new[136]	_	_
 34-6	1512-1515	...	_	_	_	_
-34-7	1516-1517	I	person	new	ana	40-17
+34-7	1516-1517	I	person[137]	new[137]	ana	40-17[183_137]
 34-8	1518-1525	believe	_	_	_	_
-34-9	1526-1529	you	person	giv	ana	35-10[94_0]
+34-9	1526-1529	you	person[138]	giv[138]	ana	35-10[149_138]
 34-10	1530-1534	have	_	_	_	_
 34-11	1535-1537	to	_	_	_	_
 34-12	1538-1541	use	_	_	_	_
@@ -401,15 +401,15 @@
 
 #Text=Try an EE vowel in the comfortable area of your voice .
 35-1	1574-1577	Try	_	_	_	_
-35-2	1578-1580	an	abstract[90]	new[90]	ana	38-7[0_90]
-35-3	1581-1583	EE	abstract[90]	new[90]	_	_
-35-4	1584-1589	vowel	abstract[90]	new[90]	_	_
+35-2	1578-1580	an	abstract[144]	new[144]	ana	38-7[161_144]
+35-3	1581-1583	EE	abstract[144]	new[144]	_	_
+35-4	1584-1589	vowel	abstract[144]	new[144]	_	_
 35-5	1590-1592	in	_	_	_	_
 35-6	1593-1596	the	_	_	_	_
 35-7	1597-1608	comfortable	_	_	_	_
 35-8	1609-1613	area	_	_	_	_
 35-9	1614-1616	of	_	_	_	_
-35-10	1617-1621	your	person[94]	giv[94]	ana	37-1[0_94]
+35-10	1617-1621	your	person[149]	giv[149]	ana	37-1[151_149]
 35-11	1622-1627	voice	_	_	_	_
 35-12	1628-1629	.	_	_	_	_
 
@@ -420,7 +420,7 @@
 36-4	1646-1647	.	_	_	_	_
 
 #Text=You have to do these alternate vowels right here in this ipa chart .
-37-1	1648-1651	You	person	giv	ana	40-2
+37-1	1648-1651	You	person[151]	giv[151]	ana	40-2[168_151]
 37-2	1652-1656	have	_	_	_	_
 37-3	1657-1659	to	_	_	_	_
 37-4	1660-1662	do	_	_	_	_
@@ -428,11 +428,11 @@
 37-6	1669-1678	alternate	_	_	_	_
 37-7	1679-1685	vowels	_	_	_	_
 37-8	1686-1691	right	_	_	_	_
-37-9	1692-1696	here	place	acc	coref	37-11[99_0]
+37-9	1692-1696	here	place[156]	acc[156]	coref	37-11[158_156]
 37-10	1697-1699	in	_	_	_	_
-37-11	1700-1704	this	object[99]	new[99]	_	_
-37-12	1705-1708	ipa	object[99]	new[99]	_	_
-37-13	1709-1714	chart	object[99]	new[99]	_	_
+37-11	1700-1704	this	object[158]	giv[158]	_	_
+37-12	1705-1708	ipa	object[158]	giv[158]	_	_
+37-13	1709-1714	chart	object[158]	giv[158]	_	_
 37-14	1715-1716	.	_	_	_	_
 
 #Text=so instead of ' i ' it 'd be ' Y ' ( ee as in sweet = i ) .
@@ -440,9 +440,9 @@
 38-2	1720-1727	instead	_	_	_	_
 38-3	1728-1730	of	_	_	_	_
 38-4	1731-1732	'	_	_	_	_
-38-5	1733-1734	i	abstract	new	coref	47-7[155_0]
+38-5	1733-1734	i	abstract[160]	new[160]	coref	47-7[249_160]
 38-6	1735-1736	'	_	_	_	_
-38-7	1737-1739	it	abstract	giv	_	_
+38-7	1737-1739	it	abstract[161]	giv[161]	_	_
 38-8	1740-1742	'd	_	_	_	_
 38-9	1743-1745	be	_	_	_	_
 38-10	1746-1747	'	_	_	_	_
@@ -466,7 +466,7 @@
 
 #Text=If you try to sound like an opera singer , it 'll just come to you I guess ( if you have the ear ) .
 40-1	1786-1788	If	_	_	_	_
-40-2	1789-1792	you	person	giv	ana	40-16[289_0]
+40-2	1789-1792	you	person[168]	giv[168]	ana	40-16[182_168]
 40-3	1793-1796	try	_	_	_	_
 40-4	1797-1799	to	_	_	_	_
 40-5	1800-1805	sound	_	_	_	_
@@ -475,17 +475,17 @@
 40-8	1814-1819	opera	_	_	_	_
 40-9	1820-1826	singer	_	_	_	_
 40-10	1827-1828	,	_	_	_	_
-40-11	1829-1831	it	abstract	giv	_	_
+40-11	1829-1831	it	abstract[181]	giv[181]	_	_
 40-12	1832-1835	'll	_	_	_	_
 40-13	1836-1840	just	_	_	_	_
 40-14	1841-1845	come	_	_	_	_
 40-15	1846-1848	to	_	_	_	_
-40-16	1849-1852	you	person[289]	giv[289]	ana	40-21[0_289]
-40-17	1853-1854	I	person|person[289]	giv|giv[289]	_	_
-40-18	1855-1860	guess	person[289]	giv[289]	_	_
+40-16	1849-1852	you	person[182]	giv[182]	ana	40-21[184_182]
+40-17	1853-1854	I	person[183]|person[182]	giv[183]|giv[182]	_	_
+40-18	1855-1860	guess	person[182]	giv[182]	_	_
 40-19	1861-1862	(	_	_	_	_
 40-20	1863-1865	if	_	_	_	_
-40-21	1866-1869	you	person	giv	ana	41-6
+40-21	1866-1869	you	person[184]	giv[184]	ana	41-6[191_184]
 40-22	1870-1874	have	_	_	_	_
 40-23	1875-1878	the	_	_	_	_
 40-24	1879-1882	ear	_	_	_	_
@@ -498,7 +498,7 @@
 41-3	1894-1900	really	_	_	_	_
 41-4	1901-1907	happen	_	_	_	_
 41-5	1908-1910	if	_	_	_	_
-41-6	1911-1914	you	person	giv	ana	41-15
+41-6	1911-1914	you	person[191]	giv[191]	ana	41-15[195_191]
 41-7	1915-1918	try	_	_	_	_
 41-8	1919-1921	to	_	_	_	_
 41-9	1922-1927	sound	_	_	_	_
@@ -507,7 +507,7 @@
 41-12	1935-1938	pop	_	_	_	_
 41-13	1939-1945	singer	_	_	_	_
 41-14	1946-1952	unless	_	_	_	_
-41-15	1953-1956	you	person	giv	ana	43-9
+41-15	1953-1956	you	person[195]	giv[195]	ana	43-9[205_195]
 41-16	1957-1960	're	_	_	_	_
 41-17	1961-1965	like	_	_	_	_
 41-18	1966-1970	Josh	_	_	_	_
@@ -535,7 +535,7 @@
 43-6	2054-2061	example	_	_	_	_
 43-7	2062-2064	or	_	_	_	_
 43-8	2065-2077	explaination	_	_	_	_
-43-9	2078-2082	your	person	giv	ana	43-19
+43-9	2078-2082	your	person[205]	giv[205]	ana	43-19[209_205]
 43-10	2083-2086	can	_	_	_	_
 43-11	2087-2091	give	_	_	_	_
 43-12	2092-2094	on	_	_	_	_
@@ -545,7 +545,7 @@
 43-16	2107-2108	'	_	_	_	_
 43-17	2109-2113	ring	_	_	_	_
 43-18	2114-2115	'	_	_	_	_
-43-19	2116-2119	you	person	giv	ana	44-2
+43-19	2116-2119	you	person[209]	giv[209]	ana	44-2[210_209]
 43-20	2120-2123	are	_	_	_	_
 43-21	2124-2133	referring	_	_	_	_
 43-22	2134-2136	to	_	_	_	_
@@ -553,31 +553,31 @@
 
 #Text=Are you referring to the slight ping in certain people 's voices that give it a clarity or you talking about the slight ' oomph ' in certain people 's voices ?
 44-1	2139-2142	Are	_	_	_	_
-44-2	2143-2146	you	person	giv	ana	44-19[290_0]
+44-2	2143-2146	you	person[210]	giv[210]	ana	44-19[220_210]
 44-3	2147-2156	referring	_	_	_	_
 44-4	2157-2159	to	_	_	_	_
 44-5	2160-2163	the	_	_	_	_
 44-6	2164-2170	slight	_	_	_	_
 44-7	2171-2175	ping	_	_	_	_
 44-8	2176-2178	in	_	_	_	_
-44-9	2179-2186	certain	abstract[132]	new[132]	ana	44-15[0_132]
-44-10	2187-2193	people	abstract[132]	new[132]	_	_
-44-11	2194-2196	's	abstract[132]	new[132]	_	_
-44-12	2197-2203	voices	abstract[132]	new[132]	_	_
+44-9	2179-2186	certain	abstract[215]	new[215]	ana	44-15[217_215]
+44-10	2187-2193	people	abstract[215]	new[215]	_	_
+44-11	2194-2196	's	abstract[215]	new[215]	_	_
+44-12	2197-2203	voices	abstract[215]	new[215]	_	_
 44-13	2204-2208	that	_	_	_	_
 44-14	2209-2213	give	_	_	_	_
-44-15	2214-2216	it	abstract	giv	_	_
+44-15	2214-2216	it	abstract[217]	giv[217]	_	_
 44-16	2217-2218	a	_	_	_	_
 44-17	2219-2226	clarity	_	_	_	_
 44-18	2227-2229	or	_	_	_	_
-44-19	2230-2233	you	_	_	_	_
-44-20	2234-2241	talking	_	_	_	_
-44-21	2242-2247	about	_	_	_	_
-44-22	2248-2251	the	_	_	_	_
-44-23	2252-2258	slight	_	_	_	_
-44-24	2259-2260	'	_	_	_	_
-44-25	2261-2266	oomph	_	_	_	_
-44-26	2267-2268	'	_	_	_	_
+44-19	2230-2233	you	person[220]	giv[220]	ana	46-1[230_220]
+44-20	2234-2241	talking	person[220]	giv[220]	_	_
+44-21	2242-2247	about	person[220]	giv[220]	_	_
+44-22	2248-2251	the	person[220]	giv[220]	_	_
+44-23	2252-2258	slight	person[220]	giv[220]	_	_
+44-24	2259-2260	'	person[220]	giv[220]	_	_
+44-25	2261-2266	oomph	person[220]	giv[220]	_	_
+44-26	2267-2268	'	person[220]	giv[220]	_	_
 44-27	2269-2271	in	_	_	_	_
 44-28	2272-2279	certain	_	_	_	_
 44-29	2280-2286	people	_	_	_	_
@@ -590,9 +590,9 @@
 45-2	2306-2309	way	_	_	_	_
 45-3	2310-2311	,	_	_	_	_
 45-4	2312-2316	yeah	_	_	_	_
-45-5	2317-2318	i	person	acc	ana	46-14
+45-5	2317-2318	i	person[225]	acc[225]	ana	46-14[237_225]
 45-6	2319-2324	think	_	_	_	_
-45-7	2325-2327	it	abstract	giv	_	_
+45-7	2325-2327	it	abstract[226]	giv[226]	_	_
 45-8	2328-2330	is	_	_	_	_
 45-9	2331-2332	a	_	_	_	_
 45-10	2333-2339	pretty	_	_	_	_
@@ -602,20 +602,20 @@
 45-14	2362-2363	.	_	_	_	_
 
 #Text=You mentioned that your teacher is asking you to open the throat and i would like to know what he / she said to instruct you to open the throat .
-46-1	2364-2367	You	person	giv	ana	46-8
+46-1	2364-2367	You	person[230]	giv[230]	ana	46-8[233_230]
 46-2	2368-2377	mentioned	_	_	_	_
 46-3	2378-2382	that	_	_	_	_
 46-4	2383-2387	your	_	_	_	_
 46-5	2388-2395	teacher	_	_	_	_
 46-6	2396-2398	is	_	_	_	_
 46-7	2399-2405	asking	_	_	_	_
-46-8	2406-2409	you	person	giv	_	_
+46-8	2406-2409	you	person[233]	giv[233]	ana	46-26[240_233]
 46-9	2410-2412	to	_	_	_	_
 46-10	2413-2417	open	_	_	_	_
-46-11	2418-2421	the	object[147]	acc[147]	coref	46-29[153_147]
-46-12	2422-2428	throat	object[147]	acc[147]	_	_
+46-11	2418-2421	the	object[236]	acc[236]	coref	46-29[246_236]
+46-12	2422-2428	throat	object[236]	acc[236]	_	_
 46-13	2429-2432	and	_	_	_	_
-46-14	2433-2434	i	person	giv	ana	47-2
+46-14	2433-2434	i	person[237]	giv[237]	ana	47-2[247_237]
 46-15	2435-2440	would	_	_	_	_
 46-16	2441-2445	like	_	_	_	_
 46-17	2446-2448	to	_	_	_	_
@@ -627,22 +627,22 @@
 46-23	2468-2472	said	_	_	_	_
 46-24	2473-2475	to	_	_	_	_
 46-25	2476-2484	instruct	_	_	_	_
-46-26	2485-2488	you	person	giv	ana	48-6[163_0]
-46-27	2489-2491	to	event[152]	giv[152]	coref	47-26[158_152]
-46-28	2492-2496	open	event[152]	giv[152]	_	_
-46-29	2497-2500	the	event[152]|object[153]	giv[152]|giv[153]	coref	47-29[159_153]
-46-30	2501-2507	throat	event[152]|object[153]	giv[152]|giv[153]	_	_
+46-26	2485-2488	you	person[240]	giv[240]	ana	48-6[258_240]
+46-27	2489-2491	to	event[245]	new[245]	coref	47-26[252_245]
+46-28	2492-2496	open	event[245]	new[245]	_	_
+46-29	2497-2500	the	event[245]|object[246]	new[245]|giv[246]	coref	47-29[253_246]
+46-30	2501-2507	throat	event[245]|object[246]	new[245]|giv[246]	_	_
 46-31	2508-2509	.	_	_	_	_
 
 #Text=What i am noticing is that the vowel is tending towards the ' pushed ' and spread side possibly from a slight over emphasis on the opening of the throat .
 47-1	2510-2514	What	_	_	_	_
-47-2	2515-2516	i	person	giv	ana	63-4
+47-2	2515-2516	i	person[247]	giv[247]	ana	63-4[345_247]
 47-3	2517-2519	am	_	_	_	_
 47-4	2520-2528	noticing	_	_	_	_
 47-5	2529-2531	is	_	_	_	_
 47-6	2532-2536	that	_	_	_	_
-47-7	2537-2540	the	object[155]	giv[155]	_	_
-47-8	2541-2546	vowel	object[155]	giv[155]	_	_
+47-7	2537-2540	the	object[249]	giv[249]	_	_
+47-8	2541-2546	vowel	object[249]	giv[249]	_	_
 47-9	2547-2549	is	_	_	_	_
 47-10	2550-2557	tending	_	_	_	_
 47-11	2558-2565	towards	_	_	_	_
@@ -660,11 +660,11 @@
 47-23	2620-2624	over	_	_	_	_
 47-24	2625-2633	emphasis	_	_	_	_
 47-25	2634-2636	on	_	_	_	_
-47-26	2637-2640	the	event[158]	new[158]	_	_
-47-27	2641-2648	opening	event[158]	new[158]	_	_
-47-28	2649-2651	of	event[158]	new[158]	_	_
-47-29	2652-2655	the	event[158]|object[159]	new[158]|giv[159]	_	_
-47-30	2656-2662	throat	event[158]|object[159]	new[158]|giv[159]	_	_
+47-26	2637-2640	the	event[252]	giv[252]	ana	50-6[274_252]
+47-27	2641-2648	opening	event[252]	giv[252]	_	_
+47-28	2649-2651	of	event[252]	giv[252]	_	_
+47-29	2652-2655	the	event[252]|object[253]	giv[252]|giv[253]	_	_
+47-30	2656-2662	throat	event[252]|object[253]	giv[252]|giv[253]	_	_
 47-31	2663-2664	.	_	_	_	_
 
 #Text=Here is the key , you need to both have an open / relaxed throat with a clear sound .
@@ -673,20 +673,20 @@
 48-3	2673-2676	the	_	_	_	_
 48-4	2677-2680	key	_	_	_	_
 48-5	2681-2682	,	_	_	_	_
-48-6	2683-2686	you	person[163]	giv[163]	ana	50-3[0_163]
+48-6	2683-2686	you	person[258]	giv[258]	ana	50-3[273_258]
 48-7	2687-2691	need	_	_	_	_
 48-8	2692-2694	to	_	_	_	_
 48-9	2695-2699	both	_	_	_	_
 48-10	2700-2704	have	_	_	_	_
-48-11	2705-2707	an	object[164]	new[164]	ana	50-6[0_164]
-48-12	2708-2712	open	object[164]	new[164]	_	_
-48-13	2713-2714	/	object[164]	new[164]	_	_
-48-14	2715-2722	relaxed	object[164]	new[164]	_	_
-48-15	2723-2729	throat	object[164]	new[164]	_	_
-48-16	2730-2734	with	object[164]	new[164]	_	_
-48-17	2735-2736	a	object[164]	new[164]	_	_
-48-18	2737-2742	clear	object[164]	new[164]	_	_
-48-19	2743-2748	sound	object[164]	new[164]	_	_
+48-11	2705-2707	an	_	_	_	_
+48-12	2708-2712	open	_	_	_	_
+48-13	2713-2714	/	_	_	_	_
+48-14	2715-2722	relaxed	_	_	_	_
+48-15	2723-2729	throat	_	_	_	_
+48-16	2730-2734	with	_	_	_	_
+48-17	2735-2736	a	_	_	_	_
+48-18	2737-2742	clear	_	_	_	_
+48-19	2743-2748	sound	_	_	_	_
 48-20	2749-2750	.	_	_	_	_
 
 #Text=A clear sound being a sound with clarity and focus or some would term to as ' ping ' .
@@ -697,7 +697,7 @@
 49-5	2771-2772	a	_	_	_	_
 49-6	2773-2778	sound	_	_	_	_
 49-7	2779-2783	with	_	_	_	_
-49-8	2784-2791	clarity	abstract[168]	giv[168]	coref	61-6[217_168]
+49-8	2784-2791	clarity	abstract[264]	giv[264]	coref	61-6[332_264]
 49-9	2792-2795	and	_	_	_	_
 49-10	2796-2801	focus	_	_	_	_
 49-11	2802-2804	or	_	_	_	_
@@ -714,10 +714,10 @@
 #Text=One way you can do it is pretty simple .
 50-1	2838-2841	One	_	_	_	_
 50-2	2842-2845	way	_	_	_	_
-50-3	2846-2849	you	person	giv	ana	52-30
+50-3	2846-2849	you	person[273]	giv[273]	ana	52-30[282_273]
 50-4	2850-2853	can	_	_	_	_
 50-5	2854-2856	do	_	_	_	_
-50-6	2857-2859	it	abstract	giv	_	_
+50-6	2857-2859	it	event[274]	giv[274]	_	_
 50-7	2860-2862	is	_	_	_	_
 50-8	2863-2869	pretty	_	_	_	_
 50-9	2870-2876	simple	_	_	_	_
@@ -737,57 +737,57 @@
 51-11	2922-2923	.	_	_	_	_
 
 #Text=The do - mi - re - fa - mi - so - fa - re - mi - do - re - ti - do ( the one you do on the recording ) .
-52-1	2924-2927	The	abstract[178]|abstract[291]	new[178]|new[291]	coref|ana	52-28[179_178]|53-2[0_291]
-52-2	2928-2930	do	abstract[178]|abstract[291]	new[178]|new[291]	_	_
-52-3	2931-2932	-	abstract[178]|abstract[291]	new[178]|new[291]	_	_
-52-4	2933-2935	mi	abstract[178]|abstract[291]	new[178]|new[291]	_	_
-52-5	2936-2937	-	abstract[178]|abstract[291]	new[178]|new[291]	_	_
-52-6	2938-2940	re	abstract[178]|abstract[291]	new[178]|new[291]	_	_
-52-7	2941-2942	-	abstract[178]|abstract[291]	new[178]|new[291]	_	_
-52-8	2943-2945	fa	abstract[178]|abstract[291]	new[178]|new[291]	_	_
-52-9	2946-2947	-	abstract[178]|abstract[291]	new[178]|new[291]	_	_
-52-10	2948-2950	mi	abstract[178]|abstract[291]	new[178]|new[291]	_	_
-52-11	2951-2952	-	abstract[178]|abstract[291]	new[178]|new[291]	_	_
-52-12	2953-2955	so	abstract[178]|abstract[291]	new[178]|new[291]	_	_
-52-13	2956-2957	-	abstract[178]|abstract[291]	new[178]|new[291]	_	_
-52-14	2958-2960	fa	abstract[178]|abstract[291]	new[178]|new[291]	_	_
-52-15	2961-2962	-	abstract[178]|abstract[291]	new[178]|new[291]	_	_
-52-16	2963-2965	re	abstract[178]|abstract[291]	new[178]|new[291]	_	_
-52-17	2966-2967	-	abstract[178]|abstract[291]	new[178]|new[291]	_	_
-52-18	2968-2970	mi	abstract[178]|abstract[291]	new[178]|new[291]	_	_
-52-19	2971-2972	-	abstract[178]|abstract[291]	new[178]|new[291]	_	_
-52-20	2973-2975	do	abstract[178]|abstract[291]	new[178]|new[291]	_	_
-52-21	2976-2977	-	abstract[178]|abstract[291]	new[178]|new[291]	_	_
-52-22	2978-2980	re	abstract[178]|abstract[291]	new[178]|new[291]	_	_
-52-23	2981-2982	-	abstract[178]|abstract[291]	new[178]|new[291]	_	_
-52-24	2983-2985	ti	abstract[178]|abstract[291]	new[178]|new[291]	_	_
-52-25	2986-2987	-	abstract[178]|abstract[291]	new[178]|new[291]	_	_
-52-26	2988-2990	do	abstract[178]|abstract[291]	new[178]|new[291]	_	_
-52-27	2991-2992	(	abstract[291]	new[291]	_	_
-52-28	2993-2996	the	abstract[179]|abstract[291]	giv[179]|new[291]	_	_
-52-29	2997-3000	one	abstract[179]|abstract[291]	giv[179]|new[291]	_	_
-52-30	3001-3004	you	person|abstract[179]|abstract[291]	giv|giv[179]|new[291]	ana	56-6
-52-31	3005-3007	do	abstract[179]|abstract[291]	giv[179]|new[291]	_	_
-52-32	3008-3010	on	abstract[179]|abstract[291]	giv[179]|new[291]	_	_
-52-33	3011-3014	the	abstract[181]|abstract[179]|abstract[291]	giv[181]|giv[179]|new[291]	_	_
-52-34	3015-3024	recording	abstract[181]|abstract[179]|abstract[291]	giv[181]|giv[179]|new[291]	_	_
-52-35	3025-3026	)	_	_	_	_
+52-1	2924-2927	The	abstract[280]|abstract[454]	new[280]|new[454]	appos|ana	52-27[423_280]|53-2[285_454]
+52-2	2928-2930	do	abstract[280]|abstract[454]	new[280]|new[454]	_	_
+52-3	2931-2932	-	abstract[280]|abstract[454]	new[280]|new[454]	_	_
+52-4	2933-2935	mi	abstract[280]|abstract[454]	new[280]|new[454]	_	_
+52-5	2936-2937	-	abstract[280]|abstract[454]	new[280]|new[454]	_	_
+52-6	2938-2940	re	abstract[280]|abstract[454]	new[280]|new[454]	_	_
+52-7	2941-2942	-	abstract[280]|abstract[454]	new[280]|new[454]	_	_
+52-8	2943-2945	fa	abstract[280]|abstract[454]	new[280]|new[454]	_	_
+52-9	2946-2947	-	abstract[280]|abstract[454]	new[280]|new[454]	_	_
+52-10	2948-2950	mi	abstract[280]|abstract[454]	new[280]|new[454]	_	_
+52-11	2951-2952	-	abstract[280]|abstract[454]	new[280]|new[454]	_	_
+52-12	2953-2955	so	abstract[280]|abstract[454]	new[280]|new[454]	_	_
+52-13	2956-2957	-	abstract[280]|abstract[454]	new[280]|new[454]	_	_
+52-14	2958-2960	fa	abstract[280]|abstract[454]	new[280]|new[454]	_	_
+52-15	2961-2962	-	abstract[280]|abstract[454]	new[280]|new[454]	_	_
+52-16	2963-2965	re	abstract[280]|abstract[454]	new[280]|new[454]	_	_
+52-17	2966-2967	-	abstract[280]|abstract[454]	new[280]|new[454]	_	_
+52-18	2968-2970	mi	abstract[280]|abstract[454]	new[280]|new[454]	_	_
+52-19	2971-2972	-	abstract[280]|abstract[454]	new[280]|new[454]	_	_
+52-20	2973-2975	do	abstract[280]|abstract[454]	new[280]|new[454]	_	_
+52-21	2976-2977	-	abstract[280]|abstract[454]	new[280]|new[454]	_	_
+52-22	2978-2980	re	abstract[280]|abstract[454]	new[280]|new[454]	_	_
+52-23	2981-2982	-	abstract[280]|abstract[454]	new[280]|new[454]	_	_
+52-24	2983-2985	ti	abstract[280]|abstract[454]	new[280]|new[454]	_	_
+52-25	2986-2987	-	abstract[280]|abstract[454]	new[280]|new[454]	_	_
+52-26	2988-2990	do	abstract[280]|abstract[454]	new[280]|new[454]	_	_
+52-27	2991-2992	(	abstract[423]|abstract[454]	giv[423]|new[454]	_	_
+52-28	2993-2996	the	abstract[423]|abstract[454]	giv[423]|new[454]	_	_
+52-29	2997-3000	one	abstract[423]|abstract[454]	giv[423]|new[454]	_	_
+52-30	3001-3004	you	person[282]|abstract[423]|abstract[454]	giv[282]|giv[423]|new[454]	ana	56-6[298_282]
+52-31	3005-3007	do	abstract[423]|abstract[454]	giv[423]|new[454]	_	_
+52-32	3008-3010	on	abstract[423]|abstract[454]	giv[423]|new[454]	_	_
+52-33	3011-3014	the	abstract[284]|abstract[423]|abstract[454]	giv[284]|giv[423]|new[454]	_	_
+52-34	3015-3024	recording	abstract[284]|abstract[423]|abstract[454]	giv[284]|giv[423]|new[454]	_	_
+52-35	3025-3026	)	abstract[423]|abstract[454]	giv[423]|new[454]	_	_
 52-36	3027-3028	.	_	_	_	_
 
 #Text=Do it twice .
 53-1	3029-3031	Do	_	_	_	_
-53-2	3032-3034	it	abstract	giv	_	_
+53-2	3032-3034	it	abstract[285]	giv[285]	_	_
 53-3	3035-3040	twice	_	_	_	_
 53-4	3041-3042	.	_	_	_	_
 
 #Text=First on a hum / ng sound and then on the second scale open the vowel in either an ' EE ' or an ' Ah ' .
 54-1	3043-3048	First	_	_	_	_
 54-2	3049-3051	on	_	_	_	_
-54-3	3052-3053	a	abstract[183]	new[183]	coref	55-3[191_183]
-54-4	3054-3057	hum	abstract[183]	new[183]	_	_
-54-5	3058-3059	/	abstract[183]	new[183]	_	_
-54-6	3060-3062	ng	abstract[183]|abstract[185]	new[183]|giv[185]	coref	55-6[193_185]
-54-7	3063-3068	sound	abstract[183]|abstract[185]	new[183]|giv[185]	_	_
+54-3	3052-3053	a	abstract[287]	new[287]	coref	55-3[295_287]
+54-4	3054-3057	hum	abstract[287]	new[287]	_	_
+54-5	3058-3059	/	abstract[287]	new[287]	_	_
+54-6	3060-3062	ng	abstract[287]|abstract[289]	new[287]|new[289]	coref	55-6[297_289]
+54-7	3063-3068	sound	abstract[287]|abstract[289]	new[287]|new[289]	_	_
 54-8	3069-3072	and	_	_	_	_
 54-9	3073-3077	then	_	_	_	_
 54-10	3078-3080	on	_	_	_	_
@@ -813,13 +813,13 @@
 #Text=Do either the hum or the ' ng ' .
 55-1	3148-3150	Do	_	_	_	_
 55-2	3151-3157	either	_	_	_	_
-55-3	3158-3161	the	abstract[191]|abstract[192]	giv[191]|giv[192]	coref|coref	59-3[203_191]|59-3[204_192]
-55-4	3162-3165	hum	abstract[191]|abstract[192]	giv[191]|giv[192]	_	_
-55-5	3166-3168	or	abstract[191]	giv[191]	_	_
-55-6	3169-3172	the	abstract[191]|abstract[193]	giv[191]|giv[193]	coref	57-1[195_193]
-55-7	3173-3174	'	abstract[191]|abstract[193]	giv[191]|giv[193]	_	_
-55-8	3175-3177	ng	abstract[191]|abstract[193]	giv[191]|giv[193]	_	_
-55-9	3178-3179	'	abstract[191]|abstract[193]	giv[191]|giv[193]	_	_
+55-3	3158-3161	the	abstract[295]|abstract[296]	giv[295]|giv[296]	coref|coref	59-3[313_295]|59-3[314_296]
+55-4	3162-3165	hum	abstract[295]|abstract[296]	giv[295]|giv[296]	_	_
+55-5	3166-3168	or	abstract[295]	giv[295]	_	_
+55-6	3169-3172	the	abstract[295]|abstract[297]	giv[295]|giv[297]	coref	57-1[300_297]
+55-7	3173-3174	'	abstract[295]|abstract[297]	giv[295]|giv[297]	_	_
+55-8	3175-3177	ng	abstract[295]|abstract[297]	giv[295]|giv[297]	_	_
+55-9	3178-3179	'	abstract[295]|abstract[297]	giv[295]|giv[297]	_	_
 55-10	3180-3181	.	_	_	_	_
 
 #Text=Whichever is more comfortable for you .
@@ -828,14 +828,14 @@
 56-3	3195-3199	more	_	_	_	_
 56-4	3200-3211	comfortable	_	_	_	_
 56-5	3212-3215	for	_	_	_	_
-56-6	3216-3219	you	person	giv	ana	59-19[209_0]
+56-6	3216-3219	you	person[298]	giv[298]	ana	59-19[320_298]
 56-7	3220-3221	.	_	_	_	_
 
 #Text=The ' ng ' is basically a sustained ' ng ' pronunciation as in the word ' sing ' or ' ring ' .
-57-1	3222-3225	The	abstract[195]	giv[195]	ana	58-5[0_195]
-57-2	3226-3227	'	abstract[195]	giv[195]	_	_
-57-3	3228-3230	ng	abstract[195]	giv[195]	_	_
-57-4	3231-3232	'	abstract[195]	giv[195]	_	_
+57-1	3222-3225	The	abstract[300]	giv[300]	ana	58-5[307_300]
+57-2	3226-3227	'	abstract[300]	giv[300]	_	_
+57-3	3228-3230	ng	abstract[300]	giv[300]	_	_
+57-4	3231-3232	'	abstract[300]	giv[300]	_	_
 57-5	3233-3235	is	_	_	_	_
 57-6	3236-3245	basically	_	_	_	_
 57-7	3246-3247	a	_	_	_	_
@@ -862,7 +862,7 @@
 58-2	3322-3326	also	_	_	_	_
 58-3	3327-3332	would	_	_	_	_
 58-4	3333-3337	call	_	_	_	_
-58-5	3338-3342	this	abstract	giv	_	_
+58-5	3338-3342	this	abstract[307]	giv[307]	_	_
 58-6	3343-3345	an	_	_	_	_
 58-7	3346-3350	open	_	_	_	_
 58-8	3351-3354	hum	_	_	_	_
@@ -871,54 +871,54 @@
 #Text=Then on the hum / ng , try to find a clear buzzing sensation in the front of your face and at the lips if you are doing a hum .
 59-1	3357-3361	Then	_	_	_	_
 59-2	3362-3364	on	_	_	_	_
-59-3	3365-3368	the	abstract[203]|abstract[204]	giv[203]|giv[204]	coref	65-20[239_203]
-59-4	3369-3372	hum	abstract[203]|abstract[204]	giv[203]|giv[204]	_	_
-59-5	3373-3374	/	abstract[203]	giv[203]	_	_
-59-6	3375-3377	ng	abstract[203]	giv[203]	_	_
+59-3	3365-3368	the	abstract[313]|abstract[314]	giv[313]|giv[314]	coref	65-20[365_313]
+59-4	3369-3372	hum	abstract[313]|abstract[314]	giv[313]|giv[314]	_	_
+59-5	3373-3374	/	abstract[313]	giv[313]	_	_
+59-6	3375-3377	ng	abstract[313]	giv[313]	_	_
 59-7	3378-3379	,	_	_	_	_
 59-8	3380-3383	try	_	_	_	_
 59-9	3384-3386	to	_	_	_	_
 59-10	3387-3391	find	_	_	_	_
-59-11	3392-3393	a	abstract[206]	new[206]	coref	60-4[213_206]
-59-12	3394-3399	clear	abstract[206]	new[206]	_	_
-59-13	3400-3407	buzzing	abstract[206]	new[206]	_	_
-59-14	3408-3417	sensation	abstract[206]	new[206]	_	_
-59-15	3418-3420	in	_	_	_	_
-59-16	3421-3424	the	_	_	_	_
-59-17	3425-3430	front	_	_	_	_
-59-18	3431-3433	of	_	_	_	_
-59-19	3434-3438	your	person[209]	giv[209]	_	_
-59-20	3439-3443	face	_	_	_	_
+59-11	3392-3393	a	abstract[317]	new[317]	coref	60-4[326_317]
+59-12	3394-3399	clear	abstract[317]	new[317]	_	_
+59-13	3400-3407	buzzing	abstract[317]	new[317]	_	_
+59-14	3408-3417	sensation	abstract[317]	new[317]	_	_
+59-15	3418-3420	in	abstract[317]	new[317]	_	_
+59-16	3421-3424	the	abstract[317]	new[317]	_	_
+59-17	3425-3430	front	abstract[317]	new[317]	_	_
+59-18	3431-3433	of	abstract[317]	new[317]	_	_
+59-19	3434-3438	your	abstract[317]|person[320]	new[317]|giv[320]	ana	59-26[323_320]
+59-20	3439-3443	face	abstract[317]	new[317]	_	_
 59-21	3444-3447	and	_	_	_	_
 59-22	3448-3450	at	_	_	_	_
 59-23	3451-3454	the	_	_	_	_
 59-24	3455-3459	lips	_	_	_	_
 59-25	3460-3462	if	_	_	_	_
-59-26	3463-3466	you	person	giv	ana	61-14
+59-26	3463-3466	you	person[323]	giv[323]	ana	61-14[334_323]
 59-27	3467-3470	are	_	_	_	_
 59-28	3471-3476	doing	_	_	_	_
-59-29	3477-3478	a	_	_	_	_
-59-30	3479-3482	hum	_	_	_	_
+59-29	3477-3478	a	abstract[325]	giv[325]	coref	65-20[366_325]
+59-30	3479-3482	hum	abstract[325]	giv[325]	_	_
 59-31	3483-3484	.	_	_	_	_
 
 #Text=Do not force the sensation , focus on simply humming and the sensation should materialize by itself .
 60-1	3485-3487	Do	_	_	_	_
 60-2	3488-3491	not	_	_	_	_
 60-3	3492-3497	force	_	_	_	_
-60-4	3498-3501	the	abstract[213]	giv[213]	coref	60-12[215_213]
-60-5	3502-3511	sensation	abstract[213]	giv[213]	_	_
+60-4	3498-3501	the	abstract[326]	giv[326]	coref	60-12[329_326]
+60-5	3502-3511	sensation	abstract[326]	giv[326]	_	_
 60-6	3512-3513	,	_	_	_	_
 60-7	3514-3519	focus	_	_	_	_
 60-8	3520-3522	on	_	_	_	_
 60-9	3523-3529	simply	_	_	_	_
-60-10	3530-3537	humming	event	new	ana	62-9
+60-10	3530-3537	humming	event[327]	new[327]	ana	62-9[340_327]
 60-11	3538-3541	and	_	_	_	_
-60-12	3542-3545	the	abstract[215]	giv[215]	ana	60-17[0_215]
-60-13	3546-3555	sensation	abstract[215]	giv[215]	_	_
+60-12	3542-3545	the	abstract[329]	giv[329]	ana	60-17[330_329]
+60-13	3546-3555	sensation	abstract[329]	giv[329]	_	_
 60-14	3556-3562	should	_	_	_	_
 60-15	3563-3574	materialize	_	_	_	_
 60-16	3575-3577	by	_	_	_	_
-60-17	3578-3584	itself	abstract	giv	_	_
+60-17	3578-3584	itself	abstract[330]	giv[330]	_	_
 60-18	3585-3586	.	_	_	_	_
 
 #Text=Then simply try to keep this same clarity or ' buzz ' when you open the mouth into the EE / AH vowel .
@@ -927,15 +927,15 @@
 61-3	3599-3602	try	_	_	_	_
 61-4	3603-3605	to	_	_	_	_
 61-5	3606-3610	keep	_	_	_	_
-61-6	3611-3615	this	abstract[217]	giv[217]	_	_
-61-7	3616-3620	same	abstract[217]	giv[217]	_	_
-61-8	3621-3628	clarity	abstract[217]	giv[217]	_	_
+61-6	3611-3615	this	abstract[332]	giv[332]	_	_
+61-7	3616-3620	same	abstract[332]	giv[332]	_	_
+61-8	3621-3628	clarity	abstract[332]	giv[332]	_	_
 61-9	3629-3631	or	_	_	_	_
 61-10	3632-3633	'	_	_	_	_
 61-11	3634-3638	buzz	_	_	_	_
 61-12	3639-3640	'	_	_	_	_
 61-13	3641-3645	when	_	_	_	_
-61-14	3646-3649	you	person	giv	_	_
+61-14	3646-3649	you	person[334]	giv[334]	ana	62-1[338_334]
 61-15	3650-3654	open	_	_	_	_
 61-16	3655-3658	the	_	_	_	_
 61-17	3659-3664	mouth	_	_	_	_
@@ -948,26 +948,26 @@
 61-24	3688-3689	.	_	_	_	_
 
 #Text=You may need to record yourself while doing this .
-62-1	3690-3693	You	person	giv	ana	62-6
+62-1	3690-3693	You	person[338]	giv[338]	ana	62-6[339_338]
 62-2	3694-3697	may	_	_	_	_
 62-3	3698-3702	need	_	_	_	_
 62-4	3703-3705	to	_	_	_	_
 62-5	3706-3712	record	_	_	_	_
-62-6	3713-3721	yourself	person	giv	ana	65-3
+62-6	3713-3721	yourself	person[339]	giv[339]	ana	65-3[358_339]
 62-7	3722-3727	while	_	_	_	_
 62-8	3728-3733	doing	_	_	_	_
-62-9	3734-3738	this	event	giv	_	_
+62-9	3734-3738	this	event[340]	giv[340]	_	_
 62-10	3739-3740	.	_	_	_	_
 
 #Text=Many a times i have notice that people can produce a relatively focused and clean hum / ng .
 63-1	3741-3745	Many	_	_	_	_
 63-2	3746-3747	a	_	_	_	_
 63-3	3748-3753	times	_	_	_	_
-63-4	3754-3755	i	person	giv	_	_
+63-4	3754-3755	i	person[345]	giv[345]	_	_
 63-5	3756-3760	have	_	_	_	_
 63-6	3761-3767	notice	_	_	_	_
 63-7	3768-3772	that	_	_	_	_
-63-8	3773-3779	people	person	new	ana	64-3
+63-8	3773-3779	people	person[346]	new[346]	ana	64-3[350_346]
 63-9	3780-3783	can	_	_	_	_
 63-10	3784-3791	produce	_	_	_	_
 63-11	3792-3793	a	_	_	_	_
@@ -983,7 +983,7 @@
 #Text=But when they open the mouth to produce a vowel , the tone quality drastically changes into something way less focused and clear .
 64-1	3834-3837	But	_	_	_	_
 64-2	3838-3842	when	_	_	_	_
-64-3	3843-3847	they	person	giv	_	_
+64-3	3843-3847	they	person[350]	giv[350]	_	_
 64-4	3848-3852	open	_	_	_	_
 64-5	3853-3856	the	_	_	_	_
 64-6	3857-3862	mouth	_	_	_	_
@@ -1009,41 +1009,41 @@
 #Text=So when you record yourself , see if you can produce the cleanest most ' forward ' sound on the hum / ng and see that if you open to the vowel , does the tone quality drastically change .
 65-1	3965-3967	So	_	_	_	_
 65-2	3968-3972	when	_	_	_	_
-65-3	3973-3976	you	person	giv	ana	65-5
+65-3	3973-3976	you	person[358]	giv[358]	ana	65-5[359_358]
 65-4	3977-3983	record	_	_	_	_
-65-5	3984-3992	yourself	person	giv	ana	65-9
+65-5	3984-3992	yourself	person[359]	giv[359]	ana	65-9[360_359]
 65-6	3993-3994	,	_	_	_	_
 65-7	3995-3998	see	_	_	_	_
 65-8	3999-4001	if	_	_	_	_
-65-9	4002-4005	you	person	giv	ana	65-28
+65-9	4002-4005	you	person[360]	giv[360]	ana	65-28[368_360]
 65-10	4006-4009	can	_	_	_	_
 65-11	4010-4017	produce	_	_	_	_
-65-12	4018-4021	the	_	_	_	_
-65-13	4022-4030	cleanest	_	_	_	_
-65-14	4031-4035	most	_	_	_	_
-65-15	4036-4037	'	_	_	_	_
-65-16	4038-4045	forward	_	_	_	_
-65-17	4046-4047	'	_	_	_	_
-65-18	4048-4053	sound	_	_	_	_
+65-12	4018-4021	the	abstract[364]	new[364]	coref	68-17[392_364]
+65-13	4022-4030	cleanest	abstract[364]	new[364]	_	_
+65-14	4031-4035	most	abstract[364]	new[364]	_	_
+65-15	4036-4037	'	abstract[364]	new[364]	_	_
+65-16	4038-4045	forward	abstract[364]	new[364]	_	_
+65-17	4046-4047	'	abstract[364]	new[364]	_	_
+65-18	4048-4053	sound	abstract[364]	new[364]	_	_
 65-19	4054-4056	on	_	_	_	_
-65-20	4057-4060	the	abstract[239]|abstract[240]	giv[239]|giv[240]	coref	67-21[253_240]
-65-21	4061-4064	hum	abstract[239]|abstract[240]	giv[239]|giv[240]	_	_
-65-22	4065-4066	/	abstract[239]	giv[239]	_	_
-65-23	4067-4069	ng	abstract[239]	giv[239]	_	_
+65-20	4057-4060	the	abstract[365]|abstract[366]	giv[365]|giv[366]	coref	67-21[385_366]
+65-21	4061-4064	hum	abstract[365]|abstract[366]	giv[365]|giv[366]	_	_
+65-22	4065-4066	/	abstract[365]	giv[365]	_	_
+65-23	4067-4069	ng	abstract[365]	giv[365]	_	_
 65-24	4070-4073	and	_	_	_	_
 65-25	4074-4077	see	_	_	_	_
 65-26	4078-4082	that	_	_	_	_
 65-27	4083-4085	if	_	_	_	_
-65-28	4086-4089	you	person	giv	ana	67-3
+65-28	4086-4089	you	person[368]	giv[368]	ana	67-3[378_368]
 65-29	4090-4094	open	_	_	_	_
 65-30	4095-4097	to	_	_	_	_
 65-31	4098-4101	the	_	_	_	_
 65-32	4102-4107	vowel	_	_	_	_
 65-33	4108-4109	,	_	_	_	_
 65-34	4110-4114	does	_	_	_	_
-65-35	4115-4118	the	abstract[244]	acc[244]	coref	66-6[247_244]
-65-36	4119-4123	tone	abstract[244]	acc[244]	_	_
-65-37	4124-4131	quality	abstract[244]	acc[244]	_	_
+65-35	4115-4118	the	abstract[372]	acc[372]	coref	66-6[376_372]
+65-36	4119-4123	tone	abstract[372]	acc[372]	_	_
+65-37	4124-4131	quality	abstract[372]	acc[372]	_	_
 65-38	4132-4143	drastically	_	_	_	_
 65-39	4144-4150	change	_	_	_	_
 65-40	4151-4152	.	_	_	_	_
@@ -1054,9 +1054,9 @@
 66-3	4162-4164	is	_	_	_	_
 66-4	4165-4167	to	_	_	_	_
 66-5	4168-4172	keep	_	_	_	_
-66-6	4173-4176	the	abstract[247]	giv[247]	_	_
-66-7	4177-4181	tone	abstract[247]	giv[247]	_	_
-66-8	4182-4189	quality	abstract[247]	giv[247]	_	_
+66-6	4173-4176	the	abstract[376]	giv[376]	_	_
+66-7	4177-4181	tone	abstract[376]	giv[376]	_	_
+66-8	4182-4189	quality	abstract[376]	giv[376]	_	_
 66-9	4190-4200	relatively	_	_	_	_
 66-10	4201-4211	consistent	_	_	_	_
 66-11	4212-4213	.	_	_	_	_
@@ -1064,7 +1064,7 @@
 #Text=Remember that you are trying to keep the same clarity and focus , different people sound different when the open the hum depending on the physiology of the vocal tract and cords .
 67-1	4214-4222	Remember	_	_	_	_
 67-2	4223-4227	that	_	_	_	_
-67-3	4228-4231	you	person	giv	_	_
+67-3	4228-4231	you	person[378]	giv[378]	_	_
 67-4	4232-4235	are	_	_	_	_
 67-5	4236-4242	trying	_	_	_	_
 67-6	4243-4245	to	_	_	_	_
@@ -1075,15 +1075,15 @@
 67-11	4268-4271	and	_	_	_	_
 67-12	4272-4277	focus	_	_	_	_
 67-13	4278-4279	,	_	_	_	_
-67-14	4280-4289	different	person[251]	new[251]	ana	67-19[0_251]
-67-15	4290-4296	people	person[251]	new[251]	_	_
+67-14	4280-4289	different	person[382]	new[382]	ana	67-19[383_382]
+67-15	4290-4296	people	person[382]	new[382]	_	_
 67-16	4297-4302	sound	_	_	_	_
 67-17	4303-4312	different	_	_	_	_
 67-18	4313-4317	when	_	_	_	_
-67-19	4318-4321	the	person	giv	_	_
+67-19	4318-4321	the	person[383]	giv[383]	_	_
 67-20	4322-4326	open	_	_	_	_
-67-21	4327-4330	the	abstract[253]	giv[253]	_	_
-67-22	4331-4334	hum	abstract[253]	giv[253]	_	_
+67-21	4327-4330	the	abstract[385]	giv[385]	_	_
+67-22	4331-4334	hum	abstract[385]	giv[385]	_	_
 67-23	4335-4344	depending	_	_	_	_
 67-24	4345-4347	on	_	_	_	_
 67-25	4348-4351	the	_	_	_	_
@@ -1102,19 +1102,19 @@
 68-3	4400-4402	is	_	_	_	_
 68-4	4403-4407	more	_	_	_	_
 68-5	4408-4417	important	_	_	_	_
-68-6	4418-4420	to	_	_	_	_
-68-7	4421-4426	focus	_	_	_	_
-68-8	4427-4429	on	_	_	_	_
-68-9	4430-4433	the	_	_	_	_
-68-10	4434-4441	forward	_	_	_	_
-68-11	4442-4449	clarity	_	_	_	_
+68-6	4418-4420	to	abstract[390]	new[390]	cata	68-2[388_390]
+68-7	4421-4426	focus	abstract[390]	new[390]	_	_
+68-8	4427-4429	on	abstract[390]	new[390]	_	_
+68-9	4430-4433	the	abstract[390]	new[390]	_	_
+68-10	4434-4441	forward	abstract[390]	new[390]	_	_
+68-11	4442-4449	clarity	abstract[390]	new[390]	_	_
 68-12	4450-4452	so	_	_	_	_
 68-13	4453-4455	as	_	_	_	_
 68-14	4456-4458	to	_	_	_	_
 68-15	4459-4462	not	_	_	_	_
 68-16	4463-4467	make	_	_	_	_
-68-17	4468-4471	the	_	_	_	_
-68-18	4472-4477	sound	_	_	_	_
+68-17	4468-4471	the	abstract[392]	giv[392]	_	_
+68-18	4472-4477	sound	abstract[392]	giv[392]	_	_
 68-19	4478-4484	overly	_	_	_	_
 68-20	4485-4490	nasal	_	_	_	_
 68-21	4491-4493	or	_	_	_	_

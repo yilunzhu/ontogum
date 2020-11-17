@@ -1,4 +1,4 @@
-#FORMAT=WebAnno TSV 3
+#FORMAT=WebAnno TSV 3.2
 #T_SP=webanno.custom.Referent|entity|infstat
 #T_RL=webanno.custom.Coref|type|BT_webanno.custom.Referent
 
@@ -7,16 +7,16 @@
 1-1	0-8	Hundreds	_	_	_	_
 1-2	9-13	dead	_	_	_	_
 1-3	14-16	in	_	_	_	_
-1-4	17-21	Hajj	event[3]	new[3]	coref	3-9[10_3]
+1-4	17-21	Hajj	event[4]	new[4]	coref	3-9[13_4]
 1-5	22-30	stampede	_	_	_	_
 
 #Text=Thursday , January 12 , 2006
-2-1	31-39	Thursday	time[96]	acc[96]	appos	2-3[5_96]
-2-2	40-41	,	time[96]	acc[96]	_	_
-2-3	42-49	January	time[5]	giv[5]	_	_
-2-4	50-52	12	time[5]	giv[5]	_	_
-2-5	53-54	,	time[5]	giv[5]	_	_
-2-6	55-59	2006	time[5]	giv[5]	_	_
+2-1	31-39	Thursday	time[113]	acc[113]	appos	2-3[8_113]
+2-2	40-41	,	time[113]	acc[113]	_	_
+2-3	42-49	January	time[8]	giv[8]	_	_
+2-4	50-52	12	time[8]	giv[8]	_	_
+2-5	53-54	,	time[8]	giv[8]	_	_
+2-6	55-59	2006	time[8]	giv[8]	_	_
 
 #Text=The Plains of Arafat on the day of Hajj
 3-1	60-63	The	_	_	_	_
@@ -27,7 +27,7 @@
 3-6	84-87	the	_	_	_	_
 3-7	88-91	day	_	_	_	_
 3-8	92-94	of	_	_	_	_
-3-9	95-99	Hajj	event[10]	giv[10]	coref	4-18[14_10]
+3-9	95-99	Hajj	event[13]	giv[13]	coref	4-18[18_13]
 
 #Text=According to the Saudi Interior Ministry over 345 Muslim pilgrims have been killed in a stampede during the annual Hajj pilgrimage near Mecca , Saudi Arabia .
 4-1	100-109	According	_	_	_	_
@@ -44,29 +44,29 @@
 4-12	171-175	been	_	_	_	_
 4-13	176-182	killed	_	_	_	_
 4-14	183-185	in	_	_	_	_
-4-15	186-187	a	event[13]	giv[13]	coref	5-1[17_13]
-4-16	188-196	stampede	event[13]	giv[13]	_	_
+4-15	186-187	a	event[17]	giv[17]	coref	5-1[21_17]
+4-16	188-196	stampede	event[17]	giv[17]	_	_
 4-17	197-203	during	_	_	_	_
-4-18	204-207	the	event[14]	giv[14]	_	_
-4-19	208-214	annual	event[14]	giv[14]	_	_
-4-20	215-219	Hajj	event[14]	giv[14]	_	_
-4-21	220-230	pilgrimage	event[14]	giv[14]	_	_
-4-22	231-235	near	_	_	_	_
-4-23	236-241	Mecca	place	new	coref	8-9[39_0]
-4-24	242-243	,	_	_	_	_
-4-25	244-249	Saudi	_	_	_	_
-4-26	250-256	Arabia	_	_	_	_
+4-18	204-207	the	event[18]	giv[18]	coref	5-37[33_18]
+4-19	208-214	annual	event[18]	giv[18]	_	_
+4-20	215-219	Hajj	event[18]	giv[18]	_	_
+4-21	220-230	pilgrimage	event[18]	giv[18]	_	_
+4-22	231-235	near	event[18]	giv[18]	_	_
+4-23	236-241	Mecca	event[18]|place[19]	giv[18]|new[19]	coref	8-9[48_19]
+4-24	242-243	,	event[18]|place[19]	giv[18]|new[19]	_	_
+4-25	244-249	Saudi	event[18]|place[19]	giv[18]|new[19]	_	_
+4-26	250-256	Arabia	event[18]|place[19]	giv[18]|new[19]	_	_
 4-27	257-258	.	_	_	_	_
 
 #Text=The stampede at Islam 's most holy site happened at Jamarat Bridge , during an event where pebbles are thrown at a pillar to represent the stoning of Satan as part of the final rites of the Hajj .
-5-1	259-262	The	event[17]	giv[17]	coref	6-1[28_17]
-5-2	263-271	stampede	event[17]	giv[17]	_	_
-5-3	272-274	at	event[17]	giv[17]	_	_
-5-4	275-280	Islam	event[17]|abstract[19]	giv[17]|new[19]	coref	8-29[44_19]
-5-5	281-283	's	event[17]|abstract[19]	giv[17]|new[19]	_	_
-5-6	284-288	most	event[17]	giv[17]	_	_
-5-7	289-293	holy	event[17]	giv[17]	_	_
-5-8	294-298	site	event[17]	giv[17]	_	_
+5-1	259-262	The	event[21]	giv[21]	coref	6-1[34_21]
+5-2	263-271	stampede	event[21]	giv[21]	_	_
+5-3	272-274	at	event[21]	giv[21]	_	_
+5-4	275-280	Islam	event[21]|abstract[23]	giv[21]|new[23]	coref	8-29[56_23]
+5-5	281-283	's	event[21]|abstract[23]	giv[21]|new[23]	_	_
+5-6	284-288	most	event[21]	giv[21]	_	_
+5-7	289-293	holy	event[21]	giv[21]	_	_
+5-8	294-298	site	event[21]	giv[21]	_	_
 5-9	299-307	happened	_	_	_	_
 5-10	308-310	at	_	_	_	_
 5-11	311-318	Jamarat	_	_	_	_
@@ -95,13 +95,13 @@
 5-34	430-435	final	_	_	_	_
 5-35	436-441	rites	_	_	_	_
 5-36	442-444	of	_	_	_	_
-5-37	445-448	the	event[27]	giv[27]	coref	10-13[56_27]
-5-38	449-453	Hajj	event[27]	giv[27]	_	_
+5-37	445-448	the	event[33]	giv[33]	_	_
+5-38	449-453	Hajj	event[33]	giv[33]	_	_
 5-39	454-455	.	_	_	_	_
 
 #Text=The stampede began when luggage from a bus tripped pilgrims at the eastern end of the wall , causing a bottleneck .
-6-1	456-459	The	event[28]	giv[28]	ana	10-1[0_28]
-6-2	460-468	stampede	event[28]	giv[28]	_	_
+6-1	456-459	The	event[34]	giv[34]	ana	10-1[68_34]
+6-2	460-468	stampede	event[34]	giv[34]	_	_
 6-3	469-474	began	_	_	_	_
 6-4	475-479	when	_	_	_	_
 6-5	480-487	luggage	_	_	_	_
@@ -109,14 +109,14 @@
 6-7	493-494	a	_	_	_	_
 6-8	495-498	bus	_	_	_	_
 6-9	499-506	tripped	_	_	_	_
-6-10	507-515	pilgrims	person[31]	giv[31]	ana	7-14[36_31]
-6-11	516-518	at	person[31]	giv[31]	_	_
-6-12	519-522	the	person[31]|place[32]	giv[31]|new[32]	coref	9-32[53_32]
-6-13	523-530	eastern	person[31]|place[32]	giv[31]|new[32]	_	_
-6-14	531-534	end	person[31]|place[32]	giv[31]|new[32]	_	_
-6-15	535-537	of	person[31]|place[32]	giv[31]|new[32]	_	_
-6-16	538-541	the	person[31]|place[32]	giv[31]|new[32]	_	_
-6-17	542-546	wall	person[31]|place[32]	giv[31]|new[32]	_	_
+6-10	507-515	pilgrims	_	_	_	_
+6-11	516-518	at	_	_	_	_
+6-12	519-522	the	_	_	_	_
+6-13	523-530	eastern	_	_	_	_
+6-14	531-534	end	_	_	_	_
+6-15	535-537	of	_	_	_	_
+6-16	538-541	the	_	_	_	_
+6-17	542-546	wall	_	_	_	_
 6-18	547-548	,	_	_	_	_
 6-19	549-556	causing	_	_	_	_
 6-20	557-558	a	_	_	_	_
@@ -137,21 +137,21 @@
 7-11	625-627	of	_	_	_	_
 7-12	628-634	people	_	_	_	_
 7-13	635-641	behind	_	_	_	_
-7-14	642-646	them	abstract[36]	giv[36]	_	_
+7-14	642-646	them	_	_	_	_
 7-15	647-648	.	_	_	_	_
 
 #Text=Muslims are required to make a pilgrimage to Mecca during their lifetimes , if physically or financially possible , as it is one of the five pillars of the Islamic faith .
-8-1	649-656	Muslims	person	new	ana	8-11[41_0]
+8-1	649-656	Muslims	person[44]	new[44]	ana	8-11[51_44]
 8-2	657-660	are	_	_	_	_
 8-3	661-669	required	_	_	_	_
 8-4	670-672	to	_	_	_	_
 8-5	673-677	make	_	_	_	_
 8-6	678-679	a	_	_	_	_
-8-7	680-690	pilgrimage	event[38]	giv[38]	ana	8-21[0_38]
-8-8	691-693	to	event[38]	giv[38]	_	_
-8-9	694-699	Mecca	event[38]|place[39]	giv[38]|giv[39]	_	_
+8-7	680-690	pilgrimage	event[47]	giv[47]	ana	8-21[52_47]
+8-8	691-693	to	event[47]	giv[47]	_	_
+8-9	694-699	Mecca	event[47]|place[48]	giv[47]|giv[48]	_	_
 8-10	700-706	during	_	_	_	_
-8-11	707-712	their	person[41]	giv[41]	_	_
+8-11	707-712	their	person[51]	giv[51]	_	_
 8-12	713-722	lifetimes	_	_	_	_
 8-13	723-724	,	_	_	_	_
 8-14	725-727	if	_	_	_	_
@@ -161,7 +161,7 @@
 8-18	754-762	possible	_	_	_	_
 8-19	763-764	,	_	_	_	_
 8-20	765-767	as	_	_	_	_
-8-21	768-770	it	event	giv	_	_
+8-21	768-770	it	event[52]	giv[52]	coref	10-13[72_52]
 8-22	771-773	is	_	_	_	_
 8-23	774-777	one	_	_	_	_
 8-24	778-780	of	_	_	_	_
@@ -169,9 +169,9 @@
 8-26	785-789	five	_	_	_	_
 8-27	790-797	pillars	_	_	_	_
 8-28	798-800	of	_	_	_	_
-8-29	801-804	the	abstract[44]	acc[44]	_	_
-8-30	805-812	Islamic	abstract[44]	acc[44]	_	_
-8-31	813-818	faith	abstract[44]	acc[44]	_	_
+8-29	801-804	the	abstract[56]	acc[56]	_	_
+8-30	805-812	Islamic	abstract[56]	acc[56]	_	_
+8-31	813-818	faith	abstract[56]	acc[56]	_	_
 8-32	819-820	.	_	_	_	_
 
 #Text=Saudi officials had already provided safeguards by installing an oval wall with padded edges to protect pilgrams from a crush , installed security cameras and placed over 60,000 security personnel in the area .
@@ -206,12 +206,12 @@
 9-29	999-1007	security	_	_	_	_
 9-30	1008-1017	personnel	_	_	_	_
 9-31	1018-1020	in	_	_	_	_
-9-32	1021-1024	the	place[53]	giv[53]	_	_
-9-33	1025-1029	area	place[53]	giv[53]	_	_
+9-32	1021-1024	the	_	_	_	_
+9-33	1025-1029	area	_	_	_	_
 9-34	1030-1031	.	_	_	_	_
 
 #Text=This is not the first time deadly stampedes have taken place during the Hajj , with the deadliest stampede during the 1991 Hajj , in which 1,426 pilgrims were trampled .
-10-1	1032-1036	This	event	giv	_	_
+10-1	1032-1036	This	event[68]	giv[68]	_	_
 10-2	1037-1039	is	_	_	_	_
 10-3	1040-1043	not	_	_	_	_
 10-4	1044-1047	the	_	_	_	_
@@ -223,8 +223,8 @@
 10-10	1081-1086	taken	_	_	_	_
 10-11	1087-1092	place	_	_	_	_
 10-12	1093-1099	during	_	_	_	_
-10-13	1100-1103	the	event[56]	giv[56]	_	_
-10-14	1104-1108	Hajj	event[56]	giv[56]	_	_
+10-13	1100-1103	the	event[72]	giv[72]	_	_
+10-14	1104-1108	Hajj	event[72]	giv[72]	_	_
 10-15	1109-1110	,	_	_	_	_
 10-16	1111-1115	with	_	_	_	_
 10-17	1116-1119	the	_	_	_	_
@@ -258,13 +258,13 @@
 11-12	1254-1262	Al-Ghaza	_	_	_	_
 11-13	1263-1268	Hotel	_	_	_	_
 11-14	1269-1273	near	_	_	_	_
-11-15	1274-1277	the	place[64]	new[64]	appos	11-18[127_64]
-11-16	1278-1284	Masjid	place[64]	new[64]	_	_
-11-17	1285-1293	Al-Haram	place[64]	new[64]	_	_
-11-18	1294-1295	(	place[127]	new[127]	_	_
-11-19	1296-1301	Grand	place[127]	new[127]	_	_
-11-20	1302-1308	Mosque	place[127]	new[127]	_	_
-11-21	1309-1310	)	place[127]	new[127]	_	_
+11-15	1274-1277	the	place[81]	new[81]	appos	11-18[144_81]
+11-16	1278-1284	Masjid	place[81]	new[81]	_	_
+11-17	1285-1293	Al-Haram	place[81]	new[81]	_	_
+11-18	1294-1295	(	place[144]	giv[144]	_	_
+11-19	1296-1301	Grand	place[144]	giv[144]	_	_
+11-20	1302-1308	Mosque	place[144]	giv[144]	_	_
+11-21	1309-1310	)	place[144]	giv[144]	_	_
 11-22	1311-1320	collasped	_	_	_	_
 11-23	1321-1322	,	_	_	_	_
 11-24	1323-1326	the	_	_	_	_

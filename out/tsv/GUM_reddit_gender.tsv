@@ -6,7 +6,7 @@
 #Text=CMV : We should keep assuming others ’ gender and pronouns , but be respectful if corrected
 1-1	0-3	CMV	_	_	_	_
 1-2	4-5	:	_	_	_	_
-1-3	6-8	We	person	acc	ana	3-1
+1-3	6-8	We	person[1]	acc[1]	ana	3-1[14_1]
 1-4	9-15	should	_	_	_	_
 1-5	16-20	keep	_	_	_	_
 1-6	21-29	assuming	_	_	_	_
@@ -38,7 +38,7 @@
 2-13	169-170	”	_	_	_	_
 
 #Text=We should strive for equality , but also practicality .
-3-1	171-173	We	person	giv	ana	4-3[11_0]
+3-1	171-173	We	person[14]	giv[14]	ana	4-3[22_14]
 3-2	174-180	should	_	_	_	_
 3-3	181-187	strive	_	_	_	_
 3-4	188-191	for	_	_	_	_
@@ -52,7 +52,7 @@
 #Text=Thus , our current gender system should only be tweaked , not radically changed .
 4-1	227-231	Thus	_	_	_	_
 4-2	232-233	,	_	_	_	_
-4-3	234-237	our	person[11]	giv[11]	ana	8-5[21_11]
+4-3	234-237	our	person[22]	giv[22]	ana	8-5[39_22]
 4-4	238-245	current	_	_	_	_
 4-5	246-252	gender	_	_	_	_
 4-6	253-259	system	_	_	_	_
@@ -78,22 +78,22 @@
 
 #Text=Since most people are cisgender ( and heterosexual ) , norms reflect that .
 6-1	350-355	Since	_	_	_	_
-6-2	356-360	most	abstract[14]	new[14]	ana	6-13[18_14]
-6-3	361-367	people	abstract[14]	new[14]	_	_
-6-4	368-371	are	abstract[14]	new[14]	_	_
-6-5	372-381	cisgender	abstract[14]	new[14]	_	_
-6-6	382-383	(	abstract[14]	new[14]	_	_
-6-7	384-387	and	abstract[14]	new[14]	_	_
-6-8	388-400	heterosexual	abstract[14]	new[14]	_	_
-6-9	401-402	)	abstract[14]	new[14]	_	_
+6-2	356-360	most	abstract[26]	new[26]	ana	6-13[30_26]
+6-3	361-367	people	abstract[26]	new[26]	_	_
+6-4	368-371	are	abstract[26]	new[26]	_	_
+6-5	372-381	cisgender	abstract[26]	new[26]	_	_
+6-6	382-383	(	abstract[26]	new[26]	_	_
+6-7	384-387	and	abstract[26]	new[26]	_	_
+6-8	388-400	heterosexual	abstract[26]	new[26]	_	_
+6-9	401-402	)	abstract[26]	new[26]	_	_
 6-10	403-404	,	_	_	_	_
-6-11	405-410	norms	abstract[16]	new[16]	ana	7-1[0_16]
-6-12	411-418	reflect	abstract[16]	new[16]	_	_
-6-13	419-423	that	abstract[16]|abstract[18]	new[16]|giv[18]	_	_
+6-11	405-410	norms	abstract[28]	new[28]	ana	7-1[31_28]
+6-12	411-418	reflect	abstract[28]	new[28]	_	_
+6-13	419-423	that	abstract[28]|abstract[30]	new[28]|giv[30]	_	_
 6-14	424-425	.	_	_	_	_
 
 #Text=This is n’t inherently an issue .
-7-1	426-430	This	abstract	giv	ana	8-13
+7-1	426-430	This	abstract[31]	giv[31]	ana	8-13[43_31]
 7-2	431-433	is	_	_	_	_
 7-3	434-437	n’t	_	_	_	_
 7-4	438-448	inherently	_	_	_	_
@@ -105,19 +105,19 @@
 8-1	460-462	It	_	_	_	_
 8-2	463-465	’s	_	_	_	_
 8-3	466-470	only	_	_	_	_
-8-4	471-475	when	_	_	_	_
-8-5	476-478	we	person[21]	giv[21]	ana	11-3[31_21]
-8-6	479-481	do	_	_	_	_
-8-7	482-485	n’t	_	_	_	_
-8-8	486-494	tolerate	_	_	_	_
-8-9	495-504	deviation	_	_	_	_
-8-10	505-509	from	_	_	_	_
-8-11	510-515	norms	_	_	_	_
-8-12	516-520	that	_	_	_	_
-8-13	521-523	it	abstract	giv	_	_
-8-14	524-531	becomes	_	_	_	_
-8-15	532-533	a	_	_	_	_
-8-16	534-541	problem	_	_	_	_
+8-4	471-475	when	event[38]	new[38]	cata	8-1[36_38]
+8-5	476-478	we	event[38]|person[39]	new[38]|giv[39]	ana	11-3[61_39]
+8-6	479-481	do	event[38]	new[38]	_	_
+8-7	482-485	n’t	event[38]	new[38]	_	_
+8-8	486-494	tolerate	event[38]	new[38]	_	_
+8-9	495-504	deviation	event[38]	new[38]	_	_
+8-10	505-509	from	event[38]	new[38]	_	_
+8-11	510-515	norms	event[38]	new[38]	_	_
+8-12	516-520	that	event[38]	new[38]	_	_
+8-13	521-523	it	abstract[43]|event[38]	giv[43]|new[38]	_	_
+8-14	524-531	becomes	event[38]	new[38]	_	_
+8-15	532-533	a	event[38]	new[38]	_	_
+8-16	534-541	problem	event[38]	new[38]	_	_
 8-17	542-543	.	_	_	_	_
 
 #Text=It ’s neither necessary , possible , nor desirable to erase all gender norms , since they are willingly followed by most .
@@ -130,62 +130,62 @@
 9-7	579-580	,	_	_	_	_
 9-8	581-584	nor	_	_	_	_
 9-9	585-594	desirable	_	_	_	_
-9-10	595-597	to	_	_	_	_
-9-11	598-603	erase	_	_	_	_
-9-12	604-607	all	abstract[26]	acc[26]	ana	9-17[0_26]
-9-13	608-614	gender	abstract[26]	acc[26]	_	_
-9-14	615-620	norms	abstract[26]	acc[26]	_	_
+9-10	595-597	to	abstract[49]	new[49]	cata	9-1[47_49]
+9-11	598-603	erase	abstract[49]	new[49]	_	_
+9-12	604-607	all	abstract[49]|abstract[50]	new[49]|acc[50]	ana	9-17[51_50]
+9-13	608-614	gender	abstract[49]|abstract[50]	new[49]|acc[50]	_	_
+9-14	615-620	norms	abstract[49]|abstract[50]	new[49]|acc[50]	_	_
 9-15	621-622	,	_	_	_	_
 9-16	623-628	since	_	_	_	_
-9-17	629-633	they	abstract	giv	coref	11-3[30_0]
+9-17	629-633	they	abstract[51]	giv[51]	coref	11-3[60_51]
 9-18	634-637	are	_	_	_	_
 9-19	638-647	willingly	_	_	_	_
 9-20	648-656	followed	_	_	_	_
 9-21	657-659	by	_	_	_	_
-9-22	660-664	most	person	giv	coref	10-1[28_0]
+9-22	660-664	most	person[52]	giv[52]	coref	10-1[56_52]
 9-23	665-666	.	_	_	_	_
 
 #Text=The vast majority of people , cis or trans , identify as male or female , and have an appearance that matches .
-10-1	667-670	The	abstract[27]|person[28]	new[27]|giv[28]	ana	11-1[0_27]
-10-2	671-675	vast	abstract[27]|person[28]	new[27]|giv[28]	_	_
-10-3	676-684	majority	abstract[27]|person[28]	new[27]|giv[28]	_	_
-10-4	685-687	of	abstract[27]|person[28]	new[27]|giv[28]	_	_
-10-5	688-694	people	abstract[27]|person[28]	new[27]|giv[28]	_	_
-10-6	695-696	,	abstract[27]|person[28]	new[27]|giv[28]	_	_
-10-7	697-700	cis	abstract[27]|person[28]	new[27]|giv[28]	_	_
-10-8	701-703	or	abstract[27]|person[28]	new[27]|giv[28]	_	_
-10-9	704-709	trans	abstract[27]|person[28]	new[27]|giv[28]	_	_
-10-10	710-711	,	abstract[27]	new[27]	_	_
-10-11	712-720	identify	abstract[27]	new[27]	_	_
-10-12	721-723	as	abstract[27]	new[27]	_	_
-10-13	724-728	male	abstract[27]	new[27]	_	_
-10-14	729-731	or	abstract[27]	new[27]	_	_
-10-15	732-738	female	abstract[27]	new[27]	_	_
-10-16	739-740	,	abstract[27]	new[27]	_	_
-10-17	741-744	and	abstract[27]	new[27]	_	_
-10-18	745-749	have	abstract[27]	new[27]	_	_
-10-19	750-752	an	abstract[27]	new[27]	_	_
-10-20	753-763	appearance	abstract[27]	new[27]	_	_
-10-21	764-768	that	abstract[27]	new[27]	_	_
-10-22	769-776	matches	abstract[27]	new[27]	_	_
-10-23	777-778	.	abstract[27]	new[27]	_	_
+10-1	667-670	The	abstract[55]|person[56]	new[55]|giv[56]	ana	11-1[58_55]
+10-2	671-675	vast	abstract[55]|person[56]	new[55]|giv[56]	_	_
+10-3	676-684	majority	abstract[55]|person[56]	new[55]|giv[56]	_	_
+10-4	685-687	of	abstract[55]|person[56]	new[55]|giv[56]	_	_
+10-5	688-694	people	abstract[55]|person[56]	new[55]|giv[56]	_	_
+10-6	695-696	,	abstract[55]|person[56]	new[55]|giv[56]	_	_
+10-7	697-700	cis	abstract[55]|person[56]	new[55]|giv[56]	_	_
+10-8	701-703	or	abstract[55]|person[56]	new[55]|giv[56]	_	_
+10-9	704-709	trans	abstract[55]|person[56]	new[55]|giv[56]	_	_
+10-10	710-711	,	abstract[55]	new[55]	_	_
+10-11	712-720	identify	abstract[55]	new[55]	_	_
+10-12	721-723	as	abstract[55]	new[55]	_	_
+10-13	724-728	male	abstract[55]	new[55]	_	_
+10-14	729-731	or	abstract[55]	new[55]	_	_
+10-15	732-738	female	abstract[55]	new[55]	_	_
+10-16	739-740	,	abstract[55]	new[55]	_	_
+10-17	741-744	and	abstract[55]	new[55]	_	_
+10-18	745-749	have	abstract[55]	new[55]	_	_
+10-19	750-752	an	abstract[55]	new[55]	_	_
+10-20	753-763	appearance	abstract[55]	new[55]	_	_
+10-21	764-768	that	abstract[55]	new[55]	_	_
+10-22	769-776	matches	abstract[55]	new[55]	_	_
+10-23	777-778	.	abstract[55]	new[55]	_	_
 
 #Text=This makes our binary gender assumption norms useful .
-11-1	779-783	This	abstract	giv	_	_
+11-1	779-783	This	abstract[58]	giv[58]	_	_
 11-2	784-789	makes	_	_	_	_
-11-3	790-793	our	abstract[30]|person[31]	giv[30]|giv[31]	ana	14-1[0_31]
-11-4	794-800	binary	abstract[30]	giv[30]	_	_
-11-5	801-807	gender	abstract[30]	giv[30]	_	_
-11-6	808-818	assumption	abstract[30]	giv[30]	_	_
-11-7	819-824	norms	abstract[30]	giv[30]	_	_
+11-3	790-793	our	abstract[60]|person[61]	giv[60]|giv[61]	ana	14-1[80_61]
+11-4	794-800	binary	abstract[60]	giv[60]	_	_
+11-5	801-807	gender	abstract[60]	giv[60]	_	_
+11-6	808-818	assumption	abstract[60]	giv[60]	_	_
+11-7	819-824	norms	abstract[60]	giv[60]	_	_
 11-8	825-831	useful	_	_	_	_
 11-9	832-833	.	_	_	_	_
 
 #Text=Most people want their gender assumed off appearance or else do n’t care ; it ’s only a very few whose appearance does n’t match gender , or identify as a non-binary gender .
-12-1	834-838	Most	person[32]	giv[32]	ana	12-4[34_32]
-12-2	839-845	people	person[32]	giv[32]	_	_
+12-1	834-838	Most	person[63]	giv[63]	ana	12-4[65_63]
+12-2	839-845	people	person[63]	giv[63]	_	_
 12-3	846-850	want	_	_	_	_
-12-4	851-856	their	person[34]	giv[34]	_	_
+12-4	851-856	their	person[65]	giv[65]	_	_
 12-5	857-863	gender	_	_	_	_
 12-6	864-871	assumed	_	_	_	_
 12-7	872-875	off	_	_	_	_
@@ -199,22 +199,22 @@
 12-15	909-911	it	_	_	_	_
 12-16	912-914	’s	_	_	_	_
 12-17	915-919	only	_	_	_	_
-12-18	920-921	a	person[37]	new[37]	coref	18-18[61_37]
-12-19	922-926	very	person[37]	new[37]	_	_
-12-20	927-930	few	person[37]	new[37]	_	_
-12-21	931-936	whose	person[37]	new[37]	_	_
-12-22	937-947	appearance	person[37]	new[37]	_	_
-12-23	948-952	does	person[37]	new[37]	_	_
-12-24	953-956	n’t	person[37]	new[37]	_	_
-12-25	957-962	match	person[37]	new[37]	_	_
-12-26	963-969	gender	person[37]	new[37]	_	_
-12-27	970-971	,	person[37]	new[37]	_	_
-12-28	972-974	or	person[37]	new[37]	_	_
-12-29	975-983	identify	person[37]	new[37]	_	_
-12-30	984-986	as	person[37]	new[37]	_	_
-12-31	987-988	a	person[37]	new[37]	_	_
-12-32	989-999	non-binary	person[37]	new[37]	_	_
-12-33	1000-1006	gender	person[37]	new[37]	_	_
+12-18	920-921	a	person[72]	new[72]	cata	12-15[70_72]
+12-19	922-926	very	person[72]	new[72]	_	_
+12-20	927-930	few	person[72]	new[72]	_	_
+12-21	931-936	whose	person[72]	new[72]	_	_
+12-22	937-947	appearance	person[72]	new[72]	_	_
+12-23	948-952	does	person[72]	new[72]	_	_
+12-24	953-956	n’t	person[72]	new[72]	_	_
+12-25	957-962	match	person[72]	new[72]	_	_
+12-26	963-969	gender	person[72]	new[72]	_	_
+12-27	970-971	,	person[72]	new[72]	_	_
+12-28	972-974	or	person[72]	new[72]	_	_
+12-29	975-983	identify	person[72]	new[72]	_	_
+12-30	984-986	as	person[72]	new[72]	_	_
+12-31	987-988	a	person[72]	new[72]	_	_
+12-32	989-999	non-binary	person[72]	new[72]	_	_
+12-33	1000-1006	gender	person[72]	new[72]	_	_
 12-34	1007-1008	.	_	_	_	_
 
 #Text=Society already accommodates situations like this .
@@ -227,7 +227,7 @@
 13-7	1059-1060	.	_	_	_	_
 
 #Text=We provide wheelchair ramps , nut-free foods , and gender neutral bathrooms on top of the stairs , PB&J , and gendered bathrooms that most people use .
-14-1	1061-1063	We	person	giv	ana	20-1[66_0]
+14-1	1061-1063	We	person[80]	giv[80]	ana	20-1[132_80]
 14-2	1064-1071	provide	_	_	_	_
 14-3	1072-1082	wheelchair	_	_	_	_
 14-4	1083-1088	ramps	_	_	_	_
@@ -257,29 +257,29 @@
 14-28	1211-1212	.	_	_	_	_
 
 #Text=You might have to ask someone or travel a bit more to be accommodated , but society has deemed this small extra effort acceptable , because very few people need to be accommodated .
-15-1	1213-1216	You	abstract[48]|person[49]	new[48]|acc[49]	coref|ana	15-20[51_48]|21-4[73_49]
-15-2	1217-1222	might	abstract[48]	new[48]	_	_
-15-3	1223-1227	have	abstract[48]	new[48]	_	_
-15-4	1228-1230	to	abstract[48]	new[48]	_	_
-15-5	1231-1234	ask	abstract[48]	new[48]	_	_
-15-6	1235-1242	someone	abstract[48]	new[48]	_	_
-15-7	1243-1245	or	abstract[48]	new[48]	_	_
-15-8	1246-1252	travel	abstract[48]	new[48]	_	_
-15-9	1253-1254	a	abstract[48]	new[48]	_	_
-15-10	1255-1258	bit	abstract[48]	new[48]	_	_
-15-11	1259-1263	more	abstract[48]	new[48]	_	_
-15-12	1264-1266	to	abstract[48]	new[48]	_	_
-15-13	1267-1269	be	abstract[48]	new[48]	_	_
-15-14	1270-1282	accommodated	abstract[48]	new[48]	_	_
+15-1	1213-1216	You	abstract[92]|person[93]	new[92]|acc[93]	coref|ana	15-20[99_92]|21-4[140_93]
+15-2	1217-1222	might	abstract[92]	new[92]	_	_
+15-3	1223-1227	have	abstract[92]	new[92]	_	_
+15-4	1228-1230	to	abstract[92]	new[92]	_	_
+15-5	1231-1234	ask	abstract[92]	new[92]	_	_
+15-6	1235-1242	someone	abstract[92]	new[92]	_	_
+15-7	1243-1245	or	abstract[92]	new[92]	_	_
+15-8	1246-1252	travel	abstract[92]	new[92]	_	_
+15-9	1253-1254	a	abstract[92]	new[92]	_	_
+15-10	1255-1258	bit	abstract[92]	new[92]	_	_
+15-11	1259-1263	more	abstract[92]	new[92]	_	_
+15-12	1264-1266	to	abstract[92]	new[92]	_	_
+15-13	1267-1269	be	abstract[92]	new[92]	_	_
+15-14	1270-1282	accommodated	abstract[92]	new[92]	_	_
 15-15	1283-1284	,	_	_	_	_
 15-16	1285-1288	but	_	_	_	_
 15-17	1289-1296	society	_	_	_	_
 15-18	1297-1300	has	_	_	_	_
 15-19	1301-1307	deemed	_	_	_	_
-15-20	1308-1312	this	abstract[51]	giv[51]	_	_
-15-21	1313-1318	small	abstract[51]	giv[51]	_	_
-15-22	1319-1324	extra	abstract[51]	giv[51]	_	_
-15-23	1325-1331	effort	abstract[51]	giv[51]	_	_
+15-20	1308-1312	this	abstract[99]	giv[99]	_	_
+15-21	1313-1318	small	abstract[99]	giv[99]	_	_
+15-22	1319-1324	extra	abstract[99]	giv[99]	_	_
+15-23	1325-1331	effort	abstract[99]	giv[99]	_	_
 15-24	1332-1342	acceptable	_	_	_	_
 15-25	1343-1344	,	_	_	_	_
 15-26	1345-1352	because	_	_	_	_
@@ -297,20 +297,20 @@
 16-2	1398-1400	’s	_	_	_	_
 16-3	1401-1405	thus	_	_	_	_
 16-4	1406-1416	reasonable	_	_	_	_
-16-5	1417-1419	to	_	_	_	_
-16-6	1420-1426	expect	_	_	_	_
-16-7	1427-1430	the	person[54]	new[54]	ana	16-18[0_54]
-16-8	1431-1441	individual	person[54]	new[54]	_	_
-16-9	1442-1444	to	_	_	_	_
-16-10	1445-1452	request	_	_	_	_
-16-11	1453-1460	certain	abstract[55]	acc[55]	ana	16-14[0_55]
-16-12	1461-1469	pronouns	abstract[55]	acc[55]	_	_
+16-5	1417-1419	to	abstract[103]	new[103]	cata	16-1[101_103]
+16-6	1420-1426	expect	abstract[103]	new[103]	_	_
+16-7	1427-1430	the	abstract[103]|person[104]	new[103]|new[104]	ana	16-18[107_104]
+16-8	1431-1441	individual	abstract[103]|person[104]	new[103]|new[104]	_	_
+16-9	1442-1444	to	abstract[103]	new[103]	_	_
+16-10	1445-1452	request	abstract[103]	new[103]	_	_
+16-11	1453-1460	certain	abstract[103]|abstract[105]	new[103]|acc[105]	ana	16-14[106_105]
+16-12	1461-1469	pronouns	abstract[103]|abstract[105]	new[103]|acc[105]	_	_
 16-13	1470-1472	if	_	_	_	_
-16-14	1473-1475	it	abstract	giv	_	_
+16-14	1473-1475	it	abstract[106]	giv[106]	_	_
 16-15	1476-1478	’s	_	_	_	_
 16-16	1479-1488	important	_	_	_	_
 16-17	1489-1491	to	_	_	_	_
-16-18	1492-1496	them	person	giv	_	_
+16-18	1492-1496	them	person[107]	giv[107]	_	_
 16-19	1497-1498	.	_	_	_	_
 
 #Text=Society recognizes disabilities , allergies , and even hard to pronounce names as legitimate .
@@ -336,8 +336,8 @@
 18-3	1603-1608	issue	_	_	_	_
 18-4	1609-1611	is	_	_	_	_
 18-5	1612-1616	that	_	_	_	_
-18-6	1617-1631	non-conforming	abstract[59]	acc[59]	coref	18-18[61_59]
-18-7	1632-1639	genders	abstract[59]	acc[59]	_	_
+18-6	1617-1631	non-conforming	person[119]	acc[119]	coref	18-18[121_119]
+18-7	1632-1639	genders	person[119]	acc[119]	_	_
 18-8	1640-1643	are	_	_	_	_
 18-9	1644-1647	n’t	_	_	_	_
 18-10	1648-1654	always	_	_	_	_
@@ -348,8 +348,8 @@
 18-15	1682-1685	and	_	_	_	_
 18-16	1686-1696	harassment	_	_	_	_
 18-17	1697-1699	of	_	_	_	_
-18-18	1700-1703	the	person[61]	giv[61]	coref	20-20[71_61]
-18-19	1704-1709	group	person[61]	giv[61]	_	_
+18-18	1700-1703	the	person[121]	giv[121]	coref	20-20[138_121]
+18-19	1704-1709	group	person[121]	giv[121]	_	_
 18-20	1710-1716	occurs	_	_	_	_
 18-21	1717-1718	.	_	_	_	_
 
@@ -358,23 +358,23 @@
 19-2	1722-1725	one	_	_	_	_
 19-3	1726-1730	says	_	_	_	_
 19-4	1731-1733	to	_	_	_	_
-19-5	1734-1735	a	person[63]	new[63]	ana	19-16[0_63]
-19-6	1736-1742	person	person[63]	new[63]	_	_
-19-7	1743-1746	who	person[63]	new[63]	_	_
-19-8	1747-1751	says	person[63]	new[63]	_	_
-19-9	1752-1756	they	person[63]	new[63]	_	_
-19-10	1757-1761	have	person[63]	new[63]	_	_
-19-11	1762-1764	an	person[63]	new[63]	_	_
-19-12	1765-1772	allergy	person[63]	new[63]	_	_
+19-5	1734-1735	a	person[123]	new[123]	ana	19-16[127_123]
+19-6	1736-1742	person	person[123]	new[123]	_	_
+19-7	1743-1746	who	person[123]	new[123]	_	_
+19-8	1747-1751	says	person[123]	new[123]	_	_
+19-9	1752-1756	they	person[123]	new[123]	_	_
+19-10	1757-1761	have	person[123]	new[123]	_	_
+19-11	1762-1764	an	person[123]	new[123]	_	_
+19-12	1765-1772	allergy	person[123]	new[123]	_	_
 19-13	1773-1774	“	_	_	_	_
 19-14	1775-1781	Really	_	_	_	_
 19-15	1782-1783	?	_	_	_	_
-19-16	1784-1787	You	person	giv	ana	19-21
+19-16	1784-1787	You	person[127]	giv[127]	ana	19-21[128_127]
 19-17	1788-1790	do	_	_	_	_
 19-18	1791-1794	n’t	_	_	_	_
 19-19	1795-1799	look	_	_	_	_
 19-20	1800-1804	like	_	_	_	_
-19-21	1805-1808	you	person	giv	_	_
+19-21	1805-1808	you	person[128]	giv[128]	_	_
 19-22	1809-1813	have	_	_	_	_
 19-23	1814-1816	an	_	_	_	_
 19-24	1817-1824	allergy	_	_	_	_
@@ -382,8 +382,8 @@
 19-26	1827-1828	”	_	_	_	_
 
 #Text=We all need to be educated and tolerant towards other pronouns and genders , and not tolerate harassment of this group .
-20-1	1829-1831	We	person[66]	giv[66]	_	_
-20-2	1832-1835	all	person[66]	giv[66]	_	_
+20-1	1829-1831	We	person[132]	giv[132]	_	_
+20-2	1832-1835	all	person[132]	giv[132]	_	_
 20-3	1836-1840	need	_	_	_	_
 20-4	1841-1843	to	_	_	_	_
 20-5	1844-1846	be	_	_	_	_
@@ -401,15 +401,15 @@
 20-17	1914-1922	tolerate	_	_	_	_
 20-18	1923-1933	harassment	_	_	_	_
 20-19	1934-1936	of	_	_	_	_
-20-20	1937-1941	this	person[71]	giv[71]	_	_
-20-21	1942-1947	group	person[71]	giv[71]	_	_
+20-20	1937-1941	this	person[138]	giv[138]	_	_
+20-21	1942-1947	group	person[138]	giv[138]	_	_
 20-22	1948-1949	.	_	_	_	_
 
 #Text=Basically , recognize your assumptions are n’t always correct , and be gracious if you ’re wrong .
 21-1	1950-1959	Basically	_	_	_	_
 21-2	1960-1961	,	_	_	_	_
 21-3	1962-1971	recognize	_	_	_	_
-21-4	1972-1976	your	person[73]	giv[73]	ana	21-15[0_73]
+21-4	1972-1976	your	person[140]	giv[140]	ana	21-15[141_140]
 21-5	1977-1988	assumptions	_	_	_	_
 21-6	1989-1992	are	_	_	_	_
 21-7	1993-1996	n’t	_	_	_	_
@@ -420,7 +420,7 @@
 21-12	2018-2020	be	_	_	_	_
 21-13	2021-2029	gracious	_	_	_	_
 21-14	2030-2032	if	_	_	_	_
-21-15	2033-2036	you	person	giv	ana	23-1
+21-15	2033-2036	you	person[141]	giv[141]	ana	23-1[156_141]
 21-16	2037-2040	’re	_	_	_	_
 21-17	2041-2046	wrong	_	_	_	_
 21-18	2047-2048	.	_	_	_	_
@@ -434,15 +434,15 @@
 22-6	2066-2070	time	_	_	_	_
 22-7	2071-2074	and	_	_	_	_
 22-8	2075-2081	effort	_	_	_	_
-22-9	2082-2084	to	_	_	_	_
-22-10	2085-2089	make	_	_	_	_
-22-11	2090-2098	everyone	person[76]	acc[76]	coref	24-18[0_76]
-22-12	2099-2102	ask	event[77]	new[77]	ana	23-7[0_77]
-22-13	2103-2105	or	event[77]	new[77]	_	_
-22-14	2106-2115	introduce	event[77]	new[77]	_	_
-22-15	2116-2124	pronouns	event[77]	new[77]	_	_
-22-16	2125-2127	or	event[77]	new[77]	_	_
-22-17	2128-2134	gender	event[77]	new[77]	_	_
+22-9	2082-2084	to	abstract[147]	new[147]	cata	22-1[142_147]
+22-10	2085-2089	make	abstract[147]	new[147]	_	_
+22-11	2090-2098	everyone	abstract[147]|person[148]	new[147]|acc[148]	coref	24-18[167_148]
+22-12	2099-2102	ask	abstract[147]|event[150]	new[147]|new[150]	ana	23-7[157_150]
+22-13	2103-2105	or	abstract[147]|event[150]	new[147]|new[150]	_	_
+22-14	2106-2115	introduce	abstract[147]|event[150]	new[147]|new[150]	_	_
+22-15	2116-2124	pronouns	abstract[147]|event[150]	new[147]|new[150]	_	_
+22-16	2125-2127	or	abstract[147]|event[150]	new[147]|new[150]	_	_
+22-17	2128-2134	gender	abstract[147]|event[150]	new[147]|new[150]	_	_
 22-18	2135-2136	,	_	_	_	_
 22-19	2137-2144	because	_	_	_	_
 22-20	2145-2149	most	_	_	_	_
@@ -453,33 +453,33 @@
 22-25	2169-2170	.	_	_	_	_
 
 #Text=You should feel free to do this if you want to , but otherwise , you have to live with reasonable assumptions .
-23-1	2171-2174	You	person	giv	ana	23-9
+23-1	2171-2174	You	person[156]	giv[156]	ana	23-9[158_156]
 23-2	2175-2181	should	_	_	_	_
 23-3	2182-2186	feel	_	_	_	_
 23-4	2187-2191	free	_	_	_	_
 23-5	2192-2194	to	_	_	_	_
 23-6	2195-2197	do	_	_	_	_
-23-7	2198-2202	this	event	giv	_	_
+23-7	2198-2202	this	event[157]	giv[157]	coref	33-9[232_157]
 23-8	2203-2205	if	_	_	_	_
-23-9	2206-2209	you	person	giv	ana	23-16
+23-9	2206-2209	you	person[158]	giv[158]	ana	23-16[159_158]
 23-10	2210-2214	want	_	_	_	_
 23-11	2215-2217	to	_	_	_	_
 23-12	2218-2219	,	_	_	_	_
 23-13	2220-2223	but	_	_	_	_
 23-14	2224-2233	otherwise	_	_	_	_
 23-15	2234-2235	,	_	_	_	_
-23-16	2236-2239	you	person	giv	ana	25-9[87_0]
+23-16	2236-2239	you	person[159]	giv[159]	ana	25-9[172_159]
 23-17	2240-2244	have	_	_	_	_
 23-18	2245-2247	to	_	_	_	_
-23-19	2248-2252	live	event[81]	new[81]	coref	24-1[83_81]
-23-20	2253-2257	with	event[81]	new[81]	_	_
-23-21	2258-2268	reasonable	event[81]	new[81]	_	_
-23-22	2269-2280	assumptions	event[81]	new[81]	_	_
+23-19	2248-2252	live	event[164]	new[164]	coref	24-1[166_164]
+23-20	2253-2257	with	event[164]	new[164]	_	_
+23-21	2258-2268	reasonable	event[164]	new[164]	_	_
+23-22	2269-2280	assumptions	event[164]	new[164]	_	_
 23-23	2281-2282	.	_	_	_	_
 
 #Text=This solution is much more practical , and much more likely to be implemented and accepted by everyone .
-24-1	2283-2287	This	event[83]	giv[83]	_	_
-24-2	2288-2296	solution	event[83]	giv[83]	_	_
+24-1	2283-2287	This	event[166]	giv[166]	_	_
+24-2	2288-2296	solution	event[166]	giv[166]	_	_
 24-3	2297-2299	is	_	_	_	_
 24-4	2300-2304	much	_	_	_	_
 24-5	2305-2309	more	_	_	_	_
@@ -495,30 +495,30 @@
 24-15	2361-2364	and	_	_	_	_
 24-16	2365-2373	accepted	_	_	_	_
 24-17	2374-2376	by	_	_	_	_
-24-18	2377-2385	everyone	person	giv	coref	38-2
+24-18	2377-2385	everyone	person[167]	giv[167]	coref	38-2[277_167]
 24-19	2386-2387	.	_	_	_	_
 
 #Text=In essence , make an assumption , if you find out otherwise , go with it .
 25-1	2388-2390	In	_	_	_	_
 25-2	2391-2398	essence	_	_	_	_
 25-3	2399-2400	,	_	_	_	_
-25-4	2401-2405	make	event[84]	giv[84]	ana	26-1[0_84]
-25-5	2406-2408	an	event[84]	giv[84]	_	_
-25-6	2409-2419	assumption	event[84]	giv[84]	_	_
-25-7	2420-2421	,	event[84]	giv[84]	_	_
-25-8	2422-2424	if	event[84]	giv[84]	_	_
-25-9	2425-2428	you	event[84]|event[86]|person[87]	giv[84]|new[86]|giv[87]	ana|ana	25-16[88_86]|30-2[96_87]
-25-10	2429-2433	find	event[84]|event[86]	giv[84]|new[86]	_	_
-25-11	2434-2437	out	event[84]|event[86]	giv[84]|new[86]	_	_
-25-12	2438-2447	otherwise	event[84]|event[86]	giv[84]|new[86]	_	_
-25-13	2448-2449	,	event[84]	giv[84]	_	_
-25-14	2450-2452	go	event[84]	giv[84]	_	_
-25-15	2453-2457	with	event[84]	giv[84]	_	_
-25-16	2458-2460	it	event[84]|event[88]	giv[84]|giv[88]	_	_
+25-4	2401-2405	make	event[169]	new[169]	ana	26-1[174_169]
+25-5	2406-2408	an	event[169]	new[169]	_	_
+25-6	2409-2419	assumption	event[169]	new[169]	_	_
+25-7	2420-2421	,	event[169]	new[169]	_	_
+25-8	2422-2424	if	event[169]	new[169]	_	_
+25-9	2425-2428	you	event[169]|event[171]|person[172]	new[169]|new[171]|giv[172]	ana|ana	25-16[173_171]|30-2[203_172]
+25-10	2429-2433	find	event[169]|event[171]	new[169]|new[171]	_	_
+25-11	2434-2437	out	event[169]|event[171]	new[169]|new[171]	_	_
+25-12	2438-2447	otherwise	event[169]|event[171]	new[169]|new[171]	_	_
+25-13	2448-2449	,	event[169]	new[169]	_	_
+25-14	2450-2452	go	event[169]	new[169]	_	_
+25-15	2453-2457	with	event[169]	new[169]	_	_
+25-16	2458-2460	it	event[169]|event[173]	new[169]|giv[173]	_	_
 25-17	2461-2462	.	_	_	_	_
 
 #Text=This is n’t difficult or a big deal .
-26-1	2463-2467	This	event	giv	coref	27-10[90_0]
+26-1	2463-2467	This	event[174]	giv[174]	coref	27-10[183_174]
 26-2	2468-2470	is	_	_	_	_
 26-3	2471-2474	n’t	_	_	_	_
 26-4	2475-2484	difficult	_	_	_	_
@@ -538,8 +538,8 @@
 27-7	2532-2535	are	_	_	_	_
 27-8	2536-2545	concerned	_	_	_	_
 27-9	2546-2547	,	_	_	_	_
-27-10	2548-2552	this	event[90]	giv[90]	coref	28-11[93_90]
-27-11	2553-2561	solution	event[90]	giv[90]	_	_
+27-10	2548-2552	this	event[183]	giv[183]	coref	28-11[188_183]
+27-11	2553-2561	solution	event[183]	giv[183]	_	_
 27-12	2562-2564	is	_	_	_	_
 27-13	2565-2568	the	_	_	_	_
 27-14	2569-2573	best	_	_	_	_
@@ -549,7 +549,7 @@
 #Text=CMV , I ’d be glad to discuss parts of the solution you take issue with in more detail
 28-1	2580-2583	CMV	_	_	_	_
 28-2	2584-2585	,	_	_	_	_
-28-3	2586-2587	I	person	acc	ana	36-1
+28-3	2586-2587	I	person[185]	acc[185]	ana	36-1[257_185]
 28-4	2588-2590	’d	_	_	_	_
 28-5	2591-2593	be	_	_	_	_
 28-6	2594-2598	glad	_	_	_	_
@@ -557,25 +557,25 @@
 28-8	2602-2609	discuss	_	_	_	_
 28-9	2610-2615	parts	_	_	_	_
 28-10	2616-2618	of	_	_	_	_
-28-11	2619-2622	the	event[93]	giv[93]	coref	29-5[0_93]
-28-12	2623-2631	solution	event[93]	giv[93]	_	_
-28-13	2632-2635	you	event[93]	new[93]	_	_
-28-14	2636-2640	take	event[93]	new[93]	_	_
-28-15	2641-2646	issue	event[93]	new[93]	_	_
-28-16	2647-2651	with	event[93]	new[93]	_	_
+28-11	2619-2622	the	event[188]	giv[188]	ana	29-5[195_188]
+28-12	2623-2631	solution	event[188]	giv[188]	_	_
+28-13	2632-2635	you	event[188]	new[188]	_	_
+28-14	2636-2640	take	event[188]	new[188]	_	_
+28-15	2641-2646	issue	event[188]	new[188]	_	_
+28-16	2647-2651	with	event[188]	new[188]	_	_
 28-17	2652-2654	in	_	_	_	_
 28-18	2655-2659	more	_	_	_	_
 28-19	2660-2666	detail	_	_	_	_
 
 #Text=I generally agree with this , but it is context sensitive .
-29-1	2667-2668	I	person	giv	ana	32-1
+29-1	2667-2668	I	person[194]	giv[194]	ana	32-1[225_194]
 29-2	2669-2678	generally	_	_	_	_
 29-3	2679-2684	agree	_	_	_	_
 29-4	2685-2689	with	_	_	_	_
-29-5	2690-2694	this	event	giv	ana	29-8
+29-5	2690-2694	this	event[195]	giv[195]	ana	29-8[196_195]
 29-6	2695-2696	,	_	_	_	_
 29-7	2697-2700	but	_	_	_	_
-29-8	2701-2703	it	event	giv	_	_
+29-8	2701-2703	it	event[196]	giv[196]	_	_
 29-9	2704-2706	is	_	_	_	_
 29-10	2707-2714	context	_	_	_	_
 29-11	2715-2724	sensitive	_	_	_	_
@@ -583,51 +583,51 @@
 
 #Text=If you are at a venue where you are asked to introduce yourself and your pronouns , it is churlish to refuse to do so , AND in that context it ’s best to ask rather that assume .
 30-1	2727-2729	If	_	_	_	_
-30-2	2730-2733	you	event[95]|person[96]	new[95]|giv[96]	coref|ana	30-29[103_95]|30-8[98_96]
-30-3	2734-2737	are	event[95]	new[95]	_	_
-30-4	2738-2740	at	event[95]	new[95]	_	_
-30-5	2741-2742	a	event[95]|place[97]	new[95]|new[97]	coref	31-2[105_97]
-30-6	2743-2748	venue	event[95]|place[97]	new[95]|new[97]	_	_
-30-7	2749-2754	where	event[95]	new[95]	_	_
-30-8	2755-2758	you	event[95]|person[98]	new[95]|giv[98]	ana	30-13[99_98]
-30-9	2759-2762	are	event[95]	new[95]	_	_
-30-10	2763-2768	asked	event[95]	new[95]	_	_
-30-11	2769-2771	to	event[95]	new[95]	_	_
-30-12	2772-2781	introduce	event[95]	new[95]	_	_
-30-13	2782-2790	yourself	event[95]|person[99]	new[95]|giv[99]	ana	30-15[101_99]
-30-14	2791-2794	and	event[95]	new[95]	_	_
-30-15	2795-2799	your	event[95]|person[101]	new[95]|giv[101]	ana	35-19[0_101]
-30-16	2800-2808	pronouns	event[95]	new[95]	_	_
+30-2	2730-2733	you	event[202]|person[203]	new[202]|giv[203]	coref|ana	30-29[216_202]|30-8[206_203]
+30-3	2734-2737	are	event[202]	new[202]	_	_
+30-4	2738-2740	at	event[202]	new[202]	_	_
+30-5	2741-2742	a	event[202]|place[205]	new[202]|new[205]	coref	31-2[220_205]
+30-6	2743-2748	venue	event[202]|place[205]	new[202]|new[205]	_	_
+30-7	2749-2754	where	event[202]	new[202]	_	_
+30-8	2755-2758	you	event[202]|person[206]	new[202]|giv[206]	ana	30-13[207_206]
+30-9	2759-2762	are	event[202]	new[202]	_	_
+30-10	2763-2768	asked	event[202]	new[202]	_	_
+30-11	2769-2771	to	event[202]	new[202]	_	_
+30-12	2772-2781	introduce	event[202]	new[202]	_	_
+30-13	2782-2790	yourself	event[202]|person[207]	new[202]|giv[207]	ana	30-15[211_207]
+30-14	2791-2794	and	event[202]	new[202]	_	_
+30-15	2795-2799	your	event[202]|person[211]	new[202]|giv[211]	ana	35-19[248_211]
+30-16	2800-2808	pronouns	event[202]	new[202]	_	_
 30-17	2809-2810	,	_	_	_	_
 30-18	2811-2813	it	_	_	_	_
 30-19	2814-2816	is	_	_	_	_
 30-20	2817-2825	churlish	_	_	_	_
-30-21	2826-2828	to	_	_	_	_
-30-22	2829-2835	refuse	_	_	_	_
-30-23	2836-2838	to	_	_	_	_
-30-24	2839-2841	do	_	_	_	_
-30-25	2842-2844	so	_	_	_	_
+30-21	2826-2828	to	event[215]	new[215]	cata	30-18[212_215]
+30-22	2829-2835	refuse	event[215]	new[215]	_	_
+30-23	2836-2838	to	event[215]	new[215]	_	_
+30-24	2839-2841	do	event[215]	new[215]	_	_
+30-25	2842-2844	so	event[215]	new[215]	_	_
 30-26	2845-2846	,	_	_	_	_
 30-27	2847-2850	AND	_	_	_	_
 30-28	2851-2853	in	_	_	_	_
-30-29	2854-2858	that	abstract[103]	giv[103]	_	_
-30-30	2859-2866	context	abstract[103]	giv[103]	_	_
+30-29	2854-2858	that	event[216]	giv[216]	_	_
+30-30	2859-2866	context	event[216]	giv[216]	_	_
 30-31	2867-2869	it	_	_	_	_
 30-32	2870-2872	’s	_	_	_	_
 30-33	2873-2877	best	_	_	_	_
-30-34	2878-2880	to	_	_	_	_
-30-35	2881-2884	ask	_	_	_	_
-30-36	2885-2891	rather	_	_	_	_
-30-37	2892-2896	that	_	_	_	_
-30-38	2897-2903	assume	_	_	_	_
+30-34	2878-2880	to	event[219]	new[219]	cata	30-31[217_219]
+30-35	2881-2884	ask	event[219]	new[219]	_	_
+30-36	2885-2891	rather	event[219]	new[219]	_	_
+30-37	2892-2896	that	event[219]	new[219]	_	_
+30-38	2897-2903	assume	event[219]	new[219]	_	_
 30-39	2904-2905	.	_	_	_	_
 
 #Text=Since that kind of venue is fairly rare , it is not an unusual burden to ‘ go with the flow ’ .
 31-1	2906-2911	Since	_	_	_	_
-31-2	2912-2916	that	place[105]	giv[105]	_	_
-31-3	2917-2921	kind	place[105]	giv[105]	_	_
-31-4	2922-2924	of	place[105]	giv[105]	_	_
-31-5	2925-2930	venue	place[105]	giv[105]	_	_
+31-2	2912-2916	that	place[220]	giv[220]	_	_
+31-3	2917-2921	kind	place[220]	giv[220]	_	_
+31-4	2922-2924	of	place[220]	giv[220]	_	_
+31-5	2925-2930	venue	place[220]	giv[220]	_	_
 31-6	2931-2933	is	_	_	_	_
 31-7	2934-2940	fairly	_	_	_	_
 31-8	2941-2945	rare	_	_	_	_
@@ -638,17 +638,17 @@
 31-13	2958-2960	an	_	_	_	_
 31-14	2961-2968	unusual	_	_	_	_
 31-15	2969-2975	burden	_	_	_	_
-31-16	2976-2978	to	_	_	_	_
-31-17	2979-2980	‘	_	_	_	_
-31-18	2981-2983	go	_	_	_	_
-31-19	2984-2988	with	_	_	_	_
-31-20	2989-2992	the	_	_	_	_
-31-21	2993-2997	flow	_	_	_	_
-31-22	2998-2999	’	_	_	_	_
+31-16	2976-2978	to	abstract[224]	new[224]	cata	31-10[221_224]
+31-17	2979-2980	‘	abstract[224]	new[224]	_	_
+31-18	2981-2983	go	abstract[224]	new[224]	_	_
+31-19	2984-2988	with	abstract[224]	new[224]	_	_
+31-20	2989-2992	the	abstract[224]	new[224]	_	_
+31-21	2993-2997	flow	abstract[224]	new[224]	_	_
+31-22	2998-2999	’	abstract[224]	new[224]	_	_
 31-23	3000-3001	.	_	_	_	_
 
 #Text=I organize events professionally , and have never included as part of introductions .
-32-1	3002-3003	I	person	giv	ana	35-2
+32-1	3002-3003	I	person[225]	giv[225]	ana	35-2[240_225]
 32-2	3004-3012	organize	_	_	_	_
 32-3	3013-3019	events	_	_	_	_
 32-4	3020-3034	professionally	_	_	_	_
@@ -672,8 +672,8 @@
 33-6	3113-3116	are	_	_	_	_
 33-7	3117-3130	uncomfortable	_	_	_	_
 33-8	3131-3135	with	_	_	_	_
-33-9	3136-3139	the	_	_	_	_
-33-10	3140-3148	practice	_	_	_	_
+33-9	3136-3139	the	event[232]	giv[232]	_	_
+33-10	3140-3148	practice	event[232]	giv[232]	_	_
 33-11	3149-3156	exceeds	_	_	_	_
 33-12	3157-3160	the	_	_	_	_
 33-13	3161-3167	number	_	_	_	_
@@ -704,7 +704,7 @@
 
 #Text=But I do think asking for pronouns / not assuming gender will remain a fairly fringe activity that you find in a few colleges , churches , support groups and therapy contexts and not much outside of that .
 35-1	3271-3274	But	_	_	_	_
-35-2	3275-3276	I	person	giv	_	_
+35-2	3275-3276	I	person[240]	giv[240]	_	_
 35-3	3277-3279	do	_	_	_	_
 35-4	3280-3285	think	_	_	_	_
 35-5	3286-3292	asking	_	_	_	_
@@ -716,35 +716,35 @@
 35-11	3321-3327	gender	_	_	_	_
 35-12	3328-3332	will	_	_	_	_
 35-13	3333-3339	remain	_	_	_	_
-35-14	3340-3341	a	event[119]	giv[119]	ana	36-10[0_119]
-35-15	3342-3348	fairly	event[119]	giv[119]	_	_
-35-16	3349-3355	fringe	event[119]	giv[119]	_	_
-35-17	3356-3364	activity	event[119]	giv[119]	_	_
-35-18	3365-3369	that	event[119]	giv[119]	_	_
-35-19	3370-3373	you	person|event[119]	giv|giv[119]	ana	37-7[128_0]
-35-20	3374-3378	find	event[119]	giv[119]	_	_
-35-21	3379-3381	in	event[119]	giv[119]	_	_
-35-22	3382-3383	a	abstract[120]|event[119]	new[120]|giv[119]	ana	35-38[0_120]
-35-23	3384-3387	few	abstract[120]|event[119]	new[120]|giv[119]	_	_
-35-24	3388-3396	colleges	abstract[120]|event[119]	new[120]|giv[119]	_	_
-35-25	3397-3398	,	abstract[120]|event[119]	new[120]|giv[119]	_	_
-35-26	3399-3407	churches	abstract[120]|event[119]	new[120]|giv[119]	_	_
-35-27	3408-3409	,	abstract[120]|event[119]	new[120]|giv[119]	_	_
-35-28	3410-3417	support	abstract[120]|event[119]	new[120]|giv[119]	_	_
-35-29	3418-3424	groups	abstract[120]|event[119]	new[120]|giv[119]	_	_
-35-30	3425-3428	and	abstract[120]|event[119]	new[120]|giv[119]	_	_
-35-31	3429-3436	therapy	abstract[120]|event[119]	new[120]|giv[119]	_	_
-35-32	3437-3445	contexts	abstract[120]|event[119]	new[120]|giv[119]	_	_
-35-33	3446-3449	and	event[119]	giv[119]	_	_
-35-34	3450-3453	not	event[119]	giv[119]	_	_
-35-35	3454-3458	much	event[119]	giv[119]	_	_
-35-36	3459-3466	outside	event[119]	giv[119]	_	_
-35-37	3467-3469	of	event[119]	giv[119]	_	_
-35-38	3470-3474	that	abstract|event[119]	giv|giv[119]	_	_
+35-14	3340-3341	a	event[247]	giv[247]	ana	36-10[261_247]
+35-15	3342-3348	fairly	event[247]	giv[247]	_	_
+35-16	3349-3355	fringe	event[247]	giv[247]	_	_
+35-17	3356-3364	activity	event[247]	giv[247]	_	_
+35-18	3365-3369	that	event[247]	giv[247]	_	_
+35-19	3370-3373	you	event[247]|person[248]	giv[247]|giv[248]	ana	37-7[269_248]
+35-20	3374-3378	find	event[247]	giv[247]	_	_
+35-21	3379-3381	in	event[247]	giv[247]	_	_
+35-22	3382-3383	a	event[247]|abstract[250]	giv[247]|new[250]	ana	35-38[256_250]
+35-23	3384-3387	few	event[247]|abstract[250]	giv[247]|new[250]	_	_
+35-24	3388-3396	colleges	event[247]|abstract[250]	giv[247]|new[250]	_	_
+35-25	3397-3398	,	event[247]|abstract[250]	giv[247]|new[250]	_	_
+35-26	3399-3407	churches	event[247]|abstract[250]	giv[247]|new[250]	_	_
+35-27	3408-3409	,	event[247]|abstract[250]	giv[247]|new[250]	_	_
+35-28	3410-3417	support	event[247]|abstract[250]	giv[247]|new[250]	_	_
+35-29	3418-3424	groups	event[247]|abstract[250]	giv[247]|new[250]	_	_
+35-30	3425-3428	and	event[247]|abstract[250]	giv[247]|new[250]	_	_
+35-31	3429-3436	therapy	event[247]|abstract[250]	giv[247]|new[250]	_	_
+35-32	3437-3445	contexts	event[247]|abstract[250]	giv[247]|new[250]	_	_
+35-33	3446-3449	and	event[247]	giv[247]	_	_
+35-34	3450-3453	not	event[247]	giv[247]	_	_
+35-35	3454-3458	much	event[247]	giv[247]	_	_
+35-36	3459-3466	outside	event[247]	giv[247]	_	_
+35-37	3467-3469	of	event[247]	giv[247]	_	_
+35-38	3470-3474	that	event[247]|abstract[256]	giv[247]|giv[256]	_	_
 35-39	3475-3476	.	_	_	_	_
 
 #Text=I would agree wholeheartedly that in certain contexts , this makes sense .
-36-1	3477-3478	I	person	giv	ana	37-1
+36-1	3477-3478	I	person[257]	giv[257]	ana	37-1[263_257]
 36-2	3479-3484	would	_	_	_	_
 36-3	3485-3490	agree	_	_	_	_
 36-4	3491-3505	wholeheartedly	_	_	_	_
@@ -753,28 +753,28 @@
 36-7	3514-3521	certain	_	_	_	_
 36-8	3522-3530	contexts	_	_	_	_
 36-9	3531-3532	,	_	_	_	_
-36-10	3533-3537	this	event	giv	ana	37-12[129_0]
+36-10	3533-3537	this	event[261]	giv[261]	ana	37-12[270_261]
 36-11	3538-3543	makes	_	_	_	_
 36-12	3544-3549	sense	_	_	_	_
 36-13	3550-3551	.	_	_	_	_
 
 #Text=I think the key is that you ’d be informed about it , like if you ’re going to an LBGT or transgender event , obviously you might want to be more careful .
-37-1	3552-3553	I	person	giv	ana	39-2
+37-1	3552-3553	I	person[263]	giv[263]	ana	39-2[285_263]
 37-2	3554-3559	think	_	_	_	_
 37-3	3560-3563	the	_	_	_	_
 37-4	3564-3567	key	_	_	_	_
 37-5	3568-3570	is	_	_	_	_
 37-6	3571-3575	that	_	_	_	_
-37-7	3576-3579	you	person[128]	giv[128]	ana	37-16[0_128]
+37-7	3576-3579	you	person[269]	giv[269]	ana	37-16[271_269]
 37-8	3580-3582	’d	_	_	_	_
 37-9	3583-3585	be	_	_	_	_
 37-10	3586-3594	informed	_	_	_	_
 37-11	3595-3600	about	_	_	_	_
-37-12	3601-3603	it	event[129]	giv[129]	coref	39-18[135_129]
+37-12	3601-3603	it	event[270]	giv[270]	coref	39-18[293_270]
 37-13	3604-3605	,	_	_	_	_
 37-14	3606-3610	like	_	_	_	_
 37-15	3611-3613	if	_	_	_	_
-37-16	3614-3617	you	person	giv	ana	37-27
+37-16	3614-3617	you	person[271]	giv[271]	ana	37-27[276_271]
 37-17	3618-3621	’re	_	_	_	_
 37-18	3622-3627	going	_	_	_	_
 37-19	3628-3630	to	_	_	_	_
@@ -785,7 +785,7 @@
 37-24	3654-3659	event	_	_	_	_
 37-25	3660-3661	,	_	_	_	_
 37-26	3662-3671	obviously	_	_	_	_
-37-27	3672-3675	you	person	giv	ana	38-14
+37-27	3672-3675	you	person[276]	giv[276]	ana	38-14[284_276]
 37-28	3676-3681	might	_	_	_	_
 37-29	3682-3686	want	_	_	_	_
 37-30	3687-3689	to	_	_	_	_
@@ -796,19 +796,19 @@
 
 #Text=If everyone is expected to introduce their pronouns in the venue , then you may as well follow suit .
 38-1	3708-3710	If	_	_	_	_
-38-2	3711-3719	everyone	person	giv	ana	38-7[132_0]
+38-2	3711-3719	everyone	person[277]	giv[277]	ana	38-7[281_277]
 38-3	3720-3722	is	_	_	_	_
 38-4	3723-3731	expected	_	_	_	_
 38-5	3732-3734	to	_	_	_	_
 38-6	3735-3744	introduce	_	_	_	_
-38-7	3745-3750	their	person[132]	giv[132]	_	_
+38-7	3745-3750	their	person[281]	giv[281]	_	_
 38-8	3751-3759	pronouns	_	_	_	_
 38-9	3760-3762	in	_	_	_	_
 38-10	3763-3766	the	_	_	_	_
 38-11	3767-3772	venue	_	_	_	_
 38-12	3773-3774	,	_	_	_	_
 38-13	3775-3779	then	_	_	_	_
-38-14	3780-3783	you	person	giv	ana	42-11[144_0]
+38-14	3780-3783	you	person[284]	giv[284]	ana	42-11[306_284]
 38-15	3784-3787	may	_	_	_	_
 38-16	3788-3790	as	_	_	_	_
 38-17	3791-3795	well	_	_	_	_
@@ -818,13 +818,13 @@
 
 #Text=As I ’ve said , though , I do n’t think it would be best to apply this idea society-wide though .
 39-1	3810-3812	As	_	_	_	_
-39-2	3813-3814	I	person	giv	ana	39-8
+39-2	3813-3814	I	person[285]	giv[285]	ana	39-8[286_285]
 39-3	3815-3818	’ve	_	_	_	_
 39-4	3819-3823	said	_	_	_	_
 39-5	3824-3825	,	_	_	_	_
 39-6	3826-3832	though	_	_	_	_
 39-7	3833-3834	,	_	_	_	_
-39-8	3835-3836	I	person	giv	_	_
+39-8	3835-3836	I	person[286]	giv[286]	_	_
 39-9	3837-3839	do	_	_	_	_
 39-10	3840-3843	n’t	_	_	_	_
 39-11	3844-3849	think	_	_	_	_
@@ -832,11 +832,11 @@
 39-13	3853-3858	would	_	_	_	_
 39-14	3859-3861	be	_	_	_	_
 39-15	3862-3866	best	_	_	_	_
-39-16	3867-3869	to	_	_	_	_
-39-17	3870-3875	apply	_	_	_	_
-39-18	3876-3880	this	event[135]	giv[135]	coref	48-37[172_135]
-39-19	3881-3885	idea	event[135]	giv[135]	_	_
-39-20	3886-3898	society-wide	_	_	_	_
+39-16	3867-3869	to	event[292]	new[292]	cata	39-12[287_292]
+39-17	3870-3875	apply	event[292]	new[292]	_	_
+39-18	3876-3880	this	event[292]|event[293]	new[292]|giv[293]	coref	48-37[370_293]
+39-19	3881-3885	idea	event[292]|event[293]	new[292]|giv[293]	_	_
+39-20	3886-3898	society-wide	event[292]	new[292]	_	_
 39-21	3899-3905	though	_	_	_	_
 39-22	3906-3907	.	_	_	_	_
 
@@ -855,15 +855,15 @@
 41-8	3946-3949	for	_	_	_	_
 41-9	3950-3960	everything	_	_	_	_
 41-10	3961-3964	and	_	_	_	_
-41-11	3965-3966	a	person[138]	giv[138]	ana	41-19[140_138]
-41-12	3967-3975	majority	person[138]	giv[138]	_	_
-41-13	3976-3978	of	person[138]	giv[138]	_	_
-41-14	3979-3985	people	person[138]	giv[138]	_	_
+41-11	3965-3966	a	person[297]	giv[297]	ana	41-19[301_297]
+41-12	3967-3975	majority	person[297]	giv[297]	_	_
+41-13	3976-3978	of	person[297]	giv[297]	_	_
+41-14	3979-3985	people	person[297]	giv[297]	_	_
 41-15	3986-3989	use	_	_	_	_
 41-16	3990-3998	pronouns	_	_	_	_
 41-17	3999-4004	based	_	_	_	_
 41-18	4005-4007	on	_	_	_	_
-41-19	4008-4013	their	person[140]	giv[140]	_	_
+41-19	4008-4013	their	person[301]	giv[301]	_	_
 41-20	4014-4022	assigned	_	_	_	_
 41-21	4023-4029	gender	_	_	_	_
 41-22	4030-4031	.	_	_	_	_
@@ -879,7 +879,7 @@
 42-8	4071-4074	but	_	_	_	_
 42-9	4075-4082	knowing	_	_	_	_
 42-10	4083-4087	when	_	_	_	_
-42-11	4088-4091	you	person[144]	giv[144]	ana	42-27[148_144]
+42-11	4088-4091	you	person[306]	giv[306]	ana	42-27[312_306]
 42-12	4092-4096	will	_	_	_	_
 42-13	4097-4106	encounter	_	_	_	_
 42-14	4107-4108	a	_	_	_	_
@@ -895,7 +895,7 @@
 42-24	4170-4173	key	_	_	_	_
 42-25	4174-4176	in	_	_	_	_
 42-26	4177-4188	determining	_	_	_	_
-42-27	4189-4193	your	person[148]	giv[148]	ana	43-4[151_148]
+42-27	4189-4193	your	person[312]	giv[312]	ana	43-4[316_312]
 42-28	4194-4202	behavior	_	_	_	_
 42-29	4203-4204	.	_	_	_	_
 
@@ -903,7 +903,7 @@
 43-1	4205-4212	Classic	_	_	_	_
 43-2	4213-4214	“	_	_	_	_
 43-3	4215-4219	know	_	_	_	_
-43-4	4220-4224	your	person[151]	giv[151]	ana	47-4[0_151]
+43-4	4220-4224	your	person[316]	giv[316]	ana	47-4[339_316]
 43-5	4225-4233	audience	_	_	_	_
 43-6	4234-4235	”	_	_	_	_
 43-7	4236-4240	type	_	_	_	_
@@ -912,7 +912,7 @@
 43-10	4250-4251	.	_	_	_	_
 
 #Text=I ca n’t even remember names of people I meet .
-44-1	4252-4253	I	person	acc	ana	44-9
+44-1	4252-4253	I	person[317]	acc[317]	ana	44-9[322_317]
 44-2	4254-4256	ca	_	_	_	_
 44-3	4257-4260	n’t	_	_	_	_
 44-4	4261-4265	even	_	_	_	_
@@ -920,14 +920,14 @@
 44-6	4275-4280	names	_	_	_	_
 44-7	4281-4283	of	_	_	_	_
 44-8	4284-4290	people	_	_	_	_
-44-9	4291-4292	I	person	giv	ana	45-1
+44-9	4291-4292	I	person[322]	giv[322]	ana	45-1[323_322]
 44-10	4293-4297	meet	_	_	_	_
 44-11	4298-4299	.	_	_	_	_
 
 #Text=I guess I ’d have to take a notebook to such an event to remember names and pronouns .
-45-1	4300-4301	I	person	giv	ana	45-3
+45-1	4300-4301	I	person[323]	giv[323]	ana	45-3[324_323]
 45-2	4302-4307	guess	_	_	_	_
-45-3	4308-4309	I	person	giv	_	_
+45-3	4308-4309	I	person[324]	giv[324]	_	_
 45-4	4310-4312	’d	_	_	_	_
 45-5	4313-4317	have	_	_	_	_
 45-6	4318-4320	to	_	_	_	_
@@ -940,9 +940,9 @@
 45-13	4348-4353	event	_	_	_	_
 45-14	4354-4356	to	_	_	_	_
 45-15	4357-4365	remember	_	_	_	_
-45-16	4366-4371	names	abstract[156]	new[156]	ana	46-9[0_156]
-45-17	4372-4375	and	abstract[156]	new[156]	_	_
-45-18	4376-4384	pronouns	abstract[156]	new[156]	_	_
+45-16	4366-4371	names	abstract[331]	new[331]	ana	46-9[337_331]
+45-17	4372-4375	and	abstract[331]	new[331]	_	_
+45-18	4376-4384	pronouns	abstract[331]	new[331]	_	_
 45-19	4385-4386	.	_	_	_	_
 
 #Text=Oh and a Polaroid camera to remember who they belong to lol .
@@ -954,17 +954,17 @@
 46-6	4412-4414	to	_	_	_	_
 46-7	4415-4423	remember	_	_	_	_
 46-8	4424-4427	who	_	_	_	_
-46-9	4428-4432	they	abstract	giv	_	_
+46-9	4428-4432	they	abstract[337]	giv[337]	_	_
 46-10	4433-4439	belong	_	_	_	_
 46-11	4440-4442	to	_	_	_	_
 46-12	4443-4446	lol	_	_	_	_
 46-13	4447-4448	.	_	_	_	_
 
 #Text=I think if you ’re at a place where people provide preferred pronouns at introduction you ’re skipping the part that necessitates assumption .
-47-1	4449-4450	I	person	acc	ana	48-1[164_0]
+47-1	4449-4450	I	person[338]	acc[338]	ana	48-1[355_338]
 47-2	4451-4456	think	_	_	_	_
 47-3	4457-4459	if	_	_	_	_
-47-4	4460-4463	you	person	giv	ana	47-16
+47-4	4460-4463	you	person[339]	giv[339]	ana	47-16[348_339]
 47-5	4464-4467	’re	_	_	_	_
 47-6	4468-4470	at	_	_	_	_
 47-7	4471-4472	a	_	_	_	_
@@ -976,7 +976,7 @@
 47-13	4510-4518	pronouns	_	_	_	_
 47-14	4519-4521	at	_	_	_	_
 47-15	4522-4534	introduction	_	_	_	_
-47-16	4535-4538	you	person	giv	ana	49-18[175_0]
+47-16	4535-4538	you	person[348]	giv[348]	ana	49-18[375_348]
 47-17	4539-4542	’re	_	_	_	_
 47-18	4543-4551	skipping	_	_	_	_
 47-19	4552-4555	the	_	_	_	_
@@ -987,27 +987,27 @@
 47-24	4590-4591	.	_	_	_	_
 
 #Text=I 've been more or less reprimanded in a Starbucks for a " he got my order " , and I easily have a hundred encounters a week where I reasonably have ZERO time to do that dance .
-48-1	4592-4593	I	event[163]|person[164]	new[163]|giv[164]	ana|ana	50-11[179_163]|48-16[168_164]
-48-2	4594-4597	've	event[163]	new[163]	_	_
-48-3	4598-4602	been	event[163]	new[163]	_	_
-48-4	4603-4607	more	event[163]	new[163]	_	_
-48-5	4608-4610	or	event[163]	new[163]	_	_
-48-6	4611-4615	less	event[163]	new[163]	_	_
-48-7	4616-4627	reprimanded	event[163]	new[163]	_	_
-48-8	4628-4630	in	event[163]	new[163]	_	_
-48-9	4631-4632	a	event[163]|place[165]	new[163]|new[165]	coref	51-27[190_165]
-48-10	4633-4642	Starbucks	event[163]|place[165]	new[163]|new[165]	_	_
-48-11	4643-4646	for	event[163]	new[163]	_	_
-48-12	4647-4648	a	event[163]	new[163]	_	_
-48-13	4649-4650	"	event[163]	new[163]	_	_
-48-14	4651-4653	he	event[163]	new[163]	_	_
-48-15	4654-4657	got	event[163]	new[163]	_	_
-48-16	4658-4660	my	event[163]|person[168]	new[163]|giv[168]	ana	48-21[0_168]
-48-17	4661-4666	order	event[163]	new[163]	_	_
-48-18	4667-4668	"	event[163]	new[163]	_	_
+48-1	4592-4593	I	event[354]|person[355]	new[354]|giv[355]	ana|ana	50-11[385_354]|48-16[361_355]
+48-2	4594-4597	've	event[354]	new[354]	_	_
+48-3	4598-4602	been	event[354]	new[354]	_	_
+48-4	4603-4607	more	event[354]	new[354]	_	_
+48-5	4608-4610	or	event[354]	new[354]	_	_
+48-6	4611-4615	less	event[354]	new[354]	_	_
+48-7	4616-4627	reprimanded	event[354]	new[354]	_	_
+48-8	4628-4630	in	event[354]	new[354]	_	_
+48-9	4631-4632	a	event[354]|place[357]	new[354]|new[357]	coref	51-27[401_357]
+48-10	4633-4642	Starbucks	event[354]|place[357]	new[354]|new[357]	_	_
+48-11	4643-4646	for	event[354]	new[354]	_	_
+48-12	4647-4648	a	event[354]	new[354]	_	_
+48-13	4649-4650	"	event[354]	new[354]	_	_
+48-14	4651-4653	he	event[354]	new[354]	_	_
+48-15	4654-4657	got	event[354]	new[354]	_	_
+48-16	4658-4660	my	event[354]|person[361]	new[354]|giv[361]	ana	48-21[362_361]
+48-17	4661-4666	order	event[354]	new[354]	_	_
+48-18	4667-4668	"	event[354]	new[354]	_	_
 48-19	4669-4670	,	_	_	_	_
 48-20	4671-4674	and	_	_	_	_
-48-21	4675-4676	I	person	giv	ana	48-30
+48-21	4675-4676	I	person[362]	giv[362]	ana	48-30[367_362]
 48-22	4677-4683	easily	_	_	_	_
 48-23	4684-4688	have	_	_	_	_
 48-24	4689-4690	a	_	_	_	_
@@ -1016,20 +1016,20 @@
 48-27	4710-4711	a	_	_	_	_
 48-28	4712-4716	week	_	_	_	_
 48-29	4717-4722	where	_	_	_	_
-48-30	4723-4724	I	person	giv	_	_
+48-30	4723-4724	I	person[367]	giv[367]	_	_
 48-31	4725-4735	reasonably	_	_	_	_
 48-32	4736-4740	have	_	_	_	_
 48-33	4741-4745	ZERO	_	_	_	_
 48-34	4746-4750	time	_	_	_	_
 48-35	4751-4753	to	_	_	_	_
 48-36	4754-4756	do	_	_	_	_
-48-37	4757-4761	that	event[172]	giv[172]	ana	49-2[0_172]
-48-38	4762-4767	dance	event[172]	giv[172]	_	_
+48-37	4757-4761	that	event[370]	giv[370]	ana	49-2[371_370]
+48-38	4762-4767	dance	event[370]	giv[370]	_	_
 48-39	4768-4769	.	_	_	_	_
 
 #Text=Doing it at all should be by special request unless there is a real reason to believe you are in a situation that should reasonable expect it .
 49-1	4770-4775	Doing	_	_	_	_
-49-2	4776-4778	it	event	giv	ana	49-27[177_0]
+49-2	4776-4778	it	event[371]	giv[371]	ana	49-27[378_371]
 49-3	4779-4781	at	_	_	_	_
 49-4	4782-4785	all	_	_	_	_
 49-5	4786-4792	should	_	_	_	_
@@ -1045,7 +1045,7 @@
 49-15	4838-4844	reason	_	_	_	_
 49-16	4845-4847	to	_	_	_	_
 49-17	4848-4855	believe	_	_	_	_
-49-18	4856-4859	you	person[175]	giv[175]	ana	50-7[0_175]
+49-18	4856-4859	you	person[375]	giv[375]	ana	50-7[380_375]
 49-19	4860-4863	are	_	_	_	_
 49-20	4864-4866	in	_	_	_	_
 49-21	4867-4868	a	_	_	_	_
@@ -1054,7 +1054,7 @@
 49-24	4884-4890	should	_	_	_	_
 49-25	4891-4901	reasonable	_	_	_	_
 49-26	4902-4908	expect	_	_	_	_
-49-27	4909-4911	it	event[177]	giv[177]	_	_
+49-27	4909-4911	it	event[378]	giv[378]	_	_
 49-28	4912-4913	.	_	_	_	_
 
 #Text=Life ’s a lot better when you take comments like that in a ‘ oh ok ’ calm way rather than as a slap .
@@ -1064,11 +1064,11 @@
 50-4	4924-4927	lot	_	_	_	_
 50-5	4928-4934	better	_	_	_	_
 50-6	4935-4939	when	_	_	_	_
-50-7	4940-4943	you	person	giv	ana	51-12[186_0]
+50-7	4940-4943	you	person[380]	giv[380]	ana	51-12[396_380]
 50-8	4944-4948	take	_	_	_	_
 50-9	4949-4957	comments	_	_	_	_
 50-10	4958-4962	like	_	_	_	_
-50-11	4963-4967	that	event[179]	giv[179]	ana	51-3[0_179]
+50-11	4963-4967	that	event[385]	giv[385]	ana	51-3[389_385]
 50-12	4968-4970	in	_	_	_	_
 50-13	4971-4972	a	_	_	_	_
 50-14	4973-4974	‘	_	_	_	_
@@ -1087,17 +1087,17 @@
 #Text=Look at it this way , it s 5 seconds of your life , but probably a multiple times a day thing that gender-ambiguous-looking woman at Starbucks .
 51-1	5016-5020	Look	_	_	_	_
 51-2	5021-5023	at	_	_	_	_
-51-3	5024-5026	it	event	giv	_	_
+51-3	5024-5026	it	event[389]	giv[389]	_	_
 51-4	5027-5031	this	_	_	_	_
 51-5	5032-5035	way	_	_	_	_
 51-6	5036-5037	,	_	_	_	_
 51-7	5038-5040	it	_	_	_	_
 51-8	5041-5042	s	_	_	_	_
-51-9	5043-5044	5	_	_	_	_
-51-10	5045-5052	seconds	_	_	_	_
-51-11	5053-5055	of	_	_	_	_
-51-12	5056-5060	your	person[186]	giv[186]	ana	52-17[0_186]
-51-13	5061-5065	life	_	_	_	_
+51-9	5043-5044	5	time[395]	new[395]	cata	51-7[393_395]
+51-10	5045-5052	seconds	time[395]	new[395]	_	_
+51-11	5053-5055	of	time[395]	new[395]	_	_
+51-12	5056-5060	your	time[395]|person[396]	new[395]|giv[396]	ana	52-17[408_396]
+51-13	5061-5065	life	time[395]	new[395]	_	_
 51-14	5066-5067	,	_	_	_	_
 51-15	5068-5071	but	_	_	_	_
 51-16	5072-5080	probably	_	_	_	_
@@ -1107,11 +1107,11 @@
 51-20	5098-5099	a	_	_	_	_
 51-21	5100-5103	day	_	_	_	_
 51-22	5104-5109	thing	_	_	_	_
-51-23	5110-5114	that	person[189]	new[189]	ana	52-9[0_189]
-51-24	5115-5139	gender-ambiguous-looking	person[189]	new[189]	_	_
-51-25	5140-5145	woman	person[189]	new[189]	_	_
-51-26	5146-5148	at	person[189]	new[189]	_	_
-51-27	5149-5158	Starbucks	person[189]|place[190]	new[189]|giv[190]	_	_
+51-23	5110-5114	that	person[400]	new[400]	ana	52-9[405_400]
+51-24	5115-5139	gender-ambiguous-looking	person[400]	new[400]	_	_
+51-25	5140-5145	woman	person[400]	new[400]	_	_
+51-26	5146-5148	at	person[400]	new[400]	_	_
+51-27	5149-5158	Starbucks	person[400]|place[401]	new[400]|giv[401]	_	_
 51-28	5159-5160	.	_	_	_	_
 
 #Text=Plus the other hundred time a week where she ’s out in the world just like you .
@@ -1123,7 +1123,7 @@
 52-6	5189-5190	a	_	_	_	_
 52-7	5191-5195	week	_	_	_	_
 52-8	5196-5201	where	_	_	_	_
-52-9	5202-5205	she	person	giv	_	_
+52-9	5202-5205	she	person[405]	giv[405]	_	_
 52-10	5206-5208	’s	_	_	_	_
 52-11	5209-5212	out	_	_	_	_
 52-12	5213-5215	in	_	_	_	_
@@ -1131,6 +1131,6 @@
 52-14	5220-5225	world	_	_	_	_
 52-15	5226-5230	just	_	_	_	_
 52-16	5231-5235	like	_	_	_	_
-52-17	5236-5239	you	person	giv	_	_
+52-17	5236-5239	you	person[408]	giv[408]	_	_
 52-18	5240-5241	.	_	_	_	_
 
