@@ -11,7 +11,7 @@
 1-5	15-24	interview	event[2]	new[2]	_	_
 1-6	25-29	with	event[2]	new[2]	_	_
 1-7	30-31	'	event[2]	new[2]	_	_
-1-8	32-39	America	event[2]|organization[3]|place[4]	new[2]|giv[3]|acc[4]	coref|coref	3-2[12_3]|38-18[279_4]
+1-8	32-39	America	event[2]|organization[3]|place[4]	new[2]|giv[3]|acc[4]	coref|coref	38-18[279_4]|3-2[12_3]
 1-9	40-42	's	event[2]|organization[3]|place[4]	new[2]|giv[3]|acc[4]	_	_
 1-10	43-49	Finest	event[2]|organization[3]	new[2]|giv[3]	_	_
 1-11	50-54	News	event[2]|organization[3]	new[2]|giv[3]	_	_
@@ -19,12 +19,12 @@
 1-13	62-63	'	event[2]	new[2]	_	_
 
 #Text=Sunday , November 25 , 2007
-2-1	64-70	Sunday	time[518]	acc[518]	appos	2-3[9_518]
-2-2	71-72	,	time[518]	acc[518]	_	_
-2-3	73-81	November	time[9]	giv[9]	_	_
-2-4	82-84	25	time[9]	giv[9]	_	_
-2-5	85-86	,	time[9]	giv[9]	_	_
-2-6	87-91	2007	time[9]	giv[9]	_	_
+2-1	64-70	Sunday	_	_	_	_
+2-2	71-72	,	_	_	_	_
+2-3	73-81	November	_	_	_	_
+2-4	82-84	25	_	_	_	_
+2-5	85-86	,	_	_	_	_
+2-6	87-91	2007	_	_	_	_
 
 #Text=How The Onion writes an issue
 3-1	92-95	How	_	_	_	_
@@ -131,24 +131,24 @@
 10-8	543-550	hundred	abstract[49]	new[49]	_	_
 10-9	551-559	headline	abstract[49]	new[49]	_	_
 10-10	560-565	ideas	abstract[49]	new[49]	_	_
-10-11	566-568	on	abstract[49]	new[49]	_	_
-10-12	569-570	a	time[52]|abstract[49]	acc[52]|new[49]	coref	11-6[63_52]
-10-13	571-577	Monday	time[52]|abstract[49]	acc[52]|new[49]	_	_
-10-14	578-584	coming	abstract[49]	new[49]	_	_
-10-15	585-589	from	abstract[49]	new[49]	_	_
-10-16	590-593	our	person[54]|person[55]|abstract[49]	new[54]|giv[55]|new[49]	coref|ana	11-23[550_54]|11-1[59_55]
-10-17	594-599	staff	person[54]|abstract[49]	new[54]|new[49]	_	_
-10-18	600-603	and	abstract[49]	new[49]	_	_
-10-19	604-605	a	abstract[49]	new[49]	_	_
-10-20	606-611	small	abstract[49]	new[49]	_	_
-10-21	612-617	group	abstract[49]	new[49]	_	_
-10-22	618-620	of	abstract[49]	new[49]	_	_
-10-23	621-628	writers	abstract[49]	new[49]	_	_
-10-24	629-636	outside	abstract[49]	new[49]	_	_
-10-25	637-638	—	abstract[49]	new[49]	_	_
-10-26	639-640	a	abstract[49]	new[49]	_	_
-10-27	641-653	contributing	abstract[49]	new[49]	_	_
-10-28	654-658	core	abstract[49]	new[49]	_	_
+10-11	566-568	on	_	_	_	_
+10-12	569-570	a	time[52]	acc[52]	coref	11-6[63_52]
+10-13	571-577	Monday	time[52]	acc[52]	_	_
+10-14	578-584	coming	_	_	_	_
+10-15	585-589	from	_	_	_	_
+10-16	590-593	our	person[54]|person[55]	new[54]|giv[55]	coref|ana	11-23[519_54]|11-1[59_55]
+10-17	594-599	staff	person[54]	new[54]	_	_
+10-18	600-603	and	_	_	_	_
+10-19	604-605	a	_	_	_	_
+10-20	606-611	small	_	_	_	_
+10-21	612-617	group	_	_	_	_
+10-22	618-620	of	_	_	_	_
+10-23	621-628	writers	_	_	_	_
+10-24	629-636	outside	_	_	_	_
+10-25	637-638	—	_	_	_	_
+10-26	639-640	a	_	_	_	_
+10-27	641-653	contributing	_	_	_	_
+10-28	654-658	core	_	_	_	_
 10-29	659-660	.	_	_	_	_
 
 #Text=We whittle that down on a Monday to about a hundred , come in Tuesday and pick an issue and brainstorm with the whole editorial staff ; all fifteen of us .
@@ -174,15 +174,15 @@
 11-20	749-752	and	_	_	_	_
 11-21	753-763	brainstorm	_	_	_	_
 11-22	764-768	with	_	_	_	_
-11-23	769-772	the	person[68]|person[550]	giv[68]|giv[550]	appos|coref	11-28[69_68]|13-11[77_550]
-11-24	773-778	whole	person[68]|person[550]	giv[68]|giv[550]	_	_
-11-25	779-788	editorial	person[68]|person[550]	giv[68]|giv[550]	_	_
-11-26	789-794	staff	person[68]|person[550]	giv[68]|giv[550]	_	_
-11-27	795-796	;	person[68]|person[550]	giv[68]|giv[550]	_	_
-11-28	797-800	all	person[69]|person[550]	giv[69]|giv[550]	_	_
-11-29	801-808	fifteen	person[69]|person[550]	giv[69]|giv[550]	_	_
-11-30	809-811	of	person[69]|person[550]	giv[69]|giv[550]	_	_
-11-31	812-814	us	person[69]|person[550]	giv[69]|giv[550]	_	_
+11-23	769-772	the	person[68]|person[519]	giv[68]|giv[519]	coref|appos	13-11[77_519]|11-28[69_68]
+11-24	773-778	whole	person[68]|person[519]	giv[68]|giv[519]	_	_
+11-25	779-788	editorial	person[68]|person[519]	giv[68]|giv[519]	_	_
+11-26	789-794	staff	person[68]|person[519]	giv[68]|giv[519]	_	_
+11-27	795-796	;	person[519]	giv[519]	_	_
+11-28	797-800	all	person[69]|person[519]	giv[69]|giv[519]	_	_
+11-29	801-808	fifteen	person[69]|person[519]	giv[69]|giv[519]	_	_
+11-30	809-811	of	person[69]|person[519]	giv[69]|giv[519]	_	_
+11-31	812-814	us	person[69]|person[519]	giv[69]|giv[519]	_	_
 11-32	815-816	.	_	_	_	_
 
 #Text=Then we assign a headline to a specific writer to execute .
@@ -442,14 +442,14 @@
 22-5	2004-2008	with	_	_	_	_
 22-6	2009-2012	The	organization[167]	giv[167]	ana	22-9[168_167]
 22-7	2013-2018	Onion	organization[167]	giv[167]	_	_
-22-8	2019-2024	where	organization[167]	giv[167]	_	_
-22-9	2025-2029	they	organization[168]|organization[167]	giv[168]|giv[167]	coref	43-1[310_168]
-22-10	2030-2041	continually	organization[167]	giv[167]	_	_
-22-11	2042-2049	revisit	organization[167]	giv[167]	_	_
-22-12	2050-2051	a	organization[167]	giv[167]	_	_
-22-13	2052-2057	topic	organization[167]	giv[167]	_	_
-22-14	2058-2060	or	organization[167]	giv[167]	_	_
-22-15	2061-2067	person	organization[167]	giv[167]	_	_
+22-8	2019-2024	where	_	_	_	_
+22-9	2025-2029	they	organization[168]	giv[168]	coref	43-1[310_168]
+22-10	2030-2041	continually	_	_	_	_
+22-11	2042-2049	revisit	_	_	_	_
+22-12	2050-2051	a	_	_	_	_
+22-13	2052-2057	topic	_	_	_	_
+22-14	2058-2060	or	_	_	_	_
+22-15	2061-2067	person	_	_	_	_
 22-16	2068-2069	?	_	_	_	_
 
 #Text=No , not necessarily .
@@ -579,7 +579,7 @@
 
 #Text=Do your writers have similar rules of thumb ?
 30-1	2666-2668	Do	_	_	_	_
-30-2	2669-2673	your	person[218]|person[219]	giv[218]|giv[219]	coref|ana	32-8[231_218]|31-1[222_219]
+30-2	2669-2673	your	person[218]|person[219]	giv[218]|giv[219]	ana|coref	31-1[222_219]|32-8[231_218]
 30-3	2674-2681	writers	person[218]	giv[218]	_	_
 30-4	2682-2686	have	_	_	_	_
 30-5	2687-2694	similar	_	_	_	_
@@ -625,10 +625,10 @@
 32-18	2859-2862	and	_	_	_	_
 32-19	2863-2868	those	person[233]	giv[233]	coref	32-22[234_233]
 32-20	2869-2876	writers	person[233]	giv[233]	_	_
-32-21	2877-2885	training	person[233]	giv[233]	_	_
-32-22	2886-2889	the	person[234]|person[233]	giv[234]|giv[233]	ana	32-26[235_234]
-32-23	2890-2893	new	person[234]|person[233]	giv[234]|giv[233]	_	_
-32-24	2894-2901	writers	person[234]|person[233]	giv[234]|giv[233]	_	_
+32-21	2877-2885	training	_	_	_	_
+32-22	2886-2889	the	person[234]	giv[234]	ana	32-26[235_234]
+32-23	2890-2893	new	person[234]	giv[234]	_	_
+32-24	2894-2901	writers	person[234]	giv[234]	_	_
 32-25	2902-2904	as	_	_	_	_
 32-26	2905-2909	they	person[235]	giv[235]	_	_
 32-27	2910-2914	come	_	_	_	_
@@ -977,11 +977,11 @@
 51-6	4315-4320	heard	_	_	_	_
 51-7	4321-4323	is	_	_	_	_
 51-8	4324-4328	when	_	_	_	_
-51-9	4329-4332	Rob	person[367]	new[367]	appos	51-12[368_367]
-51-10	4333-4339	Siegel	person[367]	new[367]	_	_
-51-11	4340-4341	,	person[367]	new[367]	_	_
-51-12	4342-4348	former	person[368]	giv[368]	_	_
-51-13	4349-4364	editor-in-chief	person[368]	giv[368]	_	_
+51-9	4329-4332	Rob	_	_	_	_
+51-10	4333-4339	Siegel	_	_	_	_
+51-11	4340-4341	,	_	_	_	_
+51-12	4342-4348	former	_	_	_	_
+51-13	4349-4364	editor-in-chief	_	_	_	_
 51-14	4365-4366	,	_	_	_	_
 51-15	4367-4374	likened	_	_	_	_
 51-16	4375-4377	it	event[369]	giv[369]	ana	52-1[373_369]
@@ -1007,13 +1007,13 @@
 52-14	4461-4464	the	event[376]|abstract[379]	giv[376]|new[379]	ana	52-23[383_379]
 52-15	4465-4469	joke	event[376]|abstract[379]	giv[376]|new[379]	_	_
 52-16	4470-4472	is	event[376]	giv[376]	_	_
-52-17	4473-4474	,	event[376]	giv[376]	_	_
-52-18	4475-4479	have	event[376]	giv[376]	_	_
-52-19	4480-4482	we	person[380]|event[376]	giv[380]|giv[376]	ana	61-4[443_380]
-52-20	4483-4487	done	event[376]	giv[376]	_	_
-52-21	4488-4496	anything	event[376]	giv[376]	_	_
-52-22	4497-4501	like	event[376]	giv[376]	_	_
-52-23	4502-4506	this	abstract[383]|event[376]	giv[383]|giv[376]	ana	53-10[390_383]
+52-17	4473-4474	,	_	_	_	_
+52-18	4475-4479	have	_	_	_	_
+52-19	4480-4482	we	person[380]	giv[380]	ana	61-4[443_380]
+52-20	4483-4487	done	_	_	_	_
+52-21	4488-4496	anything	_	_	_	_
+52-22	4497-4501	like	_	_	_	_
+52-23	4502-4506	this	abstract[383]	giv[383]	ana	53-10[390_383]
 52-24	4507-4508	,	_	_	_	_
 52-25	4509-4511	is	_	_	_	_
 52-26	4512-4514	it	_	_	_	_
@@ -1140,18 +1140,18 @@
 59-12	5004-5005	a	abstract[424]|abstract[425]|place[426]	new[424]|new[425]|new[426]	coref	59-24[431_426]
 59-13	5006-5010	back	abstract[424]|abstract[425]|place[426]	new[424]|new[425]|new[426]	_	_
 59-14	5011-5015	room	abstract[424]|abstract[425]|place[426]	new[424]|new[425]|new[426]	_	_
-59-15	5016-5017	,	place[426]	new[426]	_	_
-59-16	5018-5022	that	abstract[427]|place[426]	giv[427]|new[426]	_	_
-59-17	5023-5025	's	place[426]	new[426]	_	_
-59-18	5026-5029	why	place[426]	new[426]	_	_
-59-19	5030-5034	they	abstract[428]|place[426]	giv[428]|new[426]	_	_
-59-20	5035-5039	stay	place[426]	new[426]	_	_
-59-21	5040-5043	and	place[426]	new[426]	_	_
-59-22	5044-5047	die	place[426]	new[426]	_	_
-59-23	5048-5050	in	place[426]	new[426]	_	_
-59-24	5051-5055	that	place[431]|place[426]	giv[431]|new[426]	_	_
-59-25	5056-5060	back	place[431]|place[426]	giv[431]|new[426]	_	_
-59-26	5061-5065	room	place[431]|place[426]	giv[431]|new[426]	_	_
+59-15	5016-5017	,	_	_	_	_
+59-16	5018-5022	that	abstract[427]	giv[427]	_	_
+59-17	5023-5025	's	_	_	_	_
+59-18	5026-5029	why	_	_	_	_
+59-19	5030-5034	they	abstract[428]	giv[428]	_	_
+59-20	5035-5039	stay	_	_	_	_
+59-21	5040-5043	and	_	_	_	_
+59-22	5044-5047	die	_	_	_	_
+59-23	5048-5050	in	_	_	_	_
+59-24	5051-5055	that	place[431]	giv[431]	_	_
+59-25	5056-5060	back	place[431]	giv[431]	_	_
+59-26	5061-5065	room	place[431]	giv[431]	_	_
 59-27	5066-5069	and	_	_	_	_
 59-28	5070-5072	do	_	_	_	_
 59-29	5073-5076	n’t	_	_	_	_

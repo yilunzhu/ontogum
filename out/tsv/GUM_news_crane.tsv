@@ -14,12 +14,12 @@
 1-8	35-43	collapse	_	_	_	_
 
 #Text=Saturday , September 12 , 2015
-2-1	44-52	Saturday	time[129]	acc[129]	appos	2-3[10_129]
-2-2	53-54	,	time[129]	acc[129]	_	_
-2-3	55-64	September	time[10]	giv[10]	_	_
-2-4	65-67	12	time[10]	giv[10]	_	_
-2-5	68-69	,	time[10]	giv[10]	_	_
-2-6	70-74	2015	time[10]	giv[10]	_	_
+2-1	44-52	Saturday	_	_	_	_
+2-2	53-54	,	_	_	_	_
+2-3	55-64	September	_	_	_	_
+2-4	65-67	12	_	_	_	_
+2-5	68-69	,	_	_	_	_
+2-6	70-74	2015	_	_	_	_
 
 #Text=pilgrims at Mecca 's Grand Mosque in 2008 .
 3-1	75-83	pilgrims	_	_	_	_
@@ -42,7 +42,7 @@
 4-7	152-154	to	event[19]	new[19]	_	_
 4-8	155-159	fall	event[19]	new[19]	_	_
 4-9	160-164	into	event[19]	new[19]	_	_
-4-10	165-170	Mecca	event[19]|place[24]|place[25]	new[19]|giv[24]|giv[25]	coref|coref	5-37[40_24]|11-19[194_25]
+4-10	165-170	Mecca	event[19]|place[24]|place[25]	new[19]|giv[24]|giv[25]	coref|coref	11-19[132_25]|5-37[40_24]
 4-11	171-173	's	event[19]|place[24]|place[25]	new[19]|giv[24]|giv[25]	_	_
 4-12	174-179	Grand	event[19]|place[24]	new[19]|giv[24]	_	_
 4-13	180-186	Mosque	event[19]|place[24]	new[19]|giv[24]	_	_
@@ -179,16 +179,16 @@
 9-13	854-859	worse	_	_	_	_
 9-14	860-861	,	_	_	_	_
 9-15	862-863	"	_	_	_	_
-9-16	864-870	Khaled	person[59]|person[191]	new[59]|new[191]	appos|ana	9-19[60_59]|10-13[66_191]
-9-17	871-880	Al-Maeena	person[59]|person[191]	new[59]|new[191]	_	_
-9-18	881-882	,	person[59]|person[191]	new[59]|new[191]	_	_
-9-19	883-889	editor	person[60]|person[191]	giv[60]|new[191]	_	_
-9-20	890-892	at	person[60]|person[191]	giv[60]|new[191]	_	_
-9-21	893-898	large	person[60]|person[191]	giv[60]|new[191]	_	_
-9-22	899-901	at	person[60]|person[191]	giv[60]|new[191]	_	_
-9-23	902-905	the	person[60]|person[191]	giv[60]|new[191]	_	_
-9-24	906-911	Saudi	person[60]|person[191]	giv[60]|new[191]	_	_
-9-25	912-919	Gazette	person[60]|person[191]	giv[60]|new[191]	_	_
+9-16	864-870	Khaled	person[130]	new[130]	ana	10-13[66_130]
+9-17	871-880	Al-Maeena	person[130]	new[130]	_	_
+9-18	881-882	,	person[130]	new[130]	_	_
+9-19	883-889	editor	person[130]	new[130]	_	_
+9-20	890-892	at	person[130]	new[130]	_	_
+9-21	893-898	large	person[130]	new[130]	_	_
+9-22	899-901	at	person[130]	new[130]	_	_
+9-23	902-905	the	person[130]	new[130]	_	_
+9-24	906-911	Saudi	person[130]	new[130]	_	_
+9-25	912-919	Gazette	person[130]	new[130]	_	_
 9-26	920-921	,	_	_	_	_
 9-27	922-926	said	_	_	_	_
 9-28	927-928	.	_	_	_	_
@@ -233,19 +233,19 @@
 11-9	1100-1103	the	_	_	_	_
 11-10	1104-1113	beginning	_	_	_	_
 11-11	1114-1116	of	_	_	_	_
-11-12	1117-1120	the	event[73]|event[192]	new[73]|new[192]	appos|coref	11-15[74_73]|12-3[79_192]
-11-13	1121-1125	Hajj	event[73]|event[192]	new[73]|new[192]	_	_
-11-14	1126-1127	,	event[73]|event[192]	new[73]|new[192]	_	_
-11-15	1128-1131	the	event[74]|event[192]	giv[74]|new[192]	_	_
-11-16	1132-1138	annual	event[74]|event[192]	giv[74]|new[192]	_	_
-11-17	1139-1149	pilgrimage	event[74]|event[192]	giv[74]|new[192]	_	_
-11-18	1150-1152	to	event[74]|event[192]	giv[74]|new[192]	_	_
-11-19	1153-1158	Mecca	event[74]|place[160]|event[192]|place[194]	giv[74]|new[160]|new[192]|new[194]	appos|coref	11-21[77_160]|12-6[80_194]
-11-20	1159-1160	,	event[74]|place[160]|event[192]|place[194]	new[74]|new[160]|new[192]|new[194]	_	_
-11-21	1161-1166	Islam	place[77]|event[74]|event[192]|place[194]	giv[77]|new[74]|new[192]|new[194]	_	_
-11-22	1167-1169	's	place[77]|event[74]|event[192]|place[194]	giv[77]|new[74]|new[192]|new[194]	_	_
-11-23	1170-1177	holiest	place[77]|event[74]|event[192]|place[194]	giv[77]|new[74]|new[192]|new[194]	_	_
-11-24	1178-1182	site	place[77]|event[74]|event[192]|place[194]	giv[77]|new[74]|new[192]|new[194]	_	_
+11-12	1117-1120	the	event[73]	new[73]	appos	11-15[74_73]
+11-13	1121-1125	Hajj	event[73]	new[73]	_	_
+11-14	1126-1127	,	_	_	_	_
+11-15	1128-1131	the	event[74]	giv[74]	_	_
+11-16	1132-1138	annual	event[74]	giv[74]	_	_
+11-17	1139-1149	pilgrimage	event[74]	giv[74]	_	_
+11-18	1150-1152	to	event[74]	giv[74]	_	_
+11-19	1153-1158	Mecca	event[74]|place[132]	giv[74]|new[132]	coref	12-6[80_132]
+11-20	1159-1160	,	place[132]	new[132]	_	_
+11-21	1161-1166	Islam	place[132]	new[132]	_	_
+11-22	1167-1169	's	place[132]	new[132]	_	_
+11-23	1170-1177	holiest	place[132]	new[132]	_	_
+11-24	1178-1182	site	place[132]	new[132]	_	_
 11-25	1183-1184	.	_	_	_	_
 
 #Text=As undergoing a pilgrimage to Mecca is a mandatory religious duty for all Muslims who physically and financially can , millions of pilgrims arrive in Mecca each year for the Hajj .

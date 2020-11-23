@@ -155,11 +155,11 @@ def gen_tsv(doc, coref_article, non_singleton, new_id2entity):
     for k, v in new_entities.items():
         tok_id = int(v.text_id.split('-')[-1])
         ids = {f'{v.text_id.split("-")[0]}-{tok_id+i}': k for i in range(v.span_len)}
-        for id, e in ids.items():
-            if id not in new_id2entity.keys():
-                new_id2entity[id] = []
-            new_id2entity[id].append(e)
-            a = 1
+        # for id, e in ids.items():
+        #     if id not in new_id2entity.keys():
+        #         new_id2entity[id] = []
+        #     new_id2entity[id].append(e)
+        #     a = 1
 
     for line in coref_article:
         if line.startswith('#') or line == '':
@@ -171,7 +171,7 @@ def gen_tsv(doc, coref_article, non_singleton, new_id2entity):
         coref_fields[-2], coref_fields[-1] = '', ''
 
         # test
-        if line_id == '3-21':
+        if line_id == '2-1':
             a = 1
 
         # entity info
@@ -182,7 +182,7 @@ def gen_tsv(doc, coref_article, non_singleton, new_id2entity):
             entities += new_id
 
         # loop every possible entities in a single line
-        for e in entities:
+        for e in set(entities):
             if e in doc.keys():
                 id = e
             elif f'0_{line_id}' in doc.keys():
@@ -279,11 +279,11 @@ def gen_tsv(doc, coref_article, non_singleton, new_id2entity):
                 print(f'Warning: A token outside the coref span is added in Line {e}. This should not happen too often.')
 
         # if the expanded acl is not added, add it to the lines that are originally not included in the mention
-        cur_sent_id, cur_tok_id = line_id.split('-')[0], line_id.split('-')[1]
-        if last_coref in doc.keys() and cur_sent_id == doc[last_coref].text_id.split('-')[0] and \
-                cur_tok_id in doc[last_coref].acl_children and doc[last_coref].cur not in coref_fields[3]:
-            coref_fields[3] += '|' + doc[last_coref].e_type + f'[{doc[last_coref].cur}]'
-            coref_fields[4] += '|' + doc[last_coref].seen + f'[{doc[last_coref].cur}]'
+        # cur_sent_id, cur_tok_id = line_id.split('-')[0], line_id.split('-')[1]
+        # if last_coref in doc.keys() and cur_sent_id == doc[last_coref].text_id.split('-')[0] and \
+        #         cur_tok_id in doc[last_coref].acl_children and doc[last_coref].cur not in coref_fields[3]:
+        #     coref_fields[3] += '|' + doc[last_coref].e_type + f'[{doc[last_coref].cur}]'
+        #     coref_fields[4] += '|' + doc[last_coref].seen + f'[{doc[last_coref].cur}]'
 
         # if the line does not contain coref info, do not change it
         if f'0_{line_id}' not in doc.keys() and coref_fields[3] == '_':
@@ -330,7 +330,7 @@ def to_conll(docname, doc, coref_article, out_dir, non_singleton, new_id2entity,
         count += 1
         coref_part = ''
 
-        if line_id == '46-1':
+        if line_id == '12-8':
             a = 1
 
         if fields[3] == '_':

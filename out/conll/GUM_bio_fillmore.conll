@@ -991,9 +991,9 @@
 989	a	(30
 990	project	_
 991	called	_
-992	FrameNet	30)(31
-993	,	31)
-994	an	(31
+992	FrameNet	30)
+993	,	_
+994	an	_
 995	on-line	_
 996	structured	_
 997	description	_
@@ -1016,7 +1016,7 @@
 1014	theory	_
 1015	of	_
 1016	Frame	_
-1017	semantics	31)
+1017	semantics	_
 1018	,	_
 1019	while	_
 1020	implementing	_
@@ -1032,7 +1032,7 @@
 1030	In	_
 1031	FrameNet	(30)
 1032	,	_
-1033	words	(32)
+1033	words	(31)
 1034	are	_
 1035	described	_
 1036	in	_
@@ -1040,7 +1040,7 @@
 1038	of	_
 1039	the	_
 1040	frames	_
-1041	they	(32)
+1041	they	(31)
 1042	evoke	_
 1043	.	_
 1044	Data	_

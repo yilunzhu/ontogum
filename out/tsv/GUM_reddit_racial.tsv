@@ -14,9 +14,9 @@
 1-8	41-43	of	_	_	_	_
 1-9	44-50	racial	abstract[3]	new[3]	coref	5-5[36_3]
 1-10	51-57	issues	abstract[3]	new[3]	_	_
-1-11	58-62	seen	abstract[3]	new[3]	_	_
-1-12	63-65	in	abstract[3]	new[3]	_	_
-1-13	66-73	America	place[4]|abstract[3]	acc[4]|new[3]	coref	11-34[111_4]
+1-11	58-62	seen	_	_	_	_
+1-12	63-65	in	_	_	_	_
+1-13	66-73	America	place[4]	acc[4]	coref	11-34[111_4]
 1-14	74-75	?	_	_	_	_
 
 #Text=Hey , guys !
@@ -99,29 +99,29 @@
 5-5	425-428	the	abstract[36]	giv[36]	coref	14-21[143_36]
 5-6	429-435	racial	abstract[36]	giv[36]	_	_
 5-7	436-442	issues	abstract[36]	giv[36]	_	_
-5-8	443-446	and	abstract[36]	new[36]	_	_
-5-9	447-455	tensions	abstract[36]	new[36]	_	_
-5-10	456-465	occurring	abstract[36]	new[36]	_	_
-5-11	466-471	today	abstract[36]	new[36]	_	_
-5-12	472-474	as	abstract[36]	new[36]	_	_
-5-13	475-476	a	abstract[36]	new[36]	_	_
-5-14	477-481	very	abstract[36]	new[36]	_	_
-5-15	482-489	logical	abstract[36]	new[36]	_	_
-5-16	490-500	conclusion	abstract[36]	new[36]	_	_
-5-17	501-502	,	abstract[36]	new[36]	_	_
-5-18	503-511	personal	abstract[36]	new[36]	_	_
-5-19	512-514	to	abstract[36]	new[36]	_	_
-5-20	515-519	each	abstract[36]	new[36]	_	_
-5-21	520-530	individual	abstract[36]	new[36]	_	_
-5-22	531-532	,	abstract[36]	new[36]	_	_
-5-23	533-536	and	abstract[36]	new[36]	_	_
-5-24	537-539	as	abstract[36]	new[36]	_	_
-5-25	540-547	intense	abstract[36]	new[36]	_	_
-5-26	548-550	in	abstract[36]	new[36]	_	_
-5-27	551-554	the	abstract[36]	new[36]	_	_
-5-28	555-560	realm	abstract[36]	new[36]	_	_
-5-29	561-563	of	abstract[36]	new[36]	_	_
-5-30	564-572	politics	abstract[36]	new[36]	_	_
+5-8	443-446	and	_	_	_	_
+5-9	447-455	tensions	_	_	_	_
+5-10	456-465	occurring	_	_	_	_
+5-11	466-471	today	_	_	_	_
+5-12	472-474	as	_	_	_	_
+5-13	475-476	a	_	_	_	_
+5-14	477-481	very	_	_	_	_
+5-15	482-489	logical	_	_	_	_
+5-16	490-500	conclusion	_	_	_	_
+5-17	501-502	,	_	_	_	_
+5-18	503-511	personal	_	_	_	_
+5-19	512-514	to	_	_	_	_
+5-20	515-519	each	_	_	_	_
+5-21	520-530	individual	_	_	_	_
+5-22	531-532	,	_	_	_	_
+5-23	533-536	and	_	_	_	_
+5-24	537-539	as	_	_	_	_
+5-25	540-547	intense	_	_	_	_
+5-26	548-550	in	_	_	_	_
+5-27	551-554	the	_	_	_	_
+5-28	555-560	realm	_	_	_	_
+5-29	561-563	of	_	_	_	_
+5-30	564-572	politics	_	_	_	_
 5-31	573-574	.	_	_	_	_
 
 #Text=So , my questions are :
@@ -142,7 +142,7 @@
 7-7	639-643	feel	_	_	_	_
 7-8	644-645	/	_	_	_	_
 7-9	646-655	interpret	_	_	_	_
-7-10	656-659	our	abstract[50]|person[51]	new[50]|giv[51]	ana|ana	22-2[204_50]|9-12[65_51]
+7-10	656-659	our	abstract[50]|person[51]	new[50]|giv[51]	ana|ana	9-12[65_51]|22-2[204_50]
 7-11	660-669	seemingly	abstract[50]	new[50]	_	_
 7-12	670-671	,	abstract[50]	new[50]	_	_
 7-13	672-676	from	abstract[50]	new[50]	_	_

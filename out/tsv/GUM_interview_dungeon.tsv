@@ -18,12 +18,12 @@
 1-12	53-60	dungeon	organization[7]	new[7]	_	_
 
 #Text=Sunday , October 21 , 2007
-2-1	61-67	Sunday	time[461]	acc[461]	appos	2-3[10_461]
-2-2	68-69	,	time[461]	acc[461]	_	_
-2-3	70-77	October	time[10]	acc[10]	_	_
-2-4	78-80	21	time[10]	acc[10]	_	_
-2-5	81-82	,	time[10]	acc[10]	_	_
-2-6	83-87	2007	time[10]	acc[10]	_	_
+2-1	61-67	Sunday	_	_	_	_
+2-2	68-69	,	_	_	_	_
+2-3	70-77	October	_	_	_	_
+2-4	78-80	21	_	_	_	_
+2-5	81-82	,	_	_	_	_
+2-6	83-87	2007	_	_	_	_
 
 #Text=Operating the business
 3-1	88-97	Operating	_	_	_	_
@@ -205,7 +205,7 @@
 18-2	789-797	remember	_	_	_	_
 18-3	798-801	one	abstract[67]	new[67]	ana	18-33[79_67]
 18-4	802-804	of	abstract[67]	new[67]	_	_
-18-5	805-808	our	abstract[67]|abstract[68]|person[69]	new[67]|new[68]|giv[69]	ana|ana	37-7[192_68]|28-3[128_69]
+18-5	805-808	our	abstract[67]|abstract[68]|person[69]	new[67]|new[68]|giv[69]	ana|ana	28-3[128_69]|37-7[192_68]
 18-6	809-812	ads	abstract[67]|abstract[68]	new[67]|new[68]	_	_
 18-7	813-817	that	abstract[67]	new[67]	_	_
 18-8	818-819	I	abstract[67]|person[70]	new[67]|giv[70]	ana	18-27[75_70]
@@ -342,7 +342,7 @@
 26-3	1283-1286	the	abstract[112]	acc[112]	ana	27-1[114_112]
 26-4	1287-1294	startup	abstract[112]	acc[112]	_	_
 26-5	1295-1300	costs	abstract[112]	acc[112]	_	_
-26-6	1301-1309	involved	abstract[112]	acc[112]	_	_
+26-6	1301-1309	involved	_	_	_	_
 26-7	1310-1311	?	_	_	_	_
 
 #Text=It varies ; look around Manhattan , look around rents , look around build-outs , look around hiring , look around advertising ...
@@ -373,7 +373,7 @@
 #Text=What 's your greatest non-fixed cost ?
 28-1	1442-1446	What	_	_	_	_
 28-2	1447-1449	's	_	_	_	_
-28-3	1450-1454	your	abstract[127]|person[128]	acc[127]|giv[128]	coref|ana	29-1[130_127]|29-6[131_128]
+28-3	1450-1454	your	abstract[127]|person[128]	acc[127]|giv[128]	ana|coref	29-6[131_128]|29-1[130_127]
 28-4	1455-1463	greatest	abstract[127]	acc[127]	_	_
 28-5	1464-1473	non-fixed	abstract[127]	acc[127]	_	_
 28-6	1474-1478	cost	abstract[127]	acc[127]	_	_
@@ -426,11 +426,11 @@
 30-17	1688-1694	things	abstract[142]	new[142]	_	_
 30-18	1695-1699	like	abstract[142]	new[142]	_	_
 30-19	1700-1704	that	abstract[142]|abstract[151]	new[142]|giv[151]	_	_
-30-20	1705-1709	that	abstract[142]|abstract[151]	new[142]|giv[151]	_	_
-30-21	1710-1713	you	abstract[142]|abstract[151]	new[142]|giv[151]	_	_
-30-22	1714-1718	have	abstract[142]|abstract[151]	new[142]|giv[151]	_	_
-30-23	1719-1721	to	abstract[142]|abstract[151]	new[142]|giv[151]	_	_
-30-24	1722-1724	do	abstract[142]|abstract[151]	new[142]|giv[151]	_	_
+30-20	1705-1709	that	abstract[142]	new[142]	_	_
+30-21	1710-1713	you	abstract[142]	new[142]	_	_
+30-22	1714-1718	have	abstract[142]	new[142]	_	_
+30-23	1719-1721	to	abstract[142]	new[142]	_	_
+30-24	1722-1724	do	abstract[142]	new[142]	_	_
 30-25	1725-1726	.	_	_	_	_
 
 #Text=That 's about it .
@@ -462,7 +462,7 @@
 32-19	1829-1832	the	_	_	_	_
 32-20	1833-1845	relationship	_	_	_	_
 32-21	1846-1850	that	_	_	_	_
-32-22	1851-1853	my	person[165]|person[166]	giv[165]|giv[166]	ana|ana	48-1[248_165]|47-1[244_166]
+32-22	1851-1853	my	person[165]|person[166]	giv[165]|giv[166]	ana|ana	47-1[244_166]|48-1[248_165]
 32-23	1854-1858	wife	person[165]	giv[165]	_	_
 32-24	1859-1862	has	_	_	_	_
 32-25	1863-1867	with	_	_	_	_
@@ -533,7 +533,7 @@
 37-1	2103-2112	Magazines	organization[188]	new[188]	ana	37-4[191_188]
 37-2	2113-2123	constantly	_	_	_	_
 37-3	2124-2130	change	_	_	_	_
-37-4	2131-2136	their	abstract[190]|organization[191]	new[190]|giv[191]	ana|ana	40-2[208_190]|37-9[193_191]
+37-4	2131-2136	their	abstract[190]|organization[191]	new[190]|giv[191]	ana|ana	37-9[193_191]|40-2[208_190]
 37-5	2137-2143	policy	abstract[190]	new[190]	_	_
 37-6	2144-2146	on	abstract[190]	new[190]	_	_
 37-7	2147-2149	it	abstract[190]|abstract[192]	new[190]|giv[192]	ana	37-11[194_192]
@@ -863,26 +863,26 @@
 62-1	3393-3394	I	person[303]	giv[303]	ana	62-10[307_303]
 62-2	3395-3399	also	_	_	_	_
 62-3	3400-3404	have	_	_	_	_
-62-4	3405-3406	a	abstract[305]|abstract[492]	new[305]|new[492]	coref|ana	62-12[310_305]|62-29[319_492]
-62-5	3407-3414	profile	abstract[305]|abstract[492]	new[305]|new[492]	_	_
-62-6	3415-3419	they	abstract[305]|person[306]|abstract[492]	new[305]|giv[306]|new[492]	_	_
-62-7	3420-3424	fill	abstract[305]|abstract[492]	new[305]|new[492]	_	_
-62-8	3425-3428	out	abstract[305]|abstract[492]	new[305]|new[492]	_	_
-62-9	3429-3432	for	abstract[305]|abstract[492]	new[305]|new[492]	_	_
-62-10	3433-3435	me	abstract[305]|person[307]|abstract[492]	new[305]|giv[307]|new[492]	ana	62-15[311_307]
-62-11	3436-3437	,	abstract[492]	new[492]	_	_
-62-12	3438-3439	a	abstract[310]|abstract[492]	giv[310]|new[492]	_	_
-62-13	3440-3449	mini-MMPI	abstract[310]|abstract[492]	giv[310]|new[492]	_	_
-62-14	3450-3454	that	abstract[310]|abstract[492]	giv[310]|new[492]	_	_
-62-15	3455-3456	I	abstract[310]|person[311]|abstract[492]	giv[310]|giv[311]|new[492]	ana	62-20[312_311]
-62-16	3457-3466	developed	abstract[310]|abstract[492]	giv[310]|new[492]	_	_
-62-17	3467-3468	,	abstract[310]|abstract[492]	giv[310]|new[492]	_	_
-62-18	3469-3471	so	abstract[310]|abstract[492]	giv[310]|new[492]	_	_
-62-19	3472-3476	that	abstract[310]|abstract[492]	giv[310]|new[492]	_	_
-62-20	3477-3478	I	abstract[310]|person[312]|abstract[492]	giv[310]|giv[312]|new[492]	ana	62-27[318_312]
-62-21	3479-3483	have	abstract[310]|abstract[492]	giv[310]|new[492]	_	_
-62-22	3484-3486	an	abstract[310]|abstract[492]	giv[310]|new[492]	_	_
-62-23	3487-3491	idea	abstract[310]|abstract[492]	giv[310]|new[492]	_	_
+62-4	3405-3406	a	abstract[305]	new[305]	coref	62-12[310_305]
+62-5	3407-3414	profile	abstract[305]	new[305]	_	_
+62-6	3415-3419	they	abstract[305]|person[306]	new[305]|giv[306]	_	_
+62-7	3420-3424	fill	abstract[305]	new[305]	_	_
+62-8	3425-3428	out	abstract[305]	new[305]	_	_
+62-9	3429-3432	for	abstract[305]	new[305]	_	_
+62-10	3433-3435	me	abstract[305]|person[307]	new[305]|giv[307]	ana	62-15[311_307]
+62-11	3436-3437	,	_	_	_	_
+62-12	3438-3439	a	abstract[310]	giv[310]	ana	62-29[319_310]
+62-13	3440-3449	mini-MMPI	abstract[310]	giv[310]	_	_
+62-14	3450-3454	that	abstract[310]	giv[310]	_	_
+62-15	3455-3456	I	abstract[310]|person[311]	giv[310]|giv[311]	ana	62-20[312_311]
+62-16	3457-3466	developed	abstract[310]	giv[310]	_	_
+62-17	3467-3468	,	abstract[310]	giv[310]	_	_
+62-18	3469-3471	so	abstract[310]	giv[310]	_	_
+62-19	3472-3476	that	abstract[310]	giv[310]	_	_
+62-20	3477-3478	I	abstract[310]|person[312]	giv[310]|giv[312]	ana	62-27[318_312]
+62-21	3479-3483	have	abstract[310]	giv[310]	_	_
+62-22	3484-3486	an	abstract[310]	giv[310]	_	_
+62-23	3487-3491	idea	abstract[310]	giv[310]	_	_
 62-24	3492-3494	--	_	_	_	_
 62-25	3495-3502	Rebecca	person[316]|person[317]	giv[316]|giv[317]	ana	63-1[320_317]
 62-26	3503-3506	and	person[316]	giv[316]	_	_
@@ -1052,16 +1052,16 @@
 79-2	4061-4064	but	_	_	_	_
 79-3	4065-4066	I	person[375]	giv[375]	ana	79-8[378_375]
 79-4	4067-4071	have	_	_	_	_
-79-5	4072-4073	a	abstract[377]|abstract[493]	giv[377]|giv[493]	appos|ana	79-13[380_377]|84-2[396_493]
-79-6	4074-4079	chart	abstract[377]|abstract[493]	giv[377]|giv[493]	_	_
-79-7	4080-4084	that	abstract[377]|abstract[493]	giv[377]|giv[493]	_	_
-79-8	4085-4086	I	abstract[377]|person[378]|abstract[493]	giv[377]|giv[378]|giv[493]	ana	80-5[382_378]
-79-9	4087-4090	'll	abstract[377]|abstract[493]	giv[377]|giv[493]	_	_
-79-10	4091-4093	go	abstract[377]|abstract[493]	giv[377]|giv[493]	_	_
-79-11	4094-4101	through	abstract[377]|abstract[493]	giv[377]|giv[493]	_	_
-79-12	4102-4103	;	abstract[377]|abstract[493]	giv[377]|giv[493]	_	_
-79-13	4104-4107	the	abstract[380]|abstract[493]	giv[380]|giv[493]	_	_
-79-14	4108-4112	MMPI	abstract[380]|abstract[493]	giv[380]|giv[493]	_	_
+79-5	4072-4073	a	abstract[377]|abstract[462]	giv[377]|giv[462]	appos|ana	79-13[380_377]|84-2[396_462]
+79-6	4074-4079	chart	abstract[377]|abstract[462]	giv[377]|giv[462]	_	_
+79-7	4080-4084	that	abstract[377]|abstract[462]	giv[377]|giv[462]	_	_
+79-8	4085-4086	I	abstract[377]|person[378]|abstract[462]	giv[377]|giv[378]|giv[462]	ana	80-5[382_378]
+79-9	4087-4090	'll	abstract[377]|abstract[462]	giv[377]|giv[462]	_	_
+79-10	4091-4093	go	abstract[377]|abstract[462]	giv[377]|giv[462]	_	_
+79-11	4094-4101	through	abstract[377]|abstract[462]	giv[377]|giv[462]	_	_
+79-12	4102-4103	;	abstract[462]	giv[462]	_	_
+79-13	4104-4107	the	abstract[380]|abstract[462]	giv[380]|giv[462]	_	_
+79-14	4108-4112	MMPI	abstract[380]|abstract[462]	giv[380]|giv[462]	_	_
 79-15	4113-4114	.	_	_	_	_
 
 #Text=The baseline data that I use to --

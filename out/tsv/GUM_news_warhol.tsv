@@ -14,12 +14,12 @@
 1-8	44-52	exhibits	_	_	_	_
 
 #Text=Tuesday , January 28 , 2014
-2-1	53-60	Tuesday	time[773]	acc[773]	appos	2-3[6_773]
-2-2	61-62	,	time[773]	acc[773]	_	_
-2-3	63-70	January	time[6]	giv[6]	_	_
-2-4	71-73	28	time[6]	giv[6]	_	_
-2-5	74-75	,	time[6]	giv[6]	_	_
-2-6	76-80	2014	time[6]	giv[6]	_	_
+2-1	53-60	Tuesday	_	_	_	_
+2-2	61-62	,	_	_	_	_
+2-3	63-70	January	_	_	_	_
+2-4	71-73	28	_	_	_	_
+2-5	74-75	,	_	_	_	_
+2-6	76-80	2014	_	_	_	_
 
 #Text=Portrait shot of Dennis Hopper , famous for his role in the 1969 film Easy Rider , amongst the Warhol Polaroids donated to USI by the Andy Warhol Foundation for the Visual Arts .
 3-1	81-89	Portrait	_	_	_	_
@@ -242,19 +242,19 @@
 13-1	1164-1168	Full	_	_	_	_
 13-2	1169-1178	interview	_	_	_	_
 13-3	1179-1183	with	_	_	_	_
-13-4	1184-1191	Kristin	person[97]|person[866]	new[97]|new[866]	appos|coref	13-7[98_97]|16-16[867_866]
-13-5	1192-1199	Wilkins	person[97]|person[866]	new[97]|new[866]	_	_
-13-6	1200-1201	,	person[97]|person[866]	new[97]|new[866]	_	_
-13-7	1202-1209	curator	person[98]|person[866]	giv[98]|new[866]	_	_
-13-8	1210-1212	of	person[98]|person[866]	giv[98]|new[866]	_	_
-13-9	1213-1216	the	person[98]|event[99]|person[866]	giv[98]|giv[99]|new[866]	coref	15-11[109_99]
-13-10	1217-1227	exhibition	person[98]|event[99]|person[866]	giv[98]|giv[99]|new[866]	_	_
-13-11	1228-1230	at	person[98]|event[99]|person[866]	giv[98]|giv[99]|new[866]	_	_
-13-12	1231-1234	the	person[98]|event[99]|organization[100]|person[866]	giv[98]|giv[99]|giv[100]|new[866]	coref	15-9[107_100]
-13-13	1235-1245	University	person[98]|event[99]|organization[100]|person[866]	giv[98]|giv[99]|giv[100]|new[866]	_	_
-13-14	1246-1248	of	person[98]|event[99]|organization[100]|person[866]	giv[98]|giv[99]|giv[100]|new[866]	_	_
-13-15	1249-1257	Southern	person[98]|event[99]|organization[100]|place[101]|person[866]	giv[98]|giv[99]|giv[100]|giv[101]|new[866]	coref	22-22[170_101]
-13-16	1258-1265	Indiana	person[98]|event[99]|organization[100]|place[101]|person[866]	giv[98]|giv[99]|giv[100]|giv[101]|new[866]	_	_
+13-4	1184-1191	Kristin	person[774]	new[774]	coref	16-16[775_774]
+13-5	1192-1199	Wilkins	person[774]	new[774]	_	_
+13-6	1200-1201	,	person[774]	new[774]	_	_
+13-7	1202-1209	curator	person[774]	new[774]	_	_
+13-8	1210-1212	of	person[774]	new[774]	_	_
+13-9	1213-1216	the	event[99]|person[774]	giv[99]|new[774]	coref	15-11[109_99]
+13-10	1217-1227	exhibition	event[99]|person[774]	giv[99]|new[774]	_	_
+13-11	1228-1230	at	event[99]|person[774]	giv[99]|new[774]	_	_
+13-12	1231-1234	the	event[99]|organization[100]|person[774]	giv[99]|giv[100]|new[774]	coref	15-9[107_100]
+13-13	1235-1245	University	event[99]|organization[100]|person[774]	giv[99]|giv[100]|new[774]	_	_
+13-14	1246-1248	of	event[99]|organization[100]|person[774]	giv[99]|giv[100]|new[774]	_	_
+13-15	1249-1257	Southern	event[99]|organization[100]|place[101]|person[774]	giv[99]|giv[100]|giv[101]|new[774]	coref	22-22[170_101]
+13-16	1258-1265	Indiana	event[99]|organization[100]|place[101]|person[774]	giv[99]|giv[100]|giv[101]|new[774]	_	_
 13-17	1266-1267	.	_	_	_	_
 
 #Text=Audio : Jkthom .
@@ -274,7 +274,7 @@
 15-8	1327-1329	at	place[106]	giv[106]	_	_
 15-9	1330-1333	USI	place[106]|organization[107]	giv[106]|giv[107]	coref	17-13[130_107]
 15-10	1334-1339	bases	_	_	_	_
-15-11	1340-1343	its	event[109]|place[110]	giv[109]|giv[110]	coref|ana	16-26[124_109]|15-19[114_110]
+15-11	1340-1343	its	event[109]|place[110]	giv[109]|giv[110]	ana|coref	15-19[114_110]|16-26[124_109]
 15-12	1344-1351	exhibit	event[109]	giv[109]	_	_
 15-13	1352-1358	around	_	_	_	_
 15-14	1359-1366	roughly	object[112]	giv[112]	coref	16-1[117_112]
@@ -302,18 +302,18 @@
 16-13	1490-1491	,	_	_	_	_
 16-14	1492-1501	according	_	_	_	_
 16-15	1502-1504	to	_	_	_	_
-16-16	1505-1512	Kristen	person[120]|person[867]	giv[120]|giv[867]	appos|coref	16-19[121_120]|22-1[869_867]
-16-17	1513-1520	Wilkins	person[120]|person[867]	giv[120]|giv[867]	_	_
-16-18	1521-1522	,	person[120]|person[867]	giv[120]|giv[867]	_	_
-16-19	1523-1532	assistant	person[121]|person[867]	giv[121]|giv[867]	_	_
-16-20	1533-1542	professor	person[121]|person[867]	giv[121]|giv[867]	_	_
-16-21	1543-1545	of	person[121]|person[867]	giv[121]|giv[867]	_	_
-16-22	1546-1557	photography	person[121]|abstract[122]|person[867]	giv[121]|acc[122]|giv[867]	coref	20-31[157_122]
-16-23	1558-1561	and	person[121]|person[867]	giv[121]|giv[867]	_	_
-16-24	1562-1569	curator	person[121]|person[867]	giv[121]|giv[867]	_	_
-16-25	1570-1572	of	person[121]|person[867]	giv[121]|giv[867]	_	_
-16-26	1573-1576	the	person[121]|event[124]|person[867]	giv[121]|giv[124]|giv[867]	coref	29-5[217_124]
-16-27	1577-1584	exhibit	person[121]|event[124]|person[867]	giv[121]|giv[124]|giv[867]	_	_
+16-16	1505-1512	Kristen	person[775]	giv[775]	coref	22-1[777_775]
+16-17	1513-1520	Wilkins	person[775]	giv[775]	_	_
+16-18	1521-1522	,	person[775]	giv[775]	_	_
+16-19	1523-1532	assistant	person[775]	giv[775]	_	_
+16-20	1533-1542	professor	person[775]	giv[775]	_	_
+16-21	1543-1545	of	person[775]	giv[775]	_	_
+16-22	1546-1557	photography	abstract[122]|person[775]	acc[122]|giv[775]	coref	20-31[157_122]
+16-23	1558-1561	and	person[775]	giv[775]	_	_
+16-24	1562-1569	curator	person[775]	giv[775]	_	_
+16-25	1570-1572	of	person[775]	giv[775]	_	_
+16-26	1573-1576	the	event[124]|person[775]	giv[124]|giv[775]	coref	29-5[217_124]
+16-27	1577-1584	exhibit	event[124]|person[775]	giv[124]|giv[775]	_	_
 16-28	1585-1586	.	_	_	_	_
 
 #Text=The Andy Warhol Foundation for the Visual Arts made two donations to USI Art Collections , in 2007 and a second recently .
@@ -342,13 +342,13 @@
 17-23	1708-1709	.	_	_	_	_
 
 #Text=Kathryn Waters , director of the gallery , expressed interest in further donations from the foundation in the future .
-18-1	1710-1717	Kathryn	person[135]|person[868]	new[135]|new[868]	appos|coref	18-4[136_135]|48-16[413_868]
-18-2	1718-1724	Waters	person[135]|person[868]	new[135]|new[868]	_	_
-18-3	1725-1726	,	person[135]|person[868]	new[135]|new[868]	_	_
-18-4	1727-1735	director	person[136]|person[868]	giv[136]|new[868]	_	_
-18-5	1736-1738	of	person[136]|person[868]	giv[136]|new[868]	_	_
-18-6	1739-1742	the	person[136]|place[137]|person[868]	giv[136]|giv[137]|new[868]	coref	74-23[644_137]
-18-7	1743-1750	gallery	person[136]|place[137]|person[868]	giv[136]|giv[137]|new[868]	_	_
+18-1	1710-1717	Kathryn	person[776]	new[776]	coref	48-16[413_776]
+18-2	1718-1724	Waters	person[776]	new[776]	_	_
+18-3	1725-1726	,	person[776]	new[776]	_	_
+18-4	1727-1735	director	person[776]	new[776]	_	_
+18-5	1736-1738	of	person[776]	new[776]	_	_
+18-6	1739-1742	the	place[137]|person[776]	giv[137]|new[776]	coref	74-23[644_137]
+18-7	1743-1750	gallery	place[137]|person[776]	giv[137]|new[776]	_	_
 18-8	1751-1752	,	_	_	_	_
 18-9	1753-1762	expressed	_	_	_	_
 18-10	1763-1771	interest	_	_	_	_
@@ -434,36 +434,36 @@
 21-2	2263-2271	exhibits	_	_	_	_
 
 #Text=Kristen Wilkins , curator of " Andy Warhol : Photographs and Prints from the University Collection " at the University of Southern Indiana , January 23 - March 9 2014 .
-22-1	2272-2279	Kristen	person[161]|person[869]	giv[161]|giv[869]	appos|coref	22-4[162_161]|25-1[183_869]
-22-2	2280-2287	Wilkins	person[161]|person[869]	giv[161]|giv[869]	_	_
-22-3	2288-2289	,	person[161]|person[869]	giv[161]|giv[869]	_	_
-22-4	2290-2297	curator	person[162]|person[869]	giv[162]|giv[869]	_	_
-22-5	2298-2300	of	person[162]|person[869]	giv[162]|giv[869]	_	_
-22-6	2301-2302	"	person[162]|person[869]	giv[162]|giv[869]	_	_
-22-7	2303-2307	Andy	person[162]|person[163]|person[869]	giv[162]|giv[163]|giv[869]	coref	25-18[188_163]
-22-8	2308-2314	Warhol	person[162]|person[163]|person[869]	giv[162]|giv[163]|giv[869]	_	_
-22-9	2315-2316	:	person[162]|person[869]	giv[162]|giv[869]	_	_
-22-10	2317-2328	Photographs	person[162]|person[869]	giv[162]|giv[869]	_	_
-22-11	2329-2332	and	person[162]|person[869]	giv[162]|giv[869]	_	_
-22-12	2333-2339	Prints	person[162]|person[869]	giv[162]|giv[869]	_	_
-22-13	2340-2344	from	person[162]|person[869]	giv[162]|giv[869]	_	_
-22-14	2345-2348	the	person[162]|person[869]	giv[162]|giv[869]	_	_
-22-15	2349-2359	University	person[162]|organization[167]|person[869]	giv[162]|giv[167]|giv[869]	coref	22-19[169_167]
-22-16	2360-2370	Collection	person[162]|person[869]	giv[162]|giv[869]	_	_
-22-17	2371-2372	"	person[162]|person[869]	giv[162]|giv[869]	_	_
-22-18	2373-2375	at	person[162]|person[869]	giv[162]|giv[869]	_	_
-22-19	2376-2379	the	person[162]|organization[169]|person[869]	giv[162]|giv[169]|giv[869]	coref	26-1[193_169]
-22-20	2380-2390	University	person[162]|organization[169]|person[869]	giv[162]|giv[169]|giv[869]	_	_
-22-21	2391-2393	of	person[162]|organization[169]|person[869]	giv[162]|giv[169]|giv[869]	_	_
-22-22	2394-2402	Southern	person[162]|organization[169]|place[170]|person[869]	giv[162]|giv[169]|giv[170]|giv[869]	_	_
-22-23	2403-2410	Indiana	person[162]|organization[169]|place[170]|person[869]	giv[162]|giv[169]|giv[170]|giv[869]	_	_
-22-24	2411-2412	,	person[162]|person[869]	giv[162]|giv[869]	_	_
-22-25	2413-2420	January	person[162]|person[869]	giv[162]|giv[869]	_	_
-22-26	2421-2423	23	person[162]|person[869]	giv[162]|giv[869]	_	_
-22-27	2424-2425	-	person[162]|person[869]	giv[162]|giv[869]	_	_
-22-28	2426-2431	March	person[162]|person[869]	giv[162]|giv[869]	_	_
-22-29	2432-2433	9	person[162]|person[869]	giv[162]|giv[869]	_	_
-22-30	2434-2438	2014	person[162]|person[869]	giv[162]|giv[869]	_	_
+22-1	2272-2279	Kristen	person[777]	giv[777]	coref	25-1[183_777]
+22-2	2280-2287	Wilkins	person[777]	giv[777]	_	_
+22-3	2288-2289	,	person[777]	giv[777]	_	_
+22-4	2290-2297	curator	person[777]	giv[777]	_	_
+22-5	2298-2300	of	person[777]	giv[777]	_	_
+22-6	2301-2302	"	person[777]	giv[777]	_	_
+22-7	2303-2307	Andy	person[163]|person[777]	giv[163]|giv[777]	coref	25-18[188_163]
+22-8	2308-2314	Warhol	person[163]|person[777]	giv[163]|giv[777]	_	_
+22-9	2315-2316	:	person[777]	giv[777]	_	_
+22-10	2317-2328	Photographs	person[777]	giv[777]	_	_
+22-11	2329-2332	and	person[777]	giv[777]	_	_
+22-12	2333-2339	Prints	person[777]	giv[777]	_	_
+22-13	2340-2344	from	person[777]	giv[777]	_	_
+22-14	2345-2348	the	person[777]	giv[777]	_	_
+22-15	2349-2359	University	organization[167]|person[777]	giv[167]|giv[777]	coref	22-19[169_167]
+22-16	2360-2370	Collection	person[777]	giv[777]	_	_
+22-17	2371-2372	"	person[777]	giv[777]	_	_
+22-18	2373-2375	at	person[777]	giv[777]	_	_
+22-19	2376-2379	the	organization[169]|person[777]	giv[169]|giv[777]	coref	26-1[193_169]
+22-20	2380-2390	University	organization[169]|person[777]	giv[169]|giv[777]	_	_
+22-21	2391-2393	of	organization[169]|person[777]	giv[169]|giv[777]	_	_
+22-22	2394-2402	Southern	organization[169]|place[170]|person[777]	giv[169]|giv[170]|giv[777]	_	_
+22-23	2403-2410	Indiana	organization[169]|place[170]|person[777]	giv[169]|giv[170]|giv[777]	_	_
+22-24	2411-2412	,	_	_	_	_
+22-25	2413-2420	January	_	_	_	_
+22-26	2421-2423	23	_	_	_	_
+22-27	2424-2425	-	_	_	_	_
+22-28	2426-2431	March	_	_	_	_
+22-29	2432-2433	9	_	_	_	_
+22-30	2434-2438	2014	_	_	_	_
 22-31	2439-2440	.	_	_	_	_
 
 #Text=Image : Snbehnke .
@@ -541,19 +541,19 @@
 26-9	2800-2801	.	_	_	_	_
 
 #Text=K.C. Maurer , chief financial officer and treasurer at the Andy Warhol Foundation , said 500 institutions received the initial invitation and currently 190 universities have accepted one or more donations .
-27-1	2802-2806	K.C.	person[197]|person[870]	new[197]|new[870]	appos|coref	27-4[198_197]|28-5[206_870]
-27-2	2807-2813	Maurer	person[197]|person[870]	new[197]|new[870]	_	_
-27-3	2814-2815	,	person[197]|person[870]	new[197]|new[870]	_	_
-27-4	2816-2821	chief	person[198]|person[870]	giv[198]|new[870]	_	_
-27-5	2822-2831	financial	person[198]|person[870]	giv[198]|new[870]	_	_
-27-6	2832-2839	officer	person[198]|person[870]	giv[198]|new[870]	_	_
-27-7	2840-2843	and	person[198]|person[870]	giv[198]|new[870]	_	_
-27-8	2844-2853	treasurer	person[198]|person[870]	giv[198]|new[870]	_	_
-27-9	2854-2856	at	person[198]|person[870]	giv[198]|new[870]	_	_
-27-10	2857-2860	the	person[198]|organization[199]|person[870]	giv[198]|giv[199]|new[870]	coref	30-6[239_199]
-27-11	2861-2865	Andy	person[198]|organization[199]|person[200]|person[870]	giv[198]|giv[199]|giv[200]|new[870]	coref	28-13[210_200]
-27-12	2866-2872	Warhol	person[198]|organization[199]|person[200]|person[870]	giv[198]|giv[199]|giv[200]|new[870]	_	_
-27-13	2873-2883	Foundation	person[198]|organization[199]|person[870]	giv[198]|giv[199]|new[870]	_	_
+27-1	2802-2806	K.C.	person[778]	new[778]	coref	28-5[206_778]
+27-2	2807-2813	Maurer	person[778]	new[778]	_	_
+27-3	2814-2815	,	person[778]	new[778]	_	_
+27-4	2816-2821	chief	person[778]	new[778]	_	_
+27-5	2822-2831	financial	person[778]	new[778]	_	_
+27-6	2832-2839	officer	person[778]	new[778]	_	_
+27-7	2840-2843	and	person[778]	new[778]	_	_
+27-8	2844-2853	treasurer	person[778]	new[778]	_	_
+27-9	2854-2856	at	person[778]	new[778]	_	_
+27-10	2857-2860	the	organization[199]|person[778]	giv[199]|new[778]	coref	30-6[239_199]
+27-11	2861-2865	Andy	organization[199]|person[200]|person[778]	giv[199]|giv[200]|new[778]	coref	28-13[210_200]
+27-12	2866-2872	Warhol	organization[199]|person[200]|person[778]	giv[199]|giv[200]|new[778]	_	_
+27-13	2873-2883	Foundation	organization[199]|person[778]	giv[199]|new[778]	_	_
 27-14	2884-2885	,	_	_	_	_
 27-15	2886-2890	said	_	_	_	_
 27-16	2891-2894	500	_	_	_	_
@@ -699,7 +699,7 @@
 32-20	3686-3692	11,000	_	_	_	_
 32-21	3693-3701	visitors	_	_	_	_
 32-22	3702-3706	when	_	_	_	_
-32-23	3707-3709	it	event[253]|organization[254]	new[253]|giv[254]	coref|ana	33-1[264_253]|32-25[257_254]
+32-23	3707-3709	it	event[253]|organization[254]	new[253]|giv[254]	ana|coref	32-25[257_254]|33-1[264_253]
 32-24	3710-3719	exhibited	event[253]	new[253]	_	_
 32-25	3720-3723	its	event[253]|organization[257]	new[253]|giv[257]	coref	36-3[284_257]
 32-26	3724-3730	Warhol	event[253]|person[258]	new[253]|giv[258]	coref	33-40[275_258]
@@ -1001,15 +1001,15 @@
 42-8	5324-5332	features	_	_	_	_
 42-9	5333-5342	Polaroids	_	_	_	_
 42-10	5343-5345	of	_	_	_	_
-42-11	5346-5353	fashion	person[364]	new[364]	appos	42-15[365_364]
-42-12	5354-5362	designer	person[364]	new[364]	_	_
-42-13	5363-5370	Halston	person[364]	new[364]	_	_
-42-14	5371-5372	,	person[364]	acc[364]	_	_
-42-15	5373-5374	a	person[365]	giv[365]	_	_
-42-16	5375-5381	former	person[365]	giv[365]	_	_
-42-17	5382-5390	resident	person[365]	giv[365]	_	_
-42-18	5391-5393	of	person[365]	giv[365]	_	_
-42-19	5394-5404	Evansville	person[365]|place[366]	giv[365]|giv[366]	_	_
+42-11	5346-5353	fashion	_	_	_	_
+42-12	5354-5362	designer	_	_	_	_
+42-13	5363-5370	Halston	_	_	_	_
+42-14	5371-5372	,	_	_	_	_
+42-15	5373-5374	a	_	_	_	_
+42-16	5375-5381	former	_	_	_	_
+42-17	5382-5390	resident	_	_	_	_
+42-18	5391-5393	of	_	_	_	_
+42-19	5394-5404	Evansville	place[366]	giv[366]	_	_
 42-20	5405-5406	.	_	_	_	_
 
 #Text=University collections across the United States also include Polaroids of " unknowns " who have not yet had their fifteen minutes of fame .
@@ -1039,21 +1039,21 @@
 43-24	5545-5546	.	_	_	_	_
 
 #Text=Cynthia Thompson , curator and director of exhibits at the University of Arkansas , Fayetteville , said , " These images serve as documentation of people in his every day life and art - one which many of us enjoy a glimpse into . "
-44-1	5547-5554	Cynthia	person[374]	new[374]	appos	44-4[375_374]
-44-2	5555-5563	Thompson	person[374]	new[374]	_	_
-44-3	5564-5565	,	person[374]	new[374]	_	_
-44-4	5566-5573	curator	person[375]	giv[375]	_	_
-44-5	5574-5577	and	person[375]	giv[375]	_	_
-44-6	5578-5586	director	person[375]	giv[375]	_	_
-44-7	5587-5589	of	person[375]	giv[375]	_	_
-44-8	5590-5598	exhibits	person[375]	giv[375]	_	_
-44-9	5599-5601	at	person[375]	giv[375]	_	_
-44-10	5602-5605	the	person[375]	giv[375]	_	_
-44-11	5606-5616	University	person[375]	giv[375]	_	_
-44-12	5617-5619	of	person[375]	giv[375]	_	_
-44-13	5620-5628	Arkansas	person[375]	giv[375]	_	_
-44-14	5629-5630	,	person[375]	giv[375]	_	_
-44-15	5631-5643	Fayetteville	person[375]	giv[375]	_	_
+44-1	5547-5554	Cynthia	_	_	_	_
+44-2	5555-5563	Thompson	_	_	_	_
+44-3	5564-5565	,	_	_	_	_
+44-4	5566-5573	curator	_	_	_	_
+44-5	5574-5577	and	_	_	_	_
+44-6	5578-5586	director	_	_	_	_
+44-7	5587-5589	of	_	_	_	_
+44-8	5590-5598	exhibits	_	_	_	_
+44-9	5599-5601	at	_	_	_	_
+44-10	5602-5605	the	_	_	_	_
+44-11	5606-5616	University	_	_	_	_
+44-12	5617-5619	of	_	_	_	_
+44-13	5620-5628	Arkansas	_	_	_	_
+44-14	5629-5630	,	_	_	_	_
+44-15	5631-5643	Fayetteville	_	_	_	_
 44-16	5644-5645	,	_	_	_	_
 44-17	5646-5650	said	_	_	_	_
 44-18	5651-5652	,	_	_	_	_
@@ -1062,26 +1062,26 @@
 44-21	5661-5667	images	object[376]	giv[376]	_	_
 44-22	5668-5673	serve	_	_	_	_
 44-23	5674-5676	as	_	_	_	_
-44-24	5677-5690	documentation	abstract[377]	new[377]	appos	44-34[804_377]
-44-25	5691-5693	of	abstract[377]	new[377]	_	_
-44-26	5694-5700	people	abstract[377]	new[377]	_	_
-44-27	5701-5703	in	abstract[377]	new[377]	_	_
-44-28	5704-5707	his	abstract[377]|person[380]	new[377]|giv[380]	coref	46-1[389_380]
-44-29	5708-5713	every	abstract[377]	new[377]	_	_
-44-30	5714-5717	day	abstract[377]	new[377]	_	_
-44-31	5718-5722	life	abstract[377]	new[377]	_	_
-44-32	5723-5726	and	abstract[377]	new[377]	_	_
-44-33	5727-5730	art	abstract[377]	new[377]	_	_
-44-34	5731-5732	-	abstract[804]	giv[804]	_	_
-44-35	5733-5736	one	abstract[804]	giv[804]	_	_
-44-36	5737-5742	which	abstract[804]	giv[804]	_	_
-44-37	5743-5747	many	abstract[804]	giv[804]	_	_
-44-38	5748-5750	of	abstract[804]	giv[804]	_	_
-44-39	5751-5753	us	abstract[384]|abstract[804]	new[384]|giv[804]	coref	71-11[624_384]
-44-40	5754-5759	enjoy	abstract[804]	giv[804]	_	_
-44-41	5760-5761	a	abstract[804]	giv[804]	_	_
-44-42	5762-5769	glimpse	abstract[804]	giv[804]	_	_
-44-43	5770-5774	into	abstract[804]	giv[804]	_	_
+44-24	5677-5690	documentation	_	_	_	_
+44-25	5691-5693	of	_	_	_	_
+44-26	5694-5700	people	_	_	_	_
+44-27	5701-5703	in	_	_	_	_
+44-28	5704-5707	his	person[380]	giv[380]	coref	46-1[389_380]
+44-29	5708-5713	every	_	_	_	_
+44-30	5714-5717	day	_	_	_	_
+44-31	5718-5722	life	_	_	_	_
+44-32	5723-5726	and	_	_	_	_
+44-33	5727-5730	art	_	_	_	_
+44-34	5731-5732	-	_	_	_	_
+44-35	5733-5736	one	_	_	_	_
+44-36	5737-5742	which	_	_	_	_
+44-37	5743-5747	many	_	_	_	_
+44-38	5748-5750	of	_	_	_	_
+44-39	5751-5753	us	abstract[384]	new[384]	coref	71-11[624_384]
+44-40	5754-5759	enjoy	_	_	_	_
+44-41	5760-5761	a	_	_	_	_
+44-42	5762-5769	glimpse	_	_	_	_
+44-43	5770-5774	into	_	_	_	_
 44-44	5775-5776	.	_	_	_	_
 44-45	5777-5778	"	_	_	_	_
 
@@ -1276,15 +1276,15 @@
 52-32	6676-6677	.	_	_	_	_
 
 #Text=Hilary Braysmith , USI associate professor of art history , said , " I think his photography is equally influential as his graphic works , his more famous pictures of Marilyn .
-53-1	6678-6684	Hilary	person[452]|person[874]	new[452]|new[874]	appos|ana	53-4[453_452]|53-14[458_874]
-53-2	6685-6694	Braysmith	person[452]|person[874]	new[452]|new[874]	_	_
-53-3	6695-6696	,	person[452]|person[874]	new[452]|new[874]	_	_
-53-4	6697-6700	USI	person[453]|organization[454]|person[874]	giv[453]|giv[454]|new[874]	coref	59-8[531_454]
-53-5	6701-6710	associate	person[453]|person[874]	giv[453]|new[874]	_	_
-53-6	6711-6720	professor	person[453]|person[874]	giv[453]|new[874]	_	_
-53-7	6721-6723	of	person[453]|person[874]	giv[453]|new[874]	_	_
-53-8	6724-6727	art	person[453]|person[874]	giv[453]|new[874]	_	_
-53-9	6728-6735	history	person[453]|person[874]	giv[453]|new[874]	_	_
+53-1	6678-6684	Hilary	person[782]	new[782]	ana	53-14[458_782]
+53-2	6685-6694	Braysmith	person[782]	new[782]	_	_
+53-3	6695-6696	,	person[782]	new[782]	_	_
+53-4	6697-6700	USI	organization[454]|person[782]	giv[454]|new[782]	coref	59-8[531_454]
+53-5	6701-6710	associate	person[782]	new[782]	_	_
+53-6	6711-6720	professor	person[782]	new[782]	_	_
+53-7	6721-6723	of	person[782]	new[782]	_	_
+53-8	6724-6727	art	person[782]	new[782]	_	_
+53-9	6728-6735	history	person[782]	new[782]	_	_
 53-10	6736-6737	,	_	_	_	_
 53-11	6738-6742	said	_	_	_	_
 53-12	6743-6744	,	_	_	_	_
@@ -1605,15 +1605,15 @@
 65-2	8252-8259	exhibit	event[582]	giv[582]	_	_
 
 #Text=Kiara Perkins , a second year USI art major , admitted she was willing to skip class Thursday night to attend the opening exhibit but then circumstances allowed for her to attend the exhibit .
-66-1	8260-8265	Kiara	person[585]|person[875]	new[585]|new[875]	appos|ana	66-4[586_585]|66-12[590_875]
-66-2	8266-8273	Perkins	person[585]|person[875]	new[585]|new[875]	_	_
-66-3	8274-8275	,	person[585]|person[875]	new[585]|new[875]	_	_
-66-4	8276-8277	a	person[586]|person[875]	giv[586]|new[875]	_	_
-66-5	8278-8284	second	person[586]|person[875]	giv[586]|new[875]	_	_
-66-6	8285-8289	year	person[586]|person[875]	giv[586]|new[875]	_	_
-66-7	8290-8293	USI	person[586]|organization[588]|person[875]	giv[586]|giv[588]|new[875]	coref	70-6[613_588]
-66-8	8294-8297	art	person[586]|person[875]	giv[586]|new[875]	_	_
-66-9	8298-8303	major	person[586]|person[875]	giv[586]|new[875]	_	_
+66-1	8260-8265	Kiara	person[783]	new[783]	ana	66-12[590_783]
+66-2	8266-8273	Perkins	person[783]	new[783]	_	_
+66-3	8274-8275	,	person[783]	new[783]	_	_
+66-4	8276-8277	a	person[783]	new[783]	_	_
+66-5	8278-8284	second	person[783]	new[783]	_	_
+66-6	8285-8289	year	person[783]	new[783]	_	_
+66-7	8290-8293	USI	organization[588]|person[783]	giv[588]|new[783]	coref	70-6[613_588]
+66-8	8294-8297	art	person[783]	new[783]	_	_
+66-9	8298-8303	major	person[783]	new[783]	_	_
 66-10	8304-8305	,	_	_	_	_
 66-11	8306-8314	admitted	_	_	_	_
 66-12	8315-8318	she	person[590]	giv[590]	ana	66-30[598_590]
@@ -1669,14 +1669,14 @@
 
 #Text=For Kevin Allton , a USI instructor in English , Warhol was also a legend .
 70-1	8527-8530	For	_	_	_	_
-70-2	8531-8536	Kevin	person[611]|person[876]	new[611]|new[876]	appos|ana	70-5[612_611]|71-1[620_876]
-70-3	8537-8543	Allton	person[611]|person[876]	new[611]|new[876]	_	_
-70-4	8544-8545	,	person[611]|person[876]	new[611]|new[876]	_	_
-70-5	8546-8547	a	person[612]|person[876]	giv[612]|new[876]	_	_
-70-6	8548-8551	USI	person[612]|organization[613]|person[876]	giv[612]|giv[613]|new[876]	_	_
-70-7	8552-8562	instructor	person[612]|person[876]	giv[612]|new[876]	_	_
-70-8	8563-8565	in	person[612]|person[876]	giv[612]|new[876]	_	_
-70-9	8566-8573	English	person[612]|person[876]	giv[612]|new[876]	_	_
+70-2	8531-8536	Kevin	person[784]	new[784]	ana	71-1[620_784]
+70-3	8537-8543	Allton	person[784]	new[784]	_	_
+70-4	8544-8545	,	person[784]	new[784]	_	_
+70-5	8546-8547	a	person[784]	new[784]	_	_
+70-6	8548-8551	USI	organization[613]|person[784]	giv[613]|new[784]	_	_
+70-7	8552-8562	instructor	person[784]	new[784]	_	_
+70-8	8563-8565	in	person[784]	new[784]	_	_
+70-9	8566-8573	English	person[784]	new[784]	_	_
 70-10	8574-8575	,	_	_	_	_
 70-11	8576-8582	Warhol	person[615]	giv[615]	coref	71-5[622_615]
 70-12	8583-8586	was	_	_	_	_
@@ -1986,18 +1986,18 @@
 84-23	10041-10048	cameras	_	_	_	_
 84-24	10049-10051	to	_	_	_	_
 84-25	10052-10056	make	_	_	_	_
-84-26	10057-10060	one	abstract[722]|abstract[877]	new[722]|new[877]	appos|coref	84-32[835_722]|86-5[741_877]
-84-27	10061-10068	further	abstract[722]|abstract[877]	new[722]|new[877]	_	_
-84-28	10069-10075	record	abstract[722]|abstract[877]	new[722]|new[877]	_	_
-84-29	10076-10078	of	abstract[722]|abstract[877]	new[722]|new[877]	_	_
-84-30	10079-10082	the	abstract[722]|abstract[877]	new[722]|new[877]	_	_
-84-31	10083-10089	moment	abstract[722]|abstract[877]	new[722]|new[877]	_	_
-84-32	10090-10091	-	abstract[835]|abstract[877]	giv[835]|new[877]	_	_
-84-33	10092-10093	a	abstract[835]|abstract[877]	giv[835]|new[877]	_	_
-84-34	10094-10099	photo	abstract[835]|abstract[877]	giv[835]|new[877]	_	_
-84-35	10100-10102	of	abstract[835]|abstract[877]	giv[835]|new[877]	_	_
-84-36	10103-10104	a	abstract[835]|abstract[877]	giv[835]|new[877]	_	_
-84-37	10105-10110	photo	abstract[835]|abstract[877]	giv[835]|new[877]	_	_
+84-26	10057-10060	one	abstract[785]	new[785]	coref	86-5[741_785]
+84-27	10061-10068	further	abstract[785]	new[785]	_	_
+84-28	10069-10075	record	abstract[785]	new[785]	_	_
+84-29	10076-10078	of	abstract[785]	new[785]	_	_
+84-30	10079-10082	the	abstract[785]	new[785]	_	_
+84-31	10083-10089	moment	abstract[785]	new[785]	_	_
+84-32	10090-10091	-	abstract[785]	new[785]	_	_
+84-33	10092-10093	a	abstract[785]	new[785]	_	_
+84-34	10094-10099	photo	abstract[785]	new[785]	_	_
+84-35	10100-10102	of	abstract[785]	new[785]	_	_
+84-36	10103-10104	a	abstract[785]	new[785]	_	_
+84-37	10105-10110	photo	abstract[785]	new[785]	_	_
 84-38	10111-10112	.	_	_	_	_
 
 #Text=Perhaps they had learned an important lesson from the Warhol exhibit that cultural events like these were ripe for use and reuse .

@@ -25,7 +25,7 @@ class Coref(object):
         self.span_len = 1
         self.child_cop = bool()
         self.dep_appos = bool()
-        self.appos = list()
+        self.appos = bool()
         self.acl_children = list()
         self.appos_father = str()
         self.seen = str()
@@ -37,6 +37,7 @@ class Coref(object):
         self.appos_point_to = str()
         self.expanded = False
         self.verb_head = str()
+        self.sent = list()
 
 def coref_(fields: list) -> dict:
     """
@@ -288,7 +289,7 @@ def process_doc(dep_doc, coref_doc):
             line_id, token = coref_fields[0], coref_fields[2]
 
             # test
-            if line_id == '52-3':
+            if line_id == '2-1':
                 a = 1
             if coref_fields[5] == 'appos':
                 a = 1
@@ -336,7 +337,7 @@ def process_doc(dep_doc, coref_doc):
             # match dep_text_id to the format in coref tsv
             dep_text_id = f'{dep_sent_id}-{dep_line[0]}'
             cur_dep_sent = dep_sents[dep_sent_id]
-            if dep_text_id == '31-7':
+            if dep_text_id == '2-5':
                 a = 1
 
             # TODO: 将ide替换为doc.keys()，避免18-26 "these techniques"没有任何dep的信息
@@ -374,8 +375,8 @@ def process_doc(dep_doc, coref_doc):
                             doc[entity].child_cop = check_dep_cop_child(cur_dep_sent, head_range, row)
                             # check whether appos is a child of the current head
                             doc[entity].dep_appos = True if row[7] == 'appos' and not another_appos else False
-                            if doc[entity].coref_type == 'appos' or doc[entity].dep_appos:
-                                doc[entity].appos = check_appos(cur_dep_sent, row, dep_sent_id)
+                            # if doc[entity].coref_type == 'appos' or doc[entity].dep_appos:
+                            #     doc[entity].appos = check_appos(cur_dep_sent, row, dep_sent_id)
                             doc[entity].acl_children = find_acl_child(cur_dep_sent, row[0])
                             head_of_the_phrase = row[0]
 
@@ -398,8 +399,8 @@ def process_doc(dep_doc, coref_doc):
                             doc[entity].child_cop = check_dep_cop_child(cur_dep_sent, head_range, row)
                             # check whether appos is a child of the current head
                             doc[entity].dep_appos = True if row[7] == 'appos' and not another_appos else False
-                            if doc[entity].coref_type == 'appos' or doc[entity].dep_appos:
-                                doc[entity].appos = check_appos(cur_dep_sent, row, dep_sent_id)
+                            # if doc[entity].coref_type == 'appos' or doc[entity].dep_appos:
+                                # doc[entity].appos = check_appos(cur_dep_sent, row, dep_sent_id)
                             doc[entity].acl_children = find_acl_child(cur_dep_sent, row[0])
                             head_of_the_phrase = row[0]
 
@@ -415,6 +416,7 @@ def process_doc(dep_doc, coref_doc):
                         doc[entity].pos += f' {row[4]}'
                     doc[entity].func = doc[entity].func.strip()
                     doc[entity].pos = doc[entity].pos.strip()
+                    doc[entity].sent = cur_dep_sent
 
                     # check acl children
                     '''
@@ -454,126 +456,126 @@ def process_doc(dep_doc, coref_doc):
                                     # else:
                                     #     raise ValueError('The acl children gap is not correctly recognized.')
 
-                    # check appositions, align the spans (if it isn't continuous, make it so)
-                    '''
-                    Sometimes ',' and other punctuation marks are not inlcuded in an apposition span, but this is invalid.
-                    Align the spans to have valid apposition coref
-                    '''
-                    ALIGN_PUNCT = [',', ':', ';', '—', '1', "'", '‘']
-                    last_e = sorted([int(x) for x in doc.keys() if not x.startswith('0_')], reverse=True)[0] + 30
-                    appos = doc[entity].appos
-                    if doc[entity].next and appos:
-                        next = doc[entity].next
-                        tok_id = int(doc[next].text_id.split('-')[-1])
-                        ids = [f'{doc[next].text_id.split("-")[0]}-{tok_id + i}' for i in range(doc[next].span_len)]
-
-                        max_prev_id = int(doc[entity].text_id.split('-')[-1]) + doc[entity].span_len - 1
-                        min_next_id = sorted([int(x.split("-")[-1]) for x in ids])[0]
-                        cur_count, next_count = 0, 0
-                        appos_belong_to_cur = []
-
-                        # check gap that does not count as dep children
-                        for gap_tok_id in range(max_prev_id+1, min_next_id):
-                            gap_id = f'{dep_sent_id}-{gap_tok_id}'
-                            cur_tok = cur_dep_sent[int(gap_tok_id) - 1][1]
-                            if str(gap_tok_id) in doc[entity].acl_children:
-                                continue
-                            if gap_id not in appos:
-                                # if cur_tok in ALIGN_PUNCT:
-                                cur_count += 1
-                                appos_belong_to_cur.append(gap_id)
-                                # else:
-                                #     raise ValueError(f'{gap_id}, {entity}->{next}, Apposition gaps are not punctuations, check the annotation.')
-
-                        loop_appos = deepcopy(appos)
-                        for appos_id in loop_appos:
-                            if appos_id == '3-20':
-                                a = 1
-                            appos_tok_id = appos_id.split('-')[-1]
-                            if appos_id not in ids:
-                                cur_tok = cur_dep_sent[int(appos_tok_id)-1][1]
-                                if int(appos_tok_id) < min_next_id and cur_tok in ALIGN_PUNCT:
-                                    cur_count += 1
-                                    appos_belong_to_cur.append(appos_id)
-                                    appos.remove(appos_id)
-                                else:
-                                    next_count += 1
-
-                        next_span_len = next_count + doc[next].span_len
-                        doc[next].expanded = True
-                        min_appos = sorted([int(x.split("-")[-1]) for x in appos])[0]
-
-                        new_id = next
-                        if f'{dep_sent_id}-{min_appos}' != doc[next].text_id:
-                            if next_span_len == 1:
-                               new_id = f'0_{appos[0]}'
-                            else:
-                                new_id = str(last_e + 1)
-
-                            # create a new entity
-                            doc[new_id] = deepcopy(doc[next])
-                            doc[new_id].text_id = f'{dep_sent_id}-{min_appos}'
-                            doc[new_id].cur = new_id
-
-                            # make new id as the next coref
-                            doc[entity].next = new_id
-                            doc[entity].coref = f'{dep_sent_id}-{min_appos}'
-
-                            # let the previous next points to the current one, delete coref info
-                            doc[next].replaced_by = new_id
-                            doc[next].coref = ''
-                            doc[next].coref_type = ''
-                            doc[next].next = ''
-
-                        doc[new_id].span_len = next_span_len
-                        new_id_span = [str(int(doc[new_id].text_id.split('-')[-1])+x) for x in range(doc[new_id].span_len)]
-                        for x in new_id_span:
-                            new_tok_id = f'{dep_sent_id}-{x}'
-                            if new_tok_id not in appos:
-                                appos.append(new_tok_id)
-                        cur_span_len = doc[entity].span_len + cur_count
-
-                        # if the current entity's span is longer than 1, assign it a new entity id
-                        if doc[entity].span_len == 1 and cur_span_len > 1:
-                            # if doc[entity].acl_children:
-                            #     raise ValueError('Change func.py L264 - L2xx.')
-                            new_cur_entity_id = str(last_e + 1)
-                            doc[new_cur_entity_id] = deepcopy(doc[entity])
-
-                            # revise the coref info in the new entity
-                            doc[new_cur_entity_id].span_len = cur_span_len
-                            doc[new_cur_entity_id].cur = new_cur_entity_id
-
-                            # delete coref info in the old entity
-                            doc[entity].next = ''
-                            doc[entity].coref = ''
-                            doc[entity].coref_type = ''
-                            # del doc[entity]
-
-                            # let the antecedent points to the new entity
-                            for ante_k, ante_v in doc.items():
-                                if ante_v.next == entity:
-                                    doc[ante_k].next = new_cur_entity_id
-
-                            # add the current head token (which should be the only one) into new_id2entity
-                            new_id2entity[doc[entity].text_id] = [new_cur_entity_id]
-
-                            # rename the "entity" variable
-                            entity = new_cur_entity_id
-
-                        else:
-                            doc[entity].span_len = cur_span_len
-
-                        for appos_id in appos:
-                            if appos_id not in new_id2entity.keys():
-                                new_id2entity[appos_id] = []
-                            new_id2entity[appos_id] += [new_id.split('_')[-1] if new_id.startswith('0_') else new_id]
-                            # if appos_id not in doc[new_id].text_id:
-                            #     new_id2entity[appos_id] = [new_id.split('_')[-1] if new_id.startswith('0_') else new_id]
-                        for cur_appos_id in appos_belong_to_cur:
-                            if cur_appos_id not in new_id2entity.keys():
-                                new_id2entity[cur_appos_id] = []
-                            new_id2entity[cur_appos_id] += [entity.split('_')[-1] if entity.startswith('0_') else entity]
+                    # # check appositions, align the spans (if it isn't continuous, make it so)
+                    # '''
+                    # Sometimes ',' and other punctuation marks are not inlcuded in an apposition span, but this is invalid.
+                    # Align the spans to have valid apposition coref
+                    # '''
+                    # ALIGN_PUNCT = [',', ':', ';', '—', '1', "'", '‘']
+                    # last_e = sorted([int(x) for x in doc.keys() if not x.startswith('0_')], reverse=True)[0] + 30
+                    # appos = doc[entity].appos
+                    # if doc[entity].next and appos:
+                    #     next = doc[entity].next
+                    #     tok_id = int(doc[next].text_id.split('-')[-1])
+                    #     ids = [f'{doc[next].text_id.split("-")[0]}-{tok_id + i}' for i in range(doc[next].span_len)]
+                    #
+                    #     max_prev_id = int(doc[entity].text_id.split('-')[-1]) + doc[entity].span_len - 1
+                    #     min_next_id = sorted([int(x.split("-")[-1]) for x in ids])[0]
+                    #     cur_count, next_count = 0, 0
+                    #     appos_belong_to_cur = []
+                    #
+                    #     # check gap that does not count as dep children
+                    #     for gap_tok_id in range(max_prev_id+1, min_next_id):
+                    #         gap_id = f'{dep_sent_id}-{gap_tok_id}'
+                    #         cur_tok = cur_dep_sent[int(gap_tok_id) - 1][1]
+                    #         if str(gap_tok_id) in doc[entity].acl_children:
+                    #             continue
+                    #         if gap_id not in appos:
+                    #             # if cur_tok in ALIGN_PUNCT:
+                    #             cur_count += 1
+                    #             appos_belong_to_cur.append(gap_id)
+                    #             # else:
+                    #             #     raise ValueError(f'{gap_id}, {entity}->{next}, Apposition gaps are not punctuations, check the annotation.')
+                    #
+                    #     loop_appos = deepcopy(appos)
+                    #     for appos_id in loop_appos:
+                    #         if appos_id == '3-20':
+                    #             a = 1
+                    #         appos_tok_id = appos_id.split('-')[-1]
+                    #         if appos_id not in ids:
+                    #             cur_tok = cur_dep_sent[int(appos_tok_id)-1][1]
+                    #             if int(appos_tok_id) < min_next_id and cur_tok in ALIGN_PUNCT:
+                    #                 cur_count += 1
+                    #                 appos_belong_to_cur.append(appos_id)
+                    #                 appos.remove(appos_id)
+                    #             else:
+                    #                 next_count += 1
+                    #
+                    #     next_span_len = next_count + doc[next].span_len
+                    #     doc[next].expanded = True
+                    #     min_appos = sorted([int(x.split("-")[-1]) for x in appos])[0]
+                    #
+                    #     new_id = next
+                    #     if f'{dep_sent_id}-{min_appos}' != doc[next].text_id:
+                    #         if next_span_len == 1:
+                    #            new_id = f'0_{appos[0]}'
+                    #         else:
+                    #             new_id = str(last_e + 1)
+                    #
+                    #         # create a new entity
+                    #         doc[new_id] = deepcopy(doc[next])
+                    #         doc[new_id].text_id = f'{dep_sent_id}-{min_appos}'
+                    #         doc[new_id].cur = new_id
+                    #
+                    #         # make new id as the next coref
+                    #         doc[entity].next = new_id
+                    #         doc[entity].coref = f'{dep_sent_id}-{min_appos}'
+                    #
+                    #         # let the previous next points to the current one, delete coref info
+                    #         doc[next].replaced_by = new_id
+                    #         doc[next].coref = ''
+                    #         doc[next].coref_type = ''
+                    #         doc[next].next = ''
+                    #
+                    #     doc[new_id].span_len = next_span_len
+                    #     new_id_span = [str(int(doc[new_id].text_id.split('-')[-1])+x) for x in range(doc[new_id].span_len)]
+                    #     for x in new_id_span:
+                    #         new_tok_id = f'{dep_sent_id}-{x}'
+                    #         if new_tok_id not in appos:
+                    #             appos.append(new_tok_id)
+                    #     cur_span_len = doc[entity].span_len + cur_count
+                    #
+                    #     # if the current entity's span is longer than 1, assign it a new entity id
+                    #     if doc[entity].span_len == 1 and cur_span_len > 1:
+                    #         # if doc[entity].acl_children:
+                    #         #     raise ValueError('Change func.py L264 - L2xx.')
+                    #         new_cur_entity_id = str(last_e + 1)
+                    #         doc[new_cur_entity_id] = deepcopy(doc[entity])
+                    #
+                    #         # revise the coref info in the new entity
+                    #         doc[new_cur_entity_id].span_len = cur_span_len
+                    #         doc[new_cur_entity_id].cur = new_cur_entity_id
+                    #
+                    #         # delete coref info in the old entity
+                    #         doc[entity].next = ''
+                    #         doc[entity].coref = ''
+                    #         doc[entity].coref_type = ''
+                    #         # del doc[entity]
+                    #
+                    #         # let the antecedent points to the new entity
+                    #         for ante_k, ante_v in doc.items():
+                    #             if ante_v.next == entity:
+                    #                 doc[ante_k].next = new_cur_entity_id
+                    #
+                    #         # add the current head token (which should be the only one) into new_id2entity
+                    #         new_id2entity[doc[entity].text_id] = [new_cur_entity_id]
+                    #
+                    #         # rename the "entity" variable
+                    #         entity = new_cur_entity_id
+                    #
+                    #     else:
+                    #         doc[entity].span_len = cur_span_len
+                    #
+                    #     for appos_id in appos:
+                    #         if appos_id not in new_id2entity.keys():
+                    #             new_id2entity[appos_id] = []
+                    #         new_id2entity[appos_id] += [new_id.split('_')[-1] if new_id.startswith('0_') else new_id]
+                    #         # if appos_id not in doc[new_id].text_id:
+                    #         #     new_id2entity[appos_id] = [new_id.split('_')[-1] if new_id.startswith('0_') else new_id]
+                    #     for cur_appos_id in appos_belong_to_cur:
+                    #         if cur_appos_id not in new_id2entity.keys():
+                    #             new_id2entity[cur_appos_id] = []
+                    #         new_id2entity[cur_appos_id] += [entity.split('_')[-1] if entity.startswith('0_') else entity]
 
                     # check definiteness
                     """
@@ -590,7 +592,9 @@ def process_doc(dep_doc, coref_doc):
                     MISC = ['Everyone', 'everyone', 'Anyone', 'anyone']
                     if entity == '0_69-18':
                         a = 1
-                    if 'NP' in doc[entity].head_pos:
+                    if doc[entity].head_pos == 'FW':
+                        doc[entity].definite = True
+                    elif 'NP' in doc[entity].head_pos:
                         doc[entity].definite = True
                     elif doc[entity].head_pos in HEAD_POS:
                         doc[entity].definite = True

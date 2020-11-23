@@ -44,8 +44,8 @@
 42	friend	_
 43	of	_
 44	Hu	(4(5
-45	Shih	3)
-46	,	4)
+45	Shih	4)3)
+46	,	_
 47	the	(4
 48	leader	_
 49	of	_
@@ -340,8 +340,8 @@
 338	Changpei	_
 339	and	_
 340	Li	_
-341	Fang-Kuei	_
-342	,	20)
+341	Fang-Kuei	20)
+342	,	_
 343	the	(20
 344	other	_
 345	two	_
@@ -588,12 +588,12 @@
 586	daughter	26)
 587	Rulan	(26
 588	Chao	_
-589	Pian	_
+589	Pian	26)
 590	(	_
 591	1922	_
 592	-	_
 593	2013	_
-594	)	26)
+594	)	_
 595	was	_
 596	Professor	_
 597	of	_

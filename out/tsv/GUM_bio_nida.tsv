@@ -172,19 +172,19 @@
 9-10	805-812	charter	person[72]	giv[72]	_	_
 9-11	813-819	member	person[72]	giv[72]	_	_
 9-12	820-822	of	person[72]	giv[72]	_	_
-9-13	823-831	Wycliffe	person[72]|organization[73]	giv[72]|acc[73]	appos	9-17[76_73]
-9-14	832-837	Bible	person[72]|organization[73]|abstract[74]	giv[72]|acc[73]|giv[74]	_	_
-9-15	838-849	Translators	person[72]|organization[73]	giv[72]|acc[73]	_	_
-9-16	850-851	,	organization[73]	giv[73]	_	_
-9-17	852-853	a	organization[76]	giv[76]	_	_
-9-18	854-861	related	organization[76]	giv[76]	_	_
-9-19	862-874	organization	organization[76]	giv[76]	_	_
-9-20	875-877	to	organization[76]	giv[76]	_	_
-9-21	878-881	the	organization[76]	giv[76]	_	_
-9-22	882-888	Summer	organization[76]	giv[76]	_	_
-9-23	889-898	Institute	organization[76]	giv[76]	_	_
-9-24	899-901	of	organization[76]	giv[76]	_	_
-9-25	902-913	Linguistics	organization[76]|abstract[78]	giv[76]|new[78]	coref	13-9[124_78]
+9-13	823-831	Wycliffe	person[72]	giv[72]	_	_
+9-14	832-837	Bible	person[72]|abstract[74]	giv[72]|giv[74]	_	_
+9-15	838-849	Translators	person[72]	giv[72]	_	_
+9-16	850-851	,	_	_	_	_
+9-17	852-853	a	_	_	_	_
+9-18	854-861	related	_	_	_	_
+9-19	862-874	organization	_	_	_	_
+9-20	875-877	to	_	_	_	_
+9-21	878-881	the	_	_	_	_
+9-22	882-888	Summer	_	_	_	_
+9-23	889-898	Institute	_	_	_	_
+9-24	899-901	of	_	_	_	_
+9-25	902-913	Linguistics	abstract[78]	new[78]	coref	13-9[124_78]
 9-26	914-915	.	_	_	_	_
 
 #Text=In 1937 , Nida undertook studies at the University of Southern California , where he obtained a master 's degree in New Testament Greek in 1939 .
@@ -313,15 +313,15 @@
 16-3	1538-1539	,	_	_	_	_
 16-4	1540-1542	he	person[138]	giv[138]	coref	17-1[144_138]
 16-5	1543-1550	married	_	_	_	_
-16-6	1551-1556	María	person[142]	new[142]	appos	16-10[143_142]
-16-7	1557-1562	Elena	person[142]	new[142]	_	_
-16-8	1563-1580	Fernandez-Miranda	person[142]	new[142]	_	_
-16-9	1581-1582	,	person[142]	new[142]	_	_
-16-10	1583-1584	a	person[143]	giv[143]	_	_
-16-11	1585-1591	lawyer	person[143]	giv[143]	_	_
-16-12	1592-1595	and	person[143]	giv[143]	_	_
-16-13	1596-1606	diplomatic	person[143]	giv[143]	_	_
-16-14	1607-1614	attache	person[143]	giv[143]	_	_
+16-6	1551-1556	María	_	_	_	_
+16-7	1557-1562	Elena	_	_	_	_
+16-8	1563-1580	Fernandez-Miranda	_	_	_	_
+16-9	1581-1582	,	_	_	_	_
+16-10	1583-1584	a	_	_	_	_
+16-11	1585-1591	lawyer	_	_	_	_
+16-12	1592-1595	and	_	_	_	_
+16-13	1596-1606	diplomatic	_	_	_	_
+16-14	1607-1614	attache	_	_	_	_
 16-15	1615-1616	.	_	_	_	_
 
 #Text=Nida retired in the early 1980s , although he continued to give lectures in universities all around the world , and lived in Alpine , Arizona , USA ; Madrid , Spain and Brussels , Belgium .
@@ -397,10 +397,10 @@
 20-14	1940-1941	.	_	_	_	_
 
 #Text=His Ph.D. dissertation , A Synopsis of English Syntax , was the first full-scale analysis of a major language according to the " immediate-constituent " theory .
-21-1	1942-1945	His	abstract[184]|person[185]	new[184]|giv[185]	appos|ana	21-5[189_184]|22-1[197_185]
+21-1	1942-1945	His	abstract[184]|person[185]	new[184]|giv[185]	ana|appos	22-1[197_185]|21-5[189_184]
 21-2	1946-1951	Ph.D.	abstract[184]|abstract[186]	new[184]|giv[186]	_	_
 21-3	1952-1964	dissertation	abstract[184]	new[184]	_	_
-21-4	1965-1966	,	abstract[184]	new[184]	_	_
+21-4	1965-1966	,	_	_	_	_
 21-5	1967-1968	A	abstract[189]	giv[189]	_	_
 21-6	1969-1977	Synopsis	abstract[189]	giv[189]	_	_
 21-7	1978-1980	of	abstract[189]	giv[189]	_	_
@@ -426,15 +426,15 @@
 21-27	2102-2103	.	_	_	_	_
 
 #Text=His textbook Morphology : The Descriptive Analysis of Words was one of the major works of American Structuralism .
-22-1	2104-2107	His	abstract[196]|person[197]|abstract[539]	new[196]|giv[197]|new[539]	appos|ana|ana	22-3[199_196]|24-1[217_197]|23-1[207_539]
-22-2	2108-2116	textbook	abstract[196]|abstract[539]	new[196]|new[539]	_	_
-22-3	2117-2127	Morphology	abstract[199]|abstract[200]|abstract[539]	giv[199]|new[200]|new[539]	coref	22-5[202_200]
-22-4	2128-2129	:	abstract[199]|abstract[539]	giv[199]|new[539]	_	_
-22-5	2130-2133	The	abstract[199]|abstract[202]|abstract[539]	giv[199]|giv[202]|new[539]	coref	23-8[210_202]
-22-6	2134-2145	Descriptive	abstract[199]|abstract[202]|abstract[539]	giv[199]|giv[202]|new[539]	_	_
-22-7	2146-2154	Analysis	abstract[199]|abstract[202]|abstract[539]	giv[199]|giv[202]|new[539]	_	_
-22-8	2155-2157	of	abstract[199]|abstract[202]|abstract[539]	giv[199]|giv[202]|new[539]	_	_
-22-9	2158-2163	Words	abstract[199]|abstract[202]|abstract[539]	giv[199]|giv[202]|new[539]	_	_
+22-1	2104-2107	His	abstract[196]|person[197]|abstract[446]	new[196]|giv[197]|new[446]	ana|appos|ana	23-1[207_446]|22-3[199_196]|24-1[217_197]
+22-2	2108-2116	textbook	abstract[196]|abstract[446]	new[196]|new[446]	_	_
+22-3	2117-2127	Morphology	abstract[199]|abstract[200]|abstract[446]	giv[199]|new[200]|new[446]	coref	22-5[202_200]
+22-4	2128-2129	:	abstract[199]|abstract[446]	giv[199]|new[446]	_	_
+22-5	2130-2133	The	abstract[199]|abstract[202]|abstract[446]	giv[199]|giv[202]|new[446]	coref	23-8[210_202]
+22-6	2134-2145	Descriptive	abstract[199]|abstract[202]|abstract[446]	giv[199]|giv[202]|new[446]	_	_
+22-7	2146-2154	Analysis	abstract[199]|abstract[202]|abstract[446]	giv[199]|giv[202]|new[446]	_	_
+22-8	2155-2157	of	abstract[199]|abstract[202]|abstract[446]	giv[199]|giv[202]|new[446]	_	_
+22-9	2158-2163	Words	abstract[199]|abstract[202]|abstract[446]	giv[199]|giv[202]|new[446]	_	_
 22-10	2164-2167	was	_	_	_	_
 22-11	2168-2171	one	_	_	_	_
 22-12	2172-2174	of	_	_	_	_
@@ -561,7 +561,7 @@
 #Text=Nida 's dynamic-equivalence theory is often held in opposition to the views of philologists who maintain that an understanding of the source text ( ST ) can be achieved by assessing the inter-animation of words on the page , and that meaning is self-contained within the text ( i.e. much more focused on achieving semantic equivalence ) .
 28-1	2808-2812	Nida	abstract[246]	new[246]	coref	29-1[263_246]
 28-2	2813-2815	's	abstract[246]	new[246]	_	_
-28-3	2816-2835	dynamic-equivalence	abstract[246]|abstract[248]	new[246]|giv[248]	coref	43-7[543_248]
+28-3	2816-2835	dynamic-equivalence	abstract[246]|abstract[248]	new[246]|giv[248]	coref	43-7[450_248]
 28-4	2836-2842	theory	abstract[246]	new[246]	_	_
 28-5	2843-2845	is	_	_	_	_
 28-6	2846-2851	often	_	_	_	_
@@ -579,12 +579,12 @@
 28-18	2918-2920	an	_	_	_	_
 28-19	2921-2934	understanding	_	_	_	_
 28-20	2935-2937	of	_	_	_	_
-28-21	2938-2941	the	abstract[253]|abstract[540]	new[253]|new[540]	appos|coref	28-24[443_253]|28-46[261_540]
-28-22	2942-2948	source	abstract[253]|abstract[540]	new[253]|new[540]	_	_
-28-23	2949-2953	text	abstract[253]|abstract[540]	new[253]|new[540]	_	_
-28-24	2954-2955	(	abstract[443]|abstract[540]	new[443]|new[540]	_	_
-28-25	2956-2958	ST	abstract[443]|abstract[540]	new[443]|new[540]	_	_
-28-26	2959-2960	)	abstract[443]|abstract[540]	new[443]|new[540]	_	_
+28-21	2938-2941	the	abstract[253]|abstract[447]	new[253]|new[447]	coref|appos	28-46[261_447]|28-25[254_253]
+28-22	2942-2948	source	abstract[253]|abstract[447]	new[253]|new[447]	_	_
+28-23	2949-2953	text	abstract[253]|abstract[447]	new[253]|new[447]	_	_
+28-24	2954-2955	(	abstract[447]	new[447]	_	_
+28-25	2956-2958	ST	abstract[254]|abstract[447]	giv[254]|new[447]	_	_
+28-26	2959-2960	)	_	_	_	_
 28-27	2961-2964	can	_	_	_	_
 28-28	2965-2967	be	_	_	_	_
 28-29	2968-2976	achieved	_	_	_	_
@@ -931,17 +931,17 @@
 42-16	4731-4732	:	_	_	_	_
 
 #Text=Formal Equivalence ( F-E ) and Dynamic Equivalence ( D-E ) .
-43-1	4733-4739	Formal	abstract[359]|abstract[360]|abstract[542]	giv[359]|new[360]|giv[542]	appos|coref	43-3[474_360]|44-1[365_542]
-43-2	4740-4751	Equivalence	abstract[359]|abstract[360]|abstract[542]	giv[359]|new[360]|giv[542]	_	_
-43-3	4752-4753	(	abstract[359]|abstract[474]|abstract[542]	giv[359]|giv[474]|giv[542]	_	_
-43-4	4754-4757	F-E	abstract[359]|abstract[474]|abstract[542]	giv[359]|giv[474]|giv[542]	_	_
-43-5	4758-4759	)	abstract[359]|abstract[474]|abstract[542]	giv[359]|giv[474]|giv[542]	_	_
+43-1	4733-4739	Formal	abstract[359]|abstract[360]|abstract[449]	giv[359]|new[360]|giv[449]	appos|coref	43-4[361_360]|44-1[365_449]
+43-2	4740-4751	Equivalence	abstract[359]|abstract[360]|abstract[449]	giv[359]|new[360]|giv[449]	_	_
+43-3	4752-4753	(	abstract[359]|abstract[449]	giv[359]|giv[449]	_	_
+43-4	4754-4757	F-E	abstract[359]|abstract[361]|abstract[449]	giv[359]|giv[361]|giv[449]	_	_
+43-5	4758-4759	)	abstract[359]	giv[359]	_	_
 43-6	4760-4763	and	abstract[359]	giv[359]	_	_
-43-7	4764-4771	Dynamic	abstract[359]|abstract[363]|abstract[543]	giv[359]|giv[363]|giv[543]	appos	43-9[505_363]
-43-8	4772-4783	Equivalence	abstract[359]|abstract[363]|abstract[543]	giv[359]|giv[363]|giv[543]	_	_
-43-9	4784-4785	(	abstract[359]|abstract[505]|abstract[543]	giv[359]|giv[505]|giv[543]	_	_
-43-10	4786-4789	D-E	abstract[359]|abstract[505]|abstract[543]	giv[359]|giv[505]|giv[543]	_	_
-43-11	4790-4791	)	abstract[359]|abstract[505]|abstract[543]	giv[359]|giv[505]|giv[543]	_	_
+43-7	4764-4771	Dynamic	abstract[359]|abstract[363]|abstract[450]	giv[359]|giv[363]|giv[450]	appos	43-10[364_363]
+43-8	4772-4783	Equivalence	abstract[359]|abstract[363]|abstract[450]	giv[359]|giv[363]|giv[450]	_	_
+43-9	4784-4785	(	abstract[359]|abstract[450]	giv[359]|giv[450]	_	_
+43-10	4786-4789	D-E	abstract[359]|abstract[364]|abstract[450]	giv[359]|giv[364]|giv[450]	_	_
+43-11	4790-4791	)	abstract[359]	giv[359]	_	_
 43-12	4792-4793	.	_	_	_	_
 
 #Text=F-E focuses attention on the message itself , in both form and content .

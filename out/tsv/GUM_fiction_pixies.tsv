@@ -320,16 +320,16 @@
 
 #Text=Whatever it is that the common Manhattan water-pixie uses for blood .
 21-1	1305-1313	Whatever	substance[100]	new[100]	ana	21-2[101_100]
-21-2	1314-1316	it	substance[101]|substance[100]	giv[101]|new[100]	_	_
-21-3	1317-1319	is	substance[100]	new[100]	_	_
-21-4	1320-1324	that	substance[100]	new[100]	_	_
-21-5	1325-1328	the	substance[100]	new[100]	_	_
-21-6	1329-1335	common	substance[100]	new[100]	_	_
-21-7	1336-1345	Manhattan	substance[100]	new[100]	_	_
-21-8	1346-1357	water-pixie	substance[100]	new[100]	_	_
-21-9	1358-1362	uses	substance[100]	new[100]	_	_
-21-10	1363-1366	for	substance[100]	new[100]	_	_
-21-11	1367-1372	blood	substance[100]	new[100]	_	_
+21-2	1314-1316	it	substance[101]	giv[101]	_	_
+21-3	1317-1319	is	_	_	_	_
+21-4	1320-1324	that	_	_	_	_
+21-5	1325-1328	the	_	_	_	_
+21-6	1329-1335	common	_	_	_	_
+21-7	1336-1345	Manhattan	_	_	_	_
+21-8	1346-1357	water-pixie	_	_	_	_
+21-9	1358-1362	uses	_	_	_	_
+21-10	1363-1366	for	_	_	_	_
+21-11	1367-1372	blood	_	_	_	_
 21-12	1373-1374	.	_	_	_	_
 
 #Text=I could n’t say I blamed her .

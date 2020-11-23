@@ -106,7 +106,7 @@
 6-6	565-571	became	_	_	_	_
 6-7	572-580	apparent	_	_	_	_
 6-8	581-585	that	_	_	_	_
-6-9	586-590	most	abstract[48]|person[49]	new[48]|acc[49]	cata|ana	6-5[46_48]|6-29[52_49]
+6-9	586-590	most	abstract[48]|person[49]	new[48]|acc[49]	ana|cata	6-29[52_49]|6-5[46_48]
 6-10	591-603	participants	abstract[48]|person[49]	new[48]|acc[49]	_	_
 6-11	604-608	were	abstract[48]	new[48]	_	_
 6-12	609-614	there	abstract[48]	new[48]	_	_
@@ -150,15 +150,15 @@
 7-10	800-809	libraries	_	_	_	_
 7-11	810-823	participating	_	_	_	_
 7-12	824-826	in	_	_	_	_
-7-13	827-830	the	organization[59]	new[59]	appos	7-19[390_59]
+7-13	827-830	the	organization[59]	new[59]	appos	7-20[61_59]
 7-14	831-841	consortium	organization[59]	new[59]	_	_
 7-15	842-844	of	organization[59]	new[59]	_	_
 7-16	845-850	Dutch	organization[59]	new[59]	_	_
 7-17	851-859	academic	organization[59]	new[59]	_	_
 7-18	860-869	libraries	organization[59]	new[59]	_	_
-7-19	870-871	(	organization[390]	giv[390]	_	_
-7-20	872-875	UKB	organization[390]	giv[390]	_	_
-7-21	876-877	)	organization[390]	giv[390]	_	_
+7-19	870-871	(	_	_	_	_
+7-20	872-875	UKB	organization[61]	giv[61]	_	_
+7-21	876-877	)	_	_	_	_
 7-22	878-882	also	_	_	_	_
 7-23	883-892	expressed	_	_	_	_
 7-24	893-896	the	_	_	_	_
@@ -177,16 +177,16 @@
 8-2	947-951	year	_	_	_	_
 8-3	952-957	later	_	_	_	_
 8-4	958-959	,	_	_	_	_
-8-5	960-963	the	organization[70]	new[70]	appos	8-11[421_70]
+8-5	960-963	the	organization[70]	new[70]	appos	8-12[72_70]
 8-6	964-972	National	organization[70]	new[70]	_	_
 8-7	973-980	Library	organization[70]	new[70]	_	_
 8-8	981-983	of	organization[70]	new[70]	_	_
 8-9	984-987	the	organization[70]|place[71]	new[70]|giv[71]	_	_
 8-10	988-999	Netherlands	organization[70]|place[71]	new[70]|giv[71]	_	_
-8-11	1000-1001	(	organization[421]	giv[421]	_	_
-8-12	1002-1013	Koninklijke	organization[421]	giv[421]	_	_
-8-13	1014-1025	Bibliotheek	organization[421]	giv[421]	_	_
-8-14	1026-1027	)	organization[421]	giv[421]	_	_
+8-11	1000-1001	(	_	_	_	_
+8-12	1002-1013	Koninklijke	organization[72]	giv[72]	_	_
+8-13	1014-1025	Bibliotheek	organization[72]	giv[72]	_	_
+8-14	1026-1027	)	_	_	_	_
 8-15	1028-1029	,	_	_	_	_
 8-16	1030-1033	and	_	_	_	_
 8-17	1034-1037	the	_	_	_	_
@@ -227,7 +227,7 @@
 
 #Text=Therefore both institutes joined forces to develop a set of clinics on DH for librarians .
 9-1	1262-1271	Therefore	_	_	_	_
-9-2	1272-1276	both	event[91]|organization[92]	new[91]|giv[92]	ana|coref	11-3[103_91]|10-1[98_92]
+9-2	1272-1276	both	event[91]|organization[92]	new[91]|giv[92]	coref|ana	10-1[98_92]|11-3[103_91]
 9-3	1277-1287	institutes	event[91]|organization[92]	new[91]|giv[92]	_	_
 9-4	1288-1294	joined	event[91]	new[91]	_	_
 9-5	1295-1301	forces	event[91]	new[91]	_	_

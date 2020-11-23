@@ -16,7 +16,7 @@
 2-1	33-39	Having	_	_	_	_
 2-2	40-44	mice	animal[2]	giv[2]	ana	3-1[10_2]
 2-3	45-47	in	_	_	_	_
-2-4	48-52	your	place[5]|person[6]	new[5]|acc[6]	coref|ana	4-9[19_5]|4-9[20_6]
+2-4	48-52	your	place[5]|person[6]	new[5]|acc[6]	ana|coref	4-9[20_6]|4-9[19_5]
 2-5	53-57	home	place[5]	new[5]	_	_
 2-6	58-60	is	_	_	_	_
 2-7	61-65	both	_	_	_	_
@@ -107,7 +107,7 @@
 6-18	441-445	mice	_	_	_	_
 6-19	446-449	out	_	_	_	_
 6-20	450-452	of	_	_	_	_
-6-21	453-457	your	place[42]|person[43]	new[42]|giv[43]	coref|ana	8-2[52_42]|8-2[53_43]
+6-21	453-457	your	place[42]|person[43]	new[42]|giv[43]	ana|coref	8-2[53_43]|8-2[52_42]
 6-22	458-462	home	place[42]	new[42]	_	_
 6-23	463-470	without	_	_	_	_
 6-24	471-474	the	_	_	_	_
@@ -128,7 +128,7 @@
 
 #Text=Keep your home clean .
 8-1	549-553	Keep	_	_	_	_
-8-2	554-558	your	place[52]|person[53]	giv[52]|giv[53]	coref|ana	16-4[90_52]|17-1[93_53]
+8-2	554-558	your	place[52]|person[53]	giv[52]|giv[53]	ana|coref	17-1[93_53]|16-4[90_52]
 8-3	559-563	home	place[52]	giv[52]	_	_
 8-4	564-569	clean	_	_	_	_
 8-5	570-571	.	_	_	_	_
@@ -332,7 +332,7 @@
 20-10	1415-1421	likely	_	_	_	_
 20-11	1422-1424	to	_	_	_	_
 20-12	1425-1430	enter	_	_	_	_
-20-13	1431-1435	your	place[115]|person[116]	giv[115]|giv[116]	coref|ana	52-10[305_115]|21-21[126_116]
+20-13	1431-1435	your	place[115]|person[116]	giv[115]|giv[116]	ana|coref	21-21[126_116]|52-10[305_115]
 20-14	1436-1441	house	place[115]	giv[115]	_	_
 20-15	1442-1443	,	_	_	_	_
 20-16	1444-1446	by	_	_	_	_
@@ -395,10 +395,10 @@
 23-10	1686-1690	well	_	_	_	_
 23-11	1691-1693	as	_	_	_	_
 23-12	1694-1696	it	plant[137]	giv[137]	_	_
-23-13	1697-1704	serving	plant[137]	giv[137]	_	_
-23-14	1705-1706	a	plant[137]	giv[137]	_	_
-23-15	1707-1716	deterrent	plant[137]	giv[137]	_	_
-23-16	1717-1724	purpose	plant[137]	giv[137]	_	_
+23-13	1697-1704	serving	_	_	_	_
+23-14	1705-1706	a	_	_	_	_
+23-15	1707-1716	deterrent	_	_	_	_
+23-16	1717-1724	purpose	_	_	_	_
 23-17	1725-1726	.	_	_	_	_
 
 #Text=Use dried snake feces .
@@ -1075,12 +1075,12 @@
 62-3	4640-4643	the	object[376]	giv[376]	coref	65-15[392_376]
 62-4	4644-4651	shelter	object[376]	giv[376]	_	_
 62-5	4652-4655	box	object[376]	giv[376]	_	_
-62-6	4656-4659	has	object[376]	giv[376]	_	_
-62-7	4660-4662	no	object[376]	giv[376]	_	_
-62-8	4663-4668	nails	object[376]	giv[376]	_	_
-62-9	4669-4671	or	object[376]	giv[376]	_	_
-62-10	4672-4678	safety	object[376]	giv[376]	_	_
-62-11	4679-4686	hazards	object[376]	giv[376]	_	_
+62-6	4656-4659	has	_	_	_	_
+62-7	4660-4662	no	_	_	_	_
+62-8	4663-4668	nails	_	_	_	_
+62-9	4669-4671	or	_	_	_	_
+62-10	4672-4678	safety	_	_	_	_
+62-11	4679-4686	hazards	_	_	_	_
 62-12	4687-4688	.	_	_	_	_
 
 #Text=A barn owl is the best .

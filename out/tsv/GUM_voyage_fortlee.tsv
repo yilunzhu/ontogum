@@ -728,25 +728,25 @@
 36-1	3421-3424	See	_	_	_	_
 
 #Text=Fort Lee Historic Park , a reconstruction of a Revolutionary War encampment , with beautiful views and pleasant greenery
-37-1	3425-3429	Fort	place[206]|place[393]	giv[206]|new[393]	coref|coref	38-1[211_206]|41-1[238_393]
-37-2	3430-3433	Lee	place[206]|place[393]	giv[206]|new[393]	_	_
-37-3	3434-3442	Historic	place[393]	new[393]	_	_
-37-4	3443-3447	Park	place[393]	new[393]	_	_
-37-5	3448-3449	,	place[393]	new[393]	_	_
-37-6	3450-3451	a	place[393]	new[393]	_	_
-37-7	3452-3466	reconstruction	place[393]	new[393]	_	_
-37-8	3467-3469	of	place[393]	new[393]	_	_
-37-9	3470-3471	a	place[393]	new[393]	_	_
-37-10	3472-3485	Revolutionary	event[208]|place[393]	acc[208]|new[393]	coref	39-14[229_208]
-37-11	3486-3489	War	event[208]|place[393]	acc[208]|new[393]	_	_
-37-12	3490-3500	encampment	place[393]	new[393]	_	_
-37-13	3501-3502	,	place[393]	new[393]	_	_
-37-14	3503-3507	with	place[393]	new[393]	_	_
-37-15	3508-3517	beautiful	place[393]	new[393]	_	_
-37-16	3518-3523	views	place[393]	new[393]	_	_
-37-17	3524-3527	and	place[393]	new[393]	_	_
-37-18	3528-3536	pleasant	place[393]	new[393]	_	_
-37-19	3537-3545	greenery	place[393]	new[393]	_	_
+37-1	3425-3429	Fort	place[206]	giv[206]	coref	38-1[211_206]
+37-2	3430-3433	Lee	place[206]	giv[206]	_	_
+37-3	3434-3442	Historic	_	_	_	_
+37-4	3443-3447	Park	_	_	_	_
+37-5	3448-3449	,	_	_	_	_
+37-6	3450-3451	a	place[207]	giv[207]	coref	41-1[238_207]
+37-7	3452-3466	reconstruction	place[207]	giv[207]	_	_
+37-8	3467-3469	of	place[207]	giv[207]	_	_
+37-9	3470-3471	a	place[207]	giv[207]	_	_
+37-10	3472-3485	Revolutionary	place[207]|event[208]	giv[207]|acc[208]	coref	39-14[229_208]
+37-11	3486-3489	War	place[207]|event[208]	giv[207]|acc[208]	_	_
+37-12	3490-3500	encampment	place[207]	giv[207]	_	_
+37-13	3501-3502	,	place[207]	giv[207]	_	_
+37-14	3503-3507	with	place[207]	giv[207]	_	_
+37-15	3508-3517	beautiful	place[207]	giv[207]	_	_
+37-16	3518-3523	views	place[207]	giv[207]	_	_
+37-17	3524-3527	and	place[207]	giv[207]	_	_
+37-18	3528-3536	pleasant	place[207]	giv[207]	_	_
+37-19	3537-3545	greenery	place[207]	giv[207]	_	_
 
 #Text=Fort Lee is known and named for the story of how General George Washington was forced to evacuate the area in November of 1776 and begin his famous retreat through New Jersey during the winter of 1776-77 in the protection of " Fort Lee " .
 38-1	3546-3550	Fort	place[211]	giv[211]	coref	38-43[224_211]
@@ -1182,14 +1182,14 @@
 58-3	5574-5578	Main	place[343]	giv[343]	_	_
 58-4	5579-5582	St.	place[343]	giv[343]	_	_
 58-5	5583-5585	is	_	_	_	_
-58-6	5586-5598	Metropolitan	place[344]	new[344]	appos	58-9[345_344]
-58-7	5599-5605	Plants	place[344]	new[344]	_	_
-58-8	5606-5607	,	place[344]	new[344]	_	_
-58-9	5608-5609	a	place[345]	acc[345]	_	_
-58-10	5610-5615	haven	place[345]	acc[345]	_	_
-58-11	5616-5619	for	place[345]	acc[345]	_	_
-58-12	5620-5626	flower	place[345]	acc[345]	_	_
-58-13	5627-5633	lovers	place[345]	acc[345]	_	_
+58-6	5586-5598	Metropolitan	_	_	_	_
+58-7	5599-5605	Plants	_	_	_	_
+58-8	5606-5607	,	_	_	_	_
+58-9	5608-5609	a	_	_	_	_
+58-10	5610-5615	haven	_	_	_	_
+58-11	5616-5619	for	_	_	_	_
+58-12	5620-5626	flower	_	_	_	_
+58-13	5627-5633	lovers	_	_	_	_
 58-14	5634-5635	,	_	_	_	_
 58-15	5636-5640	with	_	_	_	_
 58-16	5641-5642	a	_	_	_	_

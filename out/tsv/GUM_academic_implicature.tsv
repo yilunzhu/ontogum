@@ -650,7 +650,7 @@
 #Text=The puppets used were picked specifically for this task with careful attention to their appearance .
 25-1	3483-3486	The	object[215]	new[215]	ana	25-14[219_215]
 25-2	3487-3494	puppets	object[215]	new[215]	_	_
-25-3	3495-3499	used	object[215]	new[215]	_	_
+25-3	3495-3499	used	_	_	_	_
 25-4	3500-3504	were	_	_	_	_
 25-5	3505-3511	picked	_	_	_	_
 25-6	3512-3524	specifically	_	_	_	_
@@ -678,7 +678,7 @@
 26-10	3626-3632	became	_	_	_	_
 26-11	3633-3638	clear	_	_	_	_
 26-12	3639-3643	that	_	_	_	_
-26-13	3644-3647	the	event[225]|person[226]	new[225]|giv[226]	cata|ana	26-9[223_225]|26-33[231_226]
+26-13	3644-3647	the	event[225]|person[226]	new[225]|giv[226]	ana|cata	26-33[231_226]|26-9[223_225]
 26-14	3648-3656	children	event[225]|person[226]	new[225]|giv[226]	_	_
 26-15	3657-3661	were	event[225]	new[225]	_	_
 26-16	3662-3665	not	event[225]	new[225]	_	_
@@ -826,22 +826,22 @@
 31-42	4520-4521	.	_	_	_	_
 
 #Text=This interesting combination of findings – expected hierarchy of difficulty , but differing age of acquisition – is an important addition to our growing cross-linguistic knowledge of SI and could be the result of language-specific differences in the use of SI lexical items or methodological differences .
-32-1	4522-4526	This	abstract[270]	new[270]	appos	32-6[317_270]
-32-2	4527-4538	interesting	abstract[270]	new[270]	_	_
-32-3	4539-4550	combination	abstract[270]	new[270]	_	_
-32-4	4551-4553	of	abstract[270]	new[270]	_	_
-32-5	4554-4562	findings	abstract[270]	new[270]	_	_
-32-6	4563-4564	–	abstract[317]	giv[317]	_	_
-32-7	4565-4573	expected	abstract[317]	giv[317]	_	_
-32-8	4574-4583	hierarchy	abstract[317]	giv[317]	_	_
-32-9	4584-4586	of	abstract[317]	giv[317]	_	_
-32-10	4587-4597	difficulty	abstract[317]	giv[317]	_	_
-32-11	4598-4599	,	abstract[317]	giv[317]	_	_
-32-12	4600-4603	but	abstract[317]	giv[317]	_	_
-32-13	4604-4613	differing	abstract[317]	giv[317]	_	_
-32-14	4614-4617	age	abstract[317]	giv[317]	_	_
-32-15	4618-4620	of	abstract[317]	giv[317]	_	_
-32-16	4621-4632	acquisition	abstract[317]	giv[317]	_	_
+32-1	4522-4526	This	_	_	_	_
+32-2	4527-4538	interesting	_	_	_	_
+32-3	4539-4550	combination	_	_	_	_
+32-4	4551-4553	of	_	_	_	_
+32-5	4554-4562	findings	_	_	_	_
+32-6	4563-4564	–	_	_	_	_
+32-7	4565-4573	expected	_	_	_	_
+32-8	4574-4583	hierarchy	_	_	_	_
+32-9	4584-4586	of	_	_	_	_
+32-10	4587-4597	difficulty	_	_	_	_
+32-11	4598-4599	,	_	_	_	_
+32-12	4600-4603	but	_	_	_	_
+32-13	4604-4613	differing	_	_	_	_
+32-14	4614-4617	age	_	_	_	_
+32-15	4618-4620	of	_	_	_	_
+32-16	4621-4632	acquisition	_	_	_	_
 32-17	4633-4634	–	_	_	_	_
 32-18	4635-4637	is	_	_	_	_
 32-19	4638-4640	an	_	_	_	_

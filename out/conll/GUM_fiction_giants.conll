@@ -55,8 +55,8 @@
 53	had	_
 54	buried	_
 55	my	(5(2)
-56	children	_
-57	,	5)
+56	children	5)
+57	,	_
 58	all	(5
 59	four	5)
 60	,	_
@@ -113,7 +113,7 @@
 111	sparkling	_
 112	drink	_
 113	in	_
-114	her	(7)(7)
+114	her	(7)
 115	hand	_
 116	,	_
 117	on	_

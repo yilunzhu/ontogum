@@ -113,11 +113,11 @@
 8-9	495-504	deviation	event[38]	new[38]	_	_
 8-10	505-509	from	event[38]	new[38]	_	_
 8-11	510-515	norms	event[38]	new[38]	_	_
-8-12	516-520	that	event[38]	new[38]	_	_
-8-13	521-523	it	abstract[43]|event[38]	giv[43]|new[38]	_	_
-8-14	524-531	becomes	event[38]	new[38]	_	_
-8-15	532-533	a	event[38]	new[38]	_	_
-8-16	534-541	problem	event[38]	new[38]	_	_
+8-12	516-520	that	_	_	_	_
+8-13	521-523	it	abstract[43]	giv[43]	_	_
+8-14	524-531	becomes	_	_	_	_
+8-15	532-533	a	_	_	_	_
+8-16	534-541	problem	_	_	_	_
 8-17	542-543	.	_	_	_	_
 
 #Text=It ’s neither necessary , possible , nor desirable to erase all gender norms , since they are willingly followed by most .
@@ -559,10 +559,10 @@
 28-10	2616-2618	of	_	_	_	_
 28-11	2619-2622	the	event[188]	giv[188]	ana	29-5[195_188]
 28-12	2623-2631	solution	event[188]	giv[188]	_	_
-28-13	2632-2635	you	event[188]	new[188]	_	_
-28-14	2636-2640	take	event[188]	new[188]	_	_
-28-15	2641-2646	issue	event[188]	new[188]	_	_
-28-16	2647-2651	with	event[188]	new[188]	_	_
+28-13	2632-2635	you	_	_	_	_
+28-14	2636-2640	take	_	_	_	_
+28-15	2641-2646	issue	_	_	_	_
+28-16	2647-2651	with	_	_	_	_
 28-17	2652-2654	in	_	_	_	_
 28-18	2655-2659	more	_	_	_	_
 28-19	2660-2666	detail	_	_	_	_

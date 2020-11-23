@@ -103,7 +103,7 @@
 4-24	476-478	to	event[35]	new[35]	_	_
 4-25	479-481	it	event[35]|object[37]	new[35]|giv[37]	_	_
 4-26	482-486	from	event[35]	new[35]	_	_
-4-27	487-490	her	event[35]|object[39]|person[40]	new[35]|new[39]|giv[40]	coref|ana	8-23[97_39]|6-10[51_40]
+4-27	487-490	her	event[35]|object[39]|person[40]	new[35]|new[39]|giv[40]	ana|coref	6-10[51_40]|8-23[97_39]
 4-28	491-494	old	event[35]|object[39]	new[35]|new[39]	_	_
 4-29	495-500	phone	event[35]|object[39]	new[35]|new[39]	_	_
 4-30	501-502	.	_	_	_	_
@@ -315,24 +315,24 @@
 #Text=Also grabbed a takeaway ( takeout for our American readers ) on the way home , which was a bonus .
 12-1	1392-1396	Also	_	_	_	_
 12-2	1397-1404	grabbed	_	_	_	_
-12-3	1405-1406	a	object[132]	new[132]	appos	12-5[485_132]
-12-4	1407-1415	takeaway	object[132]	new[132]	_	_
-12-5	1416-1417	(	object[485]|object[132]	giv[485]|new[132]	_	_
-12-6	1418-1425	takeout	object[485]|object[132]	giv[485]|new[132]	_	_
-12-7	1426-1429	for	object[485]|object[132]	giv[485]|new[132]	_	_
-12-8	1430-1433	our	object[485]|object[132]	giv[485]|new[132]	_	_
-12-9	1434-1442	American	object[485]|object[132]	giv[485]|new[132]	_	_
-12-10	1443-1450	readers	object[485]|object[132]	giv[485]|new[132]	_	_
-12-11	1451-1452	)	object[485]|object[132]	giv[485]|new[132]	_	_
-12-12	1453-1455	on	object[132]	new[132]	_	_
-12-13	1456-1459	the	object[132]	new[132]	_	_
-12-14	1460-1463	way	object[132]	new[132]	_	_
-12-15	1464-1468	home	object[132]	new[132]	_	_
-12-16	1469-1470	,	object[132]	new[132]	_	_
-12-17	1471-1476	which	object[132]	new[132]	_	_
-12-18	1477-1480	was	object[132]	new[132]	_	_
-12-19	1481-1482	a	object[132]	new[132]	_	_
-12-20	1483-1488	bonus	object[132]	new[132]	_	_
+12-3	1405-1406	a	_	_	_	_
+12-4	1407-1415	takeaway	_	_	_	_
+12-5	1416-1417	(	_	_	_	_
+12-6	1418-1425	takeout	_	_	_	_
+12-7	1426-1429	for	_	_	_	_
+12-8	1430-1433	our	_	_	_	_
+12-9	1434-1442	American	_	_	_	_
+12-10	1443-1450	readers	_	_	_	_
+12-11	1451-1452	)	_	_	_	_
+12-12	1453-1455	on	_	_	_	_
+12-13	1456-1459	the	_	_	_	_
+12-14	1460-1463	way	_	_	_	_
+12-15	1464-1468	home	_	_	_	_
+12-16	1469-1470	,	_	_	_	_
+12-17	1471-1476	which	_	_	_	_
+12-18	1477-1480	was	_	_	_	_
+12-19	1481-1482	a	_	_	_	_
+12-20	1483-1488	bonus	_	_	_	_
 12-21	1489-1490	.	_	_	_	_
 
 #Text=Gave me a kind of existential " Do I really mean that little to my customers ? " thing when I got back , though .
@@ -734,7 +734,7 @@
 31-3	3204-3205	.	_	_	_	_
 
 #Text=Your time is ABSOLUTELY less important than someone else 's .
-32-1	3206-3210	Your	abstract[295]|person[297]	new[295]|giv[297]	ana|ana	33-1[300_295]|39-4[365_297]
+32-1	3206-3210	Your	abstract[295]|person[297]	new[295]|giv[297]	ana|ana	39-4[365_297]|33-1[300_295]
 32-2	3211-3215	time	abstract[295]	new[295]	_	_
 32-3	3216-3218	is	abstract[295]	new[295]	_	_
 32-4	3219-3229	ABSOLUTELY	abstract[295]	new[295]	_	_
@@ -790,22 +790,22 @@
 34-26	3466-3468	do	abstract[311]	new[311]	_	_
 34-27	3469-3472	for	abstract[311]	new[311]	_	_
 34-28	3473-3483	themselves	abstract[311]|person[315]	new[311]|new[315]	cata	34-18[314_315]
-34-29	3484-3485	,	abstract[311]	acc[311]	_	_
-34-30	3486-3491	which	abstract[311]	acc[311]	_	_
-34-31	3492-3494	is	abstract[311]	acc[311]	_	_
-34-32	3495-3504	something	abstract[311]	acc[311]	_	_
-34-33	3505-3506	I	person[317]|abstract[311]	giv[317]|acc[311]	ana	34-44[323_317]
-34-34	3507-3510	was	abstract[311]	acc[311]	_	_
-34-35	3511-3517	taught	abstract[311]	acc[311]	_	_
-34-36	3518-3520	at	abstract[311]	acc[311]	_	_
-34-37	3521-3522	a	abstract[311]	acc[311]	_	_
-34-38	3523-3528	young	abstract[311]	acc[311]	_	_
-34-39	3529-3532	age	abstract[311]	acc[311]	_	_
-34-40	3533-3534	,	abstract[311]	acc[311]	_	_
-34-41	3535-3537	to	abstract[311]	acc[311]	_	_
-34-42	3538-3542	fend	abstract[311]	acc[311]	_	_
-34-43	3543-3546	for	abstract[311]	acc[311]	_	_
-34-44	3547-3553	myself	person[323]|abstract[311]	giv[323]|acc[311]	ana	35-1[324_323]
+34-29	3484-3485	,	_	_	_	_
+34-30	3486-3491	which	_	_	_	_
+34-31	3492-3494	is	_	_	_	_
+34-32	3495-3504	something	_	_	_	_
+34-33	3505-3506	I	person[317]	giv[317]	ana	34-44[323_317]
+34-34	3507-3510	was	_	_	_	_
+34-35	3511-3517	taught	_	_	_	_
+34-36	3518-3520	at	_	_	_	_
+34-37	3521-3522	a	_	_	_	_
+34-38	3523-3528	young	_	_	_	_
+34-39	3529-3532	age	_	_	_	_
+34-40	3533-3534	,	_	_	_	_
+34-41	3535-3537	to	_	_	_	_
+34-42	3538-3542	fend	_	_	_	_
+34-43	3543-3546	for	_	_	_	_
+34-44	3547-3553	myself	person[323]	giv[323]	ana	35-1[324_323]
 34-45	3554-3555	.	_	_	_	_
 
 #Text=I feel like the two are connected psychologically and i d love to see behavioral science explain this or make some solutions to the behavior .
@@ -880,7 +880,7 @@
 37-13	3898-3899	.	_	_	_	_
 
 #Text=People just ca n't copy-paste stuff from one cell in an excel file to another cell because it can be automated .
-38-1	3900-3906	People	event[355]|person[356]	new[355]|new[356]	ana|ana	41-1[384_355]|40-15[376_356]
+38-1	3900-3906	People	event[355]|person[356]	new[355]|new[356]	ana|ana	40-15[376_356]|41-1[384_355]
 38-2	3907-3911	just	event[355]	new[355]	_	_
 38-3	3912-3914	ca	event[355]	new[355]	_	_
 38-4	3915-3918	n't	event[355]	new[355]	_	_
@@ -1039,17 +1039,17 @@
 47-23	4554-4565	description	abstract[417]	new[417]	_	_
 47-24	4566-4574	probably	_	_	_	_
 47-25	4575-4583	includes	_	_	_	_
-47-26	4584-4587	the	abstract[422]	new[422]	appos	47-28[423_422]
-47-27	4588-4594	phrase	abstract[422]	new[422]	_	_
-47-28	4595-4596	'	abstract[423]	giv[423]	_	_
-47-29	4597-4607	experience	abstract[423]	giv[423]	_	_
-47-30	4608-4612	with	abstract[423]	giv[423]	_	_
-47-31	4613-4614	<	abstract[423]	giv[423]	_	_
-47-32	4615-4621	insert	abstract[423]	giv[423]	_	_
-47-33	4622-4623	x	abstract[423]	giv[423]	_	_
-47-34	4624-4632	software	abstract[423]	giv[423]	_	_
-47-35	4633-4637	here	abstract[423]	giv[423]	_	_
-47-36	4638-4639	>	abstract[423]	giv[423]	_	_
+47-26	4584-4587	the	_	_	_	_
+47-27	4588-4594	phrase	_	_	_	_
+47-28	4595-4596	'	_	_	_	_
+47-29	4597-4607	experience	_	_	_	_
+47-30	4608-4612	with	_	_	_	_
+47-31	4613-4614	<	_	_	_	_
+47-32	4615-4621	insert	_	_	_	_
+47-33	4622-4623	x	_	_	_	_
+47-34	4624-4632	software	_	_	_	_
+47-35	4633-4637	here	_	_	_	_
+47-36	4638-4639	>	_	_	_	_
 47-37	4640-4641	.	_	_	_	_
 
 #Text=A huge part of my annoyance with normal everyday users is this idea they got somewhere that ' i m not a computer person . I do nt have the time to learn how to do that ' .

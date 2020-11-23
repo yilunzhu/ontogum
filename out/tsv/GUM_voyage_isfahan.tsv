@@ -7,17 +7,17 @@
 1-1	0-7	Isfahan	place[1]	new[1]	coref	2-1[450_1]
 
 #Text=Isfahan ( Persian : اصفهان , also known as Esfahan ) is a city in central Iran , south of Tehran and is the capital of Isfahan Province .
-2-1	8-15	Isfahan	place[450]	giv[450]	_	_
-2-2	16-17	(	place[450]|place[481]	giv[450]|giv[481]	appos	2-2[450_481]
-2-3	18-25	Persian	abstract[3]|place[450]|place[481]	new[3]|giv[450]|giv[481]	coref	68-19[394_3]
-2-4	26-27	:	place[450]|place[481]	giv[450]|giv[481]	_	_
-2-5	28-34	اصفهان	place[450]|place[481]	giv[450]|giv[481]	_	_
-2-6	35-36	,	place[481]	giv[481]	_	_
-2-7	37-41	also	place[481]	giv[481]	_	_
-2-8	42-47	known	place[481]	giv[481]	_	_
-2-9	48-50	as	place[481]	giv[481]	_	_
-2-10	51-58	Esfahan	place[481]	giv[481]	_	_
-2-11	59-60	)	place[481]	giv[481]	_	_
+2-1	8-15	Isfahan	place[2]|place[450]	giv[2]|giv[450]	coref|appos	2-10[5_450]|2-5[4_2]
+2-2	16-17	(	place[450]	giv[450]	_	_
+2-3	18-25	Persian	abstract[3]|place[450]	new[3]|giv[450]	coref	68-19[394_3]
+2-4	26-27	:	place[450]	giv[450]	_	_
+2-5	28-34	اصفهان	place[4]|place[450]	giv[4]|giv[450]	_	_
+2-6	35-36	,	_	_	_	_
+2-7	37-41	also	_	_	_	_
+2-8	42-47	known	_	_	_	_
+2-9	48-50	as	_	_	_	_
+2-10	51-58	Esfahan	place[5]	giv[5]	_	_
+2-11	59-60	)	_	_	_	_
 2-12	61-63	is	_	_	_	_
 2-13	64-65	a	_	_	_	_
 2-14	66-70	city	_	_	_	_
@@ -44,14 +44,14 @@
 3-4	164-166	it	place[18]	giv[18]	ana	4-3[24_18]
 3-5	167-168	"	_	_	_	_
 3-6	169-181	Nesf-e-Jahan	abstract[19]	new[19]	coref	3-11[22_19]
-3-7	182-183	"	abstract[19]	new[19]	_	_
-3-8	184-185	,	abstract[19]	new[19]	_	_
-3-9	186-193	meaning	abstract[19]	new[19]	_	_
-3-10	194-195	"	abstract[19]	new[19]	_	_
-3-11	196-200	Half	abstract[22]|abstract[19]	giv[22]|new[19]	_	_
-3-12	201-204	The	abstract[22]|abstract[19]	giv[22]|new[19]	_	_
-3-13	205-210	World	abstract[22]|abstract[19]	giv[22]|new[19]	_	_
-3-14	211-212	"	abstract[19]	new[19]	_	_
+3-7	182-183	"	_	_	_	_
+3-8	184-185	,	_	_	_	_
+3-9	186-193	meaning	_	_	_	_
+3-10	194-195	"	_	_	_	_
+3-11	196-200	Half	abstract[22]	giv[22]	_	_
+3-12	201-204	The	abstract[22]	giv[22]	_	_
+3-13	205-210	World	abstract[22]	giv[22]	_	_
+3-14	211-212	"	_	_	_	_
 3-15	213-214	.	_	_	_	_
 
 #Text=Due to its beautiful hand-painted tiling and magnificent public square , it is considered to be one of the most beautiful cities in the world .
@@ -87,15 +87,15 @@
 5-2	362-369	ancient	_	_	_	_
 5-3	370-374	town	_	_	_	_
 5-4	375-378	and	_	_	_	_
-5-5	379-386	capital	place[33]|place[636]	giv[33]|giv[636]	ana|ana	5-13[37_33]|5-18[43_636]
-5-6	387-389	of	place[33]|place[636]	giv[33]|giv[636]	_	_
-5-7	390-396	Persia	place[33]|place[34]|place[636]	giv[33]|new[34]|giv[636]	coref	12-43[92_34]
-5-8	397-401	from	place[33]|place[636]	giv[33]|giv[636]	_	_
-5-9	402-406	1598	place[33]|place[636]	giv[33]|giv[636]	_	_
-5-10	407-409	to	place[33]|place[636]	giv[33]|giv[636]	_	_
-5-11	410-414	1722	place[33]|place[636]	giv[33]|giv[636]	_	_
-5-12	415-416	,	place[636]	giv[636]	_	_
-5-13	417-419	it	place[37]|place[636]	giv[37]|giv[636]	_	_
+5-5	379-386	capital	place[33]	giv[33]	ana	5-13[37_33]
+5-6	387-389	of	place[33]	giv[33]	_	_
+5-7	390-396	Persia	place[33]|place[34]	giv[33]|new[34]	coref	12-43[92_34]
+5-8	397-401	from	place[33]	giv[33]	_	_
+5-9	402-406	1598	place[33]	giv[33]	_	_
+5-10	407-409	to	place[33]	giv[33]	_	_
+5-11	410-414	1722	place[33]	giv[33]	_	_
+5-12	415-416	,	_	_	_	_
+5-13	417-419	it	place[37]	giv[37]	ana	5-18[43_37]
 5-14	420-423	was	_	_	_	_
 5-15	424-428	long	_	_	_	_
 5-16	429-434	noted	_	_	_	_
@@ -195,47 +195,47 @@
 12-4	872-874	an	place[80]	new[80]	coref	12-8[81_80]
 12-5	875-883	Armenian	place[80]	new[80]	_	_
 12-6	884-891	Quarter	place[80]	new[80]	_	_
-12-7	892-898	called	place[80]	new[80]	_	_
-12-8	899-904	Jolfa	place[81]|place[80]	giv[81]|new[80]	coref	12-12[83_81]
-12-9	905-906	(	place[80]	new[80]	_	_
-12-10	907-917	originally	place[80]	new[80]	_	_
-12-11	918-924	called	place[80]	new[80]	_	_
-12-12	925-928	New	place[83]|place[80]	giv[83]|new[80]	coref	14-2[115_83]
-12-13	929-934	Julfa	place[83]|place[80]	giv[83]|new[80]	_	_
-12-14	935-936	)	place[80]	new[80]	_	_
-12-15	937-948	established	place[80]	new[80]	_	_
-12-16	949-951	by	place[80]	new[80]	_	_
-12-17	952-956	Shah	person[84]|place[80]	new[84]|new[80]	ana	12-24[86_84]
-12-18	957-962	Abbas	person[84]|place[80]	new[84]|new[80]	_	_
-12-19	963-964	I	person[84]|place[80]	new[84]|new[80]	_	_
-12-20	965-967	in	place[80]	new[80]	_	_
-12-21	968-971	the	place[80]	new[80]	_	_
-12-22	972-977	1600s	place[80]	new[80]	_	_
-12-23	978-983	after	place[80]	new[80]	_	_
-12-24	984-986	he	person[86]|place[80]	giv[86]|new[80]	coref	45-5[284_86]
-12-25	987-996	destroyed	place[80]	new[80]	_	_
-12-26	997-1000	the	place[80]	new[80]	_	_
-12-27	1001-1011	prosperous	place[80]	new[80]	_	_
-12-28	1012-1020	Armenian	place[80]	new[80]	_	_
-12-29	1021-1025	town	place[80]	new[80]	_	_
-12-30	1026-1028	of	place[80]	new[80]	_	_
-12-31	1029-1034	Julfa	place[80]	new[80]	_	_
-12-32	1035-1037	in	place[80]	new[80]	_	_
-12-33	1038-1045	Armenia	place[80]	new[80]	_	_
-12-34	1046-1049	and	place[80]	new[80]	_	_
-12-35	1050-1056	forced	place[80]	new[80]	_	_
-12-36	1057-1060	all	person[91]|place[80]	acc[91]|new[80]	ana	13-1[94_91]
-12-37	1061-1063	of	person[91]|place[80]	acc[91]|new[80]	_	_
-12-38	1064-1067	the	person[91]|place[80]	acc[91]|new[80]	_	_
-12-39	1068-1077	Armenians	person[91]|place[80]	acc[91]|new[80]	_	_
-12-40	1078-1080	to	place[80]	new[80]	_	_
-12-41	1081-1085	move	place[80]	new[80]	_	_
-12-42	1086-1088	to	place[80]	new[80]	_	_
-12-43	1089-1095	Persia	place[92]|place[80]	giv[92]|new[80]	ana	32-17[220_92]
-12-44	1096-1097	,	place[80]	new[80]	_	_
-12-45	1098-1104	mostly	place[80]	new[80]	_	_
-12-46	1105-1107	to	place[80]	new[80]	_	_
-12-47	1108-1115	Isfahan	place[93]|place[80]	giv[93]|new[80]	coref	17-1[124_93]
+12-7	892-898	called	_	_	_	_
+12-8	899-904	Jolfa	place[81]	giv[81]	coref	12-12[83_81]
+12-9	905-906	(	_	_	_	_
+12-10	907-917	originally	_	_	_	_
+12-11	918-924	called	_	_	_	_
+12-12	925-928	New	place[83]	giv[83]	coref	14-2[115_83]
+12-13	929-934	Julfa	place[83]	giv[83]	_	_
+12-14	935-936	)	_	_	_	_
+12-15	937-948	established	_	_	_	_
+12-16	949-951	by	_	_	_	_
+12-17	952-956	Shah	person[84]	new[84]	ana	12-24[86_84]
+12-18	957-962	Abbas	person[84]	new[84]	_	_
+12-19	963-964	I	person[84]	new[84]	_	_
+12-20	965-967	in	_	_	_	_
+12-21	968-971	the	_	_	_	_
+12-22	972-977	1600s	_	_	_	_
+12-23	978-983	after	_	_	_	_
+12-24	984-986	he	person[86]	giv[86]	coref	45-5[284_86]
+12-25	987-996	destroyed	_	_	_	_
+12-26	997-1000	the	_	_	_	_
+12-27	1001-1011	prosperous	_	_	_	_
+12-28	1012-1020	Armenian	_	_	_	_
+12-29	1021-1025	town	_	_	_	_
+12-30	1026-1028	of	_	_	_	_
+12-31	1029-1034	Julfa	_	_	_	_
+12-32	1035-1037	in	_	_	_	_
+12-33	1038-1045	Armenia	_	_	_	_
+12-34	1046-1049	and	_	_	_	_
+12-35	1050-1056	forced	_	_	_	_
+12-36	1057-1060	all	person[91]	acc[91]	ana	13-1[94_91]
+12-37	1061-1063	of	person[91]	acc[91]	_	_
+12-38	1064-1067	the	person[91]	acc[91]	_	_
+12-39	1068-1077	Armenians	person[91]	acc[91]	_	_
+12-40	1078-1080	to	_	_	_	_
+12-41	1081-1085	move	_	_	_	_
+12-42	1086-1088	to	_	_	_	_
+12-43	1089-1095	Persia	place[92]	giv[92]	ana	32-17[220_92]
+12-44	1096-1097	,	_	_	_	_
+12-45	1098-1104	mostly	_	_	_	_
+12-46	1105-1107	to	_	_	_	_
+12-47	1108-1115	Isfahan	place[93]	giv[93]	coref	17-1[124_93]
 12-48	1116-1117	.	_	_	_	_
 
 #Text=They were allocated land and rebuilt a prosperous community that was a key part of an Armenian trade network extending from Singapore and India to Venice and Amsterdam .
@@ -298,17 +298,17 @@
 16-2	1403-1408	plane	_	_	_	_
 
 #Text=Isfahan International Airport or Isfahan Shahid Beheshti ( IATA : IFN ) was a military air base before the revolution .
-17-1	1409-1416	Isfahan	place[123]|place[124]	new[123]|giv[124]	coref|coref	17-5[637_123]|17-5[127_124]
+17-1	1409-1416	Isfahan	place[123]|place[124]	new[123]|giv[124]	coref|coref	17-5[126_123]|17-5[127_124]
 17-2	1417-1430	International	place[123]	new[123]	_	_
 17-3	1431-1438	Airport	place[123]	new[123]	_	_
 17-4	1439-1441	or	_	_	_	_
-17-5	1442-1449	Isfahan	place[126]|place[127]|place[637]	giv[126]|giv[127]|giv[637]	coref|coref|coref	17-11[129_126]|38-5[233_127]|20-2[151_637]
-17-6	1450-1456	Shahid	place[126]|place[637]	giv[126]|giv[637]	_	_
-17-7	1457-1465	Beheshti	place[126]|place[637]	giv[126]|giv[637]	_	_
-17-8	1466-1467	(	place[637]	giv[637]	_	_
-17-9	1468-1472	IATA	place[637]	giv[637]	_	_
-17-10	1473-1474	:	place[637]	giv[637]	_	_
-17-11	1475-1478	IFN	place[129]|place[637]	giv[129]|giv[637]	_	_
+17-5	1442-1449	Isfahan	place[126]|place[127]	giv[126]|giv[127]	coref|coref	38-5[233_127]|17-11[129_126]
+17-6	1450-1456	Shahid	place[126]	giv[126]	_	_
+17-7	1457-1465	Beheshti	place[126]	giv[126]	_	_
+17-8	1466-1467	(	_	_	_	_
+17-9	1468-1472	IATA	_	_	_	_
+17-10	1473-1474	:	_	_	_	_
+17-11	1475-1478	IFN	place[129]	giv[129]	coref	20-2[151_129]
 17-12	1479-1480	)	_	_	_	_
 17-13	1481-1484	was	_	_	_	_
 17-14	1485-1486	a	_	_	_	_
@@ -409,17 +409,17 @@
 26-1	1881-1885	Also	_	_	_	_
 26-2	1886-1891	known	_	_	_	_
 26-3	1892-1894	as	_	_	_	_
-26-4	1895-1899	shah	place[173]|person[174]	giv[173]|new[174]	coref|coref	26-7[638_173]|36-1[226_174]
+26-4	1895-1899	shah	place[173]|person[174]	giv[173]|new[174]	coref|coref	26-7[451_173]|36-1[226_174]
 26-5	1900-1906	square	place[173]	giv[173]	_	_
 26-6	1907-1909	or	_	_	_	_
-26-7	1910-1914	imam	place[176]|person[177]|place[638]	giv[176]|new[177]|giv[638]	appos|coref|coref	26-11[512_176]|39-2[238_177]|27-1[182_638]
-26-8	1915-1921	square	place[176]|place[638]	giv[176]|giv[638]	_	_
-26-9	1922-1923	-	place[176]|place[638]	giv[176]|giv[638]	_	_
-26-10	1924-1928	1602	place[176]|place[638]	giv[176]|giv[638]	_	_
-26-11	1929-1930	(	place[512]|place[638]	giv[512]|giv[638]	_	_
-26-12	1931-1937	Meidan	place[512]|place[638]	giv[512]|giv[638]	_	_
-26-13	1938-1942	Emam	place[512]|place[638]	giv[512]|giv[638]	_	_
-26-14	1943-1944	)	place[512]|place[638]	giv[512]|giv[638]	_	_
+26-7	1910-1914	imam	place[176]|person[177]|place[451]	giv[176]|new[177]|giv[451]	coref|appos|coref	39-2[238_177]|26-12[181_176]|27-1[182_451]
+26-8	1915-1921	square	place[176]|place[451]	giv[176]|giv[451]	_	_
+26-9	1922-1923	-	place[451]	giv[451]	_	_
+26-10	1924-1928	1602	place[451]	giv[451]	_	_
+26-11	1929-1930	(	place[451]	giv[451]	_	_
+26-12	1931-1937	Meidan	place[181]|place[451]	giv[181]|giv[451]	_	_
+26-13	1938-1942	Emam	place[181]|place[451]	giv[181]|giv[451]	_	_
+26-14	1943-1944	)	_	_	_	_
 26-15	1945-1946	.	_	_	_	_
 
 #Text=The square contains two mosques , a palace , and the bazaar .
@@ -536,7 +536,7 @@
 35-1	2449-2456	Mosques	place[223]	new[223]	coref	36-1[225_223]
 
 #Text=Shah Mosque
-36-1	2457-2461	Shah	place[225]|person[226]	acc[225]|giv[226]	coref|coref	37-1[228_225]|39-6[241_226]
+36-1	2457-2461	Shah	place[225]|person[226]	acc[225]|giv[226]	coref|coref	39-6[241_226]|37-1[228_225]
 36-2	2462-2468	Mosque	place[225]	acc[225]	_	_
 
 #Text=Sheikh Lotfollah Mosque , interior of the dome
@@ -571,14 +571,14 @@
 39-1	2608-2609	3	_	_	_	_
 39-2	2610-2614	Imam	place[237]|person[238]	giv[237]|giv[238]	_	_
 39-3	2615-2621	Mosque	place[237]	giv[237]	_	_
-39-4	2622-2623	(	place[237]	giv[237]	_	_
-39-5	2624-2630	called	place[237]	giv[237]	_	_
-39-6	2631-2635	Shah	place[240]|person[241]|place[237]	giv[240]|giv[241]|giv[237]	ana	40-7[248_240]
-39-7	2636-2642	Mosque	place[240]|place[237]	giv[240]|giv[237]	_	_
-39-8	2643-2649	before	place[237]	giv[237]	_	_
-39-9	2650-2653	the	event[243]|place[237]	giv[243]|giv[237]	_	_
-39-10	2654-2664	revolution	event[243]|place[237]	giv[243]|giv[237]	_	_
-39-11	2665-2666	)	place[237]	giv[237]	_	_
+39-4	2622-2623	(	_	_	_	_
+39-5	2624-2630	called	_	_	_	_
+39-6	2631-2635	Shah	place[240]|person[241]	giv[240]|giv[241]	ana	40-7[248_240]
+39-7	2636-2642	Mosque	place[240]	giv[240]	_	_
+39-8	2643-2649	before	_	_	_	_
+39-9	2650-2653	the	event[243]	giv[243]	_	_
+39-10	2654-2664	revolution	event[243]	giv[243]	_	_
+39-11	2665-2666	)	_	_	_	_
 39-12	2667-2668	,	_	_	_	_
 39-13	2669-2676	Naqsh-e	place[244]	giv[244]	coref	43-7[272_244]
 39-14	2677-2682	Jahan	place[244]	giv[244]	_	_
@@ -665,18 +665,18 @@
 43-13	3086-3087	.	_	_	_	_
 
 #Text=One of the architectural masterpieces of Safavid Iranian architecture , this mosque is considered to be the most beautiful in Iran .
-44-1	3088-3091	One	place[274]|place[639]	giv[274]|giv[639]	coref|coref	44-11[278_274]|46-1[289_639]
-44-2	3092-3094	of	place[274]|place[639]	giv[274]|giv[639]	_	_
-44-3	3095-3098	the	place[274]|place[639]	giv[274]|giv[639]	_	_
-44-4	3099-3112	architectural	place[274]|place[639]	giv[274]|giv[639]	_	_
-44-5	3113-3125	masterpieces	place[274]|place[639]	giv[274]|giv[639]	_	_
-44-6	3126-3128	of	place[274]|place[639]	giv[274]|giv[639]	_	_
-44-7	3129-3136	Safavid	place[274]|person[276]|place[639]	giv[274]|giv[276]|giv[639]	_	_
-44-8	3137-3144	Iranian	place[274]|place[639]	giv[274]|giv[639]	_	_
-44-9	3145-3157	architecture	place[274]|place[639]	giv[274]|giv[639]	_	_
-44-10	3158-3159	,	place[639]	giv[639]	_	_
-44-11	3160-3164	this	place[278]|place[639]	giv[278]|giv[639]	_	_
-44-12	3165-3171	mosque	place[278]|place[639]	giv[278]|giv[639]	_	_
+44-1	3088-3091	One	place[274]	giv[274]	coref	44-11[278_274]
+44-2	3092-3094	of	place[274]	giv[274]	_	_
+44-3	3095-3098	the	place[274]	giv[274]	_	_
+44-4	3099-3112	architectural	place[274]	giv[274]	_	_
+44-5	3113-3125	masterpieces	place[274]	giv[274]	_	_
+44-6	3126-3128	of	place[274]	giv[274]	_	_
+44-7	3129-3136	Safavid	place[274]|person[276]	giv[274]|giv[276]	_	_
+44-8	3137-3144	Iranian	place[274]	giv[274]	_	_
+44-9	3145-3157	architecture	place[274]	giv[274]	_	_
+44-10	3158-3159	,	_	_	_	_
+44-11	3160-3164	this	place[278]	giv[278]	coref	46-1[289_278]
+44-12	3165-3171	mosque	place[278]	giv[278]	_	_
 44-13	3172-3174	is	_	_	_	_
 44-14	3175-3185	considered	_	_	_	_
 44-15	3186-3188	to	_	_	_	_
@@ -702,7 +702,7 @@
 45-11	3269-3272	his	person[285]|person[286]	new[285]|giv[286]	appos|coref	45-15[288_285]|62-16[363_286]
 45-12	3273-3278	chief	person[285]	new[285]	_	_
 45-13	3279-3288	architect	person[285]	new[285]	_	_
-45-14	3289-3290	,	person[285]	new[285]	_	_
+45-14	3289-3290	,	_	_	_	_
 45-15	3291-3297	Sheikh	person[288]	giv[288]	_	_
 45-16	3298-3303	Bahai	person[288]	giv[288]	_	_
 45-17	3304-3305	.	_	_	_	_
@@ -860,23 +860,23 @@
 55-1	3956-3963	Palaces	_	_	_	_
 
 #Text=Ali Qapu Palace
-56-1	3964-3967	Ali	place[339]	giv[339]	coref	58-2[641_339]
+56-1	3964-3967	Ali	place[339]	giv[339]	coref	58-2[453_339]
 56-2	3968-3972	Qapu	place[339]	giv[339]	_	_
 56-3	3973-3979	Palace	place[339]	giv[339]	_	_
 
 #Text=Chehel Sotoun
-57-1	3980-3986	Chehel	place[340]	new[340]	coref	67-2[644_340]
+57-1	3980-3986	Chehel	place[340]	new[340]	coref	67-2[456_340]
 57-2	3987-3993	Sotoun	place[340]	new[340]	_	_
 
 #Text=7 Ālī Qāpū ( The Royal Palace ) .
 58-1	3994-3995	7	_	_	_	_
-58-2	3996-3999	Ālī	place[341]|place[641]	giv[341]|giv[641]	appos|ana	58-4[543_341]|60-1[344_641]
-58-3	4000-4004	Qāpū	place[341]|place[641]	giv[341]|giv[641]	_	_
-58-4	4005-4006	(	place[543]|place[641]	giv[543]|giv[641]	_	_
-58-5	4007-4010	The	place[543]|place[641]	giv[543]|giv[641]	_	_
-58-6	4011-4016	Royal	place[543]|place[641]	giv[543]|giv[641]	_	_
-58-7	4017-4023	Palace	place[543]|place[641]	giv[543]|giv[641]	_	_
-58-8	4024-4025	)	place[543]|place[641]	giv[543]|giv[641]	_	_
+58-2	3996-3999	Ālī	place[341]|place[453]	giv[341]|giv[453]	ana|appos	60-1[344_453]|58-5[342_341]
+58-3	4000-4004	Qāpū	place[341]|place[453]	giv[341]|giv[453]	_	_
+58-4	4005-4006	(	place[453]	giv[453]	_	_
+58-5	4007-4010	The	place[342]|place[453]	giv[342]|giv[453]	_	_
+58-6	4011-4016	Royal	place[342]|place[453]	giv[342]|giv[453]	_	_
+58-7	4017-4023	Palace	place[342]|place[453]	giv[342]|giv[453]	_	_
+58-8	4024-4025	)	_	_	_	_
 58-9	4026-4027	.	_	_	_	_
 
 #Text=Early 17th Century .
@@ -943,16 +943,16 @@
 62-6	4317-4321	wall	_	_	_	_
 62-7	4322-4331	paintings	_	_	_	_
 62-8	4332-4334	by	_	_	_	_
-62-9	4335-4339	Reza	person[359]|person[642]	new[359]|new[642]	appos|ana	62-12[360_359]|62-21[365_642]
-62-10	4340-4347	Abbassi	person[359]|person[642]	new[359]|new[642]	_	_
-62-11	4348-4349	,	person[359]|person[642]	new[359]|new[642]	_	_
-62-12	4350-4353	the	person[360]|person[642]	giv[360]|new[642]	_	_
-62-13	4354-4359	court	person[360]|person[642]	giv[360]|new[642]	_	_
-62-14	4360-4367	painter	person[360]|person[642]	giv[360]|new[642]	_	_
-62-15	4368-4370	of	person[360]|person[642]	giv[360]|new[642]	_	_
-62-16	4371-4375	Shah	person[360]|person[363]|person[642]	giv[360]|giv[363]|new[642]	_	_
-62-17	4376-4381	Abbas	person[360]|person[363]|person[642]	giv[360]|giv[363]|new[642]	_	_
-62-18	4382-4383	I	person[360]|person[363]|person[642]	giv[360]|giv[363]|new[642]	_	_
+62-9	4335-4339	Reza	person[359]|person[454]	new[359]|new[454]	ana|appos	62-21[365_454]|62-12[360_359]
+62-10	4340-4347	Abbassi	person[359]|person[454]	new[359]|new[454]	_	_
+62-11	4348-4349	,	person[454]	new[454]	_	_
+62-12	4350-4353	the	person[360]|person[454]	giv[360]|new[454]	_	_
+62-13	4354-4359	court	person[360]|person[454]	giv[360]|new[454]	_	_
+62-14	4360-4367	painter	person[360]|person[454]	giv[360]|new[454]	_	_
+62-15	4368-4370	of	person[360]|person[454]	giv[360]|new[454]	_	_
+62-16	4371-4375	Shah	person[360]|person[363]|person[454]	giv[360]|giv[363]|new[454]	_	_
+62-17	4376-4381	Abbas	person[360]|person[363]|person[454]	giv[360]|giv[363]|new[454]	_	_
+62-18	4382-4383	I	person[360]|person[363]|person[454]	giv[360]|giv[363]|new[454]	_	_
 62-19	4384-4385	,	_	_	_	_
 62-20	4386-4389	and	_	_	_	_
 62-21	4390-4393	his	person[365]	giv[365]	_	_
@@ -972,15 +972,15 @@
 
 #Text=8 Hasht Behesht ( The Palace of Eight Paradises ) .
 64-1	4447-4448	8	_	_	_	_
-64-2	4449-4454	Hasht	place[372]|place[643]	new[372]|new[643]	appos|coref	64-4[574_372]|66-18[383_643]
-64-3	4455-4462	Behesht	place[372]|place[643]	new[372]|new[643]	_	_
-64-4	4463-4464	(	place[574]|place[643]	giv[574]|new[643]	_	_
-64-5	4465-4468	The	place[574]|place[643]	giv[574]|new[643]	_	_
-64-6	4469-4475	Palace	place[574]|place[643]	giv[574]|new[643]	_	_
-64-7	4476-4478	of	place[574]|place[643]	giv[574]|new[643]	_	_
-64-8	4479-4484	Eight	place[574]|place[643]	giv[574]|new[643]	_	_
-64-9	4485-4494	Paradises	place[574]|place[643]	giv[574]|new[643]	_	_
-64-10	4495-4496	)	place[574]|place[643]	giv[574]|new[643]	_	_
+64-2	4449-4454	Hasht	place[372]|place[455]	new[372]|new[455]	coref|appos	66-18[383_455]|64-5[373_372]
+64-3	4455-4462	Behesht	place[372]|place[455]	new[372]|new[455]	_	_
+64-4	4463-4464	(	place[455]	new[455]	_	_
+64-5	4465-4468	The	place[373]|place[455]	giv[373]|new[455]	_	_
+64-6	4469-4475	Palace	place[373]|place[455]	giv[373]|new[455]	_	_
+64-7	4476-4478	of	place[373]|place[455]	giv[373]|new[455]	_	_
+64-8	4479-4484	Eight	place[373]|place[455]	giv[373]|new[455]	_	_
+64-9	4485-4494	Paradises	place[373]|place[455]	giv[373]|new[455]	_	_
+64-10	4495-4496	)	_	_	_	_
 64-11	4497-4498	.	_	_	_	_
 
 #Text=1669 , reportedly built for residence purposes of the king 's harem .
@@ -1022,15 +1022,15 @@
 
 #Text=9 Chehel Sotoun ( The Palace of Forty Columns ) .
 67-1	4663-4664	9	_	_	_	_
-67-2	4665-4671	Chehel	place[384]|place[644]	giv[384]|giv[644]	appos|ana	67-4[605_384]|68-3[388_644]
-67-3	4672-4678	Sotoun	place[384]|place[644]	giv[384]|giv[644]	_	_
-67-4	4679-4680	(	place[605]|place[644]	giv[605]|giv[644]	_	_
-67-5	4681-4684	The	place[605]|place[644]	giv[605]|giv[644]	_	_
-67-6	4685-4691	Palace	place[605]|place[644]	giv[605]|giv[644]	_	_
-67-7	4692-4694	of	place[605]|place[644]	giv[605]|giv[644]	_	_
-67-8	4695-4700	Forty	place[605]|place[644]	giv[605]|giv[644]	_	_
-67-9	4701-4708	Columns	place[605]|place[644]	giv[605]|giv[644]	_	_
-67-10	4709-4710	)	place[605]|place[644]	giv[605]|giv[644]	_	_
+67-2	4665-4671	Chehel	place[384]|place[456]	giv[384]|giv[456]	ana|appos	68-3[388_456]|67-5[385_384]
+67-3	4672-4678	Sotoun	place[384]|place[456]	giv[384]|giv[456]	_	_
+67-4	4679-4680	(	place[456]	giv[456]	_	_
+67-5	4681-4684	The	place[385]|place[456]	giv[385]|giv[456]	_	_
+67-6	4685-4691	Palace	place[385]|place[456]	giv[385]|giv[456]	_	_
+67-7	4692-4694	of	place[385]|place[456]	giv[385]|giv[456]	_	_
+67-8	4695-4700	Forty	place[385]|place[456]	giv[385]|giv[456]	_	_
+67-9	4701-4708	Columns	place[385]|place[456]	giv[385]|giv[456]	_	_
+67-10	4709-4710	)	_	_	_	_
 67-11	4711-4712	.	_	_	_	_
 
 #Text=1647 : It is called Palace of forty columns , as there are many columns , and in Iranian , 40 means many .

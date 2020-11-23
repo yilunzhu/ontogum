@@ -6,14 +6,14 @@
 #Text=Wikinews interviews Christopher Hill , U.S. Republican Party presidential candidate
 1-1	0-8	Wikinews	_	_	_	_
 1-2	9-19	interviews	_	_	_	_
-1-3	20-31	Christopher	person[4]|person[395]	new[4]|new[395]	appos|ana	1-6[5_4]|3-4[12_395]
-1-4	32-36	Hill	person[4]|person[395]	new[4]|new[395]	_	_
-1-5	37-38	,	person[4]|person[395]	new[4]|new[395]	_	_
-1-6	39-43	U.S.	person[5]|organization[6]|place[7]|person[395]	giv[5]|acc[6]|acc[7]|new[395]	coref|coref	21-8[143_6]|4-14[27_7]
-1-7	44-54	Republican	person[5]|organization[6]|person[395]	giv[5]|acc[6]|new[395]	_	_
-1-8	55-60	Party	person[5]|organization[6]|person[395]	giv[5]|acc[6]|new[395]	_	_
-1-9	61-73	presidential	person[5]|person[395]	giv[5]|new[395]	_	_
-1-10	74-83	candidate	person[5]|person[395]	giv[5]|new[395]	_	_
+1-3	20-31	Christopher	person[395]	new[395]	ana	3-4[12_395]
+1-4	32-36	Hill	person[395]	new[395]	_	_
+1-5	37-38	,	person[395]	new[395]	_	_
+1-6	39-43	U.S.	organization[6]|place[7]	acc[6]|acc[7]	coref|coref	4-14[27_7]|21-8[143_6]
+1-7	44-54	Republican	organization[6]|person[395]	acc[6]|new[395]	_	_
+1-8	55-60	Party	organization[6]|person[395]	acc[6]|new[395]	_	_
+1-9	61-73	presidential	person[395]	new[395]	_	_
+1-10	74-83	candidate	person[395]	new[395]	_	_
 
 #Text=Interview
 2-1	84-93	Interview	_	_	_	_
@@ -21,19 +21,19 @@
 #Text=What qualifications do you have that will assist you in executing the duties of president ?
 3-1	94-98	What	abstract[11]	new[11]	coref	4-1[19_11]
 3-2	99-113	qualifications	abstract[11]	new[11]	_	_
-3-3	114-116	do	abstract[11]	new[11]	_	_
-3-4	117-120	you	person[12]|abstract[11]	acc[12]|new[11]	ana	3-9[13_12]
-3-5	121-125	have	abstract[11]	new[11]	_	_
-3-6	126-130	that	abstract[11]	new[11]	_	_
-3-7	131-135	will	abstract[11]	new[11]	_	_
-3-8	136-142	assist	abstract[11]	new[11]	_	_
-3-9	143-146	you	person[13]|abstract[11]	giv[13]|new[11]	ana	4-1[20_13]
-3-10	147-149	in	abstract[11]	new[11]	_	_
-3-11	150-159	executing	abstract[11]	new[11]	_	_
-3-12	160-163	the	abstract[11]	new[11]	_	_
-3-13	164-170	duties	abstract[11]	new[11]	_	_
-3-14	171-173	of	abstract[11]	new[11]	_	_
-3-15	174-183	president	person[17]|abstract[11]	acc[17]|new[11]	coref	8-2[52_17]
+3-3	114-116	do	_	_	_	_
+3-4	117-120	you	person[12]	acc[12]	ana	3-9[13_12]
+3-5	121-125	have	_	_	_	_
+3-6	126-130	that	_	_	_	_
+3-7	131-135	will	_	_	_	_
+3-8	136-142	assist	_	_	_	_
+3-9	143-146	you	person[13]	giv[13]	ana	4-1[20_13]
+3-10	147-149	in	_	_	_	_
+3-11	150-159	executing	_	_	_	_
+3-12	160-163	the	_	_	_	_
+3-13	164-170	duties	_	_	_	_
+3-14	171-173	of	_	_	_	_
+3-15	174-183	president	person[17]	acc[17]	coref	8-2[52_17]
 3-16	184-185	?	_	_	_	_
 
 #Text=My Presidential qualifications are rooted in my service as an Officer in the United States Air Force .
@@ -162,7 +162,7 @@
 11-5	721-726	young	_	_	_	_
 11-6	727-730	man	_	_	_	_
 11-7	731-733	in	_	_	_	_
-11-8	734-737	Air	organization[71]|organization[72]	new[71]|giv[72]	coref|coref	12-18[89_71]|12-1[84_72]
+11-8	734-737	Air	organization[71]|organization[72]	new[71]|giv[72]	coref|coref	12-1[84_72]|12-18[89_71]
 11-9	738-743	Force	organization[71]|organization[72]	new[71]|giv[72]	_	_
 11-10	744-748	ROTC	organization[71]	new[71]	_	_
 11-11	749-750	I	person[73]	giv[73]	ana	13-1[90_73]
@@ -175,13 +175,13 @@
 11-18	781-786	Pilot	event[75]	new[75]	_	_
 11-19	787-795	Training	event[75]	new[75]	_	_
 11-20	796-803	Program	event[75]	new[75]	_	_
-11-21	804-810	called	event[75]	new[75]	_	_
-11-22	811-816	Euro-	event[78]|event[75]	giv[78]|new[75]	coref	13-4[93_78]
-11-23	817-821	NATO	event[78]|event[75]	giv[78]|new[75]	_	_
-11-24	822-827	Joint	event[78]|event[75]	giv[78]|new[75]	_	_
-11-25	828-831	Jet	event[78]|event[75]	giv[78]|new[75]	_	_
-11-26	832-837	Pilot	event[78]|event[75]	giv[78]|new[75]	_	_
-11-27	838-846	Training	event[78]|event[75]	giv[78]|new[75]	_	_
+11-21	804-810	called	_	_	_	_
+11-22	811-816	Euro-	event[78]	giv[78]	coref	13-4[93_78]
+11-23	817-821	NATO	event[78]	giv[78]	_	_
+11-24	822-827	Joint	event[78]	giv[78]	_	_
+11-25	828-831	Jet	event[78]	giv[78]	_	_
+11-26	832-837	Pilot	event[78]	giv[78]	_	_
+11-27	838-846	Training	event[78]	giv[78]	_	_
 11-28	847-848	.	_	_	_	_
 
 #Text=The Air Force only selected 180 Officers a year from the Academy , Squadron Officer School and ROTC to attend .
@@ -894,22 +894,22 @@
 57-2	4023-4030	believe	_	_	_	_
 57-3	4031-4033	it	_	_	_	_
 57-4	4034-4036	is	_	_	_	_
-57-5	4037-4040	our	event[352]|person[353]	new[352]|giv[353]	cata|ana	57-3[349_352]|57-20[358_353]
+57-5	4037-4040	our	event[352]|person[353]	new[352]|giv[353]	ana|cata	57-20[358_353]|57-3[349_352]
 57-6	4041-4055	responsibility	event[352]	new[352]	_	_
-57-7	4056-4058	to	event[355]|event[352]	giv[355]|new[352]	coref	58-8[364_355]
-57-8	4059-4063	pass	event[355]|event[352]	giv[355]|new[352]	_	_
-57-9	4064-4066	on	event[355]|event[352]	giv[355]|new[352]	_	_
-57-10	4067-4070	the	event[355]|event[352]	giv[355]|new[352]	_	_
-57-11	4071-4075	same	event[355]|event[352]	giv[355]|new[352]	_	_
-57-12	4076-4089	opportunities	event[355]|event[352]	giv[355]|new[352]	_	_
-57-13	4090-4092	to	event[355]|event[352]	giv[355]|new[352]	_	_
-57-14	4093-4099	future	event[355]|event[352]	giv[355]|new[352]	_	_
-57-15	4100-4111	generations	event[355]|event[352]	giv[355]|new[352]	_	_
-57-16	4112-4116	that	event[355]|event[352]	giv[355]|new[352]	_	_
-57-17	4117-4121	were	event[355]|event[352]	giv[355]|new[352]	_	_
-57-18	4122-4130	promised	event[355]|event[352]	giv[355]|new[352]	_	_
-57-19	4131-4133	to	event[355]|event[352]	giv[355]|new[352]	_	_
-57-20	4134-4136	us	event[355]|person[358]|event[352]	giv[355]|giv[358]|new[352]	_	_
+57-7	4056-4058	to	event[355]	giv[355]	coref	58-8[364_355]
+57-8	4059-4063	pass	event[355]	giv[355]	_	_
+57-9	4064-4066	on	event[355]	giv[355]	_	_
+57-10	4067-4070	the	event[355]	giv[355]	_	_
+57-11	4071-4075	same	event[355]	giv[355]	_	_
+57-12	4076-4089	opportunities	event[355]	giv[355]	_	_
+57-13	4090-4092	to	event[355]	giv[355]	_	_
+57-14	4093-4099	future	event[355]	giv[355]	_	_
+57-15	4100-4111	generations	event[355]	giv[355]	_	_
+57-16	4112-4116	that	event[355]	giv[355]	_	_
+57-17	4117-4121	were	event[355]	giv[355]	_	_
+57-18	4122-4130	promised	event[355]	giv[355]	_	_
+57-19	4131-4133	to	event[355]	giv[355]	_	_
+57-20	4134-4136	us	event[355]|person[358]	giv[355]|giv[358]	_	_
 57-21	4137-4138	.	_	_	_	_
 
 #Text=As President , I intend to keep that promise !

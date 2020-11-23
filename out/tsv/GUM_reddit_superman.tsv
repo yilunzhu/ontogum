@@ -10,14 +10,14 @@
 #Text=The film Snyder showed the studio execs in mid 2015 was without a doubt the original cut .
 2-1	13-16	The	abstract[1]	new[1]	coref	3-1[9_1]
 2-2	17-21	film	abstract[1]	new[1]	_	_
-2-3	22-28	Snyder	person[2]|abstract[1]	new[2]|new[1]	coref	5-1[19_2]
-2-4	29-35	showed	abstract[1]	new[1]	_	_
-2-5	36-39	the	abstract[1]	new[1]	_	_
-2-6	40-46	studio	abstract[1]	new[1]	_	_
-2-7	47-52	execs	abstract[1]	new[1]	_	_
-2-8	53-55	in	abstract[1]	new[1]	_	_
-2-9	56-59	mid	abstract[1]	new[1]	_	_
-2-10	60-64	2015	abstract[1]	new[1]	_	_
+2-3	22-28	Snyder	person[2]	new[2]	coref	5-1[19_2]
+2-4	29-35	showed	_	_	_	_
+2-5	36-39	the	_	_	_	_
+2-6	40-46	studio	_	_	_	_
+2-7	47-52	execs	_	_	_	_
+2-8	53-55	in	_	_	_	_
+2-9	56-59	mid	_	_	_	_
+2-10	60-64	2015	_	_	_	_
 2-11	65-68	was	_	_	_	_
 2-12	69-76	without	_	_	_	_
 2-13	77-78	a	_	_	_	_
@@ -57,10 +57,10 @@
 5-2	210-214	made	_	_	_	_
 5-3	215-218	the	abstract[22]	giv[22]	coref	7-7[40_22]
 5-4	219-223	film	abstract[22]	giv[22]	_	_
-5-5	224-226	he	person[23]|abstract[22]	giv[23]|giv[22]	ana	6-1[24_23]
-5-6	227-233	wanted	abstract[22]	giv[22]	_	_
-5-7	234-236	to	abstract[22]	giv[22]	_	_
-5-8	237-241	make	abstract[22]	giv[22]	_	_
+5-5	224-226	he	person[23]	giv[23]	ana	6-1[24_23]
+5-6	227-233	wanted	_	_	_	_
+5-7	234-236	to	_	_	_	_
+5-8	237-241	make	_	_	_	_
 5-9	242-243	.	_	_	_	_
 
 #Text=He did his job , but he had no oversight , but even he was aware that a 3 hr cut is nt necessarily what the studio wants .

@@ -14,12 +14,12 @@
 1-8	41-46	night	_	_	_	_
 
 #Text=Monday , March 5 , 2007
-2-1	47-53	Monday	time[237]	acc[237]	appos	2-3[9_237]
-2-2	54-55	,	time[237]	acc[237]	_	_
-2-3	56-61	March	time[9]	acc[9]	_	_
-2-4	62-63	5	time[9]	acc[9]	_	_
-2-5	64-65	,	time[9]	acc[9]	_	_
-2-6	66-70	2007	time[9]|time[10]	acc[9]|acc[10]	coref	9-11[80_10]
+2-1	47-53	Monday	_	_	_	_
+2-2	54-55	,	_	_	_	_
+2-3	56-61	March	_	_	_	_
+2-4	62-63	5	_	_	_	_
+2-5	64-65	,	_	_	_	_
+2-6	66-70	2007	time[10]	acc[10]	coref	9-11[80_10]
 
 #Text=Taipei , Taiwan — The Taipei City Lantern Festival was off to a bright start on Saturday Night as hundreds of thousands of people crowded onto the Chiang Kai Shek Memorial near downtown Taipei to witness city mayor Hau Lung-bin and other dignitaries ceremoniously flip the switch to light hundreds of colorful lantern scenes in and around the 240,000 square meter memorial park .
 3-1	71-77	Taipei	place[11]	giv[11]	coref	3-6[17_11]
@@ -453,12 +453,12 @@
 20-3	2262-2266	rain	_	_	_	_
 20-4	2267-2272	storm	_	_	_	_
 20-5	2273-2275	on	_	_	_	_
-20-6	2276-2282	Sunday	time[159]	acc[159]	appos	20-8[268_159]
-20-7	2283-2288	night	time[159]	acc[159]	_	_
-20-8	2289-2290	(	time[268]	giv[268]	_	_
-20-9	2291-2296	March	time[268]	giv[268]	_	_
-20-10	2297-2298	4	time[268]	giv[268]	_	_
-20-11	2299-2300	)	time[268]	giv[268]	_	_
+20-6	2276-2282	Sunday	_	_	_	_
+20-7	2283-2288	night	_	_	_	_
+20-8	2289-2290	(	_	_	_	_
+20-9	2291-2296	March	_	_	_	_
+20-10	2297-2298	4	_	_	_	_
+20-11	2299-2300	)	_	_	_	_
 20-12	2301-2307	caused	_	_	_	_
 20-13	2308-2309	a	_	_	_	_
 20-14	2310-2314	mass	_	_	_	_
@@ -565,7 +565,7 @@
 25-5	2786-2788	on	_	_	_	_
 25-6	2789-2797	Saturday	time[191]	giv[191]	appos	25-9[192_191]
 25-7	2798-2803	night	time[191]	giv[191]	_	_
-25-8	2804-2805	,	time[191]	giv[191]	_	_
+25-8	2804-2805	,	_	_	_	_
 25-9	2806-2809	the	time[192]	giv[192]	_	_
 25-10	2810-2817	opening	time[192]	giv[192]	_	_
 25-11	2818-2823	night	time[192]	giv[192]	_	_

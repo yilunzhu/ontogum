@@ -16,7 +16,7 @@
 2-6	36-39	Sox	organization[4]	new[4]	_	_
 
 #Text=Boston Red Sox – No. 12
-3-1	40-46	Boston	organization[7]|place[8]	giv[7]|giv[8]	coref|coref	17-1[55_7]|17-1[56_8]
+3-1	40-46	Boston	organization[7]|place[8]	giv[7]|giv[8]	coref|coref	17-1[56_8]|17-1[55_7]
 3-2	47-50	Red	organization[7]	giv[7]	_	_
 3-3	51-54	Sox	organization[7]	giv[7]	_	_
 3-4	55-56	–	_	_	_	_
@@ -75,7 +75,7 @@
 10-9	233-240	Pirates	organization[29]	new[29]	_	_
 
 #Text=MLB statistics ( through September 20 , 2018 )
-11-1	241-244	MLB	organization[33]	giv[33]	coref	23-28[742_33]
+11-1	241-244	MLB	organization[33]	giv[33]	coref	23-28[587_33]
 11-2	245-255	statistics	_	_	_	_
 11-3	256-257	(	_	_	_	_
 11-4	258-265	through	_	_	_	_
@@ -105,7 +105,7 @@
 15-1	341-346	Teams	_	_	_	_
 
 #Text=Pittsburgh Pirates ( 2012 )
-16-1	347-357	Pittsburgh	organization[50]|place[51]	giv[50]|new[51]	coref|coref	26-7[111_50]|26-8[112_51]
+16-1	347-357	Pittsburgh	organization[50]|place[51]	giv[50]|new[51]	coref|coref	26-8[112_51]|26-7[111_50]
 16-2	358-365	Pirates	organization[50]	giv[50]	_	_
 16-3	366-367	(	_	_	_	_
 16-4	368-372	2012	_	_	_	_
@@ -184,12 +184,12 @@
 23-25	669-672	Red	organization[86]	giv[86]	_	_
 23-26	673-676	Sox	organization[86]	giv[86]	_	_
 23-27	677-679	of	organization[86]	giv[86]	_	_
-23-28	680-685	Major	organization[86]|organization[89]|organization[742]	giv[86]|giv[89]|giv[742]	appos|coref	23-31[587_89]|26-5[107_742]
-23-29	686-692	League	organization[86]|organization[89]|organization[742]	giv[86]|giv[89]|giv[742]	_	_
-23-30	693-701	Baseball	organization[86]|organization[89]|organization[742]	giv[86]|giv[89]|giv[742]	_	_
-23-31	702-703	(	organization[86]|organization[587]|organization[742]	giv[86]|giv[587]|giv[742]	_	_
-23-32	704-707	MLB	organization[86]|organization[587]|organization[742]	giv[86]|giv[587]|giv[742]	_	_
-23-33	708-709	)	organization[86]|organization[587]|organization[742]	giv[86]|giv[587]|giv[742]	_	_
+23-28	680-685	Major	organization[86]|organization[89]|organization[587]	giv[86]|giv[89]|giv[587]	appos|coref	23-32[90_89]|26-5[107_587]
+23-29	686-692	League	organization[86]|organization[89]|organization[587]	giv[86]|giv[89]|giv[587]	_	_
+23-30	693-701	Baseball	organization[86]|organization[89]|organization[587]	giv[86]|giv[89]|giv[587]	_	_
+23-31	702-703	(	organization[86]|organization[587]	giv[86]|giv[587]	_	_
+23-32	704-707	MLB	organization[86]|organization[90]|organization[587]	giv[86]|giv[90]|giv[587]	_	_
+23-33	708-709	)	organization[86]	giv[86]	_	_
 23-34	710-711	.	_	_	_	_
 
 #Text=While primarily used as an infielder , he has started in and played at every position for the Red Sox , except for pitcher and catcher .
@@ -224,21 +224,21 @@
 #Text=Listed at 5 feet 10 inches ( 1.78 m ) and 180 pounds ( 82 kg ) , Holt bats left-handed and throws right-handed .
 25-1	849-855	Listed	_	_	_	_
 25-2	856-858	at	_	_	_	_
-25-3	859-860	5	abstract[101]	new[101]	appos	25-7[618_101]
-25-4	861-865	feet	abstract[101]	new[101]	_	_
-25-5	866-868	10	abstract[101]	new[101]	_	_
-25-6	869-875	inches	abstract[101]	new[101]	_	_
-25-7	876-877	(	abstract[618]	giv[618]	_	_
-25-8	878-882	1.78	abstract[618]	giv[618]	_	_
-25-9	883-884	m	abstract[618]	giv[618]	_	_
-25-10	885-886	)	abstract[618]	giv[618]	_	_
+25-3	859-860	5	_	_	_	_
+25-4	861-865	feet	_	_	_	_
+25-5	866-868	10	_	_	_	_
+25-6	869-875	inches	_	_	_	_
+25-7	876-877	(	_	_	_	_
+25-8	878-882	1.78	_	_	_	_
+25-9	883-884	m	_	_	_	_
+25-10	885-886	)	_	_	_	_
 25-11	887-890	and	_	_	_	_
-25-12	891-894	180	abstract[103]	new[103]	appos	25-14[649_103]
-25-13	895-901	pounds	abstract[103]	new[103]	_	_
-25-14	902-903	(	abstract[649]	giv[649]	_	_
-25-15	904-906	82	abstract[649]	giv[649]	_	_
-25-16	907-909	kg	abstract[649]	giv[649]	_	_
-25-17	910-911	)	abstract[649]	giv[649]	_	_
+25-12	891-894	180	_	_	_	_
+25-13	895-901	pounds	_	_	_	_
+25-14	902-903	(	_	_	_	_
+25-15	904-906	82	_	_	_	_
+25-16	907-909	kg	_	_	_	_
+25-17	910-911	)	_	_	_	_
 25-18	912-913	,	_	_	_	_
 25-19	914-918	Holt	person[105]	giv[105]	ana	26-1[106_105]
 25-20	919-923	bats	_	_	_	_
@@ -293,11 +293,11 @@
 
 #Text=In 2003 , his freshman year , he made the District 8-4A All-District baseball team despite batting just .227 , and shared the league 's Newcomer of the Year award . [ 1 ]
 29-1	1157-1159	In	_	_	_	_
-29-2	1160-1164	2003	time[680]|time[748]	acc[680]|acc[748]	appos|coref	29-4[131_680]|29-29[144_748]
-29-3	1165-1166	,	time[680]|time[748]	acc[680]|acc[748]	_	_
-29-4	1167-1170	his	time[131]|person[132]|time[748]	giv[131]|giv[132]|acc[748]	ana	29-8[133_132]
-29-5	1171-1179	freshman	time[131]|time[748]	giv[131]|acc[748]	_	_
-29-6	1180-1184	year	time[131]|time[748]	giv[131]|acc[748]	_	_
+29-2	1160-1164	2003	time[127]|time[590]	acc[127]|acc[590]	coref|appos	29-29[144_590]|29-4[131_127]
+29-3	1165-1166	,	time[590]	acc[590]	_	_
+29-4	1167-1170	his	time[131]|person[132]|time[590]	giv[131]|giv[132]|acc[590]	ana	29-8[133_132]
+29-5	1171-1179	freshman	time[131]|time[590]	giv[131]|acc[590]	_	_
+29-6	1180-1184	year	time[131]|time[590]	giv[131]|acc[590]	_	_
 29-7	1185-1186	,	_	_	_	_
 29-8	1187-1189	he	person[133]	giv[133]	coref	30-1[146_133]
 29-9	1190-1194	made	_	_	_	_
@@ -374,8 +374,8 @@
 31-22	1529-1541	all-district	_	_	_	_
 31-23	1542-1548	honors	_	_	_	_
 31-24	1549-1551	in	_	_	_	_
-31-25	1552-1556	2006	time[711]	giv[711]	appos	31-27[174_711]
-31-26	1557-1558	,	time[711]	giv[711]	_	_
+31-25	1552-1556	2006	time[172]	giv[172]	appos	31-27[174_172]
+31-26	1557-1558	,	_	_	_	_
 31-27	1559-1562	his	time[174]|person[175]	giv[174]|giv[175]	coref	33-1[183_175]
 31-28	1563-1569	senior	time[174]	giv[174]	_	_
 31-29	1570-1574	year	time[174]	giv[174]	_	_
@@ -589,15 +589,15 @@
 42-4	2529-2533	2011	_	_	_	_
 42-5	2534-2540	season	_	_	_	_
 42-6	2541-2545	with	_	_	_	_
-42-7	2546-2549	the	organization[285]|organization[747]	new[285]|new[747]	appos|coref	42-13[287_285]|44-5[301_747]
-42-8	2550-2557	Pirates	organization[285]|organization[747]	new[285]|new[747]	_	_
-42-9	2558-2559	'	organization[285]|organization[747]	new[285]|new[747]	_	_
-42-10	2560-2568	Double-A	organization[285]|organization[747]	new[285]|new[747]	_	_
-42-11	2569-2578	affiliate	organization[285]|organization[747]	new[285]|new[747]	_	_
-42-12	2579-2580	,	organization[285]|organization[747]	new[285]|new[747]	_	_
-42-13	2581-2584	the	organization[287]|organization[747]	giv[287]|new[747]	_	_
-42-14	2585-2592	Altoona	organization[287]|organization[747]	giv[287]|new[747]	_	_
-42-15	2593-2598	Curve	organization[287]|organization[747]	giv[287]|new[747]	_	_
+42-7	2546-2549	the	organization[285]|organization[593]	new[285]|new[593]	appos|coref	42-13[287_285]|44-5[301_593]
+42-8	2550-2557	Pirates	organization[285]|organization[593]	new[285]|new[593]	_	_
+42-9	2558-2559	'	organization[285]|organization[593]	new[285]|new[593]	_	_
+42-10	2560-2568	Double-A	organization[285]|organization[593]	new[285]|new[593]	_	_
+42-11	2569-2578	affiliate	organization[285]|organization[593]	new[285]|new[593]	_	_
+42-12	2579-2580	,	organization[593]	new[593]	_	_
+42-13	2581-2584	the	organization[287]|organization[593]	giv[287]|new[593]	_	_
+42-14	2585-2592	Altoona	organization[287]|organization[593]	giv[287]|new[593]	_	_
+42-15	2593-2598	Curve	organization[287]|organization[593]	giv[287]|new[593]	_	_
 42-16	2599-2600	.	_	_	_	_
 
 #Text=On July 13 , 2011 , Holt was named the MVP of the Eastern League All-Star Game after hitting a two-run homer in the ninth inning . [ 9 ]
@@ -641,7 +641,7 @@
 44-6	2768-2771	and	_	_	_	_
 44-7	2772-2777	later	_	_	_	_
 44-8	2778-2784	joined	_	_	_	_
-44-9	2785-2793	Triple-A	organization[306]|organization[307]	new[306]|new[307]	coref|coref	48-25[349_306]|55-8[427_307]
+44-9	2785-2793	Triple-A	organization[306]|organization[307]	new[306]|new[307]	coref|coref	55-8[427_307]|48-25[349_306]
 44-10	2794-2806	Indianapolis	organization[306]	new[306]	_	_
 44-11	2807-2814	Indians	organization[306]	new[306]	_	_
 44-12	2815-2816	.	_	_	_	_
@@ -761,16 +761,16 @@
 50-3	3328-3333	other	person[373]	new[373]	_	_
 50-4	3334-3341	Pirates	person[373]|organization[374]	new[373]|giv[374]	_	_
 50-5	3342-3348	player	person[373]	new[373]	_	_
-50-6	3349-3351	to	person[373]	new[373]	_	_
-50-7	3352-3356	have	person[373]	new[373]	_	_
-50-8	3357-3358	a	person[373]	new[373]	_	_
-50-9	3359-3367	four-hit	person[373]	new[373]	_	_
-50-10	3368-3372	game	person[373]	new[373]	_	_
-50-11	3373-3375	so	person[373]	new[373]	_	_
-50-12	3376-3381	early	person[373]	new[373]	_	_
-50-13	3382-3384	in	person[373]	new[373]	_	_
-50-14	3385-3388	his	person[378]|person[373]	giv[378]|new[373]	ana	50-24[382_378]
-50-15	3389-3395	career	person[373]	new[373]	_	_
+50-6	3349-3351	to	_	_	_	_
+50-7	3352-3356	have	_	_	_	_
+50-8	3357-3358	a	_	_	_	_
+50-9	3359-3367	four-hit	_	_	_	_
+50-10	3368-3372	game	_	_	_	_
+50-11	3373-3375	so	_	_	_	_
+50-12	3376-3381	early	_	_	_	_
+50-13	3382-3384	in	_	_	_	_
+50-14	3385-3388	his	person[378]	giv[378]	ana	50-24[382_378]
+50-15	3389-3395	career	_	_	_	_
 50-16	3396-3399	was	_	_	_	_
 50-17	3400-3404	Jack	_	_	_	_
 50-18	3405-3411	Merson	_	_	_	_
@@ -1080,7 +1080,7 @@
 64-28	4708-4716	walk-off	_	_	_	_
 64-29	4717-4720	hit	_	_	_	_
 64-30	4721-4723	of	_	_	_	_
-64-31	4724-4727	his	abstract[516]|person[517]	giv[516]|giv[517]	coref|ana	65-17[526_516]|65-17[527_517]
+64-31	4724-4727	his	abstract[516]|person[517]	giv[516]|giv[517]	ana|coref	65-17[527_517]|65-17[526_516]
 64-32	4728-4734	career	abstract[516]	giv[516]	_	_
 64-33	4735-4736	.	_	_	_	_
 64-34	4737-4738	[	_	_	_	_

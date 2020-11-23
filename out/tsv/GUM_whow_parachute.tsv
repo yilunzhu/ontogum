@@ -146,7 +146,7 @@
 9-28	700-703	and	_	_	_	_
 9-29	704-714	signalling	_	_	_	_
 9-30	715-719	that	_	_	_	_
-9-31	720-724	your	object[47]|person[48]	giv[47]|giv[48]	coref|ana	25-26[154_47]|12-5[59_48]
+9-31	720-724	your	object[47]|person[48]	giv[47]|giv[48]	ana|coref	12-5[59_48]|25-26[154_47]
 9-32	725-728	own	object[47]	giv[47]	_	_
 9-33	729-731	is	_	_	_	_
 9-34	732-735	not	_	_	_	_
@@ -203,7 +203,7 @@
 12-26	951-954	the	_	_	_	_
 12-27	955-960	front	_	_	_	_
 12-28	961-963	of	_	_	_	_
-12-29	964-969	their	object[71]|person[72]	new[71]|giv[72]	coref|coref	16-8[98_71]|23-12[134_72]
+12-29	964-969	their	object[71]|person[72]	new[71]|giv[72]	coref|coref	23-12[134_72]|16-8[98_71]
 12-30	970-977	harness	object[71]	new[71]	_	_
 12-31	978-979	,	_	_	_	_
 12-32	980-982	as	_	_	_	_
@@ -518,7 +518,7 @@
 #Text=St Jude , the patron saint of Lost Causes , comes to mind .
 30-1	2394-2396	St	person[194]	new[194]	appos	30-4[195_194]
 30-2	2397-2401	Jude	person[194]	new[194]	_	_
-30-3	2402-2403	,	person[194]	new[194]	_	_
+30-3	2402-2403	,	_	_	_	_
 30-4	2404-2407	the	person[195]	giv[195]	_	_
 30-5	2408-2414	patron	person[195]	giv[195]	_	_
 30-6	2415-2420	saint	person[195]	giv[195]	_	_
@@ -646,7 +646,7 @@
 36-1	2964-2977	Alternatively	_	_	_	_
 36-2	2978-2979	,	_	_	_	_
 36-3	2980-2982	if	_	_	_	_
-36-4	2983-2987	life	event[230]|abstract[231]	new[230]|giv[231]	ana|ana	36-20[237_230]|36-31[239_231]
+36-4	2983-2987	life	event[230]|abstract[231]	new[230]|giv[231]	ana|ana	36-31[239_231]|36-20[237_230]
 36-5	2988-2991	has	event[230]	new[230]	_	_
 36-6	2992-2995	not	event[230]	new[230]	_	_
 36-7	2996-3000	been	event[230]	new[230]	_	_
@@ -729,7 +729,7 @@
 39-4	3351-3360	minuscule	_	_	_	_
 39-5	3361-3367	chance	_	_	_	_
 39-6	3368-3372	that	_	_	_	_
-39-7	3373-3377	your	event[264]|person[266]	new[264]|giv[266]	ana|ana	40-2[269_264]|40-8[270_266]
+39-7	3373-3377	your	event[264]|person[266]	new[264]|giv[266]	ana|ana	40-8[270_266]|40-2[269_264]
 39-8	3378-3384	impact	event[264]	new[264]	_	_
 39-9	3385-3389	will	event[264]	new[264]	_	_
 39-10	3390-3396	result	event[264]	new[264]	_	_
@@ -773,7 +773,7 @@
 41-1	3605-3609	Tips	_	_	_	_
 
 #Text=Your reserve chute should have been packed by a certified rigger and is moderately less likely to fail ;
-42-1	3610-3614	Your	object[282]|person[283]	new[282]|giv[283]	coref|ana	43-13[292_282]|43-9[290_283]
+42-1	3610-3614	Your	object[282]|person[283]	new[282]|giv[283]	ana|coref	43-9[290_283]|43-13[292_282]
 42-2	3615-3622	reserve	object[282]	new[282]	_	_
 42-3	3623-3628	chute	object[282]	new[282]	_	_
 42-4	3629-3635	should	_	_	_	_

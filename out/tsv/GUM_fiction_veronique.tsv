@@ -248,7 +248,7 @@
 
 #Text=" My father , he 's an anthropologist , " she said .
 20-1	833-834	"	_	_	_	_
-20-2	835-837	My	person[100]|person[101]	new[100]|giv[101]	ana|ana	20-5[102_100]|20-11[106_101]
+20-2	835-837	My	person[100]|person[101]	new[100]|giv[101]	ana|ana	20-11[106_101]|20-5[102_100]
 20-3	838-844	father	person[100]	new[100]	_	_
 20-4	845-846	,	_	_	_	_
 20-5	847-849	he	person[102]	giv[102]	ana	23-2[110_102]
@@ -407,10 +407,10 @@
 31-4	1429-1431	do	_	_	_	_
 31-5	1432-1435	you	person[161]	giv[161]	ana	32-3[176_161]
 31-6	1436-1440	know	_	_	_	_
-31-7	1441-1444	the	abstract[420]	new[420]	coref	32-5[421_420]
-31-8	1445-1449	word	abstract[420]	new[420]	_	_
-31-9	1450-1451	'	abstract[420]	new[420]	_	_
-31-10	1452-1459	history	abstract[420]	new[420]	_	_
+31-7	1441-1444	the	_	_	_	_
+31-8	1445-1449	word	_	_	_	_
+31-9	1450-1451	'	_	_	_	_
+31-10	1452-1459	history	abstract[174]	giv[174]	coref	32-5[389_174]
 31-11	1460-1461	'	_	_	_	_
 31-12	1462-1463	?	_	_	_	_
 31-13	1464-1465	"	_	_	_	_
@@ -423,12 +423,12 @@
 32-2	1481-1487	course	_	_	_	_
 32-3	1488-1489	I	person[176]	giv[176]	ana	33-2[182_176]
 32-4	1490-1494	knew	_	_	_	_
-32-5	1495-1498	the	abstract[180]|abstract[421]	giv[180]|giv[421]	appos|ana	32-7[389_180]|34-5[188_421]
-32-6	1499-1503	word	abstract[180]|abstract[421]	giv[180]|giv[421]	_	_
-32-7	1504-1505	"	abstract[389]|abstract[421]	giv[389]|giv[421]	_	_
-32-8	1506-1513	history	abstract[389]|abstract[421]	giv[389]|giv[421]	_	_
-32-9	1514-1515	.	abstract[389]|abstract[421]	giv[389]|giv[421]	_	_
-32-10	1516-1517	"	abstract[389]|abstract[421]	giv[389]|giv[421]	_	_
+32-5	1495-1498	the	abstract[389]	giv[389]	ana	34-5[188_389]
+32-6	1499-1503	word	abstract[389]	giv[389]	_	_
+32-7	1504-1505	"	abstract[389]	giv[389]	_	_
+32-8	1506-1513	history	abstract[389]	giv[389]	_	_
+32-9	1514-1515	.	_	_	_	_
+32-10	1516-1517	"	abstract[389]	giv[389]	_	_
 
 #Text=" I study history in school , " I said .
 33-1	1518-1519	"	_	_	_	_

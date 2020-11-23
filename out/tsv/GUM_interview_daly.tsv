@@ -19,12 +19,12 @@
 1-13	68-75	anemone	animal[6]	new[6]	_	_
 
 #Text=Tuesday , January 21 , 2014
-2-1	76-83	Tuesday	time[471]	new[471]	appos	2-3[11_471]
-2-2	84-85	,	time[471]	new[471]	_	_
-2-3	86-93	January	time[11]	giv[11]	_	_
-2-4	94-96	21	time[11]	giv[11]	_	_
-2-5	97-98	,	time[11]	giv[11]	_	_
-2-6	99-103	2014	time[11]	giv[11]	_	_
+2-1	76-83	Tuesday	_	_	_	_
+2-2	84-85	,	_	_	_	_
+2-3	86-93	January	_	_	_	_
+2-4	94-96	21	_	_	_	_
+2-5	97-98	,	_	_	_	_
+2-6	99-103	2014	_	_	_	_
 
 #Text=How did you come to be involved with this discovery
 3-1	104-107	How	_	_	_	_
@@ -379,8 +379,8 @@
 #Text=The samples we have are small in terms of numbers and they are all preserved in formalin ( a kind of formaldehyde solution ) .
 18-1	1797-1800	The	object[141]	giv[141]	ana	18-12[144_141]
 18-2	1801-1808	samples	object[141]	giv[141]	_	_
-18-3	1809-1811	we	person[142]|object[141]	acc[142]|giv[141]	ana	20-3[166_142]
-18-4	1812-1816	have	object[141]	giv[141]	_	_
+18-3	1809-1811	we	person[142]	acc[142]	ana	20-3[166_142]
+18-4	1812-1816	have	_	_	_	_
 18-5	1817-1820	are	_	_	_	_
 18-6	1821-1826	small	_	_	_	_
 18-7	1827-1829	in	_	_	_	_
@@ -621,7 +621,7 @@
 26-1	2925-2927	In	_	_	_	_
 26-2	2928-2933	terms	_	_	_	_
 26-3	2934-2936	of	_	_	_	_
-26-4	2937-2942	their	abstract[215]|animal[216]	giv[215]|giv[216]	ana|coref	26-10[218_215]|31-6[259_216]
+26-4	2937-2942	their	abstract[215]|animal[216]	giv[215]|giv[216]	coref|ana	31-6[259_216]|26-10[218_215]
 26-5	2943-2947	glow	abstract[215]	giv[215]	_	_
 26-6	2948-2949	,	_	_	_	_
 26-7	2950-2951	I	_	_	_	_
@@ -1134,7 +1134,7 @@
 48-11	5354-5360	fields	place[399]	new[399]	_	_
 48-12	5361-5362	"	place[399]	new[399]	_	_
 48-13	5363-5365	of	place[399]	new[399]	_	_
-48-14	5366-5374	anemones	place[399]	new[399]	_	_
+48-14	5366-5374	anemones	place[399]|animal[400]	new[399]|giv[400]	coref	49-5[403_400]
 48-15	5375-5376	-	_	_	_	_
 
 #Text=the group to which Edwardsiella andrillae belongs includes many species that reproduce asexually , and it 's possible that the fields are " clones " produced asexually rather than the result of sexual reproduction .
@@ -1142,8 +1142,8 @@
 49-2	5381-5386	group	_	_	_	_
 49-3	5387-5389	to	_	_	_	_
 49-4	5390-5395	which	_	_	_	_
-49-5	5396-5408	Edwardsiella	_	_	_	_
-49-6	5409-5418	andrillae	_	_	_	_
+49-5	5396-5408	Edwardsiella	animal[403]	giv[403]	coref	51-21[424_403]
+49-6	5409-5418	andrillae	animal[403]	giv[403]	_	_
 49-7	5419-5426	belongs	_	_	_	_
 49-8	5427-5435	includes	_	_	_	_
 49-9	5436-5440	many	_	_	_	_
@@ -1165,13 +1165,13 @@
 49-25	5524-5525	"	abstract[407]	new[407]	_	_
 49-26	5526-5534	produced	abstract[407]	new[407]	_	_
 49-27	5535-5544	asexually	abstract[407]	new[407]	_	_
-49-28	5545-5551	rather	abstract[407]	new[407]	_	_
-49-29	5552-5556	than	abstract[407]	new[407]	_	_
-49-30	5557-5560	the	abstract[407]	new[407]	_	_
-49-31	5561-5567	result	abstract[407]	new[407]	_	_
-49-32	5568-5570	of	abstract[407]	new[407]	_	_
-49-33	5571-5577	sexual	abstract[407]	new[407]	_	_
-49-34	5578-5590	reproduction	abstract[407]	new[407]	_	_
+49-28	5545-5551	rather	_	_	_	_
+49-29	5552-5556	than	_	_	_	_
+49-30	5557-5560	the	_	_	_	_
+49-31	5561-5567	result	_	_	_	_
+49-32	5568-5570	of	_	_	_	_
+49-33	5571-5577	sexual	_	_	_	_
+49-34	5578-5590	reproduction	_	_	_	_
 49-35	5591-5592	.	_	_	_	_
 
 #Text=DNA is the only way to test this .
@@ -1206,8 +1206,8 @@
 51-18	5709-5714	known	_	_	_	_
 51-19	5715-5725	localities	_	_	_	_
 51-20	5726-5729	for	_	_	_	_
-51-21	5730-5732	E.	_	_	_	_
-51-22	5733-5742	andrillae	_	_	_	_
+51-21	5730-5732	E.	animal[424]	giv[424]	_	_
+51-22	5733-5742	andrillae	animal[424]	giv[424]	_	_
 51-23	5743-5751	relative	_	_	_	_
 51-24	5752-5754	to	_	_	_	_
 51-25	5755-5762	McMurdo	_	_	_	_

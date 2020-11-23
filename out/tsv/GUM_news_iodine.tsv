@@ -12,12 +12,12 @@
 1-6	42-52	deficiency	_	_	_	_
 
 #Text=Thursday , February 23 , 2006
-2-1	53-61	Thursday	time[461]	acc[461]	appos	2-3[7_461]
-2-2	62-63	,	time[461]	acc[461]	_	_
-2-3	64-72	February	time[7]	giv[7]	_	_
-2-4	73-75	23	time[7]	giv[7]	_	_
-2-5	76-77	,	time[7]	giv[7]	_	_
-2-6	78-82	2006	time[7]|time[8]	giv[7]|acc[8]	coref	36-23[372_8]
+2-1	53-61	Thursday	_	_	_	_
+2-2	62-63	,	_	_	_	_
+2-3	64-72	February	_	_	_	_
+2-4	73-75	23	_	_	_	_
+2-5	76-77	,	_	_	_	_
+2-6	78-82	2006	time[8]	acc[8]	coref	36-23[372_8]
 
 #Text=Almost half of all Australian primary school children are mild to moderately iodine deficient , researchers say .
 3-1	83-89	Almost	_	_	_	_
@@ -106,15 +106,15 @@
 6-7	544-550	Iodine	abstract[38]|abstract[39]	new[38]|giv[39]	_	_
 6-8	551-560	Nutrition	abstract[38]|abstract[39]	new[38]|giv[39]	_	_
 6-9	561-566	Study	abstract[38]|abstract[39]	new[38]|giv[39]	_	_
-6-10	567-576	published	abstract[38]|abstract[39]	new[38]|new[39]	_	_
-6-11	577-579	in	abstract[38]|abstract[39]	new[38]|new[39]	_	_
-6-12	580-583	the	abstract[38]|abstract[39]	new[38]|new[39]	_	_
-6-13	584-591	Medical	abstract[38]|abstract[39]	new[38]|new[39]	_	_
-6-14	592-599	Journal	abstract[38]|abstract[39]	new[38]|new[39]	_	_
-6-15	600-602	of	abstract[38]|abstract[39]	new[38]|new[39]	_	_
-6-16	603-612	Australia	abstract[38]|place[43]|abstract[39]	new[38]|giv[43]|new[39]	coref	12-15[103_43]
-6-17	613-617	this	abstract[38]|abstract[39]	new[38]|new[39]	_	_
-6-18	618-622	week	abstract[38]|abstract[39]	new[38]|new[39]	_	_
+6-10	567-576	published	abstract[38]	new[38]	_	_
+6-11	577-579	in	abstract[38]	new[38]	_	_
+6-12	580-583	the	abstract[38]	new[38]	_	_
+6-13	584-591	Medical	abstract[38]	new[38]	_	_
+6-14	592-599	Journal	abstract[38]	new[38]	_	_
+6-15	600-602	of	abstract[38]	new[38]	_	_
+6-16	603-612	Australia	abstract[38]|place[43]	new[38]|giv[43]	coref	12-15[103_43]
+6-17	613-617	this	abstract[38]	new[38]	_	_
+6-18	618-622	week	abstract[38]	new[38]	_	_
 6-19	623-624	,	abstract[38]	new[38]	_	_
 6-20	625-633	revealed	_	_	_	_
 6-21	634-638	that	_	_	_	_
@@ -287,30 +287,30 @@
 13-13	1519-1520	.	_	_	_	_
 
 #Text=Professor Cres Eastman , Director of the National Iodine Nutrition study , and Chairman of the Australian Centre for Control of Iodine Deficiency Disorders , says it is crucial that children and pregnant women in particular have an adequate intake of iodine .
-14-1	1521-1530	Professor	person[115]|person[523]	new[115]|new[523]	appos|coref	14-5[116_115]|16-1[145_523]
-14-2	1531-1535	Cres	person[115]|person[523]	new[115]|new[523]	_	_
-14-3	1536-1543	Eastman	person[115]|person[523]	new[115]|new[523]	_	_
-14-4	1544-1545	,	person[115]|person[523]	new[115]|new[523]	_	_
-14-5	1546-1554	Director	person[116]|person[523]	giv[116]|new[523]	_	_
-14-6	1555-1557	of	person[116]|person[523]	giv[116]|new[523]	_	_
-14-7	1558-1561	the	person[116]|abstract[117]|person[523]	giv[116]|giv[117]|new[523]	coref	18-1[175_117]
-14-8	1562-1570	National	person[116]|abstract[117]|person[523]	giv[116]|giv[117]|new[523]	_	_
-14-9	1571-1577	Iodine	person[116]|abstract[117]|substance[118]|person[523]	giv[116]|giv[117]|giv[118]|new[523]	coref	14-22[124_118]
-14-10	1578-1587	Nutrition	person[116]|abstract[117]|person[523]	giv[116]|giv[117]|new[523]	_	_
-14-11	1588-1593	study	person[116]|abstract[117]|person[523]	giv[116]|giv[117]|new[523]	_	_
-14-12	1594-1595	,	person[116]|person[523]	giv[116]|new[523]	_	_
-14-13	1596-1599	and	person[116]|person[523]	giv[116]|new[523]	_	_
-14-14	1600-1608	Chairman	person[116]|person[523]	giv[116]|new[523]	_	_
-14-15	1609-1611	of	person[116]|person[523]	giv[116]|new[523]	_	_
-14-16	1612-1615	the	person[116]|person[523]	giv[116]|new[523]	_	_
-14-17	1616-1626	Australian	person[116]|person[523]	giv[116]|new[523]	_	_
-14-18	1627-1633	Centre	person[116]|person[523]	giv[116]|new[523]	_	_
-14-19	1634-1637	for	person[116]|person[523]	giv[116]|new[523]	_	_
-14-20	1638-1645	Control	person[116]|person[523]	giv[116]|new[523]	_	_
-14-21	1646-1648	of	person[116]|person[523]	giv[116]|new[523]	_	_
-14-22	1649-1655	Iodine	abstract[122]|substance[124]|person[116]|person[523]	giv[122]|giv[124]|giv[116]|new[523]	coref	29-7[298_122]
-14-23	1656-1666	Deficiency	abstract[122]|person[116]|person[523]	giv[122]|giv[116]|new[523]	_	_
-14-24	1667-1676	Disorders	abstract[122]|person[116]|person[523]	giv[122]|giv[116]|new[523]	_	_
+14-1	1521-1530	Professor	person[115]|person[462]	new[115]|new[462]	coref|appos	14-14[120_462]|14-5[116_115]
+14-2	1531-1535	Cres	person[115]|person[462]	new[115]|new[462]	_	_
+14-3	1536-1543	Eastman	person[115]|person[462]	new[115]|new[462]	_	_
+14-4	1544-1545	,	person[462]	new[462]	_	_
+14-5	1546-1554	Director	person[116]|person[462]	giv[116]|new[462]	_	_
+14-6	1555-1557	of	person[116]|person[462]	giv[116]|new[462]	_	_
+14-7	1558-1561	the	person[116]|abstract[117]|person[462]	giv[116]|giv[117]|new[462]	coref	18-1[175_117]
+14-8	1562-1570	National	person[116]|abstract[117]|person[462]	giv[116]|giv[117]|new[462]	_	_
+14-9	1571-1577	Iodine	person[116]|abstract[117]|substance[118]|person[462]	giv[116]|giv[117]|giv[118]|new[462]	coref	14-22[124_118]
+14-10	1578-1587	Nutrition	person[116]|abstract[117]|person[462]	giv[116]|giv[117]|new[462]	_	_
+14-11	1588-1593	study	person[116]|abstract[117]|person[462]	giv[116]|giv[117]|new[462]	_	_
+14-12	1594-1595	,	_	_	_	_
+14-13	1596-1599	and	_	_	_	_
+14-14	1600-1608	Chairman	person[120]	giv[120]	coref	16-1[145_120]
+14-15	1609-1611	of	person[120]	giv[120]	_	_
+14-16	1612-1615	the	person[120]	giv[120]	_	_
+14-17	1616-1626	Australian	person[120]	giv[120]	_	_
+14-18	1627-1633	Centre	person[120]	giv[120]	_	_
+14-19	1634-1637	for	person[120]	giv[120]	_	_
+14-20	1638-1645	Control	person[120]	giv[120]	_	_
+14-21	1646-1648	of	person[120]	giv[120]	_	_
+14-22	1649-1655	Iodine	person[120]|abstract[122]|substance[124]	giv[120]|giv[122]|giv[124]	coref	29-7[298_122]
+14-23	1656-1666	Deficiency	person[120]|abstract[122]	giv[120]|giv[122]	_	_
+14-24	1667-1676	Disorders	person[120]|abstract[122]	giv[120]|giv[122]	_	_
 14-25	1677-1678	,	_	_	_	_
 14-26	1679-1683	says	_	_	_	_
 14-27	1684-1686	it	_	_	_	_
@@ -545,7 +545,7 @@
 22-16	2906-2919	contravention	_	_	_	_
 22-17	2920-2922	of	_	_	_	_
 22-18	2923-2924	a	_	_	_	_
-22-19	2925-2930	World	organization[212]	new[212]	coref	28-1[524_212]
+22-19	2925-2930	World	organization[212]	new[212]	coref	28-1[463_212]
 22-20	2931-2937	Health	organization[212]	new[212]	_	_
 22-21	2938-2950	Organisation	organization[212]	new[212]	_	_
 22-22	2951-2965	recommendation	_	_	_	_
@@ -707,7 +707,7 @@
 26-37	3739-3740	a	_	_	_	_
 26-38	3741-3747	goiter	_	_	_	_
 26-39	3748-3751	and	_	_	_	_
-26-40	3752-3756	your	object[274]|person[275]	giv[274]|giv[275]	ana|ana	26-48[276_274]|34-7[345_275]
+26-40	3752-3756	your	object[274]|person[275]	giv[274]|giv[275]	ana|ana	34-7[345_275]|26-48[276_274]
 26-41	3757-3764	thyroid	object[274]	giv[274]	_	_
 26-42	3765-3767	wo	_	_	_	_
 26-43	3768-3771	n't	_	_	_	_
@@ -762,13 +762,13 @@
 27-24	4011-4012	.	_	_	_	_
 
 #Text=The World Health Organisation ( WHO ) recommends that every country should iodise all edible salt .
-28-1	4013-4016	The	organization[292]|organization[524]	giv[292]|giv[524]	appos|coref	28-5[492_292]|30-1[308_524]
-28-2	4017-4022	World	organization[292]|organization[524]	giv[292]|giv[524]	_	_
-28-3	4023-4029	Health	organization[292]|organization[524]	giv[292]|giv[524]	_	_
-28-4	4030-4042	Organisation	organization[292]|organization[524]	giv[292]|giv[524]	_	_
-28-5	4043-4044	(	organization[492]|organization[524]	giv[492]|giv[524]	_	_
-28-6	4045-4048	WHO	organization[492]|organization[524]	giv[492]|giv[524]	_	_
-28-7	4049-4050	)	organization[492]|organization[524]	giv[492]|giv[524]	_	_
+28-1	4013-4016	The	organization[292]|organization[463]	giv[292]|giv[463]	coref|appos	30-1[308_463]|28-6[293_292]
+28-2	4017-4022	World	organization[292]|organization[463]	giv[292]|giv[463]	_	_
+28-3	4023-4029	Health	organization[292]|organization[463]	giv[292]|giv[463]	_	_
+28-4	4030-4042	Organisation	organization[292]|organization[463]	giv[292]|giv[463]	_	_
+28-5	4043-4044	(	organization[463]	giv[463]	_	_
+28-6	4045-4048	WHO	organization[293]|organization[463]	giv[293]|giv[463]	_	_
+28-7	4049-4050	)	_	_	_	_
 28-8	4051-4061	recommends	_	_	_	_
 28-9	4062-4066	that	_	_	_	_
 28-10	4067-4072	every	_	_	_	_
@@ -845,7 +845,7 @@
 
 #Text=" Pregnant women in Australia are getting about half as much as what they require on a daily basis .
 32-1	4429-4430	"	_	_	_	_
-32-2	4431-4439	Pregnant	event[323]|person[324]	new[323]|giv[324]	ana|ana	33-2[327_323]|32-14[326_324]
+32-2	4431-4439	Pregnant	event[323]|person[324]	new[323]|giv[324]	ana|ana	32-14[326_324]|33-2[327_323]
 32-3	4440-4445	women	event[323]|person[324]	new[323]|giv[324]	_	_
 32-4	4446-4448	in	event[323]|person[324]	new[323]|giv[324]	_	_
 32-5	4449-4458	Australia	event[323]|person[324]|place[325]	new[323]|giv[324]|giv[325]	coref	33-26[340_325]

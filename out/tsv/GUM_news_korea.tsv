@@ -16,12 +16,12 @@
 1-10	50-51	'	_	_	_	_
 
 #Text=Friday , August 21 , 2015
-2-1	52-58	Friday	time[163]	acc[163]	appos	2-3[7_163]
-2-2	59-60	,	time[163]	acc[163]	_	_
-2-3	61-67	August	time[7]	acc[7]	_	_
-2-4	68-70	21	time[7]	acc[7]	_	_
-2-5	71-72	,	time[7]	acc[7]	_	_
-2-6	73-77	2015	time[7]	acc[7]	_	_
+2-1	52-58	Friday	_	_	_	_
+2-2	59-60	,	_	_	_	_
+2-3	61-67	August	_	_	_	_
+2-4	68-70	21	_	_	_	_
+2-5	71-72	,	_	_	_	_
+2-6	73-77	2015	_	_	_	_
 
 #Text=According to Yonhap news agency , quoting North Korea 's main news agency Korean Central News Agency ( KCNA ) , the country 's military has been placed on high alert and has been told to prepare a " quasi-state of war " .
 3-1	78-87	According	_	_	_	_
@@ -31,21 +31,21 @@
 3-5	103-109	agency	_	_	_	_
 3-6	110-111	,	_	_	_	_
 3-7	112-119	quoting	_	_	_	_
-3-8	120-125	North	organization[11]|organization[256]	new[11]|new[256]	appos|coref	3-18[194_11]|7-32[57_256]
-3-9	126-131	Korea	organization[11]|organization[256]	new[11]|new[256]	_	_
-3-10	132-134	's	organization[11]|organization[256]	new[11]|new[256]	_	_
-3-11	135-139	main	organization[11]|organization[256]	new[11]|new[256]	_	_
-3-12	140-144	news	organization[11]|organization[256]	new[11]|new[256]	_	_
-3-13	145-151	agency	organization[11]|organization[256]	new[11]|new[256]	_	_
-3-14	152-158	Korean	organization[11]|organization[256]	new[11]|new[256]	_	_
-3-15	159-166	Central	organization[11]|organization[256]	new[11]|new[256]	_	_
-3-16	167-171	News	organization[11]|organization[256]	new[11]|new[256]	_	_
-3-17	172-178	Agency	organization[11]|organization[256]	new[11]|new[256]	_	_
-3-18	179-180	(	organization[194]|organization[256]	giv[194]|new[256]	_	_
-3-19	181-185	KCNA	organization[194]|organization[256]	giv[194]|new[256]	_	_
-3-20	186-187	)	organization[194]|organization[256]	giv[194]|new[256]	_	_
+3-8	120-125	North	organization[11]|organization[164]	new[11]|new[164]	appos|coref	3-19[13_11]|7-32[57_164]
+3-9	126-131	Korea	organization[11]|organization[164]	new[11]|new[164]	_	_
+3-10	132-134	's	organization[11]|organization[164]	new[11]|new[164]	_	_
+3-11	135-139	main	organization[11]|organization[164]	new[11]|new[164]	_	_
+3-12	140-144	news	organization[11]|organization[164]	new[11]|new[164]	_	_
+3-13	145-151	agency	organization[11]|organization[164]	new[11]|new[164]	_	_
+3-14	152-158	Korean	organization[11]|organization[164]	new[11]|new[164]	_	_
+3-15	159-166	Central	organization[11]|organization[164]	new[11]|new[164]	_	_
+3-16	167-171	News	organization[11]|organization[164]	new[11]|new[164]	_	_
+3-17	172-178	Agency	organization[11]|organization[164]	new[11]|new[164]	_	_
+3-18	179-180	(	organization[164]	new[164]	_	_
+3-19	181-185	KCNA	organization[13]|organization[164]	giv[13]|new[164]	_	_
+3-20	186-187	)	_	_	_	_
 3-21	188-189	,	_	_	_	_
-3-22	190-193	the	event[15]|organization[16]|organization[17]	new[15]|giv[16]|giv[17]	coref|coref|coref	4-1[19_15]|6-11[41_16]|4-5[21_17]
+3-22	190-193	the	event[15]|organization[16]|organization[17]	new[15]|giv[16]|giv[17]	coref|coref|coref	6-11[41_16]|4-5[21_17]|4-1[19_15]
 3-23	194-201	country	event[15]|organization[16]|organization[17]	new[15]|giv[16]|giv[17]	_	_
 3-24	202-204	's	event[15]|organization[16]|organization[17]	new[15]|giv[16]|giv[17]	_	_
 3-25	205-213	military	event[15]|organization[16]	new[15]|giv[16]	_	_
@@ -167,7 +167,7 @@
 7-19	785-791	shells	_	_	_	_
 7-20	792-796	fell	_	_	_	_
 7-21	797-801	near	_	_	_	_
-7-22	802-805	KPA	organization[56]	giv[56]	coref	8-27[257_56]
+7-22	802-805	KPA	organization[56]	giv[56]	coref	8-27[165_56]
 7-23	806-811	civil	_	_	_	_
 7-24	812-818	police	_	_	_	_
 7-25	819-824	posts	_	_	_	_
@@ -207,14 +207,14 @@
 8-24	969-976	supreme	_	_	_	_
 8-25	977-986	commander	_	_	_	_
 8-26	987-989	of	_	_	_	_
-8-27	990-993	the	organization[67]|organization[257]	giv[67]|new[257]	appos|coref	8-32[225_67]|8-42[71_257]
-8-28	994-1000	Korean	organization[67]|organization[257]	giv[67]|new[257]	_	_
-8-29	1001-1007	People	organization[67]|organization[257]	giv[67]|new[257]	_	_
-8-30	1008-1010	's	organization[67]|organization[257]	giv[67]|new[257]	_	_
-8-31	1011-1015	Army	organization[67]|organization[257]	giv[67]|new[257]	_	_
-8-32	1016-1017	[	organization[225]|organization[257]	giv[225]|new[257]	_	_
-8-33	1018-1021	KPA	organization[225]|organization[257]	giv[225]|new[257]	_	_
-8-34	1022-1023	]	organization[225]|organization[257]	giv[225]|new[257]	_	_
+8-27	990-993	the	organization[67]|organization[165]	giv[67]|new[165]	appos|coref	8-33[68_67]|8-42[71_165]
+8-28	994-1000	Korean	organization[67]|organization[165]	giv[67]|new[165]	_	_
+8-29	1001-1007	People	organization[67]|organization[165]	giv[67]|new[165]	_	_
+8-30	1008-1010	's	organization[67]|organization[165]	giv[67]|new[165]	_	_
+8-31	1011-1015	Army	organization[67]|organization[165]	giv[67]|new[165]	_	_
+8-32	1016-1017	[	organization[165]	new[165]	_	_
+8-33	1018-1021	KPA	organization[68]|organization[165]	giv[68]|new[165]	_	_
+8-34	1022-1023	]	_	_	_	_
 8-35	1024-1028	that	_	_	_	_
 8-36	1029-1032	the	_	_	_	_
 8-37	1033-1043	front-line	_	_	_	_
@@ -256,13 +256,13 @@
 9-12	1234-1236	in	_	_	_	_
 9-13	1237-1242	South	organization[79]	giv[79]	coref	10-26[87_79]
 9-14	1243-1248	Korea	organization[79]	giv[79]	_	_
-9-15	1249-1253	that	organization[79]	new[79]	_	_
-9-16	1254-1264	broadcasts	organization[79]	new[79]	_	_
-9-17	1265-1279	anti-Pyongyang	organization[79]	new[79]	_	_
-9-18	1280-1290	propaganda	organization[79]	new[79]	_	_
-9-19	1291-1295	into	organization[79]	new[79]	_	_
-9-20	1296-1299	the	organization[81]|organization[79]	giv[81]|new[79]	coref	12-12[110_81]
-9-21	1300-1305	North	organization[81]|organization[79]	giv[81]|new[79]	_	_
+9-15	1249-1253	that	_	_	_	_
+9-16	1254-1264	broadcasts	_	_	_	_
+9-17	1265-1279	anti-Pyongyang	_	_	_	_
+9-18	1280-1290	propaganda	_	_	_	_
+9-19	1291-1295	into	_	_	_	_
+9-20	1296-1299	the	organization[81]	giv[81]	coref	12-12[110_81]
+9-21	1300-1305	North	organization[81]	giv[81]	_	_
 9-22	1306-1307	.	_	_	_	_
 
 #Text=" Commanders of the Korean People 's Army were hastily dispatched to the front-line troops to command military operations to destroy psychological warfare tools if the enemy does not stop the propaganda broadcast within 48 hours and prepare against the enemy 's possible counteractions " , added KCNA .

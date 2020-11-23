@@ -21,7 +21,7 @@
 2-12	51-52	.	_	_	_	_
 
 #Text=My sixteen-year-old daughter pulls up her T-shirt sleeve to show her bare arm , the skin summer brown and the muscle swelling slightly into smooth biceps , flawless .
-3-1	53-55	My	person[9]|person[10]	giv[9]|acc[10]	ana|ana	3-6[13_9]|5-1[34_10]
+3-1	53-55	My	person[9]|person[10]	giv[9]|acc[10]	ana|ana	5-1[34_10]|3-6[13_9]
 3-2	56-72	sixteen-year-old	person[9]	giv[9]	_	_
 3-3	73-81	daughter	person[9]	giv[9]	_	_
 3-4	82-87	pulls	_	_	_	_
@@ -31,7 +31,7 @@
 3-8	103-109	sleeve	_	_	_	_
 3-9	110-112	to	_	_	_	_
 3-10	113-117	show	_	_	_	_
-3-11	118-121	her	object[17]|person[18]	new[17]|giv[18]	coref|ana	50-19[293_17]|4-2[25_18]
+3-11	118-121	her	object[17]|person[18]	new[17]|giv[18]	ana|coref	4-2[25_18]|50-19[293_17]
 3-12	122-126	bare	object[17]	new[17]	_	_
 3-13	127-130	arm	object[17]	new[17]	_	_
 3-14	131-132	,	_	_	_	_
@@ -122,15 +122,15 @@
 7-17	508-509	.	_	_	_	_
 
 #Text=The doctor , a woman I do n’t know , is sitting in the other chair .
-8-1	510-513	The	person[49]|person[539]	new[49]|new[539]	appos|coref	8-4[50_49]|20-1[113_539]
-8-2	514-520	doctor	person[49]|person[539]	new[49]|new[539]	_	_
-8-3	521-522	,	person[49]|person[539]	new[49]|new[539]	_	_
-8-4	523-524	a	person[50]|person[539]	giv[50]|new[539]	_	_
-8-5	525-530	woman	person[50]|person[539]	giv[50]|new[539]	_	_
-8-6	531-532	I	person[50]|person[51]|person[539]	giv[50]|giv[51]|new[539]	ana	9-1[55_51]
-8-7	533-535	do	person[50]|person[539]	giv[50]|new[539]	_	_
-8-8	536-539	n’t	person[50]|person[539]	giv[50]|new[539]	_	_
-8-9	540-544	know	person[50]|person[539]	giv[50]|new[539]	_	_
+8-1	510-513	The	person[477]	new[477]	coref	20-1[113_477]
+8-2	514-520	doctor	person[477]	new[477]	_	_
+8-3	521-522	,	person[477]	new[477]	_	_
+8-4	523-524	a	person[477]	new[477]	_	_
+8-5	525-530	woman	person[477]	new[477]	_	_
+8-6	531-532	I	person[51]|person[477]	giv[51]|new[477]	ana	9-1[55_51]
+8-7	533-535	do	person[477]	new[477]	_	_
+8-8	536-539	n’t	person[477]	new[477]	_	_
+8-9	540-544	know	person[477]	new[477]	_	_
 8-10	545-546	,	_	_	_	_
 8-11	547-549	is	_	_	_	_
 8-12	550-557	sitting	_	_	_	_
@@ -141,7 +141,7 @@
 8-17	577-578	.	_	_	_	_
 
 #Text=My mother is bewildered , her face turned up towards me .
-9-1	579-581	My	person[54]|person[55]	giv[54]|giv[55]	ana|ana	9-6[58_54]|9-11[59_55]
+9-1	579-581	My	person[54]|person[55]	giv[54]|giv[55]	ana|ana	9-11[59_55]|9-6[58_54]
 9-2	582-588	mother	person[54]	giv[54]	_	_
 9-3	589-591	is	_	_	_	_
 9-4	592-602	bewildered	_	_	_	_
@@ -176,7 +176,7 @@
 11-11	692-693	.	_	_	_	_
 
 #Text=She wants to understand , I can see that .
-12-1	694-697	She	event[71]|person[72]	new[71]|giv[72]	ana|ana	12-9[74_71]|14-12[84_72]
+12-1	694-697	She	event[71]|person[72]	new[71]|giv[72]	ana|ana	14-12[84_72]|12-9[74_71]
 12-2	698-703	wants	event[71]	new[71]	_	_
 12-3	704-706	to	event[71]	new[71]	_	_
 12-4	707-717	understand	event[71]	new[71]	_	_
@@ -310,7 +310,7 @@
 21-1	1205-1208	The	person[120]	giv[120]	ana	21-13[124_120]
 21-2	1209-1215	doctor	person[120]	giv[120]	_	_
 21-3	1216-1221	swabs	_	_	_	_
-21-4	1222-1225	her	object[121]|person[122]	new[121]|giv[122]	ana|ana	21-22[127_121]|21-18[125_122]
+21-4	1222-1225	her	object[121]|person[122]	new[121]|giv[122]	ana|ana	21-18[125_122]|21-22[127_121]
 21-5	1226-1231	upper	object[121]	new[121]	_	_
 21-6	1232-1235	arm	object[121]	new[121]	_	_
 21-7	1236-1240	with	_	_	_	_
@@ -378,7 +378,7 @@
 24-4	1470-1471	.	_	_	_	_
 
 #Text=She has professional hair , lightly streaked .
-25-1	1472-1475	She	abstract[150]|person[151]	new[150]|giv[151]	ana|ana	26-1[154_150]|26-7[157_151]
+25-1	1472-1475	She	abstract[150]|person[151]	new[150]|giv[151]	ana|ana	26-7[157_151]|26-1[154_150]
 25-2	1476-1479	has	abstract[150]	new[150]	_	_
 25-3	1480-1492	professional	abstract[150]	new[150]	_	_
 25-4	1493-1497	hair	abstract[150]	new[150]	_	_
@@ -464,7 +464,7 @@
 33-7	1762-1763	.	_	_	_	_
 
 #Text=My mother says , “ Is it time to go ? ”
-34-1	1764-1766	My	person[182]|person[183]	giv[182]|giv[183]	ana|ana	36-7[190_182]|35-6[188_183]
+34-1	1764-1766	My	person[182]|person[183]	giv[182]|giv[183]	ana|ana	35-6[188_183]|36-7[190_182]
 34-2	1767-1773	mother	person[182]	giv[182]	_	_
 34-3	1774-1778	says	_	_	_	_
 34-4	1779-1780	,	_	_	_	_
@@ -512,7 +512,7 @@
 
 #Text=“ They ’re going to implant a chip .
 38-1	1900-1901	“	_	_	_	_
-38-2	1902-1906	They	event[198]|person[199]	new[198]|giv[199]	ana|ana	40-5[206_198]|39-4[203_199]
+38-2	1902-1906	They	event[198]|person[199]	new[198]|giv[199]	ana|ana	39-4[203_199]|40-5[206_198]
 38-3	1907-1910	’re	event[198]	new[198]	_	_
 38-4	1911-1916	going	event[198]	new[198]	_	_
 38-5	1917-1919	to	event[198]	new[198]	_	_
@@ -607,7 +607,7 @@
 44-8	2225-2226	.	_	_	_	_
 
 #Text=The doctor has an injection gun and while my mother is focused on my daughter , she puts it firmly against my mother ’s arm and puts the chip in .
-45-1	2227-2230	The	event[243]|person[244]	new[243]|giv[244]	ana|ana	47-1[263_243]|45-17[251_244]
+45-1	2227-2230	The	event[243]|person[244]	new[243]|giv[244]	ana|ana	45-17[251_244]|47-1[263_243]
 45-2	2231-2237	doctor	event[243]|person[244]	new[243]|giv[244]	_	_
 45-3	2238-2241	has	event[243]	new[243]	_	_
 45-4	2242-2244	an	event[243]|object[245]	new[243]|new[245]	ana	45-19[252_245]
@@ -615,7 +615,7 @@
 45-6	2255-2258	gun	event[243]|object[245]	new[243]|new[245]	_	_
 45-7	2259-2262	and	event[243]	new[243]	_	_
 45-8	2263-2268	while	event[243]	new[243]	_	_
-45-9	2269-2271	my	event[243]|person[246]|person[247]	new[243]|giv[246]|giv[247]	coref|ana	46-6[261_246]|45-14[250_247]
+45-9	2269-2271	my	event[243]|person[246]|person[247]	new[243]|giv[246]|giv[247]	ana|coref	45-14[250_247]|46-6[261_246]
 45-10	2272-2278	mother	event[243]|person[246]	new[243]|giv[246]	_	_
 45-11	2279-2281	is	event[243]	new[243]	_	_
 45-12	2282-2289	focused	event[243]	new[243]	_	_
@@ -645,7 +645,7 @@
 46-3	2379-2380	!	_	_	_	_
 46-4	2381-2382	”	_	_	_	_
 46-5	2383-2387	says	_	_	_	_
-46-6	2388-2390	my	person[261]|person[262]	giv[261]|giv[262]	coref|ana	47-17[272_261]|47-10[268_262]
+46-6	2388-2390	my	person[261]|person[262]	giv[261]|giv[262]	ana|coref	47-10[268_262]|47-17[272_261]
 46-7	2391-2397	mother	person[261]	giv[261]	_	_
 46-8	2398-2399	.	_	_	_	_
 
@@ -730,11 +730,11 @@
 50-26	2731-2734	the	object[299]	giv[299]	_	_
 50-27	2735-2739	chip	object[299]	giv[299]	_	_
 50-28	2740-2742	is	_	_	_	_
-50-29	2743-2750	nothing	object[477]	giv[477]	appos	50-31[302_477]
-50-30	2751-2752	,	object[477]	giv[477]	_	_
-50-31	2753-2760	nothing	object[302]	giv[302]	_	_
-50-32	2761-2763	at	object[302]	giv[302]	_	_
-50-33	2764-2767	all	object[302]	giv[302]	_	_
+50-29	2743-2750	nothing	_	_	_	_
+50-30	2751-2752	,	_	_	_	_
+50-31	2753-2760	nothing	_	_	_	_
+50-32	2761-2763	at	_	_	_	_
+50-33	2764-2767	all	_	_	_	_
 50-34	2768-2769	.	_	_	_	_
 
 #Text=The last two nights I have dreamed of dogs in trouble .
@@ -772,10 +772,10 @@
 52-18	2900-2908	thinking	event[318]	new[318]	cata	52-16[315_318]
 52-19	2909-2914	about	event[318]	new[318]	_	_
 52-20	2915-2921	Renata	event[318]|person[319]	new[318]|giv[319]	coref	54-6[337_319]
-52-21	2922-2926	that	event[318]	new[318]	_	_
-52-22	2927-2932	keeps	event[318]	new[318]	_	_
-52-23	2933-2935	me	person[320]|event[318]	giv[320]|new[318]	ana	53-4[325_320]
-52-24	2936-2941	awake	event[318]	new[318]	_	_
+52-21	2922-2926	that	_	_	_	_
+52-22	2927-2932	keeps	_	_	_	_
+52-23	2933-2935	me	person[320]	giv[320]	ana	53-4[325_320]
+52-24	2936-2941	awake	_	_	_	_
 52-25	2942-2943	.	_	_	_	_
 
 #Text=The first night I dreamed of seeing a stray dog and not stopping to pick it up although it was wandering in an empty parking lot near a busy road .
@@ -873,11 +873,11 @@
 57-11	3343-3349	desert	event[357]	new[357]	_	_
 57-12	3350-3356	island	event[357]	new[357]	_	_
 57-13	3357-3360	and	event[357]	new[357]	_	_
-57-14	3361-3366	Sonia	event[357]|animal[508]|animal[542]	new[357]|new[508]|new[542]	appos|coref	57-16[365_508]|58-8[371_542]
-57-15	3367-3368	,	event[357]|animal[508]|animal[542]	new[357]|new[508]|new[542]	_	_
-57-16	3369-3372	our	event[357]|animal[365]|person[366]|animal[542]	new[357]|giv[365]|giv[366]|new[542]	_	_
-57-17	3373-3379	golden	event[357]|animal[365]|animal[542]	new[357]|giv[365]|new[542]	_	_
-57-18	3380-3389	retriever	event[357]|animal[365]|animal[542]	new[357]|giv[365]|new[542]	_	_
+57-14	3361-3366	Sonia	event[357]|animal[363]|animal[479]	new[357]|new[363]|new[479]	coref|appos	58-8[371_479]|57-16[365_363]
+57-15	3367-3368	,	event[357]|animal[479]	new[357]|new[479]	_	_
+57-16	3369-3372	our	event[357]|animal[365]|person[366]|animal[479]	new[357]|giv[365]|giv[366]|new[479]	_	_
+57-17	3373-3379	golden	event[357]|animal[365]|animal[479]	new[357]|giv[365]|new[479]	_	_
+57-18	3380-3389	retriever	event[357]|animal[365]|animal[479]	new[357]|giv[365]|new[479]	_	_
 57-19	3390-3391	,	event[357]	new[357]	_	_
 57-20	3392-3395	was	event[357]	new[357]	_	_
 57-21	3396-3400	with	event[357]	new[357]	_	_
@@ -945,7 +945,7 @@
 
 #Text=In my dream I told her , “ Stay , Sonia . Stay . ”
 61-1	3647-3649	In	_	_	_	_
-61-2	3650-3652	my	event[403]|person[404]	giv[403]|giv[404]	ana|ana	66-1[437_403]|61-4[405_404]
+61-2	3650-3652	my	event[403]|person[404]	giv[403]|giv[404]	ana|ana	61-4[405_404]|66-1[437_403]
 61-3	3653-3658	dream	event[403]	giv[403]	_	_
 61-4	3659-3660	I	person[405]	giv[405]	ana	62-4[409_405]
 61-5	3661-3665	told	_	_	_	_
@@ -1028,7 +1028,7 @@
 66-2	3931-3934	was	_	_	_	_
 66-3	3935-3939	last	time[443]	giv[443]	appos	66-6[444_443]
 66-4	3940-3945	night	time[443]	giv[443]	_	_
-66-5	3946-3947	,	time[443]	giv[443]	_	_
+66-5	3946-3947	,	_	_	_	_
 66-6	3948-3951	the	time[444]	giv[444]	_	_
 66-7	3952-3958	second	time[444]	giv[444]	_	_
 66-8	3959-3964	night	time[444]	giv[444]	_	_

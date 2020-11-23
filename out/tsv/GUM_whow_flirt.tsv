@@ -1181,16 +1181,16 @@
 
 #Text=Follow the mantra " show , do n't tell . "
 49-1	5379-5385	Follow	_	_	_	_
-49-2	5386-5389	the	abstract[372]	new[372]	appos	49-4[411_372]
-49-3	5390-5396	mantra	abstract[372]	new[372]	_	_
-49-4	5397-5398	"	abstract[411]	giv[411]	_	_
-49-5	5399-5403	show	abstract[411]	giv[411]	_	_
-49-6	5404-5405	,	abstract[411]	giv[411]	_	_
-49-7	5406-5408	do	abstract[411]	giv[411]	_	_
-49-8	5409-5412	n't	abstract[411]	giv[411]	_	_
-49-9	5413-5417	tell	abstract[411]	giv[411]	_	_
-49-10	5418-5419	.	abstract[411]	giv[411]	_	_
-49-11	5420-5421	"	abstract[411]	giv[411]	_	_
+49-2	5386-5389	the	_	_	_	_
+49-3	5390-5396	mantra	_	_	_	_
+49-4	5397-5398	"	_	_	_	_
+49-5	5399-5403	show	_	_	_	_
+49-6	5404-5405	,	_	_	_	_
+49-7	5406-5408	do	_	_	_	_
+49-8	5409-5412	n't	_	_	_	_
+49-9	5413-5417	tell	_	_	_	_
+49-10	5418-5419	.	_	_	_	_
+49-11	5420-5421	"	_	_	_	_
 
 #Text=In other words , show that you 're attracted to this person by giving him or her a great conversation , not by stating it outright .
 50-1	5422-5424	In	_	_	_	_

@@ -15,12 +15,12 @@
 1-9	51-59	cocktail	_	_	_	_
 
 #Text=Thursday , March 15 , 2012
-2-1	60-68	Thursday	time[481]	new[481]	appos	2-3[11_481]
-2-2	69-70	,	time[481]	new[481]	_	_
-2-3	71-76	March	time[11]	giv[11]	_	_
-2-4	77-79	15	time[11]	giv[11]	_	_
-2-5	80-81	,	time[11]	giv[11]	_	_
-2-6	82-86	2012	time[11]	giv[11]	_	_
+2-1	60-68	Thursday	_	_	_	_
+2-2	69-70	,	_	_	_	_
+2-3	71-76	March	_	_	_	_
+2-4	77-79	15	_	_	_	_
+2-5	80-81	,	_	_	_	_
+2-6	82-86	2012	_	_	_	_
 
 #Text=Wikinews interviewed one of the owners of a New York City bar about a popular new politically-themed cocktail drink called Santorum .
 3-1	87-95	Wikinews	organization[13]	giv[13]	_	_
@@ -167,7 +167,7 @@
 10-14	840-842	is	_	_	_	_
 10-15	843-851	co-owned	_	_	_	_
 10-16	852-854	by	_	_	_	_
-10-17	855-863	Jonathan	person[64]|person[65]	new[64]|new[65]	coref|coref	28-8[267_64]|11-1[67_65]
+10-17	855-863	Jonathan	person[64]|person[65]	new[64]|new[65]	coref|coref	11-1[67_65]|28-8[267_64]
 10-18	864-866	M.	person[64]|person[65]	new[64]|new[65]	_	_
 10-19	867-871	Stan	person[64]|person[65]	new[64]|new[65]	_	_
 10-20	872-875	and	person[64]	new[64]	_	_
@@ -627,7 +627,7 @@
 27-1	3149-3156	Pacific	person[254]|organization[255]	giv[254]|giv[255]	appos|coref	27-5[256_254]|27-19[261_255]
 27-2	3157-3165	Standard	person[254]|organization[255]	giv[254]|giv[255]	_	_
 27-3	3166-3171	owner	person[254]	giv[254]	_	_
-27-4	3172-3173	,	person[254]	giv[254]	_	_
+27-4	3172-3173	,	_	_	_	_
 27-5	3174-3182	Jonathan	person[256]	giv[256]	_	_
 27-6	3183-3185	M.	person[256]	giv[256]	_	_
 27-7	3186-3190	Stan	person[256]	giv[256]	_	_
@@ -735,18 +735,18 @@
 32-10	3675-3678	the	abstract[294]|abstract[295]	new[294]|giv[295]	ana	34-1[303_295]
 32-11	3679-3687	santorum	abstract[294]|abstract[295]	new[294]|giv[295]	_	_
 32-12	3688-3697	neologism	abstract[294]|abstract[295]	new[294]|giv[295]	_	_
-32-13	3698-3702	that	abstract[294]|abstract[295]	new[294]|new[295]	_	_
-32-14	3703-3707	grew	abstract[294]|abstract[295]	new[294]|new[295]	_	_
-32-15	3708-3711	out	abstract[294]|abstract[295]	new[294]|new[295]	_	_
-32-16	3712-3714	of	abstract[294]|abstract[295]	new[294]|new[295]	_	_
-32-17	3715-3718	the	abstract[294]|abstract[295]	new[294]|new[295]	_	_
-32-18	3719-3726	contest	abstract[294]|abstract[295]	new[294]|new[295]	_	_
-32-19	3727-3731	from	abstract[294]|abstract[295]	new[294]|new[295]	_	_
-32-20	3732-3735	the	abstract[294]|abstract[299]|abstract[295]	new[294]|giv[299]|new[295]	coref	39-24[343_299]
-32-21	3736-3742	Savage	abstract[294]|abstract[299]|person[300]|abstract[295]	new[294]|giv[299]|giv[300]|new[295]	coref	39-12[338_300]
-32-22	3743-3747	Love	abstract[294]|abstract[299]|abstract[295]	new[294]|giv[299]|new[295]	_	_
-32-23	3748-3754	advice	abstract[294]|abstract[299]|abstract[295]	new[294]|giv[299]|new[295]	_	_
-32-24	3755-3761	column	abstract[294]|abstract[299]|abstract[295]	new[294]|giv[299]|new[295]	_	_
+32-13	3698-3702	that	abstract[294]	new[294]	_	_
+32-14	3703-3707	grew	abstract[294]	new[294]	_	_
+32-15	3708-3711	out	abstract[294]	new[294]	_	_
+32-16	3712-3714	of	abstract[294]	new[294]	_	_
+32-17	3715-3718	the	abstract[294]	new[294]	_	_
+32-18	3719-3726	contest	abstract[294]	new[294]	_	_
+32-19	3727-3731	from	abstract[294]	new[294]	_	_
+32-20	3732-3735	the	abstract[294]|abstract[299]	new[294]|giv[299]	coref	39-24[343_299]
+32-21	3736-3742	Savage	abstract[294]|abstract[299]|person[300]	new[294]|giv[299]|giv[300]	coref	39-12[338_300]
+32-22	3743-3747	Love	abstract[294]|abstract[299]	new[294]|giv[299]	_	_
+32-23	3748-3754	advice	abstract[294]|abstract[299]	new[294]|giv[299]	_	_
+32-24	3755-3761	column	abstract[294]|abstract[299]	new[294]|giv[299]	_	_
 32-25	3762-3763	?	_	_	_	_
 
 #Text=We do n't really remember .
@@ -836,11 +836,11 @@
 39-19	4120-4123	the	event[337]|abstract[339]|abstract[340]	new[337]|giv[339]|giv[340]	_	_
 39-20	4124-4132	santorum	event[337]|abstract[339]|abstract[340]	new[337]|giv[339]|giv[340]	_	_
 39-21	4133-4142	neologism	event[337]|abstract[339]|abstract[340]	new[337]|giv[339]|giv[340]	_	_
-39-22	4143-4150	created	event[337]|abstract[340]	new[337]|giv[340]	_	_
-39-23	4151-4153	in	event[337]|abstract[340]	new[337]|giv[340]	_	_
-39-24	4154-4157	his	event[337]|abstract[343]|person[344]|abstract[340]	new[337]|giv[343]|giv[344]|giv[340]	_	_
-39-25	4158-4164	advice	event[337]|abstract[343]|abstract[340]	new[337]|giv[343]|giv[340]	_	_
-39-26	4165-4171	column	event[337]|abstract[343]|abstract[340]	new[337]|giv[343]|giv[340]	_	_
+39-22	4143-4150	created	event[337]	new[337]	_	_
+39-23	4151-4153	in	event[337]	new[337]	_	_
+39-24	4154-4157	his	event[337]|abstract[343]|person[344]	new[337]|giv[343]|giv[344]	_	_
+39-25	4158-4164	advice	event[337]|abstract[343]	new[337]|giv[343]	_	_
+39-26	4165-4171	column	event[337]|abstract[343]	new[337]|giv[343]	_	_
 39-27	4172-4173	?	_	_	_	_
 
 #Text=We thought it was funny .

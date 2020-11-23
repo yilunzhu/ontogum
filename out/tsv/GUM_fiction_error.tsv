@@ -10,7 +10,7 @@
 1-4	15-19	very	_	_	_	_
 1-5	20-25	young	_	_	_	_
 1-6	26-27	,	_	_	_	_
-1-7	28-31	his	person[3]|person[4]	new[3]|giv[4]	ana|ana	1-37[18_3]|1-10[7_4]
+1-7	28-31	his	person[3]|person[4]	new[3]|giv[4]	ana|ana	1-10[7_4]|1-37[18_3]
 1-8	32-43	grandmother	person[3]	new[3]	_	_
 1-9	44-47	was	_	_	_	_
 1-10	48-51	his	person[7]	giv[7]	ana	1-19[11_7]
@@ -227,7 +227,7 @@
 8-2	1021-1025	many	time[102]	new[102]	coref	25-10[284_102]
 8-3	1026-1031	years	time[102]	new[102]	_	_
 8-4	1032-1037	after	time[102]	new[102]	_	_
-8-5	1038-1041	her	time[102]|event[103]|person[104]	new[102]|new[103]|giv[104]	coref|ana	28-1[296_103]|8-21[110_104]
+8-5	1038-1041	her	time[102]|event[103]|person[104]	new[102]|new[103]|giv[104]	ana|coref	8-21[110_104]|28-1[296_103]
 8-6	1042-1047	death	time[102]|event[103]	new[102]|new[103]	_	_
 8-7	1048-1049	,	_	_	_	_
 8-8	1050-1057	however	_	_	_	_
@@ -569,7 +569,7 @@
 22-20	2529-2532	the	event[251]|abstract[252]|object[256]	new[251]|new[252]|giv[256]	_	_
 22-21	2533-2538	table	event[251]|abstract[252]|object[256]	new[251]|new[252]|giv[256]	_	_
 22-22	2539-2541	in	event[251]|abstract[252]|object[256]	new[251]|new[252]|giv[256]	_	_
-22-23	2542-2545	his	event[251]|abstract[252]|object[256]|abstract[257]|person[258]	new[251]|new[252]|giv[256]|new[257]|giv[258]	coref|ana	23-9[262_257]|23-9[263_258]
+22-23	2542-2545	his	event[251]|abstract[252]|object[256]|abstract[257]|person[258]	new[251]|new[252]|giv[256]|new[257]|giv[258]	ana|coref	23-9[263_258]|23-9[262_257]
 22-24	2546-2552	memory	event[251]|abstract[252]|object[256]|abstract[257]	new[251]|new[252]|giv[256]|new[257]	_	_
 22-25	2553-2555	at	event[251]|abstract[252]	new[251]|new[252]	_	_
 22-26	2556-2559	all	event[251]|abstract[252]	new[251]|new[252]	_	_
@@ -750,7 +750,7 @@
 31-7	3385-3387	of	abstract[325]	new[325]	_	_
 31-8	3388-3391	his	abstract[325]|person[326]|person[327]	new[325]|giv[326]|giv[327]	coref|ana	35-17[368_326]|31-13[330_327]
 31-9	3392-3403	grandmother	abstract[325]|person[326]	new[325]|giv[326]	_	_
-31-10	3404-3410	crying	abstract[325]|person[326]	new[325]|new[326]	_	_
+31-10	3404-3410	crying	abstract[325]	new[325]	_	_
 31-11	3411-3416	faded	_	_	_	_
 31-12	3417-3419	in	_	_	_	_
 31-13	3420-3423	his	abstract[329]|person[330]	giv[329]|giv[330]	coref	32-1[331_330]
@@ -777,23 +777,23 @@
 32-11	3524-3530	single	event[336]|abstract[337]	giv[336]|giv[337]	_	_
 32-12	3531-3536	error	event[336]|abstract[337]	giv[336]|giv[337]	_	_
 32-13	3537-3539	in	event[336]|abstract[337]	giv[336]|giv[337]	_	_
-32-14	3540-3543	his	event[336]|abstract[337]|abstract[338]|person[339]	giv[336]|giv[337]|giv[338]|giv[339]	coref|ana	35-4[361_338]|32-20[340_339]
+32-14	3540-3543	his	event[336]|abstract[337]|abstract[338]|person[339]	giv[336]|giv[337]|giv[338]|giv[339]	ana|coref	32-20[340_339]|35-4[361_338]
 32-15	3544-3549	false	event[336]|abstract[337]|abstract[338]	giv[336]|giv[337]|giv[338]	_	_
 32-16	3550-3556	memory	event[336]|abstract[337]|abstract[338]	giv[336]|giv[337]|giv[338]	_	_
-32-17	3557-3558	,	event[336]|abstract[337]	giv[336]|giv[337]	_	_
-32-18	3559-3564	which	event[336]|abstract[337]	giv[336]|giv[337]	_	_
-32-19	3565-3572	enabled	event[336]|abstract[337]	giv[336]|giv[337]	_	_
-32-20	3573-3576	him	event[336]|person[340]|abstract[337]	giv[336]|giv[340]|giv[337]	ana	32-23[341_340]
-32-21	3577-3579	to	event[336]|abstract[337]	giv[336]|giv[337]	_	_
-32-22	3580-3586	reason	event[336]|abstract[337]	giv[336]|giv[337]	_	_
-32-23	3587-3590	his	event[336]|person[341]|abstract[337]	giv[336]|giv[341]|giv[337]	ana	33-1[344_341]
-32-24	3591-3594	way	event[336]|abstract[337]	giv[336]|giv[337]	_	_
-32-25	3595-3599	into	event[336]|abstract[337]	giv[336]|giv[337]	_	_
-32-26	3600-3614	distinguishing	event[336]|abstract[337]	giv[336]|giv[337]	_	_
-32-27	3615-3622	between	event[336]|abstract[337]	giv[336]|giv[337]	_	_
-32-28	3623-3630	reality	event[336]|abstract[337]	giv[336]|giv[337]	_	_
-32-29	3631-3634	and	event[336]|abstract[337]	giv[336]|giv[337]	_	_
-32-30	3635-3642	fantasy	event[336]|abstract[337]	giv[336]|giv[337]	_	_
+32-17	3557-3558	,	event[336]	giv[336]	_	_
+32-18	3559-3564	which	event[336]	giv[336]	_	_
+32-19	3565-3572	enabled	event[336]	giv[336]	_	_
+32-20	3573-3576	him	event[336]|person[340]	giv[336]|giv[340]	ana	32-23[341_340]
+32-21	3577-3579	to	event[336]	giv[336]	_	_
+32-22	3580-3586	reason	event[336]	giv[336]	_	_
+32-23	3587-3590	his	event[336]|person[341]	giv[336]|giv[341]	ana	33-1[344_341]
+32-24	3591-3594	way	event[336]	giv[336]	_	_
+32-25	3595-3599	into	event[336]	giv[336]	_	_
+32-26	3600-3614	distinguishing	event[336]	giv[336]	_	_
+32-27	3615-3622	between	event[336]	giv[336]	_	_
+32-28	3623-3630	reality	event[336]	giv[336]	_	_
+32-29	3631-3634	and	event[336]	giv[336]	_	_
+32-30	3635-3642	fantasy	event[336]	giv[336]	_	_
 32-31	3643-3644	.	_	_	_	_
 
 #Text=He felt that it was a coming-of-age moment .
@@ -843,7 +843,7 @@
 35-14	3838-3841	his	abstract[365]|person[366]	giv[365]|giv[366]	ana	35-17[369_366]
 35-15	3842-3846	love	abstract[365]	giv[365]	_	_
 35-16	3847-3850	for	abstract[365]	giv[365]	_	_
-35-17	3851-3854	his	abstract[365]|person[368]|person[369]	giv[365]|giv[368]|giv[369]	ana|ana	36-17[376_368]|37-1[378_369]
+35-17	3851-3854	his	abstract[365]|person[368]|person[369]	giv[365]|giv[368]|giv[369]	ana|ana	37-1[378_369]|36-17[376_368]
 35-18	3855-3866	grandmother	abstract[365]|person[368]	giv[365]|giv[368]	_	_
 35-19	3867-3868	.	_	_	_	_
 

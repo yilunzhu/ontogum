@@ -35,24 +35,24 @@
 3-2	109-115	pulled	_	_	_	_
 3-3	116-119	the	object[11]	new[11]	coref	28-5[120_11]
 3-4	120-124	bike	object[11]	new[11]	_	_
-3-5	125-127	to	object[11]	new[11]	_	_
-3-6	128-129	a	object[11]	new[11]	_	_
-3-7	130-134	halt	object[11]	new[11]	_	_
-3-8	135-136	,	object[11]	new[11]	_	_
-3-9	137-140	the	object[11]	new[11]	_	_
-3-10	141-146	front	object[11]	new[11]	_	_
-3-11	147-152	wheel	object[11]	new[11]	_	_
-3-12	153-161	pointing	object[11]	new[11]	_	_
-3-13	162-164	in	object[11]	new[11]	_	_
-3-14	165-168	his	person[15]|object[11]	giv[15]|new[11]	coref	6-9[30_15]
-3-15	169-178	direction	object[11]	new[11]	_	_
+3-5	125-127	to	_	_	_	_
+3-6	128-129	a	_	_	_	_
+3-7	130-134	halt	_	_	_	_
+3-8	135-136	,	_	_	_	_
+3-9	137-140	the	_	_	_	_
+3-10	141-146	front	_	_	_	_
+3-11	147-152	wheel	_	_	_	_
+3-12	153-161	pointing	_	_	_	_
+3-13	162-164	in	_	_	_	_
+3-14	165-168	his	person[15]	giv[15]	coref	6-9[30_15]
+3-15	169-178	direction	_	_	_	_
 3-16	179-180	.	_	_	_	_
 
 #Text=“ I think I ’ve got a fairy stuck up my nose . ”
 4-1	181-182	“	_	_	_	_
 4-2	183-184	I	person[16]	giv[16]	ana	4-4[20_16]
 4-3	185-190	think	_	_	_	_
-4-4	191-192	I	event[19]|person[20]	new[19]|giv[20]	ana|ana	8-2[37_19]|4-11[24_20]
+4-4	191-192	I	event[19]|person[20]	new[19]|giv[20]	ana|ana	4-11[24_20]|8-2[37_19]
 4-5	193-196	’ve	event[19]	new[19]	_	_
 4-6	197-200	got	event[19]	new[19]	_	_
 4-7	201-202	a	event[19]|person[22]	new[19]|new[22]	ana	12-4[52_22]
@@ -663,7 +663,7 @@
 #Text=“ Perhaps I do n’t know the answers anyway ? ” said the voice .
 53-1	2201-2202	“	_	_	_	_
 53-2	2203-2210	Perhaps	_	_	_	_
-53-3	2211-2212	I	abstract[253]|person[254]	new[253]|giv[254]	ana|ana	54-6[259_253]|55-8[261_254]
+53-3	2211-2212	I	abstract[253]|person[254]	new[253]|giv[254]	ana|ana	55-8[261_254]|54-6[259_253]
 53-4	2213-2215	do	abstract[253]	new[253]	_	_
 53-5	2216-2219	n’t	abstract[253]	new[253]	_	_
 53-6	2220-2224	know	abstract[253]	new[253]	_	_

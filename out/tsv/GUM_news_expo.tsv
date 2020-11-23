@@ -16,12 +16,12 @@
 1-10	50-57	Toronto	place[6]	new[6]	coref	5-11[31_6]
 
 #Text=Wednesday , September 7 , 2016
-2-1	58-67	Wednesday	time[367]	acc[367]	appos	2-3[13_367]
-2-2	68-69	,	time[367]	acc[367]	_	_
-2-3	70-79	September	time[13]	giv[13]	_	_
-2-4	80-81	7	time[13]	giv[13]	_	_
-2-5	82-83	,	time[13]	giv[13]	_	_
-2-6	84-88	2016	time[13]	giv[13]	_	_
+2-1	58-67	Wednesday	_	_	_	_
+2-2	68-69	,	_	_	_	_
+2-3	70-79	September	_	_	_	_
+2-4	80-81	7	_	_	_	_
+2-5	82-83	,	_	_	_	_
+2-6	84-88	2016	_	_	_	_
 
 #Text=The far end of part of the convention floor , shortly after opening Friday .
 3-1	89-92	The	_	_	_	_
@@ -48,7 +48,7 @@
 4-5	186-187	.	_	_	_	_
 
 #Text=The 22nd Fan Expo Canada took place at the Metro Toronto Convention Centre this weekend , attracting thousands to the event , one of the most popular in North America .
-5-1	188-191	The	event[25]	giv[25]	coref	5-20[460_25]
+5-1	188-191	The	event[25]	giv[25]	coref	5-20[368_25]
 5-2	192-196	22nd	event[25]	giv[25]	_	_
 5-3	197-200	Fan	event[25]|person[26]	giv[25]|giv[26]	_	_
 5-4	201-205	Expo	event[25]	giv[25]	_	_
@@ -67,17 +67,17 @@
 5-17	278-288	attracting	_	_	_	_
 5-18	289-298	thousands	_	_	_	_
 5-19	299-301	to	_	_	_	_
-5-20	302-305	the	event[36]|event[460]	giv[36]|giv[460]	appos|coref	5-23[37_36]|6-17[50_460]
-5-21	306-311	event	event[36]|event[460]	giv[36]|giv[460]	_	_
-5-22	312-313	,	event[36]|event[460]	giv[36]|giv[460]	_	_
-5-23	314-317	one	event[37]|event[460]	giv[37]|giv[460]	_	_
-5-24	318-320	of	event[37]|event[460]	giv[37]|giv[460]	_	_
-5-25	321-324	the	event[37]|event[460]	giv[37]|giv[460]	_	_
-5-26	325-329	most	event[37]|event[460]	giv[37]|giv[460]	_	_
-5-27	330-337	popular	event[37]|event[460]	giv[37]|giv[460]	_	_
-5-28	338-340	in	event[37]|event[460]	giv[37]|giv[460]	_	_
-5-29	341-346	North	event[37]|event[460]	giv[37]|giv[460]	_	_
-5-30	347-354	America	event[37]|event[460]	giv[37]|giv[460]	_	_
+5-20	302-305	the	_	_	coref	6-17[50_368]
+5-21	306-311	event	_	_	_	_
+5-22	312-313	,	event[368]	giv[368]	_	_
+5-23	314-317	one	event[368]	giv[368]	_	_
+5-24	318-320	of	event[368]	giv[368]	_	_
+5-25	321-324	the	event[368]	giv[368]	_	_
+5-26	325-329	most	event[368]	giv[368]	_	_
+5-27	330-337	popular	event[368]	giv[368]	_	_
+5-28	338-340	in	event[368]	giv[368]	_	_
+5-29	341-346	North	event[368]	giv[368]	_	_
+5-30	347-354	America	event[368]	giv[368]	_	_
 5-31	355-356	.	_	_	_	_
 
 #Text=Crossing between the genres of science fiction , horror , anime , fantasy and comics , the event sprawled throughout all corners of the facility .
@@ -130,7 +130,7 @@
 7-19	603-609	Hamill	person[57]	new[57]	_	_
 7-20	610-611	,	_	_	_	_
 7-21	612-615	and	_	_	_	_
-7-22	616-624	Margaret	person[58]	new[58]	coref	9-1[465_58]
+7-22	616-624	Margaret	person[58]	new[58]	coref	9-1[369_58]
 7-23	625-631	Atwood	person[58]	new[58]	_	_
 7-24	632-633	.	_	_	_	_
 
@@ -162,11 +162,11 @@
 8-25	782-783	.	_	_	_	_
 
 #Text=Atwood , a Booker Prize-winner , was there to launch her graphic novel Angel Catbird , with illustrator Johnnie Christmas .
-9-1	784-790	Atwood	person[398]|person[465]	giv[398]|giv[465]	appos|ana	9-3[71_398]|9-11[73_465]
-9-2	791-792	,	person[398]|person[465]	giv[398]|giv[465]	_	_
-9-3	793-794	a	person[71]|person[465]	giv[71]|giv[465]	_	_
-9-4	795-801	Booker	person[71]|person[465]	giv[71]|giv[465]	_	_
-9-5	802-814	Prize-winner	person[71]|person[465]	giv[71]|giv[465]	_	_
+9-1	784-790	Atwood	person[369]	giv[369]	ana	9-11[73_369]
+9-2	791-792	,	person[369]	giv[369]	_	_
+9-3	793-794	a	person[369]	giv[369]	_	_
+9-4	795-801	Booker	person[369]	giv[369]	_	_
+9-5	802-814	Prize-winner	person[369]	giv[369]	_	_
 9-6	815-816	,	_	_	_	_
 9-7	817-820	was	_	_	_	_
 9-8	821-826	there	_	_	_	_
@@ -212,27 +212,27 @@
 11-7	1035-1039	with	_	_	_	_
 11-8	1040-1045	Kevin	person[87]	new[87]	appos	11-11[88_87]
 11-9	1046-1052	Conroy	person[87]	new[87]	_	_
-11-10	1053-1054	,	person[87]	new[87]	_	_
+11-10	1053-1054	,	_	_	_	_
 11-11	1055-1058	the	person[88]	giv[88]	_	_
 11-12	1059-1064	voice	person[88]	giv[88]	_	_
 11-13	1065-1067	of	person[88]	giv[88]	_	_
 11-14	1068-1074	Batman	person[88]|person[89]	giv[88]|new[89]	coref	11-16[92_89]
 11-15	1075-1077	in	person[88]	giv[88]	_	_
 11-16	1078-1084	Batman	person[88]|person[92]	giv[88]|giv[92]	_	_
-11-17	1085-1086	:	person[88]|person[92]	giv[88]|giv[92]	_	_
-11-18	1087-1090	The	person[88]|person[92]	giv[88]|giv[92]	_	_
-11-19	1091-1099	Animated	person[88]|person[92]	giv[88]|giv[92]	_	_
-11-20	1100-1106	Series	person[88]|person[92]	giv[88]|giv[92]	_	_
-11-21	1107-1108	,	person[88]|person[92]	giv[88]|giv[92]	_	_
-11-22	1109-1111	in	person[88]|person[92]	giv[88]|giv[92]	_	_
-11-23	1112-1117	which	person[88]|person[92]	giv[88]|giv[92]	_	_
-11-24	1118-1121	the	person[88]|person[94]|person[92]	giv[88]|giv[94]|giv[92]	_	_
-11-25	1122-1126	Star	person[88]|person[94]|person[92]	giv[88]|giv[94]|giv[92]	_	_
-11-26	1127-1131	Wars	person[88]|person[94]|person[92]	giv[88]|giv[94]|giv[92]	_	_
-11-27	1132-1136	lead	person[88]|person[94]|person[92]	giv[88]|giv[94]|giv[92]	_	_
-11-28	1137-1143	played	person[88]|person[92]	giv[88]|giv[92]	_	_
-11-29	1144-1147	the	person[88]|person[92]	giv[88]|giv[92]	_	_
-11-30	1148-1153	Joker	person[88]|person[92]	giv[88]|giv[92]	_	_
+11-17	1085-1086	:	person[88]	giv[88]	_	_
+11-18	1087-1090	The	person[88]	giv[88]	_	_
+11-19	1091-1099	Animated	person[88]	giv[88]	_	_
+11-20	1100-1106	Series	person[88]	giv[88]	_	_
+11-21	1107-1108	,	person[88]	giv[88]	_	_
+11-22	1109-1111	in	person[88]	giv[88]	_	_
+11-23	1112-1117	which	person[88]	giv[88]	_	_
+11-24	1118-1121	the	person[88]|person[94]	giv[88]|giv[94]	_	_
+11-25	1122-1126	Star	person[88]|person[94]	giv[88]|giv[94]	_	_
+11-26	1127-1131	Wars	person[88]|person[94]	giv[88]|giv[94]	_	_
+11-27	1132-1136	lead	person[88]|person[94]	giv[88]|giv[94]	_	_
+11-28	1137-1143	played	person[88]	giv[88]	_	_
+11-29	1144-1147	the	person[88]	giv[88]	_	_
+11-30	1148-1153	Joker	person[88]	giv[88]	_	_
 11-31	1154-1155	.	_	_	_	_
 
 #Text=Ubisoft , Microsoft , and PlayStation VR all had large areas set up for attendees to try their latest games .
@@ -241,7 +241,7 @@
 12-3	1166-1175	Microsoft	abstract[97]	new[97]	_	_
 12-4	1176-1177	,	abstract[97]	new[97]	_	_
 12-5	1178-1181	and	abstract[97]	new[97]	_	_
-12-6	1182-1193	PlayStation	abstract[97]|object[102]|object[103]	new[97]|new[102]|new[103]	coref|coref	13-4[114_102]|13-4[115_103]
+12-6	1182-1193	PlayStation	abstract[97]|object[102]|object[103]	new[97]|new[102]|new[103]	coref|coref	13-4[115_103]|13-4[114_102]
 12-7	1194-1196	VR	abstract[97]|object[102]	new[97]|new[102]	_	_
 12-8	1197-1200	all	_	_	_	_
 12-9	1201-1204	had	_	_	_	_
@@ -262,7 +262,7 @@
 13-1	1266-1268	In	_	_	_	_
 13-2	1269-1272	the	event[111]	new[111]	coref	14-4[128_111]
 13-3	1273-1282	20-minute	event[111]	new[111]	_	_
-13-4	1283-1294	PlayStation	event[111]|object[114]|object[115]	new[111]|giv[114]|giv[115]	coref|coref	21-1[181_114]|21-1[182_115]
+13-4	1283-1294	PlayStation	event[111]|object[114]|object[115]	new[111]|giv[114]|giv[115]	coref|coref	21-1[182_115]|21-1[181_114]
 13-5	1295-1297	VR	event[111]|object[114]	new[111]|giv[114]	_	_
 13-6	1298-1311	demonstration	event[111]	new[111]	_	_
 13-7	1312-1314	of	event[111]	new[111]	_	_
@@ -365,7 +365,7 @@
 17-1	1779-1782	The	event[149]	acc[149]	coref	19-15[168_149]
 17-2	1783-1789	finals	event[149]	acc[149]	_	_
 17-3	1790-1793	saw	_	_	_	_
-17-4	1794-1796	US	organization[150]|organization[151]	new[150]|acc[151]	ana|coref	18-1[158_150]|20-24[179_151]
+17-4	1794-1796	US	organization[150]|organization[151]	new[150]|acc[151]	coref|ana	20-24[179_151]|18-1[158_150]
 17-5	1797-1801	team	organization[150]|organization[151]	new[150]|acc[151]	_	_
 17-6	1802-1808	Cloud9	organization[150]|organization[151]	new[150]|acc[151]	_	_
 17-7	1809-1812	and	organization[150]	new[150]	_	_
@@ -698,12 +698,12 @@
 39-9	3422-3431	cosplayer	person[277]	giv[277]	_	_
 39-10	3432-3437	going	person[277]	giv[277]	_	_
 39-11	3438-3440	by	person[277]	giv[277]	_	_
-39-12	3441-3444	the	person[277]|abstract[278]	giv[277]|new[278]	appos	39-14[429_278]
+39-12	3441-3444	the	person[277]|abstract[278]	giv[277]|new[278]	appos	39-15[279_278]
 39-13	3445-3449	name	person[277]|abstract[278]	giv[277]|new[278]	_	_
-39-14	3450-3451	"	person[277]|abstract[429]	giv[277]|giv[429]	_	_
-39-15	3452-3455	The	person[277]|abstract[429]	giv[277]|giv[429]	_	_
-39-16	3456-3468	Katherinator	person[277]|abstract[429]	giv[277]|giv[429]	_	_
-39-17	3469-3470	"	person[277]|abstract[429]	giv[277]|giv[429]	_	_
+39-14	3450-3451	"	person[277]	giv[277]	_	_
+39-15	3452-3455	The	person[277]|abstract[279]	giv[277]|giv[279]	_	_
+39-16	3456-3468	Katherinator	person[277]|abstract[279]	giv[277]|giv[279]	_	_
+39-17	3469-3470	"	person[277]	giv[277]	_	_
 39-18	3471-3472	.	_	_	_	_
 
 #Text=She was outside the building in the gardens , waiting for a photographer she had arranged to shoot her new Epic Mickey costumed character-style outfit .

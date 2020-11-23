@@ -7,7 +7,7 @@
 1-1	0-4	TIFU	event[1]	new[1]	coref	46-10[305_1]
 1-2	5-7	by	event[1]	new[1]	_	_
 1-3	8-16	throwing	event[1]	new[1]	_	_
-1-4	17-19	my	event[1]|object[2]|person[3]	new[1]|new[2]|acc[3]	coref|ana	9-7[68_2]|2-4[9_3]
+1-4	17-19	my	event[1]|object[2]|person[3]	new[1]|new[2]|acc[3]	ana|coref	2-4[9_3]|9-7[68_2]
 1-5	20-25	steak	event[1]|object[2]	new[1]|new[2]	_	_
 1-6	26-29	out	event[1]	new[1]	_	_
 1-7	30-31	a	event[1]|object[5]	new[1]|new[5]	coref	18-11[119_5]
@@ -39,7 +39,7 @@
 3-3	127-132	drive	_	_	_	_
 3-4	133-137	over	_	_	_	_
 3-5	138-139	,	_	_	_	_
-3-6	140-142	my	person[19]|person[20]	giv[19]|giv[20]	coref|ana	4-6[31_19]|3-12[23_20]
+3-6	140-142	my	person[19]|person[20]	giv[19]|giv[20]	ana|coref	3-12[23_20]|4-6[31_19]
 3-7	143-147	wife	person[19]	giv[19]	_	_
 3-8	148-158	reiterated	_	_	_	_
 3-9	159-163	many	_	_	_	_
@@ -64,7 +64,7 @@
 4-3	240-243	and	_	_	_	_
 4-4	244-254	arrogantly	_	_	_	_
 4-5	255-263	informed	_	_	_	_
-4-6	264-266	my	person[31]|person[32]	giv[31]|giv[32]	coref|ana	7-10[57_31]|4-10[33_32]
+4-6	264-266	my	person[31]|person[32]	giv[31]|giv[32]	ana|coref	4-10[33_32]|7-10[57_31]
 4-7	267-272	silly	person[31]	giv[31]	_	_
 4-8	273-277	wife	person[31]	giv[31]	_	_
 4-9	278-282	that	_	_	_	_
@@ -136,19 +136,19 @@
 8-2	571-574	she	person[59]	giv[59]	coref	17-4[106_59]
 8-3	575-582	brought	_	_	_	_
 8-4	583-586	out	_	_	_	_
-8-5	587-590	the	object[62]	new[62]	appos	8-9[63_62]
-8-6	591-595	main	object[62]	new[62]	_	_
-8-7	596-602	course	object[62]	new[62]	_	_
-8-8	603-604	,	object[62]	new[62]	_	_
-8-9	605-606	a	object[63]	giv[63]	_	_
-8-10	607-611	nice	object[63]	giv[63]	_	_
-8-11	612-615	big	object[63]	giv[63]	_	_
-8-12	616-621	juicy	object[63]	giv[63]	_	_
-8-13	622-627	steak	object[63]	giv[63]	_	_
-8-14	628-631	for	object[63]	giv[63]	_	_
-8-15	632-636	each	object[63]	giv[63]	_	_
-8-16	637-639	of	object[63]	giv[63]	_	_
-8-17	640-642	us	object[63]|person[64]	giv[63]|giv[64]	_	_
+8-5	587-590	the	_	_	_	_
+8-6	591-595	main	_	_	_	_
+8-7	596-602	course	_	_	_	_
+8-8	603-604	,	_	_	_	_
+8-9	605-606	a	_	_	_	_
+8-10	607-611	nice	_	_	_	_
+8-11	612-615	big	_	_	_	_
+8-12	616-621	juicy	_	_	_	_
+8-13	622-627	steak	_	_	_	_
+8-14	628-631	for	_	_	_	_
+8-15	632-636	each	_	_	_	_
+8-16	637-639	of	_	_	_	_
+8-17	640-642	us	person[64]	giv[64]	_	_
 8-18	643-644	.	_	_	_	_
 
 #Text=As I began to cut into my steak , I was discouraged to discover how under cooked this steak was .
@@ -158,7 +158,7 @@
 9-4	656-658	to	_	_	_	_
 9-5	659-662	cut	_	_	_	_
 9-6	663-667	into	_	_	_	_
-9-7	668-670	my	object[68]|person[69]	giv[68]|giv[69]	coref|ana	9-18[73_68]|9-10[70_69]
+9-7	668-670	my	object[68]|person[69]	giv[68]|giv[69]	ana|coref	9-10[70_69]|9-18[73_68]
 9-8	671-676	steak	object[68]	giv[68]	_	_
 9-9	677-678	,	_	_	_	_
 9-10	679-680	I	person[70]	giv[70]	ana	10-3[74_70]
@@ -422,7 +422,7 @@
 25-2	1764-1766	is	_	_	_	_
 25-3	1767-1768	,	_	_	_	_
 25-4	1769-1774	until	_	_	_	_
-25-5	1775-1777	my	object[157]|person[158]	giv[157]|giv[158]	ana|ana	25-26[163_157]|26-15[168_158]
+25-5	1775-1777	my	object[157]|person[158]	giv[157]|giv[158]	ana|ana	26-15[168_158]|25-26[163_157]
 25-6	1778-1784	mostly	object[157]	giv[157]	_	_
 25-7	1785-1788	raw	object[157]	giv[157]	_	_
 25-8	1789-1793	slab	object[157]	giv[157]	_	_
@@ -552,7 +552,7 @@
 29-3	2306-2308	in	_	_	_	_
 29-4	2309-2312	the	abstract[200]	new[200]	appos	29-7[201_200]
 29-5	2313-2318	scene	abstract[200]	new[200]	_	_
-29-6	2319-2320	,	abstract[200]	new[200]	_	_
+29-6	2319-2320	,	_	_	_	_
 29-7	2321-2324	the	abstract[201]|object[202]	giv[201]|giv[202]	ana	35-5[234_202]
 29-8	2325-2330	steak	abstract[201]|object[202]	giv[201]|giv[202]	_	_
 29-9	2331-2338	sitting	abstract[201]	giv[201]	_	_

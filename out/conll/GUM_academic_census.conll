@@ -565,9 +565,9 @@
 563	Computing	_
 564	Research	_
 565	Association	9)
-566	(	(9
-567	CRA	_
-568	)	9)
+566	(	_
+567	CRA	(9)
+568	)	_
 569	documents	_
 570	trends	_
 571	in	_
@@ -587,9 +587,9 @@
 585	in	_
 586	North	_
 587	America	10)
-588	(	(10
-589	cra.org/resources/taulbee-survey	_
-590	)	10)
+588	(	_
+589	cra.org/resources/taulbee-survey	(10)
+590	)	_
 591	.	_
 592	Such	_
 593	surveys	_

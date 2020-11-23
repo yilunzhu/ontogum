@@ -6,7 +6,7 @@
 #Text=Wikinews interviews Mario J. Lucero and Isabel Ruiz of Heaven Sent Gaming
 1-1	0-8	Wikinews	_	_	_	_
 1-2	9-19	interviews	_	_	_	_
-1-3	20-25	Mario	person[3]|person[4]	new[3]|new[4]	ana|ana	6-4[20_3]|4-10[12_4]
+1-3	20-25	Mario	person[3]|person[4]	new[3]|new[4]	ana|ana	4-10[12_4]|6-4[20_3]
 1-4	26-28	J.	person[3]|person[4]	new[3]|new[4]	_	_
 1-5	29-35	Lucero	person[3]|person[4]	new[3]|new[4]	_	_
 1-6	36-39	and	person[3]	new[3]	_	_
@@ -235,7 +235,7 @@
 13-6	949-955	middle	_	_	_	_
 13-7	956-962	school	_	_	_	_
 13-8	963-964	,	_	_	_	_
-13-9	965-966	I	person[90]	giv[90]	ana	13-25[377_90]
+13-9	965-966	I	person[90]	giv[90]	ana	13-25[341_90]
 13-10	967-971	kept	_	_	_	_
 13-11	972-974	on	_	_	_	_
 13-12	975-982	hearing	_	_	_	_
@@ -251,12 +251,12 @@
 13-22	1024-1026	on	_	_	_	_
 13-23	1027-1034	hearing	_	_	_	_
 13-24	1035-1040	about	_	_	_	_
-13-25	1041-1043	me	person[341]|person[377]	giv[341]|giv[377]	appos|ana	13-27[99_341]|14-20[110_377]
-13-26	1044-1045	,	person[341]|person[377]	giv[341]|giv[377]	_	_
-13-27	1046-1050	this	person[99]|person[377]	giv[99]|giv[377]	_	_
-13-28	1051-1055	girl	person[99]|person[377]	giv[99]|giv[377]	_	_
-13-29	1056-1061	named	person[99]|person[377]	giv[99]|giv[377]	_	_
-13-30	1062-1068	Isabel	person[99]|person[377]	giv[99]|giv[377]	_	_
+13-25	1041-1043	me	person[95]|person[341]	giv[95]|giv[341]	ana|appos	14-20[110_341]|13-27[99_95]
+13-26	1044-1045	,	person[341]	giv[341]	_	_
+13-27	1046-1050	this	person[99]|person[341]	giv[99]|giv[341]	_	_
+13-28	1051-1055	girl	person[99]|person[341]	giv[99]|giv[341]	_	_
+13-29	1056-1061	named	person[99]|person[341]	giv[99]|giv[341]	_	_
+13-30	1062-1068	Isabel	person[99]|person[341]	giv[99]|giv[341]	_	_
 13-31	1069-1070	.	_	_	_	_
 
 #Text=And , everyone , all of our friends and all of our acquaintances would say , " Hey , you 'd get along with him really well . "
@@ -313,7 +313,7 @@
 16-3	1268-1270	of	person[123]	new[123]	_	_
 16-4	1271-1274	our	person[123]|person[124]|person[125]	new[123]|new[124]|giv[125]	appos|ana	16-7[127_124]|16-7[128_125]
 16-5	1275-1282	friends	person[123]|person[124]	new[123]|new[124]	_	_
-16-6	1283-1284	,	person[123]|person[124]	new[123]|new[124]	_	_
+16-6	1283-1284	,	person[123]	new[123]	_	_
 16-7	1285-1288	our	person[123]|person[127]|person[128]	new[123]|giv[127]|giv[128]	ana	16-13[130_128]
 16-8	1289-1295	common	person[123]|person[127]	new[123]|giv[127]	_	_
 16-9	1296-1303	friends	person[123]|person[127]	new[123]|giv[127]	_	_
@@ -409,10 +409,10 @@
 22-13	1651-1652	.	_	_	_	_
 
 #Text=Josh Kindig , he 's coming on board , he has some ideas for that too , he wants to take over " aywv " and do more gaming news .
-23-1	1653-1657	Josh	person[158]|person[375]	acc[158]|acc[375]	ana|ana	23-4[159_158]|23-10[160_375]
-23-2	1658-1664	Kindig	person[158]|person[375]	acc[158]|acc[375]	_	_
-23-3	1665-1666	,	person[375]	acc[375]	_	_
-23-4	1667-1669	he	person[159]|person[375]	giv[159]|acc[375]	_	_
+23-1	1653-1657	Josh	person[158]	acc[158]	ana	23-4[159_158]
+23-2	1658-1664	Kindig	person[158]	acc[158]	_	_
+23-3	1665-1666	,	_	_	_	_
+23-4	1667-1669	he	person[159]	giv[159]	ana	23-10[160_159]
 23-5	1670-1672	's	_	_	_	_
 23-6	1673-1679	coming	_	_	_	_
 23-7	1680-1682	on	_	_	_	_
@@ -469,7 +469,7 @@
 #Text=What is your purpose behind this venture ?
 26-1	1875-1879	What	_	_	_	_
 26-2	1880-1882	is	_	_	_	_
-26-3	1883-1887	your	person[184]	giv[184]	coref	27-12[376_184]
+26-3	1883-1887	your	person[184]	giv[184]	coref	27-12[192_184]
 26-4	1888-1895	purpose	_	_	_	_
 26-5	1896-1902	behind	_	_	_	_
 26-6	1903-1907	this	organization[186]	giv[186]	_	_
@@ -488,11 +488,11 @@
 27-9	1951-1958	Collins	organization[189]	giv[189]	_	_
 27-10	1959-1966	College	organization[189]	giv[189]	_	_
 27-11	1967-1968	,	_	_	_	_
-27-12	1969-1975	Isabel	person[192]|person[193]|person[376]	giv[192]|giv[193]|giv[376]	ana|ana|ana	27-16[195_192]|27-20[196_193]|27-28[203_376]
-27-13	1976-1979	and	person[192]|person[376]	giv[192]|giv[376]	_	_
-27-14	1980-1981	I	person[192]|person[194]|person[376]	giv[192]|giv[194]|giv[376]	ana	28-6[206_194]
-27-15	1982-1983	,	person[376]	giv[376]	_	_
-27-16	1984-1986	we	person[195]|person[376]	giv[195]|giv[376]	_	_
+27-12	1969-1975	Isabel	person[192]|person[193]	giv[192]|giv[193]	ana|ana	27-16[195_192]|27-20[196_193]
+27-13	1976-1979	and	person[192]	giv[192]	_	_
+27-14	1980-1981	I	person[192]|person[194]	giv[192]|giv[194]	ana	28-6[206_194]
+27-15	1982-1983	,	_	_	_	_
+27-16	1984-1986	we	person[195]	giv[195]	ana	27-28[203_195]
 27-17	1987-1990	had	_	_	_	_
 27-18	1991-1994	met	_	_	_	_
 27-19	1995-1999	like	_	_	_	_

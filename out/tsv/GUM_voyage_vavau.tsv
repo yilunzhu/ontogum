@@ -46,15 +46,15 @@
 3-7	187-191	town	place[15]|place[16]	new[15]|new[16]	_	_
 3-8	192-194	of	place[15]|place[16]	new[15]|new[16]	_	_
 3-9	195-201	Neiafu	place[15]|place[16]	new[15]|new[16]	_	_
-3-10	202-203	(	place[15]	new[15]	_	_
-3-11	204-209	known	place[15]	new[15]	_	_
-3-12	210-212	as	place[15]	new[15]	_	_
-3-13	213-216	the	place[17]|place[15]	giv[17]|new[15]	_	_
-3-14	217-221	Port	place[17]|place[15]	giv[17]|new[15]	_	_
-3-15	222-224	of	place[17]|place[15]	giv[17]|new[15]	_	_
-3-16	225-231	Refuge	place[17]|place[15]	giv[17]|new[15]	_	_
-3-17	232-239	Harbour	place[17]|place[15]	giv[17]|new[15]	_	_
-3-18	240-241	)	place[15]	new[15]	_	_
+3-10	202-203	(	_	_	_	_
+3-11	204-209	known	_	_	_	_
+3-12	210-212	as	_	_	_	_
+3-13	213-216	the	place[17]	giv[17]	_	_
+3-14	217-221	Port	place[17]	giv[17]	_	_
+3-15	222-224	of	place[17]	giv[17]	_	_
+3-16	225-231	Refuge	place[17]	giv[17]	_	_
+3-17	232-239	Harbour	place[17]	giv[17]	_	_
+3-18	240-241	)	_	_	_	_
 3-19	242-244	is	_	_	_	_
 3-20	245-246	a	_	_	_	_
 3-21	247-253	common	_	_	_	_
@@ -162,7 +162,7 @@
 9-7	756-762	people	_	_	_	_
 9-8	763-769	living	_	_	_	_
 9-9	770-772	in	_	_	_	_
-9-10	773-776	the	place[50]	giv[50]	_	_
+9-10	773-776	the	place[50]	giv[50]	coref	11-12[67_50]
 9-11	777-782	Group	place[50]	giv[50]	_	_
 9-12	783-784	.	_	_	_	_
 
@@ -193,14 +193,14 @@
 10-24	914-916	of	_	_	_	_
 10-25	917-920	the	person[60]	giv[60]	_	_
 10-26	921-931	population	person[60]	giv[60]	_	_
-10-27	932-938	living	person[60]	giv[60]	_	_
-10-28	939-941	in	person[60]	giv[60]	_	_
-10-29	942-947	small	person[60]	giv[60]	_	_
-10-30	948-956	villages	person[60]	giv[60]	_	_
-10-31	957-959	on	person[60]	giv[60]	_	_
-10-32	960-963	the	person[60]	giv[60]	_	_
-10-33	964-969	other	person[60]	giv[60]	_	_
-10-34	970-977	islands	person[60]	giv[60]	_	_
+10-27	932-938	living	_	_	_	_
+10-28	939-941	in	_	_	_	_
+10-29	942-947	small	_	_	_	_
+10-30	948-956	villages	_	_	_	_
+10-31	957-959	on	_	_	_	_
+10-32	960-963	the	_	_	_	_
+10-33	964-969	other	_	_	_	_
+10-34	970-977	islands	_	_	_	_
 10-35	978-979	.	_	_	_	_
 
 #Text=Neiafu is the official port of entry for yachts coming to Vava'u , which attracts over 500 yachts every winter sailing season between June and October .
@@ -244,7 +244,7 @@
 12-9	1173-1180	eastern	_	_	_	_
 12-10	1181-1185	edge	_	_	_	_
 12-11	1186-1188	of	_	_	_	_
-12-12	1189-1192	the	place[79]	giv[79]	_	_
+12-12	1189-1192	the	place[79]	giv[79]	coref	20-1[136_79]
 12-13	1193-1198	Group	place[79]	giv[79]	_	_
 12-14	1199-1207	shelters	_	_	_	_
 12-15	1208-1211	the	place[80]	giv[80]	_	_
@@ -523,13 +523,13 @@
 29-1	2459-2462	The	place[182]	giv[182]	_	_
 29-2	2463-2469	island	place[182]	giv[182]	_	_
 29-3	2470-2478	provides	_	_	_	_
-29-4	2479-2480	a	_	_	_	_
-29-5	2481-2485	home	_	_	_	_
-29-6	2486-2488	to	_	_	_	_
-29-7	2489-2495	eleven	_	_	_	_
-29-8	2496-2506	indigenous	_	_	_	_
-29-9	2507-2511	bird	_	_	_	_
-29-10	2512-2519	species	_	_	_	_
+29-4	2479-2480	a	place[183]	giv[183]	coref	33-22[208_183]
+29-5	2481-2485	home	place[183]	giv[183]	_	_
+29-6	2486-2488	to	place[183]	giv[183]	_	_
+29-7	2489-2495	eleven	place[183]	giv[183]	_	_
+29-8	2496-2506	indigenous	place[183]	giv[183]	_	_
+29-9	2507-2511	bird	place[183]	giv[183]	_	_
+29-10	2512-2519	species	place[183]	giv[183]	_	_
 29-11	2520-2523	and	_	_	_	_
 29-12	2524-2532	contains	_	_	_	_
 29-13	2533-2536	Mt.	_	_	_	_
@@ -615,8 +615,8 @@
 33-19	2909-2917	southern	_	_	_	_
 33-20	2918-2923	point	_	_	_	_
 33-21	2924-2926	of	_	_	_	_
-33-22	2927-2931	‘Utu	_	_	_	_
-33-23	2932-2938	Vava’u	_	_	_	_
+33-22	2927-2931	‘Utu	place[208]	giv[208]	_	_
+33-23	2932-2938	Vava’u	place[208]	giv[208]	_	_
 33-24	2939-2940	.	_	_	_	_
 
 #Text=There are some good beaches and plenty of secluded cove beaches and protected bays with good snorkelling .

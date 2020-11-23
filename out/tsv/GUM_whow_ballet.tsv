@@ -297,7 +297,7 @@
 15-9	1450-1451	,	_	_	_	_
 15-10	1452-1454	so	_	_	_	_
 15-11	1455-1458	ask	_	_	_	_
-15-12	1459-1463	your	person[105]|person[106]	new[105]|giv[106]	coref|ana	27-12[189_105]|15-25[115_106]
+15-12	1459-1463	your	person[105]|person[106]	new[105]|giv[106]	ana|coref	15-25[115_106]|27-12[189_105]
 15-13	1464-1470	ballet	person[105]	new[105]	_	_
 15-14	1471-1478	teacher	person[105]	new[105]	_	_
 15-15	1479-1481	or	_	_	_	_
@@ -321,23 +321,23 @@
 16-2	1558-1561	n't	_	_	_	_
 16-3	1562-1565	buy	_	_	_	_
 16-4	1566-1571	shoes	object[117]	giv[117]	ana	17-4[125_117]
-16-5	1572-1574	to	object[117]	giv[117]	_	_
-16-6	1575-1579	grow	object[117]	giv[117]	_	_
-16-7	1580-1584	into	object[117]	giv[117]	_	_
-16-8	1585-1586	,	object[117]	giv[117]	_	_
-16-9	1587-1594	because	object[117]	giv[117]	_	_
-16-10	1595-1599	your	object[121]|person[122]|object[117]	giv[121]|giv[122]|giv[117]	ana	16-16[123_122]
-16-11	1600-1604	feet	object[121]|object[117]	giv[121]|giv[117]	_	_
-16-12	1605-1609	will	object[117]	giv[117]	_	_
-16-13	1610-1614	seem	object[117]	giv[117]	_	_
-16-14	1615-1621	flexed	object[117]	giv[117]	_	_
-16-15	1622-1626	when	object[117]	giv[117]	_	_
-16-16	1627-1630	you	person[123]|object[117]	giv[123]|giv[117]	ana	17-1[124_123]
-16-17	1631-1637	pointe	object[117]	giv[117]	_	_
-16-18	1638-1641	and	object[117]	giv[117]	_	_
-16-19	1642-1646	will	object[117]	giv[117]	_	_
-16-20	1647-1651	look	object[117]	giv[117]	_	_
-16-21	1652-1656	flat	object[117]	giv[117]	_	_
+16-5	1572-1574	to	_	_	_	_
+16-6	1575-1579	grow	_	_	_	_
+16-7	1580-1584	into	_	_	_	_
+16-8	1585-1586	,	_	_	_	_
+16-9	1587-1594	because	_	_	_	_
+16-10	1595-1599	your	object[121]|person[122]	giv[121]|giv[122]	ana	16-16[123_122]
+16-11	1600-1604	feet	object[121]	giv[121]	_	_
+16-12	1605-1609	will	_	_	_	_
+16-13	1610-1614	seem	_	_	_	_
+16-14	1615-1621	flexed	_	_	_	_
+16-15	1622-1626	when	_	_	_	_
+16-16	1627-1630	you	person[123]	giv[123]	ana	17-1[124_123]
+16-17	1631-1637	pointe	_	_	_	_
+16-18	1638-1641	and	_	_	_	_
+16-19	1642-1646	will	_	_	_	_
+16-20	1647-1651	look	_	_	_	_
+16-21	1652-1656	flat	_	_	_	_
 16-22	1657-1658	.	_	_	_	_
 
 #Text=You should fit them to where the drawstring is tied slightly loose .
@@ -357,7 +357,7 @@
 
 #Text=If your drawstring is longer than your pinkie then you should cut it off till it is roughly the size of your fingernail .
 18-1	1728-1730	If	_	_	_	_
-18-2	1731-1735	your	object[131]|person[132]	giv[131]|giv[132]	ana|ana	18-13[137_131]|18-7[135_132]
+18-2	1731-1735	your	object[131]|person[132]	giv[131]|giv[132]	ana|ana	18-7[135_132]|18-13[137_131]
 18-3	1736-1746	drawstring	object[131]	giv[131]	_	_
 18-4	1747-1749	is	_	_	_	_
 18-5	1750-1756	longer	_	_	_	_
@@ -663,7 +663,7 @@
 33-27	3163-3167	able	event[233]	new[233]	_	_
 33-28	3168-3170	to	event[233]	new[233]	_	_
 33-29	3171-3178	correct	event[233]	new[233]	_	_
-33-30	3179-3183	your	event[233]|abstract[241]|person[242]	new[233]|new[241]|giv[242]	coref|ana	34-10[250_241]|33-36[243_242]
+33-30	3179-3183	your	event[233]|abstract[241]|person[242]	new[233]|new[241]|giv[242]	ana|coref	33-36[243_242]|34-10[250_241]
 33-31	3184-3195	positioning	event[233]|abstract[241]	new[233]|new[241]	_	_
 33-32	3196-3199	and	event[233]	new[233]	_	_
 33-33	3200-3204	make	event[233]	new[233]	_	_

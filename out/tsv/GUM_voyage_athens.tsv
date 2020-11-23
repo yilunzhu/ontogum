@@ -8,9 +8,9 @@
 1-2	7-8	(	_	_	_	_
 1-3	9-14	Greek	_	_	_	_
 1-4	15-16	:	_	_	_	_
-1-5	17-22	Αθήνα	_	_	_	_
+1-5	17-22	Αθήνα	abstract[3]	new[3]	coref	1-7[4_3]
 1-6	23-24	,	_	_	_	_
-1-7	25-31	Athína	_	_	_	_
+1-7	25-31	Athína	abstract[4]	giv[4]	_	_
 1-8	32-33	)	_	_	_	_
 1-9	34-35	,	_	_	_	_
 1-10	36-38	is	_	_	_	_
@@ -81,7 +81,7 @@
 6-6	362-366	King	person[22]	acc[22]	_	_
 6-7	367-369	of	person[22]	acc[22]	_	_
 6-8	370-376	Athens	person[22]|place[23]	acc[22]|giv[23]	coref	11-6[67_23]
-6-9	377-378	,	person[22]	acc[22]	_	_
+6-9	377-378	,	_	_	_	_
 6-10	379-386	Theseus	person[24]	giv[24]	_	_
 6-11	387-394	unified	_	_	_	_
 6-12	395-398	the	_	_	_	_
@@ -101,16 +101,16 @@
 6-26	458-459	.	_	_	_	_
 
 #Text=This process of synoikismos – bringing together in one home – created the largest and wealthiest state on the Greek mainland , but it also created a larger class of people excluded from political life by the nobility .
-7-1	460-464	This	abstract[350]	new[350]	ana	7-24[35_350]
-7-2	465-472	process	abstract[350]	new[350]	_	_
-7-3	473-475	of	abstract[350]	new[350]	_	_
-7-4	476-487	synoikismos	abstract[350]	new[350]	_	_
-7-5	488-489	–	abstract[350]	new[350]	_	_
-7-6	490-498	bringing	abstract[350]	new[350]	_	_
-7-7	499-507	together	abstract[350]	new[350]	_	_
-7-8	508-510	in	abstract[350]	new[350]	_	_
-7-9	511-514	one	abstract[350]	new[350]	_	_
-7-10	515-519	home	abstract[350]	new[350]	_	_
+7-1	460-464	This	_	_	_	_
+7-2	465-472	process	_	_	_	_
+7-3	473-475	of	_	_	_	_
+7-4	476-487	synoikismos	_	_	_	_
+7-5	488-489	–	_	_	_	_
+7-6	490-498	bringing	abstract[32]	giv[32]	ana	7-24[35_32]
+7-7	499-507	together	abstract[32]	giv[32]	_	_
+7-8	508-510	in	abstract[32]	giv[32]	_	_
+7-9	511-514	one	abstract[32]	giv[32]	_	_
+7-10	515-519	home	abstract[32]	giv[32]	_	_
 7-11	520-521	–	_	_	_	_
 7-12	522-529	created	_	_	_	_
 7-13	530-533	the	_	_	_	_
@@ -534,7 +534,7 @@
 23-24	2714-2721	leaving	_	_	_	_
 23-25	2722-2728	behind	_	_	_	_
 23-26	2729-2733	only	_	_	_	_
-23-27	2734-2737	its	object[150]|place[151]	giv[150]|giv[151]	coref|coref	24-27[165_150]|24-6[156_151]
+23-27	2734-2737	its	object[150]|place[151]	giv[150]|giv[151]	coref|coref	24-6[156_151]|24-27[165_150]
 23-28	2738-2747	classical	object[150]	giv[150]	_	_
 23-29	2748-2753	ruins	object[150]	giv[150]	_	_
 23-30	2754-2756	as	_	_	_	_

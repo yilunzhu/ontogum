@@ -55,21 +55,21 @@
 6-5	194-199	vegan	abstract[11]	new[11]	_	_
 6-6	200-207	cupcake	abstract[11]	new[11]	_	_
 6-7	208-214	recipe	abstract[11]	new[11]	_	_
-6-8	215-217	to	abstract[11]	new[11]	_	_
-6-9	218-221	use	abstract[11]	new[11]	_	_
-6-10	222-224	as	abstract[11]	new[11]	_	_
-6-11	225-226	a	abstract[11]	new[11]	_	_
-6-12	227-231	base	abstract[11]	new[11]	_	_
-6-13	232-235	for	abstract[11]	new[11]	_	_
-6-14	236-244	whatever	abstract[11]	new[11]	_	_
-6-15	245-253	flavored	abstract[11]	new[11]	_	_
-6-16	254-259	icing	abstract[11]	new[11]	_	_
-6-17	260-263	you	person[15]|abstract[11]	giv[15]|new[11]	ana	10-9[29_15]
-6-18	264-268	want	abstract[11]	new[11]	_	_
-6-19	269-271	to	abstract[11]	new[11]	_	_
-6-20	272-275	add	abstract[11]	new[11]	_	_
-6-21	276-278	to	abstract[11]	new[11]	_	_
-6-22	279-281	it	abstract[16]|abstract[11]	giv[16]|new[11]	_	_
+6-8	215-217	to	_	_	_	_
+6-9	218-221	use	_	_	_	_
+6-10	222-224	as	_	_	_	_
+6-11	225-226	a	_	_	_	_
+6-12	227-231	base	_	_	_	_
+6-13	232-235	for	_	_	_	_
+6-14	236-244	whatever	_	_	_	_
+6-15	245-253	flavored	_	_	_	_
+6-16	254-259	icing	_	_	_	_
+6-17	260-263	you	person[15]	giv[15]	ana	10-9[29_15]
+6-18	264-268	want	_	_	_	_
+6-19	269-271	to	_	_	_	_
+6-20	272-275	add	_	_	_	_
+6-21	276-278	to	_	_	_	_
+6-22	279-281	it	abstract[16]	giv[16]	_	_
 6-23	282-283	.	_	_	_	_
 
 #Text=They 're guaranteed to be light and fluffy and perfect for any occasion .
@@ -118,39 +118,39 @@
 10-14	476-477	)	_	_	_	_
 
 #Text=1 tablespoon ( 15 ml ) apple cider vinegar
-11-1	478-479	1	substance[409]	acc[409]	coref	38-2[102_409]
-11-2	480-490	tablespoon	substance[409]	acc[409]	_	_
-11-3	491-492	(	substance[409]	acc[409]	_	_
-11-4	493-495	15	substance[409]	acc[409]	_	_
-11-5	496-498	ml	substance[409]	acc[409]	_	_
-11-6	499-500	)	substance[409]	acc[409]	_	_
-11-7	501-506	apple	substance[409]	acc[409]	_	_
-11-8	507-512	cider	substance[409]	acc[409]	_	_
-11-9	513-520	vinegar	substance[409]	acc[409]	_	_
+11-1	478-479	1	_	_	_	_
+11-2	480-490	tablespoon	_	_	_	_
+11-3	491-492	(	_	_	_	_
+11-4	493-495	15	substance[34]	giv[34]	coref	38-2[102_34]
+11-5	496-498	ml	substance[34]	giv[34]	_	_
+11-6	499-500	)	_	_	_	_
+11-7	501-506	apple	_	_	_	_
+11-8	507-512	cider	_	_	_	_
+11-9	513-520	vinegar	_	_	_	_
 
 #Text=1 1/2 cups ( 350 ml ) plain soy milk
-12-1	521-522	1	substance[410]	acc[410]	coref	38-11[106_410]
-12-2	523-526	1/2	substance[410]	acc[410]	_	_
-12-3	527-531	cups	substance[410]	acc[410]	_	_
-12-4	532-533	(	substance[410]	acc[410]	_	_
-12-5	534-537	350	substance[410]	acc[410]	_	_
-12-6	538-540	ml	substance[410]	acc[410]	_	_
-12-7	541-542	)	substance[410]	acc[410]	_	_
-12-8	543-548	plain	substance[410]	acc[410]	_	_
-12-9	549-552	soy	substance[410]	acc[410]	_	_
-12-10	553-557	milk	substance[410]	acc[410]	_	_
+12-1	521-522	1	_	_	_	_
+12-2	523-526	1/2	_	_	_	_
+12-3	527-531	cups	_	_	_	_
+12-4	532-533	(	_	_	_	_
+12-5	534-537	350	substance[39]	giv[39]	coref	38-11[106_39]
+12-6	538-540	ml	substance[39]	giv[39]	_	_
+12-7	541-542	)	_	_	_	_
+12-8	543-548	plain	_	_	_	_
+12-9	549-552	soy	_	_	_	_
+12-10	553-557	milk	_	_	_	_
 
 #Text=2 3/4 cups ( 345 g ) self raising flour
-13-1	558-559	2	substance[411]	acc[411]	coref	41-3[118_411]
-13-2	560-563	3/4	substance[411]	acc[411]	_	_
-13-3	564-568	cups	substance[411]	acc[411]	_	_
-13-4	569-570	(	substance[411]	acc[411]	_	_
-13-5	571-574	345	substance[411]	acc[411]	_	_
-13-6	575-576	g	substance[411]	acc[411]	_	_
-13-7	577-578	)	substance[411]	acc[411]	_	_
-13-8	579-583	self	substance[411]	acc[411]	_	_
-13-9	584-591	raising	substance[411]	acc[411]	_	_
-13-10	592-597	flour	substance[411]	acc[411]	_	_
+13-1	558-559	2	_	_	_	_
+13-2	560-563	3/4	_	_	_	_
+13-3	564-568	cups	_	_	_	_
+13-4	569-570	(	_	_	_	_
+13-5	571-574	345	substance[43]	giv[43]	coref	41-3[118_43]
+13-6	575-576	g	substance[43]	giv[43]	_	_
+13-7	577-578	)	_	_	_	_
+13-8	579-583	self	_	_	_	_
+13-9	584-591	raising	_	_	_	_
+13-10	592-597	flour	_	_	_	_
 
 #Text=2 teaspoons ( 10 g ) baking powder
 14-1	598-599	2	_	_	_	_
@@ -183,14 +183,14 @@
 17-7	692-697	sugar	_	_	_	_
 
 #Text=1/2 cup ( 120 ml ) vegetable oil
-18-1	698-701	1/2	substance[414]	acc[414]	coref	43-2[131_414]
-18-2	702-705	cup	substance[414]	acc[414]	_	_
-18-3	706-707	(	substance[414]	acc[414]	_	_
-18-4	708-711	120	substance[414]	acc[414]	_	_
-18-5	712-714	ml	substance[414]	acc[414]	_	_
-18-6	715-716	)	substance[414]	acc[414]	_	_
-18-7	717-726	vegetable	substance[414]	acc[414]	_	_
-18-8	727-730	oil	substance[414]	acc[414]	_	_
+18-1	698-701	1/2	_	_	_	_
+18-2	702-705	cup	_	_	_	_
+18-3	706-707	(	_	_	_	_
+18-4	708-711	120	substance[51]	giv[51]	coref	43-2[131_51]
+18-5	712-714	ml	substance[51]	giv[51]	_	_
+18-6	715-716	)	_	_	_	_
+18-7	717-726	vegetable	_	_	_	_
+18-8	727-730	oil	_	_	_	_
 
 #Text=1 teaspoon vanilla extract
 19-1	731-732	1	_	_	_	_
@@ -272,17 +272,17 @@
 27-3	1026-1030	salt	_	_	_	_
 
 #Text=450 ml ( 1 - 3/4 cup ) unsweetened soy milk
-28-1	1031-1034	450	substance[417]	new[417]	coref	63-2[231_417]
-28-2	1035-1037	ml	substance[417]	new[417]	_	_
-28-3	1038-1039	(	substance[417]	new[417]	_	_
-28-4	1040-1041	1	substance[417]	new[417]	_	_
-28-5	1042-1043	-	substance[417]	new[417]	_	_
-28-6	1044-1047	3/4	substance[417]	new[417]	_	_
-28-7	1048-1051	cup	substance[417]	new[417]	_	_
-28-8	1052-1053	)	substance[417]	new[417]	_	_
-28-9	1054-1065	unsweetened	substance[417]	new[417]	_	_
-28-10	1066-1069	soy	substance[417]	new[417]	_	_
-28-11	1070-1074	milk	substance[417]	new[417]	_	_
+28-1	1031-1034	450	_	_	_	_
+28-2	1035-1037	ml	_	_	_	_
+28-3	1038-1039	(	_	_	_	_
+28-4	1040-1041	1	substance[70]	giv[70]	coref	63-2[231_70]
+28-5	1042-1043	-	substance[70]	giv[70]	_	_
+28-6	1044-1047	3/4	substance[70]	giv[70]	_	_
+28-7	1048-1051	cup	substance[70]	giv[70]	_	_
+28-8	1052-1053	)	_	_	_	_
+28-9	1054-1065	unsweetened	_	_	_	_
+28-10	1066-1069	soy	_	_	_	_
+28-11	1070-1074	milk	_	_	_	_
 
 #Text=2 teaspoons red wine or apple cider vinegar
 29-1	1075-1076	2	_	_	_	_
@@ -422,7 +422,7 @@
 39-10	1604-1605	.	_	_	_	_
 
 #Text=The mixture will now curdle and this is what should be happening .
-40-1	1606-1609	The	event[112]|substance[113]	new[112]|giv[113]	ana|coref	40-7[114_112]|43-11[134_113]
+40-1	1606-1609	The	event[112]|substance[113]	new[112]|giv[113]	coref|ana	43-11[134_113]|40-7[114_112]
 40-2	1610-1617	mixture	event[112]|substance[113]	new[112]|giv[113]	_	_
 40-3	1618-1622	will	event[112]	new[112]	_	_
 40-4	1623-1626	now	event[112]	new[112]	_	_
@@ -461,12 +461,12 @@
 42-5	1768-1776	cupcakes	_	_	_	_
 42-6	1777-1778	,	_	_	_	_
 42-7	1779-1782	add	_	_	_	_
-42-8	1783-1788	cocoa	substance[125]	giv[125]	appos	42-9[378_125]
-42-9	1789-1790	(	substance[378]	giv[378]	_	_
-42-10	1791-1796	about	substance[378]	giv[378]	_	_
-42-11	1797-1800	1/2	substance[378]	giv[378]	_	_
-42-12	1801-1804	cup	substance[378]	giv[378]	_	_
-42-13	1805-1806	)	substance[378]	giv[378]	_	_
+42-8	1783-1788	cocoa	_	_	_	_
+42-9	1789-1790	(	_	_	_	_
+42-10	1791-1796	about	_	_	_	_
+42-11	1797-1800	1/2	_	_	_	_
+42-12	1801-1804	cup	_	_	_	_
+42-13	1805-1806	)	_	_	_	_
 42-14	1807-1809	to	_	_	_	_
 42-15	1810-1814	this	event[130]	giv[130]	_	_
 42-16	1815-1820	stage	event[130]	giv[130]	_	_
@@ -592,7 +592,7 @@
 50-10	2333-2335	to	_	_	_	_
 50-11	2336-2340	make	_	_	_	_
 50-12	2341-2345	sure	_	_	_	_
-50-13	2346-2350	they	event[165]|object[166]	new[165]|giv[166]	ana|ana	50-19[167_165]|50-21[168_166]
+50-13	2346-2350	they	event[165]|object[166]	new[165]|giv[166]	ana|ana	50-21[168_166]|50-19[167_165]
 50-14	2351-2354	are	event[165]	new[165]	_	_
 50-15	2355-2358	n't	event[165]	new[165]	_	_
 50-16	2359-2367	browning	event[165]	new[165]	_	_

@@ -14,12 +14,12 @@
 1-8	56-68	organization	organization[3]	giv[3]	coref	3-29[18_3]
 
 #Text=Saturday , October 9 , 2010
-2-1	69-77	Saturday	time[404]	acc[404]	appos	2-3[8_404]
-2-2	78-79	,	time[404]	acc[404]	_	_
-2-3	80-87	October	time[8]	giv[8]	_	_
-2-4	88-89	9	time[8]	giv[8]	_	_
-2-5	90-91	,	time[8]	giv[8]	_	_
-2-6	92-96	2010	time[8]	giv[8]	_	_
+2-1	69-77	Saturday	_	_	_	_
+2-2	78-79	,	_	_	_	_
+2-3	80-87	October	_	_	_	_
+2-4	88-89	9	_	_	_	_
+2-5	90-91	,	_	_	_	_
+2-6	92-96	2010	_	_	_	_
 
 #Text=Recent reports have revealed that a defector from the elite group within Scientology called the Sea Org was first persuaded to travel back to a management building for the organization in California , where he was interrogated by an attorney for Scientology and then arrested .
 3-1	97-103	Recent	_	_	_	_
@@ -72,26 +72,26 @@
 #Text=Daniel Montalvo in September 2010 , after having left the elite group within Scientology called the Sea Org .
 4-1	375-381	Daniel	person[26]	giv[26]	coref	5-1[34_26]
 4-2	382-390	Montalvo	person[26]	giv[26]	_	_
-4-3	391-393	in	person[26]	giv[26]	_	_
-4-4	394-403	September	person[26]	giv[26]	_	_
-4-5	404-408	2010	person[26]	giv[26]	_	_
-4-6	409-410	,	person[26]	giv[26]	_	_
-4-7	411-416	after	person[26]	giv[26]	_	_
-4-8	417-423	having	person[26]	giv[26]	_	_
-4-9	424-428	left	person[26]	giv[26]	_	_
+4-3	391-393	in	_	_	_	_
+4-4	394-403	September	_	_	_	_
+4-5	404-408	2010	_	_	_	_
+4-6	409-410	,	_	_	_	_
+4-7	411-416	after	_	_	_	_
+4-8	417-423	having	_	_	_	_
+4-9	424-428	left	_	_	_	_
 4-10	429-432	the	organization[30]	giv[30]	coref	4-16[33_30]
 4-11	433-438	elite	organization[30]	giv[30]	_	_
 4-12	439-444	group	organization[30]	giv[30]	_	_
 4-13	445-451	within	organization[30]	giv[30]	_	_
 4-14	452-463	Scientology	organization[30]|organization[31]	giv[30]|giv[31]	coref	5-14[38_31]
-4-15	464-470	called	organization[30]	giv[30]	_	_
-4-16	471-474	the	organization[33]|organization[30]	giv[33]|giv[30]	coref	7-18[468_33]
-4-17	475-478	Sea	organization[33]|organization[30]	giv[33]|giv[30]	_	_
-4-18	479-482	Org	organization[33]|organization[30]	giv[33]|giv[30]	_	_
+4-15	464-470	called	_	_	_	_
+4-16	471-474	the	organization[33]	giv[33]	coref	7-18[406_33]
+4-17	475-478	Sea	organization[33]	giv[33]	_	_
+4-18	479-482	Org	organization[33]	giv[33]	_	_
 4-19	483-484	.	_	_	_	_
 
 #Text=Montalvo is holding a copy of the book Blown for Good critical of Scientology , written by Marc Headley .
-5-1	485-493	Montalvo	person[34]	giv[34]	coref	7-1[467_34]
+5-1	485-493	Montalvo	person[34]	giv[34]	coref	7-1[405_34]
 5-2	494-496	is	_	_	_	_
 5-3	497-504	holding	_	_	_	_
 5-4	505-506	a	object[36]	new[36]	coref	5-9[37_36]
@@ -120,29 +120,29 @@
 6-5	612-613	.	_	_	_	_
 
 #Text=Daniel Montalvo , 19 , a member of Scientology all his life , was arrested after leaving its elite group the Sea Org .
-7-1	614-620	Daniel	person[467]	giv[467]	ana	8-1[52_467]
-7-2	621-629	Montalvo	person[467]	giv[467]	_	_
-7-3	630-631	,	person[467]	giv[467]	_	_
-7-4	632-634	19	person[467]	giv[467]	_	_
-7-5	635-636	,	person[467]	giv[467]	_	_
-7-6	637-638	a	person[467]	giv[467]	_	_
-7-7	639-645	member	person[467]	giv[467]	_	_
-7-8	646-648	of	person[467]	giv[467]	_	_
-7-9	649-660	Scientology	organization[46]|person[467]	giv[46]|giv[467]	ana	7-18[49_46]
-7-10	661-664	all	person[467]	giv[467]	_	_
-7-11	665-668	his	person[467]	giv[467]	_	_
-7-12	669-673	life	person[467]	giv[467]	_	_
+7-1	614-620	Daniel	person[405]	giv[405]	ana	8-1[52_405]
+7-2	621-629	Montalvo	person[405]	giv[405]	_	_
+7-3	630-631	,	person[405]	giv[405]	_	_
+7-4	632-634	19	person[405]	giv[405]	_	_
+7-5	635-636	,	person[405]	giv[405]	_	_
+7-6	637-638	a	person[405]	giv[405]	_	_
+7-7	639-645	member	person[405]	giv[405]	_	_
+7-8	646-648	of	person[405]	giv[405]	_	_
+7-9	649-660	Scientology	organization[46]|person[405]	giv[46]|giv[405]	ana	7-18[49_46]
+7-10	661-664	all	person[405]	giv[405]	_	_
+7-11	665-668	his	person[405]	giv[405]	_	_
+7-12	669-673	life	person[405]	giv[405]	_	_
 7-13	674-675	,	_	_	_	_
 7-14	676-679	was	_	_	_	_
 7-15	680-688	arrested	_	_	_	_
 7-16	689-694	after	_	_	_	_
 7-17	695-702	leaving	_	_	_	_
-7-18	703-706	its	organization[48]|organization[49]|organization[468]	giv[48]|giv[49]|giv[468]	appos|coref|coref	7-21[51_48]|9-13[63_49]|9-18[64_468]
-7-19	707-712	elite	organization[48]|organization[468]	giv[48]|giv[468]	_	_
-7-20	713-718	group	organization[48]|organization[468]	giv[48]|giv[468]	_	_
-7-21	719-722	the	organization[51]|organization[468]	giv[51]|giv[468]	_	_
-7-22	723-726	Sea	organization[51]|organization[468]	giv[51]|giv[468]	_	_
-7-23	727-730	Org	organization[51]|organization[468]	giv[51]|giv[468]	_	_
+7-18	703-706	its	organization[48]|organization[49]|organization[406]	giv[48]|giv[49]|giv[406]	coref|appos|coref	9-13[63_49]|7-21[51_48]|9-18[64_406]
+7-19	707-712	elite	organization[48]|organization[406]	giv[48]|giv[406]	_	_
+7-20	713-718	group	organization[48]|organization[406]	giv[48]|giv[406]	_	_
+7-21	719-722	the	organization[51]|organization[406]	giv[51]|giv[406]	_	_
+7-22	723-726	Sea	organization[51]|organization[406]	giv[51]|giv[406]	_	_
+7-23	727-730	Org	organization[51]|organization[406]	giv[51]|giv[406]	_	_
 7-24	731-732	.	_	_	_	_
 
 #Text=He was released on US$ 20,000 bail on Thursday .
@@ -326,19 +326,19 @@
 15-4	1712-1719	members	_	_	_	_
 15-5	1720-1722	of	_	_	_	_
 15-6	1723-1734	Scientology	organization[117]	giv[117]	coref	15-12[121_117]
-15-7	1735-1736	,	organization[117]	new[117]	_	_
-15-8	1737-1740	who	organization[117]	new[117]	_	_
-15-9	1741-1747	helped	organization[117]	new[117]	_	_
-15-10	1748-1751	him	person[118]|organization[117]	giv[118]|new[117]	ana	16-1[123_118]
-15-11	1752-1757	leave	organization[117]	new[117]	_	_
-15-12	1758-1761	the	organization[121]|organization[117]	giv[121]|new[117]	coref	17-5[141_121]
-15-13	1762-1774	organization	organization[121]|organization[117]	giv[121]|new[117]	_	_
-15-14	1775-1778	and	organization[117]	new[117]	_	_
-15-15	1779-1782	get	organization[117]	new[117]	_	_
-15-16	1783-1785	in	organization[117]	new[117]	_	_
-15-17	1786-1791	touch	organization[117]	new[117]	_	_
-15-18	1792-1796	with	organization[117]	new[117]	_	_
-15-19	1797-1804	Devocht	person[122]|organization[117]	giv[122]|new[117]	ana	16-14[130_122]
+15-7	1735-1736	,	_	_	_	_
+15-8	1737-1740	who	_	_	_	_
+15-9	1741-1747	helped	_	_	_	_
+15-10	1748-1751	him	person[118]	giv[118]	ana	16-1[123_118]
+15-11	1752-1757	leave	_	_	_	_
+15-12	1758-1761	the	organization[121]	giv[121]	coref	17-5[141_121]
+15-13	1762-1774	organization	organization[121]	giv[121]	_	_
+15-14	1775-1778	and	_	_	_	_
+15-15	1779-1782	get	_	_	_	_
+15-16	1783-1785	in	_	_	_	_
+15-17	1786-1791	touch	_	_	_	_
+15-18	1792-1796	with	_	_	_	_
+15-19	1797-1804	Devocht	person[122]	giv[122]	ana	16-14[130_122]
 15-20	1805-1806	.	_	_	_	_
 
 #Text=He traveled to Florida to meet with Devocht , who had told Montalvo he would assist him with future employment and housing .
@@ -428,12 +428,12 @@
 19-19	2263-2266	put	_	_	_	_
 19-20	2267-2274	through	_	_	_	_
 19-21	2275-2277	to	_	_	_	_
-19-22	2278-2279	a	person[165]|person[470]	new[165]|new[470]	appos|coref	19-26[168_165]|20-5[170_470]
-19-23	2280-2291	Scientology	person[165]|organization[166]|person[470]	new[165]|giv[166]|new[470]	coref	21-7[190_166]
-19-24	2292-2300	attorney	person[165]|person[470]	new[165]|new[470]	_	_
-19-25	2301-2302	,	person[165]|person[470]	new[165]|new[470]	_	_
-19-26	2303-2311	Kendrick	person[168]|person[470]	giv[168]|new[470]	_	_
-19-27	2312-2317	Moxon	person[168]|person[470]	giv[168]|new[470]	_	_
+19-22	2278-2279	a	person[165]|person[407]	new[165]|new[407]	coref|appos	20-5[170_407]|19-26[168_165]
+19-23	2280-2291	Scientology	person[165]|organization[166]|person[407]	new[165]|giv[166]|new[407]	coref	21-7[190_166]
+19-24	2292-2300	attorney	person[165]|person[407]	new[165]|new[407]	_	_
+19-25	2301-2302	,	person[407]	new[407]	_	_
+19-26	2303-2311	Kendrick	person[168]|person[407]	giv[168]|new[407]	_	_
+19-27	2312-2317	Moxon	person[168]|person[407]	giv[168]|new[407]	_	_
 19-28	2318-2319	.	_	_	_	_
 
 #Text=Rathbun wrote , " Moxon proceeded to lie to Daniel that the hard drives were never returned , and made a convincing case ( not difficult to do with a 19 year old who does not even know the three branches of government ) that Daniel would be put behind iron bars for a good long time , UNLESS of course , he returned and cooperated with Moxon and routed out properly . "
@@ -707,17 +707,17 @@
 27-53	3644-3645	"	_	_	_	_
 
 #Text=Steve Whitmore , a representative for the LA Sheriff 's office , told LA Weekly in a statement that the case involving Montalvo was being dealt with as charges relating to grand theft .
-28-1	3646-3651	Steve	person[256]|person[471]	new[256]|new[471]	appos|coref	28-4[257_256]|29-1[272_471]
-28-2	3652-3660	Whitmore	person[256]|person[471]	new[256]|new[471]	_	_
-28-3	3661-3662	,	person[256]|person[471]	new[256]|new[471]	_	_
-28-4	3663-3664	a	person[257]|person[471]	giv[257]|new[471]	_	_
-28-5	3665-3679	representative	person[257]|person[471]	giv[257]|new[471]	_	_
-28-6	3680-3683	for	person[257]|person[471]	giv[257]|new[471]	_	_
-28-7	3684-3687	the	person[257]|person[471]	giv[257]|new[471]	_	_
-28-8	3688-3690	LA	person[257]|place[260]|person[471]	giv[257]|giv[260]|new[471]	coref	28-14[263_260]
-28-9	3691-3698	Sheriff	person[257]|person[471]	giv[257]|new[471]	_	_
-28-10	3699-3701	's	person[257]|person[471]	giv[257]|new[471]	_	_
-28-11	3702-3708	office	person[257]|person[471]	giv[257]|new[471]	_	_
+28-1	3646-3651	Steve	person[408]	new[408]	coref	29-1[272_408]
+28-2	3652-3660	Whitmore	person[408]	new[408]	_	_
+28-3	3661-3662	,	person[408]	new[408]	_	_
+28-4	3663-3664	a	person[408]	new[408]	_	_
+28-5	3665-3679	representative	person[408]	new[408]	_	_
+28-6	3680-3683	for	person[408]	new[408]	_	_
+28-7	3684-3687	the	person[408]	new[408]	_	_
+28-8	3688-3690	LA	place[260]|person[408]	giv[260]|new[408]	coref	28-14[263_260]
+28-9	3691-3698	Sheriff	person[408]	new[408]	_	_
+28-10	3699-3701	's	person[408]	new[408]	_	_
+28-11	3702-3708	office	person[408]	new[408]	_	_
 28-12	3709-3710	,	_	_	_	_
 28-13	3711-3715	told	_	_	_	_
 28-14	3716-3718	LA	organization[262]|place[263]	new[262]|giv[263]	coref|coref	31-3[300_262]|29-8[277_263]
@@ -762,7 +762,7 @@
 30-2	3929-3938	September	time[282]	giv[282]	_	_
 30-3	3939-3941	29	_	_	_	_
 30-4	3942-3943	,	_	_	_	_
-30-5	3944-3955	Scientology	person[284]|organization[285]	new[284]|giv[285]	ana|coref	30-17[290_284]|33-9[331_285]
+30-5	3944-3955	Scientology	person[284]|organization[285]	new[284]|giv[285]	coref|ana	33-9[331_285]|30-17[290_284]
 30-6	3956-3965	officials	person[284]	new[284]	_	_
 30-7	3966-3970	went	_	_	_	_
 30-8	3971-3973	to	_	_	_	_
@@ -790,7 +790,7 @@
 #Text=Whitmore told LA Weekly that on October 6 after traveling back from Florida , Montalvo " walked into lobby of the East L.A. station and turned himself in " , and told the police , " everything he did " .
 31-1	4102-4110	Whitmore	person[297]	giv[297]	coref	32-1[319_297]
 31-2	4111-4115	told	_	_	_	_
-31-3	4116-4118	LA	organization[300]|place[301]	giv[300]|giv[301]	coref|coref	32-4[322_300]|31-23[312_301]
+31-3	4116-4118	LA	organization[300]|place[301]	giv[300]|giv[301]	coref|coref	31-23[312_301]|32-4[322_300]
 31-4	4119-4125	Weekly	organization[300]	giv[300]	_	_
 31-5	4126-4130	that	_	_	_	_
 31-6	4131-4133	on	_	_	_	_

@@ -31,7 +31,7 @@
 4-1	159-165	Andrew	_	_	_	_
 4-2	166-175	Beresford	_	_	_	_
 4-3	176-202	a.m.beresford@durham.ac.uk	_	_	_	_
-4-4	203-209	Durham	organization[15]|place[16]	new[15]|new[16]	coref|coref	5-4[22_15]|5-4[23_16]
+4-4	203-209	Durham	organization[15]|place[16]	new[15]|new[16]	coref|coref	5-4[23_16]|5-4[22_15]
 4-5	210-220	University	organization[15]	new[15]	_	_
 4-6	221-222	,	organization[15]	new[15]	_	_
 4-7	223-229	United	organization[15]|place[18]	new[15]|giv[18]	coref	5-7[25_18]
@@ -41,7 +41,7 @@
 5-1	238-244	Daniel	_	_	_	_
 5-2	245-250	Smith	_	_	_	_
 5-3	251-277	daniel.smith2@durham.ac.uk	_	_	_	_
-5-4	278-284	Durham	organization[22]|place[23]	giv[22]|giv[23]	coref|coref	6-4[29_22]|6-4[30_23]
+5-4	278-284	Durham	organization[22]|place[23]	giv[22]|giv[23]	coref|coref	6-4[30_23]|6-4[29_22]
 5-5	285-295	University	organization[22]	giv[22]	_	_
 5-6	296-297	,	organization[22]	giv[22]	_	_
 5-7	298-304	United	organization[22]|place[25]	giv[22]|giv[25]	coref	6-7[32_25]
@@ -161,16 +161,16 @@
 12-5	874-887	collaborative	abstract[82]	new[82]	_	_
 12-6	888-893	pilot	abstract[82]	new[82]	_	_
 12-7	894-901	project	abstract[82]	new[82]	_	_
-12-8	902-910	focusing	abstract[82]	new[82]	_	_
-12-9	911-913	on	abstract[82]	new[82]	_	_
-12-10	914-915	a	object[83]|abstract[82]	new[83]|new[82]	coref	13-1[88_83]
-12-11	916-922	unique	object[83]|abstract[82]	new[83]|new[82]	_	_
-12-12	923-933	collection	object[83]|abstract[82]	new[83]|new[82]	_	_
-12-13	934-936	of	object[83]|abstract[82]	new[83]|new[82]	_	_
-12-14	937-941	17th	object[83]|abstract[82]	new[83]|new[82]	_	_
-12-15	942-949	Century	object[83]|abstract[82]	new[83]|new[82]	_	_
-12-16	950-958	Zurbarán	object[83]|person[86]|abstract[82]	new[83]|new[86]|new[82]	coref	15-25[121_86]
-12-17	959-968	paintings	object[83]|abstract[82]	new[83]|new[82]	_	_
+12-8	902-910	focusing	_	_	_	_
+12-9	911-913	on	_	_	_	_
+12-10	914-915	a	object[83]	new[83]	coref	13-1[88_83]
+12-11	916-922	unique	object[83]	new[83]	_	_
+12-12	923-933	collection	object[83]	new[83]	_	_
+12-13	934-936	of	object[83]	new[83]	_	_
+12-14	937-941	17th	object[83]	new[83]	_	_
+12-15	942-949	Century	object[83]	new[83]	_	_
+12-16	950-958	Zurbarán	object[83]|person[86]	new[83]|new[86]	coref	15-25[121_86]
+12-17	959-968	paintings	object[83]	new[83]	_	_
 12-18	969-970	.	_	_	_	_
 
 #Text=The Jacob cycle at Auckland Castle is the only UK example of a continental collection preserved in situ in purpose-built surroundings .
@@ -178,7 +178,7 @@
 13-2	975-980	Jacob	object[88]|person[89]	giv[88]|new[89]	coref	24-5[252_89]
 13-3	981-986	cycle	object[88]	giv[88]	_	_
 13-4	987-989	at	object[88]	giv[88]	_	_
-13-5	990-998	Auckland	object[88]|place[91]|place[92]	giv[88]|new[91]|new[92]	coref|coref	24-18[258_91]|24-18[259_92]
+13-5	990-998	Auckland	object[88]|place[91]|place[92]	giv[88]|new[91]|new[92]	coref|coref	24-18[259_92]|24-18[258_91]
 13-6	999-1005	Castle	object[88]|place[91]	giv[88]|new[91]	_	_
 13-7	1006-1008	is	_	_	_	_
 13-8	1009-1012	the	_	_	_	_

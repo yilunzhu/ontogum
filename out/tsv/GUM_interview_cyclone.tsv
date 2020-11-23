@@ -231,19 +231,19 @@
 13-16	1027-1034	driving	_	_	_	_
 13-17	1035-1038	the	event[74]	giv[74]	coref	17-3[111_74]
 13-18	1039-1044	storm	event[74]	giv[74]	_	_
-13-19	1045-1046	[	event[74]	giv[74]	_	_
-13-20	1047-1052	which	event[74]	giv[74]	_	_
-13-21	1053-1055	is	event[74]	giv[74]	_	_
-13-22	1056-1057	]	event[74]	giv[74]	_	_
-13-23	1058-1061	the	event[74]	giv[74]	_	_
-13-24	1062-1073	evaporation	event[74]	giv[74]	_	_
-13-25	1074-1076	of	event[74]	giv[74]	_	_
-13-26	1077-1082	water	event[74]	giv[74]	_	_
-13-27	1083-1087	from	event[74]	giv[74]	_	_
-13-28	1088-1091	the	place[78]|event[74]	new[78]|giv[74]	coref	14-4[82_78]
-13-29	1092-1096	warm	place[78]|event[74]	new[78]|giv[74]	_	_
-13-30	1097-1100	sea	place[78]|event[74]	new[78]|giv[74]	_	_
-13-31	1101-1108	surface	place[78]|event[74]	new[78]|giv[74]	_	_
+13-19	1045-1046	[	_	_	_	_
+13-20	1047-1052	which	_	_	_	_
+13-21	1053-1055	is	_	_	_	_
+13-22	1056-1057	]	_	_	_	_
+13-23	1058-1061	the	_	_	_	_
+13-24	1062-1073	evaporation	_	_	_	_
+13-25	1074-1076	of	_	_	_	_
+13-26	1077-1082	water	_	_	_	_
+13-27	1083-1087	from	_	_	_	_
+13-28	1088-1091	the	place[78]	new[78]	coref	14-4[82_78]
+13-29	1092-1096	warm	place[78]	new[78]	_	_
+13-30	1097-1100	sea	place[78]	new[78]	_	_
+13-31	1101-1108	surface	place[78]	new[78]	_	_
 13-32	1109-1110	;	_	_	_	_
 
 #Text=Increased friction - the ocean surface is much , much smoother than the land surface .

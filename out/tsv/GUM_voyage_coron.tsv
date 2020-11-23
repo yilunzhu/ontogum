@@ -470,12 +470,12 @@
 23-15	2230-2233	the	place[163]	giv[163]	coref	25-16[183_163]
 23-16	2234-2238	town	place[163]	giv[163]	_	_
 23-17	2239-2250	experienced	_	_	_	_
-23-18	2251-2258	another	person[164]	new[164]	appos	23-21[165_164]
-23-19	2259-2263	boom	person[164]	new[164]	_	_
-23-20	2264-2265	,	person[164]	new[164]	_	_
-23-21	2266-2267	a	person[165]	giv[165]	_	_
-23-22	2268-2275	fishing	person[165]	giv[165]	_	_
-23-23	2276-2280	boom	person[165]	giv[165]	_	_
+23-18	2251-2258	another	_	_	_	_
+23-19	2259-2263	boom	_	_	_	_
+23-20	2264-2265	,	_	_	_	_
+23-21	2266-2267	a	_	_	_	_
+23-22	2268-2275	fishing	_	_	_	_
+23-23	2276-2280	boom	_	_	_	_
 23-24	2281-2282	.	_	_	_	_
 
 #Text=The population increased , as many people from Luzon and the Visayas came to work either as fishermen or miners .

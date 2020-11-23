@@ -154,7 +154,7 @@
 9-11	623-626	out	_	_	_	_
 9-12	627-630	and	_	_	_	_
 9-13	631-638	checked	_	_	_	_
-9-14	639-641	my	object[59]|person[60]	new[59]|giv[60]	coref|ana	27-4[204_59]|10-1[67_60]
+9-14	639-641	my	object[59]|person[60]	new[59]|giv[60]	ana|coref	10-1[67_60]|27-4[204_59]
 9-15	642-647	phone	object[59]	new[59]	_	_
 9-16	648-649	,	_	_	_	_
 9-17	650-655	there	_	_	_	_
@@ -205,7 +205,7 @@
 12-4	823-825	be	_	_	_	_
 12-5	826-832	damned	_	_	_	_
 12-6	833-834	,	_	_	_	_
-12-7	835-839	they	event[82]|organization[83]	new[82]|giv[83]	ana|coref	13-4[85_82]|23-7[179_83]
+12-7	835-839	they	event[82]|organization[83]	new[82]|giv[83]	coref|ana	23-7[179_83]|13-4[85_82]
 12-8	840-846	listen	event[82]	new[82]	_	_
 12-9	847-849	in	event[82]	new[82]	_	_
 12-10	850-851	.	_	_	_	_
@@ -231,7 +231,7 @@
 14-3	915-921	talked	_	_	_	_
 14-4	922-927	about	_	_	_	_
 14-5	928-932	with	_	_	_	_
-14-6	933-935	my	person[95]|person[96]	new[95]|giv[96]	coref|ana	18-6[118_95]|14-18[103_96]
+14-6	933-935	my	person[95]|person[96]	new[95]|giv[96]	ana|coref	14-18[103_96]|18-6[118_95]
 14-7	936-944	daughter	person[95]	new[95]	_	_
 14-8	945-946	,	_	_	_	_
 14-9	947-950	one	_	_	_	_
@@ -251,17 +251,17 @@
 
 #Text=There it was , an ad for a hard boiled egg cooker ... never googled anything about hard boiled eggs .
 15-1	1011-1016	There	_	_	_	_
-15-2	1017-1019	it	object[582]|object[648]	acc[582]|acc[648]	appos|coref	15-5[108_582]|19-5[132_648]
-15-3	1020-1023	was	object[582]|object[648]	acc[582]|acc[648]	_	_
-15-4	1024-1025	,	object[582]|object[648]	acc[582]|acc[648]	_	_
-15-5	1026-1028	an	object[108]|object[648]	giv[108]|acc[648]	_	_
-15-6	1029-1031	ad	object[108]|object[648]	giv[108]|acc[648]	_	_
-15-7	1032-1035	for	object[108]|object[648]	giv[108]|acc[648]	_	_
-15-8	1036-1037	a	object[108]|object[648]	giv[108]|acc[648]	_	_
-15-9	1038-1042	hard	object[108]|object[648]	giv[108]|acc[648]	_	_
-15-10	1043-1049	boiled	object[108]|object[648]	giv[108]|acc[648]	_	_
-15-11	1050-1053	egg	object[108]|object[648]	giv[108]|acc[648]	_	_
-15-12	1054-1060	cooker	object[108]|object[648]	giv[108]|acc[648]	_	_
+15-2	1017-1019	it	object[582]	acc[582]	coref	19-5[132_582]
+15-3	1020-1023	was	object[582]	acc[582]	_	_
+15-4	1024-1025	,	object[582]	acc[582]	_	_
+15-5	1026-1028	an	object[582]	acc[582]	_	_
+15-6	1029-1031	ad	object[582]	acc[582]	_	_
+15-7	1032-1035	for	object[582]	acc[582]	_	_
+15-8	1036-1037	a	object[582]	acc[582]	_	_
+15-9	1038-1042	hard	object[582]	acc[582]	_	_
+15-10	1043-1049	boiled	object[582]	acc[582]	_	_
+15-11	1050-1053	egg	object[582]	acc[582]	_	_
+15-12	1054-1060	cooker	object[582]	acc[582]	_	_
 15-13	1061-1064	...	_	_	_	_
 15-14	1065-1070	never	_	_	_	_
 15-15	1071-1078	googled	_	_	_	_
@@ -351,7 +351,7 @@
 21-9	1414-1416	me	person[145]	giv[145]	ana	21-12[148_145]
 21-10	1417-1419	is	_	_	_	_
 21-11	1420-1424	when	_	_	_	_
-21-12	1425-1427	my	person[147]|person[148]	new[147]|giv[148]	ana|ana	21-21[153_147]|21-15[149_148]
+21-12	1425-1427	my	person[147]|person[148]	new[147]|giv[148]	ana|ana	21-15[149_148]|21-21[153_147]
 21-13	1428-1434	mother	person[147]	new[147]	_	_
 21-14	1435-1440	asked	_	_	_	_
 21-15	1441-1443	me	person[149]	giv[149]	ana	21-43[160_149]
@@ -501,7 +501,7 @@
 27-9	2072-2075	the	_	_	_	_
 27-10	2076-2080	wifi	_	_	_	_
 27-11	2081-2083	at	_	_	_	_
-27-12	2084-2088	your	place[208]|person[209]	giv[208]|giv[209]	coref|ana	32-44[287_208]|28-4[213_209]
+27-12	2084-2088	your	place[208]|person[209]	giv[208]|giv[209]	ana|coref	28-4[213_209]|32-44[287_208]
 27-13	2089-2095	office	place[208]	giv[208]	_	_
 27-14	2096-2098	at	_	_	_	_
 27-15	2099-2103	some	_	_	_	_
@@ -532,7 +532,7 @@
 
 #Text=Presumably your coworker or your office 's admin person ordered that standing desk online .
 29-1	2201-2211	Presumably	_	_	_	_
-29-2	2212-2216	your	person[222]|person[223]|person[224]	new[222]|giv[223]|giv[224]	ana|ana|ana	30-1[231_222]|30-29[240_223]|29-5[228_224]
+29-2	2212-2216	your	person[222]|person[223]|person[224]	new[222]|giv[223]|giv[224]	ana|ana|ana	29-5[228_224]|30-1[231_222]|30-29[240_223]
 29-3	2217-2225	coworker	person[222]|person[223]	new[222]|giv[223]	_	_
 29-4	2226-2228	or	person[222]	new[222]	_	_
 29-5	2229-2233	your	person[222]|person[228]	new[222]|giv[228]	ana	31-2[244_228]
@@ -660,7 +660,7 @@
 32-32	2844-2848	your	event[277]|person[279]	new[277]|giv[279]	ana	32-35[283_279]
 32-33	2849-2856	devices	event[277]	new[277]	_	_
 32-34	2857-2861	with	event[277]	new[277]	_	_
-32-35	2862-2866	your	event[277]|organization[282]|person[283]	new[277]|new[282]|giv[283]	ana|ana	32-44[288_282]|33-2[289_283]
+32-35	2862-2866	your	event[277]|organization[282]|person[283]	new[277]|new[282]|giv[283]	ana|ana	33-2[289_283]|32-44[288_282]
 32-36	2867-2874	company	event[277]|organization[282]	new[277]|new[282]	_	_
 32-37	2875-2876	,	event[277]	new[277]	_	_
 32-38	2877-2880	and	event[277]	new[277]	_	_
@@ -741,7 +741,7 @@
 
 #Text=That Natacha Jiatt was murdered by the Catholic Church for exposing a pedophile ring
 35-1	3235-3239	That	abstract[324]	new[324]	ana	36-1[329_324]
-35-2	3240-3247	Natacha	abstract[324]|person[325]	new[324]|new[325]	coref	37-1[645_325]
+35-2	3240-3247	Natacha	abstract[324]|person[325]	new[324]|new[325]	coref	37-1[583_325]
 35-3	3248-3253	Jiatt	abstract[324]|person[325]	new[324]|new[325]	_	_
 35-4	3254-3257	was	abstract[324]	new[324]	_	_
 35-5	3258-3266	murdered	abstract[324]	new[324]	_	_
@@ -774,14 +774,14 @@
 36-16	3409-3416	summary	_	_	_	_
 
 #Text=Natacha Jaitt , a model / TV journalist , exposed a pedophile ring on live Argentinian TV a few months ago , after following cases over the last few years .
-37-1	3417-3424	Natacha	event[341]|person[342]|person[645]	new[341]|giv[342]|new[645]	coref|appos|ana	39-9[374_341]|37-4[343_342]|38-1[354_645]
-37-2	3425-3430	Jaitt	event[341]|person[342]|person[645]	new[341]|giv[342]|new[645]	_	_
-37-3	3431-3432	,	event[341]|person[342]|person[645]	new[341]|new[342]|new[645]	_	_
-37-4	3433-3434	a	event[341]|person[343]|person[645]	new[341]|giv[343]|new[645]	_	_
-37-5	3435-3440	model	event[341]|person[343]|person[645]	new[341]|giv[343]|new[645]	_	_
-37-6	3441-3442	/	event[341]|person[343]|person[645]	new[341]|giv[343]|new[645]	_	_
-37-7	3443-3445	TV	event[341]|person[343]|person[645]	new[341]|giv[343]|new[645]	_	_
-37-8	3446-3456	journalist	event[341]|person[343]|person[645]	new[341]|giv[343]|new[645]	_	_
+37-1	3417-3424	Natacha	event[341]|person[583]	new[341]|new[583]	ana|coref	38-1[354_583]|39-9[374_341]
+37-2	3425-3430	Jaitt	event[341]|person[583]	new[341]|new[583]	_	_
+37-3	3431-3432	,	event[341]|person[583]	new[341]|new[583]	_	_
+37-4	3433-3434	a	event[341]|person[583]	new[341]|new[583]	_	_
+37-5	3435-3440	model	event[341]|person[583]	new[341]|new[583]	_	_
+37-6	3441-3442	/	event[341]|person[583]	new[341]|new[583]	_	_
+37-7	3443-3445	TV	event[341]|person[583]	new[341]|new[583]	_	_
+37-8	3446-3456	journalist	event[341]|person[583]	new[341]|new[583]	_	_
 37-9	3457-3458	,	event[341]	new[341]	_	_
 37-10	3459-3466	exposed	event[341]	new[341]	_	_
 37-11	3467-3468	a	event[341]	new[341]	_	_
@@ -850,7 +850,7 @@
 39-8	3784-3786	on	person[369]	new[369]	_	_
 39-9	3787-3790	the	person[369]|event[374]	new[369]|giv[374]	_	_
 39-10	3791-3797	airing	person[369]|event[374]	new[369]|giv[374]	_	_
-39-11	3798-3799	,	person[369]	new[369]	_	_
+39-11	3798-3799	,	_	_	_	_
 39-12	3800-3804	Luis	person[375]	giv[375]	_	_
 39-13	3805-3812	Ventura	person[375]	giv[375]	_	_
 39-14	3813-3814	,	_	_	_	_
@@ -1019,7 +1019,7 @@
 44-7	4560-4563	one	_	_	_	_
 
 #Text=The " arms " on Tyrannosaurus Rex skeletons are backwards .
-45-1	4564-4567	The	abstract[449]|object[450]	giv[449]|new[450]	ana|ana	63-1[546_449]|46-1[453_450]
+45-1	4564-4567	The	abstract[449]|object[450]	giv[449]|new[450]	ana|ana	46-1[453_450]|63-1[546_449]
 45-2	4568-4569	"	abstract[449]|object[450]	giv[449]|new[450]	_	_
 45-3	4570-4574	arms	abstract[449]|object[450]	giv[449]|new[450]	_	_
 45-4	4575-4576	"	abstract[449]|object[450]	giv[449]|new[450]	_	_
@@ -1128,15 +1128,15 @@
 
 #Text=See the small " arms ? " ( wings ) : https://www.google.com/search?q=ostrich+skeleton&client=ms-android-verizon&prmd=isnv&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj3qrmXudXcAhVuCDQIHaXvCnUQ_AUIESgB&biw=360&bih=560#imgrc=H_TL1bUwi9jryM :
 53-1	5020-5023	See	_	_	_	_
-53-2	5024-5027	the	object[488]	new[488]	appos	53-8[613_488]
-53-3	5028-5033	small	object[488]	new[488]	_	_
-53-4	5034-5035	"	object[488]	new[488]	_	_
-53-5	5036-5040	arms	object[488]	new[488]	_	_
-53-6	5041-5042	?	object[488]	new[488]	_	_
-53-7	5043-5044	"	object[488]	new[488]	_	_
-53-8	5045-5046	(	object[613]	giv[613]	_	_
-53-9	5047-5052	wings	object[613]	giv[613]	_	_
-53-10	5053-5054	)	object[613]	giv[613]	_	_
+53-2	5024-5027	the	_	_	_	_
+53-3	5028-5033	small	_	_	_	_
+53-4	5034-5035	"	_	_	_	_
+53-5	5036-5040	arms	_	_	_	_
+53-6	5041-5042	?	_	_	_	_
+53-7	5043-5044	"	_	_	_	_
+53-8	5045-5046	(	_	_	_	_
+53-9	5047-5052	wings	_	_	_	_
+53-10	5053-5054	)	_	_	_	_
 53-11	5055-5056	:	_	_	_	_
 53-12	5057-5250	https://www.google.com/search?q=ostrich+skeleton&client=ms-android-verizon&prmd=isnv&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj3qrmXudXcAhVuCDQIHaXvCnUQ_AUIESgB&biw=360&bih=560#imgrc=H_TL1bUwi9jryM	_	_	_	_
 53-13	5251-5252	:	_	_	_	_

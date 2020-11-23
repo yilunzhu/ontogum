@@ -13,12 +13,12 @@
 1-7	44-52	movement	_	_	_	_
 
 #Text=Tuesday , September 22 , 2015
-2-1	53-60	Tuesday	time[371]	acc[371]	appos	2-3[7_371]
-2-2	61-62	,	time[371]	acc[371]	_	_
-2-3	63-72	September	time[7]	giv[7]	_	_
-2-4	73-75	22	time[7]	giv[7]	_	_
-2-5	76-77	,	time[7]	giv[7]	_	_
-2-6	78-82	2015	time[7]	giv[7]	_	_
+2-1	53-60	Tuesday	_	_	_	_
+2-2	61-62	,	_	_	_	_
+2-3	63-72	September	_	_	_	_
+2-4	73-75	22	_	_	_	_
+2-5	76-77	,	_	_	_	_
+2-6	78-82	2015	_	_	_	_
 
 #Text=News of police response to a boy 's digital clock in Texas last week has inspired a global social movement in support of the youth .
 3-1	83-87	News	_	_	_	_
@@ -26,7 +26,7 @@
 3-3	91-97	police	event[11]	new[11]	coref	5-4[41_11]
 3-4	98-106	response	event[11]	new[11]	_	_
 3-5	107-109	to	event[11]	new[11]	_	_
-3-6	110-111	a	event[11]|person[15]	new[11]|giv[15]	coref	4-1[402_15]
+3-6	110-111	a	event[11]|person[15]	new[11]|giv[15]	coref	4-1[372_15]
 3-7	112-115	boy	event[11]|person[15]	new[11]|giv[15]	_	_
 3-8	116-118	's	event[11]|person[15]	new[11]|giv[15]	_	_
 3-9	119-126	digital	event[11]	new[11]	_	_
@@ -49,16 +49,16 @@
 3-26	214-215	.	_	_	_	_
 
 #Text=Ahmed Mohamed , a 14-year-old boy from Irving , Texas , was arrested at his school by police after he brought a digital clock he had made to school .
-4-1	216-221	Ahmed	event[22]|person[23]|person[402]	new[22]|giv[23]|new[402]	coref|appos|ana	21-12[202_22]|4-4[24_23]|4-15[29_402]
-4-2	222-229	Mohamed	event[22]|person[23]|person[402]	new[22]|giv[23]|new[402]	_	_
-4-3	230-231	,	event[22]|person[23]|person[402]	new[22]|new[23]|new[402]	_	_
-4-4	232-233	a	event[22]|person[24]|person[402]	new[22]|giv[24]|new[402]	_	_
-4-5	234-245	14-year-old	event[22]|person[24]|person[402]	new[22]|giv[24]|new[402]	_	_
-4-6	246-249	boy	event[22]|person[24]|person[402]	new[22]|giv[24]|new[402]	_	_
-4-7	250-254	from	event[22]|person[24]|person[402]	new[22]|giv[24]|new[402]	_	_
-4-8	255-261	Irving	event[22]|person[24]|person[402]	new[22]|giv[24]|new[402]	_	_
-4-9	262-263	,	event[22]|person[24]|person[402]	new[22]|giv[24]|new[402]	_	_
-4-10	264-269	Texas	event[22]|person[24]|place[26]|person[402]	new[22]|giv[24]|giv[26]|new[402]	coref	21-6[197_26]
+4-1	216-221	Ahmed	event[22]|person[372]	new[22]|new[372]	ana|coref	4-15[29_372]|21-12[202_22]
+4-2	222-229	Mohamed	event[22]|person[372]	new[22]|new[372]	_	_
+4-3	230-231	,	event[22]|person[372]	new[22]|new[372]	_	_
+4-4	232-233	a	event[22]|person[372]	new[22]|new[372]	_	_
+4-5	234-245	14-year-old	event[22]|person[372]	new[22]|new[372]	_	_
+4-6	246-249	boy	event[22]|person[372]	new[22]|new[372]	_	_
+4-7	250-254	from	event[22]|person[372]	new[22]|new[372]	_	_
+4-8	255-261	Irving	event[22]|person[372]	new[22]|new[372]	_	_
+4-9	262-263	,	event[22]|person[372]	new[22]|new[372]	_	_
+4-10	264-269	Texas	event[22]|place[26]|person[372]	new[22]|giv[26]|new[372]	coref	21-6[197_26]
 4-11	270-271	,	event[22]	new[22]	_	_
 4-12	272-275	was	event[22]	new[22]	_	_
 4-13	276-284	arrested	event[22]	new[22]	_	_
@@ -224,12 +224,12 @@
 12-3	1120-1124	News	_	_	_	_
 12-4	1125-1133	observed	_	_	_	_
 12-5	1134-1138	that	_	_	_	_
-12-6	1139-1142	the	abstract[102]|abstract[403]	new[102]|new[403]	appos|coref	12-11[104_102]|15-5[117_403]
-12-7	1143-1150	hashtag	abstract[102]|abstract[403]	new[102]|new[403]	_	_
-12-8	1151-1153	on	abstract[102]|abstract[403]	new[102]|new[403]	_	_
-12-9	1154-1161	Twitter	abstract[102]|organization[103]|abstract[403]	new[102]|giv[103]|new[403]	coref	16-2[127_103]
-12-10	1162-1163	,	abstract[102]|abstract[403]	new[102]|new[403]	_	_
-12-11	1164-1180	#IStandWithAhmed	abstract[104]|abstract[403]	giv[104]|new[403]	_	_
+12-6	1139-1142	the	abstract[102]|abstract[373]	new[102]|new[373]	coref|appos	15-5[117_373]|12-11[104_102]
+12-7	1143-1150	hashtag	abstract[102]|abstract[373]	new[102]|new[373]	_	_
+12-8	1151-1153	on	abstract[102]|abstract[373]	new[102]|new[373]	_	_
+12-9	1154-1161	Twitter	abstract[102]|organization[103]|abstract[373]	new[102]|giv[103]|new[373]	coref	16-2[127_103]
+12-10	1162-1163	,	abstract[373]	new[373]	_	_
+12-11	1164-1180	#IStandWithAhmed	abstract[104]|abstract[373]	giv[104]|new[373]	_	_
 12-12	1181-1182	,	_	_	_	_
 12-13	1183-1186	had	_	_	_	_
 12-14	1187-1193	become	_	_	_	_
@@ -276,7 +276,7 @@
 15-2	1396-1402	Hoping	_	_	_	_
 15-3	1403-1407	that	_	_	_	_
 15-4	1408-1411	the	organization[116]	giv[116]	coref	36-6[322_116]
-15-5	1412-1428	#istandwithahmed	organization[116]|abstract[117]	giv[116]|giv[117]	coref	22-3[406_117]
+15-5	1412-1428	#istandwithahmed	organization[116]|abstract[117]	giv[116]|giv[117]	coref	22-3[376_117]
 15-6	1429-1437	movement	organization[116]	giv[116]	_	_
 15-7	1438-1448	translates	_	_	_	_
 15-8	1449-1453	into	_	_	_	_
@@ -354,7 +354,7 @@
 18-1	1821-1831	Co-founder	person[154]	new[154]	appos	18-5[157_154]
 18-2	1832-1834	of	person[154]	new[154]	_	_
 18-3	1835-1841	Google	person[154]|organization[155]	new[154]|giv[155]	coref	18-16[162_155]
-18-4	1842-1843	,	person[154]	new[154]	_	_
+18-4	1842-1843	,	_	_	_	_
 18-5	1844-1850	Sergey	person[157]	giv[157]	_	_
 18-6	1851-1855	Brin	person[157]	giv[157]	_	_
 18-7	1856-1857	,	_	_	_	_
@@ -375,7 +375,7 @@
 19-3	1928-1929	,	_	_	_	_
 19-4	1930-1937	Mohamed	person[164]	giv[164]	ana	19-6[170_164]
 19-5	1938-1941	and	_	_	_	_
-19-6	1942-1945	his	person[169]|person[170]	new[169]|giv[170]	coref|ana	20-1[405_169]|20-1[174_170]
+19-6	1942-1945	his	person[169]|person[170]	new[169]|giv[170]	coref|ana	20-1[375_169]|20-1[174_170]
 19-7	1946-1952	father	person[169]	new[169]	_	_
 19-8	1953-1956	are	_	_	_	_
 19-9	1957-1959	to	_	_	_	_
@@ -387,11 +387,11 @@
 19-15	1989-1990	.	_	_	_	_
 
 #Text=His father Mohamed El-Hassan Mohamed said he was taking his entire family to the U.N. headquarters in New York , because international dignitaries wanted to meet with his son and express their support .
-20-1	1991-1994	His	person[173]|person[174]|person[405]	giv[173]|giv[174]|giv[405]	appos|coref|ana	20-3[176_173]|20-28[187_174]|20-7[177_405]
-20-2	1995-2001	father	person[173]|person[405]	giv[173]|giv[405]	_	_
-20-3	2002-2009	Mohamed	person[176]|person[405]	giv[176]|giv[405]	_	_
-20-4	2010-2019	El-Hassan	person[176]|person[405]	giv[176]|giv[405]	_	_
-20-5	2020-2027	Mohamed	person[176]|person[405]	giv[176]|giv[405]	_	_
+20-1	1991-1994	His	person[173]|person[174]|person[375]	giv[173]|giv[174]|giv[375]	ana|appos|coref	20-7[177_375]|20-3[176_173]|20-28[187_174]
+20-2	1995-2001	father	person[173]|person[375]	giv[173]|giv[375]	_	_
+20-3	2002-2009	Mohamed	person[176]|person[375]	giv[176]|giv[375]	_	_
+20-4	2010-2019	El-Hassan	person[176]|person[375]	giv[176]|giv[375]	_	_
+20-5	2020-2027	Mohamed	person[176]|person[375]	giv[176]|giv[375]	_	_
 20-6	2028-2032	said	_	_	_	_
 20-7	2033-2035	he	person[177]	giv[177]	ana	20-10[180_177]
 20-8	2036-2039	was	_	_	_	_
@@ -449,9 +449,9 @@
 #Text=She chose the hastag #IStandWithAhmed and posted to Twitter .
 22-1	2324-2327	She	person[206]	giv[206]	coref	23-1[213_206]
 22-2	2328-2333	chose	_	_	_	_
-22-3	2334-2337	the	abstract[210]|abstract[406]	giv[210]|giv[406]	appos|coref	22-5[211_210]|23-12[223_406]
-22-4	2338-2344	hastag	abstract[210]|abstract[406]	giv[210]|giv[406]	_	_
-22-5	2345-2361	#IStandWithAhmed	abstract[211]|abstract[406]	giv[211]|giv[406]	_	_
+22-3	2334-2337	the	abstract[210]|abstract[376]	giv[210]|giv[376]	coref|appos	23-12[223_376]|22-5[211_210]
+22-4	2338-2344	hastag	abstract[210]|abstract[376]	giv[210]|giv[376]	_	_
+22-5	2345-2361	#IStandWithAhmed	abstract[211]|abstract[376]	giv[211]|giv[376]	_	_
 22-6	2362-2365	and	_	_	_	_
 22-7	2366-2372	posted	_	_	_	_
 22-8	2373-2375	to	_	_	_	_

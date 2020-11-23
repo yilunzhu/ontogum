@@ -39,16 +39,16 @@
 2-29	146-148	in	_	_	_	_
 2-30	149-153	1859	_	_	_	_
 2-31	154-164	proclaimed	_	_	_	_
-2-32	165-172	himself	person[13]	giv[13]	coref	2-34[480_13]
+2-32	165-172	himself	person[13]	giv[13]	coref	2-34[418_13]
 2-33	173-174	"	_	_	_	_
-2-34	175-181	Norton	person[17]|person[480]	giv[17]|giv[480]	appos|ana	2-37[18_17]|3-1[20_480]
-2-35	182-183	I	person[17]|person[480]	giv[17]|giv[480]	_	_
-2-36	184-185	,	person[17]|person[480]	giv[17]|giv[480]	_	_
-2-37	186-193	Emperor	person[18]|person[480]	giv[18]|giv[480]	_	_
-2-38	194-196	of	person[18]|person[480]	giv[18]|giv[480]	_	_
-2-39	197-200	the	person[18]|person[480]	giv[18]|giv[480]	_	_
-2-40	201-207	United	person[18]|place[19]|person[480]	giv[18]|giv[19]|giv[480]	coref	8-15[83_19]
-2-41	208-214	States	person[18]|place[19]|person[480]	giv[18]|giv[19]|giv[480]	_	_
+2-34	175-181	Norton	person[17]|person[418]	giv[17]|giv[418]	ana|appos	3-1[20_418]|2-37[18_17]
+2-35	182-183	I	person[17]|person[418]	giv[17]|giv[418]	_	_
+2-36	184-185	,	person[418]	giv[418]	_	_
+2-37	186-193	Emperor	person[18]|person[418]	giv[18]|giv[418]	_	_
+2-38	194-196	of	person[18]|person[418]	giv[18]|giv[418]	_	_
+2-39	197-200	the	person[18]|person[418]	giv[18]|giv[418]	_	_
+2-40	201-207	United	person[18]|person[418]|place[19]	giv[18]|giv[418]|giv[19]	coref	8-15[83_19]
+2-41	208-214	States	person[18]|person[418]|place[19]	giv[18]|giv[418]|giv[19]	_	_
 2-42	215-216	"	_	_	_	_
 2-43	217-218	.	_	_	_	_
 
@@ -387,7 +387,7 @@
 14-17	1873-1874	.	_	_	_	_
 
 #Text=Norton has been immortalized as the basis of characters in the literature of writers Mark Twain , Robert Louis Stevenson , Christopher Moore , Morris and Goscinny , Selma Lagerlöf , and Neil Gaiman .
-15-1	1875-1881	Norton	person[163]	giv[163]	coref	16-1[481_163]
+15-1	1875-1881	Norton	person[163]	giv[163]	coref	16-1[419_163]
 15-2	1882-1885	has	_	_	_	_
 15-3	1886-1890	been	_	_	_	_
 15-4	1891-1903	immortalized	_	_	_	_
@@ -424,14 +424,14 @@
 15-35	2073-2074	.	_	_	_	_
 
 #Text=Norton I , Emperor of the United States , photograph , c. 1871 – 72
-16-1	2075-2081	Norton	person[179]|person[481]	giv[179]|giv[481]	appos|ana	16-4[180_179]|17-2[185_481]
-16-2	2082-2083	I	person[179]|person[481]	giv[179]|giv[481]	_	_
-16-3	2084-2085	,	person[179]|person[481]	giv[179]|giv[481]	_	_
-16-4	2086-2093	Emperor	person[180]|person[481]	giv[180]|giv[481]	_	_
-16-5	2094-2096	of	person[180]|person[481]	giv[180]|giv[481]	_	_
-16-6	2097-2100	the	person[180]|place[181]|person[481]	giv[180]|giv[181]|giv[481]	coref	19-22[203_181]
-16-7	2101-2107	United	person[180]|place[181]|person[481]	giv[180]|giv[181]|giv[481]	_	_
-16-8	2108-2114	States	person[180]|place[181]|person[481]	giv[180]|giv[181]|giv[481]	_	_
+16-1	2075-2081	Norton	person[179]|person[419]	giv[179]|giv[419]	ana|appos	17-2[185_419]|16-4[180_179]
+16-2	2082-2083	I	person[179]|person[419]	giv[179]|giv[419]	_	_
+16-3	2084-2085	,	person[419]	giv[419]	_	_
+16-4	2086-2093	Emperor	person[180]|person[419]	giv[180]|giv[419]	_	_
+16-5	2094-2096	of	person[180]|person[419]	giv[180]|giv[419]	_	_
+16-6	2097-2100	the	person[180]|place[181]|person[419]	giv[180]|giv[181]|giv[419]	coref	19-22[203_181]
+16-7	2101-2107	United	person[180]|place[181]|person[419]	giv[180]|giv[181]|giv[419]	_	_
+16-8	2108-2114	States	person[180]|place[181]|person[419]	giv[180]|giv[181]|giv[419]	_	_
 16-9	2115-2116	,	_	_	_	_
 16-10	2117-2127	photograph	_	_	_	_
 16-11	2128-2129	,	_	_	_	_
@@ -515,7 +515,7 @@
 20-25	2518-2529	proclaiming	_	_	_	_
 20-26	2530-2537	himself	person[218]	giv[218]	coref	20-28[220_218]
 20-27	2538-2539	"	_	_	_	_
-20-28	2540-2547	Emperor	person[220]	giv[220]	ana	21-19[484_220]
+20-28	2540-2547	Emperor	person[220]	giv[220]	ana	21-19[420_220]
 20-29	2548-2550	of	person[220]	giv[220]	_	_
 20-30	2551-2556	these	person[220]|place[221]	giv[220]|giv[221]	coref	21-15[225_221]
 20-31	2557-2563	United	person[220]|place[221]	giv[220]|giv[221]	_	_
@@ -542,10 +542,10 @@
 21-16	2657-2663	United	place[225]	giv[225]	_	_
 21-17	2664-2670	States	place[225]	giv[225]	_	_
 21-18	2671-2672	,	_	_	_	_
-21-19	2673-2674	I	person[418]|person[484]	giv[418]|giv[484]	appos|ana	21-21[228_418]|21-53[234_484]
-21-20	2675-2676	,	person[418]|person[484]	giv[418]|giv[484]	_	_
-21-21	2677-2683	Joshua	person[228]|person[484]	giv[228]|giv[484]	_	_
-21-22	2684-2690	Norton	person[228]|person[484]	giv[228]|giv[484]	_	_
+21-19	2673-2674	I	person[226]|person[420]	giv[226]|giv[420]	appos|ana	21-21[228_226]|21-53[234_420]
+21-20	2675-2676	,	person[420]	giv[420]	_	_
+21-21	2677-2683	Joshua	person[228]|person[420]	giv[228]|giv[420]	_	_
+21-22	2684-2690	Norton	person[228]|person[420]	giv[228]|giv[420]	_	_
 21-23	2691-2692	,	_	_	_	_
 21-24	2693-2701	formerly	_	_	_	_
 21-25	2702-2704	of	_	_	_	_
@@ -592,7 +592,7 @@
 22-6	2875-2884	authority	_	_	_	_
 22-7	2885-2892	thereby	_	_	_	_
 22-8	2893-2895	in	_	_	_	_
-22-9	2896-2898	me	person[240]	giv[240]	coref	23-2[482_240]
+22-9	2896-2898	me	person[240]	giv[240]	coref	23-2[421_240]
 22-10	2899-2905	vested	_	_	_	_
 22-11	2906-2907	,	_	_	_	_
 22-12	2908-2910	do	_	_	_	_
@@ -675,14 +675,14 @@
 
 #Text=— NORTON I , Emperor of the United States .
 23-1	3306-3307	—	_	_	_	_
-23-2	3308-3314	NORTON	abstract[263]|person[264]|person[482]	new[263]|giv[264]|new[482]	coref|appos|coref	25-11[277_263]|23-5[265_264]|25-1[272_482]
-23-3	3315-3316	I	abstract[263]|person[264]|person[482]	new[263]|giv[264]|new[482]	_	_
-23-4	3317-3318	,	abstract[263]|person[264]|person[482]	new[263]|new[264]|new[482]	_	_
-23-5	3319-3326	Emperor	abstract[263]|person[265]|person[482]	new[263]|giv[265]|new[482]	_	_
-23-6	3327-3329	of	abstract[263]|person[265]|person[482]	new[263]|giv[265]|new[482]	_	_
-23-7	3330-3333	the	abstract[263]|person[265]|place[266]|person[482]	new[263]|giv[265]|giv[266]|new[482]	coref	26-12[280_266]
-23-8	3334-3340	United	abstract[263]|person[265]|place[266]|person[482]	new[263]|giv[265]|giv[266]|new[482]	_	_
-23-9	3341-3347	States	abstract[263]|person[265]|place[266]|person[482]	new[263]|giv[265]|giv[266]|new[482]	_	_
+23-2	3308-3314	NORTON	abstract[263]|person[264]|person[421]	new[263]|giv[264]|new[421]	coref|coref|appos	25-1[272_421]|25-11[277_263]|23-5[265_264]
+23-3	3315-3316	I	abstract[263]|person[264]|person[421]	new[263]|giv[264]|new[421]	_	_
+23-4	3317-3318	,	abstract[263]|person[421]	new[263]|new[421]	_	_
+23-5	3319-3326	Emperor	abstract[263]|person[265]|person[421]	new[263]|giv[265]|new[421]	_	_
+23-6	3327-3329	of	abstract[263]|person[265]|person[421]	new[263]|giv[265]|new[421]	_	_
+23-7	3330-3333	the	abstract[263]|person[265]|place[266]|person[421]	new[263]|giv[265]|giv[266]|new[421]	coref	26-12[280_266]
+23-8	3334-3340	United	abstract[263]|person[265]|place[266]|person[421]	new[263]|giv[265]|giv[266]|new[421]	_	_
+23-9	3341-3347	States	abstract[263]|person[265]|place[266]|person[421]	new[263]|giv[265]|giv[266]|new[421]	_	_
 23-10	3348-3349	.	_	_	_	_
 
 #Text=The announcement was first reprinted for humorous effect by the editor of the San Francisco Bulletin .
@@ -898,7 +898,7 @@
 
 #Text=In an imperial decree the following month , Norton summoned the Army to depose the elected officials of the U.S. Congress :
 35-1	4400-4402	In	_	_	_	_
-35-2	4403-4405	an	abstract[343]	acc[343]	ana	38-24[485_343]
+35-2	4403-4405	an	abstract[343]	acc[343]	ana	38-24[423_343]
 35-3	4406-4414	imperial	abstract[343]	acc[343]	_	_
 35-4	4415-4421	decree	abstract[343]	acc[343]	_	_
 35-5	4422-4425	the	abstract[343]	acc[343]	_	_
@@ -927,11 +927,11 @@
 36-4	4536-4540	body	organization[352]	giv[352]	_	_
 36-5	4541-4543	of	organization[352]	giv[352]	_	_
 36-6	4544-4547	men	organization[352]|person[353]	giv[352]|new[353]	ana	36-8[354_353]
-36-7	4548-4555	calling	organization[352]|person[353]	giv[352]|giv[353]	_	_
-36-8	4556-4566	themselves	organization[352]|person[354]|person[353]	giv[352]|giv[354]|giv[353]	_	_
-36-9	4567-4570	the	organization[352]|person[353]	giv[352]|giv[353]	_	_
-36-10	4571-4579	National	organization[352]|person[353]	giv[352]|giv[353]	_	_
-36-11	4580-4588	Congress	organization[352]|person[353]	giv[352]|giv[353]	_	_
+36-7	4548-4555	calling	organization[352]	giv[352]	_	_
+36-8	4556-4566	themselves	organization[352]|person[354]	giv[352]|giv[354]	_	_
+36-9	4567-4570	the	organization[352]	giv[352]	_	_
+36-10	4571-4579	National	organization[352]	giv[352]	_	_
+36-11	4580-4588	Congress	organization[352]	giv[352]	_	_
 36-12	4589-4592	are	_	_	_	_
 36-13	4593-4596	now	_	_	_	_
 36-14	4597-4599	in	_	_	_	_
@@ -943,7 +943,7 @@
 36-20	4629-4631	in	_	_	_	_
 36-21	4632-4641	violation	_	_	_	_
 36-22	4642-4644	of	_	_	_	_
-36-23	4645-4648	our	abstract[359]|person[360]	giv[359]|giv[360]	coref|ana	37-13[372_359]|37-10[369_360]
+36-23	4645-4648	our	abstract[359]|person[360]	giv[359]|giv[360]	ana|coref	37-10[369_360]|37-13[372_359]
 36-24	4649-4657	Imperial	abstract[359]	giv[359]	_	_
 36-25	4658-4663	edict	abstract[359]	giv[359]	_	_
 36-26	4664-4666	of	abstract[359]	giv[359]	_	_
@@ -996,7 +996,7 @@
 38-10	4886-4892	Direct	_	_	_	_
 38-11	4893-4906	Major-General	person[375]	new[375]	appos	38-14[376_375]
 38-12	4907-4912	Scott	person[375]	new[375]	_	_
-38-13	4913-4914	,	person[375]	new[375]	_	_
+38-13	4913-4914	,	_	_	_	_
 38-14	4915-4918	the	person[376]	giv[376]	_	_
 38-15	4919-4935	Command-in-Chief	person[376]	giv[376]	_	_
 38-16	4936-4938	of	person[376]	giv[376]	_	_
@@ -1007,10 +1007,10 @@
 38-21	4964-4968	upon	_	_	_	_
 38-22	4969-4976	receipt	_	_	_	_
 38-23	4977-4979	of	_	_	_	_
-38-24	4980-4984	this	abstract[449]|abstract[485]	giv[449]|giv[485]	appos	38-26[382_449]
-38-25	4985-4986	,	abstract[449]|abstract[485]	giv[449]|giv[485]	_	_
-38-26	4987-4990	our	abstract[382]|person[383]|abstract[485]	giv[382]|giv[383]|giv[485]	_	_
-38-27	4991-4997	Decree	abstract[382]|abstract[485]	giv[382]|giv[485]	_	_
+38-24	4980-4984	this	abstract[379]|abstract[423]	giv[379]|giv[423]	appos	38-26[382_379]
+38-25	4985-4986	,	abstract[423]	giv[423]	_	_
+38-26	4987-4990	our	abstract[382]|person[383]|abstract[423]	giv[382]|giv[383]|giv[423]	_	_
+38-27	4991-4997	Decree	abstract[382]|abstract[423]	giv[382]|giv[423]	_	_
 38-28	4998-4999	,	_	_	_	_
 38-29	5000-5002	to	_	_	_	_
 38-30	5003-5010	proceed	_	_	_	_

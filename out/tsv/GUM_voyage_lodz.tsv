@@ -8,11 +8,11 @@
 
 #Text=Łódź ( Pronounced : Wootch ) is Poland 's third biggest city , and the capital of the Łódzkie Voivodship .
 2-1	5-9	Łódź	place[2]	giv[2]	_	_
-2-2	10-11	(	place[2]	giv[2]	_	_
-2-3	12-22	Pronounced	place[2]	giv[2]	_	_
-2-4	23-24	:	place[2]	giv[2]	_	_
-2-5	25-31	Wootch	place[2]	giv[2]	_	_
-2-6	32-33	)	place[2]	giv[2]	_	_
+2-2	10-11	(	_	_	_	_
+2-3	12-22	Pronounced	_	_	_	_
+2-4	23-24	:	_	_	_	_
+2-5	25-31	Wootch	_	_	_	_
+2-6	32-33	)	_	_	_	_
 2-7	34-36	is	_	_	_	_
 2-8	37-43	Poland	place[8]	new[8]	coref	6-36[70_8]
 2-9	44-46	's	place[8]	new[8]	_	_
@@ -584,19 +584,19 @@
 23-2	2981-2986	Wajda	abstract[207]	new[207]	_	_
 23-3	2987-2989	's	abstract[207]	new[207]	_	_
 23-4	2990-2995	movie	abstract[207]	new[207]	_	_
-23-5	2996-2997	,	abstract[207]	new[207]	_	_
-23-6	2998-3006	Promised	abstract[209]|abstract[207]	giv[209]|new[207]	_	_
-23-7	3007-3011	Land	abstract[209]|abstract[207]	giv[209]|new[207]	_	_
-23-8	3012-3017	based	abstract[207]	new[207]	_	_
-23-9	3018-3020	on	abstract[207]	new[207]	_	_
-23-10	3021-3022	a	abstract[207]	new[207]	_	_
-23-11	3023-3028	novel	abstract[207]	new[207]	_	_
-23-12	3029-3031	by	abstract[207]	new[207]	_	_
-23-13	3032-3035	the	person[211]|abstract[207]	new[211]|new[207]	coref	23-16[214_211]
-23-14	3036-3041	Nobel	person[211]|abstract[207]	new[211]|new[207]	_	_
-23-15	3042-3050	laureate	person[211]|abstract[207]	new[211]|new[207]	_	_
-23-16	3051-3060	Władysław	person[214]|abstract[207]	giv[214]|new[207]	_	_
-23-17	3061-3068	Reymont	person[214]|abstract[207]	giv[214]|new[207]	_	_
+23-5	2996-2997	,	_	_	_	_
+23-6	2998-3006	Promised	abstract[209]	giv[209]	_	_
+23-7	3007-3011	Land	abstract[209]	giv[209]	_	_
+23-8	3012-3017	based	_	_	_	_
+23-9	3018-3020	on	_	_	_	_
+23-10	3021-3022	a	_	_	_	_
+23-11	3023-3028	novel	_	_	_	_
+23-12	3029-3031	by	_	_	_	_
+23-13	3032-3035	the	person[211]	new[211]	coref	23-16[214_211]
+23-14	3036-3041	Nobel	person[211]	new[211]	_	_
+23-15	3042-3050	laureate	person[211]	new[211]	_	_
+23-16	3051-3060	Władysław	person[214]	giv[214]	_	_
+23-17	3061-3068	Reymont	person[214]	giv[214]	_	_
 23-18	3069-3070	,	_	_	_	_
 23-19	3071-3078	depicts	_	_	_	_
 23-20	3079-3084	those	time[215]	giv[215]	_	_
@@ -851,14 +851,14 @@
 35-8	4340-4343	now	_	_	_	_
 35-9	4344-4348	with	_	_	_	_
 35-10	4349-4353	Łódź	place[300]	giv[300]	ana	35-14[303_300]
-35-11	4354-4365	campaigning	place[300]	giv[300]	_	_
-35-12	4366-4369	and	place[300]	giv[300]	_	_
-35-13	4370-4381	redesigning	event[302]|place[300]	new[302]|giv[300]	ana	36-3[304_302]
-35-14	4382-4388	itself	event[302]|place[303]|place[300]	new[302]|giv[303]|giv[300]	coref	36-5[305_303]
-35-15	4389-4391	as	event[302]|place[300]	new[302]|giv[300]	_	_
-35-16	4392-4394	an	event[302]|place[300]	new[302]|giv[300]	_	_
-35-17	4395-4408	up-and-coming	event[302]|place[300]	new[302]|giv[300]	_	_
-35-18	4409-4420	destination	event[302]|place[300]	new[302]|giv[300]	_	_
+35-11	4354-4365	campaigning	_	_	_	_
+35-12	4366-4369	and	_	_	_	_
+35-13	4370-4381	redesigning	event[302]	new[302]	ana	36-3[304_302]
+35-14	4382-4388	itself	event[302]|place[303]	new[302]|giv[303]	coref	36-5[305_303]
+35-15	4389-4391	as	event[302]	new[302]	_	_
+35-16	4392-4394	an	event[302]	new[302]	_	_
+35-17	4395-4408	up-and-coming	event[302]	new[302]	_	_
+35-18	4409-4420	destination	event[302]	new[302]	_	_
 35-19	4421-4422	.	_	_	_	_
 
 #Text=To accomplish this , Łódź has been capitalizing on its film history - Łódź is jokingly referred to as the " HollyŁódź " of Poland and hosts several film festivals and many other cultural events .

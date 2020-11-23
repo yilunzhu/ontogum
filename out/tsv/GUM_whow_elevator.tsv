@@ -104,14 +104,14 @@
 5-31	471-472	.	_	_	_	_
 
 #Text=Method 1 Using the Elevator to Annoy People
-6-1	473-479	Method	abstract[33]	new[33]	appos	6-3[34_33]
-6-2	480-481	1	abstract[33]	new[33]	_	_
-6-3	482-487	Using	abstract[34]	giv[34]	_	_
-6-4	488-491	the	abstract[34]|place[35]	giv[34]|giv[35]	coref	8-5[42_35]
-6-5	492-500	Elevator	abstract[34]|place[35]	giv[34]|giv[35]	_	_
-6-6	501-503	to	abstract[34]	giv[34]	_	_
-6-7	504-509	Annoy	abstract[34]	giv[34]	_	_
-6-8	510-516	People	abstract[34]	giv[34]	_	_
+6-1	473-479	Method	_	_	_	_
+6-2	480-481	1	_	_	_	_
+6-3	482-487	Using	_	_	_	_
+6-4	488-491	the	place[35]	giv[35]	coref	8-5[42_35]
+6-5	492-500	Elevator	place[35]	giv[35]	_	_
+6-6	501-503	to	_	_	_	_
+6-7	504-509	Annoy	_	_	_	_
+6-8	510-516	People	_	_	_	_
 
 #Text=Push all the buttons .
 7-1	517-521	Push	_	_	_	_
@@ -458,9 +458,9 @@
 23-5	1940-1942	of	_	_	_	_
 23-6	1943-1946	the	place[162]	giv[162]	_	_
 23-7	1947-1955	elevator	place[162]	giv[162]	_	_
-23-8	1956-1962	facing	place[162]	new[162]	_	_
-23-9	1963-1966	the	place[162]	new[162]	_	_
-23-10	1967-1971	wall	place[162]	new[162]	_	_
+23-8	1956-1962	facing	_	_	_	_
+23-9	1963-1966	the	_	_	_	_
+23-10	1967-1971	wall	_	_	_	_
 23-11	1972-1973	.	_	_	_	_
 
 #Text=Do n't say anything the whole ride .
@@ -663,7 +663,7 @@
 35-22	2800-2804	that	event[229]	new[229]	_	_
 35-23	2805-2808	you	event[229]|person[234]	new[229]|giv[234]	ana	35-25[237_234]
 35-24	2809-2813	lost	event[229]	new[229]	_	_
-35-25	2814-2818	your	event[229]|animal[236]|person[237]	new[229]|new[236]|giv[237]	ana|ana	35-34[238_236]|37-18[248_237]
+35-25	2814-2818	your	event[229]|animal[236]|person[237]	new[229]|new[236]|giv[237]	ana|ana	37-18[248_237]|35-34[238_236]
 35-26	2819-2828	tarantula	event[229]|animal[236]	new[229]|new[236]	_	_
 35-27	2829-2830	/	event[229]|animal[236]	new[229]|new[236]	_	_
 35-28	2831-2836	snake	event[229]|animal[236]	new[229]|new[236]	_	_

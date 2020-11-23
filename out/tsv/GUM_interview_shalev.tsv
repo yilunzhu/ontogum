@@ -6,20 +6,20 @@
 #Text=Wikinews interviews Israeli mathematician and writer Aner Shalev
 1-1	0-8	Wikinews	organization[2]	new[2]	coref	6-5[37_2]
 1-2	9-19	interviews	_	_	_	_
-1-3	20-27	Israeli	person[4]|person[601]	new[4]|new[601]	appos|coref	1-7[5_4]|3-1[11_601]
-1-4	28-41	mathematician	person[4]|person[601]	new[4]|new[601]	_	_
-1-5	42-45	and	person[4]|person[601]	new[4]|new[601]	_	_
-1-6	46-52	writer	person[4]|person[601]	new[4]|new[601]	_	_
-1-7	53-57	Aner	person[5]|person[601]	giv[5]|new[601]	_	_
-1-8	58-64	Shalev	person[5]|person[601]	giv[5]|new[601]	_	_
+1-3	20-27	Israeli	person[4]|person[570]	new[4]|new[570]	appos|coref	1-7[5_4]|3-1[11_570]
+1-4	28-41	mathematician	person[4]|person[570]	new[4]|new[570]	_	_
+1-5	42-45	and	person[4]|person[570]	new[4]|new[570]	_	_
+1-6	46-52	writer	person[4]|person[570]	new[4]|new[570]	_	_
+1-7	53-57	Aner	person[5]|person[570]	giv[5]|new[570]	_	_
+1-8	58-64	Shalev	person[5]|person[570]	giv[5]|new[570]	_	_
 
 #Text=Wednesday , September 19 , 2007
-2-1	65-74	Wednesday	time[570]	acc[570]	appos	2-3[8_570]
-2-2	75-76	,	time[570]	acc[570]	_	_
-2-3	77-86	September	time[8]	acc[8]	_	_
-2-4	87-89	19	time[8]	acc[8]	_	_
-2-5	90-91	,	time[8]	acc[8]	_	_
-2-6	92-96	2007	time[8]	acc[8]	_	_
+2-1	65-74	Wednesday	_	_	_	_
+2-2	75-76	,	_	_	_	_
+2-3	77-86	September	_	_	_	_
+2-4	87-89	19	_	_	_	_
+2-5	90-91	,	_	_	_	_
+2-6	92-96	2007	_	_	_	_
 
 #Text=Aner Shalev is an Israeli mathematician and writer born in 1958 in Kibbutz Kinneret , Tiberias .
 3-1	97-101	Aner	person[11]	giv[11]	coref	4-2[17_11]
@@ -401,7 +401,7 @@
 30-18	1779-1780	.	_	_	_	_
 
 #Text=Many people , and many students , dislike math .
-31-1	1781-1785	Many	event[170]|person[171]	new[170]|new[171]	ana|ana	32-5[176_170]|33-7[178_171]
+31-1	1781-1785	Many	event[170]|person[171]	new[170]|new[171]	ana|ana	33-7[178_171]|32-5[176_170]
 31-2	1786-1792	people	event[170]|person[171]	new[170]|new[171]	_	_
 31-3	1793-1794	,	event[170]|person[171]	new[170]|new[171]	_	_
 31-4	1795-1798	and	event[170]|person[171]	new[170]|new[171]	_	_
@@ -724,14 +724,14 @@
 44-4	3309-3313	most	_	_	_	_
 44-5	3314-3320	famous	_	_	_	_
 44-6	3321-3323	is	_	_	_	_
-44-7	3324-3329	Lewis	person[313]	new[313]	appos	44-10[314_313]
-44-8	3330-3336	Carrol	person[313]	new[313]	_	_
-44-9	3337-3338	,	person[313]	new[313]	_	_
-44-10	3339-3345	author	person[314]	giv[314]	_	_
-44-11	3346-3348	of	person[314]	giv[314]	_	_
-44-12	3349-3354	Alice	person[314]	giv[314]	_	_
-44-13	3355-3357	in	person[314]	giv[314]	_	_
-44-14	3358-3368	Wonderland	person[314]	giv[314]	_	_
+44-7	3324-3329	Lewis	_	_	_	_
+44-8	3330-3336	Carrol	_	_	_	_
+44-9	3337-3338	,	_	_	_	_
+44-10	3339-3345	author	_	_	_	_
+44-11	3346-3348	of	_	_	_	_
+44-12	3349-3354	Alice	_	_	_	_
+44-13	3355-3357	in	_	_	_	_
+44-14	3358-3368	Wonderland	_	_	_	_
 44-15	3369-3370	.	_	_	_	_
 
 #Text=You 're not only a mathematician .
@@ -798,7 +798,7 @@
 50-3	3619-3621	to	event[339]	new[339]	_	_
 50-4	3622-3627	write	event[339]	new[339]	_	_
 50-5	3628-3632	down	event[339]	new[339]	_	_
-50-6	3633-3635	my	event[339]|abstract[342]|person[343]	new[339]|giv[342]|giv[343]	ana|ana	51-14[347_342]|51-3[344_343]
+50-6	3633-3635	my	event[339]|abstract[342]|person[343]	new[339]|giv[342]|giv[343]	ana|ana	51-3[344_343]|51-14[347_342]
 50-7	3636-3642	dreams	event[339]|abstract[342]	new[339]|giv[342]	_	_
 50-8	3643-3644	.	event[339]	new[339]	_	_
 
@@ -909,7 +909,7 @@
 54-34	4158-4160	..	_	_	_	_
 54-35	4161-4164	for	_	_	_	_
 54-36	4165-4172	example	_	_	_	_
-54-37	4173-4175	my	abstract[385]|person[386]	new[385]|giv[386]	coref|ana	54-42[388_385]|59-5[420_386]
+54-37	4173-4175	my	abstract[385]|person[386]	new[385]|giv[386]	ana|coref	59-5[420_386]|54-42[388_385]
 54-38	4176-4181	first	abstract[385]	new[385]	_	_
 54-39	4182-4186	book	abstract[385]	new[385]	_	_
 54-40	4187-4189	is	_	_	_	_
@@ -1018,14 +1018,14 @@
 59-9	4682-4683	.	_	_	_	_
 
 #Text=It 's a book of opening , Overtures I called it , and there is no end to the stories .
-60-1	4684-4686	It	abstract[423]	giv[423]	ana	60-11[429_423]
+60-1	4684-4686	It	abstract[423]	giv[423]	_	_
 60-2	4687-4689	's	_	_	_	_
 60-3	4690-4691	a	_	_	_	_
 60-4	4692-4696	book	_	_	_	_
 60-5	4697-4699	of	_	_	_	_
 60-6	4700-4707	opening	_	_	_	_
 60-7	4708-4709	,	_	_	_	_
-60-8	4710-4719	Overtures	_	_	_	_
+60-8	4710-4719	Overtures	abstract[427]	giv[427]	ana	60-11[429_427]
 60-9	4720-4721	I	person[428]	giv[428]	ana	62-6[442_428]
 60-10	4722-4728	called	_	_	_	_
 60-11	4729-4731	it	abstract[429]	giv[429]	_	_
@@ -1057,14 +1057,14 @@
 62-3	4832-4837	novel	abstract[440]	giv[440]	_	_
 62-4	4838-4842	Dark	abstract[441]	giv[441]	ana	63-1[450_441]
 62-5	4843-4850	Matters	abstract[441]	giv[441]	_	_
-62-6	4851-4852	I	person[442]|abstract[441]	giv[442]|giv[441]	ana	62-10[443_442]
-62-7	4853-4858	think	abstract[441]	giv[441]	_	_
-62-8	4859-4863	what	abstract[441]	giv[441]	_	_
-62-9	4864-4874	interested	abstract[441]	giv[441]	_	_
-62-10	4875-4877	me	person[443]|abstract[441]	giv[443]|giv[441]	ana	66-18[482_443]
-62-11	4878-4880	in	abstract[441]	giv[441]	_	_
-62-12	4881-4884	the	abstract[446]|abstract[441]	new[446]|giv[441]	coref	66-15[481_446]
-62-13	4885-4894	structure	abstract[446]|abstract[441]	new[446]|giv[441]	_	_
+62-6	4851-4852	I	person[442]	giv[442]	ana	62-10[443_442]
+62-7	4853-4858	think	_	_	_	_
+62-8	4859-4863	what	_	_	_	_
+62-9	4864-4874	interested	_	_	_	_
+62-10	4875-4877	me	person[443]	giv[443]	ana	66-18[482_443]
+62-11	4878-4880	in	_	_	_	_
+62-12	4881-4884	the	abstract[446]	new[446]	coref	66-15[481_446]
+62-13	4885-4894	structure	abstract[446]	new[446]	_	_
 62-14	4895-4898	was	_	_	_	_
 62-15	4899-4902	two	_	_	_	_
 62-16	4903-4908	thing	_	_	_	_

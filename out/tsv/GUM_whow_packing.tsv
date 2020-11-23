@@ -731,14 +731,14 @@
 48-5	3066-3068	of	_	_	_	_
 48-6	3069-3072	the	place[255]	giv[255]	_	_
 48-7	3073-3078	house	place[255]	giv[255]	_	_
-48-8	3079-3084	where	place[255]	new[255]	_	_
-48-9	3085-3088	you	person[256]|place[255]	giv[256]|new[255]	ana	50-1[261_256]
-48-10	3089-3092	can	place[255]	new[255]	_	_
-48-11	3093-3096	put	place[255]	new[255]	_	_
-48-12	3097-3100	all	place[255]	new[255]	_	_
-48-13	3101-3104	the	place[255]	new[255]	_	_
-48-14	3105-3111	packed	place[255]	new[255]	_	_
-48-15	3112-3117	boxes	place[255]	new[255]	_	_
+48-8	3079-3084	where	_	_	_	_
+48-9	3085-3088	you	person[256]	giv[256]	ana	50-1[261_256]
+48-10	3089-3092	can	_	_	_	_
+48-11	3093-3096	put	_	_	_	_
+48-12	3097-3100	all	_	_	_	_
+48-13	3101-3104	the	_	_	_	_
+48-14	3105-3111	packed	_	_	_	_
+48-15	3112-3117	boxes	_	_	_	_
 48-16	3118-3119	.	_	_	_	_
 
 #Text=Use a room that is n't used every day such as the formal dining or living room .

@@ -86,7 +86,7 @@
 12-14	408-410	of	abstract[32]	new[32]	_	_
 12-15	411-417	poetry	abstract[32]	new[32]	_	_
 12-16	418-419	(	_	_	_	_
-12-17	420-429	Domínguez	abstract[36]|person[37]	new[36]|new[37]	coref|coref	13-49[73_36]|13-49[74_37]
+12-17	420-429	Domínguez	abstract[36]|person[37]	new[36]|new[37]	coref|coref	13-49[74_37]|13-49[73_36]
 12-18	430-438	Caparrós	abstract[36]|person[37]	new[36]|new[37]	_	_
 12-19	439-440	,	abstract[36]	new[36]	_	_
 12-20	441-445	2000	abstract[36]	new[36]	_	_
@@ -165,7 +165,7 @@
 13-29	871-876	exist	_	_	_	_
 13-30	877-878	(	_	_	_	_
 13-31	879-882	see	_	_	_	_
-13-32	883-891	Martínez	abstract[62]|person[63]	new[62]|giv[63]	coref|coref	41-24[361_62]|41-24[362_63]
+13-32	883-891	Martínez	abstract[62]|person[63]	new[62]|giv[63]	coref|coref	41-24[362_63]|41-24[361_62]
 13-33	892-898	Cantón	abstract[62]|person[63]	new[62]|giv[63]	_	_
 13-34	899-900	,	abstract[62]	new[62]	_	_
 13-35	901-905	2011	abstract[62]	new[62]	_	_
@@ -195,7 +195,7 @@
 13-59	1011-1015	2000	_	_	_	_
 13-60	1016-1017	)	_	_	_	_
 13-61	1018-1019	,	_	_	_	_
-13-62	1020-1025	Spang	abstract[82]|person[83]	acc[82]|new[83]	coref|coref	38-7[316_82]|38-7[317_83]
+13-62	1020-1025	Spang	abstract[82]|person[83]	acc[82]|new[83]	coref|coref	38-7[317_83]|38-7[316_82]
 13-63	1026-1027	(	abstract[82]	acc[82]	_	_
 13-64	1028-1032	1983	abstract[82]	acc[82]	_	_
 13-65	1033-1034	)	abstract[82]	acc[82]	_	_
@@ -491,7 +491,7 @@
 24-4	2586-2588	on	_	_	_	_
 24-5	2589-2599	enjambment	_	_	_	_
 24-6	2600-2602	in	_	_	_	_
-24-7	2603-2606	our	abstract[197]|person[198]	giv[197]|giv[198]	coref|ana	25-16[205_197]|32-1[265_198]
+24-7	2603-2606	our	abstract[197]|person[198]	giv[197]|giv[198]	ana|coref	32-1[265_198]|25-16[205_197]
 24-8	2607-2617	diachronic	abstract[197]	giv[197]	_	_
 24-9	2618-2624	sonnet	abstract[197]	giv[197]	_	_
 24-10	2625-2631	corpus	abstract[197]	giv[197]	_	_
@@ -580,13 +580,13 @@
 29-2	3020-3027	Spanish	_	_	_	_
 29-3	3028-3037	tradition	_	_	_	_
 29-4	3038-3039	,	_	_	_	_
-29-5	3040-3050	enjambment	_	_	_	_
+29-5	3040-3050	enjambment	abstract[233]	giv[233]	appos	29-11[235_233]
 29-6	3051-3052	(	_	_	_	_
 29-7	3053-3055	in	_	_	_	_
 29-8	3056-3063	Spanish	abstract[234]	giv[234]	_	_
 29-9	3064-3065	,	_	_	_	_
 29-10	3066-3067	"	_	_	_	_
-29-11	3068-3083	encabalgamiento	_	_	_	_
+29-11	3068-3083	encabalgamiento	abstract[235]	giv[235]	_	_
 29-12	3084-3085	"	_	_	_	_
 29-13	3086-3087	)	_	_	_	_
 29-14	3088-3090	is	_	_	_	_
@@ -632,7 +632,7 @@
 29-54	3316-3317	.	_	_	_	_
 
 #Text=Quilis ( 1964 ) performed poetry reading experiments , proposing that the following strongly connected elements give rise to enjambment , should a poetic-form pause break them up :
-30-1	3318-3324	Quilis	abstract[248]|person[249]	new[248]|new[249]	coref|coref	40-1[345_248]|36-8[300_249]
+30-1	3318-3324	Quilis	abstract[248]|person[249]	new[248]|new[249]	coref|coref	36-8[300_249]|40-1[345_248]
 30-2	3325-3326	(	abstract[248]	new[248]	_	_
 30-3	3327-3331	1964	abstract[248]	new[248]	_	_
 30-4	3332-3333	)	abstract[248]	new[248]	_	_
@@ -676,20 +676,20 @@
 32-1	3541-3543	We	person[265]	giv[265]	ana	34-1[287_265]
 32-2	3544-3554	translated	_	_	_	_
 32-3	3555-3556	"	_	_	_	_
-32-4	3557-3564	lexical	_	_	_	_
-32-5	3565-3575	enjambment	_	_	_	_
+32-4	3557-3564	lexical	abstract[267]	giv[267]	coref	32-12[271_267]
+32-5	3565-3575	enjambment	abstract[267]	giv[267]	_	_
 32-6	3576-3577	"	_	_	_	_
 32-7	3578-3582	from	_	_	_	_
 32-8	3583-3589	Quilis	abstract[268]	new[268]	appos	32-11[270_268]
 32-9	3590-3592	’s	abstract[268]	new[268]	_	_
 32-10	3593-3598	terms	abstract[268]	new[268]	_	_
 32-11	3599-3600	"	abstract[270]	giv[270]	_	_
-32-12	3601-3616	encabalgamiento	abstract[270]	giv[270]	_	_
-32-13	3617-3623	léxico	abstract[270]	giv[270]	_	_
+32-12	3601-3616	encabalgamiento	abstract[270]|abstract[271]	giv[270]|giv[271]	coref	32-17[272_271]
+32-13	3617-3623	léxico	abstract[270]|abstract[271]	giv[270]|giv[271]	_	_
 32-14	3624-3625	"	abstract[270]	giv[270]	_	_
 32-15	3626-3628	or	abstract[270]	giv[270]	_	_
 32-16	3629-3630	"	abstract[270]	giv[270]	_	_
-32-17	3631-3637	tmesis	abstract[270]	giv[270]	_	_
+32-17	3631-3637	tmesis	abstract[270]|abstract[272]	giv[270]|giv[272]	_	_
 32-18	3638-3639	"	abstract[270]	giv[270]	_	_
 32-19	3640-3641	.	_	_	_	_
 
@@ -733,13 +733,13 @@
 34-1	3806-3808	We	person[287]	giv[287]	ana	36-1[296_287]
 34-2	3809-3819	translated	_	_	_	_
 34-3	3820-3821	"	_	_	_	_
-34-4	3822-3836	phrase-bounded	_	_	_	_
-34-5	3837-3847	enjambment	_	_	_	_
+34-4	3822-3836	phrase-bounded	abstract[289]	giv[289]	coref	34-9[290_289]
+34-5	3837-3847	enjambment	abstract[289]	giv[289]	_	_
 34-6	3848-3849	"	_	_	_	_
 34-7	3850-3854	from	_	_	_	_
 34-8	3855-3856	"	_	_	_	_
-34-9	3857-3872	encabalgamiento	_	_	_	_
-34-10	3873-3884	sirremático	_	_	_	_
+34-9	3857-3872	encabalgamiento	abstract[290]	giv[290]	_	_
+34-10	3873-3884	sirremático	abstract[290]	giv[290]	_	_
 34-11	3885-3886	"	_	_	_	_
 34-12	3887-3888	.	_	_	_	_
 
@@ -768,15 +768,15 @@
 36-1	4019-4021	We	person[296]	giv[296]	ana	37-24[311_296]
 36-2	4022-4032	translated	_	_	_	_
 36-3	4033-4034	"	_	_	_	_
-36-4	4035-4047	cross-clause	_	_	_	_
-36-5	4048-4058	enjambment	_	_	_	_
+36-4	4035-4047	cross-clause	abstract[298]	giv[298]	coref	36-8[299_298]
+36-5	4048-4058	enjambment	abstract[298]	giv[298]	_	_
 36-6	4059-4060	"	_	_	_	_
 36-7	4061-4065	from	_	_	_	_
-36-8	4066-4072	Quilis	person[300]	giv[300]	coref	38-53[334_300]
-36-9	4073-4075	’s	person[300]	giv[300]	_	_
-36-10	4076-4077	"	_	_	_	_
-36-11	4078-4093	encabalgamiento	_	_	_	_
-36-12	4094-4103	oracional	_	_	_	_
+36-8	4066-4072	Quilis	abstract[299]|person[300]	giv[299]|giv[300]	coref	38-53[334_300]
+36-9	4073-4075	’s	abstract[299]|person[300]	giv[299]|giv[300]	_	_
+36-10	4076-4077	"	abstract[299]	giv[299]	_	_
+36-11	4078-4093	encabalgamiento	abstract[299]	giv[299]	_	_
+36-12	4094-4103	oracional	abstract[299]	giv[299]	_	_
 36-13	4104-4105	"	_	_	_	_
 36-14	4106-4107	.	_	_	_	_
 

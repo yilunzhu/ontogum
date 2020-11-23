@@ -122,10 +122,10 @@
 5-9	553-556	the	abstract[41]	giv[41]	coref	9-22[86_41]
 5-10	557-564	obvious	abstract[41]	giv[41]	_	_
 5-11	565-570	clues	abstract[41]	giv[41]	_	_
-5-12	571-573	he	person[42]|abstract[41]	giv[42]|giv[41]	ana	6-4[51_42]
-5-13	574-577	was	abstract[41]	giv[41]	_	_
-5-14	578-586	pointing	abstract[41]	giv[41]	_	_
-5-15	587-590	out	abstract[41]	giv[41]	_	_
+5-12	571-573	he	person[42]	giv[42]	ana	6-4[51_42]
+5-13	574-577	was	_	_	_	_
+5-14	578-586	pointing	_	_	_	_
+5-15	587-590	out	_	_	_	_
 5-16	591-594	and	_	_	_	_
 5-17	595-600	spent	_	_	_	_
 5-18	601-605	most	_	_	_	_
@@ -150,7 +150,7 @@
 6-10	686-689	not	abstract[47]	new[47]	_	_
 6-11	690-697	correct	abstract[47]	new[47]	_	_
 6-12	698-701	but	abstract[47]	new[47]	_	_
-6-13	702-705	his	abstract[47]|abstract[53]|person[54]|person[55]	new[47]|new[53]|giv[54]|giv[55]	ana|ana|ana	26-5[154_53]|7-7[63_54]|6-23[56_55]
+6-13	702-705	his	abstract[47]|abstract[53]|person[54]|person[55]	new[47]|new[53]|giv[54]|giv[55]	ana|ana|ana	7-7[63_54]|26-5[154_53]|6-23[56_55]
 6-14	706-713	parents	abstract[47]|abstract[53]|person[54]	new[47]|new[53]|giv[54]	_	_
 6-15	714-718	just	abstract[47]|abstract[53]	new[47]|new[53]	_	_
 6-16	719-722	did	abstract[47]|abstract[53]	new[47]|new[53]	_	_
@@ -197,7 +197,7 @@
 8-16	897-902	would	_	_	_	_
 8-17	903-907	have	_	_	_	_
 8-18	908-911	led	_	_	_	_
-8-19	912-915	his	person[74]|person[75]	giv[74]|giv[75]	coref|coref	9-31[88_74]|9-25[87_75]
+8-19	912-915	his	person[74]|person[75]	giv[74]|giv[75]	coref|coref	9-25[87_75]|9-31[88_74]
 8-20	916-923	parents	person[74]	giv[74]	_	_
 8-21	924-929	right	_	_	_	_
 8-22	930-937	through	_	_	_	_
@@ -231,9 +231,9 @@
 9-22	1049-1054	every	abstract[86]	giv[86]	_	_
 9-23	1055-1059	damn	abstract[86]	giv[86]	_	_
 9-24	1060-1064	clue	abstract[86]	giv[86]	_	_
-9-25	1065-1068	the	person[87]|abstract[86]	giv[87]|giv[86]	coref	9-34[89_87]
-9-26	1069-1072	kid	person[87]|abstract[86]	giv[87]|giv[86]	_	_
-9-27	1073-1080	noticed	abstract[86]	giv[86]	_	_
+9-25	1065-1068	the	person[87]	giv[87]	coref	9-34[89_87]
+9-26	1069-1072	kid	person[87]	giv[87]	_	_
+9-27	1073-1080	noticed	_	_	_	_
 9-28	1081-1084	and	_	_	_	_
 9-29	1085-1089	made	_	_	_	_
 9-30	1090-1094	sure	_	_	_	_

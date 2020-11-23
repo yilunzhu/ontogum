@@ -199,7 +199,7 @@
 
 #Text=Focus your list on including the things you typically put off , not the things you are sure to do on a regular basis .
 12-1	887-892	Focus	_	_	_	_
-12-2	893-897	your	object[81]|person[82]	giv[81]|giv[82]	coref|ana	15-2[101_81]|12-8[85_82]
+12-2	893-897	your	object[81]|person[82]	giv[81]|giv[82]	ana|coref	12-8[85_82]|15-2[101_81]
 12-3	898-902	list	object[81]	giv[81]	_	_
 12-4	903-905	on	_	_	_	_
 12-5	906-915	including	_	_	_	_
@@ -231,12 +231,12 @@
 13-4	1021-1024	set	_	_	_	_
 13-5	1025-1036	time-frames	_	_	_	_
 13-6	1037-1040	for	_	_	_	_
-13-7	1041-1045	your	abstract[93]|person[94]	giv[93]|giv[94]	coref|ana	15-10[107_93]|15-2[102_94]
+13-7	1041-1045	your	abstract[93]|person[94]	giv[93]|giv[94]	ana|coref	15-2[102_94]|15-10[107_93]
 13-8	1046-1051	items	abstract[93]	giv[93]	_	_
-13-9	1052-1054	to	abstract[93]	giv[93]	_	_
-13-10	1055-1057	be	abstract[93]	giv[93]	_	_
-13-11	1058-1062	done	abstract[93]	giv[93]	_	_
-13-12	1063-1065	by	abstract[93]	giv[93]	_	_
+13-9	1052-1054	to	_	_	_	_
+13-10	1055-1057	be	_	_	_	_
+13-11	1058-1062	done	_	_	_	_
+13-12	1063-1065	by	_	_	_	_
 13-13	1066-1067	.	_	_	_	_
 
 #Text=For example , list “ take the dog for a walk by 12:30 ” rather than simply “ walk the dog . ”
@@ -272,14 +272,14 @@
 15-5	1192-1199	through	_	_	_	_
 15-6	1200-1204	your	time[104]|person[105]	giv[104]|giv[105]	ana	15-10[108_105]
 15-7	1205-1208	day	time[104]	giv[104]	_	_
-15-8	1209-1211	to	time[104]	giv[104]	_	_
-15-9	1212-1216	rank	time[104]	giv[104]	_	_
-15-10	1217-1221	your	abstract[107]|person[108]|time[104]	giv[107]|giv[108]|giv[104]	ana	17-7[114_108]
-15-11	1222-1227	items	abstract[107]|time[104]	giv[107]|giv[104]	_	_
-15-12	1228-1233	based	time[104]	giv[104]	_	_
-15-13	1234-1236	on	time[104]	giv[104]	_	_
-15-14	1237-1244	highest	time[104]	giv[104]	_	_
-15-15	1245-1253	priority	time[104]	giv[104]	_	_
+15-8	1209-1211	to	_	_	_	_
+15-9	1212-1216	rank	_	_	_	_
+15-10	1217-1221	your	abstract[107]|person[108]	giv[107]|giv[108]	ana	17-7[114_108]
+15-11	1222-1227	items	abstract[107]	giv[107]	_	_
+15-12	1228-1233	based	_	_	_	_
+15-13	1234-1236	on	_	_	_	_
+15-14	1237-1244	highest	_	_	_	_
+15-15	1245-1253	priority	_	_	_	_
 15-16	1254-1255	.	_	_	_	_
 
 #Text=Then , tackle the most important ones before looking back at the smaller things to do .
@@ -575,13 +575,13 @@
 30-4	2520-2529	presented	_	_	_	_
 30-5	2530-2534	with	_	_	_	_
 30-6	2535-2544	something	abstract[209]	new[209]	ana	30-25[212_209]
-30-7	2545-2549	that	abstract[209]	new[209]	_	_
-30-8	2550-2553	you	person[210]|abstract[209]	giv[210]|new[209]	ana	30-21[211_210]
-30-9	2554-2556	do	abstract[209]	new[209]	_	_
-30-10	2557-2560	n’t	abstract[209]	new[209]	_	_
-30-11	2561-2565	want	abstract[209]	new[209]	_	_
-30-12	2566-2568	to	abstract[209]	new[209]	_	_
-30-13	2569-2571	do	abstract[209]	new[209]	_	_
+30-7	2545-2549	that	_	_	_	_
+30-8	2550-2553	you	person[210]	giv[210]	ana	30-21[211_210]
+30-9	2554-2556	do	_	_	_	_
+30-10	2557-2560	n’t	_	_	_	_
+30-11	2561-2565	want	_	_	_	_
+30-12	2566-2568	to	_	_	_	_
+30-13	2569-2571	do	_	_	_	_
 30-14	2572-2574	or	_	_	_	_
 30-15	2575-2580	would	_	_	_	_
 30-16	2581-2589	consider	_	_	_	_

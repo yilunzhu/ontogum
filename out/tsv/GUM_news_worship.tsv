@@ -16,12 +16,12 @@
 1-10	54-59	legal	_	_	_	_
 
 #Text=Monday , March 27 , 2006
-2-1	60-66	Monday	time[86]	new[86]	appos	2-3[7_86]
-2-2	67-68	,	time[86]	new[86]	_	_
-2-3	69-74	March	time[7]	giv[7]	_	_
-2-4	75-77	27	time[7]	giv[7]	_	_
-2-5	78-79	,	time[7]	giv[7]	_	_
-2-6	80-84	2006	time[7]	giv[7]	_	_
+2-1	60-66	Monday	_	_	_	_
+2-2	67-68	,	_	_	_	_
+2-3	69-74	March	_	_	_	_
+2-4	75-77	27	_	_	_	_
+2-5	78-79	,	_	_	_	_
+2-6	80-84	2006	_	_	_	_
 
 #Text=Greek court has ruled that worshippers of the ancient Greek religion may now formally associate and worship at archeological sites .
 3-1	85-90	Greek	event[10]	giv[10]	coref	4-3[15_10]
@@ -84,14 +84,14 @@
 5-10	405-406	.	_	_	_	_
 
 #Text=The Greek Orthodox Church , a Christian denomination , is extremely critical of worshippers of the ancient deities .
-6-1	407-410	The	organization[25]|organization[117]	new[25]|new[117]	appos|coref	6-6[26_25]|8-1[43_117]
-6-2	411-416	Greek	organization[25]|organization[117]	new[25]|new[117]	_	_
-6-3	417-425	Orthodox	organization[25]|organization[117]	new[25]|new[117]	_	_
-6-4	426-432	Church	organization[25]|organization[117]	new[25]|new[117]	_	_
-6-5	433-434	,	organization[25]|organization[117]	new[25]|new[117]	_	_
-6-6	435-436	a	organization[26]|organization[117]	giv[26]|new[117]	_	_
-6-7	437-446	Christian	organization[26]|organization[117]	giv[26]|new[117]	_	_
-6-8	447-459	denomination	organization[26]|organization[117]	giv[26]|new[117]	_	_
+6-1	407-410	The	organization[87]	new[87]	coref	8-1[43_87]
+6-2	411-416	Greek	organization[87]	new[87]	_	_
+6-3	417-425	Orthodox	organization[87]	new[87]	_	_
+6-4	426-432	Church	organization[87]	new[87]	_	_
+6-5	433-434	,	organization[87]	new[87]	_	_
+6-6	435-436	a	organization[87]	new[87]	_	_
+6-7	437-446	Christian	organization[87]	new[87]	_	_
+6-8	447-459	denomination	organization[87]	new[87]	_	_
 6-9	460-461	,	_	_	_	_
 6-10	462-464	is	_	_	_	_
 6-11	465-474	extremely	_	_	_	_

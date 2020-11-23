@@ -13,7 +13,7 @@
 1-7	27-33	public	_	_	_	_
 
 #Text=My wife and I were at Panera eating breakfast and we noticed a lady be hind us talking on the phone very loudly .
-2-1	34-36	My	person[3]|person[5]	new[3]|acc[5]	ana|ana	2-11[9_3]|2-4[6_5]
+2-1	34-36	My	person[3]|person[5]	new[3]|acc[5]	ana|ana	2-4[6_5]|2-11[9_3]
 2-2	37-41	wife	person[3]	new[3]	_	_
 2-3	42-45	and	person[3]	new[3]	_	_
 2-4	46-47	I	person[3]|person[6]	new[3]|giv[6]	_	_
@@ -30,12 +30,12 @@
 2-15	102-104	be	person[15]	new[15]	_	_
 2-16	105-109	hind	person[15]	new[15]	_	_
 2-17	110-112	us	person[15]|person[16]	new[15]|giv[16]	ana	3-1[17_16]
-2-18	113-120	talking	person[15]	new[15]	_	_
-2-19	121-123	on	person[15]	new[15]	_	_
-2-20	124-127	the	person[15]	new[15]	_	_
-2-21	128-133	phone	person[15]	new[15]	_	_
-2-22	134-138	very	person[15]	new[15]	_	_
-2-23	139-145	loudly	person[15]	new[15]	_	_
+2-18	113-120	talking	_	_	_	_
+2-19	121-123	on	_	_	_	_
+2-20	124-127	the	_	_	_	_
+2-21	128-133	phone	_	_	_	_
+2-22	134-138	very	_	_	_	_
+2-23	139-145	loudly	_	_	_	_
 2-24	146-147	.	_	_	_	_
 
 #Text=We could n’t help over hearing her talk about a bill not being paid .
@@ -85,7 +85,7 @@
 5-8	332-336	were	_	_	_	_
 5-9	337-344	shocked	_	_	_	_
 5-10	345-349	when	_	_	_	_
-5-11	350-353	she	event[32]|person[33]	new[32]|giv[33]	ana|ana	8-10[66_32]|5-14[34_33]
+5-11	350-353	she	event[32]|person[33]	new[32]|giv[33]	ana|ana	5-14[34_33]|8-10[66_32]
 5-12	354-363	announced	event[32]	new[32]	_	_
 5-13	364-368	that	event[32]	new[32]	_	_
 5-14	369-372	she	event[32]|person[34]	new[32]|giv[34]	ana	5-19[38_34]
@@ -93,7 +93,7 @@
 5-16	377-382	about	event[32]	new[32]	_	_
 5-17	383-385	to	event[32]	new[32]	_	_
 5-18	386-390	read	event[32]	new[32]	_	_
-5-19	391-394	her	event[32]|abstract[37]|person[38]	new[32]|new[37]|giv[38]	ana|ana	7-11[53_37]|6-1[40_38]
+5-19	391-394	her	event[32]|abstract[37]|person[38]	new[32]|new[37]|giv[38]	ana|ana	6-1[40_38]|7-11[53_37]
 5-20	395-399	card	event[32]|abstract[37]	new[32]|new[37]	_	_
 5-21	400-406	number	event[32]|abstract[37]	new[32]|new[37]	_	_
 5-22	407-408	.	_	_	_	_
@@ -370,7 +370,7 @@
 29-4	1380-1382	do	_	_	_	_
 29-5	1383-1386	n't	_	_	_	_
 29-6	1387-1391	have	_	_	_	_
-29-7	1392-1394	my	object[158]|person[159]	giv[158]|giv[159]	coref|ana	30-11[168_158]|29-10[160_159]
+29-7	1392-1394	my	object[158]|person[159]	giv[158]|giv[159]	ana|coref	29-10[160_159]|30-11[168_158]
 29-8	1395-1399	card	object[158]	giv[158]	_	_
 29-9	1400-1402	on	_	_	_	_
 29-10	1403-1405	me	person[160]	giv[160]	ana	30-1[164_160]
@@ -668,8 +668,8 @@
 45-2	2690-2692	’m	_	_	_	_
 45-3	2693-2700	looking	_	_	_	_
 45-4	2701-2703	at	_	_	_	_
-45-5	2704-2707	you	organization[342]	new[342]	appos	45-7[288_342]
-45-6	2708-2709	,	organization[342]	new[342]	_	_
+45-5	2704-2707	you	organization[279]	new[279]	appos	45-7[288_279]
+45-6	2708-2709	,	_	_	_	_
 45-7	2710-2717	capital	organization[288]	giv[288]	_	_
 45-8	2718-2721	one	organization[288]	giv[288]	_	_
 45-9	2722-2723	.	_	_	_	_

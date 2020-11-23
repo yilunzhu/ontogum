@@ -217,7 +217,7 @@
 15-7	882-885	the	_	_	_	_
 15-8	886-893	members	_	_	_	_
 15-9	894-896	of	_	_	_	_
-15-10	897-901	your	person[69]|person[70]	giv[69]|giv[70]	coref|ana	20-6[94_69]|17-7[76_70]
+15-10	897-901	your	person[69]|person[70]	giv[69]|giv[70]	ana|coref	17-7[76_70]|20-6[94_69]
 15-11	902-910	audience	person[69]	giv[69]	_	_
 15-12	911-912	,	_	_	_	_
 15-13	913-917	here	_	_	_	_
@@ -313,7 +313,7 @@
 20-3	1326-1329	you	person[92]	giv[92]	ana	20-6[95_92]
 20-4	1330-1334	know	_	_	_	_
 20-5	1335-1340	about	_	_	_	_
-20-6	1341-1345	your	person[94]|person[95]	giv[94]|giv[95]	ana|ana	20-19[101_94]|20-10[96_95]
+20-6	1341-1345	your	person[94]|person[95]	giv[94]|giv[95]	ana|ana	20-10[96_95]|20-19[101_94]
 20-7	1346-1354	audience	person[94]	giv[94]	_	_
 20-8	1355-1358	the	_	_	_	_
 20-9	1359-1365	better	_	_	_	_
@@ -345,7 +345,7 @@
 22-7	1465-1471	places	_	_	_	_
 22-8	1472-1473	—	_	_	_	_
 22-9	1474-1478	from	_	_	_	_
-22-10	1479-1483	your	abstract[110]|person[111]	new[110]|giv[111]	coref|ana	51-13[290_110]|22-20[117_111]
+22-10	1479-1483	your	abstract[110]|person[111]	new[110]|giv[111]	ana|coref	22-20[117_111]|51-13[290_110]
 22-11	1484-1488	life	abstract[110]	new[110]	_	_
 22-12	1489-1490	,	_	_	_	_
 22-13	1491-1495	joke	_	_	_	_
@@ -383,7 +383,7 @@
 24-1	1615-1618	You	person[125]	giv[125]	ana	24-4[130_125]
 24-2	1619-1622	can	_	_	_	_
 24-3	1623-1628	write	_	_	_	_
-24-4	1629-1633	your	abstract[129]|person[130]	new[129]|giv[130]	ana|ana	24-12[133_129]|24-20[136_130]
+24-4	1629-1633	your	abstract[129]|person[130]	new[129]|giv[130]	ana|ana	24-20[136_130]|24-12[133_129]
 24-5	1634-1639	jokes	abstract[129]	new[129]	_	_
 24-6	1640-1644	down	_	_	_	_
 24-7	1645-1647	on	_	_	_	_
@@ -447,19 +447,19 @@
 28-2	1865-1867	’s	_	_	_	_
 28-3	1868-1877	important	_	_	_	_
 28-4	1878-1882	that	_	_	_	_
-28-5	1883-1886	the	abstract[149]|abstract[150]|abstract[445]	new[149]|giv[150]|new[445]	cata|appos|ana	28-1[147_149]|28-9[414_150]|29-3[158_445]
-28-6	1887-1891	joke	abstract[149]|abstract[150]|abstract[445]	new[149]|giv[150]|new[445]	_	_
-28-7	1892-1894	’s	abstract[149]|abstract[150]|abstract[445]	new[149]|giv[150]|new[445]	_	_
-28-8	1895-1901	target	abstract[149]|abstract[150]|abstract[445]	new[149]|giv[150]|new[445]	_	_
-28-9	1902-1903	(	abstract[149]|abstract[414]|abstract[445]	new[149]|new[414]|new[445]	_	_
-28-10	1904-1907	the	abstract[149]|abstract[414]|abstract[445]	new[149]|new[414]|new[445]	_	_
-28-11	1908-1912	most	abstract[149]|abstract[414]|abstract[445]	new[149]|new[414]|new[445]	_	_
-28-12	1913-1918	basic	abstract[149]|abstract[414]|abstract[445]	new[149]|new[414]|new[445]	_	_
-28-13	1919-1926	element	abstract[149]|abstract[414]|abstract[445]	new[149]|new[414]|new[445]	_	_
-28-14	1927-1929	of	abstract[149]|abstract[414]|abstract[445]	new[149]|new[414]|new[445]	_	_
-28-15	1930-1934	your	abstract[149]|abstract[153]|person[154]|abstract[414]|abstract[445]	new[149]|new[153]|giv[154]|new[414]|new[445]	coref|ana	54-2[308_153]|28-21[157_154]
-28-16	1935-1943	material	abstract[149]|abstract[153]|abstract[414]|abstract[445]	new[149]|new[153]|new[414]|new[445]	_	_
-28-17	1944-1945	)	abstract[149]|abstract[414]|abstract[445]	new[149]|new[414]|new[445]	_	_
+28-5	1883-1886	the	abstract[149]|abstract[150]|abstract[414]	new[149]|giv[150]|new[414]	cata|ana|appos	28-1[147_149]|29-3[158_414]|28-10[152_150]
+28-6	1887-1891	joke	abstract[149]|abstract[150]|abstract[414]	new[149]|giv[150]|new[414]	_	_
+28-7	1892-1894	’s	abstract[149]|abstract[150]|abstract[414]	new[149]|giv[150]|new[414]	_	_
+28-8	1895-1901	target	abstract[149]|abstract[150]|abstract[414]	new[149]|giv[150]|new[414]	_	_
+28-9	1902-1903	(	abstract[149]|abstract[414]	new[149]|new[414]	_	_
+28-10	1904-1907	the	abstract[149]|abstract[152]|abstract[414]	new[149]|giv[152]|new[414]	_	_
+28-11	1908-1912	most	abstract[149]|abstract[152]|abstract[414]	new[149]|giv[152]|new[414]	_	_
+28-12	1913-1918	basic	abstract[149]|abstract[152]|abstract[414]	new[149]|giv[152]|new[414]	_	_
+28-13	1919-1926	element	abstract[149]|abstract[152]|abstract[414]	new[149]|giv[152]|new[414]	_	_
+28-14	1927-1929	of	abstract[149]|abstract[152]|abstract[414]	new[149]|giv[152]|new[414]	_	_
+28-15	1930-1934	your	abstract[149]|abstract[152]|abstract[153]|person[154]|abstract[414]	new[149]|giv[152]|new[153]|giv[154]|new[414]	ana|coref	28-21[157_154]|54-2[308_153]
+28-16	1935-1943	material	abstract[149]|abstract[152]|abstract[153]|abstract[414]	new[149]|giv[152]|new[153]|new[414]	_	_
+28-17	1944-1945	)	abstract[149]	new[149]	_	_
 28-18	1946-1948	be	abstract[149]	new[149]	_	_
 28-19	1949-1955	suited	abstract[149]	new[149]	_	_
 28-20	1956-1958	to	abstract[149]	new[149]	_	_
@@ -739,7 +739,7 @@
 44-7	3151-3159	audience	person[247]	giv[247]	_	_
 44-8	3160-3165	laugh	_	_	_	_
 44-9	3166-3167	,	_	_	_	_
-44-10	3168-3172	your	abstract[248]|person[249]	giv[248]|giv[249]	coref|ana	46-5[258_248]|47-4[264_249]
+44-10	3168-3172	your	abstract[248]|person[249]	giv[248]|giv[249]	ana|coref	47-4[264_249]|46-5[258_248]
 44-11	3173-3182	punchline	abstract[248]	giv[248]	_	_
 44-12	3183-3188	needs	_	_	_	_
 44-13	3189-3191	to	_	_	_	_
@@ -916,7 +916,7 @@
 
 #Text=Practicing your joke is crucial .
 55-1	3921-3931	Practicing	_	_	_	_
-55-2	3932-3936	your	abstract[311]|person[312]	giv[311]|giv[312]	ana|ana	56-7[314_311]|56-1[313_312]
+55-2	3932-3936	your	abstract[311]|person[312]	giv[311]|giv[312]	ana|ana	56-1[313_312]|56-7[314_311]
 55-3	3937-3941	joke	abstract[311]	giv[311]	_	_
 55-4	3942-3944	is	_	_	_	_
 55-5	3945-3952	crucial	_	_	_	_

@@ -13,7 +13,13 @@ To straightforwardly view a coref document, copy & paste the tsv file to [Spanno
 1. Go to `utils` and run `python gum2conll.py` to build up the dataset. It will generate train, dev (including by-genre set), and test set under ./dataset
 2. Follow the instructions in [SpanBert](https://github.com/mandarjoshi90/coref). Note that change the data directory.
 
+## Testing dcoref
+1. Go to `utils` and run `./dcoref.sh`
+
 ## Results
 
-### Results on SpanBert on dev set across genres
+### Results on dcoref on the dev set over eight genres
+![image text](https://github.com/yilunzhu/coref_dataset_convert/blob/master/utils/pic/res_dcoref.png)
+
+### Results on SpanBert on the dev set across genres
 ![image text](https://github.com/yilunzhu/coref_dataset_convert/blob/master/utils/pic/res_spanbert.png)

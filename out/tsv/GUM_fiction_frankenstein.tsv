@@ -60,7 +60,7 @@
 
 #Text=Is your mom here ? ”
 4-1	224-226	Is	_	_	_	_
-4-2	227-231	your	person[17]|person[18]	giv[17]|giv[18]	coref|coref	21-1[79_17]|7-2[24_18]
+4-2	227-231	your	person[17]|person[18]	giv[17]|giv[18]	coref|coref	7-2[24_18]|21-1[79_17]
 4-3	232-235	mom	person[17]	giv[17]	_	_
 4-4	236-240	here	_	_	_	_
 4-5	241-242	?	_	_	_	_
@@ -225,7 +225,7 @@
 20-17	723-724	?	_	_	_	_
 
 #Text=Our mom ’s down at Dillard ’s . ”
-21-1	725-728	Our	person[79]|person[80]	giv[79]|split[80]	coref|ana	28-1[131_79]|31-1[178_80]
+21-1	725-728	Our	person[79]|person[80]	giv[79]|split[80]	ana|coref	31-1[178_80]|28-1[131_79]
 21-2	729-732	mom	person[79]	giv[79]	_	_
 21-3	733-735	’s	_	_	_	_
 21-4	736-740	down	_	_	_	_
@@ -375,8 +375,8 @@
 29-3	1315-1317	up	_	_	_	_
 29-4	1318-1321	the	_	_	_	_
 29-5	1322-1325	way	_	_	_	_
-29-6	1326-1332	Shelby	animal[590]	new[590]	appos	29-8[143_590]
-29-7	1333-1334	,	animal[590]	new[590]	_	_
+29-6	1326-1332	Shelby	animal[140]	new[140]	appos	29-8[143_140]
+29-7	1333-1334	,	_	_	_	_
 29-8	1335-1338	our	animal[143]|person[144]	giv[143]|split[144]	ana	60-1[366_144]
 29-9	1339-1347	Shetland	animal[143]	giv[143]	_	_
 29-10	1348-1356	Sheepdog	animal[143]	giv[143]	_	_
@@ -547,7 +547,7 @@
 38-3	2005-2014	chocolate	_	_	_	_
 38-4	2015-2022	smeared	_	_	_	_
 38-5	2023-2025	on	_	_	_	_
-38-6	2026-2029	her	object[223]|person[224]	new[223]|giv[224]	coref|ana	65-42[431_223]|38-10[225_224]
+38-6	2026-2029	her	object[223]|person[224]	new[223]|giv[224]	ana|coref	38-10[225_224]|65-42[431_223]
 38-7	2030-2035	mouth	object[223]	new[223]	_	_
 38-8	2036-2037	,	_	_	_	_
 38-9	2038-2041	but	_	_	_	_
@@ -754,7 +754,7 @@
 52-15	2702-2703	.	_	_	_	_
 
 #Text=My mom had to buy stuff , like gym shorts for me and underwear for herself , so I told her that I ’d take Cara with me while she bought her stuff .
-53-1	2704-2706	My	person[310]|person[311]	giv[310]|giv[311]	ana|ana	53-16[317_310]|53-12[315_311]
+53-1	2704-2706	My	person[310]|person[311]	giv[310]|giv[311]	ana|ana	53-12[315_311]|53-16[317_310]
 53-2	2707-2710	mom	person[310]	giv[310]	_	_
 53-3	2711-2714	had	_	_	_	_
 53-4	2715-2717	to	_	_	_	_
@@ -844,7 +844,7 @@
 57-2	3025-3031	Robert	person[350]	giv[350]	ana	57-5[360_350]
 57-3	3032-3033	,	_	_	_	_
 57-4	3034-3035	”	_	_	_	_
-57-5	3036-3038	my	person[359]|person[360]	giv[359]|giv[360]	ana|ana	58-1[361_359]|63-1[387_360]
+57-5	3036-3038	my	person[359]|person[360]	giv[359]|giv[360]	ana|ana	63-1[387_360]|58-1[361_359]
 57-6	3039-3042	mom	person[359]	giv[359]	_	_
 57-7	3043-3047	says	_	_	_	_
 57-8	3048-3049	,	_	_	_	_
@@ -852,7 +852,7 @@
 57-10	3060-3061	.	_	_	_	_
 
 #Text=She crouches down .
-58-1	3062-3065	She	person[361]	giv[361]	_	_
+58-1	3062-3065	She	person[361]	giv[361]	coref	59-5[365_361]
 58-2	3066-3074	crouches	_	_	_	_
 58-3	3075-3079	down	_	_	_	_
 58-4	3080-3081	.	_	_	_	_
@@ -1131,10 +1131,10 @@
 74-10	4059-4061	is	person[472]	giv[472]	_	_
 74-11	4062-4070	probably	person[472]	giv[472]	_	_
 74-12	4071-4075	with	person[472]	giv[472]	_	_
-74-13	4076-4081	Joyce	person[472]|person[621]|person[653]	giv[472]|giv[621]|giv[653]	appos|coref	74-15[477_621]|75-1[481_653]
-74-14	4082-4083	,	person[472]|person[621]|person[653]	giv[472]|giv[621]|giv[653]	_	_
-74-15	4084-4087	his	person[472]|person[477]|person[653]	giv[472]|giv[477]|giv[653]	_	_
-74-16	4088-4098	girlfriend	person[472]|person[477]|person[653]	giv[472]|giv[477]|giv[653]	_	_
+74-13	4076-4081	Joyce	person[472]|person[474]|person[591]	giv[472]|new[474]|giv[591]	appos|coref	74-15[477_474]|75-1[481_591]
+74-14	4082-4083	,	person[472]|person[591]	giv[472]|giv[591]	_	_
+74-15	4084-4087	his	person[472]|person[477]|person[591]	giv[472]|giv[477]|giv[591]	_	_
+74-16	4088-4098	girlfriend	person[472]|person[477]|person[591]	giv[472]|giv[477]|giv[591]	_	_
 74-17	4099-4100	,	person[472]	giv[472]	_	_
 74-18	4101-4107	anyway	person[472]	giv[472]	_	_
 74-19	4108-4109	.	_	_	_	_

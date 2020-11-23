@@ -11,31 +11,31 @@
 1-5	37-46	treatment	_	_	_	_
 1-6	47-52	leads	_	_	_	_
 1-7	53-55	to	_	_	_	_
-1-8	56-64	daughter	event[4]|person[5]	new[4]|acc[5]	coref|coref	3-28[25_4]|3-31[366_5]
+1-8	56-64	daughter	event[4]|person[5]	new[4]|acc[5]	coref|coref	3-31[304_5]|3-28[25_4]
 1-9	65-67	's	event[4]|person[5]	new[4]|acc[5]	_	_
 1-10	68-73	death	event[4]	new[4]	_	_
 
 #Text=Friday , May 8 , 2009
-2-1	74-80	Friday	time[301]	acc[301]	appos	2-3[8_301]
-2-2	81-82	,	time[301]	acc[301]	_	_
-2-3	83-86	May	time[8]	giv[8]	_	_
-2-4	87-88	8	time[8]	giv[8]	_	_
-2-5	89-90	,	time[8]	giv[8]	_	_
-2-6	91-95	2009	time[8]	giv[8]	_	_
+2-1	74-80	Friday	_	_	_	_
+2-2	81-82	,	_	_	_	_
+2-3	83-86	May	_	_	_	_
+2-4	87-88	8	_	_	_	_
+2-5	89-90	,	_	_	_	_
+2-6	91-95	2009	_	_	_	_
 
 #Text=Thomas Sam , 42 , and his wife Manju Sam , 36 , from Sydney , Australia , are undergoing trial for manslaughter by gross negligence for the death of their nine-month-old child , Gloria .
-3-1	96-102	Thomas	person[11]|person[363]	acc[11]|acc[363]	appos|ana	3-4[12_11]|3-7[15_363]
-3-2	103-106	Sam	person[11]|person[363]	acc[11]|acc[363]	_	_
-3-3	107-108	,	person[11]|person[363]	acc[11]|acc[363]	_	_
-3-4	109-111	42	person[12]|person[363]	giv[12]|acc[363]	_	_
+3-1	96-102	Thomas	person[302]	acc[302]	ana	3-7[15_302]
+3-2	103-106	Sam	person[302]	acc[302]	_	_
+3-3	107-108	,	person[302]	acc[302]	_	_
+3-4	109-111	42	person[302]	acc[302]	_	_
 3-5	112-113	,	_	_	_	_
 3-6	114-117	and	_	_	_	_
-3-7	118-121	his	person[14]|person[15]|person[364]	acc[14]|giv[15]|acc[364]	appos|coref|coref	3-9[365_14]|9-1[367_15]|3-12[18_364]
-3-8	122-126	wife	person[14]|person[364]	acc[14]|acc[364]	_	_
-3-9	127-132	Manju	person[364]|person[365]	acc[364]|giv[365]	_	_
-3-10	133-136	Sam	person[364]|person[365]	acc[364]|giv[365]	_	_
-3-11	137-138	,	person[365]	giv[365]	_	_
-3-12	139-141	36	person[18]|person[365]	giv[18]|giv[365]	_	_
+3-7	118-121	his	person[14]|person[15]	acc[14]|giv[15]	appos|coref	3-9[17_14]|9-1[306_15]
+3-8	122-126	wife	person[14]	acc[14]	_	_
+3-9	127-132	Manju	person[17]	giv[17]	_	_
+3-10	133-136	Sam	person[17]	giv[17]	_	_
+3-11	137-138	,	_	_	_	_
+3-12	139-141	36	_	_	_	_
 3-13	142-143	,	_	_	_	_
 3-14	144-148	from	_	_	_	_
 3-15	149-155	Sydney	_	_	_	_
@@ -54,11 +54,11 @@
 3-28	232-235	the	event[25]	giv[25]	coref	10-37[85_25]
 3-29	236-241	death	event[25]	giv[25]	_	_
 3-30	242-244	of	event[25]	giv[25]	_	_
-3-31	245-250	their	event[25]|person[26]|person[27]|person[366]	giv[25]|giv[26]|giv[27]|giv[366]	appos|ana|ana	3-35[28_26]|4-10[36_27]|4-1[29_366]
-3-32	251-265	nine-month-old	event[25]|person[26]|person[366]	giv[25]|giv[26]|giv[366]	_	_
-3-33	266-271	child	event[25]|person[26]|person[366]	giv[25]|giv[26]|giv[366]	_	_
-3-34	272-273	,	person[26]|person[366]	giv[26]|giv[366]	_	_
-3-35	274-280	Gloria	person[28]|person[366]	giv[28]|giv[366]	_	_
+3-31	245-250	their	event[25]|person[26]|person[27]|person[304]	giv[25]|giv[26]|giv[27]|giv[304]	ana|appos|ana	4-10[36_27]|3-35[28_26]|4-1[29_304]
+3-32	251-265	nine-month-old	event[25]|person[26]|person[304]	giv[25]|giv[26]|giv[304]	_	_
+3-33	266-271	child	event[25]|person[26]|person[304]	giv[25]|giv[26]|giv[304]	_	_
+3-34	272-273	,	person[304]	giv[304]	_	_
+3-35	274-280	Gloria	person[28]|person[304]	giv[28]|giv[304]	_	_
 3-36	281-282	.	_	_	_	_
 
 #Text=She died from infection caused by severe eczema after they shunned effective conventional medical treatments for homeopathy , a form of alternative medicine that has been described as pseudoscience .
@@ -78,19 +78,19 @@
 4-14	373-380	medical	_	_	_	_
 4-15	381-391	treatments	_	_	_	_
 4-16	392-395	for	_	_	_	_
-4-17	396-406	homeopathy	abstract[332]|abstract[372]	new[332]|new[372]	appos|coref	4-19[41_332]|5-13[47_372]
-4-18	407-408	,	abstract[332]|abstract[372]	new[332]|new[372]	_	_
-4-19	409-410	a	abstract[41]|abstract[372]	giv[41]|new[372]	_	_
-4-20	411-415	form	abstract[41]|abstract[372]	giv[41]|new[372]	_	_
-4-21	416-418	of	abstract[41]|abstract[372]	giv[41]|new[372]	_	_
-4-22	419-430	alternative	abstract[41]|abstract[372]	giv[41]|new[372]	_	_
-4-23	431-439	medicine	abstract[41]|abstract[372]	giv[41]|new[372]	_	_
-4-24	440-444	that	abstract[41]|abstract[372]	giv[41]|new[372]	_	_
-4-25	445-448	has	abstract[41]|abstract[372]	giv[41]|new[372]	_	_
-4-26	449-453	been	abstract[41]|abstract[372]	giv[41]|new[372]	_	_
-4-27	454-463	described	abstract[41]|abstract[372]	giv[41]|new[372]	_	_
-4-28	464-466	as	abstract[41]|abstract[372]	giv[41]|new[372]	_	_
-4-29	467-480	pseudoscience	abstract[41]|abstract[372]	giv[41]|new[372]	_	_
+4-17	396-406	homeopathy	_	_	_	_
+4-18	407-408	,	_	_	_	_
+4-19	409-410	a	_	_	_	_
+4-20	411-415	form	_	_	_	_
+4-21	416-418	of	_	_	_	_
+4-22	419-430	alternative	_	_	_	_
+4-23	431-439	medicine	_	_	_	_
+4-24	440-444	that	_	_	_	_
+4-25	445-448	has	_	_	_	_
+4-26	449-453	been	_	_	_	_
+4-27	454-463	described	_	_	_	_
+4-28	464-466	as	_	_	_	_
+4-29	467-480	pseudoscience	_	_	_	_
 4-30	481-482	.	_	_	_	_
 
 #Text=Articles in peer-reviewed academic journals including Social Science & Medicine have characterized homeopathy as a form of quackery .
@@ -106,7 +106,7 @@
 5-10	554-562	Medicine	_	_	_	_
 5-11	563-567	have	_	_	_	_
 5-12	568-581	characterized	_	_	_	_
-5-13	582-592	homeopathy	abstract[47]	giv[47]	_	_
+5-13	582-592	homeopathy	_	_	_	_
 5-14	593-595	as	_	_	_	_
 5-15	596-597	a	_	_	_	_
 5-16	598-602	form	_	_	_	_
@@ -155,12 +155,12 @@
 8-24	790-791	.	_	_	_	_
 
 #Text=Thomas Sam , a practising homeopath , instead decided to treat his daughter himself .
-9-1	792-798	Thomas	person[65]|person[367]	giv[65]|giv[367]	appos|ana	9-4[66_65]|9-12[68_367]
-9-2	799-802	Sam	person[65]|person[367]	giv[65]|giv[367]	_	_
-9-3	803-804	,	person[65]|person[367]	giv[65]|giv[367]	_	_
-9-4	805-806	a	person[66]|person[367]	giv[66]|giv[367]	_	_
-9-5	807-817	practising	person[66]|person[367]	giv[66]|giv[367]	_	_
-9-6	818-827	homeopath	person[66]|person[367]	giv[66]|giv[367]	_	_
+9-1	792-798	Thomas	person[306]	giv[306]	ana	9-12[68_306]
+9-2	799-802	Sam	person[306]	giv[306]	_	_
+9-3	803-804	,	person[306]	giv[306]	_	_
+9-4	805-806	a	person[306]	giv[306]	_	_
+9-5	807-817	practising	person[306]	giv[306]	_	_
+9-6	818-827	homeopath	person[306]	giv[306]	_	_
 9-7	828-829	,	_	_	_	_
 9-8	830-837	instead	_	_	_	_
 9-9	838-845	decided	_	_	_	_
@@ -208,7 +208,7 @@
 10-34	1072-1073	,	_	_	_	_
 10-35	1074-1084	eventually	_	_	_	_
 10-36	1085-1086	,	_	_	_	_
-10-37	1087-1090	her	event[85]|person[86]	giv[85]|giv[86]	coref|ana	18-11[219_85]|11-12[92_86]
+10-37	1087-1090	her	event[85]|person[86]	giv[85]|giv[86]	ana|coref	11-12[92_86]|18-11[219_85]
 10-38	1091-1096	death	event[85]	giv[85]	_	_
 10-39	1097-1098	.	_	_	_	_
 
@@ -224,7 +224,7 @@
 11-9	1133-1135	so	_	_	_	_
 11-10	1136-1142	severe	_	_	_	_
 11-11	1143-1147	that	_	_	_	_
-11-12	1148-1151	her	object[91]|person[92]	giv[91]|giv[92]	coref|ana	19-6[223_91]|11-17[95_92]
+11-12	1148-1151	her	object[91]|person[92]	giv[91]|giv[92]	ana|coref	11-17[95_92]|19-6[223_91]
 11-13	1152-1156	skin	object[91]	giv[91]	_	_
 11-14	1157-1162	broke	_	_	_	_
 11-15	1163-1168	every	_	_	_	_
@@ -242,14 +242,14 @@
 11-27	1224-1227	the	_	_	_	_
 11-28	1228-1233	words	_	_	_	_
 11-29	1234-1236	of	_	_	_	_
-11-30	1237-1240	the	person[103]|person[368]	new[103]|new[368]	appos|coref	11-34[369_103]|11-37[107_368]
-11-31	1241-1246	Crown	person[103]|organization[104]|person[368]	new[103]|new[104]|new[368]	coref	13-35[143_104]
-11-32	1247-1257	prosecutor	person[103]|person[368]	new[103]|new[368]	_	_
-11-33	1258-1259	,	person[103]|person[368]	new[103]|new[368]	_	_
-11-34	1260-1264	Mark	person[368]|person[369]	new[368]|giv[369]	coref	13-1[131_369]
-11-35	1265-1273	Tedeschi	person[368]|person[369]	new[368]|giv[369]	_	_
-11-36	1274-1275	,	person[369]	giv[369]	_	_
-11-37	1276-1278	QC	person[107]|person[369]	giv[107]|giv[369]	_	_
+11-30	1237-1240	the	person[103]|person[307]	new[103]|new[307]	coref|appos	11-37[107_307]|11-34[106_103]
+11-31	1241-1246	Crown	person[103]|organization[104]|person[307]	new[103]|new[104]|new[307]	coref	13-35[143_104]
+11-32	1247-1257	prosecutor	person[103]|person[307]	new[103]|new[307]	_	_
+11-33	1258-1259	,	person[307]	new[307]	_	_
+11-34	1260-1264	Mark	person[106]|person[307]	giv[106]|new[307]	_	_
+11-35	1265-1273	Tedeschi	person[106]|person[307]	giv[106]|new[307]	_	_
+11-36	1274-1275	,	_	_	_	_
+11-37	1276-1278	QC	person[107]	giv[107]	coref	13-1[131_107]
 11-38	1279-1280	,	_	_	_	_
 11-39	1281-1282	"	_	_	_	_
 11-40	1283-1289	Gloria	person[108]	giv[108]	ana	11-50[114_108]
@@ -553,7 +553,7 @@
 20-7	2780-2781	,	_	_	_	_
 20-8	2782-2785	Tom	person[234]	new[234]	appos	20-11[235_234]
 20-9	2786-2793	Molomby	person[234]	new[234]	_	_
-20-10	2794-2795	,	person[234]	new[234]	_	_
+20-10	2794-2795	,	_	_	_	_
 20-11	2796-2798	SC	person[235]	giv[235]	_	_
 20-12	2799-2800	,	_	_	_	_
 20-13	2801-2805	said	_	_	_	_

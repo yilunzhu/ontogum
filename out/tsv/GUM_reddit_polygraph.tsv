@@ -37,11 +37,11 @@
 3-9	155-158	how	_	_	_	_
 3-10	159-161	to	_	_	_	_
 3-11	162-166	beat	_	_	_	_
-3-12	167-176	polygraph	abstract[17]|abstract[507]	new[17]|new[507]	appos|coref	3-13[476_17]|4-3[25_507]
-3-13	177-178	(	abstract[476]|abstract[507]	giv[476]|new[507]	_	_
-3-14	179-183	poly	abstract[476]|abstract[507]	giv[476]|new[507]	_	_
-3-15	184-185	.	abstract[476]|abstract[507]	giv[476]|new[507]	_	_
-3-16	186-187	)	abstract[476]|abstract[507]	giv[476]|new[507]	_	_
+3-12	167-176	polygraph	abstract[476]	new[476]	coref	4-3[25_476]
+3-13	177-178	(	abstract[476]	new[476]	_	_
+3-14	179-183	poly	abstract[476]	new[476]	_	_
+3-15	184-185	.	_	_	_	_
+3-16	186-187	)	abstract[476]	new[476]	_	_
 
 #Text=When taking the test , it is common for the examiner to ask if you have researched how to pass the poly deceptively .
 4-1	188-192	When	_	_	_	_
@@ -231,14 +231,14 @@
 13-11	985-986	.	_	_	_	_
 
 #Text=All of these Deception Detection Devices ( DDD ) work on a basic principal .
-14-1	987-990	All	object[508]	new[508]	coref	19-1[117_508]
-14-2	991-993	of	object[508]	new[508]	_	_
-14-3	994-999	these	object[508]	new[508]	_	_
-14-4	1000-1009	Deception	object[508]	new[508]	_	_
-14-5	1010-1019	Detection	object[508]	new[508]	_	_
-14-6	1020-1027	Devices	object[508]	new[508]	_	_
-14-7	1028-1029	(	object[508]	new[508]	_	_
-14-8	1030-1033	DDD	object[508]	new[508]	_	_
+14-1	987-990	All	_	_	_	_
+14-2	991-993	of	_	_	_	_
+14-3	994-999	these	_	_	_	_
+14-4	1000-1009	Deception	_	_	_	_
+14-5	1010-1019	Detection	_	_	_	_
+14-6	1020-1027	Devices	_	_	_	_
+14-7	1028-1029	(	_	_	_	_
+14-8	1030-1033	DDD	object[94]	giv[94]	coref	19-1[117_94]
 14-9	1034-1035	)	_	_	_	_
 14-10	1036-1040	work	_	_	_	_
 14-11	1041-1043	on	_	_	_	_
@@ -262,7 +262,7 @@
 #Text=Basically , you are afraid of getting caught .
 16-1	1125-1134	Basically	_	_	_	_
 16-2	1135-1136	,	_	_	_	_
-16-3	1137-1140	you	abstract[103]|person[104]	new[103]|giv[104]	ana|ana	18-15[115_103]|18-4[112_104]
+16-3	1137-1140	you	abstract[103]|person[104]	new[103]|giv[104]	ana|ana	18-4[112_104]|18-15[115_103]
 16-4	1141-1144	are	abstract[103]	new[103]	_	_
 16-5	1145-1151	afraid	abstract[103]	new[103]	_	_
 16-6	1152-1154	of	abstract[103]	new[103]	_	_
@@ -562,11 +562,11 @@
 33-18	2423-2427	over	event[229]	new[229]	_	_
 33-19	2428-2433	every	event[229]|abstract[236]	new[229]|new[236]	coref	55-5[375_236]
 33-20	2434-2442	question	event[229]|abstract[236]	new[229]|new[236]	_	_
-33-21	2443-2447	that	event[229]|abstract[236]	new[229]|new[236]	_	_
-33-22	2448-2450	is	event[229]|abstract[236]	new[229]|new[236]	_	_
-33-23	2451-2453	on	event[229]|abstract[236]	new[229]|new[236]	_	_
-33-24	2454-2457	the	event[229]|abstract[237]|abstract[236]	new[229]|giv[237]|new[236]	coref	36-21[267_237]
-33-25	2458-2462	exam	event[229]|abstract[237]|abstract[236]	new[229]|giv[237]|new[236]	_	_
+33-21	2443-2447	that	event[229]	new[229]	_	_
+33-22	2448-2450	is	event[229]	new[229]	_	_
+33-23	2451-2453	on	event[229]	new[229]	_	_
+33-24	2454-2457	the	event[229]|abstract[237]	new[229]|giv[237]	coref	36-21[267_237]
+33-25	2458-2462	exam	event[229]|abstract[237]	new[229]|giv[237]	_	_
 33-26	2463-2464	.	_	_	_	_
 
 #Text=That way you can address any gray areas .
@@ -948,7 +948,7 @@
 53-19	4067-4068	.	_	_	_	_
 
 #Text=The poly tends to be the part of the process that everyone dreads … and that really should n't be the case .
-54-1	4069-4072	The	abstract[365]|abstract[366]	new[365]|giv[366]	ana|coref	54-16[369_365]|55-19[385_366]
+54-1	4069-4072	The	abstract[365]|abstract[366]	new[365]|giv[366]	coref|ana	55-19[385_366]|54-16[369_365]
 54-2	4073-4077	poly	abstract[365]|abstract[366]	new[365]|giv[366]	_	_
 54-3	4078-4083	tends	abstract[365]	new[365]	_	_
 54-4	4084-4086	to	abstract[365]	new[365]	_	_

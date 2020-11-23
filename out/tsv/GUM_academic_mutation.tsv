@@ -151,13 +151,13 @@
 9-13	805-816	introducing	_	_	_	_
 9-14	817-823	errors	_	_	_	_
 9-15	824-828	into	_	_	_	_
-9-16	829-830	a	abstract[62]|abstract[443]	new[62]|giv[443]	appos|coref	9-20[381_62]|10-7[67_443]
-9-17	831-837	System	abstract[62]|abstract[443]	new[62]|giv[443]	_	_
-9-18	838-843	Under	abstract[62]|abstract[443]	new[62]|giv[443]	_	_
-9-19	844-848	Test	abstract[62]|abstract[443]	new[62]|giv[443]	_	_
-9-20	849-850	(	abstract[381]|abstract[443]	giv[381]|giv[443]	_	_
-9-21	851-854	SUT	abstract[381]|abstract[443]	giv[381]|giv[443]	_	_
-9-22	855-856	)	abstract[381]|abstract[443]	giv[381]|giv[443]	_	_
+9-16	829-830	a	abstract[381]	giv[381]	coref	10-7[67_381]
+9-17	831-837	System	abstract[381]	giv[381]	_	_
+9-18	838-843	Under	abstract[381]	giv[381]	_	_
+9-19	844-848	Test	abstract[381]	giv[381]	_	_
+9-20	849-850	(	abstract[381]	giv[381]	_	_
+9-21	851-854	SUT	abstract[381]	giv[381]	_	_
+9-22	855-856	)	_	_	_	_
 9-23	857-858	.	_	_	_	_
 
 #Text=A mutant is a copy of the system in which a change has been done that , in most cases , will lead to a behaviour different than expected .
@@ -169,27 +169,27 @@
 10-6	878-880	of	_	_	_	_
 10-7	881-884	the	abstract[67]	giv[67]	_	_
 10-8	885-891	system	abstract[67]	giv[67]	_	_
-10-9	892-894	in	abstract[67]	giv[67]	_	_
-10-10	895-900	which	abstract[67]	giv[67]	_	_
-10-11	901-902	a	abstract[67]	giv[67]	_	_
-10-12	903-909	change	abstract[67]	giv[67]	_	_
-10-13	910-913	has	abstract[67]	giv[67]	_	_
-10-14	914-918	been	abstract[67]	giv[67]	_	_
-10-15	919-923	done	abstract[67]	giv[67]	_	_
-10-16	924-928	that	abstract[67]	giv[67]	_	_
-10-17	929-930	,	abstract[67]	giv[67]	_	_
-10-18	931-933	in	abstract[67]	giv[67]	_	_
-10-19	934-938	most	abstract[67]	giv[67]	_	_
-10-20	939-944	cases	abstract[67]	giv[67]	_	_
-10-21	945-946	,	abstract[67]	giv[67]	_	_
-10-22	947-951	will	abstract[67]	giv[67]	_	_
-10-23	952-956	lead	abstract[67]	giv[67]	_	_
-10-24	957-959	to	abstract[67]	giv[67]	_	_
-10-25	960-961	a	abstract[67]	giv[67]	_	_
-10-26	962-971	behaviour	abstract[67]	giv[67]	_	_
-10-27	972-981	different	abstract[67]	giv[67]	_	_
-10-28	982-986	than	abstract[67]	giv[67]	_	_
-10-29	987-995	expected	abstract[67]	giv[67]	_	_
+10-9	892-894	in	_	_	_	_
+10-10	895-900	which	_	_	_	_
+10-11	901-902	a	_	_	_	_
+10-12	903-909	change	_	_	_	_
+10-13	910-913	has	_	_	_	_
+10-14	914-918	been	_	_	_	_
+10-15	919-923	done	_	_	_	_
+10-16	924-928	that	_	_	_	_
+10-17	929-930	,	_	_	_	_
+10-18	931-933	in	_	_	_	_
+10-19	934-938	most	_	_	_	_
+10-20	939-944	cases	_	_	_	_
+10-21	945-946	,	_	_	_	_
+10-22	947-951	will	_	_	_	_
+10-23	952-956	lead	_	_	_	_
+10-24	957-959	to	_	_	_	_
+10-25	960-961	a	_	_	_	_
+10-26	962-971	behaviour	_	_	_	_
+10-27	972-981	different	_	_	_	_
+10-28	982-986	than	_	_	_	_
+10-29	987-995	expected	_	_	_	_
 10-30	996-997	.	_	_	_	_
 
 #Text=The different mutants are generated automatically by the application of mutation operators .
@@ -456,9 +456,9 @@
 22-9	2408-2410	of	abstract[170]|abstract[171]	new[170]|giv[171]	_	_
 22-10	2411-2414	the	abstract[170]|abstract[171]|abstract[172]	new[170]|giv[171]|giv[172]	coref	23-26[184_172]
 22-11	2415-2418	SUT	abstract[170]|abstract[171]|abstract[172]	new[170]|giv[171]|giv[172]	_	_
-22-12	2419-2421	to	abstract[170]|abstract[171]|abstract[172]	new[170]|giv[171]|new[172]	_	_
-22-13	2422-2424	be	abstract[170]|abstract[171]|abstract[172]	new[170]|giv[171]|new[172]	_	_
-22-14	2425-2432	mutated	abstract[170]|abstract[171]|abstract[172]	new[170]|giv[171]|new[172]	_	_
+22-12	2419-2421	to	abstract[170]|abstract[171]	new[170]|giv[171]	_	_
+22-13	2422-2424	be	abstract[170]|abstract[171]	new[170]|giv[171]	_	_
+22-14	2425-2432	mutated	abstract[170]|abstract[171]	new[170]|giv[171]	_	_
 22-15	2433-2434	,	abstract[170]	new[170]	_	_
 22-16	2435-2443	together	abstract[170]	new[170]	_	_
 22-17	2444-2448	with	abstract[170]	new[170]	_	_
@@ -608,16 +608,16 @@
 28-20	3185-3186	.	_	_	_	_
 
 #Text=Listing 1 : A simplified definition of the ChangeCoordSys Operator .
-29-1	3187-3194	Listing	abstract[218]	giv[218]	appos	29-4[219_218]
-29-2	3195-3196	1	abstract[218]	giv[218]	_	_
-29-3	3197-3198	:	abstract[218]	giv[218]	_	_
-29-4	3199-3200	A	abstract[219]	giv[219]	_	_
-29-5	3201-3211	simplified	abstract[219]	giv[219]	_	_
-29-6	3212-3222	definition	abstract[219]	giv[219]	_	_
-29-7	3223-3225	of	abstract[219]	giv[219]	_	_
-29-8	3226-3229	the	abstract[219]|abstract[220]	giv[219]|giv[220]	coref	30-1[221_220]
-29-9	3230-3244	ChangeCoordSys	abstract[219]|abstract[220]	giv[219]|giv[220]	_	_
-29-10	3245-3253	Operator	abstract[219]|abstract[220]	giv[219]|giv[220]	_	_
+29-1	3187-3194	Listing	_	_	_	_
+29-2	3195-3196	1	_	_	_	_
+29-3	3197-3198	:	_	_	_	_
+29-4	3199-3200	A	_	_	_	_
+29-5	3201-3211	simplified	_	_	_	_
+29-6	3212-3222	definition	_	_	_	_
+29-7	3223-3225	of	_	_	_	_
+29-8	3226-3229	the	abstract[220]	giv[220]	coref	30-1[221_220]
+29-9	3230-3244	ChangeCoordSys	abstract[220]	giv[220]	_	_
+29-10	3245-3253	Operator	abstract[220]	giv[220]	_	_
 29-11	3254-3255	.	_	_	_	_
 
 #Text=This operator was applied to a mobile technology GIS application .
@@ -788,16 +788,16 @@
 38-35	4151-4152	.	_	_	_	_
 
 #Text=Listing 2 : A simplified definition of the BooleanPolygonConstraint Operator .
-39-1	4153-4160	Listing	abstract[282]	giv[282]	appos	39-4[283_282]
-39-2	4161-4162	2	abstract[282]	giv[282]	_	_
-39-3	4163-4164	:	abstract[282]	giv[282]	_	_
-39-4	4165-4166	A	abstract[283]	giv[283]	_	_
-39-5	4167-4177	simplified	abstract[283]	giv[283]	_	_
-39-6	4178-4188	definition	abstract[283]	giv[283]	_	_
-39-7	4189-4191	of	abstract[283]	giv[283]	_	_
-39-8	4192-4195	the	abstract[283]|abstract[284]	giv[283]|giv[284]	coref	40-3[285_284]
-39-9	4196-4220	BooleanPolygonConstraint	abstract[283]|abstract[284]	giv[283]|giv[284]	_	_
-39-10	4221-4229	Operator	abstract[283]|abstract[284]	giv[283]|giv[284]	_	_
+39-1	4153-4160	Listing	_	_	_	_
+39-2	4161-4162	2	_	_	_	_
+39-3	4163-4164	:	_	_	_	_
+39-4	4165-4166	A	_	_	_	_
+39-5	4167-4177	simplified	_	_	_	_
+39-6	4178-4188	definition	_	_	_	_
+39-7	4189-4191	of	_	_	_	_
+39-8	4192-4195	the	abstract[284]	giv[284]	coref	40-3[285_284]
+39-9	4196-4220	BooleanPolygonConstraint	abstract[284]	giv[284]	_	_
+39-10	4221-4229	Operator	abstract[284]	giv[284]	_	_
 39-11	4230-4231	.	_	_	_	_
 
 #Text=To test this operator it was applied to a land reparcelling system .

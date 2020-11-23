@@ -20,8 +20,8 @@
 18	tumbling	_
 19	sea	_
 20	of	_
-21	debris	_
-22	;	2)
+21	debris	2)
+22	;	_
 23	the	(2
 24	twisted	_
 25	and	_
@@ -272,11 +272,11 @@
 270	the	(14
 271	Enemy	_
 272	starfighters	14)
-273	themselves	(14
+273	themselves	(14)
 274	:	_
 275	hundreds	_
 276	at	_
-277	least	14)
+277	least	_
 278	,	_
 279	swarming	_
 280	about	_
@@ -484,8 +484,8 @@
 482	and	_
 483	for	_
 484	the	(4
-485	Imperium	4)
-486	;	23)
+485	Imperium	4)23)
+486	;	_
 487	the	(23
 488	battle	_
 489	for	_

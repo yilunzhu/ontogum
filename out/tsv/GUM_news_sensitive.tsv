@@ -13,12 +13,12 @@
 1-7	43-50	streets	_	_	_	_
 
 #Text=Friday , August 15 , 2008
-2-1	51-57	Friday	time[254]|time[318]	acc[254]|acc[318]	appos|coref	2-3[6_254]|3-21[19_318]
-2-2	58-59	,	time[254]|time[318]	acc[254]|acc[318]	_	_
-2-3	60-66	August	time[6]|time[318]	giv[6]|acc[318]	_	_
-2-4	67-69	15	time[6]|time[318]	giv[6]|acc[318]	_	_
-2-5	70-71	,	time[6]|time[318]	giv[6]|acc[318]	_	_
-2-6	72-76	2008	time[6]|time[318]	giv[6]|acc[318]	_	_
+2-1	51-57	Friday	_	_	_	_
+2-2	58-59	,	_	_	_	_
+2-3	60-66	August	_	_	_	_
+2-4	67-69	15	_	_	_	_
+2-5	70-71	,	_	_	_	_
+2-6	72-76	2008	_	_	_	_
 
 #Text=A sensitive Environment Canada document was found wet on an Ottawa street by someone who gave it to the CBC today .
 3-1	77-78	A	object[10]	giv[10]	ana	3-17[16_10]
@@ -41,7 +41,7 @@
 3-18	174-176	to	_	_	_	_
 3-19	177-180	the	organization[18]	acc[18]	coref	13-7[100_18]
 3-20	181-184	CBC	organization[18]	acc[18]	_	_
-3-21	185-190	today	time[19]	giv[19]	_	_
+3-21	185-190	today	_	_	_	_
 3-22	191-192	.	_	_	_	_
 
 #Text=The 131-page document was found on Castlefrank Road in Kanata , Ontario in a rain-stained , tire-marked brown envelope by a passerby .
@@ -177,12 +177,12 @@
 8-22	945-951	System	abstract[55]	giv[55]	_	_
 8-23	952-953	,	_	_	_	_
 8-24	954-960	adding	_	_	_	_
-8-25	961-964	the	abstract[56]	new[56]	appos	8-27[285_56]
-8-26	965-970	words	abstract[56]	new[56]	_	_
-8-27	971-972	"	abstract[285]	giv[285]	_	_
-8-28	973-976	and	abstract[285]	giv[285]	_	_
-8-29	977-986	Emergency	abstract[285]	giv[285]	_	_
-8-30	987-988	"	abstract[285]	giv[285]	_	_
+8-25	961-964	the	_	_	_	_
+8-26	965-970	words	_	_	_	_
+8-27	971-972	"	_	_	_	_
+8-28	973-976	and	_	_	_	_
+8-29	977-986	Emergency	_	_	_	_
+8-30	987-988	"	_	_	_	_
 8-31	989-991	to	_	_	_	_
 8-32	992-995	the	_	_	_	_
 8-33	996-1000	name	_	_	_	_
@@ -263,20 +263,20 @@
 11-7	1419-1429	government	_	_	_	_
 11-8	1430-1439	officials	_	_	_	_
 11-9	1440-1443	how	_	_	_	_
-11-10	1444-1448	such	event[77]|object[78]	giv[77]|giv[78]	coref|ana	13-14[102_77]|12-9[87_78]
+11-10	1444-1448	such	event[77]|object[78]	giv[77]|giv[78]	ana|coref	12-9[87_78]|13-14[102_77]
 11-11	1449-1458	documents	event[77]|object[78]	giv[77]|giv[78]	_	_
-11-12	1459-1463	that	event[77]|object[78]	giv[77]|giv[78]	_	_
-11-13	1464-1467	are	event[77]|object[78]	giv[77]|giv[78]	_	_
-11-14	1468-1476	supposed	event[77]|object[78]	giv[77]|giv[78]	_	_
-11-15	1477-1479	to	event[77]|object[78]	giv[77]|giv[78]	_	_
-11-16	1480-1482	be	event[77]|object[78]	giv[77]|giv[78]	_	_
-11-17	1483-1489	stored	event[77]|object[78]	giv[77]|giv[78]	_	_
-11-18	1490-1492	in	event[77]|object[78]	giv[77]|giv[78]	_	_
-11-19	1493-1494	"	event[77]|object[78]	giv[77]|giv[78]	_	_
-11-20	1495-1503	approved	event[77]|object[78]	giv[77]|giv[78]	_	_
-11-21	1504-1512	security	event[77]|object[78]	giv[77]|giv[78]	_	_
-11-22	1513-1521	cabinets	event[77]|object[78]	giv[77]|giv[78]	_	_
-11-23	1522-1523	"	event[77]|object[78]	giv[77]|giv[78]	_	_
+11-12	1459-1463	that	event[77]	giv[77]	_	_
+11-13	1464-1467	are	event[77]	giv[77]	_	_
+11-14	1468-1476	supposed	event[77]	giv[77]	_	_
+11-15	1477-1479	to	event[77]	giv[77]	_	_
+11-16	1480-1482	be	event[77]	giv[77]	_	_
+11-17	1483-1489	stored	event[77]	giv[77]	_	_
+11-18	1490-1492	in	event[77]	giv[77]	_	_
+11-19	1493-1494	"	event[77]	giv[77]	_	_
+11-20	1495-1503	approved	event[77]	giv[77]	_	_
+11-21	1504-1512	security	event[77]	giv[77]	_	_
+11-22	1513-1521	cabinets	event[77]	giv[77]	_	_
+11-23	1522-1523	"	event[77]	giv[77]	_	_
 11-24	1524-1529	wound	event[77]	giv[77]	_	_
 11-25	1530-1532	up	event[77]	giv[77]	_	_
 11-26	1533-1535	on	event[77]	giv[77]	_	_
@@ -327,13 +327,13 @@
 13-6	1755-1759	told	_	_	_	_
 13-7	1760-1763	CBC	organization[100]	giv[100]	coref	23-12[173_100]
 13-8	1764-1768	News	organization[100]	giv[100]	_	_
-13-9	1769-1772	the	organization[101]|organization[100]	giv[101]|giv[100]	ana	14-2[103_101]
-13-10	1773-1783	department	organization[101]|organization[100]	giv[101]|giv[100]	_	_
-13-11	1784-1788	will	organization[100]	giv[100]	_	_
-13-12	1789-1793	look	organization[100]	giv[100]	_	_
-13-13	1794-1798	into	organization[100]	giv[100]	_	_
-13-14	1799-1802	the	event[102]|organization[100]	giv[102]|giv[100]	_	_
-13-15	1803-1811	incident	event[102]|organization[100]	giv[102]|giv[100]	_	_
+13-9	1769-1772	the	organization[101]	giv[101]	ana	14-2[103_101]
+13-10	1773-1783	department	organization[101]	giv[101]	_	_
+13-11	1784-1788	will	_	_	_	_
+13-12	1789-1793	look	_	_	_	_
+13-13	1794-1798	into	_	_	_	_
+13-14	1799-1802	the	event[102]	giv[102]	_	_
+13-15	1803-1811	incident	event[102]	giv[102]	_	_
 13-16	1812-1813	.	_	_	_	_
 
 #Text=" We take document security seriously , " she said , but refused to give any more details about how the papers came to be on a road .
@@ -368,14 +368,14 @@
 14-29	1946-1947	.	_	_	_	_
 
 #Text=Paul Dewar , an Ottawa New Democrat MP , said the combined security lapses raise serious questions about the government 's ability to secure sensitive documents .
-15-1	1948-1952	Paul	person[112]|person[317]	new[112]|new[317]	appos|coref	15-4[113_112]|16-1[121_317]
-15-2	1953-1958	Dewar	person[112]|person[317]	new[112]|new[317]	_	_
-15-3	1959-1960	,	person[112]|person[317]	new[112]|new[317]	_	_
-15-4	1961-1963	an	person[113]|person[317]	giv[113]|new[317]	_	_
-15-5	1964-1970	Ottawa	person[113]|place[114]|person[317]	giv[113]|giv[114]|new[317]	_	_
-15-6	1971-1974	New	person[113]|person[317]	giv[113]|new[317]	_	_
-15-7	1975-1983	Democrat	person[113]|person[317]	giv[113]|new[317]	_	_
-15-8	1984-1986	MP	person[113]|person[317]	giv[113]|new[317]	_	_
+15-1	1948-1952	Paul	person[256]	new[256]	coref	16-1[121_256]
+15-2	1953-1958	Dewar	person[256]	new[256]	_	_
+15-3	1959-1960	,	person[256]	new[256]	_	_
+15-4	1961-1963	an	person[256]	new[256]	_	_
+15-5	1964-1970	Ottawa	place[114]|person[256]	giv[114]|new[256]	_	_
+15-6	1971-1974	New	person[256]	new[256]	_	_
+15-7	1975-1983	Democrat	person[256]	new[256]	_	_
+15-8	1984-1986	MP	person[256]	new[256]	_	_
 15-9	1987-1988	,	_	_	_	_
 15-10	1989-1993	said	_	_	_	_
 15-11	1994-1997	the	_	_	_	_

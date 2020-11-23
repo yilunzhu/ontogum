@@ -772,7 +772,7 @@
 28-8	3480-3481	.	_	_	_	_
 
 #Text=My battery depends on how I feel overall but that usually means I can do 10 mins in the kitchen with my roommates before I 'm tapped , or I can spend a night with 5 people in a smallish room while crushing them in gaming for a few hours .
-29-1	3482-3484	My	abstract[267]|abstract[268]|person[269]	new[267]|new[268]|acc[269]	ana|coref|ana	29-10[271_267]|32-3[314_268]|29-6[270_269]
+29-1	3482-3484	My	abstract[267]|abstract[268]|person[269]	new[267]|new[268]|acc[269]	ana|ana|coref	29-10[271_267]|29-6[270_269]|32-3[314_268]
 29-2	3485-3492	battery	abstract[267]|abstract[268]	new[267]|new[268]	_	_
 29-3	3493-3500	depends	abstract[267]	new[267]	_	_
 29-4	3501-3503	on	abstract[267]	new[267]	_	_
@@ -793,7 +793,7 @@
 29-19	3566-3569	the	_	_	_	_
 29-20	3570-3577	kitchen	_	_	_	_
 29-21	3578-3582	with	_	_	_	_
-29-22	3583-3585	my	person[280]|person[281]	new[280]|giv[281]	coref|ana	31-16[308_280]|29-25[282_281]
+29-22	3583-3585	my	person[280]|person[281]	new[280]|giv[281]	ana|coref	29-25[282_281]|31-16[308_280]
 29-23	3586-3595	roommates	person[280]	new[280]	_	_
 29-24	3596-3602	before	_	_	_	_
 29-25	3603-3604	I	person[282]	giv[282]	ana	29-30[283_282]
@@ -867,9 +867,9 @@
 31-18	3901-3904	and	_	_	_	_
 31-19	3905-3909	some	person[309]	new[309]	coref	32-20[326_309]
 31-20	3910-3916	guests	person[309]	new[309]	_	_
-31-21	3917-3921	they	person[310]|person[309]	giv[310]|new[309]	_	_
-31-22	3922-3925	had	person[309]	new[309]	_	_
-31-23	3926-3930	over	person[309]	new[309]	_	_
+31-21	3917-3921	they	person[310]	giv[310]	_	_
+31-22	3922-3925	had	_	_	_	_
+31-23	3926-3930	over	_	_	_	_
 31-24	3931-3932	,	_	_	_	_
 
 #Text=I knew my battery was close to being dead but I forced myself past my limit because one of the guests is attractive and I wanted a chance to flirt .
@@ -883,7 +883,7 @@
 32-8	3964-3969	being	_	_	_	_
 32-9	3970-3974	dead	_	_	_	_
 32-10	3975-3978	but	_	_	_	_
-32-11	3979-3980	I	event[317]|person[318]	new[317]|giv[318]	ana|ana	33-2[330_317]|32-13[319_318]
+32-11	3979-3980	I	event[317]|person[318]	new[317]|giv[318]	ana|ana	32-13[319_318]|33-2[330_317]
 32-12	3981-3987	forced	event[317]	new[317]	_	_
 32-13	3988-3994	myself	event[317]|person[319]	new[317]|giv[319]	ana	32-15[323_319]
 32-14	3995-3999	past	event[317]	new[317]	_	_

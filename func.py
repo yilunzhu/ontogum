@@ -285,16 +285,23 @@ class Convert(object):
         for k1, v in loop_doc.items():
             k1_sent_id = v.text_id.split('-')[0]
             for k2, next_v in loop_doc.items():
-                if k1 == '100' and k2 == '0_31-10':
+                if k1 == '211' and k2 == '212':
                     a = 1
                 k2_sent_id = next_v.text_id.split('-')[0]
-                if k1_sent_id == k2_sent_id and v.next == k2 and (v.coref_type == 'appos' or next_v.dep_appos):
+                if k1_sent_id == k2_sent_id and v.next == k2 and v.coref_type == 'appos':
                     k1_tok_start_id = int(v.text_id.split('-')[-1])
 
-                    # fill the gap
+                    prev_start = int(v.text_id.split('-')[-1])
                     prev_last = int(v.text_id.split('-')[-1]) + v.span_len - 1
                     next_start = int(next_v.text_id.split('-')[-1])
-                    gap = [f'{k1_sent_id}-{i}' for i in range(prev_last+1, next_start)]
+                    next_last = int(next_v.text_id.split('-')[-1]) + next_v.span_len - 1
+
+                    # search the antecedent of k1
+                    ante = ''
+                    for ante_k, ante_v in self.doc.items():
+                        if ante_v.next and ante_v.next in self.doc.keys() and ante_v.next == k1:
+                            ante = ante_k
+                            break
 
                     # create a new e as the new big span for the apposition
                     new_k1 = str(self.last_e+1)
@@ -312,22 +319,78 @@ class Convert(object):
                     self.last_e += 1
 
                     self.doc[k1].dep_appos = True
-                    self.doc[k1].appos_point_to = new_k1
+                    # self.doc[k1].appos_point_to = new_k1
+
+                    # add k1 span to new_k1
+                    k1_span = [f'{k1_sent_id}-{i}' for i in range(prev_start, prev_last+1)]
+                    for i in k1_span:
+                        if i not in self.new_id2entity.keys():
+                            self.new_id2entity[i] = []
+                        self.new_id2entity[i].append(new_k1)
+
+                    # fill the gap
+                    gap = [f'{k1_sent_id}-{i}' for i in range(prev_last+1, next_start)]
+                    next_span_len = 0 if prev_last > next_last else next_v.span_len
+                    self.doc[new_k1].span_len += next_span_len + len(gap)
+                    for i in gap:
+                        if i not in self.new_id2entity.keys():
+                            self.new_id2entity[i] = []
+                        self.new_id2entity[i].append(new_k1)
+
+                    a = 1
+                    # check the token right after the appositive, if it is in '|)|", etc., expand the larger span
+                    if next_last < len(self.doc[k1].sent) - 1:
+                        next_tok = self.doc[k1].sent[next_last+1][1]
+                        next_tok_id = self.doc[k1].sent[next_last+1][0]
+                        # print(next_tok)
+                        if next_tok in ["'", '"', ')', ']']:
+                            self.doc[new_k1].span_len += 1
+                            self.doc[new_k1].tok += ' ' + next_tok
+                            id = f'{k1_sent_id}-{next_tok_id}'
+                            if id not in self.new_id2entity.keys():
+                                self.new_id2entity[id] = []
+                            self.new_id2entity[id].append(new_k1)
+
+                    # check the token between the two markables of the appositive construction, if it is in '|-|",
+                    # move it to the second markable
+                    prev_tok = self.doc[k1].sent[next_start-1][1]
+                    prev_tok_id = int(self.doc[k1].sent[next_start-1][0])
+                    id = f'{k1_sent_id}-{prev_tok_id}'
+                    if prev_tok in ['"', "'", '-'] and prev_tok_id <= prev_last:
+                        print(prev_tok)
+                        self.doc[k1].span_len -= 1
+
+                        self.doc[k2].span_len += 1
+                        self.doc[k2].tok = prev_tok + ' ' + self.doc[k2].tok
+                        if id not in self.new_id2entity.keys():
+                            self.new_id2entity[id] = []
+                        self.new_id2entity[id].append(k2)
+
+                    # add k2 span to new_k1
+                    k2_span = [f'{k1_sent_id}-{i}' for i in range(next_start, next_start+self.doc[k2].span_len)]
+                    for i in k2_span:
+                        if i not in self.new_id2entity.keys():
+                            self.new_id2entity[i] = []
+                        self.new_id2entity[i].append(new_k1)
 
                     # if prev_last is expanded in the previous function and it's bigger than next_start,
                     # make a new id for the larger span, narrow the span of k1, expand the span of k2
-                    if prev_last > next_start and self.doc[k1].acl_children:
-                        for i in range(next_start, prev_last):
-                            temp_id = f'{k1_sent_id}-{i}'
-                            if temp_id in self.new_id2entity.keys() and k1 in self.new_id2entity[temp_id] and k2 not in self.new_id2entity[temp_id]:
-                                self.new_id2entity[temp_id] = [k2 if x == k1 else x for x in self.new_id2entity[temp_id]]
-                                self.doc[k2].span_len += 1
-                        self.doc[k1].span_len = next_start - k1_tok_start_id + 1
-                    else:
-                        self.doc[new_k1].span_len += next_v.span_len + len(gap)
+                    # if prev_last > next_start and self.doc[k1].acl_children:
+                    #     for i in range(next_start, prev_last):
+                    #         temp_id = f'{k1_sent_id}-{i}'
+                    #         if temp_id in self.new_id2entity.keys() and k1 in self.new_id2entity[temp_id] and k2 not in self.new_id2entity[temp_id]:
+                    #             self.new_id2entity[temp_id] = [k2 if x == k1 else x for x in self.new_id2entity[temp_id]]
+                    #             self.doc[k2].span_len += 1
+                    #     self.doc[k1].span_len = next_start - k1_tok_start_id + 1
+                    # else:
+                    #     self.doc[new_k1].span_len += next_v.span_len + len(gap)
 
+                    if ante:
+                        self.doc[ante].next = new_k1
+
+                    # add appos ids to new_k1 if the original k2 has only one token
                     ids = self.doc[new_k1].appos
-                    if k2.startswith('0_') and len(ids) > 1:  # add appos ids to new_k1 if the original k2 has only one token
+                    if k2.startswith('0_') and len(ids) > 1:
                         # if len(ids) > 1:
                         new_k2 = str(self.last_e + 1)
                         self.doc[new_k2] = deepcopy(self.doc[k2])
@@ -343,40 +406,26 @@ class Convert(object):
                         # update new_id2entity
                         ori_e = k2.split('_')[-1]
                         for id in ids:
-                            if id in self.new_id2entity.keys():
-                                self.new_id2entity[id] = [new_k2 if i == ori_e else i for i in self.new_id2entity[id]]
-                            else:
-                                self.new_id2entity[id] = [new_k2]
+                            # if id in self.new_id2entity.keys():
+                            #     self.new_id2entity[id] = [new_k2 if i == ori_e else i for i in self.new_id2entity[id]]
+                            # else:
+                            if id not in self.new_id2entity.keys():
+                                self.new_id2entity[id] = []
+                            self.new_id2entity[id].append(new_k2)
 
                         # update last_e
                         self.last_e += 1
                     else:
                         new_k2 = k2
+
                     self.doc[new_k2].coref = ''
                     self.doc[new_k2].next = ''
                     self.doc[new_k2].coref_type = ''
-                    self.doc[new_k2].appos_father = new_k1
-
-                    # if the expansion overwrites its next coref, remove the next coref, point it to next next coref if next next coref exists
-                    # if self.doc[new_k1].next and self.doc[new_k1].coref in ids:
-                    #     next_k = self.doc[new_k1].next
-                    #     if self.doc[next_k].next:
-                    #         self.doc[new_k1].next = self.doc[next_k].next
-                    #         self.doc[new_k1].coref = self.doc[next_k].coref
-                    #         self.doc[new_k1].coref_type = self.doc[next_k].coref_type
-                    #     else:
-                    #         self.doc[new_k1].next = ''
-                    #         self.doc[new_k1].coref = ''
-                    #         self.doc[new_k1].coref_type = ''
-                    #
-                    #     self.doc[next_k] = Coref()
-                    #     self.doc[next_k].delete = True
-
         # if the next entity is an appos, redirect the coref chain
-        for k1, v in self.doc.items():
-            for k2, next_v in self.doc.items():
-                if v.next == k2 and next_v.appos_point_to:
-                    self.doc[k1].next = next_v.appos_point_to
+        # for k1, v in self.doc.items():
+        #     for k2, next_v in self.doc.items():
+        #         if v.next == k2 and next_v.appos_point_to:
+        #             self.doc[k1].next = next_v.appos_point_to
 
     def _remove_nested_coref(self):
         for k, _coref in self.doc.items():

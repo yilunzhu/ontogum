@@ -231,7 +231,7 @@
 10-18	1129-1134	began	_	_	_	_
 10-19	1135-1139	work	_	_	_	_
 10-20	1140-1142	on	_	_	_	_
-10-21	1143-1146	his	abstract[125]|person[126]	new[125]|giv[126]	coref|ana	11-4[133_125]|11-1[130_126]
+10-21	1143-1146	his	abstract[125]|person[126]	new[125]|giv[126]	ana|coref	11-1[130_126]|11-4[133_125]
 10-22	1147-1155	doctoral	abstract[125]	new[125]	_	_
 10-23	1156-1168	dissertation	abstract[125]	new[125]	_	_
 10-24	1169-1171	on	abstract[125]	new[125]	_	_
@@ -332,7 +332,7 @@
 15-11	1629-1631	in	_	_	_	_
 15-12	1632-1635	two	abstract[187]	new[187]	appos	15-15[188_187]
 15-13	1636-1642	papers	abstract[187]	new[187]	_	_
-15-14	1643-1644	:	abstract[187]	new[187]	_	_
+15-14	1643-1644	:	_	_	_	_
 15-15	1645-1653	Sprogets	abstract[188]	giv[188]	_	_
 15-16	1654-1659	logik	abstract[188]	giv[188]	_	_
 15-17	1660-1661	(	abstract[188]	giv[188]	_	_
@@ -407,11 +407,11 @@
 16-54	1997-1999	is	_	_	_	_
 16-55	2000-2007	defined	_	_	_	_
 16-56	2008-2010	by	_	_	_	_
-16-57	2011-2012	a	abstract[222]	giv[222]	appos	16-59[561_222]
-16-58	2013-2021	tertiary	abstract[222]	giv[222]	_	_
-16-59	2022-2023	"	abstract[561]	giv[561]	_	_
-16-60	2024-2028	well	abstract[561]	giv[561]	_	_
-16-61	2029-2030	"	abstract[561]	giv[561]	_	_
+16-57	2011-2012	a	_	_	_	_
+16-58	2013-2021	tertiary	_	_	_	_
+16-59	2022-2023	"	_	_	_	_
+16-60	2024-2028	well	_	_	_	_
+16-61	2029-2030	"	_	_	_	_
 16-62	2031-2032	.	_	_	_	_
 
 #Text=The term Nexus is applied to sentences , structures similar to sentences and sentences in formation , in which two concepts are expressed in one unit ; e.g. , it rained , he ran indoors .

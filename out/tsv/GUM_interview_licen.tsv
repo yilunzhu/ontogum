@@ -16,12 +16,12 @@
 1-10	68-79	Paralympics	_	_	_	_
 
 #Text=Saturday , November 16 , 2013
-2-1	80-88	Saturday	time[298]	acc[298]	appos	2-3[10_298]
-2-2	89-90	,	time[298]	acc[298]	_	_
-2-3	91-99	November	time[10]	giv[10]	_	_
-2-4	100-102	16	time[10]	giv[10]	_	_
-2-5	103-104	,	time[10]	giv[10]	_	_
-2-6	105-109	2013	time[10]	giv[10]	_	_
+2-1	80-88	Saturday	_	_	_	_
+2-2	89-90	,	_	_	_	_
+2-3	91-99	November	_	_	_	_
+2-4	100-102	16	_	_	_	_
+2-5	103-104	,	_	_	_	_
+2-6	105-109	2013	_	_	_	_
 
 #Text=A Russian stamp for Paralympic Games in Sochi in 2014
 3-1	110-111	A	_	_	_	_
@@ -71,7 +71,7 @@
 4-33	360-370	Counseling	person[33]	giv[33]	_	_
 4-34	371-381	Psychology	person[33]	giv[33]	_	_
 4-35	382-384	at	person[33]	giv[33]	_	_
-4-36	385-395	Washington	person[33]|organization[37]|place[38]	giv[33]|new[37]|new[38]	coref|coref	5-10[45_37]|5-10[46_38]
+4-36	385-395	Washington	person[33]|organization[37]|place[38]	giv[33]|new[37]|new[38]	coref|coref	5-10[46_38]|5-10[45_37]
 4-37	396-401	State	person[33]|organization[37]|place[38]	giv[33]|new[37]|new[38]	_	_
 4-38	402-412	University	person[33]|organization[37]	giv[33]|new[37]	_	_
 4-39	413-418	Simon	person[33]	giv[33]	_	_
@@ -409,16 +409,16 @@
 16-15	2290-2294	with	_	_	_	_
 16-16	2295-2298	the	event[164]	giv[164]	coref	18-22[177_164]
 16-17	2299-2304	Games	event[164]	giv[164]	_	_
-16-18	2305-2310	being	event[164]	giv[164]	_	_
-16-19	2311-2320	televised	event[164]	giv[164]	_	_
-16-20	2321-2325	live	event[164]	giv[164]	_	_
-16-21	2326-2328	in	event[164]	giv[164]	_	_
-16-22	2329-2332	the	place[166]|event[164]	giv[166]|giv[164]	coref	18-15[176_166]
-16-23	2333-2339	United	place[166]|event[164]	giv[166]|giv[164]	_	_
-16-24	2340-2346	States	place[166]|event[164]	giv[166]|giv[164]	_	_
-16-25	2347-2350	for	event[164]	giv[164]	_	_
-16-26	2351-2356	first	event[164]	giv[164]	_	_
-16-27	2357-2361	time	event[164]	giv[164]	_	_
+16-18	2305-2310	being	_	_	_	_
+16-19	2311-2320	televised	_	_	_	_
+16-20	2321-2325	live	_	_	_	_
+16-21	2326-2328	in	_	_	_	_
+16-22	2329-2332	the	place[166]	giv[166]	coref	18-15[176_166]
+16-23	2333-2339	United	place[166]	giv[166]	_	_
+16-24	2340-2346	States	place[166]	giv[166]	_	_
+16-25	2347-2350	for	_	_	_	_
+16-26	2351-2356	first	_	_	_	_
+16-27	2357-2361	time	_	_	_	_
 16-28	2362-2363	?	_	_	_	_
 
 #Text=The impact depends on a number of aspects .
@@ -609,15 +609,15 @@
 24-18	3239-3243	best	person[222]	new[222]	_	_
 24-19	3244-3250	sports	person[222]	new[222]	_	_
 24-20	3251-3263	broadcasters	person[222]	new[222]	_	_
-24-21	3264-3273	following	person[222]	new[222]	_	_
+24-21	3264-3273	following	_	_	_	_
 24-22	3274-3277	the	event[227]	giv[227]	ana	26-4[238_227]
 24-23	3278-3283	event	event[227]	giv[227]	_	_
-24-24	3284-3289	after	event[227]	giv[227]	_	_
-24-25	3290-3296	having	event[227]	giv[227]	_	_
-24-26	3297-3303	worked	event[227]	giv[227]	_	_
-24-27	3304-3307	the	event[227]	giv[227]	_	_
-24-28	3308-3314	Winter	event[227]	giv[227]	_	_
-24-29	3315-3323	Olympics	event[227]	giv[227]	_	_
+24-24	3284-3289	after	_	_	_	_
+24-25	3290-3296	having	_	_	_	_
+24-26	3297-3303	worked	_	_	_	_
+24-27	3304-3307	the	_	_	_	_
+24-28	3308-3314	Winter	_	_	_	_
+24-29	3315-3323	Olympics	_	_	_	_
 24-30	3324-3325	?	_	_	_	_
 
 #Text=Will they treat and announce the competitions as they do all others — for better and worse ?

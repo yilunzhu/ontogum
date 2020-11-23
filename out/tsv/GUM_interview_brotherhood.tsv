@@ -6,7 +6,7 @@
 #Text=Wikinews interviews President of the International Brotherhood of Magicians
 1-1	0-8	Wikinews	organization[1]	new[1]	coref	4-1[18_1]
 1-2	9-19	interviews	_	_	_	_
-1-3	20-29	President	person[3]	new[3]	coref	4-4[363_3]
+1-3	20-29	President	person[3]	new[3]	coref	4-4[302_3]
 1-4	30-32	of	person[3]	new[3]	_	_
 1-5	33-36	the	person[3]|organization[4]	new[3]|new[4]	coref	4-9[22_4]
 1-6	37-50	International	person[3]|organization[4]	new[3]|new[4]	_	_
@@ -15,12 +15,12 @@
 1-9	66-75	Magicians	person[3]|organization[4]|person[5]	new[3]|new[4]|new[5]	coref	4-13[23_5]
 
 #Text=Wednesday , October 9 , 2013
-2-1	76-85	Wednesday	time[301]	acc[301]	appos	2-3[9_301]
-2-2	86-87	,	time[301]	acc[301]	_	_
-2-3	88-95	October	time[9]	giv[9]	_	_
-2-4	96-97	9	time[9]	giv[9]	_	_
-2-5	98-99	,	time[9]	giv[9]	_	_
-2-6	100-104	2013	time[9]	giv[9]	_	_
+2-1	76-85	Wednesday	_	_	_	_
+2-2	86-87	,	_	_	_	_
+2-3	88-95	October	_	_	_	_
+2-4	96-97	9	_	_	_	_
+2-5	98-99	,	_	_	_	_
+2-6	100-104	2013	_	_	_	_
 
 #Text=October is National Magic Month in the United States .
 3-1	105-112	October	time[11]	acc[11]	coref	12-1[104_11]
@@ -38,16 +38,16 @@
 4-1	160-168	Wikinews	organization[18]	giv[18]	_	_
 4-2	169-174	spoke	_	_	_	_
 4-3	175-179	with	_	_	_	_
-4-4	180-187	William	person[20]|person[363]	giv[20]|giv[363]	appos|ana	4-7[21_20]|5-5[33_363]
-4-5	188-193	Evans	person[20]|person[363]	giv[20]|giv[363]	_	_
-4-6	194-195	,	person[20]|person[363]	giv[20]|giv[363]	_	_
-4-7	196-205	president	person[21]|person[363]	giv[21]|giv[363]	_	_
-4-8	206-208	of	person[21]|person[363]	giv[21]|giv[363]	_	_
-4-9	209-212	the	person[21]|organization[22]|person[363]	giv[21]|giv[22]|giv[363]	_	_
-4-10	213-226	International	person[21]|organization[22]|person[363]	giv[21]|giv[22]|giv[363]	_	_
-4-11	227-238	Brotherhood	person[21]|organization[22]|person[363]	giv[21]|giv[22]|giv[363]	_	_
-4-12	239-241	of	person[21]|organization[22]|person[363]	giv[21]|giv[22]|giv[363]	_	_
-4-13	242-251	Magicians	person[21]|organization[22]|person[23]|person[363]	giv[21]|giv[22]|giv[23]|giv[363]	ana	20-1[150_23]
+4-4	180-187	William	person[302]	giv[302]	ana	5-5[33_302]
+4-5	188-193	Evans	person[302]	giv[302]	_	_
+4-6	194-195	,	person[302]	giv[302]	_	_
+4-7	196-205	president	person[302]	giv[302]	_	_
+4-8	206-208	of	person[302]	giv[302]	_	_
+4-9	209-212	the	organization[22]|person[302]	giv[22]|giv[302]	_	_
+4-10	213-226	International	organization[22]|person[302]	giv[22]|giv[302]	_	_
+4-11	227-238	Brotherhood	organization[22]|person[302]	giv[22]|giv[302]	_	_
+4-12	239-241	of	organization[22]|person[302]	giv[22]|giv[302]	_	_
+4-13	242-251	Magicians	organization[22]|person[23]|person[302]	giv[22]|giv[23]|giv[302]	ana	20-1[150_23]
 4-14	252-253	,	_	_	_	_
 4-15	254-259	about	_	_	_	_
 4-16	260-263	the	_	_	_	_
@@ -171,27 +171,27 @@
 9-17	779-786	instead	_	_	_	_
 9-18	787-791	sold	event[71]	new[71]	ana	10-1[85_71]
 9-19	792-794	me	event[71]|person[72]	new[71]|giv[72]	ana	9-23[75_72]
-9-20	795-798	two	event[71]|object[74]	new[71]|new[74]	appos	9-27[332_74]
+9-20	795-798	two	event[71]|object[74]	new[71]|new[74]	appos	9-28[79_74]
 9-21	799-804	books	event[71]|object[74]	new[71]|new[74]	_	_
 9-22	805-810	which	event[71]|object[74]	new[71]|new[74]	_	_
 9-23	811-812	I	event[71]|object[74]|person[75]	new[71]|new[74]|giv[75]	ana	10-3[86_75]
 9-24	813-818	still	event[71]|object[74]	new[71]|new[74]	_	_
 9-25	819-822	own	event[71]|object[74]	new[71]|new[74]	_	_
 9-26	823-828	today	event[71]|object[74]	new[71]|new[74]	_	_
-9-27	829-830	-	event[71]|object[332]	new[71]|giv[332]	_	_
-9-28	831-832	"	event[71]|object[332]	new[71]|giv[332]	_	_
-9-29	833-839	Scarne	event[71]|person[81]|object[332]	new[71]|new[81]|giv[332]	coref	9-36[84_81]
-9-30	840-842	on	event[71]|object[332]	new[71]|giv[332]	_	_
-9-31	843-847	Card	event[71]|object[332]	new[71]|giv[332]	_	_
-9-32	848-854	Tricks	event[71]|object[332]	new[71]|giv[332]	_	_
-9-33	855-856	"	event[71]|object[332]	new[71]|giv[332]	_	_
-9-34	857-860	and	event[71]|object[332]	new[71]|giv[332]	_	_
-9-35	861-862	"	event[71]|object[332]	new[71]|giv[332]	_	_
-9-36	863-869	Scarne	event[71]|person[84]|object[332]	new[71]|giv[84]|giv[332]	_	_
-9-37	870-872	on	event[71]|object[332]	new[71]|giv[332]	_	_
-9-38	873-878	Magic	event[71]|object[332]	new[71]|giv[332]	_	_
-9-39	879-885	Tricks	event[71]|object[332]	new[71]|giv[332]	_	_
-9-40	886-887	"	event[71]|object[332]	new[71]|giv[332]	_	_
+9-27	829-830	-	event[71]	new[71]	_	_
+9-28	831-832	"	event[71]|object[79]	new[71]|giv[79]	_	_
+9-29	833-839	Scarne	event[71]|object[79]|person[81]	new[71]|giv[79]|new[81]	coref	9-36[84_81]
+9-30	840-842	on	event[71]|object[79]	new[71]|giv[79]	_	_
+9-31	843-847	Card	event[71]|object[79]	new[71]|giv[79]	_	_
+9-32	848-854	Tricks	event[71]|object[79]	new[71]|giv[79]	_	_
+9-33	855-856	"	event[71]|object[79]	new[71]|giv[79]	_	_
+9-34	857-860	and	event[71]|object[79]	new[71]|giv[79]	_	_
+9-35	861-862	"	event[71]|object[79]	new[71]|giv[79]	_	_
+9-36	863-869	Scarne	event[71]|object[79]|person[84]	new[71]|giv[79]|giv[84]	_	_
+9-37	870-872	on	event[71]|object[79]	new[71]|giv[79]	_	_
+9-38	873-878	Magic	event[71]|object[79]	new[71]|giv[79]	_	_
+9-39	879-885	Tricks	event[71]|object[79]	new[71]|giv[79]	_	_
+9-40	886-887	"	event[71]|object[79]	new[71]|giv[79]	_	_
 9-41	888-889	.	_	_	_	_
 
 #Text=That started me out on books and I have amassed quite a few since then .

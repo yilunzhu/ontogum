@@ -113,7 +113,7 @@
 4-35	614-617	the	object[47]	new[47]	_	_
 4-36	618-622	20th	object[47]	new[47]	_	_
 4-37	623-630	century	object[47]	new[47]	_	_
-4-38	631-632	:	object[47]	new[47]	_	_
+4-38	631-632	:	_	_	_	_
 4-39	633-636	the	object[49]	giv[49]	_	_
 4-40	637-647	carburetor	object[49]	giv[49]	_	_
 4-41	648-651	and	object[49]	giv[49]	_	_
@@ -210,39 +210,39 @@
 11-3	1097-1098	a	_	_	_	_
 11-4	1099-1102	son	_	_	_	_
 11-5	1103-1105	of	_	_	_	_
-11-6	1106-1112	Johann	person[79]|person[618]	new[79]|giv[618]	appos|coref	11-8[492_79]|14-11[103_618]
-11-7	1113-1122	Bernoulli	person[79]|person[618]	new[79]|giv[618]	_	_
-11-8	1123-1124	(	person[492]|person[618]	giv[492]|giv[618]	_	_
-11-9	1125-1128	one	person[492]|person[618]	giv[492]|giv[618]	_	_
-11-10	1129-1131	of	person[492]|person[618]	giv[492]|giv[618]	_	_
-11-11	1132-1135	the	person[492]|person[618]	giv[492]|giv[618]	_	_
-11-12	1136-1137	"	person[492]|person[618]	giv[492]|giv[618]	_	_
-11-13	1138-1143	early	person[492]|person[618]	giv[492]|giv[618]	_	_
-11-14	1144-1154	developers	person[492]|person[618]	giv[492]|giv[618]	_	_
-11-15	1155-1156	"	person[492]|person[618]	giv[492]|giv[618]	_	_
-11-16	1157-1159	of	person[492]|person[618]	giv[492]|giv[618]	_	_
-11-17	1160-1168	calculus	person[492]|person[618]	giv[492]|giv[618]	_	_
-11-18	1169-1170	)	person[492]|person[618]	giv[492]|giv[618]	_	_
-11-19	1171-1174	and	person[492]|person[618]	giv[492]|giv[618]	_	_
-11-20	1175-1176	a	person[83]|person[492]|person[618]	giv[83]|giv[492]|giv[618]	ana	12-1[88_83]
-11-21	1177-1183	nephew	person[83]|person[492]|person[618]	giv[83]|giv[492]|giv[618]	_	_
-11-22	1184-1186	of	person[83]|person[492]|person[618]	giv[83]|giv[492]|giv[618]	_	_
-11-23	1187-1192	Jacob	person[83]|person[492]|person[618]	giv[83]|giv[492]|giv[618]	_	_
-11-24	1193-1202	Bernoulli	person[83]|person[492]|person[618]	giv[83]|giv[492]|giv[618]	_	_
-11-25	1203-1204	(	person[83]|person[492]|person[618]	giv[83]|giv[492]|giv[618]	_	_
-11-26	1205-1208	who	person[83]|person[492]|person[618]	giv[83]|giv[492]|giv[618]	_	_
-11-27	1209-1210	"	person[83]|person[492]|person[618]	giv[83]|giv[492]|giv[618]	_	_
-11-28	1211-1214	was	person[83]|person[492]|person[618]	giv[83]|giv[492]|giv[618]	_	_
-11-29	1215-1218	the	person[83]|person[492]|person[618]	giv[83]|giv[492]|giv[618]	_	_
-11-30	1219-1224	first	person[83]|person[492]|person[618]	giv[83]|giv[492]|giv[618]	_	_
-11-31	1225-1227	to	person[83]|person[492]|person[618]	giv[83]|giv[492]|giv[618]	_	_
-11-32	1228-1236	discover	person[83]|person[492]|person[618]	giv[83]|giv[492]|giv[618]	_	_
-11-33	1237-1240	the	person[83]|person[492]|person[618]	giv[83]|giv[492]|giv[618]	_	_
-11-34	1241-1247	theory	person[83]|person[492]|person[618]	giv[83]|giv[492]|giv[618]	_	_
-11-35	1248-1250	of	person[83]|person[492]|person[618]	giv[83]|giv[492]|giv[618]	_	_
-11-36	1251-1262	probability	person[83]|person[492]|person[618]	giv[83]|giv[492]|giv[618]	_	_
-11-37	1263-1264	"	person[83]|person[492]|person[618]	giv[83]|giv[492]|giv[618]	_	_
-11-38	1265-1266	)	person[83]|person[492]|person[618]	giv[83]|giv[492]|giv[618]	_	_
+11-6	1106-1112	Johann	person[494]	giv[494]	coref	14-11[103_494]
+11-7	1113-1122	Bernoulli	person[494]	giv[494]	_	_
+11-8	1123-1124	(	person[494]	giv[494]	_	_
+11-9	1125-1128	one	person[494]	giv[494]	_	_
+11-10	1129-1131	of	person[494]	giv[494]	_	_
+11-11	1132-1135	the	person[494]	giv[494]	_	_
+11-12	1136-1137	"	person[494]	giv[494]	_	_
+11-13	1138-1143	early	person[494]	giv[494]	_	_
+11-14	1144-1154	developers	person[494]	giv[494]	_	_
+11-15	1155-1156	"	person[494]	giv[494]	_	_
+11-16	1157-1159	of	person[494]	giv[494]	_	_
+11-17	1160-1168	calculus	person[494]	giv[494]	_	_
+11-18	1169-1170	)	_	_	_	_
+11-19	1171-1174	and	_	_	_	_
+11-20	1175-1176	a	person[83]	giv[83]	ana	12-1[88_83]
+11-21	1177-1183	nephew	person[83]	giv[83]	_	_
+11-22	1184-1186	of	person[83]	giv[83]	_	_
+11-23	1187-1192	Jacob	person[83]	giv[83]	_	_
+11-24	1193-1202	Bernoulli	person[83]	giv[83]	_	_
+11-25	1203-1204	(	person[83]	giv[83]	_	_
+11-26	1205-1208	who	person[83]	giv[83]	_	_
+11-27	1209-1210	"	person[83]	giv[83]	_	_
+11-28	1211-1214	was	person[83]	giv[83]	_	_
+11-29	1215-1218	the	person[83]	giv[83]	_	_
+11-30	1219-1224	first	person[83]	giv[83]	_	_
+11-31	1225-1227	to	person[83]	giv[83]	_	_
+11-32	1228-1236	discover	person[83]	giv[83]	_	_
+11-33	1237-1240	the	person[83]	giv[83]	_	_
+11-34	1241-1247	theory	person[83]	giv[83]	_	_
+11-35	1248-1250	of	person[83]	giv[83]	_	_
+11-36	1251-1262	probability	person[83]	giv[83]	_	_
+11-37	1263-1264	"	person[83]	giv[83]	_	_
+11-38	1265-1266	)	person[83]	giv[83]	_	_
 11-39	1267-1268	.	_	_	_	_
 
 #Text=He had two brothers , Niklaus and Johann II .
@@ -250,7 +250,7 @@
 12-2	1272-1275	had	_	_	_	_
 12-3	1276-1279	two	person[91]	new[91]	appos	12-6[92_91]
 12-4	1280-1288	brothers	person[91]	new[91]	_	_
-12-5	1289-1290	,	person[91]	new[91]	_	_
+12-5	1289-1290	,	_	_	_	_
 12-6	1291-1298	Niklaus	person[92]	giv[92]	_	_
 12-7	1299-1302	and	person[92]	giv[92]	_	_
 12-8	1303-1309	Johann	person[92]	giv[92]	_	_
@@ -291,7 +291,7 @@
 14-8	1444-1447	bad	_	_	_	_
 14-9	1448-1460	relationship	_	_	_	_
 14-10	1461-1465	with	_	_	_	_
-14-11	1466-1469	his	person[103]|person[104]	giv[103]|giv[104]	coref|coref	15-21[111_103]|15-38[116_104]
+14-11	1466-1469	his	person[103]|person[104]	giv[103]|giv[104]	coref|coref	15-38[116_104]|15-21[111_103]
 14-12	1470-1476	father	person[103]	giv[103]	_	_
 14-13	1477-1478	.	_	_	_	_
 
@@ -348,10 +348,10 @@
 16-6	1729-1732	key	_	_	_	_
 16-7	1733-1738	ideas	_	_	_	_
 16-8	1739-1743	from	_	_	_	_
-16-9	1744-1750	Daniel	abstract[123]|abstract[620]	giv[123]|giv[620]	appos|coref	16-12[125_123]|16-23[131_620]
-16-10	1751-1753	's	abstract[123]|abstract[620]	giv[123]|giv[620]	_	_
-16-11	1754-1758	book	abstract[123]|abstract[620]	giv[123]|giv[620]	_	_
-16-12	1759-1772	Hydrodynamica	abstract[125]|abstract[620]	giv[125]|giv[620]	_	_
+16-9	1744-1750	Daniel	abstract[123]|abstract[496]	giv[123]|giv[496]	coref|appos	16-23[131_496]|16-12[125_123]
+16-10	1751-1753	's	abstract[123]|abstract[496]	giv[123]|giv[496]	_	_
+16-11	1754-1758	book	abstract[123]|abstract[496]	giv[123]|giv[496]	_	_
+16-12	1759-1772	Hydrodynamica	abstract[125]|abstract[496]	giv[125]|giv[496]	_	_
 16-13	1773-1775	in	_	_	_	_
 16-14	1776-1779	his	person[128]	giv[128]	ana	16-19[130_128]
 16-15	1780-1783	own	_	_	_	_
@@ -379,7 +379,7 @@
 17-11	1911-1914	the	_	_	_	_
 17-12	1915-1921	grudge	_	_	_	_
 17-13	1922-1927	until	_	_	_	_
-17-14	1928-1931	his	person[145]	giv[145]	coref	18-5[622_145]
+17-14	1928-1931	his	person[145]	giv[145]	coref	18-5[498_145]
 17-15	1932-1937	death	_	_	_	_
 17-16	1938-1939	.	_	_	_	_
 
@@ -388,10 +388,10 @@
 18-2	1947-1956	schooling	_	_	_	_
 18-3	1957-1960	age	_	_	_	_
 18-4	1961-1962	,	_	_	_	_
-18-5	1963-1966	his	person[148]|person[149]|person[622]	giv[148]|giv[149]|giv[622]	appos|ana|coref	18-8[150_148]|18-11[151_149]|21-1[173_622]
-18-6	1967-1973	father	person[148]|person[622]	giv[148]|giv[622]	_	_
-18-7	1974-1975	,	person[148]|person[622]	giv[148]|giv[622]	_	_
-18-8	1976-1982	Johann	person[150]|person[622]	giv[150]|giv[622]	_	_
+18-5	1963-1966	his	person[148]|person[149]|person[498]	giv[148]|giv[149]|giv[498]	appos|ana|coref	18-8[150_148]|18-11[151_149]|21-1[173_498]
+18-6	1967-1973	father	person[148]|person[498]	giv[148]|giv[498]	_	_
+18-7	1974-1975	,	person[498]	giv[498]	_	_
+18-8	1976-1982	Johann	person[150]|person[498]	giv[150]|giv[498]	_	_
 18-9	1983-1984	,	_	_	_	_
 18-10	1985-1995	encouraged	_	_	_	_
 18-11	1996-1999	him	person[151]	giv[151]	coref	19-3[159_151]
@@ -644,7 +644,7 @@
 29-27	3242-3243	.	_	_	_	_
 
 #Text=His chief work is Hydrodynamica , published in 1738 ;
-30-1	3244-3247	His	abstract[276]|person[277]	giv[276]|giv[277]	ana|coref	31-1[281_276]|33-1[311_277]
+30-1	3244-3247	His	abstract[276]|person[277]	giv[276]|giv[277]	coref|ana	33-1[311_277]|31-1[281_276]
 30-2	3248-3253	chief	abstract[276]	giv[276]	_	_
 30-3	3254-3258	work	abstract[276]	giv[276]	_	_
 30-4	3259-3261	is	_	_	_	_
@@ -675,15 +675,15 @@
 31-17	3399-3402	are	_	_	_	_
 31-18	3403-3415	consequences	_	_	_	_
 31-19	3416-3418	of	_	_	_	_
-31-20	3419-3420	a	abstract[624]	giv[624]	coref	40-15[386_624]
-31-21	3421-3427	single	abstract[624]	giv[624]	_	_
-31-22	3428-3437	principle	abstract[624]	giv[624]	_	_
-31-23	3438-3439	,	abstract[624]	giv[624]	_	_
-31-24	3440-3446	namely	abstract[624]	giv[624]	_	_
-31-25	3447-3448	,	abstract[624]	giv[624]	_	_
-31-26	3449-3461	conservation	abstract[624]	giv[624]	_	_
-31-27	3462-3464	of	abstract[624]	giv[624]	_	_
-31-28	3465-3471	energy	abstract[290]|abstract[624]	giv[290]|giv[624]	coref	40-17[387_290]
+31-20	3419-3420	a	abstract[500]	giv[500]	coref	40-15[386_500]
+31-21	3421-3427	single	abstract[500]	giv[500]	_	_
+31-22	3428-3437	principle	abstract[500]	giv[500]	_	_
+31-23	3438-3439	,	abstract[500]	giv[500]	_	_
+31-24	3440-3446	namely	abstract[500]	giv[500]	_	_
+31-25	3447-3448	,	abstract[500]	giv[500]	_	_
+31-26	3449-3461	conservation	abstract[500]	giv[500]	_	_
+31-27	3462-3464	of	abstract[500]	giv[500]	_	_
+31-28	3465-3471	energy	abstract[290]|abstract[500]	giv[290]|giv[500]	coref	40-17[387_290]
 31-29	3472-3473	.	_	_	_	_
 
 #Text=This was followed by a memoir on the theory of the tides , to which , conjointly with the memoirs by Euler and Colin Maclaurin , a prize was awarded by the French Academy : these three memoirs contain all that was done on this subject between the publication of Isaac Newton 's Philosophiae Naturalis Principia Mathematica and the investigations of Pierre-Simon Laplace .
@@ -942,7 +942,7 @@
 39-15	4825-4833	aircraft	object[372]	new[372]	_	_
 39-16	4834-4836	to	_	_	_	_
 39-17	4837-4844	measure	_	_	_	_
-39-18	4845-4848	the	abstract[373]	new[373]	appos	39-27[585_373]
+39-18	4845-4848	the	abstract[373]	new[373]	appos	39-29[376_373]
 39-19	4849-4854	speed	abstract[373]	new[373]	_	_
 39-20	4855-4857	of	abstract[373]	new[373]	_	_
 39-21	4858-4861	the	abstract[373]	new[373]	_	_
@@ -950,12 +950,12 @@
 39-23	4866-4873	passing	abstract[373]	new[373]	_	_
 39-24	4874-4877	the	abstract[373]|object[375]	new[373]|giv[375]	ana	39-29[377_375]
 39-25	4878-4883	plane	abstract[373]|object[375]	new[373]|giv[375]	_	_
-39-26	4884-4885	;	abstract[373]	new[373]	_	_
-39-27	4886-4890	that	abstract[585]	giv[585]	_	_
-39-28	4891-4893	is	abstract[585]	giv[585]	_	_
-39-29	4894-4897	its	object[377]|abstract[585]	giv[377]|giv[585]	_	_
-39-30	4898-4901	air	abstract[585]	giv[585]	_	_
-39-31	4902-4907	speed	abstract[585]	giv[585]	_	_
+39-26	4884-4885	;	_	_	_	_
+39-27	4886-4890	that	_	_	_	_
+39-28	4891-4893	is	_	_	_	_
+39-29	4894-4897	its	abstract[376]|object[377]	giv[376]|giv[377]	_	_
+39-30	4898-4901	air	abstract[376]	giv[376]	_	_
+39-31	4902-4907	speed	abstract[376]	giv[376]	_	_
 39-32	4908-4909	.	_	_	_	_
 
 #Text=Taking his discoveries further , Daniel Bernoulli now returned to his earlier work on Conservation of Energy .

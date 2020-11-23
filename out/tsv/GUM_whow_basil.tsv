@@ -187,15 +187,15 @@
 12-2	800-805	basil	_	_	_	_
 12-3	806-814	actually	_	_	_	_
 12-4	815-823	contains	_	_	_	_
-12-5	824-830	citral	plant[431]	new[431]	appos	12-7[61_431]
-12-6	831-832	,	plant[431]	new[431]	_	_
-12-7	833-835	an	plant[61]	giv[61]	_	_
-12-8	836-844	aromatic	plant[61]	giv[61]	_	_
-12-9	845-853	compound	plant[61]	giv[61]	_	_
-12-10	854-859	found	plant[61]	giv[61]	_	_
-12-11	860-862	in	plant[61]	giv[61]	_	_
-12-12	863-869	citrus	plant[61]	giv[61]	_	_
-12-13	870-875	fruit	plant[61]	giv[61]	_	_
+12-5	824-830	citral	_	_	_	_
+12-6	831-832	,	_	_	_	_
+12-7	833-835	an	_	_	_	_
+12-8	836-844	aromatic	_	_	_	_
+12-9	845-853	compound	_	_	_	_
+12-10	854-859	found	_	_	_	_
+12-11	860-862	in	_	_	_	_
+12-12	863-869	citrus	_	_	_	_
+12-13	870-875	fruit	_	_	_	_
 12-14	876-877	,	_	_	_	_
 12-15	878-881	and	_	_	_	_
 12-16	882-888	smells	_	_	_	_
@@ -702,13 +702,13 @@
 41-1	3133-3136	Pat	_	_	_	_
 41-2	3137-3141	down	_	_	_	_
 41-3	3142-3146	soil	substance[218]	giv[218]	coref	44-3[236_218]
-41-4	3147-3153	around	substance[218]	giv[218]	_	_
-41-5	3154-3157	the	plant[220]|substance[218]	giv[220]|giv[218]	ana	43-1[231_220]
-41-6	3158-3164	plants	plant[220]|substance[218]	giv[220]|giv[218]	_	_
-41-7	3165-3167	to	substance[218]	giv[218]	_	_
-41-8	3168-3177	eliminate	substance[218]	giv[218]	_	_
-41-9	3178-3181	air	substance[218]	giv[218]	_	_
-41-10	3182-3189	pockets	substance[218]	giv[218]	_	_
+41-4	3147-3153	around	_	_	_	_
+41-5	3154-3157	the	plant[220]	giv[220]	ana	43-1[231_220]
+41-6	3158-3164	plants	plant[220]	giv[220]	_	_
+41-7	3165-3167	to	_	_	_	_
+41-8	3168-3177	eliminate	_	_	_	_
+41-9	3178-3181	air	_	_	_	_
+41-10	3182-3189	pockets	_	_	_	_
 41-11	3190-3191	.	_	_	_	_
 
 #Text=If you want to plant the basil in a container , make sure it 's large enough to accommodate the number of plants you 're growing ;
@@ -848,8 +848,8 @@
 48-17	3778-3779	.	_	_	_	_
 
 #Text=Flowers blooming create a hormone change which dramatically reduces the flavor of the leaves , as well as reducing the amount of foliage which grows .
-49-1	3780-3787	Flowers	event[260]|plant[261]	new[260]|new[261]	ana|coref	50-1[269_260]|51-8[276_261]
-49-2	3788-3796	blooming	event[260]|plant[261]	new[260]|new[261]	_	_
+49-1	3780-3787	Flowers	event[260]|plant[261]	new[260]|new[261]	coref|ana	51-8[276_261]|50-1[269_260]
+49-2	3788-3796	blooming	event[260]	new[260]	_	_
 49-3	3797-3803	create	_	_	_	_
 49-4	3804-3805	a	_	_	_	_
 49-5	3806-3813	hormone	_	_	_	_
@@ -1174,19 +1174,19 @@
 67-6	5182-5185	use	_	_	_	_
 67-7	5186-5189	the	plant[352]	giv[352]	coref	68-3[359_352]
 67-8	5190-5195	basil	plant[352]	giv[352]	_	_
-67-9	5196-5198	to	plant[352]	giv[352]	_	_
-67-10	5199-5203	make	plant[352]	giv[352]	_	_
-67-11	5204-5209	pesto	plant[352]	giv[352]	_	_
-67-12	5210-5212	or	plant[352]	giv[352]	_	_
-67-13	5213-5214	a	plant[352]	giv[352]	_	_
-67-14	5215-5222	Caprese	plant[352]	giv[352]	_	_
-67-15	5223-5228	salad	plant[352]	giv[352]	_	_
-67-16	5229-5233	with	plant[352]	giv[352]	_	_
-67-17	5234-5242	tomatoes	plant[352]	giv[352]	_	_
-67-18	5243-5246	and	plant[352]	giv[352]	_	_
-67-19	5247-5252	fresh	plant[352]	giv[352]	_	_
-67-20	5253-5263	mozzarella	plant[352]	giv[352]	_	_
-67-21	5264-5270	cheese	plant[352]	giv[352]	_	_
+67-9	5196-5198	to	_	_	_	_
+67-10	5199-5203	make	_	_	_	_
+67-11	5204-5209	pesto	_	_	_	_
+67-12	5210-5212	or	_	_	_	_
+67-13	5213-5214	a	_	_	_	_
+67-14	5215-5222	Caprese	_	_	_	_
+67-15	5223-5228	salad	_	_	_	_
+67-16	5229-5233	with	_	_	_	_
+67-17	5234-5242	tomatoes	_	_	_	_
+67-18	5243-5246	and	_	_	_	_
+67-19	5247-5252	fresh	_	_	_	_
+67-20	5253-5263	mozzarella	_	_	_	_
+67-21	5264-5270	cheese	_	_	_	_
 67-22	5271-5272	.	_	_	_	_
 
 #Text=3 Store the basil in the refrigerator .

@@ -72,7 +72,7 @@
 6-8	300-303	her	person[23]	giv[23]	ana	6-11[26_23]
 6-9	304-308	neck	_	_	_	_
 6-10	309-310	,	_	_	_	_
-6-11	311-314	her	person[25]|person[26]	new[25]|giv[26]	coref|ana	8-1[36_25]|6-17[27_26]
+6-11	311-314	her	person[25]|person[26]	new[25]|giv[26]	ana|coref	6-17[27_26]|8-1[36_25]
 6-12	315-318	old	person[25]	new[25]	_	_
 6-13	319-325	marine	person[25]	new[25]	_	_
 6-14	326-333	buddies	person[25]	new[25]	_	_
@@ -238,12 +238,12 @@
 15-1	1113-1114	“	_	_	_	_
 15-2	1115-1118	Her	person[107]|person[108]	split[107]|giv[108]	ana|ana	15-9[110_107]|15-7[109_108]
 15-3	1119-1123	boys	person[107]	split[107]	_	_
-15-4	1124-1125	,	person[107]	split[107]	_	_
-15-5	1126-1127	”	person[107]	split[107]	_	_
-15-6	1128-1130	as	person[107]	split[107]	_	_
-15-7	1131-1134	she	person[109]|person[107]	giv[109]|split[107]	coref	17-25[140_109]
-15-8	1135-1141	called	person[107]	split[107]	_	_
-15-9	1142-1146	them	person[110]|person[107]	giv[110]|split[107]	ana	15-19[116_110]
+15-4	1124-1125	,	_	_	_	_
+15-5	1126-1127	”	_	_	_	_
+15-6	1128-1130	as	_	_	_	_
+15-7	1131-1134	she	person[109]	giv[109]	coref	17-25[140_109]
+15-8	1135-1141	called	_	_	_	_
+15-9	1142-1146	them	person[110]	giv[110]	ana	15-19[116_110]
 15-10	1147-1148	,	_	_	_	_
 15-11	1149-1152	did	_	_	_	_
 15-12	1153-1156	n’t	_	_	_	_
@@ -344,7 +344,7 @@
 18-13	1618-1624	pulled	_	_	_	_
 18-14	1625-1631	taught	_	_	_	_
 18-15	1632-1636	over	_	_	_	_
-18-16	1637-1640	his	object[154]|person[155]	new[154]|giv[155]	ana|ana	19-1[156_154]|19-8[161_155]
+18-16	1637-1640	his	object[154]|person[155]	new[154]|giv[155]	ana|ana	19-8[161_155]|19-1[156_154]
 18-17	1641-1646	belly	object[154]	new[154]	_	_
 18-18	1647-1648	.	_	_	_	_
 
@@ -362,7 +362,7 @@
 19-11	1707-1708	.	_	_	_	_
 
 #Text=His hands were finding their way through the armholes of his robe .
-20-1	1709-1712	His	object[163]|person[164]	new[163]|giv[164]	ana|ana	20-5[165_163]|20-11[170_164]
+20-1	1709-1712	His	object[163]|person[164]	new[163]|giv[164]	ana|ana	20-11[170_164]|20-5[165_163]
 20-2	1713-1718	hands	object[163]	new[163]	_	_
 20-3	1719-1723	were	_	_	_	_
 20-4	1724-1731	finding	_	_	_	_
@@ -775,7 +775,7 @@
 
 #Text=“ Your secretary ’s calling , and you need me to answer it ?
 47-1	3412-3413	“	_	_	_	_
-47-2	3414-3418	Your	event[316]|person[317]|person[318]	new[316]|giv[317]|giv[318]	ana|coref|ana	47-13[321_316]|58-3[379_317]|47-8[319_318]
+47-2	3414-3418	Your	event[316]|person[317]|person[318]	new[316]|giv[317]|giv[318]	ana|ana|coref	47-8[319_318]|47-13[321_316]|58-3[379_317]
 47-3	3419-3428	secretary	event[316]|person[317]	new[316]|giv[317]	_	_
 47-4	3429-3431	’s	event[316]	new[316]	_	_
 47-5	3432-3439	calling	event[316]	new[316]	_	_
@@ -808,7 +808,7 @@
 #Text=She lifted her headset ’s microphone to her mouth .
 50-1	3533-3536	She	person[332]	giv[332]	ana	50-3[336_332]
 50-2	3537-3543	lifted	_	_	_	_
-50-3	3544-3547	her	object[334]|person[336]	new[334]|giv[336]	coref|ana	55-4[358_334]|50-8[339_336]
+50-3	3544-3547	her	object[334]|person[336]	new[334]|giv[336]	ana|coref	50-8[339_336]|55-4[358_334]
 50-4	3548-3555	headset	object[334]	new[334]	_	_
 50-5	3556-3558	’s	object[334]	new[334]	_	_
 50-6	3559-3569	microphone	object[334]	new[334]	_	_

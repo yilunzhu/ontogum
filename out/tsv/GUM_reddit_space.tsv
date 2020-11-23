@@ -261,12 +261,12 @@
 11-9	1163-1173	supposedly	abstract[96]|person[97]	new[96]|new[97]	_	_
 11-10	1174-1176	in	abstract[96]|person[97]	new[96]|new[97]	_	_
 11-11	1177-1182	space	abstract[96]|person[97]	new[96]|new[97]	_	_
-11-12	1183-1189	taking	person[97]	new[97]	_	_
-11-13	1190-1191	a	person[97]	new[97]	_	_
-11-14	1192-1197	video	person[97]	new[97]	_	_
-11-15	1198-1200	of	person[97]	new[97]	_	_
-11-16	1201-1204	the	person[97]	new[97]	_	_
-11-17	1205-1210	earth	person[97]	new[97]	_	_
+11-12	1183-1189	taking	_	_	_	_
+11-13	1190-1191	a	_	_	_	_
+11-14	1192-1197	video	_	_	_	_
+11-15	1198-1200	of	_	_	_	_
+11-16	1201-1204	the	_	_	_	_
+11-17	1205-1210	earth	_	_	_	_
 11-18	1211-1212	,	_	_	_	_
 11-19	1213-1216	yet	_	_	_	_
 11-20	1217-1220	the	abstract[102]	giv[102]	_	_
@@ -550,28 +550,28 @@
 28-5	2501-2502	a	abstract[212]	new[212]	coref	41-4[308_212]
 28-6	2503-2508	Space	abstract[212]	new[212]	_	_
 28-7	2509-2517	Religion	abstract[212]	new[212]	_	_
-28-8	2518-2519	,	abstract[212]	new[212]	_	_
-28-9	2520-2531	considering	abstract[212]	new[212]	_	_
-28-10	2532-2535	how	abstract[212]	new[212]	_	_
-28-11	2536-2540	much	abstract[212]	new[212]	_	_
-28-12	2541-2543	of	abstract[212]	new[212]	_	_
-28-13	2544-2547	the	abstract[216]|abstract[212]	giv[216]|new[212]	_	_
-28-14	2548-2553	stuff	abstract[216]|abstract[212]	giv[216]|new[212]	_	_
-28-15	2554-2557	any	abstract[212]	new[212]	_	_
-28-16	2558-2560	of	abstract[212]	new[212]	_	_
-28-17	2561-2563	us	person[218]|abstract[212]	giv[218]|new[212]	ana	30-3[234_218]
-28-18	2564-2568	have	abstract[212]	new[212]	_	_
-28-19	2569-2577	actually	abstract[212]	new[212]	_	_
-28-20	2578-2589	experienced	abstract[212]	new[212]	_	_
-28-21	2590-2597	outside	abstract[212]	new[212]	_	_
-28-22	2598-2600	of	abstract[212]	new[212]	_	_
-28-23	2601-2607	movies	abstract[212]	new[212]	_	_
-28-24	2608-2609	/	abstract[212]	new[212]	_	_
-28-25	2610-2615	media	abstract[212]	new[212]	_	_
-28-26	2616-2619	...	abstract[212]	new[212]	_	_
-28-27	2620-2625	which	abstract[212]	new[212]	_	_
-28-28	2626-2628	is	abstract[212]	new[212]	_	_
-28-29	2629-2633	ZERO	abstract[212]	new[212]	_	_
+28-8	2518-2519	,	_	_	_	_
+28-9	2520-2531	considering	_	_	_	_
+28-10	2532-2535	how	_	_	_	_
+28-11	2536-2540	much	_	_	_	_
+28-12	2541-2543	of	_	_	_	_
+28-13	2544-2547	the	abstract[216]	giv[216]	_	_
+28-14	2548-2553	stuff	abstract[216]	giv[216]	_	_
+28-15	2554-2557	any	_	_	_	_
+28-16	2558-2560	of	_	_	_	_
+28-17	2561-2563	us	person[218]	giv[218]	ana	30-3[234_218]
+28-18	2564-2568	have	_	_	_	_
+28-19	2569-2577	actually	_	_	_	_
+28-20	2578-2589	experienced	_	_	_	_
+28-21	2590-2597	outside	_	_	_	_
+28-22	2598-2600	of	_	_	_	_
+28-23	2601-2607	movies	_	_	_	_
+28-24	2608-2609	/	_	_	_	_
+28-25	2610-2615	media	_	_	_	_
+28-26	2616-2619	...	_	_	_	_
+28-27	2620-2625	which	_	_	_	_
+28-28	2626-2628	is	_	_	_	_
+28-29	2629-2633	ZERO	_	_	_	_
 28-30	2634-2635	.	_	_	_	_
 
 #Text=No , really , if anyone here has an actual story of experiencing Space , I 'd love to hear it .
@@ -794,7 +794,7 @@
 41-7	3557-3559	:)	_	_	_	_
 
 #Text=The earth is definately flat .
-42-1	3560-3563	The	abstract[311]|object[312]	new[311]|giv[312]	ana|coref	44-1[314_311]|45-7[324_312]
+42-1	3560-3563	The	abstract[311]|object[312]	new[311]|giv[312]	coref|ana	45-7[324_312]|44-1[314_311]
 42-2	3564-3569	earth	abstract[311]|object[312]	new[311]|giv[312]	_	_
 42-3	3570-3572	is	abstract[311]	new[311]	_	_
 42-4	3573-3583	definately	abstract[311]	new[311]	_	_
@@ -825,7 +825,7 @@
 45-4	3658-3665	reasons	_	_	_	_
 45-5	3666-3670	they	organization[321]	giv[321]	_	_
 45-6	3671-3675	said	_	_	_	_
-45-7	3676-3679	the	abstract[323]|object[324]	new[323]|giv[324]	ana|coref	47-1[337_323]|52-2[350_324]
+45-7	3676-3679	the	abstract[323]|object[324]	new[323]|giv[324]	coref|ana	52-2[350_324]|47-1[337_323]
 45-8	3680-3685	earth	abstract[323]|object[324]	new[323]|giv[324]	_	_
 45-9	3686-3689	was	abstract[323]	new[323]	_	_
 45-10	3690-3691	a	abstract[323]	new[323]	_	_

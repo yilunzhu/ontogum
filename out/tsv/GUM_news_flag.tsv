@@ -16,12 +16,12 @@
 1-10	62-68	design	_	_	_	_
 
 #Text=Thursday , May 7 , 2015
-2-1	69-77	Thursday	time[174]	acc[174]	appos	2-3[8_174]
-2-2	78-79	,	time[174]	acc[174]	_	_
-2-3	80-83	May	time[8]	giv[8]	_	_
-2-4	84-85	7	time[8]	giv[8]	_	_
-2-5	86-87	,	time[8]	giv[8]	_	_
-2-6	88-92	2015	time[8]|time[9]	giv[8]|acc[9]	coref	13-19[113_9]
+2-1	69-77	Thursday	_	_	_	_
+2-2	78-79	,	_	_	_	_
+2-3	80-83	May	_	_	_	_
+2-4	84-85	7	_	_	_	_
+2-5	86-87	,	_	_	_	_
+2-6	88-92	2015	time[9]	acc[9]	coref	13-19[113_9]
 
 #Text=On Tuesday , the New Zealand government announced the start of a public process to suggest designs for a new national flag , and determine whether their citizens would prefer a different national flag over the current one .
 3-1	93-95	On	_	_	_	_
@@ -50,7 +50,7 @@
 3-24	218-221	and	abstract[16]	giv[16]	_	_
 3-25	222-231	determine	abstract[16]	giv[16]	_	_
 3-26	232-239	whether	abstract[16]	giv[16]	_	_
-3-27	240-245	their	abstract[16]|person[19]|organization[20]	giv[16]|new[19]|giv[20]	coref|coref	14-23[121_19]|15-1[123_20]
+3-27	240-245	their	abstract[16]|person[19]|organization[20]	giv[16]|new[19]|giv[20]	coref|coref	15-1[123_20]|14-23[121_19]
 3-28	246-254	citizens	abstract[16]|person[19]	giv[16]|new[19]	_	_
 3-29	255-260	would	abstract[16]	giv[16]	_	_
 3-30	261-267	prefer	abstract[16]	giv[16]	_	_
@@ -146,20 +146,20 @@
 8-5	687-694	Zealand	place[48]	giv[48]	_	_
 8-6	695-701	Herald	_	_	_	_
 8-7	702-703	,	_	_	_	_
-8-8	704-712	Emeritus	person[49]|person[236]	new[49]|new[236]	appos|coref	8-13[50_49]|9-1[56_236]
-8-9	713-722	Professor	person[49]|person[236]	new[49]|new[236]	_	_
-8-10	723-727	John	person[49]|person[236]	new[49]|new[236]	_	_
-8-11	728-735	Burrows	person[49]|person[236]	new[49]|new[236]	_	_
-8-12	736-737	,	person[49]|person[236]	new[49]|new[236]	_	_
-8-13	738-741	the	person[50]|person[236]	giv[50]|new[236]	_	_
-8-14	742-750	chairman	person[50]|person[236]	giv[50]|new[236]	_	_
-8-15	751-753	of	person[50]|person[236]	giv[50]|new[236]	_	_
-8-16	754-757	the	person[50]|person[236]	giv[50]|new[236]	_	_
-8-17	758-765	project	person[50]|person[236]	giv[50]|new[236]	_	_
-8-18	766-768	's	person[50]|person[236]	giv[50]|new[236]	_	_
-8-19	769-774	panel	person[50]|person[236]	giv[50]|new[236]	_	_
-8-20	775-777	of	person[50]|person[236]	giv[50]|new[236]	_	_
-8-21	778-784	twelve	person[50]|person[236]	giv[50]|new[236]	_	_
+8-8	704-712	Emeritus	person[49]|person[175]	new[49]|new[175]	appos|coref	8-13[50_49]|9-1[56_175]
+8-9	713-722	Professor	person[49]|person[175]	new[49]|new[175]	_	_
+8-10	723-727	John	person[49]|person[175]	new[49]|new[175]	_	_
+8-11	728-735	Burrows	person[49]|person[175]	new[49]|new[175]	_	_
+8-12	736-737	,	person[175]	new[175]	_	_
+8-13	738-741	the	person[50]|person[175]	giv[50]|new[175]	_	_
+8-14	742-750	chairman	person[50]|person[175]	giv[50]|new[175]	_	_
+8-15	751-753	of	person[50]|person[175]	giv[50]|new[175]	_	_
+8-16	754-757	the	person[50]|person[175]	giv[50]|new[175]	_	_
+8-17	758-765	project	person[50]|person[175]	giv[50]|new[175]	_	_
+8-18	766-768	's	person[50]|person[175]	giv[50]|new[175]	_	_
+8-19	769-774	panel	person[50]|person[175]	giv[50]|new[175]	_	_
+8-20	775-777	of	person[50]|person[175]	giv[50]|new[175]	_	_
+8-21	778-784	twelve	person[50]|person[175]	giv[50]|new[175]	_	_
 8-22	785-786	,	_	_	_	_
 8-23	787-791	said	_	_	_	_
 8-24	792-795	New	object[53]	giv[53]	coref	18-10[142_53]
@@ -267,7 +267,7 @@
 11-22	1341-1347	nation	place[95]|place[96]	new[95]|giv[96]	_	_
 11-23	1348-1350	's	place[95]|place[96]	new[95]|giv[96]	_	_
 11-24	1351-1358	capital	place[95]	new[95]	_	_
-11-25	1359-1360	,	place[95]	new[95]	_	_
+11-25	1359-1360	,	_	_	_	_
 11-26	1361-1371	Wellington	place[97]	giv[97]	_	_
 11-27	1372-1373	.	_	_	_	_
 
@@ -307,11 +307,11 @@
 13-10	1530-1537	Zealand	object[107]|place[108]	giv[107]|giv[108]	_	_
 13-11	1538-1542	flag	object[107]	giv[107]	_	_
 13-12	1543-1545	on	_	_	_	_
-13-13	1546-1554	Waitangi	time[109]	new[109]	appos	13-15[205_109]
-13-14	1555-1558	Day	time[109]	new[109]	_	_
-13-15	1559-1560	-	time[205]	giv[205]	_	_
-13-16	1561-1569	February	time[205]	giv[205]	_	_
-13-17	1570-1571	6	time[205]	giv[205]	_	_
+13-13	1546-1554	Waitangi	_	_	_	_
+13-14	1555-1558	Day	_	_	_	_
+13-15	1559-1560	-	_	_	_	_
+13-16	1561-1569	February	_	_	_	_
+13-17	1570-1571	6	_	_	_	_
 13-18	1572-1573	-	_	_	_	_
 13-19	1574-1578	this	time[113]	acc[113]	_	_
 13-20	1579-1583	year	time[113]	acc[113]	_	_

@@ -14,12 +14,12 @@
 1-8	47-48	6	abstract[4]	new[4]	_	_
 
 #Text=Tuesday , March 8 , 2011
-2-1	49-56	Tuesday	time[204]	acc[204]	appos	2-3[7_204]
-2-2	57-58	,	time[204]	acc[204]	_	_
-2-3	59-64	March	time[7]	giv[7]	_	_
-2-4	65-66	8	time[7]	giv[7]	_	_
-2-5	67-68	,	time[7]	giv[7]	_	_
-2-6	69-73	2011	time[7]	giv[7]	_	_
+2-1	49-56	Tuesday	_	_	_	_
+2-2	57-58	,	_	_	_	_
+2-3	59-64	March	_	_	_	_
+2-4	65-66	8	_	_	_	_
+2-5	67-68	,	_	_	_	_
+2-6	69-73	2011	_	_	_	_
 
 #Text=With development of Microsoft 's Internet Explorer 9 ( IE9 ) browser almost complete , Microsoft announced on Friday that it is time for IE6 users to move away from the antiquated 10-year-old browser .
 3-1	74-78	With	_	_	_	_
@@ -71,17 +71,17 @@
 
 #Text=On a new website , " The Internet Explorer 6 Countdown " , Microsoft has launched an aggressive campaign to persuade users to stop using IE6 and update to a newer IE .
 5-1	330-332	On	_	_	_	_
-5-2	333-334	a	abstract[28]|abstract[267]	new[28]|new[267]	appos|coref	5-6[235_28]|9-28[62_267]
-5-3	335-338	new	abstract[28]|abstract[267]	new[28]|new[267]	_	_
-5-4	339-346	website	abstract[28]|abstract[267]	new[28]|new[267]	_	_
-5-5	347-348	,	abstract[28]|abstract[267]	new[28]|new[267]	_	_
-5-6	349-350	"	abstract[235]|abstract[267]	giv[235]|new[267]	_	_
-5-7	351-354	The	abstract[235]|abstract[267]	giv[235]|new[267]	_	_
-5-8	355-363	Internet	abstract[30]|abstract[235]|abstract[267]	giv[30]|giv[235]|new[267]	coref	5-26[35_30]
-5-9	364-372	Explorer	abstract[30]|abstract[235]|abstract[267]	giv[30]|giv[235]|new[267]	_	_
-5-10	373-374	6	abstract[30]|abstract[235]|abstract[267]	giv[30]|giv[235]|new[267]	_	_
-5-11	375-384	Countdown	abstract[235]|abstract[267]	giv[235]|new[267]	_	_
-5-12	385-386	"	abstract[235]|abstract[267]	giv[235]|new[267]	_	_
+5-2	333-334	a	abstract[28]|abstract[205]	new[28]|new[205]	coref|appos	9-28[62_205]|5-7[29_28]
+5-3	335-338	new	abstract[28]|abstract[205]	new[28]|new[205]	_	_
+5-4	339-346	website	abstract[28]|abstract[205]	new[28]|new[205]	_	_
+5-5	347-348	,	abstract[205]	new[205]	_	_
+5-6	349-350	"	abstract[205]	new[205]	_	_
+5-7	351-354	The	abstract[29]|abstract[205]	giv[29]|new[205]	_	_
+5-8	355-363	Internet	abstract[29]|abstract[30]|abstract[205]	giv[29]|giv[30]|new[205]	coref	5-26[35_30]
+5-9	364-372	Explorer	abstract[29]|abstract[30]|abstract[205]	giv[29]|giv[30]|new[205]	_	_
+5-10	373-374	6	abstract[29]|abstract[30]|abstract[205]	giv[29]|giv[30]|new[205]	_	_
+5-11	375-384	Countdown	abstract[29]|abstract[205]	giv[29]|new[205]	_	_
+5-12	385-386	"	_	_	_	_
 5-13	387-388	,	_	_	_	_
 5-14	389-398	Microsoft	organization[31]	giv[31]	coref	9-24[59_31]
 5-15	399-402	has	_	_	_	_
@@ -214,12 +214,12 @@
 11-23	958-959	.	_	_	_	_
 
 #Text=Mozilla Firefox , its main rival , has been actively increasing its market share while the recently released Google Chrome is also quickly gaining users .
-12-1	960-967	Mozilla	object[77]|object[268]	new[77]|new[268]	appos|ana	12-4[78_77]|12-12[82_268]
-12-2	968-975	Firefox	object[77]|object[268]	new[77]|new[268]	_	_
-12-3	976-977	,	object[77]|object[268]	new[77]|new[268]	_	_
-12-4	978-981	its	object[78]|abstract[79]|object[268]	giv[78]|giv[79]|new[268]	_	_
-12-5	982-986	main	object[78]|object[268]	giv[78]|new[268]	_	_
-12-6	987-992	rival	object[78]|object[268]	giv[78]|new[268]	_	_
+12-1	960-967	Mozilla	object[77]|object[206]	new[77]|new[206]	appos|ana	12-4[78_77]|12-12[82_206]
+12-2	968-975	Firefox	object[77]|object[206]	new[77]|new[206]	_	_
+12-3	976-977	,	object[206]	new[206]	_	_
+12-4	978-981	its	object[78]|abstract[79]|object[206]	giv[78]|giv[79]|new[206]	_	_
+12-5	982-986	main	object[78]|object[206]	giv[78]|new[206]	_	_
+12-6	987-992	rival	object[78]|object[206]	giv[78]|new[206]	_	_
 12-7	993-994	,	_	_	_	_
 12-8	995-998	has	_	_	_	_
 12-9	999-1003	been	_	_	_	_
