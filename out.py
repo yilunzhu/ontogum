@@ -10,8 +10,8 @@ def write_file(out_dir, output_string):
 
 def remove_singleton(e, non_singleton, coref_fields, line_id):
     if e:
-        coref_fields[3] = '|'.join([x for x in coref_fields[3].split('|') if e not in x])
-        coref_fields[4] = '|'.join([x for x in coref_fields[4].split('|') if e not in x])
+        coref_fields[3] = '|'.join([x for x in coref_fields[3].split('|') if e != x.split('[')[-1].strip(']')])
+        coref_fields[4] = '|'.join([x for x in coref_fields[4].split('|') if e != x.split('[')[-1].strip(']')])
     else:
         if f'0_{line_id}' not in non_singleton:
             coref_fields[3], coref_fields[4] = '', ''
@@ -171,7 +171,7 @@ def gen_tsv(doc, coref_article, non_singleton, new_id2entity):
         coref_fields[-2], coref_fields[-1] = '', ''
 
         # test
-        if line_id == '2-1':
+        if line_id == '11-17':
             a = 1
 
         # entity info
@@ -195,8 +195,8 @@ def gen_tsv(doc, coref_article, non_singleton, new_id2entity):
             # remove deleted entities in func.py
             if id in doc.keys() and doc[id].delete == True:
                 if e:
-                    coref_fields[3] = '|'.join([x for x in coref_fields[3].split('|') if e not in x])
-                    coref_fields[4] = '|'.join([x for x in coref_fields[4].split('|') if e not in x])
+                    coref_fields[3] = '|'.join([x for x in coref_fields[3].split('|') if e != x.split('[')[-1].strip(']')])
+                    coref_fields[4] = '|'.join([x for x in coref_fields[3].split('|') if e != x.split('[')[-1].strip(']')])
                 else:
                     if '|' in coref_fields[3]:
                         raise ValueError('The line with fake id has deleted entities. Revise the code.')
@@ -226,8 +226,8 @@ def gen_tsv(doc, coref_article, non_singleton, new_id2entity):
                 if next == '':
                     # if next originally exists but deleted by func.py, remove it in coref_fields
                     if doc[e].nmod_poss:
-                        coref_fields[3] = '|'.join([x for x in coref_fields[3].split('|') if cur not in x])
-                        coref_fields[4] = '|'.join([x for x in coref_fields[4].split('|') if cur not in x])
+                        coref_fields[3] = '|'.join([x for x in coref_fields[3].split('|') if cur != x.split('[')[-1].strip(']')])
+                        coref_fields[4] = '|'.join([x for x in coref_fields[4].split('|') if cur != x.split('[')[-1].strip(']')])
                     continue
 
                 if next.startswith('0_'):
@@ -330,7 +330,7 @@ def to_conll(docname, doc, coref_article, out_dir, non_singleton, new_id2entity,
         count += 1
         coref_part = ''
 
-        if line_id == '12-8':
+        if line_id == '1-5':
             a = 1
 
         if fields[3] == '_':

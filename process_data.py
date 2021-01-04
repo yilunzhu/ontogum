@@ -13,6 +13,7 @@ class Coref(object):
         self.tsv_line = list()
         self.text_id = str()
         self.tok = str()
+        self.lemma = str()
         self.e_type = str()
         self.cur = str()
         self.next = str()
@@ -36,7 +37,7 @@ class Coref(object):
         self.replaced_by = str()
         self.appos_point_to = str()
         self.expanded = False
-        self.verb_head = str()
+        self.verb_head = bool()
         self.sent = list()
 
 def coref_(fields: list) -> dict:
@@ -69,8 +70,11 @@ def coref_(fields: list) -> dict:
             elif fields[-2] != '_':
                 coref_type = coref_types[i]
 
-            if cur_e in coref.keys() and 'bridge' in coref_type:
+            if 'bridge' in coref_type or 'cata' in coref_type:
                 continue
+
+            if cur_e in coref.keys():
+                raise ValueError(f'The coref type {coref_type} has not been added into conversion at line {fields[0]}.')
             coref[cur_e] = (point_to, next_e, coref_type)
 
     # when the entity exists and it is mentioned before, but does not have next coref
@@ -289,7 +293,7 @@ def process_doc(dep_doc, coref_doc):
             line_id, token = coref_fields[0], coref_fields[2]
 
             # test
-            if line_id == '2-1':
+            if line_id == '20-3':
                 a = 1
             if coref_fields[5] == 'appos':
                 a = 1
@@ -337,7 +341,7 @@ def process_doc(dep_doc, coref_doc):
             # match dep_text_id to the format in coref tsv
             dep_text_id = f'{dep_sent_id}-{dep_line[0]}'
             cur_dep_sent = dep_sents[dep_sent_id]
-            if dep_text_id == '2-5':
+            if dep_text_id == '1-7':
                 a = 1
 
             # TODO: 将ide替换为doc.keys()，避免18-26 "these techniques"没有任何dep的信息
@@ -382,12 +386,7 @@ def process_doc(dep_doc, coref_doc):
 
                             # verbal span contraction
                             if row[4].startswith('V'):
-                                for line in cur_dep_sent:
-                                    if line[1] == row[0] and line[7] == 'xcomp':
-                                        doc[entity].verb_head = f'{dep_sent_id}-{line[0]}'
-                                if not doc[entity].verb_head:
-                                    doc[entity].verb_head = f'{dep_sent_id}-{row[0]}'
-
+                                doc[entity].verb_head = True
 
                         # if the head is outside the range, it's the head of the entity
                         elif doc[entity].head_func == '' and row[6] not in head_range:
@@ -406,11 +405,7 @@ def process_doc(dep_doc, coref_doc):
 
                             # verbal span contraction
                             if row[4].startswith('V'):
-                                for line in cur_dep_sent:
-                                    if line[1] == row[0] and line[7] == 'xcomp':
-                                        doc[entity].verb_head = f'{dep_sent_id}-{line[0]}'
-                                if not doc[entity].verb_head:
-                                    doc[entity].verb_head = f'{dep_sent_id}-{row[0]}'
+                                doc[entity].verb_head = True
 
                         doc[entity].func += f' {row[7]}'
                         doc[entity].pos += f' {row[4]}'
@@ -456,127 +451,6 @@ def process_doc(dep_doc, coref_doc):
                                     # else:
                                     #     raise ValueError('The acl children gap is not correctly recognized.')
 
-                    # # check appositions, align the spans (if it isn't continuous, make it so)
-                    # '''
-                    # Sometimes ',' and other punctuation marks are not inlcuded in an apposition span, but this is invalid.
-                    # Align the spans to have valid apposition coref
-                    # '''
-                    # ALIGN_PUNCT = [',', ':', ';', '—', '1', "'", '‘']
-                    # last_e = sorted([int(x) for x in doc.keys() if not x.startswith('0_')], reverse=True)[0] + 30
-                    # appos = doc[entity].appos
-                    # if doc[entity].next and appos:
-                    #     next = doc[entity].next
-                    #     tok_id = int(doc[next].text_id.split('-')[-1])
-                    #     ids = [f'{doc[next].text_id.split("-")[0]}-{tok_id + i}' for i in range(doc[next].span_len)]
-                    #
-                    #     max_prev_id = int(doc[entity].text_id.split('-')[-1]) + doc[entity].span_len - 1
-                    #     min_next_id = sorted([int(x.split("-")[-1]) for x in ids])[0]
-                    #     cur_count, next_count = 0, 0
-                    #     appos_belong_to_cur = []
-                    #
-                    #     # check gap that does not count as dep children
-                    #     for gap_tok_id in range(max_prev_id+1, min_next_id):
-                    #         gap_id = f'{dep_sent_id}-{gap_tok_id}'
-                    #         cur_tok = cur_dep_sent[int(gap_tok_id) - 1][1]
-                    #         if str(gap_tok_id) in doc[entity].acl_children:
-                    #             continue
-                    #         if gap_id not in appos:
-                    #             # if cur_tok in ALIGN_PUNCT:
-                    #             cur_count += 1
-                    #             appos_belong_to_cur.append(gap_id)
-                    #             # else:
-                    #             #     raise ValueError(f'{gap_id}, {entity}->{next}, Apposition gaps are not punctuations, check the annotation.')
-                    #
-                    #     loop_appos = deepcopy(appos)
-                    #     for appos_id in loop_appos:
-                    #         if appos_id == '3-20':
-                    #             a = 1
-                    #         appos_tok_id = appos_id.split('-')[-1]
-                    #         if appos_id not in ids:
-                    #             cur_tok = cur_dep_sent[int(appos_tok_id)-1][1]
-                    #             if int(appos_tok_id) < min_next_id and cur_tok in ALIGN_PUNCT:
-                    #                 cur_count += 1
-                    #                 appos_belong_to_cur.append(appos_id)
-                    #                 appos.remove(appos_id)
-                    #             else:
-                    #                 next_count += 1
-                    #
-                    #     next_span_len = next_count + doc[next].span_len
-                    #     doc[next].expanded = True
-                    #     min_appos = sorted([int(x.split("-")[-1]) for x in appos])[0]
-                    #
-                    #     new_id = next
-                    #     if f'{dep_sent_id}-{min_appos}' != doc[next].text_id:
-                    #         if next_span_len == 1:
-                    #            new_id = f'0_{appos[0]}'
-                    #         else:
-                    #             new_id = str(last_e + 1)
-                    #
-                    #         # create a new entity
-                    #         doc[new_id] = deepcopy(doc[next])
-                    #         doc[new_id].text_id = f'{dep_sent_id}-{min_appos}'
-                    #         doc[new_id].cur = new_id
-                    #
-                    #         # make new id as the next coref
-                    #         doc[entity].next = new_id
-                    #         doc[entity].coref = f'{dep_sent_id}-{min_appos}'
-                    #
-                    #         # let the previous next points to the current one, delete coref info
-                    #         doc[next].replaced_by = new_id
-                    #         doc[next].coref = ''
-                    #         doc[next].coref_type = ''
-                    #         doc[next].next = ''
-                    #
-                    #     doc[new_id].span_len = next_span_len
-                    #     new_id_span = [str(int(doc[new_id].text_id.split('-')[-1])+x) for x in range(doc[new_id].span_len)]
-                    #     for x in new_id_span:
-                    #         new_tok_id = f'{dep_sent_id}-{x}'
-                    #         if new_tok_id not in appos:
-                    #             appos.append(new_tok_id)
-                    #     cur_span_len = doc[entity].span_len + cur_count
-                    #
-                    #     # if the current entity's span is longer than 1, assign it a new entity id
-                    #     if doc[entity].span_len == 1 and cur_span_len > 1:
-                    #         # if doc[entity].acl_children:
-                    #         #     raise ValueError('Change func.py L264 - L2xx.')
-                    #         new_cur_entity_id = str(last_e + 1)
-                    #         doc[new_cur_entity_id] = deepcopy(doc[entity])
-                    #
-                    #         # revise the coref info in the new entity
-                    #         doc[new_cur_entity_id].span_len = cur_span_len
-                    #         doc[new_cur_entity_id].cur = new_cur_entity_id
-                    #
-                    #         # delete coref info in the old entity
-                    #         doc[entity].next = ''
-                    #         doc[entity].coref = ''
-                    #         doc[entity].coref_type = ''
-                    #         # del doc[entity]
-                    #
-                    #         # let the antecedent points to the new entity
-                    #         for ante_k, ante_v in doc.items():
-                    #             if ante_v.next == entity:
-                    #                 doc[ante_k].next = new_cur_entity_id
-                    #
-                    #         # add the current head token (which should be the only one) into new_id2entity
-                    #         new_id2entity[doc[entity].text_id] = [new_cur_entity_id]
-                    #
-                    #         # rename the "entity" variable
-                    #         entity = new_cur_entity_id
-                    #
-                    #     else:
-                    #         doc[entity].span_len = cur_span_len
-                    #
-                    #     for appos_id in appos:
-                    #         if appos_id not in new_id2entity.keys():
-                    #             new_id2entity[appos_id] = []
-                    #         new_id2entity[appos_id] += [new_id.split('_')[-1] if new_id.startswith('0_') else new_id]
-                    #         # if appos_id not in doc[new_id].text_id:
-                    #         #     new_id2entity[appos_id] = [new_id.split('_')[-1] if new_id.startswith('0_') else new_id]
-                    #     for cur_appos_id in appos_belong_to_cur:
-                    #         if cur_appos_id not in new_id2entity.keys():
-                    #             new_id2entity[cur_appos_id] = []
-                    #         new_id2entity[cur_appos_id] += [entity.split('_')[-1] if entity.startswith('0_') else entity]
-
                     # check definiteness
                     """
                     If it's in the following cases, definite √:
@@ -588,9 +462,9 @@ def process_doc(dep_doc, coref_doc):
                         pronoun like like 'its')
                     """
                     HEAD_POS = ['PRP', 'PRP$', 'DT']
-                    LEMMA = ['the', 'this', 'that', 'those', 'these', 'all', 'every', 'any', 'no']
+                    LEMMA = ['the', 'this', 'that', 'those', 'these', 'all', 'every', 'any', 'no', 'such']
                     MISC = ['Everyone', 'everyone', 'Anyone', 'anyone']
-                    if entity == '0_69-18':
+                    if entity == '186':
                         a = 1
                     if doc[entity].head_pos == 'FW':
                         doc[entity].definite = True
@@ -598,18 +472,26 @@ def process_doc(dep_doc, coref_doc):
                         doc[entity].definite = True
                     elif doc[entity].head_pos in HEAD_POS:
                         doc[entity].definite = True
-                    elif 'det' in doc[entity].func:
-                        for row in heads:
-                            if row[7] == 'det' and row[2] in LEMMA and row[6] == head_of_the_phrase:
-                                doc[entity].definite = True
-                    elif 'POS' in doc[entity].pos:
-                        for row in heads:
-                            if row[4] == 'POS' and row[6] == doc[entity].head_id.split('-')[-1] and row[6] == head_of_the_phrase:
-                                doc[entity].definite = True
+                    elif heads[0][6] == head_of_the_phrase and heads[0][2] == 'such':
+                        doc[entity].definite = True
                     elif doc[entity].pos.startswith('PRP$'):
                         doc[entity].definite = True
                     elif doc[entity].lemma in MISC:
                         doc[entity].definite = True
+                    elif doc[entity].head_func == 'xcomp':
+                        for prev_k, prev_v in doc.items():
+                            if prev_v.next == entity and prev_v.text_id.split('-')[0] == doc[entity].text_id.split('-')[0] and prev_v.tok in ['himself', 'myself', 'herself']:
+                                doc[entity].definite = True
+                                break
+                    else:
+                    # elif 'det' in doc[entity].func:
+                        for row in heads:
+                            if row[7] == 'det' and row[2] in LEMMA and row[6] == head_of_the_phrase:
+                                doc[entity].definite = True
+                    # elif 'POS' in doc[entity].pos:
+                        for row in heads:
+                            if row[4] == 'POS' and row[6] == doc[entity].head_id.split('-')[-1] and row[6] == head_of_the_phrase:
+                                doc[entity].definite = True
 
                     # check if the span is nmod:poss, example: [Zurbarán ’s]
                     if doc[entity].head_func == 'nmod:poss' and 'POS' in doc[entity].pos:
@@ -618,6 +500,11 @@ def process_doc(dep_doc, coref_doc):
                     if doc[entity].head_func == '':
                         # raise ValueError('The head feature is empty.')
                         print('Warning: The head feature is empty.')
+                    # if doc[entity].head_func == 'xcomp' and not doc[entity].definite:
+                    #     for prev_k, prev_v in doc.items():
+                    #         if prev_v.next == entity and prev_v.text_id.split('-')[0] == doc[entity].text_id.split('-')[0]:
+                    #             a = 1
+                    #             print(f'{prev_v.tok}\t{doc[entity].tok}')
 
     # group dict
     entity_group = [x for x in entity_group if x]

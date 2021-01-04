@@ -31,6 +31,7 @@ class Convert(object):
 
                     # create a new fake id
                     new_k = str(self.last_e + 1)
+                    self.last_e += 1
                     self.doc[new_k] = deepcopy(self.doc[k])
                     self.doc[new_k].cur = new_k
 
@@ -101,19 +102,19 @@ class Convert(object):
         loop_doc = deepcopy(self.doc)
         for k, _coref in loop_doc.items():
             if k in self.doc.keys() and _coref.verb_head and _coref.next in self.doc.keys() and _coref.next != '':
-                if self.doc[_coref.next].head_pos in ['PRP', 'PRP$', 'DT', 'WDT']:
-                    print(1)
 
-                    # redirect the current markable
-                    # create a new id to shorten the markable span
+                    # (1) redirect the current markable and (2) create a new id to shorten the markable span
                     new_id = str(self.last_e + 1)
+                    self.last_e += 1
+
                     self.doc[new_id] = deepcopy(_coref)
+                    self.doc[new_id].cur = new_id
                     self.doc[new_id].span_len = 1
                     self.doc[new_id].text_id = _coref.head_id
                     self.doc[new_id].tok = ''
-                    if _coref.verb_head not in self.new_id2entity.keys():
-                        self.new_id2entity[_coref.verb_head] = []
-                    self.new_id2entity[_coref.verb_head].append(new_id)
+                    if _coref.head_id not in self.new_id2entity.keys():
+                        self.new_id2entity[_coref.head_id] = []
+                    self.new_id2entity[_coref.head_id].append(new_id)
 
                     # modify the antecedent
                     for prev_k, prev_v in loop_doc.items():
@@ -170,30 +171,36 @@ class Convert(object):
         """
         if (1) two coref mentions are in the same sentence, (2) a copula dep func is the child of the first one,
         remove the coref relations between the two and move the second coref to the first one
+
+        A -> B & B -> C ====> A -> C
+        remove B
+        Also, the function should handle multiple copula, e.g. copula in coordination
+        Example: [He] was [one of the first opponents of the Vietnam War] , and is [a self-described Libertarian Socialist] .
         TODO: Bridging and coref has the same next()
         """
         for k, _coref in self.doc.items():
-            if k == '0_45-1':
+            if k == '475':
                 a = 1
-            if _coref.head_func != '' and _coref.next in self.doc.keys() and self.doc[_coref.next].child_cop == True:
-                # A -> B & B -> C ====> A -> C
-                # remove B
-                new_coref, new_next, coref_type = self.doc[_coref.next].coref, self.doc[_coref.next].next, self.doc[_coref.next].coref_type
-                self.doc[_coref.next].delete = True
-                _coref.coref = new_coref
-                _coref.next = new_next
-                _coref.coref_type = coref_type
 
-    def _reduceVspan(self):
-        """
-        If the head of span is V.*, reduce it to V
-        """
-        for _coref in self.doc.values():
-            if _coref.head_func.startswith('V') and _coref.span_len > 1:
-                _coref.func = _coref.head_func
-                _coref.pos = _coref.head_pos
-                _coref.span_len = 1
-        return
+            # A -> B1..B2 -> C
+            # remove B1, B2, ... Bn
+            cur_v = deepcopy(self.doc[k])
+            while cur_v.head_func != '' and cur_v.next in self.doc.keys() and self.doc[cur_v.next].child_cop == True:
+                cur_v = deepcopy(self.doc[cur_v.next])
+
+                self.doc[cur_v.cur].coref = ''
+                self.doc[cur_v.cur].next = ''
+                self.doc[cur_v.cur].coref_type = ''
+
+            if cur_v.next:
+                self.doc[k].coref = cur_v.coref
+                self.doc[k].next = cur_v.next
+                self.doc[k].coref_type = cur_v.coref_type
+            else:
+                self.doc[k].coref = ''
+                self.doc[k].next = ''
+                self.doc[k].coref_type = ''
+
 
     def _break_chain(self):
         """
@@ -202,12 +209,9 @@ class Convert(object):
         simple way to break currently:
         the > a
 
-        Specificity scale in the OntoNotes guideline:
-        Proper noun > Pronoun > Def. NP > Indef. spec. NP > Non-spec. NP
-        John 		> He 	  > the man > a man I know 	  > man
         """
         for k, _coref in self.doc.items():
-            if k == '3':
+            if k == '26':
                 a = 1
             if _coref.appos:
                 continue
@@ -218,16 +222,36 @@ class Convert(object):
                 # next_pos = self.doc[_coref.next].pos
                 # next_head_pos = self.doc[_coref.next].head_pos
 
+                # recursively find the coref chain
+                # chain = [_coref.tok]
+                # prev_k = ''
+                # for pk, pt in self.doc.items():
+                #     if pt.next == k:
+                #         chain.append(pt.tok)
+                #         prev_k = pk
+                # while prev_k:
+                #     for pk, pt in self.doc.items():
+                #         if pt.next == prev_k:
+                #             chain.append(pt.tok)
+                #             prev_k = pk
+                #             break
+                #     if prev_k != pk:
+                #         prev_k = ''
                 """
-                If the chain's next is a definite entity and there are in the same sentence, do not break the chain
-                - Warning: This is not a valid operation but avoids some annotation errors
+                WARNING: This is not a valid operation but avoids some annotation errors
                 """
+                # If the chain's next is a definite entity and there are in the same sentence, do not break the chain
                 next_next = deepcopy(self.doc[_coref.next].next)
-                if next_next and self.doc[next_next].tok == 'she':
+                if next_next and (self.doc[next_next].lemma in ['he', 'she'] or self.doc[next_next].pos == 'NNP'):
                     next_sent_id = self.doc[_coref.next].text_id.split('-')[0]
                     next_next_sent_id = self.doc[next_next].text_id.split('-')[0]
-                    if next_sent_id == next_next_sent_id:
-                        print(f'Warning: Skip breaking chains in Line {next_sent_id}. It should not happen very often.')
+                    # if next_sent_id == next_next_sent_id:
+                    #     print(f'Warning: Skip breaking chains in Line {next_sent_id}. It should not happen very often.')
+                    #     continue
+                    # else:
+                    #     continue
+                    if int(next_next_sent_id) <= int(next_sent_id) + 2:
+                        print(f'Warning: Skip breaking chains in Line {next_sent_id}.')
                         continue
 
                 break_group = max(self.group_dict.values()) + 1
@@ -257,15 +281,6 @@ class Convert(object):
                 if k in self.antecedent_dict.keys():
                     del self.antecedent_dict[k]
 
-            # # generic nouns
-            # elif next_pos and not re.search('PR|DT', next_pos) and 'NNP' not in next_head_pos:
-            #     a = 1
-
-    def _remove_coord(self):
-        """
-        deal with coordinations
-        """
-        return
 
     def _appos_merge(self):
         """
@@ -285,10 +300,16 @@ class Convert(object):
         for k1, v in loop_doc.items():
             k1_sent_id = v.text_id.split('-')[0]
             for k2, next_v in loop_doc.items():
-                if k1 == '211' and k2 == '212':
+                if k1 == '389' and k2 == '71':
                     a = 1
+                if v.delete or next_v.delete:
+                    continue
+                # assign the appos value to be True if it is missed in the earlier step
+                # (the missing may be due to that "coref_type" does not correlate with "appos")
+
                 k2_sent_id = next_v.text_id.split('-')[0]
                 if k1_sent_id == k2_sent_id and v.next == k2 and v.coref_type == 'appos':
+                    self.doc[k1].appos = True
                     k1_tok_start_id = int(v.text_id.split('-')[-1])
 
                     prev_start = int(v.text_id.split('-')[-1])
@@ -305,6 +326,7 @@ class Convert(object):
 
                     # create a new e as the new big span for the apposition
                     new_k1 = str(self.last_e+1)
+                    self.last_e += 1
                     self.doc[new_k1] = deepcopy(self.doc[k1])
                     self.doc[new_k1].cur = new_k1
                     self.doc[new_k1].coref = next_v.coref
@@ -333,17 +355,18 @@ class Convert(object):
                     next_span_len = 0 if prev_last > next_last else next_v.span_len
                     self.doc[new_k1].span_len += next_span_len + len(gap)
                     for i in gap:
+                        # self.doc[new_k1].tok += f' {i}'
                         if i not in self.new_id2entity.keys():
                             self.new_id2entity[i] = []
                         self.new_id2entity[i].append(new_k1)
 
                     a = 1
                     # check the token right after the appositive, if it is in '|)|", etc., expand the larger span
-                    if next_last < len(self.doc[k1].sent) - 1:
-                        next_tok = self.doc[k1].sent[next_last+1][1]
-                        next_tok_id = self.doc[k1].sent[next_last+1][0]
+                    if next_last <= len(self.doc[k1].sent) - 1:
+                        next_tok = self.doc[k1].sent[next_last][1]
+                        next_tok_id = self.doc[k1].sent[next_last][0]
                         # print(next_tok)
-                        if next_tok in ["'", '"', ')', ']']:
+                        if next_tok in ["'", '"', ')', ']', '’', '”', '）', '}']:
                             self.doc[new_k1].span_len += 1
                             self.doc[new_k1].tok += ' ' + next_tok
                             id = f'{k1_sent_id}-{next_tok_id}'
@@ -393,6 +416,7 @@ class Convert(object):
                     if k2.startswith('0_') and len(ids) > 1:
                         # if len(ids) > 1:
                         new_k2 = str(self.last_e + 1)
+                        self.last_e += 1
                         self.doc[new_k2] = deepcopy(self.doc[k2])
                         self.doc[new_k2].cur = new_k2
 
@@ -465,23 +489,34 @@ class Convert(object):
         Example: [Zurbarán ’s] cycle of Jacob and his Sons
         """
         for k,v in self.doc.items():
-            if k == '184':
+            if k == '272':
                 a = 1
-            if k in self.doc.keys() and v.next in self.doc.keys() and v.next != '' and self.doc[v.next].nmod_poss:
-                next = v.next
-                self.doc[k].coref = self.doc[v.next].coref
-                self.doc[k].coref_type = self.doc[v.next].coref_type
-                self.doc[k].next = self.doc[v.next].next
 
-                self.doc[next].coref = ''
-                self.doc[next].next = ''
-                self.doc[next].coref_type = ''
+            if k in self.doc.keys() and v.next != '' and self.doc[v.next].nmod_poss:
+                cur_v = v
+                while cur_v.next in self.doc.keys() and cur_v.next != '' and self.doc[cur_v.next].nmod_poss:
+                    # del_v = cur_v
+                    cur_v = deepcopy(self.doc[cur_v.next])
 
-    def _remove_iwithini(self):
-        """
-        Example: [a man ... his]_1 ... []_1
-        """
-        return
+                    self.doc[cur_v.cur].coref = ''
+                    self.doc[cur_v.cur].next = ''
+                    self.doc[cur_v.cur].coref_type = ''
+
+            # if k in self.doc.keys() and v.next in self.doc.keys() and v.next != '' and self.doc[v.next].nmod_poss:
+                if not cur_v.nmod_poss:
+                    self.doc[k].coref = cur_v.coref
+                    self.doc[k].coref_type = cur_v.coref_type
+                    self.doc[k].next = cur_v.cur
+                else:
+                    if cur_v.next:
+                        self.doc[k].coref = cur_v.coref
+                        self.doc[k].coref_type = self.doc[cur_v.next].coref_type
+                        self.doc[k].next = cur_v.next
+                    else:
+                        self.doc[k].coref = ''
+                        self.doc[k].coref_type = ''
+                        self.doc[k].next = ''
+
 
     def _change_cata(self):
         """
@@ -497,7 +532,7 @@ class Convert(object):
             45-7	2073-2074	"	_	_	_	_
         """
         for k1, v1 in self.doc.items():
-            if k1 == '339':
+            if k1 == '82':
                 a = 1
 
             # If the cataphora does not have an antecedent
@@ -625,17 +660,14 @@ class Convert(object):
         self.new_id2entity = new_id2entity
         self.last_e = sorted([int(x) for x in self.doc.keys() if not x.startswith('0_')], reverse=True)[0] + 30
         # self._expand_acl()
-        # self._verb_contract()
+        self._verb_contract()
         self._appos_merge()
         self._change_cata()
         self._remove_compound()
         self._remove_bridge()
         self._remove_cop()
-        self._break_chain()
-        self._reduceVspan()
-        # self._remove_coord()
-        # self._remove_iwithini()
         self._remove_nmodposs()
+        self._break_chain()
         self._remove_excluded_heads()
         self._remove_nested_coref()
         valid_coref = self._remove_singleton()

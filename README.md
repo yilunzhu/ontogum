@@ -6,6 +6,9 @@ This repo contains the scripts that can convert GUM to the OntoNotes format.
 1. Python >= 3.6
 2. Download GUM from <https://github.com/amir-zeldes/gum> and put the folder in the home directory of this repo
 
+## Output
+Two output formats are currently supported: tsv and conll. The default output is tsv. If you would like to have the conll format, specify it with the argument `--out_format`
+
 ## Visualization
 To straightforwardly view a coref document, copy & paste the tsv file to [Spannotator](https://corpling.uis.georgetown.edu/gitdox/spannotator.html).
 
