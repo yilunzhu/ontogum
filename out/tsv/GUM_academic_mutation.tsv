@@ -79,7 +79,7 @@
 5-8	367-377	definition	_	_	_	_
 5-9	378-380	of	_	_	_	_
 5-10	381-389	specific	abstract[30]	new[30]	coref	6-19[41_30]
-5-11	390-398	mutation	abstract[30]	new[30]	_	_
+5-11	390-398	mutation	abstract[30]	abstract[30]	_	_
 5-12	399-408	operators	abstract[30]	new[30]	_	_
 5-13	409-412	for	_	_	_	_
 5-14	413-420	testing	_	_	_	_
@@ -108,7 +108,7 @@
 6-17	549-554	study	_	_	_	_
 6-18	555-560	where	_	_	_	_
 6-19	561-566	these	abstract[41]	giv[41]	_	_
-6-20	567-575	mutation	abstract[41]	giv[41]	_	_
+6-20	567-575	mutation	abstract[41]	abstract[41]	_	_
 6-21	576-585	operators	abstract[41]	giv[41]	_	_
 6-22	586-589	are	_	_	_	_
 6-23	590-597	applied	_	_	_	_
@@ -151,13 +151,13 @@
 9-13	805-816	introducing	_	_	_	_
 9-14	817-823	errors	_	_	_	_
 9-15	824-828	into	_	_	_	_
-9-16	829-830	a	abstract[381]	giv[381]	coref	10-7[67_381]
-9-17	831-837	System	abstract[381]	giv[381]	_	_
-9-18	838-843	Under	abstract[381]	giv[381]	_	_
-9-19	844-848	Test	abstract[381]	giv[381]	_	_
-9-20	849-850	(	abstract[381]	giv[381]	_	_
-9-21	851-854	SUT	abstract[381]	giv[381]	_	_
-9-22	855-856	)	_	_	_	_
+9-16	829-830	a	abstract[62]|abstract[382]	new[62]|giv[382]	coref|appos	10-7[67_382]|9-21[63_62]
+9-17	831-837	System	abstract[62]|abstract[382]	new[62]|giv[382]	_	_
+9-18	838-843	Under	abstract[62]|abstract[382]	new[62]|giv[382]	_	_
+9-19	844-848	Test	abstract[62]|abstract[382]	new[62]|giv[382]	_	_
+9-20	849-850	(	abstract[382]	giv[382]	_	_
+9-21	851-854	SUT	abstract[63]|abstract[382]	giv[63]|giv[382]	_	_
+9-22	855-856	)	abstract[382]	giv[382]	_	_
 9-23	857-858	.	_	_	_	_
 
 #Text=A mutant is a copy of the system in which a change has been done that , in most cases , will lead to a behaviour different than expected .
@@ -218,7 +218,7 @@
 12-8	1117-1119	we	person[77]	giv[77]	ana	14-5[97_77]
 12-9	1120-1124	have	_	_	_	_
 12-10	1125-1130	found	_	_	_	_
-12-11	1131-1139	mutation	abstract[79]	new[79]	coref	13-3[91_79]
+12-11	1131-1139	mutation	abstract[79]	abstract[79]	coref	13-3[91_79]
 12-12	1140-1149	operators	abstract[79]	new[79]	_	_
 12-13	1150-1151	,	abstract[79]	new[79]	_	_
 12-14	1152-1156	both	abstract[79]	new[79]	_	_
@@ -267,19 +267,19 @@
 14-4	1382-1383	,	_	_	_	_
 14-5	1384-1386	we	person[97]	giv[97]	ana	16-4[111_97]
 14-6	1387-1394	propose	_	_	_	_
-14-7	1395-1403	mutation	abstract[99]	giv[99]	coref	15-1[107_99]
+14-7	1395-1403	mutation	abstract[99]	abstract[99]	coref	15-1[107_99]
 14-8	1404-1413	operators	abstract[99]	giv[99]	_	_
 14-9	1414-1422	specific	abstract[99]	giv[99]	_	_
 14-10	1423-1425	to	abstract[99]	giv[99]	_	_
 14-11	1426-1429	the	abstract[99]	giv[99]	_	_
 14-12	1430-1436	domain	abstract[99]	giv[99]	_	_
 14-13	1437-1439	of	abstract[99]	giv[99]	_	_
-14-14	1440-1450	Geographic	abstract[99]	giv[99]	_	_
-14-15	1451-1462	Information	abstract[99]	giv[99]	_	_
-14-16	1463-1470	Systems	abstract[99]	giv[99]	_	_
-14-17	1471-1472	(	abstract[99]	giv[99]	_	_
-14-18	1473-1476	GIS	abstract[99]	giv[99]	_	_
-14-19	1477-1478	)	abstract[99]	giv[99]	_	_
+14-14	1440-1450	Geographic	abstract[99]	abstract[99]	_	_
+14-15	1451-1462	Information	abstract[99]	abstract[99]	_	_
+14-16	1463-1470	Systems	abstract[99]	abstract[99]	_	_
+14-17	1471-1472	(	abstract[99]	abstract[99]	_	_
+14-18	1473-1476	GIS	abstract[99]	abstract[99]	_	_
+14-19	1477-1478	)	abstract[99]	abstract[99]	_	_
 14-20	1479-1491	applications	abstract[99]	giv[99]	_	_
 14-21	1492-1493	.	_	_	_	_
 
@@ -351,7 +351,7 @@
 18-5	1844-1846	to	_	_	_	_
 18-6	1847-1856	designing	_	_	_	_
 18-7	1857-1860	the	abstract[130]	giv[130]	_	_
-18-8	1861-1869	mutation	abstract[130]	giv[130]	_	_
+18-8	1861-1869	mutation	abstract[130]	abstract[130]	_	_
 18-9	1870-1879	operators	abstract[130]	giv[130]	_	_
 18-10	1880-1881	,	_	_	_	_
 18-11	1882-1884	we	person[132]	giv[132]	ana	18-25[138_132]
@@ -387,7 +387,7 @@
 19-3	2060-2064	were	_	_	_	_
 19-4	2065-2075	formalized	_	_	_	_
 19-5	2076-2080	into	_	_	_	_
-19-6	2081-2089	mutation	abstract[145]	giv[145]	coref	20-5[148_145]
+19-6	2081-2089	mutation	abstract[145]	abstract[145]	coref	20-5[148_145]
 19-7	2090-2099	operators	abstract[145]	giv[145]	_	_
 19-8	2100-2101	.	_	_	_	_
 
@@ -466,7 +466,7 @@
 22-19	2453-2464	information	abstract[170]	new[170]	_	_
 22-20	2465-2467	of	abstract[170]	new[170]	_	_
 22-21	2468-2471	the	abstract[170]	new[170]	_	_
-22-22	2472-2480	mutation	abstract[170]	new[170]	_	_
+22-22	2472-2480	mutation	abstract[170]	abstract[170]	_	_
 22-23	2481-2490	operators	abstract[170]	new[170]	_	_
 22-24	2491-2495	that	abstract[170]	new[170]	_	_
 22-25	2496-2500	were	abstract[170]	new[170]	_	_
@@ -608,16 +608,16 @@
 28-20	3185-3186	.	_	_	_	_
 
 #Text=Listing 1 : A simplified definition of the ChangeCoordSys Operator .
-29-1	3187-3194	Listing	_	_	_	_
-29-2	3195-3196	1	_	_	_	_
+29-1	3187-3194	Listing	abstract[218]	giv[218]	appos	29-4[219_218]
+29-2	3195-3196	1	abstract[218]	giv[218]	_	_
 29-3	3197-3198	:	_	_	_	_
-29-4	3199-3200	A	_	_	_	_
-29-5	3201-3211	simplified	_	_	_	_
-29-6	3212-3222	definition	_	_	_	_
-29-7	3223-3225	of	_	_	_	_
-29-8	3226-3229	the	abstract[220]	giv[220]	coref	30-1[221_220]
-29-9	3230-3244	ChangeCoordSys	abstract[220]	giv[220]	_	_
-29-10	3245-3253	Operator	abstract[220]	giv[220]	_	_
+29-4	3199-3200	A	abstract[219]	giv[219]	_	_
+29-5	3201-3211	simplified	abstract[219]	giv[219]	_	_
+29-6	3212-3222	definition	abstract[219]	giv[219]	_	_
+29-7	3223-3225	of	abstract[219]	giv[219]	_	_
+29-8	3226-3229	the	abstract[219]|abstract[220]	giv[219]|giv[220]	coref	30-1[221_220]
+29-9	3230-3244	ChangeCoordSys	abstract[219]|abstract[220]	giv[219]|giv[220]	_	_
+29-10	3245-3253	Operator	abstract[219]|abstract[220]	giv[219]|giv[220]	_	_
 29-11	3254-3255	.	_	_	_	_
 
 #Text=This operator was applied to a mobile technology GIS application .
@@ -629,7 +629,7 @@
 30-6	3285-3286	a	abstract[222]	new[222]	coref	31-1[226_222]
 30-7	3287-3293	mobile	abstract[222]	new[222]	_	_
 30-8	3294-3304	technology	abstract[222]	new[222]	_	_
-30-9	3305-3308	GIS	abstract[222]	new[222]	_	_
+30-9	3305-3308	GIS	abstract[222]	abstract[222]	_	_
 30-10	3309-3320	application	abstract[222]	new[222]	_	_
 30-11	3321-3322	.	_	_	_	_
 
@@ -695,8 +695,8 @@
 34-11	3632-3639	central	_	_	_	_
 34-12	3640-3648	location	_	_	_	_
 34-13	3649-3650	,	_	_	_	_
-34-14	3651-3654	the	object[246]	new[246]	cata	34-10[244_246]
-34-15	3655-3661	device	object[246]	new[246]	_	_
+34-14	3651-3654	the	_	_	_	_
+34-15	3655-3661	device	_	_	_	_
 34-16	3662-3666	will	_	_	_	_
 34-17	3667-3674	receive	_	_	_	_
 34-18	3675-3684	incorrect	_	_	_	_
@@ -788,16 +788,16 @@
 38-35	4151-4152	.	_	_	_	_
 
 #Text=Listing 2 : A simplified definition of the BooleanPolygonConstraint Operator .
-39-1	4153-4160	Listing	_	_	_	_
-39-2	4161-4162	2	_	_	_	_
+39-1	4153-4160	Listing	abstract[282]	giv[282]	appos	39-4[283_282]
+39-2	4161-4162	2	abstract[282]	giv[282]	_	_
 39-3	4163-4164	:	_	_	_	_
-39-4	4165-4166	A	_	_	_	_
-39-5	4167-4177	simplified	_	_	_	_
-39-6	4178-4188	definition	_	_	_	_
-39-7	4189-4191	of	_	_	_	_
-39-8	4192-4195	the	abstract[284]	giv[284]	coref	40-3[285_284]
-39-9	4196-4220	BooleanPolygonConstraint	abstract[284]	giv[284]	_	_
-39-10	4221-4229	Operator	abstract[284]	giv[284]	_	_
+39-4	4165-4166	A	abstract[283]	giv[283]	_	_
+39-5	4167-4177	simplified	abstract[283]	giv[283]	_	_
+39-6	4178-4188	definition	abstract[283]	giv[283]	_	_
+39-7	4189-4191	of	abstract[283]	giv[283]	_	_
+39-8	4192-4195	the	abstract[283]|abstract[284]	giv[283]|giv[284]	coref	40-3[285_284]
+39-9	4196-4220	BooleanPolygonConstraint	abstract[283]|abstract[284]	giv[283]|giv[284]	_	_
+39-10	4221-4229	Operator	abstract[283]|abstract[284]	giv[283]|giv[284]	_	_
 39-11	4230-4231	.	_	_	_	_
 
 #Text=To test this operator it was applied to a land reparcelling system .
@@ -810,7 +810,7 @@
 40-7	4261-4268	applied	_	_	_	_
 40-8	4269-4271	to	_	_	_	_
 40-9	4272-4273	a	abstract[288]	new[288]	coref	42-2[301_288]
-40-10	4274-4278	land	abstract[288]|event[289]	new[288]|new[289]	coref	41-4[293_289]
+40-10	4274-4278	land	abstract[288]|event[289]	abstract[288]|event[289]	coref	41-4[293_289]
 40-11	4279-4291	reparcelling	abstract[288]|event[289]	new[288]|new[289]	_	_
 40-12	4292-4298	system	abstract[288]	new[288]	_	_
 40-13	4299-4300	.	_	_	_	_
@@ -820,7 +820,7 @@
 41-2	4305-4314	objective	_	_	_	_
 41-3	4315-4317	of	_	_	_	_
 41-4	4318-4321	the	event[293]	giv[293]	_	_
-41-5	4322-4326	land	event[293]	giv[293]	_	_
+41-5	4322-4326	land	event[293]	event[293]	_	_
 41-6	4327-4339	reparcelling	event[293]	giv[293]	_	_
 41-7	4340-4342	is	_	_	_	_
 41-8	4343-4345	to	_	_	_	_
@@ -914,7 +914,7 @@
 46-9	4785-4792	generic	abstract[323]	new[323]	_	_
 46-10	4793-4796	and	abstract[323]	new[323]	_	_
 46-11	4797-4805	specific	abstract[323]	new[323]	_	_
-46-12	4806-4814	mutation	abstract[323]	new[323]	_	_
+46-12	4806-4814	mutation	abstract[323]	abstract[323]	_	_
 46-13	4815-4824	operators	abstract[323]	new[323]	_	_
 46-14	4825-4826	.	_	_	_	_
 
@@ -936,23 +936,23 @@
 #Text=We have defined new operators specific to the GIS domain and a way to apply them to a SUT .
 48-1	4900-4902	We	person[331]	giv[331]	ana	49-4[342_331]
 48-2	4903-4907	have	_	_	_	_
-48-3	4908-4915	defined	abstract[333]	new[333]	coref	50-9[350_333]
-48-4	4916-4919	new	abstract[333]|abstract[334]	new[333]|new[334]	ana	48-16[339_334]
-48-5	4920-4929	operators	abstract[333]|abstract[334]	new[333]|new[334]	_	_
-48-6	4930-4938	specific	abstract[333]|abstract[334]	new[333]|new[334]	_	_
-48-7	4939-4941	to	abstract[333]|abstract[334]	new[333]|new[334]	_	_
-48-8	4942-4945	the	abstract[333]|abstract[334]	new[333]|new[334]	_	_
-48-9	4946-4949	GIS	abstract[333]|abstract[334]	new[333]|new[334]	_	_
-48-10	4950-4956	domain	abstract[333]|abstract[334]	new[333]|new[334]	_	_
-48-11	4957-4960	and	abstract[333]	new[333]	_	_
-48-12	4961-4962	a	abstract[333]	new[333]	_	_
-48-13	4963-4966	way	abstract[333]	new[333]	_	_
-48-14	4967-4969	to	abstract[333]	new[333]	_	_
-48-15	4970-4975	apply	abstract[333]	new[333]	_	_
-48-16	4976-4980	them	abstract[333]|abstract[339]	new[333]|giv[339]	coref	49-7[344_339]
-48-17	4981-4983	to	abstract[333]	new[333]	_	_
-48-18	4984-4985	a	abstract[333]	new[333]	_	_
-48-19	4986-4989	SUT	abstract[333]	new[333]	_	_
+48-3	4908-4915	defined	abstract[381]	new[381]	coref	50-9[350_381]
+48-4	4916-4919	new	abstract[334]	abstract[334]	ana	48-16[339_334]
+48-5	4920-4929	operators	abstract[334]	abstract[334]	_	_
+48-6	4930-4938	specific	abstract[334]	abstract[334]	_	_
+48-7	4939-4941	to	abstract[334]	abstract[334]	_	_
+48-8	4942-4945	the	abstract[334]	abstract[334]	_	_
+48-9	4946-4949	GIS	abstract[334]	abstract[334]	_	_
+48-10	4950-4956	domain	abstract[334]	abstract[334]	_	_
+48-11	4957-4960	and	_	_	_	_
+48-12	4961-4962	a	_	_	_	_
+48-13	4963-4966	way	_	_	_	_
+48-14	4967-4969	to	_	_	_	_
+48-15	4970-4975	apply	_	_	_	_
+48-16	4976-4980	them	abstract[339]	abstract[339]	coref	49-7[344_339]
+48-17	4981-4983	to	_	_	_	_
+48-18	4984-4985	a	_	_	_	_
+48-19	4986-4989	SUT	_	_	_	_
 48-20	4990-4991	.	_	_	_	_
 
 #Text=In addition , we have tested the operators defined in two GIS applications .
@@ -967,7 +967,7 @@
 49-9	5035-5042	defined	abstract[344]	giv[344]	_	_
 49-10	5043-5045	in	abstract[344]	giv[344]	_	_
 49-11	5046-5049	two	abstract[344]	giv[344]	_	_
-49-12	5050-5053	GIS	abstract[344]	giv[344]	_	_
+49-12	5050-5053	GIS	abstract[344]	abstract[344]	_	_
 49-13	5054-5066	applications	abstract[344]	giv[344]	_	_
 49-14	5067-5068	.	_	_	_	_
 

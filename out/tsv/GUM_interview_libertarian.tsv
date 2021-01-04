@@ -4,41 +4,41 @@
 
 
 #Text=Wikinews interviews Robert Sarvis , Libertarian Party nominee for Governor of Virginia
-1-1	0-8	Wikinews	organization[2]	new[2]	coref	3-23[25_2]
+1-1	0-8	Wikinews	organization[2]	organization[2]	coref	3-23[25_2]
 1-2	9-19	interviews	_	_	_	_
-1-3	20-26	Robert	person[378]	new[378]	coref	3-1[380_378]
-1-4	27-33	Sarvis	person[378]	new[378]	_	_
-1-5	34-35	,	person[378]	new[378]	_	_
-1-6	36-47	Libertarian	person[378]	new[378]	_	_
-1-7	48-53	Party	person[378]	new[378]	_	_
-1-8	54-61	nominee	person[378]	new[378]	_	_
-1-9	62-65	for	person[378]	new[378]	_	_
-1-10	66-74	Governor	person[7]|person[378]	new[7]|new[378]	coref	3-11[18_7]
-1-11	75-77	of	person[7]|person[378]	new[7]|new[378]	_	_
-1-12	78-86	Virginia	person[7]|place[8]|person[378]	new[7]|new[8]|new[378]	coref	4-12[34_8]
+1-3	20-26	Robert	person[4]|person[383]	person[4]|new[383]	appos|coref	1-6[5_4]|3-1[387_383]
+1-4	27-33	Sarvis	person[4]|person[383]	person[4]|new[383]	_	_
+1-5	34-35	,	person[383]	person[383]	_	_
+1-6	36-47	Libertarian	person[5]|person[383]	person[5]|person[383]	_	_
+1-7	48-53	Party	person[5]|person[383]	person[5]|person[383]	_	_
+1-8	54-61	nominee	person[5]|person[383]	person[5]|person[383]	_	_
+1-9	62-65	for	person[5]|person[383]	person[5]|person[383]	_	_
+1-10	66-74	Governor	person[5]|person[7]|person[383]	person[5]|person[7]|person[383]	coref	3-11[18_7]
+1-11	75-77	of	person[5]|person[7]|person[383]	person[5]|person[7]|person[383]	_	_
+1-12	78-86	Virginia	person[5]|person[7]|place[8]|person[383]	person[5]|person[7]|place[8]|person[383]	coref	4-12[34_8]
 
 #Text=Saturday , October 19 , 2013
-2-1	87-95	Saturday	_	_	_	_
-2-2	96-97	,	_	_	_	_
-2-3	98-105	October	_	_	_	_
-2-4	106-108	19	_	_	_	_
-2-5	109-110	,	_	_	_	_
-2-6	111-115	2013	_	_	_	_
+2-1	87-95	Saturday	time[9]|time[385]	acc[9]|acc[385]	appos|coref	2-3[12_9]|38-6[339_385]
+2-2	96-97	,	time[385]	acc[385]	_	_
+2-3	98-105	October	time[12]|time[385]	giv[12]|acc[385]	_	_
+2-4	106-108	19	time[12]|time[385]	giv[12]|acc[385]	_	_
+2-5	109-110	,	time[12]|time[385]	giv[12]|acc[385]	_	_
+2-6	111-115	2013	time[12]|time[385]	giv[12]|acc[385]	_	_
 
 #Text=Attorney Robert Sarvis , the Libertarian Party 's nominee for Governor of Virginia , answered five questions submitted via e-mail by accredited Wikinews reporter William Saturn .
-3-1	116-124	Attorney	person[380]	giv[380]	coref	4-1[26_380]
-3-2	125-131	Robert	person[380]	giv[380]	_	_
-3-3	132-138	Sarvis	person[380]	giv[380]	_	_
-3-4	139-140	,	person[380]	giv[380]	_	_
-3-5	141-144	the	person[380]	giv[380]	_	_
-3-6	145-156	Libertarian	person[380]	giv[380]	_	_
-3-7	157-162	Party	person[380]	giv[380]	_	_
-3-8	163-165	's	person[380]	giv[380]	_	_
-3-9	166-173	nominee	person[380]	giv[380]	_	_
-3-10	174-177	for	person[380]	giv[380]	_	_
-3-11	178-186	Governor	person[18]|person[380]	giv[18]|giv[380]	_	_
-3-12	187-189	of	person[18]|person[380]	giv[18]|giv[380]	_	_
-3-13	190-198	Virginia	person[18]|person[380]	giv[18]|giv[380]	_	_
+3-1	116-124	Attorney	person[15]|person[387]	giv[15]|giv[387]	appos|coref	3-5[16_15]|4-1[26_387]
+3-2	125-131	Robert	person[15]|person[387]	giv[15]|giv[387]	_	_
+3-3	132-138	Sarvis	person[15]|person[387]	giv[15]|giv[387]	_	_
+3-4	139-140	,	person[387]	giv[387]	_	_
+3-5	141-144	the	person[16]|person[387]	giv[16]|giv[387]	_	_
+3-6	145-156	Libertarian	person[16]|person[387]	giv[16]|giv[387]	_	_
+3-7	157-162	Party	person[16]|person[387]	giv[16]|giv[387]	_	_
+3-8	163-165	's	person[16]|person[387]	giv[16]|giv[387]	_	_
+3-9	166-173	nominee	person[16]|person[387]	giv[16]|giv[387]	_	_
+3-10	174-177	for	person[16]|person[387]	giv[16]|giv[387]	_	_
+3-11	178-186	Governor	person[16]|person[18]|person[387]	giv[16]|giv[18]|giv[387]	_	_
+3-12	187-189	of	person[16]|person[18]|person[387]	giv[16]|giv[18]|giv[387]	_	_
+3-13	190-198	Virginia	person[16]|person[18]|person[387]	giv[16]|giv[18]|giv[387]	_	_
 3-14	199-200	,	_	_	_	_
 3-15	201-209	answered	_	_	_	_
 3-16	210-214	five	_	_	_	_
@@ -55,7 +55,7 @@
 3-27	293-294	.	_	_	_	_
 
 #Text=Sarvis has garnered double digits in opinion polls for the 2013 Virginia gubernatorial election , an unusual feat for a third party candidate .
-4-1	295-301	Sarvis	person[26]	giv[26]	_	_
+4-1	295-301	Sarvis	person[26]	giv[26]	coref	4-20[38_26]
 4-2	302-305	has	_	_	_	_
 4-3	306-314	garnered	_	_	_	_
 4-4	315-321	double	_	_	_	_
@@ -66,7 +66,7 @@
 4-9	346-349	for	_	_	_	_
 4-10	350-353	the	_	_	_	_
 4-11	354-358	2013	_	_	_	_
-4-12	359-367	Virginia	place[34]	giv[34]	coref	7-19[81_34]
+4-12	359-367	Virginia	place[34]	place[34]	coref	8-29[113_34]
 4-13	368-381	gubernatorial	_	_	_	_
 4-14	382-390	election	_	_	_	_
 4-15	391-392	,	_	_	_	_
@@ -93,39 +93,39 @@
 5-10	491-497	placed	_	_	_	_
 5-11	498-501	him	person[45]	giv[45]	ana	7-2[67_45]
 5-12	502-504	at	_	_	_	_
-5-13	505-507	13	_	_	_	_
-5-14	508-515	percent	_	_	_	_
-5-15	516-517	,	_	_	_	_
-5-16	518-520	14	_	_	_	_
-5-17	521-527	points	_	_	_	_
-5-18	528-534	behind	_	_	_	_
-5-19	535-545	Republican	person[49]	new[49]	appos	5-25[51_49]
-5-20	546-551	Party	person[49]	new[49]	_	_
-5-21	552-559	nominee	person[49]	new[49]	_	_
-5-22	560-563	Ken	person[49]	new[49]	_	_
-5-23	564-574	Cuccinelli	person[49]	new[49]	_	_
-5-24	575-576	,	_	_	_	_
-5-25	577-585	Virginia	person[51]	giv[51]	_	_
-5-26	586-588	's	person[51]	giv[51]	_	_
-5-27	589-597	Attorney	person[51]	giv[51]	_	_
-5-28	598-605	General	person[51]	giv[51]	_	_
+5-13	505-507	13	abstract[47]|abstract[389]	new[47]|new[389]	appos|coref	5-16[48_47]|5-31[53_389]
+5-14	508-515	percent	abstract[47]|abstract[389]	new[47]|new[389]	_	_
+5-15	516-517	,	abstract[389]	new[389]	_	_
+5-16	518-520	14	abstract[48]|abstract[389]	giv[48]|new[389]	_	_
+5-17	521-527	points	abstract[48]|abstract[389]	giv[48]|new[389]	_	_
+5-18	528-534	behind	abstract[48]|abstract[389]	giv[48]|new[389]	_	_
+5-19	535-545	Republican	abstract[48]|person[49]|abstract[389]	giv[48]|new[49]|new[389]	appos	5-25[51_49]
+5-20	546-551	Party	abstract[48]|person[49]|abstract[389]	giv[48]|new[49]|new[389]	_	_
+5-21	552-559	nominee	abstract[48]|person[49]|abstract[389]	giv[48]|new[49]|new[389]	_	_
+5-22	560-563	Ken	abstract[48]|person[49]|abstract[389]	giv[48]|new[49]|new[389]	_	_
+5-23	564-574	Cuccinelli	abstract[48]|person[49]|abstract[389]	giv[48]|new[49]|new[389]	_	_
+5-24	575-576	,	abstract[48]|abstract[389]	giv[48]|new[389]	_	_
+5-25	577-585	Virginia	abstract[48]|person[51]|abstract[389]	giv[48]|giv[51]|new[389]	_	_
+5-26	586-588	's	abstract[48]|person[51]|abstract[389]	giv[48]|giv[51]|new[389]	_	_
+5-27	589-597	Attorney	abstract[48]|person[51]|abstract[389]	giv[48]|giv[51]|new[389]	_	_
+5-28	598-605	General	abstract[48]|person[51]|abstract[389]	giv[48]|giv[51]|new[389]	_	_
 5-29	606-607	,	_	_	_	_
 5-30	608-611	and	_	_	_	_
-5-31	612-614	19	_	_	_	_
-5-32	615-621	points	_	_	_	_
-5-33	622-628	behind	_	_	_	_
-5-34	629-639	Democratic	person[54]	new[54]	appos	5-40[56_54]
-5-35	640-645	Party	person[54]	new[54]	_	_
-5-36	646-653	nominee	person[54]	new[54]	_	_
-5-37	654-659	Terry	person[54]	new[54]	_	_
-5-38	660-669	McAuliffe	person[54]	new[54]	_	_
-5-39	670-671	,	_	_	_	_
-5-40	672-675	the	person[56]	giv[56]	_	_
-5-41	676-682	former	person[56]	giv[56]	_	_
-5-42	683-693	Democratic	person[56]	giv[56]	_	_
-5-43	694-702	National	person[56]	giv[56]	_	_
-5-44	703-712	Committee	person[56]	giv[56]	_	_
-5-45	713-721	chairman	person[56]	giv[56]	_	_
+5-31	612-614	19	abstract[53]	giv[53]	_	_
+5-32	615-621	points	abstract[53]	giv[53]	_	_
+5-33	622-628	behind	abstract[53]	giv[53]	_	_
+5-34	629-639	Democratic	abstract[53]|person[54]	giv[53]|new[54]	appos	5-40[56_54]
+5-35	640-645	Party	abstract[53]|person[54]	giv[53]|new[54]	_	_
+5-36	646-653	nominee	abstract[53]|person[54]	giv[53]|new[54]	_	_
+5-37	654-659	Terry	abstract[53]|person[54]	giv[53]|new[54]	_	_
+5-38	660-669	McAuliffe	abstract[53]|person[54]	giv[53]|new[54]	_	_
+5-39	670-671	,	abstract[53]	giv[53]	_	_
+5-40	672-675	the	abstract[53]|person[56]	giv[53]|giv[56]	_	_
+5-41	676-682	former	abstract[53]|person[56]	giv[53]|giv[56]	_	_
+5-42	683-693	Democratic	abstract[53]|person[56]	giv[53]|giv[56]	_	_
+5-43	694-702	National	abstract[53]|person[56]	giv[53]|giv[56]	_	_
+5-44	703-712	Committee	abstract[53]|person[56]	giv[53]|giv[56]	_	_
+5-45	713-721	chairman	abstract[53]|person[56]	giv[53]|giv[56]	_	_
 5-46	722-723	,	_	_	_	_
 5-47	724-728	with	_	_	_	_
 5-48	729-731	24	_	_	_	_
@@ -170,8 +170,8 @@
 7-16	942-943	,	_	_	_	_
 7-17	944-958	simplification	_	_	_	_
 7-18	959-961	of	_	_	_	_
-7-19	962-970	Virginia	place[81]	giv[81]	coref	8-29[113_81]
-7-20	971-973	's	place[81]	giv[81]	_	_
+7-19	962-970	Virginia	_	_	_	_
+7-20	971-973	's	_	_	_	_
 7-21	974-977	Tax	_	_	_	_
 7-22	978-982	Code	_	_	_	_
 7-23	983-984	,	_	_	_	_
@@ -202,14 +202,14 @@
 8-3	1095-1096	,	_	_	_	_
 8-4	1097-1103	Sarvis	person[94]	giv[94]	ana	8-6[99_94]
 8-5	1104-1113	discusses	_	_	_	_
-8-6	1114-1117	his	abstract[98]|person[99]	new[98]|giv[99]	coref|ana	10-8[120_98]|8-23[110_99]
+8-6	1114-1117	his	abstract[98]|person[99]	new[98]|giv[99]	ana|coref	8-23[110_99]|10-8[120_98]
 8-7	1118-1128	background	abstract[98]	new[98]	_	_
 8-8	1129-1130	,	_	_	_	_
-8-9	1131-1136	views	_	_	_	_
+8-9	1131-1136	views	abstract[380]	new[380]	coref	16-3[169_380]
 8-10	1137-1139	on	_	_	_	_
-8-11	1140-1149	McDonnell	time[102]	new[102]	coref	18-6[184_102]
-8-12	1150-1152	's	time[102]	new[102]	_	_
-8-13	1153-1159	tenure	time[102]	new[102]	_	_
+8-11	1140-1149	McDonnell	time[102]	time[102]	coref	18-6[184_102]
+8-12	1150-1152	's	time[102]	time[102]	_	_
+8-13	1153-1159	tenure	time[102]	time[102]	_	_
 8-14	1160-1161	,	_	_	_	_
 8-15	1162-1166	keys	_	_	_	_
 8-16	1167-1169	to	_	_	_	_
@@ -253,7 +253,7 @@
 10-15	1364-1365	?	_	_	_	_
 
 #Text=I am the only candidate born and raised in Virginia , but also the only candidate who embodies both physically and philosophically the growing diversity of the commonwealth .
-11-1	1366-1367	I	person[123]	giv[123]	_	_
+11-1	1366-1367	I	person[123]	giv[123]	ana	12-2[133_123]
 11-2	1368-1370	am	_	_	_	_
 11-3	1371-1374	the	_	_	_	_
 11-4	1375-1379	only	_	_	_	_
@@ -300,7 +300,7 @@
 12-14	1609-1610	)	_	_	_	_
 
 #Text=I am the only candidate who has studied both economics and law , and the only candidate with a background in technology entrepreneurship .
-13-1	1611-1612	I	person[136]	giv[136]	_	_
+13-1	1611-1612	I	person[136]	giv[136]	ana	14-3[146_136]
 13-2	1613-1615	am	_	_	_	_
 13-3	1616-1619	the	_	_	_	_
 13-4	1620-1624	only	_	_	_	_
@@ -366,7 +366,7 @@
 14-38	1985-1986	.	_	_	_	_
 
 #Text=I am the only candidate who believes in both economic freedom and personal liberty and the only candidate who stands on principle against cronyism and corporatism and in favor of the rule of law .
-15-1	1987-1988	I	person[158]	giv[158]	_	_
+15-1	1987-1988	I	person[158]	giv[158]	ana	16-3[170_158]
 15-2	1989-1991	am	_	_	_	_
 15-3	1992-1995	the	_	_	_	_
 15-4	1996-2000	only	_	_	_	_
@@ -405,19 +405,19 @@
 #Text=What are your thoughts on the job Bob McDonnell has done as Governor of Virginia ?
 16-1	2184-2188	What	_	_	_	_
 16-2	2189-2192	are	_	_	_	_
-16-3	2193-2197	your	person[170]	giv[170]	ana	17-3[176_170]
-16-4	2198-2206	thoughts	_	_	_	_
-16-5	2207-2209	on	_	_	_	_
-16-6	2210-2213	the	_	_	_	_
-16-7	2214-2217	job	_	_	_	_
-16-8	2218-2221	Bob	person[173]	giv[173]	coref	16-13[174_173]
-16-9	2222-2231	McDonnell	person[173]	giv[173]	_	_
-16-10	2232-2235	has	_	_	_	_
-16-11	2236-2240	done	_	_	_	_
-16-12	2241-2243	as	_	_	_	_
-16-13	2244-2252	Governor	person[174]	giv[174]	ana	17-8[177_174]
-16-14	2253-2255	of	person[174]	giv[174]	_	_
-16-15	2256-2264	Virginia	person[174]|place[175]	giv[174]|giv[175]	coref	29-10[282_175]
+16-3	2193-2197	your	abstract[169]|person[170]	giv[169]|giv[170]	ana	17-3[176_170]
+16-4	2198-2206	thoughts	abstract[169]	giv[169]	_	_
+16-5	2207-2209	on	abstract[169]	giv[169]	_	_
+16-6	2210-2213	the	abstract[169]	giv[169]	_	_
+16-7	2214-2217	job	abstract[169]	giv[169]	_	_
+16-8	2218-2221	Bob	abstract[169]|person[173]	giv[169]|giv[173]	coref	16-13[174_173]
+16-9	2222-2231	McDonnell	abstract[169]|person[173]	giv[169]|giv[173]	_	_
+16-10	2232-2235	has	abstract[169]	giv[169]	_	_
+16-11	2236-2240	done	abstract[169]	giv[169]	_	_
+16-12	2241-2243	as	abstract[169]	giv[169]	_	_
+16-13	2244-2252	Governor	abstract[169]|person[174]	giv[169]|giv[174]	ana	17-8[177_174]
+16-14	2253-2255	of	abstract[169]|person[174]	giv[169]|giv[174]	_	_
+16-15	2256-2264	Virginia	abstract[169]|person[174]|place[175]	giv[169]|giv[174]|giv[175]	coref	29-10[282_175]
 16-16	2265-2266	?	_	_	_	_
 
 #Text=What would you have done differently than him ?
@@ -432,33 +432,33 @@
 17-9	2313-2314	?	_	_	_	_
 
 #Text=McDonnell did well early in his term pushing back against Senate Democrats who wanted huge tax increases in response to major revenue shortfalls during the recession .
-18-1	2315-2324	McDonnell	event[181]|person[182]	new[181]|giv[182]	ana|coref	18-6[185_182]|19-1[194_181]
-18-2	2325-2328	did	event[181]	new[181]	_	_
-18-3	2329-2333	well	event[181]	new[181]	_	_
-18-4	2334-2339	early	event[181]	new[181]	_	_
-18-5	2340-2342	in	event[181]	new[181]	_	_
-18-6	2343-2346	his	event[181]|time[184]|person[185]	new[181]|giv[184]|giv[185]	ana	19-6[196_185]
-18-7	2347-2351	term	event[181]|time[184]	new[181]|giv[184]	_	_
-18-8	2352-2359	pushing	event[181]	new[181]	_	_
-18-9	2360-2364	back	event[181]	new[181]	_	_
-18-10	2365-2372	against	event[181]	new[181]	_	_
-18-11	2373-2379	Senate	event[181]	new[181]	_	_
-18-12	2380-2389	Democrats	event[181]	new[181]	_	_
-18-13	2390-2393	who	event[181]	new[181]	_	_
-18-14	2394-2400	wanted	event[181]	new[181]	_	_
-18-15	2401-2405	huge	event[181]	new[181]	_	_
-18-16	2406-2409	tax	event[181]	new[181]	_	_
-18-17	2410-2419	increases	event[181]	new[181]	_	_
-18-18	2420-2422	in	event[181]	new[181]	_	_
-18-19	2423-2431	response	event[181]	new[181]	_	_
-18-20	2432-2434	to	event[181]	new[181]	_	_
-18-21	2435-2440	major	event[181]	new[181]	_	_
-18-22	2441-2448	revenue	event[181]	new[181]	_	_
-18-23	2449-2459	shortfalls	event[181]	new[181]	_	_
-18-24	2460-2466	during	event[181]	new[181]	_	_
-18-25	2467-2470	the	event[181]	new[181]	_	_
-18-26	2471-2480	recession	event[181]	new[181]	_	_
-18-27	2481-2482	.	event[181]	new[181]	_	_
+18-1	2315-2324	McDonnell	person[182]	person[182]	ana	18-6[185_182]
+18-2	2325-2328	did	event[381]	new[381]	coref	19-1[194_381]
+18-3	2329-2333	well	_	_	_	_
+18-4	2334-2339	early	_	_	_	_
+18-5	2340-2342	in	_	_	_	_
+18-6	2343-2346	his	time[184]|person[185]	time[184]|person[185]	ana	19-6[196_185]
+18-7	2347-2351	term	time[184]	time[184]	_	_
+18-8	2352-2359	pushing	_	_	_	_
+18-9	2360-2364	back	_	_	_	_
+18-10	2365-2372	against	_	_	_	_
+18-11	2373-2379	Senate	_	_	_	_
+18-12	2380-2389	Democrats	_	_	_	_
+18-13	2390-2393	who	_	_	_	_
+18-14	2394-2400	wanted	_	_	_	_
+18-15	2401-2405	huge	_	_	_	_
+18-16	2406-2409	tax	_	_	_	_
+18-17	2410-2419	increases	_	_	_	_
+18-18	2420-2422	in	_	_	_	_
+18-19	2423-2431	response	_	_	_	_
+18-20	2432-2434	to	_	_	_	_
+18-21	2435-2440	major	_	_	_	_
+18-22	2441-2448	revenue	_	_	_	_
+18-23	2449-2459	shortfalls	_	_	_	_
+18-24	2460-2466	during	_	_	_	_
+18-25	2467-2470	the	_	_	_	_
+18-26	2471-2480	recession	_	_	_	_
+18-27	2481-2482	.	_	_	_	_
 
 #Text=Those early budget efforts are his highest achievements as Governor .
 19-1	2483-2488	Those	event[194]	giv[194]	_	_
@@ -555,14 +555,14 @@
 23-9	2993-3006	gubernatorial	_	_	_	_
 23-10	3007-3012	level	_	_	_	_
 23-11	3013-3014	,	_	_	_	_
-23-12	3015-3018	you	event[230]|person[231]	new[230]|giv[231]	ana|coref	24-3[234_231]|24-5[236_230]
-23-13	3019-3023	have	event[230]	new[230]	_	_
-23-14	3024-3028	done	event[230]	new[230]	_	_
-23-15	3029-3042	exceptionally	event[230]	new[230]	_	_
-23-16	3043-3047	well	event[230]	new[230]	_	_
-23-17	3048-3050	in	event[230]	new[230]	_	_
-23-18	3051-3058	opinion	event[230]	new[230]	_	_
-23-19	3059-3066	polling	event[230]	new[230]	_	_
+23-12	3015-3018	you	person[231]	person[231]	ana	24-3[234_231]
+23-13	3019-3023	have	_	_	_	_
+23-14	3024-3028	done	event[382]	event[382]	coref	24-5[236_382]
+23-15	3029-3042	exceptionally	_	_	_	_
+23-16	3043-3047	well	_	_	_	_
+23-17	3048-3050	in	_	_	_	_
+23-18	3051-3058	opinion	_	_	_	_
+23-19	3059-3066	polling	_	_	_	_
 23-20	3067-3068	.	_	_	_	_
 
 #Text=What do you attribute that success to ?
@@ -887,7 +887,7 @@
 38-3	4721-4723	be	_	_	_	_
 38-4	4724-4725	a	_	_	_	_
 38-5	4726-4737	Libertarian	_	_	_	_
-38-6	4738-4743	today	_	_	_	_
+38-6	4738-4743	today	time[339]	giv[339]	_	_
 38-7	4744-4745	.	_	_	_	_
 
 #Text=Robert Sarvis .

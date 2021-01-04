@@ -8,7 +8,7 @@
 1-2	7-16	Bernoulli	person[1]	new[1]	_	_
 
 #Text=Daniel Bernoulli FRS ( German pronunciation : [ bɛʁˈnʊli ] ; 8 February 1700 – 17 March 1782 ) was a Swiss mathematician and physicist and was one of the many prominent mathematicians in the Bernoulli family .
-2-1	17-23	Daniel	person[2]	giv[2]	_	_
+2-1	17-23	Daniel	person[2]	giv[2]	ana	3-1[18_2]
 2-2	24-33	Bernoulli	person[2]	giv[2]	_	_
 2-3	34-37	FRS	person[2]	giv[2]	_	_
 2-4	38-39	(	_	_	_	_
@@ -133,10 +133,10 @@
 #Text=Frontpage of Hydrodynamica ( 1738 )
 7-1	700-709	Frontpage	_	_	_	_
 7-2	710-712	of	_	_	_	_
-7-3	713-726	Hydrodynamica	_	_	_	_
-7-4	727-728	(	_	_	_	_
-7-5	729-733	1738	_	_	_	_
-7-6	734-735	)	_	_	_	_
+7-3	713-726	Hydrodynamica	abstract[55]	new[55]	coref	16-9[502_55]
+7-4	727-728	(	abstract[55]	new[55]	_	_
+7-5	729-733	1738	abstract[55]	new[55]	_	_
+7-6	734-735	)	abstract[55]	new[55]	_	_
 
 #Text=Daniel Bernoulli was born in Groningen , in the Netherlands , into a family of distinguished mathematicians .
 8-1	736-742	Daniel	person[58]	giv[58]	coref	11-1[75_58]
@@ -205,24 +205,24 @@
 10-15	1084-1085	.	_	_	_	_
 
 #Text=Daniel was a son of Johann Bernoulli ( one of the " early developers " of calculus ) and a nephew of Jacob Bernoulli ( who " was the first to discover the theory of probability " ) .
-11-1	1086-1092	Daniel	person[75]	giv[75]	_	_
+11-1	1086-1092	Daniel	person[75]	giv[75]	coref	11-20[83_75]
 11-2	1093-1096	was	_	_	_	_
 11-3	1097-1098	a	_	_	_	_
 11-4	1099-1102	son	_	_	_	_
 11-5	1103-1105	of	_	_	_	_
-11-6	1106-1112	Johann	person[494]	giv[494]	coref	14-11[103_494]
-11-7	1113-1122	Bernoulli	person[494]	giv[494]	_	_
-11-8	1123-1124	(	person[494]	giv[494]	_	_
-11-9	1125-1128	one	person[494]	giv[494]	_	_
-11-10	1129-1131	of	person[494]	giv[494]	_	_
-11-11	1132-1135	the	person[494]	giv[494]	_	_
-11-12	1136-1137	"	person[494]	giv[494]	_	_
-11-13	1138-1143	early	person[494]	giv[494]	_	_
-11-14	1144-1154	developers	person[494]	giv[494]	_	_
-11-15	1155-1156	"	person[494]	giv[494]	_	_
-11-16	1157-1159	of	person[494]	giv[494]	_	_
-11-17	1160-1168	calculus	person[494]	giv[494]	_	_
-11-18	1169-1170	)	_	_	_	_
+11-6	1106-1112	Johann	person[79]|person[498]	new[79]|giv[498]	coref|appos	14-11[103_498]|11-9[80_79]
+11-7	1113-1122	Bernoulli	person[79]|person[498]	new[79]|giv[498]	_	_
+11-8	1123-1124	(	person[498]	giv[498]	_	_
+11-9	1125-1128	one	person[80]|person[498]	giv[80]|giv[498]	_	_
+11-10	1129-1131	of	person[80]|person[498]	giv[80]|giv[498]	_	_
+11-11	1132-1135	the	person[80]|person[498]	giv[80]|giv[498]	_	_
+11-12	1136-1137	"	person[80]|person[498]	giv[80]|giv[498]	_	_
+11-13	1138-1143	early	person[80]|person[498]	giv[80]|giv[498]	_	_
+11-14	1144-1154	developers	person[80]|person[498]	giv[80]|giv[498]	_	_
+11-15	1155-1156	"	person[80]|person[498]	giv[80]|giv[498]	_	_
+11-16	1157-1159	of	person[80]|person[498]	giv[80]|giv[498]	_	_
+11-17	1160-1168	calculus	person[80]|person[498]	giv[80]|giv[498]	_	_
+11-18	1169-1170	)	person[498]	giv[498]	_	_
 11-19	1171-1174	and	_	_	_	_
 11-20	1175-1176	a	person[83]	giv[83]	ana	12-1[88_83]
 11-21	1177-1183	nephew	person[83]	giv[83]	_	_
@@ -291,7 +291,7 @@
 14-8	1444-1447	bad	_	_	_	_
 14-9	1448-1460	relationship	_	_	_	_
 14-10	1461-1465	with	_	_	_	_
-14-11	1466-1469	his	person[103]|person[104]	giv[103]|giv[104]	coref|coref	15-38[116_104]|15-21[111_103]
+14-11	1466-1469	his	person[103]|person[104]	giv[103]|giv[104]	coref|coref	15-21[111_103]|15-38[116_104]
 14-12	1470-1476	father	person[103]	giv[103]	_	_
 14-13	1477-1478	.	_	_	_	_
 
@@ -333,7 +333,7 @@
 15-35	1651-1656	equal	_	_	_	_
 15-36	1657-1658	,	_	_	_	_
 15-37	1659-1665	banned	_	_	_	_
-15-38	1666-1672	Daniel	person[116]	giv[116]	coref	17-2[137_116]
+15-38	1666-1672	Daniel	person[116]	giv[116]	ana	17-8[141_116]
 15-39	1673-1677	from	_	_	_	_
 15-40	1678-1681	his	person[119]	giv[119]	coref	16-1[121_119]
 15-41	1682-1687	house	_	_	_	_
@@ -348,10 +348,10 @@
 16-6	1729-1732	key	_	_	_	_
 16-7	1733-1738	ideas	_	_	_	_
 16-8	1739-1743	from	_	_	_	_
-16-9	1744-1750	Daniel	abstract[123]|abstract[496]	giv[123]|giv[496]	coref|appos	16-23[131_496]|16-12[125_123]
-16-10	1751-1753	's	abstract[123]|abstract[496]	giv[123]|giv[496]	_	_
-16-11	1754-1758	book	abstract[123]|abstract[496]	giv[123]|giv[496]	_	_
-16-12	1759-1772	Hydrodynamica	abstract[125]|abstract[496]	giv[125]|giv[496]	_	_
+16-9	1744-1750	Daniel	abstract[123]|abstract[502]	giv[123]|giv[502]	appos|coref	16-12[125_123]|16-23[131_502]
+16-10	1751-1753	's	abstract[123]|abstract[502]	giv[123]|giv[502]	_	_
+16-11	1754-1758	book	abstract[123]|abstract[502]	giv[123]|giv[502]	_	_
+16-12	1759-1772	Hydrodynamica	abstract[125]|abstract[502]	giv[125]|giv[502]	_	_
 16-13	1773-1775	in	_	_	_	_
 16-14	1776-1779	his	person[128]	giv[128]	ana	16-19[130_128]
 16-15	1780-1783	own	_	_	_	_
@@ -367,19 +367,19 @@
 
 #Text=Despite Daniel 's attempts at reconciliation , his father carried the grudge until his death .
 17-1	1845-1852	Despite	_	_	_	_
-17-2	1853-1859	Daniel	person[137]	giv[137]	ana	17-8[141_137]
-17-3	1860-1862	's	person[137]	giv[137]	_	_
+17-2	1853-1859	Daniel	_	_	_	_
+17-3	1860-1862	's	_	_	_	_
 17-4	1863-1871	attempts	_	_	_	_
 17-5	1872-1874	at	_	_	_	_
 17-6	1875-1889	reconciliation	_	_	_	_
 17-7	1890-1891	,	_	_	_	_
-17-8	1892-1895	his	person[140]|person[141]	giv[140]|giv[141]	ana|ana	17-14[145_140]|18-5[149_141]
+17-8	1892-1895	his	person[140]|person[141]	giv[140]|giv[141]	ana|ana	18-5[149_141]|17-14[145_140]
 17-9	1896-1902	father	person[140]	giv[140]	_	_
 17-10	1903-1910	carried	_	_	_	_
 17-11	1911-1914	the	_	_	_	_
 17-12	1915-1921	grudge	_	_	_	_
 17-13	1922-1927	until	_	_	_	_
-17-14	1928-1931	his	person[145]	giv[145]	coref	18-5[498_145]
+17-14	1928-1931	his	person[145]	giv[145]	coref	18-5[506_145]
 17-15	1932-1937	death	_	_	_	_
 17-16	1938-1939	.	_	_	_	_
 
@@ -388,10 +388,10 @@
 18-2	1947-1956	schooling	_	_	_	_
 18-3	1957-1960	age	_	_	_	_
 18-4	1961-1962	,	_	_	_	_
-18-5	1963-1966	his	person[148]|person[149]|person[498]	giv[148]|giv[149]|giv[498]	appos|ana|coref	18-8[150_148]|18-11[151_149]|21-1[173_498]
-18-6	1967-1973	father	person[148]|person[498]	giv[148]|giv[498]	_	_
-18-7	1974-1975	,	person[498]	giv[498]	_	_
-18-8	1976-1982	Johann	person[150]|person[498]	giv[150]|giv[498]	_	_
+18-5	1963-1966	his	person[148]|person[149]|person[506]	giv[148]|giv[149]|giv[506]	coref|ana|appos	21-1[173_506]|18-11[151_149]|18-8[150_148]
+18-6	1967-1973	father	person[148]|person[506]	giv[148]|giv[506]	_	_
+18-7	1974-1975	,	person[506]	giv[506]	_	_
+18-8	1976-1982	Johann	person[150]|person[506]	giv[150]|giv[506]	_	_
 18-9	1983-1984	,	_	_	_	_
 18-10	1985-1995	encouraged	_	_	_	_
 18-11	1996-1999	him	person[151]	giv[151]	coref	19-3[159_151]
@@ -438,7 +438,7 @@
 20-13	2200-2201	.	_	_	_	_
 
 #Text=His father then asked him to study in medicine , and Daniel agreed under the condition that his father would teach him mathematics privately , which they continued for some time .
-21-1	2202-2205	His	person[173]|person[174]	giv[173]|giv[174]	coref|ana	21-18[183_173]|21-5[175_174]
+21-1	2202-2205	His	person[173]|person[174]	giv[173]|giv[174]	ana|coref	21-5[175_174]|21-18[183_173]
 21-2	2206-2212	father	person[173]	giv[173]	_	_
 21-3	2213-2217	then	_	_	_	_
 21-4	2218-2223	asked	_	_	_	_
@@ -509,7 +509,7 @@
 23-11	2553-2554	.	_	_	_	_
 
 #Text=He went to St. Petersburg in 1724 as professor of mathematics , but was very unhappy there , and a temporary illness in 1733 gave him an excuse for leaving St. Petersburg .
-24-1	2555-2557	He	person[214]	giv[214]	_	_
+24-1	2555-2557	He	person[214]	giv[214]	coref	24-9[219_214]
 24-2	2558-2562	went	_	_	_	_
 24-3	2563-2565	to	_	_	_	_
 24-4	2566-2569	St.	_	_	_	_
@@ -675,15 +675,15 @@
 31-17	3399-3402	are	_	_	_	_
 31-18	3403-3415	consequences	_	_	_	_
 31-19	3416-3418	of	_	_	_	_
-31-20	3419-3420	a	abstract[500]	giv[500]	coref	40-15[386_500]
-31-21	3421-3427	single	abstract[500]	giv[500]	_	_
-31-22	3428-3437	principle	abstract[500]	giv[500]	_	_
-31-23	3438-3439	,	abstract[500]	giv[500]	_	_
-31-24	3440-3446	namely	abstract[500]	giv[500]	_	_
-31-25	3447-3448	,	abstract[500]	giv[500]	_	_
-31-26	3449-3461	conservation	abstract[500]	giv[500]	_	_
-31-27	3462-3464	of	abstract[500]	giv[500]	_	_
-31-28	3465-3471	energy	abstract[290]|abstract[500]	giv[290]|giv[500]	coref	40-17[387_290]
+31-20	3419-3420	a	abstract[288]|abstract[510]	new[288]|giv[510]	appos|coref	31-26[289_288]|40-15[386_510]
+31-21	3421-3427	single	abstract[288]|abstract[510]	new[288]|giv[510]	_	_
+31-22	3428-3437	principle	abstract[288]|abstract[510]	new[288]|giv[510]	_	_
+31-23	3438-3439	,	abstract[510]	giv[510]	_	_
+31-24	3440-3446	namely	abstract[510]	giv[510]	_	_
+31-25	3447-3448	,	abstract[510]	giv[510]	_	_
+31-26	3449-3461	conservation	abstract[289]|abstract[510]	giv[289]|giv[510]	_	_
+31-27	3462-3464	of	abstract[289]|abstract[510]	giv[289]|giv[510]	_	_
+31-28	3465-3471	energy	abstract[289]|abstract[290]|abstract[510]	giv[289]|giv[290]|giv[510]	coref	40-17[387_290]
 31-29	3472-3473	.	_	_	_	_
 
 #Text=This was followed by a memoir on the theory of the tides , to which , conjointly with the memoirs by Euler and Colin Maclaurin , a prize was awarded by the French Academy : these three memoirs contain all that was done on this subject between the publication of Isaac Newton 's Philosophiae Naturalis Principia Mathematica and the investigations of Pierre-Simon Laplace .
@@ -833,7 +833,7 @@
 36-2	4256-4267	investigate	_	_	_	_
 36-3	4268-4272	this	abstract[336]	giv[336]	_	_
 36-4	4273-4274	,	_	_	_	_
-36-5	4275-4281	Daniel	person[337]	giv[337]	ana	40-2[380_337]
+36-5	4275-4281	Daniel	person[337]	giv[337]	coref	40-2[380_337]
 36-6	4282-4294	experimented	_	_	_	_
 36-7	4295-4297	by	_	_	_	_
 36-8	4298-4308	puncturing	_	_	_	_
@@ -983,20 +983,20 @@
 41-2	5024-5027	was	_	_	_	_
 41-3	5028-5033	known	_	_	_	_
 41-4	5034-5038	that	_	_	_	_
-41-5	5039-5040	a	abstract[391]|object[392]	new[391]|new[392]	cata|ana	41-1[388_391]|41-9[394_392]
-41-6	5041-5047	moving	abstract[391]|object[392]	new[391]|new[392]	_	_
-41-7	5048-5052	body	abstract[391]|object[392]	new[391]|new[392]	_	_
-41-8	5053-5062	exchanges	abstract[391]	new[391]	_	_
-41-9	5063-5066	its	abstract[391]|object[394]	new[391]|giv[394]	ana	41-16[397_394]
-41-10	5067-5074	kinetic	abstract[391]	new[391]	_	_
-41-11	5075-5081	energy	abstract[391]	new[391]	_	_
-41-12	5082-5085	for	abstract[391]	new[391]	_	_
-41-13	5086-5095	potential	abstract[391]	new[391]	_	_
-41-14	5096-5102	energy	abstract[391]	new[391]	_	_
-41-15	5103-5107	when	abstract[391]	new[391]	_	_
-41-16	5108-5110	it	abstract[391]|object[397]	new[391]|giv[397]	_	_
-41-17	5111-5116	gains	abstract[391]	new[391]	_	_
-41-18	5117-5123	height	abstract[391]	new[391]	_	_
+41-5	5039-5040	a	object[392]	new[392]	ana	41-9[394_392]
+41-6	5041-5047	moving	object[392]	new[392]	_	_
+41-7	5048-5052	body	object[392]	new[392]	_	_
+41-8	5053-5062	exchanges	_	_	_	_
+41-9	5063-5066	its	object[394]	giv[394]	ana	41-16[397_394]
+41-10	5067-5074	kinetic	_	_	_	_
+41-11	5075-5081	energy	_	_	_	_
+41-12	5082-5085	for	_	_	_	_
+41-13	5086-5095	potential	_	_	_	_
+41-14	5096-5102	energy	_	_	_	_
+41-15	5103-5107	when	_	_	_	_
+41-16	5108-5110	it	object[397]	giv[397]	_	_
+41-17	5111-5116	gains	_	_	_	_
+41-18	5117-5123	height	_	_	_	_
 41-19	5124-5125	.	_	_	_	_
 
 #Text=Daniel realised that in a similar way , a moving fluid exchanges its kinetic energy for pressure .
@@ -1008,15 +1008,15 @@
 42-6	5152-5159	similar	_	_	_	_
 42-7	5160-5163	way	_	_	_	_
 42-8	5164-5165	,	_	_	_	_
-42-9	5166-5167	a	abstract[404]|substance[405]	new[404]|new[405]	coref|ana	43-2[411_404]|42-13[407_405]
-42-10	5168-5174	moving	abstract[404]|substance[405]	new[404]|new[405]	_	_
-42-11	5175-5180	fluid	abstract[404]|substance[405]	new[404]|new[405]	_	_
-42-12	5181-5190	exchanges	abstract[404]	new[404]	_	_
-42-13	5191-5194	its	abstract[404]|substance[407]	new[404]|giv[407]	coref	43-26[433_407]
-42-14	5195-5202	kinetic	abstract[404]	new[404]	_	_
-42-15	5203-5209	energy	abstract[404]	new[404]	_	_
-42-16	5210-5213	for	abstract[404]	new[404]	_	_
-42-17	5214-5222	pressure	abstract[404]	new[404]	_	_
+42-9	5166-5167	a	substance[405]	substance[405]	ana	42-13[407_405]
+42-10	5168-5174	moving	substance[405]	substance[405]	_	_
+42-11	5175-5180	fluid	substance[405]	substance[405]	_	_
+42-12	5181-5190	exchanges	abstract[492]	abstract[492]	coref	43-2[411_492]
+42-13	5191-5194	its	substance[407]	substance[407]	coref	43-26[433_407]
+42-14	5195-5202	kinetic	_	_	_	_
+42-15	5203-5209	energy	_	_	_	_
+42-16	5210-5213	for	_	_	_	_
+42-17	5214-5222	pressure	_	_	_	_
 42-18	5223-5224	.	_	_	_	_
 
 #Text=Mathematically this law is now written : ½ ρ u 2 + P = constant where P is pressure , ρ is the density of the fluid and u is its velocity .
@@ -1063,12 +1063,12 @@
 44-6	5391-5393	is	_	_	_	_
 44-7	5394-5398	that	_	_	_	_
 44-8	5399-5401	if	_	_	_	_
-44-9	5402-5405	the	abstract[442]	giv[442]	_	_
-44-10	5406-5414	velocity	abstract[442]	giv[442]	_	_
+44-9	5402-5405	the	abstract[442]	abstract[442]	_	_
+44-10	5406-5414	velocity	abstract[442]	abstract[442]	_	_
 44-11	5415-5424	increases	_	_	_	_
 44-12	5425-5429	then	_	_	_	_
-44-13	5430-5433	the	abstract[443]	giv[443]	_	_
-44-14	5434-5442	pressure	abstract[443]	giv[443]	_	_
+44-13	5430-5433	the	abstract[443]	abstract[443]	_	_
+44-14	5434-5442	pressure	abstract[443]	abstract[443]	_	_
 44-15	5443-5448	falls	_	_	_	_
 44-16	5449-5450	.	_	_	_	_
 
@@ -1090,7 +1090,7 @@
 45-15	5525-5527	an	object[446]|place[448]	new[446]|new[448]	coref	46-4[456_448]
 45-16	5528-5532	area	object[446]|place[448]	new[446]|new[448]	_	_
 45-17	5533-5538	above	object[446]|place[448]	new[446]|new[448]	_	_
-45-18	5539-5542	its	object[446]|place[448]	new[446]|new[448]	_	_
+45-18	5539-5542	its	object[446]|place[448]	object[446]|place[448]	_	_
 45-19	5543-5550	surface	object[446]|place[448]	new[446]|new[448]	_	_
 45-20	5551-5556	where	object[446]	new[446]	_	_
 45-21	5557-5560	the	object[446]	new[446]	_	_

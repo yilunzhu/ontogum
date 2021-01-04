@@ -17,12 +17,12 @@
 1-11	68-73	crops	_	_	_	_
 
 #Text=Monday , July 28 , 2014
-2-1	74-80	Monday	_	_	_	_
+2-1	74-80	Monday	time[8]	acc[8]	appos	2-3[11_8]
 2-2	81-82	,	_	_	_	_
-2-3	83-87	July	_	_	_	_
-2-4	88-90	28	_	_	_	_
-2-5	91-92	,	_	_	_	_
-2-6	93-97	2014	_	_	_	_
+2-3	83-87	July	time[11]	giv[11]	_	_
+2-4	88-90	28	time[11]	giv[11]	_	_
+2-5	91-92	,	time[11]	giv[11]	_	_
+2-6	93-97	2014	time[11]	giv[11]	_	_
 
 #Text=A research team from the Massachusetts Institute of Technology and Colorado State University of the US and the University of Sheffield of the UK has analysed effects of global warming and ozone pollution over 2000 - 2050 on the worldwide production of wheat , rice , maize and soybean .
 3-1	98-99	A	person[15]	giv[15]	coref	5-1[46_15]
@@ -129,7 +129,7 @@
 6-9	664-670	future	abstract[63]	new[63]	coref	9-1[82_63]
 6-10	671-677	levels	abstract[63]	new[63]	_	_
 6-11	678-680	of	abstract[63]	new[63]	_	_
-6-12	681-686	ozone	abstract[63]	new[63]	_	_
+6-12	681-686	ozone	abstract[63]	abstract[63]	_	_
 6-13	687-696	pollution	abstract[63]	new[63]	_	_
 6-14	697-698	.	_	_	_	_
 
@@ -177,7 +177,7 @@
 9-1	918-921	the	abstract[82]	giv[82]	_	_
 9-2	922-928	future	abstract[82]	giv[82]	_	_
 9-3	929-931	of	abstract[82]	giv[82]	_	_
-9-4	932-937	ozone	abstract[82]	giv[82]	_	_
+9-4	932-937	ozone	abstract[82]	abstract[82]	_	_
 9-5	938-947	pollution	abstract[82]	giv[82]	_	_
 9-6	948-950	is	_	_	_	_
 9-7	951-955	very	_	_	_	_
@@ -249,7 +249,7 @@
 12-9	1328-1333	known	_	_	_	_
 12-10	1334-1336	to	_	_	_	_
 12-11	1337-1343	impact	_	_	_	_
-12-12	1344-1348	crop	object[113]	giv[113]	coref	13-7[124_113]
+12-12	1344-1348	crop	object[113]	object[113]	coref	13-7[124_113]
 12-13	1349-1355	yields	object[113]	giv[113]	_	_
 12-14	1356-1357	,	_	_	_	_
 12-15	1358-1359	"	_	_	_	_

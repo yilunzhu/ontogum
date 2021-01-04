@@ -16,12 +16,12 @@
 1-10	60-64	ants	_	_	_	_
 
 #Text=Tuesday , September 1 , 2015
-2-1	65-72	Tuesday	_	_	_	_
+2-1	65-72	Tuesday	time[5]	acc[5]	appos	2-3[7_5]
 2-2	73-74	,	_	_	_	_
-2-3	75-84	September	_	_	_	_
-2-4	85-86	1	_	_	_	_
-2-5	87-88	,	_	_	_	_
-2-6	89-93	2015	_	_	_	_
+2-3	75-84	September	time[7]	acc[7]	_	_
+2-4	85-86	1	time[7]	acc[7]	_	_
+2-5	87-88	,	time[7]	acc[7]	_	_
+2-6	89-93	2015	time[7]	acc[7]	_	_
 
 #Text=Formica fusca , from file .
 3-1	94-101	Formica	_	_	_	_
@@ -167,11 +167,11 @@
 11-3	785-789	were	_	_	_	_
 11-4	790-798	infected	_	_	_	_
 11-5	799-803	with	_	_	_	_
-11-6	804-813	Beauveria	plant[466]	new[466]	coref	40-10[470_466]
-11-7	814-822	bassiana	plant[466]	new[466]	_	_
-11-8	823-824	,	plant[466]	new[466]	_	_
-11-9	825-826	a	plant[466]	new[466]	_	_
-11-10	827-833	fungus	plant[466]	new[466]	_	_
+11-6	804-813	Beauveria	plant[61]|plant[471]	new[61]|new[471]	appos|coref	11-9[62_61]|40-10[479_471]
+11-7	814-822	bassiana	plant[61]|plant[471]	new[61]|new[471]	_	_
+11-8	823-824	,	plant[471]	new[471]	_	_
+11-9	825-826	a	plant[62]|plant[471]	giv[62]|new[471]	_	_
+11-10	827-833	fungus	plant[62]|plant[471]	giv[62]|new[471]	_	_
 11-11	834-835	.	_	_	_	_
 
 #Text=Infected ants chose food laced with toxic hydrogen peroxide , whereas healthy ants avoided it .
@@ -309,11 +309,11 @@
 20-4	1490-1491	a	_	_	_	_
 20-5	1492-1495	pun	_	_	_	_
 20-6	1496-1507	referencing	_	_	_	_
-20-7	1508-1512	ants	animal[116]	new[116]	appos	20-9[118_116]
-20-8	1513-1514	,	_	_	_	_
-20-9	1515-1518	its	animal[118]|abstract[119]	giv[118]|giv[119]	_	_
-20-10	1519-1526	primary	animal[118]	giv[118]	_	_
-20-11	1527-1532	topic	animal[118]	giv[118]	_	_
+20-7	1508-1512	ants	animal[116]|animal[473]	new[116]|giv[473]	coref|appos	24-7[139_473]|20-9[118_116]
+20-8	1513-1514	,	animal[473]	giv[473]	_	_
+20-9	1515-1518	its	animal[118]|abstract[119]|animal[473]	giv[118]|giv[119]|giv[473]	_	_
+20-10	1519-1526	primary	animal[118]|animal[473]	giv[118]|giv[473]	_	_
+20-11	1527-1532	topic	animal[118]|animal[473]	giv[118]|giv[473]	_	_
 20-12	1533-1534	,	_	_	_	_
 20-13	1535-1542	science	_	_	_	_
 20-14	1543-1544	,	_	_	_	_
@@ -359,7 +359,7 @@
 24-4	1726-1729	you	person[138]	giv[138]	ana	25-1[143_138]
 24-5	1730-1732	to	_	_	_	_
 24-6	1733-1744	researching	_	_	_	_
-24-7	1745-1749	ants	_	_	_	_
+24-7	1745-1749	ants	animal[139]	giv[139]	_	_
 24-8	1750-1751	?	_	_	_	_
 
 #Text=Me and a studymate were keeping a lot of animals during our studies , from beetles , to butterflies and mantids , to ants .
@@ -419,12 +419,12 @@
 27-1	1984-1988	This	_	_	_	_
 27-2	1989-1992	was	_	_	_	_
 27-3	1993-1995	in	_	_	_	_
-27-4	1996-1998	my	time[172]|person[173]	new[172]|giv[173]	cata|ana	27-1[166_172]|27-10[176_173]
-27-5	1999-2004	third	time[172]	new[172]	_	_
-27-6	2005-2009	year	time[172]	new[172]	_	_
-27-7	2010-2012	of	time[172]	new[172]	_	_
-27-8	2013-2020	Biology	time[172]	new[172]	_	_
-27-9	2021-2026	study	time[172]	new[172]	_	_
+27-4	1996-1998	my	person[173]	giv[173]	ana	27-10[176_173]
+27-5	1999-2004	third	_	_	_	_
+27-6	2005-2009	year	_	_	_	_
+27-7	2010-2012	of	_	_	_	_
+27-8	2013-2020	Biology	_	_	_	_
+27-9	2021-2026	study	_	_	_	_
 27-10	2027-2028	I	person[176]	giv[176]	ana	28-4[179_176]
 27-11	2029-2034	think	_	_	_	_
 27-12	2035-2036	.	_	_	_	_
@@ -515,16 +515,16 @@
 30-23	2441-2442	.	_	_	_	_
 
 #Text=What methods and equipment were used for this investigation ?
-31-1	2443-2447	What	abstract[210]	new[210]	ana	32-1[213_210]
-31-2	2448-2455	methods	abstract[210]	new[210]	_	_
-31-3	2456-2459	and	abstract[210]	new[210]	_	_
-31-4	2460-2469	equipment	abstract[210]	new[210]	_	_
-31-5	2470-2474	were	abstract[210]	new[210]	_	_
-31-6	2475-2479	used	abstract[210]	new[210]	_	_
-31-7	2480-2483	for	abstract[210]	new[210]	_	_
-31-8	2484-2488	this	abstract[210]	new[210]	_	_
-31-9	2489-2502	investigation	abstract[210]	new[210]	_	_
-31-10	2503-2504	?	abstract[210]	new[210]	_	_
+31-1	2443-2447	What	_	_	_	_
+31-2	2448-2455	methods	_	_	_	_
+31-3	2456-2459	and	_	_	_	_
+31-4	2460-2469	equipment	_	_	_	_
+31-5	2470-2474	were	_	_	_	_
+31-6	2475-2479	used	abstract[465]	abstract[465]	ana	32-1[213_465]
+31-7	2480-2483	for	_	_	_	_
+31-8	2484-2488	this	_	_	_	_
+31-9	2489-2502	investigation	_	_	_	_
+31-10	2503-2504	?	_	_	_	_
 
 #Text=This is a fun one .
 32-1	2505-2509	This	abstract[213]	giv[213]	_	_
@@ -638,11 +638,11 @@
 36-8	3000-3001	I	person[248]	giv[248]	ana	55-4[400_248]
 36-9	3002-3006	made	_	_	_	_
 36-10	3007-3012	using	_	_	_	_
-36-11	3013-3019	Y-tong	substance[468]	new[468]	ana	37-1[253_468]
-36-12	3020-3021	[	substance[468]	new[468]	_	_
-36-13	3022-3029	aerated	substance[468]	new[468]	_	_
-36-14	3030-3038	concrete	substance[468]	new[468]	_	_
-36-15	3039-3040	]	_	_	_	_
+36-11	3013-3019	Y-tong	substance[249]|substance[475]	new[249]|new[475]	appos|ana	36-13[252_249]|37-1[253_475]
+36-12	3020-3021	[	substance[475]	new[475]	_	_
+36-13	3022-3029	aerated	substance[252]|substance[475]	giv[252]|new[475]	_	_
+36-14	3030-3038	concrete	substance[252]|substance[475]	giv[252]|new[475]	_	_
+36-15	3039-3040	]	substance[475]	new[475]	_	_
 36-16	3041-3042	.	_	_	_	_
 
 #Text=It 's very soft stone that you can easily carve .
@@ -726,10 +726,10 @@
 40-7	3383-3384	a	substance[281]	new[281]	coref	41-8[285_281]
 40-8	3385-3393	solution	substance[281]	new[281]	_	_
 40-9	3394-3396	of	substance[281]	new[281]	_	_
-40-10	3397-3400	the	substance[281]|plant[282]|plant[470]	new[281]|giv[282]|new[470]	coref|appos	42-6[290_470]|40-12[283_282]
-40-11	3401-3407	fungus	substance[281]|plant[282]|plant[470]	new[281]|giv[282]|new[470]	_	_
-40-12	3408-3417	Beauveria	substance[281]|plant[283]|plant[470]	new[281]|giv[283]|new[470]	_	_
-40-13	3418-3426	bassiana	substance[281]|plant[283]|plant[470]	new[281]|giv[283]|new[470]	_	_
+40-10	3397-3400	the	substance[281]|plant[282]|plant[479]	new[281]|giv[282]|new[479]	appos|coref	40-12[283_282]|42-6[290_479]
+40-11	3401-3407	fungus	substance[281]|plant[282]|plant[479]	new[281]|giv[282]|new[479]	_	_
+40-12	3408-3417	Beauveria	substance[281]|plant[283]|plant[479]	new[281]|giv[283]|new[479]	_	_
+40-13	3418-3426	bassiana	substance[281]|plant[283]|plant[479]	new[281]|giv[283]|new[479]	_	_
 40-14	3427-3428	.	_	_	_	_
 
 #Text=Afterwards , each ant was dipped in the solution for a couple of seconds , dried on a cloth and put in the nest .
@@ -781,15 +781,15 @@
 42-19	3639-3642	day	_	_	_	_
 42-20	3643-3644	,	_	_	_	_
 42-21	3645-3648	and	_	_	_	_
-42-22	3649-3656	counted	event[298]	new[298]	ana	45-1[308_298]
-42-23	3657-3660	how	event[298]	new[298]	_	_
-42-24	3661-3665	many	event[298]	new[298]	_	_
-42-25	3666-3670	ants	event[298]	new[298]	_	_
-42-26	3671-3675	were	event[298]	new[298]	_	_
-42-27	3676-3683	present	event[298]	new[298]	_	_
-42-28	3684-3686	on	event[298]	new[298]	_	_
-42-29	3687-3691	each	event[298]	new[298]	_	_
-42-30	3692-3703	food-source	event[298]	new[298]	_	_
+42-22	3649-3656	counted	event[466]	new[466]	ana	45-1[308_466]
+42-23	3657-3660	how	_	_	_	_
+42-24	3661-3665	many	_	_	_	_
+42-25	3666-3670	ants	_	_	_	_
+42-26	3671-3675	were	_	_	_	_
+42-27	3676-3683	present	_	_	_	_
+42-28	3684-3686	on	_	_	_	_
+42-29	3687-3691	each	_	_	_	_
+42-30	3692-3703	food-source	_	_	_	_
 42-31	3704-3705	.	_	_	_	_
 
 #Text=Example of aerated concrete , which provided a home for the subjects .
@@ -842,11 +842,11 @@
 46-7	3922-3928	sooner	abstract[318]	acc[318]	_	_
 46-8	3929-3933	when	abstract[318]	acc[318]	_	_
 46-9	3934-3943	ingesting	abstract[318]	acc[318]	_	_
-46-10	3944-3947	ROS	abstract[318]|substance[320]|substance[471]	acc[318]|new[320]|acc[471]	appos|coref	46-12[322_320]|46-16[323_471]
-46-11	3948-3949	[	abstract[318]|substance[471]	acc[318]|acc[471]	_	_
-46-12	3950-3958	Reactive	abstract[318]|substance[322]|substance[471]	acc[318]|giv[322]|acc[471]	_	_
-46-13	3959-3965	Oxygen	abstract[318]|substance[322]|substance[471]	acc[318]|giv[322]|acc[471]	_	_
-46-14	3966-3973	Species	abstract[318]|substance[322]|substance[471]	acc[318]|giv[322]|acc[471]	_	_
+46-10	3944-3947	ROS	abstract[318]|substance[320]|substance[481]	acc[318]|new[320]|acc[481]	appos|coref	46-12[322_320]|46-16[323_481]
+46-11	3948-3949	[	abstract[318]|substance[481]	acc[318]|acc[481]	_	_
+46-12	3950-3958	Reactive	abstract[318]|substance[322]|substance[481]	acc[318]|giv[322]|acc[481]	_	_
+46-13	3959-3965	Oxygen	abstract[318]|substance[322]|substance[481]	acc[318]|giv[322]|acc[481]	_	_
+46-14	3966-3973	Species	abstract[318]|substance[322]|substance[481]	acc[318]|giv[322]|acc[481]	_	_
 46-15	3974-3975	,	abstract[318]	acc[318]	_	_
 46-16	3976-3979	the	abstract[318]|substance[323]	acc[318]|giv[323]	coref	46-44[331_323]
 46-17	3980-3985	group	abstract[318]|substance[323]	acc[318]|giv[323]	_	_
@@ -931,13 +931,13 @@
 48-12	4359-4362	two	_	_	_	_
 48-13	4363-4368	weeks	_	_	_	_
 48-14	4369-4371	we	person[349]	giv[349]	ana	49-3[355_349]
-48-15	4372-4377	count	event[351]	new[351]	ana	49-1[354_351]
-48-16	4378-4383	every	event[351]	new[351]	_	_
-48-17	4384-4387	day	event[351]	new[351]	_	_
-48-18	4388-4391	how	event[351]	new[351]	_	_
-48-19	4392-4396	many	event[351]	new[351]	_	_
-48-20	4397-4401	ants	event[351]	new[351]	_	_
-48-21	4402-4406	died	event[351]	new[351]	_	_
+48-15	4372-4377	count	event[467]	new[467]	ana	49-1[354_467]
+48-16	4378-4383	every	_	_	_	_
+48-17	4384-4387	day	_	_	_	_
+48-18	4388-4391	how	_	_	_	_
+48-19	4392-4396	many	_	_	_	_
+48-20	4397-4401	ants	_	_	_	_
+48-21	4402-4406	died	_	_	_	_
 48-22	4407-4408	.	_	_	_	_
 
 #Text=This gives us the data to do a so-called survival analysis .
@@ -1092,11 +1092,11 @@
 57-13	5112-5115	and	_	_	_	_
 57-14	5116-5124	wherever	_	_	_	_
 57-15	5125-5133	possible	_	_	_	_
-57-16	5134-5136	we	event[412]|person[413]	new[412]|giv[413]	ana	58-1[416_412]
-57-17	5137-5146	conducted	event[412]	new[412]	_	_
-57-18	5147-5150	the	event[412]	new[412]	_	_
-57-19	5151-5161	experiment	event[412]	new[412]	_	_
-57-20	5162-5167	blind	event[412]	new[412]	_	_
+57-16	5134-5136	we	person[413]	person[413]	_	_
+57-17	5137-5146	conducted	event[468]	event[468]	ana	58-1[416_468]
+57-18	5147-5150	the	_	_	_	_
+57-19	5151-5161	experiment	_	_	_	_
+57-20	5162-5167	blind	_	_	_	_
 57-21	5168-5169	.	_	_	_	_
 
 #Text=This means the experimenter does n't know which ants belong to which treatment , so it 's impossible to influence the results with ' observer bias ' .
@@ -1118,15 +1118,15 @@
 58-16	5254-5256	it	_	_	_	_
 58-17	5257-5259	's	_	_	_	_
 58-18	5260-5270	impossible	_	_	_	_
-58-19	5271-5273	to	event[423]	new[423]	cata	58-16[421_423]
-58-20	5274-5283	influence	event[423]	new[423]	_	_
-58-21	5284-5287	the	event[423]|abstract[424]	new[423]|giv[424]	ana	59-5[427_424]
-58-22	5288-5295	results	event[423]|abstract[424]	new[423]|giv[424]	_	_
-58-23	5296-5300	with	event[423]	new[423]	_	_
-58-24	5301-5302	'	event[423]	new[423]	_	_
-58-25	5303-5311	observer	event[423]	new[423]	_	_
-58-26	5312-5316	bias	event[423]	new[423]	_	_
-58-27	5317-5318	'	event[423]	new[423]	_	_
+58-19	5271-5273	to	_	_	_	_
+58-20	5274-5283	influence	_	_	_	_
+58-21	5284-5287	the	abstract[424]	giv[424]	ana	59-5[427_424]
+58-22	5288-5295	results	abstract[424]	giv[424]	_	_
+58-23	5296-5300	with	_	_	_	_
+58-24	5301-5302	'	_	_	_	_
+58-25	5303-5311	observer	_	_	_	_
+58-26	5312-5316	bias	_	_	_	_
+58-27	5317-5318	'	_	_	_	_
 58-28	5319-5320	.	_	_	_	_
 
 #Text=However , of course this is proof in just one species .

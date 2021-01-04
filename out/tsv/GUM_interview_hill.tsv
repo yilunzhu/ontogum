@@ -6,14 +6,14 @@
 #Text=Wikinews interviews Christopher Hill , U.S. Republican Party presidential candidate
 1-1	0-8	Wikinews	_	_	_	_
 1-2	9-19	interviews	_	_	_	_
-1-3	20-31	Christopher	person[395]	new[395]	ana	3-4[12_395]
-1-4	32-36	Hill	person[395]	new[395]	_	_
-1-5	37-38	,	person[395]	new[395]	_	_
-1-6	39-43	U.S.	organization[6]|place[7]	acc[6]|acc[7]	coref|coref	4-14[27_7]|21-8[143_6]
-1-7	44-54	Republican	organization[6]|person[395]	acc[6]|new[395]	_	_
-1-8	55-60	Party	organization[6]|person[395]	acc[6]|new[395]	_	_
-1-9	61-73	presidential	person[395]	new[395]	_	_
-1-10	74-83	candidate	person[395]	new[395]	_	_
+1-3	20-31	Christopher	person[4]|person[399]	person[4]|new[399]	appos|ana	1-6[5_4]|3-4[12_399]
+1-4	32-36	Hill	person[4]|person[399]	person[4]|new[399]	_	_
+1-5	37-38	,	person[399]	new[399]	_	_
+1-6	39-43	U.S.	person[5]|organization[6]|place[7]|person[399]	person[5]|organization[6]|place[7]|new[399]	coref|coref	21-8[143_6]|4-14[27_7]
+1-7	44-54	Republican	person[5]|organization[6]|person[399]	person[5]|organization[6]|new[399]	_	_
+1-8	55-60	Party	person[5]|organization[6]|person[399]	person[5]|organization[6]|new[399]	_	_
+1-9	61-73	presidential	person[5]|person[399]	person[5]|new[399]	_	_
+1-10	74-83	candidate	person[5]|person[399]	person[5]|new[399]	_	_
 
 #Text=Interview
 2-1	84-93	Interview	_	_	_	_
@@ -462,11 +462,11 @@
 28-9	2053-2054	,	_	_	_	_
 28-10	2055-2057	we	person[181]	giv[181]	ana	30-2[189_181]
 28-11	2058-2062	must	_	_	_	_
-28-12	2063-2068	raise	event[183]	new[183]	ana	29-1[185_183]
-28-13	2069-2074	money	event[183]	new[183]	_	_
-28-14	2075-2078	and	event[183]	new[183]	_	_
-28-15	2079-2083	poll	event[183]	new[183]	_	_
-28-16	2084-2094	nationally	event[183]	new[183]	_	_
+28-12	2063-2068	raise	event[396]	new[396]	ana	29-1[185_396]
+28-13	2069-2074	money	_	_	_	_
+28-14	2075-2078	and	_	_	_	_
+28-15	2079-2083	poll	_	_	_	_
+28-16	2084-2094	nationally	_	_	_	_
 28-17	2095-2096	.	_	_	_	_
 
 #Text=This is an effort that is underway .
@@ -866,7 +866,7 @@
 #Text=Anything else you would like to add ?
 54-1	3926-3934	Anything	_	_	_	_
 54-2	3935-3939	else	_	_	_	_
-54-3	3940-3943	you	person[342]	giv[342]	ana	57-1[348_342]
+54-3	3940-3943	you	person[342]	person[342]	ana	57-1[348_342]
 54-4	3944-3949	would	_	_	_	_
 54-5	3950-3954	like	_	_	_	_
 54-6	3955-3957	to	_	_	_	_
@@ -894,22 +894,22 @@
 57-2	4023-4030	believe	_	_	_	_
 57-3	4031-4033	it	_	_	_	_
 57-4	4034-4036	is	_	_	_	_
-57-5	4037-4040	our	event[352]|person[353]	new[352]|giv[353]	ana|cata	57-20[358_353]|57-3[349_352]
-57-6	4041-4055	responsibility	event[352]	new[352]	_	_
-57-7	4056-4058	to	event[355]	giv[355]	coref	58-8[364_355]
-57-8	4059-4063	pass	event[355]	giv[355]	_	_
-57-9	4064-4066	on	event[355]	giv[355]	_	_
-57-10	4067-4070	the	event[355]	giv[355]	_	_
-57-11	4071-4075	same	event[355]	giv[355]	_	_
-57-12	4076-4089	opportunities	event[355]	giv[355]	_	_
-57-13	4090-4092	to	event[355]	giv[355]	_	_
-57-14	4093-4099	future	event[355]	giv[355]	_	_
-57-15	4100-4111	generations	event[355]	giv[355]	_	_
-57-16	4112-4116	that	event[355]	giv[355]	_	_
-57-17	4117-4121	were	event[355]	giv[355]	_	_
-57-18	4122-4130	promised	event[355]	giv[355]	_	_
-57-19	4131-4133	to	event[355]	giv[355]	_	_
-57-20	4134-4136	us	event[355]|person[358]	giv[355]|giv[358]	_	_
+57-5	4037-4040	our	person[353]	giv[353]	ana	57-20[358_353]
+57-6	4041-4055	responsibility	_	_	_	_
+57-7	4056-4058	to	_	_	_	_
+57-8	4059-4063	pass	event[398]	event[398]	coref	58-8[364_398]
+57-9	4064-4066	on	_	_	_	_
+57-10	4067-4070	the	_	_	_	_
+57-11	4071-4075	same	_	_	_	_
+57-12	4076-4089	opportunities	_	_	_	_
+57-13	4090-4092	to	_	_	_	_
+57-14	4093-4099	future	_	_	_	_
+57-15	4100-4111	generations	_	_	_	_
+57-16	4112-4116	that	_	_	_	_
+57-17	4117-4121	were	_	_	_	_
+57-18	4122-4130	promised	_	_	_	_
+57-19	4131-4133	to	_	_	_	_
+57-20	4134-4136	us	person[358]	person[358]	_	_
 57-21	4137-4138	.	_	_	_	_
 
 #Text=As President , I intend to keep that promise !

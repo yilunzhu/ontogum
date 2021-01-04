@@ -116,8 +116,8 @@
 4-34	547-550	are	_	_	_	_
 4-35	551-554	not	_	_	_	_
 4-36	555-557	in	_	_	_	_
-4-37	558-561	the	place[38]	acc[38]	coref	20-27[265_38]
-4-38	562-567	world	place[38]	acc[38]	_	_
+4-37	558-561	the	_	_	_	_
+4-38	562-567	world	_	_	_	_
 4-39	568-569	.	_	_	_	_
 
 #Text=Silent and sparkling , bright and baleful , those moon-cursed waters hurried I knew not whither ; whilst from the embowered banks white lotos-blossoms fluttered one by one in the opiate night-wind and dropped despairingly into the stream , swirling away horribly under the arched , carven bridge , and staring back with the sinister resignation of calm , dead faces .
@@ -335,7 +335,7 @@
 8-8	1665-1666	,	_	_	_	_
 8-9	1667-1670	and	_	_	_	_
 8-10	1671-1675	over	_	_	_	_
-8-11	1676-1679	its	object[105]|place[106]	new[105]|giv[106]	coref|coref	12-8[144_106]|10-28[133_105]
+8-11	1676-1679	its	object[105]|place[106]	new[105]|giv[106]	coref|coref	10-28[133_105]|12-8[144_106]
 8-12	1680-1687	unvocal	object[105]	new[105]	_	_
 8-13	1688-1693	waves	object[105]	new[105]	_	_
 8-14	1694-1699	weird	_	_	_	_
@@ -674,7 +674,7 @@
 17-29	3204-3205	,	_	_	_	_
 17-30	3206-3208	as	_	_	_	_
 17-31	3209-3211	if	_	_	_	_
-17-32	3212-3214	my	object[209]|person[210]	new[209]|giv[210]	coref|ana	18-3[218_209]|17-39[214_210]
+17-32	3212-3214	my	object[209]|person[210]	new[209]|giv[210]	ana|coref	17-39[214_210]|18-3[218_209]
 17-33	3215-3220	flesh	object[209]	new[209]	_	_
 17-34	3221-3224	had	_	_	_	_
 17-35	3225-3231	caught	_	_	_	_

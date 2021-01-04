@@ -16,12 +16,12 @@
 1-10	68-79	Paralympics	_	_	_	_
 
 #Text=Saturday , November 16 , 2013
-2-1	80-88	Saturday	_	_	_	_
+2-1	80-88	Saturday	time[7]	acc[7]	appos	2-3[10_7]
 2-2	89-90	,	_	_	_	_
-2-3	91-99	November	_	_	_	_
-2-4	100-102	16	_	_	_	_
-2-5	103-104	,	_	_	_	_
-2-6	105-109	2013	_	_	_	_
+2-3	91-99	November	time[10]	giv[10]	_	_
+2-4	100-102	16	time[10]	giv[10]	_	_
+2-5	103-104	,	time[10]	giv[10]	_	_
+2-6	105-109	2013	time[10]	giv[10]	_	_
 
 #Text=A Russian stamp for Paralympic Games in Sochi in 2014
 3-1	110-111	A	_	_	_	_
@@ -47,7 +47,7 @@
 4-9	202-207	start	_	_	_	_
 4-10	208-210	of	_	_	_	_
 4-11	211-214	the	event[23]	giv[23]	coref	16-16[164_23]
-4-12	215-219	2014	event[23]	giv[23]	_	_
+4-12	215-219	2014	event[23]	event[23]	_	_
 4-13	220-226	Winter	event[23]	giv[23]	_	_
 4-14	227-238	Paralympics	event[23]	giv[23]	_	_
 4-15	239-241	in	event[23]	giv[23]	_	_
@@ -413,9 +413,9 @@
 16-19	2311-2320	televised	_	_	_	_
 16-20	2321-2325	live	_	_	_	_
 16-21	2326-2328	in	_	_	_	_
-16-22	2329-2332	the	place[166]	giv[166]	coref	18-15[176_166]
-16-23	2333-2339	United	place[166]	giv[166]	_	_
-16-24	2340-2346	States	place[166]	giv[166]	_	_
+16-22	2329-2332	the	place[166]	place[166]	coref	18-15[176_166]
+16-23	2333-2339	United	place[166]	place[166]	_	_
+16-24	2340-2346	States	place[166]	place[166]	_	_
 16-25	2347-2350	for	_	_	_	_
 16-26	2351-2356	first	_	_	_	_
 16-27	2357-2361	time	_	_	_	_
@@ -442,14 +442,14 @@
 18-7	2436-2440	that	_	_	_	_
 18-8	2441-2444	NBC	organization[174]	new[174]	coref	19-10[179_174]
 18-9	2445-2447	as	organization[174]	new[174]	_	_
-18-10	2448-2451	the	organization[174]	new[174]	_	_
-18-11	2452-2464	broadcasting	organization[174]	new[174]	_	_
-18-12	2465-2471	rights	organization[174]	new[174]	_	_
-18-13	2472-2477	owner	organization[174]	new[174]	_	_
-18-14	2478-2481	for	organization[174]	new[174]	_	_
-18-15	2482-2485	the	organization[174]|place[176]	new[174]|giv[176]	coref	21-22[196_176]
-18-16	2486-2492	United	organization[174]|place[176]	new[174]|giv[176]	_	_
-18-17	2493-2499	States	organization[174]|place[176]	new[174]|giv[176]	_	_
+18-10	2448-2451	the	organization[174]	organization[174]	_	_
+18-11	2452-2464	broadcasting	organization[174]	organization[174]	_	_
+18-12	2465-2471	rights	organization[174]	organization[174]	_	_
+18-13	2472-2477	owner	organization[174]	organization[174]	_	_
+18-14	2478-2481	for	organization[174]	organization[174]	_	_
+18-15	2482-2485	the	organization[174]|place[176]	organization[174]|place[176]	coref	21-22[196_176]
+18-16	2486-2492	United	organization[174]|place[176]	organization[174]|place[176]	_	_
+18-17	2493-2499	States	organization[174]|place[176]	organization[174]|place[176]	_	_
 18-18	2500-2504	will	_	_	_	_
 18-19	2505-2508	use	_	_	_	_
 18-20	2509-2511	to	_	_	_	_
@@ -470,7 +470,7 @@
 19-7	2575-2585	regionally	_	_	_	_
 19-8	2586-2587	,	_	_	_	_
 19-9	2588-2590	on	_	_	_	_
-19-10	2591-2594	NBC	organization[179]	giv[179]	coref	24-15[220_179]
+19-10	2591-2594	NBC	organization[179]	giv[179]	ana	24-15[220_179]
 19-11	2595-2597	or	_	_	_	_
 19-12	2598-2600	on	_	_	_	_
 19-13	2601-2604	any	_	_	_	_
@@ -568,14 +568,14 @@
 
 #Text=So showing the Paralympics live on United States television might turn out to be less glamorous than it appears .
 23-1	3042-3044	So	_	_	_	_
-23-2	3045-3052	showing	event[211]	giv[211]	ana	23-18[215_211]
-23-3	3053-3056	the	event[211]|event[212]	giv[211]|giv[212]	coref	24-8[219_212]
-23-4	3057-3068	Paralympics	event[211]|event[212]	giv[211]|giv[212]	_	_
-23-5	3069-3073	live	event[211]	giv[211]	_	_
-23-6	3074-3076	on	event[211]	giv[211]	_	_
-23-7	3077-3083	United	event[211]|place[214]	giv[211]|giv[214]	_	_
-23-8	3084-3090	States	event[211]|place[214]	giv[211]|giv[214]	_	_
-23-9	3091-3101	television	event[211]	giv[211]	_	_
+23-2	3045-3052	showing	event[299]	giv[299]	ana	23-18[215_299]
+23-3	3053-3056	the	event[212]	event[212]	coref	24-8[219_212]
+23-4	3057-3068	Paralympics	event[212]	event[212]	_	_
+23-5	3069-3073	live	_	_	_	_
+23-6	3074-3076	on	_	_	_	_
+23-7	3077-3083	United	place[214]	place[214]	_	_
+23-8	3084-3090	States	place[214]	place[214]	_	_
+23-9	3091-3101	television	_	_	_	_
 23-10	3102-3107	might	_	_	_	_
 23-11	3108-3112	turn	_	_	_	_
 23-12	3113-3116	out	_	_	_	_
@@ -607,7 +607,7 @@
 24-16	3230-3234	have	_	_	_	_
 24-17	3235-3238	its	person[222]|organization[223]	new[222]|giv[223]	ana	25-2[230_222]
 24-18	3239-3243	best	person[222]	new[222]	_	_
-24-19	3244-3250	sports	person[222]	new[222]	_	_
+24-19	3244-3250	sports	person[222]	person[222]	_	_
 24-20	3251-3263	broadcasters	person[222]	new[222]	_	_
 24-21	3264-3273	following	_	_	_	_
 24-22	3274-3277	the	event[227]	giv[227]	ana	26-4[238_227]
@@ -683,7 +683,7 @@
 27-11	3630-3641	opportunity	abstract[254]	new[254]	_	_
 27-12	3642-3644	to	abstract[254]	new[254]	_	_
 27-13	3645-3652	improve	abstract[254]	new[254]	_	_
-27-14	3653-3659	sports	abstract[254]	new[254]	_	_
+27-14	3653-3659	sports	abstract[254]	abstract[254]	_	_
 27-15	3660-3668	coverage	abstract[254]	new[254]	_	_
 27-16	3669-3671	in	abstract[254]	new[254]	_	_
 27-17	3672-3673	a	abstract[254]	new[254]	_	_

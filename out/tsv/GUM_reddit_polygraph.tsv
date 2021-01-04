@@ -37,11 +37,11 @@
 3-9	155-158	how	_	_	_	_
 3-10	159-161	to	_	_	_	_
 3-11	162-166	beat	_	_	_	_
-3-12	167-176	polygraph	abstract[476]	new[476]	coref	4-3[25_476]
-3-13	177-178	(	abstract[476]	new[476]	_	_
-3-14	179-183	poly	abstract[476]	new[476]	_	_
+3-12	167-176	polygraph	abstract[17]|abstract[487]	new[17]|new[487]	appos|coref	3-14[18_17]|4-3[25_487]
+3-13	177-178	(	abstract[487]	new[487]	_	_
+3-14	179-183	poly	abstract[18]|abstract[487]	giv[18]|new[487]	_	_
 3-15	184-185	.	_	_	_	_
-3-16	186-187	)	abstract[476]	new[476]	_	_
+3-16	186-187	)	_	_	_	_
 
 #Text=When taking the test , it is common for the examiner to ask if you have researched how to pass the poly deceptively .
 4-1	188-192	When	_	_	_	_
@@ -52,21 +52,21 @@
 4-6	211-213	it	_	_	_	_
 4-7	214-216	is	_	_	_	_
 4-8	217-223	common	_	_	_	_
-4-9	224-227	for	event[28]	new[28]	cata	4-6[26_28]
-4-10	228-231	the	event[28]	new[28]	_	_
-4-11	232-240	examiner	event[28]	new[28]	_	_
-4-12	241-243	to	event[28]	new[28]	_	_
-4-13	244-247	ask	event[28]	new[28]	_	_
-4-14	248-250	if	event[28]	new[28]	_	_
-4-15	251-254	you	event[28]|person[30]	new[28]|giv[30]	ana	5-4[33_30]
-4-16	255-259	have	event[28]	new[28]	_	_
-4-17	260-270	researched	event[28]	new[28]	_	_
-4-18	271-274	how	event[28]	new[28]	_	_
-4-19	275-277	to	event[28]	new[28]	_	_
-4-20	278-282	pass	event[28]	new[28]	_	_
-4-21	283-286	the	event[28]|abstract[32]	new[28]|giv[32]	coref	5-20[42_32]
-4-22	287-291	poly	event[28]|abstract[32]	new[28]|giv[32]	_	_
-4-23	292-303	deceptively	event[28]	new[28]	_	_
+4-9	224-227	for	_	_	_	_
+4-10	228-231	the	_	_	_	_
+4-11	232-240	examiner	_	_	_	_
+4-12	241-243	to	_	_	_	_
+4-13	244-247	ask	_	_	_	_
+4-14	248-250	if	_	_	_	_
+4-15	251-254	you	person[30]	giv[30]	ana	5-4[33_30]
+4-16	255-259	have	_	_	_	_
+4-17	260-270	researched	_	_	_	_
+4-18	271-274	how	_	_	_	_
+4-19	275-277	to	_	_	_	_
+4-20	278-282	pass	_	_	_	_
+4-21	283-286	the	abstract[32]	giv[32]	coref	5-20[42_32]
+4-22	287-291	poly	abstract[32]	giv[32]	_	_
+4-23	292-303	deceptively	_	_	_	_
 4-24	304-305	.	_	_	_	_
 
 #Text=So , if you read this , understand that I am not going to tell you how to beat the test .
@@ -83,14 +83,14 @@
 5-11	348-350	am	_	_	_	_
 5-12	351-354	not	_	_	_	_
 5-13	355-360	going	_	_	_	_
-5-14	361-363	to	event[39]	new[39]	ana	6-10[48_39]
-5-15	364-368	tell	event[39]	new[39]	_	_
-5-16	369-372	you	event[39]|person[40]	new[39]|giv[40]	ana	13-6[86_40]
-5-17	373-376	how	event[39]	new[39]	_	_
-5-18	377-379	to	event[39]	new[39]	_	_
-5-19	380-384	beat	event[39]	new[39]	_	_
-5-20	385-388	the	event[39]|abstract[42]	new[39]|giv[42]	_	_
-5-21	389-393	test	event[39]|abstract[42]	new[39]|giv[42]	_	_
+5-14	361-363	to	_	_	_	_
+5-15	364-368	tell	event[476]	event[476]	ana	6-10[48_476]
+5-16	369-372	you	person[40]	person[40]	ana	13-6[86_40]
+5-17	373-376	how	_	_	_	_
+5-18	377-379	to	_	_	_	_
+5-19	380-384	beat	_	_	_	_
+5-20	385-388	the	abstract[42]	abstract[42]	_	_
+5-21	389-393	test	abstract[42]	abstract[42]	_	_
 5-22	394-395	.	_	_	_	_
 
 #Text=It is also worth mentioning that doing something like that is , generally , a bad idea .
@@ -99,18 +99,18 @@
 6-3	402-406	also	_	_	_	_
 6-4	407-412	worth	_	_	_	_
 6-5	413-423	mentioning	_	_	_	_
-6-6	424-428	that	abstract[45]	new[45]	cata	6-1[43_45]
-6-7	429-434	doing	abstract[45]	new[45]	_	_
-6-8	435-444	something	abstract[45]	new[45]	_	_
-6-9	445-449	like	abstract[45]	new[45]	_	_
-6-10	450-454	that	abstract[45]|event[48]	new[45]|giv[48]	_	_
-6-11	455-457	is	abstract[45]	new[45]	_	_
-6-12	458-459	,	abstract[45]	new[45]	_	_
-6-13	460-469	generally	abstract[45]	new[45]	_	_
-6-14	470-471	,	abstract[45]	new[45]	_	_
-6-15	472-473	a	abstract[45]	new[45]	_	_
-6-16	474-477	bad	abstract[45]	new[45]	_	_
-6-17	478-482	idea	abstract[45]	new[45]	_	_
+6-6	424-428	that	_	_	_	_
+6-7	429-434	doing	_	_	_	_
+6-8	435-444	something	_	_	_	_
+6-9	445-449	like	_	_	_	_
+6-10	450-454	that	event[48]	event[48]	_	_
+6-11	455-457	is	_	_	_	_
+6-12	458-459	,	_	_	_	_
+6-13	460-469	generally	_	_	_	_
+6-14	470-471	,	_	_	_	_
+6-15	472-473	a	_	_	_	_
+6-16	474-477	bad	_	_	_	_
+6-17	478-482	idea	_	_	_	_
 6-18	483-484	.	_	_	_	_
 
 #Text=Second , let ’s just get something out of the way .
@@ -262,7 +262,7 @@
 #Text=Basically , you are afraid of getting caught .
 16-1	1125-1134	Basically	_	_	_	_
 16-2	1135-1136	,	_	_	_	_
-16-3	1137-1140	you	abstract[103]|person[104]	new[103]|giv[104]	ana|ana	18-4[112_104]|18-15[115_103]
+16-3	1137-1140	you	abstract[103]|person[104]	new[103]|giv[104]	ana|ana	18-15[115_103]|18-4[112_104]
 16-4	1141-1144	are	abstract[103]	new[103]	_	_
 16-5	1145-1151	afraid	abstract[103]	new[103]	_	_
 16-6	1152-1154	of	abstract[103]	new[103]	_	_
@@ -330,7 +330,7 @@
 20-8	1423-1427	fear	_	_	_	_
 20-9	1428-1429	,	_	_	_	_
 20-10	1430-1434	like	_	_	_	_
-20-11	1435-1439	your	person[131]	giv[131]	ana	22-4[140_131]
+20-11	1435-1439	your	person[131]	person[131]	ana	22-4[140_131]
 20-12	1440-1445	heart	_	_	_	_
 20-13	1446-1450	rate	_	_	_	_
 20-14	1451-1461	increasing	_	_	_	_
@@ -395,7 +395,7 @@
 24-9	1688-1691	who	person[157]	new[157]	_	_
 24-10	1692-1699	offered	person[157]	new[157]	_	_
 24-11	1700-1703	him	person[157]|person[158]	new[157]|giv[158]	coref	25-1[162_158]
-24-12	1704-1707	her	person[157]	new[157]	_	_
+24-12	1704-1707	her	person[157]	person[157]	_	_
 24-13	1708-1716	services	person[157]	new[157]	_	_
 24-14	1717-1718	.	_	_	_	_
 
@@ -424,23 +424,23 @@
 26-5	1820-1822	he	person[173]	giv[173]	ana	26-8[178_173]
 26-6	1823-1832	indicated	_	_	_	_
 26-7	1833-1837	that	_	_	_	_
-26-8	1838-1840	he	abstract[177]|person[178]	new[177]|giv[178]	ana|ana	27-1[184_177]|26-16[181_178]
-26-9	1841-1844	had	abstract[177]	new[177]	_	_
-26-10	1845-1850	never	abstract[177]	new[177]	_	_
-26-11	1851-1855	paid	abstract[177]	new[177]	_	_
-26-12	1856-1862	anyone	abstract[177]|person[179]	new[177]|new[179]	coref	26-22[182_179]
-26-13	1863-1866	for	abstract[177]	new[177]	_	_
-26-14	1867-1870	sex	abstract[177]	new[177]	_	_
-26-15	1871-1874	and	abstract[177]	new[177]	_	_
-26-16	1875-1877	he	abstract[177]|person[181]	new[177]|giv[181]	coref	28-3[185_181]
-26-17	1878-1881	has	abstract[177]	new[177]	_	_
-26-18	1882-1887	never	abstract[177]	new[177]	_	_
-26-19	1888-1894	sought	abstract[177]	new[177]	_	_
-26-20	1895-1897	to	abstract[177]	new[177]	_	_
-26-21	1898-1901	pay	abstract[177]	new[177]	_	_
-26-22	1902-1908	anyone	abstract[177]|person[182]	new[177]|giv[182]	_	_
-26-23	1909-1912	for	abstract[177]	new[177]	_	_
-26-24	1913-1916	sex	abstract[177]	new[177]	_	_
+26-8	1838-1840	he	person[178]	person[178]	ana	26-16[181_178]
+26-9	1841-1844	had	_	_	_	_
+26-10	1845-1850	never	_	_	_	_
+26-11	1851-1855	paid	abstract[479]	new[479]	ana	27-1[184_479]
+26-12	1856-1862	anyone	person[179]	person[179]	coref	26-22[182_179]
+26-13	1863-1866	for	_	_	_	_
+26-14	1867-1870	sex	_	_	_	_
+26-15	1871-1874	and	_	_	_	_
+26-16	1875-1877	he	person[181]	person[181]	coref	28-3[185_181]
+26-17	1878-1881	has	_	_	_	_
+26-18	1882-1887	never	_	_	_	_
+26-19	1888-1894	sought	_	_	_	_
+26-20	1895-1897	to	_	_	_	_
+26-21	1898-1901	pay	_	_	_	_
+26-22	1902-1908	anyone	person[182]	person[182]	_	_
+26-23	1909-1912	for	_	_	_	_
+26-24	1913-1916	sex	_	_	_	_
 26-25	1917-1918	…	_	_	_	_
 
 #Text=both are true .
@@ -476,7 +476,7 @@
 28-24	2040-2041	.	_	_	_	_
 
 #Text=His body , automatically , is afraid that he should have said something .
-29-1	2042-2045	His	event[204]|person[206]	new[204]|giv[206]	coref|ana	30-5[214_204]|29-9[207_206]
+29-1	2042-2045	His	event[204]|person[206]	new[204]|giv[206]	ana|coref	29-9[207_206]|30-5[214_204]
 29-2	2046-2050	body	event[204]	new[204]	_	_
 29-3	2051-2052	,	event[204]	new[204]	_	_
 29-4	2053-2066	automatically	event[204]	new[204]	_	_
@@ -492,13 +492,13 @@
 29-14	2114-2115	.	_	_	_	_
 
 #Text=The machine will pick that reaction up .
-30-1	2116-2119	The	event[212]	new[212]	ana	31-3[216_212]
-30-2	2120-2127	machine	event[212]	new[212]	_	_
-30-3	2128-2132	will	event[212]	new[212]	_	_
-30-4	2133-2137	pick	event[212]	new[212]	_	_
-30-5	2138-2142	that	event[212]|event[214]	new[212]|giv[214]	_	_
-30-6	2143-2151	reaction	event[212]|event[214]	new[212]|giv[214]	_	_
-30-7	2152-2154	up	event[212]	new[212]	_	_
+30-1	2116-2119	The	_	_	_	_
+30-2	2120-2127	machine	_	_	_	_
+30-3	2128-2132	will	_	_	_	_
+30-4	2133-2137	pick	event[480]	event[480]	ana	31-3[216_480]
+30-5	2138-2142	that	event[214]	event[214]	_	_
+30-6	2143-2151	reaction	event[214]	event[214]	_	_
+30-7	2152-2154	up	_	_	_	_
 30-8	2155-2156	.	_	_	_	_
 
 #Text=The reason this is n't scientific is because just because it shows deception on a particular subject , does n't mean you ’re lying …
@@ -546,27 +546,27 @@
 33-2	2345-2351	combat	_	_	_	_
 33-3	2352-2356	this	event[227]	giv[227]	_	_
 33-4	2357-2358	,	_	_	_	_
-33-5	2359-2365	before	event[229]	new[229]	coref	34-1[238_229]
-33-6	2366-2369	you	event[229]|person[230]	new[229]|giv[230]	ana	33-10[233_230]
-33-7	2370-2374	take	event[229]	new[229]	_	_
-33-8	2375-2378	the	event[229]|abstract[232]	new[229]|new[232]	coref	33-24[237_232]
-33-9	2379-2383	poly	event[229]|abstract[232]	new[229]|new[232]	_	_
-33-10	2384-2387	you	event[229]|person[233]	new[229]|giv[233]	ana	34-3[239_233]
-33-11	2388-2392	will	event[229]	new[229]	_	_
-33-12	2393-2397	talk	event[229]	new[229]	_	_
-33-13	2398-2402	with	event[229]	new[229]	_	_
-33-14	2403-2406	the	event[229]|person[235]	new[229]|acc[235]	coref	36-11[261_235]
-33-15	2407-2415	examiner	event[229]|person[235]	new[229]|acc[235]	_	_
-33-16	2416-2419	and	event[229]	new[229]	_	_
-33-17	2420-2422	go	event[229]	new[229]	_	_
-33-18	2423-2427	over	event[229]	new[229]	_	_
-33-19	2428-2433	every	event[229]|abstract[236]	new[229]|new[236]	coref	55-5[375_236]
-33-20	2434-2442	question	event[229]|abstract[236]	new[229]|new[236]	_	_
-33-21	2443-2447	that	event[229]	new[229]	_	_
-33-22	2448-2450	is	event[229]	new[229]	_	_
-33-23	2451-2453	on	event[229]	new[229]	_	_
-33-24	2454-2457	the	event[229]|abstract[237]	new[229]|giv[237]	coref	36-21[267_237]
-33-25	2458-2462	exam	event[229]|abstract[237]	new[229]|giv[237]	_	_
+33-5	2359-2365	before	_	_	_	_
+33-6	2366-2369	you	person[230]	person[230]	ana	33-10[233_230]
+33-7	2370-2374	take	_	_	_	_
+33-8	2375-2378	the	abstract[232]	abstract[232]	coref	33-24[237_232]
+33-9	2379-2383	poly	abstract[232]	abstract[232]	_	_
+33-10	2384-2387	you	person[233]	person[233]	ana	34-3[239_233]
+33-11	2388-2392	will	_	_	_	_
+33-12	2393-2397	talk	event[481]	event[481]	coref	34-1[238_481]
+33-13	2398-2402	with	_	_	_	_
+33-14	2403-2406	the	person[235]	person[235]	coref	36-11[261_235]
+33-15	2407-2415	examiner	person[235]	person[235]	_	_
+33-16	2416-2419	and	_	_	_	_
+33-17	2420-2422	go	_	_	_	_
+33-18	2423-2427	over	_	_	_	_
+33-19	2428-2433	every	abstract[236]	abstract[236]	coref	55-5[375_236]
+33-20	2434-2442	question	abstract[236]	abstract[236]	_	_
+33-21	2443-2447	that	_	_	_	_
+33-22	2448-2450	is	_	_	_	_
+33-23	2451-2453	on	_	_	_	_
+33-24	2454-2457	the	abstract[237]	abstract[237]	coref	36-21[267_237]
+33-25	2458-2462	exam	abstract[237]	abstract[237]	_	_
 33-26	2463-2464	.	_	_	_	_
 
 #Text=That way you can address any gray areas .
@@ -619,29 +619,29 @@
 35-36	2652-2653	.	_	_	_	_
 
 #Text=Make sure that you address any of these areas with the background investigator and with the polygraph examiner before taking the test .
-36-1	2654-2658	Make	event[256]	new[256]	coref	37-1[268_256]
-36-2	2659-2663	sure	event[256]	new[256]	_	_
-36-3	2664-2668	that	event[256]	new[256]	_	_
-36-4	2669-2672	you	event[256]|person[257]	new[256]|giv[257]	ana	37-4[269_257]
-36-5	2673-2680	address	event[256]	new[256]	_	_
-36-6	2681-2684	any	event[256]|abstract[259]	new[256]|new[259]	ana	37-8[270_259]
-36-7	2685-2687	of	event[256]|abstract[259]	new[256]|new[259]	_	_
-36-8	2688-2693	these	event[256]|abstract[259]	new[256]|new[259]	_	_
-36-9	2694-2699	areas	event[256]|abstract[259]	new[256]|new[259]	_	_
-36-10	2700-2704	with	event[256]	new[256]	_	_
-36-11	2705-2708	the	event[256]|person[261]	new[256]|giv[261]	coref	36-16[264_261]
-36-12	2709-2719	background	event[256]|person[261]	new[256]|giv[261]	_	_
-36-13	2720-2732	investigator	event[256]|person[261]	new[256]|giv[261]	_	_
-36-14	2733-2736	and	event[256]	new[256]	_	_
-36-15	2737-2741	with	event[256]	new[256]	_	_
-36-16	2742-2745	the	event[256]|person[264]	new[256]|giv[264]	ana	55-12[379_264]
-36-17	2746-2755	polygraph	event[256]|person[264]	new[256]|giv[264]	_	_
-36-18	2756-2764	examiner	event[256]|person[264]	new[256]|giv[264]	_	_
-36-19	2765-2771	before	event[256]	new[256]	_	_
-36-20	2772-2778	taking	event[256]	new[256]	_	_
-36-21	2779-2782	the	event[256]|abstract[267]	new[256]|giv[267]	coref	48-16[334_267]
-36-22	2783-2787	test	event[256]|abstract[267]	new[256]|giv[267]	_	_
-36-23	2788-2789	.	event[256]	new[256]	_	_
+36-1	2654-2658	Make	event[482]	event[482]	coref	37-1[268_482]
+36-2	2659-2663	sure	_	_	_	_
+36-3	2664-2668	that	_	_	_	_
+36-4	2669-2672	you	person[257]	person[257]	ana	37-4[269_257]
+36-5	2673-2680	address	_	_	_	_
+36-6	2681-2684	any	abstract[259]	abstract[259]	ana	37-8[270_259]
+36-7	2685-2687	of	abstract[259]	abstract[259]	_	_
+36-8	2688-2693	these	abstract[259]	abstract[259]	_	_
+36-9	2694-2699	areas	abstract[259]	abstract[259]	_	_
+36-10	2700-2704	with	_	_	_	_
+36-11	2705-2708	the	person[261]	person[261]	coref	36-16[264_261]
+36-12	2709-2719	background	person[261]	person[261]	_	_
+36-13	2720-2732	investigator	person[261]	person[261]	_	_
+36-14	2733-2736	and	_	_	_	_
+36-15	2737-2741	with	_	_	_	_
+36-16	2742-2745	the	person[264]	person[264]	ana	55-12[379_264]
+36-17	2746-2755	polygraph	person[264]	person[264]	_	_
+36-18	2756-2764	examiner	person[264]	person[264]	_	_
+36-19	2765-2771	before	_	_	_	_
+36-20	2772-2778	taking	_	_	_	_
+36-21	2779-2782	the	abstract[267]	abstract[267]	coref	48-16[334_267]
+36-22	2783-2787	test	abstract[267]	abstract[267]	_	_
+36-23	2788-2789	.	_	_	_	_
 
 #Text=That way , you ’ll feel that it ’s been addressed and it is much more likely to be a non-issue .
 37-1	2790-2794	That	event[268]	giv[268]	_	_
@@ -714,32 +714,32 @@
 39-27	3083-3084	?	_	_	_	_
 
 #Text=They put a thumb tack in his shoe so that when he could poke his foot on the truthful answers and not on the lies .
-40-1	3085-3089	They	event[289]	new[289]	coref	41-1[303_289]
-40-2	3090-3093	put	event[289]	new[289]	_	_
-40-3	3094-3095	a	event[289]	new[289]	_	_
-40-4	3096-3101	thumb	event[289]	new[289]	_	_
-40-5	3102-3106	tack	event[289]	new[289]	_	_
-40-6	3107-3109	in	event[289]	new[289]	_	_
-40-7	3110-3113	his	event[289]|person[294]	new[289]|giv[294]	ana	40-12[295_294]
-40-8	3114-3118	shoe	event[289]	new[289]	_	_
-40-9	3119-3121	so	event[289]	new[289]	_	_
-40-10	3122-3126	that	event[289]	new[289]	_	_
-40-11	3127-3131	when	event[289]	new[289]	_	_
-40-12	3132-3134	he	event[289]|person[295]	new[289]|giv[295]	ana	40-15[299_295]
-40-13	3135-3140	could	event[289]	new[289]	_	_
-40-14	3141-3145	poke	event[289]	new[289]	_	_
-40-15	3146-3149	his	event[289]|person[299]	new[289]|giv[299]	ana	41-3[304_299]
-40-16	3150-3154	foot	event[289]	new[289]	_	_
-40-17	3155-3157	on	event[289]	new[289]	_	_
-40-18	3158-3161	the	event[289]	new[289]	_	_
-40-19	3162-3170	truthful	event[289]	new[289]	_	_
-40-20	3171-3178	answers	event[289]	new[289]	_	_
-40-21	3179-3182	and	event[289]	new[289]	_	_
-40-22	3183-3186	not	event[289]	new[289]	_	_
-40-23	3187-3189	on	event[289]	new[289]	_	_
-40-24	3190-3193	the	event[289]	new[289]	_	_
-40-25	3194-3198	lies	event[289]	new[289]	_	_
-40-26	3199-3200	.	event[289]	new[289]	_	_
+40-1	3085-3089	They	_	_	_	_
+40-2	3090-3093	put	event[483]	event[483]	coref	41-1[303_483]
+40-3	3094-3095	a	_	_	_	_
+40-4	3096-3101	thumb	_	_	_	_
+40-5	3102-3106	tack	_	_	_	_
+40-6	3107-3109	in	_	_	_	_
+40-7	3110-3113	his	person[294]	person[294]	ana	40-12[295_294]
+40-8	3114-3118	shoe	_	_	_	_
+40-9	3119-3121	so	_	_	_	_
+40-10	3122-3126	that	_	_	_	_
+40-11	3127-3131	when	_	_	_	_
+40-12	3132-3134	he	person[295]	person[295]	ana	40-15[299_295]
+40-13	3135-3140	could	_	_	_	_
+40-14	3141-3145	poke	_	_	_	_
+40-15	3146-3149	his	person[299]	person[299]	ana	41-3[304_299]
+40-16	3150-3154	foot	_	_	_	_
+40-17	3155-3157	on	_	_	_	_
+40-18	3158-3161	the	_	_	_	_
+40-19	3162-3170	truthful	_	_	_	_
+40-20	3171-3178	answers	_	_	_	_
+40-21	3179-3182	and	_	_	_	_
+40-22	3183-3186	not	_	_	_	_
+40-23	3187-3189	on	_	_	_	_
+40-24	3190-3193	the	_	_	_	_
+40-25	3194-3198	lies	_	_	_	_
+40-26	3199-3200	.	_	_	_	_
 
 #Text=That way he was consistent through the exam .
 41-1	3201-3205	That	event[303]	giv[303]	_	_
@@ -844,18 +844,18 @@
 48-3	3599-3601	it	_	_	_	_
 48-4	3602-3604	is	_	_	_	_
 48-5	3605-3614	generally	_	_	_	_
-48-6	3615-3616	a	event[332]	new[332]	cata	48-3[329_332]
-48-7	3617-3620	bad	event[332]	new[332]	_	_
-48-8	3621-3625	idea	event[332]	new[332]	_	_
-48-9	3626-3628	to	event[333]	giv[333]	ana	49-4[335_333]
-48-10	3629-3632	try	event[333]	giv[333]	_	_
-48-11	3633-3636	and	event[333]	giv[333]	_	_
-48-12	3637-3646	determine	event[333]	giv[333]	_	_
-48-13	3647-3650	how	event[333]	giv[333]	_	_
-48-14	3651-3653	to	event[333]	giv[333]	_	_
-48-15	3654-3658	beat	event[333]	giv[333]	_	_
-48-16	3659-3663	this	event[333]|abstract[334]	giv[333]|giv[334]	coref	51-15[344_334]
-48-17	3664-3668	test	event[333]|abstract[334]	giv[333]|giv[334]	_	_
+48-6	3615-3616	a	_	_	_	_
+48-7	3617-3620	bad	_	_	_	_
+48-8	3621-3625	idea	_	_	_	_
+48-9	3626-3628	to	_	_	_	_
+48-10	3629-3632	try	event[484]	event[484]	ana	49-4[335_484]
+48-11	3633-3636	and	_	_	_	_
+48-12	3637-3646	determine	_	_	_	_
+48-13	3647-3650	how	_	_	_	_
+48-14	3651-3653	to	_	_	_	_
+48-15	3654-3658	beat	_	_	_	_
+48-16	3659-3663	this	abstract[334]	abstract[334]	coref	51-15[344_334]
+48-17	3664-3668	test	abstract[334]	abstract[334]	_	_
 48-18	3669-3670	.	_	_	_	_
 
 #Text=Do n’t do it , just be honest through the process .
@@ -912,18 +912,18 @@
 52-5	3881-3883	to	_	_	_	_
 52-6	3884-3889	worry	_	_	_	_
 52-7	3890-3895	about	_	_	_	_
-52-8	3896-3907	nervousness	abstract[348]	new[348]	ana	53-4[357_348]
-52-9	3908-3916	tripping	abstract[348]	new[348]	_	_
-52-10	3917-3920	the	abstract[348]|object[351]	new[348]|giv[351]	ana	53-2[356_351]
-52-11	3921-3928	machine	abstract[348]|object[351]	new[348]|giv[351]	_	_
-52-12	3929-3931	or	abstract[348]	new[348]	_	_
-52-13	3932-3938	giving	abstract[348]	new[348]	_	_
-52-14	3939-3942	you	abstract[348]|person[352]	new[348]|giv[352]	ana	55-1[373_352]
-52-15	3943-3944	a	abstract[348]	new[348]	_	_
-52-16	3945-3950	false	abstract[348]	new[348]	_	_
-52-17	3951-3961	indication	abstract[348]	new[348]	_	_
-52-18	3962-3964	of	abstract[348]	new[348]	_	_
-52-19	3965-3974	deception	abstract[348]	new[348]	_	_
+52-8	3896-3907	nervousness	_	_	_	_
+52-9	3908-3916	tripping	abstract[485]	abstract[485]	ana	53-4[357_485]
+52-10	3917-3920	the	object[351]	object[351]	ana	53-2[356_351]
+52-11	3921-3928	machine	object[351]	object[351]	_	_
+52-12	3929-3931	or	_	_	_	_
+52-13	3932-3938	giving	_	_	_	_
+52-14	3939-3942	you	person[352]	person[352]	ana	55-1[373_352]
+52-15	3943-3944	a	_	_	_	_
+52-16	3945-3950	false	_	_	_	_
+52-17	3951-3961	indication	_	_	_	_
+52-18	3962-3964	of	_	_	_	_
+52-19	3965-3974	deception	_	_	_	_
 52-20	3975-3976	.	_	_	_	_
 
 #Text=If it did that just because people were nervous , then no one would ever pass these tests .
@@ -948,19 +948,19 @@
 53-19	4067-4068	.	_	_	_	_
 
 #Text=The poly tends to be the part of the process that everyone dreads … and that really should n't be the case .
-54-1	4069-4072	The	abstract[365]|abstract[366]	new[365]|giv[366]	coref|ana	55-19[385_366]|54-16[369_365]
-54-2	4073-4077	poly	abstract[365]|abstract[366]	new[365]|giv[366]	_	_
-54-3	4078-4083	tends	abstract[365]	new[365]	_	_
-54-4	4084-4086	to	abstract[365]	new[365]	_	_
-54-5	4087-4089	be	abstract[365]	new[365]	_	_
-54-6	4090-4093	the	abstract[365]	new[365]	_	_
-54-7	4094-4098	part	abstract[365]	new[365]	_	_
-54-8	4099-4101	of	abstract[365]	new[365]	_	_
-54-9	4102-4105	the	abstract[365]|abstract[367]	new[365]|giv[367]	coref	56-9[387_367]
-54-10	4106-4113	process	abstract[365]|abstract[367]	new[365]|giv[367]	_	_
-54-11	4114-4118	that	abstract[365]	new[365]	_	_
-54-12	4119-4127	everyone	abstract[365]|person[368]	new[365]|giv[368]	_	_
-54-13	4128-4134	dreads	abstract[365]	new[365]	_	_
+54-1	4069-4072	The	abstract[366]	abstract[366]	coref	55-19[385_366]
+54-2	4073-4077	poly	abstract[366]	abstract[366]	_	_
+54-3	4078-4083	tends	abstract[486]	abstract[486]	ana	54-16[369_486]
+54-4	4084-4086	to	_	_	_	_
+54-5	4087-4089	be	_	_	_	_
+54-6	4090-4093	the	_	_	_	_
+54-7	4094-4098	part	_	_	_	_
+54-8	4099-4101	of	_	_	_	_
+54-9	4102-4105	the	abstract[367]	abstract[367]	coref	56-9[387_367]
+54-10	4106-4113	process	abstract[367]	abstract[367]	_	_
+54-11	4114-4118	that	_	_	_	_
+54-12	4119-4127	everyone	person[368]	person[368]	_	_
+54-13	4128-4134	dreads	_	_	_	_
 54-14	4135-4136	…	_	_	_	_
 54-15	4137-4140	and	_	_	_	_
 54-16	4141-4145	that	abstract[369]	giv[369]	_	_
@@ -981,7 +981,7 @@
 55-6	4210-4218	question	abstract[375]	giv[375]	_	_
 55-7	4219-4225	during	abstract[375]	giv[375]	_	_
 55-8	4226-4230	your	abstract[375]|person[377]	giv[375]|giv[377]	ana	55-17[380_377]
-55-9	4231-4241	background	abstract[375]	giv[375]	_	_
+55-9	4231-4241	background	abstract[375]	abstract[375]	_	_
 55-10	4242-4255	investigation	abstract[375]	giv[375]	_	_
 55-11	4256-4260	that	abstract[375]	giv[375]	_	_
 55-12	4261-4265	they	abstract[375]|person[379]	giv[375]|giv[379]	_	_
@@ -1026,7 +1026,7 @@
 57-10	4434-4435	.	_	_	_	_
 
 #Text=It ’s one of the more intimidating portions of the process , I understand this .
-58-1	4436-4438	It	abstract[395]|abstract[396]	new[395]|giv[396]	ana|ana	58-15[402_395]|59-1[403_396]
+58-1	4436-4438	It	abstract[395]|abstract[396]	new[395]|giv[396]	ana|ana	59-1[403_396]|58-15[402_395]
 58-2	4439-4441	’s	abstract[395]	new[395]	_	_
 58-3	4442-4445	one	abstract[395]	new[395]	_	_
 58-4	4446-4448	of	abstract[395]	new[395]	_	_

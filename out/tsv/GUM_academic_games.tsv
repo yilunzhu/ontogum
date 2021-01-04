@@ -273,8 +273,8 @@
 8-61	1452-1458	better	_	_	_	_
 8-62	1459-1470	performance	_	_	_	_
 8-63	1471-1473	of	_	_	_	_
-8-64	1474-1481	working	abstract[139]	new[139]	coref	28-42[385_139]
-8-65	1482-1488	memory	abstract[139]	new[139]	_	_
+8-64	1474-1481	working	abstract[139]	abstract[139]	coref	28-42[385_139]
+8-65	1482-1488	memory	abstract[139]	abstract[139]	_	_
 8-66	1489-1496	ability	abstract[139]	new[139]	_	_
 8-67	1497-1498	(	_	_	_	_
 8-68	1499-1508	Klingberg	_	_	_	_
@@ -660,12 +660,12 @@
 19-36	3552-3556	were	_	_	_	_
 19-37	3557-3564	divided	_	_	_	_
 19-38	3565-3569	into	_	_	_	_
-19-39	3570-3573	two	person[438]	giv[438]	coref	24-31[339_438]
-19-40	3574-3580	groups	person[438]	giv[438]	_	_
+19-39	3570-3573	two	person[284]|person[438]	new[284]|giv[438]	coref|appos	24-31[339_438]|19-42[285_284]
+19-40	3574-3580	groups	person[284]|person[438]	new[284]|giv[438]	_	_
 19-41	3581-3582	:	person[438]	giv[438]	_	_
-19-42	3583-3594	participant	person[286]|person[438]	new[286]|giv[438]	coref	20-1[290_286]
-19-43	3595-3598	and	person[438]	giv[438]	_	_
-19-44	3599-3606	control	person[287]|person[438]	new[287]|giv[438]	coref	20-13[296_287]
+19-42	3583-3594	participant	person[285]|person[286]|person[438]	giv[285]|new[286]|giv[438]	coref	20-1[290_286]
+19-43	3595-3598	and	person[285]|person[438]	giv[285]|giv[438]	_	_
+19-44	3599-3606	control	person[285]|person[287]|person[438]	giv[285]|new[287]|giv[438]	coref	20-13[296_287]
 19-45	3607-3608	.	_	_	_	_
 
 #Text=The first ( n = 31 ) participated in the intervention , the control group ( n = 40 ) was only evaluated using the test before and after the same time interval of interventions .
@@ -751,16 +751,16 @@
 23-4	4018-4024	scores	_	_	_	_
 23-5	4025-4033	measured	_	_	_	_
 23-6	4034-4036	by	_	_	_	_
-23-7	4037-4041	four	_	_	_	_
-23-8	4042-4051	variables	_	_	_	_
+23-7	4037-4041	four	abstract[322]	new[322]	appos	23-10[323_322]
+23-8	4042-4051	variables	abstract[322]	new[322]	_	_
 23-9	4052-4053	:	_	_	_	_
-23-10	4054-4058	time	_	_	_	_
-23-11	4059-4060	,	_	_	_	_
-23-12	4061-4066	speed	_	_	_	_
-23-13	4067-4068	,	_	_	_	_
-23-14	4069-4078	stability	_	_	_	_
-23-15	4079-4082	and	_	_	_	_
-23-16	4083-4091	accuracy	_	_	_	_
+23-10	4054-4058	time	abstract[323]	giv[323]	_	_
+23-11	4059-4060	,	abstract[323]	giv[323]	_	_
+23-12	4061-4066	speed	abstract[323]	giv[323]	_	_
+23-13	4067-4068	,	abstract[323]	giv[323]	_	_
+23-14	4069-4078	stability	abstract[323]	giv[323]	_	_
+23-15	4079-4082	and	abstract[323]	giv[323]	_	_
+23-16	4083-4091	accuracy	abstract[323]	giv[323]	_	_
 23-17	4092-4093	.	_	_	_	_
 
 #Text=A statistical analysis was performed based on the application of the paired t-test on the difference of the overall score obtained in the test before and after the intervention in the two groups .

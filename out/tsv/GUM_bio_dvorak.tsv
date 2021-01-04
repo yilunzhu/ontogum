@@ -8,7 +8,7 @@
 1-2	8-14	Dvořák	person[1]	new[1]	_	_
 
 #Text=Antonín Leopold Dvořák ( / d(ə)ˈvɔːrʒɑːk , -ʒæk / d(ə)-VOR-zha(h)k ; Czech : [ ˈantoɲiːn ˈlɛopolt ˈdvor̝aːk ] ; 8 September 1841 – 1 May 1904 ) was a Czech composer .
-2-1	15-22	Antonín	person[2]|person[351]	giv[2]|giv[351]	appos|coref	2-6[3_2]|2-10[4_351]
+2-1	15-22	Antonín	person[2]|person[351]	giv[2]|giv[351]	coref|appos	2-10[4_351]|2-6[3_2]
 2-2	23-30	Leopold	person[2]|person[351]	giv[2]|giv[351]	_	_
 2-3	31-37	Dvořák	person[2]|person[351]	giv[2]|giv[351]	_	_
 2-4	38-39	(	person[351]	giv[351]	_	_
@@ -256,19 +256,19 @@
 11-6	1270-1272	of	_	_	_	_
 11-7	1273-1275	it	_	_	_	_
 11-8	1276-1277	,	_	_	_	_
-11-9	1278-1286	Johannes	event[104]|person[105]	new[104]|new[105]	cata|coref	11-7[101_104]|12-21[120_105]
-11-10	1287-1293	Brahms	event[104]|person[105]	new[104]|new[105]	_	_
-11-11	1294-1297	was	event[104]	new[104]	_	_
-11-12	1298-1301	the	event[104]	new[104]	_	_
-11-13	1302-1309	leading	event[104]	new[104]	_	_
-11-14	1310-1316	member	event[104]	new[104]	_	_
-11-15	1317-1319	of	event[104]	new[104]	_	_
-11-16	1320-1323	the	event[104]|organization[107]	new[104]|new[107]	coref	12-33[124_107]
-11-17	1324-1328	jury	event[104]|organization[107]	new[104]|new[107]	_	_
-11-18	1329-1332	and	event[104]	new[104]	_	_
-11-19	1333-1336	was	event[104]	new[104]	_	_
-11-20	1337-1343	highly	event[104]	new[104]	_	_
-11-21	1344-1353	impressed	event[104]	new[104]	_	_
+11-9	1278-1286	Johannes	person[105]	new[105]	coref	12-21[120_105]
+11-10	1287-1293	Brahms	person[105]	new[105]	_	_
+11-11	1294-1297	was	_	_	_	_
+11-12	1298-1301	the	_	_	_	_
+11-13	1302-1309	leading	_	_	_	_
+11-14	1310-1316	member	_	_	_	_
+11-15	1317-1319	of	_	_	_	_
+11-16	1320-1323	the	organization[107]	new[107]	coref	12-33[124_107]
+11-17	1324-1328	jury	organization[107]	new[107]	_	_
+11-18	1329-1332	and	_	_	_	_
+11-19	1333-1336	was	_	_	_	_
+11-20	1337-1343	highly	_	_	_	_
+11-21	1344-1353	impressed	_	_	_	_
 11-22	1354-1355	.	_	_	_	_
 
 #Text=The prize was awarded to Dvořák in 1874 [ a ] and again in 1876 and in 1877 , when Brahms and the prominent critic Eduard Hanslick , also a member of the jury , made themselves known to him .
@@ -294,18 +294,18 @@
 12-20	1434-1438	when	_	_	_	_
 12-21	1439-1445	Brahms	person[119]|person[120]	new[119]|giv[120]	coref|ana	13-1[127_120]|12-37[125_119]
 12-22	1446-1449	and	person[119]	new[119]	_	_
-12-23	1450-1453	the	person[119]	new[119]	_	_
-12-24	1454-1463	prominent	person[119]	new[119]	_	_
-12-25	1464-1470	critic	person[119]	new[119]	_	_
-12-26	1471-1477	Eduard	person[119]	new[119]	_	_
-12-27	1478-1486	Hanslick	person[119]	new[119]	_	_
+12-23	1450-1453	the	person[119]|person[122]	new[119]|new[122]	appos	12-30[123_122]
+12-24	1454-1463	prominent	person[119]|person[122]	new[119]|new[122]	_	_
+12-25	1464-1470	critic	person[119]|person[122]	new[119]|new[122]	_	_
+12-26	1471-1477	Eduard	person[119]|person[122]	new[119]|new[122]	_	_
+12-27	1478-1486	Hanslick	person[119]|person[122]	new[119]|new[122]	_	_
 12-28	1487-1488	,	_	_	_	_
 12-29	1489-1493	also	_	_	_	_
-12-30	1494-1495	a	_	_	_	_
-12-31	1496-1502	member	_	_	_	_
-12-32	1503-1505	of	_	_	_	_
-12-33	1506-1509	the	organization[124]	giv[124]	_	_
-12-34	1510-1514	jury	organization[124]	giv[124]	_	_
+12-30	1494-1495	a	person[123]	giv[123]	_	_
+12-31	1496-1502	member	person[123]	giv[123]	_	_
+12-32	1503-1505	of	person[123]	giv[123]	_	_
+12-33	1506-1509	the	person[123]|organization[124]	giv[123]|giv[124]	_	_
+12-34	1510-1514	jury	person[123]|organization[124]	giv[123]|giv[124]	_	_
 12-35	1515-1516	,	_	_	_	_
 12-36	1517-1521	made	_	_	_	_
 12-37	1522-1532	themselves	person[125]	giv[125]	_	_
@@ -317,7 +317,7 @@
 #Text=Brahms recommended Dvořák to his publisher , Simrock , who soon afterward commissioned what became the Slavonic Dances , Op. 46 .
 13-1	1548-1554	Brahms	person[127]	giv[127]	ana	13-5[134_127]
 13-2	1555-1566	recommended	_	_	_	_
-13-3	1567-1573	Dvořák	person[128]	giv[128]	coref	15-1[154_128]
+13-3	1567-1573	Dvořák	person[128]	giv[128]	ana	15-10[157_128]
 13-4	1574-1576	to	_	_	_	_
 13-5	1577-1580	his	person[134]	giv[134]	_	_
 13-6	1581-1590	publisher	_	_	_	_
@@ -380,20 +380,20 @@
 14-39	1894-1895	.	_	_	_	_
 
 #Text=Dvořák 's first piece of a religious nature , his setting of Stabat Mater , was premiered in Prague in 1880 .
-15-1	1896-1902	Dvořák	abstract[153]|person[154]|abstract[354]	new[153]|giv[154]|new[354]	ana|ana|appos	15-10[157_154]|16-1[162_354]|15-10[156_153]
-15-2	1903-1905	's	abstract[153]|person[154]|abstract[354]	new[153]|giv[154]|new[354]	_	_
-15-3	1906-1911	first	abstract[153]|abstract[354]	new[153]|new[354]	_	_
-15-4	1912-1917	piece	abstract[153]|abstract[354]	new[153]|new[354]	_	_
-15-5	1918-1920	of	abstract[153]|abstract[354]	new[153]|new[354]	_	_
-15-6	1921-1922	a	abstract[153]|abstract[354]	new[153]|new[354]	_	_
-15-7	1923-1932	religious	abstract[153]|abstract[354]	new[153]|new[354]	_	_
-15-8	1933-1939	nature	abstract[153]|abstract[354]	new[153]|new[354]	_	_
-15-9	1940-1941	,	abstract[354]	new[354]	_	_
-15-10	1942-1945	his	abstract[156]|person[157]|abstract[354]	giv[156]|giv[157]|new[354]	ana	17-2[176_157]
-15-11	1946-1953	setting	abstract[156]|abstract[354]	giv[156]|new[354]	_	_
-15-12	1954-1956	of	abstract[156]|abstract[354]	giv[156]|new[354]	_	_
-15-13	1957-1963	Stabat	abstract[156]|abstract[354]	giv[156]|new[354]	_	_
-15-14	1964-1969	Mater	abstract[156]|abstract[354]	giv[156]|new[354]	_	_
+15-1	1896-1902	Dvořák	abstract[153]|abstract[357]	new[153]|new[357]	ana|appos	16-1[162_357]|15-10[156_153]
+15-2	1903-1905	's	abstract[153]|abstract[357]	new[153]|new[357]	_	_
+15-3	1906-1911	first	abstract[153]|abstract[357]	new[153]|new[357]	_	_
+15-4	1912-1917	piece	abstract[153]|abstract[357]	new[153]|new[357]	_	_
+15-5	1918-1920	of	abstract[153]|abstract[357]	new[153]|new[357]	_	_
+15-6	1921-1922	a	abstract[153]|abstract[357]	new[153]|new[357]	_	_
+15-7	1923-1932	religious	abstract[153]|abstract[357]	new[153]|new[357]	_	_
+15-8	1933-1939	nature	abstract[153]|abstract[357]	new[153]|new[357]	_	_
+15-9	1940-1941	,	abstract[357]	new[357]	_	_
+15-10	1942-1945	his	abstract[156]|person[157]|abstract[357]	giv[156]|giv[157]|new[357]	ana	17-2[176_157]
+15-11	1946-1953	setting	abstract[156]|abstract[357]	giv[156]|new[357]	_	_
+15-12	1954-1956	of	abstract[156]|abstract[357]	giv[156]|new[357]	_	_
+15-13	1957-1963	Stabat	abstract[156]|abstract[357]	giv[156]|new[357]	_	_
+15-14	1964-1969	Mater	abstract[156]|abstract[357]	giv[156]|new[357]	_	_
 15-15	1970-1971	,	_	_	_	_
 15-16	1972-1975	was	_	_	_	_
 15-17	1976-1985	premiered	_	_	_	_
@@ -490,7 +490,7 @@
 #Text=In 1891 Dvořák was appointed as a professor at the Prague Conservatory .
 20-1	2410-2412	In	_	_	_	_
 20-2	2413-2417	1891	_	_	_	_
-20-3	2418-2424	Dvořák	person[208]	giv[208]	_	_
+20-3	2418-2424	Dvořák	person[208]	giv[208]	coref	20-7[212_208]
 20-4	2425-2428	was	_	_	_	_
 20-5	2429-2438	appointed	_	_	_	_
 20-6	2439-2441	as	_	_	_	_
@@ -510,18 +510,18 @@
 21-5	2496-2497	,	_	_	_	_
 21-6	2498-2500	he	person[217]	giv[217]	ana	21-8[223_217]
 21-7	2501-2506	wrote	_	_	_	_
-21-8	2507-2510	his	person[223]	giv[223]	ana	21-14[227_223]
-21-9	2511-2516	Dumky	_	_	_	_
-21-10	2517-2521	Trio	_	_	_	_
+21-8	2507-2510	his	abstract[222]|person[223]	new[222]|giv[223]	appos|ana	21-12[225_222]|21-14[227_223]
+21-9	2511-2516	Dumky	abstract[222]	new[222]	_	_
+21-10	2517-2521	Trio	abstract[222]	new[222]	_	_
 21-11	2522-2523	,	_	_	_	_
-21-12	2524-2527	one	_	_	_	_
-21-13	2528-2530	of	_	_	_	_
-21-14	2531-2534	his	person[227]	giv[227]	coref	22-4[231_227]
-21-15	2535-2539	most	_	_	_	_
-21-16	2540-2550	successful	_	_	_	_
-21-17	2551-2558	chamber	_	_	_	_
-21-18	2559-2564	music	_	_	_	_
-21-19	2565-2571	pieces	_	_	_	_
+21-12	2524-2527	one	abstract[225]	giv[225]	_	_
+21-13	2528-2530	of	abstract[225]	giv[225]	_	_
+21-14	2531-2534	his	abstract[225]|person[227]	giv[225]|giv[227]	coref	22-4[231_227]
+21-15	2535-2539	most	abstract[225]	giv[225]	_	_
+21-16	2540-2550	successful	abstract[225]	giv[225]	_	_
+21-17	2551-2558	chamber	abstract[225]	abstract[225]	_	_
+21-18	2559-2564	music	abstract[225]	abstract[225]	_	_
+21-19	2565-2571	pieces	abstract[225]	giv[225]	_	_
 21-20	2572-2573	.	_	_	_	_
 
 #Text=In 1892 , Dvořák moved to the United States and became the director of the National Conservatory of Music of America in New York City .
@@ -561,7 +561,7 @@
 23-6	2737-2738	,	_	_	_	_
 23-7	2739-2745	Dvořák	person[243]	giv[243]	ana	23-9[246_243]
 23-8	2746-2751	wrote	_	_	_	_
-23-9	2752-2755	his	abstract[245]|person[246]	new[245]|giv[246]	ana|coref	23-25[252_246]|23-16[248_245]
+23-9	2752-2755	his	abstract[245]|person[246]	new[245]|giv[246]	coref|ana	23-16[248_245]|23-25[252_246]
 23-10	2756-2759	two	abstract[245]	new[245]	_	_
 23-11	2760-2764	most	abstract[245]	new[245]	_	_
 23-12	2765-2775	successful	abstract[245]	new[245]	_	_
@@ -585,27 +585,27 @@
 23-30	2871-2872	4	abstract[248]	giv[248]	_	_
 23-31	2873-2874	]	abstract[248]	giv[248]	_	_
 23-32	2875-2878	and	abstract[248]	giv[248]	_	_
-23-33	2879-2882	his	abstract[248]|person[257]	giv[248]|giv[257]	ana	24-1[262_257]
-23-34	2883-2888	Cello	abstract[248]	giv[248]	_	_
-23-35	2889-2897	Concerto	abstract[248]	giv[248]	_	_
+23-33	2879-2882	his	abstract[248]|abstract[256]|person[257]	giv[248]|new[256]|giv[257]	ana|appos	24-1[262_257]|23-37[259_256]
+23-34	2883-2888	Cello	abstract[248]|abstract[256]	giv[248]|new[256]	_	_
+23-35	2889-2897	Concerto	abstract[248]|abstract[256]	giv[248]|new[256]	_	_
 23-36	2898-2899	,	_	_	_	_
-23-37	2900-2903	one	_	_	_	_
-23-38	2904-2906	of	_	_	_	_
-23-39	2907-2910	the	_	_	_	_
-23-40	2911-2915	most	_	_	_	_
-23-41	2916-2922	highly	_	_	_	_
-23-42	2923-2931	regarded	_	_	_	_
-23-43	2932-2934	of	_	_	_	_
-23-44	2935-2938	all	_	_	_	_
-23-45	2939-2944	cello	_	_	_	_
-23-46	2945-2953	concerti	_	_	_	_
+23-37	2900-2903	one	abstract[259]	giv[259]	_	_
+23-38	2904-2906	of	abstract[259]	giv[259]	_	_
+23-39	2907-2910	the	abstract[259]	giv[259]	_	_
+23-40	2911-2915	most	abstract[259]	giv[259]	_	_
+23-41	2916-2922	highly	abstract[259]	giv[259]	_	_
+23-42	2923-2931	regarded	abstract[259]	giv[259]	_	_
+23-43	2932-2934	of	abstract[259]	giv[259]	_	_
+23-44	2935-2938	all	abstract[259]	giv[259]	_	_
+23-45	2939-2944	cello	abstract[259]	giv[259]	_	_
+23-46	2945-2953	concerti	abstract[259]	giv[259]	_	_
 23-47	2954-2955	.	_	_	_	_
 
 #Text=He also wrote his most appreciated piece of chamber music , the American String Quartet , during this time .
 24-1	2956-2958	He	person[262]	giv[262]	ana	24-4[265_262]
 24-2	2959-2963	also	_	_	_	_
 24-3	2964-2969	wrote	_	_	_	_
-24-4	2970-2973	his	abstract[264]|person[265]	new[264]|giv[265]	ana|appos	25-6[273_265]|24-12[268_264]
+24-4	2970-2973	his	abstract[264]|person[265]	new[264]|giv[265]	appos|ana	24-12[268_264]|25-6[273_265]
 24-5	2974-2978	most	abstract[264]	new[264]	_	_
 24-6	2979-2990	appreciated	abstract[264]	new[264]	_	_
 24-7	2991-2996	piece	abstract[264]	new[264]	_	_

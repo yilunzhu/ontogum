@@ -88,26 +88,26 @@
 7-4	378-385	obvious	_	_	_	_
 7-5	386-387	,	_	_	_	_
 7-6	388-391	but	_	_	_	_
-7-7	392-396	deep	abstract[26]	new[26]	cata	7-1[23_26]
-7-8	397-398	,	abstract[26]	new[26]	_	_
-7-9	399-403	even	abstract[26]	new[26]	_	_
-7-10	404-413	breathing	abstract[26]	new[26]	_	_
-7-11	414-415	(	abstract[26]	new[26]	_	_
-7-12	416-423	despite	abstract[26]	new[26]	_	_
-7-13	424-427	the	abstract[26]	new[26]	_	_
-7-14	428-435	rushing	abstract[26]	new[26]	_	_
-7-15	436-446	slipstream	abstract[26]	new[26]	_	_
-7-16	447-448	)	abstract[26]	new[26]	_	_
-7-17	449-452	and	abstract[26]	new[26]	_	_
-7-18	453-464	controlling	abstract[26]	new[26]	_	_
-7-19	465-469	your	abstract[26]|person[30]	new[26]|giv[30]	ana	7-24[33_30]
-7-20	470-480	heart-rate	abstract[26]	new[26]	_	_
-7-21	481-484	are	abstract[26]	new[26]	_	_
-7-22	485-494	essential	abstract[26]	new[26]	_	_
-7-23	495-497	to	abstract[26]	new[26]	_	_
-7-24	498-502	your	abstract[26]|person[33]	new[26]|giv[33]	ana	9-3[38_33]
-7-25	503-512	continued	abstract[26]	new[26]	_	_
-7-26	513-521	survival	abstract[26]	new[26]	_	_
+7-7	392-396	deep	_	_	_	_
+7-8	397-398	,	_	_	_	_
+7-9	399-403	even	_	_	_	_
+7-10	404-413	breathing	_	_	_	_
+7-11	414-415	(	_	_	_	_
+7-12	416-423	despite	_	_	_	_
+7-13	424-427	the	_	_	_	_
+7-14	428-435	rushing	_	_	_	_
+7-15	436-446	slipstream	_	_	_	_
+7-16	447-448	)	_	_	_	_
+7-17	449-452	and	_	_	_	_
+7-18	453-464	controlling	_	_	_	_
+7-19	465-469	your	person[30]	giv[30]	ana	7-24[33_30]
+7-20	470-480	heart-rate	_	_	_	_
+7-21	481-484	are	_	_	_	_
+7-22	485-494	essential	_	_	_	_
+7-23	495-497	to	_	_	_	_
+7-24	498-502	your	person[33]	giv[33]	ana	9-3[38_33]
+7-25	503-512	continued	_	_	_	_
+7-26	513-521	survival	_	_	_	_
 7-27	522-523	.	_	_	_	_
 
 #Text=Entreat assistance .
@@ -137,7 +137,7 @@
 9-19	652-655	not	person[40]	new[40]	_	_
 9-20	656-659	yet	person[40]	new[40]	_	_
 9-21	660-668	deployed	person[40]	new[40]	_	_
-9-22	669-674	their	person[40]	new[40]	_	_
+9-22	669-674	their	person[40]	person[40]	_	_
 9-23	675-680	chute	person[40]	new[40]	_	_
 9-24	681-682	,	_	_	_	_
 9-25	683-689	waving	_	_	_	_
@@ -146,7 +146,7 @@
 9-28	700-703	and	_	_	_	_
 9-29	704-714	signalling	_	_	_	_
 9-30	715-719	that	_	_	_	_
-9-31	720-724	your	object[47]|person[48]	giv[47]|giv[48]	ana|coref	12-5[59_48]|25-26[154_47]
+9-31	720-724	your	object[47]|person[48]	giv[47]|giv[48]	coref|ana	25-26[154_47]|12-5[59_48]
 9-32	725-728	own	object[47]	giv[47]	_	_
 9-33	729-731	is	_	_	_	_
 9-34	732-735	not	_	_	_	_
@@ -157,7 +157,7 @@
 10-1	749-751	If	_	_	_	_
 10-2	752-756	this	_	_	_	_
 10-3	757-759	is	_	_	_	_
-10-4	760-761	a	event[52]	new[52]	cata	10-2[49_52]
+10-4	760-761	a	event[52]	new[52]	ana	25-2[143_52]
 10-5	762-766	solo	event[52]	new[52]	_	_
 10-6	767-771	jump	event[52]	new[52]	_	_
 10-7	772-773	,	_	_	_	_
@@ -179,7 +179,7 @@
 12-2	827-834	linking	_	_	_	_
 12-3	835-839	arms	object[55]	giv[55]	coref	12-14[63_55]
 12-4	840-844	with	_	_	_	_
-12-5	845-849	your	person[58]|person[59]	giv[58]|giv[59]	ana|ana	12-17[67_58]|12-9[60_59]
+12-5	845-849	your	person[58]|person[59]	giv[58]|giv[59]	ana|ana	12-9[60_59]|12-17[67_58]
 12-6	850-856	fellow	person[58]	giv[58]	_	_
 12-7	857-863	jumper	person[58]	giv[58]	_	_
 12-8	864-865	,	_	_	_	_
@@ -229,7 +229,7 @@
 14-2	1045-1050	shock	abstract[79]	new[79]	_	_
 14-3	1051-1053	of	abstract[79]	new[79]	_	_
 14-4	1054-1057	the	abstract[79]|event[80]	new[79]|giv[80]	_	_
-14-5	1058-1063	chute	abstract[79]|event[80]	new[79]|giv[80]	_	_
+14-5	1058-1063	chute	abstract[79]|event[80]	abstract[79]|event[80]	_	_
 14-6	1064-1074	deployment	abstract[79]|event[80]	new[79]|giv[80]	_	_
 14-7	1075-1079	will	_	_	_	_
 14-8	1080-1082	be	_	_	_	_
@@ -237,20 +237,20 @@
 14-10	1091-1092	.	_	_	_	_
 
 #Text=The G-forces will multiply your body weight , making it impossible to hold on ;
-15-1	1093-1096	The	event[83]	new[83]	ana	16-1[93_83]
-15-2	1097-1105	G-forces	event[83]	new[83]	_	_
-15-3	1106-1110	will	event[83]	new[83]	_	_
-15-4	1111-1119	multiply	event[83]	new[83]	_	_
-15-5	1120-1124	your	event[83]|person[86]	new[83]|giv[86]	ana	16-5[96_86]
-15-6	1125-1129	body	event[83]	new[83]	_	_
-15-7	1130-1136	weight	event[83]	new[83]	_	_
-15-8	1137-1138	,	event[83]	new[83]	_	_
-15-9	1139-1145	making	event[83]	new[83]	_	_
-15-10	1146-1148	it	event[83]	new[83]	_	_
-15-11	1149-1159	impossible	event[83]	new[83]	_	_
-15-12	1160-1162	to	event[83]|event[92]	new[83]|new[92]	cata	15-10[88_92]
-15-13	1163-1167	hold	event[83]|event[92]	new[83]|new[92]	_	_
-15-14	1168-1170	on	event[83]|event[92]	new[83]|new[92]	_	_
+15-1	1093-1096	The	_	_	_	_
+15-2	1097-1105	G-forces	_	_	_	_
+15-3	1106-1110	will	_	_	_	_
+15-4	1111-1119	multiply	event[392]	new[392]	ana	16-1[93_392]
+15-5	1120-1124	your	person[86]	person[86]	ana	16-5[96_86]
+15-6	1125-1129	body	_	_	_	_
+15-7	1130-1136	weight	_	_	_	_
+15-8	1137-1138	,	_	_	_	_
+15-9	1139-1145	making	_	_	_	_
+15-10	1146-1148	it	_	_	_	_
+15-11	1149-1159	impossible	_	_	_	_
+15-12	1160-1162	to	_	_	_	_
+15-13	1163-1167	hold	_	_	_	_
+15-14	1168-1170	on	_	_	_	_
 15-15	1171-1172	;	_	_	_	_
 
 #Text=this is why hooking your arms through the harness is essential .
@@ -729,13 +729,13 @@
 39-4	3351-3360	minuscule	_	_	_	_
 39-5	3361-3367	chance	_	_	_	_
 39-6	3368-3372	that	_	_	_	_
-39-7	3373-3377	your	event[264]|person[266]	new[264]|giv[266]	ana|ana	40-8[270_266]|40-2[269_264]
-39-8	3378-3384	impact	event[264]	new[264]	_	_
-39-9	3385-3389	will	event[264]	new[264]	_	_
-39-10	3390-3396	result	event[264]	new[264]	_	_
-39-11	3397-3399	in	event[264]	new[264]	_	_
-39-12	3400-3420	non-life-threatening	event[264]	new[264]	_	_
-39-13	3421-3429	injuries	event[264]	new[264]	_	_
+39-7	3373-3377	your	person[266]	person[266]	ana	40-8[270_266]
+39-8	3378-3384	impact	_	_	_	_
+39-9	3385-3389	will	_	_	_	_
+39-10	3390-3396	result	event[394]	new[394]	ana	40-2[269_394]
+39-11	3397-3399	in	_	_	_	_
+39-12	3400-3420	non-life-threatening	_	_	_	_
+39-13	3421-3429	injuries	_	_	_	_
 39-14	3430-3431	;	_	_	_	_
 
 #Text=if this seems incredibly far-fetched , comfort yourself that double chute failure in modern times is also extremely unlikely , and that you have already beaten worse odds .
@@ -800,15 +800,15 @@
 43-4	3730-3733	may	_	_	_	_
 43-5	3734-3736	be	_	_	_	_
 43-6	3737-3744	helpful	_	_	_	_
-43-7	3745-3747	to	event[288]	new[288]	cata	43-3[286_288]
-43-8	3748-3753	focus	event[288]	new[288]	_	_
-43-9	3754-3758	your	event[288]|person[290]	new[288]|giv[290]	ana	43-13[293_290]
-43-10	3759-3766	efforts	event[288]	new[288]	_	_
-43-11	3767-3769	on	event[288]	new[288]	_	_
-43-12	3770-3777	opening	event[288]	new[288]	_	_
-43-13	3778-3782	your	event[288]|object[292]|person[293]	new[288]|giv[292]|giv[293]	ana	46-2[309_293]
-43-14	3783-3790	reserve	event[288]|object[292]	new[288]|giv[292]	_	_
-43-15	3791-3800	parachute	event[288]|object[292]	new[288]|giv[292]	_	_
+43-7	3745-3747	to	_	_	_	_
+43-8	3748-3753	focus	_	_	_	_
+43-9	3754-3758	your	person[290]	giv[290]	ana	43-13[293_290]
+43-10	3759-3766	efforts	_	_	_	_
+43-11	3767-3769	on	_	_	_	_
+43-12	3770-3777	opening	_	_	_	_
+43-13	3778-3782	your	object[292]|person[293]	giv[292]|giv[293]	ana	46-2[309_293]
+43-14	3783-3790	reserve	object[292]	giv[292]	_	_
+43-15	3791-3800	parachute	object[292]	giv[292]	_	_
 43-16	3801-3802	.	_	_	_	_
 
 #Text=Some humans who have , for various reasons , become aware of their impending death , develop psychological coping strategies to deal with this ;
@@ -824,7 +824,7 @@
 44-10	3848-3854	become	_	_	_	_
 44-11	3855-3860	aware	_	_	_	_
 44-12	3861-3863	of	_	_	_	_
-44-13	3864-3869	their	event[297]	new[297]	ana	44-24[301_297]
+44-13	3864-3869	their	event[297]	event[297]	ana	44-24[301_297]
 44-14	3870-3879	impending	event[297]	new[297]	_	_
 44-15	3880-3885	death	event[297]	new[297]	_	_
 44-16	3886-3887	,	_	_	_	_
@@ -941,21 +941,21 @@
 49-15	4405-4407	is	_	_	_	_
 49-16	4408-4416	possible	_	_	_	_
 49-17	4417-4421	that	_	_	_	_
-49-18	4422-4429	instead	event[344]	new[344]	cata	49-14[342_344]
-49-19	4430-4432	of	event[344]	new[344]	_	_
-49-20	4433-4438	being	event[344]	new[344]	_	_
-49-21	4439-4445	killed	event[344]	new[344]	_	_
-49-22	4446-4454	outright	event[344]	new[344]	_	_
-49-23	4455-4456	,	event[344]	new[344]	_	_
-49-24	4457-4460	you	event[344]|person[345]	new[344]|giv[345]	ana	50-2[348_345]
-49-25	4461-4464	may	event[344]	new[344]	_	_
-49-26	4465-4467	be	event[344]	new[344]	_	_
-49-27	4468-4479	permanently	event[344]	new[344]	_	_
-49-28	4480-4489	paralyzed	event[344]	new[344]	_	_
-49-29	4490-4493	due	event[344]	new[344]	_	_
-49-30	4494-4496	to	event[344]	new[344]	_	_
-49-31	4497-4503	spinal	event[344]	new[344]	_	_
-49-32	4504-4510	injury	event[344]	new[344]	_	_
+49-18	4422-4429	instead	_	_	_	_
+49-19	4430-4432	of	_	_	_	_
+49-20	4433-4438	being	_	_	_	_
+49-21	4439-4445	killed	_	_	_	_
+49-22	4446-4454	outright	_	_	_	_
+49-23	4455-4456	,	_	_	_	_
+49-24	4457-4460	you	person[345]	person[345]	ana	50-2[348_345]
+49-25	4461-4464	may	_	_	_	_
+49-26	4465-4467	be	_	_	_	_
+49-27	4468-4479	permanently	_	_	_	_
+49-28	4480-4489	paralyzed	event[395]	event[395]	coref	50-8[351_395]
+49-29	4490-4493	due	_	_	_	_
+49-30	4494-4496	to	_	_	_	_
+49-31	4497-4503	spinal	_	_	_	_
+49-32	4504-4510	injury	_	_	_	_
 49-33	4511-4512	.	_	_	_	_
 
 #Text=If you have a strong aversion to this outcome , aiming head-downward before impact in the manner of an Olympic diver may ensure the destruction of your cranium and your immediate demise .
@@ -966,8 +966,8 @@
 50-5	4527-4533	strong	_	_	_	_
 50-6	4534-4542	aversion	_	_	_	_
 50-7	4543-4545	to	_	_	_	_
-50-8	4546-4550	this	_	_	_	_
-50-9	4551-4558	outcome	_	_	_	_
+50-8	4546-4550	this	event[351]	giv[351]	_	_
+50-9	4551-4558	outcome	event[351]	giv[351]	_	_
 50-10	4559-4560	,	_	_	_	_
 50-11	4561-4567	aiming	_	_	_	_
 50-12	4568-4581	head-downward	_	_	_	_

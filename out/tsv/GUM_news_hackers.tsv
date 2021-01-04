@@ -6,18 +6,18 @@
 #Text=Hackers attack Church of Scientology website
 1-1	0-7	Hackers	_	_	_	_
 1-2	8-14	attack	_	_	_	_
-1-3	15-21	Church	organization[5]	new[5]	coref	5-22[36_5]
-1-4	22-24	of	organization[5]	new[5]	_	_
-1-5	25-36	Scientology	organization[5]	new[5]	_	_
+1-3	15-21	Church	organization[5]	organization[5]	coref	7-12[55_5]
+1-4	22-24	of	organization[5]	organization[5]	_	_
+1-5	25-36	Scientology	organization[5]	organization[5]	_	_
 1-6	37-44	website	_	_	_	_
 
 #Text=Sunday , January 20 , 2008
-2-1	45-51	Sunday	_	_	_	_
+2-1	45-51	Sunday	time[6]	acc[6]	appos	2-3[8_6]
 2-2	52-53	,	_	_	_	_
-2-3	54-61	January	_	_	_	_
-2-4	62-64	20	_	_	_	_
-2-5	65-66	,	_	_	_	_
-2-6	67-71	2008	_	_	_	_
+2-3	54-61	January	time[8]	giv[8]	_	_
+2-4	62-64	20	time[8]	giv[8]	_	_
+2-5	65-66	,	time[8]	giv[8]	_	_
+2-6	67-71	2008	time[8]	giv[8]	_	_
 
 #Text=Wikinews has learned that according to an Internet posting made just over 24 hours ago , the Church of Scientology 's website is being attacked by hackers , causing the site to shut down .
 3-1	72-80	Wikinews	_	_	_	_
@@ -36,17 +36,17 @@
 3-14	149-154	hours	_	_	_	_
 3-15	155-158	ago	_	_	_	_
 3-16	159-160	,	_	_	_	_
-3-17	161-164	the	event[17]|place[18]	giv[17]|giv[18]	coref|coref	3-30[22_18]|4-1[23_17]
-3-18	165-171	Church	event[17]|place[18]	giv[17]|giv[18]	_	_
-3-19	172-174	of	event[17]|place[18]	giv[17]|giv[18]	_	_
-3-20	175-186	Scientology	event[17]|place[18]	giv[17]|giv[18]	_	_
-3-21	187-189	's	event[17]|place[18]	giv[17]|giv[18]	_	_
-3-22	190-197	website	event[17]|place[18]	giv[17]|giv[18]	_	_
-3-23	198-200	is	event[17]	giv[17]	_	_
-3-24	201-206	being	event[17]	giv[17]	_	_
-3-25	207-215	attacked	event[17]	giv[17]	_	_
-3-26	216-218	by	event[17]	giv[17]	_	_
-3-27	219-226	hackers	event[17]	giv[17]	_	_
+3-17	161-164	the	place[18]	place[18]	coref	3-30[22_18]
+3-18	165-171	Church	place[18]	place[18]	_	_
+3-19	172-174	of	place[18]	place[18]	_	_
+3-20	175-186	Scientology	place[18]	place[18]	_	_
+3-21	187-189	's	place[18]	place[18]	_	_
+3-22	190-197	website	place[18]	place[18]	_	_
+3-23	198-200	is	_	_	_	_
+3-24	201-206	being	_	_	_	_
+3-25	207-215	attacked	event[257]	giv[257]	coref	4-1[23_257]
+3-26	216-218	by	_	_	_	_
+3-27	219-226	hackers	_	_	_	_
 3-28	227-228	,	_	_	_	_
 3-29	229-236	causing	_	_	_	_
 3-30	237-240	the	place[22]	giv[22]	coref	12-32[129_22]
@@ -72,12 +72,12 @@
 4-13	329-330	"	_	_	_	_
 4-14	331-332	,	_	_	_	_
 4-15	333-335	on	_	_	_	_
-4-16	336-339	the	abstract[28]	new[28]	appos	4-19[29_28]
-4-17	340-347	website	abstract[28]	new[28]	_	_
-4-18	348-349	"	_	_	_	_
-4-19	350-360	Insurgency	abstract[29]	giv[29]	_	_
-4-20	361-365	Wiki	abstract[29]	giv[29]	_	_
-4-21	366-367	"	_	_	_	_
+4-16	336-339	the	abstract[28]|abstract[262]	new[28]|new[262]	coref|appos	4-23[30_262]|4-19[29_28]
+4-17	340-347	website	abstract[28]|abstract[262]	new[28]|new[262]	_	_
+4-18	348-349	"	abstract[262]	new[262]	_	_
+4-19	350-360	Insurgency	abstract[29]|abstract[262]	giv[29]|new[262]	_	_
+4-20	361-365	Wiki	abstract[29]|abstract[262]	giv[29]|new[262]	_	_
+4-21	366-367	"	abstract[262]	new[262]	_	_
 4-22	368-369	,	_	_	_	_
 4-23	370-371	a	abstract[30]	giv[30]	coref	5-7[32_30]
 4-24	372-379	spinoff	abstract[30]	giv[30]	_	_
@@ -107,11 +107,11 @@
 5-19	481-484	was	_	_	_	_
 5-20	485-493	prompted	_	_	_	_
 5-21	494-496	by	_	_	_	_
-5-22	497-500	the	organization[36]	giv[36]	coref	7-12[55_36]
-5-23	501-507	Church	organization[36]	giv[36]	_	_
-5-24	508-510	of	organization[36]	giv[36]	_	_
-5-25	511-522	Scientology	organization[36]	giv[36]	_	_
-5-26	523-525	's	organization[36]	giv[36]	_	_
+5-22	497-500	the	_	_	_	_
+5-23	501-507	Church	_	_	_	_
+5-24	508-510	of	_	_	_	_
+5-25	511-522	Scientology	_	_	_	_
+5-26	523-525	's	_	_	_	_
 5-27	526-534	attempts	_	_	_	_
 5-28	535-537	to	_	_	_	_
 5-29	538-544	remove	_	_	_	_
@@ -152,12 +152,12 @@
 6-23	742-746	have	_	_	_	_
 6-24	747-753	stated	_	_	_	_
 6-25	754-758	that	_	_	_	_
-6-26	759-763	they	abstract[50]	giv[50]	_	_
+6-26	759-763	they	abstract[50]	abstract[50]	_	_
 6-27	764-768	will	_	_	_	_
 6-28	769-773	keep	_	_	_	_
 6-29	774-781	hosting	_	_	_	_
-6-30	782-785	the	abstract[52]	giv[52]	coref	8-27[67_52]
-6-31	786-791	video	abstract[52]	giv[52]	_	_
+6-30	782-785	the	abstract[52]	abstract[52]	coref	8-27[67_52]
+6-31	786-791	video	abstract[52]	abstract[52]	_	_
 6-32	792-793	.	_	_	_	_
 
 #Text=" So far , it 's the Internet : 1 , Scientology : 0 . But it 's a long game . " - Matthew Ingram
@@ -179,7 +179,7 @@
 7-16	848-851	But	_	_	_	_
 7-17	852-854	it	_	_	_	_
 7-18	855-857	's	_	_	_	_
-7-19	858-859	a	event[59]	new[59]	cata	7-17[56_59]
+7-19	858-859	a	event[59]	new[59]	coref	8-15[64_59]
 7-20	860-864	long	event[59]	new[59]	_	_
 7-21	865-869	game	event[59]	new[59]	_	_
 7-22	870-871	.	_	_	_	_
@@ -281,7 +281,7 @@
 9-45	1391-1396	which	abstract[90]	acc[90]	_	_
 9-46	1397-1403	posted	abstract[90]	acc[90]	_	_
 9-47	1404-1412	internal	abstract[90]	acc[90]	_	_
-9-48	1413-1419	church	abstract[90]	acc[90]	_	_
+9-48	1413-1419	church	abstract[90]	abstract[90]	_	_
 9-49	1420-1429	documents	abstract[90]	acc[90]	_	_
 9-50	1430-1432	in	abstract[90]	acc[90]	_	_
 9-51	1433-1437	1994	abstract[90]	acc[90]	_	_
@@ -302,14 +302,14 @@
 10-12	1501-1502	,	_	_	_	_
 10-13	1503-1508	homes	_	_	_	_
 10-14	1509-1511	of	_	_	_	_
-10-15	1512-1522	discussion	person[101]	new[101]	ana	10-22[103_101]
-10-16	1523-1528	group	person[101]	new[101]	_	_
-10-17	1529-1541	participants	person[101]	new[101]	_	_
+10-15	1512-1522	discussion	person[101]	person[101]	ana	10-22[103_101]
+10-16	1523-1528	group	person[101]	person[101]	_	_
+10-17	1529-1541	participants	person[101]	person[101]	_	_
 10-18	1542-1546	have	_	_	_	_
 10-19	1547-1551	been	_	_	_	_
 10-20	1552-1558	raided	_	_	_	_
 10-21	1559-1562	and	_	_	_	_
-10-22	1563-1568	their	person[103]	giv[103]	_	_
+10-22	1563-1568	their	person[103]	person[103]	_	_
 10-23	1569-1578	computers	_	_	_	_
 10-24	1579-1585	seized	_	_	_	_
 10-25	1586-1588	--	_	_	_	_
@@ -482,7 +482,7 @@
 16-16	2370-2372	to	_	_	_	_
 16-17	2373-2379	attack	_	_	_	_
 16-18	2380-2383	the	place[153]	giv[153]	_	_
-16-19	2384-2395	scientology	place[153]	giv[153]	_	_
+16-19	2384-2395	scientology	place[153]	place[153]	_	_
 16-20	2396-2403	website	place[153]	giv[153]	_	_
 16-21	2404-2405	.	_	_	_	_
 
@@ -518,7 +518,7 @@
 17-29	2559-2560	.	_	_	_	_
 
 #Text=The Church 's website is currently unreachable .
-18-1	2561-2564	The	place[160]|organization[161]	giv[160]|giv[161]	coref|coref	22-3[193_161]|19-11[165_160]
+18-1	2561-2564	The	place[160]|organization[161]	giv[160]|giv[161]	coref|coref	19-11[165_160]|22-3[193_161]
 18-2	2565-2571	Church	place[160]|organization[161]	giv[160]|giv[161]	_	_
 18-3	2572-2574	's	place[160]|organization[161]	giv[160]|giv[161]	_	_
 18-4	2575-2582	website	place[160]	giv[160]	_	_
@@ -550,9 +550,9 @@
 19-20	2706-2713	stating	_	_	_	_
 19-21	2714-2715	,	_	_	_	_
 19-22	2716-2717	"	_	_	_	_
-19-23	2718-2721	The	_	_	_	_
-19-24	2722-2726	word	_	_	_	_
-19-25	2727-2738	scientology	_	_	_	_
+19-23	2718-2721	The	abstract[169]	new[169]	appos	19-25[170_169]
+19-24	2722-2726	word	abstract[169]	new[169]	_	_
+19-25	2727-2738	scientology	abstract[170]	giv[170]	_	_
 19-26	2739-2744	means	_	_	_	_
 19-27	2745-2751	search	_	_	_	_
 19-28	2752-2755	for	_	_	_	_

@@ -42,7 +42,7 @@
 2-32	193-203	University	_	_	_	_
 2-33	204-205	,	_	_	_	_
 2-34	206-211	where	_	_	_	_
-2-35	212-214	he	person[21]	giv[21]	_	_
+2-35	212-214	he	person[21]	giv[21]	coref	2-37[23_21]
 2-36	215-218	was	_	_	_	_
 2-37	219-220	a	person[23]	giv[23]	ana	3-1[28_23]
 2-38	221-230	classmate	person[23]	giv[23]	_	_
@@ -50,7 +50,7 @@
 2-40	235-243	lifelong	person[23]	giv[23]	_	_
 2-41	244-250	friend	person[23]	giv[23]	_	_
 2-42	251-253	of	person[23]	giv[23]	_	_
-2-43	254-256	Hu	person[23]|person[24]|person[356]	giv[23]|new[24]|new[356]	coref|appos	11-16[116_356]|2-46[25_24]
+2-43	254-256	Hu	person[23]|person[24]|person[356]	giv[23]|new[24]|new[356]	appos|coref	2-46[25_24]|11-16[116_356]
 2-44	257-261	Shih	person[23]|person[24]|person[356]	giv[23]|new[24]|new[356]	_	_
 2-45	262-263	,	person[356]	new[356]	_	_
 2-46	264-267	the	person[25]|person[356]	giv[25]|new[356]	_	_
@@ -136,7 +136,7 @@
 6-1	666-668	He	person[64]	giv[64]	_	_
 6-2	669-675	served	_	_	_	_
 6-3	676-678	as	_	_	_	_
-6-4	679-687	Bertrand	person[67]|person[68]	giv[67]|new[68]	ana|coref	7-2[72_67]|6-9[69_68]
+6-4	679-687	Bertrand	person[67]|person[68]	giv[67]|new[68]	coref|ana	6-9[69_68]|7-2[72_67]
 6-5	688-695	Russell	person[67]|person[68]	giv[67]|new[68]	_	_
 6-6	696-698	's	person[67]|person[68]	giv[67]|new[68]	_	_
 6-7	699-710	interpreter	person[67]	giv[67]	_	_
@@ -428,7 +428,7 @@
 18-1	2137-2139	In	_	_	_	_
 18-2	2140-2144	1945	_	_	_	_
 18-3	2145-2146	,	_	_	_	_
-18-4	2147-2149	he	person[188]	giv[188]	_	_
+18-4	2147-2149	he	person[188]	giv[188]	coref	18-7[193_188]
 18-5	2150-2156	served	_	_	_	_
 18-6	2157-2159	as	_	_	_	_
 18-7	2160-2169	president	person[193]	giv[193]	ana	18-28[199_193]
@@ -458,7 +458,7 @@
 18-31	2293-2294	.	_	_	_	_
 
 #Text=He became an American citizen in 1954 .
-19-1	2295-2297	He	person[201]	giv[201]	_	_
+19-1	2295-2297	He	person[201]	giv[201]	coref	19-3[206_201]
 19-2	2298-2304	became	_	_	_	_
 19-3	2305-2307	an	person[206]	giv[206]	ana	20-4[210_206]
 19-4	2308-2316	American	person[206]	giv[206]	_	_
@@ -550,7 +550,7 @@
 22-32	2738-2739	,	_	_	_	_
 22-33	2740-2744	Life	_	_	_	_
 22-34	2745-2749	with	_	_	_	_
-22-35	2750-2755	Chaos	person[257]	giv[257]	_	_
+22-35	2750-2755	Chaos	person[257]	person[257]	_	_
 22-36	2756-2757	:	_	_	_	_
 22-37	2758-2761	the	_	_	_	_
 22-38	2762-2775	autobiography	_	_	_	_
@@ -640,7 +640,7 @@
 26-7	3147-3148	.	_	_	_	_
 
 #Text=His first daughter Rulan Chao Pian ( 1922 - 2013 ) was Professor of East Asian Studies and Music at Harvard .
-27-1	3149-3152	His	person[303]|person[304]	new[303]|giv[304]	appos|ana	27-4[306_303]|28-1[318_304]
+27-1	3149-3152	His	person[303]|person[304]	new[303]|giv[304]	ana|appos	28-1[318_304]|27-4[306_303]
 27-2	3153-3158	first	person[303]	new[303]	_	_
 27-3	3159-3167	daughter	person[303]	new[303]	_	_
 27-4	3168-3173	Rulan	person[306]	giv[306]	_	_

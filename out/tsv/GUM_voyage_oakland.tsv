@@ -32,19 +32,19 @@
 3-1	127-132	Often	_	_	_	_
 3-2	133-145	overshadowed	_	_	_	_
 3-3	146-148	by	_	_	_	_
-3-4	149-152	San	place[406]	acc[406]	coref	10-31[105_406]
-3-5	153-162	Francisco	place[406]	acc[406]	_	_
-3-6	163-164	,	place[406]	acc[406]	_	_
-3-7	165-168	its	place[406]	acc[406]	_	_
-3-8	169-175	larger	place[406]	acc[406]	_	_
-3-9	176-184	neighbor	place[406]	acc[406]	_	_
-3-10	185-190	lying	place[406]	acc[406]	_	_
-3-11	191-199	directly	place[406]	acc[406]	_	_
-3-12	200-202	to	place[406]	acc[406]	_	_
-3-13	203-206	the	place[406]	acc[406]	_	_
-3-14	207-211	west	place[406]	acc[406]	_	_
+3-4	149-152	San	place[7]|place[407]	acc[7]|acc[407]	coref|appos	10-31[105_407]|3-7[8_7]
+3-5	153-162	Francisco	place[7]|place[407]	acc[7]|acc[407]	_	_
+3-6	163-164	,	place[407]	acc[407]	_	_
+3-7	165-168	its	place[8]|place[407]	giv[8]|acc[407]	_	_
+3-8	169-175	larger	place[8]|place[407]	giv[8]|acc[407]	_	_
+3-9	176-184	neighbor	place[8]|place[407]	giv[8]|acc[407]	_	_
+3-10	185-190	lying	place[8]|place[407]	giv[8]|acc[407]	_	_
+3-11	191-199	directly	place[8]|place[407]	giv[8]|acc[407]	_	_
+3-12	200-202	to	place[8]|place[407]	giv[8]|acc[407]	_	_
+3-13	203-206	the	place[8]|place[407]	giv[8]|acc[407]	_	_
+3-14	207-211	west	place[8]|place[407]	giv[8]|acc[407]	_	_
 3-15	212-213	,	_	_	_	_
-3-16	214-221	Oakland	place[12]	new[12]	cata	3-7[9_12]
+3-16	214-221	Oakland	place[12]	new[12]	ana	3-36[16_12]
 3-17	222-225	has	_	_	_	_
 3-18	226-228	in	_	_	_	_
 3-19	229-235	recent	_	_	_	_
@@ -87,7 +87,7 @@
 4-2	409-412	the	_	_	_	_
 4-3	413-418	1960s	_	_	_	_
 4-4	419-420	,	_	_	_	_
-4-5	421-428	Oakland	place[24]	giv[24]	_	_
+4-5	421-428	Oakland	place[24]	giv[24]	coref	5-16[34_24]
 4-6	429-432	has	_	_	_	_
 4-7	433-437	been	_	_	_	_
 4-8	438-439	a	_	_	_	_
@@ -267,9 +267,9 @@
 8-13	1282-1284	if	_	_	_	_
 8-14	1285-1288	one	_	_	_	_
 8-15	1289-1294	wants	_	_	_	_
-8-16	1295-1297	to	event[83]	new[83]	ana	9-2[84_83]
-8-17	1298-1304	branch	event[83]	new[83]	_	_
-8-18	1305-1308	out	event[83]	new[83]	_	_
+8-16	1295-1297	to	_	_	_	_
+8-17	1298-1304	branch	event[406]	new[406]	ana	9-2[84_406]
+8-18	1305-1308	out	_	_	_	_
 8-19	1309-1310	.	_	_	_	_
 
 #Text=And it is as simple as walking in a direction from there , for the first few neighborhoods , since Old Oakland is along 10th Street , just west of Broadway .
@@ -317,10 +317,10 @@
 10-8	1512-1515	and	_	_	_	_
 10-9	1516-1521	south	_	_	_	_
 10-10	1522-1524	is	_	_	_	_
-10-11	1525-1532	Oakland	_	_	_	_
-10-12	1533-1535	's	_	_	_	_
-10-13	1536-1542	famous	_	_	_	_
-10-14	1543-1552	Chinatown	_	_	_	_
+10-11	1525-1532	Oakland	place[96]	new[96]	coref	10-17[98_96]
+10-12	1533-1535	's	place[96]	new[96]	_	_
+10-13	1536-1542	famous	place[96]	new[96]	_	_
+10-14	1543-1552	Chinatown	place[96]	new[96]	_	_
 10-15	1553-1554	,	_	_	_	_
 10-16	1555-1558	and	_	_	_	_
 10-17	1559-1563	that	place[98]	giv[98]	coref	11-8[109_98]
@@ -334,7 +334,7 @@
 10-25	1593-1602	Chinatown	_	_	_	_
 10-26	1603-1604	,	_	_	_	_
 10-27	1605-1606	"	_	_	_	_
-10-28	1607-1614	Oakland	place[102]	giv[102]	coref	19-9[182_102]
+10-28	1607-1614	Oakland	place[102]	giv[102]		28-13[280_102]
 10-29	1615-1621	rather	_	_	_	_
 10-30	1622-1626	than	_	_	_	_
 10-31	1627-1630	San	place[105]	giv[105]	_	_
@@ -568,9 +568,9 @@
 19-6	2788-2791	the	_	_	_	_
 19-7	2792-2796	best	_	_	_	_
 19-8	2797-2799	in	_	_	_	_
-19-9	2800-2803	the	place[182]	giv[182]	coref	28-13[280_182]
-19-10	2804-2808	city	place[182]	giv[182]	_	_
-19-11	2809-2811	's	place[182]	giv[182]	_	_
+19-9	2800-2803	the	_	_	_	_
+19-10	2804-2808	city	_	_	_	_
+19-11	2809-2811	's	_	_	_	_
 19-12	2812-2819	vintage	_	_	_	_
 19-13	2820-2832	architecture	_	_	_	_
 19-14	2833-2834	,	_	_	_	_
@@ -683,7 +683,7 @@
 23-7	3410-3426	Italian-American	_	_	_	_
 23-8	3427-3439	neighborhood	_	_	_	_
 23-9	3440-3441	,	_	_	_	_
-23-10	3442-3444	it	place[216]	giv[216]	_	_
+23-10	3442-3444	it	place[216]	giv[216]	ana	23-19[219_216]
 23-11	3445-3447	is	_	_	_	_
 23-12	3448-3451	now	_	_	_	_
 23-13	3452-3453	a	_	_	_	_
@@ -720,17 +720,17 @@
 24-7	3626-3634	Berkeley	_	_	_	_
 24-8	3635-3641	border	_	_	_	_
 24-9	3642-3646	lies	_	_	_	_
-24-10	3647-3656	Rockridge	place[407]	new[407]	ana	25-1[232_407]
-24-11	3657-3658	,	place[407]	new[407]	_	_
-24-12	3659-3660	a	place[407]	new[407]	_	_
-24-13	3661-3673	neighborhood	place[407]	new[407]	_	_
-24-14	3674-3679	mixed	place[407]	new[407]	_	_
-24-15	3680-3684	with	place[407]	new[407]	_	_
-24-16	3685-3691	family	place[407]	new[407]	_	_
-24-17	3692-3700	friendly	place[407]	new[407]	_	_
-24-18	3701-3704	and	place[407]	new[407]	_	_
-24-19	3705-3713	artistic	place[407]	new[407]	_	_
-24-20	3714-3719	vibes	place[407]	new[407]	_	_
+24-10	3647-3656	Rockridge	place[227]|place[409]	new[227]|new[409]	appos|ana	24-12[230_227]|25-1[232_409]
+24-11	3657-3658	,	place[409]	new[409]	_	_
+24-12	3659-3660	a	place[230]|place[409]	giv[230]|new[409]	_	_
+24-13	3661-3673	neighborhood	place[230]|place[409]	giv[230]|new[409]	_	_
+24-14	3674-3679	mixed	place[230]|place[409]	giv[230]|new[409]	_	_
+24-15	3680-3684	with	place[230]|place[409]	giv[230]|new[409]	_	_
+24-16	3685-3691	family	place[230]|place[409]	giv[230]|new[409]	_	_
+24-17	3692-3700	friendly	place[230]|place[409]	giv[230]|new[409]	_	_
+24-18	3701-3704	and	place[230]|place[409]	giv[230]|new[409]	_	_
+24-19	3705-3713	artistic	place[230]|place[409]	giv[230]|new[409]	_	_
+24-20	3714-3719	vibes	place[230]|place[409]	giv[230]|new[409]	_	_
 24-21	3720-3721	.	_	_	_	_
 
 #Text=It has lots of local boutiques and a diverse range of food at all prices and styles .
@@ -788,18 +788,18 @@
 27-7	3971-3973	of	_	_	_	_
 27-8	3974-3982	Temescal	place[251]	giv[251]	_	_
 27-9	3983-3987	lies	_	_	_	_
-27-10	3988-3996	Piedmont	_	_	_	_
-27-11	3997-4003	Avenue	_	_	_	_
-27-12	4004-4005	,	_	_	_	_
-27-13	4006-4007	a	_	_	_	_
-27-14	4008-4014	street	_	_	_	_
-27-15	4015-4024	extending	_	_	_	_
-27-16	4025-4029	from	_	_	_	_
-27-17	4030-4038	Broadway	place[256]	giv[256]	_	_
-27-18	4039-4043	near	_	_	_	_
-27-19	4044-4048	34th	_	_	_	_
-27-20	4049-4052	and	_	_	_	_
-27-21	4053-4062	Hawthorne	_	_	_	_
+27-10	3988-3996	Piedmont	place[254]|place[411]	new[254]|new[411]	coref|appos	27-23[262_411]|27-13[255_254]
+27-11	3997-4003	Avenue	place[254]|place[411]	new[254]|new[411]	_	_
+27-12	4004-4005	,	place[411]	new[411]	_	_
+27-13	4006-4007	a	place[255]|place[411]	giv[255]|new[411]	_	_
+27-14	4008-4014	street	place[255]|place[411]	giv[255]|new[411]	_	_
+27-15	4015-4024	extending	place[255]|place[411]	giv[255]|new[411]	_	_
+27-16	4025-4029	from	place[255]|place[411]	giv[255]|new[411]	_	_
+27-17	4030-4038	Broadway	place[255]|place[256]|place[411]	giv[255]|giv[256]|new[411]	_	_
+27-18	4039-4043	near	place[255]|place[411]	giv[255]|new[411]	_	_
+27-19	4044-4048	34th	place[255]|place[411]	giv[255]|new[411]	_	_
+27-20	4049-4052	and	place[255]|place[411]	giv[255]|new[411]	_	_
+27-21	4053-4062	Hawthorne	place[255]|place[411]	giv[255]|new[411]	_	_
 27-22	4063-4066	and	_	_	_	_
 27-23	4067-4069	an	place[262]	giv[262]	ana	28-1[273_262]
 27-24	4070-4074	area	place[262]	giv[262]	_	_
@@ -899,7 +899,7 @@
 29-19	4564-4565	.	_	_	_	_
 
 #Text=Grand Lake and Lakeshore both share a friendly , suburban sort of feel .
-30-1	4566-4571	Grand	place[294]|place[295]	giv[294]|new[295]	ana|coref	31-28[308_294]|31-2[300_295]
+30-1	4566-4571	Grand	place[294]|place[295]	giv[294]|new[295]	coref|ana	31-2[300_295]|31-28[308_294]
 30-2	4572-4576	Lake	place[294]|place[295]	giv[294]|new[295]	_	_
 30-3	4577-4580	and	place[294]	giv[294]	_	_
 30-4	4581-4590	Lakeshore	place[294]|place[296]	giv[294]|new[296]	coref	31-25[307_296]

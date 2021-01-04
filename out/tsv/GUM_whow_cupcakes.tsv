@@ -362,7 +362,7 @@
 #Text=Prepare the muffin tray by adding cupcake holders / cases .
 35-1	1351-1358	Prepare	_	_	_	_
 35-2	1359-1362	the	object[91]	acc[91]	coref	46-2[142_91]
-35-3	1363-1369	muffin	object[91]	acc[91]	_	_
+35-3	1363-1369	muffin	object[91]	object[91]	_	_
 35-4	1370-1374	tray	object[91]	acc[91]	_	_
 35-5	1375-1377	by	_	_	_	_
 35-6	1378-1384	adding	_	_	_	_
@@ -396,7 +396,7 @@
 #Text=Put the cider vinegar into a small bowl and add the soy milk .
 38-1	1501-1504	Put	_	_	_	_
 38-2	1505-1508	the	substance[102]	giv[102]	_	_
-38-3	1509-1514	cider	substance[102]	giv[102]	_	_
+38-3	1509-1514	cider	substance[102]	substance[102]	_	_
 38-4	1515-1522	vinegar	substance[102]	giv[102]	_	_
 38-5	1523-1527	into	_	_	_	_
 38-6	1528-1529	a	object[105]	new[105]	coref	43-8[133_105]
@@ -405,7 +405,7 @@
 38-9	1541-1544	and	_	_	_	_
 38-10	1545-1548	add	_	_	_	_
 38-11	1549-1552	the	substance[106]	giv[106]	_	_
-38-12	1553-1556	soy	substance[106]	giv[106]	_	_
+38-12	1553-1556	soy	substance[106]	substance[106]	_	_
 38-13	1557-1561	milk	substance[106]	giv[106]	_	_
 38-14	1562-1563	.	_	_	_	_
 
@@ -422,11 +422,11 @@
 39-10	1604-1605	.	_	_	_	_
 
 #Text=The mixture will now curdle and this is what should be happening .
-40-1	1606-1609	The	event[112]|substance[113]	new[112]|giv[113]	coref|ana	43-11[134_113]|40-7[114_112]
-40-2	1610-1617	mixture	event[112]|substance[113]	new[112]|giv[113]	_	_
-40-3	1618-1622	will	event[112]	new[112]	_	_
-40-4	1623-1626	now	event[112]	new[112]	_	_
-40-5	1627-1633	curdle	event[112]	new[112]	_	_
+40-1	1606-1609	The	substance[113]	substance[113]	coref	43-11[134_113]
+40-2	1610-1617	mixture	substance[113]	substance[113]	_	_
+40-3	1618-1622	will	_	_	_	_
+40-4	1623-1626	now	_	_	_	_
+40-5	1627-1633	curdle	event[373]	new[373]	ana	40-7[114_373]
 40-6	1634-1637	and	_	_	_	_
 40-7	1638-1642	this	event[114]	giv[114]	_	_
 40-8	1643-1645	is	_	_	_	_
@@ -437,21 +437,21 @@
 40-13	1671-1672	.	_	_	_	_
 
 #Text=Stir together the flour , sugar , baking powder , baking soda and salt .
-41-1	1673-1677	Stir	event[116]	new[116]	coref	42-15[130_116]
-41-2	1678-1686	together	event[116]	new[116]	_	_
-41-3	1687-1690	the	event[116]|substance[117]|substance[118]	new[116]|new[117]|giv[118]	coref	45-6[138_117]
-41-4	1691-1696	flour	event[116]|substance[117]|substance[118]	new[116]|new[117]|giv[118]	_	_
-41-5	1697-1698	,	event[116]|substance[117]	new[116]|new[117]	_	_
-41-6	1699-1704	sugar	event[116]|substance[117]	new[116]|new[117]	_	_
-41-7	1705-1706	,	event[116]|substance[117]	new[116]|new[117]	_	_
-41-8	1707-1713	baking	event[116]|substance[117]	new[116]|new[117]	_	_
-41-9	1714-1720	powder	event[116]|substance[117]	new[116]|new[117]	_	_
-41-10	1721-1722	,	event[116]|substance[117]	new[116]|new[117]	_	_
-41-11	1723-1729	baking	event[116]|substance[117]	new[116]|new[117]	_	_
-41-12	1730-1734	soda	event[116]|substance[117]	new[116]|new[117]	_	_
-41-13	1735-1738	and	event[116]|substance[117]	new[116]|new[117]	_	_
-41-14	1739-1743	salt	event[116]|substance[117]	new[116]|new[117]	_	_
-41-15	1744-1745	.	event[116]	new[116]	_	_
+41-1	1673-1677	Stir	event[374]	new[374]	coref	42-15[130_374]
+41-2	1678-1686	together	_	_	_	_
+41-3	1687-1690	the	substance[117]|substance[118]	substance[117]|substance[118]	coref	45-6[138_117]
+41-4	1691-1696	flour	substance[117]|substance[118]	substance[117]|substance[118]	_	_
+41-5	1697-1698	,	substance[117]	substance[117]	_	_
+41-6	1699-1704	sugar	substance[117]	substance[117]	_	_
+41-7	1705-1706	,	substance[117]	substance[117]	_	_
+41-8	1707-1713	baking	substance[117]	substance[117]	_	_
+41-9	1714-1720	powder	substance[117]	substance[117]	_	_
+41-10	1721-1722	,	substance[117]	substance[117]	_	_
+41-11	1723-1729	baking	substance[117]	substance[117]	_	_
+41-12	1730-1734	soda	substance[117]	substance[117]	_	_
+41-13	1735-1738	and	substance[117]	substance[117]	_	_
+41-14	1739-1743	salt	substance[117]	substance[117]	_	_
+41-15	1744-1745	.	_	_	_	_
 
 #Text=If you want chocolate cupcakes , add cocoa ( about 1/2 cup ) to this stage .
 42-1	1746-1748	If	_	_	_	_
@@ -461,11 +461,11 @@
 42-5	1768-1776	cupcakes	_	_	_	_
 42-6	1777-1778	,	_	_	_	_
 42-7	1779-1782	add	_	_	_	_
-42-8	1783-1788	cocoa	_	_	_	_
+42-8	1783-1788	cocoa	substance[125]	giv[125]	appos	42-10[129_125]
 42-9	1789-1790	(	_	_	_	_
-42-10	1791-1796	about	_	_	_	_
-42-11	1797-1800	1/2	_	_	_	_
-42-12	1801-1804	cup	_	_	_	_
+42-10	1791-1796	about	substance[129]	giv[129]	_	_
+42-11	1797-1800	1/2	substance[129]	giv[129]	_	_
+42-12	1801-1804	cup	substance[129]	giv[129]	_	_
 42-13	1805-1806	)	_	_	_	_
 42-14	1807-1809	to	_	_	_	_
 42-15	1810-1814	this	event[130]	giv[130]	_	_
@@ -484,7 +484,7 @@
 43-9	1865-1869	bowl	object[133]	giv[133]	_	_
 43-10	1870-1880	containing	object[133]	giv[133]	_	_
 43-11	1881-1884	the	object[133]|substance[134]	giv[133]|giv[134]	_	_
-43-12	1885-1888	soy	object[133]|substance[134]	giv[133]|giv[134]	_	_
+43-12	1885-1888	soy	object[133]|substance[134]	object[133]|substance[134]	_	_
 43-13	1889-1893	milk	object[133]|substance[134]	giv[133]|giv[134]	_	_
 43-14	1894-1897	and	object[133]|substance[134]	giv[133]|giv[134]	_	_
 43-15	1898-1905	vinegar	object[133]|substance[134]	giv[133]|giv[134]	_	_
@@ -522,7 +522,7 @@
 #Text=Fill the muffin pan .
 46-1	2038-2042	Fill	_	_	_	_
 46-2	2043-2046	the	object[142]	giv[142]	coref	48-16[155_142]
-46-3	2047-2053	muffin	object[142]	giv[142]	_	_
+46-3	2047-2053	muffin	object[142]	object[142]	_	_
 46-4	2054-2057	pan	object[142]	giv[142]	_	_
 46-5	2058-2059	.	_	_	_	_
 
@@ -531,7 +531,7 @@
 47-2	2068-2072	fill	_	_	_	_
 47-3	2073-2077	each	object[145]	giv[145]	coref	48-22[158_145]
 47-4	2078-2083	paper	object[145]	giv[145]	_	_
-47-5	2084-2091	cupcake	object[145]	giv[145]	_	_
+47-5	2084-2091	cupcake	object[145]	object[145]	_	_
 47-6	2092-2098	holder	object[145]	giv[145]	_	_
 47-7	2099-2103	with	_	_	_	_
 47-8	2104-2109	about	_	_	_	_
@@ -558,13 +558,13 @@
 48-14	2188-2192	make	_	_	_	_
 48-15	2193-2197	sure	_	_	_	_
 48-16	2198-2201	the	object[155]	giv[155]	coref	52-3[182_155]
-48-17	2202-2208	muffin	object[155]	giv[155]	_	_
+48-17	2202-2208	muffin	object[155]	object[155]	_	_
 48-18	2209-2212	pan	object[155]	giv[155]	_	_
 48-19	2213-2215	is	_	_	_	_
 48-20	2216-2222	larger	_	_	_	_
 48-21	2223-2226	and	_	_	_	_
 48-22	2227-2230	the	object[158]	giv[158]	_	_
-48-23	2231-2238	cupcake	object[158]	giv[158]	_	_
+48-23	2231-2238	cupcake	object[158]	object[158]	_	_
 48-24	2239-2246	holders	object[158]	giv[158]	_	_
 48-25	2247-2250	are	_	_	_	_
 48-26	2251-2257	bigger	_	_	_	_
@@ -592,11 +592,11 @@
 50-10	2333-2335	to	_	_	_	_
 50-11	2336-2340	make	_	_	_	_
 50-12	2341-2345	sure	_	_	_	_
-50-13	2346-2350	they	event[165]|object[166]	new[165]|giv[166]	ana|ana	50-21[168_166]|50-19[167_165]
-50-14	2351-2354	are	event[165]	new[165]	_	_
-50-15	2355-2358	n't	event[165]	new[165]	_	_
-50-16	2359-2367	browning	event[165]	new[165]	_	_
-50-17	2368-2375	earlier	event[165]	new[165]	_	_
+50-13	2346-2350	they	object[166]	object[166]	ana	50-21[168_166]
+50-14	2351-2354	are	_	_	_	_
+50-15	2355-2358	n't	_	_	_	_
+50-16	2359-2367	browning	event[375]	event[375]	ana	50-19[167_375]
+50-17	2368-2375	earlier	_	_	_	_
 50-18	2376-2377	(	_	_	_	_
 50-19	2378-2382	this	event[167]	giv[167]	_	_
 50-20	2383-2388	means	_	_	_	_
@@ -703,7 +703,7 @@
 57-4	2787-2788	2	_	_	_	_
 57-5	2789-2790	:	_	_	_	_
 57-6	2791-2796	Basic	object[206]	giv[206]	ana	70-2[252_206]
-57-7	2797-2806	Chocolate	object[206]	giv[206]	_	_
+57-7	2797-2806	Chocolate	object[206]	object[206]	_	_
 57-8	2807-2812	Vegan	object[206]	giv[206]	_	_
 57-9	2813-2821	Cupcakes	object[206]	giv[206]	_	_
 
@@ -722,7 +722,7 @@
 #Text=If using cupcake cases , arrange on a baking sheet now .
 59-1	2860-2862	If	_	_	_	_
 59-2	2863-2868	using	_	_	_	_
-59-3	2869-2876	cupcake	object[212]	giv[212]	coref	67-3[245_212]
+59-3	2869-2876	cupcake	object[212]	object[212]	coref	67-3[245_212]
 59-4	2877-2882	cases	object[212]	giv[212]	_	_
 59-5	2883-2884	,	_	_	_	_
 59-6	2885-2892	arrange	_	_	_	_
@@ -738,7 +738,7 @@
 60-2	2920-2925	using	_	_	_	_
 60-3	2926-2927	a	object[216]	new[216]	ana	60-10[219_216]
 60-4	2928-2936	silicone	object[216]	new[216]	_	_
-60-5	2937-2944	cupcake	object[216]	new[216]	_	_
+60-5	2937-2944	cupcake	object[216]	object[216]	_	_
 60-6	2945-2950	sheet	object[216]	new[216]	_	_
 60-7	2951-2952	,	_	_	_	_
 60-8	2953-2959	simply	_	_	_	_
@@ -776,7 +776,7 @@
 #Text=Pour the soy milk , vinegar , sugar , oil and vanilla into another bowl .
 63-1	3075-3079	Pour	_	_	_	_
 63-2	3080-3083	the	substance[230]|substance[231]	new[230]|giv[231]	coref	65-2[243_230]
-63-3	3084-3087	soy	substance[230]|substance[231]	new[230]|giv[231]	_	_
+63-3	3084-3087	soy	substance[230]|substance[231]	substance[230]|substance[231]	_	_
 63-4	3088-3092	milk	substance[230]|substance[231]	new[230]|giv[231]	_	_
 63-5	3093-3094	,	substance[230]	new[230]	_	_
 63-6	3095-3102	vinegar	substance[230]	new[230]	_	_
@@ -819,10 +819,10 @@
 67-1	3249-3253	Pour	_	_	_	_
 67-2	3254-3258	into	_	_	_	_
 67-3	3259-3262	the	object[245]	giv[245]	_	_
-67-4	3263-3270	cupcake	object[245]	giv[245]	_	_
+67-4	3263-3270	cupcake	object[245]	object[245]	_	_
 67-5	3271-3276	cases	object[245]	giv[245]	_	_
 67-6	3277-3279	or	object[245]	giv[245]	_	_
-67-7	3280-3287	cupcake	object[245]	giv[245]	_	_
+67-7	3280-3287	cupcake	object[245]	object[245]	_	_
 67-8	3288-3293	holes	object[245]	giv[245]	_	_
 67-9	3294-3295	.	_	_	_	_
 

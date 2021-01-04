@@ -44,7 +44,7 @@
 3-16	167-171	than	_	_	_	_
 3-17	172-173	I	person[13]	giv[13]	ana	6-3[47_13]
 3-18	174-181	imagine	_	_	_	_
-3-19	182-185	any	person[15]	giv[15]	ana	10-10[88_15]
+3-19	182-185	any	person[15]	giv[15]		10-10[88_15]
 3-20	186-188	of	person[15]	giv[15]	_	_
 3-21	189-192	you	person[15]	giv[15]	_	_
 3-22	193-197	guys	person[15]	giv[15]	_	_
@@ -254,7 +254,7 @@
 10-10	1182-1185	you	person[88]	giv[88]	_	_
 10-11	1186-1190	hear	_	_	_	_
 10-12	1191-1196	about	_	_	_	_
-10-13	1197-1200	our	abstract[90]|person[91]	new[90]|giv[91]	ana|ana	26-2[225_90]|29-1[246_91]
+10-13	1197-1200	our	abstract[90]|person[91]	new[90]|giv[91]	ana|ana	29-1[246_91]|26-2[225_90]
 10-14	1201-1208	outrage	abstract[90]	new[90]	_	_
 10-15	1209-1213	over	abstract[90]	new[90]	_	_
 10-16	1214-1215	a	abstract[90]	new[90]	_	_
@@ -406,8 +406,8 @@
 14-18	1901-1903	of	_	_	_	_
 14-19	1904-1910	moving	_	_	_	_
 14-20	1911-1915	past	_	_	_	_
-14-21	1916-1921	these	abstract[143]	giv[143]	_	_
-14-22	1922-1928	issues	abstract[143]	giv[143]	_	_
+14-21	1916-1921	these	abstract[143]	abstract[143]	_	_
+14-22	1922-1928	issues	abstract[143]	abstract[143]	_	_
 14-23	1929-1930	,	_	_	_	_
 14-24	1931-1934	and	_	_	_	_
 14-25	1935-1939	that	_	_	_	_
@@ -453,15 +453,15 @@
 15-3	2119-2121	it	_	_	_	_
 15-4	2122-2130	annoying	_	_	_	_
 15-5	2131-2135	when	_	_	_	_
-15-6	2136-2145	Americans	event[156]	new[156]	cata	15-3[153_156]
-15-7	2146-2149	try	event[156]	new[156]	_	_
-15-8	2150-2152	to	event[156]	new[156]	_	_
-15-9	2153-2158	apply	event[156]	new[156]	_	_
-15-10	2159-2161	US	event[156]|abstract[159]	new[156]|new[159]	coref	15-35[171_159]
-15-11	2162-2168	racial	event[156]|abstract[159]	new[156]|new[159]	_	_
-15-12	2169-2177	concepts	event[156]|abstract[159]	new[156]|new[159]	_	_
-15-13	2178-2180	to	event[156]	new[156]	_	_
-15-14	2181-2187	Europe	event[156]	new[156]	_	_
+15-6	2136-2145	Americans	_	_	_	_
+15-7	2146-2149	try	_	_	_	_
+15-8	2150-2152	to	_	_	_	_
+15-9	2153-2158	apply	_	_	_	_
+15-10	2159-2161	US	abstract[159]	new[159]	coref	15-35[171_159]
+15-11	2162-2168	racial	abstract[159]	new[159]	_	_
+15-12	2169-2177	concepts	abstract[159]	new[159]	_	_
+15-13	2178-2180	to	_	_	_	_
+15-14	2181-2187	Europe	_	_	_	_
 15-15	2188-2189	,	_	_	_	_
 15-16	2190-2193	and	_	_	_	_
 15-17	2194-2198	thus	_	_	_	_
@@ -503,19 +503,19 @@
 15-53	2376-2377	.	_	_	_	_
 
 #Text=" s n't doing a good job of moving past these issues "
-16-1	2378-2379	"	abstract[180]	giv[180]	ana	17-2[181_180]
-16-2	2380-2381	s	abstract[180]	giv[180]	_	_
-16-3	2382-2385	n't	abstract[180]	giv[180]	_	_
-16-4	2386-2391	doing	abstract[180]	giv[180]	_	_
-16-5	2392-2393	a	abstract[180]	giv[180]	_	_
-16-6	2394-2398	good	abstract[180]	giv[180]	_	_
-16-7	2399-2402	job	abstract[180]	giv[180]	_	_
-16-8	2403-2405	of	abstract[180]	giv[180]	_	_
-16-9	2406-2412	moving	abstract[180]	giv[180]	_	_
-16-10	2413-2417	past	abstract[180]	giv[180]	_	_
-16-11	2418-2423	these	abstract[180]	giv[180]	_	_
-16-12	2424-2430	issues	abstract[180]	giv[180]	_	_
-16-13	2431-2432	"	abstract[180]	giv[180]	_	_
+16-1	2378-2379	"	_	_	_	_
+16-2	2380-2381	s	_	_	_	_
+16-3	2382-2385	n't	_	_	_	_
+16-4	2386-2391	doing	abstract[301]	abstract[301]	ana	17-2[181_301]
+16-5	2392-2393	a	_	_	_	_
+16-6	2394-2398	good	_	_	_	_
+16-7	2399-2402	job	_	_	_	_
+16-8	2403-2405	of	_	_	_	_
+16-9	2406-2412	moving	_	_	_	_
+16-10	2413-2417	past	_	_	_	_
+16-11	2418-2423	these	_	_	_	_
+16-12	2424-2430	issues	_	_	_	_
+16-13	2431-2432	"	_	_	_	_
 
 #Text=Is that entirely true , though ?
 17-1	2433-2435	Is	_	_	_	_

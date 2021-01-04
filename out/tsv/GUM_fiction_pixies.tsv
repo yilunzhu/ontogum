@@ -14,7 +14,7 @@
 #Text=It was Sunday in snowy Manhattan .
 3-1	24-26	It	_	_	_	_
 3-2	27-30	was	_	_	_	_
-3-3	31-37	Sunday	time[5]	new[5]	cata	3-1[4_5]
+3-3	31-37	Sunday	_	_	_	_
 3-4	38-40	in	_	_	_	_
 3-5	41-46	snowy	_	_	_	_
 3-6	47-56	Manhattan	_	_	_	_
@@ -127,7 +127,7 @@
 
 #Text=In the bathtub , a bar of soap was gaily chasing a nylon scrubby thing around the surface of the water .
 10-1	501-503	In	_	_	_	_
-10-2	504-507	the	object[44]	giv[44]	coref	16-10[76_44]
+10-2	504-507	the	object[44]	giv[44]		16-10[76_44]
 10-3	508-515	bathtub	object[44]	giv[44]	_	_
 10-4	516-517	,	_	_	_	_
 10-5	518-519	a	_	_	_	_
@@ -362,7 +362,7 @@
 23-17	1476-1479	did	_	_	_	_
 23-18	1480-1481	,	_	_	_	_
 23-19	1482-1489	because	_	_	_	_
-23-20	1490-1493	she	person[123]	giv[123]	_	_
+23-20	1490-1493	she	person[123]	giv[123]	ana	30-3[148_123]
 23-21	1494-1496	’s	_	_	_	_
 23-22	1497-1500	the	_	_	_	_
 23-23	1501-1504	one	_	_	_	_

@@ -15,12 +15,12 @@
 1-9	55-62	schools	_	_	_	_
 
 #Text=Sunday , August 2 , 2015
-2-1	63-69	Sunday	_	_	_	_
+2-1	63-69	Sunday	time[7]	acc[7]	appos	2-3[9_7]
 2-2	70-71	,	_	_	_	_
-2-3	72-78	August	_	_	_	_
-2-4	79-80	2	_	_	_	_
-2-5	81-82	,	_	_	_	_
-2-6	83-87	2015	_	_	_	_
+2-3	72-78	August	time[9]	giv[9]	_	_
+2-4	79-80	2	time[9]	giv[9]	_	_
+2-5	81-82	,	time[9]	giv[9]	_	_
+2-6	83-87	2015	time[9]	giv[9]	_	_
 
 #Text=In the past few days in Italy , several municipalities have started asking religious schools to pay taxes for property and local services , despite the resistance of the Catholic Church .
 3-1	88-90	In	_	_	_	_
@@ -57,12 +57,12 @@
 3-32	274-275	.	_	_	_	_
 
 #Text=Instituto Gonzaga , a catholic school in Milan . Image : Friedrichstrasse .
-4-1	276-285	Instituto	_	_	_	_
-4-2	286-293	Gonzaga	_	_	_	_
+4-1	276-285	Instituto	organization[23]	new[23]	appos	4-4[26_23]
+4-2	286-293	Gonzaga	organization[23]	new[23]	_	_
 4-3	294-295	,	_	_	_	_
-4-4	296-297	a	_	_	_	_
-4-5	298-306	catholic	_	_	_	_
-4-6	307-313	school	_	_	_	_
+4-4	296-297	a	organization[26]	giv[26]	_	_
+4-5	298-306	catholic	organization[26]	giv[26]	_	_
+4-6	307-313	school	organization[26]	giv[26]	_	_
 4-7	314-316	in	_	_	_	_
 4-8	317-322	Milan	_	_	_	_
 4-9	323-324	.	_	_	_	_
@@ -162,7 +162,7 @@
 7-15	821-828	several	_	_	_	_
 7-16	829-837	refusals	_	_	_	_
 7-17	838-840	of	_	_	_	_
-7-18	841-844	his	event[66]	giv[66]	_	_
+7-18	841-844	his	event[66]	event[66]	_	_
 7-19	845-853	requests	event[66]	giv[66]	_	_
 7-20	854-857	for	event[66]	giv[66]	_	_
 7-21	858-865	payment	event[66]	giv[66]	_	_
@@ -214,19 +214,19 @@
 9-2	1101-1105	case	_	_	_	_
 9-3	1106-1108	on	_	_	_	_
 9-4	1109-1114	which	_	_	_	_
-9-5	1115-1118	the	organization[81]	giv[81]	coref	26-33[234_81]
+9-5	1115-1118	the	organization[81]	giv[81]		26-33[234_81]
 9-6	1119-1124	Court	organization[81]	giv[81]	_	_
 9-7	1125-1128	has	_	_	_	_
 9-8	1129-1134	ruled	_	_	_	_
 9-9	1135-1138	was	_	_	_	_
 9-10	1139-1141	of	_	_	_	_
-9-11	1142-1145	the	organization[82]	acc[82]	appos	9-14[83_82]
-9-12	1146-1155	religious	organization[82]	acc[82]	_	_
-9-13	1156-1163	schools	organization[82]	acc[82]	_	_
-9-14	1164-1169	Santo	organization[83]	giv[83]	_	_
-9-15	1170-1177	Spirito	organization[83]	giv[83]	_	_
-9-16	1178-1181	and	organization[83]	giv[83]	_	_
-9-17	1182-1192	Immacolata	organization[83]	giv[83]	_	_
+9-11	1142-1145	the	organization[82]|organization[280]	acc[82]|acc[280]	coref|appos	11-11[104_280]|9-14[83_82]
+9-12	1146-1155	religious	organization[82]|organization[280]	acc[82]|acc[280]	_	_
+9-13	1156-1163	schools	organization[82]|organization[280]	acc[82]|acc[280]	_	_
+9-14	1164-1169	Santo	organization[83]|organization[280]	giv[83]|acc[280]	_	_
+9-15	1170-1177	Spirito	organization[83]|organization[280]	giv[83]|acc[280]	_	_
+9-16	1178-1181	and	organization[83]|organization[280]	giv[83]|acc[280]	_	_
+9-17	1182-1192	Immacolata	organization[83]|organization[280]	giv[83]|acc[280]	_	_
 9-18	1193-1195	in	_	_	_	_
 9-19	1196-1203	Livorno	place[87]	giv[87]	coref	10-9[98_87]
 9-20	1204-1205	,	place[87]	giv[87]	_	_
@@ -273,8 +273,8 @@
 11-8	1388-1393	users	_	_	_	_
 11-9	1394-1396	of	_	_	_	_
 11-10	1397-1400	the	_	_	_	_
-11-11	1401-1408	private	_	_	_	_
-11-12	1409-1416	schools	_	_	_	_
+11-11	1401-1408	private	organization[104]	giv[104]	_	_
+11-12	1409-1416	schools	organization[104]	giv[104]	_	_
 11-13	1417-1420	pay	_	_	_	_
 11-14	1421-1422	a	_	_	_	_
 11-15	1423-1432	frequency	_	_	_	_
@@ -304,7 +304,7 @@
 12-3	1518-1521	the	abstract[112]	new[112]	coref	14-1[134_112]
 12-4	1522-1529	Italian	abstract[112]	new[112]	_	_
 12-5	1530-1539	municipal	abstract[112]	new[112]	_	_
-12-6	1540-1543	tax	abstract[112]	new[112]	_	_
+12-6	1540-1543	tax	abstract[112]	abstract[112]	_	_
 12-7	1544-1554	discipline	abstract[112]	new[112]	_	_
 12-8	1555-1558	has	_	_	_	_
 12-9	1559-1566	changed	_	_	_	_
@@ -401,15 +401,15 @@
 15-20	1983-1984	.	_	_	_	_
 
 #Text=Claudio De Vincenti , undersecretary to the prime minister , said " a discussion table will be opened with the non-profit associations , religious association included " ( ( it ) ) .
-16-1	1985-1992	Claudio	_	_	_	_
-16-2	1993-1995	De	_	_	_	_
-16-3	1996-2004	Vincenti	_	_	_	_
+16-1	1985-1992	Claudio	person[148]	new[148]	appos	16-5[149_148]
+16-2	1993-1995	De	person[148]	new[148]	_	_
+16-3	1996-2004	Vincenti	person[148]	new[148]	_	_
 16-4	2005-2006	,	_	_	_	_
-16-5	2007-2021	undersecretary	_	_	_	_
-16-6	2022-2024	to	_	_	_	_
-16-7	2025-2028	the	_	_	_	_
-16-8	2029-2034	prime	_	_	_	_
-16-9	2035-2043	minister	_	_	_	_
+16-5	2007-2021	undersecretary	person[149]	giv[149]	_	_
+16-6	2022-2024	to	person[149]	giv[149]	_	_
+16-7	2025-2028	the	person[149]	giv[149]	_	_
+16-8	2029-2034	prime	person[149]	giv[149]	_	_
+16-9	2035-2043	minister	person[149]	giv[149]	_	_
 16-10	2044-2045	,	_	_	_	_
 16-11	2046-2050	said	_	_	_	_
 16-12	2051-2052	"	_	_	_	_
@@ -552,9 +552,9 @@
 
 #Text=Who takes the decisions , do it with less ideology .
 21-1	2723-2726	Who	person[193]	new[193]	ana	22-14[204_193]
-21-2	2727-2732	takes	event[195]	new[195]	ana	21-7[197_195]
-21-3	2733-2736	the	event[195]	new[195]	_	_
-21-4	2737-2746	decisions	event[195]	new[195]	_	_
+21-2	2727-2732	takes	event[273]	event[273]	ana	21-7[197_273]
+21-3	2733-2736	the	_	_	_	_
+21-4	2737-2746	decisions	_	_	_	_
 21-5	2747-2748	,	_	_	_	_
 21-6	2749-2751	do	_	_	_	_
 21-7	2752-2754	it	event[197]	giv[197]	_	_
@@ -648,16 +648,16 @@
 25-12	3209-3210	.	_	_	_	_
 
 #Text=The Union of Rationalist Atheists and Agnostics ( UAAR ) has launched a petition which now has more than 11,000 signatures , asking the government to respect and execute the sentence of the Supreme Court .
-26-1	3211-3214	The	organization[224]|organization[283]	new[224]|new[283]	appos|ana	26-9[227_224]|27-1[235_283]
-26-2	3215-3220	Union	organization[224]|organization[283]	new[224]|new[283]	_	_
-26-3	3221-3223	of	organization[224]|organization[283]	new[224]|new[283]	_	_
-26-4	3224-3235	Rationalist	organization[224]|organization[283]	new[224]|new[283]	_	_
-26-5	3236-3244	Atheists	organization[224]|organization[283]	new[224]|new[283]	_	_
-26-6	3245-3248	and	organization[224]|organization[283]	new[224]|new[283]	_	_
-26-7	3249-3258	Agnostics	organization[224]|organization[283]	new[224]|new[283]	_	_
-26-8	3259-3260	(	organization[283]	new[283]	_	_
-26-9	3261-3265	UAAR	organization[227]|organization[283]	giv[227]|new[283]	_	_
-26-10	3266-3267	)	_	_	_	_
+26-1	3211-3214	The	organization[224]|organization[294]	new[224]|new[294]	ana|appos	27-1[235_294]|26-9[227_224]
+26-2	3215-3220	Union	organization[224]|organization[294]	new[224]|new[294]	_	_
+26-3	3221-3223	of	organization[224]|organization[294]	new[224]|new[294]	_	_
+26-4	3224-3235	Rationalist	organization[224]|organization[294]	new[224]|new[294]	_	_
+26-5	3236-3244	Atheists	organization[224]|organization[294]	new[224]|new[294]	_	_
+26-6	3245-3248	and	organization[224]|organization[294]	new[224]|new[294]	_	_
+26-7	3249-3258	Agnostics	organization[224]|organization[294]	new[224]|new[294]	_	_
+26-8	3259-3260	(	organization[294]	new[294]	_	_
+26-9	3261-3265	UAAR	organization[227]|organization[294]	giv[227]|new[294]	_	_
+26-10	3266-3267	)	organization[294]	new[294]	_	_
 26-11	3268-3271	has	_	_	_	_
 26-12	3272-3280	launched	_	_	_	_
 26-13	3281-3282	a	_	_	_	_

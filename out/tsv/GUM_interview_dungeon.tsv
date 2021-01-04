@@ -18,12 +18,12 @@
 1-12	53-60	dungeon	organization[7]	new[7]	_	_
 
 #Text=Sunday , October 21 , 2007
-2-1	61-67	Sunday	_	_	_	_
+2-1	61-67	Sunday	time[8]	acc[8]	appos	2-3[10_8]
 2-2	68-69	,	_	_	_	_
-2-3	70-77	October	_	_	_	_
-2-4	78-80	21	_	_	_	_
-2-5	81-82	,	_	_	_	_
-2-6	83-87	2007	_	_	_	_
+2-3	70-77	October	time[10]	acc[10]	_	_
+2-4	78-80	21	time[10]	acc[10]	_	_
+2-5	81-82	,	time[10]	acc[10]	_	_
+2-6	83-87	2007	time[10]	acc[10]	_	_
 
 #Text=Operating the business
 3-1	88-97	Operating	_	_	_	_
@@ -186,7 +186,7 @@
 16-17	719-725	person	_	_	_	_
 16-18	726-731	would	_	_	_	_
 16-19	732-737	think	_	_	_	_
-16-20	738-740	we	person[60]	giv[60]	ana	17-1[61_60]
+16-20	738-740	we	person[60]	person[60]	ana	17-1[61_60]
 16-21	741-746	would	_	_	_	_
 16-22	747-751	hire	_	_	_	_
 16-23	752-753	.	_	_	_	_
@@ -249,8 +249,8 @@
 20-1	943-947	Yeah	_	_	_	_
 20-2	948-949	,	_	_	_	_
 20-3	950-951	"	_	_	_	_
-20-4	952-957	think	event[82]	giv[82]	ana	20-10[84_82]
-20-5	958-963	again	event[82]	giv[82]	_	_
+20-4	952-957	think	event[463]	event[463]	ana	20-10[84_463]
+20-5	958-963	again	_	_	_	_
 20-6	964-965	"	_	_	_	_
 20-7	966-968	or	_	_	_	_
 20-8	969-978	something	_	_	_	_
@@ -373,7 +373,7 @@
 #Text=What 's your greatest non-fixed cost ?
 28-1	1442-1446	What	_	_	_	_
 28-2	1447-1449	's	_	_	_	_
-28-3	1450-1454	your	abstract[127]|person[128]	acc[127]|giv[128]	ana|coref	29-6[131_128]|29-1[130_127]
+28-3	1450-1454	your	abstract[127]|person[128]	acc[127]|giv[128]	coref|ana	29-1[130_127]|29-6[131_128]
 28-4	1455-1463	greatest	abstract[127]	acc[127]	_	_
 28-5	1464-1473	non-fixed	abstract[127]	acc[127]	_	_
 28-6	1474-1478	cost	abstract[127]	acc[127]	_	_
@@ -445,9 +445,9 @@
 32-2	1750-1757	hardest	_	_	_	_
 32-3	1758-1763	thing	_	_	_	_
 32-4	1764-1766	in	_	_	_	_
-32-5	1767-1774	running	event[160]	new[160]	ana	32-16[162_160]
-32-6	1775-1779	this	event[160]|organization[161]	new[160]|giv[161]	_	_
-32-7	1780-1788	business	event[160]|organization[161]	new[160]|giv[161]	_	_
+32-5	1767-1774	running	event[464]	new[464]	ana	32-16[162_464]
+32-6	1775-1779	this	organization[161]	organization[161]	_	_
+32-7	1780-1788	business	organization[161]	organization[161]	_	_
 32-8	1789-1790	,	_	_	_	_
 32-9	1791-1796	which	_	_	_	_
 32-10	1797-1799	is	_	_	_	_
@@ -462,7 +462,7 @@
 32-19	1829-1832	the	_	_	_	_
 32-20	1833-1845	relationship	_	_	_	_
 32-21	1846-1850	that	_	_	_	_
-32-22	1851-1853	my	person[165]|person[166]	giv[165]|giv[166]	ana|ana	47-1[244_166]|48-1[248_165]
+32-22	1851-1853	my	person[165]|person[166]	giv[165]|giv[166]	ana|ana	48-1[248_165]|47-1[244_166]
 32-23	1854-1858	wife	person[165]	giv[165]	_	_
 32-24	1859-1862	has	_	_	_	_
 32-25	1863-1867	with	_	_	_	_
@@ -787,13 +787,13 @@
 56-1	3106-3109	How	_	_	_	_
 56-2	3110-3113	can	_	_	_	_
 56-3	3114-3117	you	person[276]	giv[276]	ana	58-11[287_276]
-56-4	3118-3122	tell	event[280]	new[280]	ana	58-16[288_280]
-56-5	3123-3130	whether	event[280]	new[280]	_	_
-56-6	3131-3135	they	event[280]|person[281]	new[280]|giv[281]	ana	57-5[282_281]
-56-7	3136-3140	will	event[280]	new[280]	_	_
-56-8	3141-3143	or	event[280]	new[280]	_	_
-56-9	3144-3148	will	event[280]	new[280]	_	_
-56-10	3149-3152	not	event[280]	new[280]	_	_
+56-4	3118-3122	tell	event[465]	event[465]	ana	58-16[288_465]
+56-5	3123-3130	whether	_	_	_	_
+56-6	3131-3135	they	person[281]	person[281]	ana	57-5[282_281]
+56-7	3136-3140	will	_	_	_	_
+56-8	3141-3143	or	_	_	_	_
+56-9	3144-3148	will	_	_	_	_
+56-10	3149-3152	not	_	_	_	_
 56-11	3153-3154	?	_	_	_	_
 
 #Text=Just by talking to them ?
@@ -1052,16 +1052,16 @@
 79-2	4061-4064	but	_	_	_	_
 79-3	4065-4066	I	person[375]	giv[375]	ana	79-8[378_375]
 79-4	4067-4071	have	_	_	_	_
-79-5	4072-4073	a	abstract[377]|abstract[462]	giv[377]|giv[462]	appos|ana	79-13[380_377]|84-2[396_462]
-79-6	4074-4079	chart	abstract[377]|abstract[462]	giv[377]|giv[462]	_	_
-79-7	4080-4084	that	abstract[377]|abstract[462]	giv[377]|giv[462]	_	_
-79-8	4085-4086	I	abstract[377]|person[378]|abstract[462]	giv[377]|giv[378]|giv[462]	ana	80-5[382_378]
-79-9	4087-4090	'll	abstract[377]|abstract[462]	giv[377]|giv[462]	_	_
-79-10	4091-4093	go	abstract[377]|abstract[462]	giv[377]|giv[462]	_	_
-79-11	4094-4101	through	abstract[377]|abstract[462]	giv[377]|giv[462]	_	_
-79-12	4102-4103	;	abstract[462]	giv[462]	_	_
-79-13	4104-4107	the	abstract[380]|abstract[462]	giv[380]|giv[462]	_	_
-79-14	4108-4112	MMPI	abstract[380]|abstract[462]	giv[380]|giv[462]	_	_
+79-5	4072-4073	a	abstract[377]|abstract[468]	giv[377]|giv[468]	appos|ana	79-13[380_377]|84-2[396_468]
+79-6	4074-4079	chart	abstract[377]|abstract[468]	giv[377]|giv[468]	_	_
+79-7	4080-4084	that	abstract[377]|abstract[468]	giv[377]|giv[468]	_	_
+79-8	4085-4086	I	abstract[377]|person[378]|abstract[468]	giv[377]|giv[378]|giv[468]	ana	80-5[382_378]
+79-9	4087-4090	'll	abstract[377]|abstract[468]	giv[377]|giv[468]	_	_
+79-10	4091-4093	go	abstract[377]|abstract[468]	giv[377]|giv[468]	_	_
+79-11	4094-4101	through	abstract[377]|abstract[468]	giv[377]|giv[468]	_	_
+79-12	4102-4103	;	abstract[468]	giv[468]	_	_
+79-13	4104-4107	the	abstract[380]|abstract[468]	giv[380]|giv[468]	_	_
+79-14	4108-4112	MMPI	abstract[380]|abstract[468]	giv[380]|giv[468]	_	_
 79-15	4113-4114	.	_	_	_	_
 
 #Text=The baseline data that I use to --
@@ -1125,7 +1125,7 @@
 #Text=What 's your favorite question ?
 86-1	4345-4349	What	_	_	_	_
 86-2	4350-4352	's	_	_	_	_
-86-3	4353-4357	your	abstract[404]|person[405]	new[404]|giv[405]	coref|ana	87-6[409_404]|87-1[406_405]
+86-3	4353-4357	your	abstract[404]|person[405]	new[404]|giv[405]	ana|coref	87-1[406_405]|87-6[409_404]
 86-4	4358-4366	favorite	abstract[404]	new[404]	_	_
 86-5	4367-4375	question	abstract[404]	new[404]	_	_
 86-6	4376-4377	?	_	_	_	_

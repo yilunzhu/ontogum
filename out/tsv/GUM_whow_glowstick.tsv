@@ -27,29 +27,29 @@
 2-14	103-104	.	_	_	_	_
 
 #Text=To truly make a glowstick without breaking an already-made glowstick and shoving its contents into a tube ( also known as cheating ) , you 've gotta let your inner scientist out ( along with a few dollars ) .
-3-1	105-107	To	event[9]	new[9]	ana	5-1[26_9]
-3-2	108-113	truly	event[9]	new[9]	_	_
-3-3	114-118	make	event[9]	new[9]	_	_
-3-4	119-120	a	event[9]	new[9]	_	_
-3-5	121-130	glowstick	event[9]	new[9]	_	_
-3-6	131-138	without	event[9]	new[9]	_	_
-3-7	139-147	breaking	event[9]	new[9]	_	_
-3-8	148-150	an	event[9]|object[12]	new[9]|new[12]	ana	3-13[14_12]
-3-9	151-163	already-made	event[9]|object[12]	new[9]|new[12]	_	_
-3-10	164-173	glowstick	event[9]|object[12]	new[9]|new[12]	_	_
-3-11	174-177	and	event[9]	new[9]	_	_
-3-12	178-185	shoving	event[9]	new[9]	_	_
-3-13	186-189	its	event[9]|object[14]	new[9]|giv[14]	_	_
-3-14	190-198	contents	event[9]	new[9]	_	_
-3-15	199-203	into	event[9]	new[9]	_	_
-3-16	204-205	a	event[9]	new[9]	_	_
-3-17	206-210	tube	event[9]	new[9]	_	_
-3-18	211-212	(	event[9]	new[9]	_	_
-3-19	213-217	also	event[9]	new[9]	_	_
-3-20	218-223	known	event[9]	new[9]	_	_
-3-21	224-226	as	event[9]	new[9]	_	_
-3-22	227-235	cheating	event[9]	new[9]	_	_
-3-23	236-237	)	event[9]	new[9]	_	_
+3-1	105-107	To	_	_	_	_
+3-2	108-113	truly	_	_	_	_
+3-3	114-118	make	event[274]	new[274]	ana	5-1[26_274]
+3-4	119-120	a	_	_	_	_
+3-5	121-130	glowstick	_	_	_	_
+3-6	131-138	without	_	_	_	_
+3-7	139-147	breaking	_	_	_	_
+3-8	148-150	an	object[12]	object[12]	ana	3-13[14_12]
+3-9	151-163	already-made	object[12]	object[12]	_	_
+3-10	164-173	glowstick	object[12]	object[12]	_	_
+3-11	174-177	and	_	_	_	_
+3-12	178-185	shoving	_	_	_	_
+3-13	186-189	its	object[14]	object[14]	_	_
+3-14	190-198	contents	_	_	_	_
+3-15	199-203	into	_	_	_	_
+3-16	204-205	a	_	_	_	_
+3-17	206-210	tube	_	_	_	_
+3-18	211-212	(	_	_	_	_
+3-19	213-217	also	_	_	_	_
+3-20	218-223	known	_	_	_	_
+3-21	224-226	as	_	_	_	_
+3-22	227-235	cheating	_	_	_	_
+3-23	236-237	)	_	_	_	_
 3-24	238-239	,	_	_	_	_
 3-25	240-243	you	person[18]	acc[18]	ana	3-29[22_18]
 3-26	244-247	've	_	_	_	_
@@ -96,7 +96,7 @@
 6-4	403-406	Two	_	_	_	_
 6-5	407-408	:	_	_	_	_
 6-6	409-414	Using	_	_	_	_
-6-7	415-422	Luminol	substance[35]	new[35]	coref	47-4[232_35]
+6-7	415-422	Luminol	substance[35]	new[35]		47-4[232_35]
 
 #Text=Put on protective glasses .
 7-1	423-426	Put	_	_	_	_
@@ -121,9 +121,9 @@
 9-1	500-502	It	_	_	_	_
 9-2	503-505	's	_	_	_	_
 9-3	506-510	also	_	_	_	_
-9-4	511-512	a	event[46]	new[46]	cata	9-1[43_46]
-9-5	513-517	good	event[46]	new[46]	_	_
-9-6	518-522	idea	event[46]	new[46]	_	_
+9-4	511-512	a	_	_	_	_
+9-5	513-517	good	_	_	_	_
+9-6	518-522	idea	_	_	_	_
 9-7	523-525	to	_	_	_	_
 9-8	526-529	not	_	_	_	_
 9-9	530-534	wear	_	_	_	_
@@ -172,58 +172,58 @@
 12-3	718-719	,	_	_	_	_
 12-4	720-724	kids	person[62]	giv[62]	ana	12-6[66_62]
 12-5	725-726	:	_	_	_	_
-12-6	727-730	You	event[65]|person[66]	new[65]|giv[66]	ana|ana	13-1[71_65]|13-14[79_66]
-12-7	731-734	'll	event[65]	new[65]	_	_
-12-8	735-737	be	event[65]	new[65]	_	_
-12-9	738-745	working	event[65]	new[65]	_	_
-12-10	746-750	with	event[65]	new[65]	_	_
-12-11	751-752	a	event[65]|substance[68]	new[65]|acc[68]	ana	13-7[74_68]
-12-12	753-761	solution	event[65]|substance[68]	new[65]|acc[68]	_	_
-12-13	762-766	that	event[65]|substance[68]	new[65]|acc[68]	_	_
-12-14	767-769	's	event[65]|substance[68]	new[65]|acc[68]	_	_
-12-15	770-774	near	event[65]|substance[68]	new[65]|acc[68]	_	_
-12-16	775-776	a	event[65]|substance[68]	new[65]|acc[68]	_	_
-12-17	777-779	12	event[65]|substance[68]	new[65]|acc[68]	_	_
-12-18	780-782	on	event[65]|substance[68]	new[65]|acc[68]	_	_
-12-19	783-786	the	event[65]|substance[68]	new[65]|acc[68]	_	_
-12-20	787-789	pH	event[65]|substance[68]	new[65]|acc[68]	_	_
-12-21	790-795	scale	event[65]|substance[68]	new[65]|acc[68]	_	_
+12-6	727-730	You	person[66]	person[66]	ana	13-14[79_66]
+12-7	731-734	'll	_	_	_	_
+12-8	735-737	be	_	_	_	_
+12-9	738-745	working	event[276]	new[276]	ana	13-1[71_276]
+12-10	746-750	with	_	_	_	_
+12-11	751-752	a	substance[68]	substance[68]	ana	13-7[74_68]
+12-12	753-761	solution	substance[68]	substance[68]	_	_
+12-13	762-766	that	substance[68]	substance[68]	_	_
+12-14	767-769	's	substance[68]	substance[68]	_	_
+12-15	770-774	near	substance[68]	substance[68]	_	_
+12-16	775-776	a	substance[68]	substance[68]	_	_
+12-17	777-779	12	substance[68]	substance[68]	_	_
+12-18	780-782	on	substance[68]	substance[68]	_	_
+12-19	783-786	the	substance[68]	substance[68]	_	_
+12-20	787-789	pH	substance[68]	substance[68]	_	_
+12-21	790-795	scale	substance[68]	substance[68]	_	_
 12-22	796-797	.	_	_	_	_
 
 #Text=That basically means do n't swallow it , do n't put it in your eyes , do n't bathe in it , and do n't really expose yourself to it directly at all .
 13-1	798-802	That	event[71]	giv[71]	_	_
 13-2	803-812	basically	_	_	_	_
 13-3	813-818	means	_	_	_	_
-13-4	819-821	do	abstract[73]	new[73]	ana	14-2[83_73]
-13-5	822-825	n't	abstract[73]	new[73]	_	_
-13-6	826-833	swallow	abstract[73]	new[73]	_	_
-13-7	834-836	it	abstract[73]|substance[74]	new[73]|giv[74]	ana	13-12[75_74]
-13-8	837-838	,	abstract[73]	new[73]	_	_
-13-9	839-841	do	abstract[73]	new[73]	_	_
-13-10	842-845	n't	abstract[73]	new[73]	_	_
-13-11	846-849	put	abstract[73]	new[73]	_	_
-13-12	850-852	it	abstract[73]|substance[75]	new[73]|giv[75]	ana	13-21[80_75]
-13-13	853-855	in	abstract[73]	new[73]	_	_
-13-14	856-860	your	abstract[73]|person[79]	new[73]|giv[79]	ana	13-28[81_79]
-13-15	861-865	eyes	abstract[73]	new[73]	_	_
-13-16	866-867	,	abstract[73]	new[73]	_	_
-13-17	868-870	do	abstract[73]	new[73]	_	_
-13-18	871-874	n't	abstract[73]	new[73]	_	_
-13-19	875-880	bathe	abstract[73]	new[73]	_	_
-13-20	881-883	in	abstract[73]	new[73]	_	_
-13-21	884-886	it	abstract[73]|substance[80]	new[73]|giv[80]	ana	13-30[82_80]
-13-22	887-888	,	abstract[73]	new[73]	_	_
-13-23	889-892	and	abstract[73]	new[73]	_	_
-13-24	893-895	do	abstract[73]	new[73]	_	_
-13-25	896-899	n't	abstract[73]	new[73]	_	_
-13-26	900-906	really	abstract[73]	new[73]	_	_
-13-27	907-913	expose	abstract[73]	new[73]	_	_
-13-28	914-922	yourself	abstract[73]|person[81]	new[73]|giv[81]	ana	18-17[103_81]
-13-29	923-925	to	abstract[73]	new[73]	_	_
-13-30	926-928	it	abstract[73]|substance[82]	new[73]|giv[82]	_	_
-13-31	929-937	directly	abstract[73]	new[73]	_	_
-13-32	938-940	at	abstract[73]	new[73]	_	_
-13-33	941-944	all	abstract[73]	new[73]	_	_
+13-4	819-821	do	_	_	_	_
+13-5	822-825	n't	_	_	_	_
+13-6	826-833	swallow	abstract[277]	new[277]	ana	14-2[83_277]
+13-7	834-836	it	substance[74]	substance[74]	ana	13-12[75_74]
+13-8	837-838	,	_	_	_	_
+13-9	839-841	do	_	_	_	_
+13-10	842-845	n't	_	_	_	_
+13-11	846-849	put	_	_	_	_
+13-12	850-852	it	substance[75]	substance[75]	ana	13-21[80_75]
+13-13	853-855	in	_	_	_	_
+13-14	856-860	your	person[79]	person[79]	ana	13-28[81_79]
+13-15	861-865	eyes	_	_	_	_
+13-16	866-867	,	_	_	_	_
+13-17	868-870	do	_	_	_	_
+13-18	871-874	n't	_	_	_	_
+13-19	875-880	bathe	_	_	_	_
+13-20	881-883	in	_	_	_	_
+13-21	884-886	it	substance[80]	substance[80]	ana	13-30[82_80]
+13-22	887-888	,	_	_	_	_
+13-23	889-892	and	_	_	_	_
+13-24	893-895	do	_	_	_	_
+13-25	896-899	n't	_	_	_	_
+13-26	900-906	really	_	_	_	_
+13-27	907-913	expose	_	_	_	_
+13-28	914-922	yourself	person[81]	person[81]	ana	18-17[103_81]
+13-29	923-925	to	_	_	_	_
+13-30	926-928	it	substance[82]	substance[82]	_	_
+13-31	929-937	directly	_	_	_	_
+13-32	938-940	at	_	_	_	_
+13-33	941-944	all	_	_	_	_
 13-34	945-946	.	_	_	_	_
 
 #Text=Got it ?
@@ -295,14 +295,14 @@
 19-3	1238-1240	is	_	_	_	_
 19-4	1241-1245	used	_	_	_	_
 19-5	1246-1248	to	_	_	_	_
-19-6	1249-1256	replace	event[108]	new[108]	ana	20-2[112_108]
-19-7	1257-1260	the	event[108]	new[108]	_	_
-19-8	1261-1268	luminol	event[108]	new[108]	_	_
-19-9	1269-1271	's	event[108]	new[108]	_	_
-19-10	1272-1280	nitrogen	event[108]	new[108]	_	_
-19-11	1281-1286	atoms	event[108]	new[108]	_	_
-19-12	1287-1291	with	event[108]	new[108]	_	_
-19-13	1292-1298	oxygen	event[108]	new[108]	_	_
+19-6	1249-1256	replace	event[278]	new[278]	ana	20-2[112_278]
+19-7	1257-1260	the	_	_	_	_
+19-8	1261-1268	luminol	_	_	_	_
+19-9	1269-1271	's	_	_	_	_
+19-10	1272-1280	nitrogen	_	_	_	_
+19-11	1281-1286	atoms	_	_	_	_
+19-12	1287-1291	with	_	_	_	_
+19-13	1292-1298	oxygen	_	_	_	_
 19-14	1299-1300	.	_	_	_	_
 
 #Text=When that happens , all the substances create a rave and start partying and electrons fly everywhere and what results ?
@@ -378,11 +378,11 @@
 23-1	1613-1615	It	_	_	_	_
 23-2	1616-1618	is	_	_	_	_
 23-3	1619-1628	important	_	_	_	_
-23-4	1629-1632	not	event[135]	new[135]	cata	23-1[133_135]
-23-5	1633-1635	to	event[135]	new[135]	_	_
-23-6	1636-1641	touch	event[135]	new[135]	_	_
-23-7	1642-1645	the	event[135]|substance[136]	new[135]|giv[136]	_	_
-23-8	1646-1653	luminol	event[135]|substance[136]	new[135]|giv[136]	_	_
+23-4	1629-1632	not	_	_	_	_
+23-5	1633-1635	to	_	_	_	_
+23-6	1636-1641	touch	_	_	_	_
+23-7	1642-1645	the	substance[136]	giv[136]	_	_
+23-8	1646-1653	luminol	substance[136]	giv[136]	_	_
 23-9	1654-1655	.	_	_	_	_
 
 #Text=Use a funnel to make everything safe and easy .
@@ -523,15 +523,15 @@
 31-1	2261-2263	It	_	_	_	_
 31-2	2264-2266	's	_	_	_	_
 31-3	2267-2276	important	_	_	_	_
-31-4	2277-2279	to	event[180]	new[180]	cata	31-1[177_180]
-31-5	2280-2283	use	event[180]	new[180]	_	_
-31-6	2284-2292	sanitary	event[180]	new[180]	_	_
-31-7	2293-2294	,	event[180]	new[180]	_	_
-31-8	2295-2300	clean	event[180]	new[180]	_	_
-31-9	2301-2306	tubes	event[180]	new[180]	_	_
-31-10	2307-2310	for	event[180]	new[180]	_	_
-31-11	2311-2315	your	event[180]|object[182]|person[183]	new[180]|acc[182]|giv[183]	coref|ana	42-2[217_182]|32-4[186_183]
-31-12	2316-2326	glowsticks	event[180]|object[182]	new[180]|acc[182]	_	_
+31-4	2277-2279	to	_	_	_	_
+31-5	2280-2283	use	_	_	_	_
+31-6	2284-2292	sanitary	_	_	_	_
+31-7	2293-2294	,	_	_	_	_
+31-8	2295-2300	clean	_	_	_	_
+31-9	2301-2306	tubes	_	_	_	_
+31-10	2307-2310	for	_	_	_	_
+31-11	2311-2315	your	object[182]|person[183]	acc[182]|giv[183]	ana|coref	32-4[186_183]|42-2[217_182]
+31-12	2316-2326	glowsticks	object[182]	acc[182]	_	_
 31-13	2327-2328	.	_	_	_	_
 
 #Text=The last thing you want is other substances interacting with the reactions you 're depending on to make the substances glow .
@@ -559,14 +559,14 @@
 32-22	2453-2454	.	_	_	_	_
 
 #Text=Set the correct lid next to each container .
-33-1	2455-2458	Set	event[194]	new[194]	ana	34-1[197_194]
-33-2	2459-2462	the	event[194]	new[194]	_	_
-33-3	2463-2470	correct	event[194]	new[194]	_	_
-33-4	2471-2474	lid	event[194]	new[194]	_	_
-33-5	2475-2479	next	event[194]	new[194]	_	_
-33-6	2480-2482	to	event[194]	new[194]	_	_
-33-7	2483-2487	each	event[194]|object[196]	new[194]|giv[196]	coref	34-6[201_196]
-33-8	2488-2497	container	event[194]|object[196]	new[194]|giv[196]	_	_
+33-1	2455-2458	Set	event[279]	event[279]	ana	34-1[197_279]
+33-2	2459-2462	the	_	_	_	_
+33-3	2463-2470	correct	_	_	_	_
+33-4	2471-2474	lid	_	_	_	_
+33-5	2475-2479	next	_	_	_	_
+33-6	2480-2482	to	_	_	_	_
+33-7	2483-2487	each	object[196]	object[196]	coref	34-6[201_196]
+33-8	2488-2497	container	object[196]	object[196]	_	_
 33-9	2498-2499	.	_	_	_	_
 
 #Text=This enables you to seal the containers quickly after filling .
@@ -771,7 +771,7 @@
 48-26	3346-3356	laboratory	abstract[238]	giv[238]	_	_
 48-27	3357-3358	,	abstract[238]	giv[238]	_	_
 48-28	3359-3362	but	abstract[238]	giv[238]	_	_
-48-29	3363-3365	it	abstract[238]	giv[238]	_	_
+48-29	3363-3365	it	abstract[238]	abstract[238]	_	_
 48-30	3366-3368	's	abstract[238]	giv[238]	_	_
 48-31	3369-3374	still	abstract[238]	giv[238]	_	_
 48-32	3375-3380	worth	abstract[238]	giv[238]	_	_

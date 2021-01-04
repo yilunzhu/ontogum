@@ -86,7 +86,7 @@
 12-14	408-410	of	abstract[32]	new[32]	_	_
 12-15	411-417	poetry	abstract[32]	new[32]	_	_
 12-16	418-419	(	_	_	_	_
-12-17	420-429	Domínguez	abstract[36]|person[37]	new[36]|new[37]	coref|coref	13-49[74_37]|13-49[73_36]
+12-17	420-429	Domínguez	abstract[36]|person[37]	new[36]|new[37]	coref|coref	13-49[73_36]|13-49[74_37]
 12-18	430-438	Caparrós	abstract[36]|person[37]	new[36]|new[37]	_	_
 12-19	439-440	,	abstract[36]	new[36]	_	_
 12-20	441-445	2000	abstract[36]	new[36]	_	_
@@ -468,7 +468,7 @@
 #Text=Then , our corpus and system are described , followed by an evaluation of the system .
 23-1	2480-2484	Then	_	_	_	_
 23-2	2485-2486	,	_	_	_	_
-23-3	2487-2490	our	abstract[187]|person[188]	giv[187]|giv[188]	coref|ana	24-7[197_187]|24-7[198_188]
+23-3	2487-2490	our	abstract[187]|person[188]	giv[187]|giv[188]	ana|coref	24-7[198_188]|24-7[197_187]
 23-4	2491-2497	corpus	abstract[187]	giv[187]	_	_
 23-5	2498-2501	and	_	_	_	_
 23-6	2502-2508	system	abstract[189]	giv[189]	coref	23-15[193_189]
@@ -491,7 +491,7 @@
 24-4	2586-2588	on	_	_	_	_
 24-5	2589-2599	enjambment	_	_	_	_
 24-6	2600-2602	in	_	_	_	_
-24-7	2603-2606	our	abstract[197]|person[198]	giv[197]|giv[198]	ana|coref	32-1[265_198]|25-16[205_197]
+24-7	2603-2606	our	abstract[197]|person[198]	giv[197]|giv[198]	coref|ana	25-16[205_197]|32-1[265_198]
 24-8	2607-2617	diachronic	abstract[197]	giv[197]	_	_
 24-9	2618-2624	sonnet	abstract[197]	giv[197]	_	_
 24-10	2625-2631	corpus	abstract[197]	giv[197]	_	_
@@ -531,14 +531,14 @@
 26-3	2800-2807	Spanish	abstract[210]	giv[210]	coref	29-8[234_210]
 
 #Text=Syntactic and metrical units often match in poetry .
-27-1	2808-2817	Syntactic	abstract[212]	new[212]	coref	28-3[216_212]
-27-2	2818-2821	and	abstract[212]	new[212]	_	_
-27-3	2822-2830	metrical	abstract[212]	new[212]	_	_
-27-4	2831-2836	units	abstract[212]	new[212]	_	_
-27-5	2837-2842	often	abstract[212]	new[212]	_	_
-27-6	2843-2848	match	abstract[212]	new[212]	_	_
-27-7	2849-2851	in	abstract[212]	new[212]	_	_
-27-8	2852-2858	poetry	abstract[212]	new[212]	_	_
+27-1	2808-2817	Syntactic	_	_	_	_
+27-2	2818-2821	and	_	_	_	_
+27-3	2822-2830	metrical	_	_	_	_
+27-4	2831-2836	units	_	_	_	_
+27-5	2837-2842	often	_	_	_	_
+27-6	2843-2848	match	abstract[403]	abstract[403]	coref	28-3[216_403]
+27-7	2849-2851	in	_	_	_	_
+27-8	2852-2858	poetry	_	_	_	_
 27-9	2859-2860	.	_	_	_	_
 
 #Text=However , this trend has been broken since antiquity for various reasons ( Parry ( 1929 ) on Homer , or Flores Gómez ( 1988 ) on early classical poetry ) .
@@ -580,14 +580,14 @@
 29-2	3020-3027	Spanish	_	_	_	_
 29-3	3028-3037	tradition	_	_	_	_
 29-4	3038-3039	,	_	_	_	_
-29-5	3040-3050	enjambment	abstract[233]	giv[233]	appos	29-11[235_233]
-29-6	3051-3052	(	_	_	_	_
-29-7	3053-3055	in	_	_	_	_
-29-8	3056-3063	Spanish	abstract[234]	giv[234]	_	_
-29-9	3064-3065	,	_	_	_	_
-29-10	3066-3067	"	_	_	_	_
-29-11	3068-3083	encabalgamiento	abstract[235]	giv[235]	_	_
-29-12	3084-3085	"	_	_	_	_
+29-5	3040-3050	enjambment	abstract[233]|abstract[405]	giv[233]|giv[405]	appos|coref	29-11[235_233]|30-20[258_405]
+29-6	3051-3052	(	abstract[405]	giv[405]	_	_
+29-7	3053-3055	in	abstract[405]	giv[405]	_	_
+29-8	3056-3063	Spanish	abstract[234]|abstract[405]	giv[234]|giv[405]	_	_
+29-9	3064-3065	,	abstract[405]	giv[405]	_	_
+29-10	3066-3067	"	abstract[405]	giv[405]	_	_
+29-11	3068-3083	encabalgamiento	abstract[235]|abstract[405]	giv[235]|giv[405]	_	_
+29-12	3084-3085	"	abstract[405]	giv[405]	_	_
 29-13	3086-3087	)	_	_	_	_
 29-14	3088-3090	is	_	_	_	_
 29-15	3091-3101	considered	_	_	_	_
@@ -632,7 +632,7 @@
 29-54	3316-3317	.	_	_	_	_
 
 #Text=Quilis ( 1964 ) performed poetry reading experiments , proposing that the following strongly connected elements give rise to enjambment , should a poetic-form pause break them up :
-30-1	3318-3324	Quilis	abstract[248]|person[249]	new[248]|new[249]	coref|coref	36-8[300_249]|40-1[345_248]
+30-1	3318-3324	Quilis	abstract[248]|person[249]	new[248]|new[249]	coref|coref	38-53[334_249]|40-1[345_248]
 30-2	3325-3326	(	abstract[248]	new[248]	_	_
 30-3	3327-3331	1964	abstract[248]	new[248]	_	_
 30-4	3332-3333	)	abstract[248]	new[248]	_	_
@@ -651,7 +651,7 @@
 30-17	3430-3434	give	_	_	_	_
 30-18	3435-3439	rise	_	_	_	_
 30-19	3440-3442	to	_	_	_	_
-30-20	3443-3453	enjambment	_	_	_	_
+30-20	3443-3453	enjambment	abstract[258]	giv[258]	_	_
 30-21	3454-3455	,	_	_	_	_
 30-22	3456-3462	should	_	_	_	_
 30-23	3463-3464	a	_	_	_	_
@@ -772,8 +772,8 @@
 36-5	4048-4058	enjambment	abstract[298]	giv[298]	_	_
 36-6	4059-4060	"	_	_	_	_
 36-7	4061-4065	from	_	_	_	_
-36-8	4066-4072	Quilis	abstract[299]|person[300]	giv[299]|giv[300]	coref	38-53[334_300]
-36-9	4073-4075	’s	abstract[299]|person[300]	giv[299]|giv[300]	_	_
+36-8	4066-4072	Quilis	abstract[299]	giv[299]	_	_
+36-9	4073-4075	’s	abstract[299]	giv[299]	_	_
 36-10	4076-4077	"	abstract[299]	giv[299]	_	_
 36-11	4078-4093	encabalgamiento	abstract[299]	giv[299]	_	_
 36-12	4094-4103	oracional	abstract[299]	giv[299]	_	_
@@ -782,7 +782,7 @@
 
 #Text=The project site includes Quilis ’s complete list of syntactic environments that can trigger enjambment , as well as the types identified by our system .
 37-1	4108-4111	The	place[301]	giv[301]	_	_
-37-2	4112-4119	project	place[301]	giv[301]	_	_
+37-2	4112-4119	project	place[301]	place[301]	_	_
 37-3	4120-4124	site	place[301]	giv[301]	_	_
 37-4	4125-4133	includes	_	_	_	_
 37-5	4134-4140	Quilis	_	_	_	_
@@ -811,7 +811,7 @@
 #Text=Besides the enjambment types above , Spang ( 1983 ) noted that if a subject or direct object and their related verbs occur in two different lines of poetry , this can also feel unusual for a reader , even if the effect is less pronounced than in the environments identified by Quilis .
 38-1	4262-4269	Besides	_	_	_	_
 38-2	4270-4273	the	abstract[313]	giv[313]	_	_
-38-3	4274-4284	enjambment	abstract[313]	giv[313]	_	_
+38-3	4274-4284	enjambment	abstract[313]	abstract[313]	_	_
 38-4	4285-4290	types	abstract[313]	giv[313]	_	_
 38-5	4291-4296	above	abstract[313]	giv[313]	_	_
 38-6	4297-4298	,	_	_	_	_
@@ -821,23 +821,23 @@
 38-10	4312-4313	)	abstract[316]	giv[316]	_	_
 38-11	4314-4319	noted	_	_	_	_
 38-12	4320-4324	that	_	_	_	_
-38-13	4325-4327	if	abstract[321]	new[321]	ana	38-31[328_321]
-38-14	4328-4329	a	abstract[321]|abstract[322]	new[321]|new[322]	ana	38-20[324_322]
-38-15	4330-4337	subject	abstract[321]|abstract[322]	new[321]|new[322]	_	_
-38-16	4338-4340	or	abstract[321]|abstract[322]	new[321]|new[322]	_	_
-38-17	4341-4347	direct	abstract[321]|abstract[322]	new[321]|new[322]	_	_
-38-18	4348-4354	object	abstract[321]|abstract[322]	new[321]|new[322]	_	_
-38-19	4355-4358	and	abstract[321]	new[321]	_	_
-38-20	4359-4364	their	abstract[321]|abstract[324]	new[321]|giv[324]	_	_
-38-21	4365-4372	related	abstract[321]	new[321]	_	_
-38-22	4373-4378	verbs	abstract[321]	new[321]	_	_
-38-23	4379-4384	occur	abstract[321]	new[321]	_	_
-38-24	4385-4387	in	abstract[321]	new[321]	_	_
-38-25	4388-4391	two	abstract[321]	new[321]	_	_
-38-26	4392-4401	different	abstract[321]	new[321]	_	_
-38-27	4402-4407	lines	abstract[321]	new[321]	_	_
-38-28	4408-4410	of	abstract[321]	new[321]	_	_
-38-29	4411-4417	poetry	abstract[321]	new[321]	_	_
+38-13	4325-4327	if	_	_	_	_
+38-14	4328-4329	a	abstract[322]	abstract[322]	ana	38-20[324_322]
+38-15	4330-4337	subject	abstract[322]	abstract[322]	_	_
+38-16	4338-4340	or	abstract[322]	abstract[322]	_	_
+38-17	4341-4347	direct	abstract[322]	abstract[322]	_	_
+38-18	4348-4354	object	abstract[322]	abstract[322]	_	_
+38-19	4355-4358	and	_	_	_	_
+38-20	4359-4364	their	abstract[324]	abstract[324]	_	_
+38-21	4365-4372	related	_	_	_	_
+38-22	4373-4378	verbs	_	_	_	_
+38-23	4379-4384	occur	abstract[404]	abstract[404]	ana	38-31[328_404]
+38-24	4385-4387	in	_	_	_	_
+38-25	4388-4391	two	_	_	_	_
+38-26	4392-4401	different	_	_	_	_
+38-27	4402-4407	lines	_	_	_	_
+38-28	4408-4410	of	_	_	_	_
+38-29	4411-4417	poetry	_	_	_	_
 38-30	4418-4419	,	_	_	_	_
 38-31	4420-4424	this	abstract[328]	giv[328]	coref	39-3[336_328]
 38-32	4425-4428	can	_	_	_	_

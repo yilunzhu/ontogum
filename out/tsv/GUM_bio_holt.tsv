@@ -16,7 +16,7 @@
 2-6	36-39	Sox	organization[4]	new[4]	_	_
 
 #Text=Boston Red Sox – No. 12
-3-1	40-46	Boston	organization[7]|place[8]	giv[7]|giv[8]	coref|coref	17-1[56_8]|17-1[55_7]
+3-1	40-46	Boston	organization[7]|place[8]	giv[7]|giv[8]	coref|coref	17-1[55_7]|17-1[56_8]
 3-2	47-50	Red	organization[7]	giv[7]	_	_
 3-3	51-54	Sox	organization[7]	giv[7]	_	_
 3-4	55-56	–	_	_	_	_
@@ -157,7 +157,7 @@
 22-2	529-533	Holt	person[79]	giv[79]	_	_
 
 #Text=Brock Wyatt Holt ( born June 11 , 1988 ) is an American professional baseball second baseman , shortstop and outfielder for the Boston Red Sox of Major League Baseball ( MLB ) .
-23-1	534-539	Brock	person[80]	giv[80]	_	_
+23-1	534-539	Brock	person[80]	giv[80]	coref	24-5[92_80]
 23-2	540-545	Wyatt	person[80]	giv[80]	_	_
 23-3	546-550	Holt	person[80]	giv[80]	_	_
 23-4	551-552	(	person[80]	giv[80]	_	_
@@ -184,12 +184,12 @@
 23-25	669-672	Red	organization[86]	giv[86]	_	_
 23-26	673-676	Sox	organization[86]	giv[86]	_	_
 23-27	677-679	of	organization[86]	giv[86]	_	_
-23-28	680-685	Major	organization[86]|organization[89]|organization[587]	giv[86]|giv[89]|giv[587]	appos|coref	23-32[90_89]|26-5[107_587]
+23-28	680-685	Major	organization[86]|organization[89]|organization[587]	giv[86]|giv[89]|giv[587]	coref|appos	26-5[107_587]|23-32[90_89]
 23-29	686-692	League	organization[86]|organization[89]|organization[587]	giv[86]|giv[89]|giv[587]	_	_
 23-30	693-701	Baseball	organization[86]|organization[89]|organization[587]	giv[86]|giv[89]|giv[587]	_	_
 23-31	702-703	(	organization[86]|organization[587]	giv[86]|giv[587]	_	_
 23-32	704-707	MLB	organization[86]|organization[90]|organization[587]	giv[86]|giv[90]|giv[587]	_	_
-23-33	708-709	)	organization[86]	giv[86]	_	_
+23-33	708-709	)	organization[86]|organization[587]	giv[86]|giv[587]	_	_
 23-34	710-711	.	_	_	_	_
 
 #Text=While primarily used as an infielder , he has started in and played at every position for the Red Sox , except for pitcher and catcher .
@@ -224,20 +224,20 @@
 #Text=Listed at 5 feet 10 inches ( 1.78 m ) and 180 pounds ( 82 kg ) , Holt bats left-handed and throws right-handed .
 25-1	849-855	Listed	_	_	_	_
 25-2	856-858	at	_	_	_	_
-25-3	859-860	5	_	_	_	_
-25-4	861-865	feet	_	_	_	_
-25-5	866-868	10	_	_	_	_
-25-6	869-875	inches	_	_	_	_
+25-3	859-860	5	abstract[101]	new[101]	appos	25-8[102_101]
+25-4	861-865	feet	abstract[101]	new[101]	_	_
+25-5	866-868	10	abstract[101]	new[101]	_	_
+25-6	869-875	inches	abstract[101]	new[101]	_	_
 25-7	876-877	(	_	_	_	_
-25-8	878-882	1.78	_	_	_	_
-25-9	883-884	m	_	_	_	_
+25-8	878-882	1.78	abstract[102]	giv[102]	_	_
+25-9	883-884	m	abstract[102]	giv[102]	_	_
 25-10	885-886	)	_	_	_	_
 25-11	887-890	and	_	_	_	_
-25-12	891-894	180	_	_	_	_
-25-13	895-901	pounds	_	_	_	_
+25-12	891-894	180	abstract[103]	new[103]	appos	25-15[104_103]
+25-13	895-901	pounds	abstract[103]	new[103]	_	_
 25-14	902-903	(	_	_	_	_
-25-15	904-906	82	_	_	_	_
-25-16	907-909	kg	_	_	_	_
+25-15	904-906	82	abstract[104]	giv[104]	_	_
+25-16	907-909	kg	abstract[104]	giv[104]	_	_
 25-17	910-911	)	_	_	_	_
 25-18	912-913	,	_	_	_	_
 25-19	914-918	Holt	person[105]	giv[105]	ana	26-1[106_105]
@@ -293,11 +293,11 @@
 
 #Text=In 2003 , his freshman year , he made the District 8-4A All-District baseball team despite batting just .227 , and shared the league 's Newcomer of the Year award . [ 1 ]
 29-1	1157-1159	In	_	_	_	_
-29-2	1160-1164	2003	time[127]|time[590]	acc[127]|acc[590]	coref|appos	29-29[144_590]|29-4[131_127]
-29-3	1165-1166	,	time[590]	acc[590]	_	_
-29-4	1167-1170	his	time[131]|person[132]|time[590]	giv[131]|giv[132]|acc[590]	ana	29-8[133_132]
-29-5	1171-1179	freshman	time[131]|time[590]	giv[131]|acc[590]	_	_
-29-6	1180-1184	year	time[131]|time[590]	giv[131]|acc[590]	_	_
+29-2	1160-1164	2003	time[127]|time[593]	acc[127]|acc[593]	appos|coref	29-4[131_127]|29-29[144_593]
+29-3	1165-1166	,	time[593]	acc[593]	_	_
+29-4	1167-1170	his	time[131]|person[132]|time[593]	giv[131]|giv[132]|acc[593]	ana	29-8[133_132]
+29-5	1171-1179	freshman	time[131]|time[593]	giv[131]|acc[593]	_	_
+29-6	1180-1184	year	time[131]|time[593]	giv[131]|acc[593]	_	_
 29-7	1185-1186	,	_	_	_	_
 29-8	1187-1189	he	person[133]	giv[133]	coref	30-1[146_133]
 29-9	1190-1194	made	_	_	_	_
@@ -353,7 +353,7 @@
 31-1	1436-1438	In	_	_	_	_
 31-2	1439-1443	2005	time[159]	acc[159]	coref	31-10[165_159]
 31-3	1444-1445	,	_	_	_	_
-31-4	1446-1450	Holt	person[160]	giv[160]	_	_
+31-4	1446-1450	Holt	person[160]	giv[160]	coref	31-7[164_160]
 31-5	1451-1454	was	_	_	_	_
 31-6	1455-1460	named	_	_	_	_
 31-7	1461-1470	defensive	person[164]	giv[164]	ana	31-20[168_164]
@@ -589,15 +589,15 @@
 42-4	2529-2533	2011	_	_	_	_
 42-5	2534-2540	season	_	_	_	_
 42-6	2541-2545	with	_	_	_	_
-42-7	2546-2549	the	organization[285]|organization[593]	new[285]|new[593]	appos|coref	42-13[287_285]|44-5[301_593]
-42-8	2550-2557	Pirates	organization[285]|organization[593]	new[285]|new[593]	_	_
-42-9	2558-2559	'	organization[285]|organization[593]	new[285]|new[593]	_	_
-42-10	2560-2568	Double-A	organization[285]|organization[593]	new[285]|new[593]	_	_
-42-11	2569-2578	affiliate	organization[285]|organization[593]	new[285]|new[593]	_	_
-42-12	2579-2580	,	organization[593]	new[593]	_	_
-42-13	2581-2584	the	organization[287]|organization[593]	giv[287]|new[593]	_	_
-42-14	2585-2592	Altoona	organization[287]|organization[593]	giv[287]|new[593]	_	_
-42-15	2593-2598	Curve	organization[287]|organization[593]	giv[287]|new[593]	_	_
+42-7	2546-2549	the	organization[285]|organization[599]	new[285]|new[599]	coref|appos	44-5[301_599]|42-13[287_285]
+42-8	2550-2557	Pirates	organization[285]|organization[599]	new[285]|new[599]	_	_
+42-9	2558-2559	'	organization[285]|organization[599]	new[285]|new[599]	_	_
+42-10	2560-2568	Double-A	organization[285]|organization[599]	new[285]|new[599]	_	_
+42-11	2569-2578	affiliate	organization[285]|organization[599]	new[285]|new[599]	_	_
+42-12	2579-2580	,	organization[599]	new[599]	_	_
+42-13	2581-2584	the	organization[287]|organization[599]	giv[287]|new[599]	_	_
+42-14	2585-2592	Altoona	organization[287]|organization[599]	giv[287]|new[599]	_	_
+42-15	2593-2598	Curve	organization[287]|organization[599]	giv[287]|new[599]	_	_
 42-16	2599-2600	.	_	_	_	_
 
 #Text=On July 13 , 2011 , Holt was named the MVP of the Eastern League All-Star Game after hitting a two-run homer in the ninth inning . [ 9 ]
@@ -811,7 +811,7 @@
 51-14	3550-3551	.	_	_	_	_
 
 #Text=Boston Red Sox ( 2013 – present )
-52-1	3552-3558	Boston	organization[397]|place[398]	giv[397]|giv[398]	coref|coref	54-10[411_397]|54-11[412_398]
+52-1	3552-3558	Boston	organization[397]|place[398]	giv[397]|giv[398]	coref|coref	54-11[412_398]|54-10[411_397]
 52-2	3559-3562	Red	organization[397]	giv[397]	_	_
 52-3	3563-3566	Sox	organization[397]	giv[397]	_	_
 52-4	3567-3568	(	_	_	_	_
@@ -985,7 +985,7 @@
 61-6	4292-4293	,	_	_	_	_
 61-7	4294-4301	against	_	_	_	_
 61-8	4302-4305	the	_	_	_	_
-61-9	4306-4311	Tampa	place[480]|place[481]	new[480]|new[481]	coref|coref	65-35[539_480]|65-35[540_481]
+61-9	4306-4311	Tampa	place[480]|place[481]	new[480]|new[481]	coref|coref	65-35[540_481]|65-35[539_480]
 61-10	4312-4315	Bay	place[480]	new[480]	_	_
 61-11	4316-4320	Rays	_	_	_	_
 61-12	4321-4323	at	_	_	_	_
@@ -1080,7 +1080,7 @@
 64-28	4708-4716	walk-off	_	_	_	_
 64-29	4717-4720	hit	_	_	_	_
 64-30	4721-4723	of	_	_	_	_
-64-31	4724-4727	his	abstract[516]|person[517]	giv[516]|giv[517]	ana|coref	65-17[527_517]|65-17[526_516]
+64-31	4724-4727	his	abstract[516]|person[517]	giv[516]|giv[517]	coref|ana	65-17[526_516]|65-17[527_517]
 64-32	4728-4734	career	abstract[516]	giv[516]	_	_
 64-33	4735-4736	.	_	_	_	_
 64-34	4737-4738	[	_	_	_	_

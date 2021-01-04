@@ -11,7 +11,7 @@
 2-2	22-23	,	_	_	_	_
 2-3	24-29	known	_	_	_	_
 2-4	30-32	as	_	_	_	_
-2-5	33-41	Gwadloup	place[3]	giv[3]	coref	2-15[347_3]
+2-5	33-41	Gwadloup	place[3]	giv[3]	coref	2-15[346_3]
 2-6	42-44	in	_	_	_	_
 2-7	45-48	the	_	_	_	_
 2-8	49-54	local	_	_	_	_
@@ -21,15 +21,15 @@
 2-12	68-77	sometimes	_	_	_	_
 2-13	78-83	known	_	_	_	_
 2-14	84-86	as	_	_	_	_
-2-15	87-90	the	place[8]|place[347]	giv[8]|giv[347]	ana|appos	2-32[14_347]|2-21[11_8]
-2-16	91-100	Butterfly	place[8]|place[347]	giv[8]|giv[347]	_	_
-2-17	101-107	Island	place[8]|place[347]	giv[8]|giv[347]	_	_
-2-18	108-109	(	place[347]	giv[347]	_	_
-2-19	110-116	French	place[347]	giv[347]	_	_
-2-20	117-118	:	place[347]	giv[347]	_	_
-2-21	119-124	I'ile	place[11]|place[347]	giv[11]|giv[347]	_	_
-2-22	125-133	Papillon	place[11]|place[347]	giv[11]|giv[347]	_	_
-2-23	134-135	)	_	_	_	_
+2-15	87-90	the	place[8]|place[346]	giv[8]|giv[346]	ana|appos	2-32[14_346]|2-21[11_8]
+2-16	91-100	Butterfly	place[8]|place[346]	giv[8]|giv[346]	_	_
+2-17	101-107	Island	place[8]|place[346]	giv[8]|giv[346]	_	_
+2-18	108-109	(	place[346]	giv[346]	_	_
+2-19	110-116	French	place[346]	giv[346]	_	_
+2-20	117-118	:	place[346]	giv[346]	_	_
+2-21	119-124	I'ile	place[11]|place[346]	giv[11]|giv[346]	_	_
+2-22	125-133	Papillon	place[11]|place[346]	giv[11]|giv[346]	_	_
+2-23	134-135	)	place[346]	giv[346]	_	_
 2-24	136-138	on	_	_	_	_
 2-25	139-146	account	_	_	_	_
 2-26	147-149	of	_	_	_	_
@@ -38,7 +38,7 @@
 2-29	160-162	of	_	_	_	_
 2-30	163-166	two	_	_	_	_
 2-31	167-169	of	_	_	_	_
-2-32	170-173	its	place[14]	giv[14]	_	_
+2-32	170-173	its	place[14]	giv[14]	ana	3-1[19_14]
 2-33	174-179	major	_	_	_	_
 2-34	180-187	islands	_	_	_	_
 2-35	188-189	,	_	_	_	_
@@ -243,13 +243,13 @@
 17-13	1066-1069	you	person[78]	giv[78]	ana	18-4[90_78]
 17-14	1070-1074	will	_	_	_	_
 17-15	1075-1080	reach	_	_	_	_
-17-16	1081-1083	La	_	_	_	_
-17-17	1084-1090	Pointe	_	_	_	_
-17-18	1091-1094	des	_	_	_	_
-17-19	1095-1103	Chateaux	_	_	_	_
-17-20	1104-1105	,	_	_	_	_
-17-21	1106-1107	a	_	_	_	_
-17-22	1108-1115	scenery	_	_	_	_
+17-16	1081-1083	La	place[81]|place[348]	new[81]|new[348]	appos|coref	17-21[82_81]|18-2[89_348]
+17-17	1084-1090	Pointe	place[81]|place[348]	new[81]|new[348]	_	_
+17-18	1091-1094	des	place[81]|place[348]	new[81]|new[348]	_	_
+17-19	1095-1103	Chateaux	place[81]|place[348]	new[81]|new[348]	_	_
+17-20	1104-1105	,	place[348]	new[348]	_	_
+17-21	1106-1107	a	place[82]|place[348]	giv[82]|new[348]	_	_
+17-22	1108-1115	scenery	place[82]|place[348]	giv[82]|new[348]	_	_
 17-23	1116-1120	made	_	_	_	_
 17-24	1121-1123	of	_	_	_	_
 17-25	1124-1128	sand	_	_	_	_
@@ -267,7 +267,7 @@
 
 #Text=From there , you can look up at the islands La Désirade , Petite Terre , Marie Galante , Les Saintes , La Dominique but also have a perfect view of the islands Grande Terre and far away Basse Terre .
 18-1	1182-1186	From	_	_	_	_
-18-2	1187-1192	there	_	_	_	_
+18-2	1187-1192	there	place[89]	giv[89]	_	_
 18-3	1193-1194	,	_	_	_	_
 18-4	1195-1198	you	person[90]	giv[90]	ana	21-1[130_90]
 18-5	1199-1202	can	_	_	_	_
@@ -309,18 +309,18 @@
 18-41	1380-1381	.	_	_	_	_
 
 #Text=St Anne a very nice but also very touristy city and beach ( maybe the tourists primary area of Guadeloupe ) .
-19-1	1382-1384	St	_	_	_	_
-19-2	1385-1389	Anne	_	_	_	_
-19-3	1390-1391	a	_	_	_	_
-19-4	1392-1396	very	_	_	_	_
-19-5	1397-1401	nice	_	_	_	_
-19-6	1402-1405	but	_	_	_	_
-19-7	1406-1410	also	_	_	_	_
-19-8	1411-1415	very	_	_	_	_
-19-9	1416-1424	touristy	_	_	_	_
-19-10	1425-1429	city	_	_	_	_
-19-11	1430-1433	and	_	_	_	_
-19-12	1434-1439	beach	_	_	_	_
+19-1	1382-1384	St	place[105]	new[105]	appos	19-3[106_105]
+19-2	1385-1389	Anne	place[105]	new[105]	_	_
+19-3	1390-1391	a	place[106]	giv[106]	_	_
+19-4	1392-1396	very	place[106]	giv[106]	_	_
+19-5	1397-1401	nice	place[106]	giv[106]	_	_
+19-6	1402-1405	but	place[106]	giv[106]	_	_
+19-7	1406-1410	also	place[106]	giv[106]	_	_
+19-8	1411-1415	very	place[106]	giv[106]	_	_
+19-9	1416-1424	touristy	place[106]	giv[106]	_	_
+19-10	1425-1429	city	place[106]	giv[106]	_	_
+19-11	1430-1433	and	place[106]	giv[106]	_	_
+19-12	1434-1439	beach	place[106]	giv[106]	_	_
 19-13	1440-1441	(	_	_	_	_
 19-14	1442-1447	maybe	_	_	_	_
 19-15	1448-1451	the	_	_	_	_
@@ -436,10 +436,10 @@
 22-66	1951-1956	costs	_	_	_	_
 22-67	1957-1958	€	_	_	_	_
 22-68	1959-1960	7	_	_	_	_
-22-69	1961-1964	one	time[170]	new[170]	cata	22-65[167_170]
-22-70	1965-1969	hour	time[170]	new[170]	_	_
-22-71	1970-1972	of	time[170]	new[170]	_	_
-22-72	1973-1981	windsurf	time[170]	new[170]	_	_
+22-69	1961-1964	one	_	_	_	_
+22-70	1965-1969	hour	_	_	_	_
+22-71	1970-1972	of	_	_	_	_
+22-72	1973-1981	windsurf	_	_	_	_
 22-73	1982-1983	)	_	_	_	_
 22-74	1984-1985	.	_	_	_	_
 
@@ -528,19 +528,19 @@
 26-12	2361-2364	you	person[200]	giv[200]	ana	31-7[227_200]
 26-13	2365-2369	will	_	_	_	_
 26-14	2370-2378	discover	_	_	_	_
-26-15	2379-2380	a	_	_	_	_
-26-16	2381-2390	Souffleur	_	_	_	_
+26-15	2379-2380	a	object[202]	new[202]	appos	26-18[203_202]
+26-16	2381-2390	Souffleur	object[202]	new[202]	_	_
 26-17	2391-2392	,	_	_	_	_
-26-18	2393-2397	kind	_	_	_	_
-26-19	2398-2400	of	_	_	_	_
-26-20	2401-2407	geyser	_	_	_	_
-26-21	2408-2411	due	_	_	_	_
-26-22	2412-2414	to	_	_	_	_
-26-23	2415-2418	the	_	_	_	_
-26-24	2419-2427	pressure	_	_	_	_
-26-25	2428-2430	of	_	_	_	_
-26-26	2431-2434	the	place[205]	giv[205]	_	_
-26-27	2435-2438	sea	place[205]	giv[205]	_	_
+26-18	2393-2397	kind	object[203]	giv[203]	_	_
+26-19	2398-2400	of	object[203]	giv[203]	_	_
+26-20	2401-2407	geyser	object[203]	giv[203]	_	_
+26-21	2408-2411	due	object[203]	giv[203]	_	_
+26-22	2412-2414	to	object[203]	giv[203]	_	_
+26-23	2415-2418	the	object[203]	giv[203]	_	_
+26-24	2419-2427	pressure	object[203]	giv[203]	_	_
+26-25	2428-2430	of	object[203]	giv[203]	_	_
+26-26	2431-2434	the	object[203]|place[205]	giv[203]|giv[205]	_	_
+26-27	2435-2438	sea	object[203]|place[205]	giv[203]|giv[205]	_	_
 26-28	2439-2440	.	_	_	_	_
 
 #Text=Abymes nothing special to see , but the weekend , there are 3 local nightclubs : L'instant , Caraibes and Latin Club .
@@ -556,16 +556,16 @@
 27-10	2489-2490	,	_	_	_	_
 27-11	2491-2496	there	_	_	_	_
 27-12	2497-2500	are	_	_	_	_
-27-13	2501-2502	3	place[209]|place[352]	new[209]|new[352]	appos|ana	27-17[210_209]|28-1[216_352]
-27-14	2503-2508	local	place[209]|place[352]	new[209]|new[352]	_	_
-27-15	2509-2519	nightclubs	place[209]|place[352]	new[209]|new[352]	_	_
-27-16	2520-2521	:	place[352]	new[352]	_	_
-27-17	2522-2531	L'instant	place[210]|place[352]	giv[210]|new[352]	_	_
-27-18	2532-2533	,	place[210]|place[352]	giv[210]|new[352]	_	_
-27-19	2534-2542	Caraibes	place[210]|place[352]	giv[210]|new[352]	_	_
-27-20	2543-2546	and	place[210]|place[352]	giv[210]|new[352]	_	_
-27-21	2547-2552	Latin	place[210]|place[352]	giv[210]|new[352]	_	_
-27-22	2553-2557	Club	place[210]|place[352]	giv[210]|new[352]	_	_
+27-13	2501-2502	3	place[209]|place[356]	new[209]|new[356]	ana|appos	28-1[216_356]|27-17[210_209]
+27-14	2503-2508	local	place[209]|place[356]	new[209]|new[356]	_	_
+27-15	2509-2519	nightclubs	place[209]|place[356]	new[209]|new[356]	_	_
+27-16	2520-2521	:	place[356]	new[356]	_	_
+27-17	2522-2531	L'instant	place[210]|place[356]	giv[210]|new[356]	_	_
+27-18	2532-2533	,	place[210]|place[356]	giv[210]|new[356]	_	_
+27-19	2534-2542	Caraibes	place[210]|place[356]	giv[210]|new[356]	_	_
+27-20	2543-2546	and	place[210]|place[356]	giv[210]|new[356]	_	_
+27-21	2547-2552	Latin	place[210]|place[356]	giv[210]|new[356]	_	_
+27-22	2553-2557	Club	place[210]|place[356]	giv[210]|new[356]	_	_
 27-23	2558-2559	.	_	_	_	_
 
 #Text=They are located at the same place .
@@ -646,14 +646,14 @@
 31-34	2898-2899	.	_	_	_	_
 
 #Text=Local music ( ragga , zouk , rnb ) and local customers .
-32-1	2900-2905	Local	_	_	_	_
-32-2	2906-2911	music	_	_	_	_
+32-1	2900-2905	Local	abstract[243]	new[243]	appos	32-4[244_243]
+32-2	2906-2911	music	abstract[243]	new[243]	_	_
 32-3	2912-2913	(	_	_	_	_
-32-4	2914-2919	ragga	_	_	_	_
-32-5	2920-2921	,	_	_	_	_
-32-6	2922-2926	zouk	_	_	_	_
-32-7	2927-2928	,	_	_	_	_
-32-8	2929-2932	rnb	_	_	_	_
+32-4	2914-2919	ragga	abstract[244]	giv[244]	_	_
+32-5	2920-2921	,	abstract[244]	giv[244]	_	_
+32-6	2922-2926	zouk	abstract[244]	giv[244]	_	_
+32-7	2927-2928	,	abstract[244]	giv[244]	_	_
+32-8	2929-2932	rnb	abstract[244]	giv[244]	_	_
 32-9	2933-2934	)	_	_	_	_
 32-10	2935-2938	and	_	_	_	_
 32-11	2939-2944	local	_	_	_	_
@@ -825,11 +825,11 @@
 39-13	3744-3747	the	place[302]	giv[302]	_	_
 39-14	3748-3754	island	place[302]	giv[302]	_	_
 39-15	3755-3756	,	_	_	_	_
-39-16	3757-3758	a	event[303]	new[303]	cata	39-3[299_303]
-39-17	3759-3763	ride	event[303]	new[303]	_	_
-39-18	3764-3766	on	event[303]	new[303]	_	_
-39-19	3767-3770	the	event[303]	new[303]	_	_
-39-20	3771-3774	bus	event[303]	new[303]	_	_
+39-16	3757-3758	a	_	_	_	_
+39-17	3759-3763	ride	_	_	_	_
+39-18	3764-3766	on	_	_	_	_
+39-19	3767-3770	the	_	_	_	_
+39-20	3771-3774	bus	_	_	_	_
 39-21	3775-3777	is	_	_	_	_
 39-22	3778-3783	still	_	_	_	_
 39-23	3784-3786	an	_	_	_	_

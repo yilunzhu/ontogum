@@ -17,29 +17,29 @@
 2-6	33-39	matter	_	_	_	_
 2-7	40-42	of	_	_	_	_
 2-8	43-48	hours	_	_	_	_
-2-9	49-52	for	event[6]	new[6]	cata	2-1[2_6]
-2-10	53-56	the	event[6]	new[6]	_	_
-2-11	57-64	Kethlan	event[6]	new[6]	_	_
-2-12	65-71	system	event[6]	new[6]	_	_
-2-13	72-74	to	event[6]	new[6]	_	_
-2-14	75-81	become	event[6]	new[6]	_	_
-2-15	82-83	a	event[6]|place[10]|place[448]	new[6]|giv[10]|new[448]	appos|coref	2-21[11_10]|5-26[29_448]
-2-16	84-92	tumbling	event[6]|place[10]|place[448]	new[6]|giv[10]|new[448]	_	_
-2-17	93-96	sea	event[6]|place[10]|place[448]	new[6]|giv[10]|new[448]	_	_
-2-18	97-99	of	event[6]|place[10]|place[448]	new[6]|giv[10]|new[448]	_	_
-2-19	100-106	debris	event[6]|place[10]|place[448]	new[6]|giv[10]|new[448]	_	_
-2-20	107-108	;	event[6]|place[448]	new[6]|new[448]	_	_
-2-21	109-112	the	event[6]|place[11]|place[448]	new[6]|giv[11]|new[448]	_	_
-2-22	113-120	twisted	event[6]|place[11]|place[448]	new[6]|giv[11]|new[448]	_	_
-2-23	121-124	and	event[6]|place[11]|place[448]	new[6]|giv[11]|new[448]	_	_
-2-24	125-134	burnt-out	event[6]|place[11]|place[448]	new[6]|giv[11]|new[448]	_	_
-2-25	135-143	remnants	event[6]|place[11]|place[448]	new[6]|giv[11]|new[448]	_	_
-2-26	144-146	of	event[6]|place[11]|place[448]	new[6]|giv[11]|new[448]	_	_
-2-27	147-148	a	event[6]|place[11]|place[448]	new[6]|giv[11]|new[448]	_	_
-2-28	149-153	once	event[6]|place[11]|place[448]	new[6]|giv[11]|new[448]	_	_
-2-29	154-162	glorious	event[6]|place[11]|place[448]	new[6]|giv[11]|new[448]	_	_
-2-30	163-171	Imperial	event[6]|place[11]|place[448]	new[6]|giv[11]|new[448]	_	_
-2-31	172-178	nation	event[6]|place[11]|place[448]	new[6]|giv[11]|new[448]	_	_
+2-9	49-52	for	_	_	_	_
+2-10	53-56	the	_	_	_	_
+2-11	57-64	Kethlan	_	_	_	_
+2-12	65-71	system	_	_	_	_
+2-13	72-74	to	_	_	_	_
+2-14	75-81	become	_	_	_	_
+2-15	82-83	a	place[10]|place[448]	giv[10]|new[448]	coref|appos	5-26[29_448]|2-21[11_10]
+2-16	84-92	tumbling	place[10]|place[448]	giv[10]|new[448]	_	_
+2-17	93-96	sea	place[10]|place[448]	giv[10]|new[448]	_	_
+2-18	97-99	of	place[10]|place[448]	giv[10]|new[448]	_	_
+2-19	100-106	debris	place[10]|place[448]	giv[10]|new[448]	_	_
+2-20	107-108	;	place[448]	new[448]	_	_
+2-21	109-112	the	place[11]|place[448]	giv[11]|new[448]	_	_
+2-22	113-120	twisted	place[11]|place[448]	giv[11]|new[448]	_	_
+2-23	121-124	and	place[11]|place[448]	giv[11]|new[448]	_	_
+2-24	125-134	burnt-out	place[11]|place[448]	giv[11]|new[448]	_	_
+2-25	135-143	remnants	place[11]|place[448]	giv[11]|new[448]	_	_
+2-26	144-146	of	place[11]|place[448]	giv[11]|new[448]	_	_
+2-27	147-148	a	place[11]|place[448]	giv[11]|new[448]	_	_
+2-28	149-153	once	place[11]|place[448]	giv[11]|new[448]	_	_
+2-29	154-162	glorious	place[11]|place[448]	giv[11]|new[448]	_	_
+2-30	163-171	Imperial	place[11]|place[448]	giv[11]|new[448]	_	_
+2-31	172-178	nation	place[11]|place[448]	giv[11]|new[448]	_	_
 2-32	179-180	.	_	_	_	_
 
 #Text=An empire whose costly mistakes would for many years to come echo into every corner of the known galaxy .
@@ -201,7 +201,7 @@
 9-13	997-998	.	_	_	_	_
 
 #Text=The scene was the same as it had been a few moments ago and it brought him no comfort .
-10-1	999-1002	The	event[65]|abstract[66]	new[65]|new[66]	ana|ana	10-15[70_65]|10-7[67_66]
+10-1	999-1002	The	event[65]|abstract[66]	new[65]|new[66]	ana|ana	10-7[67_66]|10-15[70_65]
 10-2	1003-1008	scene	event[65]|abstract[66]	new[65]|new[66]	_	_
 10-3	1009-1012	was	event[65]	new[65]	_	_
 10-4	1013-1016	the	event[65]	new[65]	_	_
@@ -307,7 +307,7 @@
 17-2	1441-1446	there	_	_	_	_
 17-3	1447-1451	were	_	_	_	_
 17-4	1452-1455	the	object[105]	new[105]	ana	17-7[107_105]
-17-5	1456-1461	Enemy	object[105]	new[105]	_	_
+17-5	1456-1461	Enemy	object[105]	object[105]	_	_
 17-6	1462-1474	starfighters	object[105]	new[105]	_	_
 17-7	1475-1485	themselves	object[107]	giv[107]	_	_
 17-8	1486-1487	:	_	_	_	_
@@ -397,14 +397,14 @@
 20-36	1887-1892	order	_	_	_	_
 20-37	1893-1895	to	_	_	_	_
 20-38	1896-1901	board	_	_	_	_
-20-39	1902-1905	his	object[141]|person[142]	giv[141]|giv[142]	coref|coref	21-1[143_142]|51-5[370_141]
+20-39	1902-1905	his	object[141]|person[142]	giv[141]|giv[142]	coref|coref	51-5[370_141]|21-1[143_142]
 20-40	1906-1913	fighter	object[141]	giv[141]	_	_
 20-41	1914-1915	.	_	_	_	_
 
 #Text=Chalmers saw his friends run forward as their names were called out , scrambling into cockpits , pulling on helmets and performing last-minute safety checks .
 21-1	1916-1924	Chalmers	person[143]	giv[143]	ana	21-3[147_143]
 21-2	1925-1928	saw	_	_	_	_
-21-3	1929-1932	his	person[146]|person[147]	new[146]|giv[147]	ana|ana	21-8[150_146]|22-7[159_147]
+21-3	1929-1932	his	person[146]|person[147]	new[146]|giv[147]	ana|ana	22-7[159_147]|21-8[150_146]
 21-4	1933-1940	friends	person[146]	new[146]	_	_
 21-5	1941-1944	run	_	_	_	_
 21-6	1945-1952	forward	_	_	_	_
@@ -476,7 +476,7 @@
 23-10	2278-2281	the	object[178]	acc[178]	coref	53-9[405_178]
 23-11	2282-2290	catapult	object[178]	acc[178]	_	_
 23-12	2291-2292	,	_	_	_	_
-23-13	2293-2296	his	person[179]|person[180]	new[179]|giv[180]	coref|ana	30-6[213_180]|24-8[184_179]
+23-13	2293-2296	his	person[179]|person[180]	new[179]|giv[180]	ana|coref	24-8[184_179]|30-6[213_180]
 23-14	2297-2307	commanding	person[179]	new[179]	_	_
 23-15	2308-2315	officer	person[179]	new[179]	_	_
 23-16	2316-2319	had	_	_	_	_
@@ -534,20 +534,20 @@
 27-1	2524-2531	Tonight	_	_	_	_
 27-2	2532-2534	we	person[194]	giv[194]	ana	27-16[202_194]
 27-3	2535-2540	fight	_	_	_	_
-27-4	2541-2544	the	event[196]|event[449]	new[196]|new[449]	appos|coref	27-13[200_196]|36-10[249_449]
-27-5	2545-2551	battle	event[196]|event[449]	new[196]|new[449]	_	_
-27-6	2552-2555	for	event[196]|event[449]	new[196]|new[449]	_	_
-27-7	2556-2563	Kethlan	event[196]|place[197]|event[449]	new[196]|giv[197]|new[449]	coref	27-10[199_197]
-27-8	2564-2567	and	event[196]|event[449]	new[196]|new[449]	_	_
-27-9	2568-2571	for	event[196]|event[449]	new[196]|new[449]	_	_
-27-10	2572-2575	the	event[196]|place[199]|event[449]	new[196]|giv[199]|new[449]	coref	45-2[317_199]
-27-11	2576-2584	Imperium	event[196]|place[199]|event[449]	new[196]|giv[199]|new[449]	_	_
-27-12	2585-2586	;	event[449]	new[449]	_	_
-27-13	2587-2590	the	event[200]|event[449]	giv[200]|new[449]	_	_
-27-14	2591-2597	battle	event[200]|event[449]	giv[200]|new[449]	_	_
-27-15	2598-2601	for	event[200]|event[449]	giv[200]|new[449]	_	_
-27-16	2602-2605	our	event[200]|person[202]|event[449]	giv[200]|giv[202]|new[449]	ana	28-9[206_202]
-27-17	2606-2614	survival	event[200]|event[449]	giv[200]|new[449]	_	_
+27-4	2541-2544	the	event[196]|event[450]	new[196]|new[450]	coref|appos	36-10[249_450]|27-13[200_196]
+27-5	2545-2551	battle	event[196]|event[450]	new[196]|new[450]	_	_
+27-6	2552-2555	for	event[196]|event[450]	new[196]|new[450]	_	_
+27-7	2556-2563	Kethlan	event[196]|place[197]|event[450]	new[196]|giv[197]|new[450]	coref	27-10[199_197]
+27-8	2564-2567	and	event[196]|event[450]	new[196]|new[450]	_	_
+27-9	2568-2571	for	event[196]|event[450]	new[196]|new[450]	_	_
+27-10	2572-2575	the	event[196]|place[199]|event[450]	new[196]|giv[199]|new[450]	coref	45-2[317_199]
+27-11	2576-2584	Imperium	event[196]|place[199]|event[450]	new[196]|giv[199]|new[450]	_	_
+27-12	2585-2586	;	event[450]	new[450]	_	_
+27-13	2587-2590	the	event[200]|event[450]	giv[200]|new[450]	_	_
+27-14	2591-2597	battle	event[200]|event[450]	giv[200]|new[450]	_	_
+27-15	2598-2601	for	event[200]|event[450]	giv[200]|new[450]	_	_
+27-16	2602-2605	our	event[200]|person[202]|event[450]	giv[200]|giv[202]|new[450]	ana	28-9[206_202]
+27-17	2606-2614	survival	event[200]|event[450]	giv[200]|new[450]	_	_
 27-18	2615-2616	.	_	_	_	_
 
 #Text=Hundreds of millions of lives are depending on our actions here .
@@ -838,7 +838,7 @@
 42-9	3913-3914	.	_	_	_	_
 
 #Text=His name would be called soon .
-43-1	3915-3918	His	abstract[309]|person[310]	new[309]|giv[310]	ana|coref	44-1[311_310]|50-5[353_309]
+43-1	3915-3918	His	abstract[309]|person[310]	new[309]|giv[310]	coref|ana	50-5[353_309]|44-1[311_310]
 43-2	3919-3923	name	abstract[309]	new[309]	_	_
 43-3	3924-3929	would	_	_	_	_
 43-4	3930-3932	be	_	_	_	_

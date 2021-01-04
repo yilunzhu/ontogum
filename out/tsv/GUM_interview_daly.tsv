@@ -19,12 +19,12 @@
 1-13	68-75	anemone	animal[6]	new[6]	_	_
 
 #Text=Tuesday , January 21 , 2014
-2-1	76-83	Tuesday	_	_	_	_
+2-1	76-83	Tuesday	time[8]	new[8]	appos	2-3[11_8]
 2-2	84-85	,	_	_	_	_
-2-3	86-93	January	_	_	_	_
-2-4	94-96	21	_	_	_	_
-2-5	97-98	,	_	_	_	_
-2-6	99-103	2014	_	_	_	_
+2-3	86-93	January	time[11]	giv[11]	_	_
+2-4	94-96	21	time[11]	giv[11]	_	_
+2-5	97-98	,	time[11]	giv[11]	_	_
+2-6	99-103	2014	time[11]	giv[11]	_	_
 
 #Text=How did you come to be involved with this discovery
 3-1	104-107	How	_	_	_	_
@@ -223,14 +223,14 @@
 12-20	1015-1016	!	_	_	_	_
 
 #Text=What I want to do with the animals requires new material preserved in diverse ways , but it does n't require me to be there .
-13-1	1017-1021	What	abstract[85]	new[85]	ana	13-18[91_85]
-13-2	1022-1023	I	abstract[85]|person[86]	new[85]|giv[86]	ana	13-22[92_86]
-13-3	1024-1028	want	abstract[85]	new[85]	_	_
-13-4	1029-1031	to	abstract[85]	new[85]	_	_
-13-5	1032-1034	do	abstract[85]	new[85]	_	_
-13-6	1035-1039	with	abstract[85]	new[85]	_	_
-13-7	1040-1043	the	abstract[85]|animal[88]	new[85]|acc[88]	coref	14-13[104_88]
-13-8	1044-1051	animals	abstract[85]|animal[88]	new[85]|acc[88]	_	_
+13-1	1017-1021	What	_	_	_	_
+13-2	1022-1023	I	person[86]	person[86]	ana	13-22[92_86]
+13-3	1024-1028	want	abstract[471]	abstract[471]	ana	13-18[91_471]
+13-4	1029-1031	to	_	_	_	_
+13-5	1032-1034	do	_	_	_	_
+13-6	1035-1039	with	_	_	_	_
+13-7	1040-1043	the	animal[88]	animal[88]	coref	14-13[104_88]
+13-8	1044-1051	animals	animal[88]	animal[88]	_	_
 13-9	1052-1060	requires	_	_	_	_
 13-10	1061-1064	new	_	_	_	_
 13-11	1065-1073	material	_	_	_	_
@@ -247,7 +247,7 @@
 13-22	1126-1128	me	person[92]	giv[92]	ana	14-2[94_92]
 13-23	1129-1131	to	_	_	_	_
 13-24	1132-1134	be	_	_	_	_
-13-25	1135-1140	there	_	_	_	_
+13-25	1135-1140	there	place[93]	giv[93]	coref	14-7[95_93]
 13-26	1141-1142	.	_	_	_	_
 
 #Text=Although I am sure that being there would enhance my understanding of the animals and the system in which they live , and would help me formulate more and better questions about the anemones , ship time is expensive , especially in Antarctica , and if there are biologists whose contribution is predicated on being there , they should have priority to be there .
@@ -416,18 +416,18 @@
 19-10	1978-1981	for	_	_	_	_
 19-11	1982-1990	anemones	_	_	_	_
 19-12	1991-1992	,	_	_	_	_
-19-13	1993-1995	it	event[158]|substance[159]	new[158]|giv[159]	ana	20-1[165_158]
-19-14	1996-2004	prevents	event[158]	new[158]	_	_
-19-15	2005-2010	study	event[158]	new[158]	_	_
-19-16	2011-2013	of	event[158]	new[158]	_	_
-19-17	2014-2017	DNA	event[158]	new[158]	_	_
-19-18	2018-2020	or	event[158]	new[158]	_	_
-19-19	2021-2023	of	event[158]	new[158]	_	_
-19-20	2024-2027	the	event[158]	new[158]	_	_
-19-21	2028-2037	chemistry	event[158]	new[158]	_	_
-19-22	2038-2040	of	event[158]	new[158]	_	_
-19-23	2041-2044	the	event[158]	new[158]	_	_
-19-24	2045-2049	body	event[158]	new[158]	_	_
+19-13	1993-1995	it	substance[159]	substance[159]	_	_
+19-14	1996-2004	prevents	event[472]	new[472]	ana	20-1[165_472]
+19-15	2005-2010	study	_	_	_	_
+19-16	2011-2013	of	_	_	_	_
+19-17	2014-2017	DNA	_	_	_	_
+19-18	2018-2020	or	_	_	_	_
+19-19	2021-2023	of	_	_	_	_
+19-20	2024-2027	the	_	_	_	_
+19-21	2028-2037	chemistry	_	_	_	_
+19-22	2038-2040	of	_	_	_	_
+19-23	2041-2044	the	_	_	_	_
+19-24	2045-2049	body	_	_	_	_
 19-25	2050-2051	.	_	_	_	_
 
 #Text=This means we ca n't look at the issue you raise with these animals .
@@ -621,7 +621,7 @@
 26-1	2925-2927	In	_	_	_	_
 26-2	2928-2933	terms	_	_	_	_
 26-3	2934-2936	of	_	_	_	_
-26-4	2937-2942	their	abstract[215]|animal[216]	giv[215]|giv[216]	coref|ana	31-6[259_216]|26-10[218_215]
+26-4	2937-2942	their	abstract[215]|animal[216]	giv[215]|giv[216]	ana|ana	26-10[218_215]|31-6[259_216]
 26-5	2943-2947	glow	abstract[215]	giv[215]	_	_
 26-6	2948-2949	,	_	_	_	_
 26-7	2950-2951	I	_	_	_	_
@@ -721,51 +721,51 @@
 30-24	3407-3408	.	_	_	_	_
 
 #Text=I embedded a few of the animals in wax and then cut them into very thin slices using a microtome , mounted the slices on microscope slides , stained the slices to enhance contrast , and then looked at those slides under a compound microscope
-31-1	3409-3410	I	abstract[255]|person[256]	new[255]|giv[256]	ana|ana	32-2[273_255]|32-5[274_256]
-31-2	3411-3419	embedded	abstract[255]	new[255]	_	_
-31-3	3420-3421	a	abstract[255]|animal[258]	new[255]|new[258]	ana	31-13[261_258]
-31-4	3422-3425	few	abstract[255]|animal[258]	new[255]|new[258]	_	_
-31-5	3426-3428	of	abstract[255]|animal[258]	new[255]|new[258]	_	_
-31-6	3429-3432	the	abstract[255]|animal[258]|animal[259]	new[255]|new[258]|giv[259]	ana	36-19[313_259]
-31-7	3433-3440	animals	abstract[255]|animal[258]|animal[259]	new[255]|new[258]|giv[259]	_	_
-31-8	3441-3443	in	abstract[255]	new[255]	_	_
-31-9	3444-3447	wax	abstract[255]	new[255]	_	_
-31-10	3448-3451	and	abstract[255]	new[255]	_	_
-31-11	3452-3456	then	abstract[255]	new[255]	_	_
-31-12	3457-3460	cut	abstract[255]	new[255]	_	_
-31-13	3461-3465	them	abstract[255]|animal[261]	new[255]|giv[261]	_	_
-31-14	3466-3470	into	abstract[255]	new[255]	_	_
-31-15	3471-3475	very	abstract[255]|object[264]	new[255]|new[264]	coref	31-23[266_264]
-31-16	3476-3480	thin	abstract[255]|object[264]	new[255]|new[264]	_	_
-31-17	3481-3487	slices	abstract[255]|object[264]	new[255]|new[264]	_	_
-31-18	3488-3493	using	abstract[255]	new[255]	_	_
-31-19	3494-3495	a	abstract[255]	new[255]	_	_
-31-20	3496-3505	microtome	abstract[255]	new[255]	_	_
-31-21	3506-3507	,	abstract[255]	new[255]	_	_
-31-22	3508-3515	mounted	abstract[255]	new[255]	_	_
-31-23	3516-3519	the	abstract[255]|object[266]	new[255]|giv[266]	coref	31-30[270_266]
-31-24	3520-3526	slices	abstract[255]|object[266]	new[255]|giv[266]	_	_
-31-25	3527-3529	on	abstract[255]	new[255]	_	_
-31-26	3530-3540	microscope	abstract[255]|object[267]	new[255]|new[267]	coref	31-40[271_267]
-31-27	3541-3547	slides	abstract[255]|object[267]	new[255]|new[267]	_	_
-31-28	3548-3549	,	abstract[255]	new[255]	_	_
-31-29	3550-3557	stained	abstract[255]	new[255]	_	_
-31-30	3558-3561	the	abstract[255]|object[270]	new[255]|giv[270]	_	_
-31-31	3562-3568	slices	abstract[255]|object[270]	new[255]|giv[270]	_	_
-31-32	3569-3571	to	abstract[255]	new[255]	_	_
-31-33	3572-3579	enhance	abstract[255]	new[255]	_	_
-31-34	3580-3588	contrast	abstract[255]	new[255]	_	_
-31-35	3589-3590	,	abstract[255]	new[255]	_	_
-31-36	3591-3594	and	abstract[255]	new[255]	_	_
-31-37	3595-3599	then	abstract[255]	new[255]	_	_
-31-38	3600-3606	looked	abstract[255]	new[255]	_	_
-31-39	3607-3609	at	abstract[255]	new[255]	_	_
-31-40	3610-3615	those	abstract[255]|object[271]	new[255]|giv[271]	_	_
-31-41	3616-3622	slides	abstract[255]|object[271]	new[255]|giv[271]	_	_
-31-42	3623-3628	under	abstract[255]	new[255]	_	_
-31-43	3629-3630	a	abstract[255]	new[255]	_	_
-31-44	3631-3639	compound	abstract[255]|object[272]	new[255]|new[272]	coref	33-3[282_272]
-31-45	3640-3650	microscope	abstract[255]|object[272]	new[255]|new[272]	_	_
+31-1	3409-3410	I	person[256]	person[256]	ana	32-5[274_256]
+31-2	3411-3419	embedded	abstract[473]	abstract[473]	ana	32-2[273_473]
+31-3	3420-3421	a	animal[258]	animal[258]	ana	31-13[261_258]
+31-4	3422-3425	few	animal[258]	animal[258]	_	_
+31-5	3426-3428	of	animal[258]	animal[258]	_	_
+31-6	3429-3432	the	animal[258]|animal[259]	animal[258]|animal[259]	ana	36-19[313_259]
+31-7	3433-3440	animals	animal[258]|animal[259]	animal[258]|animal[259]	_	_
+31-8	3441-3443	in	_	_	_	_
+31-9	3444-3447	wax	_	_	_	_
+31-10	3448-3451	and	_	_	_	_
+31-11	3452-3456	then	_	_	_	_
+31-12	3457-3460	cut	_	_	_	_
+31-13	3461-3465	them	animal[261]	animal[261]	_	_
+31-14	3466-3470	into	_	_	_	_
+31-15	3471-3475	very	object[264]	object[264]	coref	31-23[266_264]
+31-16	3476-3480	thin	object[264]	object[264]	_	_
+31-17	3481-3487	slices	object[264]	object[264]	_	_
+31-18	3488-3493	using	_	_	_	_
+31-19	3494-3495	a	_	_	_	_
+31-20	3496-3505	microtome	_	_	_	_
+31-21	3506-3507	,	_	_	_	_
+31-22	3508-3515	mounted	_	_	_	_
+31-23	3516-3519	the	object[266]	object[266]	coref	31-30[270_266]
+31-24	3520-3526	slices	object[266]	object[266]	_	_
+31-25	3527-3529	on	_	_	_	_
+31-26	3530-3540	microscope	object[267]	object[267]	coref	31-40[271_267]
+31-27	3541-3547	slides	object[267]	object[267]	_	_
+31-28	3548-3549	,	_	_	_	_
+31-29	3550-3557	stained	_	_	_	_
+31-30	3558-3561	the	object[270]	object[270]	_	_
+31-31	3562-3568	slices	object[270]	object[270]	_	_
+31-32	3569-3571	to	_	_	_	_
+31-33	3572-3579	enhance	_	_	_	_
+31-34	3580-3588	contrast	_	_	_	_
+31-35	3589-3590	,	_	_	_	_
+31-36	3591-3594	and	_	_	_	_
+31-37	3595-3599	then	_	_	_	_
+31-38	3600-3606	looked	_	_	_	_
+31-39	3607-3609	at	_	_	_	_
+31-40	3610-3615	those	object[271]	object[271]	_	_
+31-41	3616-3622	slides	object[271]	object[271]	_	_
+31-42	3623-3628	under	_	_	_	_
+31-43	3629-3630	a	_	_	_	_
+31-44	3631-3639	compound	object[272]	object[272]	coref	33-3[282_272]
+31-45	3640-3650	microscope	object[272]	object[272]	_	_
 
 #Text=( that 's how I got the pictures of the muscles etc in the paper ) .
 32-1	3651-3652	(	_	_	_	_
@@ -812,26 +812,26 @@
 33-23	3834-3835	.	_	_	_	_
 
 #Text=I compared the things I saw under the 'scopes to what had been published on other species in this group .
-34-1	3836-3837	I	event[289]|person[290]	new[289]|giv[290]	coref|ana	35-1[299_289]|34-5[293_290]
-34-2	3838-3846	compared	event[289]	new[289]	_	_
-34-3	3847-3850	the	event[289]	new[289]	_	_
-34-4	3851-3857	things	event[289]	new[289]	_	_
-34-5	3858-3859	I	event[289]|person[293]	new[289]|giv[293]	ana	36-3[304_293]
-34-6	3860-3863	saw	event[289]	new[289]	_	_
-34-7	3864-3869	under	event[289]	new[289]	_	_
-34-8	3870-3873	the	event[289]	new[289]	_	_
-34-9	3874-3881	'scopes	event[289]	new[289]	_	_
-34-10	3882-3884	to	event[289]	new[289]	_	_
-34-11	3885-3889	what	event[289]	new[289]	_	_
-34-12	3890-3893	had	event[289]	new[289]	_	_
-34-13	3894-3898	been	event[289]	new[289]	_	_
-34-14	3899-3908	published	event[289]	new[289]	_	_
-34-15	3909-3911	on	event[289]	new[289]	_	_
-34-16	3912-3917	other	event[289]	new[289]	_	_
-34-17	3918-3925	species	event[289]	new[289]	_	_
-34-18	3926-3928	in	event[289]	new[289]	_	_
-34-19	3929-3933	this	event[289]	new[289]	_	_
-34-20	3934-3939	group	event[289]	new[289]	_	_
+34-1	3836-3837	I	person[290]	person[290]	ana	34-5[293_290]
+34-2	3838-3846	compared	event[474]	event[474]	coref	35-1[299_474]
+34-3	3847-3850	the	_	_	_	_
+34-4	3851-3857	things	_	_	_	_
+34-5	3858-3859	I	person[293]	person[293]	ana	36-3[304_293]
+34-6	3860-3863	saw	_	_	_	_
+34-7	3864-3869	under	_	_	_	_
+34-8	3870-3873	the	_	_	_	_
+34-9	3874-3881	'scopes	_	_	_	_
+34-10	3882-3884	to	_	_	_	_
+34-11	3885-3889	what	_	_	_	_
+34-12	3890-3893	had	_	_	_	_
+34-13	3894-3898	been	_	_	_	_
+34-14	3899-3908	published	_	_	_	_
+34-15	3909-3911	on	_	_	_	_
+34-16	3912-3917	other	_	_	_	_
+34-17	3918-3925	species	_	_	_	_
+34-18	3926-3928	in	_	_	_	_
+34-19	3929-3933	this	_	_	_	_
+34-20	3934-3939	group	_	_	_	_
 34-21	3940-3941	.	_	_	_	_
 
 #Text=This step seems trivial , but it is really the most important part !
@@ -1157,7 +1157,7 @@
 49-17	5483-5485	's	_	_	_	_
 49-18	5486-5494	possible	_	_	_	_
 49-19	5495-5499	that	_	_	_	_
-49-20	5500-5503	the	abstract[407]|place[408]	new[407]|giv[408]	cata	49-16[405_407]
+49-20	5500-5503	the	abstract[407]|place[408]	new[407]|giv[408]	ana	50-8[415_407]
 49-21	5504-5510	fields	abstract[407]|place[408]	new[407]|giv[408]	_	_
 49-22	5511-5514	are	abstract[407]	new[407]	_	_
 49-23	5515-5516	"	abstract[407]	new[407]	_	_
@@ -1182,7 +1182,7 @@
 50-5	5609-5612	way	_	_	_	_
 50-6	5613-5615	to	_	_	_	_
 50-7	5616-5620	test	_	_	_	_
-50-8	5621-5625	this	_	_	_	_
+50-8	5621-5625	this	abstract[415]	giv[415]	_	_
 50-9	5626-5627	.	_	_	_	_
 
 #Text=This map shows the location of the Ross Ice Shelf in the Antarctic , and the two known localities for E. andrillae relative to McMurdo Station

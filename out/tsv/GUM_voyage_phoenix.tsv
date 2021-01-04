@@ -7,7 +7,7 @@
 1-1	0-7	Phoenix	place[1]	new[1]	coref	2-1[2_1]
 
 #Text=Phoenix is the capital of the state of Arizona as well as the most populous city in the American Southwest and sixth largest city in the United States .
-2-1	8-15	Phoenix	place[2]	giv[2]	_	_
+2-1	8-15	Phoenix	place[2]	giv[2]	ana	3-5[11_2]
 2-2	16-18	is	_	_	_	_
 2-3	19-22	the	_	_	_	_
 2-4	23-30	capital	_	_	_	_
@@ -24,9 +24,9 @@
 2-15	75-83	populous	_	_	_	_
 2-16	84-88	city	_	_	_	_
 2-17	89-91	in	_	_	_	_
-2-18	92-95	the	place[8]	new[8]	coref	3-8[15_8]
-2-19	96-104	American	place[8]	new[8]	_	_
-2-20	105-114	Southwest	place[8]	new[8]	_	_
+2-18	92-95	the	_	_	_	_
+2-19	96-104	American	_	_	_	_
+2-20	105-114	Southwest	_	_	_	_
 2-21	115-118	and	_	_	_	_
 2-22	119-124	sixth	_	_	_	_
 2-23	125-132	largest	_	_	_	_
@@ -42,12 +42,12 @@
 3-2	169-171	in	_	_	_	_
 3-3	172-176	1871	_	_	_	_
 3-4	177-178	,	_	_	_	_
-3-5	179-181	it	place[11]	giv[11]	coref	3-8[14_11]
+3-5	179-181	it	place[11]	giv[11]	_	_
 3-6	182-185	has	_	_	_	_
 3-7	186-192	become	_	_	_	_
-3-8	193-196	the	place[14]|place[15]	giv[14]|giv[15]	ana	4-12[19_14]
-3-9	197-203	region	place[14]|place[15]	giv[14]|giv[15]	_	_
-3-10	204-206	's	place[14]|place[15]	giv[14]|giv[15]	_	_
+3-8	193-196	the	place[14]	giv[14]	ana	4-12[19_14]
+3-9	197-203	region	place[14]	giv[14]	_	_
+3-10	204-206	's	place[14]	giv[14]	_	_
 3-11	207-214	primary	place[14]	giv[14]	_	_
 3-12	215-224	political	place[14]	giv[14]	_	_
 3-13	225-226	,	place[14]	giv[14]	_	_
@@ -65,11 +65,11 @@
 4-2	280-282	an	_	_	_	_
 4-3	283-292	elevation	_	_	_	_
 4-4	293-295	of	_	_	_	_
-4-5	296-300	1100	_	_	_	_
-4-6	301-303	ft	_	_	_	_
+4-5	296-300	1100	abstract[17]	new[17]	appos	4-8[18_17]
+4-6	301-303	ft	abstract[17]	new[17]	_	_
 4-7	304-305	(	_	_	_	_
-4-8	306-309	335	_	_	_	_
-4-9	310-311	m	_	_	_	_
+4-8	306-309	335	abstract[18]	giv[18]	_	_
+4-9	310-311	m	abstract[18]	giv[18]	_	_
 4-10	312-313	)	_	_	_	_
 4-11	314-315	,	_	_	_	_
 4-12	316-318	it	place[19]	giv[19]	ana	5-3[22_19]
@@ -251,7 +251,7 @@
 12-31	1198-1200	be	abstract[71]	acc[71]	_	_
 12-32	1201-1207	viewed	abstract[71]	acc[71]	_	_
 12-33	1208-1210	in	abstract[71]	acc[71]	_	_
-12-34	1211-1214	the	abstract[71]|place[79]	acc[71]|giv[79]	ana	14-6[88_79]
+12-34	1211-1214	the	abstract[71]|place[79]	acc[71]|giv[79]	coref	14-6[88_79]
 12-35	1215-1219	city	abstract[71]|place[79]	acc[71]|giv[79]	_	_
 12-36	1220-1222	to	abstract[71]	acc[71]	_	_
 12-37	1223-1227	this	abstract[71]	acc[71]	_	_
@@ -280,7 +280,7 @@
 14-3	1327-1329	's	_	_	_	_
 14-4	1330-1334	name	_	_	_	_
 14-5	1335-1343	reflects	_	_	_	_
-14-6	1344-1347	its	place[88]	giv[88]	_	_
+14-6	1344-1347	its	place[88]	giv[88]	coref	14-9[90_88]
 14-7	1348-1355	history	_	_	_	_
 14-8	1356-1358	as	_	_	_	_
 14-9	1359-1360	a	place[90]	giv[90]	coref	15-30[101_90]
@@ -393,7 +393,7 @@
 17-16	1922-1933	restaurants	_	_	_	_
 17-17	1934-1937	are	_	_	_	_
 17-18	1938-1944	making	_	_	_	_
-17-19	1945-1947	it	place[124]	giv[124]	_	_
+17-19	1945-1947	it	place[124]	giv[124]	coref	17-20[129_124]
 17-20	1948-1949	a	place[129]	giv[129]	coref	18-22[134_129]
 17-21	1950-1955	place	place[129]	giv[129]	_	_
 17-22	1956-1958	to	place[129]	giv[129]	_	_
@@ -603,13 +603,13 @@
 27-8	2887-2890	get	_	_	_	_
 27-9	2891-2893	up	_	_	_	_
 27-10	2894-2896	to	_	_	_	_
-27-11	2897-2900	115	_	_	_	_
-27-12	2901-2902	°	_	_	_	_
-27-13	2903-2904	F	_	_	_	_
+27-11	2897-2900	115	abstract[186]	new[186]	appos	27-15[187_186]
+27-12	2901-2902	°	abstract[186]	new[186]	_	_
+27-13	2903-2904	F	abstract[186]	new[186]	_	_
 27-14	2905-2906	(	_	_	_	_
-27-15	2907-2909	46	_	_	_	_
-27-16	2910-2911	°	_	_	_	_
-27-17	2912-2913	C	_	_	_	_
+27-15	2907-2909	46	abstract[187]	giv[187]	_	_
+27-16	2910-2911	°	abstract[187]	giv[187]	_	_
+27-17	2912-2913	C	abstract[187]	giv[187]	_	_
 27-18	2914-2915	)	_	_	_	_
 27-19	2916-2918	or	_	_	_	_
 27-20	2919-2923	more	_	_	_	_
@@ -743,16 +743,16 @@
 37-2	3550-3554	Maps	_	_	_	_
 
 #Text=Phoenix Sky Harbor International Airport ( IATA : PHX ) +1602275-4958 is the main air gateway to Arizona .
-38-1	3555-3562	Phoenix	place[236]|place[237]|place[364]	new[236]|giv[237]|new[364]	coref|ana|appos	47-6[301_237]|39-1[243_364]|38-7[239_236]
-38-2	3563-3566	Sky	place[236]|place[364]	new[236]|new[364]	_	_
-38-3	3567-3573	Harbor	place[236]|place[364]	new[236]|new[364]	_	_
-38-4	3574-3587	International	place[236]|place[364]	new[236]|new[364]	_	_
-38-5	3588-3595	Airport	place[236]|place[364]	new[236]|new[364]	_	_
-38-6	3596-3597	(	place[364]	new[364]	_	_
-38-7	3598-3602	IATA	place[239]|place[364]	giv[239]|new[364]	_	_
-38-8	3603-3604	:	place[239]|place[364]	giv[239]|new[364]	_	_
-38-9	3605-3608	PHX	place[239]|place[364]	giv[239]|new[364]	_	_
-38-10	3609-3610	)	_	_	_	_
+38-1	3555-3562	Phoenix	place[236]|place[237]|place[366]	new[236]|giv[237]|new[366]	coref|appos|ana	47-6[301_237]|38-7[239_236]|39-1[243_366]
+38-2	3563-3566	Sky	place[236]|place[366]	new[236]|new[366]	_	_
+38-3	3567-3573	Harbor	place[236]|place[366]	new[236]|new[366]	_	_
+38-4	3574-3587	International	place[236]|place[366]	new[236]|new[366]	_	_
+38-5	3588-3595	Airport	place[236]|place[366]	new[236]|new[366]	_	_
+38-6	3596-3597	(	place[366]	new[366]	_	_
+38-7	3598-3602	IATA	place[239]|place[366]	giv[239]|new[366]	_	_
+38-8	3603-3604	:	place[239]|place[366]	giv[239]|new[366]	_	_
+38-9	3605-3608	PHX	place[239]|place[366]	giv[239]|new[366]	_	_
+38-10	3609-3610	)	place[366]	new[366]	_	_
 38-11	3611-3624	+1602275-4958	_	_	_	_
 38-12	3625-3627	is	_	_	_	_
 38-13	3628-3631	the	_	_	_	_

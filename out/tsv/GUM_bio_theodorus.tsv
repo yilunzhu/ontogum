@@ -22,8 +22,8 @@
 2-11	65-69	also	person[4]	giv[4]	_	_
 2-12	70-75	known	person[4]	giv[4]	_	_
 2-13	76-78	as	person[4]	giv[4]	_	_
-2-14	79-83	Abba	person[4]	giv[4]	_	_
-2-15	84-93	Theodorus	person[4]	giv[4]	_	_
+2-14	79-83	Abba	person[4]	person[4]	_	_
+2-15	84-93	Theodorus	person[4]	person[4]	_	_
 2-16	94-97	and	person[4]	giv[4]	_	_
 2-17	98-106	Theodore	person[4]|person[12]	giv[4]|giv[12]	coref	3-3[23_12]
 2-18	107-110	the	person[4]|person[12]	giv[4]|giv[12]	_	_
@@ -53,7 +53,7 @@
 2-42	275-278	the	_	_	_	_
 2-43	279-284	death	_	_	_	_
 2-44	285-287	of	_	_	_	_
-2-45	288-291	its	person[19]|organization[20]	giv[19]|giv[20]	coref|coref	27-1[281_20]|7-9[53_19]
+2-45	288-291	its	person[19]|organization[20]	giv[19]|giv[20]	coref|coref	7-9[53_19]|27-1[281_20]
 2-46	292-299	founder	person[19]	giv[19]	_	_
 2-47	300-301	.	_	_	_	_
 
@@ -100,7 +100,7 @@
 6-6	490-493	the	_	_	_	_
 6-7	494-502	excesses	_	_	_	_
 6-8	503-505	of	_	_	_	_
-6-9	506-509	his	person[40]	giv[40]	coref	8-5[62_40]
+6-9	506-509	his	person[40]	giv[40]	ana	8-5[62_40]
 6-10	510-517	parents	_	_	_	_
 6-11	518-519	,	_	_	_	_
 6-12	520-523	and	_	_	_	_
@@ -241,7 +241,7 @@
 11-5	1220-1222	of	_	_	_	_
 11-6	1223-1232	Pachomius	person[97]	giv[97]	coref	12-12[114_97]
 11-7	1233-1234	,	_	_	_	_
-11-8	1235-1244	Theodorus	person[98]	giv[98]	_	_
+11-8	1235-1244	Theodorus	person[98]	giv[98]	coref	11-24[106_98]
 11-9	1245-1250	lived	_	_	_	_
 11-10	1251-1253	an	_	_	_	_
 11-11	1254-1262	enviably	_	_	_	_
@@ -282,7 +282,7 @@
 12-14	1439-1442	and	_	_	_	_
 12-15	1443-1452	generally	_	_	_	_
 12-16	1453-1463	maintained	_	_	_	_
-12-17	1464-1471	himself	person[115]	giv[115]	_	_
+12-17	1464-1471	himself	person[115]	giv[115]	coref	12-19[118_115]
 12-18	1472-1474	as	_	_	_	_
 12-19	1475-1476	a	person[118]	giv[118]	ana	13-6[127_118]
 12-20	1477-1486	prominent	person[118]	giv[118]	_	_
@@ -326,7 +326,7 @@
 13-16	1681-1684	and	_	_	_	_
 13-17	1685-1695	eventually	_	_	_	_
 13-18	1696-1705	appointed	_	_	_	_
-13-19	1706-1709	him	person[133]	giv[133]	_	_
+13-19	1706-1709	him	person[133]	giv[133]	coref	13-20[136_133]
 13-20	1710-1717	steward	person[136]	giv[136]	coref	14-10[143_136]
 13-21	1718-1720	of	person[136]	giv[136]	_	_
 13-22	1721-1730	Tabennese	person[136]|place[137]	giv[136]|giv[137]	coref	14-14[148_137]
@@ -356,11 +356,11 @@
 14-14	1862-1871	Tabennese	place[148]	giv[148]	coref	17-8[187_148]
 14-15	1872-1873	,	_	_	_	_
 14-16	1874-1880	though	_	_	_	_
-14-17	1881-1889	recalled	event[150]	new[150]	coref	17-13[193_150]
-14-18	1890-1893	him	event[150]|person[151]	new[150]|giv[151]	ana	15-5[161_151]
-14-19	1894-1898	from	event[150]	new[150]	_	_
-14-20	1899-1902	the	event[150]	new[150]	_	_
-14-21	1903-1911	position	event[150]	new[150]	_	_
+14-17	1881-1889	recalled	event[360]	new[360]	coref	17-13[193_360]
+14-18	1890-1893	him	person[151]	person[151]	ana	15-5[161_151]
+14-19	1894-1898	from	_	_	_	_
+14-20	1899-1902	the	_	_	_	_
+14-21	1903-1911	position	_	_	_	_
 14-22	1912-1917	after	_	_	_	_
 14-23	1918-1928	witnessing	_	_	_	_
 14-24	1929-1936	several	_	_	_	_
@@ -529,7 +529,7 @@
 19-18	2826-2828	's	_	_	_	_
 19-19	2829-2834	glory	_	_	_	_
 19-20	2835-2836	,	_	_	_	_
-19-21	2837-2839	he	person[219]	giv[219]	coref	20-3[221_219]
+19-21	2837-2839	he	person[219]	person[219]	coref	20-3[221_219]
 19-22	2840-2849	consented	_	_	_	_
 19-23	2850-2851	.	_	_	_	_
 
@@ -597,7 +597,7 @@
 22-8	3183-3192	Pachomius	person[241]	giv[241]	ana	22-11[245_241]
 22-9	3193-3198	fully	_	_	_	_
 22-10	3199-3204	trust	_	_	_	_
-22-11	3205-3208	his	person[244]|person[245]	giv[244]|giv[245]	coref|coref	23-15[255_244]|23-3[247_245]
+22-11	3205-3208	his	person[244]|person[245]	giv[244]|giv[245]	coref|coref	23-3[247_245]|23-15[255_244]
 22-12	3209-3215	former	person[244]	giv[244]	_	_
 22-13	3216-3223	protégé	person[244]	giv[244]	_	_
 22-14	3224-3225	.	_	_	_	_
@@ -819,12 +819,12 @@
 30-20	4408-4410	at	_	_	_	_
 30-21	4411-4416	which	_	_	_	_
 30-22	4417-4422	point	_	_	_	_
-30-23	4423-4432	Theodorus	event[316]|person[317]	new[316]|giv[317]	coref|ana	31-5[322_316]|30-25[318_317]
-30-24	4433-4442	predicted	event[316]	new[316]	_	_
-30-25	4443-4445	he	event[316]|person[318]	new[316]|giv[318]	ana	31-5[323_318]
-30-26	4446-4451	would	event[316]	new[316]	_	_
-30-27	4452-4456	soon	event[316]	new[316]	_	_
-30-28	4457-4460	die	event[316]	new[316]	_	_
+30-23	4423-4432	Theodorus	person[317]	person[317]	ana	30-25[318_317]
+30-24	4433-4442	predicted	event[362]	new[362]	coref	31-5[322_362]
+30-25	4443-4445	he	person[318]	person[318]	ana	31-5[323_318]
+30-26	4446-4451	would	_	_	_	_
+30-27	4452-4456	soon	_	_	_	_
+30-28	4457-4460	die	_	_	_	_
 30-29	4461-4462	.	_	_	_	_
 
 #Text=Within a few months his prediction came true , and Apa Horsiesios once more took his place as the head of the communities in both title and authority . [ 1 ]

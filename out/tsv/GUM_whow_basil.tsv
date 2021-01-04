@@ -161,7 +161,7 @@
 10-6	677-678	:	_	_	_	_
 
 #Text=Cinnamon basil really does smell like the sweet spice , and it also has unusually beautiful and fragrant flowers .
-11-1	679-687	Cinnamon	plant[49]	new[49]	ana	11-12[53_49]
+11-1	679-687	Cinnamon	plant[49]	plant[49]	ana	11-12[53_49]
 11-2	688-693	basil	plant[49]	new[49]	_	_
 11-3	694-700	really	_	_	_	_
 11-4	701-705	does	_	_	_	_
@@ -187,15 +187,15 @@
 12-2	800-805	basil	_	_	_	_
 12-3	806-814	actually	_	_	_	_
 12-4	815-823	contains	_	_	_	_
-12-5	824-830	citral	_	_	_	_
+12-5	824-830	citral	plant[58]	new[58]	appos	12-7[61_58]
 12-6	831-832	,	_	_	_	_
-12-7	833-835	an	_	_	_	_
-12-8	836-844	aromatic	_	_	_	_
-12-9	845-853	compound	_	_	_	_
-12-10	854-859	found	_	_	_	_
-12-11	860-862	in	_	_	_	_
-12-12	863-869	citrus	_	_	_	_
-12-13	870-875	fruit	_	_	_	_
+12-7	833-835	an	plant[61]	giv[61]	_	_
+12-8	836-844	aromatic	plant[61]	giv[61]	_	_
+12-9	845-853	compound	plant[61]	giv[61]	_	_
+12-10	854-859	found	plant[61]	giv[61]	_	_
+12-11	860-862	in	plant[61]	giv[61]	_	_
+12-12	863-869	citrus	plant[61]	giv[61]	_	_
+12-13	870-875	fruit	plant[61]	giv[61]	_	_
 12-14	876-877	,	_	_	_	_
 12-15	878-881	and	_	_	_	_
 12-16	882-888	smells	_	_	_	_
@@ -321,11 +321,11 @@
 17-13	1439-1441	's	_	_	_	_
 17-14	1442-1447	often	_	_	_	_
 17-15	1448-1455	easiest	_	_	_	_
-17-16	1456-1458	to	event[100]	new[100]	cata	17-12[98_100]
-17-17	1459-1464	start	event[100]	new[100]	_	_
-17-18	1465-1468	the	event[100]|plant[101]	new[100]|giv[101]	ana	17-25[102_101]
-17-19	1469-1474	seeds	event[100]|plant[101]	new[100]|giv[101]	_	_
-17-20	1475-1482	indoors	event[100]	new[100]	_	_
+17-16	1456-1458	to	_	_	_	_
+17-17	1459-1464	start	_	_	_	_
+17-18	1465-1468	the	plant[101]	giv[101]	ana	17-25[102_101]
+17-19	1469-1474	seeds	plant[101]	giv[101]	_	_
+17-20	1475-1482	indoors	_	_	_	_
 17-21	1483-1490	instead	_	_	_	_
 17-22	1491-1493	of	_	_	_	_
 17-23	1494-1501	risking	_	_	_	_
@@ -436,7 +436,7 @@
 23-14	1973-1984	environment	_	_	_	_
 23-15	1985-1988	for	_	_	_	_
 23-16	1989-1992	the	plant[142]	giv[142]	coref	24-3[145_142]
-23-17	1993-1998	basil	plant[142]	giv[142]	_	_
+23-17	1993-1998	basil	plant[142]	plant[142]	_	_
 23-18	1999-2004	seeds	plant[142]	giv[142]	_	_
 23-19	2005-2007	to	_	_	_	_
 23-20	2008-2017	germinate	_	_	_	_
@@ -602,7 +602,7 @@
 35-1	2696-2697	1	_	_	_	_
 35-2	2698-2708	Transplant	_	_	_	_
 35-3	2709-2712	the	plant[186]	giv[186]	coref	41-5[220_186]
-35-4	2713-2718	basil	plant[186]	giv[186]	_	_
+35-4	2713-2718	basil	plant[186]	plant[186]	_	_
 35-5	2719-2725	plants	plant[186]	giv[186]	_	_
 35-6	2726-2727	.	_	_	_	_
 
@@ -832,7 +832,7 @@
 48-1	3701-3705	When	_	_	_	_
 48-2	3706-3709	you	person[249]	giv[249]	ana	51-1[272_249]
 48-3	3710-3713	see	_	_	_	_
-48-4	3714-3720	flower	plant[252]	giv[252]	ana	48-8[254_252]
+48-4	3714-3720	flower	plant[252]	plant[252]	ana	48-8[254_252]
 48-5	3721-3725	buds	plant[252]	giv[252]	_	_
 48-6	3726-3727	,	_	_	_	_
 48-7	3728-3733	pinch	_	_	_	_
@@ -933,7 +933,7 @@
 52-7	4164-4165	.	_	_	_	_
 
 #Text=Basil plants are attractive to Japanese beetles
-53-1	4166-4171	Basil	plant[283]	new[283]	coref	54-13[291_283]
+53-1	4166-4171	Basil	plant[283]	plant[283]	coref	54-13[291_283]
 53-2	4172-4178	plants	plant[283]	new[283]	_	_
 53-3	4179-4182	are	_	_	_	_
 53-4	4183-4193	attractive	_	_	_	_
@@ -962,7 +962,7 @@
 
 #Text=If your plants show signs of mold growth , they may not be getting adequate sunlight , or they may be too close together .
 55-1	4291-4293	If	_	_	_	_
-55-2	4294-4298	your	plant[294]|person[295]	giv[294]|giv[295]	ana|ana	55-10[299_294]|60-2[319_295]
+55-2	4294-4298	your	plant[294]|person[295]	giv[294]|giv[295]	ana|ana	60-2[319_295]|55-10[299_294]
 55-3	4299-4305	plants	plant[294]	giv[294]	_	_
 55-4	4306-4310	show	_	_	_	_
 55-5	4311-4316	signs	_	_	_	_
@@ -1022,7 +1022,7 @@
 
 #Text=As the plant matures , pinch off the top two pairs of leaves once a stalk reaches a reasonable height .
 59-1	4544-4546	As	_	_	_	_
-59-2	4547-4550	the	plant[315]	acc[315]	ana	62-11[335_315]
+59-2	4547-4550	the	plant[315]	acc[315]		62-11[335_315]
 59-3	4551-4556	plant	plant[315]	acc[315]	_	_
 59-4	4557-4564	matures	_	_	_	_
 59-5	4565-4566	,	_	_	_	_
@@ -1093,7 +1093,7 @@
 61-15	4857-4858	.	_	_	_	_
 
 #Text=Pinching encourages the plant 's energy to be directed into its stronger stems and leaves .
-62-1	4859-4867	Pinching	event[329]	new[329]	ana	63-1[336_329]
+62-1	4859-4867	Pinching	event[431]	new[431]	ana	63-1[336_431]
 62-2	4868-4878	encourages	_	_	_	_
 62-3	4879-4882	the	_	_	_	_
 62-4	4883-4888	plant	_	_	_	_
@@ -1133,7 +1133,7 @@
 64-11	5029-5030	,	_	_	_	_
 64-12	5031-5033	or	_	_	_	_
 64-13	5034-5037	the	plant[342]	giv[342]	ana	65-3[345_342]
-64-14	5038-5043	basil	plant[342]	giv[342]	_	_
+64-14	5038-5043	basil	plant[342]	plant[342]	_	_
 64-15	5044-5050	plants	plant[342]	giv[342]	_	_
 64-16	5051-5055	will	_	_	_	_
 64-17	5056-5060	grow	_	_	_	_

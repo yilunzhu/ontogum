@@ -21,13 +21,13 @@
 #Text=Rachel Rook took Carroll home to meet her parents two months after she first slept with him .
 3-1	55-61	Rachel	person[6]	new[6]	ana	3-8[13_6]
 3-2	62-66	Rook	person[6]	new[6]	_	_
-3-3	67-71	took	event[7]	new[7]	coref	8-8[71_7]
-3-4	72-79	Carroll	event[7]|person[8]	new[7]|new[8]	ana	3-17[17_8]
-3-5	80-84	home	event[7]	new[7]	_	_
-3-6	85-87	to	event[7]	new[7]	_	_
-3-7	88-92	meet	event[7]	new[7]	_	_
-3-8	93-96	her	event[7]|person[12]|person[13]	new[7]|new[12]|giv[13]	ana|coref	3-13[16_13]|5-8[31_12]
-3-9	97-104	parents	event[7]|person[12]	new[7]|new[12]	_	_
+3-3	67-71	took	event[379]	new[379]	coref	8-8[71_379]
+3-4	72-79	Carroll	person[8]	person[8]	ana	3-17[17_8]
+3-5	80-84	home	_	_	_	_
+3-6	85-87	to	_	_	_	_
+3-7	88-92	meet	_	_	_	_
+3-8	93-96	her	person[12]|person[13]	person[12]|person[13]	coref|ana	5-8[31_12]|3-13[16_13]
+3-9	97-104	parents	person[12]	person[12]	_	_
 3-10	105-108	two	_	_	_	_
 3-11	109-115	months	_	_	_	_
 3-12	116-121	after	_	_	_	_
@@ -40,19 +40,19 @@
 
 #Text=For a generous girl , a girl who took off her clothes with abandon , she was remarkably close-mouthed about some things .
 4-1	149-152	For	_	_	_	_
-4-2	153-154	a	person[379]	giv[379]	ana	4-16[24_379]
-4-3	155-163	generous	person[379]	giv[379]	_	_
-4-4	164-168	girl	person[379]	giv[379]	_	_
-4-5	169-170	,	person[379]	giv[379]	_	_
-4-6	171-172	a	person[379]	giv[379]	_	_
-4-7	173-177	girl	person[379]	giv[379]	_	_
-4-8	178-181	who	person[379]	giv[379]	_	_
-4-9	182-186	took	person[379]	giv[379]	_	_
-4-10	187-190	off	person[379]	giv[379]	_	_
-4-11	191-194	her	person[379]	giv[379]	_	_
-4-12	195-202	clothes	person[379]	giv[379]	_	_
-4-13	203-207	with	person[379]	giv[379]	_	_
-4-14	208-215	abandon	person[379]	giv[379]	_	_
+4-2	153-154	a	person[20]|person[381]	giv[20]|giv[381]	ana|appos	4-16[24_381]|4-6[21_20]
+4-3	155-163	generous	person[20]|person[381]	giv[20]|giv[381]	_	_
+4-4	164-168	girl	person[20]|person[381]	giv[20]|giv[381]	_	_
+4-5	169-170	,	person[381]	giv[381]	_	_
+4-6	171-172	a	person[21]|person[381]	giv[21]|giv[381]	_	_
+4-7	173-177	girl	person[21]|person[381]	giv[21]|giv[381]	_	_
+4-8	178-181	who	person[21]|person[381]	giv[21]|giv[381]	_	_
+4-9	182-186	took	person[21]|person[381]	giv[21]|giv[381]	_	_
+4-10	187-190	off	person[21]|person[381]	giv[21]|giv[381]	_	_
+4-11	191-194	her	person[21]|person[381]	person[21]|giv[381]	_	_
+4-12	195-202	clothes	person[21]|person[381]	giv[21]|giv[381]	_	_
+4-13	203-207	with	person[21]|person[381]	giv[21]|giv[381]	_	_
+4-14	208-215	abandon	person[21]|person[381]	giv[21]|giv[381]	_	_
 4-15	216-217	,	_	_	_	_
 4-16	218-221	she	person[24]	giv[24]	ana	5-8[32_24]
 4-17	222-225	was	_	_	_	_
@@ -130,7 +130,7 @@
 7-1	577-579	Do	_	_	_	_
 7-2	580-583	you	person[59]	giv[59]	ana	7-4[62_59]
 7-3	584-589	think	_	_	_	_
-7-4	590-594	your	person[61]|person[62]	giv[61]|giv[62]	coref|coref	28-23[216_61]|11-4[98_62]
+7-4	590-594	your	person[61]|person[62]	giv[61]|giv[62]	coref	28-23[216_61]|11-4[98_62]
 7-5	595-602	parents	person[61]	giv[61]	_	_
 7-6	603-607	will	_	_	_	_
 7-7	608-612	like	_	_	_	_
@@ -185,19 +185,19 @@
 9-19	818-819	.	_	_	_	_
 
 #Text=The outfit he had chosen , khaki pants and a blue button-down shirt -- no tie -- lay neatly folded on the bed .
-10-1	820-823	The	_	_	_	_
-10-2	824-830	outfit	_	_	_	_
-10-3	831-833	he	person[90]	giv[90]	ana	11-1[97_90]
-10-4	834-837	had	_	_	_	_
-10-5	838-844	chosen	_	_	_	_
+10-1	820-823	The	object[89]	new[89]	appos	10-7[92_89]
+10-2	824-830	outfit	object[89]	new[89]	_	_
+10-3	831-833	he	object[89]|person[90]	new[89]|giv[90]	ana	11-1[97_90]
+10-4	834-837	had	object[89]	new[89]	_	_
+10-5	838-844	chosen	object[89]	new[89]	_	_
 10-6	845-846	,	_	_	_	_
-10-7	847-852	khaki	object[93]	new[93]	coref	19-4[157_93]
-10-8	853-858	pants	object[93]	new[93]	_	_
-10-9	859-862	and	_	_	_	_
-10-10	863-864	a	_	_	_	_
-10-11	865-869	blue	_	_	_	_
-10-12	870-881	button-down	_	_	_	_
-10-13	882-887	shirt	_	_	_	_
+10-7	847-852	khaki	object[92]|object[93]	giv[92]|new[93]	coref	19-4[157_93]
+10-8	853-858	pants	object[92]|object[93]	giv[92]|new[93]	_	_
+10-9	859-862	and	object[92]	giv[92]	_	_
+10-10	863-864	a	object[92]	giv[92]	_	_
+10-11	865-869	blue	object[92]	giv[92]	_	_
+10-12	870-881	button-down	object[92]	giv[92]	_	_
+10-13	882-887	shirt	object[92]	giv[92]	_	_
 10-14	888-890	--	_	_	_	_
 10-15	891-893	no	_	_	_	_
 10-16	894-897	tie	_	_	_	_
@@ -247,15 +247,15 @@
 #Text=It was the first time she had been to his apartment , and she stood square in the center of his bedroom , her arms folded against her body as if she was afraid to sit down , to touch something .
 13-1	1062-1064	It	_	_	_	_
 13-2	1065-1068	was	_	_	_	_
-13-3	1069-1072	the	time[114]	new[114]	cata	13-1[111_114]
-13-4	1073-1078	first	time[114]	new[114]	_	_
-13-5	1079-1083	time	time[114]	new[114]	_	_
-13-6	1084-1087	she	time[114]|person[115]	new[114]|giv[115]	ana	13-14[119_115]
-13-7	1088-1091	had	time[114]	new[114]	_	_
-13-8	1092-1096	been	time[114]	new[114]	_	_
-13-9	1097-1099	to	time[114]	new[114]	_	_
-13-10	1100-1103	his	time[114]|person[118]	new[114]|giv[118]	ana	13-21[124_118]
-13-11	1104-1113	apartment	time[114]	new[114]	_	_
+13-3	1069-1072	the	_	_	_	_
+13-4	1073-1078	first	_	_	_	_
+13-5	1079-1083	time	_	_	_	_
+13-6	1084-1087	she	person[115]	giv[115]	ana	13-14[119_115]
+13-7	1088-1091	had	_	_	_	_
+13-8	1092-1096	been	_	_	_	_
+13-9	1097-1099	to	_	_	_	_
+13-10	1100-1103	his	person[118]	giv[118]	ana	13-21[124_118]
+13-11	1104-1113	apartment	_	_	_	_
 13-12	1114-1115	,	_	_	_	_
 13-13	1116-1119	and	_	_	_	_
 13-14	1120-1123	she	person[119]	giv[119]	ana	13-24[127_119]
@@ -296,7 +296,7 @@
 
 #Text=" My father will like you , " she said .
 15-1	1267-1268	"	_	_	_	_
-15-2	1269-1271	My	person[136]|person[137]	new[136]|giv[137]	ana|ana	15-9[139_137]|16-3[140_136]
+15-2	1269-1271	My	person[136]|person[137]	new[136]|giv[137]	ana|ana	16-3[140_136]|15-9[139_137]
 15-3	1272-1278	father	person[136]	new[136]	_	_
 15-4	1279-1283	will	_	_	_	_
 15-5	1284-1288	like	_	_	_	_
@@ -316,7 +316,7 @@
 16-6	1332-1333	.	_	_	_	_
 
 #Text=My mother 's more particular --
-17-1	1334-1336	My	person[147]|person[148]	new[147]|giv[148]	ana|ana	20-3[161_148]|18-1[149_147]
+17-1	1334-1336	My	person[147]|person[148]	new[147]|giv[148]	ana|ana	18-1[149_147]|20-3[161_148]
 17-2	1337-1343	mother	person[147]	new[147]	_	_
 17-3	1344-1346	's	_	_	_	_
 17-4	1347-1351	more	_	_	_	_
@@ -420,7 +420,7 @@
 26-16	1692-1694	to	_	_	_	_
 26-17	1695-1699	take	_	_	_	_
 26-18	1700-1703	him	person[186]	giv[186]	ana	27-6[189_186]
-26-19	1704-1708	home	_	_	_	_
+26-19	1704-1708	home	place[187]	giv[187]	coref	28-5[205_187]
 26-20	1709-1710	.	_	_	_	_
 
 #Text=" You 're ashamed of me , " he guessed , and Rachel kissed him and smiled and did n't say anything .
@@ -453,7 +453,7 @@
 28-2	1819-1824	still	_	_	_	_
 28-3	1825-1830	lived	_	_	_	_
 28-4	1831-1833	on	_	_	_	_
-28-5	1834-1837	her	place[205]|person[207]	giv[205]|giv[207]	ana|coref	28-18[212_207]|30-44[250_205]
+28-5	1834-1837	her	place[205]|person[207]	giv[205]|giv[207]	coref|ana	30-44[250_205]|28-18[212_207]
 28-6	1838-1845	parents	place[205]	giv[205]	_	_
 28-7	1846-1847	'	place[205]	giv[205]	_	_
 28-8	1848-1852	farm	place[205]	giv[205]	_	_
@@ -465,22 +465,22 @@
 28-14	1873-1876	the	_	_	_	_
 28-15	1877-1881	more	_	_	_	_
 28-16	1882-1892	remarkable	_	_	_	_
-28-17	1893-1897	that	event[211]	new[211]	cata	28-12[208_211]
-28-18	1898-1901	she	event[211]|person[212]	new[211]|giv[212]	ana	28-23[217_212]
-28-19	1902-1905	had	event[211]	new[211]	_	_
-28-20	1906-1910	kept	event[211]	new[211]	_	_
-28-21	1911-1918	Carroll	event[211]|person[213]	new[211]|giv[213]	coref	30-9[233_213]
-28-22	1919-1922	and	event[211]	new[211]	_	_
-28-23	1923-1926	her	event[211]|person[216]|person[217]	new[211]|giv[216]|giv[217]	ana	30-1[226_217]
-28-24	1927-1934	parents	event[211]|person[216]	new[211]|giv[216]	_	_
-28-25	1935-1940	apart	event[211]	new[211]	_	_
-28-26	1941-1944	for	event[211]	new[211]	_	_
-28-27	1945-1947	so	event[211]	new[211]	_	_
-28-28	1948-1952	long	event[211]	new[211]	_	_
+28-17	1893-1897	that	_	_	_	_
+28-18	1898-1901	she	person[212]	person[212]	ana	28-23[217_212]
+28-19	1902-1905	had	_	_	_	_
+28-20	1906-1910	kept	event[380]	event[380]	ana	29-1[218_380]
+28-21	1911-1918	Carroll	person[213]	person[213]	coref	30-9[233_213]
+28-22	1919-1922	and	_	_	_	_
+28-23	1923-1926	her	person[216]|person[217]	person[216]|person[217]	ana	30-1[226_217]
+28-24	1927-1934	parents	person[216]	person[216]	_	_
+28-25	1935-1940	apart	_	_	_	_
+28-26	1941-1944	for	_	_	_	_
+28-27	1945-1947	so	_	_	_	_
+28-28	1948-1952	long	_	_	_	_
 28-29	1953-1954	.	_	_	_	_
 
 #Text=It suggested a talent for daily organization that filled Carroll 's heart with admiration and lust .
-29-1	1955-1957	It	_	_	_	_
+29-1	1955-1957	It	event[218]	giv[218]	_	_
 29-2	1958-1967	suggested	_	_	_	_
 29-3	1968-1969	a	_	_	_	_
 29-4	1970-1976	talent	_	_	_	_
@@ -501,13 +501,13 @@
 #Text=She was nineteen , two years younger than Carroll ; she was a student at Jellicoh College and every weekday she rose at seven and biked four miles into town , and then back again on her bike , four miles uphill to the farm .
 30-1	2056-2059	She	person[226]	giv[226]	ana	30-11[234_226]
 30-2	2060-2063	was	_	_	_	_
-30-3	2064-2072	nineteen	_	_	_	_
+30-3	2064-2072	nineteen	abstract[227]	new[227]	appos	30-5[232_227]
 30-4	2073-2074	,	_	_	_	_
-30-5	2075-2078	two	_	_	_	_
-30-6	2079-2084	years	_	_	_	_
-30-7	2085-2092	younger	_	_	_	_
-30-8	2093-2097	than	_	_	_	_
-30-9	2098-2105	Carroll	person[233]	giv[233]	coref	31-1[251_233]
+30-5	2075-2078	two	abstract[232]	giv[232]	_	_
+30-6	2079-2084	years	abstract[232]	giv[232]	_	_
+30-7	2085-2092	younger	abstract[232]	giv[232]	_	_
+30-8	2093-2097	than	abstract[232]	giv[232]	_	_
+30-9	2098-2105	Carroll	abstract[232]|person[233]	giv[232]|giv[233]	coref	31-1[251_233]
 30-10	2106-2107	;	_	_	_	_
 30-11	2108-2111	she	person[234]	giv[234]	ana	30-21[239_234]
 30-12	2112-2115	was	_	_	_	_
@@ -660,11 +660,11 @@
 36-10	2790-2795	found	_	_	_	_
 36-11	2796-2798	it	_	_	_	_
 36-12	2799-2808	difficult	_	_	_	_
-36-13	2809-2811	to	event[298]	new[298]	cata	36-11[294_298]
-36-14	2812-2816	look	event[298]	new[298]	_	_
-36-15	2817-2825	directly	event[298]	new[298]	_	_
-36-16	2826-2828	at	event[298]	new[298]	_	_
-36-17	2829-2832	her	event[298]|person[299]	new[298]|giv[299]	ana	37-5[301_299]
+36-13	2809-2811	to	_	_	_	_
+36-14	2812-2816	look	_	_	_	_
+36-15	2817-2825	directly	_	_	_	_
+36-16	2826-2828	at	_	_	_	_
+36-17	2829-2832	her	person[299]	giv[299]	ana	37-5[301_299]
 36-18	2833-2834	.	_	_	_	_
 
 #Text=" Can I help you ? " he said .

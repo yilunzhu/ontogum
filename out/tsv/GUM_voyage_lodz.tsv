@@ -7,7 +7,7 @@
 1-1	0-4	Łódź	place[1]	new[1]	coref	2-1[2_1]
 
 #Text=Łódź ( Pronounced : Wootch ) is Poland 's third biggest city , and the capital of the Łódzkie Voivodship .
-2-1	5-9	Łódź	place[2]	giv[2]	_	_
+2-1	5-9	Łódź	place[2]	giv[2]	coref	3-13[13_2]
 2-2	10-11	(	_	_	_	_
 2-3	12-22	Pronounced	_	_	_	_
 2-4	23-24	:	_	_	_	_
@@ -42,7 +42,7 @@
 3-10	163-167	long	_	_	_	_
 3-11	168-177	histories	_	_	_	_
 3-12	178-179	,	_	_	_	_
-3-13	180-184	Łódź	place[13]	giv[13]	_	_
+3-13	180-184	Łódź	place[13]	giv[13]	coref	3-42[29_13]
 3-14	185-188	was	_	_	_	_
 3-15	189-196	created	_	_	_	_
 3-16	197-203	almost	_	_	_	_
@@ -57,7 +57,7 @@
 3-25	258-262	boom	_	_	_	_
 3-26	263-265	to	_	_	_	_
 3-27	266-271	house	_	_	_	_
-3-28	272-279	textile	place[20]	new[20]	ana	3-31[24_20]
+3-28	272-279	textile	place[20]	place[20]	ana	3-31[24_20]
 3-29	280-285	mills	place[20]	new[20]	_	_
 3-30	286-287	,	_	_	_	_
 3-31	288-293	their	place[24]	giv[24]	ana	3-34[27_24]
@@ -97,7 +97,7 @@
 4-15	485-489	from	_	_	_	_
 4-16	490-493	the	abstract[38]	giv[38]	coref	14-30[129_38]
 4-17	494-501	failing	abstract[38]	giv[38]	_	_
-4-18	502-509	textile	abstract[38]	giv[38]	_	_
+4-18	502-509	textile	abstract[38]	abstract[38]	_	_
 4-19	510-518	industry	abstract[38]	giv[38]	_	_
 4-20	519-522	and	_	_	_	_
 4-21	523-525	is	_	_	_	_
@@ -175,7 +175,7 @@
 6-21	957-965	shopping	_	_	_	_
 6-22	966-967	,	_	_	_	_
 6-23	968-972	with	_	_	_	_
-6-24	973-976	the	place[68]	giv[68]	ana	7-19[77_68]
+6-24	973-976	the	place[68]	giv[68]	coref	7-19[77_68]
 6-25	977-981	city	place[68]	giv[68]	_	_
 6-26	982-989	hosting	_	_	_	_
 6-27	990-994	some	_	_	_	_
@@ -372,7 +372,7 @@
 14-29	1886-1888	of	_	_	_	_
 14-30	1889-1892	the	abstract[129]	giv[129]	coref	32-37[272_129]
 14-31	1893-1908	rapidly-growing	abstract[129]	giv[129]	_	_
-14-32	1909-1916	textile	abstract[129]	giv[129]	_	_
+14-32	1909-1916	textile	abstract[129]	abstract[129]	_	_
 14-33	1917-1925	industry	abstract[129]	giv[129]	_	_
 14-34	1926-1927	.	_	_	_	_
 
@@ -467,7 +467,7 @@
 18-3	2370-2378	obtained	_	_	_	_
 18-4	2379-2383	from	_	_	_	_
 18-5	2384-2394	prosperous	place[166]	new[166]	ana	18-14[171_166]
-18-6	2395-2402	textile	place[166]	new[166]	_	_
+18-6	2395-2402	textile	place[166]	place[166]	_	_
 18-7	2403-2408	mills	place[166]	new[166]	_	_
 18-8	2409-2415	opened	_	_	_	_
 18-9	2416-2418	up	_	_	_	_
@@ -481,7 +481,7 @@
 
 #Text=The city residences became expressions of the riches and power of the local tycoons .
 19-1	2474-2477	The	place[173]	new[173]	ana	20-1[178_173]
-19-2	2478-2482	city	place[173]	new[173]	_	_
+19-2	2478-2482	city	place[173]	place[173]	_	_
 19-3	2483-2493	residences	place[173]	new[173]	_	_
 19-4	2494-2500	became	_	_	_	_
 19-5	2501-2512	expressions	_	_	_	_
@@ -803,7 +803,7 @@
 33-11	4112-4115	and	_	_	_	_
 33-12	4116-4120	many	_	_	_	_
 33-13	4121-4123	of	_	_	_	_
-33-14	4124-4127	its	place[288]	giv[288]	_	_
+33-14	4124-4127	its	place[288]	giv[288]	coref	34-6[293_288]
 33-15	4128-4135	streets	_	_	_	_
 33-16	4136-4139	and	_	_	_	_
 33-17	4140-4149	buildings	_	_	_	_
@@ -853,12 +853,12 @@
 35-10	4349-4353	Łódź	place[300]	giv[300]	ana	35-14[303_300]
 35-11	4354-4365	campaigning	_	_	_	_
 35-12	4366-4369	and	_	_	_	_
-35-13	4370-4381	redesigning	event[302]	new[302]	ana	36-3[304_302]
-35-14	4382-4388	itself	event[302]|place[303]	new[302]|giv[303]	coref	36-5[305_303]
-35-15	4389-4391	as	event[302]	new[302]	_	_
-35-16	4392-4394	an	event[302]	new[302]	_	_
-35-17	4395-4408	up-and-coming	event[302]	new[302]	_	_
-35-18	4409-4420	destination	event[302]	new[302]	_	_
+35-13	4370-4381	redesigning	event[371]	event[371]	ana	36-3[304_371]
+35-14	4382-4388	itself	place[303]	place[303]	coref	36-5[305_303]
+35-15	4389-4391	as	_	_	_	_
+35-16	4392-4394	an	_	_	_	_
+35-17	4395-4408	up-and-coming	_	_	_	_
+35-18	4409-4420	destination	_	_	_	_
 35-19	4421-4422	.	_	_	_	_
 
 #Text=To accomplish this , Łódź has been capitalizing on its film history - Łódź is jokingly referred to as the " HollyŁódź " of Poland and hosts several film festivals and many other cultural events .

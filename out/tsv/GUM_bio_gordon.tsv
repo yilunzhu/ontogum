@@ -58,21 +58,21 @@
 3-2	258-261	was	_	_	_	_
 3-3	262-271	descended	_	_	_	_
 3-4	272-276	from	_	_	_	_
-3-5	277-278	a	_	_	_	_
-3-6	279-285	family	_	_	_	_
-3-7	286-288	of	_	_	_	_
-3-8	289-302	Aberdeenshire	place[31]	giv[31]	_	_
+3-5	277-278	a	person[30]	new[30]	appos	3-10[33_30]
+3-6	279-285	family	person[30]	new[30]	_	_
+3-7	286-288	of	person[30]	new[30]	_	_
+3-8	289-302	Aberdeenshire	person[30]|place[31]	new[30]|giv[31]	_	_
 3-9	303-304	,	_	_	_	_
-3-10	305-312	holders	_	_	_	_
-3-11	313-315	of	_	_	_	_
-3-12	316-319	the	place[34]	giv[34]	_	_
-3-13	320-325	small	place[34]	giv[34]	_	_
-3-14	326-332	estate	place[34]	giv[34]	_	_
-3-15	333-335	of	place[34]	giv[34]	_	_
-3-16	336-349	Auchleuchries	place[34]	giv[34]	_	_
-3-17	350-351	,	place[34]	giv[34]	_	_
-3-18	352-356	near	place[34]	giv[34]	_	_
-3-19	357-362	Ellon	place[34]|place[35]	giv[34]|new[35]	coref	9-11[75_35]
+3-10	305-312	holders	person[33]	giv[33]	_	_
+3-11	313-315	of	person[33]	giv[33]	_	_
+3-12	316-319	the	person[33]|place[34]	giv[33]|giv[34]	_	_
+3-13	320-325	small	person[33]|place[34]	giv[33]|giv[34]	_	_
+3-14	326-332	estate	person[33]|place[34]	giv[33]|giv[34]	_	_
+3-15	333-335	of	person[33]|place[34]	giv[33]|giv[34]	_	_
+3-16	336-349	Auchleuchries	person[33]|place[34]	giv[33]|giv[34]	_	_
+3-17	350-351	,	person[33]|place[34]	giv[33]|giv[34]	_	_
+3-18	352-356	near	person[33]|place[34]	giv[33]|giv[34]	_	_
+3-19	357-362	Ellon	person[33]|place[34]|place[35]	giv[33]|giv[34]|new[35]	coref	9-11[75_35]
 3-20	363-364	.	_	_	_	_
 
 #Text=The family was connected with the noble branch of Haddo .
@@ -102,7 +102,7 @@
 5-11	477-483	Poland	place[42]	acc[42]	coref	9-31[84_42]
 5-12	484-487	and	_	_	_	_
 5-13	488-494	Russia	place[43]	giv[43]	coref	18-25[219_43]
-5-14	495-497	he	person[44]	giv[44]	_	_
+5-14	495-497	he	person[44]	giv[44]	coref	5-26[55_44]
 5-15	498-502	rose	_	_	_	_
 5-16	503-505	in	_	_	_	_
 5-17	506-511	ranks	_	_	_	_
@@ -343,7 +343,7 @@
 13-13	1664-1665	,	_	_	_	_
 13-14	1666-1669	but	_	_	_	_
 13-15	1670-1675	found	_	_	_	_
-13-16	1676-1683	himself	person[139]	giv[139]	_	_
+13-16	1676-1683	himself	person[139]	giv[139]	coref	14-8[151_139]
 13-17	1684-1690	unable	_	_	_	_
 13-18	1691-1693	to	_	_	_	_
 13-19	1694-1700	obtain	_	_	_	_
@@ -466,7 +466,7 @@
 17-9	2256-2259	was	_	_	_	_
 17-10	2260-2268	promoted	_	_	_	_
 17-11	2269-2271	to	_	_	_	_
-17-12	2272-2285	major-general	_	_	_	_
+17-12	2272-2285	major-general	person[192]	giv[192]	coref	17-32[202_192]
 17-13	2286-2288	in	_	_	_	_
 17-14	2289-2293	1678	_	_	_	_
 17-15	2294-2295	,	_	_	_	_
@@ -503,13 +503,13 @@
 18-11	2439-2441	's	_	_	_	_
 18-12	2442-2449	service	_	_	_	_
 18-13	2450-2451	;	_	_	_	_
-18-14	2452-2455	his	person[212]|person[213]|person[496]	new[212]|giv[213]|new[496]	appos|ana|coref	18-16[215_212]|18-23[218_496]|19-1[224_213]
-18-15	2456-2468	fellow-Scots	person[212]|person[496]	new[212]|new[496]	_	_
-18-16	2469-2473	Paul	person[215]|person[496]	giv[215]|new[496]	_	_
-18-17	2474-2481	Menzies	person[215]|person[496]	giv[215]|new[496]	_	_
-18-18	2482-2485	and	person[215]|person[496]	giv[215]|new[496]	_	_
-18-19	2486-2495	Alexander	person[215]|person[496]	giv[215]|new[496]	_	_
-18-20	2496-2506	Livingston	person[215]|person[496]	giv[215]|new[496]	_	_
+18-14	2452-2455	his	person[212]|person[213]|person[497]	new[212]|giv[213]|new[497]	ana|coref|appos	18-23[218_497]|19-1[224_213]|18-16[215_212]
+18-15	2456-2468	fellow-Scots	person[212]|person[497]	new[212]|new[497]	_	_
+18-16	2469-2473	Paul	person[215]|person[497]	giv[215]|new[497]	_	_
+18-17	2474-2481	Menzies	person[215]|person[497]	giv[215]|new[497]	_	_
+18-18	2482-2485	and	person[215]|person[497]	giv[215]|new[497]	_	_
+18-19	2486-2495	Alexander	person[215]|person[497]	giv[215]|new[497]	_	_
+18-20	2496-2506	Livingston	person[215]|person[497]	giv[215]|new[497]	_	_
 18-21	2507-2511	also	_	_	_	_
 18-22	2512-2517	found	_	_	_	_
 18-23	2518-2528	themselves	person[218]	giv[218]	_	_
@@ -608,7 +608,7 @@
 22-6	2983-2986	the	_	_	_	_
 22-7	2987-2996	remainder	_	_	_	_
 22-8	2997-2999	of	_	_	_	_
-22-9	3000-3003	his	abstract[264]|person[265]	giv[264]|giv[265]	ana|coref	22-21[269_265]|28-5[336_264]
+22-9	3000-3003	his	abstract[264]|person[265]	giv[264]|giv[265]	coref|ana	28-5[336_264]|22-21[269_265]
 22-10	3004-3008	life	abstract[264]	giv[264]	_	_
 22-11	3009-3011	in	_	_	_	_
 22-12	3012-3016	high	_	_	_	_
@@ -620,11 +620,11 @@
 22-18	3040-3043	who	person[268]	giv[268]	_	_
 22-19	3044-3052	confided	person[268]	giv[268]	_	_
 22-20	3053-3055	to	person[268]	giv[268]	_	_
-22-21	3056-3059	him	person[268]|person[269]	giv[268]|giv[269]	coref	24-1[292_269]
+22-21	3056-3059	him	person[268]|person[269]	giv[268]|giv[269]	coref	25-27[303_269]
 22-22	3060-3063	the	person[268]	giv[268]	_	_
 22-23	3064-3071	command	person[268]	giv[268]	_	_
 22-24	3072-3074	of	person[268]	giv[268]	_	_
-22-25	3075-3078	his	person[268]|place[272]	giv[268]|giv[272]	coref	24-9[294_272]
+22-25	3075-3078	his	person[268]|place[272]	person[268]|place[272]	coref	24-9[294_272]
 22-26	3079-3086	capital	person[268]|place[272]	giv[268]|giv[272]	_	_
 22-27	3087-3093	during	person[268]	giv[268]	_	_
 22-28	3094-3097	his	person[268]|person[276]	giv[268]|giv[276]	coref	27-1[325_276]
@@ -662,8 +662,8 @@
 23-26	3231-3232	]	_	_	_	_
 
 #Text=Gordon 's alleged tomb at Vvedenskoye Cemetery in Moscow .
-24-1	3233-3239	Gordon	person[292]	giv[292]	ana	25-27[303_292]
-24-2	3240-3242	's	person[292]	giv[292]	_	_
+24-1	3233-3239	Gordon	_	_	_	_
+24-2	3240-3242	's	_	_	_	_
 24-3	3243-3250	alleged	_	_	_	_
 24-4	3251-3255	tomb	_	_	_	_
 24-5	3256-3258	at	_	_	_	_
@@ -700,7 +700,7 @@
 25-24	3437-3438	,	_	_	_	_
 25-25	3439-3441	of	_	_	_	_
 25-26	3442-3447	which	_	_	_	_
-25-27	3448-3450	he	person[303]	giv[303]	coref	25-29[306_303]
+25-27	3448-3450	he	person[303]	giv[303]	_	_
 25-28	3451-3459	remained	_	_	_	_
 25-29	3460-3463	the	person[306]	giv[306]	ana	25-41[311_306]
 25-30	3464-3468	main	person[306]	giv[306]	_	_
@@ -722,16 +722,16 @@
 26-1	3544-3547	For	_	_	_	_
 26-2	3548-3551	his	person[314]	giv[314]	ana	26-4[317_314]
 26-3	3552-3560	services	_	_	_	_
-26-4	3561-3564	his	person[317]|person[498]	giv[317]|new[498]	coref|ana	26-17[321_498]|27-4[326_317]
-26-5	3565-3571	second	person[498]	new[498]	_	_
-26-6	3572-3575	son	person[498]	new[498]	_	_
-26-7	3576-3581	James	person[498]	new[498]	_	_
-26-8	3582-3583	,	person[498]	new[498]	_	_
-26-9	3584-3593	brigadier	person[498]	new[498]	_	_
-26-10	3594-3596	of	person[498]	new[498]	_	_
-26-11	3597-3600	the	organization[320]|person[498]	giv[320]|new[498]	coref	27-7[328_320]
-26-12	3601-3608	Russian	organization[320]|person[498]	giv[320]|new[498]	_	_
-26-13	3609-3613	army	organization[320]|person[498]	giv[320]|new[498]	_	_
+26-4	3561-3564	his	person[316]|person[317]|person[501]	new[316]|giv[317]|new[501]	appos|coref|ana	26-9[319_316]|26-17[321_501]|27-4[326_317]
+26-5	3565-3571	second	person[316]|person[501]	new[316]|new[501]	_	_
+26-6	3572-3575	son	person[316]|person[501]	new[316]|new[501]	_	_
+26-7	3576-3581	James	person[316]|person[501]	new[316]|new[501]	_	_
+26-8	3582-3583	,	person[501]	new[501]	_	_
+26-9	3584-3593	brigadier	person[319]|person[501]	giv[319]|new[501]	_	_
+26-10	3594-3596	of	person[319]|person[501]	giv[319]|new[501]	_	_
+26-11	3597-3600	the	person[319]|organization[320]|person[501]	giv[319]|giv[320]|new[501]	coref	27-7[328_320]
+26-12	3601-3608	Russian	person[319]|organization[320]|person[501]	giv[319]|giv[320]|new[501]	_	_
+26-13	3609-3613	army	person[319]|organization[320]|person[501]	giv[319]|giv[320]|new[501]	_	_
 26-14	3614-3615	,	_	_	_	_
 26-15	3616-3619	was	_	_	_	_
 26-16	3620-3627	created	_	_	_	_
@@ -800,7 +800,7 @@
 28-25	3914-3915	,	_	_	_	_
 28-26	3916-3919	and	_	_	_	_
 28-27	3920-3924	with	_	_	_	_
-28-28	3925-3928	his	person[350]	giv[350]	coref	34-37[501_350]
+28-28	3925-3928	his	person[350]	giv[350]	coref	34-37[507_350]
 28-29	3929-3932	own	_	_	_	_
 28-30	3933-3938	hands	_	_	_	_
 28-31	3939-3945	closed	_	_	_	_
@@ -1009,7 +1009,7 @@
 33-40	4960-4961	.	_	_	_	_
 
 #Text=His daughter was married firstly to the German-Russian Colonel Rudolf Strasburgh , and then from 1699 or 1700 to his kinsman in the Russian service Alexander Gordon of Auchintoul , author of " The History of Peter the Great , Emperor of Russia " .
-34-1	4962-4965	His	person[444]|person[445]	new[444]|giv[445]	ana|ana	34-20[453_445]|35-1[464_444]
+34-1	4962-4965	His	person[444]|person[445]	new[444]|giv[445]	ana|ana	35-1[464_444]|34-20[453_445]
 34-2	4966-4974	daughter	person[444]	new[444]	_	_
 34-3	4975-4978	was	_	_	_	_
 34-4	4979-4986	married	_	_	_	_
@@ -1045,14 +1045,14 @@
 34-34	5155-5158	The	_	_	_	_
 34-35	5159-5166	History	_	_	_	_
 34-36	5167-5169	of	_	_	_	_
-34-37	5170-5175	Peter	person[461]|person[501]	giv[461]|giv[501]	appos	34-41[462_461]
-34-38	5176-5179	the	person[461]|person[501]	giv[461]|giv[501]	_	_
-34-39	5180-5185	Great	person[461]|person[501]	giv[461]|giv[501]	_	_
-34-40	5186-5187	,	person[501]	giv[501]	_	_
-34-41	5188-5195	Emperor	person[462]|person[501]	giv[462]|giv[501]	_	_
-34-42	5196-5198	of	person[462]|person[501]	giv[462]|giv[501]	_	_
-34-43	5199-5205	Russia	person[462]|place[463]|person[501]	giv[462]|giv[463]|giv[501]	_	_
-34-44	5206-5207	"	_	_	_	_
+34-37	5170-5175	Peter	person[461]|person[507]	giv[461]|giv[507]	appos	34-41[462_461]
+34-38	5176-5179	the	person[461]|person[507]	giv[461]|giv[507]	_	_
+34-39	5180-5185	Great	person[461]|person[507]	giv[461]|giv[507]	_	_
+34-40	5186-5187	,	person[507]	giv[507]	_	_
+34-41	5188-5195	Emperor	person[462]|person[507]	giv[462]|giv[507]	_	_
+34-42	5196-5198	of	person[462]|person[507]	giv[462]|giv[507]	_	_
+34-43	5199-5205	Russia	person[462]|place[463]|person[507]	giv[462]|giv[463]|giv[507]	_	_
+34-44	5206-5207	"	person[507]	giv[507]	_	_
 34-45	5208-5209	.	_	_	_	_
 
 #Text=She lived until 1739 . [ 4 ]

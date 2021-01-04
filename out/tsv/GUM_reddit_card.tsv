@@ -13,7 +13,7 @@
 1-7	27-33	public	_	_	_	_
 
 #Text=My wife and I were at Panera eating breakfast and we noticed a lady be hind us talking on the phone very loudly .
-2-1	34-36	My	person[3]|person[5]	new[3]|acc[5]	ana|ana	2-4[6_5]|2-11[9_3]
+2-1	34-36	My	person[3]|person[5]	new[3]|acc[5]	ana|ana	2-11[9_3]|2-4[6_5]
 2-2	37-41	wife	person[3]	new[3]	_	_
 2-3	42-45	and	person[3]	new[3]	_	_
 2-4	46-47	I	person[3]|person[6]	new[3]|giv[6]	_	_
@@ -85,17 +85,17 @@
 5-8	332-336	were	_	_	_	_
 5-9	337-344	shocked	_	_	_	_
 5-10	345-349	when	_	_	_	_
-5-11	350-353	she	event[32]|person[33]	new[32]|giv[33]	ana|ana	5-14[34_33]|8-10[66_32]
-5-12	354-363	announced	event[32]	new[32]	_	_
-5-13	364-368	that	event[32]	new[32]	_	_
-5-14	369-372	she	event[32]|person[34]	new[32]|giv[34]	ana	5-19[38_34]
-5-15	373-376	was	event[32]	new[32]	_	_
-5-16	377-382	about	event[32]	new[32]	_	_
-5-17	383-385	to	event[32]	new[32]	_	_
-5-18	386-390	read	event[32]	new[32]	_	_
-5-19	391-394	her	event[32]|abstract[37]|person[38]	new[32]|new[37]|giv[38]	ana|ana	6-1[40_38]|7-11[53_37]
-5-20	395-399	card	event[32]|abstract[37]	new[32]|new[37]	_	_
-5-21	400-406	number	event[32]|abstract[37]	new[32]|new[37]	_	_
+5-11	350-353	she	person[33]	person[33]	ana	5-14[34_33]
+5-12	354-363	announced	event[342]	new[342]	ana	8-10[66_342]
+5-13	364-368	that	_	_	_	_
+5-14	369-372	she	person[34]	person[34]	ana	5-19[38_34]
+5-15	373-376	was	_	_	_	_
+5-16	377-382	about	_	_	_	_
+5-17	383-385	to	_	_	_	_
+5-18	386-390	read	_	_	_	_
+5-19	391-394	her	abstract[37]|person[38]	abstract[37]|person[38]	ana|ana	6-1[40_38]|7-11[53_37]
+5-20	395-399	card	abstract[37]	abstract[37]	_	_
+5-21	400-406	number	abstract[37]	abstract[37]	_	_
 5-22	407-408	.	_	_	_	_
 
 #Text=She then gave the card ’s expiration date , security code , and her zip code .
@@ -308,7 +308,7 @@
 22-10	1178-1184	access	_	_	_	_
 22-11	1185-1187	to	_	_	_	_
 22-12	1188-1192	your	abstract[129]|person[130]	giv[129]|giv[130]	ana	25-5[136_129]
-22-13	1193-1197	card	abstract[129]	giv[129]	_	_
+22-13	1193-1197	card	abstract[129]	abstract[129]	_	_
 22-14	1198-1204	number	abstract[129]	giv[129]	_	_
 22-15	1205-1206	.	_	_	_	_
 22-16	1207-1208	"	_	_	_	_
@@ -370,7 +370,7 @@
 29-4	1380-1382	do	_	_	_	_
 29-5	1383-1386	n't	_	_	_	_
 29-6	1387-1391	have	_	_	_	_
-29-7	1392-1394	my	object[158]|person[159]	giv[158]|giv[159]	ana|coref	29-10[160_159]|30-11[168_158]
+29-7	1392-1394	my	object[158]|person[159]	giv[158]|giv[159]	coref|ana	30-11[168_158]|29-10[160_159]
 29-8	1395-1399	card	object[158]	giv[158]	_	_
 29-9	1400-1402	on	_	_	_	_
 29-10	1403-1405	me	person[160]	giv[160]	ana	30-1[164_160]
@@ -600,14 +600,14 @@
 42-3	2382-2385	was	_	_	_	_
 42-4	2386-2389	the	_	_	_	_
 42-5	2390-2394	case	_	_	_	_
-42-6	2395-2399	that	abstract[259]	new[259]	cata	42-2[257_259]
-42-7	2400-2403	you	abstract[259]	new[259]	_	_
-42-8	2404-2409	could	abstract[259]	new[259]	_	_
-42-9	2410-2416	easily	abstract[259]	new[259]	_	_
-42-10	2417-2421	have	abstract[259]	new[259]	_	_
-42-11	2422-2430	security	abstract[259]|abstract[261]	new[259]|giv[261]	ana	44-13[274_261]
-42-12	2431-2434	and	abstract[259]	new[259]	_	_
-42-13	2435-2446	convenience	abstract[259]	new[259]	_	_
+42-6	2395-2399	that	_	_	_	_
+42-7	2400-2403	you	_	_	_	_
+42-8	2404-2409	could	_	_	_	_
+42-9	2410-2416	easily	_	_	_	_
+42-10	2417-2421	have	_	_	_	_
+42-11	2422-2430	security	abstract[261]	giv[261]	ana	44-13[274_261]
+42-12	2431-2434	and	_	_	_	_
+42-13	2435-2446	convenience	_	_	_	_
 42-14	2447-2453	though	_	_	_	_
 42-15	2454-2455	.	_	_	_	_
 

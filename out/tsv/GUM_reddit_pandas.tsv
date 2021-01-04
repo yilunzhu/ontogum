@@ -11,13 +11,13 @@
 1-5	20-27	species	abstract[1]	new[1]	_	_
 1-6	28-30	on	abstract[1]	new[1]	_	_
 1-7	31-36	earth	abstract[1]	new[1]	_	_
-1-8	37-39	to	abstract[1]|event[7]	new[1]|new[7]	ana	23-8[147_7]
-1-9	40-43	try	abstract[1]|event[7]	new[1]|new[7]	_	_
-1-10	44-47	and	abstract[1]|event[7]	new[1]|new[7]	_	_
-1-11	48-52	stop	abstract[1]|event[7]	new[1]|new[7]	_	_
-1-12	53-63	themselves	abstract[1]|event[7]|person[8]	new[1]|new[7]|giv[8]	ana	23-1[142_8]
-1-13	64-68	from	abstract[1]|event[7]	new[1]|new[7]	_	_
-1-14	69-80	reproducing	abstract[1]|event[7]|event[9]	new[1]|new[7]|new[9]	ana	32-7[186_9]
+1-8	37-39	to	abstract[1]	abstract[1]	_	_
+1-9	40-43	try	abstract[1]|event[305]	abstract[1]|event[305]	ana	23-8[147_305]
+1-10	44-47	and	abstract[1]	abstract[1]	_	_
+1-11	48-52	stop	abstract[1]	abstract[1]	_	_
+1-12	53-63	themselves	abstract[1]|person[8]	abstract[1]|person[8]	ana	23-1[142_8]
+1-13	64-68	from	abstract[1]	abstract[1]	_	_
+1-14	69-80	reproducing	abstract[1]|event[306]	abstract[1]|event[306]	ana	32-7[186_306]
 
 #Text=Pandas do a fine job of avoiding reproduction , too .
 2-1	81-87	Pandas	_	_	_	_
@@ -41,26 +41,26 @@
 #Text=I read a good source ( another reddit comment ) which stated that pandas being notoriously poor at reproducing is a myth .
 4-1	155-156	I	_	_	_	_
 4-2	157-161	read	_	_	_	_
-4-3	162-163	a	abstract[305]	new[305]	ana	10-4[73_305]
-4-4	164-168	good	abstract[305]	new[305]	_	_
-4-5	169-175	source	abstract[305]	new[305]	_	_
-4-6	176-177	(	abstract[305]	new[305]	_	_
-4-7	178-185	another	abstract[305]	new[305]	_	_
-4-8	186-192	reddit	abstract[305]	new[305]	_	_
-4-9	193-200	comment	abstract[305]	new[305]	_	_
-4-10	201-202	)	abstract[305]	new[305]	_	_
-4-11	203-208	which	abstract[305]	new[305]	_	_
-4-12	209-215	stated	abstract[305]	new[305]	_	_
-4-13	216-220	that	abstract[305]	new[305]	_	_
-4-14	221-227	pandas	animal[23]|abstract[305]	giv[23]|new[305]	ana	6-5[43_23]
-4-15	228-233	being	abstract[305]	new[305]	_	_
-4-16	234-245	notoriously	abstract[305]	new[305]	_	_
-4-17	246-250	poor	abstract[305]	new[305]	_	_
-4-18	251-253	at	abstract[305]	new[305]	_	_
-4-19	254-265	reproducing	event[24]|abstract[305]	new[24]|new[305]	coref	6-15[47_24]
-4-20	266-268	is	abstract[305]	new[305]	_	_
-4-21	269-270	a	abstract[305]	new[305]	_	_
-4-22	271-275	myth	abstract[305]	new[305]	_	_
+4-3	162-163	a	abstract[312]	new[312]	ana	10-4[73_312]
+4-4	164-168	good	abstract[312]	new[312]	_	_
+4-5	169-175	source	abstract[312]	new[312]	_	_
+4-6	176-177	(	abstract[312]	new[312]	_	_
+4-7	178-185	another	abstract[312]	abstract[312]	_	_
+4-8	186-192	reddit	abstract[312]	abstract[312]	_	_
+4-9	193-200	comment	abstract[312]	abstract[312]	_	_
+4-10	201-202	)	abstract[312]	new[312]	_	_
+4-11	203-208	which	abstract[312]	new[312]	_	_
+4-12	209-215	stated	abstract[312]	new[312]	_	_
+4-13	216-220	that	abstract[312]	new[312]	_	_
+4-14	221-227	pandas	animal[23]|abstract[312]	giv[23]|new[312]	ana	6-5[43_23]
+4-15	228-233	being	abstract[312]	new[312]	_	_
+4-16	234-245	notoriously	abstract[312]	new[312]	_	_
+4-17	246-250	poor	abstract[312]	new[312]	_	_
+4-18	251-253	at	abstract[312]	new[312]	_	_
+4-19	254-265	reproducing	event[307]|abstract[312]	event[307]|abstract[312]	coref	6-15[47_307]
+4-20	266-268	is	abstract[312]	new[312]	_	_
+4-21	269-270	a	abstract[312]	new[312]	_	_
+4-22	271-275	myth	abstract[312]	new[312]	_	_
 4-23	276-277	.	_	_	_	_
 
 #Text=It 's just that getting any species in captivity to reproduce is a challenge , so that 's why getting pandas in captivity to reproduce is a challenge too .
@@ -68,7 +68,7 @@
 5-2	281-283	's	_	_	_	_
 5-3	284-288	just	_	_	_	_
 5-4	289-293	that	_	_	_	_
-5-5	294-301	getting	abstract[31]	new[31]	cata	5-1[29_31]
+5-5	294-301	getting	abstract[31]	new[31]	ana	5-17[36_31]
 5-6	302-305	any	abstract[31]	new[31]	_	_
 5-7	306-313	species	abstract[31]	new[31]	_	_
 5-8	314-316	in	abstract[31]	new[31]	_	_
@@ -80,7 +80,7 @@
 5-14	345-354	challenge	abstract[31]	new[31]	_	_
 5-15	355-356	,	_	_	_	_
 5-16	357-359	so	_	_	_	_
-5-17	360-364	that	_	_	_	_
+5-17	360-364	that	abstract[36]	giv[36]	_	_
 5-18	365-367	's	_	_	_	_
 5-19	368-371	why	_	_	_	_
 5-20	372-379	getting	_	_	_	_
@@ -209,7 +209,7 @@
 13-7	944-948	done	_	_	_	_
 13-8	949-953	with	_	_	_	_
 13-9	954-955	a	abstract[88]	new[88]	coref	14-1[97_88]
-13-10	956-959	rat	abstract[88]	new[88]	_	_
+13-10	956-959	rat	abstract[88]	abstract[88]	_	_
 13-11	960-970	population	abstract[88]	new[88]	_	_
 13-12	971-976	which	abstract[88]	new[88]	_	_
 13-13	977-980	was	abstract[88]	new[88]	_	_
@@ -501,7 +501,7 @@
 38-2	2180-2185	think	_	_	_	_
 38-3	2186-2188	it	_	_	_	_
 38-4	2189-2191	's	_	_	_	_
-38-5	2192-2199	coyotes	event[203]|animal[204]	new[203]|new[204]	cata|ana	38-3[197_204]|39-4[209_203]
+38-5	2192-2199	coyotes	event[203]|animal[204]	new[203]|new[204]	ana|ana	39-4[209_203]|39-6[210_204]
 38-6	2200-2204	that	event[203]|animal[204]	new[203]|new[204]	_	_
 38-7	2205-2209	will	event[203]|animal[204]	new[203]|new[204]	_	_
 38-8	2210-2214	howl	event[203]|animal[204]	new[203]|new[204]	_	_
@@ -562,15 +562,15 @@
 40-13	2459-2460	.	_	_	_	_
 
 #Text=How would we know that they did n’t ?
-41-1	2461-2464	How	abstract[220]	new[220]	ana	42-1[223_220]
-41-2	2465-2470	would	abstract[220]	new[220]	_	_
-41-3	2471-2473	we	abstract[220]|person[221]	new[220]|giv[221]	ana	45-10[241_221]
-41-4	2474-2478	know	abstract[220]	new[220]	_	_
-41-5	2479-2483	that	abstract[220]	new[220]	_	_
-41-6	2484-2488	they	abstract[220]|animal[222]	new[220]|acc[222]	ana	42-7[224_222]
-41-7	2489-2492	did	abstract[220]	new[220]	_	_
-41-8	2493-2496	n’t	abstract[220]	new[220]	_	_
-41-9	2497-2498	?	abstract[220]	new[220]	_	_
+41-1	2461-2464	How	_	_	_	_
+41-2	2465-2470	would	_	_	_	_
+41-3	2471-2473	we	person[221]	person[221]	ana	45-10[241_221]
+41-4	2474-2478	know	abstract[309]	abstract[309]	ana	42-1[223_309]
+41-5	2479-2483	that	_	_	_	_
+41-6	2484-2488	they	animal[222]	animal[222]	ana	42-7[224_222]
+41-7	2489-2492	did	_	_	_	_
+41-8	2493-2496	n’t	_	_	_	_
+41-9	2497-2498	?	_	_	_	_
 
 #Text=It ’s not to prove that they did , just stating that the option is there .
 42-1	2499-2501	It	abstract[223]	giv[223]	_	_
@@ -602,12 +602,12 @@
 
 #Text=Yeah other animals just eat their babies
 44-1	2609-2613	Yeah	_	_	_	_
-44-2	2614-2619	other	event[232]|animal[233]	new[232]|new[233]	ana|ana	44-6[235_233]|45-1[236_232]
-44-3	2620-2627	animals	event[232]|animal[233]	new[232]|new[233]	_	_
-44-4	2628-2632	just	event[232]	new[232]	_	_
-44-5	2633-2636	eat	event[232]	new[232]	_	_
-44-6	2637-2642	their	event[232]|animal[235]	new[232]|giv[235]	_	_
-44-7	2643-2649	babies	event[232]	new[232]	_	_
+44-2	2614-2619	other	animal[233]	animal[233]	ana	44-6[235_233]
+44-3	2620-2627	animals	animal[233]	animal[233]	_	_
+44-4	2628-2632	just	_	_	_	_
+44-5	2633-2636	eat	event[310]	event[310]	ana	45-1[236_310]
+44-6	2637-2642	their	animal[235]	animal[235]	_	_
+44-7	2643-2649	babies	_	_	_	_
 
 #Text=This has to do with the fact that raising our offspring is labor and resource intensive .
 45-1	2650-2654	This	event[236]	giv[236]	_	_
@@ -663,27 +663,27 @@
 47-22	2892-2893	.	_	_	_	_
 
 #Text=Those children then have to be taken care of for years before they can even begin to fend for themselves .
-48-1	2894-2899	Those	abstract[262]|person[263]	new[262]|acc[263]	ana|ana	49-1[267_262]|48-13[265_263]
-48-2	2900-2908	children	abstract[262]|person[263]	new[262]|acc[263]	_	_
-48-3	2909-2913	then	abstract[262]	new[262]	_	_
-48-4	2914-2918	have	abstract[262]	new[262]	_	_
-48-5	2919-2921	to	abstract[262]	new[262]	_	_
-48-6	2922-2924	be	abstract[262]	new[262]	_	_
-48-7	2925-2930	taken	abstract[262]	new[262]	_	_
-48-8	2931-2935	care	abstract[262]	new[262]	_	_
-48-9	2936-2938	of	abstract[262]	new[262]	_	_
-48-10	2939-2942	for	abstract[262]	new[262]	_	_
-48-11	2943-2948	years	abstract[262]	new[262]	_	_
-48-12	2949-2955	before	abstract[262]	new[262]	_	_
-48-13	2956-2960	they	abstract[262]|person[265]	new[262]|giv[265]	ana	48-20[266_265]
-48-14	2961-2964	can	abstract[262]	new[262]	_	_
-48-15	2965-2969	even	abstract[262]	new[262]	_	_
-48-16	2970-2975	begin	abstract[262]	new[262]	_	_
-48-17	2976-2978	to	abstract[262]	new[262]	_	_
-48-18	2979-2983	fend	abstract[262]	new[262]	_	_
-48-19	2984-2987	for	abstract[262]	new[262]	_	_
-48-20	2988-2998	themselves	abstract[262]|person[266]	new[262]|giv[266]	_	_
-48-21	2999-3000	.	abstract[262]	new[262]	_	_
+48-1	2894-2899	Those	person[263]	person[263]	ana	48-13[265_263]
+48-2	2900-2908	children	person[263]	person[263]	_	_
+48-3	2909-2913	then	_	_	_	_
+48-4	2914-2918	have	abstract[311]	new[311]	ana	49-1[267_311]
+48-5	2919-2921	to	_	_	_	_
+48-6	2922-2924	be	_	_	_	_
+48-7	2925-2930	taken	_	_	_	_
+48-8	2931-2935	care	_	_	_	_
+48-9	2936-2938	of	_	_	_	_
+48-10	2939-2942	for	_	_	_	_
+48-11	2943-2948	years	_	_	_	_
+48-12	2949-2955	before	_	_	_	_
+48-13	2956-2960	they	person[265]	person[265]	ana	48-20[266_265]
+48-14	2961-2964	can	_	_	_	_
+48-15	2965-2969	even	_	_	_	_
+48-16	2970-2975	begin	_	_	_	_
+48-17	2976-2978	to	_	_	_	_
+48-18	2979-2983	fend	_	_	_	_
+48-19	2984-2987	for	_	_	_	_
+48-20	2988-2998	themselves	person[266]	person[266]	_	_
+48-21	2999-3000	.	_	_	_	_
 
 #Text=This is even more pronounced in prosperous societies where only one or two children are even needed and we can legitimately afford not to make children work .
 49-1	3001-3005	This	abstract[267]	giv[267]	_	_

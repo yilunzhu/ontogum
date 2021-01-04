@@ -14,12 +14,12 @@
 1-8	41-46	night	_	_	_	_
 
 #Text=Monday , March 5 , 2007
-2-1	47-53	Monday	_	_	_	_
+2-1	47-53	Monday	time[7]	acc[7]	appos	2-3[9_7]
 2-2	54-55	,	_	_	_	_
-2-3	56-61	March	_	_	_	_
-2-4	62-63	5	_	_	_	_
-2-5	64-65	,	_	_	_	_
-2-6	66-70	2007	time[10]	acc[10]	coref	9-11[80_10]
+2-3	56-61	March	time[9]	acc[9]	_	_
+2-4	62-63	5	time[9]	acc[9]	_	_
+2-5	64-65	,	time[9]	acc[9]	_	_
+2-6	66-70	2007	time[9]|time[10]	acc[9]|acc[10]	coref	9-11[80_10]
 
 #Text=Taipei , Taiwan — The Taipei City Lantern Festival was off to a bright start on Saturday Night as hundreds of thousands of people crowded onto the Chiang Kai Shek Memorial near downtown Taipei to witness city mayor Hau Lung-bin and other dignitaries ceremoniously flip the switch to light hundreds of colorful lantern scenes in and around the 240,000 square meter memorial park .
 3-1	71-77	Taipei	place[11]	giv[11]	coref	3-6[17_11]
@@ -165,7 +165,7 @@
 7-4	817-818	,	_	_	_	_
 7-5	819-822	the	event[60]	giv[60]	coref	8-1[73_60]
 7-6	823-829	Taipei	event[60]|place[61]	giv[60]|giv[61]	coref	9-13[81_61]
-7-7	830-837	lantern	event[60]	giv[60]	_	_
+7-7	830-837	lantern	event[60]	event[60]	_	_
 7-8	838-846	festival	event[60]	giv[60]	_	_
 7-9	847-856	continues	_	_	_	_
 7-10	857-858	a	_	_	_	_
@@ -228,7 +228,7 @@
 
 #Text=Colorful lantern scenes not only fill the central square but also the surrounding 2 km circumference of the memorial .
 10-1	1162-1170	Colorful	place[86]	giv[86]	coref	16-5[121_86]
-10-2	1171-1178	lantern	place[86]	giv[86]	_	_
+10-2	1171-1178	lantern	place[86]	place[86]	_	_
 10-3	1179-1185	scenes	place[86]	giv[86]	_	_
 10-4	1186-1189	not	_	_	_	_
 10-5	1190-1194	only	_	_	_	_
@@ -313,8 +313,8 @@
 15-1	1573-1575	As	_	_	_	_
 15-2	1576-1580	with	_	_	_	_
 15-3	1581-1584	all	event[112]	giv[112]	_	_
-15-4	1585-1588	new	event[112]	giv[112]	_	_
-15-5	1589-1593	year	event[112]	giv[112]	_	_
+15-4	1585-1588	new	event[112]	event[112]	_	_
+15-5	1589-1593	year	event[112]	event[112]	_	_
 15-6	1594-1606	celebrations	event[112]	giv[112]	_	_
 15-7	1607-1609	in	event[112]	giv[112]	_	_
 15-8	1610-1616	Taiwan	event[112]|place[114]	giv[112]|giv[114]	_	_
@@ -332,7 +332,7 @@
 16-3	1666-1668	to	_	_	_	_
 16-4	1669-1672	see	_	_	_	_
 16-5	1673-1676	the	place[121]	giv[121]	_	_
-16-6	1677-1684	lantern	place[121]	giv[121]	_	_
+16-6	1677-1684	lantern	place[121]	place[121]	_	_
 16-7	1685-1691	scenes	place[121]	giv[121]	_	_
 16-8	1692-1695	and	_	_	_	_
 16-9	1696-1701	enjoy	_	_	_	_
@@ -453,11 +453,11 @@
 20-3	2262-2266	rain	_	_	_	_
 20-4	2267-2272	storm	_	_	_	_
 20-5	2273-2275	on	_	_	_	_
-20-6	2276-2282	Sunday	_	_	_	_
-20-7	2283-2288	night	_	_	_	_
+20-6	2276-2282	Sunday	time[159]	acc[159]	appos	20-9[160_159]
+20-7	2283-2288	night	time[159]	acc[159]	_	_
 20-8	2289-2290	(	_	_	_	_
-20-9	2291-2296	March	_	_	_	_
-20-10	2297-2298	4	_	_	_	_
+20-9	2291-2296	March	time[160]	giv[160]	_	_
+20-10	2297-2298	4	time[160]	giv[160]	_	_
 20-11	2299-2300	)	_	_	_	_
 20-12	2301-2307	caused	_	_	_	_
 20-13	2308-2309	a	_	_	_	_

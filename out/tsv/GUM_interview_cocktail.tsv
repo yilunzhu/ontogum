@@ -11,16 +11,16 @@
 1-5	29-32	bar	_	_	_	_
 1-6	33-38	owner	_	_	_	_
 1-7	39-41	on	_	_	_	_
-1-8	42-50	Santorum	_	_	_	_
-1-9	51-59	cocktail	_	_	_	_
+1-8	42-50	Santorum	substance[6]	new[6]	coref	3-14[20_6]
+1-9	51-59	cocktail	substance[6]	new[6]	_	_
 
 #Text=Thursday , March 15 , 2012
-2-1	60-68	Thursday	_	_	_	_
+2-1	60-68	Thursday	time[8]	new[8]	appos	2-3[11_8]
 2-2	69-70	,	_	_	_	_
-2-3	71-76	March	_	_	_	_
-2-4	77-79	15	_	_	_	_
-2-5	80-81	,	_	_	_	_
-2-6	82-86	2012	_	_	_	_
+2-3	71-76	March	time[11]	giv[11]	_	_
+2-4	77-79	15	time[11]	giv[11]	_	_
+2-5	80-81	,	time[11]	giv[11]	_	_
+2-6	82-86	2012	time[11]	giv[11]	_	_
 
 #Text=Wikinews interviewed one of the owners of a New York City bar about a popular new politically-themed cocktail drink called Santorum .
 3-1	87-95	Wikinews	organization[13]	giv[13]	_	_
@@ -43,7 +43,7 @@
 3-18	188-196	cocktail	substance[20]	giv[20]	_	_
 3-19	197-202	drink	substance[20]	giv[20]	_	_
 3-20	203-209	called	substance[20]	giv[20]	_	_
-3-21	210-218	Santorum	substance[20]	giv[20]	_	_
+3-21	210-218	Santorum	substance[20]	substance[20]	_	_
 3-22	219-220	.	_	_	_	_
 
 #Text=The beverage was inspired by the santorum neologism coined in advice columnist Dan Savage 's column Savage Love in response to comments made by former Pennsylvania Senator Rick Santorum about homosexuality ;
@@ -115,7 +115,7 @@
 
 #Text=The santorum neologism has inspired satirical forms of parody , including this political cartoon by Saturday Morning Breakfast Cereal webcomic artist Zach Weiner .
 7-1	582-585	The	abstract[47]	giv[47]	coref	15-27[123_47]
-7-2	586-594	santorum	abstract[47]	giv[47]	_	_
+7-2	586-594	santorum	abstract[47]	abstract[47]	_	_
 7-3	595-604	neologism	abstract[47]	giv[47]	_	_
 7-4	605-608	has	_	_	_	_
 7-5	609-617	inspired	_	_	_	_
@@ -320,7 +320,7 @@
 15-25	1551-1561	definition	_	_	_	_
 15-26	1562-1564	of	_	_	_	_
 15-27	1565-1568	the	abstract[123]	giv[123]	coref	18-2[141_123]
-15-28	1569-1577	santorum	abstract[123]	giv[123]	_	_
+15-28	1569-1577	santorum	abstract[123]	abstract[123]	_	_
 15-29	1578-1587	neologism	abstract[123]	giv[123]	_	_
 15-30	1588-1589	.	_	_	_	_
 
@@ -339,7 +339,7 @@
 16-12	1660-1666	sample	_	_	_	_
 16-13	1667-1670	the	substance[129]	giv[129]	coref	17-3[134_129]
 16-14	1671-1674	new	substance[129]	giv[129]	_	_
-16-15	1675-1683	santorum	substance[129]	giv[129]	_	_
+16-15	1675-1683	santorum	substance[129]	substance[129]	_	_
 16-16	1684-1692	cocktail	substance[129]	giv[129]	_	_
 16-17	1693-1695	at	_	_	_	_
 16-18	1696-1699	the	_	_	_	_
@@ -374,7 +374,7 @@
 #Text=[ The santorum neologism is ] offensive beyond , you know , anything that any public figure or anybody in America should tolerate , and the mainstream media laughs about it . — Rick Santorum
 18-1	1827-1828	[	_	_	_	_
 18-2	1829-1832	The	abstract[141]	giv[141]	ana	18-31[153_141]
-18-3	1833-1841	santorum	abstract[141]	giv[141]	_	_
+18-3	1833-1841	santorum	abstract[141]	abstract[141]	_	_
 18-4	1842-1851	neologism	abstract[141]	giv[141]	_	_
 18-5	1852-1854	is	_	_	_	_
 18-6	1855-1856	]	_	_	_	_
@@ -418,7 +418,7 @@
 19-7	2047-2057	Associated	_	_	_	_
 19-8	2058-2063	Press	_	_	_	_
 19-9	2064-2065	,	_	_	_	_
-19-10	2066-2070	Rick	person[160]	giv[160]	coref	22-1[195_160]
+19-10	2066-2070	Rick	person[160]	giv[160]		22-1[195_160]
 19-11	2071-2079	Santorum	person[160]	giv[160]	_	_
 19-12	2080-2088	compared	_	_	_	_
 19-13	2089-2099	legalizing	_	_	_	_
@@ -439,7 +439,7 @@
 20-3	2177-2180	the	abstract[166]	giv[166]	coref	32-20[299_166]
 20-4	2181-2187	Savage	abstract[166]|person[167]	giv[166]|giv[167]	coref	20-20[174_167]
 20-5	2188-2192	Love	abstract[166]	giv[166]	_	_
-20-6	2193-2199	advice	abstract[166]	giv[166]	_	_
+20-6	2193-2199	advice	abstract[166]	abstract[166]	_	_
 20-7	2200-2206	column	abstract[166]	giv[166]	_	_
 20-8	2207-2215	selected	_	_	_	_
 20-9	2216-2217	a	_	_	_	_
@@ -508,8 +508,8 @@
 22-11	2569-2579	prevalence	_	_	_	_
 22-12	2580-2582	of	_	_	_	_
 22-13	2583-2586	the	abstract[197]	giv[197]	coref	25-9[233_197]
-22-14	2587-2595	santorum	abstract[197]	giv[197]	_	_
-22-15	2596-2605	neologism	abstract[197]	giv[197]	_	_
+22-14	2587-2595	santorum	abstract[197]	abstract[197]	_	_
+22-15	2596-2605	neologism	abstract[197]	abstract[197]	_	_
 22-16	2606-2616	phenomenon	abstract[197]	giv[197]	_	_
 22-17	2617-2618	;	_	_	_	_
 22-18	2619-2621	he	person[200]	giv[200]	ana	22-26[205_200]
@@ -530,25 +530,25 @@
 
 #Text=" To have a business allow that type of filth to be purveyed through their website or through their system is something that they say they ca n't handle .
 23-1	2697-2698	"	_	_	_	_
-23-2	2699-2701	To	event[209]	new[209]	ana	24-3[224_209]
-23-3	2702-2706	have	event[209]	new[209]	_	_
-23-4	2707-2708	a	event[209]|organization[210]	new[209]|giv[210]	ana	23-15[215_210]
-23-5	2709-2717	business	event[209]|organization[210]	new[209]|giv[210]	_	_
-23-6	2718-2723	allow	event[209]	new[209]	_	_
-23-7	2724-2728	that	event[209]	new[209]	_	_
-23-8	2729-2733	type	event[209]	new[209]	_	_
-23-9	2734-2736	of	event[209]	new[209]	_	_
-23-10	2737-2742	filth	event[209]	new[209]	_	_
-23-11	2743-2745	to	event[209]	new[209]	_	_
-23-12	2746-2748	be	event[209]	new[209]	_	_
-23-13	2749-2757	purveyed	event[209]	new[209]	_	_
-23-14	2758-2765	through	event[209]	new[209]	_	_
-23-15	2766-2771	their	event[209]|organization[215]	new[209]|giv[215]	ana	23-19[218_215]
-23-16	2772-2779	website	event[209]	new[209]	_	_
-23-17	2780-2782	or	event[209]	new[209]	_	_
-23-18	2783-2790	through	event[209]	new[209]	_	_
-23-19	2791-2796	their	event[209]|organization[218]	new[209]|giv[218]	ana	23-24[221_218]
-23-20	2797-2803	system	event[209]	new[209]	_	_
+23-2	2699-2701	To	_	_	_	_
+23-3	2702-2706	have	_	_	_	_
+23-4	2707-2708	a	organization[210]	organization[210]	ana	23-15[215_210]
+23-5	2709-2717	business	organization[210]	organization[210]	_	_
+23-6	2718-2723	allow	_	_	_	_
+23-7	2724-2728	that	_	_	_	_
+23-8	2729-2733	type	_	_	_	_
+23-9	2734-2736	of	_	_	_	_
+23-10	2737-2742	filth	_	_	_	_
+23-11	2743-2745	to	_	_	_	_
+23-12	2746-2748	be	_	_	_	_
+23-13	2749-2757	purveyed	_	_	_	_
+23-14	2758-2765	through	_	_	_	_
+23-15	2766-2771	their	organization[215]	organization[215]	ana	23-19[218_215]
+23-16	2772-2779	website	_	_	_	_
+23-17	2780-2782	or	_	_	_	_
+23-18	2783-2790	through	_	_	_	_
+23-19	2791-2796	their	organization[218]	organization[218]	ana	23-24[221_218]
+23-20	2797-2803	system	_	_	_	_
 23-21	2804-2806	is	_	_	_	_
 23-22	2807-2816	something	_	_	_	_
 23-23	2817-2821	that	_	_	_	_
@@ -624,7 +624,7 @@
 26-1	3139-3148	Interview	_	_	_	_
 
 #Text=Pacific Standard owner , Jonathan M. Stan , displays the Santorum cocktail drink as a finished product at the bar . ( 2012 ) .
-27-1	3149-3156	Pacific	person[254]|organization[255]	giv[254]|giv[255]	appos|coref	27-5[256_254]|27-19[261_255]
+27-1	3149-3156	Pacific	person[254]|organization[255]	giv[254]|giv[255]	coref|appos	27-19[261_255]|27-5[256_254]
 27-2	3157-3165	Standard	person[254]|organization[255]	giv[254]|giv[255]	_	_
 27-3	3166-3171	owner	person[254]	giv[254]	_	_
 27-4	3172-3173	,	_	_	_	_
@@ -675,7 +675,7 @@
 30-7	3368-3376	cocktail	_	_	_	_
 30-8	3377-3382	after	_	_	_	_
 30-9	3383-3386	the	abstract[273]	giv[273]	_	_
-30-10	3387-3395	santorum	abstract[273]	giv[273]	_	_
+30-10	3387-3395	santorum	abstract[273]	abstract[273]	_	_
 30-11	3396-3405	neologism	abstract[273]	giv[273]	_	_
 30-12	3406-3407	?	_	_	_	_
 
@@ -700,27 +700,27 @@
 31-18	3499-3504	would	_	_	_	_
 31-19	3505-3507	be	_	_	_	_
 31-20	3508-3519	interesting	_	_	_	_
-31-21	3520-3522	to	event[285]	new[285]	cata	31-17[282_285]
-31-22	3523-3526	try	event[285]	new[285]	_	_
-31-23	3527-3529	to	event[285]	new[285]	_	_
-31-24	3530-3536	create	event[285]	new[285]	_	_
-31-25	3537-3538	a	event[285]|substance[286]	new[285]|giv[286]	coref	42-3[358_286]
-31-26	3539-3548	delicious	event[285]|substance[286]	new[285]|giv[286]	_	_
-31-27	3549-3554	drink	event[285]|substance[286]	new[285]|giv[286]	_	_
-31-28	3555-3559	that	event[285]|substance[286]	new[285]|giv[286]	_	_
-31-29	3560-3568	mimicked	event[285]|substance[286]	new[285]|giv[286]	_	_
-31-30	3569-3572	the	event[285]|substance[286]	new[285]|giv[286]	_	_
-31-31	3573-3583	appearance	event[285]|substance[286]	new[285]|giv[286]	_	_
-31-32	3584-3586	of	event[285]|substance[286]	new[285]|giv[286]	_	_
-31-33	3587-3590	the	event[285]|substance[286]	new[285]|giv[286]	_	_
-31-34	3591-3594	Dan	event[285]|substance[286]|person[289]	new[285]|giv[286]|giv[289]	coref	32-21[300_289]
-31-35	3595-3601	Savage	event[285]|substance[286]|person[289]	new[285]|giv[286]|giv[289]	_	_
-31-36	3602-3609	meaning	event[285]|substance[286]	new[285]|giv[286]	_	_
-31-37	3610-3612	of	event[285]|substance[286]	new[285]|giv[286]	_	_
-31-38	3613-3614	"	event[285]|substance[286]	new[285]|giv[286]	_	_
-31-39	3615-3623	santorum	event[285]|substance[286]|abstract[290]	new[285]|giv[286]|giv[290]	coref	32-10[295_290]
-31-40	3624-3625	.	event[285]|substance[286]	new[285]|giv[286]	_	_
-31-41	3626-3627	"	event[285]|substance[286]	new[285]|giv[286]	_	_
+31-21	3520-3522	to	_	_	_	_
+31-22	3523-3526	try	_	_	_	_
+31-23	3527-3529	to	_	_	_	_
+31-24	3530-3536	create	_	_	_	_
+31-25	3537-3538	a	substance[286]	giv[286]	coref	42-3[358_286]
+31-26	3539-3548	delicious	substance[286]	giv[286]	_	_
+31-27	3549-3554	drink	substance[286]	giv[286]	_	_
+31-28	3555-3559	that	substance[286]	giv[286]	_	_
+31-29	3560-3568	mimicked	substance[286]	giv[286]	_	_
+31-30	3569-3572	the	substance[286]	giv[286]	_	_
+31-31	3573-3583	appearance	substance[286]	giv[286]	_	_
+31-32	3584-3586	of	substance[286]	giv[286]	_	_
+31-33	3587-3590	the	substance[286]	giv[286]	_	_
+31-34	3591-3594	Dan	substance[286]|person[289]	giv[286]|giv[289]	coref	32-21[300_289]
+31-35	3595-3601	Savage	substance[286]|person[289]	giv[286]|giv[289]	_	_
+31-36	3602-3609	meaning	substance[286]	giv[286]	_	_
+31-37	3610-3612	of	substance[286]	giv[286]	_	_
+31-38	3613-3614	"	substance[286]	giv[286]	_	_
+31-39	3615-3623	santorum	substance[286]|abstract[290]	giv[286]|giv[290]	coref	32-10[295_290]
+31-40	3624-3625	.	substance[286]	giv[286]	_	_
+31-41	3626-3627	"	substance[286]	giv[286]	_	_
 
 #Text=How did you first hear about the definition of the santorum neologism that grew out of the contest from the Savage Love advice column ?
 32-1	3628-3631	How	_	_	_	_
@@ -733,7 +733,7 @@
 32-8	3661-3671	definition	abstract[294]	new[294]	_	_
 32-9	3672-3674	of	abstract[294]	new[294]	_	_
 32-10	3675-3678	the	abstract[294]|abstract[295]	new[294]|giv[295]	ana	34-1[303_295]
-32-11	3679-3687	santorum	abstract[294]|abstract[295]	new[294]|giv[295]	_	_
+32-11	3679-3687	santorum	abstract[294]|abstract[295]	abstract[294]|abstract[295]	_	_
 32-12	3688-3697	neologism	abstract[294]|abstract[295]	new[294]|giv[295]	_	_
 32-13	3698-3702	that	abstract[294]	new[294]	_	_
 32-14	3703-3707	grew	abstract[294]	new[294]	_	_
@@ -745,7 +745,7 @@
 32-20	3732-3735	the	abstract[294]|abstract[299]	new[294]|giv[299]	coref	39-24[343_299]
 32-21	3736-3742	Savage	abstract[294]|abstract[299]|person[300]	new[294]|giv[299]|giv[300]	coref	39-12[338_300]
 32-22	3743-3747	Love	abstract[294]|abstract[299]	new[294]|giv[299]	_	_
-32-23	3748-3754	advice	abstract[294]|abstract[299]	new[294]|giv[299]	_	_
+32-23	3748-3754	advice	abstract[294]|abstract[299]	abstract[294]|abstract[299]	_	_
 32-24	3755-3761	column	abstract[294]|abstract[299]	new[294]|giv[299]	_	_
 32-25	3762-3763	?	_	_	_	_
 
@@ -794,21 +794,21 @@
 37-3	3929-3932	not	_	_	_	_
 37-4	3933-3936	for	_	_	_	_
 37-5	3937-3939	us	person[319]	giv[319]	ana	38-1[325_319]
-37-6	3940-3942	to	event[322]	new[322]	cata	37-1[318_322]
-37-7	3943-3947	take	event[322]	new[322]	_	_
-37-8	3948-3949	a	event[322]	new[322]	_	_
-37-9	3950-3955	stand	event[322]	new[322]	_	_
-37-10	3956-3958	on	event[322]	new[322]	_	_
-37-11	3959-3962	any	event[322]	new[322]	_	_
-37-12	3963-3972	political	event[322]	new[322]	_	_
-37-13	3973-3979	issues	event[322]	new[322]	_	_
+37-6	3940-3942	to	_	_	_	_
+37-7	3943-3947	take	event[481]	event[481]	ana	38-4[326_481]
+37-8	3948-3949	a	_	_	_	_
+37-9	3950-3955	stand	_	_	_	_
+37-10	3956-3958	on	_	_	_	_
+37-11	3959-3962	any	_	_	_	_
+37-12	3963-3972	political	_	_	_	_
+37-13	3973-3979	issues	_	_	_	_
 37-14	3980-3981	.	_	_	_	_
 
 #Text=We 'll leave that to the professionals .
 38-1	3982-3984	We	person[325]	giv[325]	ana	39-2[330_325]
 38-2	3985-3988	'll	_	_	_	_
 38-3	3989-3994	leave	_	_	_	_
-38-4	3995-3999	that	_	_	_	_
+38-4	3995-3999	that	event[326]	giv[326]	_	_
 38-5	4000-4002	to	_	_	_	_
 38-6	4003-4006	the	person[329]	new[329]	coref	41-13[357_329]
 38-7	4007-4020	professionals	person[329]	new[329]	_	_
@@ -825,22 +825,22 @@
 39-8	4058-4062	form	_	_	_	_
 39-9	4063-4065	of	_	_	_	_
 39-10	4066-4072	satire	_	_	_	_
-39-11	4073-4076	for	event[337]	new[337]	cata	39-4[331_337]
-39-12	4077-4080	Dan	event[337]|person[338]	new[337]|giv[338]	ana	39-24[344_338]
-39-13	4081-4087	Savage	event[337]|person[338]	new[337]|giv[338]	_	_
-39-14	4088-4090	to	event[337]	new[337]	_	_
-39-15	4091-4101	popularize	event[337]	new[337]	_	_
-39-16	4102-4105	the	event[337]|abstract[339]	new[337]|giv[339]	_	_
-39-17	4106-4116	definition	event[337]|abstract[339]	new[337]|giv[339]	_	_
-39-18	4117-4119	of	event[337]|abstract[339]	new[337]|giv[339]	_	_
-39-19	4120-4123	the	event[337]|abstract[339]|abstract[340]	new[337]|giv[339]|giv[340]	_	_
-39-20	4124-4132	santorum	event[337]|abstract[339]|abstract[340]	new[337]|giv[339]|giv[340]	_	_
-39-21	4133-4142	neologism	event[337]|abstract[339]|abstract[340]	new[337]|giv[339]|giv[340]	_	_
-39-22	4143-4150	created	event[337]	new[337]	_	_
-39-23	4151-4153	in	event[337]	new[337]	_	_
-39-24	4154-4157	his	event[337]|abstract[343]|person[344]	new[337]|giv[343]|giv[344]	_	_
-39-25	4158-4164	advice	event[337]|abstract[343]	new[337]|giv[343]	_	_
-39-26	4165-4171	column	event[337]|abstract[343]	new[337]|giv[343]	_	_
+39-11	4073-4076	for	_	_	_	_
+39-12	4077-4080	Dan	person[338]	person[338]	ana	39-24[344_338]
+39-13	4081-4087	Savage	person[338]	person[338]	_	_
+39-14	4088-4090	to	_	_	_	_
+39-15	4091-4101	popularize	event[482]	event[482]	ana	40-3[347_482]
+39-16	4102-4105	the	abstract[339]	abstract[339]	_	_
+39-17	4106-4116	definition	abstract[339]	abstract[339]	_	_
+39-18	4117-4119	of	abstract[339]	abstract[339]	_	_
+39-19	4120-4123	the	abstract[339]|abstract[340]	abstract[339]|abstract[340]	_	_
+39-20	4124-4132	santorum	abstract[339]|abstract[340]	abstract[339]|abstract[340]	_	_
+39-21	4133-4142	neologism	abstract[339]|abstract[340]	abstract[339]|abstract[340]	_	_
+39-22	4143-4150	created	_	_	_	_
+39-23	4151-4153	in	_	_	_	_
+39-24	4154-4157	his	abstract[343]|person[344]	abstract[343]|person[344]	_	_
+39-25	4158-4164	advice	abstract[343]	abstract[343]	_	_
+39-26	4165-4171	column	abstract[343]	abstract[343]	_	_
 39-27	4172-4173	?	_	_	_	_
 
 #Text=We thought it was funny .
@@ -940,7 +940,7 @@
 48-4	4571-4572	.	_	_	_	_
 
 #Text=Your Santorum cocktail creation has already received media coverage from publications including ; The Brooklyn Paper , The New York Times , Jezebel , Metro.us , EDGE on the Net , and Instinct Magazine .
-49-1	4573-4577	Your	substance[377]|person[378]	giv[377]|giv[378]	ana|ana	50-7[400_377]|50-2[396_378]
+49-1	4573-4577	Your	substance[377]|person[378]	giv[377]|giv[378]	ana|ana	50-2[396_378]|50-7[400_377]
 49-2	4578-4586	Santorum	substance[377]|person[379]	giv[377]|giv[379]	coref	50-10[404_379]
 49-3	4587-4595	cocktail	substance[377]	giv[377]	_	_
 49-4	4596-4604	creation	substance[377]	giv[377]	_	_
@@ -981,9 +981,9 @@
 50-2	4780-4783	you	person[396]	giv[396]	ana	50-5[399_396]
 50-3	4784-4789	think	_	_	_	_
 50-4	4790-4794	when	_	_	_	_
-50-5	4795-4798	you	event[398]|person[399]	new[398]|giv[399]	coref|ana	56-15[438_398]|52-1[407_399]
-50-6	4799-4806	created	event[398]	new[398]	_	_
-50-7	4807-4809	it	event[398]|substance[400]	new[398]|giv[400]	coref	50-9[403_400]
+50-5	4795-4798	you	person[399]	person[399]	ana	52-1[407_399]
+50-6	4799-4806	created	event[483]	new[483]	coref	56-15[438_483]
+50-7	4807-4809	it	substance[400]	substance[400]	coref	50-9[403_400]
 50-8	4810-4814	that	_	_	_	_
 50-9	4815-4818	the	substance[403]	giv[403]	_	_
 50-10	4819-4827	Santorum	substance[403]|person[404]	giv[403]|giv[404]	coref	53-12[417_404]

@@ -9,7 +9,7 @@
 1-3	11-19	Fillmore	person[1]	new[1]	_	_
 
 #Text=Charles J. Fillmore ( August 9 , 1929 – February 13 , 2014 ) was an American linguist and Professor of Linguistics at the University of California , Berkeley .
-2-1	20-27	Charles	person[2]	giv[2]	_	_
+2-1	20-27	Charles	person[2]	giv[2]	ana	3-1[15_2]
 2-2	28-30	J.	person[2]	giv[2]	_	_
 2-3	31-39	Fillmore	person[2]	giv[2]	_	_
 2-4	40-41	(	_	_	_	_
@@ -30,7 +30,7 @@
 2-19	106-109	and	_	_	_	_
 2-20	110-119	Professor	_	_	_	_
 2-21	120-122	of	_	_	_	_
-2-22	123-134	Linguistics	_	_	_	_
+2-22	123-134	Linguistics	abstract[11]	new[11]	coref	3-6[20_11]
 2-23	135-137	at	_	_	_	_
 2-24	138-141	the	organization[13]	new[13]	coref	6-7[55_13]
 2-25	142-152	University	organization[13]	new[13]	_	_
@@ -57,7 +57,7 @@
 3-14	257-258	.	_	_	_	_
 
 #Text=Fillmore spent ten years at The Ohio State University and a year as a Fellow at the Center for Advanced Study in the Behavioral Sciences at Stanford University before joining Berkeley 's Department of Linguistics in 1971 . [ 1 ]
-4-1	259-267	Fillmore	person[26]	giv[26]	_	_
+4-1	259-267	Fillmore	person[26]	giv[26]	coref	4-14[35_26]
 4-2	268-273	spent	_	_	_	_
 4-3	274-277	ten	_	_	_	_
 4-4	278-283	years	_	_	_	_
@@ -280,7 +280,7 @@
 14-1	1386-1388	In	_	_	_	_
 14-2	1389-1393	1963	time[136]	acc[136]	coref	16-13[159_136]
 14-3	1394-1395	,	_	_	_	_
-14-4	1396-1399	his	abstract[138]|person[139]	new[138]|giv[139]	appos|coref	14-7[141_138]|18-4[162_139]
+14-4	1396-1399	his	abstract[138]|person[139]	new[138]|giv[139]	coref|appos	18-4[162_139]|14-7[141_138]
 14-5	1400-1407	seminal	abstract[138]	new[138]	_	_
 14-6	1408-1415	article	abstract[138]	new[138]	_	_
 14-7	1416-1419	The	abstract[141]	giv[141]	_	_
@@ -302,28 +302,28 @@
 15-2	1515-1522	central	_	_	_	_
 15-3	1523-1527	idea	_	_	_	_
 15-4	1528-1530	is	_	_	_	_
-15-5	1531-1533	to	abstract[146]	giv[146]	coref	16-1[154_146]
-15-6	1534-1539	first	abstract[146]	giv[146]	_	_
-15-7	1540-1545	apply	abstract[146]	giv[146]	_	_
-15-8	1546-1551	rules	abstract[146]	giv[146]	_	_
-15-9	1552-1554	to	abstract[146]	giv[146]	_	_
-15-10	1555-1558	the	abstract[146]|abstract[149]	giv[146]|new[149]	coref	15-21[151_149]
-15-11	1559-1567	smallest	abstract[146]|abstract[149]	giv[146]|new[149]	_	_
-15-12	1568-1578	applicable	abstract[146]|abstract[149]	giv[146]|new[149]	_	_
-15-13	1579-1583	unit	abstract[146]|abstract[149]	giv[146]|new[149]	_	_
-15-14	1584-1585	,	abstract[146]	giv[146]	_	_
-15-15	1586-1590	then	abstract[146]	giv[146]	_	_
-15-16	1591-1593	to	abstract[146]	giv[146]	_	_
-15-17	1594-1597	the	abstract[146]	giv[146]	_	_
-15-18	1598-1606	smallest	abstract[146]	giv[146]	_	_
-15-19	1607-1611	unit	abstract[146]	giv[146]	_	_
-15-20	1612-1622	containing	abstract[146]	giv[146]	_	_
-15-21	1623-1627	that	abstract[146]|abstract[151]	giv[146]|giv[151]	_	_
-15-22	1628-1631	one	abstract[146]|abstract[151]	giv[146]|giv[151]	_	_
-15-23	1632-1633	,	abstract[146]	giv[146]	_	_
-15-24	1634-1637	and	abstract[146]	giv[146]	_	_
-15-25	1638-1640	so	abstract[146]	giv[146]	_	_
-15-26	1641-1643	on	abstract[146]	giv[146]	_	_
+15-5	1531-1533	to	_	_	_	_
+15-6	1534-1539	first	_	_	_	_
+15-7	1540-1545	apply	abstract[473]	abstract[473]	coref	16-1[154_473]
+15-8	1546-1551	rules	_	_	_	_
+15-9	1552-1554	to	_	_	_	_
+15-10	1555-1558	the	abstract[149]	abstract[149]	coref	15-21[151_149]
+15-11	1559-1567	smallest	abstract[149]	abstract[149]	_	_
+15-12	1568-1578	applicable	abstract[149]	abstract[149]	_	_
+15-13	1579-1583	unit	abstract[149]	abstract[149]	_	_
+15-14	1584-1585	,	_	_	_	_
+15-15	1586-1590	then	_	_	_	_
+15-16	1591-1593	to	_	_	_	_
+15-17	1594-1597	the	_	_	_	_
+15-18	1598-1606	smallest	_	_	_	_
+15-19	1607-1611	unit	_	_	_	_
+15-20	1612-1622	containing	_	_	_	_
+15-21	1623-1627	that	abstract[151]	abstract[151]	_	_
+15-22	1628-1631	one	abstract[151]	abstract[151]	_	_
+15-23	1632-1633	,	_	_	_	_
+15-24	1634-1637	and	_	_	_	_
+15-25	1638-1640	so	_	_	_	_
+15-26	1641-1643	on	_	_	_	_
 15-27	1644-1645	.	_	_	_	_
 15-28	1646-1647	[	_	_	_	_
 15-29	1648-1649	5	_	_	_	_
@@ -384,7 +384,7 @@
 19-9	1897-1901	Case	abstract[176]	new[176]	_	_
 19-10	1902-1909	Grammar	abstract[176]	new[176]	_	_
 19-11	1910-1911	(	abstract[176]	new[176]	_	_
-19-12	1912-1920	Fillmore	abstract[176]|abstract[180]|person[181]	new[176]|new[180]|giv[181]	coref|ana	21-9[199_180]|21-9[200_181]
+19-12	1912-1920	Fillmore	abstract[176]|abstract[180]|person[181]	new[176]|new[180]|giv[181]	ana|coref	21-9[200_181]|21-9[199_180]
 19-13	1921-1925	1968	abstract[176]|abstract[180]	new[176]|new[180]	_	_
 19-14	1926-1927	)	abstract[176]	new[176]	_	_
 19-15	1928-1929	,	abstract[176]	new[176]	_	_
@@ -494,9 +494,9 @@
 22-31	2474-2475	.	_	_	_	_
 
 #Text=A commercial event , for instance , crucially involved elements such as a seller , a buyer , some good , and some money .
-23-1	2476-2477	A	_	_	_	_
-23-2	2478-2488	commercial	_	_	_	_
-23-3	2489-2494	event	_	_	_	_
+23-1	2476-2477	A	event[219]	new[219]	coref	24-4[227_219]
+23-2	2478-2488	commercial	event[219]	new[219]	_	_
+23-3	2489-2494	event	event[219]	new[219]	_	_
 23-4	2495-2496	,	_	_	_	_
 23-5	2497-2500	for	_	_	_	_
 23-6	2501-2509	instance	_	_	_	_
@@ -524,9 +524,9 @@
 24-1	2598-2600	In	_	_	_	_
 24-2	2601-2609	language	_	_	_	_
 24-3	2610-2611	,	_	_	_	_
-24-4	2612-2616	such	_	_	_	_
-24-5	2617-2619	an	_	_	_	_
-24-6	2620-2625	event	_	_	_	_
+24-4	2612-2616	such	event[227]	giv[227]	_	_
+24-5	2617-2619	an	event[227]	giv[227]	_	_
+24-6	2620-2625	event	event[227]	giv[227]	_	_
 24-7	2626-2629	can	_	_	_	_
 24-8	2630-2632	be	_	_	_	_
 24-9	2633-2642	expressed	_	_	_	_
@@ -719,7 +719,7 @@
 29-38	3665-3666	.	_	_	_	_
 
 #Text=This theory built on the notion of construction from traditional and pedagogical grammars rather than the rule-based formalisms that dominate most of generative grammar .
-30-1	3667-3671	This	abstract[289]	giv[289]	_	_
+30-1	3667-3671	This	abstract[289]	giv[289]	coref	32-7[318_289]
 30-2	3672-3678	theory	abstract[289]	giv[289]	_	_
 30-3	3679-3684	built	_	_	_	_
 30-4	3685-3687	on	_	_	_	_
@@ -796,9 +796,9 @@
 32-4	4079-4082	the	_	_	_	_
 32-5	4083-4089	merits	_	_	_	_
 32-6	4090-4092	of	_	_	_	_
-32-7	4093-4097	such	_	_	_	_
-32-8	4098-4099	a	_	_	_	_
-32-9	4100-4106	theory	_	_	_	_
+32-7	4093-4097	such	abstract[318]	giv[318]	_	_
+32-8	4098-4099	a	abstract[318]	giv[318]	_	_
+32-9	4100-4106	theory	abstract[318]	giv[318]	_	_
 32-10	4107-4109	of	_	_	_	_
 32-11	4110-4112	by	_	_	_	_
 32-12	4113-4121	focusing	_	_	_	_
@@ -843,7 +843,7 @@
 33-29	4319-4320	.	_	_	_	_
 
 #Text=Fillmore is now widely recognized as one of the founders of cognitive linguistics .
-34-1	4321-4329	Fillmore	person[326]	giv[326]	_	_
+34-1	4321-4329	Fillmore	person[326]	giv[326]	coref	34-7[328_326]
 34-2	4330-4332	is	_	_	_	_
 34-3	4333-4336	now	_	_	_	_
 34-4	4337-4343	widely	_	_	_	_
@@ -1080,32 +1080,32 @@
 43-5	5527-5528	a	abstract[421]	giv[421]	coref	44-2[436_421]
 43-6	5529-5536	project	abstract[421]	giv[421]	_	_
 43-7	5537-5543	called	abstract[421]	giv[421]	_	_
-43-8	5544-5552	FrameNet	abstract[421]	giv[421]	_	_
+43-8	5544-5552	FrameNet	abstract[421]|abstract[422]	abstract[421]|abstract[422]	appos	43-10[424_422]
 43-9	5553-5554	,	_	_	_	_
-43-10	5555-5557	an	_	_	_	_
-43-11	5558-5565	on-line	_	_	_	_
-43-12	5566-5576	structured	_	_	_	_
-43-13	5577-5588	description	_	_	_	_
-43-14	5589-5591	of	_	_	_	_
-43-15	5592-5595	the	_	_	_	_
-43-16	5596-5603	English	_	_	_	_
-43-17	5604-5611	lexicon	_	_	_	_
-43-18	5612-5624	implementing	_	_	_	_
-43-19	5625-5629	much	_	_	_	_
-43-20	5630-5632	of	_	_	_	_
-43-21	5633-5637	what	_	_	_	_
-43-22	5638-5640	he	person[427]	giv[427]	ana	43-29[430_427]
-43-23	5641-5644	had	_	_	_	_
-43-24	5645-5652	earlier	_	_	_	_
-43-25	5653-5661	proposed	_	_	_	_
-43-26	5662-5666	more	_	_	_	_
-43-27	5667-5680	theoretically	_	_	_	_
-43-28	5681-5683	in	_	_	_	_
-43-29	5684-5687	his	person[430]	giv[430]	_	_
-43-30	5688-5694	theory	_	_	_	_
-43-31	5695-5697	of	_	_	_	_
-43-32	5698-5703	Frame	_	_	_	_
-43-33	5704-5713	semantics	_	_	_	_
+43-10	5555-5557	an	abstract[424]	abstract[424]	_	_
+43-11	5558-5565	on-line	abstract[424]	abstract[424]	_	_
+43-12	5566-5576	structured	abstract[424]	abstract[424]	_	_
+43-13	5577-5588	description	abstract[424]	abstract[424]	_	_
+43-14	5589-5591	of	abstract[424]	abstract[424]	_	_
+43-15	5592-5595	the	abstract[424]	abstract[424]	_	_
+43-16	5596-5603	English	abstract[424]	abstract[424]	_	_
+43-17	5604-5611	lexicon	abstract[424]	abstract[424]	_	_
+43-18	5612-5624	implementing	abstract[424]	abstract[424]	_	_
+43-19	5625-5629	much	abstract[424]	abstract[424]	_	_
+43-20	5630-5632	of	abstract[424]	abstract[424]	_	_
+43-21	5633-5637	what	abstract[424]	abstract[424]	_	_
+43-22	5638-5640	he	abstract[424]|person[427]	abstract[424]|person[427]	ana	43-29[430_427]
+43-23	5641-5644	had	abstract[424]	abstract[424]	_	_
+43-24	5645-5652	earlier	abstract[424]	abstract[424]	_	_
+43-25	5653-5661	proposed	abstract[424]	abstract[424]	_	_
+43-26	5662-5666	more	abstract[424]	abstract[424]	_	_
+43-27	5667-5680	theoretically	abstract[424]	abstract[424]	_	_
+43-28	5681-5683	in	abstract[424]	abstract[424]	_	_
+43-29	5684-5687	his	abstract[424]|person[430]	abstract[424]|person[430]	_	_
+43-30	5688-5694	theory	abstract[424]	abstract[424]	_	_
+43-31	5695-5697	of	abstract[424]	abstract[424]	_	_
+43-32	5698-5703	Frame	abstract[424]	abstract[424]	_	_
+43-33	5704-5713	semantics	abstract[424]	abstract[424]	_	_
 43-34	5714-5715	,	_	_	_	_
 43-35	5716-5721	while	_	_	_	_
 43-36	5722-5734	implementing	_	_	_	_

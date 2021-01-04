@@ -7,7 +7,7 @@
 1-1	0-3	How	_	_	_	_
 1-2	4-6	to	_	_	_	_
 1-3	7-11	Play	_	_	_	_
-1-4	12-18	Muggle	abstract[1]	new[1]	coref	4-24[21_1]
+1-4	12-18	Muggle	abstract[1]	abstract[1]	coref	4-24[21_1]
 1-5	19-28	Quidditch	abstract[1]	new[1]	_	_
 
 #Text=In the Harry Potter series written by JK Rowling the main wizarding sport is Quidditch .
@@ -143,7 +143,7 @@
 8-7	654-655	(	_	_	_	_
 8-8	656-659	see	_	_	_	_
 8-9	660-666	Things	_	_	_	_
-8-10	667-670	You	person[47]	giv[47]	ana	15-2[73_47]
+8-10	667-670	You	person[47]	person[47]	ana	15-2[73_47]
 8-11	671-674	'll	_	_	_	_
 8-12	675-679	Need	_	_	_	_
 8-13	680-687	section	_	_	_	_
@@ -198,7 +198,7 @@
 
 #Text=Ideally the quaffle and bludgers should be slightly deflated so that they are easier to throw and catch .
 12-1	887-894	Ideally	_	_	_	_
-12-2	895-898	the	object[60]|object[61]	new[60]|giv[61]	ana|coref	12-12[63_60]|14-11[69_61]
+12-2	895-898	the	object[60]|object[61]	new[60]|giv[61]	coref|ana	14-11[69_61]|12-12[63_60]
 12-3	899-906	quaffle	object[60]|object[61]	new[60]|giv[61]	_	_
 12-4	907-910	and	object[60]	new[60]	_	_
 12-5	911-919	bludgers	object[60]	new[60]	_	_
@@ -383,12 +383,12 @@
 22-2	1702-1705	try	_	_	_	_
 22-3	1706-1708	to	_	_	_	_
 22-4	1709-1715	tackle	_	_	_	_
-22-5	1716-1719	the	person[414]	new[414]	coref	22-17[125_414]
-22-6	1720-1726	snitch	person[414]	new[414]	_	_
+22-5	1716-1719	the	person[122]|person[414]	new[122]|new[414]	appos|coref	22-8[123_122]|22-17[125_414]
+22-6	1720-1726	snitch	person[122]|person[414]	new[122]|new[414]	_	_
 22-7	1727-1728	(	person[414]	new[414]	_	_
-22-8	1729-1730	a	person[414]	new[414]	_	_
-22-9	1731-1737	person	person[414]	new[414]	_	_
-22-10	1738-1739	)	_	_	_	_
+22-8	1729-1730	a	person[123]|person[414]	giv[123]|new[414]	_	_
+22-9	1731-1737	person	person[123]|person[414]	giv[123]|new[414]	_	_
+22-10	1738-1739	)	person[414]	new[414]	_	_
 22-11	1740-1742	or	_	_	_	_
 22-12	1743-1749	obtain	_	_	_	_
 22-13	1750-1752	an	_	_	_	_
@@ -465,7 +465,7 @@
 25-10	2052-2059	attempt	_	_	_	_
 25-11	2060-2062	to	_	_	_	_
 25-12	2063-2066	tag	_	_	_	_
-25-13	2067-2070	the	person[144]	giv[144]	coref	29-1[415_144]
+25-13	2067-2070	the	person[144]	giv[144]	coref	29-1[416_144]
 25-14	2071-2077	player	person[144]	giv[144]	_	_
 25-15	2078-2079	.	_	_	_	_
 
@@ -499,7 +499,7 @@
 26-27	2203-2209	shorts	_	_	_	_
 26-28	2210-2212	of	_	_	_	_
 26-29	2213-2216	the	person[153]	new[153]	coref	47-3[261_153]
-26-30	2217-2223	snitch	person[153]	new[153]	_	_
+26-30	2217-2223	snitch	person[153]	person[153]	_	_
 26-31	2224-2230	runner	person[153]	new[153]	_	_
 26-32	2231-2232	.	_	_	_	_
 
@@ -561,13 +561,13 @@
 28-24	2504-2505	.	_	_	_	_
 
 #Text=The snitch , generally a track runner , runs around ( usually the boundaries ) trying to evade the seekers .
-29-1	2506-2509	The	person[415]	giv[415]	coref	48-4[271_415]
-29-2	2510-2516	snitch	person[415]	giv[415]	_	_
-29-3	2517-2518	,	person[415]	giv[415]	_	_
-29-4	2519-2528	generally	person[415]	giv[415]	_	_
-29-5	2529-2530	a	person[415]	giv[415]	_	_
-29-6	2531-2536	track	person[415]	giv[415]	_	_
-29-7	2537-2543	runner	person[415]	giv[415]	_	_
+29-1	2506-2509	The	person[180]|person[416]	giv[180]|giv[416]	coref|appos	48-4[271_416]|29-5[181_180]
+29-2	2510-2516	snitch	person[180]|person[416]	giv[180]|giv[416]	_	_
+29-3	2517-2518	,	person[416]	giv[416]	_	_
+29-4	2519-2528	generally	person[416]	giv[416]	_	_
+29-5	2529-2530	a	person[181]|person[416]	giv[181]|giv[416]	_	_
+29-6	2531-2536	track	person[181]|person[416]	giv[181]|giv[416]	_	_
+29-7	2537-2543	runner	person[181]|person[416]	giv[181]|giv[416]	_	_
 29-8	2544-2545	,	_	_	_	_
 29-9	2546-2550	runs	_	_	_	_
 29-10	2551-2557	around	_	_	_	_
@@ -641,7 +641,7 @@
 34-3	2842-2844	to	_	_	_	_
 34-4	2845-2850	alter	_	_	_	_
 34-5	2851-2854	the	abstract[197]	giv[197]	coref	47-30[270_197]
-34-6	2855-2859	game	abstract[197]	giv[197]	_	_
+34-6	2855-2859	game	abstract[197]	abstract[197]	_	_
 34-7	2860-2865	rules	abstract[197]	giv[197]	_	_
 34-8	2866-2867	.	_	_	_	_
 
@@ -816,10 +816,10 @@
 46-2	3639-3642	may	_	_	_	_
 46-3	3643-3645	be	_	_	_	_
 46-4	3646-3652	easier	_	_	_	_
-46-5	3653-3655	to	event[258]	new[258]	cata	46-1[256_258]
-46-6	3656-3660	play	event[258]	new[258]	_	_
-46-7	3661-3668	without	event[258]	new[258]	_	_
-46-8	3669-3675	brooms	event[258]	new[258]	_	_
+46-5	3653-3655	to	_	_	_	_
+46-6	3656-3660	play	_	_	_	_
+46-7	3661-3668	without	_	_	_	_
+46-8	3669-3675	brooms	_	_	_	_
 46-9	3676-3677	(	_	_	_	_
 46-10	3678-3681	but	_	_	_	_
 46-11	3682-3686	also	_	_	_	_
@@ -833,7 +833,7 @@
 47-1	3702-3710	Remember	_	_	_	_
 47-2	3711-3715	that	_	_	_	_
 47-3	3716-3719	the	person[261]	giv[261]	_	_
-47-4	3720-3726	snitch	person[261]	giv[261]	_	_
+47-4	3720-3726	snitch	person[261]	person[261]	_	_
 47-5	3727-3733	runner	person[261]	giv[261]	_	_
 47-6	3734-3735	,	_	_	_	_
 47-7	3736-3738	if	_	_	_	_
@@ -1211,10 +1211,10 @@
 74-13	5295-5296	)	_	_	_	_
 
 #Text=1 Snitch ( person )
-75-1	5297-5298	1	_	_	_	_
-75-2	5299-5305	Snitch	_	_	_	_
+75-1	5297-5298	1	person[380]	giv[380]	appos	75-4[381_380]
+75-2	5299-5305	Snitch	person[380]	giv[380]	_	_
 75-3	5306-5307	(	_	_	_	_
-75-4	5308-5314	person	_	_	_	_
+75-4	5308-5314	person	person[381]	giv[381]	_	_
 75-5	5315-5316	)	_	_	_	_
 
 #Text=Each team is composed of :

@@ -19,12 +19,12 @@
 1-13	62-63	'	event[2]	new[2]	_	_
 
 #Text=Sunday , November 25 , 2007
-2-1	64-70	Sunday	_	_	_	_
+2-1	64-70	Sunday	time[6]	acc[6]	appos	2-3[9_6]
 2-2	71-72	,	_	_	_	_
-2-3	73-81	November	_	_	_	_
-2-4	82-84	25	_	_	_	_
-2-5	85-86	,	_	_	_	_
-2-6	87-91	2007	_	_	_	_
+2-3	73-81	November	time[9]	giv[9]	_	_
+2-4	82-84	25	time[9]	giv[9]	_	_
+2-5	85-86	,	time[9]	giv[9]	_	_
+2-6	87-91	2007	time[9]	giv[9]	_	_
 
 #Text=How The Onion writes an issue
 3-1	92-95	How	_	_	_	_
@@ -129,14 +129,14 @@
 10-6	534-536	to	abstract[49]	new[49]	_	_
 10-7	537-542	eight	abstract[49]	new[49]	_	_
 10-8	543-550	hundred	abstract[49]	new[49]	_	_
-10-9	551-559	headline	abstract[49]	new[49]	_	_
+10-9	551-559	headline	abstract[49]	abstract[49]	_	_
 10-10	560-565	ideas	abstract[49]	new[49]	_	_
 10-11	566-568	on	_	_	_	_
 10-12	569-570	a	time[52]	acc[52]	coref	11-6[63_52]
 10-13	571-577	Monday	time[52]	acc[52]	_	_
 10-14	578-584	coming	_	_	_	_
 10-15	585-589	from	_	_	_	_
-10-16	590-593	our	person[54]|person[55]	new[54]|giv[55]	coref|ana	11-23[519_54]|11-1[59_55]
+10-16	590-593	our	person[54]|person[55]	new[54]|giv[55]	ana|coref	11-1[59_55]|11-23[518_54]
 10-17	594-599	staff	person[54]	new[54]	_	_
 10-18	600-603	and	_	_	_	_
 10-19	604-605	a	_	_	_	_
@@ -174,15 +174,15 @@
 11-20	749-752	and	_	_	_	_
 11-21	753-763	brainstorm	_	_	_	_
 11-22	764-768	with	_	_	_	_
-11-23	769-772	the	person[68]|person[519]	giv[68]|giv[519]	coref|appos	13-11[77_519]|11-28[69_68]
-11-24	773-778	whole	person[68]|person[519]	giv[68]|giv[519]	_	_
-11-25	779-788	editorial	person[68]|person[519]	giv[68]|giv[519]	_	_
-11-26	789-794	staff	person[68]|person[519]	giv[68]|giv[519]	_	_
-11-27	795-796	;	person[519]	giv[519]	_	_
-11-28	797-800	all	person[69]|person[519]	giv[69]|giv[519]	_	_
-11-29	801-808	fifteen	person[69]|person[519]	giv[69]|giv[519]	_	_
-11-30	809-811	of	person[69]|person[519]	giv[69]|giv[519]	_	_
-11-31	812-814	us	person[69]|person[519]	giv[69]|giv[519]	_	_
+11-23	769-772	the	person[68]|person[518]	giv[68]|giv[518]	coref|appos	13-11[77_518]|11-28[69_68]
+11-24	773-778	whole	person[68]|person[518]	giv[68]|giv[518]	_	_
+11-25	779-788	editorial	person[68]|person[518]	giv[68]|giv[518]	_	_
+11-26	789-794	staff	person[68]|person[518]	giv[68]|giv[518]	_	_
+11-27	795-796	;	person[518]	giv[518]	_	_
+11-28	797-800	all	person[69]|person[518]	giv[69]|giv[518]	_	_
+11-29	801-808	fifteen	person[69]|person[518]	giv[69]|giv[518]	_	_
+11-30	809-811	of	person[69]|person[518]	giv[69]|giv[518]	_	_
+11-31	812-814	us	person[69]|person[518]	giv[69]|giv[518]	_	_
 11-32	815-816	.	_	_	_	_
 
 #Text=Then we assign a headline to a specific writer to execute .
@@ -418,20 +418,20 @@
 21-1	1888-1890	It	_	_	_	_
 21-2	1891-1896	seems	_	_	_	_
 21-3	1897-1901	like	_	_	_	_
-21-4	1902-1906	some	event[160]	new[160]	cata	21-1[158_160]
-21-5	1907-1919	publications	event[160]	new[160]	_	_
-21-6	1920-1921	,	event[160]	new[160]	_	_
-21-7	1922-1926	like	event[160]	new[160]	_	_
-21-8	1927-1929	AM	event[160]	new[160]	_	_
-21-9	1930-1933	New	event[160]|place[163]	new[160]|giv[163]	_	_
-21-10	1934-1938	York	event[160]|place[163]	new[160]|giv[163]	_	_
-21-11	1939-1940	,	event[160]	new[160]	_	_
-21-12	1941-1947	always	event[160]	new[160]	_	_
-21-13	1948-1952	have	event[160]	new[160]	_	_
-21-14	1953-1954	a	event[160]	new[160]	_	_
-21-15	1955-1962	Britney	event[160]|person[165]	new[160]|giv[165]	coref	27-9[197_165]
-21-16	1963-1969	Spears	event[160]|person[165]	new[160]|giv[165]	_	_
-21-17	1970-1975	story	event[160]	new[160]	_	_
+21-4	1902-1906	some	_	_	_	_
+21-5	1907-1919	publications	_	_	_	_
+21-6	1920-1921	,	_	_	_	_
+21-7	1922-1926	like	_	_	_	_
+21-8	1927-1929	AM	_	_	_	_
+21-9	1930-1933	New	place[163]	giv[163]	_	_
+21-10	1934-1938	York	place[163]	giv[163]	_	_
+21-11	1939-1940	,	_	_	_	_
+21-12	1941-1947	always	_	_	_	_
+21-13	1948-1952	have	_	_	_	_
+21-14	1953-1954	a	_	_	_	_
+21-15	1955-1962	Britney	person[165]	giv[165]	coref	27-9[197_165]
+21-16	1963-1969	Spears	person[165]	giv[165]	_	_
+21-17	1970-1975	story	_	_	_	_
 21-18	1976-1977	;	_	_	_	_
 
 #Text=is there anything similar with The Onion where they continually revisit a topic or person ?
@@ -491,7 +491,7 @@
 26-8	2216-2225	portrayal	_	_	_	_
 26-9	2226-2228	of	_	_	_	_
 26-10	2229-2232	the	abstract[184]	new[184]	coref	26-21[190_184]
-26-11	2233-2246	entertainment	abstract[184]	new[184]	_	_
+26-11	2233-2246	entertainment	abstract[184]	abstract[184]	_	_
 26-12	2247-2252	world	abstract[184]	new[184]	_	_
 26-13	2253-2255	as	_	_	_	_
 26-14	2256-2260	much	_	_	_	_
@@ -502,7 +502,7 @@
 26-19	2275-2285	characters	_	_	_	_
 26-20	2286-2288	in	_	_	_	_
 26-21	2289-2292	the	abstract[190]	giv[190]	_	_
-26-22	2293-2306	entertainment	abstract[190]	giv[190]	_	_
+26-22	2293-2306	entertainment	abstract[190]	abstract[190]	_	_
 26-23	2307-2312	world	abstract[190]	giv[190]	_	_
 26-24	2313-2314	.	_	_	_	_
 
@@ -579,7 +579,7 @@
 
 #Text=Do your writers have similar rules of thumb ?
 30-1	2666-2668	Do	_	_	_	_
-30-2	2669-2673	your	person[218]|person[219]	giv[218]|giv[219]	ana|coref	31-1[222_219]|32-8[231_218]
+30-2	2669-2673	your	person[218]|person[219]	giv[218]|giv[219]	coref|ana	32-8[231_218]|31-1[222_219]
 30-3	2674-2681	writers	person[218]	giv[218]	_	_
 30-4	2682-2686	have	_	_	_	_
 30-5	2687-2694	similar	_	_	_	_
@@ -680,9 +680,9 @@
 35-15	3089-3090	,	_	_	_	_
 35-16	3091-3092	"	abstract[250]	new[250]	ana	36-1[254_250]
 35-17	3093-3095	No	abstract[250]	new[250]	_	_
-35-18	3096-3104	Jennifer	abstract[250]|person[252]	new[250]|new[252]	coref	36-9[261_252]
-35-19	3105-3110	Lopez	abstract[250]|person[252]	new[250]|new[252]	_	_
-35-20	3111-3115	News	abstract[250]	new[250]	_	_
+35-18	3096-3104	Jennifer	abstract[250]|person[252]	abstract[250]|person[252]	coref	36-9[261_252]
+35-19	3105-3110	Lopez	abstract[250]|person[252]	abstract[250]|person[252]	_	_
+35-20	3111-3115	News	abstract[250]	abstract[250]	_	_
 35-21	3116-3121	Today	abstract[250]	new[250]	_	_
 35-22	3122-3123	"	abstract[250]	new[250]	_	_
 35-23	3124-3125	.	_	_	_	_
@@ -749,14 +749,14 @@
 39-3	3363-3365	it	_	_	_	_
 39-4	3366-3368	’s	_	_	_	_
 39-5	3369-3378	important	_	_	_	_
-39-6	3379-3381	we	event[286]|person[287]	new[286]|giv[287]	cata|ana	39-3[283_286]|41-1[299_287]
-39-7	3382-3386	have	event[286]	new[286]	_	_
-39-8	3387-3389	an	event[286]	new[286]	_	_
-39-9	3390-3398	original	event[286]	new[286]	_	_
-39-10	3399-3403	take	event[286]	new[286]	_	_
-39-11	3404-3406	on	event[286]	new[286]	_	_
-39-12	3407-3412	those	event[286]|abstract[290]	new[286]|giv[290]	_	_
-39-13	3413-3419	things	event[286]|abstract[290]	new[286]|giv[290]	_	_
+39-6	3379-3381	we	person[287]	giv[287]	ana	41-1[299_287]
+39-7	3382-3386	have	_	_	_	_
+39-8	3387-3389	an	_	_	_	_
+39-9	3390-3398	original	_	_	_	_
+39-10	3399-3403	take	_	_	_	_
+39-11	3404-3406	on	_	_	_	_
+39-12	3407-3412	those	abstract[290]	giv[290]	_	_
+39-13	3413-3419	things	abstract[290]	giv[290]	_	_
 39-14	3420-3421	.	_	_	_	_
 
 #Text=I think it ’s similar to what Colbert said to Terry Gross .
@@ -871,13 +871,13 @@
 45-22	3884-3885	.	_	_	_	_
 
 #Text=When you are going through the headlines , is it just you guys sitting around trying to crack each other up ?
-46-1	3886-3890	When	event[332]	new[332]	ana	46-10[336_332]
-46-2	3891-3894	you	event[332]|person[333]	new[332]|giv[333]	_	_
-46-3	3895-3898	are	event[332]	new[332]	_	_
-46-4	3899-3904	going	event[332]	new[332]	_	_
-46-5	3905-3912	through	event[332]	new[332]	_	_
-46-6	3913-3916	the	event[332]|abstract[335]	new[332]|giv[335]	_	_
-46-7	3917-3926	headlines	event[332]|abstract[335]	new[332]|giv[335]	_	_
+46-1	3886-3890	When	_	_	_	_
+46-2	3891-3894	you	person[333]	person[333]	_	_
+46-3	3895-3898	are	_	_	_	_
+46-4	3899-3904	going	event[512]	new[512]	ana	46-10[336_512]
+46-5	3905-3912	through	_	_	_	_
+46-6	3913-3916	the	abstract[335]	abstract[335]	_	_
+46-7	3917-3926	headlines	abstract[335]	abstract[335]	_	_
 46-8	3927-3928	,	_	_	_	_
 46-9	3929-3931	is	_	_	_	_
 46-10	3932-3934	it	event[336]	giv[336]	ana	47-1[341_336]
@@ -961,11 +961,11 @@
 50-33	4255-4260	takes	_	_	_	_
 50-34	4261-4262	a	_	_	_	_
 50-35	4263-4266	lot	_	_	_	_
-50-36	4267-4269	to	event[362]	new[362]	cata	50-32[360_362]
-50-37	4270-4274	make	event[362]	new[362]	_	_
-50-38	4275-4278	the	event[362]|place[363]	new[362]|giv[363]	_	_
-50-39	4279-4283	room	event[362]|place[363]	new[362]|giv[363]	_	_
-50-40	4284-4289	laugh	event[362]	new[362]	_	_
+50-36	4267-4269	to	_	_	_	_
+50-37	4270-4274	make	_	_	_	_
+50-38	4275-4278	the	place[363]	giv[363]	_	_
+50-39	4279-4283	room	place[363]	giv[363]	_	_
+50-40	4284-4289	laugh	_	_	_	_
 50-41	4290-4291	.	_	_	_	_
 
 #Text=The best analogy I ’ve heard is when Rob Siegel , former editor-in-chief , likened it to wine tasting .
@@ -977,11 +977,11 @@
 51-6	4315-4320	heard	_	_	_	_
 51-7	4321-4323	is	_	_	_	_
 51-8	4324-4328	when	_	_	_	_
-51-9	4329-4332	Rob	_	_	_	_
-51-10	4333-4339	Siegel	_	_	_	_
+51-9	4329-4332	Rob	person[367]	new[367]	appos	51-12[368_367]
+51-10	4333-4339	Siegel	person[367]	new[367]	_	_
 51-11	4340-4341	,	_	_	_	_
-51-12	4342-4348	former	_	_	_	_
-51-13	4349-4364	editor-in-chief	_	_	_	_
+51-12	4342-4348	former	person[368]	giv[368]	_	_
+51-13	4349-4364	editor-in-chief	person[368]	giv[368]	_	_
 51-14	4365-4366	,	_	_	_	_
 51-15	4367-4374	likened	_	_	_	_
 51-16	4375-4377	it	event[369]	giv[369]	ana	52-1[373_369]
@@ -1101,15 +1101,15 @@
 #Text=Yeah , what you see on Studio 60 and 30 Rock , those are scripted writers rooms .
 57-1	4845-4849	Yeah	_	_	_	_
 57-2	4850-4851	,	_	_	_	_
-57-3	4852-4856	what	place[412]	new[412]	ana	57-13[417_412]
-57-4	4857-4860	you	place[412]|person[413]	new[412]|giv[413]	ana	60-10[436_413]
-57-5	4861-4864	see	place[412]	new[412]	_	_
-57-6	4865-4867	on	place[412]	new[412]	_	_
-57-7	4868-4874	Studio	place[412]	new[412]	_	_
-57-8	4875-4877	60	place[412]	new[412]	_	_
-57-9	4878-4881	and	place[412]	new[412]	_	_
-57-10	4882-4884	30	place[412]	new[412]	_	_
-57-11	4885-4889	Rock	place[412]	new[412]	_	_
+57-3	4852-4856	what	_	_	_	_
+57-4	4857-4860	you	person[413]	person[413]	ana	60-10[436_413]
+57-5	4861-4864	see	place[513]	place[513]	ana	57-13[417_513]
+57-6	4865-4867	on	_	_	_	_
+57-7	4868-4874	Studio	_	_	_	_
+57-8	4875-4877	60	_	_	_	_
+57-9	4878-4881	and	_	_	_	_
+57-10	4882-4884	30	_	_	_	_
+57-11	4885-4889	Rock	_	_	_	_
 57-12	4890-4891	,	_	_	_	_
 57-13	4892-4897	those	place[417]	giv[417]	_	_
 57-14	4898-4901	are	_	_	_	_
@@ -1126,20 +1126,20 @@
 58-5	4953-4954	.	_	_	_	_
 
 #Text=There 's a lot of unfunny jokes that are told in a back room , that 's why they stay and die in that back room and do n’t go out in The Onion .
-59-1	4955-4960	There	abstract[424]	new[424]	ana	59-16[427_424]
-59-2	4961-4963	's	abstract[424]	new[424]	_	_
-59-3	4964-4965	a	abstract[424]|abstract[425]	new[424]|new[425]	ana	59-19[428_425]
-59-4	4966-4969	lot	abstract[424]|abstract[425]	new[424]|new[425]	_	_
-59-5	4970-4972	of	abstract[424]|abstract[425]	new[424]|new[425]	_	_
-59-6	4973-4980	unfunny	abstract[424]|abstract[425]	new[424]|new[425]	_	_
-59-7	4981-4986	jokes	abstract[424]|abstract[425]	new[424]|new[425]	_	_
-59-8	4987-4991	that	abstract[424]|abstract[425]	new[424]|new[425]	_	_
-59-9	4992-4995	are	abstract[424]|abstract[425]	new[424]|new[425]	_	_
-59-10	4996-5000	told	abstract[424]|abstract[425]	new[424]|new[425]	_	_
-59-11	5001-5003	in	abstract[424]|abstract[425]	new[424]|new[425]	_	_
-59-12	5004-5005	a	abstract[424]|abstract[425]|place[426]	new[424]|new[425]|new[426]	coref	59-24[431_426]
-59-13	5006-5010	back	abstract[424]|abstract[425]|place[426]	new[424]|new[425]|new[426]	_	_
-59-14	5011-5015	room	abstract[424]|abstract[425]|place[426]	new[424]|new[425]|new[426]	_	_
+59-1	4955-4960	There	_	_	_	_
+59-2	4961-4963	's	abstract[515]	new[515]	ana	59-16[427_515]
+59-3	4964-4965	a	abstract[425]	abstract[425]	ana	59-19[428_425]
+59-4	4966-4969	lot	abstract[425]	abstract[425]	_	_
+59-5	4970-4972	of	abstract[425]	abstract[425]	_	_
+59-6	4973-4980	unfunny	abstract[425]	abstract[425]	_	_
+59-7	4981-4986	jokes	abstract[425]	abstract[425]	_	_
+59-8	4987-4991	that	abstract[425]	abstract[425]	_	_
+59-9	4992-4995	are	abstract[425]	abstract[425]	_	_
+59-10	4996-5000	told	abstract[425]	abstract[425]	_	_
+59-11	5001-5003	in	abstract[425]	abstract[425]	_	_
+59-12	5004-5005	a	abstract[425]|place[426]	abstract[425]|place[426]	coref	59-24[431_426]
+59-13	5006-5010	back	abstract[425]|place[426]	abstract[425]|place[426]	_	_
+59-14	5011-5015	room	abstract[425]|place[426]	abstract[425]|place[426]	_	_
 59-15	5016-5017	,	_	_	_	_
 59-16	5018-5022	that	abstract[427]	giv[427]	_	_
 59-17	5023-5025	's	_	_	_	_
@@ -1181,13 +1181,13 @@
 #Text=That ’s why we are on the 10th floor to make sure they die when they get kicked out .
 61-1	5179-5183	That	_	_	_	_
 61-2	5184-5186	’s	_	_	_	_
-61-3	5187-5190	why	abstract[442]	new[442]	cata	61-1[438_442]
-61-4	5191-5193	we	abstract[442]|person[443]	new[442]|giv[443]	ana	63-25[464_443]
-61-5	5194-5197	are	abstract[442]	new[442]	_	_
-61-6	5198-5200	on	abstract[442]	new[442]	_	_
-61-7	5201-5204	the	abstract[442]	new[442]	_	_
-61-8	5205-5209	10th	abstract[442]	new[442]	_	_
-61-9	5210-5215	floor	abstract[442]	new[442]	_	_
+61-3	5187-5190	why	_	_	_	_
+61-4	5191-5193	we	person[443]	giv[443]	ana	63-25[464_443]
+61-5	5194-5197	are	_	_	_	_
+61-6	5198-5200	on	_	_	_	_
+61-7	5201-5204	the	_	_	_	_
+61-8	5205-5209	10th	_	_	_	_
+61-9	5210-5215	floor	_	_	_	_
 61-10	5216-5218	to	_	_	_	_
 61-11	5219-5223	make	_	_	_	_
 61-12	5224-5228	sure	_	_	_	_
@@ -1204,11 +1204,11 @@
 62-1	5265-5267	It	_	_	_	_
 62-2	5268-5271	can	_	_	_	_
 62-3	5272-5274	be	_	_	_	_
-62-4	5275-5276	a	abstract[453]	new[453]	cata	62-1[449_453]
-62-5	5277-5281	real	abstract[453]	new[453]	_	_
-62-6	5282-5286	mess	abstract[453]	new[453]	_	_
-62-7	5287-5289	on	abstract[453]	new[453]	_	_
-62-8	5290-5298	Broadway	abstract[453]	new[453]	_	_
+62-4	5275-5276	a	_	_	_	_
+62-5	5277-5281	real	_	_	_	_
+62-6	5282-5286	mess	_	_	_	_
+62-7	5287-5289	on	_	_	_	_
+62-8	5290-5298	Broadway	_	_	_	_
 62-9	5299-5300	.	_	_	_	_
 
 #Text=By the time you get to be a writer for The Onion , though , the odds are you are going to succeed because we make it pretty challenging .

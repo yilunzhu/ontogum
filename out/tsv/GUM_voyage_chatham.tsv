@@ -4,16 +4,16 @@
 
 
 #Text=The Chatham Islands
-1-1	0-3	The	place[1]	new[1]	coref	2-1[404_1]
+1-1	0-3	The	place[1]	new[1]	coref	2-1[406_1]
 1-2	4-11	Chatham	place[1]	new[1]	_	_
 1-3	12-19	Islands	place[1]	new[1]	_	_
 
 #Text=The Chatnam Islands ( Rekohu in the indigenous Moriori language ) are the eastern-most settled islands in New Zealand .
-2-1	20-23	The	place[2]|place[404]	giv[2]|giv[404]	coref|appos	3-1[8_404]|2-5[3_2]
-2-2	24-31	Chatnam	place[2]|place[404]	giv[2]|giv[404]	_	_
-2-3	32-39	Islands	place[2]|place[404]	giv[2]|giv[404]	_	_
-2-4	40-41	(	place[404]	giv[404]	_	_
-2-5	42-48	Rekohu	place[3]|place[404]	giv[3]|giv[404]	_	_
+2-1	20-23	The	place[2]|place[406]	giv[2]|giv[406]	appos|coref	2-5[3_2]|3-1[8_406]
+2-2	24-31	Chatnam	place[2]|place[406]	giv[2]|giv[406]	_	_
+2-3	32-39	Islands	place[2]|place[406]	giv[2]|giv[406]	_	_
+2-4	40-41	(	place[406]	giv[406]	_	_
+2-5	42-48	Rekohu	place[3]|place[406]	giv[3]|giv[406]	_	_
 2-6	49-51	in	_	_	_	_
 2-7	52-55	the	_	_	_	_
 2-8	56-66	indigenous	_	_	_	_
@@ -129,13 +129,13 @@
 9-3	576-583	Islands	place[36]	giv[36]	_	_
 9-4	584-591	consist	_	_	_	_
 9-5	592-594	of	_	_	_	_
-9-6	595-598	the	place[37]|place[405]	acc[37]|acc[405]	coref|appos	33-6[208_405]|9-10[38_37]
-9-7	599-603	main	place[37]|place[405]	acc[37]|acc[405]	_	_
-9-8	604-610	island	place[37]|place[405]	acc[37]|acc[405]	_	_
-9-9	611-612	,	place[405]	acc[405]	_	_
-9-10	613-620	Chatham	place[38]|place[405]	giv[38]|acc[405]	_	_
-9-11	621-627	Island	place[38]|place[405]	giv[38]|acc[405]	_	_
-9-12	628-634	itself	place[38]|place[405]	giv[38]|acc[405]	_	_
+9-6	595-598	the	place[37]|place[408]	acc[37]|acc[408]	coref|appos	33-6[208_408]|9-10[38_37]
+9-7	599-603	main	place[37]|place[408]	acc[37]|acc[408]	_	_
+9-8	604-610	island	place[37]|place[408]	acc[37]|acc[408]	_	_
+9-9	611-612	,	place[408]	acc[408]	_	_
+9-10	613-620	Chatham	place[38]|place[408]	giv[38]|acc[408]	_	_
+9-11	621-627	Island	place[38]|place[408]	giv[38]|acc[408]	_	_
+9-12	628-634	itself	place[38]|place[408]	giv[38]|acc[408]	_	_
 9-13	635-636	,	_	_	_	_
 9-14	637-641	with	_	_	_	_
 9-15	642-643	a	_	_	_	_
@@ -400,12 +400,12 @@
 
 #Text=Although flying to the Chathams and back is not cheap , it is worth it .
 21-1	1916-1924	Although	_	_	_	_
-21-2	1925-1931	flying	event[121]	new[121]	ana	21-12[123_121]
-21-3	1932-1934	to	event[121]	new[121]	_	_
-21-4	1935-1938	the	event[121]|place[122]	new[121]|giv[122]	_	_
-21-5	1939-1947	Chathams	event[121]|place[122]	new[121]|giv[122]	_	_
-21-6	1948-1951	and	event[121]	new[121]	_	_
-21-7	1952-1956	back	event[121]	new[121]	_	_
+21-2	1925-1931	flying	event[404]	new[404]	ana	21-12[123_404]
+21-3	1932-1934	to	_	_	_	_
+21-4	1935-1938	the	place[122]	place[122]	_	_
+21-5	1939-1947	Chathams	place[122]	place[122]	_	_
+21-6	1948-1951	and	_	_	_	_
+21-7	1952-1956	back	_	_	_	_
 21-8	1957-1959	is	_	_	_	_
 21-9	1960-1963	not	_	_	_	_
 21-10	1964-1969	cheap	_	_	_	_
@@ -504,8 +504,8 @@
 24-26	2367-2368	a	_	_	_	_
 24-27	2369-2373	long	_	_	_	_
 24-28	2374-2377	way	_	_	_	_
-24-29	2378-2382	into	place[167]	new[167]	cata	24-24[161_167]
-24-30	2383-2387	town	place[167]	new[167]	_	_
+24-29	2378-2382	into	_	_	_	_
+24-30	2383-2387	town	_	_	_	_
 24-31	2388-2389	.	_	_	_	_
 
 #Text=By boat
@@ -523,23 +523,23 @@
 26-8	2441-2448	Chatham	place[171]	giv[171]	_	_
 26-9	2449-2456	Islands	place[171]	giv[171]	_	_
 26-10	2457-2464	remains	_	_	_	_
-26-11	2465-2468	the	object[406]	new[406]	coref	27-1[175_406]
-26-12	2469-2474	Black	object[406]	new[406]	_	_
-26-13	2475-2480	Robin	object[406]	new[406]	_	_
-26-14	2481-2491	Freighters	object[406]	new[406]	_	_
-26-15	2492-2493	"	object[406]	new[406]	_	_
-26-16	2494-2503	Rangatira	object[406]	new[406]	_	_
-26-17	2504-2505	"	object[406]	new[406]	_	_
-26-18	2506-2507	,	object[406]	new[406]	_	_
-26-19	2508-2510	an	object[406]	new[406]	_	_
-26-20	2511-2521	antiquated	object[406]	new[406]	_	_
-26-21	2522-2523	,	object[406]	new[406]	_	_
-26-22	2524-2528	slow	object[406]	new[406]	_	_
-26-23	2529-2532	and	object[406]	new[406]	_	_
-26-24	2533-2538	small	object[406]	new[406]	_	_
-26-25	2539-2546	coastal	object[406]	new[406]	_	_
-26-26	2547-2554	trading	object[406]	new[406]	_	_
-26-27	2555-2561	vessel	object[406]	new[406]	_	_
+26-11	2465-2468	the	object[172]|object[410]	new[172]|new[410]	coref|appos	27-1[175_410]|26-19[174_172]
+26-12	2469-2474	Black	object[172]|object[410]	new[172]|new[410]	_	_
+26-13	2475-2480	Robin	object[172]|object[410]	new[172]|new[410]	_	_
+26-14	2481-2491	Freighters	object[172]|object[410]	new[172]|new[410]	_	_
+26-15	2492-2493	"	object[172]|object[410]	new[172]|new[410]	_	_
+26-16	2494-2503	Rangatira	object[172]|object[410]	new[172]|new[410]	_	_
+26-17	2504-2505	"	object[172]|object[410]	new[172]|new[410]	_	_
+26-18	2506-2507	,	object[410]	new[410]	_	_
+26-19	2508-2510	an	object[174]|object[410]	giv[174]|new[410]	_	_
+26-20	2511-2521	antiquated	object[174]|object[410]	giv[174]|new[410]	_	_
+26-21	2522-2523	,	object[174]|object[410]	giv[174]|new[410]	_	_
+26-22	2524-2528	slow	object[174]|object[410]	giv[174]|new[410]	_	_
+26-23	2529-2532	and	object[174]|object[410]	giv[174]|new[410]	_	_
+26-24	2533-2538	small	object[174]|object[410]	giv[174]|new[410]	_	_
+26-25	2539-2546	coastal	object[174]|object[410]	giv[174]|new[410]	_	_
+26-26	2547-2554	trading	object[174]|object[410]	giv[174]|new[410]	_	_
+26-27	2555-2561	vessel	object[174]|object[410]	giv[174]|new[410]	_	_
 26-28	2562-2563	.	_	_	_	_
 
 #Text=This boat has serviced the islands for many years , but does not carry passengers .
@@ -832,7 +832,7 @@
 44-7	3884-3885	.	_	_	_	_
 
 #Text=Hapupu National Historic Scenic Reserve .
-45-1	3886-3892	Hapupu	_	_	_	_
+45-1	3886-3892	Hapupu	place[247]	new[247]	coref	46-1[249_247]
 45-2	3893-3901	National	_	_	_	_
 45-3	3902-3910	Historic	_	_	_	_
 45-4	3911-3917	Scenic	_	_	_	_
@@ -861,7 +861,7 @@
 46-19	4028-4035	Grounds	_	_	_	_
 46-20	4036-4037	)	_	_	_	_
 46-21	4038-4039	,	_	_	_	_
-46-22	4040-4046	Hapupu	place[252]	giv[252]	_	_
+46-22	4040-4046	Hapupu	place[252]	giv[252]	ana	47-8[259_252]
 46-23	4047-4049	is	_	_	_	_
 46-24	4050-4051	a	_	_	_	_
 46-25	4052-4059	special	_	_	_	_
@@ -1072,10 +1072,10 @@
 55-4	5060-5067	Moriori	_	_	_	_
 55-5	5068-5076	carvings	_	_	_	_
 55-6	5077-5080	and	_	_	_	_
-55-7	5081-5092	traditional	_	_	_	_
-55-8	5093-5099	taonga	_	_	_	_
+55-7	5081-5092	traditional	object[320]	new[320]	appos	55-10[321_320]
+55-8	5093-5099	taonga	object[320]	new[320]	_	_
 55-9	5100-5101	(	_	_	_	_
-55-10	5102-5111	treasures	_	_	_	_
+55-10	5102-5111	treasures	object[321]	giv[321]	_	_
 55-11	5112-5113	)	_	_	_	_
 55-12	5114-5115	,	_	_	_	_
 55-13	5116-5119	the	place[323]	giv[323]	coref	56-6[328_323]
@@ -1148,11 +1148,11 @@
 59-8	5460-5472	full-blooded	_	_	_	_
 59-9	5473-5480	Moriori	_	_	_	_
 59-10	5481-5484	and	_	_	_	_
-59-11	5485-5487	he	event[341]|person[342]	new[341]|giv[342]	coref|ana	62-15[359_341]|60-1[344_342]
-59-12	5488-5494	passed	event[341]	new[341]	_	_
-59-13	5495-5499	away	event[341]	new[341]	_	_
-59-14	5500-5502	in	event[341]	new[341]	_	_
-59-15	5503-5507	1933	event[341]	new[341]	_	_
+59-11	5485-5487	he	person[342]	person[342]	ana	60-1[344_342]
+59-12	5488-5494	passed	event[405]	event[405]	coref	62-15[359_405]
+59-13	5495-5499	away	_	_	_	_
+59-14	5500-5502	in	_	_	_	_
+59-15	5503-5507	1933	_	_	_	_
 59-16	5508-5509	.	_	_	_	_
 
 #Text=He was however , not the last Moriori .
@@ -1167,7 +1167,7 @@
 60-9	5548-5549	.	_	_	_	_
 
 #Text=His own descendants and the descendants of other Moriori live on today .
-61-1	5550-5553	His	person[349]|person[350]	new[349]|giv[350]	coref|ana	63-9[365_349]|62-15[360_350]
+61-1	5550-5553	His	person[349]|person[350]	new[349]|giv[350]	ana|coref	62-15[360_350]|63-9[365_349]
 61-2	5554-5557	own	person[349]	new[349]	_	_
 61-3	5558-5569	descendants	person[349]	new[349]	_	_
 61-4	5570-5573	and	_	_	_	_

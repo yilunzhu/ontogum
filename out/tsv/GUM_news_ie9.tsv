@@ -14,12 +14,12 @@
 1-8	47-48	6	abstract[4]	new[4]	_	_
 
 #Text=Tuesday , March 8 , 2011
-2-1	49-56	Tuesday	_	_	_	_
+2-1	49-56	Tuesday	time[5]	acc[5]	appos	2-3[7_5]
 2-2	57-58	,	_	_	_	_
-2-3	59-64	March	_	_	_	_
-2-4	65-66	8	_	_	_	_
-2-5	67-68	,	_	_	_	_
-2-6	69-73	2011	_	_	_	_
+2-3	59-64	March	time[7]	giv[7]	_	_
+2-4	65-66	8	time[7]	giv[7]	_	_
+2-5	67-68	,	time[7]	giv[7]	_	_
+2-6	69-73	2011	time[7]	giv[7]	_	_
 
 #Text=With development of Microsoft 's Internet Explorer 9 ( IE9 ) browser almost complete , Microsoft announced on Friday that it is time for IE6 users to move away from the antiquated 10-year-old browser .
 3-1	74-78	With	_	_	_	_
@@ -71,17 +71,17 @@
 
 #Text=On a new website , " The Internet Explorer 6 Countdown " , Microsoft has launched an aggressive campaign to persuade users to stop using IE6 and update to a newer IE .
 5-1	330-332	On	_	_	_	_
-5-2	333-334	a	abstract[28]|abstract[205]	new[28]|new[205]	coref|appos	9-28[62_205]|5-7[29_28]
-5-3	335-338	new	abstract[28]|abstract[205]	new[28]|new[205]	_	_
-5-4	339-346	website	abstract[28]|abstract[205]	new[28]|new[205]	_	_
-5-5	347-348	,	abstract[205]	new[205]	_	_
-5-6	349-350	"	abstract[205]	new[205]	_	_
-5-7	351-354	The	abstract[29]|abstract[205]	giv[29]|new[205]	_	_
-5-8	355-363	Internet	abstract[29]|abstract[30]|abstract[205]	giv[29]|giv[30]|new[205]	coref	5-26[35_30]
-5-9	364-372	Explorer	abstract[29]|abstract[30]|abstract[205]	giv[29]|giv[30]|new[205]	_	_
-5-10	373-374	6	abstract[29]|abstract[30]|abstract[205]	giv[29]|giv[30]|new[205]	_	_
-5-11	375-384	Countdown	abstract[29]|abstract[205]	giv[29]|new[205]	_	_
-5-12	385-386	"	_	_	_	_
+5-2	333-334	a	abstract[28]|abstract[207]	new[28]|new[207]	coref|appos	9-28[62_207]|5-7[29_28]
+5-3	335-338	new	abstract[28]|abstract[207]	new[28]|new[207]	_	_
+5-4	339-346	website	abstract[28]|abstract[207]	new[28]|new[207]	_	_
+5-5	347-348	,	abstract[207]	new[207]	_	_
+5-6	349-350	"	abstract[207]	new[207]	_	_
+5-7	351-354	The	abstract[29]|abstract[207]	giv[29]|new[207]	_	_
+5-8	355-363	Internet	abstract[29]|abstract[30]|abstract[207]	giv[29]|giv[30]|new[207]	coref	5-26[35_30]
+5-9	364-372	Explorer	abstract[29]|abstract[30]|abstract[207]	giv[29]|giv[30]|new[207]	_	_
+5-10	373-374	6	abstract[29]|abstract[30]|abstract[207]	giv[29]|giv[30]|new[207]	_	_
+5-11	375-384	Countdown	abstract[29]|abstract[207]	giv[29]|new[207]	_	_
+5-12	385-386	"	abstract[207]	new[207]	_	_
 5-13	387-388	,	_	_	_	_
 5-14	389-398	Microsoft	organization[31]	giv[31]	coref	9-24[59_31]
 5-15	399-402	has	_	_	_	_
@@ -179,7 +179,7 @@
 9-34	785-786	.	_	_	_	_
 
 #Text=Internet Explorer 's market share is slipping .
-10-1	787-795	Internet	abstract[65]	acc[65]	ana	12-4[79_65]
+10-1	787-795	Internet	abstract[65]	acc[65]	coref	12-4[79_65]
 10-2	796-804	Explorer	abstract[65]	acc[65]	_	_
 10-3	805-807	's	abstract[65]	acc[65]	_	_
 10-4	808-814	market	_	_	_	_
@@ -189,19 +189,19 @@
 10-8	833-834	.	_	_	_	_
 
 #Text=IE 's various versions accounted for 70 percent of the market in 2009 ; this has dropped to approximately 56 percent today .
-11-1	835-837	IE	abstract[66]	new[66]	ana	11-15[72_66]
-11-2	838-840	's	abstract[66]	new[66]	_	_
-11-3	841-848	various	abstract[66]	new[66]	_	_
-11-4	849-857	versions	abstract[66]	new[66]	_	_
-11-5	858-867	accounted	abstract[66]	new[66]	_	_
-11-6	868-871	for	abstract[66]	new[66]	_	_
-11-7	872-874	70	abstract[66]	new[66]	_	_
-11-8	875-882	percent	abstract[66]	new[66]	_	_
-11-9	883-885	of	abstract[66]	new[66]	_	_
-11-10	886-889	the	abstract[66]	new[66]	_	_
-11-11	890-896	market	abstract[66]	new[66]	_	_
-11-12	897-899	in	abstract[66]	new[66]	_	_
-11-13	900-904	2009	abstract[66]	new[66]	_	_
+11-1	835-837	IE	_	_	_	_
+11-2	838-840	's	_	_	_	_
+11-3	841-848	various	_	_	_	_
+11-4	849-857	versions	_	_	_	_
+11-5	858-867	accounted	abstract[204]	new[204]	ana	11-15[72_204]
+11-6	868-871	for	_	_	_	_
+11-7	872-874	70	_	_	_	_
+11-8	875-882	percent	_	_	_	_
+11-9	883-885	of	_	_	_	_
+11-10	886-889	the	_	_	_	_
+11-11	890-896	market	_	_	_	_
+11-12	897-899	in	_	_	_	_
+11-13	900-904	2009	_	_	_	_
 11-14	905-906	;	_	_	_	_
 11-15	907-911	this	abstract[72]	acc[72]	_	_
 11-16	912-915	has	_	_	_	_
@@ -214,12 +214,12 @@
 11-23	958-959	.	_	_	_	_
 
 #Text=Mozilla Firefox , its main rival , has been actively increasing its market share while the recently released Google Chrome is also quickly gaining users .
-12-1	960-967	Mozilla	object[77]|object[206]	new[77]|new[206]	appos|ana	12-4[78_77]|12-12[82_206]
-12-2	968-975	Firefox	object[77]|object[206]	new[77]|new[206]	_	_
-12-3	976-977	,	object[206]	new[206]	_	_
-12-4	978-981	its	object[78]|abstract[79]|object[206]	giv[78]|giv[79]|new[206]	_	_
-12-5	982-986	main	object[78]|object[206]	giv[78]|new[206]	_	_
-12-6	987-992	rival	object[78]|object[206]	giv[78]|new[206]	_	_
+12-1	960-967	Mozilla	object[77]|object[209]	new[77]|new[209]	appos|ana	12-4[78_77]|12-12[82_209]
+12-2	968-975	Firefox	object[77]|object[209]	new[77]|new[209]	_	_
+12-3	976-977	,	object[209]	new[209]	_	_
+12-4	978-981	its	object[78]|abstract[79]|object[209]	giv[78]|giv[79]|new[209]	_	_
+12-5	982-986	main	object[78]|object[209]	giv[78]|new[209]	_	_
+12-6	987-992	rival	object[78]|object[209]	giv[78]|new[209]	_	_
 12-7	993-994	,	_	_	_	_
 12-8	995-998	has	_	_	_	_
 12-9	999-1003	been	_	_	_	_
@@ -326,7 +326,7 @@
 15-20	1477-1478	"	_	_	_	_
 
 #Text=Web developers face big problems with IE6 .
-16-1	1479-1482	Web	person[114]	new[114]	ana	17-2[119_114]
+16-1	1479-1482	Web	person[114]	person[114]	ana	17-2[119_114]
 16-2	1483-1493	developers	person[114]	new[114]	_	_
 16-3	1494-1498	face	_	_	_	_
 16-4	1499-1502	big	_	_	_	_

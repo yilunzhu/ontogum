@@ -16,12 +16,12 @@
 1-10	50-57	Toronto	place[6]	new[6]	coref	5-11[31_6]
 
 #Text=Wednesday , September 7 , 2016
-2-1	58-67	Wednesday	_	_	_	_
+2-1	58-67	Wednesday	time[7]	acc[7]	appos	2-3[13_7]
 2-2	68-69	,	_	_	_	_
-2-3	70-79	September	_	_	_	_
-2-4	80-81	7	_	_	_	_
-2-5	82-83	,	_	_	_	_
-2-6	84-88	2016	_	_	_	_
+2-3	70-79	September	time[13]	giv[13]	_	_
+2-4	80-81	7	time[13]	giv[13]	_	_
+2-5	82-83	,	time[13]	giv[13]	_	_
+2-6	84-88	2016	time[13]	giv[13]	_	_
 
 #Text=The far end of part of the convention floor , shortly after opening Friday .
 3-1	89-92	The	_	_	_	_
@@ -48,7 +48,7 @@
 4-5	186-187	.	_	_	_	_
 
 #Text=The 22nd Fan Expo Canada took place at the Metro Toronto Convention Centre this weekend , attracting thousands to the event , one of the most popular in North America .
-5-1	188-191	The	event[25]	giv[25]	coref	5-20[368_25]
+5-1	188-191	The	event[25]	giv[25]	coref	5-20[369_25]
 5-2	192-196	22nd	event[25]	giv[25]	_	_
 5-3	197-200	Fan	event[25]|person[26]	giv[25]|giv[26]	_	_
 5-4	201-205	Expo	event[25]	giv[25]	_	_
@@ -67,17 +67,17 @@
 5-17	278-288	attracting	_	_	_	_
 5-18	289-298	thousands	_	_	_	_
 5-19	299-301	to	_	_	_	_
-5-20	302-305	the	_	_	coref	6-17[50_368]
-5-21	306-311	event	_	_	_	_
-5-22	312-313	,	event[368]	giv[368]	_	_
-5-23	314-317	one	event[368]	giv[368]	_	_
-5-24	318-320	of	event[368]	giv[368]	_	_
-5-25	321-324	the	event[368]	giv[368]	_	_
-5-26	325-329	most	event[368]	giv[368]	_	_
-5-27	330-337	popular	event[368]	giv[368]	_	_
-5-28	338-340	in	event[368]	giv[368]	_	_
-5-29	341-346	North	event[368]	giv[368]	_	_
-5-30	347-354	America	event[368]	giv[368]	_	_
+5-20	302-305	the	event[36]|event[369]	giv[36]|giv[369]	appos|coref	5-23[37_36]|6-17[50_369]
+5-21	306-311	event	event[36]|event[369]	giv[36]|giv[369]	_	_
+5-22	312-313	,	event[369]	giv[369]	_	_
+5-23	314-317	one	event[37]|event[369]	giv[37]|giv[369]	_	_
+5-24	318-320	of	event[37]|event[369]	giv[37]|giv[369]	_	_
+5-25	321-324	the	event[37]|event[369]	giv[37]|giv[369]	_	_
+5-26	325-329	most	event[37]|event[369]	giv[37]|giv[369]	_	_
+5-27	330-337	popular	event[37]|event[369]	giv[37]|giv[369]	_	_
+5-28	338-340	in	event[37]|event[369]	giv[37]|giv[369]	_	_
+5-29	341-346	North	event[37]|event[369]	giv[37]|giv[369]	_	_
+5-30	347-354	America	event[37]|event[369]	giv[37]|giv[369]	_	_
 5-31	355-356	.	_	_	_	_
 
 #Text=Crossing between the genres of science fiction , horror , anime , fantasy and comics , the event sprawled throughout all corners of the facility .
@@ -126,11 +126,11 @@
 7-15	587-591	Stan	person[56]	new[56]	coref	10-1[77_56]
 7-16	592-595	Lee	person[56]	new[56]	_	_
 7-17	596-597	,	_	_	_	_
-7-18	598-602	Mark	person[57]	new[57]	coref	11-24[94_57]
+7-18	598-602	Mark	person[57]	new[57]		11-24[94_57]
 7-19	603-609	Hamill	person[57]	new[57]	_	_
 7-20	610-611	,	_	_	_	_
 7-21	612-615	and	_	_	_	_
-7-22	616-624	Margaret	person[58]	new[58]	coref	9-1[369_58]
+7-22	616-624	Margaret	person[58]	new[58]	coref	9-1[371_58]
 7-23	625-631	Atwood	person[58]	new[58]	_	_
 7-24	632-633	.	_	_	_	_
 
@@ -162,11 +162,11 @@
 8-25	782-783	.	_	_	_	_
 
 #Text=Atwood , a Booker Prize-winner , was there to launch her graphic novel Angel Catbird , with illustrator Johnnie Christmas .
-9-1	784-790	Atwood	person[369]	giv[369]	ana	9-11[73_369]
-9-2	791-792	,	person[369]	giv[369]	_	_
-9-3	793-794	a	person[369]	giv[369]	_	_
-9-4	795-801	Booker	person[369]	giv[369]	_	_
-9-5	802-814	Prize-winner	person[369]	giv[369]	_	_
+9-1	784-790	Atwood	person[67]|person[371]	giv[67]|giv[371]	ana|appos	9-11[73_371]|9-3[71_67]
+9-2	791-792	,	person[371]	giv[371]	_	_
+9-3	793-794	a	person[71]|person[371]	giv[71]|giv[371]	_	_
+9-4	795-801	Booker	person[71]|person[371]	giv[71]|giv[371]	_	_
+9-5	802-814	Prize-winner	person[71]|person[371]	giv[71]|giv[371]	_	_
 9-6	815-816	,	_	_	_	_
 9-7	817-820	was	_	_	_	_
 9-8	821-826	there	_	_	_	_
@@ -262,7 +262,7 @@
 13-1	1266-1268	In	_	_	_	_
 13-2	1269-1272	the	event[111]	new[111]	coref	14-4[128_111]
 13-3	1273-1282	20-minute	event[111]	new[111]	_	_
-13-4	1283-1294	PlayStation	event[111]|object[114]|object[115]	new[111]|giv[114]|giv[115]	coref|coref	21-1[182_115]|21-1[181_114]
+13-4	1283-1294	PlayStation	event[111]|object[114]|object[115]	new[111]|giv[114]|giv[115]	coref|coref	21-1[181_114]|21-1[182_115]
 13-5	1295-1297	VR	event[111]|object[114]	new[111]|giv[114]	_	_
 13-6	1298-1311	demonstration	event[111]	new[111]	_	_
 13-7	1312-1314	of	event[111]	new[111]	_	_
@@ -629,8 +629,8 @@
 35-1	3071-3075	Epic	person[255]	new[255]	coref	40-21[291_255]
 35-2	3076-3082	Mickey	person[255]	new[255]	_	_
 35-3	3083-3085	by	person[255]	new[255]	_	_
-35-4	3086-3089	The	person[255]	new[255]	_	_
-35-5	3090-3102	Katherinator	person[255]	new[255]	_	_
+35-4	3086-3089	The	person[255]|person[256]	new[255]|new[256]	coref	39-8[277_256]
+35-5	3090-3102	Katherinator	person[255]|person[256]	new[255]|new[256]	_	_
 35-6	3103-3104	.	_	_	_	_
 
 #Text=Image : Nick Moreau .
@@ -725,7 +725,7 @@
 40-16	3554-3562	arranged	_	_	_	_
 40-17	3563-3565	to	_	_	_	_
 40-18	3566-3571	shoot	_	_	_	_
-40-19	3572-3575	her	object[287]|person[288]	new[287]|giv[288]	coref|ana	41-33[301_287]|41-17[295_288]
+40-19	3572-3575	her	object[287]|person[288]	new[287]|giv[288]	ana|coref	41-17[295_288]|41-33[301_287]
 40-20	3576-3579	new	object[287]	new[287]	_	_
 40-21	3580-3584	Epic	object[287]|person[291]	new[287]|giv[291]	_	_
 40-22	3585-3591	Mickey	object[287]|person[291]	new[287]|giv[291]	_	_

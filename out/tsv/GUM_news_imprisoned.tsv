@@ -11,29 +11,29 @@
 1-5	31-33	of	organization[2]	new[2]	_	_
 1-6	34-45	Scientology	organization[2]	new[2]	_	_
 1-7	46-56	imprisoned	_	_	_	_
-1-8	57-60	her	person[3]	giv[3]	coref	3-1[248_3]
+1-8	57-60	her	person[3]	giv[3]	coref	3-1[249_3]
 1-9	61-64	for	_	_	_	_
 1-10	65-71	twelve	_	_	_	_
 1-11	72-77	years	_	_	_	_
 
 #Text=Thursday , May 7 , 2015
-2-1	78-86	Thursday	_	_	_	_
+2-1	78-86	Thursday	time[6]	acc[6]	appos	2-3[8_6]
 2-2	87-88	,	_	_	_	_
-2-3	89-92	May	_	_	_	_
-2-4	93-94	7	_	_	_	_
-2-5	95-96	,	_	_	_	_
-2-6	97-101	2015	_	_	_	_
+2-3	89-92	May	time[8]	giv[8]	_	_
+2-4	93-94	7	time[8]	giv[8]	_	_
+2-5	95-96	,	time[8]	giv[8]	_	_
+2-6	97-101	2015	time[8]	giv[8]	_	_
 
 #Text=Valeska Paris , an Australian woman and former Scientologist , has claimed that the Church of Scientology imprisoned her for twelve years aboard the Scientology - owned cruise ship , Freewinds .
-3-1	102-109	Valeska	person[248]	giv[248]	ana	3-19[14_248]
-3-2	110-115	Paris	person[248]	giv[248]	_	_
-3-3	116-117	,	person[248]	giv[248]	_	_
-3-4	118-120	an	person[248]	giv[248]	_	_
-3-5	121-131	Australian	person[248]	giv[248]	_	_
-3-6	132-137	woman	person[248]	giv[248]	_	_
-3-7	138-141	and	person[248]	giv[248]	_	_
-3-8	142-148	former	person[248]	giv[248]	_	_
-3-9	149-162	Scientologist	person[248]	giv[248]	_	_
+3-1	102-109	Valeska	person[11]|person[249]	giv[11]|giv[249]	ana|appos	3-19[14_249]|3-4[12_11]
+3-2	110-115	Paris	person[11]|person[249]	giv[11]|giv[249]	_	_
+3-3	116-117	,	person[249]	giv[249]	_	_
+3-4	118-120	an	person[12]|person[249]	giv[12]|giv[249]	_	_
+3-5	121-131	Australian	person[12]|person[249]	giv[12]|giv[249]	_	_
+3-6	132-137	woman	person[12]|person[249]	giv[12]|giv[249]	_	_
+3-7	138-141	and	person[12]|person[249]	giv[12]|giv[249]	_	_
+3-8	142-148	former	person[12]|person[249]	giv[12]|giv[249]	_	_
+3-9	149-162	Scientologist	person[12]|person[249]	giv[12]|giv[249]	_	_
 3-10	163-164	,	_	_	_	_
 3-11	165-168	has	_	_	_	_
 3-12	169-176	claimed	_	_	_	_
@@ -49,7 +49,7 @@
 3-22	234-239	years	_	_	_	_
 3-23	240-246	aboard	_	_	_	_
 3-24	247-250	the	object[17]	new[17]	coref	3-31[19_17]
-3-25	251-262	Scientology	object[17]|organization[18]	new[17]|giv[18]	coref	5-25[43_18]
+3-25	251-262	Scientology	object[17]|organization[18]	new[17]|giv[18]	coref	10-13[84_18]
 3-26	263-264	-	object[17]	new[17]	_	_
 3-27	265-270	owned	object[17]	new[17]	_	_
 3-28	271-277	cruise	object[17]	new[17]	_	_
@@ -59,14 +59,14 @@
 3-32	295-296	.	_	_	_	_
 
 #Text=The Church of Scientology 's cruise ship Freewinds in Bonaire .
-4-1	297-300	The	object[22]|object[249]	giv[22]|giv[249]	coref|appos	8-8[61_249]|4-8[24_22]
-4-2	301-307	Church	object[22]|object[249]	giv[22]|giv[249]	_	_
-4-3	308-310	of	object[22]|object[249]	giv[22]|giv[249]	_	_
-4-4	311-322	Scientology	object[22]|object[249]	giv[22]|giv[249]	_	_
-4-5	323-325	's	object[22]|object[249]	giv[22]|giv[249]	_	_
-4-6	326-332	cruise	object[22]|object[249]	giv[22]|giv[249]	_	_
-4-7	333-337	ship	object[22]|object[249]	giv[22]|giv[249]	_	_
-4-8	338-347	Freewinds	object[24]|object[249]	giv[24]|giv[249]	_	_
+4-1	297-300	The	object[22]|object[251]	giv[22]|giv[251]	appos|coref	4-8[24_22]|8-8[61_251]
+4-2	301-307	Church	object[22]|object[251]	giv[22]|giv[251]	_	_
+4-3	308-310	of	object[22]|object[251]	giv[22]|giv[251]	_	_
+4-4	311-322	Scientology	object[22]|object[251]	giv[22]|giv[251]	_	_
+4-5	323-325	's	object[22]|object[251]	giv[22]|giv[251]	_	_
+4-6	326-332	cruise	object[22]|object[251]	giv[22]|giv[251]	_	_
+4-7	333-337	ship	object[22]|object[251]	giv[22]|giv[251]	_	_
+4-8	338-347	Freewinds	object[24]|object[251]	giv[24]|giv[251]	_	_
 4-9	348-350	in	_	_	_	_
 4-10	351-358	Bonaire	_	_	_	_
 4-11	359-360	.	_	_	_	_
@@ -78,7 +78,7 @@
 5-4	376-378	in	_	_	_	_
 5-5	379-390	Switzerland	_	_	_	_
 5-6	391-394	but	_	_	_	_
-5-7	395-398	her	person[32]|person[33]	new[32]|giv[33]	ana|ana	5-10[34_33]|5-20[39_32]
+5-7	395-398	her	person[32]|person[33]	new[32]|giv[33]	ana|ana	5-20[39_32]|5-10[34_33]
 5-8	399-406	parents	person[32]	new[32]	_	_
 5-9	407-412	moved	_	_	_	_
 5-10	413-416	her	person[34]	giv[34]	ana	5-16[38_34]
@@ -96,9 +96,9 @@
 5-22	470-472	be	_	_	_	_
 5-23	473-479	closer	_	_	_	_
 5-24	480-482	to	_	_	_	_
-5-25	483-486	the	organization[43]	giv[43]	coref	10-13[84_43]
-5-26	487-493	church	organization[43]	giv[43]	_	_
-5-27	494-496	's	organization[43]	giv[43]	_	_
+5-25	483-486	the	_	_	_	_
+5-26	487-493	church	_	_	_	_
+5-27	494-496	's	_	_	_	_
 5-28	497-509	headquarters	_	_	_	_
 5-29	510-511	.	_	_	_	_
 
@@ -133,7 +133,7 @@
 #Text=Paris claims she was first sent to the ship aged eighteen for two weeks as a teenager but ended up spending twelve years there .
 8-1	619-624	Paris	person[56]	giv[56]	ana	8-3[57_56]
 8-2	625-631	claims	_	_	_	_
-8-3	632-635	she	person[57]	giv[57]	_	_
+8-3	632-635	she	person[57]	giv[57]	coref	8-16[65_57]
 8-4	636-639	was	_	_	_	_
 8-5	640-645	first	_	_	_	_
 8-6	646-650	sent	_	_	_	_
@@ -190,7 +190,7 @@
 10-6	882-885	and	_	_	_	_
 10-7	886-890	told	_	_	_	_
 10-8	891-895	that	_	_	_	_
-10-9	896-898	my	person[81]|person[82]	giv[81]|giv[82]	ana|ana	10-17[85_82]|10-22[86_81]
+10-9	896-898	my	person[81]|person[82]	giv[81]|giv[82]	ana|ana	10-22[86_81]|10-17[85_82]
 10-10	899-902	mum	person[81]	giv[81]	_	_
 10-11	903-906	had	_	_	_	_
 10-12	907-915	attacked	_	_	_	_
@@ -221,7 +221,7 @@
 11-6	1038-1041	and	_	_	_	_
 11-7	1042-1046	told	_	_	_	_
 11-8	1047-1051	that	_	_	_	_
-11-9	1052-1054	my	person[94]|person[95]	giv[94]|giv[95]	ana|ana	11-17[98_95]|11-22[99_94]
+11-9	1052-1054	my	person[94]|person[95]	giv[94]|giv[95]	ana|ana	11-22[99_94]|11-17[98_95]
 11-10	1055-1058	mum	person[94]	giv[94]	_	_
 11-11	1059-1062	had	_	_	_	_
 11-12	1063-1071	attacked	_	_	_	_
@@ -242,7 +242,7 @@
 11-27	1152-1153	.	_	_	_	_
 
 #Text=Her mother had spoken out against Scientology on French television after her ex-husband and Paris 's father , Albert Jaquier , committed suicide after he lost his fortune to Scientology .
-12-1	1154-1157	Her	person[104]|person[105]	giv[104]|giv[105]	ana|coref	12-12[111_104]|13-1[122_105]
+12-1	1154-1157	Her	person[104]|person[105]	giv[104]|giv[105]	ana|ana	13-1[122_105]|12-12[111_104]
 12-2	1158-1164	mother	person[104]	giv[104]	_	_
 12-3	1165-1168	had	_	_	_	_
 12-4	1169-1175	spoken	_	_	_	_
@@ -253,15 +253,15 @@
 12-9	1203-1209	French	_	_	_	_
 12-10	1210-1220	television	_	_	_	_
 12-11	1221-1226	after	_	_	_	_
-12-12	1227-1230	her	person[111]	giv[111]	_	_
-12-13	1231-1241	ex-husband	_	_	_	_
+12-12	1227-1230	her	person[110]|person[111]	new[110]|giv[111]	coref	12-15[253_110]
+12-13	1231-1241	ex-husband	person[110]	new[110]	_	_
 12-14	1242-1245	and	_	_	_	_
-12-15	1246-1251	Paris	person[113]|person[250]	giv[113]|giv[250]	appos|ana	12-19[115_113]|12-25[117_250]
-12-16	1252-1254	's	person[113]|person[250]	giv[113]|giv[250]	_	_
-12-17	1255-1261	father	person[113]|person[250]	giv[113]|giv[250]	_	_
-12-18	1262-1263	,	person[250]	giv[250]	_	_
-12-19	1264-1270	Albert	person[115]|person[250]	giv[115]|giv[250]	_	_
-12-20	1271-1278	Jaquier	person[115]|person[250]	giv[115]|giv[250]	_	_
+12-15	1246-1251	Paris	person[113]|person[253]	giv[113]|giv[253]	appos|ana	12-19[115_113]|12-25[117_253]
+12-16	1252-1254	's	person[113]|person[253]	giv[113]|giv[253]	_	_
+12-17	1255-1261	father	person[113]|person[253]	giv[113]|giv[253]	_	_
+12-18	1262-1263	,	person[253]	giv[253]	_	_
+12-19	1264-1270	Albert	person[115]|person[253]	giv[115]|giv[253]	_	_
+12-20	1271-1278	Jaquier	person[115]|person[253]	giv[115]|giv[253]	_	_
 12-21	1279-1280	,	_	_	_	_
 12-22	1281-1290	committed	_	_	_	_
 12-23	1291-1298	suicide	_	_	_	_

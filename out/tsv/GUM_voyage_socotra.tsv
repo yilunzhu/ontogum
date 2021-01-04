@@ -26,7 +26,7 @@
 2-17	99-106	nowhere	_	_	_	_
 2-18	107-111	else	_	_	_	_
 2-19	112-113	,	_	_	_	_
-2-20	114-121	Socotra	place[6]	new[6]	cata	2-3[2_6]
+2-20	114-121	Socotra	place[6]	new[6]	ana	3-8[12_6]
 2-21	122-125	has	_	_	_	_
 2-22	126-130	been	_	_	_	_
 2-23	131-141	designated	_	_	_	_
@@ -302,7 +302,7 @@
 14-4	1518-1519	a	place[95]	giv[95]	ana	14-10[99_95]
 14-5	1520-1526	fairly	place[95]	giv[95]	_	_
 14-6	1527-1530	new	place[95]	giv[95]	_	_
-14-7	1531-1542	eco-tourism	place[95]	giv[95]	_	_
+14-7	1531-1542	eco-tourism	place[95]	place[95]	_	_
 14-8	1543-1554	destination	place[95]	giv[95]	_	_
 14-9	1555-1556	,	_	_	_	_
 14-10	1557-1562	their	place[99]	giv[99]	coref	15-19[104_99]
@@ -498,9 +498,9 @@
 23-16	2547-2548	.	_	_	_	_
 
 #Text=When to go : Climate is an important consideration .
-24-1	2549-2553	When	abstract[158]	new[158]	ana	25-2[162_158]
-24-2	2554-2556	to	abstract[158]	new[158]	_	_
-24-3	2557-2559	go	abstract[158]	new[158]	_	_
+24-1	2549-2553	When	_	_	_	_
+24-2	2554-2556	to	_	_	_	_
+24-3	2557-2559	go	abstract[358]	new[358]	ana	25-2[162_358]
 24-4	2560-2561	:	_	_	_	_
 24-5	2562-2569	Climate	_	_	_	_
 24-6	2570-2572	is	_	_	_	_
@@ -770,7 +770,7 @@
 44-13	3782-3790	Hagghier	place[259]	new[259]	_	_
 44-14	3791-3800	mountains	place[259]	new[259]	_	_
 44-15	3801-3804	and	_	_	_	_
-44-16	3805-3814	limestone	place[260]	new[260]	coref	47-1[282_260]
+44-16	3805-3814	limestone	place[260]	place[260]	coref	47-1[282_260]
 44-17	3815-3822	plateau	place[260]	new[260]	_	_
 44-18	3823-3824	.	_	_	_	_
 
@@ -832,7 +832,7 @@
 
 #Text=The limestone plateau and the Hagghier Mountains are the richest areas for endemic plant species , but endemics are found throughout the island in every type of vegetation .
 47-1	4096-4099	The	place[282]	giv[282]	_	_
-47-2	4100-4109	limestone	place[282]	giv[282]	_	_
+47-2	4100-4109	limestone	place[282]	place[282]	_	_
 47-3	4110-4117	plateau	place[282]	giv[282]	_	_
 47-4	4118-4121	and	_	_	_	_
 47-5	4122-4125	the	place[285]	giv[285]	_	_
@@ -882,7 +882,7 @@
 48-18	4357-4363	exists	_	_	_	_
 48-19	4364-4368	only	_	_	_	_
 48-20	4369-4371	on	_	_	_	_
-48-21	4372-4379	Socotra	place[295]	giv[295]	coref	52-4[316_295]
+48-21	4372-4379	Socotra	place[295]	giv[295]		54-8[321_295]
 48-22	4380-4383	and	_	_	_	_
 48-23	4384-4391	nowhere	_	_	_	_
 48-24	4392-4396	else	_	_	_	_
@@ -952,8 +952,8 @@
 52-1	4664-4668	Also	_	_	_	_
 52-2	4669-4674	found	_	_	_	_
 52-3	4675-4677	in	_	_	_	_
-52-4	4678-4685	Socotra	place[316]	giv[316]	coref	54-8[321_316]
-52-5	4686-4688	's	place[316]	giv[316]	_	_
+52-4	4678-4685	Socotra	_	_	_	_
+52-5	4686-4688	's	_	_	_	_
 52-6	4689-4698	landscape	_	_	_	_
 52-7	4699-4701	is	_	_	_	_
 52-8	4702-4705	the	_	_	_	_
@@ -997,13 +997,13 @@
 54-11	4889-4891	it	_	_	_	_
 54-12	4892-4894	is	_	_	_	_
 54-13	4895-4904	difficult	_	_	_	_
-54-14	4905-4908	not	event[324]	new[324]	cata	54-11[322_324]
-54-15	4909-4912	the	event[324]	new[324]	_	_
-54-16	4913-4923	appreciate	event[324]	new[324]	_	_
-54-17	4924-4926	to	event[324]	new[324]	_	_
-54-18	4927-4938	magnificent	event[324]	new[324]	_	_
-54-19	4939-4946	scenery	event[324]	new[324]	_	_
-54-20	4947-4950	and	event[324]	new[324]	_	_
-54-21	4951-4959	wildlife	event[324]	new[324]	_	_
+54-14	4905-4908	not	_	_	_	_
+54-15	4909-4912	the	_	_	_	_
+54-16	4913-4923	appreciate	_	_	_	_
+54-17	4924-4926	to	_	_	_	_
+54-18	4927-4938	magnificent	_	_	_	_
+54-19	4939-4946	scenery	_	_	_	_
+54-20	4947-4950	and	_	_	_	_
+54-21	4951-4959	wildlife	_	_	_	_
 54-22	4960-4961	.	_	_	_	_
 

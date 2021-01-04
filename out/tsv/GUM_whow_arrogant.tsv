@@ -24,7 +24,7 @@
 2-11	80-83	are	person[4]	giv[4]	_	_
 2-12	84-89	stuck	person[4]	giv[4]	_	_
 2-13	90-92	on	person[4]	giv[4]	_	_
-2-14	93-103	themselves	person[4]	giv[4]	_	_
+2-14	93-103	themselves	person[4]	person[4]	_	_
 2-15	104-105	,	person[4]	giv[4]	_	_
 2-16	106-116	intolerant	person[4]	giv[4]	_	_
 2-17	117-119	of	person[4]	giv[4]	_	_
@@ -74,7 +74,7 @@
 5-1	321-324	Pay	_	_	_	_
 5-2	325-334	attention	_	_	_	_
 5-3	335-337	to	_	_	_	_
-5-4	338-343	their	event[20]|person[21]	acc[20]|giv[21]	ana|ana	7-2[33_20]|6-7[22_21]
+5-4	338-343	their	event[20]|person[21]	acc[20]|giv[21]	ana|ana	6-7[22_21]|7-2[33_20]
 5-5	344-357	conversations	event[20]	acc[20]	_	_
 5-6	358-359	.	_	_	_	_
 
@@ -176,11 +176,11 @@
 11-6	795-798	out	_	_	_	_
 11-7	799-803	more	_	_	_	_
 11-8	804-811	through	_	_	_	_
-11-9	812-821	questions	_	_	_	_
-11-10	822-825	and	_	_	_	_
-11-11	826-834	learning	_	_	_	_
+11-9	812-821	questions	abstract[59]	new[59]	appos	11-13[60_59]
+11-10	822-825	and	abstract[59]	new[59]	_	_
+11-11	826-834	learning	abstract[59]	new[59]	_	_
 11-12	835-836	(	_	_	_	_
-11-13	837-844	actions	_	_	_	_
+11-13	837-844	actions	abstract[60]	giv[60]	_	_
 11-14	845-851	viewed	_	_	_	_
 11-15	852-854	by	_	_	_	_
 11-16	855-859	them	person[61]	giv[61]	_	_
@@ -262,12 +262,12 @@
 13-11	1264-1265	.	_	_	_	_
 
 #Text=When you make them look bad - even if it is the slightest offense - they will usually be very mad at you .
-14-1	1266-1270	When	event[91]	new[91]	ana	14-10[94_91]
-14-2	1271-1274	you	event[91]|person[92]	new[91]|giv[92]	ana	14-23[100_92]
-14-3	1275-1279	make	event[91]	new[91]	_	_
-14-4	1280-1284	them	event[91]|person[93]	new[91]|giv[93]	ana	14-16[99_93]
-14-5	1285-1289	look	event[91]	new[91]	_	_
-14-6	1290-1293	bad	event[91]	new[91]	_	_
+14-1	1266-1270	When	_	_	_	_
+14-2	1271-1274	you	person[92]	person[92]	ana	14-23[100_92]
+14-3	1275-1279	make	event[476]	event[476]	ana	14-10[94_476]
+14-4	1280-1284	them	person[93]	person[93]	ana	14-16[99_93]
+14-5	1285-1289	look	_	_	_	_
+14-6	1290-1293	bad	_	_	_	_
 14-7	1294-1295	-	_	_	_	_
 14-8	1296-1300	even	_	_	_	_
 14-9	1301-1303	if	_	_	_	_
@@ -409,13 +409,13 @@
 22-8	1907-1913	people	person[144]	new[144]	_	_
 22-9	1914-1921	realize	_	_	_	_
 22-10	1922-1926	that	_	_	_	_
-22-11	1927-1930	the	event[145]|abstract[146]	new[145]|acc[146]	coref|ana	23-22[157_146]|23-4[150_145]
-22-12	1931-1936	world	event[145]|abstract[146]	new[145]|acc[146]	_	_
-22-13	1937-1941	does	event[145]	new[145]	_	_
-22-14	1942-1945	n't	event[145]	new[145]	_	_
-22-15	1946-1953	revolve	event[145]	new[145]	_	_
-22-16	1954-1960	around	event[145]	new[145]	_	_
-22-17	1961-1965	them	event[145]|person[147]	new[145]|giv[147]	_	_
+22-11	1927-1930	the	abstract[146]	abstract[146]	coref	23-22[157_146]
+22-12	1931-1936	world	abstract[146]	abstract[146]	_	_
+22-13	1937-1941	does	_	_	_	_
+22-14	1942-1945	n't	_	_	_	_
+22-15	1946-1953	revolve	event[477]	new[477]	ana	23-4[150_477]
+22-16	1954-1960	around	_	_	_	_
+22-17	1961-1965	them	person[147]	person[147]	_	_
 22-18	1966-1967	.	_	_	_	_
 
 #Text=Arrogant people counteract this by creating an atmosphere that revolves around them , and get angry if they 're reminded of the real world .
@@ -453,24 +453,24 @@
 24-5	2145-2152	because	_	_	_	_
 24-6	2153-2155	it	abstract[161]	giv[161]	_	_
 24-7	2156-2164	suggests	_	_	_	_
-24-8	2165-2177	imperfection	_	_	_	_
-24-9	2178-2179	,	_	_	_	_
-24-10	2180-2186	change	_	_	_	_
-24-11	2187-2190	and	_	_	_	_
-24-12	2191-2195	lack	_	_	_	_
-24-13	2196-2198	of	_	_	_	_
-24-14	2199-2208	certainty	_	_	_	_
+24-8	2165-2177	imperfection	abstract[163]	new[163]	appos	24-16[171_163]
+24-9	2178-2179	,	abstract[163]	new[163]	_	_
+24-10	2180-2186	change	abstract[163]	new[163]	_	_
+24-11	2187-2190	and	abstract[163]	new[163]	_	_
+24-12	2191-2195	lack	abstract[163]	new[163]	_	_
+24-13	2196-2198	of	abstract[163]	new[163]	_	_
+24-14	2199-2208	certainty	abstract[163]	new[163]	_	_
 24-15	2209-2210	(	_	_	_	_
-24-16	2211-2220	realities	_	_	_	_
-24-17	2221-2223	we	person[172]	acc[172]	ana	24-24[173_172]
-24-18	2224-2227	all	person[172]	acc[172]	_	_
-24-19	2228-2232	must	_	_	_	_
-24-20	2233-2240	contend	_	_	_	_
-24-21	2241-2245	with	_	_	_	_
-24-22	2246-2248	as	_	_	_	_
-24-23	2249-2253	best	_	_	_	_
-24-24	2254-2256	we	person[173]	giv[173]	_	_
-24-25	2257-2260	can	_	_	_	_
+24-16	2211-2220	realities	abstract[171]	giv[171]	_	_
+24-17	2221-2223	we	abstract[171]|person[172]	giv[171]|acc[172]	ana	24-24[173_172]
+24-18	2224-2227	all	abstract[171]|person[172]	giv[171]|acc[172]	_	_
+24-19	2228-2232	must	abstract[171]	giv[171]	_	_
+24-20	2233-2240	contend	abstract[171]	giv[171]	_	_
+24-21	2241-2245	with	abstract[171]	giv[171]	_	_
+24-22	2246-2248	as	abstract[171]	giv[171]	_	_
+24-23	2249-2253	best	abstract[171]	giv[171]	_	_
+24-24	2254-2256	we	abstract[171]|person[173]	giv[171]|giv[173]	_	_
+24-25	2257-2260	can	abstract[171]	giv[171]	_	_
 24-26	2261-2262	)	_	_	_	_
 24-27	2263-2264	.	_	_	_	_
 
@@ -610,13 +610,13 @@
 29-27	2948-2952	sign	_	_	_	_
 29-28	2953-2955	of	_	_	_	_
 29-29	2956-2960	them	person[218]	giv[218]	_	_
-29-30	2961-2967	having	event[221]	new[221]	ana	30-1[223_221]
-29-31	2968-2969	a	event[221]	new[221]	_	_
-29-32	2970-2973	lot	event[221]	new[221]	_	_
-29-33	2974-2976	of	event[221]	new[221]	_	_
-29-34	2977-2981	fair	event[221]	new[221]	_	_
-29-35	2982-2989	weather	event[221]	new[221]	_	_
-29-36	2990-2997	friends	event[221]	new[221]	_	_
+29-30	2961-2967	having	event[478]	event[478]	ana	30-1[223_478]
+29-31	2968-2969	a	_	_	_	_
+29-32	2970-2973	lot	_	_	_	_
+29-33	2974-2976	of	_	_	_	_
+29-34	2977-2981	fair	_	_	_	_
+29-35	2982-2989	weather	_	_	_	_
+29-36	2990-2997	friends	_	_	_	_
 29-37	2998-2999	.	_	_	_	_
 
 #Text=That 's a sign of arrogance , since it is very hard to be a truly good friend to someone who 's stuck on themselves .
@@ -632,19 +632,19 @@
 30-10	3039-3041	is	_	_	_	_
 30-11	3042-3046	very	_	_	_	_
 30-12	3047-3051	hard	_	_	_	_
-30-13	3052-3054	to	event[229]	new[229]	cata	30-9[225_229]
-30-14	3055-3057	be	event[229]	new[229]	_	_
-30-15	3058-3059	a	event[229]	new[229]	_	_
-30-16	3060-3065	truly	event[229]	new[229]	_	_
-30-17	3066-3070	good	event[229]	new[229]	_	_
-30-18	3071-3077	friend	event[229]	new[229]	_	_
-30-19	3078-3080	to	event[229]	new[229]	_	_
-30-20	3081-3088	someone	event[229]	new[229]	_	_
-30-21	3089-3092	who	event[229]	new[229]	_	_
-30-22	3093-3095	's	event[229]	new[229]	_	_
-30-23	3096-3101	stuck	event[229]	new[229]	_	_
-30-24	3102-3104	on	event[229]	new[229]	_	_
-30-25	3105-3115	themselves	event[229]	new[229]	_	_
+30-13	3052-3054	to	_	_	_	_
+30-14	3055-3057	be	_	_	_	_
+30-15	3058-3059	a	_	_	_	_
+30-16	3060-3065	truly	_	_	_	_
+30-17	3066-3070	good	_	_	_	_
+30-18	3071-3077	friend	_	_	_	_
+30-19	3078-3080	to	_	_	_	_
+30-20	3081-3088	someone	_	_	_	_
+30-21	3089-3092	who	_	_	_	_
+30-22	3093-3095	's	_	_	_	_
+30-23	3096-3101	stuck	_	_	_	_
+30-24	3102-3104	on	_	_	_	_
+30-25	3105-3115	themselves	_	_	_	_
 30-26	3116-3117	.	_	_	_	_
 
 #Text=Prideful people have a strong need to look good , and being self-sufficient is an effective way to do that .
@@ -654,9 +654,9 @@
 31-4	3139-3140	a	_	_	_	_
 31-5	3141-3147	strong	_	_	_	_
 31-6	3148-3152	need	_	_	_	_
-31-7	3153-3155	to	event[235]	new[235]	ana	31-20[238_235]
-31-8	3156-3160	look	event[235]	new[235]	_	_
-31-9	3161-3165	good	event[235]	new[235]	_	_
+31-7	3153-3155	to	_	_	_	_
+31-8	3156-3160	look	event[479]	new[479]	ana	31-20[238_479]
+31-9	3161-3165	good	_	_	_	_
 31-10	3166-3167	,	_	_	_	_
 31-11	3168-3171	and	_	_	_	_
 31-12	3172-3177	being	_	_	_	_
@@ -736,20 +736,20 @@
 35-5	3527-3530	how	_	_	_	_
 35-6	3531-3533	do	_	_	_	_
 35-7	3534-3538	they	person[257]	giv[257]	ana	36-8[265_257]
-35-8	3539-3544	treat	event[260]	new[260]	ana	36-2[264_260]
-35-9	3545-3550	those	event[260]|person[261]	new[260]|giv[261]	_	_
-35-10	3551-3555	with	event[260]|person[261]	new[260]|giv[261]	_	_
-35-11	3556-3565	different	event[260]|person[261]	new[260]|giv[261]	_	_
-35-12	3566-3573	beliefs	event[260]|person[261]	new[260]|giv[261]	_	_
-35-13	3574-3575	,	event[260]|person[261]	new[260]|giv[261]	_	_
-35-14	3576-3584	cultural	event[260]|person[261]	new[260]|giv[261]	_	_
-35-15	3585-3596	backgrounds	event[260]|person[261]	new[260]|giv[261]	_	_
-35-16	3597-3600	and	event[260]|person[261]	new[260]|giv[261]	_	_
-35-17	3601-3605	ways	event[260]|person[261]	new[260]|giv[261]	_	_
-35-18	3606-3608	of	event[260]|person[261]	new[260]|giv[261]	_	_
-35-19	3609-3615	seeing	event[260]|person[261]	new[260]|giv[261]	_	_
-35-20	3616-3619	the	event[260]|person[261]|abstract[263]	new[260]|giv[261]|giv[263]	_	_
-35-21	3620-3625	world	event[260]|person[261]|abstract[263]	new[260]|giv[261]|giv[263]	_	_
+35-8	3539-3544	treat	event[480]	event[480]	ana	36-2[264_480]
+35-9	3545-3550	those	person[261]	person[261]	_	_
+35-10	3551-3555	with	person[261]	person[261]	_	_
+35-11	3556-3565	different	person[261]	person[261]	_	_
+35-12	3566-3573	beliefs	person[261]	person[261]	_	_
+35-13	3574-3575	,	person[261]	person[261]	_	_
+35-14	3576-3584	cultural	person[261]	person[261]	_	_
+35-15	3585-3596	backgrounds	person[261]	person[261]	_	_
+35-16	3597-3600	and	person[261]	person[261]	_	_
+35-17	3601-3605	ways	person[261]	person[261]	_	_
+35-18	3606-3608	of	person[261]	person[261]	_	_
+35-19	3609-3615	seeing	person[261]	person[261]	_	_
+35-20	3616-3619	the	person[261]|abstract[263]	person[261]|abstract[263]	_	_
+35-21	3620-3625	world	person[261]|abstract[263]	person[261]|abstract[263]	_	_
 35-22	3626-3627	?	_	_	_	_
 
 #Text=If it 's inherently negative , then they 're either over-zealous , ignorant of other people or what to avoid those that contradict their fantasy land that caters to them and them only .
@@ -831,7 +831,7 @@
 39-9	4034-4039	false	_	_	_	_
 39-10	4040-4045	image	_	_	_	_
 39-11	4046-4048	or	_	_	_	_
-39-12	4049-4054	their	abstract[294]|person[295]	giv[294]|giv[295]	coref|ana	53-18[376_294]|40-3[298_295]
+39-12	4049-4054	their	abstract[294]|person[295]	giv[294]|giv[295]	ana|coref	40-3[298_295]|53-18[376_294]
 39-13	4055-4062	fantasy	abstract[294]	giv[294]	_	_
 39-14	4063-4067	land	abstract[294]	giv[294]	_	_
 39-15	4068-4069	.	_	_	_	_
@@ -958,7 +958,7 @@
 48-3	4542-4545	are	event[334]	new[334]	_	_
 48-4	4546-4551	cruel	event[334]	new[334]	_	_
 48-5	4552-4553	,	_	_	_	_
-48-6	4554-4559	their	person[337]|person[338]	new[337]|giv[338]	ana|coref	48-20[344_337]|48-30[349_338]
+48-6	4554-4559	their	person[337]|person[338]	new[337]|giv[338]	coref|ana	48-30[349_338]|48-20[344_337]
 48-7	4560-4567	friends	person[337]	new[337]	_	_
 48-8	4568-4572	will	_	_	_	_
 48-9	4573-4580	usually	_	_	_	_
@@ -989,16 +989,16 @@
 48-34	4694-4695	'	person[349]	giv[349]	_	_
 
 #Text=Mention people you know that they do n't like .
-49-1	4696-4703	Mention	event[352]	new[352]	ana	50-1[356_352]
-49-2	4704-4710	people	event[352]	new[352]	_	_
-49-3	4711-4714	you	event[352]|person[354]	new[352]|giv[354]	ana	56-11[390_354]
-49-4	4715-4719	know	event[352]	new[352]	_	_
-49-5	4720-4724	that	event[352]	new[352]	_	_
-49-6	4725-4729	they	event[352]|person[355]	new[352]|giv[355]	ana	51-2[363_355]
-49-7	4730-4732	do	event[352]	new[352]	_	_
-49-8	4733-4736	n't	event[352]	new[352]	_	_
-49-9	4737-4741	like	event[352]	new[352]	_	_
-49-10	4742-4743	.	event[352]	new[352]	_	_
+49-1	4696-4703	Mention	event[481]	event[481]	ana	50-1[356_481]
+49-2	4704-4710	people	_	_	_	_
+49-3	4711-4714	you	person[354]	person[354]	ana	56-11[390_354]
+49-4	4715-4719	know	_	_	_	_
+49-5	4720-4724	that	_	_	_	_
+49-6	4725-4729	they	person[355]	person[355]	ana	51-2[363_355]
+49-7	4730-4732	do	_	_	_	_
+49-8	4733-4736	n't	_	_	_	_
+49-9	4737-4741	like	_	_	_	_
+49-10	4742-4743	.	_	_	_	_
 
 #Text=This is n't meant to begin a conflict , but to gauge their rivalries , annoyances and enmities .
 50-1	4744-4748	This	event[356]	giv[356]	_	_
@@ -1023,7 +1023,7 @@
 
 #Text=If their condemnation seems to be reasonable , they probably are n't hubristic .
 51-1	4841-4843	If	_	_	_	_
-51-2	4844-4849	their	event[362]|person[363]	new[362]|giv[363]	ana|ana	51-9[364_363]|52-2[365_362]
+51-2	4844-4849	their	event[362]|person[363]	new[362]|giv[363]	ana|ana	52-2[365_362]|51-9[364_363]
 51-3	4850-4862	condemnation	event[362]	new[362]	_	_
 51-4	4863-4868	seems	_	_	_	_
 51-5	4869-4871	to	_	_	_	_
@@ -1149,13 +1149,13 @@
 58-7	5375-5379	face	_	_	_	_
 58-8	5380-5381	,	_	_	_	_
 58-9	5382-5385	but	_	_	_	_
-58-10	5386-5390	talk	event[406]	new[406]	ana	58-18[409_406]
-58-11	5391-5394	bad	event[406]	new[406]	_	_
-58-12	5395-5400	about	event[406]	new[406]	_	_
-58-13	5401-5404	you	event[406]|person[407]	new[406]|giv[407]	ana	58-15[408_407]
-58-14	5405-5411	behind	event[406]	new[406]	_	_
-58-15	5412-5416	your	event[406]|person[408]	new[406]|giv[408]	_	_
-58-16	5417-5421	back	event[406]	new[406]	_	_
+58-10	5386-5390	talk	event[482]	event[482]	ana	58-18[409_482]
+58-11	5391-5394	bad	_	_	_	_
+58-12	5395-5400	about	_	_	_	_
+58-13	5401-5404	you	person[407]	person[407]	ana	58-15[408_407]
+58-14	5405-5411	behind	_	_	_	_
+58-15	5412-5416	your	person[408]	person[408]	_	_
+58-16	5417-5421	back	_	_	_	_
 58-17	5422-5426	like	_	_	_	_
 58-18	5427-5429	it	event[409]	giv[409]	_	_
 58-19	5430-5432	's	_	_	_	_
@@ -1181,12 +1181,12 @@
 59-5	5541-5545	know	_	_	_	_
 59-6	5546-5550	that	_	_	_	_
 59-7	5551-5555	they	person[422]	giv[422]	ana	60-1[426_422]
-59-8	5556-5558	do	event[424]	new[424]	ana	60-4[427_424]
-59-9	5559-5562	n't	event[424]	new[424]	_	_
-59-10	5563-5567	have	event[424]	new[424]	_	_
-59-11	5568-5571	any	event[424]	new[424]	_	_
-59-12	5572-5576	good	event[424]	new[424]	_	_
-59-13	5577-5584	friends	event[424]	new[424]	_	_
+59-8	5556-5558	do	_	_	_	_
+59-9	5559-5562	n't	_	_	_	_
+59-10	5563-5567	have	event[483]	event[483]	ana	60-4[427_483]
+59-11	5568-5571	any	_	_	_	_
+59-12	5572-5576	good	_	_	_	_
+59-13	5577-5584	friends	_	_	_	_
 59-14	5585-5586	.	_	_	_	_
 
 #Text=They compensate for this by creating the impression that they have a lot of friends - they have a ' quantity , not quality ' mentality .

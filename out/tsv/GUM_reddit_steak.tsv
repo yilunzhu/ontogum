@@ -4,28 +4,28 @@
 
 
 #Text=TIFU by throwing my steak out a window
-1-1	0-4	TIFU	event[1]	new[1]	coref	46-10[305_1]
-1-2	5-7	by	event[1]	new[1]	_	_
-1-3	8-16	throwing	event[1]	new[1]	_	_
-1-4	17-19	my	event[1]|object[2]|person[3]	new[1]|new[2]|acc[3]	ana|coref	2-4[9_3]|9-7[68_2]
-1-5	20-25	steak	event[1]|object[2]	new[1]|new[2]	_	_
-1-6	26-29	out	event[1]	new[1]	_	_
-1-7	30-31	a	event[1]|object[5]	new[1]|new[5]	coref	18-11[119_5]
-1-8	32-38	window	event[1]|object[5]	new[1]|new[5]	_	_
+1-1	0-4	TIFU	event[338]	new[338]	coref	46-10[305_338]
+1-2	5-7	by	_	_	_	_
+1-3	8-16	throwing	_	_	_	_
+1-4	17-19	my	object[2]|person[3]	object[2]|person[3]	ana|coref	2-4[9_3]|9-7[68_2]
+1-5	20-25	steak	object[2]	object[2]	_	_
+1-6	26-29	out	_	_	_	_
+1-7	30-31	a	object[5]	object[5]	coref	18-11[119_5]
+1-8	32-38	window	object[5]	object[5]	_	_
 
 #Text=Last night , my wife 's boss from her brand new job invited us over for dinner .
 2-1	39-43	Last	_	_	_	_
 2-2	44-49	night	_	_	_	_
 2-3	50-51	,	_	_	_	_
-2-4	52-54	my	person[8]|person[9]	new[8]|giv[9]	ana|ana	2-9[12_8]|3-6[20_9]
-2-5	55-59	wife	person[8]	new[8]	_	_
-2-6	60-62	's	person[8]	new[8]	_	_
-2-7	63-67	boss	_	_	_	_
-2-8	68-72	from	_	_	_	_
-2-9	73-76	her	person[12]	giv[12]	coref	3-6[19_12]
-2-10	77-82	brand	_	_	_	_
-2-11	83-86	new	_	_	_	_
-2-12	87-90	job	_	_	_	_
+2-4	52-54	my	person[7]|person[8]|person[9]	new[7]|new[8]|giv[9]	ana|coref|ana	3-6[20_9]|5-1[37_7]|2-9[12_8]
+2-5	55-59	wife	person[7]|person[8]	new[7]|new[8]	_	_
+2-6	60-62	's	person[7]|person[8]	new[7]|new[8]	_	_
+2-7	63-67	boss	person[7]	new[7]	_	_
+2-8	68-72	from	person[7]	new[7]	_	_
+2-9	73-76	her	person[7]|person[12]	new[7]|giv[12]	coref	3-6[19_12]
+2-10	77-82	brand	person[7]	new[7]	_	_
+2-11	83-86	new	person[7]	new[7]	_	_
+2-12	87-90	job	person[7]	new[7]	_	_
 2-13	91-98	invited	_	_	_	_
 2-14	99-101	us	person[13]	giv[13]	ana	17-4[107_13]
 2-15	102-106	over	_	_	_	_
@@ -39,7 +39,7 @@
 3-3	127-132	drive	_	_	_	_
 3-4	133-137	over	_	_	_	_
 3-5	138-139	,	_	_	_	_
-3-6	140-142	my	person[19]|person[20]	giv[19]|giv[20]	ana|coref	3-12[23_20]|4-6[31_19]
+3-6	140-142	my	person[19]|person[20]	giv[19]|giv[20]	coref|ana	4-6[31_19]|3-12[23_20]
 3-7	143-147	wife	person[19]	giv[19]	_	_
 3-8	148-158	reiterated	_	_	_	_
 3-9	159-163	many	_	_	_	_
@@ -51,11 +51,11 @@
 3-15	185-194	important	_	_	_	_
 3-16	195-197	it	_	_	_	_
 3-17	198-201	was	_	_	_	_
-3-18	202-204	to	abstract[27]	new[27]	cata	3-16[24_27]
-3-19	205-209	make	abstract[27]	new[27]	_	_
-3-20	210-211	a	abstract[27]	new[27]	_	_
-3-21	212-216	good	abstract[27]	new[27]	_	_
-3-22	217-227	impression	abstract[27]	new[27]	_	_
+3-18	202-204	to	_	_	_	_
+3-19	205-209	make	_	_	_	_
+3-20	210-211	a	_	_	_	_
+3-21	212-216	good	_	_	_	_
+3-22	217-227	impression	_	_	_	_
 3-23	228-229	.	_	_	_	_
 
 #Text=I scoffed and arrogantly informed my silly wife that I always make good impressions .
@@ -92,7 +92,7 @@
 5-14	369-371	it	_	_	_	_
 5-15	372-375	was	_	_	_	_
 5-16	376-380	just	_	_	_	_
-5-17	381-384	the	person[45]	acc[45]	cata	5-14[43_45]
+5-17	381-384	the	person[45]	acc[45]	ana	6-1[46_45]
 5-18	385-390	three	person[45]	acc[45]	_	_
 5-19	391-393	of	person[45]	acc[45]	_	_
 5-20	394-396	us	person[45]	acc[45]	_	_
@@ -125,7 +125,7 @@
 7-7	509-530	perfectly-appropriate	_	_	_	_
 7-8	531-536	jokes	_	_	_	_
 7-9	537-540	and	_	_	_	_
-7-10	541-543	my	person[57]|person[58]	giv[57]|giv[58]	ana	9-2[65_58]
+7-10	541-543	my	person[57]|person[58]	giv[57]|giv[58]	coref|ana	26-1[165_57]|9-2[65_58]
 7-11	544-548	wife	person[57]	giv[57]	_	_
 7-12	549-555	seemed	_	_	_	_
 7-13	556-563	pleased	_	_	_	_
@@ -136,19 +136,19 @@
 8-2	571-574	she	person[59]	giv[59]	coref	17-4[106_59]
 8-3	575-582	brought	_	_	_	_
 8-4	583-586	out	_	_	_	_
-8-5	587-590	the	_	_	_	_
-8-6	591-595	main	_	_	_	_
-8-7	596-602	course	_	_	_	_
+8-5	587-590	the	object[62]	new[62]	appos	8-9[63_62]
+8-6	591-595	main	object[62]	new[62]	_	_
+8-7	596-602	course	object[62]	new[62]	_	_
 8-8	603-604	,	_	_	_	_
-8-9	605-606	a	_	_	_	_
-8-10	607-611	nice	_	_	_	_
-8-11	612-615	big	_	_	_	_
-8-12	616-621	juicy	_	_	_	_
-8-13	622-627	steak	_	_	_	_
-8-14	628-631	for	_	_	_	_
-8-15	632-636	each	_	_	_	_
-8-16	637-639	of	_	_	_	_
-8-17	640-642	us	person[64]	giv[64]	_	_
+8-9	605-606	a	object[63]	giv[63]	_	_
+8-10	607-611	nice	object[63]	giv[63]	_	_
+8-11	612-615	big	object[63]	giv[63]	_	_
+8-12	616-621	juicy	object[63]	giv[63]	_	_
+8-13	622-627	steak	object[63]	giv[63]	_	_
+8-14	628-631	for	object[63]	giv[63]	_	_
+8-15	632-636	each	object[63]	giv[63]	_	_
+8-16	637-639	of	object[63]	giv[63]	_	_
+8-17	640-642	us	object[63]|person[64]	giv[63]|giv[64]	_	_
 8-18	643-644	.	_	_	_	_
 
 #Text=As I began to cut into my steak , I was discouraged to discover how under cooked this steak was .
@@ -342,7 +342,7 @@
 19-8	1437-1438	,	_	_	_	_
 19-9	1439-1448	realizing	_	_	_	_
 19-10	1449-1453	that	_	_	_	_
-19-11	1454-1457	she	person[127]	giv[127]	_	_
+19-11	1454-1457	she	person[127]	giv[127]	coref	28-1[188_127]
 19-12	1458-1463	could	_	_	_	_
 19-13	1464-1470	return	_	_	_	_
 19-14	1471-1473	at	_	_	_	_
@@ -422,7 +422,7 @@
 25-2	1764-1766	is	_	_	_	_
 25-3	1767-1768	,	_	_	_	_
 25-4	1769-1774	until	_	_	_	_
-25-5	1775-1777	my	object[157]|person[158]	giv[157]|giv[158]	ana|ana	26-15[168_158]|25-26[163_157]
+25-5	1775-1777	my	object[157]|person[158]	giv[157]|giv[158]	ana|ana	25-26[163_157]|26-15[168_158]
 25-6	1778-1784	mostly	object[157]	giv[157]	_	_
 25-7	1785-1788	raw	object[157]	giv[157]	_	_
 25-8	1789-1793	slab	object[157]	giv[157]	_	_
@@ -471,17 +471,17 @@
 26-21	1986-1993	dropped	_	_	_	_
 26-22	1994-1995	,	_	_	_	_
 26-23	1996-1999	and	_	_	_	_
-26-24	2000-2006	stared	event[172]	new[172]	coref	27-1[179_172]
-26-25	2007-2009	at	event[172]	new[172]	_	_
-26-26	2010-2012	me	event[172]|person[173]	new[172]|giv[173]	ana	26-28[174_173]
-26-27	2013-2017	like	event[172]	new[172]	_	_
-26-28	2018-2019	I	event[172]|person[174]	new[172]|giv[174]	ana	27-24[183_174]
-26-29	2020-2023	was	event[172]	new[172]	_	_
-26-30	2024-2026	an	event[172]	new[172]	_	_
-26-31	2027-2032	alien	event[172]	new[172]	_	_
-26-32	2033-2037	from	event[172]	new[172]	_	_
-26-33	2038-2045	another	event[172]	new[172]	_	_
-26-34	2046-2052	planet	event[172]	new[172]	_	_
+26-24	2000-2006	stared	event[339]	event[339]	coref	27-1[179_339]
+26-25	2007-2009	at	_	_	_	_
+26-26	2010-2012	me	person[173]	person[173]	ana	26-28[174_173]
+26-27	2013-2017	like	_	_	_	_
+26-28	2018-2019	I	person[174]	person[174]	ana	27-24[183_174]
+26-29	2020-2023	was	_	_	_	_
+26-30	2024-2026	an	_	_	_	_
+26-31	2027-2032	alien	_	_	_	_
+26-32	2033-2037	from	_	_	_	_
+26-33	2038-2045	another	_	_	_	_
+26-34	2046-2052	planet	_	_	_	_
 26-35	2053-2054	.	_	_	_	_
 
 #Text=This look then slowly morphed into more of a there - is - no - place - on - this - planet - you - can - ever - hide - from - me expression of demonic anger .
@@ -562,7 +562,7 @@
 29-13	2353-2357	sill	abstract[201]	giv[201]	_	_
 29-14	2358-2359	,	abstract[201]	giv[201]	_	_
 29-15	2360-2363	the	abstract[201]|substance[204]	giv[201]|giv[204]	_	_
-29-16	2364-2369	blood	abstract[201]|substance[204]	giv[201]|giv[204]	_	_
+29-16	2364-2369	blood	abstract[201]|substance[204]	abstract[201]|substance[204]	_	_
 29-17	2370-2375	trail	abstract[201]|substance[204]	giv[201]|giv[204]	_	_
 29-18	2376-2377	,	abstract[201]	giv[201]	_	_
 29-19	2378-2380	my	abstract[201]|person[208]	giv[201]|giv[208]	ana	29-26[209_208]
@@ -603,10 +603,10 @@
 31-9	2513-2516	but	_	_	_	_
 31-10	2517-2520	was	_	_	_	_
 31-11	2521-2529	probably	_	_	_	_
-31-12	2530-2531	3	time[220]	new[220]	cata	31-1[214_220]
-31-13	2532-2534	or	time[220]	new[220]	_	_
-31-14	2535-2536	4	time[220]	new[220]	_	_
-31-15	2537-2544	seconds	time[220]	new[220]	_	_
+31-12	2530-2531	3	_	_	_	_
+31-13	2532-2534	or	_	_	_	_
+31-14	2535-2536	4	_	_	_	_
+31-15	2537-2544	seconds	_	_	_	_
 31-16	2545-2546	.	_	_	_	_
 
 #Text=Finally , the best I could manage was " I ... I 'm so sorry .
@@ -671,7 +671,7 @@
 36-18	2741-2746	clutz	_	_	_	_
 36-19	2747-2750	...	_	_	_	_
 36-20	2751-2756	right	_	_	_	_
-36-21	2757-2762	honey	person[248]	giv[248]	ana	46-14[307_248]
+36-21	2757-2762	honey	person[248]	giv[248]		46-14[307_248]
 36-22	2763-2764	?	_	_	_	_
 
 #Text=... ( no help coming from that direction ) ...

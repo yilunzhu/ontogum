@@ -11,12 +11,12 @@
 1-5	22-30	stampede	_	_	_	_
 
 #Text=Thursday , January 12 , 2006
-2-1	31-39	Thursday	_	_	_	_
+2-1	31-39	Thursday	time[5]	acc[5]	appos	2-3[8_5]
 2-2	40-41	,	_	_	_	_
-2-3	42-49	January	_	_	_	_
-2-4	50-52	12	_	_	_	_
-2-5	53-54	,	_	_	_	_
-2-6	55-59	2006	_	_	_	_
+2-3	42-49	January	time[8]	giv[8]	_	_
+2-4	50-52	12	time[8]	giv[8]	_	_
+2-5	53-54	,	time[8]	giv[8]	_	_
+2-6	55-59	2006	time[8]	giv[8]	_	_
 
 #Text=The Plains of Arafat on the day of Hajj
 3-1	60-63	The	_	_	_	_
@@ -130,14 +130,14 @@
 7-4	587-594	tripped	_	_	_	_
 7-5	595-599	were	_	_	_	_
 7-6	600-604	then	_	_	_	_
-7-7	605-612	crushed	_	_	_	_
+7-7	605-612	crushed	person[113]	person[113]	ana	7-14[43_113]
 7-8	613-615	by	_	_	_	_
 7-9	616-619	the	_	_	_	_
 7-10	620-624	wave	_	_	_	_
 7-11	625-627	of	_	_	_	_
 7-12	628-634	people	_	_	_	_
 7-13	635-641	behind	_	_	_	_
-7-14	642-646	them	_	_	_	_
+7-14	642-646	them	person[43]	person[43]	_	_
 7-15	647-648	.	_	_	_	_
 
 #Text=Muslims are required to make a pilgrimage to Mecca during their lifetimes , if physically or financially possible , as it is one of the five pillars of the Islamic faith .

@@ -4,22 +4,22 @@
 
 
 #Text=Wikinews interviews Israeli mathematician and writer Aner Shalev
-1-1	0-8	Wikinews	organization[2]	new[2]	coref	6-5[37_2]
+1-1	0-8	Wikinews	organization[2]	organization[2]	coref	6-5[37_2]
 1-2	9-19	interviews	_	_	_	_
-1-3	20-27	Israeli	person[4]|person[570]	new[4]|new[570]	appos|coref	1-7[5_4]|3-1[11_570]
-1-4	28-41	mathematician	person[4]|person[570]	new[4]|new[570]	_	_
-1-5	42-45	and	person[4]|person[570]	new[4]|new[570]	_	_
-1-6	46-52	writer	person[4]|person[570]	new[4]|new[570]	_	_
-1-7	53-57	Aner	person[5]|person[570]	giv[5]|new[570]	_	_
-1-8	58-64	Shalev	person[5]|person[570]	giv[5]|new[570]	_	_
+1-3	20-27	Israeli	person[4]|person[578]	person[4]|new[578]	appos|coref	1-7[5_4]|3-1[11_578]
+1-4	28-41	mathematician	person[4]|person[578]	person[4]|new[578]	_	_
+1-5	42-45	and	person[4]|person[578]	person[4]|new[578]	_	_
+1-6	46-52	writer	person[4]|person[578]	person[4]|new[578]	_	_
+1-7	53-57	Aner	person[5]|person[578]	person[5]|new[578]	_	_
+1-8	58-64	Shalev	person[5]|person[578]	person[5]|new[578]	_	_
 
 #Text=Wednesday , September 19 , 2007
-2-1	65-74	Wednesday	_	_	_	_
+2-1	65-74	Wednesday	time[6]	acc[6]	appos	2-3[8_6]
 2-2	75-76	,	_	_	_	_
-2-3	77-86	September	_	_	_	_
-2-4	87-89	19	_	_	_	_
-2-5	90-91	,	_	_	_	_
-2-6	92-96	2007	_	_	_	_
+2-3	77-86	September	time[8]	acc[8]	_	_
+2-4	87-89	19	time[8]	acc[8]	_	_
+2-5	90-91	,	time[8]	acc[8]	_	_
+2-6	92-96	2007	time[8]	acc[8]	_	_
 
 #Text=Aner Shalev is an Israeli mathematician and writer born in 1958 in Kibbutz Kinneret , Tiberias .
 3-1	97-101	Aner	person[11]	giv[11]	coref	4-2[17_11]
@@ -77,11 +77,11 @@
 5-16	373-374	.	_	_	_	_
 
 #Text=He was interviewed by Wikinews .
-6-1	375-377	He	person[36]	giv[36]	coref	8-1[42_36]
+6-1	375-377	He	person[36]	person[36]	coref	8-1[42_36]
 6-2	378-381	was	_	_	_	_
 6-3	382-393	interviewed	_	_	_	_
 6-4	394-396	by	_	_	_	_
-6-5	397-405	Wikinews	organization[37]	giv[37]	_	_
+6-5	397-405	Wikinews	organization[37]	organization[37]	_	_
 6-6	406-407	.	_	_	_	_
 
 #Text=Interview
@@ -92,17 +92,17 @@
 8-2	423-429	Shalev	person[42]	giv[42]	_	_
 
 #Text=What are you going to talk about here in Levico ?
-9-1	430-434	What	event[43]	new[43]	ana	10-3[47_43]
-9-2	435-438	are	event[43]	new[43]	_	_
-9-3	439-442	you	event[43]|person[44]	new[43]|giv[44]	ana	10-1[46_44]
-9-4	443-448	going	event[43]	new[43]	_	_
-9-5	449-451	to	event[43]	new[43]	_	_
-9-6	452-456	talk	event[43]	new[43]	_	_
-9-7	457-462	about	event[43]	new[43]	_	_
-9-8	463-467	here	event[43]	new[43]	_	_
-9-9	468-470	in	event[43]	new[43]	_	_
-9-10	471-477	Levico	event[43]|place[45]	new[43]|giv[45]	_	_
-9-11	478-479	?	event[43]	new[43]	_	_
+9-1	430-434	What	_	_	_	_
+9-2	435-438	are	_	_	_	_
+9-3	439-442	you	person[44]	person[44]	ana	10-1[46_44]
+9-4	443-448	going	event[572]	new[572]	ana	10-3[47_572]
+9-5	449-451	to	_	_	_	_
+9-6	452-456	talk	_	_	_	_
+9-7	457-462	about	_	_	_	_
+9-8	463-467	here	_	_	_	_
+9-9	468-470	in	_	_	_	_
+9-10	471-477	Levico	place[45]	place[45]	_	_
+9-11	478-479	?	_	_	_	_
 
 #Text=I called it Character , walks and words .
 10-1	480-481	I	person[46]	giv[46]	ana	14-5[70_46]
@@ -143,8 +143,8 @@
 12-11	651-652	.	_	_	_	_
 
 #Text=Studying groups is a bit like studying symmetry .
-13-1	653-661	Studying	event[66]	new[66]	ana	14-1[69_66]
-13-2	662-668	groups	event[66]	new[66]	_	_
+13-1	653-661	Studying	event[573]	new[573]	ana	14-1[69_573]
+13-2	662-668	groups	_	_	_	_
 13-3	669-671	is	_	_	_	_
 13-4	672-673	a	_	_	_	_
 13-5	674-677	bit	_	_	_	_
@@ -165,14 +165,14 @@
 #Text=And then when you do it in an asymptotic way is like you do n't look at the small details .
 15-1	734-737	And	_	_	_	_
 15-2	738-742	then	_	_	_	_
-15-3	743-747	when	event[75]	new[75]	ana	16-1[84_75]
-15-4	748-751	you	event[75]|person[76]	new[75]|acc[76]	ana	15-13[81_76]
-15-5	752-754	do	event[75]	new[75]	_	_
-15-6	755-757	it	event[75]|event[77]	new[75]|giv[77]	_	_
-15-7	758-760	in	event[75]	new[75]	_	_
-15-8	761-763	an	event[75]	new[75]	_	_
-15-9	764-774	asymptotic	event[75]	new[75]	_	_
-15-10	775-778	way	event[75]	new[75]	_	_
+15-3	743-747	when	_	_	_	_
+15-4	748-751	you	person[76]	person[76]	ana	15-13[81_76]
+15-5	752-754	do	event[574]	event[574]	ana	16-1[84_574]
+15-6	755-757	it	event[77]	event[77]	_	_
+15-7	758-760	in	_	_	_	_
+15-8	761-763	an	_	_	_	_
+15-9	764-774	asymptotic	_	_	_	_
+15-10	775-778	way	_	_	_	_
 15-11	779-781	is	_	_	_	_
 15-12	782-786	like	_	_	_	_
 15-13	787-790	you	person[81]	giv[81]	ana	17-1[87_81]
@@ -250,14 +250,14 @@
 19-25	1130-1131	.	_	_	_	_
 
 #Text=Why did you choose to study mathematics ?
-20-1	1132-1135	Why	abstract[101]	new[101]	ana	30-3[157_101]
-20-2	1136-1139	did	abstract[101]	new[101]	_	_
-20-3	1140-1143	you	abstract[101]|person[102]	new[101]|giv[102]	ana	22-2[105_102]
-20-4	1144-1150	choose	abstract[101]	new[101]	_	_
-20-5	1151-1153	to	abstract[101]	new[101]	_	_
-20-6	1154-1159	study	abstract[101]	new[101]	_	_
-20-7	1160-1171	mathematics	abstract[101]	new[101]	_	_
-20-8	1172-1173	?	abstract[101]	new[101]	_	_
+20-1	1132-1135	Why	_	_	_	_
+20-2	1136-1139	did	_	_	_	_
+20-3	1140-1143	you	person[102]	person[102]	ana	22-2[105_102]
+20-4	1144-1150	choose	abstract[575]	new[575]	ana	30-3[157_575]
+20-5	1151-1153	to	_	_	_	_
+20-6	1154-1159	study	_	_	_	_
+20-7	1160-1171	mathematics	_	_	_	_
+20-8	1172-1173	?	_	_	_	_
 
 #Text=First of all because it was beautiful .
 21-1	1174-1179	First	_	_	_	_
@@ -401,16 +401,16 @@
 30-18	1779-1780	.	_	_	_	_
 
 #Text=Many people , and many students , dislike math .
-31-1	1781-1785	Many	event[170]|person[171]	new[170]|new[171]	ana|ana	33-7[178_171]|32-5[176_170]
-31-2	1786-1792	people	event[170]|person[171]	new[170]|new[171]	_	_
-31-3	1793-1794	,	event[170]|person[171]	new[170]|new[171]	_	_
-31-4	1795-1798	and	event[170]|person[171]	new[170]|new[171]	_	_
-31-5	1799-1803	many	event[170]|person[171]	new[170]|new[171]	_	_
-31-6	1804-1812	students	event[170]|person[171]	new[170]|new[171]	_	_
-31-7	1813-1814	,	event[170]	new[170]	_	_
-31-8	1815-1822	dislike	event[170]	new[170]	_	_
-31-9	1823-1827	math	event[170]	new[170]	_	_
-31-10	1828-1829	.	event[170]	new[170]	_	_
+31-1	1781-1785	Many	person[171]	person[171]	ana	33-7[178_171]
+31-2	1786-1792	people	person[171]	person[171]	_	_
+31-3	1793-1794	,	person[171]	person[171]	_	_
+31-4	1795-1798	and	person[171]	person[171]	_	_
+31-5	1799-1803	many	person[171]	person[171]	_	_
+31-6	1804-1812	students	person[171]	person[171]	_	_
+31-7	1813-1814	,	_	_	_	_
+31-8	1815-1822	dislike	event[576]	event[576]	ana	32-5[176_576]
+31-9	1823-1827	math	_	_	_	_
+31-10	1828-1829	.	_	_	_	_
 
 #Text=Why do you think it is so ?
 32-1	1830-1833	Why	_	_	_	_
@@ -724,14 +724,14 @@
 44-4	3309-3313	most	_	_	_	_
 44-5	3314-3320	famous	_	_	_	_
 44-6	3321-3323	is	_	_	_	_
-44-7	3324-3329	Lewis	_	_	_	_
-44-8	3330-3336	Carrol	_	_	_	_
+44-7	3324-3329	Lewis	person[313]	new[313]	appos	44-10[314_313]
+44-8	3330-3336	Carrol	person[313]	new[313]	_	_
 44-9	3337-3338	,	_	_	_	_
-44-10	3339-3345	author	_	_	_	_
-44-11	3346-3348	of	_	_	_	_
-44-12	3349-3354	Alice	_	_	_	_
-44-13	3355-3357	in	_	_	_	_
-44-14	3358-3368	Wonderland	_	_	_	_
+44-10	3339-3345	author	person[314]	giv[314]	_	_
+44-11	3346-3348	of	person[314]	giv[314]	_	_
+44-12	3349-3354	Alice	person[314]	giv[314]	_	_
+44-13	3355-3357	in	person[314]	giv[314]	_	_
+44-14	3358-3368	Wonderland	person[314]	giv[314]	_	_
 44-15	3369-3370	.	_	_	_	_
 
 #Text=You 're not only a mathematician .
@@ -793,14 +793,14 @@
 49-8	3607-3608	.	_	_	_	_
 
 #Text=I started to write down my dreams .
-50-1	3609-3610	I	event[339]|person[340]	new[339]|giv[340]	ana|ana	53-7[360_339]|50-6[343_340]
-50-2	3611-3618	started	event[339]	new[339]	_	_
-50-3	3619-3621	to	event[339]	new[339]	_	_
-50-4	3622-3627	write	event[339]	new[339]	_	_
-50-5	3628-3632	down	event[339]	new[339]	_	_
-50-6	3633-3635	my	event[339]|abstract[342]|person[343]	new[339]|giv[342]|giv[343]	ana|ana	51-3[344_343]|51-14[347_342]
-50-7	3636-3642	dreams	event[339]|abstract[342]	new[339]|giv[342]	_	_
-50-8	3643-3644	.	event[339]	new[339]	_	_
+50-1	3609-3610	I	person[340]	person[340]	ana	50-6[343_340]
+50-2	3611-3618	started	event[577]	new[577]	ana	53-7[360_577]
+50-3	3619-3621	to	_	_	_	_
+50-4	3622-3627	write	_	_	_	_
+50-5	3628-3632	down	_	_	_	_
+50-6	3633-3635	my	abstract[342]|person[343]	abstract[342]|person[343]	ana|ana	51-3[344_343]|51-14[347_342]
+50-7	3636-3642	dreams	abstract[342]	abstract[342]	_	_
+50-8	3643-3644	.	_	_	_	_
 
 #Text=And then I noticed that I cheat a little bit when I write them down .
 51-1	3645-3648	And	_	_	_	_
@@ -909,7 +909,7 @@
 54-34	4158-4160	..	_	_	_	_
 54-35	4161-4164	for	_	_	_	_
 54-36	4165-4172	example	_	_	_	_
-54-37	4173-4175	my	abstract[385]|person[386]	new[385]|giv[386]	ana|coref	59-5[420_386]|54-42[388_385]
+54-37	4173-4175	my	abstract[385]|person[386]	new[385]|giv[386]	coref|ana	54-42[388_385]|59-5[420_386]
 54-38	4176-4181	first	abstract[385]	new[385]	_	_
 54-39	4182-4186	book	abstract[385]	new[385]	_	_
 54-40	4187-4189	is	_	_	_	_
@@ -1193,8 +1193,8 @@
 69-11	5460-5461	,	_	_	_	_
 69-12	5462-5464	or	_	_	_	_
 69-13	5465-5469	even	_	_	_	_
-69-14	5470-5480	unreliable	_	_	_	_
-69-15	5481-5489	narrator	_	_	_	_
+69-14	5470-5480	unreliable	person[500]	new[500]	coref	69-17[501_500]
+69-15	5481-5489	narrator	person[500]	new[500]	_	_
 69-16	5490-5491	:	_	_	_	_
 69-17	5492-5499	someone	person[501]	giv[501]	ana	69-24[503_501]
 69-18	5500-5505	tells	_	_	_	_

@@ -69,8 +69,8 @@
 5-3	298-306	greeting	event[32]	giv[32]	_	_
 5-4	307-312	known	event[32]	giv[32]	_	_
 5-5	313-315	as	event[32]	giv[32]	_	_
-5-6	316-319	the	event[32]	giv[32]	_	_
-5-7	320-323	wai	event[32]	giv[32]	_	_
+5-6	316-319	the	event[32]	event[32]	_	_
+5-7	320-323	wai	event[32]	event[32]	_	_
 5-8	324-325	,	_	_	_	_
 5-9	326-331	where	_	_	_	_
 5-10	332-335	you	_	_	_	_
@@ -488,16 +488,16 @@
 25-15	2309-2310	.	_	_	_	_
 
 #Text=Taking off one 's shoes at temples and private homes is mandatory etiquette , and this may even be requested at some shops .
-26-1	2311-2317	Taking	event[158]	new[158]	ana	26-16[165_158]
-26-2	2318-2321	off	event[158]	new[158]	_	_
-26-3	2322-2325	one	event[158]	new[158]	_	_
-26-4	2326-2328	's	event[158]	new[158]	_	_
-26-5	2329-2334	shoes	event[158]	new[158]	_	_
-26-6	2335-2337	at	event[158]	new[158]	_	_
-26-7	2338-2345	temples	event[158]	new[158]	_	_
-26-8	2346-2349	and	event[158]	new[158]	_	_
-26-9	2350-2357	private	event[158]	new[158]	_	_
-26-10	2358-2363	homes	event[158]	new[158]	_	_
+26-1	2311-2317	Taking	event[366]	new[366]	ana	26-16[165_366]
+26-2	2318-2321	off	_	_	_	_
+26-3	2322-2325	one	_	_	_	_
+26-4	2326-2328	's	_	_	_	_
+26-5	2329-2334	shoes	_	_	_	_
+26-6	2335-2337	at	_	_	_	_
+26-7	2338-2345	temples	_	_	_	_
+26-8	2346-2349	and	_	_	_	_
+26-9	2350-2357	private	_	_	_	_
+26-10	2358-2363	homes	_	_	_	_
 26-11	2364-2366	is	_	_	_	_
 26-12	2367-2376	mandatory	_	_	_	_
 26-13	2377-2386	etiquette	_	_	_	_
@@ -561,18 +561,18 @@
 30-1	2652-2654	It	_	_	_	_
 30-2	2655-2657	is	_	_	_	_
 30-3	2658-2662	best	_	_	_	_
-30-4	2663-2665	to	event[182]	new[182]	cata	30-1[179_182]
-30-5	2666-2670	play	event[182]	new[182]	_	_
-30-6	2671-2673	it	event[182]	new[182]	_	_
-30-7	2674-2678	safe	event[182]	new[182]	_	_
-30-8	2679-2683	with	event[182]	new[182]	_	_
-30-9	2684-2688	wats	event[182]	new[182]	_	_
-30-10	2689-2692	and	event[182]	new[182]	_	_
-30-11	2693-2698	other	event[182]	new[182]	_	_
-30-12	2699-2705	sacred	event[182]	new[182]	_	_
-30-13	2706-2711	sites	event[182]	new[182]	_	_
-30-14	2712-2714	in	event[182]	new[182]	_	_
-30-15	2715-2723	Thailand	event[182]|place[186]	new[182]|giv[186]	coref	42-9[255_186]
+30-4	2663-2665	to	_	_	_	_
+30-5	2666-2670	play	_	_	_	_
+30-6	2671-2673	it	_	_	_	_
+30-7	2674-2678	safe	_	_	_	_
+30-8	2679-2683	with	_	_	_	_
+30-9	2684-2688	wats	_	_	_	_
+30-10	2689-2692	and	_	_	_	_
+30-11	2693-2698	other	_	_	_	_
+30-12	2699-2705	sacred	_	_	_	_
+30-13	2706-2711	sites	_	_	_	_
+30-14	2712-2714	in	_	_	_	_
+30-15	2715-2723	Thailand	place[186]	giv[186]	coref	42-9[255_186]
 30-16	2724-2725	;	_	_	_	_
 
 #Text=your dress should be unambiguously modest and cover your entire torso and most of your limbs .
@@ -715,8 +715,8 @@
 37-26	3398-3399	.	_	_	_	_
 
 #Text=Topless sunbathing is common by Western women at many tourist beaches .
-38-1	3400-3407	Topless	event[239]	new[239]	ana	39-10[244_239]
-38-2	3408-3418	sunbathing	event[239]	new[239]	_	_
+38-1	3400-3407	Topless	_	_	_	_
+38-2	3408-3418	sunbathing	event[367]	event[367]	ana	39-10[244_367]
 38-3	3419-3421	is	_	_	_	_
 38-4	3422-3428	common	_	_	_	_
 38-5	3429-3431	by	_	_	_	_

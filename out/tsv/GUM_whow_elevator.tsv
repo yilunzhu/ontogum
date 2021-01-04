@@ -29,9 +29,9 @@
 3-1	99-101	It	_	_	_	_
 3-2	102-104	’s	_	_	_	_
 3-3	105-109	easy	_	_	_	_
-3-4	110-112	to	event[10]	new[10]	cata	3-1[8_10]
-3-5	113-118	annoy	event[10]	new[10]	_	_
-3-6	119-125	people	event[10]	new[10]	_	_
+3-4	110-112	to	_	_	_	_
+3-5	113-118	annoy	_	_	_	_
+3-6	119-125	people	_	_	_	_
 3-7	126-130	when	_	_	_	_
 3-8	131-134	you	person[12]	acc[12]	ana	4-13[21_12]
 3-9	135-138	are	_	_	_	_
@@ -58,7 +58,7 @@
 4-10	234-235	,	_	_	_	_
 4-11	236-240	make	_	_	_	_
 4-12	241-245	sure	_	_	_	_
-4-13	246-250	your	event[20]|person[21]	acc[20]|giv[21]	coref|ana	5-9[27_20]|5-9[28_21]
+4-13	246-250	your	event[20]|person[21]	acc[20]|giv[21]	ana|coref	5-9[28_21]|5-9[27_20]
 4-14	251-257	pranks	event[20]	acc[20]	_	_
 4-15	258-261	are	_	_	_	_
 4-16	262-267	quick	_	_	_	_
@@ -90,10 +90,10 @@
 5-17	384-397	mean-spirited	_	_	_	_
 5-18	398-400	so	_	_	_	_
 5-19	401-405	that	_	_	_	_
-5-20	406-414	everyone	_	_	_	_
-5-21	415-422	leaving	_	_	_	_
-5-22	423-426	the	place[31]	new[31]	coref	6-4[35_31]
-5-23	427-435	elevator	place[31]	new[31]	_	_
+5-20	406-414	everyone	person[30]	new[30]		10-15[57_30]
+5-21	415-422	leaving	person[30]	new[30]	_	_
+5-22	423-426	the	person[30]|place[31]	new[30]|new[31]	coref	6-4[35_31]
+5-23	427-435	elevator	person[30]|place[31]	new[30]|new[31]	_	_
 5-24	436-440	will	_	_	_	_
 5-25	441-445	have	_	_	_	_
 5-26	446-447	a	_	_	_	_
@@ -104,20 +104,20 @@
 5-31	471-472	.	_	_	_	_
 
 #Text=Method 1 Using the Elevator to Annoy People
-6-1	473-479	Method	_	_	_	_
-6-2	480-481	1	_	_	_	_
-6-3	482-487	Using	_	_	_	_
-6-4	488-491	the	place[35]	giv[35]	coref	8-5[42_35]
-6-5	492-500	Elevator	place[35]	giv[35]	_	_
-6-6	501-503	to	_	_	_	_
-6-7	504-509	Annoy	_	_	_	_
-6-8	510-516	People	_	_	_	_
+6-1	473-479	Method	abstract[33]	new[33]	appos	6-3[34_33]
+6-2	480-481	1	abstract[33]	new[33]	_	_
+6-3	482-487	Using	abstract[34]	giv[34]	_	_
+6-4	488-491	the	abstract[34]|place[35]	giv[34]|giv[35]	coref	8-5[42_35]
+6-5	492-500	Elevator	abstract[34]|place[35]	giv[34]|giv[35]	_	_
+6-6	501-503	to	abstract[34]	giv[34]	_	_
+6-7	504-509	Annoy	abstract[34]	giv[34]	_	_
+6-8	510-516	People	abstract[34]	giv[34]	_	_
 
 #Text=Push all the buttons .
 7-1	517-521	Push	_	_	_	_
-7-2	522-525	all	object[39]	acc[39]	coref	8-9[44_39]
-7-3	526-529	the	object[39]	acc[39]	_	_
-7-4	530-537	buttons	object[39]	acc[39]	_	_
+7-2	522-525	all	object[39]	object[39]	coref	8-9[44_39]
+7-3	526-529	the	object[39]	object[39]	_	_
+7-4	530-537	buttons	object[39]	object[39]	_	_
 7-5	538-539	.	_	_	_	_
 
 #Text=When you get into the elevator , push the button for every floor .
@@ -128,12 +128,12 @@
 8-5	558-561	the	place[42]	giv[42]	coref	9-7[50_42]
 8-6	562-570	elevator	place[42]	giv[42]	_	_
 8-7	571-572	,	_	_	_	_
-8-8	573-577	push	event[43]	giv[43]	ana	9-1[46_43]
-8-9	578-581	the	event[43]|object[44]	giv[43]|giv[44]	ana	11-18[74_44]
-8-10	582-588	button	event[43]|object[44]	giv[43]|giv[44]	_	_
-8-11	589-592	for	event[43]|object[44]	giv[43]|giv[44]	_	_
-8-12	593-598	every	event[43]|object[44]|place[45]	giv[43]|giv[44]|new[45]	coref	10-25[60_45]
-8-13	599-604	floor	event[43]|object[44]|place[45]	giv[43]|giv[44]|new[45]	_	_
+8-8	573-577	push	event[304]	giv[304]	ana	9-1[46_304]
+8-9	578-581	the	object[44]	object[44]	ana	11-18[74_44]
+8-10	582-588	button	object[44]	object[44]	_	_
+8-11	589-592	for	object[44]	object[44]	_	_
+8-12	593-598	every	object[44]|place[45]	object[44]|place[45]	coref	10-25[60_45]
+8-13	599-604	floor	object[44]|place[45]	object[44]|place[45]	_	_
 8-14	605-606	.	_	_	_	_
 
 #Text=This makes everyone ’s ride on the elevator longer , if only for a few seconds .
@@ -170,10 +170,10 @@
 10-12	733-739	around	_	_	_	_
 10-13	740-753	questioningly	_	_	_	_
 10-14	754-756	at	_	_	_	_
-10-15	757-765	everyone	_	_	_	_
-10-16	766-768	in	_	_	_	_
-10-17	769-772	the	place[58]	giv[58]	coref	15-3[99_58]
-10-18	773-781	elevator	place[58]	giv[58]	_	_
+10-15	757-765	everyone	person[57]	giv[57]	_	_
+10-16	766-768	in	person[57]	giv[57]	_	_
+10-17	769-772	the	person[57]|place[58]	giv[57]|giv[58]	coref	15-3[99_58]
+10-18	773-781	elevator	person[57]|place[58]	giv[57]|giv[58]	_	_
 10-19	782-786	when	_	_	_	_
 10-20	787-789	no	_	_	_	_
 10-21	790-793	one	_	_	_	_
@@ -207,10 +207,10 @@
 11-15	887-893	before	_	_	_	_
 11-16	894-897	you	person[66]	giv[66]	ana	12-1[75_66]
 11-17	898-902	push	_	_	_	_
-11-18	903-906	all	object[74]	giv[74]	coref	12-5[78_74]
-11-19	907-909	of	object[74]	giv[74]	_	_
-11-20	910-913	the	object[74]	giv[74]	_	_
-11-21	914-921	buttons	object[74]	giv[74]	_	_
+11-18	903-906	all	object[74]	object[74]	coref	12-5[78_74]
+11-19	907-909	of	object[74]	object[74]	_	_
+11-20	910-913	the	object[74]	object[74]	_	_
+11-21	914-921	buttons	object[74]	object[74]	_	_
 11-22	922-923	.	_	_	_	_
 
 #Text=You can also push all the buttons as you reach the floor you are getting off at .
@@ -218,9 +218,9 @@
 12-2	928-931	can	_	_	_	_
 12-3	932-936	also	_	_	_	_
 12-4	937-941	push	_	_	_	_
-12-5	942-945	all	object[78]	giv[78]	coref	13-8[91_78]
-12-6	946-949	the	object[78]	giv[78]	_	_
-12-7	950-957	buttons	object[78]	giv[78]	_	_
+12-5	942-945	all	object[78]	object[78]	coref	13-8[91_78]
+12-6	946-949	the	object[78]	object[78]	_	_
+12-7	950-957	buttons	object[78]	object[78]	_	_
 12-8	958-960	as	_	_	_	_
 12-9	961-964	you	person[79]	giv[79]	ana	12-13[82_79]
 12-10	965-970	reach	_	_	_	_
@@ -240,10 +240,10 @@
 13-4	1022-1025	you	person[84]	giv[84]	ana	13-6[85_84]
 13-5	1026-1029	why	_	_	_	_
 13-6	1030-1033	you	person[85]	giv[85]	ana	13-12[92_85]
-13-7	1034-1040	pushed	event[90]	giv[90]	ana	13-18[93_90]
-13-8	1041-1044	all	event[90]|object[91]	giv[90]|giv[91]	_	_
-13-9	1045-1048	the	event[90]|object[91]	giv[90]|giv[91]	_	_
-13-10	1049-1056	buttons	event[90]|object[91]	giv[90]|giv[91]	_	_
+13-7	1034-1040	pushed	event[307]	event[307]	ana	13-18[93_307]
+13-8	1041-1044	all	object[91]	object[91]	_	_
+13-9	1045-1048	the	object[91]	object[91]	_	_
+13-10	1049-1056	buttons	object[91]	object[91]	_	_
 13-11	1057-1058	,	_	_	_	_
 13-12	1059-1062	you	person[92]	giv[92]	ana	16-1[102_92]
 13-13	1063-1066	can	_	_	_	_
@@ -512,7 +512,7 @@
 27-11	2170-2171	,	_	_	_	_
 27-12	2172-2177	start	_	_	_	_
 27-13	2178-2180	to	_	_	_	_
-27-14	2181-2186	dance	event[180]	new[180]	ana	28-18[191_180]
+27-14	2181-2186	dance	event[308]	event[308]	ana	28-18[191_308]
 27-15	2187-2188	.	_	_	_	_
 
 #Text=Start just bobbing your head and tapping your feet , and then get your whole body into it .
@@ -639,46 +639,46 @@
 34-8	2699-2700	.	_	_	_	_
 
 #Text=When the elevator is going from the bottom floor to the top , as soon as the doors close , exclaim that you lost your tarantula / snake / scorpion but confirm that it is somewhere in the elevator .
-35-1	2701-2705	When	event[229]	new[229]	ana	36-7[244_229]
-35-2	2706-2709	the	event[229]|place[230]	new[229]|giv[230]	coref	38-7[256_230]
-35-3	2710-2718	elevator	event[229]|place[230]	new[229]|giv[230]	_	_
-35-4	2719-2721	is	event[229]	new[229]	_	_
-35-5	2722-2727	going	event[229]	new[229]	_	_
-35-6	2728-2732	from	event[229]	new[229]	_	_
-35-7	2733-2736	the	event[229]	new[229]	_	_
-35-8	2737-2743	bottom	event[229]	new[229]	_	_
-35-9	2744-2749	floor	event[229]	new[229]	_	_
-35-10	2750-2752	to	event[229]	new[229]	_	_
-35-11	2753-2756	the	event[229]	new[229]	_	_
-35-12	2757-2760	top	event[229]	new[229]	_	_
-35-13	2761-2762	,	event[229]	new[229]	_	_
-35-14	2763-2765	as	event[229]	new[229]	_	_
-35-15	2766-2770	soon	event[229]	new[229]	_	_
-35-16	2771-2773	as	event[229]	new[229]	_	_
-35-17	2774-2777	the	event[229]	new[229]	_	_
-35-18	2778-2783	doors	event[229]	new[229]	_	_
-35-19	2784-2789	close	event[229]	new[229]	_	_
-35-20	2790-2791	,	event[229]	new[229]	_	_
-35-21	2792-2799	exclaim	event[229]	new[229]	_	_
-35-22	2800-2804	that	event[229]	new[229]	_	_
-35-23	2805-2808	you	event[229]|person[234]	new[229]|giv[234]	ana	35-25[237_234]
-35-24	2809-2813	lost	event[229]	new[229]	_	_
-35-25	2814-2818	your	event[229]|animal[236]|person[237]	new[229]|new[236]|giv[237]	ana|ana	37-18[248_237]|35-34[238_236]
-35-26	2819-2828	tarantula	event[229]|animal[236]	new[229]|new[236]	_	_
-35-27	2829-2830	/	event[229]|animal[236]	new[229]|new[236]	_	_
-35-28	2831-2836	snake	event[229]|animal[236]	new[229]|new[236]	_	_
-35-29	2837-2838	/	event[229]|animal[236]	new[229]|new[236]	_	_
-35-30	2839-2847	scorpion	event[229]|animal[236]	new[229]|new[236]	_	_
-35-31	2848-2851	but	event[229]	new[229]	_	_
-35-32	2852-2859	confirm	event[229]	new[229]	_	_
-35-33	2860-2864	that	event[229]	new[229]	_	_
-35-34	2865-2867	it	event[229]|animal[238]	new[229]|giv[238]	_	_
-35-35	2868-2870	is	event[229]	new[229]	_	_
-35-36	2871-2880	somewhere	event[229]	new[229]	_	_
-35-37	2881-2883	in	event[229]	new[229]	_	_
-35-38	2884-2887	the	event[229]	new[229]	_	_
-35-39	2888-2896	elevator	event[229]	new[229]	_	_
-35-40	2897-2898	.	event[229]	new[229]	_	_
+35-1	2701-2705	When	_	_	_	_
+35-2	2706-2709	the	place[230]	place[230]	coref	38-7[256_230]
+35-3	2710-2718	elevator	place[230]	place[230]	_	_
+35-4	2719-2721	is	_	_	_	_
+35-5	2722-2727	going	_	_	_	_
+35-6	2728-2732	from	_	_	_	_
+35-7	2733-2736	the	_	_	_	_
+35-8	2737-2743	bottom	_	_	_	_
+35-9	2744-2749	floor	_	_	_	_
+35-10	2750-2752	to	_	_	_	_
+35-11	2753-2756	the	_	_	_	_
+35-12	2757-2760	top	_	_	_	_
+35-13	2761-2762	,	_	_	_	_
+35-14	2763-2765	as	_	_	_	_
+35-15	2766-2770	soon	_	_	_	_
+35-16	2771-2773	as	_	_	_	_
+35-17	2774-2777	the	_	_	_	_
+35-18	2778-2783	doors	_	_	_	_
+35-19	2784-2789	close	_	_	_	_
+35-20	2790-2791	,	_	_	_	_
+35-21	2792-2799	exclaim	event[309]	event[309]	ana	36-7[244_309]
+35-22	2800-2804	that	_	_	_	_
+35-23	2805-2808	you	person[234]	person[234]	ana	35-25[237_234]
+35-24	2809-2813	lost	_	_	_	_
+35-25	2814-2818	your	animal[236]|person[237]	animal[236]|person[237]	ana|ana	37-18[248_237]|35-34[238_236]
+35-26	2819-2828	tarantula	animal[236]	animal[236]	_	_
+35-27	2829-2830	/	animal[236]	animal[236]	_	_
+35-28	2831-2836	snake	animal[236]	animal[236]	_	_
+35-29	2837-2838	/	animal[236]	animal[236]	_	_
+35-30	2839-2847	scorpion	animal[236]	animal[236]	_	_
+35-31	2848-2851	but	_	_	_	_
+35-32	2852-2859	confirm	_	_	_	_
+35-33	2860-2864	that	_	_	_	_
+35-34	2865-2867	it	animal[238]	animal[238]	_	_
+35-35	2868-2870	is	_	_	_	_
+35-36	2871-2880	somewhere	_	_	_	_
+35-37	2881-2883	in	_	_	_	_
+35-38	2884-2887	the	_	_	_	_
+35-39	2888-2896	elevator	_	_	_	_
+35-40	2897-2898	.	_	_	_	_
 
 #Text=Most people will probably see that this is a joke .
 36-1	2899-2903	Most	_	_	_	_

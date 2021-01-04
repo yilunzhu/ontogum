@@ -4,12 +4,12 @@
 
 
 #Text=Friday , January 3 , 2014
-1-1	0-6	Friday	_	_	_	_
+1-1	0-6	Friday	time[1]	acc[1]	appos	1-3[3_1]
 1-2	7-8	,	_	_	_	_
-1-3	9-16	January	_	_	_	_
-1-4	17-18	3	_	_	_	_
-1-5	19-20	,	_	_	_	_
-1-6	21-25	2014	_	_	_	_
+1-3	9-16	January	time[3]	giv[3]	_	_
+1-4	17-18	3	time[3]	giv[3]	_	_
+1-5	19-20	,	time[3]	giv[3]	_	_
+1-6	21-25	2014	time[3]	giv[3]	_	_
 
 #Text=Preston , Victoria , Australia
 2-1	26-33	Preston	place[6]	new[6]	coref	5-10[42_6]
@@ -24,40 +24,40 @@
 3-3	69-70	,	_	_	_	_
 3-4	71-79	Wikinews	organization[10]	acc[10]	coref	5-1[34_10]
 3-5	80-91	interviewed	_	_	_	_
-3-6	92-96	Tina	person[249]	new[249]	coref	4-1[250_249]
-3-7	97-105	McKenzie	person[249]	new[249]	_	_
-3-8	106-107	,	person[249]	new[249]	_	_
-3-9	108-109	a	person[249]	new[249]	_	_
-3-10	110-116	former	person[249]	new[249]	_	_
-3-11	117-123	member	person[249]	new[249]	_	_
-3-12	124-126	of	person[249]	new[249]	_	_
-3-13	127-130	the	organization[16]|person[249]	new[16]|new[249]	ana	7-8[53_16]
-3-14	131-140	Australia	organization[16]|place[17]|person[249]	new[16]|giv[17]|new[249]	coref	13-13[82_17]
-3-15	141-146	women	organization[16]|person[249]	new[16]|new[249]	_	_
-3-16	147-149	's	organization[16]|person[249]	new[16]|new[249]	_	_
-3-17	150-158	national	organization[16]|person[249]	new[16]|new[249]	_	_
-3-18	159-169	wheelchair	organization[16]|person[249]	new[16]|new[249]	_	_
-3-19	170-180	basketball	organization[16]|person[249]	new[16]|new[249]	_	_
-3-20	181-185	team	organization[16]|person[249]	new[16]|new[249]	_	_
-3-21	186-187	,	organization[16]|person[249]	new[16]|new[249]	_	_
-3-22	188-193	known	organization[16]|person[249]	new[16]|new[249]	_	_
-3-23	194-196	as	organization[16]|person[249]	new[16]|new[249]	_	_
-3-24	197-200	the	organization[16]|person[249]	new[16]|new[249]	_	_
-3-25	201-208	Gliders	organization[16]|person[249]	new[16]|new[249]	_	_
+3-6	92-96	Tina	person[14]|person[253]	new[14]|new[253]	coref|appos	4-1[255_253]|3-9[15_14]
+3-7	97-105	McKenzie	person[14]|person[253]	new[14]|new[253]	_	_
+3-8	106-107	,	person[253]	new[253]	_	_
+3-9	108-109	a	person[15]|person[253]	giv[15]|new[253]	_	_
+3-10	110-116	former	person[15]|person[253]	giv[15]|new[253]	_	_
+3-11	117-123	member	person[15]|person[253]	giv[15]|new[253]	_	_
+3-12	124-126	of	person[15]|person[253]	giv[15]|new[253]	_	_
+3-13	127-130	the	person[15]|organization[16]|person[253]	giv[15]|new[16]|new[253]	ana	7-8[53_16]
+3-14	131-140	Australia	person[15]|organization[16]|place[17]|person[253]	giv[15]|new[16]|giv[17]|new[253]	coref	13-13[82_17]
+3-15	141-146	women	person[15]|organization[16]|person[253]	giv[15]|new[16]|new[253]	_	_
+3-16	147-149	's	person[15]|organization[16]|person[253]	giv[15]|new[16]|new[253]	_	_
+3-17	150-158	national	person[15]|organization[16]|person[253]	giv[15]|new[16]|new[253]	_	_
+3-18	159-169	wheelchair	person[15]|organization[16]|person[253]	person[15]|organization[16]|person[253]	_	_
+3-19	170-180	basketball	person[15]|organization[16]|person[253]	person[15]|organization[16]|new[253]	_	_
+3-20	181-185	team	person[15]|organization[16]|person[253]	giv[15]|new[16]|new[253]	_	_
+3-21	186-187	,	person[15]|organization[16]|person[253]	giv[15]|new[16]|new[253]	_	_
+3-22	188-193	known	person[15]|organization[16]|person[253]	giv[15]|new[16]|new[253]	_	_
+3-23	194-196	as	person[15]|organization[16]|person[253]	giv[15]|new[16]|new[253]	_	_
+3-24	197-200	the	person[15]|organization[16]|person[253]	person[15]|organization[16]|person[253]	_	_
+3-25	201-208	Gliders	person[15]|organization[16]|person[253]	person[15]|organization[16]|person[253]	_	_
 3-26	209-210	.	_	_	_	_
 
 #Text=McKenzie , a silver and bronze Paralympic medalist in wheelchair basketball , retired from the game after the 2012 Summer Paralympics in London .
-4-1	211-219	McKenzie	person[250]	giv[250]	ana	5-5[35_250]
-4-2	220-221	,	person[250]	giv[250]	_	_
-4-3	222-223	a	_	_	_	_
-4-4	224-230	silver	_	_	_	_
-4-5	231-234	and	_	_	_	_
-4-6	235-241	bronze	_	_	_	_
-4-7	242-252	Paralympic	_	_	_	_
-4-8	253-261	medalist	_	_	_	_
-4-9	262-264	in	_	_	_	_
-4-10	265-275	wheelchair	abstract[26]	giv[26]	coref	4-15[29_26]
-4-11	276-286	basketball	abstract[26]	giv[26]	_	_
+4-1	211-219	McKenzie	person[23]|person[255]	giv[23]|giv[255]	ana|appos	5-5[35_255]|4-3[25_23]
+4-2	220-221	,	person[255]	giv[255]	_	_
+4-3	222-223	a	person[25]|person[255]	giv[25]|giv[255]	_	_
+4-4	224-230	silver	person[25]|person[255]	giv[25]|giv[255]	_	_
+4-5	231-234	and	person[25]|person[255]	giv[25]|giv[255]	_	_
+4-6	235-241	bronze	person[25]|person[255]	giv[25]|giv[255]	_	_
+4-7	242-252	Paralympic	person[25]|person[255]	giv[25]|giv[255]	_	_
+4-8	253-261	medalist	person[25]|person[255]	giv[25]|giv[255]	_	_
+4-9	262-264	in	person[25]|person[255]	giv[25]|giv[255]	_	_
+4-10	265-275	wheelchair	person[25]|abstract[26]|person[255]	person[25]|abstract[26]|person[255]	coref	4-15[29_26]
+4-11	276-286	basketball	person[25]|abstract[26]|person[255]	giv[25]|giv[26]|giv[255]	_	_
 4-12	287-288	,	_	_	_	_
 4-13	289-296	retired	_	_	_	_
 4-14	297-301	from	_	_	_	_
@@ -170,10 +170,10 @@
 11-1	759-764	Cause	_	_	_	_
 11-2	765-769	that	_	_	_	_
 11-3	770-772	's	_	_	_	_
-11-4	773-776	one	event[68]	new[68]	cata	11-2[66_68]
-11-5	777-779	of	event[68]	new[68]	_	_
-11-6	780-783	our	event[68]|organization[69]	new[68]|giv[69]	ana	12-3[73_69]
-11-7	784-792	problems	event[68]	new[68]	_	_
+11-4	773-776	one	_	_	_	_
+11-5	777-779	of	_	_	_	_
+11-6	780-783	our	organization[69]	giv[69]	ana	12-3[73_69]
+11-7	784-792	problems	_	_	_	_
 11-8	793-799	really	_	_	_	_
 11-9	800-801	,	_	_	_	_
 11-10	802-804	to	_	_	_	_
@@ -188,15 +188,15 @@
 12-5	830-834	much	_	_	_	_
 12-6	835-840	money	_	_	_	_
 12-7	841-843	to	_	_	_	_
-12-8	844-847	for	event[77]	new[77]	cata	12-1[72_77]
-12-9	848-850	us	event[77]	new[77]	_	_
-12-10	851-853	to	event[77]	new[77]	_	_
-12-11	854-860	travel	event[77]	new[77]	_	_
-12-12	861-869	overseas	event[77]	new[77]	_	_
-12-13	870-873	and	event[77]	new[77]	_	_
-12-14	874-876	to	event[77]	new[77]	_	_
-12-15	877-884	compete	event[77]	new[77]	_	_
-12-16	885-900	internationally	event[77]	new[77]	_	_
+12-8	844-847	for	_	_	_	_
+12-9	848-850	us	_	_	_	_
+12-10	851-853	to	_	_	_	_
+12-11	854-860	travel	_	_	_	_
+12-12	861-869	overseas	_	_	_	_
+12-13	870-873	and	_	_	_	_
+12-14	874-876	to	_	_	_	_
+12-15	877-884	compete	_	_	_	_
+12-16	885-900	internationally	_	_	_	_
 12-17	901-902	.	_	_	_	_
 
 #Text=And so we can compete against each other all the time within Australia but we really need to be able to ...
@@ -204,10 +204,10 @@
 13-2	907-909	so	_	_	_	_
 13-3	910-912	we	organization[78]	giv[78]	_	_
 13-4	913-916	can	_	_	_	_
-13-5	917-924	compete	event[80]	new[80]	ana	14-1[84_80]
-13-6	925-932	against	event[80]	new[80]	_	_
-13-7	933-937	each	event[80]|organization[81]	new[80]|giv[81]	ana	13-15[83_81]
-13-8	938-943	other	event[80]|organization[81]	new[80]|giv[81]	_	_
+13-5	917-924	compete	event[248]	new[248]	ana	14-1[84_248]
+13-6	925-932	against	_	_	_	_
+13-7	933-937	each	organization[81]	organization[81]	ana	13-15[83_81]
+13-8	938-943	other	organization[81]	organization[81]	_	_
 13-9	944-947	all	_	_	_	_
 13-10	948-951	the	_	_	_	_
 13-11	952-956	time	_	_	_	_
@@ -244,23 +244,23 @@
 15-10	1062-1064	's	_	_	_	_
 15-11	1065-1071	really	_	_	_	_
 15-12	1072-1081	important	_	_	_	_
-15-13	1082-1084	to	event[92]	new[92]	cata	15-9[86_92]
-15-14	1085-1087	be	event[92]	new[92]	_	_
-15-15	1088-1092	able	event[92]	new[92]	_	_
-15-16	1093-1095	to	event[92]	new[92]	_	_
-15-17	1096-1099	get	event[92]	new[92]	_	_
-15-18	1100-1102	as	event[92]	new[92]	_	_
-15-19	1103-1104	a	event[92]	new[92]	_	_
-15-20	1105-1109	many	event[92]	new[92]	_	_
-15-21	1110-1123	international	event[92]	new[92]	_	_
-15-22	1124-1129	trips	event[92]	new[92]	_	_
-15-23	1130-1140	throughout	event[92]	new[92]	_	_
-15-24	1141-1144	the	event[92]	new[92]	_	_
-15-25	1145-1149	year	event[92]	new[92]	_	_
-15-26	1150-1152	to	event[92]	new[92]	_	_
-15-27	1153-1161	continue	event[92]	new[92]	_	_
-15-28	1162-1165	our	event[92]|organization[95]	new[92]|giv[95]	ana	18-1[99_95]
-15-29	1166-1177	improvement	event[92]	new[92]	_	_
+15-13	1082-1084	to	_	_	_	_
+15-14	1085-1087	be	_	_	_	_
+15-15	1088-1092	able	_	_	_	_
+15-16	1093-1095	to	_	_	_	_
+15-17	1096-1099	get	_	_	_	_
+15-18	1100-1102	as	_	_	_	_
+15-19	1103-1104	a	_	_	_	_
+15-20	1105-1109	many	_	_	_	_
+15-21	1110-1123	international	_	_	_	_
+15-22	1124-1129	trips	_	_	_	_
+15-23	1130-1140	throughout	_	_	_	_
+15-24	1141-1144	the	_	_	_	_
+15-25	1145-1149	year	_	_	_	_
+15-26	1150-1152	to	_	_	_	_
+15-27	1153-1161	continue	_	_	_	_
+15-28	1162-1165	our	organization[95]	giv[95]	ana	18-1[99_95]
+15-29	1166-1177	improvement	_	_	_	_
 15-30	1178-1179	.	_	_	_	_
 
 #Text=Also see where all the other teams are at as well .
@@ -383,24 +383,24 @@
 24-9	1617-1618	.	_	_	_	_
 
 #Text=We always seem to have just a little bit of a chill out at the World Cup .
-25-1	1619-1621	We	event[137]|organization[138]	new[137]|giv[138]	ana|ana	28-5[150_138]|27-1[143_137]
-25-2	1622-1628	always	event[137]	new[137]	_	_
-25-3	1629-1633	seem	event[137]	new[137]	_	_
-25-4	1634-1636	to	event[137]	new[137]	_	_
-25-5	1637-1641	have	event[137]	new[137]	_	_
-25-6	1642-1646	just	event[137]	new[137]	_	_
-25-7	1647-1648	a	event[137]	new[137]	_	_
-25-8	1649-1655	little	event[137]	new[137]	_	_
-25-9	1656-1659	bit	event[137]	new[137]	_	_
-25-10	1660-1662	of	event[137]	new[137]	_	_
-25-11	1663-1664	a	event[137]	new[137]	_	_
-25-12	1665-1670	chill	event[137]	new[137]	_	_
-25-13	1671-1674	out	event[137]	new[137]	_	_
-25-14	1675-1677	at	event[137]	new[137]	_	_
-25-15	1678-1681	the	event[137]|event[141]	new[137]|giv[141]	coref	36-2[180_141]
-25-16	1682-1687	World	event[137]|event[141]	new[137]|giv[141]	_	_
-25-17	1688-1691	Cup	event[137]|event[141]	new[137]|giv[141]	_	_
-25-18	1692-1693	.	event[137]	new[137]	_	_
+25-1	1619-1621	We	organization[138]	organization[138]	ana	28-5[150_138]
+25-2	1622-1628	always	_	_	_	_
+25-3	1629-1633	seem	event[249]	event[249]	ana	27-1[143_249]
+25-4	1634-1636	to	_	_	_	_
+25-5	1637-1641	have	_	_	_	_
+25-6	1642-1646	just	_	_	_	_
+25-7	1647-1648	a	_	_	_	_
+25-8	1649-1655	little	_	_	_	_
+25-9	1656-1659	bit	_	_	_	_
+25-10	1660-1662	of	_	_	_	_
+25-11	1663-1664	a	_	_	_	_
+25-12	1665-1670	chill	_	_	_	_
+25-13	1671-1674	out	_	_	_	_
+25-14	1675-1677	at	_	_	_	_
+25-15	1678-1681	the	event[141]	event[141]	coref	36-2[180_141]
+25-16	1682-1687	World	event[141]	event[141]	_	_
+25-17	1688-1691	Cup	event[141]	event[141]	_	_
+25-18	1692-1693	.	_	_	_	_
 
 #Text=I do n't know why .
 26-1	1694-1695	I	person[142]	giv[142]	ana	31-8[166_142]
@@ -520,7 +520,7 @@
 36-7	2104-2106	it	_	_	_	_
 36-8	2107-2109	's	_	_	_	_
 36-9	2110-2114	good	_	_	_	_
-36-10	2115-2117	to	event[183]	new[183]	cata	36-7[181_183]
+36-10	2115-2117	to	event[183]	new[183]	ana	36-26[185_183]
 36-11	2118-2120	be	event[183]	new[183]	_	_
 36-12	2121-2125	able	event[183]	new[183]	_	_
 36-13	2126-2128	to	event[183]	new[183]	_	_
@@ -536,7 +536,7 @@
 36-23	2162-2168	placed	event[183]	new[183]	_	_
 36-24	2169-2170	,	_	_	_	_
 36-25	2171-2174	but	_	_	_	_
-36-26	2175-2177	it	_	_	_	_
+36-26	2175-2177	it	event[185]	giv[185]	_	_
 36-27	2178-2182	also	_	_	_	_
 36-28	2183-2188	means	_	_	_	_
 36-29	2189-2193	that	_	_	_	_
@@ -604,8 +604,8 @@
 39-4	2448-2451	are	_	_	_	_
 39-5	2452-2459	talking	_	_	_	_
 39-6	2460-2465	about	_	_	_	_
-39-7	2466-2472	moving	event[204]	new[204]	ana	43-3[214_204]
-39-8	2473-2475	it	event[204]|event[205]	new[204]|giv[205]	ana	39-10[206_205]
+39-7	2466-2472	moving	event[250]	event[250]	ana	43-3[214_250]
+39-8	2473-2475	it	event[205]	event[205]	ana	39-10[206_205]
 39-9	2476-2478	so	_	_	_	_
 39-10	2479-2481	it	event[206]	giv[206]	_	_
 39-11	2482-2486	will	_	_	_	_

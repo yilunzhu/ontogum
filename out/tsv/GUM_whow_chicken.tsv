@@ -4,11 +4,11 @@
 
 
 #Text=How to Hypnotize a Chicken
-1-1	0-3	How	event[1]	new[1]	coref	2-18[8_1]
-1-2	4-6	to	event[1]	new[1]	_	_
-1-3	7-16	Hypnotize	event[1]	new[1]	_	_
-1-4	17-18	a	event[1]	new[1]	_	_
-1-5	19-26	Chicken	event[1]	new[1]	_	_
+1-1	0-3	How	_	_	_	_
+1-2	4-6	to	_	_	_	_
+1-3	7-16	Hypnotize	event[276]	new[276]	coref	2-18[8_276]
+1-4	17-18	a	_	_	_	_
+1-5	19-26	Chicken	_	_	_	_
 
 #Text=Anyone who 's spent a lot of time on a farm with chickens is probably familiar with this trick .
 2-1	27-33	Anyone	_	_	_	_
@@ -45,16 +45,16 @@
 3-10	166-172	amazed	_	_	_	_
 3-11	173-175	to	_	_	_	_
 3-12	176-179	see	_	_	_	_
-3-13	180-181	a	event[12]	new[12]	coref	4-6[19_12]
-3-14	182-189	chicken	event[12]	new[12]	_	_
-3-15	190-193	lie	event[12]	new[12]	_	_
-3-16	194-203	perfectly	event[12]	new[12]	_	_
-3-17	204-209	still	event[12]	new[12]	_	_
-3-18	210-215	after	event[12]	new[12]	_	_
-3-19	216-221	these	event[12]	new[12]	_	_
-3-20	222-234	instructions	event[12]	new[12]	_	_
-3-21	235-238	are	event[12]	new[12]	_	_
-3-22	239-247	followed	event[12]	new[12]	_	_
+3-13	180-181	a	_	_	_	_
+3-14	182-189	chicken	_	_	_	_
+3-15	190-193	lie	event[277]	new[277]	coref	4-6[19_277]
+3-16	194-203	perfectly	_	_	_	_
+3-17	204-209	still	_	_	_	_
+3-18	210-215	after	_	_	_	_
+3-19	216-221	these	_	_	_	_
+3-20	222-234	instructions	_	_	_	_
+3-21	235-238	are	_	_	_	_
+3-22	239-247	followed	_	_	_	_
 3-23	248-249	.	_	_	_	_
 
 #Text=Biologists think that fear causes this " hypnosis , " which may be an attempt to " play dead " to fool predators .
@@ -213,7 +213,7 @@
 14-10	894-899	front	_	_	_	_
 14-11	900-902	of	_	_	_	_
 14-12	903-906	its	animal[69]	giv[69]	coref	16-3[80_69]
-14-13	907-911	beak	object[72]	new[72]	ana	14-18[74_72]
+14-13	907-911	beak	object[72]	object[72]	ana	14-18[74_72]
 14-14	912-915	tip	object[72]	new[72]	_	_
 14-15	916-917	,	_	_	_	_
 14-16	918-925	without	_	_	_	_
@@ -227,12 +227,12 @@
 15-3	949-955	finger	object[77]	giv[77]	_	_
 15-4	956-964	backward	_	_	_	_
 15-5	965-967	to	_	_	_	_
-15-6	968-973	about	_	_	_	_
-15-7	974-975	4	_	_	_	_
-15-8	976-982	inches	_	_	_	_
+15-6	968-973	about	abstract[78]	new[78]	appos	15-10[79_78]
+15-7	974-975	4	abstract[78]	new[78]	_	_
+15-8	976-982	inches	abstract[78]	new[78]	_	_
 15-9	983-984	(	_	_	_	_
-15-10	985-987	10	_	_	_	_
-15-11	988-990	cm	_	_	_	_
+15-10	985-987	10	abstract[79]	giv[79]	_	_
+15-11	988-990	cm	abstract[79]	giv[79]	_	_
 15-12	991-992	)	_	_	_	_
 15-13	993-997	away	_	_	_	_
 15-14	998-999	,	_	_	_	_
@@ -290,14 +290,14 @@
 19-13	1219-1220	.	_	_	_	_
 
 #Text=Draw a line in front of its beak instead .
-20-1	1221-1225	Draw	event[89]	new[89]	coref	21-9[95_89]
-20-2	1226-1227	a	event[89]	new[89]	_	_
-20-3	1228-1232	line	event[89]	new[89]	_	_
-20-4	1233-1235	in	event[89]	new[89]	_	_
-20-5	1236-1241	front	event[89]	new[89]	_	_
-20-6	1242-1244	of	event[89]	new[89]	_	_
-20-7	1245-1248	its	event[89]|animal[92]	new[89]|giv[92]	coref	21-2[94_92]
-20-8	1249-1253	beak	event[89]	new[89]	_	_
+20-1	1221-1225	Draw	event[278]	event[278]	coref	21-9[95_278]
+20-2	1226-1227	a	_	_	_	_
+20-3	1228-1232	line	_	_	_	_
+20-4	1233-1235	in	_	_	_	_
+20-5	1236-1241	front	_	_	_	_
+20-6	1242-1244	of	_	_	_	_
+20-7	1245-1248	its	animal[92]	animal[92]	coref	21-2[94_92]
+20-8	1249-1253	beak	_	_	_	_
 20-9	1254-1261	instead	_	_	_	_
 20-10	1262-1263	.	_	_	_	_
 
@@ -331,11 +331,11 @@
 22-14	1376-1378	on	_	_	_	_
 22-15	1379-1382	the	place[103]	giv[103]	_	_
 22-16	1383-1389	ground	place[103]	giv[103]	_	_
-22-17	1390-1392	12	_	_	_	_
-22-18	1393-1394	"	_	_	_	_
+22-17	1390-1392	12	abstract[104]	new[104]	appos	22-20[105_104]
+22-18	1393-1394	"	abstract[104]	new[104]	_	_
 22-19	1395-1396	(	_	_	_	_
-22-20	1397-1399	30	_	_	_	_
-22-21	1400-1402	cm	_	_	_	_
+22-20	1397-1399	30	abstract[105]	giv[105]	_	_
+22-21	1400-1402	cm	abstract[105]	giv[105]	_	_
 22-22	1403-1404	)	_	_	_	_
 22-23	1405-1409	long	_	_	_	_
 22-24	1410-1411	.	_	_	_	_
@@ -373,7 +373,7 @@
 25-1	1526-1528	Be	_	_	_	_
 25-2	1529-1533	nice	_	_	_	_
 25-3	1534-1536	to	_	_	_	_
-25-4	1537-1541	your	animal[114]|person[115]	giv[114]|giv[115]	ana|ana	26-2[123_115]|25-9[116_114]
+25-4	1537-1541	your	animal[114]|person[115]	giv[114]|giv[115]	ana|ana	25-9[116_114]|26-2[123_115]
 25-5	1542-1551	feathered	animal[114]	giv[114]	_	_
 25-6	1552-1558	friend	animal[114]	giv[114]	_	_
 25-7	1559-1562	and	_	_	_	_
@@ -419,7 +419,7 @@
 
 #Text=Understand the hypnotic effect .
 28-1	1725-1735	Understand	_	_	_	_
-28-2	1736-1739	the	abstract[136]	new[136]	coref	29-3[278_136]
+28-2	1736-1739	the	abstract[136]	new[136]	coref	29-3[285_136]
 28-3	1740-1748	hypnotic	abstract[136]	new[136]	_	_
 28-4	1749-1755	effect	abstract[136]	new[136]	_	_
 28-5	1756-1757	.	_	_	_	_
@@ -427,12 +427,12 @@
 #Text=Researchers call this effect " tonic immobility " .
 29-1	1758-1769	Researchers	_	_	_	_
 29-2	1770-1774	call	_	_	_	_
-29-3	1775-1779	this	abstract[278]	giv[278]	coref	30-9[144_278]
-29-4	1780-1786	effect	abstract[278]	giv[278]	_	_
-29-5	1787-1788	"	abstract[278]	giv[278]	_	_
-29-6	1789-1794	tonic	abstract[278]	giv[278]	_	_
-29-7	1795-1805	immobility	abstract[278]	giv[278]	_	_
-29-8	1806-1807	"	_	_	_	_
+29-3	1775-1779	this	abstract[139]|abstract[285]	giv[139]|giv[285]	appos|coref	29-6[140_139]|30-9[144_285]
+29-4	1780-1786	effect	abstract[139]|abstract[285]	giv[139]|giv[285]	_	_
+29-5	1787-1788	"	abstract[285]	giv[285]	_	_
+29-6	1789-1794	tonic	abstract[140]|abstract[285]	giv[140]|giv[285]	_	_
+29-7	1795-1805	immobility	abstract[140]|abstract[285]	giv[140]|giv[285]	_	_
+29-8	1806-1807	"	abstract[285]	giv[285]	_	_
 29-9	1808-1809	.	_	_	_	_
 
 #Text=" When a chicken or another animal with this tendency becomes frightened , its heart rate lowers and it stops moving .
@@ -520,13 +520,13 @@
 34-3	2184-2186	's	_	_	_	_
 34-4	2187-2190	not	_	_	_	_
 34-5	2191-2199	uncommon	_	_	_	_
-34-6	2200-2202	to	event[167]	new[167]	cata	34-2[164_167]
-34-7	2203-2212	transport	event[167]	new[167]	_	_
-34-8	2213-2214	a	event[167]|animal[168]	new[167]|new[168]	ana	34-11[169_168]
-34-9	2215-2222	chicken	event[167]|animal[168]	new[167]|new[168]	_	_
-34-10	2223-2225	by	event[167]	new[167]	_	_
-34-11	2226-2229	its	event[167]|animal[169]	new[167]|giv[169]	_	_
-34-12	2230-2234	feet	event[167]	new[167]	_	_
+34-6	2200-2202	to	_	_	_	_
+34-7	2203-2212	transport	_	_	_	_
+34-8	2213-2214	a	animal[168]	new[168]	ana	34-11[169_168]
+34-9	2215-2222	chicken	animal[168]	new[168]	_	_
+34-10	2223-2225	by	_	_	_	_
+34-11	2226-2229	its	animal[169]	giv[169]	_	_
+34-12	2230-2234	feet	_	_	_	_
 34-13	2235-2236	,	_	_	_	_
 34-14	2237-2241	this	_	_	_	_
 34-15	2242-2253	upside-down	_	_	_	_
@@ -555,11 +555,11 @@
 35-13	2363-2370	succeed	_	_	_	_
 35-14	2371-2372	"	_	_	_	_
 35-15	2373-2375	by	_	_	_	_
-35-16	2376-2383	cutting	event[181]	new[181]	ana	36-1[186_181]
-35-17	2384-2387	off	event[181]	new[181]	_	_
-35-18	2388-2391	its	event[181]|animal[182]	new[181]|giv[182]	_	_
-35-19	2392-2395	air	event[181]	new[181]	_	_
-35-20	2396-2402	supply	event[181]	new[181]	_	_
+35-16	2376-2383	cutting	event[279]	new[279]	ana	36-1[186_279]
+35-17	2384-2387	off	_	_	_	_
+35-18	2388-2391	its	animal[182]	animal[182]	_	_
+35-19	2392-2395	air	_	_	_	_
+35-20	2396-2402	supply	_	_	_	_
 35-21	2403-2404	.	_	_	_	_
 
 #Text=This can cause the chicken significant discomfort , leading to fainting or even , rarely , death .
@@ -596,12 +596,12 @@
 38-3	2547-2550	not	_	_	_	_
 38-4	2551-2561	completely	_	_	_	_
 38-5	2562-2567	clear	_	_	_	_
-38-6	2568-2571	how	abstract[199]	new[199]	cata	38-1[194_199]
-38-7	2572-2576	much	abstract[199]	new[199]	_	_
-38-8	2577-2583	stress	abstract[199]	new[199]	_	_
-38-9	2584-2588	this	abstract[199]|event[202]	new[199]|giv[202]	ana	39-3[203_202]
-38-10	2589-2597	hypnosis	abstract[199]|event[202]	new[199]|giv[202]	_	_
-38-11	2598-2604	causes	abstract[199]	new[199]	_	_
+38-6	2568-2571	how	_	_	_	_
+38-7	2572-2576	much	_	_	_	_
+38-8	2577-2583	stress	_	_	_	_
+38-9	2584-2588	this	event[202]	giv[202]	ana	39-3[203_202]
+38-10	2589-2597	hypnosis	event[202]	giv[202]	_	_
+38-11	2598-2604	causes	_	_	_	_
 38-12	2605-2606	.	_	_	_	_
 
 #Text=Even if it does , the chicken should n't suffer as long as you let it go soon afterward .

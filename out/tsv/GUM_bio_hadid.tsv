@@ -8,7 +8,7 @@
 1-2	5-10	Hadid	person[1]	new[1]	_	_
 
 #Text=Dame Zaha Mohammad Hadid DBE RA ( Arabic : زها حديد Zahā Ḥadīd ; 31 October 1950 – 31 March 2016 ) was an Iraqi-British architect .
-2-1	11-15	Dame	person[2]|person[295]	giv[2]|giv[295]	appos|coref	2-10[5_2]|2-12[6_295]
+2-1	11-15	Dame	person[2]|person[295]	giv[2]|giv[295]	coref|appos	2-12[6_295]|2-10[5_2]
 2-2	16-20	Zaha	person[2]|person[295]	giv[2]|giv[295]	_	_
 2-3	21-29	Mohammad	person[2]|person[295]	giv[2]|giv[295]	_	_
 2-4	30-35	Hadid	person[2]|person[295]	giv[2]|giv[295]	_	_
@@ -215,21 +215,21 @@
 8-27	1017-1029	construction	_	_	_	_
 8-28	1030-1031	,	_	_	_	_
 8-29	1032-1041	including	_	_	_	_
-8-30	1042-1045	the	_	_	_	_
-8-31	1046-1048	Al	_	_	_	_
-8-32	1049-1055	Wakrah	_	_	_	_
-8-33	1056-1063	Stadium	_	_	_	_
-8-34	1064-1066	in	_	_	_	_
-8-35	1067-1072	Qatar	_	_	_	_
+8-30	1042-1045	the	place[95]	acc[95]	appos	8-37[99_95]
+8-31	1046-1048	Al	place[95]	acc[95]	_	_
+8-32	1049-1055	Wakrah	place[95]	acc[95]	_	_
+8-33	1056-1063	Stadium	place[95]	acc[95]	_	_
+8-34	1064-1066	in	place[95]	acc[95]	_	_
+8-35	1067-1072	Qatar	place[95]	acc[95]	_	_
 8-36	1073-1074	,	_	_	_	_
-8-37	1075-1076	a	_	_	_	_
-8-38	1077-1082	venue	_	_	_	_
-8-39	1083-1086	for	_	_	_	_
-8-40	1087-1090	the	_	_	_	_
-8-41	1091-1095	2022	_	_	_	_
-8-42	1096-1100	FIFA	_	_	_	_
-8-43	1101-1106	World	_	_	_	_
-8-44	1107-1110	Cup	_	_	_	_
+8-37	1075-1076	a	place[99]	giv[99]	_	_
+8-38	1077-1082	venue	place[99]	giv[99]	_	_
+8-39	1083-1086	for	place[99]	giv[99]	_	_
+8-40	1087-1090	the	place[99]	giv[99]	_	_
+8-41	1091-1095	2022	place[99]	giv[99]	_	_
+8-42	1096-1100	FIFA	place[99]	giv[99]	_	_
+8-43	1101-1106	World	place[99]	giv[99]	_	_
+8-44	1107-1110	Cup	place[99]	giv[99]	_	_
 8-45	1111-1112	.	_	_	_	_
 
 #Text=Early life and academic career
@@ -260,14 +260,14 @@
 10-18	1229-1230	.	_	_	_	_
 
 #Text=Her father Mohammed Hadid Muhammad al-Hajj Husayn Hadid was a wealthy industrialist from Mosul .
-11-1	1231-1234	Her	person[117]|person[118]|person[298]	acc[117]|giv[118]|acc[298]	appos|ana|ana	11-3[120_117]|15-1[150_118]|12-1[123_298]
-11-2	1235-1241	father	person[117]|person[298]	acc[117]|acc[298]	_	_
-11-3	1242-1250	Mohammed	person[120]|person[298]	giv[120]|acc[298]	_	_
-11-4	1251-1256	Hadid	person[120]|person[298]	giv[120]|acc[298]	_	_
-11-5	1257-1265	Muhammad	person[120]|person[298]	giv[120]|acc[298]	_	_
-11-6	1266-1273	al-Hajj	person[120]|person[298]	giv[120]|acc[298]	_	_
-11-7	1274-1280	Husayn	person[120]|person[298]	giv[120]|acc[298]	_	_
-11-8	1281-1286	Hadid	person[120]|person[298]	giv[120]|acc[298]	_	_
+11-1	1231-1234	Her	person[117]|person[118]|person[301]	acc[117]|giv[118]|acc[301]	ana|appos|ana	12-1[123_301]|11-3[120_117]|15-1[150_118]
+11-2	1235-1241	father	person[117]|person[301]	acc[117]|acc[301]	_	_
+11-3	1242-1250	Mohammed	person[120]|person[301]	giv[120]|acc[301]	_	_
+11-4	1251-1256	Hadid	person[120]|person[301]	giv[120]|acc[301]	_	_
+11-5	1257-1265	Muhammad	person[120]|person[301]	giv[120]|acc[301]	_	_
+11-6	1266-1273	al-Hajj	person[120]|person[301]	giv[120]|acc[301]	_	_
+11-7	1274-1280	Husayn	person[120]|person[301]	giv[120]|acc[301]	_	_
+11-8	1281-1286	Hadid	person[120]|person[301]	giv[120]|acc[301]	_	_
 11-9	1287-1290	was	_	_	_	_
 11-10	1291-1292	a	_	_	_	_
 11-11	1293-1300	wealthy	_	_	_	_
@@ -341,7 +341,7 @@
 14-27	1661-1662	.	_	_	_	_
 
 #Text=Her mother Wajiha al-Sabunji was an artist from Mosul .
-15-1	1663-1666	Her	person[149]|person[150]	acc[149]|giv[150]	appos|coref	15-3[152_149]|16-4[157_150]
+15-1	1663-1666	Her	person[149]|person[150]	acc[149]|giv[150]	coref|appos	16-4[157_150]|15-3[152_149]
 15-2	1667-1673	mother	person[149]	acc[149]	_	_
 15-3	1674-1680	Wajiha	person[152]	giv[152]	_	_
 15-4	1681-1691	al-Sabunji	person[152]	giv[152]	_	_
@@ -400,7 +400,7 @@
 18-2	1965-1968	she	person[177]	giv[177]	ana	19-1[184_177]
 18-3	1969-1976	studied	_	_	_	_
 18-4	1977-1981	with	_	_	_	_
-18-5	1982-1985	Rem	person[180]	new[180]	coref	19-1[300_180]
+18-5	1982-1985	Rem	person[180]	new[180]	coref	19-1[305_180]
 18-6	1986-1994	Koolhaas	person[180]	new[180]	_	_
 18-7	1995-1996	,	_	_	_	_
 18-8	1997-2001	Elia	person[181]	new[181]	coref	20-1[195_181]
@@ -411,11 +411,11 @@
 18-13	2032-2033	.	_	_	_	_
 
 #Text=Her former professor , Koolhaas , described her at graduation as " a planet in her own orbit . "
-19-1	2034-2037	Her	person[183]|person[184]|person[300]	giv[183]|giv[184]|giv[300]	appos|ana	19-5[185_183]|19-8[186_184]
-19-2	2038-2044	former	person[183]|person[300]	giv[183]|giv[300]	_	_
-19-3	2045-2054	professor	person[183]|person[300]	giv[183]|giv[300]	_	_
-19-4	2055-2056	,	person[300]	giv[300]	_	_
-19-5	2057-2065	Koolhaas	person[185]|person[300]	giv[185]|giv[300]	_	_
+19-1	2034-2037	Her	person[183]|person[184]|person[305]	giv[183]|giv[184]|giv[305]	appos|ana	19-5[185_183]|19-8[186_184]
+19-2	2038-2044	former	person[183]|person[305]	giv[183]|giv[305]	_	_
+19-3	2045-2054	professor	person[183]|person[305]	giv[183]|giv[305]	_	_
+19-4	2055-2056	,	person[305]	giv[305]	_	_
+19-5	2057-2065	Koolhaas	person[185]|person[305]	giv[185]|giv[305]	_	_
 19-6	2066-2067	,	_	_	_	_
 19-7	2068-2077	described	_	_	_	_
 19-8	2078-2081	her	person[186]	giv[186]	_	_
@@ -426,7 +426,7 @@
 19-13	2101-2102	a	person[192]	giv[192]	ana	20-3[196_192]
 19-14	2103-2109	planet	person[192]	giv[192]	_	_
 19-15	2110-2112	in	person[192]	giv[192]	_	_
-19-16	2113-2116	her	person[192]	giv[192]	_	_
+19-16	2113-2116	her	person[192]	person[192]	_	_
 19-17	2117-2120	own	person[192]	giv[192]	_	_
 19-18	2121-2126	orbit	person[192]	giv[192]	_	_
 19-19	2127-2128	.	_	_	_	_

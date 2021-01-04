@@ -247,39 +247,39 @@
 19-15	988-998	half-dozen	person[83]	giv[83]	_	_
 19-16	999-1003	kids	person[83]	giv[83]	_	_
 19-17	1004-1005	,	_	_	_	_
-19-18	1006-1011	those	event[87]|person[88]	new[87]|acc[88]	coref|ana	21-20[125_88]|70-4[409_87]
-19-19	1012-1017	lucky	event[87]|person[88]	new[87]|acc[88]	_	_
-19-20	1018-1021	few	event[87]|person[88]	new[87]|acc[88]	_	_
-19-21	1022-1024	in	event[87]|person[88]	new[87]|acc[88]	_	_
-19-22	1025-1030	front	event[87]|person[88]	new[87]|acc[88]	_	_
-19-23	1031-1039	punching	event[87]	new[87]	_	_
-19-24	1040-1043	him	event[87]|person[90]	new[87]|giv[90]	ana	20-3[106_90]
-19-25	1044-1046	in	event[87]	new[87]	_	_
-19-26	1047-1050	the	event[87]|object[93]	new[87]|acc[93]	coref	21-5[115_93]
-19-27	1051-1055	head	event[87]|object[93]	new[87]|acc[93]	_	_
-19-28	1056-1057	,	event[87]	new[87]	_	_
-19-29	1058-1061	the	event[87]|person[94]	new[87]|acc[94]	ana	19-41[101_94]
-19-30	1062-1068	others	event[87]|person[94]	new[87]|acc[94]	_	_
-19-31	1069-1075	making	event[87]	new[87]	_	_
-19-32	1076-1078	do	event[87]	new[87]	_	_
-19-33	1079-1083	with	event[87]	new[87]	_	_
-19-34	1084-1090	taunts	event[87]	new[87]	_	_
-19-35	1091-1093	of	event[87]	new[87]	_	_
-19-36	1094-1101	mongrel	event[87]	new[87]	_	_
-19-37	1102-1105	and	event[87]	new[87]	_	_
-19-38	1106-1111	polly	event[87]	new[87]	_	_
-19-39	1112-1117	while	event[87]	new[87]	_	_
-19-40	1118-1125	waiting	event[87]	new[87]	_	_
-19-41	1126-1131	their	event[87]|person[101]	new[87]|giv[101]	_	_
-19-42	1132-1136	turn	event[87]	new[87]	_	_
+19-18	1006-1011	those	person[88]	person[88]	coref	21-20[125_88]
+19-19	1012-1017	lucky	person[88]	person[88]	_	_
+19-20	1018-1021	few	person[88]	person[88]	_	_
+19-21	1022-1024	in	person[88]	person[88]	_	_
+19-22	1025-1030	front	person[88]	person[88]	_	_
+19-23	1031-1039	punching	event[611]	new[611]	ana	70-4[409_611]
+19-24	1040-1043	him	person[90]	person[90]	ana	20-3[106_90]
+19-25	1044-1046	in	_	_	_	_
+19-26	1047-1050	the	object[93]	object[93]	coref	21-5[115_93]
+19-27	1051-1055	head	object[93]	object[93]	_	_
+19-28	1056-1057	,	_	_	_	_
+19-29	1058-1061	the	person[94]	person[94]	ana	19-41[101_94]
+19-30	1062-1068	others	person[94]	person[94]	_	_
+19-31	1069-1075	making	_	_	_	_
+19-32	1076-1078	do	_	_	_	_
+19-33	1079-1083	with	_	_	_	_
+19-34	1084-1090	taunts	_	_	_	_
+19-35	1091-1093	of	_	_	_	_
+19-36	1094-1101	mongrel	_	_	_	_
+19-37	1102-1105	and	_	_	_	_
+19-38	1106-1111	polly	_	_	_	_
+19-39	1112-1117	while	_	_	_	_
+19-40	1118-1125	waiting	_	_	_	_
+19-41	1126-1131	their	person[101]	person[101]	_	_
+19-42	1132-1136	turn	_	_	_	_
 19-43	1137-1138	.	_	_	_	_
 
 #Text=I watched him raise his arms , almost hesitantly , to ward off the worst of the blows .
 20-1	1139-1140	I	person[102]	giv[102]	ana	21-1[113_102]
 20-2	1141-1148	watched	_	_	_	_
-20-3	1149-1152	him	event[105]|person[106]	new[105]|giv[106]	ana|ana	20-5[109_106]|21-37[130_105]
+20-3	1149-1152	him	event[105]|person[106]	new[105]|giv[106]	ana|ana	21-37[130_105]|20-5[109_106]
 20-4	1153-1158	raise	event[105]	new[105]	_	_
-20-5	1159-1162	his	event[105]|object[108]|person[109]	new[105]|new[108]|giv[109]	ana|coref	21-5[116_109]|21-24[128_108]
+20-5	1159-1162	his	event[105]|object[108]|person[109]	new[105]|new[108]|giv[109]	coref|ana	21-24[128_108]|21-5[116_109]
 20-6	1163-1167	arms	event[105]|object[108]	new[105]|new[108]	_	_
 20-7	1168-1169	,	event[105]	new[105]	_	_
 20-8	1170-1176	almost	event[105]	new[105]	_	_
@@ -472,16 +472,16 @@
 30-5	1932-1933	.	_	_	_	_
 
 #Text=I did n't even especially want to help him .
-31-1	1934-1935	I	event[176]|person[177]	new[176]|giv[177]	ana|ana	33-7[186_177]|32-1[179_176]
-31-2	1936-1939	did	event[176]	new[176]	_	_
-31-3	1940-1943	n't	event[176]	new[176]	_	_
-31-4	1944-1948	even	event[176]	new[176]	_	_
-31-5	1949-1959	especially	event[176]	new[176]	_	_
-31-6	1960-1964	want	event[176]	new[176]	_	_
-31-7	1965-1967	to	event[176]	new[176]	_	_
-31-8	1968-1972	help	event[176]	new[176]	_	_
-31-9	1973-1976	him	event[176]|person[178]	new[176]|giv[178]	ana	33-3[180_178]
-31-10	1977-1978	.	event[176]	new[176]	_	_
+31-1	1934-1935	I	person[177]	person[177]	ana	33-7[186_177]
+31-2	1936-1939	did	_	_	_	_
+31-3	1940-1943	n't	_	_	_	_
+31-4	1944-1948	even	_	_	_	_
+31-5	1949-1959	especially	_	_	_	_
+31-6	1960-1964	want	event[612]	event[612]	ana	32-1[179_612]
+31-7	1965-1967	to	_	_	_	_
+31-8	1968-1972	help	_	_	_	_
+31-9	1973-1976	him	person[178]	person[178]	ana	33-3[180_178]
+31-10	1977-1978	.	_	_	_	_
 
 #Text=That did n't make sense .
 32-1	1979-1983	That	event[179]	giv[179]	_	_
@@ -524,7 +524,7 @@
 34-11	2124-2129	overt	_	_	_	_
 34-12	2130-2138	violence	_	_	_	_
 34-13	2139-2140	;	_	_	_	_
-34-14	2141-2143	my	event[195]|person[196]	new[195]|giv[196]	ana|ana	34-30[201_195]|34-32[202_196]
+34-14	2141-2143	my	event[195]|person[196]	new[195]|giv[196]	ana|ana	34-32[202_196]|34-30[201_195]
 34-15	2144-2152	seizures	event[195]	new[195]	_	_
 34-16	2153-2159	tended	_	_	_	_
 34-17	2160-2162	to	_	_	_	_
@@ -632,17 +632,17 @@
 40-17	2564-2565	.	_	_	_	_
 
 #Text=Pack animals always tear apart the weaklings in their midst .
-41-1	2566-2570	Pack	event[236]|animal[237]	new[236]|new[237]	ana|coref	41-9[240_237]|42-4[243_236]
-41-2	2571-2578	animals	event[236]|animal[237]	new[236]|new[237]	_	_
-41-3	2579-2585	always	event[236]	new[236]	_	_
-41-4	2586-2590	tear	event[236]	new[236]	_	_
-41-5	2591-2596	apart	event[236]	new[236]	_	_
-41-6	2597-2600	the	event[236]	new[236]	_	_
-41-7	2601-2610	weaklings	event[236]	new[236]	_	_
-41-8	2611-2613	in	event[236]	new[236]	_	_
-41-9	2614-2619	their	event[236]|animal[240]	new[236]|giv[240]	_	_
-41-10	2620-2625	midst	event[236]	new[236]	_	_
-41-11	2626-2627	.	event[236]	new[236]	_	_
+41-1	2566-2570	Pack	animal[237]	animal[237]	ana	41-9[240_237]
+41-2	2571-2578	animals	animal[237]	animal[237]	_	_
+41-3	2579-2585	always	_	_	_	_
+41-4	2586-2590	tear	event[613]	new[613]	coref	42-4[243_613]
+41-5	2591-2596	apart	_	_	_	_
+41-6	2597-2600	the	_	_	_	_
+41-7	2601-2610	weaklings	_	_	_	_
+41-8	2611-2613	in	_	_	_	_
+41-9	2614-2619	their	animal[240]	animal[240]	_	_
+41-10	2620-2625	midst	_	_	_	_
+41-11	2626-2627	.	_	_	_	_
 
 #Text=Every child knows that much instinctively .
 42-1	2628-2633	Every	_	_	_	_
@@ -678,14 +678,14 @@
 44-1	2763-2767	Then	_	_	_	_
 44-2	2768-2773	again	_	_	_	_
 44-3	2774-2775	,	_	_	_	_
-44-4	2776-2779	Pag	event[251]|person[252]	new[251]|giv[252]	ana|ana	44-16[255_251]|44-18[256_252]
-44-5	2780-2782	's	event[251]|person[252]	new[251]|giv[252]	_	_
-44-6	2783-2790	parents	event[251]|person[252]	new[251]|giv[252]	_	_
-44-7	2791-2794	had	event[251]	new[251]	_	_
-44-8	2795-2798	n't	event[251]	new[251]	_	_
-44-9	2799-2805	messed	event[251]	new[251]	_	_
-44-10	2806-2810	with	event[251]	new[251]	_	_
-44-11	2811-2817	nature	event[251]	new[251]	_	_
+44-4	2776-2779	Pag	person[252]	person[252]	ana	44-18[256_252]
+44-5	2780-2782	's	person[252]	person[252]	_	_
+44-6	2783-2790	parents	person[252]	person[252]	_	_
+44-7	2791-2794	had	_	_	_	_
+44-8	2795-2798	n't	_	_	_	_
+44-9	2799-2805	messed	event[614]	event[614]	ana	44-16[255_614]
+44-10	2806-2810	with	_	_	_	_
+44-11	2811-2817	nature	_	_	_	_
 44-12	2818-2819	,	_	_	_	_
 44-13	2820-2823	and	_	_	_	_
 44-14	2824-2828	look	_	_	_	_
@@ -709,7 +709,7 @@
 44-32	2904-2913	superboys	person[262]	giv[262]	_	_
 44-33	2914-2920	kicked	_	_	_	_
 44-34	2921-2923	in	_	_	_	_
-44-35	2924-2927	his	person[264]	giv[264]	_	_
+44-35	2924-2927	his	person[264]	giv[264]	coref	55-1[355_264]
 44-36	2928-2932	ribs	_	_	_	_
 44-37	2933-2934	.	_	_	_	_
 
@@ -884,21 +884,21 @@
 51-8	3679-3682	was	_	_	_	_
 51-9	3683-3687	dead	_	_	_	_
 51-10	3688-3689	,	_	_	_	_
-51-11	3690-3697	shouted	event[328]	new[328]	coref	52-11[341_328]
-51-12	3698-3699	"	event[328]	new[328]	_	_
-51-13	3700-3707	Fucking	event[328]	new[328]	_	_
-51-14	3708-3714	zombie	event[328]	new[328]	_	_
-51-15	3715-3716	!	event[328]	new[328]	_	_
-51-16	3717-3718	"	event[328]	new[328]	_	_
-51-17	3719-3723	over	event[328]	new[328]	_	_
-51-18	3724-3727	his	event[328]|person[331]	new[328]|giv[331]	ana	51-21[332_331]
-51-19	3728-3736	shoulder	event[328]	new[328]	_	_
-51-20	3737-3739	as	event[328]	new[328]	_	_
-51-21	3740-3742	he	event[328]|person[332]	new[328]|giv[332]	_	_
-51-22	3743-3754	disappeared	event[328]	new[328]	_	_
-51-23	3755-3761	around	event[328]	new[328]	_	_
-51-24	3762-3765	the	event[328]	new[328]	_	_
-51-25	3766-3772	corner	event[328]	new[328]	_	_
+51-11	3690-3697	shouted	event[615]	new[615]	coref	52-11[341_615]
+51-12	3698-3699	"	_	_	_	_
+51-13	3700-3707	Fucking	_	_	_	_
+51-14	3708-3714	zombie	_	_	_	_
+51-15	3715-3716	!	_	_	_	_
+51-16	3717-3718	"	_	_	_	_
+51-17	3719-3723	over	_	_	_	_
+51-18	3724-3727	his	person[331]	person[331]	ana	51-21[332_331]
+51-19	3728-3736	shoulder	_	_	_	_
+51-20	3737-3739	as	_	_	_	_
+51-21	3740-3742	he	person[332]	person[332]	_	_
+51-22	3743-3754	disappeared	_	_	_	_
+51-23	3755-3761	around	_	_	_	_
+51-24	3762-3765	the	_	_	_	_
+51-25	3766-3772	corner	_	_	_	_
 51-26	3773-3774	.	_	_	_	_
 
 #Text=Three decades it took , to see the irony in that remark .
@@ -907,13 +907,13 @@
 52-3	3789-3791	it	_	_	_	_
 52-4	3792-3796	took	_	_	_	_
 52-5	3797-3798	,	_	_	_	_
-52-6	3799-3801	to	event[339]	new[339]	cata	52-3[337_339]
-52-7	3802-3805	see	event[339]	new[339]	_	_
-52-8	3806-3809	the	event[339]	new[339]	_	_
-52-9	3810-3815	irony	event[339]	new[339]	_	_
-52-10	3816-3818	in	event[339]	new[339]	_	_
-52-11	3819-3823	that	event[339]|event[341]	new[339]|giv[341]	_	_
-52-12	3824-3830	remark	event[339]|event[341]	new[339]|giv[341]	_	_
+52-6	3799-3801	to	_	_	_	_
+52-7	3802-3805	see	_	_	_	_
+52-8	3806-3809	the	_	_	_	_
+52-9	3810-3815	irony	_	_	_	_
+52-10	3816-3818	in	_	_	_	_
+52-11	3819-3823	that	event[341]	giv[341]	_	_
+52-12	3824-3830	remark	event[341]	giv[341]	_	_
 52-13	3831-3832	.	_	_	_	_
 
 #Text=Two of the enemy twitched at my feet .
@@ -1251,12 +1251,12 @@
 82-5	5018-5019	"	_	_	_	_
 
 #Text=I 'd raised my fists .
-83-1	5020-5021	I	event[458]|person[459]	new[458]|giv[459]	ana|ana	84-6[464_458]|83-4[462_459]
-83-2	5022-5024	'd	event[458]	new[458]	_	_
-83-3	5025-5031	raised	event[458]	new[458]	_	_
-83-4	5032-5034	my	event[458]|object[461]|person[462]	new[458]|new[461]|giv[462]	ana|ana	85-3[470_461]|84-1[463_462]
-83-5	5035-5040	fists	event[458]|object[461]	new[458]|new[461]	_	_
-83-6	5041-5042	.	event[458]	new[458]	_	_
+83-1	5020-5021	I	person[459]	person[459]	ana	83-4[462_459]
+83-2	5022-5024	'd	_	_	_	_
+83-3	5025-5031	raised	event[616]	new[616]	ana	84-6[464_616]
+83-4	5032-5034	my	object[461]|person[462]	object[461]|person[462]	ana|ana	84-1[463_462]|85-3[470_461]
+83-5	5035-5040	fists	object[461]	object[461]	_	_
+83-6	5041-5042	.	_	_	_	_
 
 #Text=I did n't remember doing that .
 84-1	5043-5044	I	person[463]	giv[463]	ana	85-1[469_463]
@@ -1268,10 +1268,10 @@
 84-7	5073-5074	.	_	_	_	_
 
 #Text=I unclenched them .
-85-1	5075-5076	I	event[468]|person[469]	new[468]|giv[469]	ana|ana	86-1[471_468]|87-1[476_469]
-85-2	5077-5087	unclenched	event[468]	new[468]	_	_
-85-3	5088-5092	them	event[468]|object[470]	new[468]|giv[470]	_	_
-85-4	5093-5094	.	event[468]	new[468]	_	_
+85-1	5075-5076	I	person[469]	person[469]	ana	87-1[476_469]
+85-2	5077-5087	unclenched	event[617]	new[617]	ana	86-1[471_617]
+85-3	5088-5092	them	object[470]	object[470]	_	_
+85-4	5093-5094	.	_	_	_	_
 
 #Text=It took a while .
 86-1	5095-5097	It	event[471]	giv[471]	_	_
@@ -1312,14 +1312,14 @@
 88-11	5234-5235	.	_	_	_	_
 
 #Text=" I was trying to help . "
-89-1	5236-5237	"	event[484]	new[484]	ana	90-10[488_484]
-89-2	5238-5239	I	event[484]|person[485]	new[484]|giv[485]	ana	90-1[486_485]
-89-3	5240-5243	was	event[484]	new[484]	_	_
-89-4	5244-5250	trying	event[484]	new[484]	_	_
-89-5	5251-5253	to	event[484]	new[484]	_	_
-89-6	5254-5258	help	event[484]	new[484]	_	_
-89-7	5259-5260	.	event[484]	new[484]	_	_
-89-8	5261-5262	"	event[484]	new[484]	_	_
+89-1	5236-5237	"	_	_	_	_
+89-2	5238-5239	I	person[485]	person[485]	ana	90-1[486_485]
+89-3	5240-5243	was	_	_	_	_
+89-4	5244-5250	trying	event[618]	new[618]	ana	90-10[488_618]
+89-5	5251-5253	to	_	_	_	_
+89-6	5254-5258	help	_	_	_	_
+89-7	5259-5260	.	_	_	_	_
+89-8	5261-5262	"	_	_	_	_
 
 #Text=I did n't understand why he could n't see that .
 90-1	5263-5264	I	person[486]	giv[486]	ana	91-2[489_486]
@@ -1470,12 +1470,12 @@
 103-2	5724-5726	's	_	_	_	_
 103-3	5727-5731	like	_	_	_	_
 103-4	5732-5733	,	_	_	_	_
-103-5	5734-5738	your	event[538]|person[539]|person[540]	new[538]|new[539]|giv[540]	ana|cata|coref	103-10[541_540]|103-1[534_538]|104-2[544_539]
-103-6	5739-5742	mom	event[538]|person[539]	new[538]|new[539]	_	_
-103-7	5743-5746	and	event[538]|person[539]	new[538]|new[539]	_	_
-103-8	5747-5750	dad	event[538]|person[539]	new[538]|new[539]	_	_
-103-9	5751-5759	murdered	event[538]	new[538]	_	_
-103-10	5760-5763	you	event[538]|person[541]	new[538]|giv[541]	ana	104-2[545_541]
+103-5	5734-5738	your	person[539]|person[540]	new[539]|giv[540]	coref|ana	104-2[544_539]|103-10[541_540]
+103-6	5739-5742	mom	person[539]	new[539]	_	_
+103-7	5743-5746	and	person[539]	new[539]	_	_
+103-8	5747-5750	dad	person[539]	new[539]	_	_
+103-9	5751-5759	murdered	_	_	_	_
+103-10	5760-5763	you	person[541]	giv[541]	ana	104-2[545_541]
 103-11	5764-5765	—	_	_	_	_
 103-12	5766-5767	"	_	_	_	_
 

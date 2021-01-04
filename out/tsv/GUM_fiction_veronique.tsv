@@ -410,7 +410,7 @@
 31-7	1441-1444	the	_	_	_	_
 31-8	1445-1449	word	_	_	_	_
 31-9	1450-1451	'	_	_	_	_
-31-10	1452-1459	history	abstract[174]	giv[174]	coref	32-5[389_174]
+31-10	1452-1459	history	abstract[174]	giv[174]	coref	32-5[392_174]
 31-11	1460-1461	'	_	_	_	_
 31-12	1462-1463	?	_	_	_	_
 31-13	1464-1465	"	_	_	_	_
@@ -423,12 +423,12 @@
 32-2	1481-1487	course	_	_	_	_
 32-3	1488-1489	I	person[176]	giv[176]	ana	33-2[182_176]
 32-4	1490-1494	knew	_	_	_	_
-32-5	1495-1498	the	abstract[389]	giv[389]	ana	34-5[188_389]
-32-6	1499-1503	word	abstract[389]	giv[389]	_	_
-32-7	1504-1505	"	abstract[389]	giv[389]	_	_
-32-8	1506-1513	history	abstract[389]	giv[389]	_	_
+32-5	1495-1498	the	abstract[180]|abstract[392]	giv[180]|giv[392]	ana|appos	34-5[188_392]|32-8[181_180]
+32-6	1499-1503	word	abstract[180]|abstract[392]	giv[180]|giv[392]	_	_
+32-7	1504-1505	"	abstract[392]	giv[392]	_	_
+32-8	1506-1513	history	abstract[181]|abstract[392]	giv[181]|giv[392]	_	_
 32-9	1514-1515	.	_	_	_	_
-32-10	1516-1517	"	abstract[389]	giv[389]	_	_
+32-10	1516-1517	"	_	_	_	_
 
 #Text=" I study history in school , " I said .
 33-1	1518-1519	"	_	_	_	_
@@ -452,17 +452,17 @@
 34-6	1586-1587	.	_	_	_	_
 
 #Text=" Do you know the history of this world ? "
-35-1	1588-1589	"	abstract[197]	new[197]	ana	36-11[206_197]
-35-2	1590-1592	Do	abstract[197]	new[197]	_	_
-35-3	1593-1596	you	abstract[197]|person[198]	new[197]|giv[198]	ana	36-3[203_198]
-35-4	1597-1601	know	abstract[197]	new[197]	_	_
-35-5	1602-1605	the	abstract[197]	new[197]	_	_
-35-6	1606-1613	history	abstract[197]	new[197]	_	_
-35-7	1614-1616	of	abstract[197]	new[197]	_	_
-35-8	1617-1621	this	abstract[197]|place[201]	new[197]|giv[201]	_	_
-35-9	1622-1627	world	abstract[197]|place[201]	new[197]|giv[201]	_	_
-35-10	1628-1629	?	abstract[197]	new[197]	_	_
-35-11	1630-1631	"	abstract[197]	new[197]	_	_
+35-1	1588-1589	"	_	_	_	_
+35-2	1590-1592	Do	_	_	_	_
+35-3	1593-1596	you	person[198]	person[198]	ana	36-3[203_198]
+35-4	1597-1601	know	abstract[389]	new[389]	ana	36-11[206_389]
+35-5	1602-1605	the	_	_	_	_
+35-6	1606-1613	history	_	_	_	_
+35-7	1614-1616	of	_	_	_	_
+35-8	1617-1621	this	place[201]	place[201]	_	_
+35-9	1622-1627	world	place[201]	place[201]	_	_
+35-10	1628-1629	?	_	_	_	_
+35-11	1630-1631	"	_	_	_	_
 
 #Text=It took my tired head a long time to sort that out .
 36-1	1632-1634	It	_	_	_	_
@@ -599,17 +599,17 @@
 46-12	2134-2135	.	_	_	_	_
 
 #Text=We said the first people came out of the sun .
-47-1	2136-2138	We	event[255]|person[256]	new[255]|giv[256]	ana	48-1[260_255]
-47-2	2139-2143	said	event[255]	new[255]	_	_
-47-3	2144-2147	the	event[255]	new[255]	_	_
-47-4	2148-2153	first	event[255]	new[255]	_	_
-47-5	2154-2160	people	event[255]	new[255]	_	_
-47-6	2161-2165	came	event[255]	new[255]	_	_
-47-7	2166-2169	out	event[255]	new[255]	_	_
-47-8	2170-2172	of	event[255]	new[255]	_	_
-47-9	2173-2176	the	event[255]	new[255]	_	_
-47-10	2177-2180	sun	event[255]	new[255]	_	_
-47-11	2181-2182	.	event[255]	new[255]	_	_
+47-1	2136-2138	We	person[256]	person[256]	_	_
+47-2	2139-2143	said	event[390]	new[390]	ana	48-1[260_390]
+47-3	2144-2147	the	_	_	_	_
+47-4	2148-2153	first	_	_	_	_
+47-5	2154-2160	people	_	_	_	_
+47-6	2161-2165	came	_	_	_	_
+47-7	2166-2169	out	_	_	_	_
+47-8	2170-2172	of	_	_	_	_
+47-9	2173-2176	the	_	_	_	_
+47-10	2177-2180	sun	_	_	_	_
+47-11	2181-2182	.	_	_	_	_
 
 #Text=This somehow seemed embarrassing .
 48-1	2183-2187	This	event[260]	giv[260]	_	_
@@ -684,20 +684,20 @@
 53-7	2444-2445	"	_	_	_	_
 
 #Text=I did n't understand what she 'd said except that they were visiting .
-54-1	2446-2447	I	event[286]|person[287]	new[286]|giv[287]	ana|ana	55-5[291_286]|56-1[292_287]
-54-2	2448-2451	did	event[286]	new[286]	_	_
-54-3	2452-2455	n't	event[286]	new[286]	_	_
-54-4	2456-2466	understand	event[286]	new[286]	_	_
-54-5	2467-2471	what	event[286]	new[286]	_	_
-54-6	2472-2475	she	event[286]|person[288]	new[286]|giv[288]	_	_
-54-7	2476-2478	'd	event[286]	new[286]	_	_
-54-8	2479-2483	said	event[286]	new[286]	_	_
-54-9	2484-2490	except	event[286]	new[286]	_	_
-54-10	2491-2495	that	event[286]	new[286]	_	_
-54-11	2496-2500	they	event[286]|person[289]	new[286]|giv[289]	_	_
-54-12	2501-2505	were	event[286]	new[286]	_	_
-54-13	2506-2514	visiting	event[286]	new[286]	_	_
-54-14	2515-2516	.	event[286]	new[286]	_	_
+54-1	2446-2447	I	person[287]	person[287]	ana	56-1[292_287]
+54-2	2448-2451	did	_	_	_	_
+54-3	2452-2455	n't	_	_	_	_
+54-4	2456-2466	understand	event[391]	event[391]	ana	55-5[291_391]
+54-5	2467-2471	what	_	_	_	_
+54-6	2472-2475	she	person[288]	person[288]	_	_
+54-7	2476-2478	'd	_	_	_	_
+54-8	2479-2483	said	_	_	_	_
+54-9	2484-2490	except	_	_	_	_
+54-10	2491-2495	that	_	_	_	_
+54-11	2496-2500	they	person[289]	person[289]	_	_
+54-12	2501-2505	were	_	_	_	_
+54-13	2506-2514	visiting	_	_	_	_
+54-14	2515-2516	.	_	_	_	_
 
 #Text=We were quiet after that .
 55-1	2517-2519	We	_	_	_	_
@@ -745,10 +745,10 @@
 59-5	2680-2682	it	_	_	_	_
 59-6	2683-2686	was	_	_	_	_
 59-7	2687-2697	impossible	_	_	_	_
-59-8	2698-2700	to	event[315]	new[315]	cata	59-5[311_315]
-59-9	2701-2705	wake	event[315]	new[315]	_	_
-59-10	2706-2709	her	event[315]|person[316]	new[315]|giv[316]	_	_
-59-11	2710-2712	up	event[315]	new[315]	_	_
+59-8	2698-2700	to	_	_	_	_
+59-9	2701-2705	wake	_	_	_	_
+59-10	2706-2709	her	person[316]	giv[316]	_	_
+59-11	2710-2712	up	_	_	_	_
 59-12	2713-2714	.	_	_	_	_
 
 #Text=I fell asleep thinking about how I wished that the Scathalos outrunners were gone .
@@ -841,20 +841,20 @@
 64-4	3075-3079	seem	_	_	_	_
 64-5	3080-3084	fair	_	_	_	_
 64-6	3085-3089	that	_	_	_	_
-64-7	3090-3092	we	event[356]|person[357]	new[356]|giv[357]	cata	64-1[352_356]
-64-8	3093-3099	should	event[356]	new[356]	_	_
-64-9	3100-3103	lie	event[356]	new[356]	_	_
-64-10	3104-3108	here	event[356]	new[356]	_	_
-64-11	3109-3112	and	event[356]	new[356]	_	_
-64-12	3113-3115	be	event[356]	new[356]	_	_
-64-13	3116-3122	afraid	event[356]	new[356]	_	_
-64-14	3123-3128	while	event[356]	new[356]	_	_
-64-15	3129-3132	the	event[356]	new[356]	_	_
-64-16	3133-3136	men	event[356]	new[356]	_	_
-64-17	3137-3141	were	event[356]	new[356]	_	_
-64-18	3142-3149	getting	event[356]	new[356]	_	_
-64-19	3150-3155	drunk	event[356]	new[356]	_	_
-64-20	3156-3159	and	event[356]	new[356]	_	_
-64-21	3160-3167	singing	event[356]	new[356]	_	_
+64-7	3090-3092	we	person[357]	giv[357]	_	_
+64-8	3093-3099	should	_	_	_	_
+64-9	3100-3103	lie	_	_	_	_
+64-10	3104-3108	here	_	_	_	_
+64-11	3109-3112	and	_	_	_	_
+64-12	3113-3115	be	_	_	_	_
+64-13	3116-3122	afraid	_	_	_	_
+64-14	3123-3128	while	_	_	_	_
+64-15	3129-3132	the	_	_	_	_
+64-16	3133-3136	men	_	_	_	_
+64-17	3137-3141	were	_	_	_	_
+64-18	3142-3149	getting	_	_	_	_
+64-19	3150-3155	drunk	_	_	_	_
+64-20	3156-3159	and	_	_	_	_
+64-21	3160-3167	singing	_	_	_	_
 64-22	3168-3169	.	_	_	_	_
 

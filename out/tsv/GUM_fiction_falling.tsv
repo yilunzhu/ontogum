@@ -139,16 +139,16 @@
 6-48	653-654	.	_	_	_	_
 
 #Text=She ’s wearing a 1950s sundress and a broad-brimmed hat , and it ’s like an essay on the last century — the austere steel bridge , the bright blobs of subway graffiti , and her yellow dress , flapping against her legs as she climbs over the bridge ’s rail .
-7-1	655-658	She	event[53]|person[54]	new[53]|giv[54]	ana|ana	7-13[58_53]|7-36[68_54]
-7-2	659-661	’s	event[53]	new[53]	_	_
-7-3	662-669	wearing	event[53]	new[53]	_	_
-7-4	670-671	a	event[53]	new[53]	_	_
-7-5	672-677	1950s	event[53]	new[53]	_	_
-7-6	678-686	sundress	event[53]	new[53]	_	_
-7-7	687-690	and	event[53]	new[53]	_	_
-7-8	691-692	a	event[53]|object[57]	new[53]|new[57]	coref	57-1[364_57]
-7-9	693-706	broad-brimmed	event[53]|object[57]	new[53]|new[57]	_	_
-7-10	707-710	hat	event[53]|object[57]	new[53]|new[57]	_	_
+7-1	655-658	She	person[54]	person[54]	ana	7-36[68_54]
+7-2	659-661	’s	_	_	_	_
+7-3	662-669	wearing	event[464]	new[464]	ana	7-13[58_464]
+7-4	670-671	a	object[56]	object[56]	coref	7-36[67_56]
+7-5	672-677	1950s	object[56]	object[56]	_	_
+7-6	678-686	sundress	object[56]	object[56]	_	_
+7-7	687-690	and	_	_	_	_
+7-8	691-692	a	object[57]	object[57]	coref	57-1[364_57]
+7-9	693-706	broad-brimmed	object[57]	object[57]	_	_
+7-10	707-710	hat	object[57]	object[57]	_	_
 7-11	711-712	,	_	_	_	_
 7-12	713-716	and	_	_	_	_
 7-13	717-719	it	event[58]	giv[58]	_	_
@@ -174,7 +174,7 @@
 7-33	813-821	graffiti	_	_	_	_
 7-34	822-823	,	_	_	_	_
 7-35	824-827	and	_	_	_	_
-7-36	828-831	her	object[67]|person[68]	giv[67]|giv[68]	coref|ana	70-5[416_67]|7-42[71_68]
+7-36	828-831	her	object[67]|person[68]	giv[67]|giv[68]	ana|coref	7-42[71_68]|70-5[416_67]
 7-37	832-838	yellow	object[67]	giv[67]	_	_
 7-38	839-844	dress	object[67]	giv[67]	_	_
 7-39	845-846	,	object[67]	giv[67]	_	_
@@ -274,7 +274,7 @@
 11-23	1303-1309	towers	abstract[103]|object[109]	giv[103]|new[109]	_	_
 11-24	1310-1314	that	abstract[103]	giv[103]	_	_
 11-25	1315-1323	encircle	abstract[103]	giv[103]	_	_
-11-26	1324-1326	it	abstract[103]|place[110]	giv[103]|giv[110]	coref	34-5[254_110]
+11-26	1324-1326	it	abstract[103]|place[110]	giv[103]|giv[110]		66-1[396_110]
 11-27	1327-1328	.	_	_	_	_
 
 #Text=( A civic agent notices you noticing , and attaches itself to your infospace , whispering statistics —
@@ -422,30 +422,30 @@
 21-8	1932-1937	upper	_	_	_	_
 21-9	1938-1944	levels	_	_	_	_
 21-10	1945-1946	:	_	_	_	_
-21-11	1947-1954	leaning	event[169]	new[169]	ana	22-3[178_169]
-21-12	1955-1959	over	event[169]	new[169]	_	_
-21-13	1960-1963	the	event[169]	new[169]	_	_
-21-14	1964-1968	edge	event[169]	new[169]	_	_
-21-15	1969-1973	into	event[169]	new[169]	_	_
-21-16	1974-1977	the	event[169]	new[169]	_	_
-21-17	1978-1983	angry	event[169]	new[169]	_	_
-21-18	1984-1989	swarm	event[169]	new[169]	_	_
-21-19	1990-1992	of	event[169]	new[169]	_	_
-21-20	1993-1998	mites	event[169]	new[169]	_	_
-21-21	1999-2000	,	event[169]	new[169]	_	_
-21-22	2001-2009	whirring	event[169]	new[169]	_	_
-21-23	2010-2013	and	event[169]	new[169]	_	_
-21-24	2014-2021	buzzing	event[169]	new[169]	_	_
-21-25	2022-2030	warnings	event[169]	new[169]	_	_
-21-26	2031-2034	and	event[169]	new[169]	_	_
-21-27	2035-2042	shoving	event[169]	new[169]	_	_
-21-28	2043-2046	you	event[169]|person[173]	new[169]|giv[173]	ana	23-1[183_173]
-21-29	2047-2051	back	event[169]	new[169]	_	_
-21-30	2052-2056	like	event[169]	new[169]	_	_
-21-31	2057-2058	a	event[169]	new[169]	_	_
-21-32	2059-2066	million	event[169]	new[169]	_	_
-21-33	2067-2075	mosquito	event[169]	new[169]	_	_
-21-34	2076-2086	chaperones	event[169]	new[169]	_	_
+21-11	1947-1954	leaning	event[465]	event[465]	ana	22-3[178_465]
+21-12	1955-1959	over	_	_	_	_
+21-13	1960-1963	the	_	_	_	_
+21-14	1964-1968	edge	_	_	_	_
+21-15	1969-1973	into	_	_	_	_
+21-16	1974-1977	the	_	_	_	_
+21-17	1978-1983	angry	_	_	_	_
+21-18	1984-1989	swarm	_	_	_	_
+21-19	1990-1992	of	_	_	_	_
+21-20	1993-1998	mites	_	_	_	_
+21-21	1999-2000	,	_	_	_	_
+21-22	2001-2009	whirring	_	_	_	_
+21-23	2010-2013	and	_	_	_	_
+21-24	2014-2021	buzzing	_	_	_	_
+21-25	2022-2030	warnings	_	_	_	_
+21-26	2031-2034	and	_	_	_	_
+21-27	2035-2042	shoving	_	_	_	_
+21-28	2043-2046	you	person[173]	person[173]	ana	23-1[183_173]
+21-29	2047-2051	back	_	_	_	_
+21-30	2052-2056	like	_	_	_	_
+21-31	2057-2058	a	_	_	_	_
+21-32	2059-2066	million	_	_	_	_
+21-33	2067-2075	mosquito	_	_	_	_
+21-34	2076-2086	chaperones	_	_	_	_
 21-35	2087-2088	.	_	_	_	_
 
 #Text=Everyone tries it once — Except that there are n’t any mites around her .
@@ -508,11 +508,11 @@
 
 #Text=Then she lets go and falls .
 26-1	2331-2335	Then	_	_	_	_
-26-2	2336-2339	she	event[198]|person[199]	new[198]|giv[199]	ana|ana	37-1[258_199]|43-2[298_198]
-26-3	2340-2344	lets	event[198]	new[198]	_	_
-26-4	2345-2347	go	event[198]	new[198]	_	_
-26-5	2348-2351	and	event[198]	new[198]	_	_
-26-6	2352-2357	falls	event[198]	new[198]	_	_
+26-2	2336-2339	she	person[199]	person[199]	ana	37-1[258_199]
+26-3	2340-2344	lets	event[466]	new[466]	ana	43-2[298_466]
+26-4	2345-2347	go	_	_	_	_
+26-5	2348-2351	and	_	_	_	_
+26-6	2352-2357	falls	_	_	_	_
 26-7	2358-2359	.	_	_	_	_
 
 #Text=You scream .
@@ -621,9 +621,9 @@
 34-2	2814-2818	lets	_	_	_	_
 34-3	2819-2823	them	person[250]	giv[250]	ana	35-7[256_250]
 34-4	2824-2828	hack	_	_	_	_
-34-5	2829-2832	the	place[254]	giv[254]	coref	66-1[396_254]
-34-6	2833-2837	city	place[254]	giv[254]	_	_
-34-7	2838-2840	’s	place[254]	giv[254]	_	_
+34-5	2829-2832	the	_	_	_	_
+34-6	2833-2837	city	_	_	_	_
+34-7	2838-2840	’s	_	_	_	_
 34-8	2841-2859	person-recognition	_	_	_	_
 34-9	2860-2867	systems	_	_	_	_
 34-10	2868-2869	.	_	_	_	_

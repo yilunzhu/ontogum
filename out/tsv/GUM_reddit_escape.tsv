@@ -41,7 +41,7 @@
 2-12	159-162	who	person[13]	new[13]	_	_
 2-13	163-170	brought	person[13]	new[13]	_	_
 2-14	171-173	in	person[13]	new[13]	_	_
-2-15	174-179	their	person[13]|person[14]	new[13]|new[14]	ana	3-10[22_14]
+2-15	174-179	their	person[13]|person[14]	person[13]|person[14]	ana	3-10[22_14]
 2-16	180-192	bespectacled	person[13]|person[14]	new[13]|new[14]	_	_
 2-17	193-194	,	person[13]|person[14]	new[13]|new[14]	_	_
 2-18	195-199	NASA	person[13]|person[14]	new[13]|new[14]	_	_
@@ -150,22 +150,22 @@
 6-10	686-689	not	abstract[47]	new[47]	_	_
 6-11	690-697	correct	abstract[47]	new[47]	_	_
 6-12	698-701	but	abstract[47]	new[47]	_	_
-6-13	702-705	his	abstract[47]|abstract[53]|person[54]|person[55]	new[47]|new[53]|giv[54]|giv[55]	ana|ana|ana	7-7[63_54]|26-5[154_53]|6-23[56_55]
-6-14	706-713	parents	abstract[47]|abstract[53]|person[54]	new[47]|new[53]|giv[54]	_	_
-6-15	714-718	just	abstract[47]|abstract[53]	new[47]|new[53]	_	_
-6-16	719-722	did	abstract[47]|abstract[53]	new[47]|new[53]	_	_
-6-17	723-726	n't	abstract[47]|abstract[53]	new[47]|new[53]	_	_
-6-18	727-733	listen	abstract[47]|abstract[53]	new[47]|new[53]	_	_
-6-19	734-737	and	abstract[47]|abstract[53]	new[47]|new[53]	_	_
-6-20	738-745	refused	abstract[47]|abstract[53]	new[47]|new[53]	_	_
-6-21	746-748	to	abstract[47]|abstract[53]	new[47]|new[53]	_	_
-6-22	749-752	let	abstract[47]|abstract[53]	new[47]|new[53]	_	_
-6-23	753-756	him	abstract[47]|abstract[53]|person[56]	new[47]|new[53]|giv[56]	ana	7-2[62_56]
-6-24	757-764	explore	abstract[47]|abstract[53]	new[47]|new[53]	_	_
-6-25	765-768	and	abstract[47]|abstract[53]	new[47]|new[53]	_	_
-6-26	769-772	try	abstract[47]|abstract[53]	new[47]|new[53]	_	_
-6-27	773-778	stuff	abstract[47]|abstract[53]	new[47]|new[53]	_	_
-6-28	779-782	out	abstract[47]|abstract[53]	new[47]|new[53]	_	_
+6-13	702-705	his	abstract[47]|person[54]|person[55]	abstract[47]|person[54]|person[55]	ana|ana	7-7[63_54]|6-23[56_55]
+6-14	706-713	parents	abstract[47]|person[54]	abstract[47]|person[54]	_	_
+6-15	714-718	just	abstract[47]	abstract[47]	_	_
+6-16	719-722	did	abstract[47]	abstract[47]	_	_
+6-17	723-726	n't	abstract[47]	abstract[47]	_	_
+6-18	727-733	listen	abstract[47]|abstract[408]	abstract[47]|abstract[408]	ana	26-5[154_408]
+6-19	734-737	and	abstract[47]	abstract[47]	_	_
+6-20	738-745	refused	abstract[47]	abstract[47]	_	_
+6-21	746-748	to	abstract[47]	abstract[47]	_	_
+6-22	749-752	let	abstract[47]	abstract[47]	_	_
+6-23	753-756	him	abstract[47]|person[56]	abstract[47]|person[56]	ana	7-2[62_56]
+6-24	757-764	explore	abstract[47]	abstract[47]	_	_
+6-25	765-768	and	abstract[47]	abstract[47]	_	_
+6-26	769-772	try	abstract[47]	abstract[47]	_	_
+6-27	773-778	stuff	abstract[47]	abstract[47]	_	_
+6-28	779-782	out	abstract[47]	abstract[47]	_	_
 6-29	783-784	.	abstract[47]	new[47]	_	_
 
 #Text=Hopefully his curiosity and enthusiasm survives them .
@@ -197,7 +197,7 @@
 8-16	897-902	would	_	_	_	_
 8-17	903-907	have	_	_	_	_
 8-18	908-911	led	_	_	_	_
-8-19	912-915	his	person[74]|person[75]	giv[74]|giv[75]	coref|coref	9-25[87_75]|9-31[88_74]
+8-19	912-915	his	person[74]|person[75]	giv[74]|giv[75]	coref|coref	9-31[88_74]|9-25[87_75]
 8-20	916-923	parents	person[74]	giv[74]	_	_
 8-21	924-929	right	_	_	_	_
 8-22	930-937	through	_	_	_	_
@@ -264,17 +264,17 @@
 11-2	1197-1200	irl	_	_	_	_
 
 #Text=That would seem to suggest parents are n't all knowing geniuses .
-12-1	1201-1205	That	abstract[97]|abstract[98]	new[97]|giv[98]	ana	13-2[103_97]
-12-2	1206-1211	would	abstract[97]	new[97]	_	_
-12-3	1212-1216	seem	abstract[97]	new[97]	_	_
-12-4	1217-1219	to	abstract[97]	new[97]	_	_
-12-5	1220-1227	suggest	abstract[97]	new[97]	_	_
-12-6	1228-1235	parents	abstract[97]	new[97]	_	_
-12-7	1236-1239	are	abstract[97]	new[97]	_	_
-12-8	1240-1243	n't	abstract[97]	new[97]	_	_
-12-9	1244-1247	all	abstract[97]	new[97]	_	_
-12-10	1248-1255	knowing	abstract[97]	new[97]	_	_
-12-11	1256-1264	geniuses	abstract[97]	new[97]	_	_
+12-1	1201-1205	That	abstract[98]	abstract[98]	_	_
+12-2	1206-1211	would	_	_	_	_
+12-3	1212-1216	seem	abstract[409]	abstract[409]	ana	13-2[103_409]
+12-4	1217-1219	to	_	_	_	_
+12-5	1220-1227	suggest	_	_	_	_
+12-6	1228-1235	parents	_	_	_	_
+12-7	1236-1239	are	_	_	_	_
+12-8	1240-1243	n't	_	_	_	_
+12-9	1244-1247	all	_	_	_	_
+12-10	1248-1255	knowing	_	_	_	_
+12-11	1256-1264	geniuses	_	_	_	_
 12-12	1265-1266	.	_	_	_	_
 
 #Text=Say it a nit so ! !
@@ -310,19 +310,19 @@
 18-1	1372-1374	It	_	_	_	_
 18-2	1375-1381	amazes	_	_	_	_
 18-3	1382-1384	me	_	_	_	_
-18-4	1385-1388	the	abstract[114]	new[114]	cata	18-1[109_114]
-18-5	1389-1395	chunks	abstract[114]	new[114]	_	_
-18-6	1396-1398	of	abstract[114]	new[114]	_	_
-18-7	1399-1403	time	abstract[114]	new[114]	_	_
-18-8	1404-1406	it	abstract[114]	new[114]	_	_
-18-9	1407-1412	takes	abstract[114]	new[114]	_	_
-18-10	1413-1416	for	abstract[114]|abstract[120]	new[114]|new[120]	cata	18-8[117_120]
-18-11	1417-1423	people	abstract[114]|abstract[120]	new[114]|new[120]	_	_
-18-12	1424-1426	to	abstract[114]|abstract[120]	new[114]|new[120]	_	_
-18-13	1427-1434	respond	abstract[114]|abstract[120]	new[114]|new[120]	_	_
-18-14	1435-1437	to	abstract[114]|abstract[120]	new[114]|new[120]	_	_
-18-15	1438-1443	these	abstract[114]|abstract[120]	new[114]|new[120]	_	_
-18-16	1444-1450	things	abstract[114]|abstract[120]	new[114]|new[120]	_	_
+18-4	1385-1388	the	_	_	_	_
+18-5	1389-1395	chunks	_	_	_	_
+18-6	1396-1398	of	_	_	_	_
+18-7	1399-1403	time	_	_	_	_
+18-8	1404-1406	it	_	_	_	_
+18-9	1407-1412	takes	_	_	_	_
+18-10	1413-1416	for	_	_	_	_
+18-11	1417-1423	people	_	_	_	_
+18-12	1424-1426	to	_	_	_	_
+18-13	1427-1434	respond	_	_	_	_
+18-14	1435-1437	to	_	_	_	_
+18-15	1438-1443	these	_	_	_	_
+18-16	1444-1450	things	_	_	_	_
 18-17	1451-1454	D:>	_	_	_	_
 
 #Text=1 year later
@@ -561,7 +561,7 @@
 33-16	2454-2455	,	_	_	_	_
 33-17	2456-2457	I	person[222]	giv[222]	ana	35-1[245_222]
 33-18	2458-2462	tell	_	_	_	_
-33-19	2463-2466	him	person[223]	giv[223]	_	_
+33-19	2463-2466	him	person[223]	giv[223]	coref	36-3[254_223]
 33-20	2467-2469	we	person[224]	giv[224]	ana	40-9[279_224]
 33-21	2470-2472	ca	_	_	_	_
 33-22	2473-2476	n't	_	_	_	_
@@ -590,26 +590,26 @@
 33-45	2597-2598	.	_	_	_	_
 
 #Text=Proposal happens in an Escape Room , there 's no longer a game , it becomes about the proposal .
-34-1	2599-2607	Proposal	event[237]|event[238]	new[237]|giv[238]	ana|coref	35-3[246_237]|34-18[244_238]
-34-2	2608-2615	happens	event[237]	new[237]	_	_
-34-3	2616-2618	in	event[237]	new[237]	_	_
-34-4	2619-2621	an	event[237]	new[237]	_	_
-34-5	2622-2628	Escape	event[237]	new[237]	_	_
-34-6	2629-2633	Room	event[237]	new[237]	_	_
-34-7	2634-2635	,	event[237]	new[237]	_	_
-34-8	2636-2641	there	event[237]	new[237]	_	_
-34-9	2642-2644	's	event[237]	new[237]	_	_
-34-10	2645-2647	no	event[237]	new[237]	_	_
-34-11	2648-2654	longer	event[237]	new[237]	_	_
-34-12	2655-2656	a	event[237]|abstract[241]	new[237]|giv[241]	ana	34-15[242_241]
-34-13	2657-2661	game	event[237]|abstract[241]	new[237]|giv[241]	_	_
-34-14	2662-2663	,	event[237]	new[237]	_	_
-34-15	2664-2666	it	event[237]|abstract[242]	new[237]|giv[242]	_	_
-34-16	2667-2674	becomes	event[237]	new[237]	_	_
-34-17	2675-2680	about	event[237]	new[237]	_	_
-34-18	2681-2684	the	event[237]|event[244]	new[237]|giv[244]	coref	39-9[275_244]
-34-19	2685-2693	proposal	event[237]|event[244]	new[237]|giv[244]	_	_
-34-20	2694-2695	.	event[237]	new[237]	_	_
+34-1	2599-2607	Proposal	_	_	_	_
+34-2	2608-2615	happens	_	_	_	_
+34-3	2616-2618	in	_	_	_	_
+34-4	2619-2621	an	_	_	_	_
+34-5	2622-2628	Escape	_	_	_	_
+34-6	2629-2633	Room	_	_	_	_
+34-7	2634-2635	,	_	_	_	_
+34-8	2636-2641	there	_	_	_	_
+34-9	2642-2644	's	event[410]	new[410]	ana	35-3[246_410]
+34-10	2645-2647	no	_	_	_	_
+34-11	2648-2654	longer	_	_	_	_
+34-12	2655-2656	a	abstract[241]	abstract[241]	ana	34-15[242_241]
+34-13	2657-2661	game	abstract[241]	abstract[241]	_	_
+34-14	2662-2663	,	_	_	_	_
+34-15	2664-2666	it	abstract[242]	abstract[242]	_	_
+34-16	2667-2674	becomes	_	_	_	_
+34-17	2675-2680	about	_	_	_	_
+34-18	2681-2684	the	event[244]	event[244]	coref	39-9[275_244]
+34-19	2685-2693	proposal	event[244]	event[244]	_	_
+34-20	2694-2695	.	_	_	_	_
 
 #Text=I know this because I 've seen it happen a hundred times .
 35-1	2696-2697	I	person[245]	giv[245]	ana	35-5[247_245]
@@ -744,7 +744,7 @@
 41-14	3230-3233	out	_	_	_	_
 41-15	3234-3235	,	_	_	_	_
 41-16	3236-3239	and	_	_	_	_
-41-17	3240-3244	this	person[291]	giv[291]	_	_
+41-17	3240-3244	this	person[291]	giv[291]	coref	42-3[293_291]
 41-18	3245-3249	dude	person[291]	giv[291]	_	_
 41-19	3250-3252	is	_	_	_	_
 41-20	3253-3254	a	_	_	_	_

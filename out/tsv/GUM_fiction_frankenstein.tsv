@@ -54,7 +54,7 @@
 3-1	202-203	“	_	_	_	_
 3-2	204-209	Where	_	_	_	_
 3-3	210-212	’s	_	_	_	_
-3-4	213-217	your	person[14]|person[15]	new[14]|giv[15]	coref|ana	4-2[17_14]|4-2[18_15]
+3-4	213-217	your	person[14]|person[15]	new[14]|giv[15]	ana|coref	4-2[18_15]|4-2[17_14]
 3-5	218-221	mom	person[14]	new[14]	_	_
 3-6	222-223	?	_	_	_	_
 
@@ -220,7 +220,7 @@
 20-12	704-708	with	_	_	_	_
 20-13	709-711	me	_	_	_	_
 20-14	712-713	,	_	_	_	_
-20-15	714-717	you	person[74]	giv[74]	_	_
+20-15	714-717	you	person[74]	giv[74]	coref	22-1[83_74]
 20-16	718-722	know	_	_	_	_
 20-17	723-724	?	_	_	_	_
 
@@ -304,7 +304,7 @@
 24-6	1056-1057	.	_	_	_	_
 
 #Text=She smiles at me .
-25-1	1058-1061	She	person[111]	giv[111]	_	_
+25-1	1058-1061	She	person[111]	giv[111]	coref	26-5[117_111]
 25-2	1062-1068	smiles	_	_	_	_
 25-3	1069-1071	at	_	_	_	_
 25-4	1072-1074	me	person[112]	giv[112]	_	_
@@ -446,7 +446,7 @@
 31-9	1619-1623	have	_	_	_	_
 31-10	1624-1626	to	_	_	_	_
 31-11	1627-1631	meet	_	_	_	_
-31-12	1632-1634	my	person[185]|person[186]	giv[185]|giv[186]	coref|ana	39-9[233_185]|37-1[213_186]
+31-12	1632-1634	my	person[185]|person[186]	giv[185]|giv[186]	ana|coref	37-1[213_186]|39-9[233_185]
 31-13	1635-1638	mom	person[185]	giv[185]	_	_
 31-14	1639-1640	.	_	_	_	_
 
@@ -547,7 +547,7 @@
 38-3	2005-2014	chocolate	_	_	_	_
 38-4	2015-2022	smeared	_	_	_	_
 38-5	2023-2025	on	_	_	_	_
-38-6	2026-2029	her	object[223]|person[224]	new[223]|giv[224]	ana|coref	38-10[225_224]|65-42[431_223]
+38-6	2026-2029	her	object[223]|person[224]	new[223]|giv[224]	coref|ana	65-42[431_223]|38-10[225_224]
 38-7	2030-2035	mouth	object[223]	new[223]	_	_
 38-8	2036-2037	,	_	_	_	_
 38-9	2038-2041	but	_	_	_	_
@@ -744,7 +744,7 @@
 52-5	2666-2668	do	_	_	_	_
 52-6	2669-2670	?	_	_	_	_
 52-7	2671-2672	”	_	_	_	_
-52-8	2673-2675	my	person[303]|person[304]	giv[303]|giv[304]	ana|ana	52-12[305_303]|53-1[311_304]
+52-8	2673-2675	my	person[303]|person[304]	giv[303]|giv[304]	ana|ana	53-1[311_304]|52-12[305_303]
 52-9	2676-2679	mom	person[303]	giv[303]	_	_
 52-10	2680-2684	says	_	_	_	_
 52-11	2685-2689	when	_	_	_	_
@@ -754,7 +754,7 @@
 52-15	2702-2703	.	_	_	_	_
 
 #Text=My mom had to buy stuff , like gym shorts for me and underwear for herself , so I told her that I ’d take Cara with me while she bought her stuff .
-53-1	2704-2706	My	person[310]|person[311]	giv[310]|giv[311]	ana|ana	53-12[315_311]|53-16[317_310]
+53-1	2704-2706	My	person[310]|person[311]	giv[310]|giv[311]	ana|ana	53-16[317_310]|53-12[315_311]
 53-2	2707-2710	mom	person[310]	giv[310]	_	_
 53-3	2711-2714	had	_	_	_	_
 53-4	2715-2717	to	_	_	_	_
@@ -914,9 +914,9 @@
 62-7	3273-3276	and	_	_	_	_
 62-8	3277-3281	Cara	person[383]	giv[383]	coref	64-37[410_383]
 62-9	3282-3291	dutifully	_	_	_	_
-62-10	3292-3297	takes	event[385]	new[385]	ana	64-40[411_385]
-62-11	3298-3299	a	event[385]	new[385]	_	_
-62-12	3300-3303	hit	event[385]	new[385]	_	_
+62-10	3292-3297	takes	event[590]	event[590]	ana	64-40[411_590]
+62-11	3298-3299	a	_	_	_	_
+62-12	3300-3303	hit	_	_	_	_
 62-13	3304-3305	.	_	_	_	_
 
 #Text=I tried it once and it was pretty dreadful .
@@ -937,14 +937,14 @@
 64-3	3359-3365	really	_	_	_	_
 64-4	3366-3371	weird	_	_	_	_
 64-5	3372-3373	,	_	_	_	_
-64-6	3374-3380	trying	event[395]	new[395]	cata	64-1[390_395]
-64-7	3381-3383	to	event[395]	new[395]	_	_
-64-8	3384-3387	get	event[395]	new[395]	_	_
-64-9	3388-3392	that	event[395]|substance[396]	new[395]|acc[396]	ana	64-16[399_396]
-64-10	3393-3398	stuff	event[395]|substance[396]	new[395]|acc[396]	_	_
-64-11	3399-3401	in	event[395]	new[395]	_	_
-64-12	3402-3404	my	event[395]|person[398]	new[395]|giv[398]	ana	64-18[403_398]
-64-13	3405-3410	lungs	event[395]	new[395]	_	_
+64-6	3374-3380	trying	_	_	_	_
+64-7	3381-3383	to	_	_	_	_
+64-8	3384-3387	get	_	_	_	_
+64-9	3388-3392	that	substance[396]	acc[396]	ana	64-16[399_396]
+64-10	3393-3398	stuff	substance[396]	acc[396]	_	_
+64-11	3399-3401	in	_	_	_	_
+64-12	3402-3404	my	person[398]	giv[398]	ana	64-18[403_398]
+64-13	3405-3410	lungs	_	_	_	_
 64-14	3411-3412	,	_	_	_	_
 64-15	3413-3416	and	_	_	_	_
 64-16	3417-3419	it	substance[399]	giv[399]	_	_
@@ -968,10 +968,10 @@
 64-34	3489-3495	pretty	_	_	_	_
 64-35	3496-3503	amazing	_	_	_	_
 64-36	3504-3508	that	_	_	_	_
-64-37	3509-3513	Cara	event[409]|person[410]	new[409]|giv[410]	cata|coref	64-32[405_409]|65-1[412_410]
-64-38	3514-3518	will	event[409]	new[409]	_	_
-64-39	3519-3521	do	event[409]	new[409]	_	_
-64-40	3522-3524	it	event[409]|event[411]	new[409]|giv[411]	_	_
+64-37	3509-3513	Cara	person[410]	giv[410]	coref	65-1[412_410]
+64-38	3514-3518	will	_	_	_	_
+64-39	3519-3521	do	_	_	_	_
+64-40	3522-3524	it	event[411]	giv[411]	_	_
 64-41	3525-3526	.	_	_	_	_
 
 #Text=Cara sits in her booster seat in the back of the car , wheezing all the way home , getting worse and worse , and by the time we pull in the driveway , she ’s got that white look around her mouth .
@@ -1131,22 +1131,22 @@
 74-10	4059-4061	is	person[472]	giv[472]	_	_
 74-11	4062-4070	probably	person[472]	giv[472]	_	_
 74-12	4071-4075	with	person[472]	giv[472]	_	_
-74-13	4076-4081	Joyce	person[472]|person[474]|person[591]	giv[472]|new[474]|giv[591]	appos|coref	74-15[477_474]|75-1[481_591]
-74-14	4082-4083	,	person[472]|person[591]	giv[472]|giv[591]	_	_
-74-15	4084-4087	his	person[472]|person[477]|person[591]	giv[472]|giv[477]|giv[591]	_	_
-74-16	4088-4098	girlfriend	person[472]|person[477]|person[591]	giv[472]|giv[477]|giv[591]	_	_
+74-13	4076-4081	Joyce	person[472]|person[474]|person[594]	giv[472]|new[474]|giv[594]	appos|coref	74-15[477_474]|75-1[481_594]
+74-14	4082-4083	,	person[472]|person[594]	giv[472]|giv[594]	_	_
+74-15	4084-4087	his	person[472]|person[477]|person[594]	person[472]|person[477]|giv[594]	_	_
+74-16	4088-4098	girlfriend	person[472]|person[477]|person[594]	giv[472]|giv[477]|giv[594]	_	_
 74-17	4099-4100	,	person[472]	giv[472]	_	_
 74-18	4101-4107	anyway	person[472]	giv[472]	_	_
 74-19	4108-4109	.	_	_	_	_
 
 #Text=Joyce is always trying to be likable and it gets on my nerves after awhile — she tries way too hard .
-75-1	4110-4115	Joyce	event[480]|person[481]	new[480]|giv[481]	ana|ana	75-9[482_480]|75-17[487_481]
-75-2	4116-4118	is	event[480]	new[480]	_	_
-75-3	4119-4125	always	event[480]	new[480]	_	_
-75-4	4126-4132	trying	event[480]	new[480]	_	_
-75-5	4133-4135	to	event[480]	new[480]	_	_
-75-6	4136-4138	be	event[480]	new[480]	_	_
-75-7	4139-4146	likable	event[480]	new[480]	_	_
+75-1	4110-4115	Joyce	person[481]	person[481]	ana	75-17[487_481]
+75-2	4116-4118	is	_	_	_	_
+75-3	4119-4125	always	_	_	_	_
+75-4	4126-4132	trying	event[591]	new[591]	ana	75-9[482_591]
+75-5	4133-4135	to	_	_	_	_
+75-6	4136-4138	be	_	_	_	_
+75-7	4139-4146	likable	_	_	_	_
 75-8	4147-4150	and	_	_	_	_
 75-9	4151-4153	it	event[482]	giv[482]	_	_
 75-10	4154-4158	gets	_	_	_	_

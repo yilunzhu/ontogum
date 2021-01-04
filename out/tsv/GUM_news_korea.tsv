@@ -4,7 +4,7 @@
 
 
 #Text=North Korea puts military in ' quasi-state of war '
-1-1	0-5	North	organization[1]	acc[1]	coref	3-22[17_1]
+1-1	0-5	North	organization[1]	acc[1]	coref	4-5[21_1]
 1-2	6-11	Korea	organization[1]	acc[1]	_	_
 1-3	12-16	puts	_	_	_	_
 1-4	17-25	military	_	_	_	_
@@ -16,12 +16,12 @@
 1-10	50-51	'	_	_	_	_
 
 #Text=Friday , August 21 , 2015
-2-1	52-58	Friday	_	_	_	_
+2-1	52-58	Friday	time[5]	acc[5]	appos	2-3[7_5]
 2-2	59-60	,	_	_	_	_
-2-3	61-67	August	_	_	_	_
-2-4	68-70	21	_	_	_	_
-2-5	71-72	,	_	_	_	_
-2-6	73-77	2015	_	_	_	_
+2-3	61-67	August	time[7]	acc[7]	_	_
+2-4	68-70	21	time[7]	acc[7]	_	_
+2-5	71-72	,	time[7]	acc[7]	_	_
+2-6	73-77	2015	time[7]	acc[7]	_	_
 
 #Text=According to Yonhap news agency , quoting North Korea 's main news agency Korean Central News Agency ( KCNA ) , the country 's military has been placed on high alert and has been told to prepare a " quasi-state of war " .
 3-1	78-87	According	_	_	_	_
@@ -31,42 +31,42 @@
 3-5	103-109	agency	_	_	_	_
 3-6	110-111	,	_	_	_	_
 3-7	112-119	quoting	_	_	_	_
-3-8	120-125	North	organization[11]|organization[164]	new[11]|new[164]	appos|coref	3-19[13_11]|7-32[57_164]
-3-9	126-131	Korea	organization[11]|organization[164]	new[11]|new[164]	_	_
-3-10	132-134	's	organization[11]|organization[164]	new[11]|new[164]	_	_
-3-11	135-139	main	organization[11]|organization[164]	new[11]|new[164]	_	_
-3-12	140-144	news	organization[11]|organization[164]	new[11]|new[164]	_	_
-3-13	145-151	agency	organization[11]|organization[164]	new[11]|new[164]	_	_
-3-14	152-158	Korean	organization[11]|organization[164]	new[11]|new[164]	_	_
-3-15	159-166	Central	organization[11]|organization[164]	new[11]|new[164]	_	_
-3-16	167-171	News	organization[11]|organization[164]	new[11]|new[164]	_	_
-3-17	172-178	Agency	organization[11]|organization[164]	new[11]|new[164]	_	_
-3-18	179-180	(	organization[164]	new[164]	_	_
-3-19	181-185	KCNA	organization[13]|organization[164]	giv[13]|new[164]	_	_
-3-20	186-187	)	_	_	_	_
+3-8	120-125	North	organization[11]|organization[167]	new[11]|new[167]	appos|coref	3-19[13_11]|7-32[57_167]
+3-9	126-131	Korea	organization[11]|organization[167]	new[11]|new[167]	_	_
+3-10	132-134	's	organization[11]|organization[167]	new[11]|new[167]	_	_
+3-11	135-139	main	organization[11]|organization[167]	new[11]|new[167]	_	_
+3-12	140-144	news	organization[11]|organization[167]	new[11]|new[167]	_	_
+3-13	145-151	agency	organization[11]|organization[167]	new[11]|new[167]	_	_
+3-14	152-158	Korean	organization[11]|organization[167]	new[11]|new[167]	_	_
+3-15	159-166	Central	organization[11]|organization[167]	new[11]|new[167]	_	_
+3-16	167-171	News	organization[11]|organization[167]	new[11]|new[167]	_	_
+3-17	172-178	Agency	organization[11]|organization[167]	new[11]|new[167]	_	_
+3-18	179-180	(	organization[167]	new[167]	_	_
+3-19	181-185	KCNA	organization[13]|organization[167]	giv[13]|new[167]	_	_
+3-20	186-187	)	organization[167]	new[167]	_	_
 3-21	188-189	,	_	_	_	_
-3-22	190-193	the	event[15]|organization[16]|organization[17]	new[15]|giv[16]|giv[17]	coref|coref|coref	6-11[41_16]|4-5[21_17]|4-1[19_15]
-3-23	194-201	country	event[15]|organization[16]|organization[17]	new[15]|giv[16]|giv[17]	_	_
-3-24	202-204	's	event[15]|organization[16]|organization[17]	new[15]|giv[16]|giv[17]	_	_
-3-25	205-213	military	event[15]|organization[16]	new[15]|giv[16]	_	_
-3-26	214-217	has	event[15]	new[15]	_	_
-3-27	218-222	been	event[15]	new[15]	_	_
-3-28	223-229	placed	event[15]	new[15]	_	_
-3-29	230-232	on	event[15]	new[15]	_	_
-3-30	233-237	high	event[15]	new[15]	_	_
-3-31	238-243	alert	event[15]	new[15]	_	_
-3-32	244-247	and	event[15]	new[15]	_	_
-3-33	248-251	has	event[15]	new[15]	_	_
-3-34	252-256	been	event[15]	new[15]	_	_
-3-35	257-261	told	event[15]	new[15]	_	_
-3-36	262-264	to	event[15]	new[15]	_	_
-3-37	265-272	prepare	event[15]	new[15]	_	_
-3-38	273-274	a	event[15]	new[15]	_	_
-3-39	275-276	"	event[15]	new[15]	_	_
-3-40	277-288	quasi-state	event[15]	new[15]	_	_
-3-41	289-291	of	event[15]	new[15]	_	_
-3-42	292-295	war	event[15]	new[15]	_	_
-3-43	296-297	"	event[15]	new[15]	_	_
+3-22	190-193	the	organization[16]	organization[16]	coref	6-11[41_16]
+3-23	194-201	country	organization[16]	organization[16]	_	_
+3-24	202-204	's	organization[16]	organization[16]	_	_
+3-25	205-213	military	organization[16]	organization[16]	_	_
+3-26	214-217	has	_	_	_	_
+3-27	218-222	been	_	_	_	_
+3-28	223-229	placed	event[163]	new[163]	coref	4-1[19_163]
+3-29	230-232	on	_	_	_	_
+3-30	233-237	high	_	_	_	_
+3-31	238-243	alert	_	_	_	_
+3-32	244-247	and	_	_	_	_
+3-33	248-251	has	_	_	_	_
+3-34	252-256	been	_	_	_	_
+3-35	257-261	told	_	_	_	_
+3-36	262-264	to	_	_	_	_
+3-37	265-272	prepare	_	_	_	_
+3-38	273-274	a	_	_	_	_
+3-39	275-276	"	_	_	_	_
+3-40	277-288	quasi-state	_	_	_	_
+3-41	289-291	of	_	_	_	_
+3-42	292-295	war	_	_	_	_
+3-43	296-297	"	_	_	_	_
 3-44	298-299	.	_	_	_	_
 
 #Text=The report comes after North and South Korea exchanged artillery fire yesterday .
@@ -74,14 +74,14 @@
 4-2	304-310	report	event[19]	giv[19]	_	_
 4-3	311-316	comes	_	_	_	_
 4-4	317-322	after	_	_	_	_
-4-5	323-328	North	event[20]|organization[21]	new[20]|giv[21]	coref|coref	11-8[99_20]|5-15[30_21]
-4-6	329-332	and	event[20]	new[20]	_	_
-4-7	333-338	South	event[20]|organization[23]	new[20]|acc[23]	coref	9-13[79_23]
-4-8	339-344	Korea	event[20]|organization[23]	new[20]|acc[23]	_	_
-4-9	345-354	exchanged	event[20]	new[20]	_	_
-4-10	355-364	artillery	event[20]	new[20]	_	_
-4-11	365-369	fire	event[20]	new[20]	_	_
-4-12	370-379	yesterday	event[20]|time[25]	new[20]|acc[25]	coref	5-26[32_25]
+4-5	323-328	North	organization[21]	organization[21]	coref	5-15[30_21]
+4-6	329-332	and	_	_	_	_
+4-7	333-338	South	organization[23]	organization[23]	coref	9-13[79_23]
+4-8	339-344	Korea	organization[23]	organization[23]	_	_
+4-9	345-354	exchanged	event[164]	event[164]	coref	11-8[99_164]
+4-10	355-364	artillery	_	_	_	_
+4-11	365-369	fire	_	_	_	_
+4-12	370-379	yesterday	time[25]	time[25]	coref	5-26[32_25]
 4-13	380-381	.	_	_	_	_
 
 #Text=" War maniacs of the South Korean puppet military made another grave provocation to the DPRK in the central western sector of the front on Thursday afternoon .
@@ -167,7 +167,7 @@
 7-19	785-791	shells	_	_	_	_
 7-20	792-796	fell	_	_	_	_
 7-21	797-801	near	_	_	_	_
-7-22	802-805	KPA	organization[56]	giv[56]	coref	8-27[165_56]
+7-22	802-805	KPA	organization[56]	giv[56]	coref	8-27[169_56]
 7-23	806-811	civil	_	_	_	_
 7-24	812-818	police	_	_	_	_
 7-25	819-824	posts	_	_	_	_
@@ -207,14 +207,14 @@
 8-24	969-976	supreme	_	_	_	_
 8-25	977-986	commander	_	_	_	_
 8-26	987-989	of	_	_	_	_
-8-27	990-993	the	organization[67]|organization[165]	giv[67]|new[165]	appos|coref	8-33[68_67]|8-42[71_165]
-8-28	994-1000	Korean	organization[67]|organization[165]	giv[67]|new[165]	_	_
-8-29	1001-1007	People	organization[67]|organization[165]	giv[67]|new[165]	_	_
-8-30	1008-1010	's	organization[67]|organization[165]	giv[67]|new[165]	_	_
-8-31	1011-1015	Army	organization[67]|organization[165]	giv[67]|new[165]	_	_
-8-32	1016-1017	[	organization[165]	new[165]	_	_
-8-33	1018-1021	KPA	organization[68]|organization[165]	giv[68]|new[165]	_	_
-8-34	1022-1023	]	_	_	_	_
+8-27	990-993	the	organization[67]|organization[169]	giv[67]|new[169]	coref|appos	8-42[71_169]|8-33[68_67]
+8-28	994-1000	Korean	organization[67]|organization[169]	giv[67]|new[169]	_	_
+8-29	1001-1007	People	organization[67]|organization[169]	giv[67]|new[169]	_	_
+8-30	1008-1010	's	organization[67]|organization[169]	giv[67]|new[169]	_	_
+8-31	1011-1015	Army	organization[67]|organization[169]	giv[67]|new[169]	_	_
+8-32	1016-1017	[	organization[169]	new[169]	_	_
+8-33	1018-1021	KPA	organization[68]|organization[169]	giv[68]|new[169]	_	_
+8-34	1022-1023	]	organization[169]	new[169]	_	_
 8-35	1024-1028	that	_	_	_	_
 8-36	1029-1032	the	_	_	_	_
 8-37	1033-1043	front-line	_	_	_	_
@@ -297,7 +297,7 @@
 10-29	1487-1490	not	_	_	_	_
 10-30	1491-1495	stop	_	_	_	_
 10-31	1496-1499	the	event[88]	new[88]	coref	14-1[117_88]
-10-32	1500-1510	propaganda	event[88]	new[88]	_	_
+10-32	1500-1510	propaganda	event[88]	event[88]	_	_
 10-33	1511-1520	broadcast	event[88]	new[88]	_	_
 10-34	1521-1527	within	_	_	_	_
 10-35	1528-1530	48	_	_	_	_

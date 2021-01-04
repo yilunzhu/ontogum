@@ -17,12 +17,12 @@
 1-11	50-51	'	person[3]	giv[3]	_	_
 
 #Text=Wednesday , October 3 , 2007
-2-1	52-61	Wednesday	_	_	_	_
+2-1	52-61	Wednesday	time[5]	acc[5]	appos	2-3[8_5]
 2-2	62-63	,	_	_	_	_
-2-3	64-71	October	_	_	_	_
-2-4	72-73	3	_	_	_	_
-2-5	74-75	,	_	_	_	_
-2-6	76-80	2007	time[9]	new[9]	coref	51-3[394_9]
+2-3	64-71	October	time[8]	giv[8]	_	_
+2-4	72-73	3	time[8]	giv[8]	_	_
+2-5	74-75	,	time[8]	giv[8]	_	_
+2-6	76-80	2007	time[8]|time[9]	giv[8]|new[9]	coref	51-3[394_9]
 
 #Text=You have received a good deal of attention recently .
 3-1	81-84	You	person[10]	giv[10]	ana	4-3[14_10]
@@ -47,43 +47,43 @@
 4-8	171-173	or	_	_	_	_
 4-9	174-182	somebody	_	_	_	_
 4-10	183-184	,	_	_	_	_
-4-11	185-189	when	event[19]	new[19]	ana	5-1[41_19]
-4-12	190-196	people	event[19]|person[20]	new[19]|new[20]	ana	4-19[22_20]
-4-13	197-201	come	event[19]	new[19]	_	_
-4-14	202-204	up	event[19]	new[19]	_	_
-4-15	205-207	to	event[19]	new[19]	_	_
-4-16	208-210	me	event[19]|person[21]	new[19]|giv[21]	coref	4-25[23_21]
-4-17	211-214	and	event[19]	new[19]	_	_
-4-18	215-224	introduce	event[19]	new[19]	_	_
-4-19	225-235	themselves	event[19]|person[22]	new[19]|giv[22]	_	_
-4-20	236-239	and	event[19]	new[19]	_	_
-4-21	240-243	say	event[19]	new[19]	_	_
-4-22	244-245	,	event[19]	new[19]	_	_
-4-23	246-247	'	event[19]	new[19]	_	_
-4-24	248-251	Hey	event[19]	new[19]	_	_
-4-25	252-257	Frank	event[19]|person[23]	new[19]|giv[23]	ana	4-33[31_23]
-4-26	258-259	,	event[19]	new[19]	_	_
-4-27	260-262	my	event[19]|person[29]	new[19]|acc[29]	coref	4-38[32_29]
-4-28	263-267	name	event[19]	new[19]	_	_
-4-29	268-270	is	event[19]	new[19]	_	_
-4-30	271-275	John	event[19]	new[19]	_	_
-4-31	276-277	,	event[19]	new[19]	_	_
-4-32	278-279	'	event[19]	new[19]	_	_
-4-33	280-281	I	event[19]|person[31]	new[19]|giv[31]	ana	4-40[38_31]
-4-34	282-285	say	event[19]	new[19]	_	_
-4-35	286-287	,	event[19]	new[19]	_	_
-4-36	288-289	'	event[19]	new[19]	_	_
-4-37	290-293	Hey	event[19]	new[19]	_	_
-4-38	294-298	John	event[19]|person[32]	new[19]|giv[32]	ana	4-46[40_32]
-4-39	299-300	,	event[19]	new[19]	_	_
-4-40	301-303	my	event[19]|person[38]	new[19]|giv[38]	ana	6-4[47_38]
-4-41	304-308	name	event[19]	new[19]	_	_
-4-42	309-311	is	event[19]	new[19]	_	_
-4-43	312-317	Frank	event[19]	new[19]	_	_
-4-44	318-319	'	event[19]	new[19]	_	_
-4-45	320-323	and	event[19]	new[19]	_	_
-4-46	324-328	they	event[19]|person[40]	new[19]|giv[40]	_	_
-4-47	329-334	laugh	event[19]	new[19]	_	_
+4-11	185-189	when	_	_	_	_
+4-12	190-196	people	person[20]	person[20]	ana	4-19[22_20]
+4-13	197-201	come	_	_	_	_
+4-14	202-204	up	_	_	_	_
+4-15	205-207	to	_	_	_	_
+4-16	208-210	me	person[21]	person[21]	coref	4-25[23_21]
+4-17	211-214	and	_	_	_	_
+4-18	215-224	introduce	_	_	_	_
+4-19	225-235	themselves	person[22]	person[22]	_	_
+4-20	236-239	and	_	_	_	_
+4-21	240-243	say	_	_	_	_
+4-22	244-245	,	_	_	_	_
+4-23	246-247	'	_	_	_	_
+4-24	248-251	Hey	_	_	_	_
+4-25	252-257	Frank	person[23]	person[23]	ana	4-33[31_23]
+4-26	258-259	,	_	_	_	_
+4-27	260-262	my	person[29]	person[29]	coref	4-38[32_29]
+4-28	263-267	name	_	_	_	_
+4-29	268-270	is	_	_	_	_
+4-30	271-275	John	_	_	_	_
+4-31	276-277	,	_	_	_	_
+4-32	278-279	'	_	_	_	_
+4-33	280-281	I	person[31]	person[31]	ana	4-40[38_31]
+4-34	282-285	say	event[577]	new[577]	ana	5-1[41_577]
+4-35	286-287	,	_	_	_	_
+4-36	288-289	'	_	_	_	_
+4-37	290-293	Hey	_	_	_	_
+4-38	294-298	John	person[32]	person[32]	ana	4-46[40_32]
+4-39	299-300	,	_	_	_	_
+4-40	301-303	my	person[38]	person[38]	ana	6-4[47_38]
+4-41	304-308	name	_	_	_	_
+4-42	309-311	is	_	_	_	_
+4-43	312-317	Frank	_	_	_	_
+4-44	318-319	'	_	_	_	_
+4-45	320-323	and	_	_	_	_
+4-46	324-328	they	person[40]	person[40]	_	_
+4-47	329-334	laugh	_	_	_	_
 4-48	335-336	.	_	_	_	_
 
 #Text=It 's a funny phenomenon .
@@ -136,14 +136,14 @@
 10-2	509-512	the	_	_	_	_
 10-3	513-518	years	_	_	_	_
 10-4	519-520	I	person[66]	giv[66]	ana	11-1[71_66]
-10-5	521-525	have	event[68]	new[68]	ana	11-5[72_68]
-10-6	526-535	performed	event[68]	new[68]	_	_
-10-7	536-538	in	event[68]	new[68]	_	_
-10-8	539-541	32	event[68]	new[68]	_	_
-10-9	542-551	countries	event[68]	new[68]	_	_
-10-10	552-555	and	event[68]	new[68]	_	_
-10-11	556-558	40	event[68]	new[68]	_	_
-10-12	559-565	states	event[68]	new[68]	_	_
+10-5	521-525	have	_	_	_	_
+10-6	526-535	performed	event[578]	new[578]	ana	11-5[72_578]
+10-7	536-538	in	_	_	_	_
+10-8	539-541	32	_	_	_	_
+10-9	542-551	countries	_	_	_	_
+10-10	552-555	and	_	_	_	_
+10-11	556-558	40	_	_	_	_
+10-12	559-565	states	_	_	_	_
 10-13	566-567	.	_	_	_	_
 
 #Text=I 've been doing this professionally since I was in my twenties , and before that since I was sixteen doing little tidbit poetry readings in coffeehouses .
@@ -177,15 +177,15 @@
 11-28	722-723	.	_	_	_	_
 
 #Text=The band I started in 1993 , Spoken Motion , received a lot of recognition as a spoken word band born out of the New York spoken word scene .
-12-1	724-727	The	organization[92]	new[92]	appos	12-8[97_92]
-12-2	728-732	band	organization[92]	new[92]	_	_
-12-3	733-734	I	organization[92]|person[93]	new[92]|giv[93]	ana	13-1[102_93]
-12-4	735-742	started	organization[92]	new[92]	_	_
-12-5	743-745	in	organization[92]	new[92]	_	_
-12-6	746-750	1993	organization[92]	new[92]	_	_
-12-7	751-752	,	_	_	_	_
-12-8	753-759	Spoken	organization[97]	giv[97]	_	_
-12-9	760-766	Motion	organization[97]	giv[97]	_	_
+12-1	724-727	The	organization[92]|organization[590]	new[92]|new[590]	coref|appos	12-17[99_590]|12-8[97_92]
+12-2	728-732	band	organization[92]|organization[590]	new[92]|new[590]	_	_
+12-3	733-734	I	organization[92]|person[93]|organization[590]	new[92]|giv[93]|new[590]	ana	13-1[102_93]
+12-4	735-742	started	organization[92]|organization[590]	new[92]|new[590]	_	_
+12-5	743-745	in	organization[92]|organization[590]	new[92]|new[590]	_	_
+12-6	746-750	1993	organization[92]|organization[590]	new[92]|new[590]	_	_
+12-7	751-752	,	organization[590]	new[590]	_	_
+12-8	753-759	Spoken	organization[97]|organization[590]	giv[97]|new[590]	_	_
+12-9	760-766	Motion	organization[97]|organization[590]	giv[97]|new[590]	_	_
 12-10	767-768	,	_	_	_	_
 12-11	769-777	received	_	_	_	_
 12-12	778-779	a	_	_	_	_
@@ -193,19 +193,19 @@
 12-14	784-786	of	_	_	_	_
 12-15	787-798	recognition	_	_	_	_
 12-16	799-801	as	_	_	_	_
-12-17	802-803	a	_	_	_	_
-12-18	804-810	spoken	_	_	_	_
-12-19	811-815	word	_	_	_	_
-12-20	816-820	band	_	_	_	_
-12-21	821-825	born	_	_	_	_
-12-22	826-829	out	_	_	_	_
-12-23	830-832	of	_	_	_	_
-12-24	833-836	the	_	_	_	_
-12-25	837-840	New	_	_	_	_
-12-26	841-845	York	_	_	_	_
-12-27	846-852	spoken	_	_	_	_
-12-28	853-857	word	_	_	_	_
-12-29	858-863	scene	_	_	_	_
+12-17	802-803	a	organization[99]	giv[99]	_	_
+12-18	804-810	spoken	organization[99]	giv[99]	_	_
+12-19	811-815	word	organization[99]	giv[99]	_	_
+12-20	816-820	band	organization[99]	giv[99]	_	_
+12-21	821-825	born	organization[99]	giv[99]	_	_
+12-22	826-829	out	organization[99]	giv[99]	_	_
+12-23	830-832	of	organization[99]	giv[99]	_	_
+12-24	833-836	the	organization[99]	giv[99]	_	_
+12-25	837-840	New	organization[99]	giv[99]	_	_
+12-26	841-845	York	organization[99]	giv[99]	_	_
+12-27	846-852	spoken	organization[99]	giv[99]	_	_
+12-28	853-857	word	organization[99]	giv[99]	_	_
+12-29	858-863	scene	organization[99]	giv[99]	_	_
 12-30	864-865	.	_	_	_	_
 
 #Text=I worked with some great musicians and performed around the world .
@@ -225,19 +225,19 @@
 #Text=I remember signing my first autograph to a kid when I was 25 years old .
 14-1	934-935	I	person[106]	giv[106]	ana	14-4[110_106]
 14-2	936-944	remember	_	_	_	_
-14-3	945-952	signing	event[108]	new[108]	coref	15-19[126_108]
-14-4	953-955	my	event[108]|person[110]	new[108]|giv[110]	ana	14-11[113_110]
-14-5	956-961	first	event[108]	new[108]	_	_
-14-6	962-971	autograph	event[108]	new[108]	_	_
-14-7	972-974	to	event[108]	new[108]	_	_
-14-8	975-976	a	event[108]	new[108]	_	_
-14-9	977-980	kid	event[108]	new[108]	_	_
-14-10	981-985	when	event[108]	new[108]	_	_
-14-11	986-987	I	event[108]|person[113]	new[108]|giv[113]	ana	15-6[117_113]
-14-12	988-991	was	event[108]	new[108]	_	_
-14-13	992-994	25	event[108]	new[108]	_	_
-14-14	995-1000	years	event[108]	new[108]	_	_
-14-15	1001-1004	old	event[108]	new[108]	_	_
+14-3	945-952	signing	event[579]	new[579]	coref	15-19[126_579]
+14-4	953-955	my	person[110]	person[110]	ana	14-11[113_110]
+14-5	956-961	first	_	_	_	_
+14-6	962-971	autograph	_	_	_	_
+14-7	972-974	to	_	_	_	_
+14-8	975-976	a	_	_	_	_
+14-9	977-980	kid	_	_	_	_
+14-10	981-985	when	_	_	_	_
+14-11	986-987	I	person[113]	person[113]	ana	15-6[117_113]
+14-12	988-991	was	_	_	_	_
+14-13	992-994	25	_	_	_	_
+14-14	995-1000	years	_	_	_	_
+14-15	1001-1004	old	_	_	_	_
 14-16	1005-1006	.	_	_	_	_
 
 #Text=As time went on , I came out with books and CDs , and I became used to that kind of thing .
@@ -303,7 +303,7 @@
 17-11	1247-1252	thank	_	_	_	_
 17-12	1253-1256	you	person[136]	giv[136]	ana	17-14[144_136]
 17-13	1257-1258	,	_	_	_	_
-17-14	1259-1263	your	abstract[143]|person[144]	new[143]|giv[144]	ana|coref	18-1[145_144]|19-10[159_143]
+17-14	1259-1263	your	abstract[143]|person[144]	new[143]|giv[144]	coref|ana	19-10[159_143]|18-1[145_144]
 17-15	1264-1268	work	abstract[143]	new[143]	_	_
 17-16	1269-1271	is	_	_	_	_
 17-17	1272-1277	great	_	_	_	_
@@ -341,17 +341,17 @@
 19-3	1403-1406	you	person[155]	giv[155]	ana	19-10[160_155]
 19-4	1407-1411	feel	_	_	_	_
 19-5	1412-1417	about	_	_	_	_
-19-6	1418-1424	having	abstract[157]	new[157]	ana	20-1[164_157]
-19-7	1425-1426	a	abstract[157]	new[157]	_	_
-19-8	1427-1430	lot	abstract[157]	new[157]	_	_
-19-9	1431-1433	of	abstract[157]	new[157]	_	_
-19-10	1434-1438	your	abstract[157]|abstract[159]|person[160]	new[157]|giv[159]|giv[160]	ana	29-1[211_160]
-19-11	1439-1443	work	abstract[157]|abstract[159]	new[157]|giv[159]	_	_
-19-12	1444-1456	overshadowed	abstract[157]	new[157]	_	_
-19-13	1457-1459	by	abstract[157]	new[157]	_	_
-19-14	1460-1463	the	abstract[157]|abstract[162]	new[157]|giv[162]	coref	46-11[337_162]
-19-15	1464-1468	Mets	abstract[157]|abstract[162]|organization[163]	new[157]|giv[162]|giv[163]	coref	37-9[276_163]
-19-16	1469-1473	work	abstract[157]|abstract[162]	new[157]|giv[162]	_	_
+19-6	1418-1424	having	abstract[580]	new[580]	ana	20-1[164_580]
+19-7	1425-1426	a	_	_	_	_
+19-8	1427-1430	lot	_	_	_	_
+19-9	1431-1433	of	_	_	_	_
+19-10	1434-1438	your	abstract[159]|person[160]	abstract[159]|person[160]	ana	29-1[211_160]
+19-11	1439-1443	work	abstract[159]	abstract[159]	_	_
+19-12	1444-1456	overshadowed	_	_	_	_
+19-13	1457-1459	by	_	_	_	_
+19-14	1460-1463	the	abstract[162]	abstract[162]	coref	46-11[337_162]
+19-15	1464-1468	Mets	abstract[162]|organization[163]	abstract[162]|organization[163]	coref	37-9[276_163]
+19-16	1469-1473	work	abstract[162]	abstract[162]	_	_
 19-17	1474-1475	?	_	_	_	_
 
 #Text=It 's ironic .
@@ -384,14 +384,14 @@
 21-21	1600-1601	.	_	_	_	_
 
 #Text=Walt Whitman , the first great American poet , wrote about the Civil War .
-22-1	1602-1606	Walt	person[173]|person[579]	new[173]|new[579]	ana|appos	23-1[176_579]|22-4[174_173]
-22-2	1607-1614	Whitman	person[173]|person[579]	new[173]|new[579]	_	_
-22-3	1615-1616	,	person[579]	new[579]	_	_
-22-4	1617-1620	the	person[174]|person[579]	giv[174]|new[579]	_	_
-22-5	1621-1626	first	person[174]|person[579]	giv[174]|new[579]	_	_
-22-6	1627-1632	great	person[174]|person[579]	giv[174]|new[579]	_	_
-22-7	1633-1641	American	person[174]|person[579]	giv[174]|new[579]	_	_
-22-8	1642-1646	poet	person[174]|person[579]	giv[174]|new[579]	_	_
+22-1	1602-1606	Walt	person[173]|person[592]	new[173]|new[592]	ana|appos	23-1[176_592]|22-4[174_173]
+22-2	1607-1614	Whitman	person[173]|person[592]	new[173]|new[592]	_	_
+22-3	1615-1616	,	person[592]	new[592]	_	_
+22-4	1617-1620	the	person[174]|person[592]	giv[174]|new[592]	_	_
+22-5	1621-1626	first	person[174]|person[592]	giv[174]|new[592]	_	_
+22-6	1627-1632	great	person[174]|person[592]	giv[174]|new[592]	_	_
+22-7	1633-1641	American	person[174]|person[592]	giv[174]|new[592]	_	_
+22-8	1642-1646	poet	person[174]|person[592]	giv[174]|new[592]	_	_
 22-9	1647-1648	,	_	_	_	_
 22-10	1649-1654	wrote	_	_	_	_
 22-11	1655-1660	about	_	_	_	_
@@ -405,11 +405,11 @@
 23-2	1680-1684	went	_	_	_	_
 23-3	1685-1692	looking	_	_	_	_
 23-4	1693-1696	for	_	_	_	_
-23-5	1697-1700	his	person[178]|person[179]|person[580]	new[178]|giv[179]|new[580]	coref|appos|ana	23-17[187_580]|23-8[181_178]|23-12[182_179]
-23-6	1701-1708	brother	person[178]|person[580]	new[178]|new[580]	_	_
-23-7	1709-1710	,	person[580]	new[580]	_	_
-23-8	1711-1717	George	person[181]|person[580]	giv[181]|new[580]	_	_
-23-9	1718-1725	Whitman	person[181]|person[580]	giv[181]|new[580]	_	_
+23-5	1697-1700	his	person[178]|person[179]|person[594]	new[178]|giv[179]|new[594]	ana|appos|coref	23-12[182_179]|23-8[181_178]|23-17[187_594]
+23-6	1701-1708	brother	person[178]|person[594]	new[178]|new[594]	_	_
+23-7	1709-1710	,	person[594]	new[594]	_	_
+23-8	1711-1717	George	person[181]|person[594]	giv[181]|new[594]	_	_
+23-9	1718-1725	Whitman	person[181]|person[594]	giv[181]|new[594]	_	_
 23-10	1726-1727	,	_	_	_	_
 23-11	1728-1733	after	_	_	_	_
 23-12	1734-1736	he	person[182]	giv[182]	ana	23-16[185_182]
@@ -549,12 +549,12 @@
 31-18	2338-2339	.	_	_	_	_
 
 #Text=When I wrote my 9/11-related poems , that was true adversity .
-32-1	2340-2344	When	event[233]	giv[233]	ana	32-8[238_233]
-32-2	2345-2346	I	event[233]|person[234]	giv[233]|giv[234]	ana	32-4[237_234]
-32-3	2347-2352	wrote	event[233]	giv[233]	_	_
-32-4	2353-2355	my	event[233]|person[237]	giv[233]|giv[237]	ana	33-1[242_237]
-32-5	2356-2368	9/11-related	event[233]	giv[233]	_	_
-32-6	2369-2374	poems	event[233]	giv[233]	_	_
+32-1	2340-2344	When	_	_	_	_
+32-2	2345-2346	I	person[234]	person[234]	ana	32-4[237_234]
+32-3	2347-2352	wrote	event[581]	giv[581]	ana	32-8[238_581]
+32-4	2353-2355	my	person[237]	person[237]	ana	33-1[242_237]
+32-5	2356-2368	9/11-related	_	_	_	_
+32-6	2369-2374	poems	_	_	_	_
 32-7	2375-2376	,	_	_	_	_
 32-8	2377-2381	that	event[238]	giv[238]	_	_
 32-9	2382-2385	was	_	_	_	_
@@ -590,7 +590,7 @@
 #Text=This was a piece that the Times only quoted one stanza , but it 's about preparation for a battle , and being prepared to either rise to the occasion , or go down :
 35-1	2503-2507	This	_	_	_	_
 35-2	2508-2511	was	_	_	_	_
-35-3	2512-2513	a	abstract[254]	new[254]	cata	35-1[251_254]
+35-3	2512-2513	a	abstract[254]	new[254]	ana	35-14[257_254]
 35-4	2514-2519	piece	abstract[254]	new[254]	_	_
 35-5	2520-2524	that	abstract[254]	new[254]	_	_
 35-6	2525-2528	the	abstract[254]	new[254]	_	_
@@ -601,7 +601,7 @@
 35-11	2551-2557	stanza	abstract[254]	new[254]	_	_
 35-12	2558-2559	,	_	_	_	_
 35-13	2560-2563	but	_	_	_	_
-35-14	2564-2566	it	_	_	_	_
+35-14	2564-2566	it	abstract[257]	giv[257]	_	_
 35-15	2567-2569	's	_	_	_	_
 35-16	2570-2575	about	_	_	_	_
 35-17	2576-2587	preparation	_	_	_	_
@@ -632,20 +632,20 @@
 36-5	2685-2687	it	_	_	_	_
 36-6	2688-2690	's	_	_	_	_
 36-7	2691-2695	like	_	_	_	_
-36-8	2696-2698	to	event[265]	new[265]	cata	36-5[262_265]
-36-9	2699-2701	be	event[265]	new[265]	_	_
-36-10	2702-2708	chased	event[265]	new[265]	_	_
-36-11	2709-2711	by	event[265]	new[265]	_	_
-36-12	2712-2715	the	event[265]	new[265]	_	_
-36-13	2716-2721	Ghost	event[265]	new[265]	_	_
-36-14	2722-2724	of	event[265]	new[265]	_	_
-36-15	2725-2732	Failure	event[265]	new[265]	_	_
-36-16	2733-2738	while	event[265]	new[265]	_	_
-36-17	2739-2746	staring	event[265]	new[265]	_	_
-36-18	2747-2754	through	event[265]	new[265]	_	_
-36-19	2755-2762	Victory	event[265]	new[265]	_	_
-36-20	2763-2765	's	event[265]	new[265]	_	_
-36-21	2766-2770	door	event[265]	new[265]	_	_
+36-8	2696-2698	to	_	_	_	_
+36-9	2699-2701	be	_	_	_	_
+36-10	2702-2708	chased	_	_	_	_
+36-11	2709-2711	by	_	_	_	_
+36-12	2712-2715	the	_	_	_	_
+36-13	2716-2721	Ghost	_	_	_	_
+36-14	2722-2724	of	_	_	_	_
+36-15	2725-2732	Failure	_	_	_	_
+36-16	2733-2738	while	_	_	_	_
+36-17	2739-2746	staring	_	_	_	_
+36-18	2747-2754	through	_	_	_	_
+36-19	2755-2762	Victory	_	_	_	_
+36-20	2763-2765	's	_	_	_	_
+36-21	2766-2770	door	_	_	_	_
 36-22	2771-2772	?	_	_	_	_
 
 #Text=Of course you do , you 're a Mets fan caught in a do-or-die moment in late September at Shea
@@ -708,12 +708,12 @@
 38-35	3016-3017	,	_	_	_	_
 
 #Text=Have no fear , no hesitation , for Winning shall be it's reward !
-39-1	3018-3022	Have	event[288]	new[288]	ana	39-12[292_288]
-39-2	3023-3025	no	event[288]	new[288]	_	_
-39-3	3026-3030	fear	event[288]	new[288]	_	_
-39-4	3031-3032	,	event[288]	new[288]	_	_
-39-5	3033-3035	no	event[288]	new[288]	_	_
-39-6	3036-3046	hesitation	event[288]	new[288]	_	_
+39-1	3018-3022	Have	event[582]	new[582]	ana	39-12[292_582]
+39-2	3023-3025	no	_	_	_	_
+39-3	3026-3030	fear	_	_	_	_
+39-4	3031-3032	,	_	_	_	_
+39-5	3033-3035	no	_	_	_	_
+39-6	3036-3046	hesitation	_	_	_	_
 39-7	3047-3048	,	_	_	_	_
 39-8	3049-3052	for	_	_	_	_
 39-9	3053-3060	Winning	_	_	_	_
@@ -768,7 +768,7 @@
 43-4	3238-3243	today	_	_	_	_
 43-5	3244-3245	;	_	_	_	_
 43-6	3246-3247	(	_	_	_	_
-43-7	3248-3252	your	organization[313]|person[314]	giv[313]|giv[314]	ana|ana	43-15[315_313]|43-17[316_314]
+43-7	3248-3252	your	organization[313]|person[314]	giv[313]|giv[314]	ana|ana	43-17[316_314]|43-15[315_313]
 43-8	3253-3257	boys	organization[313]	giv[313]	_	_
 43-9	3258-3260	in	organization[313]	giv[313]	_	_
 43-10	3261-3267	orange	organization[313]	giv[313]	_	_
@@ -919,8 +919,8 @@
 49-12	3887-3893	banner	object[385]	new[385]	_	_
 49-13	3894-3898	that	object[385]	new[385]	_	_
 49-14	3899-3903	read	object[385]	new[385]	_	_
-49-15	3904-3906	We	object[385]|abstract[386]|person[387]	new[385]|new[386]|acc[387]	ana|ana	50-1[388_386]|51-17[397_387]
-49-16	3907-3911	Know	object[385]|abstract[386]	new[385]|new[386]	_	_
+49-15	3904-3906	We	object[385]|person[387]	object[385]|person[387]	ana	51-17[397_387]
+49-16	3907-3911	Know	object[385]|abstract[583]	object[385]|abstract[583]	ana	50-1[388_583]
 49-17	3912-3913	'	_	_	_	_
 49-18	3914-3915	.	_	_	_	_
 
@@ -934,24 +934,24 @@
 
 #Text=Then earlier this year these shirts started to come out that said , " Poet says We Know " .
 51-1	3938-3942	Then	_	_	_	_
-51-2	3943-3950	earlier	event[393]	new[393]	ana	52-1[398_393]
-51-3	3951-3955	this	event[393]|time[394]	new[393]|giv[394]	coref	53-7[405_394]
-51-4	3956-3960	year	event[393]|time[394]	new[393]|giv[394]	_	_
-51-5	3961-3966	these	event[393]	new[393]	_	_
-51-6	3967-3973	shirts	event[393]	new[393]	_	_
-51-7	3974-3981	started	event[393]	new[393]	_	_
-51-8	3982-3984	to	event[393]	new[393]	_	_
-51-9	3985-3989	come	event[393]	new[393]	_	_
-51-10	3990-3993	out	event[393]	new[393]	_	_
-51-11	3994-3998	that	event[393]	new[393]	_	_
-51-12	3999-4003	said	event[393]	new[393]	_	_
-51-13	4004-4005	,	event[393]	new[393]	_	_
-51-14	4006-4007	"	event[393]	new[393]	_	_
-51-15	4008-4012	Poet	event[393]|person[396]	new[393]|giv[396]	ana	60-7[440_396]
-51-16	4013-4017	says	event[393]	new[393]	_	_
-51-17	4018-4020	We	event[393]|person[397]	new[393]|giv[397]	ana	53-1[399_397]
-51-18	4021-4025	Know	event[393]	new[393]	_	_
-51-19	4026-4027	"	event[393]	new[393]	_	_
+51-2	3943-3950	earlier	_	_	_	_
+51-3	3951-3955	this	time[394]	time[394]	coref	53-7[405_394]
+51-4	3956-3960	year	time[394]	time[394]	_	_
+51-5	3961-3966	these	_	_	_	_
+51-6	3967-3973	shirts	_	_	_	_
+51-7	3974-3981	started	event[584]	new[584]	ana	52-1[398_584]
+51-8	3982-3984	to	_	_	_	_
+51-9	3985-3989	come	_	_	_	_
+51-10	3990-3993	out	_	_	_	_
+51-11	3994-3998	that	_	_	_	_
+51-12	3999-4003	said	_	_	_	_
+51-13	4004-4005	,	_	_	_	_
+51-14	4006-4007	"	_	_	_	_
+51-15	4008-4012	Poet	person[396]	person[396]	ana	60-7[440_396]
+51-16	4013-4017	says	_	_	_	_
+51-17	4018-4020	We	person[397]	person[397]	ana	53-1[399_397]
+51-18	4021-4025	Know	_	_	_	_
+51-19	4026-4027	"	_	_	_	_
 51-20	4028-4029	.	_	_	_	_
 
 #Text=It was amazing .
@@ -1033,18 +1033,18 @@
 #Text=There was a woman , a season ticket holder and a die hard fan .
 58-1	4316-4321	There	_	_	_	_
 58-2	4322-4325	was	_	_	_	_
-58-3	4326-4327	a	person[581]	new[581]	ana	59-1[432_581]
-58-4	4328-4333	woman	person[581]	new[581]	_	_
-58-5	4334-4335	,	person[581]	new[581]	_	_
-58-6	4336-4337	a	person[581]	new[581]	_	_
-58-7	4338-4344	season	person[581]	new[581]	_	_
-58-8	4345-4351	ticket	person[581]	new[581]	_	_
-58-9	4352-4358	holder	person[581]	new[581]	_	_
-58-10	4359-4362	and	person[581]	new[581]	_	_
-58-11	4363-4364	a	person[581]	new[581]	_	_
-58-12	4365-4368	die	person[581]	new[581]	_	_
-58-13	4369-4373	hard	person[581]	new[581]	_	_
-58-14	4374-4377	fan	person[581]	new[581]	_	_
+58-3	4326-4327	a	person[428]|person[596]	new[428]|new[596]	appos|ana	58-6[429_428]|59-1[432_596]
+58-4	4328-4333	woman	person[428]|person[596]	new[428]|new[596]	_	_
+58-5	4334-4335	,	person[596]	new[596]	_	_
+58-6	4336-4337	a	person[429]|person[596]	giv[429]|new[596]	_	_
+58-7	4338-4344	season	person[429]|person[596]	giv[429]|new[596]	_	_
+58-8	4345-4351	ticket	person[429]|person[596]	giv[429]|new[596]	_	_
+58-9	4352-4358	holder	person[429]|person[596]	giv[429]|new[596]	_	_
+58-10	4359-4362	and	person[429]|person[596]	giv[429]|new[596]	_	_
+58-11	4363-4364	a	person[429]|person[596]	giv[429]|new[596]	_	_
+58-12	4365-4368	die	person[429]|person[596]	giv[429]|new[596]	_	_
+58-13	4369-4373	hard	person[429]|person[596]	giv[429]|new[596]	_	_
+58-14	4374-4377	fan	person[429]|person[596]	giv[429]|new[596]	_	_
 58-15	4378-4379	.	_	_	_	_
 
 #Text=She was staggered by the loss last year to the Cardinals .
@@ -1116,32 +1116,32 @@
 62-11	4647-4650	and	_	_	_	_
 62-12	4651-4654	she	person[464]	giv[464]	ana	63-4[470_464]
 62-13	4655-4659	gave	_	_	_	_
-62-14	4660-4662	me	person[465]	giv[465]	ana	63-11[582_465]
+62-14	4660-4662	me	person[465]	giv[465]	ana	63-11[598_465]
 62-15	4663-4664	a	_	_	_	_
 62-16	4665-4668	big	_	_	_	_
 62-17	4669-4672	hug	_	_	_	_
 62-18	4673-4674	.	_	_	_	_
 
 #Text=With tears in her eyes she said , " Thank you , Mets Poet , thank you . "
-63-1	4675-4679	With	event[469]	new[469]	ana	64-1[478_469]
-63-2	4680-4685	tears	event[469]	new[469]	_	_
-63-3	4686-4688	in	event[469]	new[469]	_	_
-63-4	4689-4692	her	event[469]|person[470]	new[469]|giv[470]	ana	63-6[471_470]
-63-5	4693-4697	eyes	event[469]	new[469]	_	_
-63-6	4698-4701	she	event[469]|person[471]	new[469]|giv[471]	_	_
-63-7	4702-4706	said	event[469]	new[469]	_	_
-63-8	4707-4708	,	event[469]	new[469]	_	_
-63-9	4709-4710	"	event[469]	new[469]	_	_
-63-10	4711-4716	Thank	event[469]	new[469]	_	_
-63-11	4717-4720	you	event[469]|person[472]|person[582]	new[469]|giv[472]|new[582]	appos|ana	63-13[476_472]|63-17[477_582]
-63-12	4721-4722	,	event[469]|person[582]	new[469]|new[582]	_	_
-63-13	4723-4727	Mets	event[469]|person[476]|person[582]	new[469]|giv[476]|new[582]	_	_
-63-14	4728-4732	Poet	event[469]|person[476]|person[582]	new[469]|giv[476]|new[582]	_	_
-63-15	4733-4734	,	event[469]	new[469]	_	_
-63-16	4735-4740	thank	event[469]	new[469]	_	_
-63-17	4741-4744	you	event[469]|person[477]	new[469]|giv[477]	ana	65-6[485_477]
-63-18	4745-4746	.	event[469]	new[469]	_	_
-63-19	4747-4748	"	event[469]	new[469]	_	_
+63-1	4675-4679	With	_	_	_	_
+63-2	4680-4685	tears	_	_	_	_
+63-3	4686-4688	in	_	_	_	_
+63-4	4689-4692	her	person[470]	person[470]	ana	63-6[471_470]
+63-5	4693-4697	eyes	_	_	_	_
+63-6	4698-4701	she	person[471]	person[471]	_	_
+63-7	4702-4706	said	event[585]	event[585]	ana	64-1[478_585]
+63-8	4707-4708	,	_	_	_	_
+63-9	4709-4710	"	_	_	_	_
+63-10	4711-4716	Thank	_	_	_	_
+63-11	4717-4720	you	person[472]|person[598]	person[472]|new[598]	appos|ana	63-13[476_472]|63-17[477_598]
+63-12	4721-4722	,	person[598]	new[598]	_	_
+63-13	4723-4727	Mets	person[476]|person[598]	person[476]|new[598]	_	_
+63-14	4728-4732	Poet	person[476]|person[598]	person[476]|new[598]	_	_
+63-15	4733-4734	,	_	_	_	_
+63-16	4735-4740	thank	_	_	_	_
+63-17	4741-4744	you	person[477]	person[477]	ana	65-6[485_477]
+63-18	4745-4746	.	_	_	_	_
+63-19	4747-4748	"	_	_	_	_
 
 #Text=It 's cool ... it 's like another family .
 64-1	4749-4751	It	event[478]	giv[478]	ana	64-5[479_478]
@@ -1163,17 +1163,17 @@
 65-5	4815-4819	make	_	_	_	_
 65-6	4820-4823	you	person[485]	acc[485]	ana	67-10[499_485]
 65-7	4824-4831	realize	_	_	_	_
-65-8	4832-4835	you	event[488]	new[488]	ana	66-1[491_488]
-65-9	4836-4840	have	event[488]	new[488]	_	_
-65-10	4841-4848	touched	event[488]	new[488]	_	_
-65-11	4849-4855	people	event[488]	new[488]	_	_
-65-12	4856-4859	who	event[488]	new[488]	_	_
-65-13	4860-4863	are	event[488]	new[488]	_	_
-65-14	4864-4867	n't	event[488]	new[488]	_	_
-65-15	4868-4876	normally	event[488]	new[488]	_	_
-65-16	4877-4884	touched	event[488]	new[488]	_	_
-65-17	4885-4887	by	event[488]	new[488]	_	_
-65-18	4888-4894	poetry	event[488]	new[488]	_	_
+65-8	4832-4835	you	_	_	_	_
+65-9	4836-4840	have	_	_	_	_
+65-10	4841-4848	touched	event[586]	event[586]	ana	66-1[491_586]
+65-11	4849-4855	people	_	_	_	_
+65-12	4856-4859	who	_	_	_	_
+65-13	4860-4863	are	_	_	_	_
+65-14	4864-4867	n't	_	_	_	_
+65-15	4868-4876	normally	_	_	_	_
+65-16	4877-4884	touched	_	_	_	_
+65-17	4885-4887	by	_	_	_	_
+65-18	4888-4894	poetry	_	_	_	_
 65-19	4895-4896	.	_	_	_	_
 
 #Text=It 's opened up a new fan base , so to speak .
@@ -1260,22 +1260,22 @@
 70-4	5206-5207	a	_	_	_	_
 70-5	5208-5214	runner	_	_	_	_
 70-6	5215-5218	and	_	_	_	_
-70-7	5219-5223	they	event[526]|person[527]	new[526]|acc[527]	ana|ana	71-1[539_526]|70-18[533_527]
-70-8	5224-5228	used	event[526]	new[526]	_	_
-70-9	5229-5231	to	event[526]	new[526]	_	_
-70-10	5232-5236	call	event[526]	new[526]	_	_
-70-11	5237-5240	him	event[526]|person[528]	new[526]|giv[528]	_	_
-70-12	5241-5244	The	event[526]|person[531]	new[526]|new[531]	appos	70-15[532_531]
-70-13	5245-5252	Birdman	event[526]|person[531]	new[526]|new[531]	_	_
-70-14	5253-5255	--	event[526]	new[526]	_	_
-70-15	5256-5262	Birdie	event[526]|person[532]	new[526]|giv[532]	_	_
-70-16	5263-5265	--	event[526]	new[526]	_	_
-70-17	5266-5269	and	event[526]	new[526]	_	_
-70-18	5270-5274	they	event[526]|person[533]	new[526]|giv[533]	_	_
-70-19	5275-5281	called	event[526]	new[526]	_	_
-70-20	5282-5284	me	event[526]|person[534]	new[526]|giv[534]	coref	70-21[538_534]
-70-21	5285-5288	The	event[526]|person[538]	new[526]|giv[538]	ana	71-8[542_538]
-70-22	5289-5293	Poet	event[526]|person[538]	new[526]|giv[538]	_	_
+70-7	5219-5223	they	person[527]	person[527]	ana	70-18[533_527]
+70-8	5224-5228	used	event[587]	event[587]	ana	71-1[539_587]
+70-9	5229-5231	to	_	_	_	_
+70-10	5232-5236	call	_	_	_	_
+70-11	5237-5240	him	person[528]	person[528]	_	_
+70-12	5241-5244	The	person[531]	person[531]	appos	70-15[532_531]
+70-13	5245-5252	Birdman	person[531]	person[531]	_	_
+70-14	5253-5255	--	_	_	_	_
+70-15	5256-5262	Birdie	person[532]	person[532]	_	_
+70-16	5263-5265	--	_	_	_	_
+70-17	5266-5269	and	_	_	_	_
+70-18	5270-5274	they	person[533]	person[533]	_	_
+70-19	5275-5281	called	_	_	_	_
+70-20	5282-5284	me	person[534]	person[534]	coref	70-21[538_534]
+70-21	5285-5288	The	person[538]	person[538]	ana	71-8[542_538]
+70-22	5289-5293	Poet	person[538]	person[538]	_	_
 70-23	5294-5295	.	_	_	_	_
 
 #Text=It was a natural thing , but I never coined myself as ' The Mets Poet . '

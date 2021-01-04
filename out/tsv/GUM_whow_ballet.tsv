@@ -80,17 +80,17 @@
 4-11	408-413	lives	_	_	_	_
 4-12	414-415	,	_	_	_	_
 4-13	416-422	making	_	_	_	_
-4-14	423-427	this	abstract[28]	giv[28]	coref	4-16[29_28]
+4-14	423-427	this	abstract[28]	giv[28]	_	_
 4-15	428-437	technique	abstract[28]	giv[28]	_	_
-4-16	438-441	the	abstract[29]	giv[29]	_	_
-4-17	442-447	basis	abstract[29]	giv[29]	_	_
-4-18	448-450	of	abstract[29]	giv[29]	_	_
-4-19	451-459	training	abstract[29]	giv[29]	_	_
-4-20	460-463	for	abstract[29]	giv[29]	_	_
-4-21	464-467	all	abstract[29]	giv[29]	_	_
-4-22	468-473	types	abstract[29]	giv[29]	_	_
-4-23	474-476	of	abstract[29]	giv[29]	_	_
-4-24	477-482	dance	abstract[29]	giv[29]	_	_
+4-16	438-441	the	_	_	_	_
+4-17	442-447	basis	_	_	_	_
+4-18	448-450	of	_	_	_	_
+4-19	451-459	training	_	_	_	_
+4-20	460-463	for	_	_	_	_
+4-21	464-467	all	_	_	_	_
+4-22	468-473	types	_	_	_	_
+4-23	474-476	of	_	_	_	_
+4-24	477-482	dance	_	_	_	_
 4-25	483-484	.	_	_	_	_
 
 #Text=While dancing ballet takes dedication and requires serious training , you can learn the basics to prepare yourself for further study .
@@ -160,7 +160,7 @@
 8-5	813-814	.	_	_	_	_
 
 #Text=Stretching is important to loosen muscles , strengthen muscles and to elongate your posture .
-9-1	815-825	Stretching	event[54]	new[54]	ana	10-5[67_54]
+9-1	815-825	Stretching	event[307]	event[307]	ana	10-5[67_307]
 9-2	826-828	is	_	_	_	_
 9-3	829-838	important	_	_	_	_
 9-4	839-841	to	_	_	_	_
@@ -181,16 +181,16 @@
 10-2	912-914	is	_	_	_	_
 10-3	915-920	vital	_	_	_	_
 10-4	921-925	that	_	_	_	_
-10-5	926-928	it	abstract[66]|event[67]	new[66]|giv[67]	cata	10-1[63_66]
-10-6	929-931	is	abstract[66]	new[66]	_	_
-10-7	932-936	done	abstract[66]	new[66]	_	_
-10-8	937-939	at	abstract[66]	new[66]	_	_
-10-9	940-943	the	abstract[66]	new[66]	_	_
-10-10	944-953	beginning	abstract[66]	new[66]	_	_
-10-11	954-956	of	abstract[66]	new[66]	_	_
-10-12	957-961	each	abstract[66]	new[66]	_	_
-10-13	962-968	ballet	abstract[66]	new[66]	_	_
-10-14	969-976	session	abstract[66]	new[66]	_	_
+10-5	926-928	it	event[67]	giv[67]	_	_
+10-6	929-931	is	_	_	_	_
+10-7	932-936	done	_	_	_	_
+10-8	937-939	at	_	_	_	_
+10-9	940-943	the	_	_	_	_
+10-10	944-953	beginning	_	_	_	_
+10-11	954-956	of	_	_	_	_
+10-12	957-961	each	_	_	_	_
+10-13	962-968	ballet	_	_	_	_
+10-14	969-976	session	_	_	_	_
 10-15	977-978	,	_	_	_	_
 10-16	979-988	including	_	_	_	_
 10-17	989-995	before	_	_	_	_
@@ -207,16 +207,16 @@
 11-6	1036-1038	it	_	_	_	_
 11-7	1039-1041	is	_	_	_	_
 11-8	1042-1051	important	_	_	_	_
-11-9	1052-1054	to	event[78]	new[78]	cata	11-6[75_78]
-11-10	1055-1062	stretch	event[78]	new[78]	_	_
-11-11	1063-1068	daily	event[78]	new[78]	_	_
-11-12	1069-1072	for	event[78]	new[78]	_	_
-11-13	1073-1075	at	event[78]	new[78]	_	_
-11-14	1076-1081	least	event[78]	new[78]	_	_
-11-15	1082-1084	15	event[78]	new[78]	_	_
-11-16	1085-1086	-	event[78]	new[78]	_	_
-11-17	1087-1089	30	event[78]	new[78]	_	_
-11-18	1090-1097	minutes	event[78]	new[78]	_	_
+11-9	1052-1054	to	_	_	_	_
+11-10	1055-1062	stretch	_	_	_	_
+11-11	1063-1068	daily	_	_	_	_
+11-12	1069-1072	for	_	_	_	_
+11-13	1073-1075	at	_	_	_	_
+11-14	1076-1081	least	_	_	_	_
+11-15	1082-1084	15	_	_	_	_
+11-16	1085-1086	-	_	_	_	_
+11-17	1087-1089	30	_	_	_	_
+11-18	1090-1097	minutes	_	_	_	_
 11-19	1098-1099	,	_	_	_	_
 11-20	1100-1102	to	_	_	_	_
 11-21	1103-1107	give	_	_	_	_
@@ -262,7 +262,7 @@
 
 #Text=Properly-fitted ballet shoes should be snug , but not so tight they cut off blood flow and create numbness in the feet .
 14-1	1283-1298	Properly-fitted	object[94]	new[94]	ana	14-12[96_94]
-14-2	1299-1305	ballet	object[94]	new[94]	_	_
+14-2	1299-1305	ballet	object[94]	object[94]	_	_
 14-3	1306-1311	shoes	object[94]	new[94]	_	_
 14-4	1312-1318	should	_	_	_	_
 14-5	1319-1321	be	_	_	_	_
@@ -297,8 +297,8 @@
 15-9	1450-1451	,	_	_	_	_
 15-10	1452-1454	so	_	_	_	_
 15-11	1455-1458	ask	_	_	_	_
-15-12	1459-1463	your	person[105]|person[106]	new[105]|giv[106]	ana|coref	15-25[115_106]|27-12[189_105]
-15-13	1464-1470	ballet	person[105]	new[105]	_	_
+15-12	1459-1463	your	person[105]|person[106]	new[105]|giv[106]	coref|ana	27-12[189_105]|15-25[115_106]
+15-13	1464-1470	ballet	person[105]	person[105]	_	_
 15-14	1471-1478	teacher	person[105]	new[105]	_	_
 15-15	1479-1481	or	_	_	_	_
 15-16	1482-1483	a	_	_	_	_
@@ -357,7 +357,7 @@
 
 #Text=If your drawstring is longer than your pinkie then you should cut it off till it is roughly the size of your fingernail .
 18-1	1728-1730	If	_	_	_	_
-18-2	1731-1735	your	object[131]|person[132]	giv[131]|giv[132]	ana|ana	18-7[135_132]|18-13[137_131]
+18-2	1731-1735	your	object[131]|person[132]	giv[131]|giv[132]	ana|ana	18-13[137_131]|18-7[135_132]
 18-3	1736-1746	drawstring	object[131]	giv[131]	_	_
 18-4	1747-1749	is	_	_	_	_
 18-5	1750-1756	longer	_	_	_	_
@@ -404,12 +404,12 @@
 
 #Text=If you ca n't buy ballet shoes , that it is okay .
 21-1	1937-1939	If	_	_	_	_
-21-2	1940-1943	you	event[152]|person[153]	new[152]|giv[153]	ana|ana	21-10[157_152]|22-11[164_153]
-21-3	1944-1946	ca	event[152]	new[152]	_	_
-21-4	1947-1950	n't	event[152]	new[152]	_	_
-21-5	1951-1954	buy	event[152]	new[152]	_	_
-21-6	1955-1961	ballet	event[152]	new[152]	_	_
-21-7	1962-1967	shoes	event[152]	new[152]	_	_
+21-2	1940-1943	you	person[153]	person[153]	ana	22-11[164_153]
+21-3	1944-1946	ca	_	_	_	_
+21-4	1947-1950	n't	_	_	_	_
+21-5	1951-1954	buy	event[308]	event[308]	ana	21-10[157_308]
+21-6	1955-1961	ballet	_	_	_	_
+21-7	1962-1967	shoes	_	_	_	_
 21-8	1968-1969	,	_	_	_	_
 21-9	1970-1974	that	_	_	_	_
 21-10	1975-1977	it	event[157]	giv[157]	_	_
@@ -616,21 +616,21 @@
 32-6	2926-2941	straightforward	_	_	_	_
 32-7	2942-2943	,	_	_	_	_
 32-8	2944-2947	but	_	_	_	_
-32-9	2948-2951	the	abstract[223]	new[223]	coref	33-2[230_223]
-32-10	2952-2960	positing	abstract[223]	new[223]	_	_
-32-11	2961-2962	,	abstract[223]	new[223]	_	_
-32-12	2963-2966	the	abstract[223]	new[223]	_	_
-32-13	2967-2973	timing	abstract[223]	new[223]	_	_
-32-14	2974-2975	,	abstract[223]	new[223]	_	_
-32-15	2976-2979	and	abstract[223]	new[223]	_	_
-32-16	2980-2983	the	abstract[223]	new[223]	_	_
-32-17	2984-2992	elegance	abstract[223]	new[223]	_	_
-32-18	2993-3001	required	abstract[223]	new[223]	_	_
-32-19	3002-3007	takes	abstract[223]	new[223]	_	_
-32-20	3008-3009	a	abstract[223]	new[223]	_	_
-32-21	3010-3018	lifetime	abstract[223]	new[223]	_	_
-32-22	3019-3021	of	abstract[223]	new[223]	_	_
-32-23	3022-3030	practice	abstract[223]	new[223]	_	_
+32-9	2948-2951	the	_	_	_	_
+32-10	2952-2960	positing	_	_	_	_
+32-11	2961-2962	,	_	_	_	_
+32-12	2963-2966	the	_	_	_	_
+32-13	2967-2973	timing	_	_	_	_
+32-14	2974-2975	,	_	_	_	_
+32-15	2976-2979	and	_	_	_	_
+32-16	2980-2983	the	_	_	_	_
+32-17	2984-2992	elegance	_	_	_	_
+32-18	2993-3001	required	_	_	_	_
+32-19	3002-3007	takes	abstract[309]	abstract[309]	coref	33-2[230_309]
+32-20	3008-3009	a	_	_	_	_
+32-21	3010-3018	lifetime	_	_	_	_
+32-22	3019-3021	of	_	_	_	_
+32-23	3022-3030	practice	_	_	_	_
 32-24	3031-3032	.	_	_	_	_
 
 #Text=For this reason , it 's always better to practice ballet in a ballet studio under the guidance of a good instructor , who will be able to correct your positioning and make sure that you 're dancing properly .
@@ -642,37 +642,37 @@
 33-6	3054-3056	's	_	_	_	_
 33-7	3057-3063	always	_	_	_	_
 33-8	3064-3070	better	_	_	_	_
-33-9	3071-3073	to	event[233]	new[233]	cata	33-5[231_233]
-33-10	3074-3082	practice	event[233]	new[233]	_	_
-33-11	3083-3089	ballet	event[233]	new[233]	_	_
-33-12	3090-3092	in	event[233]	new[233]	_	_
-33-13	3093-3094	a	event[233]	new[233]	_	_
-33-14	3095-3101	ballet	event[233]	new[233]	_	_
-33-15	3102-3108	studio	event[233]	new[233]	_	_
-33-16	3109-3114	under	event[233]	new[233]	_	_
-33-17	3115-3118	the	event[233]	new[233]	_	_
-33-18	3119-3127	guidance	event[233]	new[233]	_	_
-33-19	3128-3130	of	event[233]	new[233]	_	_
-33-20	3131-3132	a	event[233]	new[233]	_	_
-33-21	3133-3137	good	event[233]	new[233]	_	_
-33-22	3138-3148	instructor	event[233]	new[233]	_	_
-33-23	3149-3150	,	event[233]	new[233]	_	_
-33-24	3151-3154	who	event[233]	new[233]	_	_
-33-25	3155-3159	will	event[233]	new[233]	_	_
-33-26	3160-3162	be	event[233]	new[233]	_	_
-33-27	3163-3167	able	event[233]	new[233]	_	_
-33-28	3168-3170	to	event[233]	new[233]	_	_
-33-29	3171-3178	correct	event[233]	new[233]	_	_
-33-30	3179-3183	your	event[233]|abstract[241]|person[242]	new[233]|new[241]|giv[242]	ana|coref	33-36[243_242]|34-10[250_241]
-33-31	3184-3195	positioning	event[233]|abstract[241]	new[233]|new[241]	_	_
-33-32	3196-3199	and	event[233]	new[233]	_	_
-33-33	3200-3204	make	event[233]	new[233]	_	_
-33-34	3205-3209	sure	event[233]	new[233]	_	_
-33-35	3210-3214	that	event[233]	new[233]	_	_
-33-36	3215-3218	you	event[233]|person[243]	new[233]|giv[243]	ana	34-10[251_243]
-33-37	3219-3222	're	event[233]	new[233]	_	_
-33-38	3223-3230	dancing	event[233]	new[233]	_	_
-33-39	3231-3239	properly	event[233]	new[233]	_	_
+33-9	3071-3073	to	_	_	_	_
+33-10	3074-3082	practice	_	_	_	_
+33-11	3083-3089	ballet	_	_	_	_
+33-12	3090-3092	in	_	_	_	_
+33-13	3093-3094	a	_	_	_	_
+33-14	3095-3101	ballet	_	_	_	_
+33-15	3102-3108	studio	_	_	_	_
+33-16	3109-3114	under	_	_	_	_
+33-17	3115-3118	the	_	_	_	_
+33-18	3119-3127	guidance	_	_	_	_
+33-19	3128-3130	of	_	_	_	_
+33-20	3131-3132	a	_	_	_	_
+33-21	3133-3137	good	_	_	_	_
+33-22	3138-3148	instructor	_	_	_	_
+33-23	3149-3150	,	_	_	_	_
+33-24	3151-3154	who	_	_	_	_
+33-25	3155-3159	will	_	_	_	_
+33-26	3160-3162	be	_	_	_	_
+33-27	3163-3167	able	_	_	_	_
+33-28	3168-3170	to	_	_	_	_
+33-29	3171-3178	correct	_	_	_	_
+33-30	3179-3183	your	abstract[241]|person[242]	new[241]|giv[242]	coref|ana	34-10[250_241]|33-36[243_242]
+33-31	3184-3195	positioning	abstract[241]	new[241]	_	_
+33-32	3196-3199	and	_	_	_	_
+33-33	3200-3204	make	_	_	_	_
+33-34	3205-3209	sure	_	_	_	_
+33-35	3210-3214	that	_	_	_	_
+33-36	3215-3218	you	person[243]	giv[243]	ana	34-10[251_243]
+33-37	3219-3222	're	_	_	_	_
+33-38	3223-3230	dancing	_	_	_	_
+33-39	3231-3239	properly	_	_	_	_
 33-40	3240-3241	.	_	_	_	_
 
 #Text=A dancing studio is equipped with mirrors for correcting your positioning and seeing what you 're doing accurately , and a barre for practicing . [ 1 ]

@@ -4,25 +4,25 @@
 
 
 #Text=Jack Herrick , wikiHow founder interviewed by Wikinews
-1-1	0-4	Jack	event[1]|person[569]	new[1]|new[569]	coref|coref	3-1[13_569]|6-2[40_1]
-1-2	5-12	Herrick	event[1]|person[569]	new[1]|new[569]	_	_
-1-3	13-14	,	event[1]|person[569]	new[1]|new[569]	_	_
-1-4	15-22	wikiHow	event[1]|abstract[4]|person[569]	new[1]|new[4]|new[569]	coref	4-1[18_4]
-1-5	23-30	founder	event[1]|person[569]	new[1]|new[569]	_	_
-1-6	31-42	interviewed	event[1]	new[1]	_	_
-1-7	43-45	by	event[1]	new[1]	_	_
-1-8	46-54	Wikinews	event[1]|organization[5]	new[1]|new[5]	coref	5-20[34_5]
+1-1	0-4	Jack	person[2]|person[577]	person[2]|new[577]	coref|appos	3-1[13_577]|1-4[3_2]
+1-2	5-12	Herrick	person[2]|person[577]	person[2]|new[577]	_	_
+1-3	13-14	,	person[577]	new[577]	_	_
+1-4	15-22	wikiHow	person[3]|abstract[4]|person[577]	person[3]|abstract[4]|new[577]	coref	4-1[18_4]
+1-5	23-30	founder	person[3]|person[577]	person[3]|new[577]	_	_
+1-6	31-42	interviewed	event[569]	event[569]	coref	6-2[40_569]
+1-7	43-45	by	_	_	_	_
+1-8	46-54	Wikinews	organization[5]	organization[5]	coref	5-20[34_5]
 
 #Text=Saturday , January 31 , 2009
-2-1	55-63	Saturday	_	_	_	_
+2-1	55-63	Saturday	time[6]	acc[6]	appos	2-3[10_6]
 2-2	64-65	,	_	_	_	_
-2-3	66-73	January	_	_	_	_
-2-4	74-76	31	_	_	_	_
-2-5	77-78	,	_	_	_	_
-2-6	79-83	2009	_	_	_	_
+2-3	66-73	January	time[10]	giv[10]	_	_
+2-4	74-76	31	time[10]	giv[10]	_	_
+2-5	77-78	,	time[10]	giv[10]	_	_
+2-6	79-83	2009	time[10]	giv[10]	_	_
 
 #Text=Herrick at RecentChangesCamp 2008 Image : ShakataGaNai .
-3-1	84-91	Herrick	person[13]	giv[13]	_	_
+3-1	84-91	Herrick	person[13]	giv[13]	coref	5-22[581_13]
 3-2	92-94	at	person[13]	giv[13]	_	_
 3-3	95-112	RecentChangesCamp	person[13]	giv[13]	_	_
 3-4	113-117	2008	person[13]	giv[13]	_	_
@@ -71,18 +71,18 @@
 5-14	323-326	has	_	_	_	_
 5-15	327-335	achieved	_	_	_	_
 5-16	336-341	since	_	_	_	_
-5-17	342-345	its	abstract[33]	giv[33]	coref	6-8[42_33]
+5-17	342-345	its	abstract[33]	giv[33]	ana	6-8[42_33]
 5-18	346-354	creation	_	_	_	_
 5-19	355-356	,	_	_	_	_
 5-20	357-365	Wikinews	organization[34]	giv[34]	_	_
 5-21	366-377	interviewed	_	_	_	_
-5-22	378-381	the	person[37]|person[571]	giv[37]|giv[571]	appos|coref	5-27[39_37]|6-5[41_571]
-5-23	382-386	site	person[37]|person[571]	giv[37]|giv[571]	_	_
-5-24	387-389	's	person[37]|person[571]	giv[37]|giv[571]	_	_
-5-25	390-397	founder	person[37]|person[571]	giv[37]|giv[571]	_	_
-5-26	398-399	,	person[571]	giv[571]	_	_
-5-27	400-404	Jack	person[39]|person[571]	giv[39]|giv[571]	_	_
-5-28	405-412	Herrick	person[39]|person[571]	giv[39]|giv[571]	_	_
+5-22	378-381	the	person[37]|person[581]	giv[37]|giv[581]	appos|coref	5-27[39_37]|6-5[41_581]
+5-23	382-386	site	person[37]|person[581]	giv[37]|giv[581]	_	_
+5-24	387-389	's	person[37]|person[581]	giv[37]|giv[581]	_	_
+5-25	390-397	founder	person[37]|person[581]	giv[37]|giv[581]	_	_
+5-26	398-399	,	person[581]	giv[581]	_	_
+5-27	400-404	Jack	person[39]|person[581]	giv[39]|giv[581]	_	_
+5-28	405-412	Herrick	person[39]|person[581]	giv[39]|giv[581]	_	_
 5-29	413-414	.	_	_	_	_
 
 #Text=In the interview , Herrick explains what wikiHow is , why he decided to create it , how he grew it in size , and why he chose to use a Creative Commons license ( HyperLink ) for his site .
@@ -173,21 +173,21 @@
 11-3	770-771	a	_	_	_	_
 11-4	772-785	collaborative	_	_	_	_
 11-5	786-792	effort	_	_	_	_
-11-6	793-795	to	abstract[78]	new[78]	coref	58-18[413_78]
-11-7	796-801	build	abstract[78]	new[78]	_	_
-11-8	802-805	the	abstract[78]	new[78]	_	_
-11-9	806-811	world	abstract[78]	new[78]	_	_
-11-10	812-814	's	abstract[78]	new[78]	_	_
-11-11	815-822	largest	abstract[78]	new[78]	_	_
-11-12	823-824	,	abstract[78]	new[78]	_	_
-11-13	825-832	highest	abstract[78]	new[78]	_	_
-11-14	833-840	quality	abstract[78]	new[78]	_	_
-11-15	841-847	how-to	abstract[78]	new[78]	_	_
-11-16	848-854	manual	abstract[78]	new[78]	_	_
+11-6	793-795	to	_	_	_	_
+11-7	796-801	build	abstract[570]	giv[570]	coref	58-18[413_570]
+11-8	802-805	the	_	_	_	_
+11-9	806-811	world	_	_	_	_
+11-10	812-814	's	_	_	_	_
+11-11	815-822	largest	_	_	_	_
+11-12	823-824	,	_	_	_	_
+11-13	825-832	highest	_	_	_	_
+11-14	833-840	quality	_	_	_	_
+11-15	841-847	how-to	_	_	_	_
+11-16	848-854	manual	_	_	_	_
 11-17	855-856	.	_	_	_	_
 
 #Text=Our long term goal is to produce practical instructions on almost every topic in every language .
-12-1	857-860	Our	abstract[81]|organization[82]	new[81]|acc[82]	ana|coref	13-1[87_82]|13-6[89_81]
+12-1	857-860	Our	abstract[81]|organization[82]	new[81]|acc[82]	coref|ana	13-6[89_81]|13-1[87_82]
 12-2	861-865	long	abstract[81]	new[81]	_	_
 12-3	866-870	term	abstract[81]	new[81]	_	_
 12-4	871-875	goal	abstract[81]	new[81]	_	_
@@ -254,16 +254,16 @@
 15-4	1181-1183	in	_	_	_	_
 15-5	1184-1188	time	_	_	_	_
 15-6	1189-1190	,	_	_	_	_
-15-7	1191-1193	we	organization[103]	giv[103]	ana	16-4[111_103]
+15-7	1191-1193	we	organization[103]	organization[103]	ana	16-4[111_103]
 15-8	1194-1198	will	_	_	_	_
 15-9	1199-1203	have	_	_	_	_
-15-10	1204-1212	millions	abstract[105]	new[105]	ana	15-16[107_105]
-15-11	1213-1215	of	abstract[105]	new[105]	_	_
-15-12	1216-1224	articles	abstract[105]	new[105]	_	_
+15-10	1204-1212	millions	abstract[105]	abstract[105]	ana	15-16[107_105]
+15-11	1213-1215	of	abstract[105]	abstract[105]	_	_
+15-12	1216-1224	articles	abstract[105]	abstract[105]	_	_
 15-13	1225-1229	with	_	_	_	_
 15-14	1230-1234	many	_	_	_	_
 15-15	1235-1237	of	_	_	_	_
-15-16	1238-1242	them	abstract[107]	giv[107]	_	_
+15-16	1238-1242	them	abstract[107]	abstract[107]	_	_
 15-17	1243-1249	having	_	_	_	_
 15-18	1250-1258	featured	_	_	_	_
 15-19	1259-1265	status	_	_	_	_
@@ -323,7 +323,7 @@
 18-10	1516-1517	(	_	_	_	_
 18-11	1518-1524	source	abstract[128]	new[128]	coref	18-13[131_128]
 18-12	1525-1526	:	_	_	_	_
-18-13	1527-1533	Google	abstract[131]|organization[132]	giv[131]|new[132]	coref|coref	67-14[488_132]|67-14[487_131]
+18-13	1527-1533	Google	abstract[131]|organization[132]	giv[131]|new[132]	coref|coref	67-14[487_131]|67-14[488_132]
 18-14	1534-1543	Analytics	abstract[131]	giv[131]	_	_
 18-15	1544-1545	)	_	_	_	_
 18-16	1546-1547	,	_	_	_	_
@@ -450,24 +450,24 @@
 25-20	2103-2104	.	_	_	_	_
 
 #Text=We are run as a Hybrid Organization - a for-profit company focused on achieving a social good .
-26-1	2105-2107	We	abstract[179]|organization[180]	new[179]|giv[180]	ana	27-1[185_179]
-26-2	2108-2111	are	abstract[179]	new[179]	_	_
-26-3	2112-2115	run	abstract[179]	new[179]	_	_
-26-4	2116-2118	as	abstract[179]	new[179]	_	_
-26-5	2119-2120	a	abstract[179]|organization[572]	new[179]|new[572]	ana	28-1[193_572]
-26-6	2121-2127	Hybrid	abstract[179]|organization[572]	new[179]|new[572]	_	_
-26-7	2128-2140	Organization	abstract[179]|organization[572]	new[179]|new[572]	_	_
-26-8	2141-2142	-	abstract[179]|organization[572]	new[179]|new[572]	_	_
-26-9	2143-2144	a	abstract[179]|organization[572]	new[179]|new[572]	_	_
-26-10	2145-2155	for-profit	abstract[179]|organization[572]	new[179]|new[572]	_	_
-26-11	2156-2163	company	abstract[179]|organization[572]	new[179]|new[572]	_	_
-26-12	2164-2171	focused	abstract[179]|organization[572]	new[179]|new[572]	_	_
-26-13	2172-2174	on	abstract[179]|organization[572]	new[179]|new[572]	_	_
-26-14	2175-2184	achieving	abstract[179]|organization[572]	new[179]|new[572]	_	_
-26-15	2185-2186	a	abstract[179]|organization[572]	new[179]|new[572]	_	_
-26-16	2187-2193	social	abstract[179]|organization[572]	new[179]|new[572]	_	_
-26-17	2194-2198	good	abstract[179]|organization[572]	new[179]|new[572]	_	_
-26-18	2199-2200	.	abstract[179]	new[179]	_	_
+26-1	2105-2107	We	organization[180]	organization[180]	_	_
+26-2	2108-2111	are	_	_	_	_
+26-3	2112-2115	run	abstract[572]	new[572]	ana	27-1[185_572]
+26-4	2116-2118	as	_	_	_	_
+26-5	2119-2120	a	organization[182]|organization[583]	organization[182]|new[583]	ana|appos	28-1[193_583]|26-9[183_182]
+26-6	2121-2127	Hybrid	organization[182]|organization[583]	organization[182]|new[583]	_	_
+26-7	2128-2140	Organization	organization[182]|organization[583]	organization[182]|new[583]	_	_
+26-8	2141-2142	-	organization[583]	new[583]	_	_
+26-9	2143-2144	a	organization[183]|organization[583]	organization[183]|new[583]	_	_
+26-10	2145-2155	for-profit	organization[183]|organization[583]	organization[183]|new[583]	_	_
+26-11	2156-2163	company	organization[183]|organization[583]	organization[183]|new[583]	_	_
+26-12	2164-2171	focused	organization[183]|organization[583]	organization[183]|new[583]	_	_
+26-13	2172-2174	on	organization[183]|organization[583]	organization[183]|new[583]	_	_
+26-14	2175-2184	achieving	organization[183]|organization[583]	organization[183]|new[583]	_	_
+26-15	2185-2186	a	organization[183]|organization[583]	organization[183]|new[583]	_	_
+26-16	2187-2193	social	organization[183]|organization[583]	organization[183]|new[583]	_	_
+26-17	2194-2198	good	organization[183]|organization[583]	organization[183]|new[583]	_	_
+26-18	2199-2200	.	_	_	_	_
 
 #Text=This has several advantages and disadvantages when compared to the non-profit structure at the Wikimedia Foundation .
 27-1	2201-2205	This	abstract[185]	giv[185]	_	_
@@ -504,7 +504,7 @@
 28-13	2399-2400	.	_	_	_	_
 
 #Text=Our advertising revenue funds community meetups and has even allowed us to donate over $ 60,000 to charities such as the Wikimedia Foundation and Creative Commons .
-29-1	2401-2404	Our	abstract[199]|organization[200]	new[199]|giv[200]	coref|ana	31-7[215_199]|29-11[204_200]
+29-1	2401-2404	Our	abstract[199]|organization[200]	new[199]|giv[200]	ana|coref	29-11[204_200]|31-7[215_199]
 29-2	2405-2416	advertising	abstract[199]	new[199]	_	_
 29-3	2417-2424	revenue	abstract[199]	new[199]	_	_
 29-4	2425-2430	funds	_	_	_	_
@@ -778,15 +778,15 @@
 45-1	3800-3804	When	_	_	_	_
 45-2	3805-3806	I	person[294]	giv[294]	ana	49-1[330_294]
 45-3	3807-3810	ran	_	_	_	_
-45-4	3811-3815	eHow	abstract[295]	giv[295]	coref	52-6[355_295]
+45-4	3811-3815	eHow	abstract[295]	giv[295]		52-6[355_295]
 45-5	3816-3817	,	_	_	_	_
-45-6	3818-3821	the	abstract[298]|abstract[299]	new[298]|giv[299]	coref	46-1[300_298]
-45-7	3822-3829	content	abstract[298]|abstract[299]	new[298]|giv[299]	_	_
-45-8	3830-3833	was	abstract[298]	new[298]	_	_
-45-9	3834-3848	professionally	abstract[298]	new[298]	_	_
-45-10	3849-3857	produced	abstract[298]	new[298]	_	_
-45-11	3858-3861	and	abstract[298]	new[298]	_	_
-45-12	3862-3868	edited	abstract[298]	new[298]	_	_
+45-6	3818-3821	the	abstract[299]	abstract[299]	_	_
+45-7	3822-3829	content	abstract[299]	abstract[299]	_	_
+45-8	3830-3833	was	_	_	_	_
+45-9	3834-3848	professionally	_	_	_	_
+45-10	3849-3857	produced	abstract[573]	abstract[573]	coref	46-1[300_573]
+45-11	3858-3861	and	_	_	_	_
+45-12	3862-3868	edited	_	_	_	_
 45-13	3869-3870	.	_	_	_	_
 
 #Text=This business model worked for producing content on topics that appeal to advertisers in languages like English that have large advertising markets .
@@ -1025,34 +1025,34 @@
 55-23	5045-5046	"	_	_	_	_
 
 #Text=If wikiHow volunteers think our site is going in the wrong direction , they can take all the content and all the software and move the project elsewhere .
-56-1	5047-5049	If	event[384]	new[384]	ana	57-1[397_384]
-56-2	5050-5057	wikiHow	event[384]|person[385]|abstract[386]	new[384]|giv[385]|giv[386]	coref|ana	56-5[388_386]|56-14[392_385]
-56-3	5058-5068	volunteers	event[384]|person[385]	new[384]|giv[385]	_	_
-56-4	5069-5074	think	event[384]	new[384]	_	_
-56-5	5075-5078	our	event[384]|abstract[388]|organization[389]	new[384]|giv[388]|giv[389]	ana|coref	57-5[398_389]|65-1[468_388]
-56-6	5079-5083	site	event[384]|abstract[388]	new[384]|giv[388]	_	_
-56-7	5084-5086	is	event[384]	new[384]	_	_
-56-8	5087-5092	going	event[384]	new[384]	_	_
-56-9	5093-5095	in	event[384]	new[384]	_	_
-56-10	5096-5099	the	event[384]	new[384]	_	_
-56-11	5100-5105	wrong	event[384]	new[384]	_	_
-56-12	5106-5115	direction	event[384]	new[384]	_	_
-56-13	5116-5117	,	event[384]	new[384]	_	_
-56-14	5118-5122	they	event[384]|person[392]	new[384]|giv[392]	coref	58-21[414_392]
-56-15	5123-5126	can	event[384]	new[384]	_	_
-56-16	5127-5131	take	event[384]	new[384]	_	_
-56-17	5132-5135	all	event[384]|abstract[394]	new[384]|acc[394]	coref	57-19[403_394]
-56-18	5136-5139	the	event[384]|abstract[394]	new[384]|acc[394]	_	_
-56-19	5140-5147	content	event[384]|abstract[394]	new[384]|acc[394]	_	_
-56-20	5148-5151	and	event[384]	new[384]	_	_
-56-21	5152-5155	all	event[384]|abstract[395]	new[384]|new[395]	ana	57-7[401_395]
-56-22	5156-5159	the	event[384]|abstract[395]	new[384]|new[395]	_	_
-56-23	5160-5168	software	event[384]|abstract[395]	new[384]|new[395]	_	_
-56-24	5169-5172	and	event[384]	new[384]	_	_
-56-25	5173-5177	move	event[384]	new[384]	_	_
-56-26	5178-5181	the	event[384]	new[384]	_	_
-56-27	5182-5189	project	event[384]	new[384]	_	_
-56-28	5190-5199	elsewhere	event[384]	new[384]	_	_
+56-1	5047-5049	If	_	_	_	_
+56-2	5050-5057	wikiHow	person[385]|abstract[386]	person[385]|abstract[386]	ana|coref	56-14[392_385]|56-5[388_386]
+56-3	5058-5068	volunteers	person[385]	person[385]	_	_
+56-4	5069-5074	think	_	_	_	_
+56-5	5075-5078	our	abstract[388]|organization[389]	abstract[388]|organization[389]	ana|coref	57-5[398_389]|65-1[468_388]
+56-6	5079-5083	site	abstract[388]	abstract[388]	_	_
+56-7	5084-5086	is	_	_	_	_
+56-8	5087-5092	going	_	_	_	_
+56-9	5093-5095	in	_	_	_	_
+56-10	5096-5099	the	_	_	_	_
+56-11	5100-5105	wrong	_	_	_	_
+56-12	5106-5115	direction	_	_	_	_
+56-13	5116-5117	,	_	_	_	_
+56-14	5118-5122	they	person[392]	person[392]	coref	58-21[414_392]
+56-15	5123-5126	can	_	_	_	_
+56-16	5127-5131	take	event[575]	new[575]	ana	57-1[397_575]
+56-17	5132-5135	all	abstract[394]	abstract[394]	coref	57-19[403_394]
+56-18	5136-5139	the	abstract[394]	abstract[394]	_	_
+56-19	5140-5147	content	abstract[394]	abstract[394]	_	_
+56-20	5148-5151	and	_	_	_	_
+56-21	5152-5155	all	abstract[395]	abstract[395]	ana	57-7[401_395]
+56-22	5156-5159	the	abstract[395]	abstract[395]	_	_
+56-23	5160-5168	software	abstract[395]	abstract[395]	_	_
+56-24	5169-5172	and	_	_	_	_
+56-25	5173-5177	move	_	_	_	_
+56-26	5178-5181	the	_	_	_	_
+56-27	5182-5189	project	_	_	_	_
+56-28	5190-5199	elsewhere	_	_	_	_
 56-29	5200-5201	.	_	_	_	_
 
 #Text=This is possible because we release all of our software under the Open Source GPL license and release our content under a Creative Commons license .
@@ -1074,7 +1074,7 @@
 57-16	5284-5291	license	_	_	_	_
 57-17	5292-5295	and	_	_	_	_
 57-18	5296-5303	release	_	_	_	_
-57-19	5304-5307	our	abstract[403]|organization[404]	giv[403]|giv[404]	coref	58-7[573_404]
+57-19	5304-5307	our	abstract[403]|organization[404]	giv[403]|giv[404]	coref	58-7[585_404]
 57-20	5308-5315	content	abstract[403]	giv[403]	_	_
 57-21	5316-5321	under	_	_	_	_
 57-22	5322-5323	a	_	_	_	_
@@ -1090,10 +1090,10 @@
 58-4	5365-5369	fork	abstract[408]	giv[408]	_	_
 58-5	5370-5380	guarantees	_	_	_	_
 58-6	5381-5385	that	_	_	_	_
-58-7	5386-5393	wikiHow	organization[409]|organization[573]	giv[409]|giv[573]	ana|appos	58-21[415_573]|58-9[411_409]
-58-8	5394-5395	,	organization[573]	giv[573]	_	_
-58-9	5396-5399	the	organization[411]|organization[573]	giv[411]|giv[573]	_	_
-58-10	5400-5407	company	organization[411]|organization[573]	giv[411]|giv[573]	_	_
+58-7	5386-5393	wikiHow	organization[409]|organization[585]	giv[409]|giv[585]	ana|appos	58-21[415_585]|58-9[411_409]
+58-8	5394-5395	,	organization[585]	giv[585]	_	_
+58-9	5396-5399	the	organization[411]|organization[585]	giv[411]|giv[585]	_	_
+58-10	5400-5407	company	organization[411]|organization[585]	giv[411]|giv[585]	_	_
 58-11	5408-5409	,	_	_	_	_
 58-12	5410-5414	will	_	_	_	_
 58-13	5415-5421	always	_	_	_	_
@@ -1131,35 +1131,35 @@
 59-19	5572-5573	.	_	_	_	_
 
 #Text=My hope is that over time , internet users will demand this of any site where they invest their time in a way that creates value for others .
-60-1	5574-5576	My	abstract[423]|person[424]	new[423]|giv[424]	ana|ana	61-8[440_424]|61-1[438_423]
-60-2	5577-5581	hope	abstract[423]	new[423]	_	_
-60-3	5582-5584	is	abstract[423]	new[423]	_	_
-60-4	5585-5589	that	abstract[423]	new[423]	_	_
-60-5	5590-5594	over	abstract[423]	new[423]	_	_
-60-6	5595-5599	time	abstract[423]	new[423]	_	_
-60-7	5600-5601	,	abstract[423]	new[423]	_	_
-60-8	5602-5610	internet	abstract[423]|person[426]	new[423]|new[426]	ana	60-19[433_426]
-60-9	5611-5616	users	abstract[423]|person[426]	new[423]|new[426]	_	_
-60-10	5617-5621	will	abstract[423]	new[423]	_	_
-60-11	5622-5628	demand	abstract[423]	new[423]	_	_
-60-12	5629-5633	this	abstract[423]|abstract[428]	new[423]|giv[428]	_	_
-60-13	5634-5636	of	abstract[423]	new[423]	_	_
-60-14	5637-5640	any	abstract[423]	new[423]	_	_
-60-15	5641-5645	site	abstract[423]	new[423]	_	_
-60-16	5646-5651	where	abstract[423]	new[423]	_	_
-60-17	5652-5656	they	abstract[423]	new[423]	_	_
-60-18	5657-5663	invest	abstract[423]	new[423]	_	_
-60-19	5664-5669	their	abstract[423]|person[433]	new[423]|giv[433]	_	_
-60-20	5670-5674	time	abstract[423]	new[423]	_	_
-60-21	5675-5677	in	abstract[423]	new[423]	_	_
-60-22	5678-5679	a	abstract[423]	new[423]	_	_
-60-23	5680-5683	way	abstract[423]	new[423]	_	_
-60-24	5684-5688	that	abstract[423]	new[423]	_	_
-60-25	5689-5696	creates	abstract[423]	new[423]	_	_
-60-26	5697-5702	value	abstract[423]	new[423]	_	_
-60-27	5703-5706	for	abstract[423]	new[423]	_	_
-60-28	5707-5713	others	abstract[423]	new[423]	_	_
-60-29	5714-5715	.	abstract[423]	new[423]	_	_
+60-1	5574-5576	My	person[424]	person[424]	ana	61-8[440_424]
+60-2	5577-5581	hope	_	_	_	_
+60-3	5582-5584	is	abstract[576]	abstract[576]	ana	61-1[438_576]
+60-4	5585-5589	that	_	_	_	_
+60-5	5590-5594	over	_	_	_	_
+60-6	5595-5599	time	_	_	_	_
+60-7	5600-5601	,	_	_	_	_
+60-8	5602-5610	internet	person[426]	person[426]	ana	60-19[433_426]
+60-9	5611-5616	users	person[426]	person[426]	_	_
+60-10	5617-5621	will	_	_	_	_
+60-11	5622-5628	demand	_	_	_	_
+60-12	5629-5633	this	abstract[428]	abstract[428]	_	_
+60-13	5634-5636	of	_	_	_	_
+60-14	5637-5640	any	_	_	_	_
+60-15	5641-5645	site	_	_	_	_
+60-16	5646-5651	where	_	_	_	_
+60-17	5652-5656	they	_	_	_	_
+60-18	5657-5663	invest	_	_	_	_
+60-19	5664-5669	their	person[433]	person[433]	_	_
+60-20	5670-5674	time	_	_	_	_
+60-21	5675-5677	in	_	_	_	_
+60-22	5678-5679	a	_	_	_	_
+60-23	5680-5683	way	_	_	_	_
+60-24	5684-5688	that	_	_	_	_
+60-25	5689-5696	creates	_	_	_	_
+60-26	5697-5702	value	_	_	_	_
+60-27	5703-5706	for	_	_	_	_
+60-28	5707-5713	others	_	_	_	_
+60-29	5714-5715	.	_	_	_	_
 
 #Text=That said , when we started out I did n't know the difference between the GNU Free Document License and my California Driver 's license .
 61-1	5716-5720	That	abstract[438]	giv[438]	_	_

@@ -8,7 +8,7 @@
 1-2	6-13	Marbles	person[1]	new[1]	_	_
 
 #Text=Jenna Nicole Mourey ( born September 15 , 1986 [ 1 ] [ 2 ] ) , better known by her pseudonym Jenna Marbles , is an American YouTube personality , vlogger , comedian and actress .
-2-1	14-19	Jenna	person[2]	giv[2]	_	_
+2-1	14-19	Jenna	person[2]	giv[2]	ana	3-6[26_2]
 2-2	20-26	Nicole	person[2]	giv[2]	_	_
 2-3	27-33	Mourey	person[2]	giv[2]	_	_
 2-4	34-35	(	person[2]	giv[2]	_	_
@@ -28,7 +28,7 @@
 2-18	77-83	better	person[2]	giv[2]	_	_
 2-19	84-89	known	person[2]	giv[2]	_	_
 2-20	90-92	by	person[2]	giv[2]	_	_
-2-21	93-96	her	person[2]|abstract[10]	giv[2]|new[10]	coref	20-1[517_10]
+2-21	93-96	her	person[2]|abstract[10]	person[2]|abstract[10]	coref	20-1[519_10]
 2-22	97-106	pseudonym	person[2]|abstract[10]	giv[2]|new[10]	_	_
 2-23	107-112	Jenna	person[2]|abstract[10]	giv[2]|new[10]	_	_
 2-24	113-120	Marbles	person[2]|abstract[10]	giv[2]|new[10]	_	_
@@ -52,7 +52,7 @@
 3-3	199-204	March	_	_	_	_
 3-4	205-209	2019	_	_	_	_
 3-5	210-211	,	_	_	_	_
-3-6	212-215	her	abstract[25]|person[26]	new[25]|giv[26]	coref|coref	4-1[40_26]|3-32[37_25]
+3-6	212-215	her	abstract[25]|person[26]	new[25]|giv[26]	coref|coref	3-32[37_25]|4-1[40_26]
 3-7	216-223	channel	abstract[25]	new[25]	_	_
 3-8	224-227	has	_	_	_	_
 3-9	228-241	approximately	_	_	_	_
@@ -105,7 +105,7 @@
 4-12	471-477	figure	_	_	_	_
 4-13	478-487	displayed	_	_	_	_
 4-14	488-490	in	_	_	_	_
-4-15	491-497	Madame	place[48]|person[49]	new[48]|new[49]	coref|coref	29-12[326_49]|29-12[325_48]
+4-15	491-497	Madame	place[48]|person[49]	new[48]|new[49]	coref|coref	29-12[325_48]|29-12[326_49]
 4-16	498-506	Tussauds	place[48]|person[49]	new[48]|new[49]	_	_
 4-17	507-513	Museum	place[48]	new[48]	_	_
 4-18	514-515	,	place[48]	new[48]	_	_
@@ -283,7 +283,7 @@
 13-13	1313-1316	she	organization[135]|person[136]	new[135]|giv[136]	ana	14-1[141_136]
 13-14	1317-1322	wrote	organization[135]	new[135]	_	_
 13-15	1323-1326	for	organization[135]	new[135]	_	_
-13-16	1327-1332	their	organization[135]|abstract[138]	new[135]|new[138]	appos	13-19[140_138]
+13-16	1327-1332	their	organization[135]|abstract[138]	organization[135]|abstract[138]	appos	13-19[140_138]
 13-17	1333-1348	female-oriented	organization[135]|abstract[138]	new[135]|new[138]	_	_
 13-18	1349-1353	site	organization[135]|abstract[138]	new[135]|new[138]	_	_
 13-19	1354-1363	StoolLaLa	organization[135]|abstract[140]	new[135]|giv[140]	_	_
@@ -363,19 +363,19 @@
 18-1	1664-1667	Her	person[178]	giv[178]	ana	19-5[191_178]
 18-2	1668-1673	video	_	_	_	_
 18-3	1674-1675	"	_	_	_	_
-18-4	1676-1679	How	abstract[180]	giv[180]	coref	19-2[190_180]
-18-5	1680-1682	To	abstract[180]	giv[180]	_	_
-18-6	1683-1688	Avoid	abstract[180]	giv[180]	_	_
-18-7	1689-1696	Talking	abstract[180]	giv[180]	_	_
-18-8	1697-1699	To	abstract[180]	giv[180]	_	_
-18-9	1700-1706	People	abstract[180]	giv[180]	_	_
-18-10	1707-1710	You	abstract[180]|person[181]	giv[180]|giv[181]	_	_
-18-11	1711-1713	Do	abstract[180]	giv[180]	_	_
-18-12	1714-1717	n't	abstract[180]	giv[180]	_	_
-18-13	1718-1722	Want	abstract[180]	giv[180]	_	_
-18-14	1723-1725	To	abstract[180]	giv[180]	_	_
-18-15	1726-1730	Talk	abstract[180]	giv[180]	_	_
-18-16	1731-1733	To	abstract[180]	giv[180]	_	_
+18-4	1676-1679	How	_	_	_	_
+18-5	1680-1682	To	_	_	_	_
+18-6	1683-1688	Avoid	abstract[516]	abstract[516]	coref	19-2[190_516]
+18-7	1689-1696	Talking	_	_	_	_
+18-8	1697-1699	To	_	_	_	_
+18-9	1700-1706	People	_	_	_	_
+18-10	1707-1710	You	person[181]	person[181]	_	_
+18-11	1711-1713	Do	_	_	_	_
+18-12	1714-1717	n't	_	_	_	_
+18-13	1718-1722	Want	_	_	_	_
+18-14	1723-1725	To	_	_	_	_
+18-15	1726-1730	Talk	_	_	_	_
+18-16	1731-1733	To	_	_	_	_
 18-17	1734-1735	"	_	_	_	_
 18-18	1736-1739	was	_	_	_	_
 18-19	1740-1748	featured	_	_	_	_
@@ -462,15 +462,15 @@
 19-65	2088-2089	]	_	_	_	_
 
 #Text=The pseudonym " Jenna Marbles " comes from her mother 's complaint that " Mourey " , their legal surname , pulled up only Jenna 's videos on Google .
-20-1	2090-2093	The	abstract[221]|abstract[517]	giv[221]|giv[517]	coref|appos	22-1[519_517]|20-4[222_221]
-20-2	2094-2103	pseudonym	abstract[221]|abstract[517]	giv[221]|giv[517]	_	_
-20-3	2104-2105	"	abstract[517]	giv[517]	_	_
-20-4	2106-2111	Jenna	abstract[222]|abstract[517]	giv[222]|giv[517]	_	_
-20-5	2112-2119	Marbles	abstract[222]|abstract[517]	giv[222]|giv[517]	_	_
-20-6	2120-2121	"	_	_	_	_
+20-1	2090-2093	The	abstract[221]|abstract[519]	giv[221]|giv[519]	coref|appos	22-1[523_519]|20-4[222_221]
+20-2	2094-2103	pseudonym	abstract[221]|abstract[519]	giv[221]|giv[519]	_	_
+20-3	2104-2105	"	abstract[519]	giv[519]	_	_
+20-4	2106-2111	Jenna	abstract[222]|abstract[519]	giv[222]|giv[519]	_	_
+20-5	2112-2119	Marbles	abstract[222]|abstract[519]	giv[222]|giv[519]	_	_
+20-6	2120-2121	"	abstract[519]	giv[519]	_	_
 20-7	2122-2127	comes	_	_	_	_
 20-8	2128-2132	from	_	_	_	_
-20-9	2133-2136	her	person[225]	giv[225]	coref	21-1[237_225]
+20-9	2133-2136	her	person[225]	giv[225]	coref	22-8[251_225]
 20-10	2137-2143	mother	_	_	_	_
 20-11	2144-2146	's	_	_	_	_
 20-12	2147-2156	complaint	_	_	_	_
@@ -494,8 +494,8 @@
 20-30	2238-2239	.	_	_	_	_
 
 #Text=Jenna 's mother was unemployed at the time that Jenna 's first video went viral , and was concerned that their content might put off potential employers . [ 7 ]
-21-1	2240-2245	Jenna	person[236]|person[237]	giv[236]|giv[237]	ana|coref	22-8[251_237]|31-30[357_236]
-21-2	2246-2248	's	person[236]|person[237]	giv[236]|giv[237]	_	_
+21-1	2240-2245	Jenna	person[236]	giv[236]	coref	31-30[357_236]
+21-2	2246-2248	's	person[236]	giv[236]	_	_
 21-3	2249-2255	mother	person[236]	giv[236]	_	_
 21-4	2256-2259	was	_	_	_	_
 21-5	2260-2270	unemployed	_	_	_	_
@@ -527,19 +527,19 @@
 21-31	2399-2400	]	_	_	_	_
 
 #Text=The name " Marbles " comes from her dog " Mr. Marbles " .
-22-1	2401-2404	The	abstract[247]|abstract[519]	giv[247]|giv[519]	appos	22-4[248_247]
-22-2	2405-2409	name	abstract[247]|abstract[519]	giv[247]|giv[519]	_	_
-22-3	2410-2411	"	abstract[519]	giv[519]	_	_
-22-4	2412-2419	Marbles	abstract[248]|abstract[519]	giv[248]|giv[519]	_	_
-22-5	2420-2421	"	_	_	_	_
+22-1	2401-2404	The	abstract[247]|abstract[523]	giv[247]|giv[523]	appos	22-4[248_247]
+22-2	2405-2409	name	abstract[247]|abstract[523]	giv[247]|giv[523]	_	_
+22-3	2410-2411	"	abstract[523]	giv[523]	_	_
+22-4	2412-2419	Marbles	abstract[248]|abstract[523]	giv[248]|giv[523]	_	_
+22-5	2420-2421	"	abstract[523]	giv[523]	_	_
 22-6	2422-2427	comes	_	_	_	_
 22-7	2428-2432	from	_	_	_	_
-22-8	2433-2436	her	animal[250]|person[251]|animal[520]	new[250]|giv[251]|new[520]	coref|appos|coref	24-1[265_251]|22-11[253_250]|36-12[409_520]
-22-9	2437-2440	dog	animal[250]|animal[520]	new[250]|new[520]	_	_
-22-10	2441-2442	"	animal[520]	new[520]	_	_
-22-11	2443-2446	Mr.	animal[253]|animal[520]	giv[253]|new[520]	_	_
-22-12	2447-2454	Marbles	animal[253]|animal[520]	giv[253]|new[520]	_	_
-22-13	2455-2456	"	_	_	_	_
+22-8	2433-2436	her	animal[250]|person[251]|animal[525]	new[250]|giv[251]|new[525]	coref|appos|ana	36-12[409_525]|22-11[253_250]|24-1[265_251]
+22-9	2437-2440	dog	animal[250]|animal[525]	new[250]|new[525]	_	_
+22-10	2441-2442	"	animal[525]	new[525]	_	_
+22-11	2443-2446	Mr.	animal[253]|animal[525]	giv[253]|new[525]	_	_
+22-12	2447-2454	Marbles	animal[253]|animal[525]	giv[253]|new[525]	_	_
+22-13	2455-2456	"	animal[525]	new[525]	_	_
 22-14	2457-2458	.	_	_	_	_
 
 #Text=As of January 2019 , Marbles 's YouTube channel had about 19 million subscribers and 2.9 billion video views . [ 15 ] [ 16 ]
@@ -672,12 +672,12 @@
 29-4	2990-2997	Marbles	person[316]	giv[316]	ana	29-10[322_316]
 29-5	2998-3006	unveiled	_	_	_	_
 29-6	3007-3008	a	object[320]	giv[320]	coref	30-17[336_320]
-29-7	3009-3012	wax	object[320]	giv[320]	_	_
+29-7	3009-3012	wax	object[320]	object[320]	_	_
 29-8	3013-3019	figure	object[320]	giv[320]	_	_
 29-9	3020-3022	of	object[320]	giv[320]	_	_
 29-10	3023-3030	herself	object[320]|person[322]	giv[320]|giv[322]	ana	30-1[328_322]
 29-11	3031-3033	at	_	_	_	_
-29-12	3034-3040	Madame	place[325]|person[326]	giv[325]|giv[326]	coref|coref	30-12[333_325]|30-12[334_326]
+29-12	3034-3040	Madame	place[325]|person[326]	giv[325]|giv[326]	coref|coref	30-12[334_326]|30-12[333_325]
 29-13	3041-3049	Tussauds	place[325]|person[326]	giv[325]|giv[326]	_	_
 29-14	3050-3053	New	place[325]|place[327]	giv[325]|giv[327]	coref	30-14[335_327]
 29-15	3054-3058	York	place[325]|place[327]	giv[325]|giv[327]	_	_
@@ -766,12 +766,12 @@
 32-4	3463-3469	weekly	abstract[365]	new[365]	_	_
 32-5	3470-3477	podcast	abstract[365]	new[365]	_	_
 32-6	3478-3482	with	abstract[365]	new[365]	_	_
-32-7	3483-3486	her	abstract[365]|person[366]|person[367]|person[523]	new[365]|new[366]|giv[367]|new[523]	appos|coref|coref	32-9[369_366]|32-15[372_523]|32-14[371_367]
-32-8	3487-3496	boyfriend	abstract[365]|person[366]|person[523]	new[365]|new[366]|new[523]	_	_
-32-9	3497-3503	Julien	abstract[365]|person[369]|person[523]	new[365]|giv[369]|new[523]	_	_
-32-10	3504-3512	Solomita	abstract[365]|person[369]|person[523]	new[365]|giv[369]|new[523]	_	_
+32-7	3483-3486	her	abstract[365]|person[366]|person[367]|person[531]	new[365]|new[366]|giv[367]|new[531]	coref|appos|coref	32-15[372_531]|32-9[369_366]|32-14[371_367]
+32-8	3487-3496	boyfriend	abstract[365]|person[366]|person[531]	new[365]|new[366]|new[531]	_	_
+32-9	3497-3503	Julien	abstract[365]|person[369]|person[531]	new[365]|giv[369]|new[531]	_	_
+32-10	3504-3512	Solomita	abstract[365]|person[369]|person[531]	new[365]|giv[369]|new[531]	_	_
 32-11	3513-3519	called	abstract[365]	new[365]	_	_
-32-12	3520-3521	"	abstract[365]|person[523]	new[365]|new[523]	_	_
+32-12	3520-3521	"	abstract[365]	new[365]	_	_
 32-13	3522-3525	The	abstract[365]	new[365]	_	_
 32-14	3526-3531	Jenna	abstract[365]|person[371]	new[365]|giv[371]	coref	32-23[377_371]
 32-15	3532-3538	Julien	abstract[365]|person[372]	new[365]|giv[372]	coref	32-25[378_372]
@@ -919,17 +919,17 @@
 40-1	4159-4161	In	_	_	_	_
 40-2	4162-4166	2016	_	_	_	_
 40-3	4167-4168	,	_	_	_	_
-40-4	4169-4176	Marbles	person[438]	giv[438]	_	_
+40-4	4169-4176	Marbles	person[438]	giv[438]	coref	40-6[444_438]
 40-5	4177-4183	became	_	_	_	_
 40-6	4184-4186	an	person[444]	giv[444]	coref	42-4[455_444]
 40-7	4187-4196	executive	person[444]	giv[444]	_	_
 40-8	4197-4205	producer	person[444]	giv[444]	_	_
 40-9	4206-4209	for	person[444]	giv[444]	_	_
-40-10	4210-4217	Maximum	person[444]	giv[444]	_	_
-40-11	4218-4222	Ride	person[444]	giv[444]	_	_
+40-10	4210-4217	Maximum	person[444]|abstract[445]	giv[444]|new[445]	appos	40-13[446_445]
+40-11	4218-4222	Ride	person[444]|abstract[445]	giv[444]|new[445]	_	_
 40-12	4223-4224	,	person[444]	giv[444]	_	_
-40-13	4225-4226	a	person[444]	giv[444]	_	_
-40-14	4227-4231	film	person[444]	giv[444]	_	_
+40-13	4225-4226	a	person[444]|abstract[446]	giv[444]|giv[446]	_	_
+40-14	4227-4231	film	person[444]|abstract[446]	giv[444]|giv[446]	_	_
 40-15	4232-4237	based	person[444]	giv[444]	_	_
 40-16	4238-4240	on	person[444]	giv[444]	_	_
 40-17	4241-4244	the	person[444]	giv[444]	_	_
@@ -956,7 +956,7 @@
 42-1	4321-4323	In	_	_	_	_
 42-2	4324-4328	2015	_	_	_	_
 42-3	4329-4330	,	_	_	_	_
-42-4	4331-4338	Marbles	person[455]	giv[455]	_	_
+42-4	4331-4338	Marbles	person[455]	giv[455]	coref	42-6[458_455]
 42-5	4339-4345	became	_	_	_	_
 42-6	4346-4347	a	person[458]	giv[458]	coref	43-1[461_458]
 42-7	4348-4357	full-time	person[458]	giv[458]	_	_

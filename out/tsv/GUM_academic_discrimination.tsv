@@ -371,7 +371,7 @@
 16-8	2012-2019	reasons	_	_	_	_
 16-9	2020-2023	for	_	_	_	_
 16-10	2024-2032	reported	abstract[137]	acc[137]	coref	19-11[155_137]
-16-11	2033-2047	discrimination	abstract[137]	acc[137]	_	_
+16-11	2033-2047	discrimination	abstract[137]	abstract[137]	_	_
 16-12	2048-2059	experiences	abstract[137]	acc[137]	_	_
 16-13	2060-2061	.	_	_	_	_
 
@@ -386,7 +386,7 @@
 18-2	2094-2105	respondents	person[143]	new[143]	_	_
 18-3	2106-2109	who	person[143]	new[143]	_	_
 18-4	2110-2119	indicated	person[143]	new[143]	_	_
-18-5	2120-2124	they	person[143]	new[143]	_	_
+18-5	2120-2124	they	person[143]	person[143]	_	_
 18-6	2125-2129	were	person[143]	new[143]	_	_
 18-7	2130-2143	discriminated	person[143]	new[143]	_	_
 18-8	2144-2151	against	person[143]	new[143]	_	_
@@ -403,7 +403,7 @@
 18-19	2213-2215	to	person[146]	giv[146]	_	_
 18-20	2216-2219	the	person[146]	giv[146]	_	_
 18-21	2220-2229	perceived	person[146]	giv[146]	_	_
-18-22	2230-2244	discrimination	person[146]	giv[146]	_	_
+18-22	2230-2244	discrimination	person[146]	person[146]	_	_
 18-23	2245-2252	measure	person[146]	giv[146]	_	_
 18-24	2253-2262	described	person[146]	giv[146]	_	_
 18-25	2263-2268	above	person[146]	giv[146]	_	_
@@ -417,18 +417,18 @@
 
 #Text=“ What do you think was the main reason for these experiences ? ”
 19-1	2307-2308	“	_	_	_	_
-19-2	2309-2313	What	abstract[151]	giv[151]	coref	32-4[203_151]
-19-3	2314-2316	do	abstract[151]	giv[151]	_	_
-19-4	2317-2320	you	abstract[151]|person[152]	giv[151]|giv[152]	_	_
-19-5	2321-2326	think	abstract[151]	giv[151]	_	_
-19-6	2327-2330	was	abstract[151]	giv[151]	_	_
-19-7	2331-2334	the	abstract[151]	giv[151]	_	_
-19-8	2335-2339	main	abstract[151]	giv[151]	_	_
-19-9	2340-2346	reason	abstract[151]	giv[151]	_	_
-19-10	2347-2350	for	abstract[151]	giv[151]	_	_
-19-11	2351-2356	these	abstract[151]|abstract[155]	giv[151]|giv[155]	_	_
-19-12	2357-2368	experiences	abstract[151]|abstract[155]	giv[151]|giv[155]	_	_
-19-13	2369-2370	?	abstract[151]	giv[151]	_	_
+19-2	2309-2313	What	_	_	_	_
+19-3	2314-2316	do	_	_	_	_
+19-4	2317-2320	you	person[152]	person[152]	_	_
+19-5	2321-2326	think	abstract[431]	giv[431]	coref	32-4[203_431]
+19-6	2327-2330	was	_	_	_	_
+19-7	2331-2334	the	_	_	_	_
+19-8	2335-2339	main	_	_	_	_
+19-9	2340-2346	reason	_	_	_	_
+19-10	2347-2350	for	_	_	_	_
+19-11	2351-2356	these	abstract[155]	abstract[155]	_	_
+19-12	2357-2368	experiences	abstract[155]	abstract[155]	_	_
+19-13	2369-2370	?	_	_	_	_
 19-14	2371-2372	”	_	_	_	_
 
 #Text=Respondents were allowed to choose one response from 11 categories .
@@ -739,7 +739,7 @@
 38-24	3896-3904	category	_	_	_	_
 38-25	3905-3909	best	_	_	_	_
 38-26	3910-3919	described	_	_	_	_
-38-27	3920-3925	their	person[271]	giv[271]	coref	43-13[294_271]
+38-27	3920-3925	their	person[271]	giv[271]		43-13[294_271]
 38-28	3926-3932	racial	_	_	_	_
 38-29	3933-3943	background	_	_	_	_
 38-30	3944-3945	.	_	_	_	_
@@ -934,14 +934,14 @@
 49-6	4895-4904	bivariate	_	_	_	_
 49-7	4905-4917	associations	_	_	_	_
 49-8	4918-4919	,	_	_	_	_
-49-9	4920-4923	the	abstract[431]	new[431]	ana	49-20[332_431]
-49-10	4924-4932	adjusted	abstract[431]	new[431]	_	_
-49-11	4933-4934	F	abstract[431]	new[431]	_	_
-49-12	4935-4944	statistic	abstract[431]	new[431]	_	_
-49-13	4945-4946	(	abstract[431]	new[431]	_	_
-49-14	4947-4959	design-based	abstract[431]	new[431]	_	_
-49-15	4960-4961	F	abstract[431]	new[431]	_	_
-49-16	4962-4963	)	_	_	_	_
+49-9	4920-4923	the	abstract[330]|abstract[435]	new[330]|new[435]	appos|ana	49-14[331_330]|49-20[332_435]
+49-10	4924-4932	adjusted	abstract[330]|abstract[435]	new[330]|new[435]	_	_
+49-11	4933-4934	F	abstract[330]|abstract[435]	new[330]|new[435]	_	_
+49-12	4935-4944	statistic	abstract[330]|abstract[435]	new[330]|new[435]	_	_
+49-13	4945-4946	(	abstract[435]	new[435]	_	_
+49-14	4947-4959	design-based	abstract[331]|abstract[435]	giv[331]|new[435]	_	_
+49-15	4960-4961	F	abstract[331]|abstract[435]	giv[331]|new[435]	_	_
+49-16	4962-4963	)	abstract[435]	new[435]	_	_
 49-17	4964-4967	was	_	_	_	_
 49-18	4968-4976	employed	_	_	_	_
 49-19	4977-4979	as	_	_	_	_
@@ -970,18 +970,18 @@
 50-2	5070-5082	specifically	_	_	_	_
 50-3	5083-5084	,	_	_	_	_
 50-4	5085-5089	when	_	_	_	_
-50-5	5090-5099	analyzing	event[341]	new[341]	coref	52-1[379_341]
-50-6	5100-5108	weighted	event[341]|abstract[342]	new[341]|new[342]	coref	51-33[378_342]
-50-7	5109-5115	sample	event[341]|abstract[342]	new[341]|new[342]	_	_
-50-8	5116-5120	data	event[341]|abstract[342]	new[341]|new[342]	_	_
-50-9	5121-5130	employing	event[341]	new[341]	_	_
-50-10	5131-5134	the	event[341]	new[341]	_	_
-50-11	5135-5138	svy	event[341]	new[341]	_	_
-50-12	5139-5144	suite	event[341]	new[341]	_	_
-50-13	5145-5147	of	event[341]	new[341]	_	_
-50-14	5148-5156	commands	event[341]	new[341]	_	_
-50-15	5157-5159	in	event[341]	new[341]	_	_
-50-16	5160-5165	Stata	event[341]	new[341]	_	_
+50-5	5090-5099	analyzing	event[432]	new[432]	coref	52-1[379_432]
+50-6	5100-5108	weighted	abstract[342]	abstract[342]	coref	51-33[378_342]
+50-7	5109-5115	sample	abstract[342]	abstract[342]	_	_
+50-8	5116-5120	data	abstract[342]	abstract[342]	_	_
+50-9	5121-5130	employing	_	_	_	_
+50-10	5131-5134	the	_	_	_	_
+50-11	5135-5138	svy	_	_	_	_
+50-12	5139-5144	suite	_	_	_	_
+50-13	5145-5147	of	_	_	_	_
+50-14	5148-5156	commands	_	_	_	_
+50-15	5157-5159	in	_	_	_	_
+50-16	5160-5165	Stata	_	_	_	_
 50-17	5166-5169	the	abstract[350]	new[350]	coref	51-17[373_350]
 50-18	5170-5182	conventional	abstract[350]	new[350]	_	_
 50-19	5183-5190	Pearson	abstract[350]	new[350]	_	_

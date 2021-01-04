@@ -88,12 +88,12 @@
 6-20	414-417	and	_	_	_	_
 6-21	418-420	it	_	_	_	_
 6-22	421-426	seems	_	_	_	_
-6-23	427-431	that	abstract[36]	new[36]	cata	6-21[34_36]
-6-24	432-434	it	abstract[36]|abstract[37]	new[36]|giv[37]	_	_
-6-25	435-437	is	abstract[36]	new[36]	_	_
-6-26	438-439	a	abstract[36]	new[36]	_	_
-6-27	440-445	daily	abstract[36]	new[36]	_	_
-6-28	446-455	necessity	abstract[36]	new[36]	_	_
+6-23	427-431	that	_	_	_	_
+6-24	432-434	it	abstract[37]	giv[37]	_	_
+6-25	435-437	is	_	_	_	_
+6-26	438-439	a	_	_	_	_
+6-27	440-445	daily	_	_	_	_
+6-28	446-455	necessity	_	_	_	_
 6-29	456-457	.	_	_	_	_
 
 #Text=Lighting takes a large part on the consumption of household electrical energy particularly in the Philippines .
@@ -147,12 +147,12 @@
 9-10	721-724	the	place[56]	giv[56]	coref	14-8[98_56]
 9-11	725-734	household	place[56]	giv[56]	_	_
 9-12	735-737	is	_	_	_	_
-9-13	738-741	the	_	_	_	_
-9-14	742-749	Compact	_	_	_	_
-9-15	750-761	Fluorescent	_	_	_	_
-9-16	762-767	Light	_	_	_	_
+9-13	738-741	the	object[57]	giv[57]	appos	9-18[58_57]
+9-14	742-749	Compact	object[57]	giv[57]	_	_
+9-15	750-761	Fluorescent	object[57]	giv[57]	_	_
+9-16	762-767	Light	object[57]	giv[57]	_	_
 9-17	768-769	(	_	_	_	_
-9-18	770-773	CFL	_	_	_	_
+9-18	770-773	CFL	object[58]	giv[58]	_	_
 9-19	774-775	)	_	_	_	_
 9-20	776-777	.	_	_	_	_
 
@@ -406,7 +406,7 @@
 20-40	2033-2038	major	abstract[155]	giv[155]	_	_
 20-41	2039-2045	source	abstract[155]	giv[155]	_	_
 20-42	2046-2048	of	abstract[155]	giv[155]	_	_
-20-43	2049-2060	electricity	abstract[155]	giv[155]	_	_
+20-43	2049-2060	electricity	abstract[155]	abstract[155]	_	_
 20-44	2061-2072	consumption	abstract[155]	giv[155]	_	_
 20-45	2073-2074	.	_	_	_	_
 
@@ -502,39 +502,39 @@
 #Text=There are three general types of lighting that are widely used in the household nowadays : the ( light-emitting diode ) LED bulb , ( compact fluorescent light ) CFL bulb and the incandescent bulb .
 26-1	2523-2528	There	_	_	_	_
 26-2	2529-2532	are	_	_	_	_
-26-3	2533-2538	three	object[195]|object[374]	new[195]|new[374]	appos|ana	26-17[199_195]|27-4[210_374]
-26-4	2539-2546	general	object[195]|object[374]	new[195]|new[374]	_	_
-26-5	2547-2552	types	object[195]|object[374]	new[195]|new[374]	_	_
-26-6	2553-2555	of	object[195]|object[374]	new[195]|new[374]	_	_
-26-7	2556-2564	lighting	object[195]|object[374]	new[195]|new[374]	_	_
-26-8	2565-2569	that	object[195]|object[374]	new[195]|new[374]	_	_
-26-9	2570-2573	are	object[195]|object[374]	new[195]|new[374]	_	_
-26-10	2574-2580	widely	object[195]|object[374]	new[195]|new[374]	_	_
-26-11	2581-2585	used	object[195]|object[374]	new[195]|new[374]	_	_
-26-12	2586-2588	in	object[195]|object[374]	new[195]|new[374]	_	_
-26-13	2589-2592	the	object[195]|place[198]|object[374]	new[195]|giv[198]|new[374]	coref	29-11[240_198]
-26-14	2593-2602	household	object[195]|place[198]|object[374]	new[195]|giv[198]|new[374]	_	_
-26-15	2603-2611	nowadays	object[195]|object[374]	new[195]|new[374]	_	_
-26-16	2612-2613	:	object[374]	new[374]	_	_
-26-17	2614-2617	the	object[199]|object[374]	giv[199]|new[374]	_	_
-26-18	2618-2619	(	object[199]|object[374]	giv[199]|new[374]	_	_
-26-19	2620-2634	light-emitting	object[199]|object[374]	giv[199]|new[374]	_	_
-26-20	2635-2640	diode	object[199]|object[374]	giv[199]|new[374]	_	_
-26-21	2641-2642	)	object[199]|object[374]	giv[199]|new[374]	_	_
-26-22	2643-2646	LED	object[199]|object[374]	giv[199]|new[374]	_	_
-26-23	2647-2651	bulb	object[199]|object[374]	giv[199]|new[374]	_	_
-26-24	2652-2653	,	object[199]|object[374]	giv[199]|new[374]	_	_
-26-25	2654-2655	(	object[199]|object[204]|object[374]	giv[199]|giv[204]|new[374]	coref	35-12[284_204]
-26-26	2656-2663	compact	object[199]|object[204]|object[374]	giv[199]|giv[204]|new[374]	_	_
-26-27	2664-2675	fluorescent	object[199]|object[204]|object[374]	giv[199]|giv[204]|new[374]	_	_
-26-28	2676-2681	light	object[199]|object[204]|object[374]	giv[199]|giv[204]|new[374]	_	_
-26-29	2682-2683	)	object[199]|object[204]|object[374]	giv[199]|giv[204]|new[374]	_	_
-26-30	2684-2687	CFL	object[199]|object[204]|object[374]	giv[199]|giv[204]|new[374]	_	_
-26-31	2688-2692	bulb	object[199]|object[204]|object[374]	giv[199]|giv[204]|new[374]	_	_
-26-32	2693-2696	and	object[199]|object[374]	giv[199]|new[374]	_	_
-26-33	2697-2700	the	object[199]|object[374]	giv[199]|new[374]	_	_
-26-34	2701-2713	incandescent	object[199]|object[374]	giv[199]|new[374]	_	_
-26-35	2714-2718	bulb	object[199]|object[374]	giv[199]|new[374]	_	_
+26-3	2533-2538	three	object[195]|object[379]	new[195]|new[379]	ana|appos	27-4[210_379]|26-17[199_195]
+26-4	2539-2546	general	object[195]|object[379]	new[195]|new[379]	_	_
+26-5	2547-2552	types	object[195]|object[379]	new[195]|new[379]	_	_
+26-6	2553-2555	of	object[195]|object[379]	new[195]|new[379]	_	_
+26-7	2556-2564	lighting	object[195]|object[379]	new[195]|new[379]	_	_
+26-8	2565-2569	that	object[195]|object[379]	new[195]|new[379]	_	_
+26-9	2570-2573	are	object[195]|object[379]	new[195]|new[379]	_	_
+26-10	2574-2580	widely	object[195]|object[379]	new[195]|new[379]	_	_
+26-11	2581-2585	used	object[195]|object[379]	new[195]|new[379]	_	_
+26-12	2586-2588	in	object[195]|object[379]	new[195]|new[379]	_	_
+26-13	2589-2592	the	object[195]|place[198]|object[379]	new[195]|giv[198]|new[379]	coref	29-11[240_198]
+26-14	2593-2602	household	object[195]|place[198]|object[379]	new[195]|giv[198]|new[379]	_	_
+26-15	2603-2611	nowadays	object[195]|object[379]	new[195]|new[379]	_	_
+26-16	2612-2613	:	object[379]	new[379]	_	_
+26-17	2614-2617	the	object[199]|object[379]	giv[199]|new[379]	_	_
+26-18	2618-2619	(	object[199]|object[379]	giv[199]|new[379]	_	_
+26-19	2620-2634	light-emitting	object[199]|object[379]	object[199]|new[379]	_	_
+26-20	2635-2640	diode	object[199]|object[379]	object[199]|new[379]	_	_
+26-21	2641-2642	)	object[199]|object[379]	object[199]|object[379]	_	_
+26-22	2643-2646	LED	object[199]|object[379]	object[199]|new[379]	_	_
+26-23	2647-2651	bulb	object[199]|object[379]	giv[199]|new[379]	_	_
+26-24	2652-2653	,	object[199]|object[379]	giv[199]|new[379]	_	_
+26-25	2654-2655	(	object[199]|object[204]|object[379]	giv[199]|giv[204]|new[379]	coref	35-12[284_204]
+26-26	2656-2663	compact	object[199]|object[204]|object[379]	object[199]|object[204]|new[379]	_	_
+26-27	2664-2675	fluorescent	object[199]|object[204]|object[379]	object[199]|object[204]|new[379]	_	_
+26-28	2676-2681	light	object[199]|object[204]|object[379]	object[199]|object[204]|new[379]	_	_
+26-29	2682-2683	)	object[199]|object[204]|object[379]	object[199]|object[204]|object[379]	_	_
+26-30	2684-2687	CFL	object[199]|object[204]|object[379]	object[199]|object[204]|new[379]	_	_
+26-31	2688-2692	bulb	object[199]|object[204]|object[379]	giv[199]|giv[204]|new[379]	_	_
+26-32	2693-2696	and	object[199]|object[379]	giv[199]|new[379]	_	_
+26-33	2697-2700	the	object[199]|object[379]	giv[199]|new[379]	_	_
+26-34	2701-2713	incandescent	object[199]|object[379]	giv[199]|new[379]	_	_
+26-35	2714-2718	bulb	object[199]|object[379]	giv[199]|new[379]	_	_
 26-36	2719-2720	.	_	_	_	_
 
 #Text=But each of them has their perks and perils [ 3 ] .
@@ -566,18 +566,18 @@
 28-11	2822-2833	residential	abstract[218]	giv[218]	_	_
 28-12	2834-2837	end	_	_	_	_
 28-13	2838-2840	up	_	_	_	_
-28-14	2841-2849	choosing	event[219]	new[219]	ana	28-27[225_219]
-28-15	2850-2851	a	event[219]|object[220]	new[219]|new[220]	ana	28-19[222_220]
-28-16	2852-2856	lamp	event[219]|object[220]	new[219]|new[220]	_	_
-28-17	2857-2862	based	event[219]	new[219]	_	_
-28-18	2863-2865	on	event[219]	new[219]	_	_
-28-19	2866-2868	it	event[219]|object[222]	new[219]|giv[222]	ana	28-24[224_222]
-28-20	2869-2871	is	event[219]|object[222]	new[219]|giv[222]	_	_
-28-21	2872-2877	price	event[219]	new[219]	_	_
-28-22	2878-2884	rather	event[219]	new[219]	_	_
-28-23	2885-2889	than	event[219]	new[219]	_	_
-28-24	2890-2893	its	event[219]|abstract[223]|object[224]	new[219]|new[223]|giv[224]	coref	38-16[316_223]
-28-25	2894-2904	efficiency	event[219]|abstract[223]	new[219]|new[223]	_	_
+28-14	2841-2849	choosing	event[371]	event[371]	ana	28-27[225_371]
+28-15	2850-2851	a	object[220]	object[220]	ana	28-19[222_220]
+28-16	2852-2856	lamp	object[220]	object[220]	_	_
+28-17	2857-2862	based	_	_	_	_
+28-18	2863-2865	on	_	_	_	_
+28-19	2866-2868	it	object[222]	object[222]	ana	28-24[224_222]
+28-20	2869-2871	is	object[222]	object[222]	_	_
+28-21	2872-2877	price	_	_	_	_
+28-22	2878-2884	rather	_	_	_	_
+28-23	2885-2889	than	_	_	_	_
+28-24	2890-2893	its	abstract[223]|object[224]	abstract[223]|object[224]	coref	38-16[316_223]
+28-25	2894-2904	efficiency	abstract[223]	abstract[223]	_	_
 28-26	2905-2908	and	_	_	_	_
 28-27	2909-2913	this	event[225]	giv[225]	coref	38-4[313_225]
 28-28	2914-2919	cause	_	_	_	_
@@ -608,8 +608,8 @@
 29-13	3034-3035	.	_	_	_	_
 
 #Text=Using CFLs will allow people to decrease their energy consumption ; also it is a good start to decrease greenhouse emissions .
-30-1	3036-3041	Using	event[241]	new[241]	ana	30-13[248_241]
-30-2	3042-3046	CFLs	event[241]	new[241]	_	_
+30-1	3036-3041	Using	event[372]	event[372]	ana	30-13[248_372]
+30-2	3042-3046	CFLs	_	_	_	_
 30-3	3047-3051	will	_	_	_	_
 30-4	3052-3057	allow	_	_	_	_
 30-5	3058-3064	people	person[243]	new[243]	ana	30-8[247_243]
@@ -747,9 +747,9 @@
 36-18	3708-3718	considered	_	_	_	_
 36-19	3719-3723	will	_	_	_	_
 36-20	3724-3726	be	_	_	_	_
-36-21	3727-3735	erythema	_	_	_	_
+36-21	3727-3735	erythema	abstract[294]	new[294]	appos	36-23[295_294]
 36-22	3736-3737	(	_	_	_	_
-36-23	3738-3745	sunburn	_	_	_	_
+36-23	3738-3745	sunburn	abstract[295]	giv[295]	_	_
 36-24	3746-3747	)	_	_	_	_
 36-25	3748-3751	and	_	_	_	_
 36-26	3752-3759	vitamin	_	_	_	_
@@ -758,10 +758,10 @@
 36-29	3773-3774	.	_	_	_	_
 
 #Text=Skin aging and skin cancer will be discussed as those reactions produced by prolonged or repeated UVR exposure [ 4 ] .
-37-1	3775-3779	Skin	abstract[300]	new[300]	coref	37-10[307_300]
+37-1	3775-3779	Skin	abstract[300]	abstract[300]	coref	37-10[307_300]
 37-2	3780-3785	aging	abstract[300]	new[300]	_	_
 37-3	3786-3789	and	abstract[300]	new[300]	_	_
-37-4	3790-3794	skin	abstract[300]	new[300]	_	_
+37-4	3790-3794	skin	abstract[300]	abstract[300]	_	_
 37-5	3795-3801	cancer	abstract[300]	new[300]	_	_
 37-6	3802-3806	will	_	_	_	_
 37-7	3807-3809	be	_	_	_	_
@@ -774,7 +774,7 @@
 37-14	3851-3860	prolonged	abstract[307]	giv[307]	_	_
 37-15	3861-3863	or	abstract[307]	giv[307]	_	_
 37-16	3864-3872	repeated	abstract[307]	giv[307]	_	_
-37-17	3873-3876	UVR	abstract[307]	giv[307]	_	_
+37-17	3873-3876	UVR	abstract[307]	abstract[307]	_	_
 37-18	3877-3885	exposure	abstract[307]	giv[307]	_	_
 37-19	3886-3887	[	_	_	_	_
 37-20	3888-3889	4	_	_	_	_

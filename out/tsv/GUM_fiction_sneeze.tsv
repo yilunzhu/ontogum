@@ -52,35 +52,35 @@
 4-1	181-182	“	_	_	_	_
 4-2	183-184	I	person[16]	giv[16]	ana	4-4[20_16]
 4-3	185-190	think	_	_	_	_
-4-4	191-192	I	event[19]|person[20]	new[19]|giv[20]	ana|ana	4-11[24_20]|8-2[37_19]
-4-5	193-196	’ve	event[19]	new[19]	_	_
-4-6	197-200	got	event[19]	new[19]	_	_
-4-7	201-202	a	event[19]|person[22]	new[19]|new[22]	ana	12-4[52_22]
-4-8	203-208	fairy	event[19]|person[22]	new[19]|new[22]	_	_
-4-9	209-214	stuck	event[19]	new[19]	_	_
-4-10	215-217	up	event[19]	new[19]	_	_
-4-11	218-220	my	event[19]|object[23]|person[24]	new[19]|new[23]|giv[24]	coref|ana	5-12[28_23]|7-6[36_24]
-4-12	221-225	nose	event[19]|object[23]	new[19]|new[23]	_	_
+4-4	191-192	I	person[20]	person[20]	ana	4-11[24_20]
+4-5	193-196	’ve	_	_	_	_
+4-6	197-200	got	event[441]	new[441]	ana	8-2[37_441]
+4-7	201-202	a	person[22]	person[22]	ana	12-4[52_22]
+4-8	203-208	fairy	person[22]	person[22]	_	_
+4-9	209-214	stuck	_	_	_	_
+4-10	215-217	up	_	_	_	_
+4-11	218-220	my	object[23]|person[24]	object[23]|person[24]	ana|coref	7-6[36_24]|5-12[28_23]
+4-12	221-225	nose	object[23]	object[23]	_	_
 4-13	226-227	.	_	_	_	_
 4-14	228-229	”	_	_	_	_
 
 #Text=“ S’ not true ! ” came a voice from inside the nose in question .
-5-1	230-231	“	event[26]	new[26]	ana	6-6[29_26]
-5-2	232-234	S’	event[26]	new[26]	_	_
-5-3	235-238	not	event[26]	new[26]	_	_
-5-4	239-243	true	event[26]	new[26]	_	_
-5-5	244-245	!	event[26]	new[26]	_	_
-5-6	246-247	”	event[26]	new[26]	_	_
-5-7	248-252	came	event[26]	new[26]	_	_
-5-8	253-254	a	event[26]|abstract[27]	new[26]|acc[27]	coref	11-8[50_27]
-5-9	255-260	voice	event[26]|abstract[27]	new[26]|acc[27]	_	_
-5-10	261-265	from	event[26]	new[26]	_	_
-5-11	266-272	inside	event[26]	new[26]	_	_
-5-12	273-276	the	event[26]|object[28]	new[26]|giv[28]	coref	37-13[178_28]
-5-13	277-281	nose	event[26]|object[28]	new[26]|giv[28]	_	_
-5-14	282-284	in	event[26]|object[28]	new[26]|giv[28]	_	_
-5-15	285-293	question	event[26]|object[28]	new[26]|giv[28]	_	_
-5-16	294-295	.	event[26]	new[26]	_	_
+5-1	230-231	“	_	_	_	_
+5-2	232-234	S’	_	_	_	_
+5-3	235-238	not	_	_	_	_
+5-4	239-243	true	_	_	_	_
+5-5	244-245	!	_	_	_	_
+5-6	246-247	”	_	_	_	_
+5-7	248-252	came	event[442]	new[442]	ana	6-6[29_442]
+5-8	253-254	a	abstract[27]	abstract[27]	coref	11-8[50_27]
+5-9	255-260	voice	abstract[27]	abstract[27]	_	_
+5-10	261-265	from	_	_	_	_
+5-11	266-272	inside	_	_	_	_
+5-12	273-276	the	object[28]	object[28]	coref	37-13[178_28]
+5-13	277-281	nose	object[28]	object[28]	_	_
+5-14	282-284	in	object[28]	object[28]	_	_
+5-15	285-293	question	object[28]	object[28]	_	_
+5-16	294-295	.	_	_	_	_
 
 #Text=“ Hey ! Not bad that ! ” Pete said .
 6-1	296-297	“	_	_	_	_
@@ -101,7 +101,7 @@
 7-3	337-340	did	_	_	_	_
 7-4	341-344	n’t	_	_	_	_
 7-5	345-348	see	_	_	_	_
-7-6	349-353	your	object[35]|person[36]	new[35]|giv[36]	coref|ana	21-7[93_35]|10-1[43_36]
+7-6	349-353	your	object[35]|person[36]	new[35]|giv[36]	ana|coref	10-1[43_36]|21-7[93_35]
 7-7	354-358	lips	object[35]	new[35]	_	_
 7-8	359-363	move	_	_	_	_
 7-9	364-366	at	_	_	_	_
@@ -128,13 +128,13 @@
 9-6	428-429	.	_	_	_	_
 
 #Text=I pulled out a paper tissue .
-10-1	430-431	I	event[42]|person[43]	new[42]|giv[43]	ana|ana	11-3[47_42]|12-2[51_43]
-10-2	432-438	pulled	event[42]	new[42]	_	_
-10-3	439-442	out	event[42]	new[42]	_	_
-10-4	443-444	a	event[42]|object[45]	new[42]|new[45]	coref	16-3[70_45]
-10-5	445-450	paper	event[42]|object[45]	new[42]|new[45]	_	_
-10-6	451-457	tissue	event[42]|object[45]	new[42]|new[45]	_	_
-10-7	458-459	.	event[42]	new[42]	_	_
+10-1	430-431	I	person[43]	person[43]	ana	12-2[51_43]
+10-2	432-438	pulled	event[443]	new[443]	ana	11-3[47_443]
+10-3	439-442	out	_	_	_	_
+10-4	443-444	a	object[45]	object[45]	coref	16-3[70_45]
+10-5	445-450	paper	object[45]	object[45]	_	_
+10-6	451-457	tissue	object[45]	object[45]	_	_
+10-7	458-459	.	_	_	_	_
 
 #Text=“ Stop that now ! ” came the voice again .
 11-1	460-461	“	_	_	_	_
@@ -231,7 +231,7 @@
 19-7	771-776	gross	_	_	_	_
 19-8	777-778	…	_	_	_	_
 19-9	779-780	”	_	_	_	_
-19-10	781-783	he	person[83]	giv[83]	coref	24-1[106_83]
+19-10	781-783	he	person[83]	giv[83]	ana	24-1[106_83]
 19-11	784-788	said	_	_	_	_
 19-12	789-790	.	_	_	_	_
 
@@ -466,7 +466,7 @@
 37-10	1560-1563	the	abstract[177]	giv[177]	coref	42-13[199_177]
 37-11	1564-1569	voice	abstract[177]	giv[177]	_	_
 37-12	1570-1574	from	_	_	_	_
-37-13	1575-1577	my	object[178]|person[179]	giv[178]|giv[179]	coref|ana	44-8[209_178]|40-6[188_179]
+37-13	1575-1577	my	object[178]|person[179]	giv[178]|giv[179]	ana|coref	40-6[188_179]|44-8[209_178]
 37-14	1578-1583	noise	object[178]	giv[178]	_	_
 37-15	1584-1585	.	_	_	_	_
 
@@ -552,7 +552,7 @@
 44-5	1830-1837	violent	_	_	_	_
 44-6	1838-1842	pain	_	_	_	_
 44-7	1843-1845	in	_	_	_	_
-44-8	1846-1848	my	object[209]|person[210]	giv[209]|giv[210]	coref|ana	57-3[272_209]|44-11[213_210]
+44-8	1846-1848	my	object[209]|person[210]	giv[209]|giv[210]	ana|coref	44-11[213_210]|57-3[272_209]
 44-9	1849-1853	nose	object[209]	giv[209]	_	_
 44-10	1854-1855	,	_	_	_	_
 44-11	1856-1858	my	person[213]	giv[213]	ana	45-5[214_213]
@@ -611,11 +611,11 @@
 48-4	2036-2037	,	_	_	_	_
 48-5	2038-2040	it	person[234]	giv[234]	ana	50-2[243_234]
 48-6	2041-2046	could	_	_	_	_
-48-7	2047-2051	tell	event[238]	new[238]	ana	50-6[244_238]
-48-8	2052-2054	us	event[238]|person[239]	new[238]|giv[239]	ana	65-4[303_239]
-48-9	2055-2058	all	event[238]|abstract[241]	new[238]|acc[241]	coref	53-7[256_241]
-48-10	2059-2062	the	event[238]|abstract[241]	new[238]|acc[241]	_	_
-48-11	2063-2070	answers	event[238]|abstract[241]	new[238]|acc[241]	_	_
+48-7	2047-2051	tell	event[444]	event[444]	ana	50-6[244_444]
+48-8	2052-2054	us	person[239]	person[239]	ana	65-4[303_239]
+48-9	2055-2058	all	abstract[241]	abstract[241]	coref	53-7[256_241]
+48-10	2059-2062	the	abstract[241]	abstract[241]	_	_
+48-11	2063-2070	answers	abstract[241]	abstract[241]	_	_
 48-12	2071-2072	.	_	_	_	_
 48-13	2073-2074	”	_	_	_	_
 
@@ -663,12 +663,12 @@
 #Text=“ Perhaps I do n’t know the answers anyway ? ” said the voice .
 53-1	2201-2202	“	_	_	_	_
 53-2	2203-2210	Perhaps	_	_	_	_
-53-3	2211-2212	I	abstract[253]|person[254]	new[253]|giv[254]	ana|ana	55-8[261_254]|54-6[259_253]
-53-4	2213-2215	do	abstract[253]	new[253]	_	_
-53-5	2216-2219	n’t	abstract[253]	new[253]	_	_
-53-6	2220-2224	know	abstract[253]	new[253]	_	_
-53-7	2225-2228	the	abstract[253]|abstract[256]	new[253]|giv[256]	_	_
-53-8	2229-2236	answers	abstract[253]|abstract[256]	new[253]|giv[256]	_	_
+53-3	2211-2212	I	person[254]	person[254]	ana	55-8[261_254]
+53-4	2213-2215	do	_	_	_	_
+53-5	2216-2219	n’t	_	_	_	_
+53-6	2220-2224	know	abstract[445]	new[445]	ana	54-6[259_445]
+53-7	2225-2228	the	abstract[256]	abstract[256]	_	_
+53-8	2229-2236	answers	abstract[256]	abstract[256]	_	_
 53-9	2237-2243	anyway	_	_	_	_
 53-10	2244-2245	?	_	_	_	_
 53-11	2246-2247	”	_	_	_	_
@@ -739,21 +739,21 @@
 #Text=“ S’pose you ’ve already tried your finger … ”
 60-1	2427-2428	“	_	_	_	_
 60-2	2429-2435	S’pose	_	_	_	_
-60-3	2436-2439	you	event[279]|person[280]	new[279]|giv[280]	ana|ana	62-3[289_279]|60-7[283_280]
-60-4	2440-2443	’ve	event[279]	new[279]	_	_
-60-5	2444-2451	already	event[279]	new[279]	_	_
-60-6	2452-2457	tried	event[279]	new[279]	_	_
-60-7	2458-2462	your	event[279]|person[283]	new[279]|giv[283]	ana	61-3[286_283]
-60-8	2463-2469	finger	event[279]	new[279]	_	_
+60-3	2436-2439	you	person[280]	person[280]	ana	60-7[283_280]
+60-4	2440-2443	’ve	_	_	_	_
+60-5	2444-2451	already	_	_	_	_
+60-6	2452-2457	tried	event[446]	new[446]	ana	62-3[289_446]
+60-7	2458-2462	your	person[283]	person[283]	ana	61-3[286_283]
+60-8	2463-2469	finger	_	_	_	_
 60-9	2470-2471	…	_	_	_	_
 60-10	2472-2473	”	_	_	_	_
 
 #Text=“ Yes he has , ” the voice said .
 61-1	2474-2475	“	_	_	_	_
-61-2	2476-2479	Yes	abstract[285]	new[285]	ana	64-8[302_285]
-61-3	2480-2482	he	abstract[285]|person[286]	new[285]|giv[286]	ana	65-8[309_286]
-61-4	2483-2486	has	abstract[285]	new[285]	_	_
-61-5	2487-2488	,	abstract[285]	new[285]	_	_
+61-2	2476-2479	Yes	_	_	_	_
+61-3	2480-2482	he	person[286]	person[286]	ana	65-8[309_286]
+61-4	2483-2486	has	abstract[447]	abstract[447]	ana	64-8[302_447]
+61-5	2487-2488	,	_	_	_	_
 61-6	2489-2490	”	_	_	_	_
 61-7	2491-2494	the	abstract[288]	giv[288]	coref	75-11[354_288]
 61-8	2495-2500	voice	abstract[288]	giv[288]	_	_
@@ -804,7 +804,7 @@
 65-5	2647-2650	put	_	_	_	_
 65-6	2651-2660	something	_	_	_	_
 65-7	2661-2663	in	_	_	_	_
-65-8	2664-2668	your	object[308]|person[309]	giv[308]|giv[309]	coref|ana	76-9[361_308]|76-2[356_309]
+65-8	2664-2668	your	object[308]|person[309]	giv[308]|giv[309]	ana|coref	76-2[356_309]|76-9[361_308]
 65-9	2669-2673	nose	object[308]	giv[308]	_	_
 65-10	2674-2676	to	_	_	_	_
 65-11	2677-2682	catch	_	_	_	_
@@ -879,7 +879,7 @@
 70-1	2891-2892	“	_	_	_	_
 70-2	2893-2897	That	_	_	_	_
 70-3	2898-2900	’s	_	_	_	_
-70-4	2901-2903	it	abstract[333]	new[333]	cata	70-2[332_333]
+70-4	2901-2903	it	_	_	_	_
 70-5	2904-2905	!	_	_	_	_
 
 #Text=Three wishes !
@@ -888,16 +888,16 @@
 71-3	2919-2920	!	_	_	_	_
 
 #Text=When you catch a fairy , you get three wishes .
-72-1	2921-2925	When	event[338]	new[338]	ana	74-2[346_338]
-72-2	2926-2929	you	event[338]|person[339]	new[338]|giv[339]	ana	72-7[342_339]
-72-3	2930-2935	catch	event[338]	new[338]	_	_
-72-4	2936-2937	a	event[338]	new[338]	_	_
-72-5	2938-2943	fairy	event[338]	new[338]	_	_
-72-6	2944-2945	,	event[338]	new[338]	_	_
-72-7	2946-2949	you	event[338]|person[342]	new[338]|giv[342]	_	_
-72-8	2950-2953	get	event[338]	new[338]	_	_
-72-9	2954-2959	three	event[338]	new[338]	_	_
-72-10	2960-2966	wishes	event[338]	new[338]	_	_
+72-1	2921-2925	When	_	_	_	_
+72-2	2926-2929	you	person[339]	person[339]	ana	72-7[342_339]
+72-3	2930-2935	catch	_	_	_	_
+72-4	2936-2937	a	_	_	_	_
+72-5	2938-2943	fairy	_	_	_	_
+72-6	2944-2945	,	_	_	_	_
+72-7	2946-2949	you	person[342]	person[342]	_	_
+72-8	2950-2953	get	event[448]	event[448]	ana	74-2[346_448]
+72-9	2954-2959	three	_	_	_	_
+72-10	2960-2966	wishes	_	_	_	_
 72-11	2967-2968	.	_	_	_	_
 
 #Text=Hey you in there !
