@@ -20,9 +20,4 @@ To straightforwardly view a coref document, copy & paste the tsv file to [Spanno
 1. Go to `utils` and run `./dcoref.sh`
 
 ## Results
-
-### Results on dcoref on the dev set over eight genres
-![image text](https://github.com/yilunzhu/coref_dataset_convert/blob/master/utils/pic/res_dcoref.png)
-
-### Results on SpanBert on the dev set across genres
-![image text](https://github.com/yilunzhu/coref_dataset_convert/blob/master/utils/pic/res_spanbert.png)
+![image text](https://github.com/yilunzhu/coref_dataset_convert/blob/master/utils/pic/res.png)

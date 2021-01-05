@@ -21,7 +21,7 @@ def main(depDir, corefDir, out_dir, out_format):
         filename = f.split('.')[0]
 
         # test
-        # if filename != 'GUM_interview_chomsky':
+        # if filename != 'GUM_academic_exposure':
         #     continue
         print(f'{filename}')
         articles.append(filename)

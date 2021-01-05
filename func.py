@@ -300,7 +300,7 @@ class Convert(object):
         for k1, v in loop_doc.items():
             k1_sent_id = v.text_id.split('-')[0]
             for k2, next_v in loop_doc.items():
-                if k1 == '389' and k2 == '71':
+                if k1 == '238' and k2 == '239':
                     a = 1
                 if v.delete or next_v.delete:
                     continue
@@ -332,11 +332,13 @@ class Convert(object):
                     self.doc[new_k1].coref = next_v.coref
                     self.doc[new_k1].next = next_v.next
                     self.doc[new_k1].coref_type = next_v.coref_type
-                    self.doc[new_k1].func += ' ' + next_v.func
-                    self.doc[new_k1].pos += ' ' + next_v.pos
-                    self.doc[new_k1].tok += ' ' + next_v.tok
                     self.doc[new_k1].e_type = v.e_type
                     self.doc[new_k1].new_e = True
+
+                    if prev_last <= next_last:
+                        self.doc[new_k1].func += ' ' + next_v.func
+                        self.doc[new_k1].pos += ' ' + next_v.pos
+                        self.doc[new_k1].tok += ' ' + next_v.tok
 
                     self.last_e += 1
 
@@ -362,7 +364,7 @@ class Convert(object):
 
                     a = 1
                     # check the token right after the appositive, if it is in '|)|", etc., expand the larger span
-                    if next_last <= len(self.doc[k1].sent) - 1:
+                    if next_last <= len(self.doc[k1].sent) - 1 and prev_last <= next_last:
                         next_tok = self.doc[k1].sent[next_last][1]
                         next_tok_id = self.doc[k1].sent[next_last][0]
                         # print(next_tok)

@@ -341,7 +341,7 @@ def process_doc(dep_doc, coref_doc):
             # match dep_text_id to the format in coref tsv
             dep_text_id = f'{dep_sent_id}-{dep_line[0]}'
             cur_dep_sent = dep_sents[dep_sent_id]
-            if dep_text_id == '1-7':
+            if dep_text_id == '18-9':
                 a = 1
 
             # TODO: 将ide替换为doc.keys()，避免18-26 "these techniques"没有任何dep的信息
