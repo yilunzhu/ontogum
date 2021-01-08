@@ -53,7 +53,19 @@ def read_conll_file(file):
     return conll_out
 
 
-def build_conll(conll, tsv, file_fields, doc_id):
+def read_dep_file(file):
+    dic = {}
+    filename = file.split('/')[-1].split('.')[0]
+    with io.open(file, encoding="utf8") as f:
+        sents = f.read().split('\n\n')
+        for sent in sents[:-1]:
+            sent_id = re.search(f'# sent_id = {filename}-([0-9]+?)\n', sent).group(1)
+            speaker = re.search('# speaker = ([0-9]+?)\n', sent).group(1) if re.search('# speaker = ([0-9]+?)\n', sent) else '-'
+            dic[sent_id] = speaker
+    return dic
+
+
+def build_conll(conll, tsv, dep, file_fields, doc_id):
     genre = file_fields[1]
     doc = file_fields[2]
     in_text = [f"#begin document ({genre}/{doc}); part 000"]
@@ -63,13 +75,13 @@ def build_conll(conll, tsv, file_fields, doc_id):
         conll_fields = conll[i].split("\t")
         tsv_fields = tsv[i].split("\t")
         doc_key = f"{genre}/{doc}"
-        # sent_id = int(tsv_fields[0].split("-")[0]) - 1
+        sent_id = int(tsv_fields[0].split("-")[0]) - 1
         token_id = int(tsv_fields[0].split("-")[1]) - 1
         if token_id == 0 and i != 0:
             in_text.append("")
         token = conll_fields[1]
         coref = conll_fields[-1]
-        fields = [doc_key, str(doc_id), str(token_id), token, "_", "_", "_", "_", "_", "_", "*", "*", "*", "*", "*",
+        fields = [doc_key, str(doc_id), str(token_id), token, "-", "-", "-", "-", "-", f"{dep[str(sent_id+1)]}", "*", "*", "*", "*", "*",
                   "*", coref]
         in_text.append("\t".join(fields))
 
@@ -84,7 +96,7 @@ def write_file(filename, lst):
         f.write(text)
 
 
-def main(coref_path, gum_file_lists=None):
+def main(coref_path, dep_path, gum_file_lists=None):
     train_list = []
     dev_list = []
     test_list = []
@@ -112,15 +124,16 @@ def main(coref_path, gum_file_lists=None):
                 file_fields = filename.split(".")[0].split("_")
                 conll_file = coref_path + os.sep + "conll" + os.sep + filename
                 tsv_file = coref_path + os.sep + "tsv" + os.sep + filename.split(".")[0] + ".tsv"
+                dep_file = dep_path + os.sep + filename.split(".")[0] + ".conllu"
                 # tsv_file = coref_path + os.sep + "tsv" + os.sep + filename.split(".")[0] + ".tsv"
 
                 if filename.split(".")[0] in train_list:
-                    train += build_conll(read_conll_file(conll_file), read_tsv_file(tsv_file), file_fields, 0)
+                    train += build_conll(read_conll_file(conll_file), read_tsv_file(tsv_file), read_dep_file(dep_file), file_fields, 0)
                 elif filename.split(".")[0] in dev_list:
-                    dev += build_conll(read_conll_file(conll_file), read_tsv_file(tsv_file), file_fields, 0)
-                    corpus_by_genre[genre] += build_conll(read_conll_file(conll_file), read_tsv_file(tsv_file), file_fields, 0)
+                    dev += build_conll(read_conll_file(conll_file), read_tsv_file(tsv_file), read_dep_file(dep_file), file_fields, 0)
+                    corpus_by_genre[genre] += build_conll(read_conll_file(conll_file), read_tsv_file(tsv_file), read_dep_file(dep_file), file_fields, 0)
                 elif filename.split(".")[0] in test_list:
-                    test += build_conll(read_conll_file(conll_file), read_tsv_file(tsv_file), file_fields, 0)
+                    test += build_conll(read_conll_file(conll_file), read_tsv_file(tsv_file), read_dep_file(dep_file), file_fields, 0)
                 else:
                     sys.stderr.write(f"ERROR: file {filename} not in list.\n")
                     # sys.exit()
@@ -139,5 +152,6 @@ def main(coref_path, gum_file_lists=None):
 
 if __name__ == "__main__":
     gum_coref_path = ".."+os.sep+"out"
+    gum_dep_path = ".."+os.sep+"gum"+os.sep+"dep"
     gum_file_lists = "splits"
-    main(gum_coref_path, gum_file_lists=gum_file_lists)
+    main(gum_coref_path, gum_dep_path, gum_file_lists=gum_file_lists)
