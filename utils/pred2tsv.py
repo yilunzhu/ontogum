@@ -97,20 +97,26 @@ TODO: merge subtokens
 
 text = '#FORMAT=WebAnno TSV 3.2\n#T_SP=webanno.custom.Referent|entity|infstat\n#T_RL=webanno.custom.Coref|type|BT_webanno.custom.Referent\n'
 for sent in tsv:
-    sent_out = ''
+    sent_out = []
 
-    for line in sent:
+    tok_num = 1
+    for i, line in enumerate(sent):
         # remove [CLS]
         if line[2] == '[CLS]':
             continue
         # remove [SEP]
         if line[2] == '[SEP]':
             continue
-        line_text = '\t'.join(line)
-        sent_out += line_text + '\n'
+        if line[2].startswith('##'):
+            cur_subtok = line[2].replace('#', '')
+            sent_out[-1][2] += cur_subtok
+            continue
+        # line_text = '\t'.join(line)
+        line[0] = line[0].split('-')[0] + '-' + str(tok_num)
+        tok_num += 1
+        sent_out.append(line)
 
-    text += sent_out + '\n'
-    sent_out = ''
+    text += '\n'.join(['\t'.join(x) for x in sent_out]) + '\n'
 
 with io.open('../dataset/preds/tsv'+os.sep+f_name+'.tsv', 'w', encoding='utf-8') as f:
     f.write(text)

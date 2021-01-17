@@ -1,6 +1,7 @@
 import io, os, sys
 import re
 from copy import deepcopy
+from argparse import ArgumentParser
 
 
 def to_text(lst):
@@ -60,7 +61,7 @@ def read_dep_file(file):
         sents = f.read().split('\n\n')
         for sent in sents[:-1]:
             sent_id = re.search(f'# sent_id = {filename}-([0-9]+?)\n', sent).group(1)
-            speaker = re.search('# speaker = ([0-9]+?)\n', sent).group(1) if re.search('# speaker = ([0-9]+?)\n', sent) else '-'
+            speaker = re.search('# speaker=([\w\W]+?)\n', sent).group(1) if re.search('# speaker=([\w\W]+?)\n', sent) else '-'
             dic[sent_id] = speaker
     return dic
 
@@ -96,13 +97,14 @@ def write_file(filename, lst):
         f.write(text)
 
 
-def main(coref_path, dep_path, gum_file_lists=None):
+def main(if_genre, coref_path, dep_path, gum_file_lists=None):
     train_list = []
     dev_list = []
     test_list = []
     train = []
     dev = []
     test = []
+    docs = {}
 
     for filename in os.listdir(gum_file_lists):
         file_path = gum_file_lists + os.sep + filename
@@ -116,42 +118,60 @@ def main(coref_path, dep_path, gum_file_lists=None):
     genres = ["academic", "bio", "fiction", "interview", "news", "voyage", "whow", "reddit"]
     corpus_by_genre = {g:[] for g in genres}
 
-    for genre in genres:
-        for filename in os.listdir(coref_path + os.sep + "conll"):
-            if genre in filename:
-                # if filename != 'GUM_news_homeopathic.conll':
-                #     continue
-                file_fields = filename.split(".")[0].split("_")
-                conll_file = coref_path + os.sep + "conll" + os.sep + filename
-                tsv_file = coref_path + os.sep + "tsv" + os.sep + filename.split(".")[0] + ".tsv"
+    for filename in os.listdir(coref_path + os.sep + "conll"):
+        file_fields = filename.split(".")[0].split("_")
+        conll_file = coref_path + os.sep + "conll" + os.sep + filename
+        tsv_file = coref_path + os.sep + "tsv" + os.sep + filename.split(".")[0] + ".tsv"
+        dep_file = dep_path + os.sep + filename.split(".")[0] + ".conllu"
+        # tsv_file = coref_path + os.sep + "tsv" + os.sep + filename.split(".")[0] + ".tsv"
+        docs[filename] = build_conll(read_conll_file(conll_file), read_tsv_file(tsv_file), read_dep_file(dep_file), file_fields, 0)
+
+    if if_genre:
+        for genre in genres:
+            for filename in docs.keys():
+                if genre in filename:
+                    if filename.split(".")[0] in train_list:
+                        train += docs[filename]
+                    elif filename.split(".")[0] in dev_list:
+                        dev += docs[filename]
+                        corpus_by_genre[genre] += docs[filename]
+                    elif filename.split(".")[0] in test_list:
+                        test += docs[filename]
+
+        for genre, text in corpus_by_genre.items():
+            write_file("../dataset" + os.sep + f"dev_{genre}.gum.english.v4_gold_conll", text)
+
+            write_file("../dataset" + os.sep + "train.gum.english.v4_gold_conll", train)
+            write_file("../dataset" + os.sep + "dev.gum.english.v4_gold_conll", dev)
+            write_file("../dataset" + os.sep + "test.gum.english.v4_gold_conll", test)
+
+    else:
+        out_dir = '../dataset/text'
+        if not os.path.exists(out_dir):
+            os.mkdir(out_dir)
+        for filename, doc in docs.items():
+            if filename.split(".")[0] in test_list:
                 dep_file = dep_path + os.sep + filename.split(".")[0] + ".conllu"
-                # tsv_file = coref_path + os.sep + "tsv" + os.sep + filename.split(".")[0] + ".tsv"
-
-                if filename.split(".")[0] in train_list:
-                    train += build_conll(read_conll_file(conll_file), read_tsv_file(tsv_file), read_dep_file(dep_file), file_fields, 0)
-                elif filename.split(".")[0] in dev_list:
-                    dev += build_conll(read_conll_file(conll_file), read_tsv_file(tsv_file), read_dep_file(dep_file), file_fields, 0)
-                    corpus_by_genre[genre] += build_conll(read_conll_file(conll_file), read_tsv_file(tsv_file), read_dep_file(dep_file), file_fields, 0)
-                elif filename.split(".")[0] in test_list:
-                    test += build_conll(read_conll_file(conll_file), read_tsv_file(tsv_file), read_dep_file(dep_file), file_fields, 0)
-                else:
-                    sys.stderr.write(f"ERROR: file {filename} not in list.\n")
-                    # sys.exit()
-
-        # assert len(conll_lst) == len(tsv_lst)
-
-    for genre, text in corpus_by_genre.items():
-        write_file("../dataset" + os.sep + f"dev_{genre}.gum.english.v4_gold_conll", text)
-
-        write_file("../dataset" + os.sep + "train.gum.english.v4_gold_conll", train)
-        write_file("../dataset" + os.sep + "dev.gum.english.v4_gold_conll", dev)
-        write_file("../dataset" + os.sep + "test.gum.english.v4_gold_conll", test)
+                text = ''
+                with io.open(dep_file, encoding='utf-8') as f:
+                    lines = f.readlines()
+                    for line in lines:
+                        if line.startswith('# text'):
+                            sent = line.split('=')[-1].strip(' ')
+                            text += sent
+                with open(out_dir+os.sep+filename.split(".")[0] + ".txt", "w", encoding="utf-8") as f:
+                    f.write(text.strip('\n'))
 
     print("Done!")
 
 
 if __name__ == "__main__":
+    parser = ArgumentParser()
+    parser.add_argument('--genre', action='store_true', help='If the conll file is combined by genre')
+    args = parser.parse_args()
+
     gum_coref_path = ".."+os.sep+"out"
     gum_dep_path = ".."+os.sep+"gum"+os.sep+"dep"
     gum_file_lists = "splits"
-    main(gum_coref_path, gum_dep_path, gum_file_lists=gum_file_lists)
+
+    main(args.genre, gum_coref_path, gum_dep_path, gum_file_lists=gum_file_lists)
