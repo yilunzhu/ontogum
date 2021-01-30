@@ -1,6 +1,6 @@
-# coref_dataset_convert
+# OntoGUM
 
-This repo contains the scripts that can convert GUM to the OntoNotes format.
+Convert GUM to be consistent with OntoNotes scheme.
 
 ## Prerequisites
 1. Python >= 3.6
@@ -20,4 +20,7 @@ To straightforwardly view a coref document, copy & paste the tsv file to [Spanno
 1. Go to `utils` and run `./dcoref.sh`
 
 ## Results
-![image text](https://github.com/yilunzhu/coref_dataset_convert/blob/master/utils/pic/res.png)
+Model      | OntoNotes  | OntoGUM
+:----------| :--------: | :--------:
+dcoref     | 57.8       | 39.7
+SpanBert   | 79.6       | 60.7
