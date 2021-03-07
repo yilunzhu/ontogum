@@ -12,10 +12,11 @@ def remove_singleton(e, non_singleton, coref_fields, line_id):
     if e:
         coref_fields[3] = '|'.join([x for x in coref_fields[3].split('|') if e != x.split('[')[-1].strip(']')])
         coref_fields[4] = '|'.join([x for x in coref_fields[4].split('|') if e != x.split('[')[-1].strip(']')])
+        coref_fields[5] = '|'.join([x for x in coref_fields[5].split('|') if e != x.split('[')[-1].strip(']')])
     else:
         if f'0_{line_id}' not in non_singleton:
-            coref_fields[3], coref_fields[4] = '', ''
-    return coref_fields[3], coref_fields[4]
+            coref_fields[3], coref_fields[4], coref_fields[5] = '', '', ''
+    return coref_fields[3], coref_fields[4], coref_fields[5]
 
 
 def get_glyph(entity_type):
@@ -171,7 +172,7 @@ def gen_tsv(doc, coref_article, non_singleton, new_id2entity):
         coref_fields[-2], coref_fields[-1] = '', ''
 
         # test
-        if line_id == '11-17':
+        if line_id == '1-1':
             a = 1
 
         # entity info
@@ -197,16 +198,18 @@ def gen_tsv(doc, coref_article, non_singleton, new_id2entity):
                 if e:
                     coref_fields[3] = '|'.join([x for x in coref_fields[3].split('|') if e != x.split('[')[-1].strip(']')])
                     coref_fields[4] = '|'.join([x for x in coref_fields[3].split('|') if e != x.split('[')[-1].strip(']')])
+                    coref_fields[5] = '|'.join([x for x in coref_fields[3].split('|') if e != x.split('[')[-1].strip(']')])
                 else:
                     if '|' in coref_fields[3]:
                         raise ValueError('The line with fake id has deleted entities. Revise the code.')
                     coref_fields[3] = ''
                     coref_fields[4] = ''
+                    coref_fields[5] = ''
                 continue
 
             # remove singleton
             if id not in non_singleton:
-                coref_fields[3], coref_fields[4] = remove_singleton(e, non_singleton, coref_fields, line_id)
+                coref_fields[3], coref_fields[4], coref_fields[5] = remove_singleton(e, non_singleton, coref_fields, line_id)
                 continue
 
             if e in doc.keys():
@@ -228,6 +231,7 @@ def gen_tsv(doc, coref_article, non_singleton, new_id2entity):
                     if doc[e].nmod_poss:
                         coref_fields[3] = '|'.join([x for x in coref_fields[3].split('|') if cur != x.split('[')[-1].strip(']')])
                         coref_fields[4] = '|'.join([x for x in coref_fields[4].split('|') if cur != x.split('[')[-1].strip(']')])
+                        coref_fields[5] = '|'.join([x for x in coref_fields[5].split('|') if cur != x.split('[')[-1].strip(']')])
                     continue
 
                 if next.startswith('0_'):
@@ -295,6 +299,8 @@ def gen_tsv(doc, coref_article, non_singleton, new_id2entity):
             coref_fields[-2], coref_fields[-1] = '_', '_'
         if coref_fields[3] == '' and coref_fields[4] == '':
             coref_fields[3], coref_fields[4] = '_', '_'
+        if coref_fields[5] == '':
+            coref_fields[5] = '_'
 
         coref_fields = [x.strip('|') for x in coref_fields]
 

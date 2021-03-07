@@ -40,6 +40,26 @@ class Coref(object):
         self.verb_head = bool()
         self.sent = list()
 
+
+def count(doc):
+    entities = defaultdict(int)
+    prp, nnp, nn = 0, 0, 0
+    total = 0
+    for k, v in doc.items():
+        if v.cur:
+            total += 1
+            if 'NNP' in v.head_pos:
+                nnp += 1
+            elif 'PRP' in v.head_pos:
+                prp += 1
+            else:
+                nn += 1
+            e = v.e_type
+            entities[e] += 1
+
+    return prp, nnp, nn, entities
+
+
 def coref_(fields: list) -> dict:
     """
     find the coref relations between the current entity and next entity
@@ -83,6 +103,13 @@ def coref_(fields: list) -> dict:
     #       45-1	2047-2048	I	person	giv	_	_
     elif fields[3] != '_' and fields[4] == 'giv':
         coref[''] = ('', '', '')
+
+    # to keep singletons
+    elif '[' in fields[3] and fields[-1] == '_':
+        entities = fields[3].split('|')
+        for entity in entities:
+            cur_e = entity.strip(']').split('[')[1]
+            coref[cur_e] = ('', '', '')
 
     return coref
 
@@ -293,7 +320,7 @@ def process_doc(dep_doc, coref_doc):
             line_id, token = coref_fields[0], coref_fields[2]
 
             # test
-            if line_id == '20-3':
+            if line_id == '3-4':
                 a = 1
             if coref_fields[5] == 'appos':
                 a = 1

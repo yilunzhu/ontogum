@@ -5,10 +5,11 @@ from process_data import Coref
 
 
 class Convert(object):
-    def __init__(self, doc: dict, antecedent_dict, group_dict):
+    def __init__(self, doc: dict, antecedent_dict, group_dict, if_singletons):
         self.antecedent_dict = antecedent_dict
         self.group_dict = group_dict
         self.doc = doc
+        self.if_singletons = if_singletons
 
     def _remove_junk(self):
         if '0_' in self.doc.keys():
@@ -640,12 +641,16 @@ class Convert(object):
         for k,v in self.doc.items():
 
             # test
-            if k == '0_45-1':
+            if k == '9':
                 a = 1
             # if v.appos_father and v.appos_father not in coref_next:
             #     continue
-            if k in coref_next or v.next != '':
-                valid_coref.append(k)
+            if not self.if_singletons:
+                if k in coref_next or v.next != '':
+                    valid_coref.append(k)
+            else:
+                if v.cur:
+                    valid_coref.append(k)
 
         return valid_coref
 
@@ -661,7 +666,7 @@ class Convert(object):
         self._remove_junk()
         self.new_id2entity = new_id2entity
         self.last_e = sorted([int(x) for x in self.doc.keys() if not x.startswith('0_')], reverse=True)[0] + 30
-        # self._expand_acl()
+        self._expand_acl()
         self._verb_contract()
         self._appos_merge()
         self._change_cata()

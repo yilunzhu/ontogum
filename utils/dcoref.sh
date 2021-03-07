@@ -1,4 +1,4 @@
-#!/bin/bash
+# !/bin/bash
 
 # predict each document by using dcoref
 echo "dcoref..."
@@ -33,14 +33,20 @@ python conll_merge.py $conll_dir $out_dir
 echo "Evaluating..."
 cd scorer/v8.01
 mkdir ../../../predicted/dcoref/res
-perl scorer.pl all ../../../dataset/dev.gum.english.v4_gold_conll ../../../predicted/dcoref/out/dev.gum.conll > ../../../predicted/dcoref/res/dev
-perl scorer.pl all ../../../dataset/dev_academic.gum.english.v4_gold_conll ../../../predicted/dcoref/out/dev.gum.academic.conll > ../../../predicted/dcoref/res/academic
-perl scorer.pl all ../../../dataset/dev_bio.gum.english.v4_gold_conll ../../../predicted/dcoref/out/dev.gum.bio.conll > ../../../predicted/dcoref/res/bio
-perl scorer.pl all ../../../dataset/dev_fiction.gum.english.v4_gold_conll ../../../predicted/dcoref/out/dev.gum.fiction.conll > ../../../predicted/dcoref/res/fiction
-perl scorer.pl all ../../../dataset/dev_interview.gum.english.v4_gold_conll ../../../predicted/dcoref/out/dev.gum.interview.conll > ../../../predicted/dcoref/res/interview
-perl scorer.pl all ../../../dataset/dev_news.gum.english.v4_gold_conll ../../../predicted/dcoref/out/dev.gum.news.conll > ../../../predicted/dcoref/res/news
-perl scorer.pl all ../../../dataset/dev_reddit.gum.english.v4_gold_conll ../../../predicted/dcoref/out/dev.gum.reddit.conll > ../../../predicted/dcoref/res/reddit
-perl scorer.pl all ../../../dataset/dev_voyage.gum.english.v4_gold_conll ../../../predicted/dcoref/out/dev.gum.voyage.conll > ../../../predicted/dcoref/res/voyage
-perl scorer.pl all ../../../dataset/dev_whow.gum.english.v4_gold_conll ../../../predicted/dcoref/out/dev.gum.whow.conll > ../../../predicted/dcoref/res/whow
+perl scorer.pl all ../../../dataset/dev.gum.english.v4_gold_conll ../../../predicted/dcoref/out/dev.gum.conll > ../../../predicted/dcoref/res/dev/dev
+perl scorer.pl all ../../../dataset/dev_academic.gum.english.v4_gold_conll ../../../predicted/dcoref/out/dev.gum.academic.conll > ../../../predicted/dcoref/res/dev/academic
+perl scorer.pl all ../../../dataset/dev_bio.gum.english.v4_gold_conll ../../../predicted/dcoref/out/dev.gum.bio.conll > ../../../predicted/dcoref/res/dev/bio
+perl scorer.pl all ../../../dataset/dev_fiction.gum.english.v4_gold_conll ../../../predicted/dcoref/out/dev.gum.fiction.conll > ../../../predicted/dcoref/res/dev/fiction
+perl scorer.pl all ../../../dataset/dev_interview.gum.english.v4_gold_conll ../../../predicted/dcoref/out/dev.gum.interview.conll > ../../../predicted/dcoref/res/dev/interview
+perl scorer.pl all ../../../dataset/dev_news.gum.english.v4_gold_conll ../../../predicted/dcoref/out/dev.gum.news.conll > ../../../predicted/dcoref/res/dev/news
+perl scorer.pl all ../../../dataset/dev_reddit.gum.english.v4_gold_conll ../../../predicted/dcoref/out/dev.gum.reddit.conll > ../../../predicted/dcoref/res/dev/reddit
+perl scorer.pl all ../../../dataset/dev_voyage.gum.english.v4_gold_conll ../../../predicted/dcoref/out/dev.gum.voyage.conll > ../../../predicted/dcoref/res/dev/voyage
+perl scorer.pl all ../../../dataset/dev_whow.gum.english.v4_gold_conll ../../../predicted/dcoref/out/dev.gum.whow.conll > ../../../predicted/dcoref/res/dev/whow
+perl scorer.pl all ../../../dataset/dev_conversation.gum.english.v4_gold_conll ../../../predicted/dcoref/out/dev.gum.conversation.conll > ../../../predicted/dcoref/res/dev/conversation
+perl scorer.pl all ../../../dataset/dev_speech.gum.english.v4_gold_conll ../../../predicted/dcoref/out/dev.gum.speech.conll > ../../../predicted/dcoref/res/dev/speech
+perl scorer.pl all ../../../dataset/dev_textbook.gum.english.v4_gold_conll ../../../predicted/dcoref/out/dev.gum.textbook.conll > ../../../predicted/dcoref/res/dev/textbook
+perl scorer.pl all ../../../dataset/dev_vlog.gum.english.v4_gold_conll ../../../predicted/dcoref/out/dev.gum.vlog.conll > ../../../predicted/dcoref/res/dev/vlog
+
+
 
 echo "Done."

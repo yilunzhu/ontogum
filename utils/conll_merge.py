@@ -9,7 +9,8 @@ def write_file(dir, doc):
 conll_dir = sys.argv[1]
 out_dir = sys.argv[2]
 
-genres = ["academic", "bio", "fiction", "interview", "news", "voyage", "whow", "reddit"]
+genres = ["academic", "bio", "fiction", "interview", "news", "voyage", "whow", "reddit", "conversation", "speech",
+          "textbook", "vlog"]
 docs_by_genre = {g:'' for g in genres}
 docs_train = ''
 docs_dev = ''

@@ -42,7 +42,7 @@ def main(coref_path, out_dir, gum_file_lists=None):
         else:
             test_list = find_list(file_path)
 
-    genres = ["academic", "bio", "fiction", "interview", "news", "voyage", "whow", "reddit"]
+    genres = ["academic", "bio", "fiction", "interview", "news", "voyage", "whow", "reddit", "conversation", "speech", "textbook", "vlog"]
 
     for genre in genres:
         for filename in os.listdir(coref_path + os.sep + "conll"):
@@ -77,5 +77,5 @@ if __name__ == "__main__":
     gum_coref_path = ".."+os.sep+"out"
     # gum_coref_path = ".." + os.sep + "gum" + os.sep + "coref"
     gum_file_lists = "splits"
-    out_dir = '..' + os.sep + 'predicted' + os.sep + 'hcoref' + os.sep + 'xml'
+    out_dir = '..' + os.sep + 'predicted' + os.sep + 'dcoref' + os.sep + 'xml'
     main(gum_coref_path, out_dir, gum_file_lists=gum_file_lists)
