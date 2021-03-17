@@ -10,7 +10,7 @@ Convert GUM to be consistent with OntoNotes scheme.
 Two output formats are currently supported: tsv and conll. The default output is tsv. If you would like to have the conll format, specify it with the argument `--out_format`
 
 ## Visualization
-To straightforwardly view a coref document, copy & paste the tsv file to [Spannotator](https://corpling.uis.georgetown.edu/gitdox/spannotator.html).
+To straightforwardly view a coref document, copy & paste the tsv file to [Spannotator](https://corpling.uis.georgetown.edu/gitdox/spannotator.html). If you want to visualize the predictions from SpanBert, go to `utils` and run `pred2tsv.py` to generate the tsv file from predicted output json file.
 
 ## Testing SpanBert
 1. Go to `utils` and run `python gum2conll.py` to build up the dataset. It will generate train, dev (including by-genre set), and test set under ./dataset

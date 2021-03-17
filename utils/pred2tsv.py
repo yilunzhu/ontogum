@@ -93,9 +93,7 @@ for filename in os.listdir('../out/preds/json'):
                 prev_sent = cur_sent
 
     # clean output tsv
-    """
-    TODO: merge subtokens
-    """
+    # merge subtokens
 
     text = '#FORMAT=WebAnno TSV 3.2\n#T_SP=webanno.custom.Referent|entity|infstat\n#T_RL=webanno.custom.Coref|type|BT_webanno.custom.Referent\n'
     for sent in tsv:
