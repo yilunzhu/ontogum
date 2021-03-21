@@ -5,10 +5,11 @@ from process_data import Coref
 
 
 class Convert(object):
-    def __init__(self, doc: dict, antecedent_dict, group_dict, if_singletons):
+    def __init__(self, doc: dict, antecedent_dict, group_dict, if_appos, if_singletons):
         self.antecedent_dict = antecedent_dict
         self.group_dict = group_dict
         self.doc = doc
+        self.if_appos = if_appos
         self.if_singletons = if_singletons
 
     def _remove_junk(self):
@@ -102,28 +103,35 @@ class Convert(object):
         """
         loop_doc = deepcopy(self.doc)
         for k, _coref in loop_doc.items():
-            if k in self.doc.keys() and _coref.verb_head and _coref.next in self.doc.keys() and _coref.next != '':
+            if _coref.verb_head_aux:
+                kept, kept_head = _coref.verb_head_aux
+            elif _coref.verb_head:
+                kept, kept_head = _coref.verb_head, _coref.head_id
+            else:
+                kept, kept_head = False, ''
 
-                    # (1) redirect the current markable and (2) create a new id to shorten the markable span
-                    new_id = str(self.last_e + 1)
-                    self.last_e += 1
+            if k in self.doc.keys() and kept and _coref.next in self.doc.keys() and _coref.next != '':
 
-                    self.doc[new_id] = deepcopy(_coref)
-                    self.doc[new_id].cur = new_id
-                    self.doc[new_id].span_len = 1
-                    self.doc[new_id].text_id = _coref.head_id
-                    self.doc[new_id].tok = ''
-                    if _coref.head_id not in self.new_id2entity.keys():
-                        self.new_id2entity[_coref.head_id] = []
-                    self.new_id2entity[_coref.head_id].append(new_id)
+                # (1) redirect the current markable and (2) create a new id to shorten the markable span
+                new_id = str(self.last_e + 1)
+                self.last_e += 1
 
-                    # modify the antecedent
-                    for prev_k, prev_v in loop_doc.items():
-                        if prev_k in self.doc.keys() and prev_v.next == k:
-                            self.doc[prev_k].next = new_id
+                self.doc[new_id] = deepcopy(_coref)
+                self.doc[new_id].cur = new_id
+                self.doc[new_id].span_len = 1
+                self.doc[new_id].text_id = kept_head
+                self.doc[new_id].tok = ''
+                if kept_head not in self.new_id2entity.keys():
+                    self.new_id2entity[kept_head] = []
+                self.new_id2entity[kept_head].append(new_id)
 
-                    # delete the original markable
-                    self.doc[k].delete = True
+                # modify the antecedent
+                for prev_k, prev_v in loop_doc.items():
+                    if prev_k in self.doc.keys() and prev_v.next == k:
+                        self.doc[prev_k].next = new_id
+
+                # delete the original markable
+                self.doc[k].delete = True
 
     def _remove_compound(self):
         """
@@ -448,6 +456,10 @@ class Convert(object):
                     self.doc[new_k2].coref = ''
                     self.doc[new_k2].next = ''
                     self.doc[new_k2].coref_type = ''
+
+                    if not self.if_appos:
+                        self.doc[k1].delete = True
+                        self.doc[new_k2].delete = True
         # if the next entity is an appos, redirect the coref chain
         # for k1, v in self.doc.items():
         #     for k2, next_v in self.doc.items():

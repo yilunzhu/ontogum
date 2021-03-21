@@ -38,6 +38,7 @@ class Coref(object):
         self.appos_point_to = str()
         self.expanded = False
         self.verb_head = bool()
+        self.verb_head_aux = list()
         self.sent = list()
 
 
@@ -368,7 +369,7 @@ def process_doc(dep_doc, coref_doc):
             # match dep_text_id to the format in coref tsv
             dep_text_id = f'{dep_sent_id}-{dep_line[0]}'
             cur_dep_sent = dep_sents[dep_sent_id]
-            if dep_text_id == '18-9':
+            if dep_text_id == '47-9':
                 a = 1
 
             # TODO: 将ide替换为doc.keys()，避免18-26 "these techniques"没有任何dep的信息
@@ -439,6 +440,15 @@ def process_doc(dep_doc, coref_doc):
                     doc[entity].func = doc[entity].func.strip()
                     doc[entity].pos = doc[entity].pos.strip()
                     doc[entity].sent = cur_dep_sent
+
+                    # double check the verbal head
+                    # this function is to check copula that are ignored by the previous checking step
+                    # Example: if a cat is a good mouse hunter -> is, verbal head: hunter
+                    head_id = doc[entity].head_id.split('-')[-1]
+                    for row in heads:
+                        row_head = row[6]
+                        if row_head == head_id and row[2] == 'be':
+                            doc[entity].verb_head_aux = [True, f'{dep_sent_id}-{row[0]}']
 
                     # check acl children
                     '''

@@ -8,7 +8,7 @@ from func import Convert
 from out import *
 
 
-def main(depDir, corefDir, out_dir, out_format, if_singletons, if_count):
+def main(depDir, corefDir, out_dir, out_format, if_appos, if_singletons, if_count):
     """
     read dep conllu file and coref tsv file in the gum directory
     :return: a dictionary of one article containing all corefered entities
@@ -26,7 +26,7 @@ def main(depDir, corefDir, out_dir, out_format, if_singletons, if_count):
         filename = f.split('.')[0]
 
         # test
-        # if filename != 'GUM_academic_art':
+        # if filename != 'GUM_academic_eegimaa':
         #     continue
         print(f'{filename}')
         articles.append(filename)
@@ -44,7 +44,7 @@ def main(depDir, corefDir, out_dir, out_format, if_singletons, if_count):
 
         # make GUM as same as OntoNotes
         ori_doc = deepcopy(doc)
-        convert = Convert(doc, next_dict, group_dict, if_singletons)
+        convert = Convert(doc, next_dict, group_dict, if_appos, if_singletons)
         converted_doc, non_singleton, new_id2entity = convert.process(new_id2entity)
 
         # count information for each genre
@@ -95,9 +95,10 @@ if __name__ == '__main__':
     parser.add_argument('--dep', default=os.path.join('gum', 'dep'), help='Path to the gum/dep/ud directory')
     parser.add_argument('--coref', default=os.path.join('gum', 'coref', 'tsv'), help='Path to the gum/coref/tsv directory')
     parser.add_argument('--out_dir', default='out', help='output dir')
-    parser.add_argument('--out_format', default='tsv', help='output format: tsv or conll')
-    parser.add_argument('--singleton', action='store_true', help='keep singletons')
-    parser.add_argument('--count', action='store_true', help='counting PRON/NNP/NN')
+    parser.add_argument('--out_format', default='tsv', help='Output format: tsv or conll')
+    parser.add_argument('--appos', action='store_true', help='Keeping appositions (OntoNotes corpus format). Otherwise, coref task output')
+    parser.add_argument('--singleton', action='store_true', help='Keeping singletons')
+    parser.add_argument('--count', action='store_true', help='Counting PRON/NNP/NN')
 
     args = parser.parse_args()
 
@@ -105,6 +106,7 @@ if __name__ == '__main__':
     coref_dir = args.coref
     out_dir = args.out_dir
     out_format = args.out_format
+    if_appos = args.appos
     if_singletons = args.singleton
     if_count = args.count
 
@@ -113,6 +115,6 @@ if __name__ == '__main__':
     if not os.path.exists(out_dir + os.sep + out_format):
         os.mkdir(out_dir + os.sep + out_format)
 
-    main(dep_dir, coref_dir, out_dir, out_format, if_singletons, if_count)
+    main(dep_dir, coref_dir, out_dir, out_format, if_appos, if_singletons, if_count)
 
     print('Done!')
