@@ -54,7 +54,7 @@
 3-7	224-232	universe	_	_	_	_
 3-8	233-234	,	_	_	_	_
 3-9	235-237	it	_	_	_	_
-3-10	238-243	makes	abstract[386]	new[386]	ana	4-4[28_386]
+3-10	238-243	makes	abstract[392]	abstract[392]	abstract[392]	4-4[28_392]
 3-11	244-249	sense	_	_	_	_
 3-12	250-254	that	_	_	_	_
 3-13	255-261	humans	_	_	_	_
@@ -80,7 +80,7 @@
 4-9	342-345	n't	_	_	_	_
 4-10	346-350	know	_	_	_	_
 4-11	351-353	if	_	_	_	_
-4-12	354-358	that	_	_	_	_
+4-12	354-358	that	abstract[30]	new[30]	ana	5-1[42_30]
 4-13	359-361	's	_	_	_	_
 4-14	362-366	what	_	_	_	_
 4-15	367-369	we	person[31]	giv[31]	ana	5-6[43_31]
@@ -89,20 +89,20 @@
 4-18	382-386	with	_	_	_	_
 4-19	387-394	anymore	_	_	_	_
 4-20	395-396	,	_	_	_	_
-4-21	397-400	the	abstract[36]	new[36]	ana	5-1[42_36]
-4-22	401-407	entire	abstract[36]	new[36]	_	_
-4-23	408-418	conception	abstract[36]	new[36]	_	_
-4-24	419-421	of	abstract[36]	new[36]	_	_
-4-25	422-429	distant	abstract[36]	new[36]	_	_
-4-26	430-434	suns	abstract[36]	new[36]	_	_
-4-27	435-436	,	abstract[36]	new[36]	_	_
-4-28	437-444	planets	abstract[36]	new[36]	_	_
-4-29	445-446	,	abstract[36]	new[36]	_	_
-4-30	447-452	black	abstract[36]	new[36]	_	_
-4-31	453-459	-holes	abstract[36]	new[36]	_	_
-4-32	460-461	,	abstract[36]	new[36]	_	_
-4-33	462-467	alien	abstract[36]	new[36]	_	_
-4-34	468-472	life	abstract[36]	new[36]	_	_
+4-21	397-400	the	_	_	_	_
+4-22	401-407	entire	_	_	_	_
+4-23	408-418	conception	_	_	_	_
+4-24	419-421	of	_	_	_	_
+4-25	422-429	distant	_	_	_	_
+4-26	430-434	suns	_	_	_	_
+4-27	435-436	,	_	_	_	_
+4-28	437-444	planets	_	_	_	_
+4-29	445-446	,	_	_	_	_
+4-30	447-452	black	_	_	_	_
+4-31	453-459	-holes	_	_	_	_
+4-32	460-461	,	_	_	_	_
+4-33	462-467	alien	_	_	_	_
+4-34	468-472	life	_	_	_	_
 4-35	473-474	.	_	_	_	_
 
 #Text=It 's all suspect because we get all our news and information from a small group of people and these people are liars .
@@ -161,13 +161,13 @@
 
 #Text=When we see an astronaut in the iss , is there really someone in a craft up there or is it all created in a studio somewhere ?
 7-1	719-723	When	_	_	_	_
-7-2	724-726	we	person[66]	person[66]	ana	8-3[75_66]
-7-3	727-730	see	abstract[387]	new[387]	ana	7-21[72_387]
+7-2	724-726	we	person[66]	person[66]	person[66]|ana	8-3[75_66]
+7-3	727-730	see	abstract[393]	new[393]	ana	7-21[72_393]
 7-4	731-733	an	_	_	_	_
 7-5	734-743	astronaut	_	_	_	_
 7-6	744-746	in	_	_	_	_
-7-7	747-750	the	object[69]	object[69]	coref	12-5[120_69]
-7-8	751-754	iss	object[69]	object[69]	_	_
+7-7	747-750	the	object[69]	object[69]	object[69]	12-5[120_69]
+7-8	751-754	iss	object[69]	object[69]	object[69]	
 7-9	755-756	,	_	_	_	_
 7-10	757-759	is	_	_	_	_
 7-11	760-765	there	_	_	_	_
@@ -261,12 +261,12 @@
 11-9	1163-1173	supposedly	abstract[96]|person[97]	new[96]|new[97]	_	_
 11-10	1174-1176	in	abstract[96]|person[97]	new[96]|new[97]	_	_
 11-11	1177-1182	space	abstract[96]|person[97]	new[96]|new[97]	_	_
-11-12	1183-1189	taking	_	_	_	_
-11-13	1190-1191	a	_	_	_	_
-11-14	1192-1197	video	_	_	_	_
-11-15	1198-1200	of	_	_	_	_
-11-16	1201-1204	the	_	_	_	_
-11-17	1205-1210	earth	_	_	_	_
+11-12	1183-1189	taking	person[97]	new[97]	_	_
+11-13	1190-1191	a	person[97]	new[97]	_	_
+11-14	1192-1197	video	person[97]	new[97]	_	_
+11-15	1198-1200	of	person[97]	new[97]	_	_
+11-16	1201-1204	the	person[97]	new[97]	_	_
+11-17	1205-1210	earth	person[97]	new[97]	_	_
 11-18	1211-1212	,	_	_	_	_
 11-19	1213-1216	yet	_	_	_	_
 11-20	1217-1220	the	abstract[102]	giv[102]	_	_
@@ -279,7 +279,7 @@
 11-27	1252-1257	after	abstract[102]	giv[102]	_	_
 11-28	1258-1262	they	abstract[102]|person[103]	giv[102]|giv[103]	ana	11-36[105_103]
 11-29	1263-1268	think	abstract[102]	giv[102]	_	_
-11-30	1269-1271	it	abstract[102]	abstract[102]	_	_
+11-30	1269-1271	it	abstract[102]	abstract[102]	abstract[102]	
 11-31	1272-1273	s	abstract[102]	giv[102]	_	_
 11-32	1274-1278	over	abstract[102]	giv[102]	_	_
 11-33	1279-1280	)	abstract[102]	giv[102]	_	_
@@ -316,14 +316,14 @@
 12-2	1430-1436	actual	_	_	_	_
 12-3	1437-1446	structure	_	_	_	_
 12-4	1447-1449	of	_	_	_	_
-12-5	1450-1453	the	object[120]	object[120]	coref	15-18[136_120]
-12-6	1454-1457	iss	object[120]	object[120]	_	_
-12-7	1458-1464	itself	object[120]	object[120]	_	_
-12-8	1465-1470	looks	abstract[388]	abstract[388]	ana	12-17[123_388]
+12-5	1450-1453	the	object[120]	object[120]	object[120]|coref	15-18[136_120]
+12-6	1454-1457	iss	object[120]	object[120]	object[120]	
+12-7	1458-1464	itself	object[120]	object[120]	object[120]	
+12-8	1465-1470	looks	abstract[394]	new[394]	ana	12-17[123_394]
 12-9	1471-1480	different	_	_	_	_
 12-10	1481-1483	in	_	_	_	_
 12-11	1484-1493	different	_	_	_	_
-12-12	1494-1498	nasa	organization[122]	organization[122]	ana	13-6[127_122]
+12-12	1494-1498	nasa	organization[122]	organization[122]	organization[122]	13-6[127_122]
 12-13	1499-1507	pictures	_	_	_	_
 12-14	1508-1509	,	_	_	_	_
 12-15	1510-1513	how	_	_	_	_
@@ -548,30 +548,30 @@
 28-3	2493-2497	well	_	_	_	_
 28-4	2498-2500	be	_	_	_	_
 28-5	2501-2502	a	abstract[212]	new[212]	coref	41-4[308_212]
-28-6	2503-2508	Space	abstract[212]	abstract[212]	_	_
+28-6	2503-2508	Space	abstract[212]	abstract[212]	abstract[212]	
 28-7	2509-2517	Religion	abstract[212]	new[212]	_	_
-28-8	2518-2519	,	_	_	_	_
-28-9	2520-2531	considering	_	_	_	_
-28-10	2532-2535	how	_	_	_	_
-28-11	2536-2540	much	_	_	_	_
-28-12	2541-2543	of	_	_	_	_
-28-13	2544-2547	the	abstract[216]	giv[216]	_	_
-28-14	2548-2553	stuff	abstract[216]	giv[216]	_	_
-28-15	2554-2557	any	_	_	_	_
-28-16	2558-2560	of	_	_	_	_
-28-17	2561-2563	us	person[218]	giv[218]	ana	30-3[234_218]
-28-18	2564-2568	have	_	_	_	_
-28-19	2569-2577	actually	_	_	_	_
-28-20	2578-2589	experienced	_	_	_	_
-28-21	2590-2597	outside	_	_	_	_
-28-22	2598-2600	of	_	_	_	_
-28-23	2601-2607	movies	_	_	_	_
-28-24	2608-2609	/	_	_	_	_
-28-25	2610-2615	media	_	_	_	_
-28-26	2616-2619	...	_	_	_	_
-28-27	2620-2625	which	_	_	_	_
-28-28	2626-2628	is	_	_	_	_
-28-29	2629-2633	ZERO	_	_	_	_
+28-8	2518-2519	,	abstract[212]	new[212]	_	_
+28-9	2520-2531	considering	abstract[212]	new[212]	_	_
+28-10	2532-2535	how	abstract[212]	new[212]	_	_
+28-11	2536-2540	much	abstract[212]	new[212]	_	_
+28-12	2541-2543	of	abstract[212]	new[212]	_	_
+28-13	2544-2547	the	abstract[216]|abstract[212]	giv[216]|new[212]	_	_
+28-14	2548-2553	stuff	abstract[216]|abstract[212]	giv[216]|new[212]	_	_
+28-15	2554-2557	any	abstract[212]	new[212]	_	_
+28-16	2558-2560	of	abstract[212]	new[212]	_	_
+28-17	2561-2563	us	person[218]|abstract[212]	giv[218]|new[212]	ana	30-3[234_218]
+28-18	2564-2568	have	abstract[212]	new[212]	_	_
+28-19	2569-2577	actually	abstract[212]	new[212]	_	_
+28-20	2578-2589	experienced	abstract[212]	new[212]	_	_
+28-21	2590-2597	outside	abstract[212]	new[212]	_	_
+28-22	2598-2600	of	abstract[212]	new[212]	_	_
+28-23	2601-2607	movies	abstract[212]	new[212]	_	_
+28-24	2608-2609	/	abstract[212]	new[212]	_	_
+28-25	2610-2615	media	abstract[212]	new[212]	_	_
+28-26	2616-2619	...	abstract[212]	new[212]	_	_
+28-27	2620-2625	which	abstract[212]	new[212]	_	_
+28-28	2626-2628	is	abstract[212]	new[212]	_	_
+28-29	2629-2633	ZERO	abstract[212]	new[212]	_	_
 28-30	2634-2635	.	_	_	_	_
 
 #Text=No , really , if anyone here has an actual story of experiencing Space , I 'd love to hear it .
@@ -657,7 +657,7 @@
 34-8	2956-2959	let	person[249]	new[249]	_	_
 34-9	2960-2962	's	person[249]	new[249]	_	_
 34-10	2963-2967	call	person[249]	new[249]	_	_
-34-11	2968-2971	him	person[249]	person[249]	_	_
+34-11	2968-2971	him	person[249]	person[249]	person[249]	
 34-12	2972-2977	Whelp	person[249]	new[249]	_	_
 34-13	2978-2985	Allgood	person[249]	new[249]	_	_
 34-14	2986-2987	)	person[249]	new[249]	_	_
@@ -794,11 +794,11 @@
 41-7	3557-3559	:)	_	_	_	_
 
 #Text=The earth is definately flat .
-42-1	3560-3563	The	abstract[311]|object[312]	new[311]|giv[312]	coref|ana	45-7[324_312]|44-1[314_311]
-42-2	3564-3569	earth	abstract[311]|object[312]	new[311]|giv[312]	_	_
-42-3	3570-3572	is	abstract[311]	new[311]	_	_
-42-4	3573-3583	definately	abstract[311]	new[311]	_	_
-42-5	3584-3588	flat	abstract[311]	new[311]	_	_
+42-1	3560-3563	The	object[312]	object[312]	object[312]|coref	45-7[324_312]
+42-2	3564-3569	earth	object[312]	object[312]	object[312]	
+42-3	3570-3572	is	abstract[396]	new[396]	ana	44-1[314_396]
+42-4	3573-3583	definately	_	_	_	_
+42-5	3584-3588	flat	_	_	_	_
 42-6	3589-3590	.	_	_	_	_
 
 #Text=Look at all the proofs .
@@ -825,18 +825,18 @@
 45-4	3658-3665	reasons	_	_	_	_
 45-5	3666-3670	they	organization[321]	giv[321]	_	_
 45-6	3671-3675	said	_	_	_	_
-45-7	3676-3679	the	abstract[323]|object[324]	new[323]|giv[324]	coref|ana	52-2[350_324]|47-1[337_323]
-45-8	3680-3685	earth	abstract[323]|object[324]	new[323]|giv[324]	_	_
-45-9	3686-3689	was	abstract[323]	new[323]	_	_
-45-10	3690-3691	a	abstract[323]	new[323]	_	_
-45-11	3692-3698	sphere	abstract[323]	new[323]	_	_
+45-7	3676-3679	the	object[324]	object[324]	object[324]	52-2[350_324]
+45-8	3680-3685	earth	object[324]	object[324]	object[324]	
+45-9	3686-3689	was	abstract[397]	abstract[397]	abstract[397]	47-1[337_397]
+45-10	3690-3691	a	_	_	_	_
+45-11	3692-3698	sphere	_	_	_	_
 45-12	3699-3702	was	_	_	_	_
 45-13	3703-3710	because	_	_	_	_
 45-14	3711-3714	you	_	_	_	_
 45-15	3715-3718	can	_	_	_	_
 45-16	3719-3722	see	_	_	_	_
 45-17	3723-3728	ships	_	_	_	_
-45-18	3729-3731	go	event[390]	giv[390]	ana	45-23[333_390]
+45-18	3729-3731	go	event[398]	event[398]	event[398]	45-23[333_398]
 45-19	3732-3736	over	_	_	_	_
 45-20	3737-3740	the	_	_	_	_
 45-21	3741-3748	horizon	_	_	_	_
