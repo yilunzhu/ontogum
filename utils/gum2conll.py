@@ -43,11 +43,11 @@ def read_conll_file(file):
                 if corefs == '_':
                     corefs = '-'
                 else:
-                    while ')(' in corefs:
+                    if ')(' in corefs:
                         corefs = re.sub('\)\(', ')|(', corefs)
-                    while re.search('[0-9]\([0-9]', corefs):
+                    elif re.search('[0-9]\([0-9]', corefs):
                         corefs = re.sub('([0-9])(\([0-9])', '\g<1>|\g<2>', corefs)
-                    while re.search('[0-9]\)[0-9]', corefs):
+                    elif re.search('[0-9]\)[0-9]', corefs):
                         corefs = re.sub('([0-9]\))([0-9])', '\g<1>|\g<2>', corefs)
                 new_line = '\t'.join(fields[:-1] + [corefs])
                 conll_out.append(new_line)
@@ -63,7 +63,7 @@ def read_dep_file(file):
             if sent == '' or sent == '\n':
                 continue
             sent_id = re.search(f'# sent_id = {filename}-([0-9]+?)\n', sent).group(1)
-            speaker = re.search('# speaker=([\w\W]+?)\n', sent).group(1) if re.search('# speaker=([\w\W]+?)\n', sent) else '-'
+            speaker = re.search('# speaker\s?=\s?([\w\W]+?)\n', sent).group(1) if re.search('# speaker\s?=\s?([\w\W]+?)\n', sent) else '-'
             dic[sent_id] = speaker
     return dic
 
@@ -139,33 +139,50 @@ def main(if_genre, coref_path, dep_path, out_dir, gum_file_lists=None):
                         train += docs[filename]
                     elif filename.split(".")[0] in dev_list:
                         dev += docs[filename]
-                        corpus_by_genre[genre] += docs[filename]
                     elif filename.split(".")[0] in test_list:
                         test += docs[filename]
+                        corpus_by_genre[genre] += docs[filename]
 
         for genre, text in corpus_by_genre.items():
-            write_file(out_dir + os.sep + f"dev_{genre}.gum.english.v4_gold_conll", text)
+            write_file(out_dir + os.sep + f"test.{genre}.gum.english.v4_gold_conll", text)
 
             write_file(out_dir + os.sep + "train.gum.english.v4_gold_conll", train)
             write_file(out_dir + os.sep + "dev.gum.english.v4_gold_conll", dev)
             write_file(out_dir + os.sep + "test.gum.english.v4_gold_conll", test)
 
     else:
-        out_dir = out_dir + os.sep + 'text'
-        if not os.path.exists(out_dir):
-            os.mkdir(out_dir)
+        if not os.path.exists(os.path.join(out_dir, 'text')):
+            os.mkdir(os.path.join(out_dir, 'text'))
+            os.mkdir(os.path.join(out_dir, 'docs'))
+            os.mkdir(os.path.join(out_dir, 'text', 'train'))
+            os.mkdir(os.path.join(out_dir, 'text', 'dev'))
+            os.mkdir(os.path.join(out_dir, 'text', 'test'))
+            os.mkdir(os.path.join(out_dir, 'docs', 'train'))
+            os.mkdir(os.path.join(out_dir, 'docs', 'dev'))
+            os.mkdir(os.path.join(out_dir, 'docs', 'test'))
+        data_split_mapping = {}
+        for f in train_list:
+            data_split_mapping[f] = 'train'
+        for f in dev_list:
+            data_split_mapping[f] = 'dev'
+        for f in test_list:
+            data_split_mapping[f] = 'test'
+
         for filename, doc in docs.items():
-            if filename.split(".")[0] in test_list:
-                dep_file = dep_path + os.sep + filename.split(".")[0] + ".conllu"
-                text = ''
-                with io.open(dep_file, encoding='utf-8') as f:
-                    lines = f.readlines()
-                    for line in lines:
-                        if line.startswith('# text'):
-                            sent = line.split('=')[-1].strip(' ')
-                            text += sent
-                with open(out_dir+os.sep+filename.split(".")[0] + ".txt", "w", encoding="utf-8") as f:
-                    f.write(text.strip('\n'))
+            name = filename.split(".")[0]
+            dep_file = dep_path + os.sep + filename.split(".")[0] + ".conllu"
+            text = ''
+            with io.open(dep_file, encoding='utf-8') as f:
+                lines = f.readlines()
+                for line in lines:
+                    if line.startswith('# text'):
+                        sent = line.split('=')[-1].strip(' ')
+                        text += sent
+            with open(out_dir+os.sep+'text'+os.sep+data_split_mapping[name]+os.sep+filename.split(".")[0] + ".txt", "w", encoding="utf-8") as f:
+                f.write(text.strip('\n'))
+
+            with open(out_dir+os.sep+'docs'+os.sep+data_split_mapping[name]+os.sep+filename.split(".")[0] + ".conll", "w", encoding="utf-8") as f:
+                f.write('\n'.join(doc))
 
     print("Done!")
 
@@ -176,7 +193,7 @@ if __name__ == "__main__":
     parser.add_argument('--gum_dep_path', default=os.path.join('..', 'gum', 'dep'), help='Path to the gum/dep/ud directory')
     parser.add_argument('--split', default='splits', help='Path to the gum file split directory')
     parser.add_argument('--genre', action='store_true', help='If the conll file is combined by genre')
-    parser.add_argument('--out_dir', default=os.path.join('..', 'dataset'), help='Path to the output directory')
+    parser.add_argument('--out_dir', default=os.path.join('..', 'dataset', 'converted'), help='Path to the output directory')
     args = parser.parse_args()
 
     gum_coref_path = args.gum_coref_path

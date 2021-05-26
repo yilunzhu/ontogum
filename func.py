@@ -1,5 +1,4 @@
-import io, os, sys
-import re
+import io, os
 from copy import deepcopy
 from process_data import Coref
 
@@ -25,8 +24,6 @@ class Convert(object):
         """
         loop_doc = deepcopy(self.doc)
         for k, _coref in loop_doc.items():
-            if k == '127':
-                a = 1
             sent_id = self.doc[k].text_id.split('-')[0]
             if _coref.acl_children and not _coref.expanded:
                 if k.startswith('0_'):  # if the original entity has only one token, create a new fake id to handle the expanded acl
@@ -86,12 +83,6 @@ class Convert(object):
                 cur_span = [str(int(self.doc[new_k].text_id.split('-')[-1]) + x) for x in
                             range(self.doc[new_k].span_len)]
                 self.doc[new_k].span_len += len([x for x in _coref.acl_children if x not in cur_span])
-
-                # # connect the gap (when the text_id is the root, as in GUM_news_defector, sent 4)
-                # cur_span = [str(int(self.doc[new_k].text_id.split('-')[-1])+x) for x in range(self.doc[new_k].span_len)]
-                # ids = set(ids + cur_span)
-                # max_span_id = max
-                # min_acl_id = min([int(x.split('-')[-1]) for x in self.doc[new_k].acl_children])
 
     def _verb_contract(self):
         """
@@ -185,12 +176,8 @@ class Convert(object):
         remove B
         Also, the function should handle multiple copula, e.g. copula in coordination
         Example: [He] was [one of the first opponents of the Vietnam War] , and is [a self-described Libertarian Socialist] .
-        TODO: Bridging and coref has the same next()
         """
         for k, _coref in self.doc.items():
-            if k == '475':
-                a = 1
-
             # A -> B1..B2 -> C
             # remove B1, B2, ... Bn
             cur_v = deepcopy(self.doc[k])
@@ -201,14 +188,17 @@ class Convert(object):
                 self.doc[cur_v.cur].next = ''
                 self.doc[cur_v.cur].coref_type = ''
 
-            if cur_v.next:
-                self.doc[k].coref = cur_v.coref
-                self.doc[k].next = cur_v.next
-                self.doc[k].coref_type = cur_v.coref_type
-            else:
-                self.doc[k].coref = ''
-                self.doc[k].next = ''
-                self.doc[k].coref_type = ''
+                if cur_v.next:
+                    self.doc[k].coref = cur_v.coref
+                    self.doc[k].next = cur_v.next
+                    self.doc[k].coref_type = cur_v.coref_type
+                else:
+                    self.doc[k].coref = ''
+                    self.doc[k].next = ''
+                    self.doc[k].coref_type = ''
+
+                self.doc[cur_v.cur] = Coref()
+                self.doc[cur_v.cur].delete = True
 
 
     def _break_chain(self):
@@ -220,32 +210,9 @@ class Convert(object):
 
         """
         for k, _coref in self.doc.items():
-            if k == '26':
-                a = 1
             if _coref.appos:
                 continue
-            # cur_toks = word_tokenize(_coref.tok)
-            # cur_pos = _coref.pos
             if _coref.next and _coref.next != '0' and _coref.next in self.doc.keys() and self.doc[_coref.next].definite == False:
-                # next_toks = word_tokenize(self.doc[_coref.next].tok)
-                # next_pos = self.doc[_coref.next].pos
-                # next_head_pos = self.doc[_coref.next].head_pos
-
-                # recursively find the coref chain
-                # chain = [_coref.tok]
-                # prev_k = ''
-                # for pk, pt in self.doc.items():
-                #     if pt.next == k:
-                #         chain.append(pt.tok)
-                #         prev_k = pk
-                # while prev_k:
-                #     for pk, pt in self.doc.items():
-                #         if pt.next == prev_k:
-                #             chain.append(pt.tok)
-                #             prev_k = pk
-                #             break
-                #     if prev_k != pk:
-                #         prev_k = ''
                 """
                 WARNING: This is not a valid operation but avoids some annotation errors
                 """
@@ -254,11 +221,6 @@ class Convert(object):
                 if next_next and (self.doc[next_next].lemma in ['he', 'she'] or self.doc[next_next].pos == 'NNP'):
                     next_sent_id = self.doc[_coref.next].text_id.split('-')[0]
                     next_next_sent_id = self.doc[next_next].text_id.split('-')[0]
-                    # if next_sent_id == next_next_sent_id:
-                    #     print(f'Warning: Skip breaking chains in Line {next_sent_id}. It should not happen very often.')
-                    #     continue
-                    # else:
-                    #     continue
                     if int(next_next_sent_id) <= int(next_sent_id) + 2:
                         print(f'Warning: Skip breaking chains in Line {next_sent_id}.')
                         continue
@@ -309,8 +271,6 @@ class Convert(object):
         for k1, v in loop_doc.items():
             k1_sent_id = v.text_id.split('-')[0]
             for k2, next_v in loop_doc.items():
-                if k1 == '238' and k2 == '239':
-                    a = 1
                 if v.delete or next_v.delete:
                     continue
                 # assign the appos value to be True if it is missed in the earlier step
@@ -371,7 +331,6 @@ class Convert(object):
                             self.new_id2entity[i] = []
                         self.new_id2entity[i].append(new_k1)
 
-                    a = 1
                     # check the token right after the appositive, if it is in '|)|", etc., expand the larger span
                     if next_last <= len(self.doc[k1].sent) - 1 and prev_last <= next_last:
                         next_tok = self.doc[k1].sent[next_last][1]
@@ -407,25 +366,12 @@ class Convert(object):
                             self.new_id2entity[i] = []
                         self.new_id2entity[i].append(new_k1)
 
-                    # if prev_last is expanded in the previous function and it's bigger than next_start,
-                    # make a new id for the larger span, narrow the span of k1, expand the span of k2
-                    # if prev_last > next_start and self.doc[k1].acl_children:
-                    #     for i in range(next_start, prev_last):
-                    #         temp_id = f'{k1_sent_id}-{i}'
-                    #         if temp_id in self.new_id2entity.keys() and k1 in self.new_id2entity[temp_id] and k2 not in self.new_id2entity[temp_id]:
-                    #             self.new_id2entity[temp_id] = [k2 if x == k1 else x for x in self.new_id2entity[temp_id]]
-                    #             self.doc[k2].span_len += 1
-                    #     self.doc[k1].span_len = next_start - k1_tok_start_id + 1
-                    # else:
-                    #     self.doc[new_k1].span_len += next_v.span_len + len(gap)
-
                     if ante:
                         self.doc[ante].next = new_k1
 
                     # add appos ids to new_k1 if the original k2 has only one token
                     ids = self.doc[new_k1].appos
                     if k2.startswith('0_') and len(ids) > 1:
-                        # if len(ids) > 1:
                         new_k2 = str(self.last_e + 1)
                         self.last_e += 1
                         self.doc[new_k2] = deepcopy(self.doc[k2])
@@ -441,9 +387,6 @@ class Convert(object):
                         # update new_id2entity
                         ori_e = k2.split('_')[-1]
                         for id in ids:
-                            # if id in self.new_id2entity.keys():
-                            #     self.new_id2entity[id] = [new_k2 if i == ori_e else i for i in self.new_id2entity[id]]
-                            # else:
                             if id not in self.new_id2entity.keys():
                                 self.new_id2entity[id] = []
                             self.new_id2entity[id].append(new_k2)
@@ -460,16 +403,9 @@ class Convert(object):
                     if not self.if_appos:
                         self.doc[k1].delete = True
                         self.doc[new_k2].delete = True
-        # if the next entity is an appos, redirect the coref chain
-        # for k1, v in self.doc.items():
-        #     for k2, next_v in self.doc.items():
-        #         if v.next == k2 and next_v.appos_point_to:
-        #             self.doc[k1].next = next_v.appos_point_to
 
     def _remove_nested_coref(self):
         for k, _coref in self.doc.items():
-            if k == '195':
-                a = 1
             if not _coref.text_id:
                 continue
             if self.doc[k].delete:
@@ -497,20 +433,18 @@ class Convert(object):
                 self.doc[del_k].coref = ''
                 self.doc[del_k].coref_type = ''
 
-        # TODO: 如果a和b有重合，但是a开始的早却结束的早，b的开头和结束不在a之间，把a延长到b
 
     def _remove_nmodposs(self):
         """
+        Ok, this is wrong. Double check the function to see if this one conflicts with others and why this affects the
+        final output.
+
         Example: [Zurbarán ’s] cycle of Jacob and his Sons
         """
         for k,v in self.doc.items():
-            if k == '272':
-                a = 1
-
             if k in self.doc.keys() and v.next != '' and self.doc[v.next].nmod_poss:
                 cur_v = v
                 while cur_v.next in self.doc.keys() and cur_v.next != '' and self.doc[cur_v.next].nmod_poss:
-                    # del_v = cur_v
                     cur_v = deepcopy(self.doc[cur_v.next])
 
                     self.doc[cur_v.cur].coref = ''
@@ -547,9 +481,6 @@ class Convert(object):
             45-7	2073-2074	"	_	_	_	_
         """
         for k1, v1 in self.doc.items():
-            if k1 == '82':
-                a = 1
-
             # If the cataphora does not have an antecedent
             if v1.tsv_line and 'cata' in v1.tsv_line[5]:
                 for i, x in enumerate(v1.tsv_line[5].split('|')):
@@ -633,16 +564,13 @@ class Convert(object):
             if v_ante.next:
                 k_next = deepcopy(v_ante.next)
                 if k_next in self.doc.keys() and self.doc[k_next].tok in NOT_INCLUDED:
-                    if k_ante == '195':
-                        a = 1
                     if self.doc[k_next].next:
                         v_ante.next = self.doc[k_next].next
                         v_ante.coref = self.doc[k_next].coref
                         v_ante.coref_type = self.doc[k_next].coref_type
 
-                    self.doc[k_next].next = ''
-                    self.doc[k_next].coref = ''
-                    self.doc[k_next].coref_type = ''
+                    self.doc[k_next] = Coref()
+                    self.doc[k_next].delete = True
 
     def _remove_singleton(self):
         """
@@ -651,17 +579,11 @@ class Convert(object):
         coref_next = [v.next for v in self.doc.values()]
         valid_coref = []
         for k,v in self.doc.items():
-
-            # test
-            if k == '9':
-                a = 1
-            # if v.appos_father and v.appos_father not in coref_next:
-            #     continue
-            if not self.if_singletons:
-                if k in coref_next or v.next != '':
+            if self.if_singletons:
+                if v.cur and not v.num:
                     valid_coref.append(k)
             else:
-                if v.cur:
+                if k in coref_next or v.next != '':
                     valid_coref.append(k)
 
         return valid_coref

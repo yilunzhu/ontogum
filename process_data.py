@@ -40,23 +40,36 @@ class Coref(object):
         self.verb_head = bool()
         self.verb_head_aux = list()
         self.sent = list()
+        self.num = bool()
 
 
 def count(doc):
     entities = defaultdict(int)
     prp, nnp, nn = 0, 0, 0
     total = 0
+    COUNT_FLAG = False
     for k, v in doc.items():
         if v.cur:
-            total += 1
-            if 'NNP' in v.head_pos:
-                nnp += 1
-            elif 'PRP' in v.head_pos:
-                prp += 1
+            if v.next and v.tok:
+                total += 1
+                COUNT_FLAG = True
             else:
-                nn += 1
-            e = v.e_type
-            entities[e] += 1
+                for prev_k, prev_v in doc.items():
+                    if prev_v.next == k:
+                        total += 1
+                        COUNT_FLAG = True
+                        break
+
+            if COUNT_FLAG:
+                if 'NNP' in v.head_pos:
+                    nnp += 1
+                elif 'PRP' in v.head_pos:
+                    prp += 1
+                else:
+                    nn += 1
+                e = v.e_type
+                entities[e] += 1
+            COUNT_FLAG = False
 
     return prp, nnp, nn, entities
 
@@ -321,7 +334,7 @@ def process_doc(dep_doc, coref_doc):
             line_id, token = coref_fields[0], coref_fields[2]
 
             # test
-            if line_id == '3-4':
+            if line_id == '44-14':
                 a = 1
             if coref_fields[5] == 'appos':
                 a = 1
@@ -369,7 +382,7 @@ def process_doc(dep_doc, coref_doc):
             # match dep_text_id to the format in coref tsv
             dep_text_id = f'{dep_sent_id}-{dep_line[0]}'
             cur_dep_sent = dep_sents[dep_sent_id]
-            if dep_text_id == '47-9':
+            if dep_text_id == '6-27':
                 a = 1
 
             # TODO: 将ide替换为doc.keys()，避免18-26 "these techniques"没有任何dep的信息
@@ -440,6 +453,10 @@ def process_doc(dep_doc, coref_doc):
                     doc[entity].func = doc[entity].func.strip()
                     doc[entity].pos = doc[entity].pos.strip()
                     doc[entity].sent = cur_dep_sent
+
+                    # check if the span is headed by numbers. (a conservative way is to only consider the span with length of 1)
+                    if len(heads) == 1 and heads[0][4] == 'CD':
+                        doc[entity].num = True
 
                     # double check the verbal head
                     # this function is to check copula that are ignored by the previous checking step
@@ -530,18 +547,9 @@ def process_doc(dep_doc, coref_doc):
                             if row[4] == 'POS' and row[6] == doc[entity].head_id.split('-')[-1] and row[6] == head_of_the_phrase:
                                 doc[entity].definite = True
 
-                    # check if the span is nmod:poss, example: [Zurbarán ’s]
-                    if doc[entity].head_func == 'nmod:poss' and 'POS' in doc[entity].pos:
-                        doc[entity].nmod_poss = True
-
                     if doc[entity].head_func == '':
                         # raise ValueError('The head feature is empty.')
                         print('Warning: The head feature is empty.')
-                    # if doc[entity].head_func == 'xcomp' and not doc[entity].definite:
-                    #     for prev_k, prev_v in doc.items():
-                    #         if prev_v.next == entity and prev_v.text_id.split('-')[0] == doc[entity].text_id.split('-')[0]:
-                    #             a = 1
-                    #             print(f'{prev_v.tok}\t{doc[entity].tok}')
 
     # group dict
     entity_group = [x for x in entity_group if x]

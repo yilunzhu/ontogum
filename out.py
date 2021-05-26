@@ -172,7 +172,7 @@ def gen_tsv(doc, coref_article, non_singleton, new_id2entity):
         coref_fields[-2], coref_fields[-1] = '', ''
 
         # test
-        if line_id == '1-1':
+        if line_id == '44-14':
             a = 1
 
         # entity info
@@ -197,8 +197,8 @@ def gen_tsv(doc, coref_article, non_singleton, new_id2entity):
             if id in doc.keys() and doc[id].delete == True:
                 if e:
                     coref_fields[3] = '|'.join([x for x in coref_fields[3].split('|') if e != x.split('[')[-1].strip(']')])
-                    coref_fields[4] = '|'.join([x for x in coref_fields[3].split('|') if e != x.split('[')[-1].strip(']')])
-                    coref_fields[5] = '|'.join([x for x in coref_fields[3].split('|') if e != x.split('[')[-1].strip(']')])
+                    coref_fields[4] = '|'.join([x for x in coref_fields[4].split('|') if e != x.split('[')[-1].strip(']')])
+                    coref_fields[5] = '|'.join([x for x in coref_fields[5].split('|') if e != x.split('[')[-1].strip(']')])
                 else:
                     if '|' in coref_fields[3]:
                         raise ValueError('The line with fake id has deleted entities. Revise the code.')

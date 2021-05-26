@@ -25,9 +25,6 @@ def main(depDir, corefDir, out_dir, out_format, if_appos, if_singletons, if_coun
             continue
         filename = f.split('.')[0]
 
-        # test
-        # if filename != 'GUM_academic_eegimaa':
-        #     continue
         print(f'{filename}')
         articles.append(filename)
         name_fields = filename.split('_')
@@ -35,9 +32,17 @@ def main(depDir, corefDir, out_dir, out_format, if_appos, if_singletons, if_coun
 
         coref_article = io.open(os.path.join(corefDir, f), encoding='utf-8').read().split('\n')
         dep_article = io.open(os.path.join(depDir, new_name + '.conllu'), encoding='utf-8').read().split('\n')
-        dep_article = [l.split('\t') for l in dep_article]
+        # dep_article = [l.split('\t') for l in dep_article]
+        dep_doc = []
+        for l in dep_article:
+            l = l.split('\t')
+            if len(l) == 10:
+                # deal with the meta words such as (1) 34-35 world's or (2) 14.1 was
+                if '-' in l[0] or '.' in l[0]:
+                    continue
+            dep_doc.append(l)
 
-        doc, tokens, group_dict, next_dict, new_id2entity, dep_sents = process_doc(dep_article, coref_article)
+        doc, tokens, group_dict, next_dict, new_id2entity, dep_sents = process_doc(dep_doc, coref_article)
 
         # antecedent entities
         antecedent_dict = {v: k for k, v in next_dict.items()}
@@ -49,7 +54,7 @@ def main(depDir, corefDir, out_dir, out_format, if_appos, if_singletons, if_coun
 
         # count information for each genre
         if if_count:
-            prp, nnp, nn, entity_by_doc = count(doc)
+            prp, nnp, nn, entity_by_doc = count(converted_doc)
             cur_genre = filename.split('_')[1]
             count_by_genre[cur_genre]['prp'] += prp
             count_by_genre[cur_genre]['nnp'] += nnp
@@ -64,7 +69,6 @@ def main(depDir, corefDir, out_dir, out_format, if_appos, if_singletons, if_coun
             to_html(converted_doc, tokens, group_dict, antecedent_dict, out_dir+os.sep+'html'+os.sep+f'{filename}.html')
         elif out_format == 'tsv':   # write into tsv format
             to_tsv(converted_doc, coref_article, out_dir+os.sep+'tsv'+os.sep+f'{filename}.tsv', non_singleton, new_id2entity)
-            a = 1
         elif out_format == 'conll': # write into conll format
             to_conll(filename, converted_doc, coref_article, out_dir+os.sep+'conll'+os.sep+f'{filename}.conll', non_singleton, new_id2entity, dep_sents)
 
@@ -75,13 +79,21 @@ def main(depDir, corefDir, out_dir, out_format, if_appos, if_singletons, if_coun
     print(f'*** Time cost: {int(end_time - start_time) // 60}:{int(end_time - start_time) % 60}s')
 
     if if_count:
+        total_count = 0
+        total_nnp, total_pron, total_nn = 0, 0, 0
         for g, v in count_by_genre.items():
             genre_count = sum(v.values())
             pron_count, nnp_count, nn_count = v['prp'], v['nnp'], v['nn']
-            print(f'{g}\tTOTAL: {genre_count}\tPRON: {pron_count}\tNNP+NN: {nnp_count+nn_count}')
+            print(f'{g}\tTOTAL: {genre_count}\tPRON: {pron_count}\tNNP+NN: {nnp_count+nn_count}={nnp_count}+{nn_count}')
             print(
                 f'Ratio\tPRON: {pron_count / genre_count}\tNNP+NN: {(nnp_count+nn_count) / genre_count}')
             print()
+            total_count += genre_count
+            total_nnp += nnp_count
+            total_pron += pron_count
+            total_nn += nn_count
+        print(f'Total count: {total_count}, Total PRON: {total_pron}, Total NNP: {total_nnp}, Total NN: {total_nn}')
+        print()
 
         for g, dic in entity_by_genre.items():
             # genre_sum = sum(dic.values())
