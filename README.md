@@ -1,10 +1,19 @@
-# OntoGUM
+# OntoGUM: Evaluating Contextualized SOTA Coreference Resolution on 12 More Genres
 
-Convert GUM to be consistent with OntoNotes scheme.
+## Introduction
+This repository contains the code for building up the OntoGUM dataset from:
+- [OntoGUM: Evaluating Contextualized SOTA Coreference Resolution on 12 More Genres]()
+- [Yilun Zhu](http://yilunzhu.com/), [Sameer Pradhan](https://cemantix.org/), and [Amir Zeldes](https://corpling.uis.georgetown.edu/amir/)
+
 
 ## Prerequisites
 1. Python >= 3.6
 2. Download GUM from <https://github.com/amir-zeldes/gum> and put the folder in the home directory of this repo
+
+## Rebuilding the dataset
+You can either use the scripts in this repository or the built bot from [GUM](https://github.com/amir-zeldes/gum) to rebuild the dataset.
+1. Run `main.py` to start the conversion.
+2. Adjust the arguments in `main.py` to output different formats. Please note that if you want to test models trained on OntoNotes, the conll format is needed.
 
 ## Output
 Two output formats are currently supported: tsv and conll. The default output is tsv. If you would like to have the conll format, specify it with the argument `--out_format`
@@ -23,4 +32,6 @@ To straightforwardly view a coref document, copy & paste the tsv file to [Spanno
 Model      | OntoNotes  | OntoGUM
 :----------| :--------: | :--------:
 dcoref     | 57.8       | 39.7
-SpanBert   | 79.6       | 60.7
+SpanBert   | 79.6       | 64.6
+
+## Citing
