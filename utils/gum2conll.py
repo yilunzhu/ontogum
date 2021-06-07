@@ -43,21 +43,16 @@ def read_conll_file(file):
                 if corefs == '_':
                     corefs = '-'
                 else:
-                    # case 1: x)(y
-                    if ')(' in corefs:
-                        corefs = re.sub('\)\(', ')|(', corefs)
-                    # case 2.1: x(y(z (avoid the exceptions that y < 10)
-                    elif re.search('[0-9]\([0-9]\([0-9]', corefs):
-                        corefs = re.sub('([0-9])(\([0-9])(\([0-9])', '\g<1>|\g<2>|\g<3>', corefs)
-                    # case 2.2: x(y
-                    elif re.search('[0-9]\([0-9]', corefs):
-                        corefs = re.sub('([0-9])(\([0-9])', '\g<1>|\g<2>', corefs)
-                    # case 3.1: x)y)z (avoid the exceptions that y < 10)
-                    elif re.search('[0-9]\)[0-9]\)[0-9]', corefs):
-                        corefs = re.sub('([0-9]\))([0-9]\))([0-9])', '\g<1>|\g<2>|\g<3>', corefs)
-                    # case 3.2: x)y
-                    elif re.search('[0-9]\)[0-9]', corefs):
-                        corefs = re.sub('([0-9]\))([0-9])', '\g<1>|\g<2>', corefs)
+                    new_corefs = ''
+                    for i in corefs:
+                        if i == ')':
+                            new_corefs += i + '|'
+                        elif i == '(':
+                            new_corefs += '|' + i
+                        else:
+                            new_corefs += i
+
+                    corefs = new_corefs.replace('||', '|').strip('|')
                 new_line = '\t'.join(fields[:-1] + [corefs])
                 conll_out.append(new_line)
     return conll_out
