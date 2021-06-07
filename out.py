@@ -336,7 +336,7 @@ def to_conll(docname, doc, coref_article, out_dir, non_singleton, new_id2entity,
         count += 1
         coref_part = ''
 
-        if line_id == '18-9':
+        if line_id == '32-25':
             a = 1
 
         if fields[3] == '_':

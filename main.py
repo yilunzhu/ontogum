@@ -24,6 +24,8 @@ def main(depDir, corefDir, out_dir, out_format, if_appos, if_singletons, if_coun
         if '.tsv' not in f:
             continue
         filename = f.split('.')[0]
+        # if filename != 'GUM_news_warhol':
+        #     continue
 
         print(f'{filename}')
         articles.append(filename)

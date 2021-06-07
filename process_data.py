@@ -82,6 +82,9 @@ def coref_(fields: list) -> dict:
     """
     coref = {}
     line_id = fields[0]
+    all_mentions = {x.strip(']').split('[')[1] for x in fields[3].split('|')}
+    seen = set()
+
     # when the entity has not coref relations except that it is pointed to by other entities
     if fields[-1] != '_':
         coref_types = fields[-2].split('|')
@@ -98,6 +101,7 @@ def coref_(fields: list) -> dict:
                     next_e = f'0_{point_to}'
 
                 coref_type = coref_types[i]
+                seen.add(cur_e)
 
             # e.g.  academic_art
             #       7-3	397-403	people	person	new	ana	8-7
@@ -111,19 +115,24 @@ def coref_(fields: list) -> dict:
                 raise ValueError(f'The coref type {coref_type} has not been added into conversion at line {fields[0]}.')
             coref[cur_e] = (point_to, next_e, coref_type)
 
+    # keep singletons
+    for mention in all_mentions:
+        if mention not in seen:
+            coref[mention] = ('', '', '')
+
     # when the entity exists and it is mentioned before, but does not have next coref
     # e.g.  fiction_veronique
     #       23-2	939-941	He	person	giv	_	_
     #       45-1	2047-2048	I	person	giv	_	_
-    elif fields[3] != '_' and fields[4] == 'giv':
-        coref[''] = ('', '', '')
-
-    # to keep singletons
-    elif '[' in fields[3] and fields[-1] == '_':
-        entities = fields[3].split('|')
-        for entity in entities:
-            cur_e = entity.strip(']').split('[')[1]
-            coref[cur_e] = ('', '', '')
+    # elif fields[3] != '_' and fields[4] == 'giv':
+    #     coref[''] = ('', '', '')
+    #
+    # # to keep singletons
+    # elif '[' in fields[3] and fields[-1] == '_':
+    #     entities = fields[3].split('|')
+    #     for entity in entities:
+    #         cur_e = entity.strip(']').split('[')[1]
+    #         coref[cur_e] = ('', '', '')
 
     return coref
 
@@ -334,7 +343,7 @@ def process_doc(dep_doc, coref_doc):
             line_id, token = coref_fields[0], coref_fields[2]
 
             # test
-            if line_id == '44-14':
+            if line_id == '32-25':
                 a = 1
             if coref_fields[5] == 'appos':
                 a = 1

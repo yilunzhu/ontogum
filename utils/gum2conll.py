@@ -43,10 +43,19 @@ def read_conll_file(file):
                 if corefs == '_':
                     corefs = '-'
                 else:
+                    # case 1: x)(y
                     if ')(' in corefs:
                         corefs = re.sub('\)\(', ')|(', corefs)
+                    # case 2.1: x(y(z (avoid the exceptions that y < 10)
+                    elif re.search('[0-9]\([0-9]\([0-9]', corefs):
+                        corefs = re.sub('([0-9])(\([0-9])(\([0-9])', '\g<1>|\g<2>|\g<3>', corefs)
+                    # case 2.2: x(y
                     elif re.search('[0-9]\([0-9]', corefs):
                         corefs = re.sub('([0-9])(\([0-9])', '\g<1>|\g<2>', corefs)
+                    # case 3.1: x)y)z (avoid the exceptions that y < 10)
+                    elif re.search('[0-9]\)[0-9]\)[0-9]', corefs):
+                        corefs = re.sub('([0-9]\))([0-9]\))([0-9])', '\g<1>|\g<2>|\g<3>', corefs)
+                    # case 3.2: x)y
                     elif re.search('[0-9]\)[0-9]', corefs):
                         corefs = re.sub('([0-9]\))([0-9])', '\g<1>|\g<2>', corefs)
                 new_line = '\t'.join(fields[:-1] + [corefs])
@@ -78,13 +87,13 @@ def build_conll(conll, tsv, dep, file_fields, doc_id):
         conll_fields = conll[i].split("\t")
         tsv_fields = tsv[i].split("\t")
         doc_key = f"{genre}/{doc}"
-        sent_id = int(tsv_fields[0].split("-")[0]) - 1
+        sent_id = tsv_fields[0].split("-")[0]
         token_id = int(tsv_fields[0].split("-")[1]) - 1
         if token_id == 0 and i != 0:
             in_text.append("")
         token = conll_fields[1]
         coref = conll_fields[-1]
-        fields = [doc_key, str(doc_id), str(token_id), token, "-", "-", "-", "-", "-", f"{dep[str(sent_id+1)]}", "*", "*", "*", "*", "*",
+        fields = [doc_key, str(doc_id), str(token_id), token, "-", "-", "-", "-", "-", f"{dep[sent_id]}", "*", "*", "*", "*", "*",
                   "*", coref]
         in_text.append("\t".join(fields))
 
@@ -121,7 +130,8 @@ def main(if_genre, coref_path, dep_path, out_dir, gum_file_lists=None):
     corpus_by_genre = {g:[] for g in genres}
 
     for filename in os.listdir(coref_path + os.sep + "conll"):
-        # if filename != 'GUM_conversation_blacksmithing.conll':
+        print(filename)
+        # if filename != 'GUM_reddit_conspiracy.conll':
         #     continue
 
         file_fields = filename.split(".")[0].split("_")
