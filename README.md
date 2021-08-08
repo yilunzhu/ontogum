@@ -12,10 +12,12 @@ This repository contains the code for building up the OntoGUM dataset from:
 
 ## Rebuilding the dataset
 You can either use the scripts in this repository or the built bot from [GUM](https://github.com/amir-zeldes/gum) to rebuild the dataset.
-> * To rebuild the dataset using this repo:
+* **To rebuild the dataset using this repo:**
 1. Run `main.py` to start the conversion after following the prerequisites.
 2. Adjust the arguments in `main.py` to output different formats. Please note that if you want to test models trained on OntoNotes, the conll format is needed.
-> * To rebuild the dataset from GUM:
+* **To rebuild the dataset from GUM:**
+
+   *Also Check [here](https://github.com/amir-zeldes/gum/tree/master/coref/ontogum) for differences between GUM and OntoNotes schema.*
 1. Follow the instructions in the GUM repo to build up the dataset (including reddit data)
 2. Find the OntoGUM data (tsv and conll) under `/gum/_build/target/coref/ontogum`
 
@@ -40,14 +42,12 @@ SpanBert   | 79.6       | 64.6
 
 ## Citation
 ```
-@inproceedings{zhu-etal-2021-ontogum,
-    title = "{O}nto{GUM}: Evaluating Contextualized {SOTA} Coreference Resolution on 12 More Genres",
-    author = "Zhu, Yilun and Pradhan, Sameer and Zeldes, Amir",
-    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
-    month = aug,
-    year = "2021",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
-    pages = "461--467",
+@InProceedings{ZhuEtAl2021,
+  author    = {Yilun Zhu and Sameer Pradhan and Amir Zeldes},
+  booktitle = {Proceedings of ACL-IJCNLP 2021},
+  title     = {{OntoGUM}: Evaluating Contextualized {SOTA} Coreference Resolution on 12 More Genres},
+  year      = {2021},
+  pages     = {461--467},
+  address   = {Bangkok, Thailand}
 }
 ```
