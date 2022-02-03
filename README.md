@@ -3,6 +3,7 @@
 ## Introduction
 This repository contains the code for building up the OntoGUM dataset from:
 - [OntoGUM: Evaluating Contextualized SOTA Coreference Resolution on 12 More Genres](https://arxiv.org/pdf/2106.00933.pdf)
+- [Anatomy of OntoGUM—Adapting GUM to the OntoNotes Scheme to Evaluate Robustness of SOTA Coreference Algorithms](https://aclanthology.org/2021.crac-1.15.pdf)
 - [Yilun Zhu](http://yilunzhu.com/), [Sameer Pradhan](https://cemantix.org/), and [Amir Zeldes](https://corpling.uis.georgetown.edu/amir/)
 
 
@@ -49,5 +50,16 @@ SpanBert   | 79.6       | 64.6
   year      = {2021},
   pages     = {461--467},
   address   = {Bangkok, Thailand}
+}
+
+@inproceedings{zhu-etal-2021-anatomy,
+    title = "Anatomy of {O}nto{GUM}{---}{A}dapting {GUM} to the {O}nto{N}otes Scheme to Evaluate Robustness of {SOTA} Coreference Algorithms",
+    author = "Zhu, Yilun  and
+      Pradhan, Sameer  and
+      Zeldes, Amir",
+    booktitle = "Proceedings of the Fourth Workshop on Computational Models of Reference, Anaphora and Coreference",
+    year = "2021",
+    address = "Punta Cana, Dominican Republic",
+    pages = "141--149",
 }
 ```
