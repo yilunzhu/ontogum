@@ -1,6 +1,4 @@
-import io, os, sys, re
 from collections import defaultdict
-from copy import deepcopy
 
 
 class Coref(object):
@@ -41,6 +39,7 @@ class Coref(object):
         self.verb_head_aux = list()
         self.sent = list()
         self.num = bool()
+        self.proper = bool()
 
 
 def count(doc):
@@ -89,6 +88,8 @@ def coref_(fields: list) -> dict:
     if fields[-1] != '_':
         coref_types = fields[-2].split('|')
         for i, x in enumerate(fields[-1].split('|')):
+            BRIDGE_CATA_FLAG = False
+
             point_to = x.split('[')[0]
             cur_e = ''
             next_e = ''
@@ -109,14 +110,24 @@ def coref_(fields: list) -> dict:
                 coref_type = coref_types[i]
 
             if 'bridge' in coref_type or 'cata' in coref_type:
-                continue
+                coref_type = ''
+                point_to = ''
+                next_e = ''
+                BRIDGE_CATA_FLAG = True
+                # deleted_ent_id.append(cur_e)
+                # continue
 
-            if cur_e in coref.keys():
-                raise ValueError(f'The coref type {coref_type} has not been added into conversion at line {fields[0]}.')
+            if cur_e in coref.keys() and not BRIDGE_CATA_FLAG:
+                # This happens when there are other coreference relations but the relation is either a bridging or cataphora
+                # Ignore the alert
+                a = 1
+                # raise ValueError(f'The coref type {coref_type} has not been added into conversion at line {fields[0]}.')
             coref[cur_e] = (point_to, next_e, coref_type)
 
     # keep singletons
     for mention in all_mentions:
+        # if mention in deleted_ent_id:
+        #     continue
         if mention not in seen:
             coref[mention] = ('', '', '')
 
@@ -306,7 +317,7 @@ def check_appos(sent: list, head_row: list, dep_sent_id) -> bool:
     return appos
 
 
-def check_dep_cop_child(sent: list, head_range: list, head_row: list) -> bool:
+def check_dep_cop_child(sent: list, head_range: list, head_row: list, starting_heads_id: str) -> bool:
     """
     check GUM_academic_art, sent 25 and GUM_academic_games, sent 6. correct √
 
@@ -316,6 +327,10 @@ def check_dep_cop_child(sent: list, head_range: list, head_row: list) -> bool:
     for row in sent:
         if row[0] not in head_range and row[7] == 'cop':
             if row[6] == head_id:
+                # if the token is right before the span, and the token is a preposition, the span should not be removed
+                prev_pos = sent[int(starting_heads_id) - 2][3]
+                if prev_pos == 'ADP':
+                    return False
                 children = find_direct_dep_children(sent, head_id)
                 for r in sent:
                     if r[0] in children and r[7] == 'case':
@@ -334,6 +349,7 @@ def process_doc(dep_doc, coref_doc):
     antecedent_dict = {}
     entity_group = [[]]
     tokens = []
+    deleted_ent_id = []
 
     for coref_line in coref_doc:
         if coref_line.startswith('#'):
@@ -343,7 +359,7 @@ def process_doc(dep_doc, coref_doc):
             line_id, token = coref_fields[0], coref_fields[2]
 
             # test
-            if line_id == '32-25':
+            if line_id == '14-1':
                 a = 1
             if coref_fields[5] == 'appos':
                 a = 1
@@ -413,10 +429,14 @@ def process_doc(dep_doc, coref_doc):
                     # find dep information and index for each word in heads
                     heads = [dep_doc[x] for x in range(int(i), int(i)+span_len) if len(dep_doc[x]) == 10]
                     head_range = [dep_doc[x][0] for x in range(int(i), int(i)+span_len) if len(dep_doc[x]) == 10]
+                    starting_heads_id = head_range[0]
                     head_of_the_phrase = ''
 
+                    doc[entity].proper = True
                     # loop each word in the head to find the head_func/head_pos/if_cop_in_dep for the entity
                     for row in heads:
+                        if 'NNP' not in row[4] and doc[entity].proper:
+                            doc[entity].proper = False
 
                         # if find the ROOT
                         if row[6] == '0':
@@ -426,7 +446,7 @@ def process_doc(dep_doc, coref_doc):
                             doc[entity].head_pos = row[4]
                             doc[entity].head_id = f'{dep_sent_id}-{row[0]}'
                             # check if the head has a copula child
-                            doc[entity].child_cop = check_dep_cop_child(cur_dep_sent, head_range, row)
+                            doc[entity].child_cop = check_dep_cop_child(cur_dep_sent, head_range, row, starting_heads_id)
                             # check whether appos is a child of the current head
                             doc[entity].dep_appos = True if row[7] == 'appos' and not another_appos else False
                             # if doc[entity].coref_type == 'appos' or doc[entity].dep_appos:
@@ -445,7 +465,7 @@ def process_doc(dep_doc, coref_doc):
                             doc[entity].head_func = row[7]
                             doc[entity].head_pos = row[4]
                             doc[entity].head_id = f'{dep_sent_id}-{row[0]}'
-                            doc[entity].child_cop = check_dep_cop_child(cur_dep_sent, head_range, row)
+                            doc[entity].child_cop = check_dep_cop_child(cur_dep_sent, head_range, row, starting_heads_id)
                             # check whether appos is a child of the current head
                             doc[entity].dep_appos = True if row[7] == 'appos' and not another_appos else False
                             # if doc[entity].coref_type == 'appos' or doc[entity].dep_appos:

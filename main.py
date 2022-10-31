@@ -24,7 +24,7 @@ def main(depDir, corefDir, out_dir, out_format, if_appos, if_singletons, if_coun
         if '.tsv' not in f:
             continue
         filename = f.split('.')[0]
-        # if filename != 'GUM_news_warhol':
+        # if filename != 'GUM_bio_marbles':
         #     continue
 
         print(f'{filename}')
@@ -77,7 +77,7 @@ def main(depDir, corefDir, out_dir, out_format, if_appos, if_singletons, if_coun
     end_time = time.time()
 
     print()
-    print(f'*** Convert {len(articles)} documents.')
+    print(f'*** Convert {len(articles)} documents to {out_format}.')
     print(f'*** Time cost: {int(end_time - start_time) // 60}:{int(end_time - start_time) % 60}s')
 
     if if_count:

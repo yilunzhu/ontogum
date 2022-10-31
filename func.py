@@ -213,8 +213,10 @@ class Convert(object):
             if _coref.appos:
                 continue
             if _coref.next and _coref.next != '0' and _coref.next in self.doc.keys() and self.doc[_coref.next].definite == False:
+                if _coref.proper:   # do not separate the chain when the antecedent is a proper noun
+                    continue
                 """
-                WARNING: This is not a valid operation but avoids some annotation errors
+                WARNING: This is not a 100% correct operation but avoids some annotation errors
                 """
                 # If the chain's next is a definite entity and there are in the same sentence, do not break the chain
                 next_next = deepcopy(self.doc[_coref.next].next)
@@ -251,7 +253,6 @@ class Convert(object):
                 # break the coref chain between cur and next
                 if k in self.antecedent_dict.keys():
                     del self.antecedent_dict[k]
-
 
     def _appos_merge(self):
         """
@@ -433,7 +434,6 @@ class Convert(object):
                 self.doc[del_k].coref = ''
                 self.doc[del_k].coref_type = ''
 
-
     def _remove_nmodposs(self):
         """
         Ok, this is wrong. Double check the function to see if this one conflicts with others and why this affects the
@@ -600,6 +600,7 @@ class Convert(object):
         self._remove_junk()
         self.new_id2entity = new_id2entity
         self.last_e = sorted([int(x) for x in self.doc.keys() if not x.startswith('0_')], reverse=True)[0] + 30
+        self._remove_nested_coref()
         self._expand_acl()
         self._verb_contract()
         self._appos_merge()

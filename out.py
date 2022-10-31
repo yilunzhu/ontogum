@@ -325,7 +325,7 @@ def to_conll(docname, doc, coref_article, out_dir, non_singleton, new_id2entity,
 
     for i, line in enumerate(converted_article.split('\n')):
         if line.startswith('#') or line == '':
-            converted_article += line + '\n'
+            # converted_article += line + '\n'
             continue
 
         fields = line.strip().split('\t')
@@ -335,9 +335,6 @@ def to_conll(docname, doc, coref_article, out_dir, non_singleton, new_id2entity,
         cur_line = str(count) + '\t' + token + '\t'
         count += 1
         coref_part = ''
-
-        if line_id == '32-25':
-            a = 1
 
         if fields[3] == '_':
             cur_line += '_\n'
