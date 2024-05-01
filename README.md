@@ -44,15 +44,25 @@ dcoref     | 57.8       | 39.7
 SpanBert   | 79.6       | 64.6
 
 
-## Citation
+## Citations
 ```
-@InProceedings{ZhuEtAl2021,
-  author    = {Yilun Zhu and Sameer Pradhan and Amir Zeldes},
-  booktitle = {Proceedings of ACL-IJCNLP 2021},
-  title     = {{OntoGUM}: Evaluating Contextualized {SOTA} Coreference Resolution on 12 More Genres},
-  year      = {2021},
-  pages     = {461--467},
-  address   = {Bangkok, Thailand}
+@inproceedings{zhu-etal-2021-ontogum,
+    title = "{O}nto{GUM}: Evaluating Contextualized {SOTA} Coreference Resolution on 12 More Genres",
+    author = "Zhu, Yilun  and
+      Pradhan, Sameer  and
+      Zeldes, Amir",
+    editor = "Zong, Chengqing  and
+      Xia, Fei  and
+      Li, Wenjie  and
+      Navigli, Roberto",
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.acl-short.59",
+    doi = "10.18653/v1/2021.acl-short.59",
+    pages = "461--467",
 }
 
 @inproceedings{zhu-etal-2021-anatomy,
@@ -60,9 +70,18 @@ SpanBert   | 79.6       | 64.6
     author = "Zhu, Yilun  and
       Pradhan, Sameer  and
       Zeldes, Amir",
+    editor = "Ogrodniczuk, Maciej  and
+      Pradhan, Sameer  and
+      Poesio, Massimo  and
+      Grishina, Yulia  and
+      Ng, Vincent",
     booktitle = "Proceedings of the Fourth Workshop on Computational Models of Reference, Anaphora and Coreference",
+    month = nov,
     year = "2021",
     address = "Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.crac-1.15",
+    doi = "10.18653/v1/2021.crac-1.15",
     pages = "141--149",
 }
 ```
